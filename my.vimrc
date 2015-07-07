@@ -1,4 +1,4 @@
-"The vimrc of me "
+"The vimrc of me is edited! "
 
 set nocompatible              " be iMproved, required
 filetype off      " required
