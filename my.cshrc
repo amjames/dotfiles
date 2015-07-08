@@ -1,11 +1,7 @@
 ### .cshrc 
 #Andrew M. James 
 #written for Herbert (macbook) 
-
-
-
-
-
+echo ".cshrc!"
 set filec
 set correct=cmd
 set autolist=ambiguous
@@ -25,7 +21,6 @@ set path = (/usr/local/texlive/2012/bin/x86_64-darwin $path)
 #look for mac os stuff last, homebrew first 
 set path = ($path /usr/bin )
 set path = ($path /Users/ajay/builds/psi4/bin) 
-#set path = ($path /Users/ajay/anaconda/bin)
 
 
 ##Set Prompt
@@ -72,10 +67,5 @@ alias s2i2 'ssh crawdad@login.wmd-lab.org'
 alias sirius 'ssh ajay@sirius.chem.vt.edu'
 
 
-
-#python script to update my .__rc files from gist 
-    #copies updates to ~/ and sources where apropriate 
-    
-updatercs
 
 
