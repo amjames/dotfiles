@@ -77,8 +77,10 @@ def update_repo():
 
 
 def main(argv=None):
-    update_repo()    
-    target = re.compile('^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.herbert)?)')
+    update_repo()
+    target_re_string = '^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.({hosts}))?)'
+    #mental note Python is pretty rad
+    target = re.compile(target_re_string.format(hosts='|'.join(hosts.values())))
     hometarget = re.compile('(?P<rc>^\.[a-z]+rc)$')
     
     a = subprocess.check_output([ls, rc_repo_path ])
@@ -92,7 +94,7 @@ def main(argv=None):
                 if found.group('tag') == hostname():
                     #if a seccond is found only keep the one with the hostname
                     # as a tag
-                    rc_repo[found.group('rc')]=os.path.join(rc_repo,
+                    rc_repo[found.group('rc')]=os.path.join(rc_repo_path,
                             found.group(0))
                 else:
                     pass
@@ -108,14 +110,19 @@ def main(argv=None):
             if found.group('rc') in rc_repo.keys():
                 workon =os.path.join(home,found.group(0))
                 bakup(workon)
-                subprocess.call([cp,
-                    isnewer(workon,rc_repo[found.group('rc')]),workon])
+                subprocess.call([
+                    cp,
+                    isnewer(workon,rc_repo[found.group('rc')]),
+                    workon])
                 delbakup(workon)
 
-
+def test():
+    print hostname()
+    target_re_string = '^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.({hosts}))?)'
+    print "re.compile("+ target_re_string.format(hosts='|'.join(hosts.values()))
 if __name__ == '__main__':
-    main(sys.argv[1:])
-
+    main(sys.argv[2:])
+    #test()
 
 
 
