@@ -1,4 +1,5 @@
-"The vimrc of me is edited! "
+
+"Default Vim rc  "
 
 set nocompatible              " be iMproved, required
 filetype off      " required

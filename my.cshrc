@@ -1,3 +1,10 @@
+### .cshrc 
+#Andrew M. James 
+#written for Herbert (macbook) 
+
+
+
+
 
 set filec
 set correct=cmd

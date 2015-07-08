@@ -1,2 +1,5 @@
-# myrcfiles
-Collection of .__rc files 
+# Dotfiles
+# By Andrew M. James 
+
+Collection of dotfiles for various computers 
+
