@@ -137,8 +137,8 @@ def main(argv=None):
                 update_report(workon,rc_repo[found.group('rc')])
                 delbakup(workon)
                 lock_rc(found.group('rc'))
-    if re_source:
-        subprceoss.call(['source',shell_rc()])
+    #if re_source:
+        #subprceoss.call(['source',shell_rc()])
 
 
 def test():
