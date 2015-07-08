@@ -74,6 +74,16 @@ def update_repo():
     os.chdir(home)
     report()
 
+def unlock_rc(rcname):
+    subprocess.call(
+            ['chmod','644',os.path.join(home,rcname)]
+            )
+    return 
+def lock_rc(rcname):
+    subprocess.call(
+            ['chmod','444',os.path.join(home,rcname)]
+            )
+    return 
 
 
 def main(argv=None):
@@ -108,6 +118,7 @@ def main(argv=None):
         found = hometarget.match(each)
         if found:
             if found.group('rc') in rc_repo.keys():
+                unlock_rc(found.group('rc'))
                 workon =os.path.join(home,found.group(0))
                 bakup(workon)
                 subprocess.call([
@@ -115,6 +126,7 @@ def main(argv=None):
                     isnewer(workon,rc_repo[found.group('rc')]),
                     workon])
                 delbakup(workon)
+                lock_rc(found.group('rc'))
 
 def test():
     print hostname()
