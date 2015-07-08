@@ -4,16 +4,38 @@ import sys
 import os 
 import subprocess 
 import re
+
+#need to update this list as needed 
+hosts = {
+        'brlogin1':'blueridge',
+        'brlogin2':'blueridge',
+        'Herbert-3.local':'herbert'
+        }
+
+
+# I hate forgetting to put these in '' 
 mv = 'mv'
 rm = 'rm'
 cp = 'cp'
 ls = 'ls'
 cd = 'cd'
-rc_gist_repo = os.path.expanduser('~/Vault/myrcfiles')
+
+
+rc_repo = os.path.expanduser('~/Vault/dotfiles')
+
+
+
 home = os.path.expanduser('~')
+
+def hostname():
+    a = subprocess.check_output(['hostname'])
+    name = a.strip()
+    return hosts[name]
+
+
 def bakup(path,test=False):
     if test:
-        string = " ".join([cp, rc_gist_repo, 'somthing else'])
+        string = " ".join([cp, rc_repo, 'somthing else'])
         print string
     else:
         subprocess.call([cp, path, path+'.bak'])
@@ -35,14 +57,13 @@ def isnewer(path1,path2):
         return path1
 def report():
     print 'in ' + os.path.abspath('.')
+
 def update_repo():
     report()
     workingdir = os.path.abspath('.')
-    os.chdir(rc_gist_repo)
-    report()
+    os.chdir(rc_repo)
     subprocess.check_call(['git','pull','origin','master'])
-    report()    
-    os.chdir(workingdir)
+    os.chdir(home)
     report()
 
 
@@ -52,21 +73,24 @@ def main(argv=None):
     target = re.compile('^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.herbert)?)')
     hometarget = re.compile('(?P<rc>^\.[a-z]+rc)$')
     
-    a = subprocess.check_output([ls,rc_gist_repo])
+    a = subprocess.check_output([ls,rc_repo])
     contents= a.strip().split()
     rc_repo = {}
     for each in contents:
         found  = target.match(each)
         if found:
-            #if the .herbert one exisits ignore the others 
+            # add the first .rc files of a type that is found to the dict
             if found.group('rc') in rc_repo.keys():
-                if found.group('tag') == '':
-                    pass
-                else:
-                    rc_repo[found.group('rc')]=os.path.join(rc_gist_repo,
+                if found.group('tag') == hostname():
+                    #if a seccond is found only keep the one with the hostname
+                    # as a tag
+                    rc_repo[found.group('rc')]=os.path.join(rc_repo,
                             found.group(0))
+                else:
+                    pass
             else:
-                rc_repo[found.group('rc')] = os.path.join(rc_gist_repo,
+                #make sure you add one if there is nothing there 
+                rc_repo[found.group('rc')] = os.path.join(rc_repo,
                         found.group(0))
     a = subprocess.check_output([ls,'-a',home])
     contents = a.strip().split()
@@ -81,13 +105,9 @@ def main(argv=None):
                 delbakup(workon)
 
 
-
-
-
-    
-
 if __name__ == '__main__':
     main(sys.argv[1:])
+
 
 
 
