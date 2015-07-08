@@ -9,7 +9,7 @@ rm = 'rm'
 cp = 'cp'
 ls = 'ls'
 cd = 'cd'
-rc_gist_repo = os.path.expanduser('~/gist/myrcfiles')
+rc_gist_repo = os.path.expanduser('~/Vault/myrcfiles')
 home = os.path.expanduser('~')
 def bakup(path,test=False):
     if test:
