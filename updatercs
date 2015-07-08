@@ -22,7 +22,8 @@ ls = 'ls'
 cd = 'cd'
 
 
-rc_repo = os.path.expanduser('~/Vault/dotfiles')
+
+rc_repo_path = os.path.expanduser('~/Vault/dotfiles')
 
 
 
@@ -68,7 +69,7 @@ def report():
 def update_repo():
     report()
     workingdir = os.path.abspath('.')
-    os.chdir(rc_repo)
+    os.chdir(rc_repo_path)
     subprocess.check_call(['git','pull','origin','master'])
     os.chdir(home)
     report()
@@ -80,7 +81,7 @@ def main(argv=None):
     target = re.compile('^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.herbert)?)')
     hometarget = re.compile('(?P<rc>^\.[a-z]+rc)$')
     
-    a = subprocess.check_output([ls,rc_repo])
+    a = subprocess.check_output([ls, rc_repo_path ])
     contents= a.strip().split()
     rc_repo = {}
     for each in contents:
@@ -97,7 +98,7 @@ def main(argv=None):
                     pass
             else:
                 #make sure you add one if there is nothing there 
-                rc_repo[found.group('rc')] = os.path.join(rc_repo,
+                rc_repo[found.group('rc')] = os.path.join(rc_repo_path,
                         found.group(0))
     a = subprocess.check_output([ls,'-a',home])
     contents = a.strip().split()
