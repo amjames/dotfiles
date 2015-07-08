@@ -22,13 +22,12 @@ ls = 'ls'
 cd = 'cd'
 
 
-
+#This is where it should go (maybe the setup script will change that)
 rc_repo_path = os.path.expanduser('~/Vault/dotfiles')
 
-
-
+#get the home dir path
 home = os.path.expanduser('~')
-
+re_source=False
 def hostname():
     brcompute = re.compile('^(br)[0-9]{1,3}$')
     a = subprocess.check_output(['hostname'])
@@ -46,7 +45,7 @@ def bakup(path,test=False):
         string = " ".join([cp, rc_repo, 'somthing else'])
         print string
     else:
-        subprocess.call([cp, path, path+'.bak'])
+        subprocess.check_output([cp, path, path+'.bak'])
 
 
 def delbakup(path,test=False):
@@ -56,6 +55,18 @@ def delbakup(path,test=False):
     else:
         subprocess.call([rm, path+'.bak'])
 
+def update_report(rc_tgt, working_dict):
+    try: 
+        ret = subprocess.check_output([
+        cp,
+        isnewer(rc_tgt,working_dict),
+        rc_tgt],stderr=subprocess.STDOUT)
+        (x,y) = os.path.split(rc_tgt)
+        print '\t [rc-updater ==>] {} updated from repo'.format(y)
+        re_source = True 
+    except subprocess.CalledProcessError:
+        (x,y) = os.path.split(rc_tgt)
+        print '\t [rc-updater ==>] {} upto date!'.format(y)
 def isnewer(path1,path2):
     n1 = os.path.getmtime(path1)
     n2 = os.path.getmtime(path2)
@@ -64,22 +75,23 @@ def isnewer(path1,path2):
     else:
         return path1
 def report():
-    print 'in ' + os.path.abspath('.')
+    print '\t [rc-updater ==>] in ' + os.path.abspath('.')+":"
 
 def update_repo():
     report()
-    workingdir = os.path.abspath('.')
     os.chdir(rc_repo_path)
-    subprocess.check_call(['git','pull','origin','master'])
+    subprocess.call(['git','pull','origin','master'])
     os.chdir(home)
     report()
 
 def unlock_rc(rcname):
+    print "\t [rc-updater ==>] Checking {}".format(rcname)
     subprocess.call(
             ['chmod','644',os.path.join(home,rcname)]
             )
     return 
 def lock_rc(rcname):
+    print "\t [rc-updater ==>] Locking {}".format(rcname)
     subprocess.call(
             ['chmod','444',os.path.join(home,rcname)]
             )
@@ -114,6 +126,7 @@ def main(argv=None):
                         found.group(0))
     a = subprocess.check_output([ls,'-a',home])
     contents = a.strip().split()
+
     for each in contents:
         found = hometarget.match(each)
         if found:
@@ -121,12 +134,12 @@ def main(argv=None):
                 unlock_rc(found.group('rc'))
                 workon =os.path.join(home,found.group(0))
                 bakup(workon)
-                subprocess.call([
-                    cp,
-                    isnewer(workon,rc_repo[found.group('rc')]),
-                    workon])
+                update_report(workon,rc_repo[found.group('rc')])
                 delbakup(workon)
                 lock_rc(found.group('rc'))
+    if re_source:
+        subprceoss.call(['source',shell_rc()])
+
 
 def test():
     print hostname()
@@ -134,7 +147,6 @@ def test():
     print "re.compile("+ target_re_string.format(hosts='|'.join(hosts.values()))
 if __name__ == '__main__':
     main(sys.argv[2:])
-    #test()
 
 
 
