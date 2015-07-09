@@ -57,13 +57,14 @@ def delbakup(path,test=False):
 
 def update_report(rc_tgt, working_dict):
     try: 
+        print working_dict
         ret = subprocess.check_output([
         cp,
         isnewer(rc_tgt,working_dict),
         rc_tgt],stderr=subprocess.STDOUT)
         (x,y) = os.path.split(rc_tgt)
         (a,b) = os.path.split(working_dict)
-        print '\t [rc-updater ==>] {} updated from repo, with {}'.format(y,a)
+        print '\t [rc-updater ==>] {} updated from repo, with {}'.format(y,b)
         re_source = True 
     except subprocess.CalledProcessError:
         (x,y) = os.path.split(rc_tgt)
@@ -103,7 +104,7 @@ def lock_rc(rcname):
 
 def main(argv=None):
     update_repo()
-    target_re_string = '^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.({hosts}))?)'
+    target_re_string = '^.*(?P<rc>\.[a-z]+rc)(\.(?P<tag>({hosts})))?'
     #mental note Python is pretty rad
     target = re.compile(target_re_string.format(hosts='|'.join(hosts.values())))
     hometarget = re.compile('(?P<rc>^\.[a-z]+rc)$')
@@ -115,18 +116,11 @@ def main(argv=None):
         found  = target.match(each)
         if found:
             # add the first .rc files of a type that is found to the dict
-            if found.group('rc') in rc_repo.keys():
-                if found.group('tag') == hostname():
-                    #if a seccond is found only keep the one with the hostname
-                    # as a tag
-                    rc_repo[found.group('rc')]=os.path.join(rc_repo_path,
-                            found.group(0))
-                else:
-                    pass
-            else:
-                #make sure you add one if there is nothing there 
-                rc_repo[found.group('rc')] = os.path.join(rc_repo_path,
-                        found.group(0))
+            #make sure you add one if there is nothing there 
+            rc_repo[found.group('rc')] = os.path.join(rc_repo_path,
+            found.group(0))
+
+
     a = subprocess.check_output([ls,'-a',home])
     contents = a.strip().split()
 
@@ -140,14 +134,8 @@ def main(argv=None):
                 update_report(workon,rc_repo[found.group('rc')])
                 delbakup(workon)
                 lock_rc(found.group('rc'))
-    #if re_source:
-        #subprceoss.call(['source',shell_rc()])
 
 
-def test():
-    print hostname()
-    target_re_string = '^.*(?P<rc>\.[a-z]+rc)(?P<tag>(\.({hosts}))?)'
-    print "re.compile("+ target_re_string.format(hosts='|'.join(hosts.values()))
 if __name__ == '__main__':
     main(sys.argv[2:])
 
