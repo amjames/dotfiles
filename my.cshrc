@@ -1,7 +1,6 @@
 ### .cshrc 
 #Andrew M. James 
 #written for Herbert (macbook) 
-echo ".cshrc!"
 set filec
 set correct=cmd
 set autolist=ambiguous
