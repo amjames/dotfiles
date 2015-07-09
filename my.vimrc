@@ -39,17 +39,17 @@ set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
 syntax on
 filetype plugin indent on
 ""esc is now jk 
-:inoremap jk      <esc> 
-:inoremap <esc>   <nop>
+inoremap jk      <esc> 
+inoremap <esc>   <nop>
 ""No arrow keys 
-:inoremap <Up>    <nop>
-:inoremap <Down>  <nop>
-:inoremap <Left>  <nop>
-:inoremap <Right> <nop>
-:noremap  <Up>    <nop>
-:noremap  <Down>  <nop>
-:noremap  <Left>  <nop>
-:noremap  <Right> <nop>
+inoremap <Up>    <nop>
+inoremap <Down>  <nop>
+inoremap <Left>  <nop>
+inoremap <Right> <nop>
+noremap  <Up>    <nop>
+noremap  <Down>  <nop>
+noremap  <Left>  <nop>
+noremap  <Right> <nop>
 
 map - dd p 
 map _ dd k P
