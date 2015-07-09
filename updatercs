@@ -57,7 +57,6 @@ def delbakup(path,test=False):
 
 def update_report(rc_tgt, working_dict):
     try: 
-        print working_dict
         ret = subprocess.check_output([
         cp,
         isnewer(rc_tgt,working_dict),
