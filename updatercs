@@ -139,6 +139,8 @@ def main(argv=None):
                 lock_rc(found.group('rc'))
     #if re_source:
         #subprceoss.call(['source',shell_rc()])
+    os.chdir(home)
+    report()
 
 
 def test():

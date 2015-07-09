@@ -17,7 +17,7 @@ set path = (/usr/local/Library $path)
 set path = (~/scripts/exe $path)
 set path = (/usr/local/include $path)
 set path = (/usr/local/bin $path)
-set path = (/usr/local/texlive/2012/bin/x86_64-darwin $path)
+set path = (/usr/local/texlive/2014/bin/x86_64-darwin $path)
 #look for mac os stuff last, homebrew first 
 set path = ($path /usr/bin )
 set path = ($path /Users/ajay/builds/psi4/bin) 

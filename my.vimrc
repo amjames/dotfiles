@@ -1,7 +1,7 @@
 "The vimrc of me "
 
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype off                  " require
 
 
 "enables syntax hi-light"
