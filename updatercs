@@ -62,11 +62,13 @@ def update_report(rc_tgt, working_dict):
         isnewer(rc_tgt,working_dict),
         rc_tgt],stderr=subprocess.STDOUT)
         (x,y) = os.path.split(rc_tgt)
-        print '\t [rc-updater ==>] {} updated from repo'.format(y)
+        (a,b) = os.path.split(working_dict)
+        print '\t [rc-updater ==>] {} updated from repo, with {}'.format(y,a)
         re_source = True 
     except subprocess.CalledProcessError:
         (x,y) = os.path.split(rc_tgt)
         print '\t [rc-updater ==>] {} upto date!'.format(y)
+
 def isnewer(path1,path2):
     n1 = os.path.getmtime(path1)
     n2 = os.path.getmtime(path2)
@@ -80,7 +82,7 @@ def report():
 def update_repo():
     report()
     os.chdir(rc_repo_path)
-    subprocess.call(['git','pull','origin','master'])
+    subprocess.call(['git','pull','origin','blue'])
     os.chdir(home)
     report()
 
@@ -90,6 +92,7 @@ def unlock_rc(rcname):
             ['chmod','644',os.path.join(home,rcname)]
             )
     return 
+
 def lock_rc(rcname):
     print "\t [rc-updater ==>] Locking {}".format(rcname)
     subprocess.call(
