@@ -30,7 +30,8 @@ setenv EDITOR /Applications/MacVim.app/Contents/MacOS/Vim
 setenv VISUAL /Applications/MacVim.app/Contents/MacOS/Vim
 
 
-
+#My python modules (under development- comment out if they break things)
+setenv PYTHONPATH /Users/ajay/src/Python-Modules
 
 ####Define Aliases####################################
 #Temporary sorting out compilers 
