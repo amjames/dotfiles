@@ -82,7 +82,7 @@ def report():
 def update_repo():
     report()
     os.chdir(rc_repo_path)
-    subprocess.call(['git','pull','origin','blue'])
+    subprocess.call(['git','pull','origin','master'])
     os.chdir(home)
     report()
 
