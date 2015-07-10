@@ -1,8 +1,11 @@
 # Andrew M James 
 # Bash setupfile for blueridge 
 #
-[[ $- == *i*]] || return 
-echo "basrc"
+if [[ $- != *i* ]]; then
+    updatrcs
+fi    
+
+ 
 
 #module purge 
 #module load intel 
