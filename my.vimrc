@@ -39,7 +39,7 @@ set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
 syntax on
 filetype plugin indent on
 ""esc is now jk 
-inoremap jk      <esc> 
+inoremap ii      <esc> 
 inoremap <esc>   <nop>
 ""No arrow keys 
 inoremap <Up>    <nop>
