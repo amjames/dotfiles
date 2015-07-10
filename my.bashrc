@@ -1,7 +1,8 @@
 # Andrew M James 
 # Bash setupfile for blueridge 
 #
-
+[[ $- == *i*]] || return 
+echo "basrc"
 
 #module purge 
 #module load intel 
@@ -56,7 +57,6 @@ alias mpipsi='/home/akumar1/installed/parallel_psi4/bin/psi4'
 #cat ~/.todo_lst 
 #echo " " 
 #echo " " 
-updatercs 
 
 
 
