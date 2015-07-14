@@ -1,9 +1,7 @@
+#! /bin/bash
 # Andrew M James 
 # Bash setupfile for blueridge 
 #
-if [[ $- != *i* ]]; then
-    updatrcs
-fi    
 
  
 
@@ -60,6 +58,7 @@ alias mpipsi='/home/akumar1/installed/parallel_psi4/bin/psi4'
 #cat ~/.todo_lst 
 #echo " " 
 #echo " " 
-
-
+if [[ $- == *i* ]]; then
+    updatercs;
+fi    
 
