@@ -33,6 +33,10 @@ call vundle#end()
 if $TERM == "xterm-256color" || $TERM =="screen-256color" || $COLORTERM == "gnome-terminal"
 	set t_Co=256
 endif
+""PowerlineStuff
+set laststatus=2
+set encoding=utf-8
+let g:Powerline_symbols = 'fancy'
 
 "" Tab stuff"
 set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
