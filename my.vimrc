@@ -57,9 +57,26 @@ noremap  <Right> <nop>
 
 map - dd p 
 map _ dd k P
+highlight ColorColumn ctermbg=cyan ctermfg=red cterm=bold term=bold
 ""Hilight column 80 if cc exitis
 if exists('+colorcolumn')
-  set colorcolumn=80 
+    set colorcolumn=80 
 else "" if not use the hard way 
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+    au BufWinEnter * let w:m2=matchadd('ColorColumn', '\%>80v.\+', -1)
 endif
+function LineLengthGuidesON()
+    if exists('+colorcolumn')
+        set colorcolumn=80
+    else 
+        w:m2=matchadd('ColorColumn', '\%>80v.\+',-1)
+    endif
+endfunction
+function LineLengthGuidesOFF()
+    if exists('+colorcolumn')
+        set colorcolumn=0
+    else
+        call matchdelete(w:m2)
+    endif
+endfunction
+
+
