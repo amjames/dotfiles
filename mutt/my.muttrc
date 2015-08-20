@@ -1,0 +1,65 @@
+# Paths-------------------------------------------------------------------
+set folder              = ~/.mutt/mail              # Mailbox(es)
+set alias_file          = ~/.mutt/alias             # aliases (like in bashrc?)
+set header_cache        = ~/.mutt/chache/headers    # header chache
+set message_cachedir    = ~/.mutt/chache/bodies     # message bodies
+set certificate_file    = ~/.mutt/certificates      # Certs
+set mailcap_path        = ~/.mutt/mailcap           # Entries for filetypes 
+set tmpdir              = ~/.mutt/temp              # temp files
+set signature           = ~/.mutt/sig               # my signature file
+
+# Basic Options ----------------------------------------------------------
+set wait_key = no        # shut up, mutt
+set mbox_type = Maildir  # mailbox type
+set timeout = 3          # idle time before scanning
+set mail_check = 0       # minimum time between scans
+unset move               # gmail does that
+set delete               # don't ask, just do
+unset confirmappend      # don't ask, just do!
+set quit                 # don't ask, just do!!
+unset mark_old           # read/new is good enough for me
+set beep_new             # bell on new mails
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
+
+# Color Scheme  ----------------------------------------------------------
+source ~/.mutt/colors
+
+# Sidebar Patch ----------------------------------------------------------
+# working :)
+set sidebar_delim = ' | '
+set sidebar_visible = yes
+set sidebar_width = 24
+#color sidebar_new color221 color233
+
+# Status Bar -----------------------------------------
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+# ^This gives us a pretty status bar with the information we care about ^
+
+# Header Options ----------------------------------------------------------
+ignore                                  # Get rid of all this stuff except..*
+unignore from: to: cc: date: subject:   # The fields we want to see
+unhdr_order *                           # order might be wierd 
+hdr_order from: to: cc: date: subject:  # so we set it
+
+# Account Settings --------------------------------------------------------
+# Default inbox.
+set spoolfile = "+amjames2.vt.edu/INBOX"
+
+# Alternate email addresses.
+alternates andrew.m.james2@gmail.com
+
+# Mailboxes to show in the sidebar
+mailboxes   +amjames2.vt.edu/INBOX \
+            +amjames2.vt.edu/Flagged \
+            +amjames2.vt.edu/drafts
+
+# Other Special Folders
+set mbox      = "+amjames2.vt.edu/archive"
+set postponed = "+amjames2.vt.edu/drafts"
+
+
+
+
+
