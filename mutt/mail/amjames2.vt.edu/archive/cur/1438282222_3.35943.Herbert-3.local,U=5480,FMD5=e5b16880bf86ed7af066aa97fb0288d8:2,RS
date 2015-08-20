@@ -1,0 +1,79 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp117390qge;
+        Wed, 25 Mar 2015 10:15:01 -0700 (PDT)
+X-Received: by 10.52.34.70 with SMTP id x6mr10589338vdi.84.1427303701587;
+        Wed, 25 Mar 2015 10:15:01 -0700 (PDT)
+Return-Path: <vilong@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id ke4si3931057vdb.79.2015.03.25.10.15.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 25 Mar 2015 10:15:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.160.182 as permitted sender) client-ip=209.85.160.182;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.160.182 as permitted sender) smtp.mail=vilong@vt.edu
+Received: from mail-yk0-f182.google.com (mail-yk0-f182.google.com [209.85.160.182])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2PHEujQ022017
+	for <amjames2@vt.edu>; Wed, 25 Mar 2015 13:15:01 -0400
+Received: by ykfs63 with SMTP id s63so16308760ykf.2
+        for <amjames2@vt.edu>; Wed, 25 Mar 2015 10:14:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:user-agent:date:subject:from:to:message-id
+         :thread-topic:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding;
+        bh=PxQ/O6L5FkoHWpcgcuOi96KUCtvgdfjtOBmQKjUowww=;
+        b=KuoNst3tx2m0wBxrvBCLYpbdQycSDb1dm8uBNEdxO0QEcaRYef8Qu8jHjkKZRn8HXA
+         5IZvaQ+xs8dDvmaDJwrC/TcGO60dGZp7+M7bfHa7peFl796O+NzE7sZGuyD9qVKiqsy/
+         YXBSkrumjvWBKyWRysKd80UyGbTHu7ltn3pGlIB19w/yclsgunvd0YuVpOVY4jB8VHzF
+         mb3ot4XyYyo7xx8i9g5EjQg0M8MZmsxEExH8+vbJYeQHu4lnJz2eD26cLsS2/kGfeJe/
+         yYXwBRmQf6Z55q/erOddm04wwc5jYEel+bA5sC7AOmhQixmTSpRHfr296jwulxqC0iQF
+         cVBw==
+X-Gm-Message-State: ALoCoQkRG2Vzrbz9osG/sDji6SXRQCaDdS25Dhlhwt2oM+Es+og0IJSrL+khNiBahnJQJsJ4CycpEHEIZ6KczbwVce6RANO5i1kGUHmqCp6ST8GmBC0YYFIhF3+yiuQapSABZZlQGKiGUk/vYzPwwXaO5SThFmnfqXGR8tXpjiV+pd3XMycaTE1OLLB9R+hVNpJrZgnX5Z82
+X-Received: by 10.52.106.234 with SMTP id gx10mr10542518vdb.64.1427303695947;
+        Wed, 25 Mar 2015 10:14:55 -0700 (PDT)
+X-Received: by 10.52.106.234 with SMTP id gx10mr10542509vdb.64.1427303695894;
+        Wed, 25 Mar 2015 10:14:55 -0700 (PDT)
+Received: from [10.0.0.7] (c-73-171-122-255.hsd1.va.comcast.net. [73.171.122.255])
+        by mx.google.com with ESMTPSA id su7sm2259456vdc.21.2015.03.25.10.14.53
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 25 Mar 2015 10:14:55 -0700 (PDT)
+User-Agent: Microsoft-MacOutlook/14.4.8.150116
+Date: Wed, 25 Mar 2015 13:14:50 -0400
+Subject: Re: Pre-Lab Quizzes
+From: Victoria Long <vilong@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Message-ID: <D1386535.133A4%vilong@vt.edu>
+Thread-Topic: Pre-Lab Quizzes
+References: <D908A624-E3E7-4DD4-BCD8-F65066ED6F1A@vt.edu>
+In-Reply-To: <D908A624-E3E7-4DD4-BCD8-F65066ED6F1A@vt.edu>
+Mime-version: 1.0
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Thanks for the follow through Andrew=8A.
+
+On 3/25/15, 11:52 AM, "Andrew James" <amjames2@vt.edu> wrote:
+
+>Dear Ramaan,=20
+>
+>I noticed that you haven=B9t completed the pre-lab quiz for this week, and
+>I wanted to check in to make sure everything is okay. Not completing
+>those quizzes is preventing you from participating in lab and this will
+>start to drag your grades down quick.  If there is something wrong please
+>let us (Myself, Mrs. Long and Mrs. Dalton) know asap, and if not please
+>get on top of those quizzes!
+>
+>Take care,=20
+>=8BAndrew=20
+
+

@@ -1,0 +1,95 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp918459qgt;
+        Mon, 22 Jun 2015 14:53:16 -0700 (PDT)
+X-Received: by 10.140.47.71 with SMTP id l65mr40791843qga.5.1435009995990;
+        Mon, 22 Jun 2015 14:53:15 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id m70si20278913qhb.89.2015.06.22.14.53.15
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 14:53:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MLr96c008140
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 17:53:15 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=J7OQYbKxETRjZ5KjI75n9jM+Vss=; b=qQJgEHTAKC3y/YNI
+	E0R+lBBWRXUgJecmUvT3OA6o0C+juOtBH+4shRMrW6bhnqGeCFaI1tUWCckAZk4l
+	ZIr0cDgtGcvyY3Id1jbx9BLnn60EArcmTeUUi/QZsEIAH30SKiKO9x1MGIVEVlf4
+	dk6kUQ8dYVw2jBO8kXQqvR1rECc=
+Received: by filter0433p1mdw1.sendgrid.net with SMTP id filter0433p1mdw1.17576.558883C413
+        2015-06-22 21:53:08.849393457 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-003 (SG) with ESMTP id 14e1d42b446.2247.178e7f
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 21:53:07 +0000 (UTC)
+Date: Mon, 22 Jun 2015 14:53:07 -0700
+From: Ryan Richard <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642728ca3959ac3c6471b6a6259dadfa93ee0fe4a3f92cf0000000111a045c392a169ce05609d78@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/98/114275673@github.com>
+In-Reply-To: <psi4/psi4/issues/98@github.com>
+References: <psi4/psi4/issues/98@github.com>
+Subject: Re: [psi4] Psi4 compilation error (#98)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_558883c38133f_77f53fa72771529c567095";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ryanmrichard
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642728ca3959ac3c6471b6a6259dadfa93ee0fe4a3f92cf0000000111a045c392a169ce05609d78@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642728ca3959ac3c6471b6a6259dadfa93ee0fe4a3f92cf0000000111a045c392a169ce05609d78@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QuZ5ElmDLltlDQqR92k639-VEIlPks5oWHtDgaJpZM4FJUyO>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Il88cuVoe1vns/T9EMWTSv54aee5PYNVlatN3
+ A++At3SW1wDdJZ7zJaQqbvaT3YgAG6Yk7UtzPkmxCU70paBv7ErQLixxNdELwp2Z4HHRByoJAig25v
+ Oz49R8Wh0Gbs6Sg=
+X-Spam-Status: No, score=-2.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_558883c38133f_77f53fa72771529c567095
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Literally just tack it onto the end:
+
+./setup --type release --prefix=/usr/local/programs/psi4intel --cc=icc --cxx=icpc --plugins on --max-am-eri=6 --mkl=parallel -DENABLE_CHEMPS2=OFF
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/98#issuecomment-114275673
+----==_mimepart_558883c38133f_77f53fa72771529c567095
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Literally just tack it onto the end:</p>
+
+<p>./setup --type release --prefix=/usr/local/programs/psi4intel --cc=icc --cxx=icpc --plugins on --max-am-eri=6 --mkl=parallel -DENABLE_CHEMPS2=OFF</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/98#issuecomment-114275673">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qq2yENJwlIYKQGbVhvS3ds82iqAAks5oWHtDgaJpZM4FJUyO.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/98#issuecomment-114275673"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_558883c38133f_77f53fa72771529c567095--

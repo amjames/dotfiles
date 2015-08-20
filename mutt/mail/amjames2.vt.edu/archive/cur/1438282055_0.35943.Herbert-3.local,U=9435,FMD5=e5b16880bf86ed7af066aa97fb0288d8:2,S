@@ -1,0 +1,496 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp516609qgt;
+        Fri, 29 May 2015 13:44:44 -0700 (PDT)
+X-Received: by 10.140.145.209 with SMTP id 200mr12622701qhr.45.1432932284209;
+        Fri, 29 May 2015 13:44:44 -0700 (PDT)
+Return-Path: <tylertak@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id j194si6648145qhc.48.2015.05.29.13.44.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 29 May 2015 13:44:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of tylertak@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of tylertak@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender) smtp.mail=tylertak@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-oi0-x22e.google.com (mail-oi0-x22e.google.com [IPv6:2607:f8b0:4003:c06::22e])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4TKicQs009453
+	for <amjames2@vt.edu>; Fri, 29 May 2015 16:44:43 -0400
+Received: by oihd6 with SMTP id d6so65389080oih.2
+        for <amjames2@vt.edu>; Fri, 29 May 2015 13:44:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=6As26KRIkEAboAqUlnITztFnSGRjUtk9tLSi6vEEkiw=;
+        b=mP50YZKENJiQSBIIrxqHgEYJ8eLgq4eEEnP9+WYWQzVqM0duSA7jHHhWsK642BhKv3
+         JLhesiz8mAcG7RZttTG9G0QmTagBQe8lChZjrwpylbO7Z9RRQa9R76oyb9Krf+dl24lh
+         oLz+IVABWRCuhoe8c+XXNcKYH0xJpPMiCViBbH5ai3SkUF94cvExtU1HDzFTNTBEXlNf
+         d4enMmCcBCrhopg7shAY9hzAKQvqXFUoLZ0USNb85wVkbvNpe8Ju9H0AlcHNouAX5CWy
+         sISvao6Hq5jls3bA2Rdr5bh+OZEwqWu1A7FT8e0sWBsrPgjO6JQazoPNHeYFk4D+Mbjb
+         2VaQ==
+MIME-Version: 1.0
+X-Received: by 10.60.160.4 with SMTP id xg4mr8695220oeb.44.1432932277854; Fri,
+ 29 May 2015 13:44:37 -0700 (PDT)
+Received: by 10.202.219.138 with HTTP; Fri, 29 May 2015 13:44:37 -0700 (PDT)
+In-Reply-To: <7C33F7A1-A1A1-40B9-826C-A2A28EDE2355@vt.edu>
+References: <0cd95128277647baaae85f99c5c23313@CITESHT4.ad.uillinois.edu>
+	<CABNkPCZitQmd_LOUNz7JQX12FDH3QgpkvvWvjNcb-d5Cvg6K4g@mail.gmail.com>
+	<7C33F7A1-A1A1-40B9-826C-A2A28EDE2355@vt.edu>
+Date: Fri, 29 May 2015 13:44:37 -0700
+Message-ID: <CABNkPCZjYbAqv3z58+iv5zw6wsMb0SFrLBzuQ7U6Q72B8xwF2Q@mail.gmail.com>
+Subject: Re: Software Summer School Application Status
+From: Tyler Takeshita <tylertak@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0112cb3068a80905173e8b1c
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0112cb3068a80905173e8b1c
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+
+I have set my flights to and from the summer school. The information is
+below. Please let me know if you need anything else form me.
+
+Thank you,
+Ty
+
+*Sun, 21JUN**DEPART**ARRIVE*
+DELTA 5743*
+MAIN CABIN (B)
+PASCO
+7:15am
+MPLS-ST PAUL
+12:10pm
+DELTA 785
+MAIN CABIN (B)
+MPLS-ST PAUL
+1:10pm
+ATLANTA
+4:42pm
+DELTA 4897*
+MAIN CABIN (B)
+ATLANTA
+6:01pm
+ROANOKE
+7:25pm
+*Thu, 02JUL**DEPART**ARRIVE*
+DELTA 5242*
+MAIN CABIN (S)
+ROANOKE
+1:55pm
+ATLANTA
+3:22pm
+DELTA 1881
+MAIN CABIN (S)
+ATLANTA
+4:35pm
+SALT LAKE CITY
+6:41pm
+DELTA 1230
+MAIN CABIN (S)
+SALT LAKE CITY
+8:26pm
+PASCO
+9:02pm
+
+On Tue, May 26, 2015 at 11:16 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Tyler,
+>
+> The school ends after lunch on July 1st. The checkin/checkout day for the
+> dorms will be set when we have your travel plans since some students will
+> arrive the day before or leave the day after.  I would suggest the later
+> flight simply because it gives us the most wiggle room as far as getting
+> you to the airport goes.
+>
+> Thanks,
+> Andrew M James
+> Summer School Coordinator
+> amjames2@vt.edu
+>
+> On May 22, 2015, at 1:25 PM, Tyler Takeshita <tylertak@gmail.com> wrote:
+>
+> Andrew,
+>
+> Thank you, I have registered online.
+>
+> I do have one question about travel, what time does the summer school end
+> on July 1? Right now I have two options for my return flight the first
+> leaves at 2:30 pm and the other 4:30 pm. Which would you suggest?
+>
+> Also, which day do we check out of the dorms?
+>
+> Thank you,
+>
+> Tyler
+>
+> On Tue, May 19, 2015 at 11:21 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>>  Dear Tyler,
+>>
+>>  We are happy to announce that your application to the 2015
+>> Software-Development Summer School for Computational Chemistry,
+>> Biomolecular Simulation, and Materials Modeling has been accepted!
+>>
+>>  The next step is to secure your place in the program by going to this
+>> webpage to formally register. http://www.cpe.vt.edu/reg/sss/
+>> The registration page mentions credit cards, so I want to remind you that *there
+>> is no charge for participating in the Summer School*. Clicking register
+>> will bring you to a page showing a total of $0.00 for registration.
+>>
+>>  When you have made your travel arrangements I ask that you please send
+>> me an email (amjames2@vt.edu).
+>> If you will be flying I will need to know the flight number, airline and
+>> the scheduled arrival/departure time of your arriving and departing
+>> flights.  We will use this information to arrange transportation to and
+>> from Roanoke airport.
+>>
+>>  If you are driving to campus I will need to get you a temporary parking
+>> permit, and give you instructions on where you can park.
+>>
+>>  If you have any questions please do not hesitate to contact me. Looking
+>> forward to meeting you in June!
+>>
+>>  Sincerely,
+>> Andrew M. James
+>> Summer School Coordinator
+>>
+>
+>
+>
+
+--089e0112cb3068a80905173e8b1c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,s=
+ans-serif;color:rgb(51,0,51)">Hello Andrew,</div><div class=3D"gmail_defaul=
+t" style=3D"font-family:tahoma,sans-serif;color:rgb(51,0,51)"><br></div><di=
+v class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;color:rgb(=
+51,0,51)">I have set my flights to and from the summer school. The informat=
+ion is below. Please let me know if you need anything else form me.</div><d=
+iv class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;color:rgb=
+(51,0,51)"><br></div><div class=3D"gmail_default" style=3D"font-family:taho=
+ma,sans-serif;color:rgb(51,0,51)">Thank you,</div><div class=3D"gmail_defau=
+lt" style=3D"font-family:tahoma,sans-serif;color:rgb(51,0,51)">Ty</div><div=
+ class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;color:rgb(5=
+1,0,51)"><br></div><div class=3D"gmail_default" style=3D"font-family:tahoma=
+,sans-serif;color:rgb(51,0,51)"><table bgcolor=3D"#fff" style=3D"color:rgb(=
+34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:12.800000=
+190734863px;border-collapse:collapse;border:0px;width:548px"><tbody><tr><th=
+ align=3D"left" bgcolor=3D"#dddddc" style=3D"background-color:rgb(221,221,2=
+20);color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;=
+font-weight:normal;padding:5px 10px;width:175px"><strong><span class=3D"" t=
+abindex=3D"0"><span class=3D"">Sun, 21JUN</span></span></strong></th><th al=
+ign=3D"left" bgcolor=3D"#dddddc" style=3D"background-color:rgb(221,221,220)=
+;color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;fon=
+t-weight:normal;padding:5px 6px;width:175px"><strong>DEPART</strong></th><t=
+h align=3D"left" bgcolor=3D"#dddddc" style=3D"background-color:rgb(221,221,=
+220);color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif=
+;font-weight:normal;padding:5px 6px;width:175px"><strong>ARRIVE</strong></t=
+h></tr><tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:0px=
+ 7px 5px;vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-collap=
+se:collapse;border:0px;width:173px"><tbody><tr><td valign=3D"top" style=3D"=
+border-collapse:collapse;padding:10px 0px 0px;vertical-align:top"><div styl=
+e=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif=
+;font-size:12px;line-height:14px">DELTA 5743*</div></td></tr></tbody></tabl=
+e><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;widt=
+h:173px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;pa=
+dding:5px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-f=
+amily:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:=
+14px">MAIN CABIN (B)</div></td></tr></tbody></table></td><td valign=3D"top"=
+ style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:top">=
+<table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:=
+166px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;padd=
+ing:10px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-fa=
+mily:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:1=
+4px">PASCO</div></td></tr></tbody></table><table bgcolor=3D"#fff" style=3D"=
+border-collapse:collapse;border:0px;width:166px"><tbody><tr><td valign=3D"t=
+op" style=3D"border-collapse:collapse;padding:5px 0px 0px;vertical-align:to=
+p"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetic=
+a,sans-serif;font-size:12px;line-height:14px"><span class=3D"" tabindex=3D"=
+0"><span class=3D"">7:15am</span></span></div></td></tr></tbody></table></t=
+d><td valign=3D"top" style=3D"border-collapse:collapse;padding:0px 7px 5px;=
+vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-collapse:collap=
+se;border:0px;width:167px"><tbody><tr><td valign=3D"top" style=3D"border-co=
+llapse:collapse;padding:10px 0px 0px;vertical-align:top"><div style=3D"colo=
+r:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-siz=
+e:12px;line-height:14px">MPLS-ST PAUL</div></td></tr></tbody></table><table=
+ bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:167px"=
+><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:5p=
+x 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Ta=
+homa,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px"><s=
+pan class=3D"" tabindex=3D"0"><span class=3D"">12:10pm</span></span></div><=
+/td></tr></tbody></table></td></tr><tr><td valign=3D"top" style=3D"border-c=
+ollapse:collapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=3D"=
+#fff" style=3D"border-collapse:collapse;border:0px;width:173px"><tbody><tr>=
+<td valign=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0px;v=
+ertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdan=
+a,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px">DELTA 785</di=
+v></td></tr></tbody></table><table bgcolor=3D"#fff" style=3D"border-collaps=
+e:collapse;border:0px;width:173px"><tbody><tr><td valign=3D"top" style=3D"b=
+order-collapse:collapse;padding:5px 0px 0px;vertical-align:top"><div style=
+=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;=
+font-size:12px;line-height:14px">MAIN CABIN (B)</div></td></tr></tbody></ta=
+ble></td><td valign=3D"top" style=3D"border-collapse:collapse;padding:0px 7=
+px 5px;vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-collapse=
+:collapse;border:0px;width:166px"><tbody><tr><td valign=3D"top" style=3D"bo=
+rder-collapse:collapse;padding:10px 0px 0px;vertical-align:top"><div style=
+=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;=
+font-size:12px;line-height:14px">MPLS-ST PAUL</div></td></tr></tbody></tabl=
+e><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;widt=
+h:166px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;pa=
+dding:5px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-f=
+amily:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:=
+14px"><span class=3D"" tabindex=3D"0"><span class=3D"">1:10pm</span></span>=
+</div></td></tr></tbody></table></td><td valign=3D"top" style=3D"border-col=
+lapse:collapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#f=
+ff" style=3D"border-collapse:collapse;border:0px;width:167px"><tbody><tr><t=
+d valign=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0px;ver=
+tical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,=
+Arial,Helvetica,sans-serif;font-size:12px;line-height:14px">ATLANTA</div></=
+td></tr></tbody></table><table bgcolor=3D"#fff" style=3D"border-collapse:co=
+llapse;border:0px;width:167px"><tbody><tr><td valign=3D"top" style=3D"borde=
+r-collapse:collapse;padding:5px 0px 0px;vertical-align:top"><div style=3D"c=
+olor:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-=
+size:12px;line-height:14px"><span class=3D"" tabindex=3D"0"><span class=3D"=
+">4:42pm</span></span></div></td></tr></tbody></table></td></tr><tr><td val=
+ign=3D"top" style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-=
+align:top"><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border=
+:0px;width:173px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:co=
+llapse;padding:10px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0=
+,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;li=
+ne-height:14px">DELTA 4897*</div></td></tr></tbody></table><table bgcolor=
+=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:173px"><tbody>=
+<tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:5px 0px 0p=
+x;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Ver=
+dana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px">MAIN CABIN=
+ (B)</div></td></tr></tbody></table></td><td valign=3D"top" style=3D"border=
+-collapse:collapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=
+=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:166px"><tbody>=
+<tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0=
+px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Ve=
+rdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px">ATLANTA</=
+div></td></tr></tbody></table><table bgcolor=3D"#fff" style=3D"border-colla=
+pse:collapse;border:0px;width:166px"><tbody><tr><td valign=3D"top" style=3D=
+"border-collapse:collapse;padding:5px 0px 0px;vertical-align:top"><div styl=
+e=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif=
+;font-size:12px;line-height:14px"><span class=3D"" tabindex=3D"0"><span cla=
+ss=3D"">6:01pm</span></span></div></td></tr></tbody></table></td><td valign=
+=3D"top" style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-ali=
+gn:top"><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0p=
+x;width:167px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:colla=
+pse;padding:10px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0)=
+;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-=
+height:14px">ROANOKE</div></td></tr></tbody></table><table bgcolor=3D"#fff"=
+ style=3D"border-collapse:collapse;border:0px;width:167px"><tbody><tr><td v=
+align=3D"top" style=3D"border-collapse:collapse;padding:5px 0px 0px;vertica=
+l-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Aria=
+l,Helvetica,sans-serif;font-size:12px;line-height:14px"><span class=3D"" ta=
+bindex=3D"0"><span class=3D"">7:25pm</span></span></div></td></tr></tbody><=
+/table></td></tr><tr><th align=3D"left" bgcolor=3D"#dddddc" style=3D"backgr=
+ound-color:rgb(221,221,220);color:rgb(0,0,0);font-family:Tahoma,Verdana,Ari=
+al,Helvetica,sans-serif;font-weight:normal;padding:5px 10px;width:175px"><s=
+trong><span class=3D"" tabindex=3D"0"><span class=3D"">Thu, 02JUL</span></s=
+pan></strong></th><th align=3D"left" bgcolor=3D"#dddddc" style=3D"backgroun=
+d-color:rgb(221,221,220);color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,=
+Helvetica,sans-serif;font-weight:normal;padding:5px 6px;width:175px"><stron=
+g>DEPART</strong></th><th align=3D"left" bgcolor=3D"#dddddc" style=3D"backg=
+round-color:rgb(221,221,220);color:rgb(0,0,0);font-family:Tahoma,Verdana,Ar=
+ial,Helvetica,sans-serif;font-weight:normal;padding:5px 6px;width:175px"><s=
+trong>ARRIVE</strong></th></tr><tr><td valign=3D"top" style=3D"border-colla=
+pse:collapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#fff=
+" style=3D"border-collapse:collapse;border:0px;width:173px"><tbody><tr><td =
+valign=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0px;verti=
+cal-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Ar=
+ial,Helvetica,sans-serif;font-size:12px;line-height:14px">DELTA 5242*</div>=
+</td></tr></tbody></table><table bgcolor=3D"#fff" style=3D"border-collapse:=
+collapse;border:0px;width:173px"><tbody><tr><td valign=3D"top" style=3D"bor=
+der-collapse:collapse;padding:5px 0px 0px;vertical-align:top"><div style=3D=
+"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;fon=
+t-size:12px;line-height:14px">MAIN CABIN (S)</div></td></tr></tbody></table=
+></td><td valign=3D"top" style=3D"border-collapse:collapse;padding:0px 7px =
+5px;vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-collapse:co=
+llapse;border:0px;width:166px"><tbody><tr><td valign=3D"top" style=3D"borde=
+r-collapse:collapse;padding:10px 0px 0px;vertical-align:top"><div style=3D"=
+color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font=
+-size:12px;line-height:14px">ROANOKE</div></td></tr></tbody></table><table =
+bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:166px">=
+<tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:5px=
+ 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tah=
+oma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px"><sp=
+an class=3D"" tabindex=3D"0"><span class=3D"">1:55pm</span></span></div></t=
+d></tr></tbody></table></td><td valign=3D"top" style=3D"border-collapse:col=
+lapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#fff" style=
+=3D"border-collapse:collapse;border:0px;width:167px"><tbody><tr><td valign=
+=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0px;vertical-al=
+ign:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,He=
+lvetica,sans-serif;font-size:12px;line-height:14px">ATLANTA</div></td></tr>=
+</tbody></table><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;b=
+order:0px;width:167px"><tbody><tr><td valign=3D"top" style=3D"border-collap=
+se:collapse;padding:5px 0px 0px;vertical-align:top"><div style=3D"color:rgb=
+(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12p=
+x;line-height:14px"><span class=3D"" tabindex=3D"0"><span class=3D"">3:22pm=
+</span></span></div></td></tr></tbody></table></td></tr><tr><td valign=3D"t=
+op" style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p"><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;wid=
+th:173px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;p=
+adding:10px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font=
+-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-heigh=
+t:14px">DELTA 1881</div></td></tr></tbody></table><table bgcolor=3D"#fff" s=
+tyle=3D"border-collapse:collapse;border:0px;width:173px"><tbody><tr><td val=
+ign=3D"top" style=3D"border-collapse:collapse;padding:5px 0px 0px;vertical-=
+align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,=
+Helvetica,sans-serif;font-size:12px;line-height:14px">MAIN CABIN (S)</div><=
+/td></tr></tbody></table></td><td valign=3D"top" style=3D"border-collapse:c=
+ollapse;padding:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#fff" sty=
+le=3D"border-collapse:collapse;border:0px;width:166px"><tbody><tr><td valig=
+n=3D"top" style=3D"border-collapse:collapse;padding:10px 0px 0px;vertical-a=
+lign:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:12px;line-height:14px">ATLANTA</div></td></tr=
+></tbody></table><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;=
+border:0px;width:166px"><tbody><tr><td valign=3D"top" style=3D"border-colla=
+pse:collapse;padding:5px 0px 0px;vertical-align:top"><div style=3D"color:rg=
+b(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12=
+px;line-height:14px"><span class=3D"" tabindex=3D"0"><span class=3D"">4:35p=
+m</span></span></div></td></tr></tbody></table></td><td valign=3D"top" styl=
+e=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:top"><tabl=
+e bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:167px=
+"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;padding:1=
+0px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-family:=
+Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14px">=
+SALT LAKE CITY</div></td></tr></tbody></table><table bgcolor=3D"#fff" style=
+=3D"border-collapse:collapse;border:0px;width:167px"><tbody><tr><td valign=
+=3D"top" style=3D"border-collapse:collapse;padding:5px 0px 0px;vertical-ali=
+gn:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Hel=
+vetica,sans-serif;font-size:12px;line-height:14px"><span class=3D"" tabinde=
+x=3D"0"><span class=3D"">6:41pm</span></span></div></td></tr></tbody></tabl=
+e></td></tr><tr><td valign=3D"top" style=3D"border-collapse:collapse;paddin=
+g:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-c=
+ollapse:collapse;border:0px;width:173px"><tbody><tr><td valign=3D"top" styl=
+e=3D"border-collapse:collapse;padding:10px 0px 0px;vertical-align:top"><div=
+ style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-=
+serif;font-size:12px;line-height:14px">DELTA 1230</div></td></tr></tbody></=
+table><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;=
+width:173px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collaps=
+e;padding:5px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);fo=
+nt-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-hei=
+ght:14px">MAIN CABIN (S)</div></td></tr></tbody></table></td><td valign=3D"=
+top" style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:t=
+op"><table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;wi=
+dth:166px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;=
+padding:10px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);fon=
+t-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-heig=
+ht:14px">SALT LAKE CITY</div></td></tr></tbody></table><table bgcolor=3D"#f=
+ff" style=3D"border-collapse:collapse;border:0px;width:166px"><tbody><tr><t=
+d valign=3D"top" style=3D"border-collapse:collapse;padding:5px 0px 0px;vert=
+ical-align:top"><div style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,A=
+rial,Helvetica,sans-serif;font-size:12px;line-height:14px"><span class=3D""=
+ tabindex=3D"0"><span class=3D"">8:26pm</span></span></div></td></tr></tbod=
+y></table></td><td valign=3D"top" style=3D"border-collapse:collapse;padding=
+:0px 7px 5px;vertical-align:top"><table bgcolor=3D"#fff" style=3D"border-co=
+llapse:collapse;border:0px;width:167px"><tbody><tr><td valign=3D"top" style=
+=3D"border-collapse:collapse;padding:10px 0px 0px;vertical-align:top"><div =
+style=3D"color:rgb(0,0,0);font-family:Tahoma,Verdana,Arial,Helvetica,sans-s=
+erif;font-size:12px;line-height:14px">PASCO</div></td></tr></tbody></table>=
+<table bgcolor=3D"#fff" style=3D"border-collapse:collapse;border:0px;width:=
+167px"><tbody><tr><td valign=3D"top" style=3D"border-collapse:collapse;padd=
+ing:5px 0px 0px;vertical-align:top"><div style=3D"color:rgb(0,0,0);font-fam=
+ily:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:14=
+px"><span class=3D"" tabindex=3D"0"><span class=3D"">9:02pm</span></span></=
+div></td></tr></tbody></table></td></tr></tbody></table></div></div><div cl=
+ass=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, May 26, 2015 at =
+11:16 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.=
+edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div style=3D"word-wrap:break-word">Tyler,=C2=A0<div><b=
+r></div><div>The school ends after lunch on July 1st. The checkin/checkout =
+day for the dorms will be set when we have your travel plans since some stu=
+dents will arrive the day before or leave the day after.=C2=A0 I would sugg=
+est the later flight simply because it gives us the most wiggle room as far=
+ as getting you to the airport goes.=C2=A0</div><div><br></div><div>Thanks,=
+</div><div>Andrew M James</div><div>Summer School Coordinator=C2=A0</div><d=
+iv><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>=
+</div><div><div class=3D"h5"><div><br><div><blockquote type=3D"cite"><div>O=
+n May 22, 2015, at 1:25 PM, Tyler Takeshita &lt;<a href=3D"mailto:tylertak@=
+gmail.com" target=3D"_blank">tylertak@gmail.com</a>&gt; wrote:</div><br><di=
+v><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma=
+,sans-serif;color:#330033">Andrew,</div><div class=3D"gmail_default" style=
+=3D"font-family:tahoma,sans-serif;color:#330033"><br></div><div class=3D"gm=
+ail_default" style=3D"font-family:tahoma,sans-serif;color:#330033">Thank yo=
+u, I have registered online.</div><div class=3D"gmail_default" style=3D"fon=
+t-family:tahoma,sans-serif;color:#330033"><br></div><div class=3D"gmail_def=
+ault" style=3D"font-family:tahoma,sans-serif;color:#330033">I do have one q=
+uestion about travel, what time does the summer school end on July 1? Right=
+ now I have two options for my return flight the first leaves at 2:30 pm an=
+d the other 4:30 pm. Which would you suggest?=C2=A0</div><div class=3D"gmai=
+l_default" style=3D"font-family:tahoma,sans-serif;color:#330033"><br></div>=
+<div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;color:#=
+330033">Also, which day do we check out of the dorms?</div><div class=3D"gm=
+ail_default" style=3D"font-family:tahoma,sans-serif;color:#330033"><br></di=
+v><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;color=
+:#330033">Thank you,</div><div class=3D"gmail_default" style=3D"font-family=
+:tahoma,sans-serif;color:#330033"><br></div><div class=3D"gmail_default" st=
+yle=3D"font-family:tahoma,sans-serif;color:#330033">Tyler</div></div><div c=
+lass=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, May 19, 2015 at=
+ 11:21 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt=
+.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc sol=
+id;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word">
+<div>Dear Tyler,</div>
+<div><br>
+</div>
+<div>We are happy to announce that your application to the 2015 Software-De=
+velopment Summer School for Computational Chemistry, Biomolecular Simulatio=
+n, and Materials Modeling has been accepted!</div>
+<div><br>
+</div>
+<div>The next step is to secure your place in the program by going to this =
+webpage to formally register.=C2=A0<a href=3D"http://www.cpe.vt.edu/reg/sss=
+/" target=3D"_blank">http://www.cpe.vt.edu/reg/sss/</a>=C2=A0</div>
+<div>The registration page mentions credit cards, so I want to remind you t=
+hat=C2=A0<span><i>there is no charge for participating in the Summer School=
+</i></span>. Clicking register will bring you to a page showing a total of =
+$0.00 for
+ registration. =C2=A0</div>
+<div><br>
+</div>
+<div>When you have made your travel arrangements I ask that you please send=
+ me an email (<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2=
+@vt.edu</a>).</div>
+<div>If you will be flying I will need to know the flight number, airline a=
+nd the scheduled arrival/departure time of your arriving and departing flig=
+hts.=C2=A0 We will use this information to arrange transportation to and fr=
+om Roanoke airport.=C2=A0</div>
+<div><br>
+</div>
+<div>If you are driving to campus I will need to get you a temporary parkin=
+g permit, and give you instructions on where you can park.=C2=A0</div>
+<div><br>
+</div>
+<div>If you have any questions please do not hesitate to contact me. Lookin=
+g forward to meeting you in June!</div>
+<div><br>
+</div>
+<div>Sincerely,</div>
+<div>Andrew M. James</div>
+<div>Summer School Coordinator</div>
+</div>
+
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--089e0112cb3068a80905173e8b1c--

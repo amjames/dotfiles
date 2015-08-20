@@ -1,0 +1,705 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1743869qge;
+        Mon, 23 Mar 2015 09:54:58 -0700 (PDT)
+X-Received: by 10.140.151.72 with SMTP id 69mr191022qhx.68.1427129697578;
+        Mon, 23 Mar 2015 09:54:57 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id f135si1186521qhe.122.2015.03.23.09.54.56
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Mar 2015 09:54:57 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.192.53;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2NGsooL001851;
+	Mon, 23 Mar 2015 12:54:55 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NGOHc8006434;
+	Mon, 23 Mar 2015 12:54:48 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98455004 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 23 Mar 2015 12:54:47
+          -0400
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:277:40de:506c]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NGili9012454
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <chem_grad@listserv.vt.edu>; Mon, 23 Mar 2015 12:44:47 -0400
+Received: from mail-qg0-f53.google.com (mail-qg0-f53.google.com
+          [209.85.192.53]) by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2NGifXf005432 for <chem_grad@listserv.vt.edu>; Mon, 23 Mar 2015
+          12:44:46 -0400
+Received: by qgez102 with SMTP id z102so64541759qge.3 for
+          <chem_grad@listserv.vt.edu>; Mon, 23 Mar 2015 09:44:41 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:references:to :message-id:mime-version;
+                         bh=KRAcYh7y3AzDjXZUL6eTIFvPDk/yAgLYdLHx42w80PI=;
+                         b=MqAtL1S4khNGQx2u5IQ/6fhJH67hu8IowqTOKd20CrBAhJadoEgnm93iiM9cwwrkhF
+                         vNGNhYJDBVAfUUlXNBV1QhCi8bkrZvIpzczi/ZfA3aEEZs6O27mhhmMn6zbrpHZhnT+6
+                         rEm2WE9w1qb5JFpVYQz0dnpCQkuo6aZW9/rPEZCLLR0AR8pNJHMIhbJPYvtf6Pmvowna
+                         JjByU9LXHOPcrq57RGUHdFWV5Ydck+TN3DA+XxMnSk6EJ5rEdLBBEVWz/SQ39kGi1DVM
+                         XP4KmGY6QhdZsGrr34Uapo4C+yIhn/4WZ7YWnX+A+8x6LWlPDGKb5p50scxKCEC0mn9K
+                         5qsg==
+X-Received: by 10.55.31.71 with SMTP id f68mr92496qkf.7.1427129058905; Mon, 23
+            Mar 2015 09:44:18 -0700 (PDT)
+X-Gm-Message-State: ALoCoQkKaktITFLJ5LtmnmFD7j0Yb/6BMi7Nq4IYYHG3t02FPcP0zoX2BxnHCC0JktZhIobPpdN8HgGEPIm1SSsVEud/kpRwyhZ9dyCQmtUsp+id/kQjseOELAugzUDyGKnuIOM5DLsh9kfSEkB1+gOjjVXxlVJr4Q==
+X-Received: by 10.55.31.71 with SMTP id f68mr92463qkf.7.1427129058686; Mon, 23
+            Mar 2015 09:44:18 -0700 (PDT)
+Received: from ?IPv6:2001:468:c80:610a:2db1:ef88:e253:4921?
+          ([2001:468:c80:610a:2db1:ef88:e253:4921]) by mx.google.com with
+          ESMTPSA id k51sm847841qge.6.2015.03.23.09.44.17 (version=TLSv1
+          cipher=ECDHE-RSA-RC4-SHA bits=128/128); Mon, 23 Mar 2015 09:44:18
+          -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_5A9B628D-9607-413E-912D-A9E28D3D44CC"
+References: <4a4c6dee890f463b9a1f0059f88d004b@BELL.cc.w2k.vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Message-ID:  <4C338A42-AD9E-4570-B92E-E3938B1158D5@vt.edu>
+Date:         Mon, 23 Mar 2015 12:44:17 -0400
+Reply-To: "J. M. Tanko" <jtanko@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "J. M. Tanko" <jtanko@vt.edu>
+Subject: Notice has been given.... Inspection Notification (Davidson)
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_5A9B628D-9607-413E-912D-A9E28D3D44CC
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+
+J. M. Tanko, Professor & Chair
+Department of Chemistry
+900 West Campus Drive
+Virginia Polytechnic Institute and State University
+Blacksburg, VA 24061
+phone: (540) 231-6687
+e-mail: jtanko@vt.edu
+
+
+
+> Begin forwarded message:
+>=20
+> From: "Franklin, Lance" <lance3@vt.edu>
+> To: "Tanko, James" <jtanko@vt.edu>
+> Cc: "Layman, Rachel" <ralayman@exchange.vt.edu>, "Ritenour, Joey" =
+<jrit@vt.edu>
+> Subject: Inspection Notification
+> Date: March 23, 2015 at 12:38:18 PM EDT
+>=20
+> Greetings Dr. Tanko,
+> =20
+> As part of the safety evaluation process, Environmental Health and =
+Safety (EHS) personnel will inspect Chemistry (Davidson) starting on =
+March 24th 2015.  These safety evaluations are a primary means by which =
+EHS fulfills its responsibilities defined in Virginia Polytechnic =
+Institute and State University=E2=80=99s Health and Safety Policy (No. =
+1005 dated December 2, 2010). They will help individuals and departments =
+determine what safety requirements need to be incorporated into the =
+workplace to comply with University, State, Federal regulations and =
+guidelines.
+> =20
+> EHS personnel will evaluate research, teaching and clinical research =
+spaces for work practices, procedures, safety equipment, documentation =
+and other safety issues.  General spaces ( e.g., mechanical rooms, =
+custodial closets, electrical rooms, classrooms, auditoriums, hallways, =
+conference rooms, offices, etc.) will also be evaluated for fire, life, =
+and occupational health and safety compliance.
+> =20
+> Currently, EHS uses the On Site software system to electronically =
+generate and record evaluation reports. EHS personnel will send the =
+responsible individual (PI, Manager, etc.) or Department Head an =
+electronic copy of the evaluation report.  Each  PI/Manager must  =
+provide an electronic response(s), using the On Site system, to all =
+non-compliant items noted in the evaluation report within 30 days of =
+receipt of the report.
+> =20
+> =E2=80=A2             If after 45 days of the report submittal no =
+response has been received from the responsible  individual, a reminder =
+e-mail will be sent to the individual who received the original report.
+> =20
+> =E2=80=A2             If after 60 days of the report submittal no =
+response has been received, an e-mail will be sent to the Department =
+Head and to the EHS program Assistant Director, and/or the Director of =
+EHS.
+> =20
+> Virginia Polytechnic Institute and State University=E2=80=99s Health =
+and Safety Policy (No. 1005 dated December 2, 2010) Section 3.1, =
+Responsibilities, stipulates Directors/Department Heads must =E2=80=9Censu=
+re that periodic safety self-audits of work areas and/or facilities are =
+conducted=E2=80=9D. Self-assessments (self-audits) should be conducted =
+as a separate effort from VT EHS safety evaluations.
+> =20
+> EHS encourages each area to perform periodic hazard risk assessments =
+to identify hazards within the workplace and then use this information =
+to develop procedures and training requirements which will mitigate the =
+risks involved with identified hazards. PI=E2=80=99s, Directors, =
+Associate Deans or Department Heads are ultimately responsible for the =
+training and safety of anyone working in their area.
+> =20
+> Sincerely,
+> =20
+> =20
+> Lance Franklin, Ph.D., P.E.
+> Director Environmental Health and Safety
+> Virginia Polytechnic Institute and State University
+> 540.231.9044 (o)
+> lfranklin@vt.edu <x-msg://39/lfranklin@vt.edu> =20
+>=20
+>=20
+> =20
+> Before printing this e-mail think if it is necessary.
+> =20
+> =20
+> CONFIDENTIALITY NOTICE: This communication contains information from
+> Virginia Tech that may be CONFIDENTIAL, LEGALLY PRIVILEGED,
+> PROPRIETARY or otherwise protected from disclosure.  If you are not =
+the
+> intended recipient, any use, disclosure, copying, distribution, =
+printing
+> or any action taken in reliance on the contents of this communication,
+> is STRICTLY PROHIBITED.  If you received this in error, please contact
+> the sending party at the above telephone number and shred,=20
+> delete or otherwise destroy this email or attached information or =
+both.
+> In addition, you cannot reproduce, republish or redistribute any =
+materials
+> within this email for educational purposes, public opinion, or  to =
+parties not
+> related to its purpose without the written consent of the author.
+> =20
+>=20
+> =20
+
+
+--Apple-Mail=_5A9B628D-9607-413E-912D-A9E28D3D44CC
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="Apple-Mail=_F2F08C53-7DD9-4BC7-8403-AD04A189282A"
+
+
+--Apple-Mail=_F2F08C53-7DD9-4BC7-8403-AD04A189282A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><br class=3D""><div apple-content-edited=3D"true" class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-align: -webkit-auto; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">J. M. Tanko, Professor &amp; Chair<br =
+class=3D"">Department of Chemistry</div><div style=3D"color: rgb(0, 0, =
+0); font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">900 West Campus Drive<br class=3D"">Virginia Polytechnic =
+Institute and State&nbsp;University<br class=3D"">Blacksburg, VA =
+24061<br class=3D"">phone: (540) 231-6687<br class=3D"">e-mail: <a =
+href=3D"mailto:jtanko@vt.edu" class=3D"">jtanko@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D""></div>
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span=
+ style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">From: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">"Franklin, Lance" &lt;<a =
+href=3D"mailto:lance3@vt.edu" class=3D"">lance3@vt.edu</a>&gt;<br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">To: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">"Tanko, James" &lt;<a =
+href=3D"mailto:jtanko@vt.edu" class=3D"">jtanko@vt.edu</a>&gt;<br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Cc: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">"Layman, Rachel" &lt;<a =
+href=3D"mailto:ralayman@exchange.vt.edu" =
+class=3D"">ralayman@exchange.vt.edu</a>&gt;, "Ritenour, Joey" &lt;<a =
+href=3D"mailto:jrit@vt.edu" class=3D"">jrit@vt.edu</a>&gt;<br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Subject: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><b class=3D"">Inspection =
+Notification</b><br class=3D""></span></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" =
+class=3D""><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b =
+class=3D"">Date: </b></span><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif;" =
+class=3D"">March 23, 2015 at 12:38:18 PM EDT<br =
+class=3D""></span></div><br class=3D""><div class=3D"">
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dus-ascii" class=3D"">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)" =
+class=3D"">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style class=3D""><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1029" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple" class=3D"">
+<div class=3D"WordSection1"><p class=3D"MsoNormal">Greetings Dr. =
+Tanko,<o:p class=3D""></o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">As part of the safety =
+evaluation process, Environmental Health and Safety (EHS) personnel =
+will&nbsp;inspect Chemistry (Davidson) starting on March 24<sup =
+class=3D"">th</sup> 2015.&nbsp; These safety evaluations are a primary =
+means by which EHS fulfills its
+ responsibilities defined in Virginia Polytechnic Institute and State =
+University=E2=80=99s Health and Safety Policy (No. 1005 dated December =
+2, 2010). They will help individuals and departments determine what =
+safety requirements need to be incorporated into the workplace
+ to comply with University, State, Federal regulations and guidelines. =
+<o:p class=3D""></o:p></p><p class=3D"MsoNormal">&nbsp;<o:p =
+class=3D""></o:p></p><p class=3D"MsoNormal">EHS personnel will evaluate =
+research, teaching and clinical research spaces for work practices, =
+procedures, safety equipment, documentation and other safety =
+issues.&nbsp; General spaces ( e.g., mechanical rooms, custodial =
+closets, electrical
+ rooms, classrooms, auditoriums, hallways, conference rooms, offices, =
+etc.) will also be evaluated for fire, life, and occupational health and =
+safety compliance.
+<o:p class=3D""></o:p></p><p class=3D"MsoNormal">&nbsp;<o:p =
+class=3D""></o:p></p><p class=3D"MsoNormal">Currently, EHS uses the On =
+Site software system to electronically generate and record evaluation =
+reports. EHS personnel will send the responsible individual (PI, =
+Manager, etc.) or Department Head an electronic copy of the evaluation =
+report.&nbsp;
+ Each&nbsp; PI/Manager must&nbsp; provide an electronic response(s), =
+using the On Site system, to all non-compliant items noted in the =
+evaluation report within 30 days of receipt of the report.
+<o:p class=3D""></o:p></p><p class=3D"MsoNormal">&nbsp;<o:p =
+class=3D""></o:p></p><p =
+class=3D"MsoNormal">=E2=80=A2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; If after 45 days of the report submittal no =
+response has been received from the responsible&nbsp; individual, a =
+reminder e-mail will be sent to the individual who received the original =
+report.
+<o:p class=3D""></o:p></p><p class=3D"MsoNormal">&nbsp;<o:p =
+class=3D""></o:p></p><p =
+class=3D"MsoNormal">=E2=80=A2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; If after 60 days of the report submittal no =
+response has been received, an e-mail will be sent to the Department =
+Head and to the EHS program Assistant Director, and/or the Director of =
+EHS.<o:p class=3D""></o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">Virginia Polytechnic =
+Institute and State University=E2=80=99s Health and Safety Policy (No. =
+1005 dated December 2, 2010) Section 3.1, Responsibilities, stipulates =
+Directors/Department Heads must =E2=80=9Censure that periodic safety =
+self-audits of work
+ areas and/or facilities are conducted=E2=80=9D. Self-assessments =
+(self-audits) should be conducted as a separate effort from VT EHS =
+safety evaluations.<o:p class=3D""></o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">EHS encourages each =
+area to perform periodic hazard risk assessments to identify hazards =
+within the workplace and then use this information to develop procedures =
+and training requirements which will mitigate the risks involved with =
+identified
+ hazards. PI=E2=80=99s, Directors, Associate Deans or Department Heads =
+are ultimately responsible for the training and safety of anyone working =
+in their area.<o:p class=3D""></o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">Sincerely,<o:p =
+class=3D""></o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal"><b class=3D""><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;;color:maroon" class=3D"">Lance Franklin, Ph.D., P.E.<br class=3D"">
+</span></b><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;;color:#1F497D" class=3D"">Director Environmental Health and Safety
+<o:p class=3D""></o:p></span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;;color:#1F497D" class=3D"">Virginia Polytechnic Institute and State =
+University<br class=3D"">
+540.231.9044 (o)<br class=3D"">
+</span><b class=3D""><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;" class=3D""><a href=3D"x-msg://39/lfranklin@vt.edu" =
+class=3D"">lfranklin@vt.edu</a></span></b>&nbsp;
+<br class=3D"">
+<span =
+style=3D"font-size:8.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&q=
+uot;;color:green" class=3D""><br class=3D"">
+</span><img border=3D"0" width=3D"231" height=3D"66" =
+id=3D"Picture_x0020_1" alt=3D"Logo with tagline" class=3D"" =
+apple-inline=3D"yes" apple-width=3D"yes" apple-height=3D"yes" =
+src=3D"cid:image001.jpg@01D06566.15F917A0"><o:p class=3D""></o:p></p><p =
+class=3D"MsoNormal"><o:p class=3D"">&nbsp;</o:p></p><p =
+class=3D"MsoNormal"><!--[if gte vml 1]><v:shapetype id=3D"_x0000_t75" =
+coordsize=3D"21600,21600" o:spt=3D"75" o:preferrelative=3D"t" =
+path=3D"m@4@5l@4@11@9@11@9@5xe" filled=3D"f" stroked=3D"f">
+<v:stroke joinstyle=3D"miter" />
+<v:formulas>
+<v:f eqn=3D"if lineDrawn pixelLineWidth 0" />
+<v:f eqn=3D"sum @0 1 0" />
+<v:f eqn=3D"sum 0 0 @1" />
+<v:f eqn=3D"prod @2 1 2" />
+<v:f eqn=3D"prod @3 21600 pixelWidth" />
+<v:f eqn=3D"prod @3 21600 pixelHeight" />
+<v:f eqn=3D"sum @0 0 1" />
+<v:f eqn=3D"prod @6 1 2" />
+<v:f eqn=3D"prod @7 21600 pixelWidth" />
+<v:f eqn=3D"sum @8 21600 0" />
+<v:f eqn=3D"prod @7 21600 pixelHeight" />
+<v:f eqn=3D"sum @10 21600 0" />
+</v:formulas>
+<v:path o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect" =
+/>
+<o:lock v:ext=3D"edit" aspectratio=3D"t" />
+</v:shapetype><v:shape id=3D"Picture_x0020_3" o:spid=3D"_x0000_s1028" =
+type=3D"#_x0000_t75" alt=3D"hokie bird cover two" =
+style=3D'position:absolute;margin-left:58.2pt;margin-top:153pt;width:69.85=
+pt;height:91.8pt;z-index:-251656192;visibility:visible;mso-wrap-style:squa=
+re;mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;mso=
+-wrap-distance-top:0;mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:=
+0;mso-position-horizontal:absolute;mso-position-horizontal-relative:text;m=
+so-position-vertical:absolute;mso-position-vertical-relative:text;mso-widt=
+h-percent:0;mso-height-percent:0;mso-width-relative:page;mso-height-relati=
+ve:page'>
+<v:imagedata src=3D"cid:image002.png@01D06566.15F917A0" o:title=3D"hokie =
+bird cover two" />
+</v:shape><![endif]--><!--[if !vml]--><span =
+style=3D"mso-ignore:vglayout;position:absolute;z-index:251660284;margin-le=
+ft:99px;margin-top:479px;width:116px;height:153px" class=3D""><img =
+width=3D"116" height=3D"153" alt=3D"hokie bird cover two" =
+v:shapes=3D"Picture_x0020_3" class=3D"" apple-inline=3D"yes" =
+id=3D"7B2AF0DD-0BDA-48F1-A3C0-CD9D1198183E" apple-width=3D"yes" =
+apple-height=3D"yes" =
+src=3D"cid:image004.jpg@01D06566.3B6CF3D0"></span><!--[endif]--><!--[if =
+gte vml 1]><v:shape id=3D"Picture_x0020_4" o:spid=3D"_x0000_s1027" =
+type=3D"#_x0000_t75" alt=3D"hokie bird cover two" =
+style=3D'position:absolute;margin-left:58.2pt;margin-top:153pt;width:69.85=
+pt;height:91.8pt;z-index:-251655168;visibility:visible;mso-wrap-style:squa=
+re;mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;mso=
+-wrap-distance-top:0;mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:=
+0;mso-position-horizontal:absolute;mso-position-horizontal-relative:text;m=
+so-position-vertical:absolute;mso-position-vertical-relative:text;mso-widt=
+h-percent:0;mso-height-percent:0;mso-width-relative:page;mso-height-relati=
+ve:page'>
+<v:imagedata src=3D"cid:image002.png@01D06566.15F917A0" o:title=3D"hokie =
+bird cover two" />
+</v:shape><![endif]--><!--[if !vml]--><span =
+style=3D"mso-ignore:vglayout;position:absolute;z-index:251661308;margin-le=
+ft:99px;margin-top:479px;width:116px;height:153px" class=3D""><img =
+width=3D"116" height=3D"153" alt=3D"hokie bird cover two" =
+v:shapes=3D"Picture_x0020_4" class=3D"" apple-inline=3D"yes" =
+id=3D"3C6CBA74-5C30-4581-9839-8FB86CD87BEF" apple-width=3D"yes" =
+apple-height=3D"yes" =
+src=3D"cid:image004.jpg@01D06566.3B6CF3D0"></span><!--[endif]--><!--[if =
+gte vml 1]><v:shape id=3D"Picture_x0020_2" o:spid=3D"_x0000_s1026" =
+type=3D"#_x0000_t75" alt=3D"hokie bird cover two" =
+style=3D'position:absolute;margin-left:58.2pt;margin-top:153pt;width:69.85=
+pt;height:91.8pt;z-index:-251657216;visibility:visible;mso-wrap-style:squa=
+re;mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;mso=
+-wrap-distance-top:0;mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:=
+0;mso-position-horizontal:absolute;mso-position-horizontal-relative:text;m=
+so-position-vertical:absolute;mso-position-vertical-relative:text;mso-widt=
+h-percent:0;mso-height-percent:0;mso-width-relative:page;mso-height-relati=
+ve:page'>
+<v:imagedata src=3D"cid:image002.png@01D06566.15F917A0" o:title=3D"hokie =
+bird cover two" />
+</v:shape><![endif]--><!--[if !vml]--><span =
+style=3D"mso-ignore:vglayout;position:absolute;z-index:251659260;margin-le=
+ft:99px;margin-top:479px;width:116px;height:153px" class=3D""><img =
+width=3D"116" height=3D"153" alt=3D"hokie bird cover two" =
+v:shapes=3D"Picture_x0020_2" class=3D"" apple-inline=3D"yes" =
+id=3D"1DF93A3A-EBF5-4DDF-8DB5-EF5DB5830381" apple-width=3D"yes" =
+apple-height=3D"yes" =
+src=3D"cid:image004.jpg@01D06566.3B6CF3D0"></span><!--[endif]--><span =
+style=3D"font-size:8.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&q=
+uot;;color:green" class=3D"">Before
+ printing this e-mail think if it is necessary. </span><b class=3D""><span=
+ =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D""><o:p class=3D""></o:p></span></b></p><p =
+class=3D"MsoNormal"><b class=3D""><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D"">&nbsp;</span></b></p><p =
+class=3D"MsoNormal"><b class=3D""><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D"">&nbsp;</span></b></p><p =
+class=3D"MsoNormal"><b class=3D""><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D"">CONFIDENTIALITY NOTICE</span></b><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D"">: This communication contains information
+<b class=3D"">from<br class=3D"">
+Virginia Tech</b> that may be <b class=3D"">CONFIDENTIAL, LEGALLY =
+PRIVILEGED</b>,<br class=3D"">
+<b class=3D"">PROPRIETARY</b> or otherwise protected from disclosure. =
+&nbsp;If you are not the<br class=3D"">
+intended recipient, any use, disclosure, copying, distribution, =
+printing<br class=3D"">
+or any action taken in reliance on the contents of this =
+communication,<br class=3D"">
+is <b class=3D"">STRICTLY PROHIBITED.</b> &nbsp;If you <b =
+class=3D"">received this in error,</b> please contact<br class=3D"">
+the sending party at the above telephone number and </span><b =
+class=3D""><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:red" class=3D"">shred,
+<br class=3D"">
+delete or otherwise destroy</span></b><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D" class=3D""> this
+<b class=3D"">email or attached information or both</b>.</span><span =
+style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;" class=3D"">=
+
+</span><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;" class=3D""><o:p class=3D""></o:p></span></p><p =
+class=3D"MsoNormal"><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;" class=3D"">In addition, you cannot reproduce, republish or =
+redistribute any materials
+<o:p class=3D""></o:p></span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;" class=3D"">within this email for educational purposes, public =
+opinion, or&nbsp; to parties not
+<o:p class=3D""></o:p></span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;" class=3D"">related to its purpose without the written consent of =
+the author.<o:p class=3D""></o:p></span></p><p class=3D"MsoNormal" =
+style=3D"margin-bottom:12.0pt"><span style=3D"font-size:7.0pt" =
+class=3D"">&nbsp;</span></p><p class=3D"MsoNormal"><o:p =
+class=3D"">&nbsp;</o:p></p>
+</div>
+</div>
+
+</div></blockquote></div><br class=3D""></body></html>=
+
+--Apple-Mail=_F2F08C53-7DD9-4BC7-8403-AD04A189282A
+Content-Transfer-Encoding: base64
+Content-Disposition: inline;
+	filename=image001.jpg
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Id: <image001.jpg@01D06566.15F917A0>
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABCAOcDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiis
+DUPFcNlr8ekJbTTXUib124AxQVGLlojforkL/wCIVvpjlbvTryMAld2ARkVNpvjhNVZBaaZdsHOF
+ZsAHv1oL9hUSvbQ6misDQvFlvrtxewwwSxyWZxIG5yfQVhT/ABb0e2vHtJrS+S4RtpiMXzZ+lBEo
+uLtI7yisfT9fOoaZNef2feQiIZEUkeHfjsKwB8UtNGqRadJY38V3K4RYpIsNz3+lBJ29FULDWrDV
+Li4hsrlJntm2ShDnafSr1AC0UlFAC0VR1TWLHRrdZ9RuUgjZgilj1J7CriOHUMvIIyKAHUUmaKAF
+orPOt2A1hdL+1Rm+ZS/kg/NgdzV4HigB1FRTzLb28kzfdjUscegrjLT4pafqG42Om6lcqpKlooCQ
+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
+--Apple-Mail=_F2F08C53-7DD9-4BC7-8403-AD04A189282A
+Content-Transfer-Encoding: base64
+Content-Disposition: inline;
+	filename=image004.jpg
+Content-Type: image/jpeg;
+	name="image004.jpg"
+Content-Id: <image004.jpg@01D06566.3B6CF3D0>
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCACZAHQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiii
+gAooooAKill2KdhUsD0JxUhyFOBk9hWdMr5eSeEqp64cHk4AA/SkxogaK+Z2zMQScgCbpz9K0bV5
+PKAnZNw44bOapGezaRvMuUB3Z246H0NQLfW4dZIjGw67XcKR+FTdLqXaUtLG5RUcEy3EKyIQQfQ5
+FSVZmFFFFABRRRQAUUUUAFFFFABRRRQAVkyXd3IXikgQpnqEft0Na1ZuowiN4HiOxnmCsTzkHOfp
+SZcEm7GTBq8M277TZq5VVkJjQDBCqWye/wAx/KmW2swJau81nG8sYDMyRoAOmAOeTmiLUre3V1W0
+W3WRUl2qwO4Ejv7g/wA6c2sxK/7qPywQNygq3rnGfwqLo3WGq9ja0i7+2W0kilTGJSE2gDC8Efjz
+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
+--Apple-Mail=_F2F08C53-7DD9-4BC7-8403-AD04A189282A--
+
+--Apple-Mail=_5A9B628D-9607-413E-912D-A9E28D3D44CC--

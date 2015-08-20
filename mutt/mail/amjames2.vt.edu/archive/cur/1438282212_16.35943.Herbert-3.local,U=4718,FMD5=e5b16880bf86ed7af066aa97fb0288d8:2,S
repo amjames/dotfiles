@@ -1,0 +1,410 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1394318qge;
+        Wed, 4 Mar 2015 06:08:58 -0800 (PST)
+X-Received: by 10.140.106.72 with SMTP id d66mr5780680qgf.60.1425478138300;
+        Wed, 04 Mar 2015 06:08:58 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 13si3543769qhv.28.2015.03.04.06.08.58
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Mar 2015 06:08:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.179 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f179.google.com (mail-ie0-f179.google.com [209.85.223.179])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t24E8piX002769
+	for <amjames2@vt.edu>; Wed, 4 Mar 2015 09:08:57 -0500
+Received: by iebtr6 with SMTP id tr6so67269083ieb.10
+        for <amjames2@vt.edu>; Wed, 04 Mar 2015 06:08:51 -0800 (PST)
+X-Received: by 10.51.17.40 with SMTP id gb8mr11287467igd.44.1425478131668;
+        Wed, 04 Mar 2015 06:08:51 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1361579ieb;
+        Wed, 4 Mar 2015 06:08:50 -0800 (PST)
+X-Received: by 10.140.28.36 with SMTP id 33mr5916814qgy.6.1425478130040;
+        Wed, 04 Mar 2015 06:08:50 -0800 (PST)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id 26si1764067qkp.82.2015.03.04.06.08.49
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Mar 2015 06:08:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr5.cc.vt.edu (mr5.cc.vt.edu [198.82.141.27] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t24E8n9K009620
+	for <andrew.m.james2@gmail.com>; Wed, 4 Mar 2015 09:08:49 -0500
+Received: from mail-ig0-f173.google.com (mail-ig0-f173.google.com [209.85.213.173])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t24E8heV002396
+	for <andrew.m.james2@gmail.com>; Wed, 4 Mar 2015 09:08:48 -0500
+Received: by igdh15 with SMTP id h15so36831873igd.3
+        for <andrew.m.james2@gmail.com>; Wed, 04 Mar 2015 06:08:43 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=UBLtvNioyRHEHarkRbfZY4WFpt9IzBWzts8W24CWSJ4=;
+        b=e1PHjabKonIsXYMpx3tAbrxK0REV6y5BxzO/hAEBa6qqvrAeiwGGI8r3aOOAAlTvJT
+         7qfG12xD7QXCbgP3BZdj4ctuXHvueVMqCQ8TG1KnMOL5Vb4LS+9r2lx7yr8/WaFVRaez
+         WOd6024srDBSGlGeoxfR7ZHPRSZwlusWsJFvuyl3ZGMF5Iuzff0cEEIlYa9OhqtoNE/F
+         dBSrhkKDSElO1TYVPV1q/9A3gaIIlri84OVS8RPAW93Tprubz1yoMt931dRsDm06lrWC
+         zE6uqHl7vVRR1Wsk/8/uG5MToQpcrCcP7XWBKhnjehqfDK/VDQeiF85Ce8ohusbVr34b
+         QKdA==
+X-Gm-Message-State: ALoCoQmg/fT5JN7GS6jbLeEvMuylh117WGXMdzIg94j84+776S8p3vi09ETaoXSlv1tvubRBEmgR+1KvDIF0zJBuFcMS9/epjomcP+m3Uzsd/u0LpCDT28/J7NU4k61J1kCM+0uNn8LEjsaIVTOzORaVyk5Hcb554A==
+X-Received: by 10.107.165.21 with SMTP id o21mr11062789ioe.84.1425478123677;
+        Wed, 04 Mar 2015 06:08:43 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.165.21 with SMTP id o21mr11062763ioe.84.1425478123533;
+ Wed, 04 Mar 2015 06:08:43 -0800 (PST)
+Received: by 10.107.135.36 with HTTP; Wed, 4 Mar 2015 06:08:43 -0800 (PST)
+In-Reply-To: <02EC0198-5FD0-452C-A4E2-4120D93EF0D3@gmail.com>
+References: <CAH0V_1b3ZcySvfciZfbBbH9COYyuxQ5UnDxPYf3wD6mEFafGCw@mail.gmail.com>
+	<389FAD50-A70D-4918-B0DF-25F01F003C78@gmail.com>
+	<CAH0V_1YCDDFRcVC0Z61SS+9=iB7y-O2cwSG-58p6zu0ceea_ZQ@mail.gmail.com>
+	<6E502610-B28A-4435-B134-682B4EC37D17@gmail.com>
+	<CAH0V_1YKQwkVHRWFT6EC=QE38dAT0gs10Ae54ax7_96nJWO5RQ@mail.gmail.com>
+	<20BB9D8C-B98F-44CC-8E83-EAA94649F50E@gmail.com>
+	<CAH0V_1YPJBVoHwkEk03t+cucEeU3PUX0+oHpaTAOG1uCk2Z2Ww@mail.gmail.com>
+	<9D698935-2FEC-4131-81E9-82294D2D85B2@gmail.com>
+	<CAH0V_1YuJVmSppksnSN6R3ztDLnGhDfCT4i8pNaYcj2kN+XMoQ@mail.gmail.com>
+	<CB55FA0E-B04D-4CD0-A8B2-93EDC3B65321@gmail.com>
+	<CAH0V_1aMqJYJS2TXjNc-XTdiqfwuMDLJ1m8CyBMBzq5ptdfhZA@mail.gmail.com>
+	<02EC0198-5FD0-452C-A4E2-4120D93EF0D3@gmail.com>
+Date: Wed, 4 Mar 2015 09:08:43 -0500
+Message-ID: <CAH0V_1bLbLM36j38bJrBJSj6L8DSRni37qvQC6rNMnVtTG71EQ@mail.gmail.com>
+Subject: Re: blueridge builds
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Cc: Roberto Di Remigio <roberto.diremigio@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1141cfea3047a2051076fd29
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141cfea3047a2051076fd29
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+It's very strange that the setup script is (appears to be) the source of
+your troubles.  I'm copying this to Roberto to see if this sounds familiar
+to him.
+
+Roberto, AJ (new student in my group) is trying to build on a machine where
+I can build with no problems.  He can do so if he bypasses the setup script
+and executes the cmake command directly.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Mar 3, 2015 at 9:31 PM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Dr. Crawford,
+>
+> Just a quick update on my situation (good news). I was able to get most o=
+f
+> the way through the build using the system python, but it failed in the
+> final step. I built my own version of python in my home directory and it
+> was still not getting past the setup script, I was getting the same unusu=
+al
+> message as I did with your python earlier. I decided to try calling cmake
+> directly and skip the python script.
+>
+> It worked perfectly fine and I am just baffled.
+>
+> I am running the tests overnight and I will let you know if anything
+> fails. I also saved the cmake command in a textfile for the future.
+>
+> On Mar 3, 2015, at 3:38 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Jean is about to come see me about  some paperwork.  Why don't you come,
+> too, and I'll see if I can help.
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Tue, Mar 3, 2015 at 3:37 PM, Andrew James <andrew.m.james2@gmail.com>
+> wrote:
+>
+>> I am back from class. I was tinkering with it while in class but I didn=
+=E2=80=99t
+>> make any progress.
+>>
+>> On Mar 3, 2015, at 1:49 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> No, don't skip class.  We can work on this later.
+>>
+>> -TDC
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Tue, Mar 3, 2015 at 1:40 PM, Andrew James <andrew.m.james2@gmail.com>
+>> wrote:
+>>
+>>> I am supposed to have class at 2pm. If  this is the only time you can
+>>> meet me I could miss class and get the notes from someone else.
+>>>
+>>> =E2=80=94AJ
+>>>
+>>> On Mar 3, 2015, at 1:38 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>>
+>>> Can you come over to my office so I can try to help you debug this?
+>>>
+>>> -TDC
+>>>
+>>> --
+>>> Prof. T. Daniel Crawford
+>>> crawdad@vt.edu
+>>>
+>>> On Tue, Mar 3, 2015 at 1:30 PM, Andrew James <andrew.m.james2@gmail.com=
+>
+>>> wrote:
+>>>
+>>>> Yes I am able to run the python in your area after removing the python
+>>>> module. I am confused also this does not make any sense at all. Last t=
+ime I
+>>>> build on Blueridge I was able to use the system python as well
+>>>>
+>>>> On Mar 3, 2015, at 1:25 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>>>
+>>>> This doesn't make any sense.  Can you run the python my area at all
+>>>> (after removing the python module)?
+>>>>
+>>>> -TDC
+>>>>
+>>>> --
+>>>> Prof. T. Daniel Crawford
+>>>> crawdad@vt.edu
+>>>>
+>>>> On Tue, Mar 3, 2015 at 1:15 PM, Andrew James <andrew.m.james2@gmail.co=
+m
+>>>> > wrote:
+>>>>
+>>>>> 1) intel/13.1 3)mkl/11 5)python/2.7.2
+>>>>> 2)mvapich2/1.9a2   4) gaussian/09.A_02
+>>>>>
+>>>>> I also tried removing the python module, in that case it fails before
+>>>>> finding the interpreter at all.
+>>>>>
+>>>>> =E2=80=94AJ
+>>>>>
+>>>>> On Mar 3, 2015, at 1:12 PM, T. Daniel Crawford <crawdad@vt.edu> wrote=
+:
+>>>>>
+>>>>> What's your module list?
+>>>>>
+>>>>> -TDC
+>>>>>
+>>>>> --
+>>>>> Prof. T. Daniel Crawford
+>>>>> crawdad@vt.edu
+>>>>>
+>>>>> On Tue, Mar 3, 2015 at 1:10 PM, Andrew James <
+>>>>> andrew.m.james2@gmail.com> wrote:
+>>>>>
+>>>>>> Dr. Crawford,
+>>>>>>
+>>>>>> I tried using that command, the configuration fails immediately afte=
+r
+>>>>>> locating the python interpreter. Comparing my
+>>>>>> setup_cmake_output file to yours in the most recently changed build
+>>>>>> directory I could find (built on Saturday). It looks like once the
+>>>>>> interpreter is found the python library should be found next. Mine n=
+ever
+>>>>>> gets to that step.
+>>>>>>
+>>>>>> Would it be useful for me to build my own python in my home
+>>>>>> directory?
+>>>>>>
+>>>>>> =E2=80=94AJ
+>>>>>>
+>>>>>> On Mar 3, 2015, at 1:05 PM, T. Daniel Crawford <crawdad@vt.edu>
+>>>>>> wrote:
+>>>>>>
+>>>>>> AJ,
+>>>>>>
+>>>>>> To build PSI4 on blueridge, I'm using a boost library and python tha=
+t
+>>>>>> I compiled in my own area.  Here's my setup:
+>>>>>>
+>>>>>> ./setup --prefix=3D$HOME/psi4 --cc=3Dicc --cxx=3Dicpc --fc=3Difort
+>>>>>> --boost-incdir=3D~crawdad/boost/include --boost-libdir=3D~crawdad/bo=
+ost/lib
+>>>>>> --python=3D~crawdad/bin/python --type=3Drelease build
+>>>>>>
+>>>>>> See if that works for you.  If should not need to build the boost
+>>>>>> library distributed with PSI4.
+>>>>>>
+>>>>>> -TDC
+>>>>>> --
+>>>>>> Prof. T. Daniel Crawford
+>>>>>> crawdad@vt.edu
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+--001a1141cfea3047a2051076fd29
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">It&#39;s very strange that the setup script is (appears to=
+ be) the source of your troubles.=C2=A0 I&#39;m copying this to Roberto to =
+see if this sounds familiar to him.<div><br></div><div>Roberto, AJ (new stu=
+dent in my group) is trying to build on a machine where I can build with no=
+ problems.=C2=A0 He can do so if he bypasses the setup script and executes =
+the cmake command directly.<br><div><br></div><div>-TDC</div></div></div><d=
+iv class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signatu=
+re"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div=
+></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 9:31 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Dr. Crawford,=C2=A0<=
+div><br></div><div>Just a quick update on my situation (good news). I was a=
+ble to get most of the way through the build using the system python, but i=
+t failed in the final step. I built my own version of python in my home dir=
+ectory and it was still not getting past the setup script, I was getting th=
+e same unusual message as I did with your python earlier. I decided to try =
+calling cmake directly and skip the python script.=C2=A0</div><div><br></di=
+v><div>It worked perfectly fine and I am just baffled.=C2=A0</div><div><br>=
+</div><div>I am running the tests overnight and I will let you know if anyt=
+hing fails. I also saved the cmake command in a textfile for the future.=C2=
+=A0</div><div><div class=3D"h5"><div><div><blockquote type=3D"cite"><div>On=
+ Mar 3, 2015, at 3:38 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@=
+vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div =
+dir=3D"ltr">Jean is about to come see me about =C2=A0some paperwork.=C2=A0 =
+Why don&#39;t you come, too, and I&#39;ll see if I can help.<div><br></div>=
+<div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div=
+><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mail=
+to:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></=
+div>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 3:37 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">I am back from class=
+. I was tinkering with it while in class but I didn=E2=80=99t make any prog=
+ress.=C2=A0<div><div><br><div><blockquote type=3D"cite"><div>On Mar 3, 2015=
+, at 1:49 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" targ=
+et=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">=
+No, don&#39;t skip class.=C2=A0 We can work on this later.<div><br></div><d=
+iv>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div><=
+div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto=
+:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></di=
+v>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 1:40 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">I am supposed to hav=
+e class at 2pm. If =C2=A0this is the only time you can meet me I could miss=
+ class and get the notes from someone else.=C2=A0<span><font color=3D"#8888=
+88"><div><br></div></font></span><div><span><font color=3D"#888888">=E2=80=
+=94AJ=C2=A0</font></span><div><div><br><div><blockquote type=3D"cite"><div>=
+On Mar 3, 2015, at 1:38 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><di=
+v dir=3D"ltr">Can you come over to my office so I can try to help you debug=
+ this?<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br cl=
+ear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div=
+><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a=
+></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 1:30 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Yes I am able to run=
+ the python in your area after removing the python module. I am confused al=
+so this does not make any sense at all. Last time I build on Blueridge I wa=
+s able to use the system python as well=C2=A0<div><div><div><div><blockquot=
+e type=3D"cite"><div>On Mar 3, 2015, at 1:25 PM, T. Daniel Crawford &lt;<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wro=
+te:</div><br><div><div dir=3D"ltr">This doesn&#39;t make any sense.=C2=A0 C=
+an you run the python my area at all (after removing the python module)?<di=
+v><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"al=
+l"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></=
+div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 1:15 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">1) intel/13.1<span s=
+tyle=3D"white-space:pre-wrap">		</span>3)mkl/11<span style=3D"white-space:p=
+re-wrap">				</span>5)python/2.7.2=C2=A0<div><div>2)mvapich2/1.9a2 =C2=A0 4=
+) gaussian/09.A_02=C2=A0</div><div><br></div><div>I also tried removing the=
+ python module, in that case it fails before finding the interpreter at all=
+.=C2=A0</div><span><font color=3D"#888888"><div><br></div></font></span><di=
+v><span><font color=3D"#888888">=E2=80=94AJ=C2=A0</font></span><div><div><b=
+r><div><blockquote type=3D"cite"><div>On Mar 3, 2015, at 1:12 PM, T. Daniel=
+ Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@v=
+t.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">What&#39;s your module =
+list?<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br cle=
+ar=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div>=
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 3, 2015 at 1:10 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Dr. Crawford,=C2=A0<=
+div><br></div><div>I tried using that command, the configuration fails imme=
+diately after locating the python interpreter. Comparing my=C2=A0</div><div=
+>setup_cmake_output file to yours in the most recently changed build direct=
+ory I could find (built on Saturday). It looks like once the interpreter is=
+ found the python library should be found next. Mine never gets to that ste=
+p.=C2=A0</div><div><br></div><div>Would it be useful for me to build my own=
+ python in my home directory?=C2=A0</div><span><font color=3D"#888888"><div=
+><br></div><div>=E2=80=94AJ=C2=A0</div></font></span><div><div><div><div><b=
+lockquote type=3D"cite"><div>On Mar 3, 2015, at 1:05 PM, T. Daniel Crawford=
+ &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+&gt; wrote:</div><br><div><div dir=3D"ltr">AJ,<div><br></div><div>To build =
+PSI4 on blueridge, I&#39;m using a boost library and python that I compiled=
+ in my own area.=C2=A0 Here&#39;s my setup:</div><div><br></div><div>./setu=
+p --prefix=3D$HOME/psi4 --cc=3Dicc --cxx=3Dicpc --fc=3Difort --boost-incdir=
+=3D~crawdad/boost/include --boost-libdir=3D~crawdad/boost/lib --python=3D~c=
+rawdad/bin/python --type=3Drelease build</div><div><br></div><div>See if th=
+at works for you.=C2=A0 If should not need to build the boost library distr=
+ibuted with PSI4.</div><div><br></div><div>-TDC<br clear=3D"all"><div><div>=
+<div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailt=
+o:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></d=
+iv>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></div></blockquote></d=
+iv><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></blockquote></div><br></div=
+>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a1141cfea3047a2051076fd29--

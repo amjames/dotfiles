@@ -1,0 +1,65 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp203943qgt;
+        Sun, 15 Feb 2015 13:25:14 -0800 (PST)
+X-Received: by 10.140.104.207 with SMTP id a73mr578211qgf.13.1424035514645;
+        Sun, 15 Feb 2015 13:25:14 -0800 (PST)
+Return-Path: <lfmarcel@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id a104si11662050qgf.64.2015.02.15.13.25.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 15 Feb 2015 13:25:14 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning lfmarcel@vt.edu does not designate 74.125.82.52 as permitted sender) client-ip=74.125.82.52;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning lfmarcel@vt.edu does not designate 74.125.82.52 as permitted sender) smtp.mail=lfmarcel@vt.edu
+Received: from mail-wg0-f52.google.com (mail-wg0-f52.google.com [74.125.82.52])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1FLP8jK003343
+	for <Amjames2@vt.edu>; Sun, 15 Feb 2015 16:25:14 -0500
+Received: by mail-wg0-f52.google.com with SMTP id x12so16206099wgg.11
+        for <Amjames2@vt.edu>; Sun, 15 Feb 2015 13:25:08 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=MjKsjMz7U8dorOrtwkl0PTx8hofGXJZt9kKfkLi8nAc=;
+        b=TZgz+qOwgidflUf1RnOV40ClEEAgg4UTTlCI2zD837bNOcFYLwsCazzJQNNTlZ5p37
+         2FW1ZLqYmM2WVjJOxAroEQGmCNUVXRU90jabuc4rfyWgaEJDaSeuHEqzQnPGV7CXxCdj
+         6Fco+HWf9vleb7d5HJdhkGaseGRlOBqG5lpm+GVYGSXwQ4DscdYZZjr6ONKqtbBfoaSB
+         blL+Do73JJnU8TeYkjDRHM33MVdkdTFywo0w4chKqhpvNW3CHkS0mpbUIcTVA3/GO0g7
+         uWHeykBBbgSpYefWwP8eX9YPxY4NMp777eRoorjFZfto6JelOpxJuPwmAMfyvpCOAHW0
+         VeBg==
+X-Gm-Message-State: ALoCoQm4F8kF4KNG31TSGrNjX8Qtk66NIu/aGNZ9aVAyRlvIhxd1V0ZonGs8LpcDqYsUemVcge41v93HXxeLXH2RBeDUFO42xuSdKOxyYouP6ElT9gyAs65Kw8j6FrLK3T2VR2ApKZxrXBsDx4oyp+ZTmwC5D6F5Tw==
+X-Received: by 10.194.75.193 with SMTP id e1mr29727511wjw.126.1424035508770;
+        Sun, 15 Feb 2015 13:25:08 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.194.75.193 with SMTP id e1mr29727506wjw.126.1424035508709;
+ Sun, 15 Feb 2015 13:25:08 -0800 (PST)
+Received: by 10.27.85.144 with HTTP; Sun, 15 Feb 2015 13:25:08 -0800 (PST)
+Date: Sun, 15 Feb 2015 16:25:08 -0500
+Message-ID: <CAADbyii+LLMyFpNveAC2ObVzg9r4cpqYdb3CDpkQDthhkg1_Tg@mail.gmail.com>
+Subject: Virtlab activation key
+From: Marcel Ferreiro <lfmarcel@vt.edu>
+To: Andrew James <Amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bb03ea8a50436050f271a26
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bb03ea8a50436050f271a26
+Content-Type: text/plain; charset=UTF-8
+
+Hey Andrew, how's it going?
+
+I don't remember the activation key for Virtlab, do you know where to find
+it?
+
+--047d7bb03ea8a50436050f271a26
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">Hey Andrew, how&#39;s it going?<div><br></div><div>I don&#39;t remember the activation key for Virtlab, do you know where to find it?</div></div>
+
+--047d7bb03ea8a50436050f271a26--

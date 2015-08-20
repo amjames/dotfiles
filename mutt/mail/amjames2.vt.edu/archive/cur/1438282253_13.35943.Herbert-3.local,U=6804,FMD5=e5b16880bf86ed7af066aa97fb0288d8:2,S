@@ -1,0 +1,140 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2115040qgt;
+        Tue, 28 Apr 2015 08:34:22 -0700 (PDT)
+X-Received: by 10.55.23.16 with SMTP id i16mr20570779qkh.14.1430235262469;
+        Tue, 28 Apr 2015 08:34:22 -0700 (PDT)
+Return-Path: <noreply@qemailserver.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id w7si18796371qcg.19.2015.04.28.08.34.22
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 08:34:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@qemailserver.com designates 192.41.90.176 as permitted sender) client-ip=192.41.90.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@qemailserver.com designates 192.41.90.176 as permitted sender) smtp.mail=noreply@qemailserver.com;
+       dkim=pass (test mode) header.i=@qemailserver.com
+Received: from smtp17.ut1.qprod.net (devry.qemailserver.com [192.41.90.176])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SFYGmL006784
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 11:34:21 -0400
+Received: from mailer1.ut1.qprod.net (qlb1.ut1.qprod.net [10.200.110.1])
+	by smtp17.ut1.qprod.net (Postfix) with ESMTP id 7D0B6FFECD
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 09:34:15 -0600 (MDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=qemailserver.com;
+	s=qualtrics; t=1430235255;
+	bh=BZi4/8cI9vjVsluiE7exnNg1e8uKKe1LeUYnwmbLCME=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=t4vQc38tGMYoiWLNW3gHhhtGos/sC6utWDf6JtitLH8n3NoH08+DNmEFlgmQN22Ks
+	 JPCaRtxlwPz4++cDOnM1z190zNyi/O7U+u6Cc/0EQyKT6U22h/yoTIJcovRc8XLBiU
+	 Y56fb+Pzg2dBvzWpXSJ+uyECu6o4qllNwa3t29tY=
+Date: Tue, 28 Apr 2015 09:34:15 -0600 (MDT)
+From: Qualtrics <noreply@qemailserver.com>
+Sender: Qualtrics <noreply@qemailserver.com>
+Reply-To: Qualtrics <admin@qualtrics.com>
+To:  <amjames2@vt.edu>
+Message-ID: <1647817744.458871.1430235255518.JavaMail.dev@mailer1.ut1.qprod.net>
+Subject: Please verify your new Qualtrics account
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_458866_29334309.1430235255506"
+X-QUMID: null-EID
+List-Unsubscribe: <mailto:abuse@qemailserver.com>
+X-Spam-Status: No, score=1.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_24,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_458866_29334309.1430235255506
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_458867_1247976200.1430235255506"
+
+------=_Part_458867_1247976200.1430235255506
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Thank you for registering with Qualtrics
+
+To ensure your privacy and security, Qualtrics requires all users to confirm their registration request before using our service.
+
+Copy and paste the following URL into your browser to activate your account:\n
+https://qtrial2015az1.az1.qualtrics.com/WRQualtricsControlPanel/Register.php?Activate&VerifyCode=VC_0dfN0LQBM0178sl&BrandID=qtrial2015az1&UserID=UR_1UlS6DRHg7rH05D
+
+Your user name will be your email address:
+
+amjames2@vt.edu
+
+Please use this email address to log in.
+
+Thanks!
+The Qualtrics Team
+------=_Part_458867_1247976200.1430235255506
+Content-Type: multipart/related; 
+	boundary="----=_Part_458868_263213151.1430235255506"
+
+------=_Part_458868_263213151.1430235255506
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+<!--Qualtrics Corp-->
+<table style='width:550px;' align='center' border ='0' cellpadding='0' cellspacing='0'>
+	<tr>
+		<td>
+			<a href='http://www.qualtrics.com' target='_blank'><img border=0 src='https://qtrial2015az1.az1.qualtrics.com/WRQualtricsShared/Graphics/emailLogo.png'/></a>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding: 10px; font-size:12px">
+			<style>
+	a,a:hover{
+		color:#86171B;
+		text-decoration: none;
+	}
+</style>
+<div style="text-align:center; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; color:#808080;">
+	<h2 style="color:#4D4D4D; font-size:22px;">Thank you for registering with Qualtrics!</h2>
+	<p>
+		To ensure your privacy and security, Qualtrics requires all users to<br />
+		confirm their registration request before using our service.
+		<br />
+		<a href="https://qtrial2015az1.az1.qualtrics.com/WRQualtricsControlPanel/Register.php?Activate&amp;VerifyCode=VC_0dfN0LQBM0178sl&amp;BrandID=qtrial2015az1&amp;UserID=UR_1UlS6DRHg7rH05D" style="font-size:17px; color:#86171B; text-decoration:none; line-height:100px;">Please click here to confirm your request</a>
+		<br />
+		Your user name will be your email address:
+		<br />
+		<span style="color:#86171B; text-decoration: none; line-height:30px;">amjames2@vt.edu</span>
+		<br />
+		Please use this email address to log in.
+		<br /><br />
+		Thanks!
+		<br />
+		The Qualtrics Team
+	</p>
+	<p style="font-size:8px;">
+		<br />
+		Note: If you are unable to click on the link above, please paste the following URL into the address bar of your web browser:
+		<br />
+		<span style="color: #86171B; text-decoration: none; width: 400px;">https://qtrial2015az1.az1.qualtrics.com/WRQualtricsControlPanel/Register.php?Activate&VerifyCode=VC_0dfN0LQBM0178sl&BrandID=qtrial2015az1&UserID=UR_1UlS6DRHg7rH05D</span>
+	</p>
+	<br />
+	 <p style="font-size:8px; color:#4D4D4D;">
+		<a href="http://www.qualtrics.com" style="color:#4D4D4D; text-decoration:none;">www.qualtrics.com</a>  |  1.800.340.9194
+	 </p>
+</div>
+		</td>
+	</tr>
+	<tr style='background-color:#505052; color:white;'>
+		<td>
+			<img border=0 src='https://qtrial2015az1.az1.qualtrics.com/WRQualtricsShared/Graphics/emailFooter.gif' />
+		</td>
+	</tr>
+</table>
+</html>
+------=_Part_458868_263213151.1430235255506--
+
+------=_Part_458867_1247976200.1430235255506--
+
+------=_Part_458866_29334309.1430235255506--

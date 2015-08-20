@@ -1,0 +1,268 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1147083qge;
+        Fri, 13 Mar 2015 14:09:29 -0700 (PDT)
+X-Received: by 10.140.22.8 with SMTP id 8mr60885153qgm.72.1426280969732;
+        Fri, 13 Mar 2015 14:09:29 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id l8si3003002qcg.46.2015.03.13.14.09.29
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 14:09:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL9NYb012852
+	for <amjames2@vt.edu>; Fri, 13 Mar 2015 17:09:29 -0400
+Received: by ieclw3 with SMTP id lw3so127083906iec.2
+        for <amjames2@vt.edu>; Fri, 13 Mar 2015 14:09:23 -0700 (PDT)
+X-Received: by 10.50.87.42 with SMTP id u10mr81650766igz.31.1426280963821;
+        Fri, 13 Mar 2015 14:09:23 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1078579ieb;
+        Fri, 13 Mar 2015 14:09:22 -0700 (PDT)
+X-Received: by 10.55.23.208 with SMTP id 77mr19334533qkx.21.1426280962737;
+        Fri, 13 Mar 2015 14:09:22 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id m100si3011424qkh.79.2015.03.13.14.09.22
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 14:09:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr3.cc.vt.edu (mr3.cc.vt.edu [198.82.141.68] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL9Mkm000972
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 17:09:22 -0400
+Received: from mail-ie0-f172.google.com (mail-ie0-f172.google.com [209.85.223.172])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL9GO6012661
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 17:09:22 -0400
+Received: by ieclw3 with SMTP id lw3so127079171iec.2
+        for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 14:09:16 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=8bkejrZYGq4BImcXtaH3MxDy+15GXMqy1VOchl0pfDU=;
+        b=YRI9YNugZmvfjTuCmKqN5YoRZkRZ65ozs+Z0Q9NrKXN46fLYFNt7SaPpD5ut60I3OC
+         /H75YHbpHti+vUEAI6OnlvXWFuLwJe2LIeRozRieX5yo83bCTU286cUyJ4OQdOM8amWA
+         earpEXps+Yde0vDeyi3twl7IUOXrTpDxYS40/CB4fRdpjbzH3HV6+IoE9b2o/glPV+O8
+         P5lnyIXx2HE6NQ9nS38E760XmPcRBqu/Dz9XUkUoKLoTcsqwezuewLby9vOEbKqn1k5R
+         uGw+JAA2UiR1Gq1pGUOSp/Bb7txP0W8BIWQSS5q7gQJNks9hV9riyFVTNALaBZzO1uP4
+         rqIA==
+X-Gm-Message-State: ALoCoQlRZ+iXfco2WzospqlI5U5ouPNuMA7/GsOPNNcvEpDhs2DDRN1H1DDvouKo8Bhn12yP/SC03mpkXMyLlS1xRC+VnzskPfGkt5j47g3OQmlcY7fqXb4eQZMnof7lato5Bof80GnZbU0XUBWUqy3+PJ91ny5BBg==
+X-Received: by 10.107.166.11 with SMTP id p11mr1239635ioe.30.1426280956853;
+        Fri, 13 Mar 2015 14:09:16 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.11 with SMTP id p11mr1239614ioe.30.1426280956698;
+ Fri, 13 Mar 2015 14:09:16 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Fri, 13 Mar 2015 14:09:16 -0700 (PDT)
+In-Reply-To: <F7A6E265-E83E-48E7-A202-6DB7EC2535E1@uit.no>
+References: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+	<F7A6E265-E83E-48E7-A202-6DB7EC2535E1@uit.no>
+Date: Fri, 13 Mar 2015 17:09:16 -0400
+Message-ID: <CAH0V_1ZHYYrv61fzbDxLHR_wNoynVEBKro5v9NenFxJagnCDxw@mail.gmail.com>
+Subject: Re: Molecular Response Property Summer School Website!
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Ruud Kenneth <kenneth.ruud@uit.no>
+Cc: Trond Saue <trond.saue@irsamc.ups-tlse.fr>,
+        Patrick Norman <johan.patrick.norman@gmail.com>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1141f104c63ca7051131e9f2
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141f104c63ca7051131e9f2
+Content-Type: text/plain; charset=UTF-8
+
+I don't know if we can split the registration structure in such a way.  (I
+don't have control over the credit card system; I've delegated that to the
+VT conference services.)  The price of $550 per student covers their
+housing, meals, and instructional costs entirely, which seems pretty
+reasonable to me.  If additional funding were to come in, could that be
+applied to covering your travel expenses and then carried over to a future
+school?
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Mar 13, 2015 at 5:06 PM, Ruud Kenneth <kenneth.ruud@uit.no> wrote:
+
+>  Dear Daniel,
+>
+>  I think this looks great, and many thanks to Andrew for an excellent
+> job! I have found our old schedule which we can try to adapt in part based
+> on experiences from the previous winter school, and to include lectures
+> from Daniel.
+>
+>  Since funding will not be clarified by Monday, should be split into
+> pre-registration and full registration with payment, and for the time being
+> limit ourselves to suggest a price?
+>
+>
+>  Kenneth
+>
+>     Kenneth Ruud
+> Prorector of Research, UiT - The Arctic University of Norway
+> Telephone: +47 77623101
+> http://www.ctcc.no/people/senior-scientists/ruud/index.html
+>
+>  On Mar 13, 2015, at 8:59 PM, T. Daniel Crawford wrote:
+>
+>  Dear Trond, Patrick, and Kenneth,
+>
+>  Thanks to the efforts of my student, AJ, the website for the summer
+> school is up and running:
+>
+>  http://www.theory.chem.vt.edu/response/index.html
+>
+>  We still need to fill out the agenda and specific information for
+> students, but we'll have that ready by Monday when I would like to send out
+> an advertisement.  Please take a look and let me know if you'd like changes.
+>
+>  -Daniel
+>
+>  P.S. Before you ask, yes, we used the same web template as the new
+> Dalton site. :)
+>
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+
+--001a1141f104c63ca7051131e9f2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I don&#39;t know if we can split the registration structur=
+e in such a way. =C2=A0(I don&#39;t have control over the credit card syste=
+m; I&#39;ve delegated that to the VT conference services.) =C2=A0The price =
+of $550 per student covers their housing, meals, and instructional costs en=
+tirely, which seems pretty reasonable to me.=C2=A0 If additional funding we=
+re to come in, could that be applied to covering your travel expenses and t=
+hen carried over to a future school?<div><br></div><div>-Daniel</div></div>=
+<div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signa=
+ture"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D=
+"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></d=
+iv></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 5:06 PM, Ruud Kennet=
+h <span dir=3D"ltr">&lt;<a href=3D"mailto:kenneth.ruud@uit.no" target=3D"_b=
+lank">kenneth.ruud@uit.no</a>&gt;</span> wrote:<br><blockquote class=3D"gma=
+il_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-lef=
+t:1ex">
+
+
+
+<div style=3D"word-wrap:break-word">
+Dear Daniel,
+<div><br>
+</div>
+<div>I think this looks great, and many thanks to Andrew for an excellent j=
+ob! I have found our old schedule which we can try to adapt in part based o=
+n experiences from the previous winter school, and to include lectures from=
+ Daniel.=C2=A0</div>
+<div><br>
+</div>
+<div>Since funding will not be clarified by Monday, should be split into pr=
+e-registration and full registration with payment, and for the time being l=
+imit ourselves to suggest a price?</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>Kenneth</div><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><div><span class=3D"HOEnZb"><font color=3D"#888888"><br>
+<div><span style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:H=
+elvetica;font-style:normal;font-variant:normal;font-weight:normal;letter-sp=
+acing:normal;line-height:normal;text-align:-webkit-auto;text-indent:0px;tex=
+t-transform:none;white-space:normal;word-spacing:0px;font-size:medium"><spa=
+n style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:Helvetica;=
+font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:nor=
+mal;line-height:normal;text-align:-webkit-auto;text-indent:0px;text-transfo=
+rm:none;white-space:normal;word-spacing:0px;font-size:medium">
+<div style=3D"word-wrap:break-word">
+<span style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:Helvet=
+ica;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing=
+:normal;line-height:normal;text-align:-webkit-auto;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;font-size:medium">
+<div style=3D"word-wrap:break-word">
+<span style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:Helvet=
+ica;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing=
+:normal;line-height:normal;text-align:-webkit-auto;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;font-size:medium">
+<div style=3D"word-wrap:break-word">
+<span style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:Helvet=
+ica;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing=
+:normal;line-height:normal;text-align:-webkit-auto;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;font-size:medium">
+<div style=3D"word-wrap:break-word">
+<div>Kenneth Ruud<br>
+Prorector of Research, UiT - The Arctic University of Norway<br>
+Telephone: <a href=3D"tel:%2B47%2077623101" value=3D"+4777623101" target=3D=
+"_blank">+47 77623101</a><br>
+<a href=3D"http://www.ctcc.no/people/senior-scientists/ruud/index.html" tar=
+get=3D"_blank">http://www.ctcc.no/people/senior-scientists/ruud/index.html<=
+/a><br>
+</div>
+</div>
+</span></div>
+</span></div>
+</span></div>
+</span></span></div></font></span><div><div class=3D"h5">
+<br>
+<div>
+<div>On Mar 13, 2015, at 8:59 PM, T. Daniel Crawford wrote:</div>
+<br>
+<blockquote type=3D"cite">
+<div dir=3D"ltr">Dear Trond, Patrick, and Kenneth,
+<div><br>
+</div>
+<div>Thanks to the efforts of my student, AJ, the website for the summer sc=
+hool is up and running:</div>
+<div><br>
+</div>
+<div><a href=3D"http://www.theory.chem.vt.edu/response/index.html" target=
+=3D"_blank">http://www.theory.chem.vt.edu/response/index.html</a></div>
+<div><br>
+</div>
+<div>We still need to fill out the agenda and specific information for stud=
+ents, but we&#39;ll have that ready by Monday when I would like to send out=
+ an advertisement.=C2=A0 Please take a look and let me know if you&#39;d li=
+ke changes.</div>
+<div><br>
+</div>
+<div>-Daniel</div>
+<div><br>
+</div>
+<div>P.S. Before you ask, yes, we used the same web template as the new Dal=
+ton site. :)</div>
+<div><br clear=3D"all">
+<div>
+<div>
+<div dir=3D"ltr">--
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div>
+
+--001a1141f104c63ca7051131e9f2--

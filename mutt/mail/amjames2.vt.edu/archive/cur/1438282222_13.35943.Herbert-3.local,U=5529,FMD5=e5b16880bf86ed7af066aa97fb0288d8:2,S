@@ -1,0 +1,92 @@
+MIME-Version: 1.0
+Received: by 10.140.90.18 with HTTP; Tue, 31 Mar 2015 12:51:40 -0700 (PDT)
+In-Reply-To: <30E6492F-9D5B-4826-BFDE-612C87D1F576@vt.edu>
+References: <CAH0V_1bTn8VMtCgrq4x=t2qhf7Kj-=XL44wPvK+qtsDKo1ck6Q@mail.gmail.com>
+	<30E6492F-9D5B-4826-BFDE-612C87D1F576@vt.edu>
+Date: Tue, 31 Mar 2015 15:51:40 -0400
+Delivered-To: amjames2@vt.edu
+Message-ID: <CA+58rsCjpuZeSE6JWKq-31EvbMKDDXfxpyQgXvbweYbM5W0U1Q@mail.gmail.com>
+Subject: Re: Gaussian jobs on blueridge
+From: Andrew James <amjames2@vt.edu>
+To: Harley McAlexander <harleymc@vt.edu>
+Cc: "T. Daniel Crawford" <crawdad@vt.edu>, Ashutosh Kumar <akumar1@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c11fa864200005129aed0d
+
+--001a11c11fa864200005129aed0d
+Content-Type: text/plain; charset=UTF-8
+
+Prof. Crawford,
+
+I have the same lines in my .bashrc and none of my scratch files are
+written to the working directory.
+
+--AJ
+
+Andrew James
+
+Graduate Teaching Assistant
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu
+
+On Tue, Mar 31, 2015 at 3:33 PM, Harley McAlexander <harleymc@vt.edu> wrote:
+
+> Hi, Prof. Crawford,
+>
+> You may have already figured this out, but I think this is what you want.
+> Try adding this to your .bashrc:
+>
+> GAUSS_SCRDIR=$SCRATCH
+> export GAUSS_SCRDIR
+>
+> -Harley
+>
+> On Mar 31, 2015, at 3:14 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Guys,
+>
+> What do you do to make Gaussian keeps its scratch files under /scratch
+> rather than writing them to your working directory?
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a11c11fa864200005129aed0d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Prof. Crawford,=C2=A0<div><br></div><div>I have the same l=
+ines in my .bashrc and none of my scratch files are written to the working =
+directory.</div><div><br></div><div>--AJ</div></div><div class=3D"gmail_ext=
+ra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">=
+Andrew James=C2=A0<div><br><div>Graduate Teaching Assistant=C2=A0<br><div>V=
+irginia Tech=C2=A0</div></div><div>Chemistry Department=C2=A0</div></div><d=
+iv><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>=
+</div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 31, 2015 at 3:33 PM, Harley McAl=
+exander <span dir=3D"ltr">&lt;<a href=3D"mailto:harleymc@vt.edu" target=3D"=
+_blank">harleymc@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:=
+1ex"><div style=3D"word-wrap:break-word">Hi, Prof. Crawford,<div><br></div>=
+<div>You may have already figured this out, but I think this is what you wa=
+nt.=C2=A0 Try adding this to your .bashrc:</div><div><br></div><div>GAUSS_S=
+CRDIR=3D$SCRATCH</div><div>export GAUSS_SCRDIR</div><span class=3D"HOEnZb">=
+<font color=3D"#888888"><div><br></div><div>-Harley</div></font></span><div=
+><div class=3D"h5"><div><br><div><div><div>On Mar 31, 2015, at 3:14 PM, T. =
+Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">cra=
+wdad@vt.edu</a>&gt; wrote:</div><br><blockquote type=3D"cite"><div dir=3D"l=
+tr">Guys,<div><br></div><div>What do you do to make Gaussian keeps its scra=
+tch files under /scratch rather than writing them to your working directory=
+?</div><div><br></div><div>-TDC<br clear=3D"all"><div><div><div dir=3D"ltr"=
+>--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu=
+" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a11c11fa864200005129aed0d--

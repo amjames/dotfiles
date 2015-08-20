@@ -1,0 +1,150 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.8] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id w127sm2693534qkw.32.2015.06.17.12.56.59
+        for <crawdad@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 17 Jun 2015 12:57:00 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_CBBE1BE7-E74B-4BF4-A1EE-0196DFFB61E6"
+Subject: Software Summer School Website Updates
+Message-Id: <37D8DBD4-53B4-4A88-9B01-8F82163B189D@vt.edu>
+Date: Wed, 17 Jun 2015 15:56:57 -0400
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+
+
+--Apple-Mail=_CBBE1BE7-E74B-4BF4-A1EE-0196DFFB61E6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hi Dr. Crawford,=20
+
+I have finished updating the SSS webpage. I have added information about =
+check-in and arrivals under the students tab, as well as a neat map of =
+campus. I also added the daily schedule breakdown, and some more =
+specifics about social activities to the agenda page.  I added a =
+resources tab, where I mention that students need their laptops, and to =
+register for a guest wireless account (with instructions on how to do =
+so). I included a link to the github, SWC=E2=80=99s setup instructions, =
+and info about blue ridge and the module system under the Resources tab. =
+The site is too big for me to just ship (even as a tarball), so I pushed =
+it to this github repo. If you like the changes/are okay with everything =
+I will send it up to the web server.=20
+
+git@github.com:amjames/School_website.git
+
+I was going to send a =E2=80=9Cpreparing for the school=E2=80=9D email =
+to all of the students at the same time. I have a draft for you to look =
+over below. It is brief since I have so much on the website.
+Note: The email links to parts of the website that aren=E2=80=99t up =
+yet, but they are in the git repo.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+>Subject: Preparing for the 2015 Software Summer School
+
+Hello,
+
+The Software Summer School is only a few days away, and as you get ready =
+to come to Blacksburg we want to share a few details with you. =20
+
+Check-in and Wireless access:
+Arrival and check-in information has been added to the school website =
+under =E2=80=9CStudents=E2=80=9D.  There is also instructions for =
+setting up a guest wireless account which should be completed ASAP. =
+Please remember that the course will involve hands-on examples, so =
+everyone will need a laptop, charger, and internet connection!
+
+School Resources:
+We have also added some materials for the School itself under =
+=E2=80=9CResources=E2=80=9D =
+(http://www.s2i2.org/school_2015/resources.html =
+<http://www.s2i2.org/school_2015/resources.html>).  In particular =
+Software Carpentry has prepared specific setup instructions that are =
+available here (also linked on the website):
+http://guyrt.github.io/2015-06-21-s2i2/ =
+<http://guyrt.github.io/2015-06-21-s2i2/>
+
+If you have any questions you can send me an email.
+We are looking forward to your arrival!
+
+
+Andrew M James=20
+Summer School Coordinator=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+Let me know what you think.
+
+=E2=80=94AJ
+
+
+ =20=
+
+--Apple-Mail=_CBBE1BE7-E74B-4BF4-A1EE-0196DFFB61E6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Hi Dr. Crawford,&nbsp;<div class=3D""><br class=3D""></div><div=
+ class=3D"">I have finished updating the SSS webpage. I have added =
+information about check-in and arrivals under the students tab, as well =
+as a neat map of campus. I also added the daily schedule breakdown, and =
+some more specifics about social activities to the agenda page. &nbsp;I =
+added a resources tab, where I mention that students need their laptops, =
+and to register for a guest wireless account (with instructions on how =
+to do so). I included a link to the github, SWC=E2=80=99s setup =
+instructions, and info about blue ridge and the module system under the =
+Resources tab. The site is too big for me to just ship (even as a =
+tarball), so I pushed it to this github repo. If you like the =
+changes/are okay with everything I will send it up to the web =
+server.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">git@github.com:amjames/School_website.git</div><div =
+class=3D""><br class=3D""></div><div class=3D"">I was going to send a =
+=E2=80=9Cpreparing for the school=E2=80=9D email to all of the students =
+at the same time. I have a draft for you to look over below. It is brief =
+since I have so much on the website.</div><div class=3D"">Note: The =
+email links to parts of the website that aren=E2=80=99t up yet, but they =
+are in the git repo.</div><div class=3D""><br class=3D""></div><blockquote=
+ style=3D"margin: 0 0 0 40px; border: none; padding: 0px;" class=3D""><div=
+ class=3D"">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D</div><div class=3D"">&gt;Subject: Preparing for =
+the 2015 Software Summer School</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Hello,</div><div class=3D""><br =
+class=3D""></div><div class=3D"">The Software Summer School is only a =
+few days away, and as you get ready to come to Blacksburg we want to =
+share a few details with you. &nbsp;</div><div class=3D""><br =
+class=3D""></div><div class=3D""><b class=3D""><u class=3D"">Check-in =
+and Wireless access:</u></b></div><div class=3D"">Arrival and check-in =
+information has been added to the school website under =E2=80=9CStudents=E2=
+=80=9D. &nbsp;There is also instructions for setting up a guest wireless =
+account which should be completed ASAP. Please remember that the course =
+will involve hands-on examples, so everyone will need a laptop, charger, =
+and internet connection!</div><div class=3D""><br class=3D""></div><div =
+class=3D""><b class=3D""><u class=3D"">School =
+Resources:</u></b></div><div class=3D"">We have also added some =
+materials for the School itself under =E2=80=9CResources=E2=80=9D (<a =
+href=3D"http://www.s2i2.org/school_2015/resources.html" =
+class=3D"">http://www.s2i2.org/school_2015/resources.html</a>). &nbsp;In =
+particular Software Carpentry has prepared specific setup instructions =
+that are available here (also linked on the website):</div><div =
+class=3D""><a href=3D"http://guyrt.github.io/2015-06-21-s2i2/" =
+class=3D"">http://guyrt.github.io/2015-06-21-s2i2/</a></div><div =
+class=3D""><br class=3D""></div><div class=3D"">If you have any =
+questions you can send me an email.</div><div class=3D"">We are looking =
+forward to your arrival!</div><div class=3D""><br class=3D""></div><div =
+class=3D""><br class=3D""></div><div class=3D"">Andrew M =
+James&nbsp;</div><div class=3D"">Summer School =
+Coordinator&nbsp;</div><div =
+class=3D"">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D</div></blockquote><div class=3D"">Let me know =
+what you think.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">=E2=80=94AJ</div><div class=3D""><br class=3D""></div><div =
+class=3D""><br class=3D""></div><div =
+class=3D"">&nbsp;&nbsp;</div></body></html>=
+
+--Apple-Mail=_CBBE1BE7-E74B-4BF4-A1EE-0196DFFB61E6--

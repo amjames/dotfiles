@@ -1,0 +1,124 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1272348qgt;
+        Fri, 5 Jun 2015 06:04:57 -0700 (PDT)
+X-Received: by 10.140.196.140 with SMTP id r134mr3912395qha.60.1433509497540;
+        Fri, 05 Jun 2015 06:04:57 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id j190si7400161qhc.59.2015.06.05.06.04.54
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 06:04:57 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.212.180 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.212.180;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.180 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55D4lrD008348;
+	Fri, 5 Jun 2015 09:04:52 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t55AfrYV028806;
+	Fri, 5 Jun 2015 09:04:46 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          99843533 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 5 Jun 2015 09:04:46 -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t55Csj09012839
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <chem_grad@listserv.vt.edu>; Fri, 5 Jun 2015 08:54:45 -0400
+Received: from mail-wi0-f180.google.com (mail-wi0-f180.google.com
+          [209.85.212.180]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t55Csd0S014912 for <chem_grad@listserv.vt.edu>; Fri, 5 Jun 2015
+          08:54:45 -0400
+Received: by wifx6 with SMTP id x6so19711093wif.0 for
+          <chem_grad@listserv.vt.edu>; Fri, 05 Jun 2015 05:54:39 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:cc:content-type;
+                         bh=rlGopL2H/u6VAO7w0qTjJxmkUwL+mEAOSs6SeOpnqws=;
+                         b=G3Juz7+0vvUXKG5IbQVxEUWsTwPaEWhQ+kDhG9gexMjvUmEVhyqDGdzTPW26zUzX14
+                         DtvQDKadBQObWjdRnJR0Bo20X5cIUUkE8PwGXHVm3XQtgN+znBHvKDxsCdIOjlTWr0Fk
+                         gdHIDJbq7kBYJXBaos+zT/F/63NB6S6+n3vQNGAu9fOrOdusdRwldDuxZ8TWfMEEytHb
+                         7f7w01JCXbCDzxZnAqvt3OiMeliKZdzZkMYSma2cYcWDh81ADZF7ckOMAWeuTWE+A6BA
+                         OpuDCwX5VSxjvzWyX2zoCM52uKI937DFfrJlVRvcQeySV0vJt+4k8tJV1l25pNIIi+C4
+                         qKEw==
+X-Gm-Message-State: ALoCoQnYTsUdapgC0XfN9WE9oT9w0UZl4WYp0HzLofKsHlWsoxTAJoKh+WFspzyi2qKiaTHUvkYF922xgzYbO+NO/C9JlyoU4flN/yR0o1ritqa9HkroatSOgfK9MYcUZQ84nKiwnZfH556Z8LzXXaWAfUCyTnNBog==
+X-Received: by 10.194.59.46 with SMTP id w14mr6345205wjq.106.1433508879768;
+            Fri, 05 Jun 2015 05:54:39 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.194.59.46 with SMTP id w14mr6345178wjq.106.1433508879554;
+            Fri, 05 Jun 2015 05:54:39 -0700 (PDT)
+Received: by 10.180.96.228 with HTTP; Fri, 5 Jun 2015 05:54:39 -0700 (PDT)
+References: <CAFVnc+Y-UM4SAw-Zg9FthEq4h+Qp+fLbtwae99Mbh8fQOr6gag@mail.gmail.com>
+Content-Type: multipart/alternative; boundary=047d7ba976c88c6f300517c4cbbe
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <CAFVnc+bafdniCEPNwhmTroMzYNo32MYJkh-JbJB=Lr6=oAf-+w@mail.gmail.com>
+Date:         Fri, 5 Jun 2015 08:54:39 -0400
+Reply-To: Thomas Wertalik <wertalik@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Thomas Wertalik <wertalik@vt.edu>
+Subject: Fwd: Important: Davidson Hall Water Shutdown
+To: CHEM_GRAD@LISTSERV.VT.EDU
+In-Reply-To:  <CAFVnc+Y-UM4SAw-Zg9FthEq4h+Qp+fLbtwae99Mbh8fQOr6gag@mail.gmail.com>
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7ba976c88c6f300517c4cbbe
+Content-Type: text/plain; charset=UTF-8
+
+---------- Forwarded message ----------
+From: Thomas Wertalik <wertalik@vt.edu>
+Date: Mon, Jun 1, 2015 at 9:27 AM
+Subject: Important: Davidson Hall Water Shutdown
+To: chem_faculty@listserv.vt.edu, chem_staff@listserv.vt.edu,
+chem_grad@listserv.vt.edu
+
+
+Facilities Mechanical Service will be shutting down the domestic hot, cold,
+and lab water in Davidson Hall on *Saturday, June 6, 2015 from 7:00AM until
+11:00AM*.  The shutdown is necessary to test the backflow devices and bring
+the water back up.
+
+
+
+VT Repair
+
+231-4300
+
+--047d7ba976c88c6f300517c4cbbe
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br>From: <b class=3D"gmail_sendername">Thomas Wertalik</b> <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:wertalik@vt.edu">wertalik@vt.edu</a>&g=
+t;</span><br>Date: Mon, Jun 1, 2015 at 9:27 AM<br>Subject: Important: David=
+son Hall Water Shutdown<br>To: <a href=3D"mailto:chem_faculty@listserv.vt.e=
+du">chem_faculty@listserv.vt.edu</a>, <a href=3D"mailto:chem_staff@listserv=
+.vt.edu">chem_staff@listserv.vt.edu</a>, <a href=3D"mailto:chem_grad@listse=
+rv.vt.edu">chem_grad@listserv.vt.edu</a><br><br><br><div dir=3D"ltr"><p sty=
+le=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&#39;Times New Rom=
+an&#39;,serif"><span style=3D"font-family:Calibri,sans-serif;color:black">F=
+acilities Mechanical Service will be shutting down the domestic hot, cold, =
+and lab water in Davidson Hall on <b>Saturday,=C2=A0<span><span>June 6, 201=
+5 from 7:00AM until 11:00AM</span></span></b>.=C2=A0 The shutdown is necess=
+ary to test the backflow devices and bring the water back up.=C2=A0=C2=A0<u=
+></u><u></u></span></p><p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;f=
+ont-family:&#39;Times New Roman&#39;,serif"><span style=3D"font-family:Cali=
+bri,sans-serif;color:black">=C2=A0<u></u><u></u></span></p><p style=3D"marg=
+in:0in 0in 0.0001pt;font-size:12pt;font-family:&#39;Times New Roman&#39;,se=
+rif"><span style=3D"font-family:Calibri,sans-serif;color:black">VT Repair<u=
+></u><u></u></span></p><p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;f=
+ont-family:&#39;Times New Roman&#39;,serif"><span style=3D"font-family:Cali=
+bri,sans-serif;color:black">231-4300</span></p></div>
+</div><br></div>
+
+--047d7ba976c88c6f300517c4cbbe--

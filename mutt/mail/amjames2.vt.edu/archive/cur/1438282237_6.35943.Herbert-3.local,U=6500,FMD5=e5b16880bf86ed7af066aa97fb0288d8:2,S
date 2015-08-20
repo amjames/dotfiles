@@ -1,0 +1,206 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp431920qge;
+        Wed, 25 Mar 2015 22:26:39 -0700 (PDT)
+X-Received: by 10.52.103.48 with SMTP id ft16mr14323702vdb.81.1427347599272;
+        Wed, 25 Mar 2015 22:26:39 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id t2si6106292vdv.66.2015.03.25.22.26.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 25 Mar 2015 22:26:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.195 as permitted sender) client-ip=192.30.252.195;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.195 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext4.iad.github.net [192.30.252.195])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2Q5QVk3003149
+	for <amjames2@vt.edu>; Thu, 26 Mar 2015 01:26:36 -0400
+Date: Wed, 25 Mar 2015 22:26:31 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1427347591;
+	bh=sf3zPW87HBuW46z1FP94aWOIixO6s4aCcHPVoeCELJU=;
+	h=From:Reply-To:To:Subject:List-ID:List-Archive:List-Post:
+	 List-Unsubscribe:From;
+	b=eCXFVHwcY1mhosYWOBXnhiyxUIUdjjja39jKeXKgAp2b+Ngm+RhuVTkwdWf1MOJxA
+	 UpfJTowKf9lAnxl/1TFJEC+m7V2tMPwPhlQ+Hantw1riV2mKWWfRH2jzBuHM2DsO0J
+	 vzDc8WjxVmECtipJee9RZnW1fI49NK7L5nkdzzaI=
+From: ssh2 <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642b79c3835089f93fe15fb8f07a55a259ef5364bf292cf00000001112b5a8792a169ce03d75734@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/95@github.com>
+Subject: [psi4] Compilation problems with Intel compiler (#95)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55139887794c1_32e73fe9164d92b87423ea";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ssh2
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642b79c3835089f93fe15fb8f07a55a259ef5364bf292cf00000001112b5a8792a169ce03d75734@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642b79c3835089f93fe15fb8f07a55a259ef5364bf292cf00000001112b5a8792a169ce03d75734@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QvRhqvpDRytncs895zsIk28kkdYGks5n45AHgaJpZM4D0_qu>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-5.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,RCVD_IN_DNSWL_HI autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55139887794c1_32e73fe9164d92b87423ea
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi everyone,
+
+I am trying to compile Psi4 on a cluster. I am using Intel compiler (icpc=
+ (ICC) 13.1.1 20130313). Here's my setup parameters:
+
+./setup --type release --cc=3Dicc --cxx=3Dicpc --plugins on --max-am-eri=3D=
+6 --explicit-libs=3D-mkl  --cmake ~/bin/cmake-3.2.1-Linux-x86_64/bin/cmak=
+e
+
+When building "Implementations/Timer.cc.o" I get errors of the following =
+type:
+
+```
+In file included from /home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implemen=
+tations/Timer.cc:24:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h: In=
+ constructor =E2=80=98psi::Table<T, Args>::Table(int, const T&, Args& ...=
+) [with T =3D psi::TableColumn<std::basic_string<char, std::char_traits<c=
+har>, std::allocator<char> > >, Args =3D psi::TableColumn<std::basic_stri=
+ng<char, std::char_traits<char>, std::allocator<char> > >, psi::TableColu=
+mn<std::basic_string<char, std::char_traits<char>, std::allocator<char> >=
+ >, psi::TableColumn<std::basic_string<char, std::char_traits<char>, std:=
+:allocator<char> > >]=E2=80=99:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/Timer.cc:168: =
+  instantiated from here
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:230=
+: error: no matching function for call to =E2=80=98psi::TableData<psi::Ta=
+bleColumn<std::basic_string<char, std::char_traits<char>, std::allocator<=
+char> > > >::TableData()=E2=80=99
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:274=
+: note: candidates are: psi::TableData<T>::TableData(const T&, int, int, =
+int, char, char, char, char) [with T =3D psi::TableColumn<std::basic_stri=
+ng<char, std::char_traits<char>, std::allocator<char> > >]
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:184=
+: note:                 psi::TableData<psi::TableColumn<std::basic_string=
+<char, std::char_traits<char>, std::allocator<char> > > >::TableData(cons=
+t psi::TableData<psi::TableColumn<std::basic_string<char, std::char_trait=
+s<char>, std::allocator<char> > > >&)
+```
+```
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h: In=
+ member function =E2=80=98void psi::Table<T, Args>::SetBorder(psi::TableS=
+ide, char) [with T =3D psi::TableColumn<std::basic_string<char, std::char=
+_traits<char>, std::allocator<char> > >, Args =3D psi::TableColumn<std::b=
+asic_string<char, std::char_traits<char>, std::allocator<char> > >, psi::=
+TableColumn<std::basic_string<char, std::char_traits<char>, std::allocato=
+r<char> > >, psi::TableColumn<std::basic_string<char, std::char_traits<ch=
+ar>, std::allocator<char> > >]=E2=80=99:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/Timer.cc:169: =
+  instantiated from here
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:246=
+: error: initializer expression list treated as compound expression
+```
+Does anyone have a suggestion how to resolve this issue?
+
+Thanks!
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/95=
+
+----==_mimepart_55139887794c1_32e73fe9164d92b87423ea
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi everyone,</p>
+
+<p>I am trying to compile Psi4 on a cluster. I am using Intel compiler (i=
+cpc (ICC) 13.1.1 20130313). Here's my setup parameters:</p>
+
+<p>./setup --type release --cc=3Dicc --cxx=3Dicpc --plugins on --max-am-e=
+ri=3D6 --explicit-libs=3D-mkl  --cmake ~/bin/cmake-3.2.1-Linux-x86_64/bin=
+/cmake</p>
+
+<p>When building "Implementations/Timer.cc.o" I get errors of the followi=
+ng type:</p>
+
+<pre><code>In file included from /home/ays3/Apps/psi4dev/src/lib/libPsiUt=
+il/Implementations/Timer.cc:24:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h: In=
+ constructor =E2=80=98psi::Table&lt;T, Args&gt;::Table(int, const T&amp;,=
+ Args&amp; ...) [with T =3D psi::TableColumn&lt;std::basic_string&lt;char=
+, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;, Arg=
+s =3D psi::TableColumn&lt;std::basic_string&lt;char, std::char_traits&lt;=
+char&gt;, std::allocator&lt;char&gt; &gt; &gt;, psi::TableColumn&lt;std::=
+basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;cha=
+r&gt; &gt; &gt;, psi::TableColumn&lt;std::basic_string&lt;char, std::char=
+_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;]=E2=80=99:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/Timer.cc:168: =
+  instantiated from here
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:230=
+: error: no matching function for call to =E2=80=98psi::TableData&lt;psi:=
+:TableColumn&lt;std::basic_string&lt;char, std::char_traits&lt;char&gt;, =
+std::allocator&lt;char&gt; &gt; &gt; &gt;::TableData()=E2=80=99
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:274=
+: note: candidates are: psi::TableData&lt;T&gt;::TableData(const T&amp;, =
+int, int, int, char, char, char, char) [with T =3D psi::TableColumn&lt;st=
+d::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;=
+char&gt; &gt; &gt;]
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:184=
+: note:                 psi::TableData&lt;psi::TableColumn&lt;std::basic_=
+string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; =
+&gt; &gt; &gt;::TableData(const psi::TableData&lt;psi::TableColumn&lt;std=
+::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;c=
+har&gt; &gt; &gt; &gt;&amp;)
+</code></pre>
+
+<pre><code>/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../=
+Table.h: In member function =E2=80=98void psi::Table&lt;T, Args&gt;::SetB=
+order(psi::TableSide, char) [with T =3D psi::TableColumn&lt;std::basic_st=
+ring&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &g=
+t; &gt;, Args =3D psi::TableColumn&lt;std::basic_string&lt;char, std::cha=
+r_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;, psi::TableCol=
+umn&lt;std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allo=
+cator&lt;char&gt; &gt; &gt;, psi::TableColumn&lt;std::basic_string&lt;cha=
+r, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;]=E2=
+=80=99:
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/Timer.cc:169: =
+  instantiated from here
+/home/ays3/Apps/psi4dev/src/lib/libPsiUtil/Implementations/../Table.h:246=
+: error: initializer expression list treated as compound expression
+</code></pre>
+
+<p>Does anyone have a suggestion how to resolve this issue?</p>
+
+<p>Thanks!</p>
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br>Reply to this email directly or <a href=3D"https://github.com/ps=
+i4/psi4/issues/95">view it on GitHub</a>.<img alt=3D"" height=3D"1" src=3D=
+"https://github.com/notifications/beacon/AIn2Qnya5-ksMRP_BfGOxIKHLyj7CdiK=
+ks5n45AHgaJpZM4D0_qu.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAc=
+tion">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4/issues/95=
+"></link>
+    <meta itemprop=3D"name" content=3D"View Issue"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Issue on GitHub"></=
+meta>
+</div>
+
+----==_mimepart_55139887794c1_32e73fe9164d92b87423ea--

@@ -1,0 +1,56 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp308751ieb;
+        Mon, 16 Mar 2015 16:05:51 -0700 (PDT)
+X-Received: by 10.194.201.164 with SMTP id kb4mr125501374wjc.32.1426547150777;
+        Mon, 16 Mar 2015 16:05:50 -0700 (PDT)
+Return-Path: <trond.saue@irsamc.ups-tlse.fr>
+Received: from smtp2.cict.fr (smtp2.cict.fr. [195.220.59.17])
+        by mx.google.com with ESMTP id r9si20358518wjz.175.2015.03.16.16.05.49;
+        Mon, 16 Mar 2015 16:05:50 -0700 (PDT)
+Received-SPF: none (google.com: trond.saue@irsamc.ups-tlse.fr does not designate permitted sender hosts) client-ip=195.220.59.17;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: trond.saue@irsamc.ups-tlse.fr does not designate permitted sender hosts) smtp.mail=trond.saue@irsamc.ups-tlse.fr
+Received: from smtp2.cict.fr (localhost.localdomain [127.0.0.1])
+	by smtp2.cict.fr (8.14.5/8.14.4) with ESMTP id t2GN5nOK028626;
+	Tue, 17 Mar 2015 00:05:49 +0100
+Received: from [127.0.0.1] (lpqsv1.ups-tlse.fr [130.120.229.21])
+	by smtp2.cict.fr (8.14.5/8.14.5) with ESMTP id t2GN5mse028611;
+	Tue, 17 Mar 2015 00:05:48 +0100
+Message-ID: <550761CC.6050509@irsamc.ups-tlse.fr>
+Date: Tue, 17 Mar 2015 00:05:48 +0100
+From: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+MIME-Version: 1.0
+To: "T. Daniel Crawford" <crawdad@vt.edu>,
+        Patrick Norman <johan.patrick.norman@gmail.com>,
+        Kenneth Ruud <kenneth.ruud@uit.no>,
+        "Robert J. Harrison" <rjharrison@gmail.com>,
+        Eugene Deprince <eugene.deprince@gmail.com>,
+        Eduard Valeyev <edward.valeev@gmail.com>,
+        Tommy Guy <richardtguy84@gmail.com>
+CC: Andrew James <andrew.m.james2@gmail.com>, "Good, Laurie" <laurieg@vt.edu>
+Subject: Re: Email announcement for Summer Schools
+References: <CAH0V_1aMYnFCq6b6rTHK+gzWUeeMVeJk9VcNvCr2cwFUZva+=Q@mail.gmail.com>
+In-Reply-To: <CAH0V_1aMYnFCq6b6rTHK+gzWUeeMVeJk9VcNvCr2cwFUZva+=Q@mail.gmail.com>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.97.3 at smtp2.cict.fr
+X-Virus-Status: Clean
+
+Dear Daniel,
+looks good to me as well !
+All the best,
+      Trond
+
+-- 
+			  Trond SAUE
+          Laboratoire de Chimie et Physique Quantiques
+     UMR 5626 CNRS --- Université Toulouse III-Paul Sabatier
+           118 route de Narbonne, 31062 Toulouse (FRANCE)
+             tél: +33/(0)561556031 FAX: +33/(0)561556065
+
+               Email: trond.saue@irsamc.ups-tlse.fr
+                Web: http://dirac.ups-tlse.fr/saue
+               DIRAC: http://www.diracprogram.org
+                   ESQC: http://www.esqc.org
+

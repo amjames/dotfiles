@@ -1,0 +1,203 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1212538qge;
+        Fri, 13 Mar 2015 16:56:56 -0700 (PDT)
+X-Received: by 10.55.22.168 with SMTP id 40mr41748339qkw.101.1426291016066;
+        Fri, 13 Mar 2015 16:56:56 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 84si3325598qhx.130.2015.03.13.16.56.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 16:56:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DNuoSq017957
+	for <amjames2@vt.edu>; Fri, 13 Mar 2015 19:56:55 -0400
+Received: by igad1 with SMTP id d1so19247iga.0
+        for <amjames2@vt.edu>; Fri, 13 Mar 2015 16:56:50 -0700 (PDT)
+X-Received: by 10.50.87.42 with SMTP id u10mr82626204igz.31.1426291009967;
+        Fri, 13 Mar 2015 16:56:49 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1137671ieb;
+        Fri, 13 Mar 2015 16:56:48 -0700 (PDT)
+X-Received: by 10.55.23.210 with SMTP id 79mr41452992qkx.72.1426291008136;
+        Fri, 13 Mar 2015 16:56:48 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id 134si3344197qhx.63.2015.03.13.16.56.47
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 16:56:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr6.cc.vt.edu (mr6.cc.vt.edu [198.82.141.20] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DNulKA027406
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 19:56:47 -0400
+Received: from mail-ig0-f172.google.com (mail-ig0-f172.google.com [209.85.213.172])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DNufxn007642
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 19:56:46 -0400
+Received: by igbue6 with SMTP id ue6so17966igb.1
+        for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 16:56:41 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=NUevG0Bim8ka8J5gUceWGLIOIzly8Onche7hGiGkd5s=;
+        b=gT/VrFql7usyugGhVwNaI91czRUO6y2MtwN9lXzqLeoBg5WUDRyM+yWDVpWBovGLIk
+         LbzgeMdAHXAxM3Kh2iOl6BaJVGlsNsQh/KIuw64joS35hHsLsDl0x505ew+ER8vreHn0
+         W1yCZcAsw7W/AF4074ioHw7n+Tw1FUqCLW0HTC7kjhKOgmnmq/DL1k2jJNi0/Rd2Kbcs
+         SL0MuDRtx+MxOShZ+M4BwxUKfb39pPzevkHBcAcpiZK/kfY+IeYfNtqUQYdykxm3HF2b
+         EY3HfI9Kku1nGWx+qL9FTi4y/9efKYtLKlnrxIS6v8LfHRUOACSsjmWyEbSgmLKrdnil
+         jbdQ==
+X-Gm-Message-State: ALoCoQlLrM1h5DtpYcWYmxvjCW/H8QGexrTdVH7jV+92alqsnNZJfBMs3KeYApHokvCewPGoJSyyeU52V8ms4XM9oIbcc8wTp1QMZQ9q8BGBtvy0AgTxG2eOTlauKazRytSh8/uk3CaOu9GfjGWhgfS6sKA8ghVHug==
+X-Received: by 10.50.30.130 with SMTP id s2mr89595054igh.11.1426291001722;
+        Fri, 13 Mar 2015 16:56:41 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.30.130 with SMTP id s2mr89595038igh.11.1426291001529;
+ Fri, 13 Mar 2015 16:56:41 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Fri, 13 Mar 2015 16:56:41 -0700 (PDT)
+In-Reply-To: <55036E7F.7000709@irsamc.ups-tlse.fr>
+References: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+	<F7A6E265-E83E-48E7-A202-6DB7EC2535E1@uit.no>
+	<CAH0V_1ZHYYrv61fzbDxLHR_wNoynVEBKro5v9NenFxJagnCDxw@mail.gmail.com>
+	<E5BF7589-6D55-41AB-B213-3C7AD2D2D993@uit.no>
+	<CAH0V_1aHwwOBMEVT3qjCGnfp1mKgDt1=uC7PEaeANi3e3Fx=yQ@mail.gmail.com>
+	<CAH0V_1ZG16Mit_N9Wb99mkWHH4Q3BOjuNm8qz7UNXgf=HWfYrA@mail.gmail.com>
+	<55036E7F.7000709@irsamc.ups-tlse.fr>
+Date: Fri, 13 Mar 2015 19:56:41 -0400
+Message-ID: <CAH0V_1ZDGvmS3V4bZ7LW1+eKYK7R92+6nhxap05E2KzkBKzi2Q@mail.gmail.com>
+Subject: Re: Molecular Response Property Summer School Website!
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+Cc: Ruud Kenneth <kenneth.ruud@uit.no>,
+        Patrick Norman <johan.patrick.norman@gmail.com>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7bdc0d9c7e37b605113440f5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 5084
+
+--047d7bdc0d9c7e37b605113440f5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I totally agree, Trond.  I'll set a deadline for the last dat of April (and
+emphasize the limited space), and then we'll move it back if necessary.
+
+AJ, please add the 4/30 deadline to the webpage (do this for the Software
+Summer School, too), and I'll ask conference services to shift the deadline
+on the registration webpage, as well.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Mar 13, 2015 at 7:10 PM, Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+wrote:
+
+> HI,
+> the registration for the European Summerschool of Quantum Chemistry Sep 6
+> - 19
+> http://www.esqc.org/
+> of which I am director, opens March 17. Students will be selected from th=
+e
+> applications we receive the first two weeks.
+> Normally we get most registrations the first day, but it is a well
+> established school.
+>
+> In the case of the school at VT, you have been in contact with senior
+> scientists, asking if they would like to send students, so it might be an
+> idea to sollicit them again now while their memory is still fresh. I woul=
+d
+> therefore go for a rather early deadline, say end of April, that can be
+> extended if need be..
+>
+>   All the best,
+>     Trond
+>
+> --
+>                           Trond SAUE
+>          Laboratoire de Chimie et Physique Quantiques
+>     UMR 5626 CNRS --- Universit=C3=A9 Toulouse III-Paul Sabatier
+>           118 route de Narbonne, 31062 Toulouse (FRANCE)
+>             t=C3=A9l: +33/(0)561556031 FAX: +33/(0)561556065
+>
+>               Email: trond.saue@irsamc.ups-tlse.fr
+>                Web: http://dirac.ups-tlse.fr/saue
+>               DIRAC: http://www.diracprogram.org
+>                   ESQC: http://www.esqc.org
+>
+>
+
+--047d7bdc0d9c7e37b605113440f5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I totally agree, Trond.=C2=A0 I&#39;ll set a deadline for =
+the last dat of April (and emphasize the limited space), and then we&#39;ll=
+ move it back if necessary.<div><br></div><div>AJ, please add the 4/30 dead=
+line to the webpage (do this for the Software Summer School, too), and I&#3=
+9;ll ask conference services to shift the deadline on the registration webp=
+age, as well.<br><div><br></div><div>-TDC</div></div></div><div class=3D"gm=
+ail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=
+=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 7:10 PM, Trond SAUE =
+<span dir=3D"ltr">&lt;<a href=3D"mailto:trond.saue@irsamc.ups-tlse.fr" targ=
+et=3D"_blank">trond.saue@irsamc.ups-tlse.fr</a>&gt;</span> wrote:<br><block=
+quote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc=
+ solid;padding-left:1ex">HI,<br>
+the registration for the European Summerschool of Quantum Chemistry Sep 6 -=
+ 19<br>
+<a href=3D"http://www.esqc.org/" target=3D"_blank">http://www.esqc.org/</a>=
+<br>
+of which I am director, opens March 17. Students will be selected from the =
+applications we receive the first two weeks.<br>
+Normally we get most registrations the first day, but it is a well establis=
+hed school.<br>
+<br>
+In the case of the school at VT, you have been in contact with senior scien=
+tists, asking if they would like to send students, so it might be an idea t=
+o sollicit them again now while their memory is still fresh. I would theref=
+ore go for a rather early deadline, say end of April, that can be extended =
+if need be..<div class=3D"HOEnZb"><div class=3D"h5"><br>
+=C2=A0 All the best,<br>
+=C2=A0 =C2=A0 Trond<br>
+<br>
+-- <br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 Trond SAUE<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Laboratoire de Chimie et Physique Quantiq=
+ues<br>
+=C2=A0 =C2=A0 UMR 5626 CNRS --- Universit=C3=A9 Toulouse III-Paul Sabatier<=
+br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 118 route de Narbonne, 31062 Toulouse (F=
+RANCE)<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 t=C3=A9l: <a href=3D"tel:%2B33%2F=
+%280%29561556031" value=3D"+33561556031" target=3D"_blank">+33/(0)561556031=
+</a> FAX: <a href=3D"tel:%2B33%2F%280%29561556065" value=3D"+33561556065" t=
+arget=3D"_blank">+33/(0)561556065</a><br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Email: <a href=3D"mailto:t=
+rond.saue@irsamc.ups-tlse.fr" target=3D"_blank">trond.saue@irsamc.ups-tlse.=
+fr</a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Web: <a href=3D"http=
+://dirac.ups-tlse.fr/saue" target=3D"_blank">http://dirac.ups-tlse.fr/saue<=
+/a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 DIRAC: <a href=3D"http://w=
+ww.diracprogram.org" target=3D"_blank">http://www.diracprogram.org</a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ESQC: <a hre=
+f=3D"http://www.esqc.org" target=3D"_blank">http://www.esqc.org</a><br>
+<br>
+</div></div></blockquote></div><br></div>
+
+--047d7bdc0d9c7e37b605113440f5--

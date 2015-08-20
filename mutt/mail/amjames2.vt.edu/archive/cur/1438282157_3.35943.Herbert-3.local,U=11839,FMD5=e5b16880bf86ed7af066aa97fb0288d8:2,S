@@ -1,0 +1,82 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp124742qgt;
+        Fri, 3 Jul 2015 11:50:03 -0700 (PDT)
+X-Received: by 10.141.19.11 with SMTP id v11mr56103706qhd.44.1435949403543;
+        Fri, 03 Jul 2015 11:50:03 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id k90si11349462qkh.51.2015.07.03.11.50.01
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 11:50:03 -0700 (PDT)
+Received-SPF: neutral (google.com: 74.125.82.51 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=74.125.82.51;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.51 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63IntSp004090;
+	Fri, 3 Jul 2015 14:50:00 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t63IfrAF007506;
+	Fri, 3 Jul 2015 14:49:55 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100322537 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 3 Jul 2015 14:49:55
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t63Idr5W007166 for
+          <chem_grad@listserv.vt.edu>; Fri, 3 Jul 2015 14:39:53 -0400
+Received: from mail-wg0-f51.google.com (mail-wg0-f51.google.com [74.125.82.51])
+          by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63Idmem010967 for
+          <chem_grad@listserv.vt.edu>; Fri, 3 Jul 2015 14:39:53 -0400
+Received: by wgck11 with SMTP id k11so94423979wgc.0 for
+          <chem_grad@listserv.vt.edu>; Fri, 03 Jul 2015 11:39:48 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=kb4jptdGRA0V82Txn3HHTPEEeFuvuR7+msL0dDB1olU=;
+                         b=CCpAc5Xuuep0v3fDWsw5upbkdZ0sljeBgIj/bG9qf1U6PJy4gSXP5fz9pbnl6TcWr9
+                         OZLnD48HUYouV4zfryGmC3ftw0emqtoPUnGuQUCtNV6JDtk1j2Rdc9CEYI7suHYz3KyS
+                         VqT3fOQcp+NiJ3bmvdyObUW9vQubFn2w+ttR+BoBIkgoyYsorHLBSy6wPnnco2TKjBq8
+                         pjiKVyE5i4dgrcrMqkqXjwyUZA50AqBr3Mz3ZiY6Nd5BxaXPvL24WoXftHw1++F2g+P4
+                         w2cJ2wM3UKY/rve+2J48UeEQKQJnWYEHHQtnC8Cv6GGiMbyHrlB6gLjq56SCD3K8/OHK
+                         V6PA==
+X-Gm-Message-State: ALoCoQkmc6FttztjZ6AjshLZ8ABU72gKxS3QcVCIBapN7o97ts6UV7Ay5pHhdeeBj9+wYgJ1El+1OYmpWnlYE8MJb9iAIknhPqcJCmaBGUFt3wskqRKoCHYNHGDwoV5g6iEQIZelN/9LZMP0mhe99zLziSBdF8kJYg==
+X-Received: by 10.180.19.69 with SMTP id c5mr30418841wie.13.1435948788011; Fri,
+            03 Jul 2015 11:39:48 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.19.69 with SMTP id c5mr30418826wie.13.1435948787904; Fri,
+            03 Jul 2015 11:39:47 -0700 (PDT)
+Received: by 10.180.96.228 with HTTP; Fri, 3 Jul 2015 11:39:47 -0700 (PDT)
+Received: by 10.180.96.228 with HTTP; Fri, 3 Jul 2015 11:39:47 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=bcaec53d5a8b6b46050519fce1c9
+X-Spam-Status: No, score=-0.6 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+Message-ID:  <CAFVnc+ZnivZfMhixwGEc9mDdbXcDYVZeFxDC2=f4XBOQ5qVqtw@mail.gmail.com>
+Date:         Fri, 3 Jul 2015 14:39:47 -0400
+Reply-To: Thomas Wertalik <wertalik@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Thomas Wertalik <wertalik@vt.edu>
+Subject: Glass Shop
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec53d5a8b6b46050519fce1c9
+Content-Type: text/plain; charset=UTF-8
+
+The glass shop will be closed the week of July 6th and reopen on Monday
+July 13th.
+
+--bcaec53d5a8b6b46050519fce1c9
+Content-Type: text/html; charset=UTF-8
+
+<p dir="ltr">The glass shop will be closed the week of July 6th and reopen on Monday  July 13th.</p>
+
+--bcaec53d5a8b6b46050519fce1c9--

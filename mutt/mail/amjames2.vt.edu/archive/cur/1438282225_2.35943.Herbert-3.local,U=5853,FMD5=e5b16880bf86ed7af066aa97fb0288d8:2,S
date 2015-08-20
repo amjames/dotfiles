@@ -1,0 +1,404 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp4321038qgf;
+        Wed, 8 Apr 2015 11:30:06 -0700 (PDT)
+X-Received: by 10.140.21.233 with SMTP id 96mr31233831qgl.78.1428517805921;
+        Wed, 08 Apr 2015 11:30:05 -0700 (PDT)
+Return-Path: <srijithr@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 7si11769178qgk.31.2015.04.08.11.30.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Apr 2015 11:30:05 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning srijithr@vt.edu does not designate 209.85.223.171 as permitted sender) client-ip=209.85.223.171;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning srijithr@vt.edu does not designate 209.85.223.171 as permitted sender) smtp.mail=srijithr@vt.edu
+Received: from mail-ie0-f171.google.com (mail-ie0-f171.google.com [209.85.223.171])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t38IU0xY004164
+	for <amjames2@vt.edu>; Wed, 8 Apr 2015 14:30:05 -0400
+Received: by iebmp1 with SMTP id mp1so81924913ieb.0
+        for <amjames2@vt.edu>; Wed, 08 Apr 2015 11:30:00 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=PfFigeN6v8hH5JwG6F4zr7Ki3QooFz+CS9FvoI3Y3LA=;
+        b=cXQnEJASd90dROMTL1BgsOHjVL189+JW3E27eG3+GW2zlGbw1LzZH/oyGz5mBU0Wwc
+         J0qAWopn4IBKWPOpAa9RfZfgivksxDJz5jg8eP0EkNoSGvgE/6utzYpC5bhh/9zGoY2b
+         N8LOSrg4wghExA3j34gyI0UIFf7rRkD59fMbKN/7/LQ2BDxiIW9QO0xW7/WOyAq836c3
+         bWYvWbuCumU8OyL58C8GByezzp+QuWn5e+7iWSPnccnaEw11SeFhG7IUdy+pxVHbhMP0
+         vjnuUgRZQxNJ3VEWMdd5MKA1GmAr6nOALOV/oqH7pQdssgvbSKXlFdiZadVSMnVc/EtC
+         bgUQ==
+X-Gm-Message-State: ALoCoQkaYlO8n/0+mlTgiGKMB2q9C9TKLXIYF6v2B9p7tqGVm4Y1sFhd3uVAHdEmM397xLL6x4EFgeve66UlJTQrMhRzH5/XkESmQ38OhtP1Sec1DHa7HGXHBcywNqcPOseeBtL4nZjsG+mMy/DNztgVV/u6cj901g==
+X-Received: by 10.43.13.71 with SMTP id pl7mr35617705icb.31.1428517799894;
+        Wed, 08 Apr 2015 11:29:59 -0700 (PDT)
+X-Received: by 10.43.13.71 with SMTP id pl7mr35617698icb.31.1428517799770;
+ Wed, 08 Apr 2015 11:29:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.117.209 with HTTP; Wed, 8 Apr 2015 11:29:39 -0700 (PDT)
+In-Reply-To: <F0015E7C-43BC-4925-BBAC-0EFE3A47B6BD@vt.edu>
+References: <59828F69-04DB-483A-A4BF-AA78C1EE9EE0@vt.edu> <CAA1RhS17-NQCWwVokM7LmTJKLPpGwNCiHRJnsyMgjRGzU52aNw@mail.gmail.com>
+ <4101C028-8EB0-4E4C-BA94-C7A36D2909E8@vt.edu> <CAA1RhS3LZRq=xThyPstMKQyk4bv8EZR=pdSPYtVwUaS0kgj+iQ@mail.gmail.com>
+ <3085B6A5-D8AE-42A0-91A0-CE1BBE5DF8B1@vt.edu> <CAA1RhS2j6RBiLem2V83N95tT46zwPkd6xf7-3mEbuWAv8YB1yw@mail.gmail.com>
+ <750ECD05-AC08-42CB-94F6-ED872DA6BFFB@vt.edu> <F0015E7C-43BC-4925-BBAC-0EFE3A47B6BD@vt.edu>
+From: Srijith Rajamohan <srijithr@vt.edu>
+Date: Wed, 8 Apr 2015 14:29:39 -0400
+Message-ID: <CAA1RhS2bPOpovtXK05RQsG7Bnfu8Ww23kiB1ZG80jjpjisMvhA@mail.gmail.com>
+Subject: Re: CSV data, Andrew James
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/mixed; boundary=bcaec511e11603370805133ab8b7
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec511e11603370805133ab8b7
+Content-Type: multipart/alternative; boundary=bcaec511e11603370305133ab8b5
+
+--bcaec511e11603370305133ab8b5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ Andrew,
+
+ Attached is the source code for the vtk writer and the link to the
+Paraview Python script. The function you need is 'write_vtk' which is where
+the VTK file is written out for particle-type data.
+
+https://sjster@bitbucket.org/sjster/paraview_script
+
+Please keep in mind that neither of these files are great examples of good
+coding. Many of these things can be done in a much better way, so use it as
+a template for what you want to build.
+
+Regards,
+Srijith
+
+On Tue, Apr 7, 2015 at 5:49 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello,
+>
+> I am very sorry I was about an hour late for our meeting this morning ( I
+> had accidentally put the appointment in my calendar at 11am not 10).  I
+> hope we are able to reschedule..
+>
+> Thanks,
+> =E2=80=94Andrew
+>
+> On Apr 3, 2015, at 4:23 PM, Andrew James <Amjames2@vt.edu> wrote:
+>
+> I will see you Tuesday morning, thanks
+>
+> On Apr 3, 2015, at 4:14 PM, Srijith Rajamohan <srijithr@vt.edu> wrote:
+>
+>
+>  Let us meet around 10 in the morning, if that works.
+>
+> On Fri, Apr 3, 2015 at 4:09 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Great!
+>> I would love to come by Tuesday, did you have a particular time in mind?
+>> My only commitment is a class from 2-330 pm.
+>>
+>> =E2=80=94Andrew
+>>
+>> On Apr 3, 2015, at 4:06 PM, Srijith Rajamohan <srijithr@vt.edu> wrote:
+>>
+>>
+>>  Thanks for sending me this. Maybe we can put your data in a *.vtk file
+>> so we can visualize it.
+>>
+>>  Do you want to stop by on Tuesday with your data so I can look at it ?
+>> Identifying it as either nodal data or particle data would be very helpf=
+ul.
+>>
+>> Regards,
+>> Srijith
+>>
+>> On Fri, Apr 3, 2015 at 3:56 PM, Andrew James <amjames2@vt.edu> wrote:
+>>
+>>> There is a different geometry associated with each row of data, however
+>>> I don=E2=80=99t really know of a good way to store them in a readable f=
+ile. I
+>>> normally read them into a three dimensional python array (Geom[I][A][B]=
+)
+>>> Where I would be the time step, A, the atom number and B indexes the
+>>> coordinate x, y, or z.  Then If I want to save them for later I pickle =
+that
+>>> array using the python pickle module.
+>>>
+>>> The molecule is 10 atoms in total. Here is a picture of it in its most
+>>> stable geometry If you would like to take a look.
+>>>
+>>> <Thiirane_key.png>
+>>>
+>>> On Apr 3, 2015, at 2:56 PM, Srijith Rajamohan <srijithr@vt.edu> wrote:
+>>>
+>>>
+>>>  Andrew,
+>>>
+>>>  Is there no geometry associated with this file ? What was the structur=
+e
+>>> that you wanted to visualize ?
+>>>
+>>>  Regards,
+>>>  Srijith
+>>>
+>>> On Fri, Apr 3, 2015 at 11:55 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>
+>>>> Hello,
+>>>>
+>>>> I have put an example of the data I would like to work with in:
+>>>>
+>>>> /home/amjames2/people/srijithr/example.csv
+>>>>
+>>>> on blue-ridge.  I can also get the cartesian coordinates of the
+>>>> molecule at each time-step. I also was mistaken when we spoke earlier,=
+ my
+>>>> simulation runs for 20,000 times steps but I have take samples at ever=
+y 5th
+>>>> step, so there are only 4000 rows of data in this file.
+>>>>
+>>>> Thanks again for your help,
+>>>>
+>>>> =E2=80=94Andrew
+>>>
+>>>
+>>>
+>>>
+>>
+>>
+>
+>
+>
+
+--bcaec511e11603370305133ab8b5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,s=
+ans-serif"><br></div><div class=3D"gmail_default" style=3D"font-family:taho=
+ma,sans-serif">=C2=A0Andrew,</div><div class=3D"gmail_default" style=3D"fon=
+t-family:tahoma,sans-serif"><br></div><div class=3D"gmail_default" style=3D=
+"font-family:tahoma,sans-serif">=C2=A0Attached is the source code for the v=
+tk writer and the link to the Paraview Python script. The function you need=
+ is &#39;write_vtk&#39; which is where the VTK file is written out for part=
+icle-type data.</div><div class=3D"gmail_default" style=3D"font-family:taho=
+ma,sans-serif"><br></div><div class=3D"gmail_default" style><font face=3D"t=
+ahoma, sans-serif"><a href=3D"https://sjster@bitbucket.org/sjster/paraview_=
+script">https://sjster@bitbucket.org/sjster/paraview_script</a></font><br><=
+/div><div class=3D"gmail_default" style><font face=3D"tahoma, sans-serif"><=
+br></font></div><div class=3D"gmail_default" style><font face=3D"tahoma, sa=
+ns-serif">Please keep in mind that neither of these files are great example=
+s of good coding. Many of these things can be done in a much better way, so=
+ use it as a template for what you want to build.</font></div><div class=3D=
+"gmail_default" style><font face=3D"tahoma, sans-serif"><br></font></div><d=
+iv class=3D"gmail_default" style><font face=3D"tahoma, sans-serif">Regards,=
+</font></div><div class=3D"gmail_default" style><font face=3D"tahoma, sans-=
+serif">Srijith</font></div></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Tue, Apr 7, 2015 at 5:49 PM, Andrew James <span dir=3D"=
+ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.e=
+du</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"wo=
+rd-wrap:break-word">Hello,=C2=A0<div><br></div><div>I am very sorry I was a=
+bout an hour late for our meeting this morning ( I had accidentally put the=
+ appointment in my calendar at 11am not 10).=C2=A0 I hope we are able to re=
+schedule..</div><div><br></div><div>Thanks,=C2=A0</div><div><span class=3D"=
+HOEnZb"><font color=3D"#888888">=E2=80=94Andrew=C2=A0</font></span><div><di=
+v class=3D"h5"><br><div><blockquote type=3D"cite"><div>On Apr 3, 2015, at 4=
+:23 PM, Andrew James &lt;<a href=3D"mailto:Amjames2@vt.edu" target=3D"_blan=
+k">Amjames2@vt.edu</a>&gt; wrote:</div><br><div><div style=3D"word-wrap:bre=
+ak-word">I will see you Tuesday morning, thanks=C2=A0<br><div><blockquote t=
+ype=3D"cite"><div>On Apr 3, 2015, at 4:14 PM, Srijith Rajamohan &lt;<a href=
+=3D"mailto:srijithr@vt.edu" target=3D"_blank">srijithr@vt.edu</a>&gt; wrote=
+:</div><br><div><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font=
+-family:tahoma,sans-serif"><br></div><div class=3D"gmail_default" style=3D"=
+font-family:tahoma,sans-serif">=C2=A0Let us meet around 10 in the morning, =
+if that works.</div></div><div class=3D"gmail_extra"><br><div class=3D"gmai=
+l_quote">On Fri, Apr 3, 2015 at 4:09 PM, Andrew James <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&g=
+t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:=
+break-word">Great!<div>I would love to come by Tuesday, did you have a part=
+icular time in mind?=C2=A0 My only commitment is a class from 2-330 pm.=C2=
+=A0</div><div><br></div><div>=E2=80=94Andrew=C2=A0<br><div><blockquote type=
+=3D"cite"><span><div>On Apr 3, 2015, at 4:06 PM, Srijith Rajamohan &lt;<a h=
+ref=3D"mailto:srijithr@vt.edu" target=3D"_blank">srijithr@vt.edu</a>&gt; wr=
+ote:</div><br></span><div><span><div dir=3D"ltr"><div class=3D"gmail_defaul=
+t" style=3D"font-family:tahoma,sans-serif"><br></div><div class=3D"gmail_de=
+fault" style=3D"font-family:tahoma,sans-serif">=C2=A0Thanks for sending me =
+this. Maybe we can put your data in a *.vtk file so we can visualize it.=C2=
+=A0</div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-seri=
+f"><br></div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-=
+serif">=C2=A0Do you want to stop by on Tuesday with your data so I can look=
+ at it ? Identifying it as either nodal data or particle data would be very=
+ helpful.</div><div class=3D"gmail_default" style=3D"font-family:tahoma,san=
+s-serif"><br></div><div class=3D"gmail_default" style=3D"font-family:tahoma=
+,sans-serif">Regards,</div><div class=3D"gmail_default" style=3D"font-famil=
+y:tahoma,sans-serif">Srijith</div></div></span><div class=3D"gmail_extra"><=
+br><div class=3D"gmail_quote"><span>On Fri, Apr 3, 2015 at 3:56 PM, Andrew =
+James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_b=
+lank">amjames2@vt.edu</a>&gt;</span> wrote:<br></span><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex"><div style=3D"word-wrap:break-word"><span>There is a different ge=
+ometry associated with each row of data, however I don=E2=80=99t really kno=
+w of a good way to store them in a readable file. I normally read them into=
+ a three dimensional python array (Geom[I][A][B])<div>Where I would be the =
+time step, A, the atom number and B indexes the coordinate x, y, or z.=C2=
+=A0 Then If I want to save them for later I pickle that array using the pyt=
+hon pickle module.=C2=A0</div><div><br></div><div>The molecule is 10 atoms =
+in total. Here is a picture of it in its most stable geometry If you would =
+like to take a look.=C2=A0</div><div><br></div></span><div><span>&lt;Thiira=
+ne_key.png&gt;</span><span><div><div><br><div><blockquote type=3D"cite"><di=
+v>On Apr 3, 2015, at 2:56 PM, Srijith Rajamohan &lt;<a href=3D"mailto:sriji=
+thr@vt.edu" target=3D"_blank">srijithr@vt.edu</a>&gt; wrote:</div><br><div>=
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,s=
+ans-serif"><br></div><div class=3D"gmail_default" style=3D"font-family:taho=
+ma,sans-serif">=C2=A0Andrew,</div><div class=3D"gmail_default" style=3D"fon=
+t-family:tahoma,sans-serif"><br></div><div class=3D"gmail_default" style=3D=
+"font-family:tahoma,sans-serif">=C2=A0Is there no geometry associated with =
+this file ? What was the structure that you wanted to visualize ?</div><div=
+ class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif"><br></div>=
+<div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif">=C2=A0=
+Regards,</div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans=
+-serif">=C2=A0Srijith</div></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Fri, Apr 3, 2015 at 11:55 AM, Andrew James <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.=
+edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"mar=
+gin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hello,<br>
+<br>
+I have put an example of the data I would like to work with in:<br>
+<br>
+/home/amjames2/people/srijithr/example.csv<br>
+<br>
+on blue-ridge.=C2=A0 I can also get the cartesian coordinates of the molecu=
+le at each time-step. I also was mistaken when we spoke earlier, my simulat=
+ion runs for 20,000 times steps but I have take samples at every 5th step, =
+so there are only 4000 rows of data in this file.<br>
+<br>
+Thanks again for your help,<br>
+<br>
+=E2=80=94Andrew </blockquote></div><br></div>
+</div></blockquote></div><br></div></div></span></div></div></blockquote></=
+div><br></div>
+</div></blockquote></div><br></div></div></blockquote></div><br></div>
+</div></blockquote></div><br></div></div></blockquote></div><br></div></div=
+></div></div></blockquote></div><br></div>
+
+--bcaec511e11603370305133ab8b5--
+--bcaec511e11603370805133ab8b7
+Content-Type: application/octet-stream; name="test_reader.cxx"
+Content-Disposition: attachment; filename="test_reader.cxx"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_i892jdkb0
+
+I2luY2x1ZGU8c3RkaW8uaD4KI2luY2x1ZGU8c3RkbGliLmg+CiNpbmNsdWRlPGNzdHJpbmc+CiNp
+bmNsdWRlIDxpb3N0cmVhbT4KI2luY2x1ZGUgPGZzdHJlYW0+CiNpbmNsdWRlIDxsaW1pdHM+CnVz
+aW5nIG5hbWVzcGFjZSBzdGQ7Ci8vIENvcHlyaWdodCBTcmlqaXRoIFJhamFtb2hhbiwgQWR2YW5j
+ZWQgUmVzZWFyY2ggQ29tcHV0aW5nLCBWVAovLwovLwp0eXBlZGVmIHN0cnVjdCBteXN0cnVjdF9z
+dAp7CiAgICBmbG9hdCB4LCB5LCB6OyAgICAgICAgICAgICAgLyogcG9zaXRpb24gb2YgYm9keSAq
+LwogICAgZmxvYXQgdngsIHZ5LCB2ejsgICAgICAgICAgIC8qIHZlbG9jaXR5IG9mIGJvZHkgKi8K
+ICAgIGZsb2F0IGF4LCBheSwgYXo7ICAgICAgICAgICAvKiBhY2NlbGVyYXRpb24gKi8KICAgIGZs
+b2F0IHBoaTsgICAgICAgICAgICAgICAgICAvKiBwb3RlbnRpYWwgKi8KICAgIGludDY0X3QgaWRl
+bnQ7ICAgICAgICAgICAgICAvKiB1bmlxdWUgaWRlbnRpZmllciAqLwoKfW15c3RydWN0X3Q7Cgpz
+dHJ1Y3QgY2hlY2tfc3VtX3R7CgkgICAgdW5zaWduZWQgaW50IHNoYTFfbGVuOwoJICAgICAgICB1
+bnNpZ25lZCBjaGFyIHNoYTFbMjBdOwp9OwoKCnN0cnVjdCBub2RlX3R5cGV7Cglkb3VibGUgeDsK
+CWRvdWJsZSB5OwoJZG91YmxlIHo7Cn07CgpzdHJ1Y3QgdmVjdG9yewoJZG91YmxlIHZ4OwoJZG91
+YmxlIHZ5OwoJZG91YmxlIHZ6Owp9OwoKc3RydWN0IGNlbGxfdHlwZXsKCWludCBub2RlWzRdOwp9
+OwoKCnN0cnVjdCBub2RlX3R7CiBpbnQgbm5vZGVzOwogaW50IE50ZXQ7CiBpbnQgKnNjYWxhcjsK
+IHZlY3RvciAqdmVsOwogdmVjdG9yICphY2M7CiBkb3VibGUgKnBvdDsKIG5vZGVfdHlwZSAqbm9k
+ZTsKIGNlbGxfdHlwZSAqdGV0OwogaW50ICp0YWc7Cn07CgoKc3RydWN0IHBhcm1zewogICAgICAg
+IHN0cmluZyB0eXBlOwogICAgICAgIHN0cmluZyBuYW1lOwogICAgICAgIHN0cmluZyB2YWx1ZTsK
+fTsKCgp2b2lkIHdyaXRlX3Z0ayggbm9kZV90ICogbSAsIHBhcm1zICpwYXJtKQp7CgogICAgRklM
+RSAqZnA7CiAgICBpbnQgaTsKICAgIGRvdWJsZSBQOwogICAgZnAgPSBmb3BlbigiUGFyYXZpZXdf
+ZmlsZS52dGsiLCJ3Iik7CgogICAgaWYgKGZwID09IE5VTEwpCiAgICB7CiAgICAgICAgY291dDw8
+IkZpbGUgd3JpdGUgZmFpbGVkIFxuIjsKICAgICAgICBleGl0KDEpOwogICAgfQoKICAgIGZwcmlu
+dGYoZnAsIiMgdnRrIERhdGFGaWxlIFZlcnNpb24gMi4wIik7CiAgICBmcHJpbnRmKGZwLCJcblVu
+c3RydWN0dXJlZCBHcmlkIik7CiAgICBmcHJpbnRmKGZwLCJcbkFTQ0lJXG4iKTsKICAgIGZwcmlu
+dGYoZnAsIlxuREFUQVNFVCBVTlNUUlVDVFVSRURfR1JJRCIpOwogICAKICAgCiAgICBmcHJpbnRm
+KGZwLCJcbkZJRUxEIEZpZWxkRGF0YSAlZFxuIiwxKTsKICAgIGZwcmludGYoZnAsIiAlcyAlZCAl
+ZCAlcyBcbiIscGFybVs1XS5uYW1lLmNfc3RyKCksMSwxLHBhcm1bNV0udHlwZS5jX3N0cigpKTsK
+ICAgIGZwcmludGYoZnAsIiAlc1xuIixwYXJtWzVdLnZhbHVlLmNfc3RyKCkpOwogICAKICAgIGZw
+cmludGYoZnAsIlxuUE9JTlRTICVkIERPVUJMRVxuIixtLT5ubm9kZXMpOwoKICAgIGZvciAoIGkg
+PSAwIDsgaSA8IG0tPm5ub2RlcyA7IGkrKykKICAgIHsKICAgICAgICAgICBmcHJpbnRmKGZwLCIg
+JWxmICVsZiAlbGYgXG4iLG0tPm5vZGVbaV0ueCxtLT5ub2RlW2ldLnksbS0+bm9kZVtpXS56KTsK
+ICAgIH0KCiAgICAvL2ZwcmludGYoZnAsIlxuQ0VMTFMgICVkICVkXG4iLCBtLT5OdGV0ICwgbS0+
+TnRldCo1KTsKCiAvLyAgIGZvciAoIGkgPSAwIDsgaSA8IG0tPk50ZXQgOyBpKyspCiAgIC8vIHsK
+ICAgICAvLyAgIGZwcmludGYoZnAsIjQgJWQgJWQgJWQgJWQgXG4iLG0tPnRldFtpXS5ub2RlWzBd
+ICwgbS0+dGV0W2ldLm5vZGVbMV0gLCBtLT50ZXRbaV0ubm9kZVsyXSAsIG0tPnRldFtpXS5ub2Rl
+WzNdICk7CiAgIC8vIH0KCiBmcHJpbnRmKGZwLCJcbiIpOwoKICAgIGZwcmludGYoZnAsIlxuQ0VM
+TF9UWVBFUyAlZFxuIiwgbS0+TnRldCApOwoKICAgIGZvciAoIGkgPSAwIDsgaSA8IG0tPk50ZXQg
+OyBpKyspCiAgICB7CiAgICAgICAgZnByaW50ZihmcCwiMSBcbiIpOwogICAgfQoKICAgIGZwcmlu
+dGYoZnAsIlxuUE9JTlRfREFUQSAlZCIsbS0+bm5vZGVzKTsKICAgIGZwcmludGYoZnAsIlxuU0NB
+TEFSUyB0YWcgaW50ZWdlciIpOwogICAgZnByaW50ZihmcCwiXG5MT09LVVBfVEFCTEUgZGVmYXVs
+dCIpOwoKICAgIGZvciAoIGkgPSAwIDsgaSA8IG0tPm5ub2RlcyA7IGkrKykKICAgIHsKICAgICAg
+ICAgZnByaW50ZihmcCwiXG4gJWQiLCBtLT50YWdbaV0pOwogICAgfQoKCiAgICBmcHJpbnRmKGZw
+LCJcblNDQUxBUlMgcGhpIGRvdWJsZSIpOwogICAgZnByaW50ZihmcCwiXG5MT09LVVBfVEFCTEUg
+ZGVmYXVsdCIpOwoKICAgIGZvciAoIGkgPSAwIDsgaSA8IG0tPm5ub2RlcyA7IGkrKykKICAgIHsK
+ICAgICAgICAgZnByaW50ZiggZnAsICJcbiAlbGYgICIsIG0tPnBvdFtpXSApOwogICAgfQoKICAg
+IGZwcmludGYoZnAsIlxuVkVDVE9SUyB2ZWxvY2l0eSBkb3VibGUiKTsKCiAgICBmb3IgKCBpID0g
+MCA7IGkgPCBtLT5ubm9kZXMgOyBpKyspCiAgICB7CiAgICAgICAgIGZwcmludGYoIGZwLCAiXG4g
+JWxmICAlbGYgICVsZiIsIG0tPnZlbFtpXS52eCAsIG0tPnZlbFtpXS52eSAsIG0tPnZlbFtpXS52
+eiApOwogICAgfQoKICAgIGZwcmludGYoZnAsIlxuVkVDVE9SUyBhY2NlbGVyYXRpb24gZG91Ymxl
+Iik7CgogICAgZm9yICggaSA9IDAgOyBpIDwgbS0+bm5vZGVzIDsgaSsrKQogICAgewogICAgICAg
+ICBmcHJpbnRmKCBmcCwgIlxuICVsZiAgJWxmICAlbGYiLCBtLT5hY2NbaV0udnggLCBtLT5hY2Nb
+aV0udnkgLCBtLT5hY2NbaV0udnogKTsKICAgIH0KCgogICBmY2xvc2UoZnApOwoKfQoKCnN0ZDo6
+ZnN0cmVhbSYgR290b0xpbmUoc3RkOjpmc3RyZWFtJiBmaWxlLCB1bnNpZ25lZCBpbnQgbnVtKXsK
+ICAgIGZpbGUuc2Vla2coc3RkOjppb3M6OmJlZyk7CiAgICBmb3IoaW50IGk9MDsgaSA8IG51bSAt
+IDE7ICsraSl7CiAgICAgICAgZmlsZS5pZ25vcmUoc3RkOjpudW1lcmljX2xpbWl0czxzdGQ6OnN0
+cmVhbXNpemU+OjptYXgoKSwnOycpOwogICAgfQogICAgCiAgICBmaWxlLnNlZWtnKDEsc3RkOjpp
+b3M6OmN1cik7CiAgICByZXR1cm4gZmlsZTsKfQoKCnN0cmluZyBleHRyYWN0KHN0cmluZyAmIHN0
+cikKewoKICAgc3RkOnNpemVfdCBwb3M7CiAgIHN0cmluZyBzdHIyOwogICBwb3MgPSBzdHIuZmlu
+ZCgiICIpOwogICAvL2NvdXQ8PCJERUJVRyAiPDxzdHI8PGVuZGw7CiAgIHN0cjIgPSBzdHIuc3Vi
+c3RyKDAscG9zKTsKICAgLy9jb3V0PDwiREVCVUcgIjw8c3RyMjw8ZW5kbDsKICAgc3RyID0gc3Ry
+LnN1YnN0cihwb3MpOwoKICAgcmV0dXJuKHN0cjIpOwoKfQoKCnZvaWQgd3JpdGVfaGVhZGVyKGZz
+dHJlYW0gJnBGaWxlLCBwYXJtcyogcGFybSwgaW50IG51bSkKewoKICBzdHJpbmcgc3RyOwoKICBm
+b3IoIGludCBpID0gMiA7IGkgPCBudW0gOyBpKyspCiAgewoKICAgICAgR290b0xpbmUocEZpbGUs
+aSk7CiAgICAgIGdldGxpbmUocEZpbGUsIHN0ciwgJzsnKTsKICAgICAgcGFybVtpLTJdLnR5cGUg
+PSBleHRyYWN0KHN0cik7CiAgICAgIHN0ciA9IHN0ci5zdWJzdHIoMSk7CiAgICAgLy8gc3RkOjpj
+b3V0PDxpPDwiICI8PHBhcm1baS0yXS50eXBlPDwiIC0tICI8PHN0cjw8ZW5kbDsKICAgICAgcGFy
+bVtpLTJdLm5hbWUgPSBleHRyYWN0KHN0cik7CiAgICAgIHN0ciA9IHN0ci5zdWJzdHIoMyk7CiAg
+ICAgLy8gc3RkOjpjb3V0PDxpPDwiLS0tLS0gIjw8c3RyPDxlbmRsOwogICAgICBwYXJtW2ktMl0u
+dmFsdWUgPSBzdHI7CiAgICAgLy8gc3RkOjpjb3V0PDxpPDwiICI8PHBhcm1baS0yXS50eXBlPDwi
+LS0iPDxlbmRsOwogICAgIC8vICAgICAgICAgc3RkOjpjb3V0PDxwYXJtW2ktMl0ubmFtZTw8Ii0t
+Ijw8ZW5kbDsKICAgICAvLyAgICAgICAgIHN0ZDo6Y291dDw8cGFybVtpLTJdLnZhbHVlPDxlbmRs
+OwoKCiAgfQoKfQoKCmludCBtYWluKCBpbnQgYXJnYyAsIGNoYXIgKiphcmd2ICkKewogIGludCBO
+UE9JTlRTLE5IRUFERVI7CQogIGNoYXIgZHVtc3RyaW5nMVsxMDBdID0gIkhvd2R5IjsKICBzdGQ6
+OnN0cmNhdChkdW1zdHJpbmcxLCJ0cmlhbC4iKTsKICBwcmludGYoIkhlbGxvIHdvcmxkLCBsZXQn
+cyB0cnkgdGhpcyBcbiIpOwogIHByaW50ZigiJXMgXG4iLGR1bXN0cmluZzEpOwoKICBmc3RyZWFt
+IHBGaWxlOwogIG15c3RydWN0X3QgbXlzdHJ1Y3Q7CiAgY2hlY2tfc3VtX3QgY3N1bTsKICBub2Rl
+X3QgKm07CiAgY2hhciB0ZW1wWzgwXSx0MTsKICBpZiAoYXJnYyA8IDIgKSBzdGQ6OmNvdXQ8PCJQ
+cm92aWRlIGZpbGVuYW1lIFxuIjsKCiAgcEZpbGUub3BlbiAoIGFyZ3ZbMV0gLCAgaW9zOjppbiB8
+IGlvczo6YmluYXJ5ICk7CiAgaWYgKCFwRmlsZS5pc19vcGVuKCkpIHtmcHV0cyAoIkZpbGUgZXJy
+b3IiLHN0ZGVycik7IGV4aXQgKDEpO30KCiAgLy8gV2hhdCB5b3UgcmVhbGx5IG5lZWQgaGVyZSBp
+cyBhIGNsYXNzCiAgLy8KICBOUE9JTlRTID0gMjA5NzE1MjsKICBOSEVBREVSID0gNzA7CiAgbSA9
+IG5ldyBub2RlX3Q7CiAgbS0+bm5vZGVzID0gTlBPSU5UUzsKICBtLT5ub2RlID0gbmV3IG5vZGVf
+dHlwZVtOUE9JTlRTXTsKICBtLT52ZWw9IG5ldyB2ZWN0b3JbTlBPSU5UU107CiAgbS0+YWNjPSBu
+ZXcgdmVjdG9yW05QT0lOVFNdOwogIG0tPnRhZyA9IG5ldyBpbnRbTlBPSU5UU107CiAgbS0+cG90
+ID0gbmV3IGRvdWJsZVtOUE9JTlRTXTsKICBtLT5OdGV0ID0gTlBPSU5UUzsKICBtLT50ZXQgPSBO
+VUxMOwoKICBwYXJtcyAqcGFybSA9IG5ldyBwYXJtc1tOSEVBREVSXTsKICB3cml0ZV9oZWFkZXIo
+cEZpbGUscGFybSxOSEVBREVSKTsKCiAgc3RkOjpjb3V0PDwiUGFybXMgLS0iPDxwYXJtWzVdLm5h
+bWU8PCIgIjw8cGFybVs1XS50eXBlPDwiICI8PHBhcm1bNV0udmFsdWU8PGVuZGw7CiAgCiAgR290
+b0xpbmUocEZpbGUsOTApOwogIHBGaWxlLnNlZWtnKDE5LHN0ZDo6aW9zOjpjdXIpOwogCiAgZm9y
+ICggaW50IGkgPSAwIDsgaSA8IDE2OyBpKysgKQogewogIC8vR290b0xpbmUocEZpbGUsOTApOwog
+IC8vcEZpbGUuc2Vla2coMjAsc3RkOjppb3M6OmN1cik7CiAgLy9wRmlsZS5yZWFkKChjaGFyKikm
+dDEgLCBzaXplb2YodDEpKTsgIAogIC8vc3RkOjpjb3V0PDwiXG5UZW1wIGlzICI8PHQxPDwiXG4i
+OyAgCiAKICAvL0dvdG9MaW5lKHBGaWxlLDk1KTsgIAogIC8vZnJlYWQgKCZteXN0cnVjdCxzaXpl
+b2YobXlzdHJ1Y3RfdCksMSxwRmlsZSk7IAogIHBGaWxlLnJlYWQoKGNoYXIqKSZjc3VtLCBzaXpl
+b2YoY3N1bSkpOwogIAogIHN0ZDo6Y291dDw8Y3N1bS5zaGExX2xlbjw8IiAgIjw8Y3N1bS5zaGEx
+PDwiXG4iOwogfQoKICBzdGQ6OmNvdXQucHJlY2lzaW9uKDE0KTsgCiAgZm9yICggaW50IGkgPSAw
+IDsgaSA8IE5QT0lOVFM7IGkrKyApCiAgewogICBwRmlsZS5yZWFkKChjaGFyKikmbXlzdHJ1Y3Qs
+IHNpemVvZihteXN0cnVjdCkpOwogICAvL3N0ZDo6Y291dDw8bXlzdHJ1Y3QueDw8IiAgIjw8bXlz
+dHJ1Y3QueTw8IiAiPDxteXN0cnVjdC52ejw8IiAiPDxteXN0cnVjdC5pZGVudDw8IlxuIjsKICAg
+bS0+bm9kZVtpXS54ID0gbXlzdHJ1Y3QueDsKICAgbS0+bm9kZVtpXS55ID0gbXlzdHJ1Y3QueTsK
+ICAgbS0+bm9kZVtpXS56ID0gbXlzdHJ1Y3QuejsKICAgbS0+dGFnW2ldID0gbXlzdHJ1Y3QuaWRl
+bnQ7CiAgIG0tPnZlbFtpXS52eCA9IG15c3RydWN0LnZ4OwogICBtLT52ZWxbaV0udnkgPSBteXN0
+cnVjdC52eTsKICAgbS0+dmVsW2ldLnZ6ID0gbXlzdHJ1Y3Qudno7CiAgIG0tPmFjY1tpXS52eCA9
+IG15c3RydWN0LmF4OwogICBtLT5hY2NbaV0udnkgPSBteXN0cnVjdC5heTsKICAgbS0+YWNjW2ld
+LnZ6ID0gbXlzdHJ1Y3QuYXo7CiAgIG0tPnBvdFtpXSA9IG15c3RydWN0LnBoaTsKICB9CgogIAoK
+ICB3cml0ZV92dGsobSxwYXJtKTsKICBkZWxldGUgW10gbS0+dGFnOwogIGRlbGV0ZSBbXSBtLT5u
+b2RlOwogIGRlbGV0ZSBbXSBtLT52ZWw7CiAgZGVsZXRlIG07CiAgZGVsZXRlIFtdIHBhcm07IAog
+IHBGaWxlLmNsb3NlKCk7ICAKICByZXR1cm4gMDsKfQo=
+--bcaec511e11603370805133ab8b7--

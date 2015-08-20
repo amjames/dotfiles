@@ -1,0 +1,41 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp1388298qga;
+        Mon, 23 Feb 2015 05:45:06 -0800 (PST)
+X-Received: by 10.140.106.228 with SMTP id e91mr23777176qgf.19.1424699106783;
+        Mon, 23 Feb 2015 05:45:06 -0800 (PST)
+Return-Path: <scholar@edtech.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id f9si5627042qcz.31.2015.02.23.05.45.04
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Feb 2015 05:45:06 -0800 (PST)
+Received-SPF: none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) client-ip=198.82.175.46;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) smtp.mail=scholar@edtech.vt.edu
+Received: from tortilla (tortilla.edtech.vt.edu [198.82.175.46])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1NDiwmF009272;
+	Mon, 23 Feb 2015 08:45:03 -0500
+Received: from localhost ([127.0.0.1] helo=tortilla)
+	by tortilla with esmtp (Exim 4.76)
+	(envelope-from <scholar@edtech.vt.edu>)
+	id 1YPtJi-0000tb-Ko; Mon, 23 Feb 2015 08:44:58 -0500
+Date: Mon, 23 Feb 2015 08:44:58 -0500 (EST)
+Message-ID: <644064437.1799.1424699098637.JavaMail.sakai@tortilla>
+Subject: DATE CORRECTION
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+From: mdalton1@vt.edu
+Content-Type: text/html; charset=iso-8859-1
+X-Spam-Status: No, score=4.6 required=5.0 tests=FSL_HELO_NON_FQDN_1,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,MISSING_HEADERS,
+	SUBJ_ALL_CAPS,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Level: ****
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+To: Chem 1046 TA Group<p/>From: Michelle Dalton<p/>Our mandatory 1046 TA meeting will be on TUESDAY, MARCH 3 from 6-8pm in HHN 201.<br/>
+<br/>
+Please bring your laptops.<p>----------------------<br>This forwarded message was sent via Scholar Messages from the  "Gen Chem TA Site S15" site.
+To reply to this message click this link to access Messages for this site: <a href="https://scholar.vt.edu/portal/site/9c0ae9a6-7755-4737-96a7-79b1122ccc35/page/3540c2aa-6eb9-4502-8ddb-94e80a2753fc">Gen Chem TA Site S15</a>.</p>

@@ -1,0 +1,104 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp83870qgt;
+        Thu, 5 Feb 2015 13:01:57 -0800 (PST)
+X-Received: by 10.170.162.135 with SMTP id e129mr26095ykd.110.1423170117088;
+        Thu, 05 Feb 2015 13:01:57 -0800 (PST)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id r63si16267yka.81.2015.02.05.13.01.56
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 05 Feb 2015 13:01:57 -0800 (PST)
+Received-SPF: none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) client-ip=192.254.112.99;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t15L1oQf009997
+	for <amjames2@vt.edu>; Thu, 5 Feb 2015 16:01:55 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=y4J20oRf2yX2uTPp5XgkxcWzwWI=; b=kswJhEoqFPRIGHEg
+	ZVJQ8wSglX7yhu5UYfC+zw7NN2mc88Owg+zvUOpeOs11+gBnGVB2d8eciNwt7Kf7
+	6ywUUPCaZiTEXzWJGwOhtuXYd1pxeJXfj+6u0JWBJIC3kXpE3YePnnxUDrCKBpUq
+	8qkmQxIsRUXGRSL5ufcCxD06bNc=
+Received: by filter0312p1mdw1.sendgrid.net with SMTP id filter0312p1mdw1.5574.54D3DA3712
+        2015-02-05 21:01:44.044508 +0000 UTC
+Received: from ismtpd-038.iad1.sendgrid.net ([UNAVAILABLE]. [10.42.2.99])
+	by 10.42.243.102:2500 (trex/5.2.14);
+	Thu, 05 Feb 2015 21:01:47 GMT
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-038 (SG) with ESMTP id 14b5b8c690f.f3e.130532
+	for <amjames2@vt.edu>; Thu, 05 Feb 2015 21:01:43 +0000 (UTC)
+Date: Thu, 05 Feb 2015 13:01:43 -0800
+From: fevangelista <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6425b94c4f8258cece2aa33e9c709262b63d95f2d5992cf0000000110eb9c3792a169ce03619e18@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/92@github.com>
+Subject: [psi4] MP2 and CISD NOs (#92)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54d3da376466c_7bf13fb38b9e329c6895c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: fevangelista
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6425b94c4f8258cece2aa33e9c709262b63d95f2d5992cf0000000110eb9c3792a169ce03619e18@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6425b94c4f8258cece2aa33e9c709262b63d95f2d5992cf0000000110eb9c3792a169ce03619e18@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QnPeui2kEkFEzHV1QjUqJi6zT2uMks5no9G3gaJpZM4Dcb1C>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlgrLyPfZfXp4L/HH6z0dJyCwd8RFW35XxlS1
+ G+gieDtuPcxfsKpBnShXWry8c2apIJ6unpYRvIc7YUdju/z2mzlvbLC7yNIBfgYzHUzsTDVENxBobC
+ gC3P4bDxcX4ZmGg=
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_54d3da376466c_7bf13fb38b9e329c6895c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+This is a pretty basic question.  Is there an easy way to get MP2 or CISD natural orbitals in psi4?  Ideally it would be nice to be able to ask
+mp2_nos()
+and have the C matrices populated with natural orbitals.
+
+I tried with Eugene's energy('fno-mp3') but it looks to me like the natural orbitals are not copied to the main Wavefunction object. (in my tests it does not make any difference if I first call fno-mp3).
+
+Francesco
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/92
+----==_mimepart_54d3da376466c_7bf13fb38b9e329c6895c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>This is a pretty basic question.  Is there an easy way to get MP2 or CISD natural orbitals in psi4?  Ideally it would be nice to be able to ask<br>
+mp2_nos()<br>
+and have the C matrices populated with natural orbitals.</p>
+
+<p>I tried with Eugene's energy('fno-mp3') but it looks to me like the natural orbitals are not copied to the main Wavefunction object. (in my tests it does not make any difference if I first call fno-mp3).</p>
+
+<p>Francesco</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/92">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QvitNergKQopLkbo8mfSuFFDJ1mdks5no9G3gaJpZM4Dcb1C.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/92"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_54d3da376466c_7bf13fb38b9e329c6895c--

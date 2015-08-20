@@ -1,0 +1,141 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp522348qgt;
+        Fri, 7 Aug 2015 08:13:24 -0700 (PDT)
+X-Received: by 10.140.232.209 with SMTP id d200mr3325267qhc.68.1438960404182;
+        Fri, 07 Aug 2015 08:13:24 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id q69si18342510qha.48.2015.08.07.08.13.23
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Aug 2015 08:13:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t77FDHud018193
+	for <amjames2@vt.edu>; Fri, 7 Aug 2015 11:13:22 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=p1mwBBWeLI7hAIs1WJOc3SEs89Q=; b=haKJNTg25cO/+/zZ
+	gRM9zDh2OeZV7yy6EZgYzvN++ij5hbTqC0Vz5su6lOdCcDhr6+t2EMY5g93SqV73
+	ONiyeK3amyAX5ql2STtFaA/BAj8MaKvla2Lz+FBrfVuMD/kFPE+jv8aZF8M5qR+e
+	szRgwsp4m+QNYZrbl6RSRHbzYHI=
+Received: by filter0691p1mdw1.sendgrid.net with SMTP id filter0691p1mdw1.12692.55C4CB0128
+        2015-08-07 15:13:05.371212907 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id sOMPwXlhQoqpwrPWNsRQUQ
+	for <amjames2@vt.edu>; Fri, 07 Aug 2015 15:13:05 +0000 (UTC)
+Date: Fri, 07 Aug 2015 08:13:05 -0700
+From: "T. Daniel Crawford" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f64210778a948187b9b0ebc9bb4ca20e1f6c750a927292cf0000000111dc8d0192a163ce00c01836@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7/12589110@github.com>
+In-Reply-To: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7@github.com>
+References: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7@github.com>
+Subject: Re: [psi4] Added calculation of UHF NOs. (e219408)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c4cb0126874_634b3ffa9f70b2bc2371d7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: lothian
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f64210778a948187b9b0ebc9bb4ca20e1f6c750a927292cf0000000111dc8d0192a163ce00c01836@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64210778a948187b9b0ebc9bb4ca20e1f6c750a927292cf0000000111dc8d0192a163ce00c01836@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QkF1xYXOZOgTOkTBb8nRiHysv5Bhks5olMKBgaJpZM4FnnMD>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Ik0zopJjaUyEXc1NrO8I+k9H2foKmQotN0mw3
+ HmDCVvdipY+ErUtrlACICqmN5K84M6k8lq1oi9FHm0FXKb2Dj6NHh/AWsWmRAGl3IZR/472N2lRQAL
+ QYeWWqttI4tGLPg=
+X-Spam-Status: No, score=-1.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55c4cb0126874_634b3ffa9f70b2bc2371d7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Right now we just report the UHF NO occupation numbers, but the code (in
+UHF::finalize()) could easily be modified to grab the NOs themselves to use
+as a starting guess in, e.g., MCSCF calculations.
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Aug 7, 2015 at 9:09 AM, fevangelista <notifications@github.com>
+wrote:
+
+> Thanks Daniel, was looking forward to having this feature in psi4.
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633e=
+ede7#commitcomment-12589026>
+> .
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede=
+7#commitcomment-12589110=
+
+----==_mimepart_55c4cb0126874_634b3ffa9f70b2bc2371d7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Right now we just report the UHF NO occupation numbers, but the code (in<br>
+UHF::finalize()) could easily be modified to grab the NOs themselves to use=
+<br>
+as a starting guess in, e.g., MCSCF calculations.<br>
+<br>
+--<br>
+Prof. T. Daniel Crawford<br>
+crawdad@vt.edu<br>
+<br>
+On Fri, Aug 7, 2015 at 9:09 AM, fevangelista &lt;notifications@github.com&g=
+t;<br>
+wrote:<br>
+<br>
+&gt; Thanks Daniel, was looking forward to having this feature in psi4.<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b05=
+6b633eede7#commitcomment-12589026&gt;<br>
+&gt; .<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&mda=
+sh;<br>Reply to this email directly or <a href=3D"https://github.com/psi4/p=
+si4/commit/e21940836ee8939c657eff25c96b056b633eede7#commitcomment-12589110"=
+>view it on GitHub</a>.<img alt=3D"" height=3D"1" src=3D"https://github.com=
+/notifications/beacon/AIn2QuvuEfBgUlI_sHaAU3PojxEigRMMks5olMKBgaJpZM4FnnMD.=
+gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewActi=
+on">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4/commit/e219=
+40836ee8939c657eff25c96b056b633eede7#commitcomment-12589110"></link>
+    <meta itemprop=3D"name" content=3D"View Commit"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Commit on GitHub"></m=
+eta>
+</div>
+
+----==_mimepart_55c4cb0126874_634b3ffa9f70b2bc2371d7--

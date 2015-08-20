@@ -1,0 +1,2391 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp114286qgt;
+        Tue, 3 Feb 2015 12:13:39 -0800 (PST)
+X-Received: by 10.140.34.67 with SMTP id k61mr53813461qgk.95.1422994419000;
+        Tue, 03 Feb 2015 12:13:39 -0800 (PST)
+Return-Path: <blbrown@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 49si10129128qgb.16.2015.02.03.12.13.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Feb 2015 12:13:38 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning blbrown@vt.edu does not designate 209.85.218.41 as permitted sender) client-ip=209.85.218.41;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning blbrown@vt.edu does not designate 209.85.218.41 as permitted sender) smtp.mail=blbrown@vt.edu
+Received: from mail-oi0-f41.google.com (mail-oi0-f41.google.com [209.85.218.41])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t13KDVsB019916
+	for <amjames2@vt.edu>; Tue, 3 Feb 2015 15:13:36 -0500
+Received: by mail-oi0-f41.google.com with SMTP id z81so51024617oif.0
+        for <amjames2@vt.edu>; Tue, 03 Feb 2015 12:13:31 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:cc:content-type;
+        bh=QQoEptJgrMFbdh6vMkUABt1eQQEwO017m5lbyvb50aI=;
+        b=agMX3+MhSxuYHMzDC49DWgt5mou1ac0sfL/jmhPBTBI0ZNrZQC1cMGU0wxE4xBhC+l
+         a+0/CnysQFS9smUMWMGmlkYhPkx1KepX+yx5h0FOZW3VP2pOOy1pYevO0SifMUqqb8Dy
+         LCql6+YFcyZ5/0CT4r60XZoik2qzGDtDgMhR4mZg0GDiI82tSUuULYCm/4sgag2ud+zs
+         /pPBdtwacJcfYZAjpa4Dopp8B1CGRqrgqr9CPPaJ6oWZPbMGHkYhswTuHzvhU20ltRBp
+         +zS1IQYvjCzmXV11C7rAtUy3alYJCDXrRNd7mHtVrbLkApiCULGHm9emV1dWO4PdZTmN
+         XlUA==
+X-Gm-Message-State: ALoCoQlWCTlDxS643bZS+Jyp5yfEXtrpdNXFkZ8srrF9SH525KSWlHFB0zr25/bnM8MU6V47G2CbSi5Up3hvSZY8nJKIoWtvb9bjXXw7TZVspXOD0sfs39xE8RIy/w/7wovVqfsx8kFlZMzN0te17ch//GidLmol3g==
+X-Received: by 10.60.16.230 with SMTP id j6mr2885698oed.8.1422994411596;
+        Tue, 03 Feb 2015 12:13:31 -0800 (PST)
+X-Received: by 10.60.16.230 with SMTP id j6mr2885684oed.8.1422994411400; Tue,
+ 03 Feb 2015 12:13:31 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.202.172.82 with HTTP; Tue, 3 Feb 2015 12:12:51 -0800 (PST)
+In-Reply-To: <CAJso5agD44yhV6sPy5fQfg_-JSuSx4+S+d-H9ejqtxKV2E7nOg@mail.gmail.com>
+References: <6F146172AF1BA24494E2DE5F65FC93B307AFE26C@sus428.siam.org> <CAJso5agD44yhV6sPy5fQfg_-JSuSx4+S+d-H9ejqtxKV2E7nOg@mail.gmail.com>
+From: Ladd Brown <blbrown@vt.edu>
+Date: Tue, 3 Feb 2015 15:12:51 -0500
+Message-ID: <CAJso5ah+QjopbCAttag86QhxGPeZ_qDG7yG0GfGfZR_eFeAXcw@mail.gmail.com>
+Subject: Re: FW: Virginia Tech is interested in the SIAM perpetual access
+ ebook package
+To: "Joanne M. Cassetti" <Cassetti@siam.org>
+Cc: "amjames2@vt.edu" <amjames2@vt.edu>,
+        "Patricia A. Hartner" <Hartner@siam.org>,
+        "Kimberly A. Haines" <KHaines@siam.org>
+Content-Type: multipart/alternative; boundary=e89a8f503bb268bbeb050e34b4ab
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,LOTS_OF_MONEY,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--e89a8f503bb268bbeb050e34b4ab
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Whoops!
+
+Can you please give this an invoice number and take the status 'proforma'
+off of it?
+
+Our Controller's Office is making it hard for us to pay proformas and they
+are insisting that invoices have invoice numbers.
+
+--thanks, Ladd
+
+
+
+Ladd Brown
+Head of Acquisitions | Electronic Access Team
+Jean Russell Quible Department of Collections & Technical Services
+Newman Library | Virginia Tech
+560 Drillfield Drive
+Blacksburg, Virginia USA  24061-0001
+(540-231-6736   7540-231-3694
+
+
+
+
+On Tue, Feb 3, 2015 at 2:59 PM, Ladd Brown <blbrown@vt.edu> wrote:
+
+> Joanne--
+>
+> I am processing the invoice now and here's our signed agreement.
+>
+> I made a standard change from 'Pennsylvania' to 'Virginia' in Section 6.d=
+.
+>
+> Just a quick note that our IPs have changed slightly.  They are now:
+>
+>  38.68.224-243.*
+> 38.68.251-254.*
+> 128.173.0-37.*
+> 128.173.39-255.*
+> 198.69.172.*
+> 198.82.*.*
+>  206.105.198.*
+> 208.16.73.*
+> 208.22.128-159.*
+>
+> --Ladd
+>
+> Ladd Brown
+> Head of Acquisitions | Electronic Access Team
+> Jean Russell Quible Department of Collections & Technical Services
+> Newman Library | Virginia Tech
+> 560 Drillfield Drive
+> Blacksburg, Virginia USA  24061-0001
+> (540-231-6736   7540-231-3694
+>
+>
+>
+>
+>
+> Ladd Brown
+> Head of Acquisitions | Electronic Access Team
+> Jean Russell Quible Department of Collections & Technical Services
+> Newman Library | Virginia Tech
+> 560 Drillfield Drive
+> Blacksburg, Virginia USA  24061-0001
+> (540-231-6736   7540-231-3694
+>
+>
+>
+>
+> On Tue, Feb 3, 2015 at 1:16 PM, Joanne M. Cassetti <Cassetti@siam.org>
+> wrote:
+>
+>>  Hello,
+>>
+>>
+>>
+>> Please find attached your invoice for SIAM Perpetual ebook access along
+>> with our ebook services agreement.
+>>
+>>
+>>
+>> Thank you,
+>>
+>> Joanne
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> *From:* Ladd Brown [mailto:blbrown@vt.edu <blbrown@vt.edu>]
+>> *Sent:* Thursday, January 29, 2015 1:27 PM
+>> *To:* Elizabeth Greenspan
+>> *Cc:* Andrew James; Patricia A. Hartner; Walz, Anita; Robert Sebek;
+>> David K. Marshall; Joanne M. Cassetti; Kimberly A. Haines
+>> *Subject:* Re: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Well played, Elizabeth.
+>>
+>>
+>>
+>> Thanks to the rest of you, too.
+>>
+>>
+>>
+>> I am going to have to nominate SIAM as our Vendor of the Month at our
+>> next Collection Management meeting...
+>>
+>>
+>>   Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Thu, Jan 29, 2015 at 12:38 PM, Elizabeth Greenspan <Greenspan@siam.or=
+g>
+>> wrote:
+>>
+>> Hi Andrew:
+>>
+>>
+>>
+>> I=E2=80=99ve given you access to Optimization Software Guide on Google P=
+lay.
+>> You=E2=80=99ll have it until it=E2=80=99s available at the VT library.
+>>
+>>
+>> Thanks,
+>>
+>>
+>> Elizabeth
+>>
+>>
+>>
+>> *From:* Andrew James [mailto:amjames2@vt.edu]
+>> *Sent:* Thursday, January 29, 2015 11:56 AM
+>> *To:* Ladd Brown
+>> *Cc:* Patricia A. Hartner; Walz, Anita; Robert Sebek; David K. Marshall;
+>> Joanne M. Cassetti; Kimberly A. Haines; Elizabeth Greenspan
+>>
+>>
+>> *Subject:* Re: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Hello All,
+>>
+>>
+>>
+>> My Gmail address is:
+>>
+>> Andrew.m.james2@gmail.com
+>>
+>>
+>>
+>> Thank you so much for getting this for me.
+>>
+>>
+>>   Andrew James
+>>
+>>
+>>
+>> Graduate Teaching Assistant
+>>
+>> Virginia Tech
+>>
+>> Chemistry Department
+>>
+>> amjames2@vt.edu
+>>
+>>
+>>
+>> On Thu, Jan 29, 2015 at 9:30 AM, Ladd Brown <blbrown@vt.edu> wrote:
+>>
+>> Andrew--
+>>
+>>
+>>
+>> Can you please get in touch with Elizabeth (copy all here, too, so we ca=
+n
+>> trace this ticket) about getting the e-book on Google Play?
+>>
+>>
+>>
+>> She'll require a gmail address.
+>>
+>>
+>>
+>> --thanks, Ladd
+>>
+>>
+>>   Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Thu, Jan 29, 2015 at 7:41 AM, Elizabeth Greenspan <Greenspan@siam.org=
+>
+>> wrote:
+>>
+>> Hi Ladd:
+>>
+>>
+>>
+>> I can give the patron access to *Optimization Software Guide* on Google
+>> Play to hold him/her over until the ebook is available through the
+>> library.  To do this I=E2=80=99ll need the patron=E2=80=99s gmail addres=
+s.
+>>
+>>
+>>
+>> I look forward to hearing from you.
+>>
+>>
+>> Best,
+>>
+>>
+>> Elizabeth
+>>
+>>
+>>
+>>
+>>
+>> *From:* Patricia A. Hartner
+>> *Sent:* Wednesday, January 28, 2015 6:12 PM
+>> *To:* Ladd Brown
+>> *Cc:* Walz, Anita; Robert Sebek; phaskell@math.vt.edu; David K.
+>> Marshall; Joanne M. Cassetti; Kimberly A. Haines; Elizabeth Greenspan
+>> *Subject:* RE: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Dear Ladd,
+>>
+>>
+>>
+>> Thanks so much for contacting us about purchasing SIAM e-books.  While w=
+e
+>> wait to get the pdf of "Optimization Software Guide" (1993) to you, I wo=
+uld
+>> like to provide you with a quote and some details about our e-book progr=
+am.
+>>
+>>
+>>
+>> Virginia Tech is a SIAM Academic Member, and by virtue of your membershi=
+p
+>> you are entitled to the discounted rate of $16,632 for SIAM e-books
+>> perpetual ownership.  The titles are listed on the attached Excel sheet.
+>>
+>>
+>>
+>> Please feel free to contact me with any questions you may have.  As you
+>> can see, Thailand is very well connected!
+>>
+>>
+>>
+>> With thanks and regards,
+>>
+>> Patricia
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> Patricia A. Hartner
+>>
+>> Manager, Institutional Sales and Licensing
+>>
+>>  SIAM exists to ensure the strongest interactions between mathematics
+>> and other scientific and technological communities through membership
+>> activities, publication of journals and books, and conferences.
+>>
+>> 3600 Market Street, 6th Floor
+>>
+>> Philadelphia, PA 19104-2688 USA
+>>
+>> 267-350-6376 (PA office phone)
+>>
+>> 631-651-5334 (NY office phone)
+>>
+>> 631-897-6603  (cell phone)
+>>
+>> Skype - patricia.hartner1
+>>
+>> hartner@siam.org
+>>
+>> www.siam.org
+>>
+>>
+>>
+>> *=E2=80=9C**Books are the bees which carry the pollen from one to anothe=
+r mind"-* James
+>> Russell Lowell
+>> <http://www.goodreads.com/author/show/15585.James_Russell_Lowell>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> *From:* Ladd Brown [mailto:blbrown@vt.edu <blbrown@vt.edu>]
+>> *Sent:* Wednesday, January 28, 2015 4:06 PM
+>> *To:* Elizabeth Greenspan
+>> *Cc:* Walz, Anita; Robert Sebek; phaskell@math.vt.edu; Patricia A.
+>> Hartner; David K. Marshall
+>> *Subject:* Re: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Super!
+>>
+>>
+>>
+>> --thanks, Ladd
+>>
+>>
+>>   Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Wed, Jan 28, 2015 at 4:02 PM, Elizabeth Greenspan <Greenspan@siam.org=
+>
+>> wrote:
+>>
+>> Hi Ladd:
+>>
+>>
+>>
+>> I=E2=80=99m looking into getting you access to the book.  I should be ge=
+tting
+>> back to you tomorrow about this.
+>>
+>>
+>> Best,
+>>
+>>
+>> Elizabeth
+>>
+>>
+>>
+>> *From:* Ladd Brown [mailto:blbrown@vt.edu]
+>> *Sent:* Wednesday, January 28, 2015 3:14 PM
+>> *To:* Elizabeth Greenspan
+>> *Cc:* Walz, Anita; Robert Sebek; phaskell@math.vt.edu; Patricia A.
+>> Hartner; David K. Marshall
+>>
+>>
+>> *Subject:* Re: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Thanks, Elizabeth.  Hope to hear from Patricia.
+>>
+>>
+>>
+>> I suppose there is no way to get trial access to "Optimization..." for
+>> our patron?  We are committing to the e-book package.
+>>
+>>
+>>
+>> --Ladd
+>>
+>>
+>>   Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Wed, Jan 28, 2015 at 2:57 PM, Elizabeth Greenspan <Greenspan@siam.org=
+>
+>> wrote:
+>>
+>> Hi Ladd:
+>>
+>>
+>>
+>> Yes, Optimization Software Guide is in the e-book package.
+>>
+>>
+>>
+>> Patricia Hartner, Manager of Institutional Sales, will be getting back t=
+o
+>> you.  Right now she=E2=80=99s on international business travel =E2=80=94=
+ Thailand =E2=80=94 so she
+>> may not have dependable Internet access.  If you have more questions bef=
+ore
+>> you hear from her, feel free to contact me.  If I=E2=80=99m able to answ=
+er them I
+>> will.
+>>
+>>
+>> Best,
+>>
+>>
+>>
+>> Elizabeth
+>>
+>>
+>>
+>>
+>>
+>> *From:* Ladd Brown [mailto:blbrown@vt.edu]
+>> *Sent:* Wednesday, January 28, 2015 2:43 PM
+>> *To:* Elizabeth Greenspan
+>> *Cc:* Walz, Anita; Robert Sebek; phaskell@math.vt.edu
+>> *Subject:* Re: Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Elizabeth--
+>>
+>>
+>>
+>> Can you please tell me if "Optimization Software Guide" (1993) will be i=
+n
+>> the perpetual access package?  We have users who are asking about that
+>> title.
+>>
+>>
+>>
+>> I found out that we do have an academic membership and we are SIAM
+>> Customer ID 87719.
+>>
+>>
+>>
+>> In a related issue, the head of our Math Department has received an
+>> invitation to administer a SIAM account [see e-mail below].
+>>
+>>
+>>
+>> If this is a separate account from 87719, then Prof. Haskell may be
+>> indeed be interested in administering the Math Dept. SIAM subscription(s=
+).
+>>
+>>
+>>
+>> If this is NOT a separate account from 87719, then Prof. Haskell would
+>> probably not be interested in administering the University Libraries
+>> account 87719.
+>>
+>>
+>>
+>> --thanks, Ladd
+>>
+>>
+>>
+>>
+>>
+>> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+>>
+>>
+>>
+>> Hi Ladd and Leslie,
+>>
+>>
+>>
+>> The head of the Math department at VT has received the following message
+>> from SIAM.   (I think that they think he is the library administrator???=
+)
+>>
+>>
+>>
+>> Is this possibly a result of the conversations you'd been having with
+>> SIAM?
+>>
+>>
+>>
+>> Thanks,
+>>
+>> Anita
+>>
+>> _____________
+>>
+>> Anita R. Walz
+>>
+>> Assessment, Open Education & Online Learning Environments Librarian
+>>
+>> Library Liaison to Economics and Mathematics Departments
+>>
+>> arwalz@vt.edu | Tel: 540-231-2204 | Fax: 540-231-7808 | Newman Library
+>> 207B
+>>
+>> Celebrate Open Education Week at Virginia Tech (Feb 23-27, 2015)
+>> http://guides.lib.vt.edu/oer/oeweek
+>>
+>>
+>>
+>> Virginia Tech
+>>
+>> University Libraries (0434)
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, VA 24061
+>>
+>> http://www.lib.vt.edu
+>>
+>>
+>>
+>> -----Original Message-----
+>>
+>> From: Peter Haskell [mailto:phaskell@math.vt.edu]
+>>
+>> Sent: Wednesday, January 28, 2015 1:56 PM
+>>
+>> To: Walz, Anita
+>>
+>> Subject: Fwd: Activation as Library Administrator on SIAM
+>>
+>>
+>>
+>> Anita,
+>>
+>>
+>>
+>> This is the message I mentioned to you. The Math Department is an
+>> institutional SIAM member, but I'm not sure what use I might make of thi=
+s
+>> site. I have not registered or activated. I wonder whether you can
+>> represent VT interests better than I can. I suppose that the registratio=
+n
+>> may be encoded with my email address, but perhaps you can ask about
+>> changing that. I look forward to hearing what this amounts to.
+>>
+>>
+>>
+>> Peter
+>>
+>>
+>>
+>>
+>>
+>> -------- Forwarded Message --------
+>>
+>> Subject:        Activation as Library Administrator on SIAM
+>>
+>> Date:   Thu, 1 Jan 2015 14:24:03 -0800 (PST)
+>>
+>> From:   Society for Industrial and Applied Mathematics <service@siam.org=
+>
+>>
+>> Reply-To:       service@siam.org
+>>
+>> To:     haskell@math.vt.edu
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> Dear Customer,
+>>
+>>
+>>
+>> Greetings from the Society for Industrial and Applied Mathematics, and
+>> thank you for your interest in our online publications. In order to mana=
+ge
+>> your institution's account, it will be necessary for you to register on =
+the
+>> site and activate your institution admin access.
+>>
+>>
+>>
+>> Please take a moment to do the following:
+>>
+>>
+>>
+>> 1) Please follow this link to register on the site:
+>>
+>> https://epubs.siam.org/action/registration
+>>
+>> 2) Once you have completed the registration process, follow this link to
+>> activate your institution admin access:
+>>
+>>
+>> https://epubs.siam.org/action/institutionAdminActivation?activationCode=
+=3DsXew%2BysvYMtmFbphRCRS1Q%3D%3D
+>>
+>>
+>>
+>>
+>>
+>> If you encounter any difficulties or have any questions, please do not
+>>
+>> hesitate to contact us at service@siam.org <mailto:service@siam.org>.
+>>
+>>
+>>
+>> Kind regards,
+>>
+>>
+>>
+>> SIAM
+>>
+>> 3600 Market Street, 6th Floor
+>>
+>> Philadelphia, PA 19104-2688 USA
+>>
+>> Phone(s): +1-215-382-9800 toll-free 800-447-SIAM (US and Canada)
+>>
+>> Fax: +1-215-386-7999
+>>
+>> service@siam.org
+>>
+>> www.siam.org
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>   Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Mon, Jan 26, 2015 at 11:28 AM, Elizabeth Greenspan <Greenspan@siam.or=
+g>
+>> wrote:
+>>
+>> Hi Ladd:
+>>
+>>
+>>
+>> Thank you very much for your inquiry.  Someone will be getting back to
+>> you about this.
+>>
+>>
+>> Best,
+>>
+>>
+>>
+>> Elizabeth
+>>
+>>
+>>
+>> *From:* Ladd Brown [mailto:blbrown@vt.edu]
+>> *Sent:* Friday, January 23, 2015 5:01 PM
+>> *To:* Elizabeth Greenspan
+>> *Cc:* Walz, Anita
+>> *Subject:* Virginia Tech is interested in the SIAM perpetual access
+>> ebook package
+>>
+>>
+>>
+>> Elizabeth--
+>>
+>>
+>>
+>> We are interested in the SIAM e-books for Institutions perpetual access
+>> package.
+>>
+>>
+>>
+>> For our other SIAM products, we are account 87719.  Does Virginia Tech
+>> happen to have an Academic membership?
+>>
+>>
+>>
+>> Also, I noticed that you offered a 5% Agency Discount.  Do you work with
+>> YBP and EBSCO?
+>>
+>>
+>>
+>> --thanks, Ladd
+>>
+>>
+>>
+>> Ladd Brown
+>> Head of Acquisitions | Electronic Access Team
+>>
+>> Jean Russell Quible Department of Collections & Technical Services
+>>
+>> Newman Library | Virginia Tech
+>>
+>> 560 Drillfield Drive
+>>
+>> Blacksburg, Virginia USA  24061-0001
+>>
+>> (540-231-6736   7540-231-3694
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>
+
+--e89a8f503bb268bbeb050e34b4ab
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,s=
+ans-serif;font-size:small">Whoops!</div><div class=3D"gmail_default" style=
+=3D"font-family:tahoma,sans-serif;font-size:small"><br></div><div class=3D"=
+gmail_default" style=3D"font-family:tahoma,sans-serif;font-size:small">Can =
+you please give this an invoice number and take the status &#39;proforma&#3=
+9; off of it?</div><div class=3D"gmail_default" style=3D"font-family:tahoma=
+,sans-serif;font-size:small"><br></div><div class=3D"gmail_default" style=
+=3D"font-family:tahoma,sans-serif;font-size:small">Our Controller&#39;s Off=
+ice is making it hard for us to pay proformas and they are insisting that i=
+nvoices have invoice numbers.</div><div class=3D"gmail_default" style=3D"fo=
+nt-family:tahoma,sans-serif;font-size:small"><br></div><div class=3D"gmail_=
+default" style=3D"font-family:tahoma,sans-serif;font-size:small">--thanks, =
+Ladd</div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-ser=
+if;font-size:small"><br></div><div class=3D"gmail_default" style=3D"font-fa=
+mily:tahoma,sans-serif;font-size:small"><br></div></div><div class=3D"gmail=
+_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"l=
+tr"><font face=3D"tahoma, sans-serif" color=3D"#000000">Ladd Brown<br>Head =
+of Acquisitions | Electronic Access Team</font><div><font face=3D"tahoma, s=
+ans-serif" color=3D"#000000">Jean Russell Quible Department of Collections =
+&amp; Technical Services<br></font><div><div><font face=3D"tahoma, sans-ser=
+if" color=3D"#000000">Newman Library |=C2=A0Virginia Tech</font></div><div>=
+<font face=3D"tahoma, sans-serif" color=3D"#000000">560 Drillfield Drive</f=
+ont></div><div><font face=3D"tahoma, sans-serif" color=3D"#000000">Blacksbu=
+rg, Virginia USA =C2=A024061-0001<br></font><div style=3D"text-align:left">=
+<font color=3D"#000000"><span style=3D"font-family:&#39;Wingdings 2&#39;">(=
+</span><font face=3D"tahoma, sans-serif">540-231-6736 =C2=A0=C2=A0</font><s=
+pan style=3D"font-family:&#39;Wingdings 2&#39;">7</span><span style=3D"font=
+-family:tahoma,sans-serif">540-231-3694 =C2=A0</span></font></div><p><font =
+size=3D"1"><span style=3D"font-family:&quot;Wingdings 3&quot;"></span></fon=
+t></p></div></div></div><div><span style=3D"color:rgb(0,0,0)"><br></span></=
+div><div><br><div style=3D"color:rgb(0,0,0)"></div></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Feb 3, 2015 at 2:59 PM, Ladd Brown <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">bl=
+brown@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div d=
+ir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-se=
+rif;font-size:small">Joanne--</div><div class=3D"gmail_default" style=3D"fo=
+nt-family:tahoma,sans-serif;font-size:small"><br></div><div class=3D"gmail_=
+default" style=3D"font-family:tahoma,sans-serif;font-size:small">I am proce=
+ssing the invoice now and here&#39;s our signed agreement.</div><div class=
+=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;font-size:small">=
+<br></div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-ser=
+if;font-size:small">I made a standard change from &#39;Pennsylvania&#39; to=
+ &#39;Virginia&#39; in Section 6.d.</div><div class=3D"gmail_default" style=
+=3D"font-family:tahoma,sans-serif;font-size:small"><br></div><div class=3D"=
+gmail_default" style=3D"font-family:tahoma,sans-serif;font-size:small">Just=
+ a quick note that our IPs have changed slightly.=C2=A0 They are now:</div>=
+<div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;font-si=
+ze:small"><div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-famil=
+y:tahoma,sans-serif;font-size:small"><div dir=3D"ltr"><div class=3D"gmail_d=
+efault" style=3D"font-family:tahoma,sans-serif;font-size:small"><div dir=3D=
+"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif;f=
+ont-size:small"><br clear=3D"all"></div><div class=3D"gmail_default" style=
+=3D"font-family:tahoma,sans-serif;font-size:small">
+<div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-seri=
+f">
+<font face=3D"tahoma, sans-serif"><a href=3D"tel:38.68.224-243" value=3D"+1=
+3868224243" target=3D"_blank">38.68.224-243</a>.*</font></div><div style=3D=
+"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-serif"><span styl=
+e=3D"font-family:tahoma,sans-serif"><a href=3D"tel:38.68.251-254" value=3D"=
++13868251254" target=3D"_blank">38.68.251-254</a>.*</span><br>
+
+</div><div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,san=
+s-serif"><span style=3D"font-family:tahoma,sans-serif">128.173.0-37.*</span=
+><br></div><div style=3D"font-size:13px;color:rgb(80,0,80);font-family:aria=
+l,sans-serif"><span style=3D"font-family:tahoma,sans-serif">128.173.39-255.=
+*</span></div><div style=3D"font-size:13px;color:rgb(80,0,80);font-family:a=
+rial,sans-serif">
+
+<span style=3D"font-family:tahoma,sans-serif">198.69.172.*</span><br></div>=
+<div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-seri=
+f"><span style=3D"font-family:tahoma,sans-serif">198.82.*.*</span><br></div=
+>
+<div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-seri=
+f">
+<span style=3D"font-family:tahoma,sans-serif">206.105.198.*</span><br></div=
+><div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-ser=
+if"><span style=3D"font-family:tahoma,sans-serif">208.16.73.*</span><br></d=
+iv>
+
+<div style=3D"font-size:13px;color:rgb(80,0,80);font-family:arial,sans-seri=
+f"><span style=3D"font-family:tahoma,sans-serif">208.22.128-159.*</span></d=
+iv><span class=3D"HOEnZb"><font color=3D"#888888"><div style=3D"font-size:1=
+3px;color:rgb(80,0,80);font-family:arial,sans-serif"><span style=3D"font-fa=
+mily:tahoma,sans-serif"><br></span></div><div style=3D"font-size:13px;color=
+:rgb(80,0,80);font-family:arial,sans-serif"><span style=3D"font-family:taho=
+ma,sans-serif">--Ladd</span></div></font></span></div></div></div><div><div=
+ dir=3D"ltr"><div><div style=3D"color:rgb(0,0,0)"></div></div></div></div>
+</div>
+<br clear=3D"all"></div><span class=3D""><div><div><div dir=3D"ltr"><font f=
+ace=3D"tahoma, sans-serif" color=3D"#000000">Ladd Brown<br>Head of Acquisit=
+ions | Electronic Access Team</font><div><font face=3D"tahoma, sans-serif" =
+color=3D"#000000">Jean Russell Quible Department of Collections &amp; Techn=
+ical Services<br></font><div><div><font face=3D"tahoma, sans-serif" color=
+=3D"#000000">Newman Library |=C2=A0Virginia Tech</font></div><div><font fac=
+e=3D"tahoma, sans-serif" color=3D"#000000">560 Drillfield Drive</font></div=
+><div><font face=3D"tahoma, sans-serif" color=3D"#000000">Blacksburg, Virgi=
+nia USA =C2=A024061-0001<br></font><div style=3D"text-align:left"><font col=
+or=3D"#000000"><span style=3D"font-family:&#39;Wingdings 2&#39;">(</span><f=
+ont face=3D"tahoma, sans-serif"><a href=3D"tel:540-231-6736" value=3D"+1540=
+2316736" target=3D"_blank">540-231-6736</a> =C2=A0=C2=A0</font><span style=
+=3D"font-family:&#39;Wingdings 2&#39;">7</span><span style=3D"font-family:t=
+ahoma,sans-serif"><a href=3D"tel:540-231-3694" value=3D"+15402313694" targe=
+t=3D"_blank">540-231-3694</a> =C2=A0</span></font></div><p><font size=3D"1"=
+><span style=3D"font-family:&quot;Wingdings 3&quot;"></span></font></p></di=
+v></div></div><div><span style=3D"color:rgb(0,0,0)"><br></span></div><div><=
+br><div style=3D"color:rgb(0,0,0)"></div></div></div></div></div>
+</span></div>
+<br></div></div><div class=3D"gmail_extra"><span class=3D""><br clear=3D"al=
+l"><div><div><div dir=3D"ltr"><font face=3D"tahoma, sans-serif" color=3D"#0=
+00000">Ladd Brown<br>Head of Acquisitions | Electronic Access Team</font><d=
+iv><font face=3D"tahoma, sans-serif" color=3D"#000000">Jean Russell Quible =
+Department of Collections &amp; Technical Services<br></font><div><div><fon=
+t face=3D"tahoma, sans-serif" color=3D"#000000">Newman Library |=C2=A0Virgi=
+nia Tech</font></div><div><font face=3D"tahoma, sans-serif" color=3D"#00000=
+0">560 Drillfield Drive</font></div><div><font face=3D"tahoma, sans-serif" =
+color=3D"#000000">Blacksburg, Virginia USA =C2=A024061-0001<br></font><div =
+style=3D"text-align:left"><font color=3D"#000000"><span style=3D"font-famil=
+y:&#39;Wingdings 2&#39;">(</span><font face=3D"tahoma, sans-serif"><a href=
+=3D"tel:540-231-6736" value=3D"+15402316736" target=3D"_blank">540-231-6736=
+</a> =C2=A0=C2=A0</font><span style=3D"font-family:&#39;Wingdings 2&#39;">7=
+</span><span style=3D"font-family:tahoma,sans-serif"><a href=3D"tel:540-231=
+-3694" value=3D"+15402313694" target=3D"_blank">540-231-3694</a> =C2=A0</sp=
+an></font></div><p><font size=3D"1"><span style=3D"font-family:&quot;Wingdi=
+ngs 3&quot;"></span></font></p></div></div></div><div><span style=3D"color:=
+rgb(0,0,0)"><br></span></div><div><br><div style=3D"color:rgb(0,0,0)"></div=
+></div></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Tue, Feb 3,=
+ 2015 at 1:16 PM, Joanne M. Cassetti <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:Cassetti@siam.org" target=3D"_blank">Cassetti@siam.org</a>&gt;</span> wro=
+te:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-=
+left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Hello,<u></u><u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Please find attached your=
+ invoice for SIAM Perpetual ebook access along with our ebook services agre=
+ement.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Thank you,<u></u><u></u><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Joanne<u></u><u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>=C2=A0<u></u></spa=
+n></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div><div><div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Ladd Bro=
+wn [<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">mailto:blbrown@vt.e=
+du</a>]
+<br>
+<b>Sent:</b> Thursday, January 29, 2015 1:27 PM<br>
+<b>To:</b> Elizabeth Greenspan<br>
+<b>Cc:</b> Andrew James; Patricia A. Hartner; Walz, Anita; Robert Sebek; Da=
+vid K. Marshall; Joanne M. Cassetti; Kimberly A. Haines<br>
+<b>Subject:</b> Re: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package</span><u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Well played, Elizabeth.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Thanks to the rest of you, too.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">I am going to have to nominate SIAM as our Vendor of the =
+Month at our next Collection Management meeting...</span><u></u><u></u></p>
+</div>
+</div>
+</div></div><div><div><div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" value=3D"+154023167=
+36" target=3D"_blank">540-231-6736</a> =C2=A0=C2=A0</span><span style=3D"fo=
+nt-family:&quot;Wingdings 2&quot;;color:black">7</span><span style=3D"font-=
+family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;color:black"><a href=3D"te=
+l:540-231-3694" value=3D"+15402313694" target=3D"_blank">540-231-3694</a>
+ =C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div></div><div><div><div>
+<p class=3D"MsoNormal">On Thu, Jan 29, 2015 at 12:38 PM, Elizabeth Greenspa=
+n &lt;<a href=3D"mailto:Greenspan@siam.org" target=3D"_blank">Greenspan@sia=
+m.org</a>&gt; wrote:<u></u><u></u></p>
+</div></div><div>
+<div><div><div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Hi Andrew:</span><u></u><=
+u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">I=E2=80=99ve given you ac=
+cess to Optimization Software Guide on Google Play.=C2=A0 You=E2=80=99ll ha=
+ve it until it=E2=80=99s available
+ at the VT library.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Thanks,</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Elizabeth</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Andrew J=
+ames [mailto:<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@=
+vt.edu</a>]
+<br>
+<b>Sent:</b> Thursday, January 29, 2015 11:56 AM<br>
+<b>To:</b> Ladd Brown<br>
+<b>Cc:</b> Patricia A. Hartner; Walz, Anita; Robert Sebek; David K. Marshal=
+l; Joanne M. Cassetti; Kimberly A. Haines; Elizabeth Greenspan</span><u></u=
+><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><br>
+<b>Subject:</b> Re: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div></div><div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><div><div>
+<p class=3D"MsoNormal">Hello All,=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">My Gmail address is:=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:Andrew.m.james2@gmail.com" target=
+=3D"_blank">Andrew.m.james2@gmail.com</a><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thank you so much for getting this for me.=C2=A0<u><=
+/u><u></u></p>
+</div>
+</div></div><div><div><div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Andrew James=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Graduate Teaching Assistant=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Virginia Tech=C2=A0<u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Chemistry Department=C2=A0<u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div></div><div><div><div>
+<p class=3D"MsoNormal">On Thu, Jan 29, 2015 at 9:30 AM, Ladd Brown &lt;<a h=
+ref=3D"mailto:blbrown@vt.edu" target=3D"_blank">blbrown@vt.edu</a>&gt; wrot=
+e:<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Andrew--</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Can you please get in touch with Elizabeth (copy all here=
+, too, so we can trace this ticket) about getting the e-book on Google Play=
+?</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">She&#39;ll require a gmail address.</span><u></u><u></u><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">--thanks, Ladd</span><u></u><u></u></p>
+</div>
+</div>
+</div></div><div><div><div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" target=3D"_blank">5=
+40-231-6736</a>
+ =C2=A0=C2=A0</span><span style=3D"font-family:&quot;Wingdings 2&quot;;colo=
+r:black">7</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;;color:black"><a href=3D"tel:540-231-3694" target=3D"_blank">540-=
+231-3694</a> =C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div></div><div><div><div>
+<p class=3D"MsoNormal">On Thu, Jan 29, 2015 at 7:41 AM, Elizabeth Greenspan=
+ &lt;<a href=3D"mailto:Greenspan@siam.org" target=3D"_blank">Greenspan@siam=
+.org</a>&gt; wrote:<u></u><u></u></p>
+</div></div><div>
+<div><div><div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">Hi Ladd:</span><u></u><u>=
+</u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">I can give the patron acc=
+ess to
+<i>Optimization Software Guide</i> on Google Play to hold him/her over unti=
+l the ebook is available through the library.=C2=A0 To do this I=E2=80=99ll=
+ need the patron=E2=80=99s gmail address.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">I look forward to hearing=
+ from you.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366"><br>
+Best,</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366"><br>
+Elizabeth</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#993366">=C2=A0</span><u></u><u></=
+u></p>
+<div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Patricia=
+ A. Hartner
+<br>
+<b>Sent:</b> Wednesday, January 28, 2015 6:12 PM<br>
+<b>To:</b> Ladd Brown<br>
+<b>Cc:</b> Walz, Anita; Robert Sebek; <a href=3D"mailto:phaskell@math.vt.ed=
+u" target=3D"_blank">
+phaskell@math.vt.edu</a>; David K. Marshall; Joanne M. Cassetti; Kimberly A=
+. Haines; Elizabeth Greenspan<br>
+<b>Subject:</b> RE: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package</span><u></u><u></u></p>
+</div>
+</div>
+</div></div><div>
+<div><div><div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">Dear Ladd,</span><u></u><=
+u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">Thanks so much for contac=
+ting us about purchasing SIAM e-books.=C2=A0 While we wait to get the pdf o=
+f
+ &quot;Optimization Software Guide&quot; (1993) to you, I would like to pro=
+vide you with a quote and some details about our e-book program.</span><u><=
+/u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">Virginia Tech is a SIAM A=
+cademic Member, and by virtue of your membership you are entitled to the
+ discounted rate of $16,632 for SIAM e-books perpetual ownership.=C2=A0 The=
+ titles are listed on the attached Excel sheet.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">Please feel free to conta=
+ct me with any questions you may have.=C2=A0 As you can see, Thailand is ve=
+ry
+ well connected!</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">With thanks and regards,<=
+/span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">Patricia</span><u></u><u>=
+</u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Lu=
+cida Handwriting&quot;;color:#17365d">=C2=A0</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Lu=
+cida Handwriting&quot;;color:#17365d">=C2=A0</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Lu=
+cida Handwriting&quot;;color:#17365d">Patricia A. Hartner</span><u></u><u><=
+/u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d">Manager, Institutional Sa=
+les and Licensing</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u><u></u></p>
+</div></div><p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;font-fam=
+ily:Gabriola;color:#002060">SIAM exists to ensure the strongest interaction=
+s between mathematics and other scientific and technological communities
+ through membership activities, publication of journals and books, and conf=
+erences.</span><u></u><u></u></p><span>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d">3600 Market Street, 6th F=
+loor</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d">Philadelphia, PA 19104-26=
+88 USA</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d"><a href=3D"tel:267-350-63=
+76" target=3D"_blank">267-350-6376</a> (PA office phone)</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d"><a href=3D"tel:631-651-53=
+34" target=3D"_blank">631-651-5334</a> (NY office phone)</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d"><a href=3D"tel:631-897-66=
+03" target=3D"_blank">631-897-6603</a>=C2=A0 (cell phone)</span><u></u><u><=
+/u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#17365d">Skype - patricia.hartner1=
+</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><a href=3D"mailto:hartner=
+@siam.org" target=3D"_blank">hartner@siam.org</a>
+</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><a href=3D"http://www.sia=
+m.org/" target=3D"_blank">www.siam.org</a></span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+</span><p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Poor Rich=
+ard&quot;,&quot;serif&quot;;color:#76923c">=E2=80=9C</span></b><b><span sty=
+le=3D"font-family:&quot;Poor Richard&quot;,&quot;serif&quot;;color:#00b050"=
+>Books are the bees which carry the
+ pollen from one to another mind&quot;-</span></b><span style=3D"font-famil=
+y:&quot;Poor Richard&quot;,&quot;serif&quot;;color:#00b050">
+<a href=3D"http://www.goodreads.com/author/show/15585.James_Russell_Lowell"=
+ target=3D"_blank">
+<span style=3D"color:#00b050;text-decoration:none">James Russell Lowell</sp=
+an></a></span><span style=3D"font-family:&quot;Poor Richard&quot;,&quot;ser=
+if&quot;;color:#76923c">
+</span><u></u><u></u></p><div><div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#002060">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Ladd Bro=
+wn [<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">mailto:blbrown@vt.e=
+du</a>]
+<br>
+<b>Sent:</b> Wednesday, January 28, 2015 4:06 PM<br>
+<b>To:</b> Elizabeth Greenspan<br>
+<b>Cc:</b> Walz, Anita; Robert Sebek; <a href=3D"mailto:phaskell@math.vt.ed=
+u" target=3D"_blank">
+phaskell@math.vt.edu</a>; Patricia A. Hartner; David K. Marshall<br>
+<b>Subject:</b> Re: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package</span><u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Super!</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">--thanks, Ladd</span><u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" target=3D"_blank">5=
+40-231-6736</a>
+ =C2=A0=C2=A0</span><span style=3D"font-family:&quot;Wingdings 2&quot;;colo=
+r:black">7</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;;color:black"><a href=3D"tel:540-231-3694" target=3D"_blank">540-=
+231-3694</a> =C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">On Wed, Jan 28, 2015 at 4:02 PM, Elizabeth Greenspan=
+ &lt;<a href=3D"mailto:Greenspan@siam.org" target=3D"_blank">Greenspan@siam=
+.org</a>&gt; wrote:<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Hi Ladd:</span><u></u><u>=
+</u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">I=E2=80=99m looking into =
+getting you access to the book.=C2=A0 I should be getting back to you tomor=
+row about
+ this.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Best,</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Elizabeth</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Ladd Bro=
+wn [mailto:<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">blbrown@vt.e=
+du</a>]
+<br>
+<b>Sent:</b> Wednesday, January 28, 2015 3:14 PM<br>
+<b>To:</b> Elizabeth Greenspan<br>
+<b>Cc:</b> Walz, Anita; Robert Sebek; <a href=3D"mailto:phaskell@math.vt.ed=
+u" target=3D"_blank">
+phaskell@math.vt.edu</a>; Patricia A. Hartner; David K. Marshall</span><u><=
+/u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><br>
+<b>Subject:</b> Re: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package<u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Thanks, Elizabeth.=C2=A0 Hope to hear from Patricia.</spa=
+n><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">I suppose there is no way to get trial access to &quot;Op=
+timization...&quot; for our patron?=C2=A0 We are committing to the e-book p=
+ackage.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">--Ladd</span><u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" target=3D"_blank">5=
+40-231-6736</a>
+ =C2=A0=C2=A0</span><span style=3D"font-family:&quot;Wingdings 2&quot;;colo=
+r:black">7</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;;color:black"><a href=3D"tel:540-231-3694" target=3D"_blank">540-=
+231-3694</a> =C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">On Wed, Jan 28, 2015 at 2:57 PM, Elizabeth Greenspan=
+ &lt;<a href=3D"mailto:Greenspan@siam.org" target=3D"_blank">Greenspan@siam=
+.org</a>&gt; wrote:<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Hi Ladd:</span><u></u><u>=
+</u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Yes, Optimization Softwar=
+e Guide is in the e-book package.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Patricia Hartner, Manager=
+ of Institutional Sales, will be getting back to you.=C2=A0 Right now she=
+=E2=80=99s on
+ international business travel =E2=80=94 Thailand =E2=80=94 so she may not =
+have dependable Internet access.=C2=A0 If you have more questions before yo=
+u hear from her, feel free to contact me.=C2=A0 If I=E2=80=99m able to answ=
+er them I will.</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Best,</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Elizabeth</span><u></u><u=
+></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Ladd Bro=
+wn [mailto:<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">blbrown@vt.e=
+du</a>]
+<br>
+<b>Sent:</b> Wednesday, January 28, 2015 2:43 PM<br>
+<b>To:</b> Elizabeth Greenspan<br>
+<b>Cc:</b> Walz, Anita; Robert Sebek; <a href=3D"mailto:phaskell@math.vt.ed=
+u" target=3D"_blank">
+phaskell@math.vt.edu</a><br>
+<b>Subject:</b> Re: Virginia Tech is interested in the SIAM perpetual acces=
+s ebook package</span><u></u><u></u></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Elizabeth--</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Can you please tell me if &quot;Optimization Software Gui=
+de&quot; (1993) will be in the perpetual access package?=C2=A0 We have user=
+s who are asking
+ about that title.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">I found out that we do have an academic membership and we=
+ are SIAM Customer ID 87719.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">In a related issue, the head of our Math Department has r=
+eceived an invitation to administer a SIAM account [see e-mail below].</spa=
+n><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">If this is a separate account from 87719, then Prof. Hask=
+ell may be indeed be interested in administering the Math Dept. SIAM subscr=
+iption(s).</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">If this is NOT a separate account from 87719, then Prof. =
+Haskell would probably not be interested in administering the University
+ Libraries account 87719.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">--thanks, Ladd</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Hi Ladd and Leslie,</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">The head of the Math department at VT has received the fo=
+llowing message from SIAM. =C2=A0 (I think that they think he is the librar=
+y
+ administrator???)</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Is this possibly a result of the conversations you&#39;d =
+been having with SIAM?</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Thanks,</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Anita</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">_____________</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Anita R. Walz</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Assessment, Open Education &amp; Online Learning Environm=
+ents Librarian</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Library Liaison to Economics and Mathematics Departments<=
+/span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"mailto:arwalz@vt.edu" target=3D"_blank">arwalz=
+@vt.edu</a> | Tel:
+<a href=3D"tel:540-231-2204" target=3D"_blank">540-231-2204</a> | Fax: <a h=
+ref=3D"tel:540-231-7808" target=3D"_blank">
+540-231-7808</a> | Newman Library 207B</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Celebrate Open Education Week at Virginia Tech (Feb 23-27=
+, 2015)
+<a href=3D"http://guides.lib.vt.edu/oer/oeweek" target=3D"_blank">http://gu=
+ides.lib.vt.edu/oer/oeweek</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Virginia Tech</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">University Libraries (0434)</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Blacksburg, VA 24061</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"http://www.lib.vt.edu" target=3D"_blank">http:=
+//www.lib.vt.edu</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">-----Original Message-----</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">From: Peter Haskell [mailto:<a href=3D"mailto:phaskell@ma=
+th.vt.edu" target=3D"_blank">phaskell@math.vt.edu</a>]</span><u></u><u></u>=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Sent: Wednesday, January 28, 2015 1:56 PM</span><u></u><u=
+></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">To: Walz, Anita</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Subject: Fwd: Activation as Library Administrator on SIAM=
+</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Anita,</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">This is the message I mentioned to you. The Math Departme=
+nt is an institutional SIAM member, but I&#39;m not sure what use I might m=
+ake
+ of this site. I have not registered or activated. I wonder whether you can=
+ represent VT interests better than I can. I suppose that the registration =
+may be encoded with my email address, but perhaps you can ask about changin=
+g that. I look forward to hearing
+ what this amounts to.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Peter</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">-------- Forwarded Message --------</span><u></u><u></u><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Subject: =C2=A0 =C2=A0 =C2=A0 =C2=A0Activation as Library=
+ Administrator on SIAM</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Date: =C2=A0 Thu, 1 Jan 2015 14:24:03 -0800 (PST)</span><=
+u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">From: =C2=A0 Society for Industrial and Applied Mathemati=
+cs &lt;<a href=3D"mailto:service@siam.org" target=3D"_blank">service@siam.o=
+rg</a>&gt;</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Reply-To: =C2=A0 =C2=A0 =C2=A0
+<a href=3D"mailto:service@siam.org" target=3D"_blank">service@siam.org</a><=
+/span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">To: =C2=A0 =C2=A0
+<a href=3D"mailto:haskell@math.vt.edu" target=3D"_blank">haskell@math.vt.ed=
+u</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Dear Customer,</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Greetings from the Society for Industrial and Applied Mat=
+hematics, and thank you for your interest in our online publications. In
+ order to manage your institution&#39;s account, it will be necessary for y=
+ou to register on the site and activate your institution admin access.</spa=
+n><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Please take a moment to do the following:</span><u></u><u=
+></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">1) Please follow this link to register on the site:</span=
+><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"https://epubs.siam.org/action/registration" ta=
+rget=3D"_blank">https://epubs.siam.org/action/registration</a></span><u></u=
+><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">2) Once you have completed the registration process, foll=
+ow this link to activate your institution admin access:</span><u></u><u></u=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"https://epubs.siam.org/action/institutionAdmin=
+Activation?activationCode=3DsXew%2BysvYMtmFbphRCRS1Q%3D%3D" target=3D"_blan=
+k">https://epubs.siam.org/action/institutionAdminActivation?activationCode=
+=3DsXew%2BysvYMtmFbphRCRS1Q%3D%3D</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">If you encounter any difficulties or have any questions, =
+please do not</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">hesitate to contact us at
+<a href=3D"mailto:service@siam.org" target=3D"_blank">service@siam.org</a> =
+&lt;mailto:<a href=3D"mailto:service@siam.org" target=3D"_blank">service@si=
+am.org</a>&gt;.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Kind regards,</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">SIAM</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">3600 Market Street, 6th Floor</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Philadelphia, PA 19104-2688 USA</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Phone(s):
+<a href=3D"tel:%2B1-215-382-9800" target=3D"_blank">+1-215-382-9800</a> tol=
+l-free 800-447-SIAM (US and Canada)</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Fax:
+<a href=3D"tel:%2B1-215-386-7999" target=3D"_blank">+1-215-386-7999</a></sp=
+an><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"mailto:service@siam.org" target=3D"_blank">ser=
+vice@siam.org</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;"><a href=3D"http://www.siam.org" target=3D"_blank">www.sia=
+m.org</a></span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" target=3D"_blank">5=
+40-231-6736</a>
+ =C2=A0=C2=A0</span><span style=3D"font-family:&quot;Wingdings 2&quot;;colo=
+r:black">7</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;;color:black"><a href=3D"tel:540-231-3694" target=3D"_blank">540-=
+231-3694</a> =C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">On Mon, Jan 26, 2015 at 11:28 AM, Elizabeth Greenspa=
+n &lt;<a href=3D"mailto:Greenspan@siam.org" target=3D"_blank">Greenspan@sia=
+m.org</a>&gt; wrote:<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Hi Ladd:</span><u></u><u>=
+</u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Thank you very much for y=
+our inquiry.=C2=A0 Someone will be getting back to you about this.</span><u=
+></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><br>
+Best,</span><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Elizabeth</span><u></u><u=
+></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Ladd Bro=
+wn [mailto:<a href=3D"mailto:blbrown@vt.edu" target=3D"_blank">blbrown@vt.e=
+du</a>]
+<br>
+<b>Sent:</b> Friday, January 23, 2015 5:01 PM<br>
+<b>To:</b> Elizabeth Greenspan<br>
+<b>Cc:</b> Walz, Anita<br>
+<b>Subject:</b> Virginia Tech is interested in the SIAM perpetual access eb=
+ook package</span><u></u><u></u></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Elizabeth--</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">We are interested in the SIAM e-books for Institutions pe=
+rpetual access package.</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">For our other SIAM products, we are account 87719.=C2=A0 =
+Does Virginia Tech happen to have an Academic membership?</span><u></u><u><=
+/u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Also, I noticed that you offered a 5% Agency Discount.=C2=
+=A0 Do you work with YBP and EBSCO?</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">--thanks, Ladd</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Ladd Brown<br>
+Head of Acquisitions | Electronic Access Team</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Jean Russell Quible Department of Collections=
+ &amp; Technical Services</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Newman Library |=C2=A0Virginia Tech</span><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">560 Drillfield Drive</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;;color:black">Blacksburg, Virginia USA =C2=A024061-0001</sp=
+an><u></u><u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Wingdings 2&quot;;c=
+olor:black">(</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"><a href=3D"tel:540-231-6736" target=3D"_blank">5=
+40-231-6736</a>
+ =C2=A0=C2=A0</span><span style=3D"font-family:&quot;Wingdings 2&quot;;colo=
+r:black">7</span><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;;color:black"><a href=3D"tel:540-231-3694" target=3D"_blank">540-=
+231-3694</a>=C2=A0=C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+
+
+
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div>
+
+--e89a8f503bb268bbeb050e34b4ab--

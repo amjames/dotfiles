@@ -1,0 +1,166 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp409797qgt;
+        Wed, 5 Aug 2015 07:00:00 -0700 (PDT)
+X-Received: by 10.55.20.214 with SMTP id 83mr993980qku.92.1438783200578;
+        Wed, 05 Aug 2015 07:00:00 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id a74si5536567qgf.30.2015.08.05.07.00.00
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 07:00:00 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-io0-f174.google.com (mail-io0-f174.google.com [209.85.223.174])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t75DxsCl025459
+	for <amjames2@vt.edu>; Wed, 5 Aug 2015 09:59:59 -0400
+Received: by iodd187 with SMTP id d187so49811758iod.2
+        for <amjames2@vt.edu>; Wed, 05 Aug 2015 06:59:54 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=3BqTxo6lDCMFt0pg5AOP5Bl7Ium6U0+W3gfU6PO6n10=;
+        b=msxnLkoG+oiucnDfd3o3HoXnlrFG63VEV/l0t11syf4Pc+MGvE1LJosbu33obfshbv
+         Lwu87lvw6EjcM1Plj3mbFrpa4UaQaAWWe5xIbMapb9jwEuFMUqLlP3sxa5Km3P5UIWLU
+         CudE7waILP3u7Qz6oJ/AZm1zCAfmdpPet9LEIz77+wjfsorhOyEuSNXC/FEwl7gl8Iai
+         BtHxprJmVyPgMDTQACjF80lmIAMPsblq2lIfbbD0CISL+nvITVmFTU+ynadlT6W7h8Ek
+         dS4wRYRlCZ4jz8zlGeJo2oG8BJOqURnzV5J91CHL+eFvtWxtTjCEIpoQU8fkAgkYtYXd
+         Ie8g==
+X-Gm-Message-State: ALoCoQlEJyw4dL9/zfJqdbuMsQFFO6DrSMIKdOv9lFOZ8fLNBS7sWc+Izvm5i1dr8SBWob5l6aI+JToMkK8LRNwyrYXWtKHJsqF64GnRCUUT49Z7J6KoCtOsWwbPofiurm+PCtO8vHdw21Y7eRrKf77naKKpv25cAQ==
+X-Received: by 10.107.165.210 with SMTP id o201mr9789222ioe.179.1438783194496;
+        Wed, 05 Aug 2015 06:59:54 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.165.210 with SMTP id o201mr9789201ioe.179.1438783194311;
+ Wed, 05 Aug 2015 06:59:54 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Wed, 5 Aug 2015 06:59:54 -0700 (PDT)
+In-Reply-To: <20150805113209.GA42426@Herbert-3.local>
+References: <CAH0V_1YdG=91KpY2n-6r3ioFHBp8-P-4agm7YVLJBm=KnV3SUw@mail.gmail.com>
+	<20150805113209.GA42426@Herbert-3.local>
+Date: Wed, 5 Aug 2015 07:59:54 -0600
+Message-ID: <CAH0V_1ZQYBiEDbK2SWAnz+4wT5hg7apAUgj9wj8cK6=6fLbRsw@mail.gmail.com>
+Subject: Re: Polyradicals
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1141d0d034cbcb051c90d127
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 4277
+
+--001a1141d0d034cbcb051c90d127
+Content-Type: text/plain; charset=UTF-8
+
+Well, I guess you have your answer about whether you should keep working on
+the UHF-NOs. :)
+
+Are you first carrying out a spin projection of the density?  That seems to
+me to be the first step.
+
+Also, I am able to converge the UHF wave function in Cs symmetry after the
+stability analysis, but I had to pull new code from master a few days ago
+to do it.  Jerome found some errors in his eigenvector following function
+and checked in the fix.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Aug 5, 2015 at 5:32 AM, Andrew M James <amjames2@vt.edu> wrote:
+
+> Hi Dr. Crawford,
+>
+>     I don't mind at all! I am very grateful for all of help, and I agree
+>     identifying these issues would have went much slower had you not
+>     stepped in.
+>
+>     I have been trying to compute the UHF NOONs as described in the paper.
+>     I thought we were still interested in those results, but if Prof.
+> Lischka
+>     and you don't think it will be necessary I will give that up.  If that
+> is
+>     something we need to look at I would need some help figuring out what
+>     I am doing incorrectly. I have so far not been able to reproduce
+>     their results (I am getting occupation numbers greater than two).
+>
+>     I have continued with the computations of (4), but I was not forcing
+>     Cs symmetry. I can not actually get the stability analysis to converge
+>     in C2h (DLU solver keeps hitting the iteration limit even after I
+>     double the maximum). I don't know if this is concerning or not, but I
+> have
+>     changed the input to run in Cs symmetry.
+>
+>     Thanks,
+>     --AJ
+>
+>
+>
+>
+>
+
+--001a1141d0d034cbcb051c90d127
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Well, I guess you have your answer about whether you shoul=
+d keep working on the UHF-NOs. :)=C2=A0<div><br></div><div>Are you first ca=
+rrying out a spin projection of the density?=C2=A0 That seems to me to be t=
+he first step.</div><div><br></div><div>Also, I am able to converge the UHF=
+ wave function in Cs symmetry after the stability analysis, but I had to pu=
+ll new code from master a few days ago to do it.=C2=A0 Jerome found some er=
+rors in his eigenvector following function and checked in the fix. =C2=A0</=
+div><div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clea=
+r=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof.=
+ T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Aug 5, 2015 at 5:32 AM, Andrew M Jam=
+es <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blan=
+k">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+Hi Dr. Crawford,<br>
+<br>
+=C2=A0 =C2=A0 I don&#39;t mind at all! I am very grateful for all of help, =
+and I agree<br>
+=C2=A0 =C2=A0 identifying these issues would have went much slower had you =
+not<br>
+=C2=A0 =C2=A0 stepped in.<br>
+<br>
+=C2=A0 =C2=A0 I have been trying to compute the UHF NOONs as described in t=
+he paper.<br>
+=C2=A0 =C2=A0 I thought we were still interested in those results, but if P=
+rof. Lischka<br>
+=C2=A0 =C2=A0 and you don&#39;t think it will be necessary I will give that=
+ up.=C2=A0 If that is<br>
+=C2=A0 =C2=A0 something we need to look at I would need some help figuring =
+out what<br>
+=C2=A0 =C2=A0 I am doing incorrectly. I have so far not been able to reprod=
+uce<br>
+=C2=A0 =C2=A0 their results (I am getting occupation numbers greater than t=
+wo).<br>
+<br>
+=C2=A0 =C2=A0 I have continued with the computations of (4), but I was not =
+forcing<br>
+=C2=A0 =C2=A0 Cs symmetry. I can not actually get the stability analysis to=
+ converge<br>
+=C2=A0 =C2=A0 in C2h (DLU solver keeps hitting the iteration limit even aft=
+er I<br>
+=C2=A0 =C2=A0 double the maximum). I don&#39;t know if this is concerning o=
+r not, but I have<br>
+=C2=A0 =C2=A0 changed the input to run in Cs symmetry.<br>
+<br>
+=C2=A0 =C2=A0 Thanks,<br>
+=C2=A0 =C2=A0 --AJ<br>
+<br>
+<br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--001a1141d0d034cbcb051c90d127--

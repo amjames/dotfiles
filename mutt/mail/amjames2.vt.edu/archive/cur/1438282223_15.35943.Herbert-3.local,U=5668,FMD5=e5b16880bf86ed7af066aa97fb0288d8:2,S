@@ -1,0 +1,137 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp1910458qgf;
+        Fri, 3 Apr 2015 11:55:31 -0700 (PDT)
+X-Received: by 10.140.49.9 with SMTP id p9mr4098356qga.51.1428087330933;
+        Fri, 03 Apr 2015 11:55:30 -0700 (PDT)
+Return-Path: <srijithr@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id f10si7743441qkf.112.2015.04.03.11.55.30
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Apr 2015 11:55:30 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning srijithr@vt.edu does not designate 209.85.213.175 as permitted sender) client-ip=209.85.213.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning srijithr@vt.edu does not designate 209.85.213.175 as permitted sender) smtp.mail=srijithr@vt.edu
+Received: from mail-ig0-f175.google.com (mail-ig0-f175.google.com [209.85.213.175])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t33ItPO0019989
+	for <amjames2@vt.edu>; Fri, 3 Apr 2015 14:55:30 -0400
+Received: by igcau2 with SMTP id au2so105501319igc.0
+        for <amjames2@vt.edu>; Fri, 03 Apr 2015 11:55:25 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=FPgYZr+7UHdQKqP2R4/yCvemR7PvRbo0I05r8qqZT0M=;
+        b=L6eJYbeH43wGK8cLxkqR48me6lgmHyhTqUvCnjpx12nUk5KPgd+f3oj+LckrD/eIiV
+         x8J96krOXuf1eZIlLxotZ5IIXuaJ0I0q7VCkSnz+059Wc7we5qh0DOqk6QMaH2+t+RVF
+         ggi9VLGhdpD7DxGY4LUDms6fkvIblu2SYu8jEaRbMtF5aCVhGs2HHfJq0zkzjKsEKd7q
+         UI4Bk9hooas9s2e0waFRTdnNuroeLsCnDUZUjMYPHMErW6BGGo0Kax7XdgbtIQNcgZJT
+         VWrpf+XZWlQ8itLjpISf1/wsId9IxF9sqc5aVXRmF2yix0GEOzrl+8VmUUPhSbGhnRUZ
+         2KcA==
+X-Gm-Message-State: ALoCoQl5DzrlehUc07hGRjHwQwhrnUiQrSf+M/0wAmIDoFb+FXajQB8ssGPLgL9djowwipcN1K7fARC/Bh5s1B5vPZi9H1iGcYJlfa3ZBocHGHsaGDRNBSCqxHDcImyxxE8ujGiK/TSrQQ7F6H0M+8ue8KoU07ee+Q==
+X-Received: by 10.50.79.229 with SMTP id m5mr30031132igx.23.1428087325266;
+        Fri, 03 Apr 2015 11:55:25 -0700 (PDT)
+X-Received: by 10.50.79.229 with SMTP id m5mr30031126igx.23.1428087325191;
+ Fri, 03 Apr 2015 11:55:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.117.209 with HTTP; Fri, 3 Apr 2015 11:55:03 -0700 (PDT)
+In-Reply-To: <CAA1RhS0Nff2aGsJ7fn0ZwN-F68Kbmd3WGX4KPw=H2Bq3Qy-SWA@mail.gmail.com>
+References: <59828F69-04DB-483A-A4BF-AA78C1EE9EE0@vt.edu> <CAA1RhS0Nff2aGsJ7fn0ZwN-F68Kbmd3WGX4KPw=H2Bq3Qy-SWA@mail.gmail.com>
+From: Srijith Rajamohan <srijithr@vt.edu>
+Date: Fri, 3 Apr 2015 14:55:03 -0400
+Message-ID: <CAA1RhS2PMmvyhMBGUy_4hMhJtAN+2haMJP-iVR6J4u468faPXQ@mail.gmail.com>
+Subject: Re: CSV data, Andrew James
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0122a3faba1ada0512d67d53
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0122a3faba1ada0512d67d53
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Apr 3, 2015 at 12:07 PM, Srijith Rajamohan <srijithr@vt.edu> wrote:
+
+>
+>  Andrew,
+>
+>  Thank you for sharing your data, I will look at this when I get back fro=
+m
+> lunch and let you know.
+>
+>  Thanks,
+>  Srijith Rajamohan
+>  Computational Scientist
+>  Advanced Research Computing
+>
+> On Fri, Apr 3, 2015 at 11:55 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Hello,
+>>
+>> I have put an example of the data I would like to work with in:
+>>
+>> /home/amjames2/people/srijithr/example.csv
+>>
+>> on blue-ridge.  I can also get the cartesian coordinates of the molecule
+>> at each time-step. I also was mistaken when we spoke earlier, my simulat=
+ion
+>> runs for 20,000 times steps but I have take samples at every 5th step, s=
+o
+>> there are only 4000 rows of data in this file.
+>>
+>> Thanks again for your help,
+>>
+>> =E2=80=94Andrew
+>
+>
+>
+
+--089e0122a3faba1ada0512d67d53
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:tahoma,s=
+ans-serif"><br></div></div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">On Fri, Apr 3, 2015 at 12:07 PM, Srijith Rajamohan <span dir=3D"l=
+tr">&lt;<a href=3D"mailto:srijithr@vt.edu" target=3D"_blank">srijithr@vt.ed=
+u</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margi=
+n:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">=
+<div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif"><br></=
+div><div class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif">=
+=C2=A0Andrew,</div><div class=3D"gmail_default" style=3D"font-family:tahoma=
+,sans-serif"><br></div><div class=3D"gmail_default" style=3D"font-family:ta=
+homa,sans-serif">=C2=A0Thank you for sharing your data, I will look at this=
+ when I get back from lunch and let you know.</div><div class=3D"gmail_defa=
+ult" style=3D"font-family:tahoma,sans-serif"><br></div><div class=3D"gmail_=
+default" style=3D"font-family:tahoma,sans-serif">=C2=A0Thanks,</div><div cl=
+ass=3D"gmail_default" style=3D"font-family:tahoma,sans-serif">=C2=A0Srijith=
+ Rajamohan</div><div class=3D"gmail_default" style=3D"font-family:tahoma,sa=
+ns-serif">=C2=A0Computational Scientist</div><div class=3D"gmail_default" s=
+tyle=3D"font-family:tahoma,sans-serif">=C2=A0Advanced Research Computing</d=
+iv></div><div class=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"=
+><br><div class=3D"gmail_quote">On Fri, Apr 3, 2015 at 11:55 AM, Andrew Jam=
+es <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blan=
+k">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+Hello,<br>
+<br>
+I have put an example of the data I would like to work with in:<br>
+<br>
+/home/amjames2/people/srijithr/example.csv<br>
+<br>
+on blue-ridge.=C2=A0 I can also get the cartesian coordinates of the molecu=
+le at each time-step. I also was mistaken when we spoke earlier, my simulat=
+ion runs for 20,000 times steps but I have take samples at every 5th step, =
+so there are only 4000 rows of data in this file.<br>
+<br>
+Thanks again for your help,<br>
+<br>
+=E2=80=94Andrew </blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+
+--089e0122a3faba1ada0512d67d53--

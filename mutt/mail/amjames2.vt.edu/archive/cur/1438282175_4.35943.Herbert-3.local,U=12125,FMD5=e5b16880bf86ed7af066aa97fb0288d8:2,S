@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1572107qgt;
+        Mon, 20 Jul 2015 14:37:53 -0700 (PDT)
+X-Received: by 10.55.54.65 with SMTP id d62mr49973968qka.59.1437428273140;
+        Mon, 20 Jul 2015 14:37:53 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id h17si25823794qge.102.2015.07.20.14.37.52
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Jul 2015 14:37:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6KLblXs001755
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 17:37:52 -0400
+Date: Mon, 20 Jul 2015 14:37:46 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1437428266;
+	bh=3GAyurWHxGXR/yg8W+33wDo7ZJD6hmNo66oQe+8CLAw=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=F5dzYFRySGeWN8UvBjMEr86R6PvgVALSO9H0iQFmiX+irsuvhZEvvdWN2NXCNO69s
+	 ikDSjFds+T3rzoy6HfyjX+qgiDYSAR/ZBJM8TJ944waPK2uj/LsEkqkCdBZ0TU1dJc
+	 t5ENkYPcOwDjByVSFxuCGvMEsG3lkjcZp4QxrrQ8=
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6422efd9711e41c42296db4ea15dadfeb50dcc6ed8d92cf0000000111c52c2a92a169ce05b8050f@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/150/123051328@github.com>
+In-Reply-To: <psi4/psi4public/issues/150@github.com>
+References: <psi4/psi4public/issues/150@github.com>
+Subject: Re: [psi4public] finalize CheMPS2 (#150)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ad6a2a93aa5_57383fc12a08129c19611e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6422efd9711e41c42296db4ea15dadfeb50dcc6ed8d92cf0000000111c52c2a92a169ce05b8050f@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6422efd9711e41c42296db4ea15dadfeb50dcc6ed8d92cf0000000111c52c2a92a169ce05b8050f@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QsnsryGID0kprGamQJar11io0Gy9ks5ofWGqgaJpZM4FblU->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ad6a2a93aa5_57383fc12a08129c19611e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Good point! I made commit https://github.com/psi4/psi4public/commit/7e4889b924e67be11c5f7b5d42c85673a90c5c17 . If CMake pastes together a `PATHS` and `PATH_SUFFIX` and `NAMES`, it should get the Debian locations. If you should happen to try it out, let me know.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/150#issuecomment-123051328
+----==_mimepart_55ad6a2a93aa5_57383fc12a08129c19611e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Good point! I made commit <a href="https://github.com/psi4/psi4public/commit/7e4889b924e67be11c5f7b5d42c85673a90c5c17" class="commit-link"><tt>7e4889b</tt></a> . If CMake pastes together a <code>PATHS</code> and <code>PATH_SUFFIX</code> and <code>NAMES</code>, it should get the Debian locations. If you should happen to try it out, let me know.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/150#issuecomment-123051328">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QjH6lBA0yYgrupgfXrff1-jSvYb1ks5ofWGqgaJpZM4FblU-.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/150#issuecomment-123051328"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ad6a2a93aa5_57383fc12a08129c19611e--

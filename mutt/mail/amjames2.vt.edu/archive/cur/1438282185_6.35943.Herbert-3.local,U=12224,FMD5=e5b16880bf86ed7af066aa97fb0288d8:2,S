@@ -1,0 +1,82 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp472273qgt;
+        Thu, 23 Jul 2015 08:38:29 -0700 (PDT)
+X-Received: by 10.140.150.78 with SMTP id 75mr13707055qhw.10.1437665909224;
+        Thu, 23 Jul 2015 08:38:29 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id n200si6257041qhb.93.2015.07.23.08.38.27
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 08:38:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.212.180 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.212.180;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.180 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6NFcKM0016576;
+	Thu, 23 Jul 2015 11:38:25 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t6NE0DPO028011;
+	Thu, 23 Jul 2015 11:38:20 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100603627 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 23 Jul 2015 11:38:20
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6NFSJKS031303 for
+          <chem_grad@listserv.vt.edu>; Thu, 23 Jul 2015 11:28:19 -0400
+Received: from mail-wi0-f180.google.com (mail-wi0-f180.google.com
+          [209.85.212.180]) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t6NFSEO6026325 for <chem_grad@listserv.vt.edu>; Thu, 23 Jul 2015
+          11:28:19 -0400
+Received: by wibxm9 with SMTP id xm9so154928583wib.1 for
+          <chem_grad@listserv.vt.edu>; Thu, 23 Jul 2015 08:28:14 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=dciO39fI5vy6DpfpwJuuiWAiOFRmNRKIuFilhmzNhnU=;
+                         b=gLBA9YndCNxP3XxPdm8ZbCPMRxEwV+qsI/vdLygho4m2XfTVp6iP5CxkMXYoN7ZDRh
+                         Bi3BfZt6x/F1NpjcrtNpnQujh0I5afHuxqQy+/7ZD/mU/pTkFMe11ZHz7PsSezzAVBkR
+                         5OXWEFTFVMrZnBWmCkKWvfmLNORw6yK+kCoYlJjswdc+egNWYCZqJSfrtrMEz8meUPPy
+                         q4ZZWF/SyxfcftwjSYPQ46REpwvkL9sLZw50rlsaqFyPAN3jyTU0w1zzQAYea0iHCk0f
+                         rJW16qGiLE60BcBINyrS6GgC+JP4WKpHksmO+stIrmjm+ZSBeSuQERwvzxCNLkpjtDkB
+                         zU8w==
+X-Gm-Message-State: ALoCoQl16zFb1I1rEVx/MOXlpafy/od31KFpLzfsVLJQ1egOPpqw3v4YbeHxNW8EUFI54Q9y1G5otgXPOekTSvhQhyABiJLFzXSUJmMuLpxFs+C8r/zf5mhe/t+7dSiSynW0iDLRRaA7mPGWp2P0oycywWfAzjtA6w==
+X-Received: by 10.180.86.73 with SMTP id n9mr52282810wiz.78.1437665294315; Thu,
+            23 Jul 2015 08:28:14 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.86.73 with SMTP id n9mr52282783wiz.78.1437665294136; Thu,
+            23 Jul 2015 08:28:14 -0700 (PDT)
+Received: by 10.180.104.39 with HTTP; Thu, 23 Jul 2015 08:28:13 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=f46d0442806e29cd3c051b8c8925
+X-Spam-Status: No, score=-1.2 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <CAFVnc+YTEABqB6OfMycaGOgOahhNYK0m7SMWQjpy=MLsBOPHxw@mail.gmail.com>
+Date:         Thu, 23 Jul 2015 11:28:13 -0400
+Reply-To: Thomas Wertalik <wertalik@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Thomas Wertalik <wertalik@vt.edu>
+Subject: VWR Event Reminder
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0442806e29cd3c051b8c8925
+Content-Type: text/plain; charset=UTF-8
+
+VWR is showcasing products and providing free Chick-fil-A today in the HHS
+Atrium.
+
+--f46d0442806e29cd3c051b8c8925
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">VWR is showcasing products and providing free Chick-fil-A today in the HHS Atrium.</div>
+
+--f46d0442806e29cd3c051b8c8925--

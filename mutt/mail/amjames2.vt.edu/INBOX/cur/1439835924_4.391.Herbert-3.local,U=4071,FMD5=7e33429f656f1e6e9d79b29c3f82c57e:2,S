@@ -1,0 +1,189 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1631285qgt;
+        Fri, 14 Aug 2015 08:31:23 -0700 (PDT)
+X-Received: by 10.140.217.207 with SMTP id n198mr81940033qhb.92.1439566283189;
+        Fri, 14 Aug 2015 08:31:23 -0700 (PDT)
+Return-Path: <bounce-md_30691229.55ce09c4.v1-a7cdd19f84ed4c3aa7503ef95666f133@mandrillapp.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id j202si9960643qhc.131.2015.08.14.08.31.23
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:31:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-md_30691229.55ce09c4.v1-a7cdd19f84ed4c3aa7503ef95666f133@mandrillapp.com designates 198.2.133.12 as permitted sender) client-ip=198.2.133.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-md_30691229.55ce09c4.v1-a7cdd19f84ed4c3aa7503ef95666f133@mandrillapp.com designates 198.2.133.12 as permitted sender) smtp.mailfrom=bounce-md_30691229.55ce09c4.v1-a7cdd19f84ed4c3aa7503ef95666f133@mandrillapp.com;
+       dkim=pass header.i=@mail133-12.atl131.mandrillapp.com;
+       dkim=pass header.i=@mandrillapp.com
+Received: from mail133-12.atl131.mandrillapp.com (mail133-12.atl131.mandrillapp.com [198.2.133.12])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7EFVHEP029948
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 11:31:22 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=mail133-12.atl131.mandrillapp.com;
+ h=From:Sender:Subject:Reply-To:Message-Id:To:Date:MIME-Version:Content-Type; i=noreply@mail133-12.atl131.mandrillapp.com;
+ bh=8YS+ES+/88LDksUzSsJEGdHmJA4=;
+ b=aYgjawFpsYLrJlJvh01UMgzEewM0JJtX/pPmUQvuYk9VJoQPPIJRk99f+N4cgFtBfEflWm83rgvX
+   3hYOxyyZTO8KoRaYoFkLDJqydDRlV5MDH7EyPK9sUrA38KNseDB/K3mo8MuhGm+2GWDX8xy+vYIH
+   46ZsZQKXY+O0je2NgFk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=mail133-12.atl131.mandrillapp.com;
+ b=XArctG+laqm6+tXPX9o5uA+3p7waak8j81StwrJUlqUMUznCDfarVL6qEgHBZGrm+K3dT1ujlPPL
+   tLxffqm9sdqbUA6Wrs6ESojtl2yI5T2FXcTl1T6I9TZRZvD9jlIK5+t1b5TUpv9Jmmja8AOxICh1
+   h2BYEK2ffrM9V3y3xhM=;
+Received: from pmta02.mandrill.prod.atl01.rsglab.com (127.0.0.1) by mail133-12.atl131.mandrillapp.com id hpo4sk1sar8o for <amjames2@vt.edu>; Fri, 14 Aug 2015 15:31:16 +0000 (envelope-from <bounce-md_30691229.55ce09c4.v1-a7cdd19f84ed4c3aa7503ef95666f133@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1439566276; h=From : 
+ Sender : Subject : Reply-To : Message-Id : To : Date : MIME-Version : 
+ Content-Type : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=yWQGPRPhSaT65137aKaAozQZymAywyOC69d/yPClS/s=; 
+ b=LmWOJpHDlxvUEyiC1ECEX+h5XX8Kbg06sTj+1KjfoALJ+UNTmXBF+lvT9H+HdQFJLQBcm7
+ U64K9cUy4AS1DpxzEvwpSiylOj/fV9C/qi2QJX5wJiEXP7P3WhNnMvq5ENaO5ZmDuQcnRKGz
+ /bmdt8p9K+b5Jpz4RjUr0rU8KRGrM=
+From: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@forum.psicode.org>
+Sender: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@mail133-12.atl131.mandrillapp.com>
+Subject: =?utf-8?Q?[Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry]=20Digest?=
+Received: from [45.55.166.255] by mandrillapp.com id a7cdd19f84ed4c3aa7503ef95666f133; Fri, 14 Aug 2015 15:31:16 +0000
+Reply-To: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@forum.psicode.org>
+Message-Id: <e1e72eec-6eda-4c0a-9497-7703017e368b@forum.psicode.org>
+Auto-Submitted: auto-generated
+To: <amjames2@vt.edu>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30691229.a7cdd19f84ed4c3aa7503ef95666f133
+X-Mandrill-User: md_30691229
+Date: Fri, 14 Aug 2015 15:31:16 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-Sshnmhf5xDq4q5ICYjDuvA"
+X-Spam-Status: No, score=-1.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE,RP_MATCHES_RCVD autolearn=disabled
+	version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_av-Sshnmhf5xDq4q5ICYjDuvA
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+A brief summary of [Psi4 =E2=80=93 Open-Source Quantum Chemistry][1] since =
+your last visit on 07-30-2015
+
+### Popular posts
+
+[ROHF-CCSD(T) using MP2 Natural orbitals][2]
+
+ I don't think FNOs are hooked into Crawford's codes yet.  With Kallay's I =
+haven't implemented UHF FNOs yet.  Actually I just checked in code to throw=
+ an exception when this is requested.  I don't it would be difficult to gen=
+erate UHF FNOs for Kallay's code.  I will try to get this done in the near =
+future.
+---------------------------------------------------------------------------=
+-----
+
+
+
+
+
+
+[1]: http://forum.psicode.org/
+[2]: http://forum.psicode.org/t/rohf-ccsd-t-using-mp2-natural-orbitals/51
+
+
+This digest is sent from [Psi4 =E2=80=93 Open-Source Quantum Chemistry][1] =
+when we haven't seen you in a while. To unsubscribe [click here][3].
+
+[3]: http://forum.psicode.org/email/unsubscribe/3440f7319f432cb4c557d194b74=
+5b6bcdb8d41b1419989e9efe0700210e7a7a1
+
+
+
+
+--_av-Sshnmhf5xDq4q5ICYjDuvA
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table style=3D"border: 20px solid #eee;" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tr>
+  <td style=3D"padding: 10px 10px; background-color: #4B6BA9;">
+    <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psicode.or=
+g?p=3DeyJzIjoiVWJ5a2k0emtvS0k5c0kxcEx0bWU4QVU1YzhrIiwidiI6MSwicCI6IntcInVcI=
+jozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY29kZS5v=
+cmdcIixcImlkXCI6XCJhN2NkZDE5Zjg0ZWQ0YzNhYTc1MDNlZjk1NjY2ZjEzM1wiLFwidXJsX2l=
+kc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWVmYWY3Njc0YzBcIl19In0" s=
+tyle=3D"text-decoration: none; font-weight: bold; color: #006699;">
+      <img src=3D"http://forum.psicode.org/uploads/default/original/1X/e05a=
+51e34886e7798e4276539293318dccca6c9f.png" style=3D"max-height: 35px; min-he=
+ight: 35px; height: 35px;"></a>
+  </td>
+</tr>
+<tr>
+  <td style=3D"background-color: #fff; padding: 10px 10px; font-family: Ari=
+al, Helvetica, sans-serif; font-size: 14px;">
+    A brief summary of <a href=3D"http://mandrillapp.com/track/click/306912=
+29/forum.psicode.org?p=3DeyJzIjoiVWJ5a2k0emtvS0k5c0kxcEx0bWU4QVU1YzhrIiwidi=
+I6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZ=
+m9ydW0ucHNpY29kZS5vcmdcIixcImlkXCI6XCJhN2NkZDE5Zjg0ZWQ0YzNhYTc1MDNlZjk1NjY2=
+ZjEzM1wiLFwidXJsX2lkc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWVmYWY=
+3Njc0YzBcIl19In0" style=3D"text-decoration: none; font-weight: bold; color:=
+ #006699;">Psi4 =E2=80=93 Open-Source Quantum Chemistry</a> since your last=
+ visit on 07-30-2015
+
+      <hr style=3D"background-color: #ddd; height: 1px; border: 1px;">
+      <h3 style=3D"margin: 15px 0 20px 0;">Popular posts</h3>
+
+
+        <div>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoiUlUwV1k5U1RzamxEdGl2UVM2YjVxcnpreDZVIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvdFxcXC9yb2hmLWNjc2QtdC11c2luZy1tcDItbmF0dXJhbC1vcmJpdGFsc1xcX=
+C81MVwiLFwiaWRcIjpcImE3Y2RkMTlmODRlZDRjM2FhNzUwM2VmOTU2NjZmMTMzXCIsXCJ1cmxf=
+aWRzXCI6W1wiYWYxMjZhNWY4OTNjMTNlYzI4OGQ0ODRhYmZhNGMyODlmNmYzODBiYlwiXX0ifQ"=
+ style=3D"text-decoration: none; font-weight: bold; color: #006699; line-he=
+ight:1.5em;; text-decoration: none; font-weight: bold; color: #006699;">ROH=
+F-CCSD(T) using MP2 Natural orbitals</a>
+          <br>
+          
+        </div>
+
+          <div style=3D"margin-left: 15px; margin-top: -5px; max-width: 694=
+px;">
+            <p>I don't think FNOs are hooked into Crawford's codes yet.  Wi=
+th Kallay's I haven't implemented UHF FNOs yet.  Actually I just checked in=
+ code to throw an exception when this is requested.  I don't it would be di=
+fficult to generate UHF FNOs for Kallay's code.  I will try to get this don=
+e in the near future.</p>
+          </div>
+
+        
+
+
+
+  </td>
+</tr>
+</table>
+
+<div style=3D"color:#666; font-size:95%; text-align:center; padding-top:15p=
+x;">
+  This digest is sent from <a href=3D"http://mandrillapp.com/track/click/30=
+691229/forum.psicode.org?p=3DeyJzIjoiVWJ5a2k0emtvS0k5c0kxcEx0bWU4QVU1YzhrIi=
+widiI6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cX=
+FwvZm9ydW0ucHNpY29kZS5vcmdcIixcImlkXCI6XCJhN2NkZDE5Zjg0ZWQ0YzNhYTc1MDNlZjk1=
+NjY2ZjEzM1wiLFwidXJsX2lkc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWV=
+mYWY3Njc0YzBcIl19In0" style=3D"text-decoration: none; font-weight: bold; co=
+lor: #006699;">Psi4 =E2=80=93 Open-Source Quantum Chemistry</a> when we hav=
+en't seen you in a while. To unsubscribe <a href=3D"http://mandrillapp.com/=
+track/click/30691229/forum.psicode.org?p=3DeyJzIjoiSTFfYTFHZlJlZ0Q4cWJXNWtB=
+dzllTzF5U3U0IiwidiI6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJ=
+odHRwOlxcXC9cXFwvZm9ydW0ucHNpY29kZS5vcmdcXFwvZW1haWxcXFwvdW5zdWJzY3JpYmVcXF=
+wvMzQ0MGY3MzE5ZjQzMmNiNGM1NTdkMTk0Yjc0NWI2YmNkYjhkNDFiMTQxOTk4OWU5ZWZlMDcwM=
+DIxMGU3YTdhMVwiLFwiaWRcIjpcImE3Y2RkMTlmODRlZDRjM2FhNzUwM2VmOTU2NjZmMTMzXCIs=
+XCJ1cmxfaWRzXCI6W1wiOGE5OWZmNTc0Y2ZjNTg0NzRkOGNhODM1YmY2NDkxN2RkZjFmNjVkM1w=
+iXX0ifQ" style=3D"text-decoration: none; font-weight: bold; color: #006699;=
+">click here</a>.
+</div>
+
+<img src=3D"http://mandrillapp.com/track/open.php?u=3D30691229&id=3Da7cdd19=
+f84ed4c3aa7503ef95666f133" height=3D"1" width=3D"1">
+
+--_av-Sshnmhf5xDq4q5ICYjDuvA--
+

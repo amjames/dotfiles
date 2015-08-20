@@ -1,0 +1,220 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp523447qgt;
+        Thu, 25 Jun 2015 05:43:17 -0700 (PDT)
+X-Received: by 10.55.15.19 with SMTP id z19mr98169239qkg.41.1435236197080;
+        Thu, 25 Jun 2015 05:43:17 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id o103si29205981qkh.76.2015.06.25.05.43.16
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jun 2015 05:43:17 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.176 as permitted sender) client-ip=209.85.223.176;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.176 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f176.google.com (mail-ie0-f176.google.com [209.85.223.176])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5PChBkW021356
+	for <amjames2@vt.edu>; Thu, 25 Jun 2015 08:43:16 -0400
+Received: by iebmu5 with SMTP id mu5so53279538ieb.1
+        for <amjames2@vt.edu>; Thu, 25 Jun 2015 05:43:11 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=lBmuWQiG5TQkZ5DBStZUF5B7vKf1L/cwIp0XKecsJmA=;
+        b=lC5e5H5bbVZ5Ow3foqVwklV/gHkf3/tTPS6GluA1lL3EVDB3g6u6elkCsY9Fosw4pR
+         BtLRzCODBTXEOps4Q9gzneGBZH6sY64DIdZqjEvjmO7Tktut0qTkoQBkdl9c1dhKuHQk
+         mywbE+jeMBNCIw5en1qcHYkVroDkqZvY5TjKIZ1qhVNWD6KYJgo3r9hvUycAyQaw14Sj
+         ztJM0CSiAry+cmTDBVZGdb0EXZ0h5oBBfOkH6sWKod06VM0syllSFUR9+MsxZbE/sMCE
+         8JMFoed9LpSDIaIWeMnXwAJJjl19cZB3adG+1xKNgMSnFfnXWgua17Wdlpwa7GzJKhet
+         K3Mg==
+X-Gm-Message-State: ALoCoQm/lI/01xD8mcgUk9IPAuIlAHS5828wnfcY5Tqx+Osksklexxn8YOCvejbIbYQeT33E6OdM3EGNpspWlT9IJh91lwSeNng7qfSHLgf09gP36tCZGDCPJAML8+3QsN9LWfjJmATwItd9HL9AdAuK3/oStbDRpQ==
+X-Received: by 10.50.225.65 with SMTP id ri1mr3626006igc.47.1435236191322;
+        Thu, 25 Jun 2015 05:43:11 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.225.65 with SMTP id ri1mr3625994igc.47.1435236191189;
+ Thu, 25 Jun 2015 05:43:11 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Thu, 25 Jun 2015 05:43:11 -0700 (PDT)
+In-Reply-To: <CA+hCaPOtxoVXboGXm-6etY-=TdWJh4bO3eknTFE6XWnEiogo0w@mail.gmail.com>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com>
+	<DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+	<C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+	<CA+hCaPOtxoVXboGXm-6etY-=TdWJh4bO3eknTFE6XWnEiogo0w@mail.gmail.com>
+Date: Thu, 25 Jun 2015 08:43:11 -0400
+Message-ID: <CAH0V_1Z5cKgjkkrLmjpFRNb+Eu0-Zh-H-2MuRr6WPV_kNSMpRA@mail.gmail.com>
+Subject: Re: BlueRidge access for the SSS
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Robert Harrison <rjharrison@gmail.com>
+Cc: Andrew James <amjames2@vt.edu>, Justin Krometis <jkrometi@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1132f24e586387051956f7ba
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 4915
+
+--001a1132f24e586387051956f7ba
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Justin,
+
+Please see Robert's inquiry below.  What do you think?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Jun 25, 2015 at 4:53 AM, Robert Harrison <rjharrison@gmail.com>
+wrote:
+
+> Daniel ... any chance of getting a version of MPI compatible with the
+> Intel 15 compiler?   The present MPI seems to be set up for version
+> 13.  This is not crucial (so is not worth burning any favors for), but
+> it would help in case people wanted to try mixing MPI+OpenMP and would
+> also avoid people having to switch (version 15 has much better
+> parallelization and vectorization)
+>
+> Best wishes
+>
+> Robert
+>
+>
+>
+> On Wed, Jun 17, 2015 at 12:19 PM, Andrew James <amjames2@vt.edu> wrote:
+> > Dr. Crawford,
+> >
+> > The cerebro accounts are set up. The usernames are the same:
+> > dcheny
+> > dprince
+> > tguy
+> > rjharrison
+> >
+> > Passwords are the same as the usernames.  I also checked and the hpc
+> account
+> > passwords are still =E2=80=9Chokies14=E2=80=9D.
+> >
+> > =E2=80=94AJ
+> >
+> > On Jun 16, 2015, at 4:53 PM, Eugene DePrince <eugene.deprince@gmail.com=
+>
+> > wrote:
+> >
+> > Daniel,
+> >
+> > I can get into sirius, but I=E2=80=99m having trouble seeing
+> blueridge1.arc.vt.edu
+> > from there
+> >
+> > [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu
+> > PING blueridge1.arc.vt.edu (198.82.161.171) 56(84) bytes of data.
+> > From sirius.chem.vt.edu (198.82.162.246) icmp_seq=3D1 Destination Host
+> > Unreachable
+> >
+> > Eugene
+> >
+> > On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+> >
+> > hpc01
+> >
+> >
+> >
+>
+>
+>
+> --
+> Robert J. Harrison
+> tel:  865-272-9262
+>
+
+--001a1132f24e586387051956f7ba
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Justin,<div><br></div><div>Please see Robert&#39;s inquiry=
+ below.=C2=A0 What do you think?</div><div><br></div><div>-TDC</div></div><=
+div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signat=
+ure"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"=
+mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></di=
+v></div>
+<br><div class=3D"gmail_quote">On Thu, Jun 25, 2015 at 4:53 AM, Robert Harr=
+ison <span dir=3D"ltr">&lt;<a href=3D"mailto:rjharrison@gmail.com" target=
+=3D"_blank">rjharrison@gmail.com</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">Daniel ... any chance of getting a version of MPI compatible =
+with the<br>
+Intel 15 compiler?=C2=A0 =C2=A0The present MPI seems to be set up for versi=
+on<br>
+13.=C2=A0 This is not crucial (so is not worth burning any favors for), but=
+<br>
+it would help in case people wanted to try mixing MPI+OpenMP and would<br>
+also avoid people having to switch (version 15 has much better<br>
+parallelization and vectorization)<br>
+<br>
+Best wishes<br>
+<br>
+Robert<br>
+<div class=3D"HOEnZb"><div class=3D"h5"><br>
+<br>
+<br>
+On Wed, Jun 17, 2015 at 12:19 PM, Andrew James &lt;<a href=3D"mailto:amjame=
+s2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br>
+&gt; Dr. Crawford,<br>
+&gt;<br>
+&gt; The cerebro accounts are set up. The usernames are the same:<br>
+&gt; dcheny<br>
+&gt; dprince<br>
+&gt; tguy<br>
+&gt; rjharrison<br>
+&gt;<br>
+&gt; Passwords are the same as the usernames.=C2=A0 I also checked and the =
+hpc account<br>
+&gt; passwords are still =E2=80=9Chokies14=E2=80=9D.<br>
+&gt;<br>
+&gt; =E2=80=94AJ<br>
+&gt;<br>
+&gt; On Jun 16, 2015, at 4:53 PM, Eugene DePrince &lt;<a href=3D"mailto:eug=
+ene.deprince@gmail.com">eugene.deprince@gmail.com</a>&gt;<br>
+&gt; wrote:<br>
+&gt;<br>
+&gt; Daniel,<br>
+&gt;<br>
+&gt; I can get into sirius, but I=E2=80=99m having trouble seeing <a href=
+=3D"http://blueridge1.arc.vt.edu" rel=3D"noreferrer" target=3D"_blank">blue=
+ridge1.arc.vt.edu</a><br>
+&gt; from there<br>
+&gt;<br>
+&gt; [dprince@sirius ~]$ ping=C2=A0 <a href=3D"http://blueridge1.arc.vt.edu=
+" rel=3D"noreferrer" target=3D"_blank">blueridge1.arc.vt.edu</a><br>
+&gt; PING <a href=3D"http://blueridge1.arc.vt.edu" rel=3D"noreferrer" targe=
+t=3D"_blank">blueridge1.arc.vt.edu</a> (198.82.161.171) 56(84) bytes of dat=
+a.<br>
+&gt; From <a href=3D"http://sirius.chem.vt.edu" rel=3D"noreferrer" target=
+=3D"_blank">sirius.chem.vt.edu</a> (198.82.162.246) icmp_seq=3D1 Destinatio=
+n Host<br>
+&gt; Unreachable<br>
+&gt;<br>
+&gt; Eugene<br>
+&gt;<br>
+&gt; On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford &lt;<a href=3D"mailto:=
+crawdad@vt.edu">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; hpc01<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+<br>
+<br>
+<br>
+</div></div><span class=3D"HOEnZb"><font color=3D"#888888">--<br>
+Robert J. Harrison<br>
+tel:=C2=A0 <a href=3D"tel:865-272-9262" value=3D"+18652729262">865-272-9262=
+</a><br>
+</font></span></blockquote></div><br></div>
+
+--001a1132f24e586387051956f7ba--

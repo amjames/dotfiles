@@ -1,0 +1,83 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2014577qgt;
+        Mon, 1 Jun 2015 07:57:44 -0700 (PDT)
+X-Received: by 10.140.23.35 with SMTP id 32mr23640504qgo.106.1433170664685;
+        Mon, 01 Jun 2015 07:57:44 -0700 (PDT)
+Return-Path: <jbrow@exchange.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id a3si11413086qga.120.2015.06.01.07.57.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 01 Jun 2015 07:57:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.12 as permitted sender) smtp.mail=jbrow@exchange.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12] (may be forged))
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t51EvbcP022871
+	for <amjames2@vt.edu>; Mon, 1 Jun 2015 10:57:43 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: GUTENBERG.cc.w2k.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:0:243:942e:ff76) by
+ GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:0:243:942e:ff76) with Microsoft
+ SMTP Server (TLS) id 15.0.995.29; Mon, 1 Jun 2015 10:57:39 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+ GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+ 15.00.0995.032; Mon, 1 Jun 2015 10:57:39 -0400
+From: "Brow, Jessica" <jbrow@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>,
+        "Long, Christina"
+	<cllong@exchange.vt.edu>
+Subject: RE: Summer  School Registration 
+Thread-Topic: Summer  School Registration 
+Thread-Index: AQHQnHoJyKFVtvMD00KW3nQaGCaETp2XvUzQ
+Date: Mon, 1 Jun 2015 14:57:39 +0000
+Message-ID: <f84b566ea6d142d5851ebe7f73533963@GUTENBERG.cc.w2k.vt.edu>
+References: <21A56291-35AD-42CE-93E4-E7C901417EB8@vt.edu>
+In-Reply-To: <21A56291-35AD-42CE-93E4-E7C901417EB8@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [198.82.173.211]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: GUTENBERG.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Christina,
+
+I have changed the registration deadline in C2K for the Software Summer Sch=
+ool.  Could I get you to change it on the registration page, as well?
+
+It is:
+
+http://www.cpe.vt.edu/reg/sss/
+
+Thanks!
+
+Jessica
+
+
+
+-----Original Message-----
+From: Andrew James [mailto:amjames2@vt.edu]=20
+Sent: Monday, June 1, 2015 10:48 AM
+To: Brow, Jessica
+Subject: Summer School Registration=20
+
+Hello Jessica,=20
+
+It was brought to my attention that the Software Summer School Registration=
+ is closed already.  We need the registration page to be open still as we a=
+re sending acceptance letters to some last minute applicants . The applicat=
+ion deadline was May 31 and it looks like the registration ended before tha=
+t even on the 30th. Is there a way we can get that opened back up?=20
+
+Thanks,=20
+Andrew=20

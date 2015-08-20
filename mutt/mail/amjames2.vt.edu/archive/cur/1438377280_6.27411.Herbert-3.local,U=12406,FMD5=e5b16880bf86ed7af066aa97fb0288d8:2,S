@@ -1,0 +1,411 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp661466qgt;
+        Thu, 30 Jul 2015 07:32:45 -0700 (PDT)
+X-Received: by 10.55.18.6 with SMTP id c6mr71110335qkh.96.1438266765204;
+        Thu, 30 Jul 2015 07:32:45 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id n189si1402550qhb.88.2015.07.30.07.32.45
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 07:32:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) client-ip=209.85.213.178;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f178.google.com (mail-ig0-f178.google.com [209.85.213.178])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UEWYH7002804
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 10:32:39 -0400
+Received: by iggf3 with SMTP id f3so34631178igg.1
+        for <amjames2@vt.edu>; Thu, 30 Jul 2015 07:32:34 -0700 (PDT)
+X-Received: by 10.50.30.10 with SMTP id o10mr5335733igh.86.1438266754643;
+        Thu, 30 Jul 2015 07:32:34 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp674545iee;
+        Thu, 30 Jul 2015 07:32:33 -0700 (PDT)
+X-Received: by 10.140.218.139 with SMTP id o133mr6145203qhb.69.1438266753706;
+        Thu, 30 Jul 2015 07:32:33 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id c62si1415206qka.65.2015.07.30.07.32.33
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 07:32:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UEWXet031946
+	for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 10:32:33 -0400
+Received: from mail-io0-f182.google.com (mail-io0-f182.google.com [209.85.223.182])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UEWQlg002414
+	for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 10:32:31 -0400
+Received: by ioeg141 with SMTP id g141so55620147ioe.3
+        for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 07:32:26 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=kBPp+tKkhVqK8oQ76UJqsAjTy7gdv39tFZ56YKAE4XU=;
+        b=d7yNLs4DGROrjpzHPoJN8sbAqMDXnUqcXIL8f5JcHkLdnD/CPY0XxTzwHX8alu8Zam
+         aDAFGwmBG5hIxPp2J39rw2gGk6r5SVGXe15Eg61b1VbGUrEHFv8VPHOcItbe7Jp96Aa9
+         GsX1eBq78BcCSGhDwtgMo/O1kGq4dqcALdLb4wrL2JORgj+0QFnB3PpYlth/eR0lRwvS
+         yAXNY3nYZAYbYxoZAcaOBLsdwpRm08eV9w/cNP5W4xUJ3pQQnDtIL9kGsy11nO3MGsci
+         TVe0jbF5Eff4IkctG2v4fYhd1UPcf46A4pl/sszNPdbFjzCYb3rRztSaWBJ0m+LLAJT7
+         iBQQ==
+X-Gm-Message-State: ALoCoQkYGqwJLOi//L2lAzbfs5/jXNVb7nr+6r1GQpt8slXcp+tXCV1wxKL9BrBydOkfCQc+T+YBW6/0ODWz9JET0XIEePTkDCkMlw8y2e66K4+Jdf07Uwe+gavdHWKuig5NwM/jFYb8HAKw44nzC8KLmSGUk/LjfQ==
+X-Received: by 10.107.149.11 with SMTP id x11mr10840750iod.141.1438266746739;
+        Thu, 30 Jul 2015 07:32:26 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.149.11 with SMTP id x11mr10840720iod.141.1438266746596;
+ Thu, 30 Jul 2015 07:32:26 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 30 Jul 2015 07:32:26 -0700 (PDT)
+Date: Thu, 30 Jul 2015 10:32:26 -0400
+Message-ID: <CAH0V_1Zi9axqoRF1tRGGpH98dtOdm7JQcBaNJ5QHsY0ZB6gRsQ@mail.gmail.com>
+Subject: RHF->UHF MO Stability Code Question
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Gonthier, Jerome F" <jerome.gonthier@chemistry.gatech.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1140f8a8860916051c189254
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1140f8a8860916051c189254
+Content-Type: text/plain; charset=UTF-8
+
+Dear Jerome,
+
+One of our projects here requires checking MO stabilities indices and
+finding symmetry-broken UHF wave functions.  Until recently we'd been
+dealing with the older version of the stability code, and, with code
+updates we've switched to your new version.  Unfortunately, the upgrade is
+giving us a bit of trouble for a polyradical (see the attached input for a
+sample).  We correctly identify the instabilities, but we can't follow them
+to lower-energy solutions.  I've tried bumping up the eigenvector scale
+factors and adjusting convergence criteria otherwise, but without luck.
+The eigenvector following works fine if I switch to the old algorithm by
+choosing scf_type = pk.  Could you take a look and let me know if you see
+any solutions?  (FYI, I've actually been doing this for a 6-31G* basis, but
+the STO-3G basis exhibits the same problems, so I've sent it instead.)
+
+Thanks for your input!
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+memory 2 gb
+
+
+molecule heptazethrene {
+
+0 1
+
+C        -0.419928         5.172036          0.000000
+
+C         0.419928        -5.172036          0.000000
+
+C        -0.003202         3.802586          0.000000
+
+C         0.003202        -3.802586          0.000000
+
+C        -1.804101         5.470814          0.000000
+
+C         1.804101        -5.470814          0.000000
+
+C        -0.975357         2.753865          0.000000
+
+C         0.975357        -2.753865          0.000000
+
+C        -2.736151         4.451561          0.000000
+
+C         2.736151        -4.451561          0.000000
+
+C        -2.327367         3.108668          0.000000
+
+C         2.327367        -3.108668          0.000000
+
+C         1.910653         5.889357          0.000000
+
+C        -1.910653        -5.889357          0.000000
+
+C         2.329969         4.549443          0.000000
+
+C        -2.329969        -4.549443          0.000000
+
+C         0.564646         6.199544          0.000000
+
+C        -0.564646        -6.199544          0.000000
+
+C         1.401864         3.501384          0.000000
+
+C        -1.401864        -3.501384          0.000000
+
+C         1.814938         2.135020          0.000000
+
+C        -1.814938        -2.135020          0.000000
+
+C         0.914289         1.087230          0.000000
+
+C        -0.914289        -1.087230          0.000000
+
+C        -0.519518         1.351519          0.000000
+
+C         0.519518        -1.351519          0.000000
+
+C         1.367708        -0.271594          0.000000
+
+C        -1.367708         0.271594          0.000000
+
+H        -2.119961         6.510958          0.000000
+
+H         2.119961        -6.510958          0.000000
+
+H        -3.797766         4.683585          0.000000
+
+H         3.797766        -4.683585          0.000000
+
+H        -3.092623         2.339609          0.000000
+
+H         3.092623        -2.339609          0.000000
+
+H         2.652532         6.683427          0.000000
+
+H        -2.652532        -6.683427          0.000000
+
+H         3.391260         4.313308          0.000000
+
+H        -3.391260        -4.313308          0.000000
+
+H         0.237241         7.235991          0.000000
+
+H        -0.237241        -7.235991          0.000000
+
+H         2.881401         1.919591          0.000000
+
+H        -2.881401        -1.919591          0.000000
+
+H         2.444053        -0.416523          0.000000
+
+H        -2.444053         0.416523          0.000000
+
+symmetry cs
+
+}
+
+
+set {
+
+  basis STO-3G
+
+  reference uhf
+
+  stability_analysis follow
+
+  solver_n_guess 10
+
+  solver_n_root 4
+
+  follow_step_scale = 2.0
+
+  df_scf_guess= false
+
+}
+
+
+energy('scf')
+
+--001a1140f8a8860916051c189254
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Jerome,<div><br></div><div>One of our projects here r=
+equires checking MO stabilities indices and finding symmetry-broken UHF wav=
+e functions.=C2=A0 Until recently we&#39;d been dealing with the older vers=
+ion of the stability code, and, with code updates we&#39;ve switched to you=
+r new version.=C2=A0 Unfortunately, the upgrade is giving us a bit of troub=
+le for a polyradical (see the attached input for a sample).=C2=A0 We correc=
+tly identify the instabilities, but we can&#39;t follow them to lower-energ=
+y solutions.=C2=A0 I&#39;ve tried bumping up the eigenvector scale factors =
+and adjusting convergence criteria otherwise, but without luck.=C2=A0 The e=
+igenvector following works fine if I switch to the old algorithm by choosin=
+g scf_type =3D pk.=C2=A0 Could you take a look and let me know if you see a=
+ny solutions? =C2=A0(FYI, I&#39;ve actually been doing this for a 6-31G* ba=
+sis, but the STO-3G basis exhibits the same problems, so I&#39;ve sent it i=
+nstead.)</div><div><br></div><div>Thanks for your input!</div><div><br></di=
+v><div>-Daniel</div><div><br clear=3D"all"><div><div class=3D"gmail_signatu=
+re"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div><div><br></=
+div><div><p style=3D"margin:0px;font-size:10px;font-family:Monaco">memory 2=
+ gb</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br></p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">molecule heptazet=
+hrene {</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">0 1</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.419928 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.172036=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.419928=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.172036=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.003202 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.802586=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.003202=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.802586=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.804101 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.470814=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.804101=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.470814=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.975357 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.753865=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.975357=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.753865=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.736151 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.451561=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.736151=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.451561=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.327367 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.108668=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.327367=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.108668=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.910653 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.889357=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.910653=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.889357=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.329969 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.549443=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.329969=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.549443=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.564646 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.199544=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.564646=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.199544=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.401864 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.501384=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.401864=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.501384=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.814938 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.135020=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.814938=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.135020=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.914289 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.087230=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.914289=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.087230=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.519518 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.351519=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.519518=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.351519=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.367708=C2=A0 =C2=A0 =C2=A0 =C2=A0 -0.271594=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.367708 =C2=A0 =C2=A0 =C2=A0 =C2=A0 0.271594=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.119961 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.510958=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.119961=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.510958=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.797766 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.683585=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.797766=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.683585=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.092623 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.339609=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.092623=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.339609=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.652532 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.683427=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.652532=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.683427=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.391260 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.313308=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.391260=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.313308=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.237241 =C2=A0 =C2=A0 =C2=A0 =C2=A0 7.235991=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.237241=C2=A0 =C2=A0 =C2=A0 =C2=A0 -7.235991=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.881401 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.919591=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.881401=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.919591=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.444053=C2=A0 =C2=A0 =C2=A0 =C2=A0 -0.416523=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.444053 =C2=A0 =C2=A0 =C2=A0 =C2=A0 0.416523=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">symmetry cs</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">}</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br></p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">set {</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 basis STO-=
+3G</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 reference =
+uhf</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 stability_=
+analysis follow</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 solver_n_g=
+uess 10</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 solver_n_r=
+oot 4</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 follow_ste=
+p_scale =3D 2.0</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 df_scf_gue=
+ss=3D false</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">}</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br></p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">energy(&#39;scf&#=
+39;)</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br></p></div></div></div></div>
+</div></div>
+
+--001a1140f8a8860916051c189254--

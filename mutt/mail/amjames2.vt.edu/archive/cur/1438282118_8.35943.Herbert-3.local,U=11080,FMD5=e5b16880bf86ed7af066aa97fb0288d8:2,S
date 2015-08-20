@@ -1,0 +1,102 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1708225qgt;
+        Sun, 21 Jun 2015 05:22:24 -0700 (PDT)
+X-Received: by 10.141.23.3 with SMTP id z3mr33875180qhd.38.1434889344482;
+        Sun, 21 Jun 2015 05:22:24 -0700 (PDT)
+Return-Path: <pdu2@tigers.lsu.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id e92si16241031qge.113.2015.06.21.05.22.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 05:22:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pdu2@tigers.lsu.edu designates 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of pdu2@tigers.lsu.edu designates 209.85.223.175 as permitted sender) smtp.mail=pdu2@tigers.lsu.edu
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LCMIoM012278
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 08:22:23 -0400
+Received: by iefd2 with SMTP id d2so43241926ief.2
+        for <amjames2@vt.edu>; Sun, 21 Jun 2015 05:22:17 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=tZLUBsOOcr3YCDdpqzrICsPvm+ZL35B9p730R0k9/7w=;
+        b=lXSkIfxbTD50eknB3j4EoIfl2M3cwx01Y5LI18/4nkMlKqkVLYl8OQH3uxZdrdp//O
+         MtcYlRbd7GLljpYglb+b3UVxi62axq7gszLMcq9PkG68i93psnOyMvyIFTYVI4dHTyHv
+         gb70DPpADA8QXvPZc/YmcREK2xh+TlzR1aFp7S3SOPe4XxkT3dUHG6C6keabNps2ey2L
+         +VJA+Rt9xVsbfdJ/zGwNT7nZ8jLdmHg+2QR4kyplC84zNW2dO8ZvQi8VXaaJDmpbZ/7v
+         /XCM80bxMb1L50NbYoqzST0mCWxxRnn8hjbSUKfxDFGhoPEnjyj+Z7NemYVW1YpJmXQo
+         WvUw==
+X-Gm-Message-State: ALoCoQnyp+6InWvTp8zS2pRd4kE8g72MCJKyWau/q01lGMdIzmaggrcpDQxqBXvncABwsWDaUkPw
+MIME-Version: 1.0
+X-Received: by 10.42.197.5 with SMTP id ei5mr5455956icb.80.1434889337839; Sun,
+ 21 Jun 2015 05:22:17 -0700 (PDT)
+Received: by 10.36.69.139 with HTTP; Sun, 21 Jun 2015 05:22:17 -0700 (PDT)
+Date: Sun, 21 Jun 2015 07:22:17 -0500
+Message-ID: <CA+5+A10=1oeHuj=50sApzzTJup7p17yMXDrHEG-YwR3Orkot=A@mail.gmail.com>
+Subject: Flight Changed
+From: Pu Du <pdu2@tigers.lsu.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=20cf303b3f3d463d940519063594
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--20cf303b3f3d463d940519063594
+Content-Type: text/plain; charset=UTF-8
+
+Dear Dr. James,
+
+I am sorry to tell you that my flights have been changed to:
+
+Date                 Flight           Depart             Arrive
+21JUN             US 5311       BTR  635P     CLT  937P
+
+
+Date                 Flight           Depart             Arrive
+21JUN             US 4799       CLT  1009P    ROA  1110P
+
+
+
+Thanks,
+Pu
+-- 
+Graduate Student
+Kumar Research Group
+Choppin Hall 700
+Department of Chemistry
+Louisiana State University
+Baton Rouge, LA 70803
+Office:(225)578-2062
+
+--20cf303b3f3d463d940519063594
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Dr. James,<div><br></div><div>I am sorry to tell you =
+that my flights have been changed to:</div><div><br></div><div>Date =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Flight =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 Depart =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Arrive</=
+div><div>21JUN =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 US 5311 =C2=A0 =C2=
+=A0 =C2=A0 BTR =C2=A0635P =C2=A0 =C2=A0 CLT =C2=A0937P</div><div><br></div>=
+<div><br class=3D"">Date =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 Flight =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Depart =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 Arrive<br></div><div>21JUN =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 US 4799 =C2=A0 =C2=A0 =C2=A0 CLT =C2=A01009P =C2=A0 =
+=C2=A0ROA =C2=A01110P</div><div><br></div><div><br></div><div><br></div><di=
+v>Thanks,</div><div>Pu<br>-- <br><div class=3D"gmail_signature"><div dir=3D=
+"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div>Graduate=
+ Student</div><div><span style=3D"font-size:12.8000001907349px">Kumar Resea=
+rch Group</span></div><div dir=3D"ltr"><div>Choppin Hall 700</div><div>Depa=
+rtment of Chemistry</div><div>Louisiana State University</div><div><span st=
+yle=3D"line-height:16.1200008392334px">Baton Rouge, LA 70803</span><br></di=
+v><div><span style=3D"line-height:16.1200008392334px">Office:(225)578-2062<=
+/span></div></div></div></div></div></div></div></div>
+</div></div>
+
+--20cf303b3f3d463d940519063594--

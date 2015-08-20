@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1277678qgt;
+        Thu, 13 Aug 2015 19:38:05 -0700 (PDT)
+X-Received: by 10.140.130.2 with SMTP id 2mr79325641qhc.30.1439519885760;
+        Thu, 13 Aug 2015 19:38:05 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id s24si1529152qks.8.2015.08.13.19.38.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Aug 2015 19:38:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7E2c0Kk019039
+	for <amjames2@vt.edu>; Thu, 13 Aug 2015 22:38:05 -0400
+Date: Thu, 13 Aug 2015 19:37:59 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439519880;
+	bh=9A0aOkx/ZNzQe9OuOFZ/db6KisGRWiuSmp1KgdeYhlw=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=dGapYV5pMu1Rb5xLOh9TJNNNxTaJct7JD7AL3iAbpFvhVFpKLmB+71yCamswu+Jpm
+	 qDdeYC7aztUSSFjDaH7hNvwFX1hg8xzWKW7qsrK9GFnzqxUyN3mXLMt24x6VuX6h7Y
+	 weoHdTWkFb2gTsQyiVvHWabWcSZuOE9AWQvmD35s=
+From: Rob Parrish <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6427a597b7beec0326549cf82ab84de2f43f5e2bed192cf0000000111e5168792a169ce05e423f4@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issue/157/issue_event/382155329@github.com>
+In-Reply-To: <psi4/psi4public/issues/157@github.com>
+References: <psi4/psi4public/issues/157@github.com>
+Subject: Re: [psi4public] Libthce seg faults on generation of DF integrals for
+ porphyrin radical calculation (#157)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55cd5487e8ac2_4c2d3fa19e5c92a0344176";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: robparrish
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6427a597b7beec0326549cf82ab84de2f43f5e2bed192cf0000000111e5168792a169ce05e423f4@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6427a597b7beec0326549cf82ab84de2f43f5e2bed192cf0000000111e5168792a169ce05e423f4@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qm0Hc3RM8N6RmYcvAxfTe_huwntzks5onUwHgaJpZM4Fk3wA>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55cd5487e8ac2_4c2d3fa19e5c92a0344176
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Closed #157.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/157#event-382155329
+----==_mimepart_55cd5487e8ac2_4c2d3fa19e5c92a0344176
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Closed <a href="https://github.com/psi4/psi4public/issues/157" class="issue-link" title="Libthce seg faults on generation of DF integrals for porphyrin radical calculation">#157</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/157#event-382155329">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QoBBi8fztqi_ZqO9BYciVbTGdsbmks5onUwHgaJpZM4Fk3wA.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/157#event-382155329"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55cd5487e8ac2_4c2d3fa19e5c92a0344176--

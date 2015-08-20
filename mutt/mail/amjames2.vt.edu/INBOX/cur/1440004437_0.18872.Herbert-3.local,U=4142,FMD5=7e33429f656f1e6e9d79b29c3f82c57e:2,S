@@ -1,0 +1,105 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp446384qgb;
+        Wed, 19 Aug 2015 10:11:51 -0700 (PDT)
+X-Received: by 10.129.131.21 with SMTP id t21mr13919902ywf.134.1440004311829;
+        Wed, 19 Aug 2015 10:11:51 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id k35si2115289qgf.76.2015.08.19.10.11.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 10:11:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-io0-f175.google.com (mail-io0-f175.google.com [209.85.223.175])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7JHBk1E012584
+	for <amjames2@vt.edu>; Wed, 19 Aug 2015 13:11:51 -0400
+Received: by iodb91 with SMTP id b91so16595391iod.1
+        for <amjames2@vt.edu>; Wed, 19 Aug 2015 10:11:46 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:to:subject:from:date
+         :mime-version:content-type:content-transfer-encoding:message-id;
+        bh=3j/pLLRTGTa6ZDSJnbef+knxcV6ss4lc0diqi7W/ysY=;
+        b=lDtSPIgD3zfZJQ2HWRnmmY/KE8Zllvv8V39BrxjEaa8Ygr24zvtudHh46gAZ2A3SLi
+         uiGE4U41+Y3fRlMh1toAsDtN/71pooobLhNU2ehCyTwmtYiWsw+H5es2PO9VMg5KPrfW
+         anZZGJKQusTeMA/WhvgUr2Du4vsWBmhXGLPG48R3uD5rVgFa9+iiPRvOuNZsF7/dSVxT
+         SsnymT8DRnlv9ReX6eeTG76r1F2dGwsLq71Xmk903kcl3aZJ20xdu8cdb8jC+ZkjFn1u
+         1NRZSTxku1yo69RLXTKWNqpZA3LM9bTXycjvZ4UwvsdAmcrzLA/vo62Egrbl0jImh+3x
+         e/Wg==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of pjalm@p3plcpnl0286.prod.phx3.secureserver.net designates 184.168.200.145 as permitted sender) smtp.mailfrom=pjalm@p3plcpnl0286.prod.phx3.secureserver.net
+X-Received: by 10.107.152.148 with SMTP id a142mr13514069ioe.149.1440004305831;
+        Wed, 19 Aug 2015 10:11:45 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.62.209 with SMTP id a17csp408416ies;
+        Wed, 19 Aug 2015 10:11:45 -0700 (PDT)
+X-Received: by 10.69.20.33 with SMTP id gz1mr26418996pbd.102.1440004305106;
+        Wed, 19 Aug 2015 10:11:45 -0700 (PDT)
+Received: from p3nlsmtpcp01-04.prod.phx3.secureserver.net (p3nlsmtpcp01-04.prod.phx3.secureserver.net. [184.168.200.145])
+        by mx.google.com with ESMTPS id io6si2268581pbc.117.2015.08.19.10.11.44
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 19 Aug 2015 10:11:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pjalm@p3plcpnl0286.prod.phx3.secureserver.net designates 184.168.200.145 as permitted sender) client-ip=184.168.200.145;
+Received: from p3plcpnl0286.prod.phx3.secureserver.net ([50.62.161.53])
+	by p3nlsmtpcp01-04.prod.phx3.secureserver.net with : CPANEL :
+	id 6h6r1r02119RZES01h6rKM; Wed, 19 Aug 2015 10:06:51 -0700
+Received: from pjalm by p3plcpnl0286.prod.phx3.secureserver.net with local (Exim 4.85)
+	(envelope-from <pjalm@p3plcpnl0286.prod.phx3.secureserver.net>)
+	id 1ZS6ts-0005lW-AA
+	for andrew.m.james2@gmail.com; Wed, 19 Aug 2015 10:11:44 -0700
+To: andrew.m.james2@gmail.com
+Subject: Welcome to PJALM's DSDT Patches
+X-PHP-Script: pjalm.com/forums/index.php for 71.63.91.71
+From: "PJALM\'s DSDT Patches" <help@pjalm.com>
+Date: Wed, 19 Aug 2015 17:11:44 -0000
+X-Mailer: SMF
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="SMF-89212b2522c14da2270883ab45fe0d42"
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1ZS6ts-0005lW-AA@p3plcpnl0286.prod.phx3.secureserver.net>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p3plcpnl0286.prod.phx3.secureserver.net
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [386020 956] / [47 12]
+X-AntiAbuse: Sender Address Domain - p3plcpnl0286.prod.phx3.secureserver.net
+X-Get-Message-Sender-Via: p3plcpnl0286.prod.phx3.secureserver.net: authenticated_id: pjalm/from_h
+X-Source: 
+X-Source-Args: /usr/sbin/proxyexec -q -d -s /var/lib/proxyexec/cagefs.sock/socket /bin/cagefs.server 
+X-Source-Dir: pjalm.com:/public_html/forums
+X-Spam-Status: No, score=0.0 required=5.0 tests=HEADER_FROM_DIFFERENT_DOMAINS
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Thank you for registering at PJALM's DSDT Patches. Your username is amjames2. If you forget your password, you can reset it by visiting http://pjalm.com/forums/index.php?action=reminder.
+
+Before you can login, you first need to activate your account. To do so, please follow this link:
+
+http://pjalm.com/forums/index.php?action=activate;u=1420;code=d219d9361c
+
+Should you have any problems with activation, please visit http://pjalm.com/forums/index.php?action=activate;u=1420 use the code "d219d9361c".
+
+Regards,
+The PJALM's DSDT Patches Team.
+--SMF-89212b2522c14da2270883ab45fe0d42
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Thank you for registering at PJALM's DSDT Patches. Your username is amjames2. If you forget your password, you can reset it by visiting http://pjalm.com/forums/index.php?action=reminder.
+
+Before you can login, you first need to activate your account. To do so, please follow this link:
+
+http://pjalm.com/forums/index.php?action=activate;u=1420;code=d219d9361c
+
+Should you have any problems with activation, please visit http://pjalm.com/forums/index.php?action=activate;u=1420 use the code "d219d9361c".
+
+Regards,
+The PJALM's DSDT Patches Team.
+--SMF-89212b2522c14da2270883ab45fe0d42--

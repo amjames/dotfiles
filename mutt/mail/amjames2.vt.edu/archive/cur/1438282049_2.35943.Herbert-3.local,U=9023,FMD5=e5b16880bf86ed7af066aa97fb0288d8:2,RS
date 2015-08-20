@@ -1,0 +1,78 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp138000qgt;
+        Fri, 22 May 2015 09:13:03 -0700 (PDT)
+X-Received: by 10.55.50.201 with SMTP id y192mr19496880qky.10.1432311183825;
+        Fri, 22 May 2015 09:13:03 -0700 (PDT)
+Return-Path: <jag20@rice.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id t77si1440755qga.36.2015.05.22.09.13.03
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 22 May 2015 09:13:03 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.101 as permitted sender) client-ip=128.42.201.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.101 as permitted sender) smtp.mail=jag20@rice.edu
+Received: from pp2.rice.edu (proofpoint2.mail.rice.edu [128.42.201.101])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4MGCvAI009270
+	for <amjames2@vt.edu>; Fri, 22 May 2015 12:13:03 -0400
+Received: from pps.filterd (pp2.rice.edu [127.0.0.1])
+	by pp2.rice.edu (8.14.5/8.14.5) with SMTP id t4MGBXZc001937
+	for <amjames2@vt.edu>; Fri, 22 May 2015 11:12:57 -0500
+Received: from mh11.mail.rice.edu (mh11.mail.rice.edu [128.42.199.30])
+	by pp2.rice.edu with ESMTP id 1uj5b2r4sr-1
+	for <amjames2@vt.edu>; Fri, 22 May 2015 11:12:56 -0500
+X-Virus-Scanned: by amavis-2.7.0 at mh11.mail.rice.edu, auth channel
+Received: from webmail-n3.rice.edu (webmail-n3.rice.edu [10.128.81.183])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: jag20)
+	by mh11.mail.rice.edu (Postfix) with ESMTPSA id AB59B4C01D7
+	for <amjames2@vt.edu>; Fri, 22 May 2015 11:12:56 -0500 (CDT)
+Received: from fortytwo.rice.edu (fortytwo.rice.edu [10.69.3.8]) by
+ webmail.rice.edu (Horde Framework) with HTTP; Fri, 22 May 2015 11:12:56
+ -0500
+Date: Fri, 22 May 2015 11:12:56 -0500
+Message-ID: <20150522111256.Horde.4cssap7KgFfTydx-LdHRXA1@webmail.rice.edu>
+From: jag20 <jag20@rice.edu>
+To: amjames2@vt.edu
+Subject: Software Summer School Travel
+User-Agent: Internet Messaging Program (IMP) H5 (6.1.7)
+Content-Type: text/plain; charset=UTF-8; format=flowed; DelSp=Yes
+MIME-Version: 1.0
+Content-Disposition: inline
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=8
+ kscore.is_bulkscore=3.19533288717366e-12 kscore.compositescore=0
+ circleOfTrustscore=0 compositescore=0.483191553621556 suspectscore=1
+ recipient_domain_to_sender_totalscore=0 phishscore=0 bulkscore=0
+ kscore.is_spamscore=0 rbsscore=0.483191553621556
+ recipient_to_sender_totalscore=0
+ recipient_domain_to_sender_domain_totalscore=0 spamscore=8
+ recipient_to_sender_domain_totalscore=0 urlsuspectscore=0.483191553621556
+ adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=7.0.1-1402240000 definitions=main-1505220208
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear Andrew,
+
+Please find below my travel information to/from the Software  
+Development Summer School at VT. Please let me know if you need any  
+further information.
+
+Thanks,
+
+John
+
+Arrive at ROA at 3:40 pm via US Airways 4829 from CLT
+Depart ROA 4:10 pm via US Airways 4829 to CLT.
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1610370qgt;
+        Mon, 20 Jul 2015 16:16:02 -0700 (PDT)
+X-Received: by 10.140.235.19 with SMTP id g19mr45521400qhc.52.1437434162126;
+        Mon, 20 Jul 2015 16:16:02 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 91si8901191qkz.118.2015.07.20.16.16.02
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Jul 2015 16:16:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6KNFtFO010223
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 19:16:01 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=nv7pujs7fgCexlnb/2crv1qBE7M=; b=BzwH8p665OjX2prJ
+	coCPc9SsRxryAqpAr1mMEa9jfy7t/agYAAsywXfkWJ7Kw1s44MToyKsjYyYSyYe4
+	F6Kgzo/7HPplIG1PNL8J3v+GjotUBW6aT72f8T6qdLig23rfAfvqvGBF70uih/Xy
+	lJ+YkzrbnGvp5FpnJnfWheS7bzw=
+Received: by filter0831p1mdw1.sendgrid.net with SMTP id filter0831p1mdw1.28521.55AD812A21
+        2015-07-20 23:15:55.23701109 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-028 (SG) with ESMTP id 14eadc090a8.2d0c.20f7e
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 23:15:55 +0000 (UTC)
+Date: Mon, 20 Jul 2015 16:15:54 -0700
+From: "Robert T. McGibbon" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642bd474aae54ef3f794639ac2076e0125816532fb292cf0000000111c5432a92a169ce05bbab63@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/152/c123085740@github.com>
+In-Reply-To: <psi4/psi4public/pull/152@github.com>
+References: <psi4/psi4public/pull/152@github.com>
+Subject: Re: [psi4public] Exception Formatting (#152)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ad812ae8d3f_68883fcb73aab29c20024b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: rmcgibbo
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642bd474aae54ef3f794639ac2076e0125816532fb292cf0000000111c5432a92a169ce05bbab63@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642bd474aae54ef3f794639ac2076e0125816532fb292cf0000000111c5432a92a169ce05bbab63@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qk_v7f774VDSiy-5JefetjevjsDCks5ofXiqgaJpZM4FcWaT>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Ilrkjbeff2NKu9Be3avwh0pq0GoicDh4mvGq8
+ eeR4L8XEMk8BlT0ghCEiBySH+RcsDMc2CX9Tfu9ud2h5woU54Gglu6jnvqruJTGiIAWFV0Py4ByXDM
+ BYuxwBJFqFqlcag=
+X-Spam-Status: No, score=-2.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ad812ae8d3f_68883fcb73aab29c20024b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Having a full stack trace would be even nicer...
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/152#issuecomment-123085740
+----==_mimepart_55ad812ae8d3f_68883fcb73aab29c20024b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Having a full stack trace would be even nicer...</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/152#issuecomment-123085740">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QuIMw7rMOiavPuH6jMDec6X1KY9dks5ofXiqgaJpZM4FcWaT.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/pull/152#issuecomment-123085740"></link>
+    <meta itemprop="name" content="View Pull Request"></meta>
+  </div>
+  <meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+----==_mimepart_55ad812ae8d3f_68883fcb73aab29c20024b--

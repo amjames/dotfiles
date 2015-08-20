@@ -1,0 +1,173 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1793925qge;
+        Sat, 14 Mar 2015 19:27:45 -0700 (PDT)
+X-Received: by 10.140.107.75 with SMTP id g69mr66099777qgf.103.1426386464754;
+        Sat, 14 Mar 2015 19:27:44 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id w42si6088837qge.10.2015.03.14.19.27.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 14 Mar 2015 19:27:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.172 as permitted sender) client-ip=209.85.213.172;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.172 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f172.google.com (mail-ig0-f172.google.com [209.85.213.172])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2F2Rd5f024175
+	for <amjames2@vt.edu>; Sat, 14 Mar 2015 22:27:44 -0400
+Received: by igbue6 with SMTP id ue6so15638751igb.1
+        for <amjames2@vt.edu>; Sat, 14 Mar 2015 19:27:38 -0700 (PDT)
+X-Received: by 10.107.26.80 with SMTP id a77mr96718081ioa.78.1426386458866;
+        Sat, 14 Mar 2015 19:27:38 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1678158ieb;
+        Sat, 14 Mar 2015 19:27:38 -0700 (PDT)
+X-Received: by 10.140.232.15 with SMTP id d15mr70387908qhc.52.1426386457743;
+        Sat, 14 Mar 2015 19:27:37 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id e66si6082272qge.34.2015.03.14.19.27.37
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 14 Mar 2015 19:27:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr2.cc.vt.edu (mr2.cc.vt.edu [198.82.163.74] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2F2Rb1c003019
+	for <andrew.m.james2@gmail.com>; Sat, 14 Mar 2015 22:27:37 -0400
+Received: from mail-ig0-f178.google.com (mail-ig0-f178.google.com [209.85.213.178])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2F2RVdl021167
+	for <andrew.m.james2@gmail.com>; Sat, 14 Mar 2015 22:27:36 -0400
+Received: by ignm3 with SMTP id m3so12515968ign.0
+        for <andrew.m.james2@gmail.com>; Sat, 14 Mar 2015 19:27:31 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=9hDRIO+rDJ52Rnnf9gqBSf3dx/Zkc3HhZCYvTqxdLlQ=;
+        b=fiWVEY4MyUGBO6TYuiHvbQiKfahp7k4NTWSgCvVKmSwooXmLva52t0cqJCASXJAhsZ
+         hmPI4O/DrW4fsPBfolPtrzm+qXYMS6wKGb20tcqlw9oVGKLOutnHtw+EBmexMwhlgtGX
+         O5GuKzKeiE4+BaGZvM2aytNZFA9EXlAoD8T+s5AbKAqUbiXdLfOwPBDXPURQN9hX29IT
+         sDAYsdjvVfJ6vDF1S16341gbJpcqIAioiCEDdlMyUuZ6zaOgX8Lm0/osInIvcDWmqMsR
+         FY85a/rwFctSRxpSWP5Km0bJGSaQRaVYFYisxcJ6JisqrP5HQ6NGwRy6JiwwU42lUT2H
+         QQFQ==
+X-Gm-Message-State: ALoCoQnbAyaIVziOLuZFP8X/WskNHTsg7mSmEvYMXteavWlDrsAQ4BsG0Z4AzDI+qGMewSnfUHqlxPaAW3+aKniLP9jtpzNluUjECmHWbTfzaI7iXC54yC36L1zEyjoZy2Jlg33dQhBj0QOdu6UaE4AMZf9FipD4LA==
+X-Received: by 10.50.66.141 with SMTP id f13mr6381842igt.47.1426386451668;
+        Sat, 14 Mar 2015 19:27:31 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.66.141 with SMTP id f13mr6381830igt.47.1426386451469;
+ Sat, 14 Mar 2015 19:27:31 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Sat, 14 Mar 2015 19:27:31 -0700 (PDT)
+In-Reply-To: <55042592.9020804@irsamc.ups-tlse.fr>
+References: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+	<F7A6E265-E83E-48E7-A202-6DB7EC2535E1@uit.no>
+	<CAH0V_1ZHYYrv61fzbDxLHR_wNoynVEBKro5v9NenFxJagnCDxw@mail.gmail.com>
+	<E5BF7589-6D55-41AB-B213-3C7AD2D2D993@uit.no>
+	<CAH0V_1aHwwOBMEVT3qjCGnfp1mKgDt1=uC7PEaeANi3e3Fx=yQ@mail.gmail.com>
+	<CAH0V_1ZG16Mit_N9Wb99mkWHH4Q3BOjuNm8qz7UNXgf=HWfYrA@mail.gmail.com>
+	<55036E7F.7000709@irsamc.ups-tlse.fr>
+	<CAH0V_1ZDGvmS3V4bZ7LW1+eKYK7R92+6nhxap05E2KzkBKzi2Q@mail.gmail.com>
+	<8DC352E1-8D89-4B33-ADF7-FBA547365DB1@gmail.com>
+	<55042592.9020804@irsamc.ups-tlse.fr>
+Date: Sat, 14 Mar 2015 22:27:31 -0400
+Message-ID: <CAH0V_1aD9m=3RJx-2ndYdgVW-J1KQiwgokEXSMFK5N4TCB8ggQ@mail.gmail.com>
+Subject: Re: Molecular Response Property Summer School Website!
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+Cc: Andrew James <andrew.m.james2@gmail.com>,
+        Ruud Kenneth <kenneth.ruud@uit.no>,
+        Patrick Norman <johan.patrick.norman@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7bdc0dd2c0b43305114a7993
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3334
+
+--047d7bdc0dd2c0b43305114a7993
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Obviously we're still in a bit of transition, but AJ will have it in
+perfect shape forthwith!
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+2015-03-14 8:12 GMT-04:00 Trond SAUE <trond.saue@irsamc.ups-tlse.fr>:
+
+> HI,
+> what I see when I follow the schedule link is that we have lunch all
+> Wednesday ....;-)
+>
+> All the best,
+>     Trond
+>
+> --
+>                           Trond SAUE
+>          Laboratoire de Chimie et Physique Quantiques
+>     UMR 5626 CNRS --- Universit=C3=A9 Toulouse III-Paul Sabatier
+>           118 route de Narbonne, 31062 Toulouse (FRANCE)
+>             t=C3=A9l: +33/(0)561556031 FAX: +33/(0)561556065
+>
+>               Email: trond.saue@irsamc.ups-tlse.fr
+>                Web: http://dirac.ups-tlse.fr/saue
+>               DIRAC: http://www.diracprogram.org
+>                   ESQC: http://www.esqc.org
+>
+>
+
+--047d7bdc0dd2c0b43305114a7993
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Obviously we&#39;re still in a bit of transition, but AJ w=
+ill have it in perfect shape forthwith!<div><br></div><div>-TDC</div></div>=
+<div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signa=
+ture"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D=
+"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></d=
+iv></div>
+<br><div class=3D"gmail_quote">2015-03-14 8:12 GMT-04:00 Trond SAUE <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:trond.saue@irsamc.ups-tlse.fr" target=3D"_=
+blank">trond.saue@irsamc.ups-tlse.fr</a>&gt;</span>:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">HI,<br>
+what I see when I follow the schedule link is that we have lunch all Wednes=
+day ....;-)<div class=3D"HOEnZb"><div class=3D"h5"><br>
+All the best,<br>
+=C2=A0 =C2=A0 Trond<br>
+<br>
+-- <br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 Trond SAUE<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Laboratoire de Chimie et Physique Quantiq=
+ues<br>
+=C2=A0 =C2=A0 UMR 5626 CNRS --- Universit=C3=A9 Toulouse III-Paul Sabatier<=
+br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 118 route de Narbonne, 31062 Toulouse (F=
+RANCE)<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 t=C3=A9l: <a href=3D"tel:%2B33%2F=
+%280%29561556031" value=3D"+33561556031" target=3D"_blank">+33/(0)561556031=
+</a> FAX: <a href=3D"tel:%2B33%2F%280%29561556065" value=3D"+33561556065" t=
+arget=3D"_blank">+33/(0)561556065</a><br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Email: <a href=3D"mailto:t=
+rond.saue@irsamc.ups-tlse.fr" target=3D"_blank">trond.saue@irsamc.ups-tlse.=
+fr</a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Web: <a href=3D"http=
+://dirac.ups-tlse.fr/saue" target=3D"_blank">http://dirac.ups-tlse.fr/saue<=
+/a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 DIRAC: <a href=3D"http://w=
+ww.diracprogram.org" target=3D"_blank">http://www.diracprogram.org</a><br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ESQC: <a hre=
+f=3D"http://www.esqc.org" target=3D"_blank">http://www.esqc.org</a><br>
+<br>
+</div></div></blockquote></div><br></div>
+
+--047d7bdc0dd2c0b43305114a7993--

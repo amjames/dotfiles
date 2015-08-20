@@ -1,0 +1,126 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1938819qgt;
+        Mon, 17 Aug 2015 21:44:24 -0700 (PDT)
+X-Received: by 10.140.145.83 with SMTP id 80mr9440814qhr.17.1439873064288;
+        Mon, 17 Aug 2015 21:44:24 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id i7si28951872qhc.122.2015.08.17.21.44.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 17 Aug 2015 21:44:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) client-ip=192.254.112.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o3.sgmail.github.com (o3.sgmail.github.com [192.254.112.98])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7I4iHp1020223
+	for <amjames2@vt.edu>; Tue, 18 Aug 2015 00:44:22 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=joG/CYKgNMtlVR9UWRZNE1EJ5wE=; b=flGZHrj4trvcwrtj
+	KRfRJEUNO/4cAtJ0EU1S7yZcdcIkoumVmj9kt9/YwQNkjuG1AexFeusRHQufFWen
+	qNKdfVtyjQkRBOMCFy8W3Og5ifsapPStiELUl6LhKjx6IFQMsjxmYvAowhoOfsIv
+	8TqvO3fghIwSMwPlZIfZeadvCnY=
+Received: by filter0576p1mdw1.sendgrid.net with SMTP id filter0576p1mdw1.20146.55D2B820C
+        2015-08-18 04:44:16.526432598 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0005p1iad1.sendgrid.net (SG) with ESMTP id sgRENLIWTlSP1EKK1aPQCQ
+	for <amjames2@vt.edu>; Tue, 18 Aug 2015 04:44:16.448 +0000 (UTC)
+Date: Mon, 17 Aug 2015 21:44:16 -0700
+From: jgonthier <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6428a1111c31a09c4c27665a1c2a5b70189f4b6a21d92cf0000000111ea7a2092a169ce05989dab@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/103/132070682@github.com>
+In-Reply-To: <psi4/psi4/issues/103@github.com>
+References: <psi4/psi4/issues/103@github.com>
+Subject: Re: [psi4] Stability analysis (#103)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d2b82048031_9053f7ec73e92b81477eb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jgonthier
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6428a1111c31a09c4c27665a1c2a5b70189f4b6a21d92cf0000000111ea7a2092a169ce05989dab@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6428a1111c31a09c4c27665a1c2a5b70189f4b6a21d92cf0000000111ea7a2092a169ce05989dab@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qnr1U1SsP5x-kytGzeSWAXWIVBu0ks5ooq-ggaJpZM4FUwc->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5InrY+QGE2f5VJP/2voSqGvLM0Mzz153h4VhmO
+ EwBBGFBBVkMpjIj+1u25jGCZFIac2eDEXxpRvimzrBUOPxmam+B5fPIiy2d8Ta6hnzL7sYJ3NXtMCf
+ QU0sINDdQjrjknU=
+X-Spam-Status: No, score=-2.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55d2b82048031_9053f7ec73e92b81477eb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Next improvements planned for the new UHF->UHF stability code:
+A) For stability_analysis follow, move the SCF control from stability to SCF code. This means SCF should control the whole SCF procedure. Stability reoptimizations would be a macroloop nesting the SCF:
+`<do {
+    do {
+            Get D, F, etc...
+            Compute energy
+            compute convergence criterion
+           } while (not converged and (SCF_iterations < MAX_SCF_iterations ) )
+      if stability_analysis {
+         stability()
+      }
+      } while (not stable and (num_attempts < MAX_num_attempts) )
+
+HF::finalize()>`
+
+B) Improve the old PK code by either finding a way to use PK integrals for Davidson algorithm, or at least saving the transformed MOs used to build the Hessian. Right now, CCSD computations with PK and stability analysis do the AO->MO transformation twice.
+
+Any problem/suggestions on that ?
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/103#issuecomment-132070682
+----==_mimepart_55d2b82048031_9053f7ec73e92b81477eb
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Next improvements planned for the new UHF-&gt;UHF stability code:<br>
+A) For stability_analysis follow, move the SCF control from stability to SCF code. This means SCF should control the whole SCF procedure. Stability reoptimizations would be a macroloop nesting the SCF:<br>
+`&lt;do {<br>
+    do {<br>
+            Get D, F, etc...<br>
+            Compute energy<br>
+            compute convergence criterion<br>
+           } while (not converged and (SCF_iterations &lt; MAX_SCF_iterations ) )<br>
+      if stability_analysis {<br>
+         stability()<br>
+      }<br>
+      } while (not stable and (num_attempts &lt; MAX_num_attempts) )</p>
+
+<p>HF::finalize()&gt;`</p>
+
+<p>B) Improve the old PK code by either finding a way to use PK integrals for Davidson algorithm, or at least saving the transformed MOs used to build the Hessian. Right now, CCSD computations with PK and stability analysis do the AO-&gt;MO transformation twice.</p>
+
+<p>Any problem/suggestions on that ?</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/103#issuecomment-132070682">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QnMAYWw1sS1mnY190s-nEDMToTCOks5ooq-ggaJpZM4FUwc-.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4/issues/103#issuecomment-132070682"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55d2b82048031_9053f7ec73e92b81477eb--

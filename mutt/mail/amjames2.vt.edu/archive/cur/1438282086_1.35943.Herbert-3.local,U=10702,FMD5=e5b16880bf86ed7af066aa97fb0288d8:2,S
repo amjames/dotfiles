@@ -1,0 +1,274 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp561596qgt;
+        Wed, 17 Jun 2015 07:58:34 -0700 (PDT)
+X-Received: by 10.141.23.3 with SMTP id z3mr8882481qhd.38.1434553113853;
+        Wed, 17 Jun 2015 07:58:33 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 34si4595377qky.7.2015.06.17.07.58.32
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 07:58:33 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.169 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.220.169;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.169 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5HEwPXw020943;
+	Wed, 17 Jun 2015 10:58:30 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t5HDTwca007266;
+	Wed, 17 Jun 2015 10:58:25 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100036519 for CHEM_GRAD@LISTSERV.VT.EDU; Wed, 17 Jun 2015 10:58:25
+          -0400
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:277:40de:506c]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5HEwObe023054 for
+          <CHEM_GRAD@listserv.vt.edu>; Wed, 17 Jun 2015 10:58:24 -0400
+Received: from mail-qk0-f169.google.com (mail-qk0-f169.google.com
+          [209.85.220.169]) by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t5HEwIIw019155 for <CHEM_GRAD@listserv.vt.edu>; Wed, 17 Jun 2015
+          10:58:24 -0400
+Received: by qkbp125 with SMTP id p125so23284671qkb.2 for
+          <CHEM_GRAD@listserv.vt.edu>; Wed, 17 Jun 2015 07:58:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:references:to :message-id:mime-version;
+                         bh=b85m+ACvvnbDLlBbzZhaEuVx4yzYEE9YBBjAnUd/C4E=;
+                         b=jRPo92WLBhatBzHF5pmq5WiVj++qBLmz0GgZclzcpuL0h1rmmq2NemvaC0fuk/znLd
+                         OQF9lZ2sfApRfQ1dmk1Y0DcPCcRoRxuMD1KYPYJjlUEyX0mm+lHIsIvKoGQx1/WQ0dF6
+                         +5YTWxcQRQPLxnE06ZgU7BhuoEzjFttaGuLjDfQR/s5ohPDzvJYeFQskIKXlaW3sodVC
+                         pPx3oKmjUkL/GX9H5uhzFewl5M6+2kLfvSLa6/YZ6PIBfX9tKebfAX1iYM4cpDyEqBSI
+                         E/6xnTxBfCPqIhja9oc1RK66a7mr6HFl7jiirXtUcTKhDYSQSF7ntsDKMSCscno6M155
+                         aKfQ==
+X-Gm-Message-State: ALoCoQk3abaEoprf99yHognM6Y/y2PTTg3PVsP5JUJEDVWrPulocAMpNf2OJy2c6krDJO0P/lGAEyt70dKUUGt2BiwEYb74Noj3Uc4W9tG212rh2v9EmXidxWpfLaJGzF4a061DVV3VAKJkfYs0Cdsgj4KpIVNv3B0GJ7gVufwIoYI0Whn+YZzNWHWVh5KvLbiBk5DzY57rI
+X-Received: by 10.140.235.147 with SMTP id g141mr8414842qhc.35.1434553098820;
+            Wed, 17 Jun 2015 07:58:18 -0700 (PDT)
+X-Received: by 10.140.235.147 with SMTP id g141mr8414822qhc.35.1434553098657;
+            Wed, 17 Jun 2015 07:58:18 -0700 (PDT)
+Received: from [10.0.1.3] (h80adb7b8.dhcp.vt.edu. [128.173.183.184]) by
+          mx.google.com with ESMTPSA id q22sm2255850qkq.4.2015.06.17.07.58.17
+          for <CHEM_GRAD@listserv.vt.edu> (version=TLSv1 cipher=RC4-SHA
+          bits=128/128); Wed, 17 Jun 2015 07:58:17 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_28890DA3-37F3-49E5-865C-4242D2A35B20"
+References: <720bd96d8a2140bdbccd27cf0ce8b1c3@MARCONI.cc.w2k.vt.edu>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-Spam-Status: No, score=-0.6 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <652A3718-3DDC-4C78-89AF-3B0941E05012@vt.edu>
+Date:         Wed, 17 Jun 2015 10:58:11 -0400
+Reply-To: "John R. Morris" <jrmorris@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "John R. Morris" <jrmorris@vt.edu>
+Subject: Fwd: Fulltime Chemistry Opening at Naval Research Lab for immediate hire
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_28890DA3-37F3-49E5-865C-4242D2A35B20
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+
+
+Begin forwarded message:
+
+> From: "Smith, Johanna" <johannas@vt.edu>
+> Subject: Fulltime Chemistry Opening at Naval Research Lab for =
+immediate hire
+> Date: June 17, 2015 10:55:58 AM EDT
+> To: COSFACULTY@LISTSERV.VT.EDU
+> Reply-To: "Smith, Johanna" <johannas@vt.edu>
+>=20
+> Please share with any chemistry graduate seeking fulltime employment.
+> =20
+> We, the Naval Research Laboratory, are looking for an entry level =
+scientist and engineer with a BS/MS degree in Materials Science and =
+Engineering or Chemistry to work with us. We are currently working on =
+the development of transparent ceramic materials, various oxide and =
+non-oxide glasses, and polymeric materials for various military and =
+commercial applications. We have an immediate opening for a position to =
+carry out synthesis, purification, and process of various metal oxide =
+powders, glasses and ceramics. He/she will be trained and will carry out =
+various experiments under supervisor=92s guidance. Although the official =
+work is carried out in US Naval Research laboratories in DC, he/she will =
+be hired as a contractor through our contracting company. These =
+positions are open for immediate hire. =20
+> =20
+> =20
+> Dr. Woohong (Rick) Kim
+> Head, High Purity Chemicals Section
+> Naval Research Laboratory
+> Optical Sciences Division, Code 5621
+> 4555 Overlook Ave. SW
+> Washington DC, 20375
+> Phone: 202-404-3654
+
+-------
+John R. Morris
+Professor and Graduate Program Director
+Department of Chemistry
+Virginia Tech
+Blacksburg, VA 24061
+Ph. 540-231-2472
+http://www.jrmorris.chem.vt.edu/
+
+
+
+--Apple-Mail=_28890DA3-37F3-49E5-865C-4242D2A35B20
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><base href=3D"x-msg://3/"></head><body style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><br><div><br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>From: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">"Smith, Johanna" =
+&lt;<a =
+href=3D"mailto:johannas@vt.edu">johannas@vt.edu</a>&gt;<br></span></div><d=
+iv style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>Subject: =
+</b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><b>Fulltime Chemistry Opening at Naval Research Lab =
+for immediate hire</b><br></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Date: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">June 17, 2015 10:55:58 AM EDT<br></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>To: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;"><a =
+href=3D"mailto:COSFACULTY@LISTSERV.VT.EDU">COSFACULTY@LISTSERV.VT.EDU</a><=
+br></span></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Reply-To: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">"Smith, Johanna" &lt;<a =
+href=3D"mailto:johannas@vt.edu">johannas@vt.edu</a>&gt;<br></span></div><b=
+r><span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div class=3D"WordSection1" =
+style=3D"page: WordSection1; "><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Please share with any chemistry graduate seeking fulltime =
+employment.<o:p></o:p></span></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); "><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; ">We, the Naval Research =
+Laboratory, are looking for an entry level scientist and engineer with a =
+BS/MS degree in Materials Science and Engineering or Chemistry to work =
+with us. We are currently working on the development of transparent =
+ceramic materials, various oxide and non-oxide glasses, and polymeric =
+materials for various military and commercial applications. We have an =
+immediate opening for a position to carry out synthesis, purification, =
+and process of various metal oxide powders, glasses and ceramics. He/she =
+will be trained and will carry out various experiments under =
+supervisor=92s guidance. Although the official work is carried out in US =
+Naval Research laboratories in DC, he/she will be hired as a contractor =
+through our contracting company. These positions are open for immediate =
+hire. &nbsp;<o:p></o:p></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><o:p>&nbsp;</o:p></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Dr. Woohong (Rick) Kim<o:p></o:p></span></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">Head, High =
+Purity Chemicals Section<o:p></o:p></span></div><div style=3D"margin-top: =
+0in; margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span style=3D"color:=
+ rgb(31, 73, 125); ">Naval Research =
+Laboratory<o:p></o:p></span></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Optical Sciences Division, Code =
+5621<o:p></o:p></span></div><div style=3D"margin-top: 0in; margin-right: =
+0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: 11pt; =
+font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, 73, =
+125); ">4555 Overlook Ave. SW<o:p></o:p></span></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">Washington DC, =
+20375<o:p></o:p></span></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Phone: =
+202-404-3654<o:p></o:p></span></div></div></div></div></span></blockquote>=
+</div><br><div apple-content-edited=3D"true">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: =
+normal; font-weight: normal; letter-spacing: normal; line-height: =
+normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: 2; =
+text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: 2; =
+text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">-------<br>John R. =
+Morris<br>Professor and Graduate Program Director<br>Department of =
+Chemistry<br>Virginia Tech<br>Blacksburg, VA 24061<br>Ph. =
+540-231-2472<br><a =
+href=3D"http://www.jrmorris.chem.vt.edu/">http://www.jrmorris.chem.vt.edu/=
+</a><br><br></div></span></div></span></div></span></span>
+</div>
+<br></body></html>=
+
+--Apple-Mail=_28890DA3-37F3-49E5-865C-4242D2A35B20--

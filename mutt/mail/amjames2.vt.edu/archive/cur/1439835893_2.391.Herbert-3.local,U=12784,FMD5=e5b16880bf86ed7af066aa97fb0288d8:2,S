@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1160250qgt;
+        Thu, 13 Aug 2015 14:46:29 -0700 (PDT)
+X-Received: by 10.140.102.103 with SMTP id v94mr36867545qge.44.1439502389210;
+        Thu, 13 Aug 2015 14:46:29 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id q1si1169876qki.52.2015.08.13.14.46.29
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Aug 2015 14:46:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) client-ip=192.30.252.199;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext8.iad.github.net [192.30.252.199])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7DLkNPg029905
+	for <amjames2@vt.edu>; Thu, 13 Aug 2015 17:46:28 -0400
+Date: Thu, 13 Aug 2015 14:46:23 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439502383;
+	bh=Gqhn1oYvjQWTMvG9GHEoyH1LvPQpIhgKG2t5de3jk6U=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=UjERuark4TJ2Z6es6MYa91MWMSo9hyUHD1ZHJEU9t3ktY2x4vQmaIK56MX1qqAm0J
+	 s+XZBqlcJ6Mna/lavZFhoFQ3Q2oMM6zxNN2CLmZgfWoBhLdNem2KAdVRGmHf3Xashr
+	 iD7ZgQVMV9AK8mVWlxpksFJfIiehLvifci713lPU=
+From: fevangelista <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642bbc9c19eb60fa7db111e972106c84141e0a6d11492cf0000000111e4d22f92a169ce05acd8a9@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/119/130856237@github.com>
+In-Reply-To: <psi4/psi4public/issues/119@github.com>
+References: <psi4/psi4public/issues/119@github.com>
+Subject: Re: [psi4public] DF-MP2 crashes if given more than 30GB of memory
+ (maybe) (#119)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55cd102f55998_3f523facdaeaf29c648e0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: fevangelista
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642bbc9c19eb60fa7db111e972106c84141e0a6d11492cf0000000111e4d22f92a169ce05acd8a9@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642bbc9c19eb60fa7db111e972106c84141e0a6d11492cf0000000111e4d22f92a169ce05acd8a9@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QhSaqybkajwbInulhK1eO4X0JIvuks5onQevgaJpZM4FZIa->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55cd102f55998_3f523facdaeaf29c648e0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+@robparrish @jturney: I don't think this is the first int/size_t problem we had with Matrix and Vector.  What about redefining Dimension to use size_t instead of ints (or at least long int)?  Is there anyone using Dimension with negative numbers?
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/119#issuecomment-130856237
+----==_mimepart_55cd102f55998_3f523facdaeaf29c648e0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p><a href="https://github.com/robparrish" class="user-mention">@robparrish</a> <a href="https://github.com/jturney" class="user-mention">@jturney</a>: I don't think this is the first int/size_t problem we had with Matrix and Vector.  What about redefining Dimension to use size_t instead of ints (or at least long int)?  Is there anyone using Dimension with negative numbers?</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/119#issuecomment-130856237">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QrTZEN3-Fdf9Q0cW3xR6ZAqBVPwYks5onQevgaJpZM4FZIa-.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/119#issuecomment-130856237"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55cd102f55998_3f523facdaeaf29c648e0--

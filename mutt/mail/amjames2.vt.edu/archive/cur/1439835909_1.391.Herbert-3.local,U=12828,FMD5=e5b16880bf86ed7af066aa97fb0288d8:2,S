@@ -1,0 +1,1153 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1848333qgt;
+        Fri, 14 Aug 2015 15:40:32 -0700 (PDT)
+X-Received: by 10.55.22.195 with SMTP id 64mr64958050qkw.45.1439592032555;
+        Fri, 14 Aug 2015 15:40:32 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 140si11935635qhx.55.2015.08.14.15.40.32
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 15:40:32 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 68.232.199.217 as permitted sender) client-ip=68.232.199.217;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 68.232.199.217 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@email1.geico.com
+Received: from mail-ig0-x232.google.com (mail-ig0-x232.google.com [IPv6:2607:f8b0:4001:c05::232])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7EMePrV016707
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 18:40:30 -0400
+Received: by igui7 with SMTP id i7so22465515igu.1
+        for <amjames2@vt.edu>; Fri, 14 Aug 2015 15:40:25 -0700 (PDT)
+X-Received: by 10.50.60.100 with SMTP id g4mr4696063igr.41.1439592025408;
+        Fri, 14 Aug 2015 15:40:25 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1844457iee;
+        Fri, 14 Aug 2015 15:40:24 -0700 (PDT)
+X-Received: by 10.70.7.162 with SMTP id k2mr91236226pda.128.1439592024123;
+        Fri, 14 Aug 2015 15:40:24 -0700 (PDT)
+Received: from mta.email1.geico.com (mta.email1.geico.com. [68.232.199.217])
+        by mx.google.com with ESMTP id wl8si11110509pbc.254.2015.08.14.15.40.23
+        for <ANDREW.M.JAMES2@gmail.com>;
+        Fri, 14 Aug 2015 15:40:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-22_HTML-272110590-125135-1058498-5037@bounce.email1.geico.com designates 68.232.199.217 as permitted sender) client-ip=68.232.199.217;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email1.geico.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type; i=geico@email1.geico.com;
+ bh=ingz5GWOSBQhJ/L9P7WBIz56Qfg=;
+ b=kCQOGXuaX0yUdFVbkbAKREIt4i8zr19I2KIb1VtQgbjY9ATwedrP/g7WkNWH2tXFvXH8/QSHXWCu
+   s0DQzAluKYL6mZtzkoJGsaO5KzIeIifTpkDgMybFL+WS8B1NKn6783/oLADvkGtWtkychj7GRnT0
+   pUuiwr2sIagJHy3W5sM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=email1.geico.com;
+ b=bgJPH9GFs0pVSxR5BVHX3xYgwEUaBGZWgjB8DSU3i2Gzc6oXatx3p369QScj0jramCTd+zUB6XXY
+   WgGNaqAjzBHRViPPucCEqvBVmoCaqzNgfuvKvj7l5WOksgIQV0LSx5oOxzVfmVF0+N9UlAlBgYxu
+   qAxwStey58ACvVSnrOw=;
+Received: by mta.email1.geico.com id hppn5e163hs4 for <ANDREW.M.JAMES2@GMAIL.COM>; Fri, 14 Aug 2015 15:45:13 -0600 (envelope-from <bounce-22_HTML-272110590-125135-1058498-5037@bounce.email1.geico.com>)
+From: "GEICO" <geico@email1.geico.com>
+To: <ANDREW.M.JAMES2@GMAIL.COM>
+Subject: Ballpark attractions, cool cars, crowdfunding and more
+Date: Fri, 14 Aug 2015 15:45:11 -0600
+List-Unsubscribe: <mailto:leave-fd8716721a3c402029-fe3416777765057d701d70-fece157270650778-fe8c1570706c00747d-ff3011707663@leave.email1.geico.com>
+MIME-Version: 1.0
+Reply-To: "GEICO" <reply-fece157270650778-22_HTML-272110590-1058498-5037@email1.geico.com>
+x-job: 1058498_125135
+Message-ID: <1723c409-ca93-4677-bf95-d1facd6e0e4e@xtnvmta4166.xt.local>
+Content-Type: multipart/alternative;
+	boundary="bbL0qfVBuzoq=_?:"
+X-Spam-Status: No, score=0.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HEADER_FROM_DIFFERENT_DOMAINS,HTML_IMAGE_RATIO_04,HTML_MESSAGE,
+	T_REMOTE_IMAGE autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format.
+
+--bbL0qfVBuzoq=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+GEICOAll-new GEICO More: August 2015
+
+http://click.email1.geico.com/?qs=f7a3cba945ea04757f53d8ca088ef34fdc0e819c786a62d85c7d95be5601c1844548e82b4c4d5241 
+Get your ID Cards 
+
+
+FREDERICKJAMES
+
+http://click.email1.geico.com/?qs=9dacb466636336a5aee7121b6e1203ee0c9e26bd479ffa76fc2b4028d96d99572267d0c2d172fe2b 
+Account Log In 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea04755ae2038430cb3d893a0340fb28e3f705caf00c2151f2238c5a777c5f61259329 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea04755ae2038430cb3d893a0340fb28e3f705caf00c2151f2238c5a777c5f61259329 
+Crowdfunding Triumphs 
+
+More and more people are sharing ideas on crowdfunding websites, hoping to raise enough money to get their product or service off the ground. Here are some popular campaigns from the past few years.
+
+
+http://click.email1.geico.com/?qs=f7a3cba945ea04755ae2038430cb3d893a0340fb28e3f705caf00c2151f2238c5a777c5f61259329 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea047555bd5ee57f494ae89b967b0c14a34c33bad51e43fd71cc1221de0e18833abdaf 
+Help Extend The Life Of Your Vehicle 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea047555bd5ee57f494ae89b967b0c14a34c33bad51e43fd71cc1221de0e18833abdaf 
+
+These tips may extend the life of your car and help you spend less on gas by making your vehicle more fuel-efficient. 
+http://click.email1.geico.com/?qs=f7a3cba945ea047555bd5ee57f494ae89b967b0c14a34c33bad51e43fd71cc1221de0e18833abdaf 
+Read more 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea0475ebe99cfb742cee748a6f707f6fb1f566cf860fa33d4bea65e6467b4ea7a72e6e 
+The Importance Of Renters Insurance 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea0475ebe99cfb742cee748a6f707f6fb1f566cf860fa33d4bea65e6467b4ea7a72e6e 
+
+Learn what renters insurance covers and why it's important for anyone who rents a home. 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea0475ebe99cfb742cee748a6f707f6fb1f566cf860fa33d4bea65e6467b4ea7a72e6e 
+Read more 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea0475286f78c6515b7ebb642dae6dfd6c04415d0224961d1983e2c5596f8581845662 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea0475286f78c6515b7ebb642dae6dfd6c04415d0224961d1983e2c5596f8581845662 
+Amazing Ballpark Fan Attractions 
+
+Today's major league stadiums are supercharging the fan experience with everything from aquariums to giant slides and swimming pools. 
+http://click.email1.geico.com/?qs=f7a3cba945ea0475286f78c6515b7ebb642dae6dfd6c04415d0224961d1983e2c5596f8581845662 
+Read more 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea047526484305242c7a2be6b4edb6d0ec635d2c9aaf5af4cae45d605ed165c474fe13 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea047526484305242c7a2be6b4edb6d0ec635d2c9aaf5af4cae45d605ed165c474fe13 
+Cool Cars From TV And Film  
+
+Some movies and television shows aren't just remembered for their stars&mdash;they're remembered for their cars. 
+
+http://click.email1.geico.com/?qs=f7a3cba945ea047526484305242c7a2be6b4edb6d0ec635d2c9aaf5af4cae45d605ed165c474fe13 
+Read more 
+
+
+Download the new GEICO Mobile app.
+
+
+The 
+http://click.email1.geico.com/?qs=9dacb466636336a5734dc53a0708ff26cfa0465b16dff816363b7e540470bb287aa6f0ea3eddd4b5 
+GEICO App and site received #1 rankings  according to Keynote's 2015 Mobile Insurance Scorecard.
+
+
+http://click.email1.geico.com/?qs=9dacb466636336a560aaa4256dfd7b49d7f9edd19e96b64f8aafcc4316b3c2fcd64f36e65d079c57 
+
+http://click.email1.geico.com/?qs=9dacb466636336a59ed99ef511e29cae319cf4076819dc07995ee30923392feb4e82647b02cf6253 
+
+
+Like this? Post, tweet or email it to your friends
+
+
+http://click.email1.geico.com/?qs=9dacb466636336a585ffac3a2d20905e59e1bd94382622c6387bb09f80da7be163e553a6a6fc3e32 
+
+http://click.email1.geico.com/?qs=9dacb466636336a5452255f071b3ed21453947a36446cfb212eb0aea041a98438374f9e22951daf6 
+
+http://click.email1.geico.com/?qs=9dacb466636336a566da03f3bc9214e4c8e226730785b2110768c5d77a2dc070da14f20df7268eed 
+
+
+GEICO Insurance Quick Links
+
+
+http://click.email1.geico.com/?qs=9dacb466636336a51d00224ce1731715c161ad76096a41098969d45334577ecc76c13a7c1ea0edfd 
+Auto 
+http://click.email1.geico.com/?qs=9dacb466636336a5365a30996ec48ded0f6a77cee6bfb84909f5262ebcac25c505f844fa3424d2b9 
+Commercial Auto 
+http://click.email1.geico.com/?qs=9dacb466636336a5da5caed2e1f50baa2b12149c87a704463e40f933bce597f3eeeb1d7a2d01325c 
+ATV 
+
+http://click.email1.geico.com/?qs=9dacb466636336a5b854a08d4eb0b5a474ef8f95911281f328ea18722e9b26fd12d0d6f000129418 
+Renters 
+http://click.email1.geico.com/?qs=9dacb466636336a51ad10105335952532d68882156f0a6175d17b3cfd3921e50f345627cbd025134 
+Homeowners 
+http://click.email1.geico.com/?qs=9dacb466636336a5d7666c27e9226fd9cdf545c4f0592e0f5a232a7eb1d79ae9e220d4572631e84b 
+Life 
+
+http://click.email1.geico.com/?qs=9dacb466636336a55022338fe96f4a30b84bc62d817a5718767fa03f9ecdbf3069cfeb32a6a446c6 
+Condo 
+http://click.email1.geico.com/?qs=9dacb466636336a51f070d2499b19f255a357560b65a747f05b2878a4c27ca880fe771fece8157c3 
+Boat & PWC 
+http://click.email1.geico.com/?qs=9dacb466636336a5c207073263e2132d90dd3e8e689e79bbf604c3d72697c472011a4c9f511d8385 
+Umbrella 
+
+http://click.email1.geico.com/?qs=9dacb466636336a57508afa037a5aee5d5df90bf03e676848c16a20e5840564f1c9eb2009e9945ec 
+RV 
+http://click.email1.geico.com/?qs=9dacb466636336a50a6e0aec907f3cd9e9ff59d6e266a1094f65df4c3a87fba1b8222084e6cb6dd5 
+Motorcycle 
+http://click.email1.geico.com/?qs=9dacb466636336a5e1048662ec6a65a1bf295337cccc72465f0e52fb68d9008fd0c8c0e1de107c6d 
+IdentityProtection
+
+http://click.email1.geico.com/?qs=9dacb466636336a52f08dc2a42b57e6760d70754e446cfa3566d2584979b0e8d71725a329aab6882 
+Manage Your Policy 
+http://click.email1.geico.com/?qs=9dacb466636336a5b92a45c49c9b8368d5893f4e3182859dfc772f0af486ae3ba6789fba9fb852b4 
+Claims Center 
+http://click.email1.geico.com/?qs=9dacb466636336a54fa429afa97d617d1133de777628db47e61be83aa57bed5a327390f889be8d5d 
+About GEICO 
+
+Homeowners, renters and condo coverages are written through non-affiliated insurance companies and are secured through the GEICO Insurance Agency, Inc.
+
+
+
+GEICO Gecko image (c)1999-2015
+
+
+This email was sent to you at the following email address: 
+mailto:ANDREW.M.JAMES2@GMAIL.COM 
+ANDREW.M.JAMES2@GMAIL.COM 
+
+http://click.email1.geico.com/?qs=9dacb466636336a5d3651dacaffe5f865332565a1217b9b66227d17f3e820d3d067d6da0019b6476 
+Manage Your Email Subscriptions 
+http://click.email1.geico.com/?qs=9dacb466636336a56b953811d319c364b770965fe4b36fb0ae0c4285f82203aaf075aa7ccc2ef0da 
+Contact Us 
+http://click.email1.geico.com/?qs=9dacb466636336a50073fb429159f3663341d7f3a94baf51bb08cce10f0319b25d19d696114279fb 
+Privacy Policy 
+
+
+ Message ID: GE000076
+
+ Version Number: 559999238
+http://click.email1.geico.com/?qs=9dacb466636336a56d841e44265c8b406a6a35c6bf4f579b16cd5b34a14ab828ed21b9f9ec6209b9 
+
+http://click.email1.geico.com/?qs=9dacb466636336a569b060acc860aa06640e1c04c18a5b789ff4d74b7ecd76898c6fb329847a9c8a 
+
+http://click.email1.geico.com/?qs=9dacb466636336a52a70591ad9e9a89203b23157d8d326b4a4b84b8c34263169b143c24431bab080 
+
+http://click.email1.geico.com/?qs=9dacb466636336a5bb4f22ef57e57eb0f00f3db27815558da1eb36a95e0835336013366f25a2bbaa 
+
+
+GEICO Casualty Company, Government Employees Insurance Company, GEICO General Insurance Company, GEICO Choice Insurance Company, GEICO Indemnity Company, GEICO Secure Insurance Company, GEICO Advantage Insurance Company.
+
+One GEICO Plaza, Washington, D.C. 20076
+
+
+
+
+
+
+--bbL0qfVBuzoq=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+	<title>GEICO</title><img src="http://click.email1.geico.com/open.aspx?ffcb10-fece157270650778-fe2516727c64037a741d75-fe8c1570706c00747d-ff9b1672-fe3416777765057d701d70-ff3011707663&d=40042" width="1" height="1">
+<style type="text/css">
+	.ReadMsgBody{ width: 100%;} /* Forces Hotmail to display emails at full width */
+	.ExternalClass { width: 100%;} /*Hotmail table centering fix*/
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}  /* Forces Hotmail to display normal line spacing*/
+	p { margin: 1em 0;} /*Yahoo paragraph fix*/
+	table td { border-collapse: collapse;}  /*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/
+	/*This resolves the issue when iphone puts links on dates, etc.*/
+	.appleLinks a {
+	color: #000001;
+	text-decoration: none;
+	}
+	.appleLinksWhite a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+	.appleLinksDarkGray a {
+	color: #60574A;
+	text-decoration: none;
+	}
+	@-ms-viewport{
+		width: device-width;
+	}
+
+	/* Media query triggers alternate styles when the file is displayed on a device with a maximum width lower than the assigned pixel dimension. The default max width setting for max-width should be 480px to trigger on mobile devices. */
+	/*@media only screen and (max-width: 480px) {
+		html,body
+		{
+			width: 100%;
+			overflow-x: hidden; 
+		}
+
+		*[class="main-width"]{
+			width:320px !important;
+		}
+
+		*[class="horiz-padding"]{
+			width:20px !important;
+		}
+
+		*[class="geico-logo"] {
+			width:100px !important;
+			height:auto !important;
+		}
+
+		*[class="inner-width"]{
+			width:280px !important;
+		}
+
+		*[class="main-article-img"] {
+			width:100% !important;
+			height:auto !important;
+		}
+
+		*[class="blue-bar"] {
+			width:280px;
+		}
+
+		*[class="secondary-article-img"] {
+			width:110px !important;
+			height:auto !important;
+		}
+
+		*[class="mobile-app-text"] {
+			width:147px !important;
+			height:auto !important;
+		}*/
+
+		/* *[class="mobile-app-img"] {
+			width:113px !important;
+			height:auto !important;
+		}
+
+		*[class="app-button"] {
+			width:100px !important;
+			height:auto !important;
+		}*/
+
+		/* *[class="gecko-leaning"] {
+			width:130px !important;
+			height:auto !important;
+		}
+
+		*[class="social-button"] {
+			width:106px !important;
+			height:auto !important;
+		}
+
+		*[class="social-button-space"] {
+			width:2px !important;
+			height:auto !important;
+		}
+
+		*[class="quick-links-left"] {
+			width:75px !important;
+		}
+
+		*[class="quick-links-middle"] {
+			width:119px !important;
+		}
+
+		*[class="quick-links-right"] {
+			width:64px !important;
+		}
+
+		*[class="quick-links-outer-padding"] {
+			width:10px !important;
+		}
+
+		*[class="manage-button"] {
+			width:106px !important;
+			height:auto !important;
+		}
+
+		*[class="contact-button"] {
+			width:105px !important;
+			height:auto !important;
+		}
+
+		*[class="about-button"] {
+			width:107px !important;
+			height:auto !important;
+		}
+		
+		*[class="drop"] {
+			width: 100% !important;
+			float: left !important;
+		}
+		
+		*[class="mobile-hidden"] {         
+			display:none !important;
+		}
+
+		*[class="tertiary-article"] {         
+			padding-left:20px;
+		}
+		*/
+	}
+</style>
+</head>
+
+<body style="padding:0; margin:0;-webkit-text-size-adjust:none;">
+	
+	<table width="550" border="0" cellspacing="0" cellpadding="0" align="center" style="border:1px solid #bab4ab;">
+		<tr>
+			<td>
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#f2f0ec">
+					<!-- PRE-HEADER -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td align="left" width="245" style="color:#60574a; font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+							<b>All-new GEICO More:</b> August 2015
+						</td>
+						<td align="right" width="245" style="padding-top:8px; padding-bottom:8px;">
+							<a href="http://click.email1.geico.com/?qs=f7a3cba945ea04757f53d8ca088ef34fdc0e819c786a62d85c7d95be5601c1844548e82b4c4d5241" style="font-family:Arial, Helvetica, sans-serif; color:#60574a; font-size:12px;">Get your ID Cards</a>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- PRE-HEADER -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- HEADER -->
+					<tr>
+						<td class="main-padding"  width="100%" align="left" valign="top">
+							<table class="main-width" bgcolor="#154995" border="0" cellspacing="0" cellpadding="0" >
+								<!-- LOGO -->
+								<tr>
+									<td align="left" width="150">
+										<img class="geico-logo" src="https://media.geico.com/email/images/newsletter/common/geico-logo.gif" width="150px" height="60px" />
+									</td>
+
+									<td align="right" width="370" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF; ">
+									FREDERICK  JAMES<br />
+										<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475a62aa27f90c37aa5242f6774f200eb646fc2a80946e4d1cc4e9baa0ff6ae5a56"  target="_blank" style="color:#FFFFFF; text-decoration:underline;">Account Log In</a>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+								<!-- LOGO -->
+							</table>
+						</td>
+					</tr>
+					<!-- HEADER -->
+				</table>
+			</td>
+		</tr>
+
+		<!--<tr>
+			<td>
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<tr>
+						<td bgcolor="#154995" width="100%" height="8" style="background: #154995;"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>-->
+					
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- MAIN ARTICLE IMAGE -->
+					<tr>
+						<td>
+							<a href="http://click.email1.geico.com/?qs=f7a3cba945ea04755ae2038430cb3d893a0340fb28e3f705caf00c2151f2238c5a777c5f61259329"><img class="main-article-img" src="https://media.geico.com/email/images/newsletter/aug-2015/5-crowdfunding-triumphs.jpg" width="550" height="150" style="border:none;"/></a>
+						</td>
+					</tr>
+					<!-- MAIN ARTICLE IMAGE -->
+				</table>
+			</td>
+		</tr>		
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- MAIN ARTICLE -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td>
+							<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475edb2544603d2e9f6c428303b10f148623d48ded78cf7ab823a98839baf5a31ef"  target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995; text-decoration:none;">Crowdfunding Triumphs</a>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;padding-top:20px;">
+							More and more people are sharing ideas on crowdfunding websites, hoping to raise enough money to get their product or service off the ground. Here are some popular campaigns from the past few years.
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td style="padding-top:20px;">
+							<a href="http://click.email1.geico.com/?qs=f7a3cba945ea04755ae2038430cb3d893a0340fb28e3f705caf00c2151f2238c5a777c5f61259329"><img src="https://media.geico.com/email/images/newsletter/common/buttons/read-more.gif" width="104px" height="41px" style="border:none;"/></a>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- MAIN ARTICLE -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- FEATURED ARTICLES -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td class="main-padding" align="left" valign="top">
+							<img class="blue-bar" src="https://media.geico.com/email/images/newsletter/common/card-blue-bar.gif" />
+							<table class="inner-width" border="0" bordercolor="f0eadd" cellspacing="0" cellpadding="0" style="border-left:1px solid #f0eadd; border-right:1px solid #f0eadd; border-bottom:1px solid #f0eadd;">
+								<tr>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td style="padding-top:30px;">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475c52ad49a782ed6934775a9eff9ed79706de7f78559aee55ca2425c1171df16d6"  target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995; text-decoration:none;">Help Extend The Life Of Your Vehicle</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+								<tr>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td style="padding-top:20px; padding-bottom:30px;">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td valign="top">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea047555bd5ee57f494ae89b967b0c14a34c33bad51e43fd71cc1221de0e18833abdaf"><img class="secondary-article-img" src="https://media.geico.com/email/images/newsletter/aug-2015/help-extend-the-life-of-your-vehicle.jpg" width="199px" height="140px" style="border:none;"/></a>
+												</td>
+												<td class="horiz-padding" width="30">
+												</td>
+												<td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;">
+													These tips may extend the life of your car and help you spend less on gas by making your vehicle more fuel-efficient. <a href="http://click.email1.geico.com/?qs=f7a3cba945ea047555bd5ee57f494ae89b967b0c14a34c33bad51e43fd71cc1221de0e18833abdaf" style="color:#154995;text-decoration:underline;">Read more</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+							</table>
+							<table class="inner-width" border="0" bordercolor="f0eadd" cellspacing="0" cellpadding="0" style="border-left:1px solid #f0eadd; border-right:1px solid #f0eadd; border-bottom:1px solid #f0eadd;">
+								<tr>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td style="padding-top:30px;">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea04759fe0ab8a7785ecaca862c0c101d245c383a8d3e828057532c19b7d97131d736b"  target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995; text-decoration:none;">The Importance Of Renters Insurance</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+								<tr>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td style="padding-top:20px; padding-bottom:30px;">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td valign="top">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475ebe99cfb742cee748a6f707f6fb1f566cf860fa33d4bea65e6467b4ea7a72e6e"><img class="secondary-article-img" src="https://media.geico.com/email/images/newsletter/aug-2015/the-importance-of-renters-insurance.jpg" width="199px" height="140px" style="border:none;"/></a>
+												</td>
+												<td class="horiz-padding" width="30">
+												</td>
+												<td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;">
+													Learn what renters insurance covers and why it's important for anyone who rents a home. <br><a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475ebe99cfb742cee748a6f707f6fb1f566cf860fa33d4bea65e6467b4ea7a72e6e" style="color:#154995;text-decoration:underline;">Read more</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- FEATURED ARTICLES -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- FEATURED ARTICLES -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td class="main-padding" align="left" valign="top">
+							<table class="main-width" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									
+									<td class="drop" valign="top">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="mobile-hidden" align="center">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475286f78c6515b7ebb642dae6dfd6c04415d0224961d1983e2c5596f8581845662"><img class="tertiary-article-img" src="https://media.geico.com/email/images/newsletter/aug-2015/amazing-ballpark-fan-attractions.jpg" width="229px" height="140px" style="border:none;"/></a>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="tertiary-article" style="padding-top:20px;">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475a69caf259163f29c7c7abcbd3029d078098141cf45f1fec7199a0b2cf10b1f95"  target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995; text-decoration:none;">Amazing Ballpark Fan Attractions</a>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="tertiary-article" align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;padding-top:20px;">
+													Today's major league stadiums are supercharging the fan experience with everything from aquariums to giant slides and swimming pools. <a href="http://click.email1.geico.com/?qs=f7a3cba945ea0475286f78c6515b7ebb642dae6dfd6c04415d0224961d1983e2c5596f8581845662" style="color:#154995;text-decoration:underline;">Read more</a>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+									<td class="drop" width="30" height="20">
+									</td>
+									<td class="drop" valign="top">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="mobile-hidden" align="center">
+													<a href="http://click.email1.geico.com/?qs=f7a3cba945ea047526484305242c7a2be6b4edb6d0ec635d2c9aaf5af4cae45d605ed165c474fe13"><img class="tertiary-article-img" src="https://media.geico.com/email/images/newsletter/aug-2015/cool-cars-from-tv-film.jpg" width="229px" height="140px" style="border:none;" /></a>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="tertiary-article" style="padding-top:20px;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5e638ff1b411bd1c4ee569edb5b460593cab8dd5da6329fdb49f509a38cab10d3"  target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995; text-decoration:none;">Cool Cars From TV And Film </a>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="tertiary-article" align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;padding-top:20px;">
+													Some movies and television shows aren't just remembered for their stars&mdash;they're remembered for their cars. <br><a href="http://click.email1.geico.com/?qs=f7a3cba945ea047526484305242c7a2be6b4edb6d0ec635d2c9aaf5af4cae45d605ed165c474fe13" style="color:#154995;text-decoration:underline;">Read more</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- FEATURED ARTICLES -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- APP SECTION -->
+					<tr>
+						<td class="main-padding" width="100%" bgcolor="#f2f0ec" align="left" valign="top" style="padding-top: 30px;">
+							<table class="main-width" bgcolor="#f2f0ec" width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td class="mobile-app-text" width="320" valign="top" >
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td colspan="2" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#60574A; text-decoration:none;">
+													Download the new GEICO Mobile app.
+												</td>
+											</tr>
+
+											<tr>
+												<td colspan="2" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#60574A;padding-top:20px;">
+													The <a href="http://click.email1.geico.com/?qs=9dacb466636336a5734dc53a0708ff26cfa0465b16dff816363b7e540470bb287aa6f0ea3eddd4b5" style="color:#60574A;">GEICO App and site received #1 rankings</a> according to Keynote's 2015 Mobile Insurance Scorecard.
+												</td>
+											</tr>
+
+											<tr>
+												<td class="drop" style="padding-top:20px;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a560aaa4256dfd7b49d7f9edd19e96b64f8aafcc4316b3c2fcd64f36e65d079c57"><img class="app-button" src="https://media.geico.com/email/images/newsletter/common/buttons/apple-store.gif" width="133px" height="38px" style="border:none;"></a>
+												</td>
+												<td class="drop" style="padding-top:20px;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a59ed99ef511e29cae319cf4076819dc07995ee30923392feb4e82647b02cf6253"><img class="app-button" src="https://media.geico.com/email/images/newsletter/common/buttons/google-store.gif" width="133px" height="38px" style="border:none;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td height="20px">
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+									<td valign="bottom" width="140">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td valign="bottom">
+													<img class="mobile-app-img" src="https://media.geico.com/email/images/newsletter/common/phone-cap.jpg" width="119px" height="172px">
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="horiz-padding" width="30">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- APP SECTION -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- SHARE SECTION -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td class="main-padding" align="left" valign="top">
+							<table class="main-width" border="0" bordercolor="f0eadd" cellspacing="0" cellpadding="0" style="border:1px solid #f0eadd;">
+								<tr>
+									<td style="padding-top:20px;">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="horiz-padding" width="30">
+												</td>
+												<td valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#60574A;">
+													Like this? Post, tweet or email it to your friends
+												</td>
+												<td valign="bottom">
+													<img class="gecko-leaning" src="https://media.geico.com/email/images/newsletter/common/gecko-leaning.jpg" width="158px" height="110px"/>
+												</td>
+												<td class="horiz-padding" width="30">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="main-width" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td valign="top">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a585ffac3a2d20905e59e1bd94382622c6387bb09f80da7be163e553a6a6fc3e32"><img class="social-button" src="https://media.geico.com/email/images/newsletter/common/buttons/social-facebook.gif" width="162px" height="60px" style="border:none;"/></a>
+												</td>
+												<td class="social-button-space" width="1" valign="top">
+												</td>
+												<td valign="top">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5452255f071b3ed21453947a36446cfb212eb0aea041a98438374f9e22951daf6"><img class="social-button" src="https://media.geico.com/email/images/newsletter/common/buttons/social-twitter.gif" width="162px" height="60px" style="border:none;"/></a>
+												</td>
+												<td class="social-button-space" width="1" valign="top">
+												</td>
+												<td valign="top">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a566da03f3bc9214e4c8e226730785b2110768c5d77a2dc070da14f20df7268eed"><img class="social-button" src="https://media.geico.com/email/images/newsletter/common/buttons/social-email.gif" width="162px" height="60px" style="border:none;"/></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- SHARE SECTION -->
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding-bottom: 30px;">
+				<table class="main-width" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+					<!-- QUICK LINKS -->
+					<tr>
+						<td class="horiz-padding" width="30">
+						</td>
+						<td class="main-padding" align="left" valign="top">
+							<img class="blue-bar" src="https://media.geico.com/email/images/newsletter/common/card-blue-bar.gif" />
+							<table class="inner-width" border="0" bgcolor="#ffffff" bordercolor="f0eadd" cellspacing="0" cellpadding="0" style="border:1px solid #f0eadd;border-top:0px;">
+								<tr>
+									<td style="padding-top:30px;">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+												<td width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/links.gif" />
+												</td>
+												<td width="20">
+												</td>
+												<td style="font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#154995;">
+													GEICO Insurance Quick Links
+												</td>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-top:20px; padding-bottom:30px;">
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/auto.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-left" width="80" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a51d00224ce1731715c161ad76096a41098969d45334577ecc76c13a7c1ea0edfd" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Auto</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/commercial.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-middle" width="140" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5365a30996ec48ded0f6a77cee6bfb84909f5262ebcac25c505f844fa3424d2b9" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Commercial Auto</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/atv.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-right" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5da5caed2e1f50baa2b12149c87a704463e40f933bce597f3eeeb1d7a2d01325c" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">ATV</a>
+												</td>
+
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+											</tr>
+
+											<tr>
+												<td style="padding-top:20px;">
+												</td>
+											</tr>
+
+											<tr>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/renters.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-left" width="80" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5b854a08d4eb0b5a474ef8f95911281f328ea18722e9b26fd12d0d6f000129418" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Renters</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/homeowners.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-middle" width="140" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a51ad10105335952532d68882156f0a6175d17b3cfd3921e50f345627cbd025134" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Homeowners</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/life.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-right" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5d7666c27e9226fd9cdf545c4f0592e0f5a232a7eb1d79ae9e220d4572631e84b" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Life</a>
+												</td>
+
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+											</tr>
+
+											<tr>
+												<td style="padding-top:20px;">
+												</td>
+											</tr>
+
+											<tr>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/condo.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-left" width="80" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a55022338fe96f4a30b84bc62d817a5718767fa03f9ecdbf3069cfeb32a6a446c6" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Condo</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/boat.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-middle" width="140" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a51f070d2499b19f255a357560b65a747f05b2878a4c27ca880fe771fece8157c3" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Boat &amp; PWC</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/umbrella.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-right" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5c207073263e2132d90dd3e8e689e79bbf604c3d72697c472011a4c9f511d8385" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Umbrella</a>
+												</td>
+
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+											</tr>
+
+											<tr>
+												<td style="padding-top:20px;">
+												</td>
+											</tr>
+
+											<tr>
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/rv.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-left" width="80" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a57508afa037a5aee5d5df90bf03e676848c16a20e5840564f1c9eb2009e9945ec" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">RV</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/motorcycle.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-middle" width="140" align="left" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a50a6e0aec907f3cd9e9ff59d6e266a1094f65df4c3a87fba1b8222084e6cb6dd5" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;">Motorcycle</a>
+												</td>
+
+												<td class="mobile-hidden" width="30">
+													<img src="https://media.geico.com/email/images/newsletter/common/icons/id-protection.gif" />
+												</td>
+												<td class="mobile-hidden" width="20">
+												</td>
+												<td class="quick-links-right" align="left">
+													<a href="http://click.email1.geico.com/?qs=9dacb466636336a5e1048662ec6a65a1bf295337cccc72465f0e52fb68d9008fd0c8c0e1de107c6d" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#9e9586;text-decoration:underline;"><span style="white-space: nowrap;">Identity</span> <span style="white-space: nowrap;">Protection</span></a>
+												</td>
+
+												<td class="quick-links-outer-padding" width="30">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="horiz-padding" width="30">
+						</td>
+					</tr>
+					<!-- QUICK LINKS -->
+				</table>
+			</td>
+		</tr>
+
+
+		<!-- BLUE NAVIGATION BAR -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top">
+				<table class="main-width" bgcolor="#154995" height="60" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="manage-button" width="182" align="center" style="padding-top:20px;padding-bottom:20px;">
+							<a href="http://click.email1.geico.com/?qs=9dacb466636336a52f08dc2a42b57e6760d70754e446cfa3566d2584979b0e8d71725a329aab6882" style="font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#FFFFFF;text-decoration:none;">Manage Your Policy</a>
+						</td>
+						<td width="1" style="border-left:1px solid #f2f0ec;">
+						</td>
+						<td class="contact-button" width="184" align="center" style="padding-top:20px;padding-bottom:20px;">
+							<a href="http://click.email1.geico.com/?qs=9dacb466636336a5b92a45c49c9b8368d5893f4e3182859dfc772f0af486ae3ba6789fba9fb852b4" style="font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#FFFFFF;text-decoration:none;">Claims Center</a>
+						</td>
+						<td width="1" style="border-left:1px solid #f2f0ec;">
+						</td>
+						<td class="about-button" width="182" align="center" style="padding-top:20px;padding-bottom:20px;">
+							<a href="http://click.email1.geico.com/?qs=9dacb466636336a54fa429afa97d617d1133de777628db47e61be83aa57bed5a327390f889be8d5d" style="font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#FFFFFF;text-decoration:none;">About GEICO</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- BLUE NAVIGATION BAR -->
+
+		<!-- DISCLAIMER -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top">
+				<div>
+					<table class="main-width" width="100%" bgcolor="#f2f0ec" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: normal; color: #60574a; padding: 20px 30px 20px 30px;">Homeowners, renters and condo coverages are written through non-affiliated insurance companies and are secured through the GEICO Insurance Agency, Inc.
+							</td>
+						</tr>
+					</table>				
+				</div>
+			</td>
+		</tr>
+		<!-- DISCLAIMER -->
+		
+
+		<!-- EMAIL -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top" >
+				<div>
+					<table class="main-width" width="100%" bgcolor="#bab4ab" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: normal; color: #ffffff; padding: 20px 30px;">
+							GEICO Gecko image <span class="appleLinksWhite">&copy;1999-2015</span>										
+							<br>
+							<br>
+							This email was sent to you at the following email address: <a href="mailto:ANDREW.M.JAMES2@GMAIL.COM" style="color:#ffffff;">ANDREW.M.JAMES2@GMAIL.COM</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+		<!-- EMAIL -->
+
+
+		<!-- FOOTER -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top">
+				<div align="center">
+					<!--<table class="main-width" bgcolor="#f2f0ec" border="0" cellspacing="0" cellpadding="0" style="padding:30px;">
+						<tr>
+							<td width="194" align="center" nowrap>
+								<a href="http://click.email1.geico.com/profile_center.aspx?s=fe3416777765057d701d70&mid=fe8c1570706c00747d&j=fece157270650778&l=ff9b1672&jb=ff3011707663&ju=" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#9e9586;text-decoration:underline;"><span style="white-space: nowrap;">Manage Your Email Subscriptions</span></a>
+							</td>
+							<td width="140" align="center">
+								<a href="https://www.geico.com/about/contactus/" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#9e9586;text-decoration:underline;">Contact Us</a>
+							</td>
+							<td width="194" align="center">
+								<a href="https://media.geico.com/legal/privacy_policy.htm" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#9e9586;text-decoration:underline;">Privacy Policy</a>
+							</td>
+						</tr>
+					</table>-->
+					<table class="main-width" width="100%" border="0" cellspacing="0" height="0" cellpadding="0" bgcolor="#ffffff" style="border-bottom: 1px solid #f2f0ec;">
+					       <tbody>
+					              <tr>
+					                     <td style="padding: 30px;" align="left">
+					                           <a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="http://click.email1.geico.com/?qs=9dacb466636336a5d3651dacaffe5f865332565a1217b9b66227d17f3e820d3d067d6da0019b6476">Manage Your Email Subscriptions</a>
+					                     </td>
+					                     <td align="left">
+					                           <a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="http://click.email1.geico.com/?qs=9dacb466636336a56b953811d319c364b770965fe4b36fb0ae0c4285f82203aaf075aa7ccc2ef0da">Contact Us</a>
+					                     </td>
+					                     <td style="padding: 30px" align="right">
+					                           <a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="http://click.email1.geico.com/?qs=9dacb466636336a50073fb429159f3663341d7f3a94baf51bb08cce10f0319b25d19d696114279fb">Privacy Policy</a>
+					                     </td>
+					              </tr>
+					       </tbody>
+					</table>
+
+				</div>
+			</td>
+		</tr>
+		<!-- FOOTER -->
+
+
+		<!-- A MUCH NEEDED LINE -->
+		<tr>
+			<!--<td class="main-padding" width="100%" align="left" valign="top" style="margin-top:20px; margin-bottom:20px;border-top:1px solid #bab4ab;">
+			</td>-->
+			<td class="main-padding" width="100%" align="left" valign="top">
+
+				<div align="center">
+					<table class="main-width"  bgcolor="#f2f0ec" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td style="margin-top:20px; margin-bottom:20px;border-top:1px solid #bab4ab;"></td>
+						</tr>
+					</table>
+				</div>	
+			</td>
+		</tr>
+		<!-- A MUCH NEEDED LINE -->
+
+
+		<!-- SOCIAL ICONS PART DEUX -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top">
+				<div align="left">
+					<table class="main-width" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="370" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#60574a;padding-left:20px;padding-top:20px;">
+							     <span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #60574A; font-weight: bold;">
+								   Message ID: <span class="appleLinksDarkGray">GE000076</span>
+								   <br>
+								   Version Number: <span class="appleLinksDarkGray">559999238</span>
+							     </span>
+							</td>
+							<td width="30">
+								<a href="http://click.email1.geico.com/?qs=9dacb466636336a56d841e44265c8b406a6a35c6bf4f579b16cd5b34a14ab828ed21b9f9ec6209b9"><img src="https://media.geico.com/email/images/newsletter/common/icons/social-facebook.gif" width="20px" height="20px" style="border:none;"/></a>
+							</td>
+							<td width="30">
+								<a href="http://click.email1.geico.com/?qs=9dacb466636336a569b060acc860aa06640e1c04c18a5b789ff4d74b7ecd76898c6fb329847a9c8a"><img src="https://media.geico.com/email/images/newsletter/common/icons/social-google.gif" width="20px" height="20px" style="border:none;"/></a>
+							</td>
+							<td width="30">
+								<a href="http://click.email1.geico.com/?qs=9dacb466636336a52a70591ad9e9a89203b23157d8d326b4a4b84b8c34263169b143c24431bab080"><img src="https://media.geico.com/email/images/newsletter/common/icons/social-twitter.gif" width="20px" height="20px" style="border:none;"/></a>
+							</td>
+							<td width="28" style="padding-right:20px;">
+								<a href="http://click.email1.geico.com/?qs=9dacb466636336a5bb4f22ef57e57eb0f00f3db27815558da1eb36a95e0835336013366f25a2bbaa"><img src="https://media.geico.com/email/images/newsletter/common/icons/social-youtube.gif" width="28px" height="20px" style="border:none;"/></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+		<!-- SOCIAL ICONS PART DEUX -->
+
+
+		<!-- COMPANY INFO -->
+		<tr>
+			<td class="main-padding" width="100%" align="left" valign="top">
+				<div>
+					<table class="main-width" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#bab4ab;padding:20px;">
+								GEICO Casualty Company, Government Employees Insurance Company, GEICO General Insurance Company, GEICO Choice Insurance Company, GEICO Indemnity Company, GEICO Secure Insurance Company, GEICO Advantage Insurance Company.<br />
+								One GEICO Plaza, Washington, D.C. 20076
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+		<!-- COMPANY INFO -->
+
+	</table></td></tr>
+
+	</table>
+
+</body>
+</html>
+
+--bbL0qfVBuzoq=_?:--
+

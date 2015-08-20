@@ -1,0 +1,177 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp357311qge;
+        Sun, 25 Jan 2015 14:14:16 -0800 (PST)
+X-Received: by 10.140.101.105 with SMTP id t96mr34964390qge.9.1422224056003;
+        Sun, 25 Jan 2015 14:14:16 -0800 (PST)
+Return-Path: <crawdad@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 9si10814489qas.114.2015.01.25.14.14.15
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 25 Jan 2015 14:14:15 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.169 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0PMEAZF024839
+	for <amjames2@vt.edu>; Sun, 25 Jan 2015 17:14:15 -0500
+Received: by mail-ig0-f169.google.com with SMTP id hl2so1026048igb.0
+        for <amjames2@vt.edu>; Sun, 25 Jan 2015 14:14:10 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=Ykf4aE2tA9U+8fpUWlzyl3lLwelCy6ITrtVg914Knxg=;
+        b=Cm5W8MAPQOzJ+yVw+CrnLjGrRMk1yM3B1+bPwmcH7QDk/dWRBy1b/EVwAa3J4GYlKb
+         03e8P1+BC/kkeA/9FZ0aRzCx7GnGqLi+V7LSshao90fNk+L+vzu5117PPCh5VPoSGjTy
+         7egbmLLOursT1Q4bYIxiEw1uPl55vab2wh9Oc9VPkkop+gnWXay/V0UQzkjzQyTwjHiM
+         gdZBaMMxZ6KXE/yevPpBiu0vhcR0iFKv2gtuum8dryOqv4ZUfcZ0XsYXAzu9D+NuaIB3
+         1Fd+okbzm2Q0u6HEU0A4icLW7Qv2n6RJYXQeixKGPjpb8gOwmM5igL1XttZ4mHjdUdVw
+         by4g==
+X-Gm-Message-State: ALoCoQlfxqt52v1a4Sz5B8fTXXS1NmQQKDMKgL/GaDUbELnz7GP5ARmh5l8pE1avvrj54v5IRjxe1hZeiMcSYxnPGpVh2p3Aub5VN2wmjNFYP2oS8ccPuIsRlKxVSqj1W+YNH/pRG/eMp0t9uIJRQrtISZtI9cfr5A==
+X-Received: by 10.107.16.2 with SMTP id y2mr14345808ioi.39.1422224050249;
+        Sun, 25 Jan 2015 14:14:10 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.16.2 with SMTP id y2mr14345796ioi.39.1422224050080; Sun,
+ 25 Jan 2015 14:14:10 -0800 (PST)
+Received: by 10.64.128.100 with HTTP; Sun, 25 Jan 2015 14:14:10 -0800 (PST)
+In-Reply-To: <57CA77EDE32C4A1480175B7FDE7BE018@vt.edu>
+References: <CAH0V_1aDnEmMb_b2wQe-H-X9vkQ5B9O0Pjc9YUxn0fri4nARbg@mail.gmail.com>
+	<57CA77EDE32C4A1480175B7FDE7BE018@vt.edu>
+Date: Sun, 25 Jan 2015 16:14:10 -0600
+Message-ID: <CAH0V_1a_=RZVONB3DdsDUfGjy+=5x--mEPd3wU0tTLWLoy=TxA@mail.gmail.com>
+Subject: Re: Our Research Group This Week: 1/25-1/31/2015
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113fe7604bdce7050d81572e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW,URIBL_DBL_ABUSE_REDIR autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 5258
+
+--001a113fe7604bdce7050d81572e
+Content-Type: text/plain; charset=UTF-8
+
+How about we meet immediately after your class so we can work on the
+computational problems you've encountered.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sun, Jan 25, 2015 at 2:45 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hi Dr. Crawford,
+>
+> Group meeting at 4 pm on friday works fine for me.  Tomorrow I have class
+> from 9:05-9:55 am. The rest of the day is completely free just let me know
+> when you would like to meet.
+> Thanks ,
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Sunday, January 25, 2015 at 9:38 AM, T. Daniel Crawford wrote:
+>
+> Hi, all,
+>
+> A few points to note this week:
+>
+> (1) I'll be traveling to the sprawling metropolis of Lubbock, Texas
+> <https://goo.gl/maps/LEMsX>, this week to speak at Texas Tech.  I'll
+> leave on Tuesday after my pchem lecture and return in the late afternoon on
+> Thursday.
+>
+> (2) I'd like to have group meeting on Friday, if possible.  Would 4pm
+> work?  If not, please send me times you're available that day.  Since we
+> won't be able to have individual meetings this week, let's make our agenda
+> an update on everyone's projects and setting up the schedule for the
+> remainder of the semester.
+>
+> (3) AJ, could we meet tomorrow (Monday) to discuss the acene project in
+> advance of my departure for Texas Tech?  Let me know some times you're
+> available.  I promised you last week some feedback on organizing your data,
+> so look for a separate email from me on that shortly.
+>
+> Let me know if you have any questions or concerns.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a113fe7604bdce7050d81572e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">How about we meet immediately after your class so we can w=
+ork on the computational problems you&#39;ve encountered.<div><br></div><di=
+v>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div cl=
+ass=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</d=
+iv><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu<=
+/a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sun, Jan 25, 2015 at 2:45 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                <div>Hi Dr. Crawford,
+                </div><div><br></div><div>Group meeting at 4 pm on friday w=
+orks fine for me.=C2=A0 Tomorrow I have class from 9:05-9:55 am. The rest o=
+f the day is completely free just let me know when you would like to meet. =
+=C2=A0</div><div>Thanks ,=C2=A0</div><span class=3D"HOEnZb"><font color=3D"=
+#888888">
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div></font></span><div class=
+=3D"HOEnZb"><div class=3D"h5">
+                =20
+                <p style=3D"color:#a0a0a8">On Sunday, January 25, 2015 at 9=
+:38 AM, T. Daniel Crawford wrote:</p>
+                <blockquote type=3D"cite" style=3D"border-left-style:solid;=
+border-width:1px;margin-left:0px;padding-left:10px">
+                    <span><div><div><div dir=3D"ltr">Hi, all,<div><br></div=
+><div>A few points to note this week:</div><div><br></div><div>(1) I&#39;ll=
+ be traveling to the sprawling metropolis of<a href=3D"https://goo.gl/maps/=
+LEMsX" target=3D"_blank"> Lubbock, Texas</a>, this week to speak at Texas T=
+ech.=C2=A0 I&#39;ll leave on Tuesday after my pchem lecture and return in t=
+he late afternoon on Thursday.=C2=A0</div><div><br></div><div>(2) I&#39;d l=
+ike to have group meeting on Friday, if possible.=C2=A0 Would 4pm work?=C2=
+=A0 If not, please send me times you&#39;re available that day.=C2=A0 Since=
+ we won&#39;t be able to have individual meetings this week, let&#39;s make=
+ our agenda an update on everyone&#39;s projects and setting up the schedul=
+e for the remainder of the semester.</div><div><br></div><div>(3) AJ, could=
+ we meet tomorrow (Monday) to discuss the acene project in advance of my de=
+parture for Texas Tech?=C2=A0 Let me know some times you&#39;re available.=
+=C2=A0 I promised you last week some feedback on organizing your data, so l=
+ook for a separate email from me on that shortly.</div><div><br></div><div>=
+Let me know if you have any questions or concerns.</div><div><br></div><div=
+>-TDC</div><div><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford<=
+/div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.ed=
+u</a></div></div></div></div>
+</div></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            </div></div></blockquote></div><br></div>
+
+--001a113fe7604bdce7050d81572e--

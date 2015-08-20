@@ -1,0 +1,189 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp103857qgt;
+        Mon, 20 Apr 2015 10:47:26 -0700 (PDT)
+X-Received: by 10.140.86.146 with SMTP id p18mr18689146qgd.49.1429552046655;
+        Mon, 20 Apr 2015 10:47:26 -0700 (PDT)
+Return-Path: <msalem@ualberta.ca>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id gy9si20265692qcb.18.2015.04.20.10.47.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Apr 2015 10:47:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of msalem@ualberta.ca designates 74.125.82.46 as permitted sender) client-ip=74.125.82.46;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of msalem@ualberta.ca designates 74.125.82.46 as permitted sender) smtp.mail=msalem@ualberta.ca
+Received: from mail-wg0-f46.google.com (mail-wg0-f46.google.com [74.125.82.46])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3KHlKRC022262
+	for <amjames2@vt.edu>; Mon, 20 Apr 2015 13:47:25 -0400
+Received: by wgso17 with SMTP id o17so187824849wgs.1
+        for <amjames2@vt.edu>; Mon, 20 Apr 2015 10:47:20 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=FeSy3ZN7htKi1Ub24PrZ7GEHMMLKKNXcQ7hsaD5P3wo=;
+        b=cOBfcRgakdYueVLVlu2kjWtAIoQktFSui8HC8Wo8c33JsQujgoC+COPl8KA50JDq56
+         P976KT08VJhwxFu/xTdrdmS/NKdfB26z/1oToU691qGPkdlVtmKBIZ6B2f6bc3y3/uvq
+         AloBV3WtOmbmZ+laOe3odGf0rdmtF754AfGCpQ+VblRTip3cypxhUSaLyh/cCVwavXwu
+         Q2GHdyNZOaLI9K/r+yzcYdO+4/FXY88kjwswCwUBImts2R2FQ4Zlt+A1CMOupSrJF2Mm
+         JcCScx93qyfy2YZDzZQZyWeMNK66HIcEvoSY1po0kdscCJ6p8ofDshDIrZClE0cAIC28
+         gq3w==
+X-Gm-Message-State: ALoCoQny9CD3jdQW+eN3mPoWDfWfn9OkEghuO2Oo12xwOlEnTRmZ/3wRI2CZ0Mwf4uqp+QkDq5He
+MIME-Version: 1.0
+X-Received: by 10.194.91.129 with SMTP id ce1mr33558419wjb.53.1429552040263;
+ Mon, 20 Apr 2015 10:47:20 -0700 (PDT)
+Received: by 10.194.84.212 with HTTP; Mon, 20 Apr 2015 10:47:19 -0700 (PDT)
+Received: by 10.194.84.212 with HTTP; Mon, 20 Apr 2015 10:47:19 -0700 (PDT)
+In-Reply-To: <8562EF25-53AD-48EC-BA31-6717C72C794A@vt.edu>
+References: <A4059111-E1D0-4B86-BDDB-F81E3F79DEED@ualberta.ca>
+	<CA+58rsAq6pCOnkwUoGmR5VSfjy=mHZ+C-PgC=CdN6EhUxFQ9ag@mail.gmail.com>
+	<CAG4tVvJoveqxr3NyNKYtW7wXzOyuCBdkKhQ2N_O8gSrVySx3=A@mail.gmail.com>
+	<8562EF25-53AD-48EC-BA31-6717C72C794A@vt.edu>
+Date: Mon, 20 Apr 2015 11:47:19 -0600
+Message-ID: <CAG4tVv+7uYv0JtB_fLx2wObnZ2fg4puo_c-9mXcGNCLCZhUv2Q@mail.gmail.com>
+Subject: Re: Concerning the Molecular Response Properties Summer School
+From: Mohammad Salem <msalem@ualberta.ca>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bfcec488c577805142b85c5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bfcec488c577805142b85c5
+Content-Type: text/plain; charset=UTF-8
+
+Dear Andrew,
+
+I hope we will be able to get the letter soon, as my visa won't be
+processed without it.
+
+Just to let you know: I just need the letter emailed to me. No need for a
+physical one.
+
+Thanks for your understanding and have a nice day :)
+
+Regards,
+Mohammad
+On Apr 14, 2015 11:27 AM, "Andrew James" <amjames2@vt.edu> wrote:
+
+> Mohammad,
+>
+> We are currently working on getting the letters out for those students who
+> need visa letters.  You can expect one to come in a few days.
+>
+> Thanks,
+> Andrew
+>
+> On Apr 14, 2015, at 1:11 PM, Mohammad Salem <msalem@ualberta.ca> wrote:
+>
+> Hi Mr James,
+>
+> Is it possible to get an invitation letter from the summer school. I
+> already registered and paid the fees, but I need such a letter for the Visa
+> application.
+>
+> Thanks for your assistance,
+>
+> Mohammad
+> On Mar 31, 2015 1:50 PM, "Andrew James" <amjames2@vt.edu> wrote:
+>
+>> Mohammad,
+>>
+>> As of right now there is no scheduled time for a poster session or
+>> student talks. I will speak to Dr. Crawford though he is still planing
+>> activities for the evenings and this would be a great time for a poster
+>> session I will let you know and put it up on the website if that is
+>> something the organizers want to do.
+>>
+>> Best,
+>> Andrew James
+>>
+>> Graduate Teaching Assistant
+>> Virginia Tech
+>> Chemistry Department
+>> amjames2@vt.edu
+>>
+>> On Tue, Mar 31, 2015 at 3:26 PM, Mohammad Salem <msalem@ualberta.ca>
+>> wrote:
+>>
+>>> Dear Mr James,
+>>>
+>>> I am a PhD student at the University of Alberta and I find your summer
+>>> school very interesting. Just a question: will there be any possibility of
+>>> presenting posters or short talks for students?
+>>>
+>>>
+>>> Regards,
+>>>
+>>> Mohammad
+>>>
+>>>
+>>>
+>>
+>
+
+--047d7bfcec488c577805142b85c5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Dear Andrew,</p>
+<p dir=3D"ltr">I hope we will be able to get the letter soon, as my visa wo=
+n&#39;t be processed without it.</p>
+<p dir=3D"ltr">Just to let you know: I just need the letter emailed to me. =
+No need for a physical one.</p>
+<p dir=3D"ltr">Thanks for your understanding and have a nice day :)</p>
+<p dir=3D"ltr">Regards,<br>
+Mohammad</p>
+<div class=3D"gmail_quote">On Apr 14, 2015 11:27 AM, &quot;Andrew James&quo=
+t; &lt;<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br=
+ type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"margin:0 0=
+ 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wra=
+p:break-word">Mohammad,=C2=A0<div><br></div><div>We are currently working o=
+n getting the letters out for those students who need visa letters.=C2=A0 Y=
+ou can expect one to come in a few days. =C2=A0</div><div><br></div><div>Th=
+anks,=C2=A0</div><div>Andrew=C2=A0<br><div><blockquote type=3D"cite"><div>O=
+n Apr 14, 2015, at 1:11 PM, Mohammad Salem &lt;<a href=3D"mailto:msalem@ual=
+berta.ca" target=3D"_blank">msalem@ualberta.ca</a>&gt; wrote:</div><br><div=
+><p dir=3D"ltr">Hi Mr James,</p><p dir=3D"ltr">Is it possible to get an inv=
+itation letter from the summer school. I already registered and paid the fe=
+es, but I need such a letter for the Visa application.</p><p dir=3D"ltr">Th=
+anks for your assistance,</p><p dir=3D"ltr">Mohammad</p>
+<div class=3D"gmail_quote">On Mar 31, 2015 1:50 PM, &quot;Andrew James&quot=
+; &lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu<=
+/a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+dir=3D"ltr">Mohammad,=C2=A0<div><br></div><div>As of right now there is no =
+scheduled time for a poster session or student talks. I will speak to Dr. C=
+rawford though he is still planing activities for the evenings and this wou=
+ld be a great time for a poster session I will let you know and put it up o=
+n the website if that is something the organizers want to do.=C2=A0</div><d=
+iv><br></div><div>Best,=C2=A0</div><div>Andrew James=C2=A0<br></div><div cl=
+ass=3D"gmail_extra"><div><div><div dir=3D"ltr"><div><br><div>Graduate Teach=
+ing Assistant=C2=A0<br><div>Virginia Tech=C2=A0</div></div><div>Chemistry D=
+epartment=C2=A0</div></div><div><a href=3D"mailto:amjames2@vt.edu" target=
+=3D"_blank">amjames2@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Mar 31, 2015 at 3:26 PM, Mohammad Sa=
+lem <span dir=3D"ltr">&lt;<a href=3D"mailto:msalem@ualberta.ca" target=3D"_=
+blank">msalem@ualberta.ca</a>&gt;</span> wrote:<br><blockquote class=3D"gma=
+il_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-lef=
+t:1ex">Dear Mr James,<br>
+<br>
+I am a PhD student at the University of Alberta and I find your summer scho=
+ol very interesting. Just a question: will there be any possibility of pres=
+enting posters or short talks for students?<br>
+<br>
+<br>
+Regards,<br>
+<br>
+Mohammad<br>
+<br>
+<br>
+</blockquote></div><br></div></div>
+</blockquote></div>
+</div></blockquote></div><br></div></div></blockquote></div>
+
+--047d7bfcec488c577805142b85c5--

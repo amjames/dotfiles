@@ -1,0 +1,65 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp40321qgt;
+        Sun, 21 Jun 2015 07:53:24 -0700 (PDT)
+X-Received: by 10.140.134.83 with SMTP id 80mr34100651qhg.28.1434898404026;
+        Sun, 21 Jun 2015 07:53:24 -0700 (PDT)
+Return-Path: <tanmoy@umail.ucsb.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id gt9si16574102qcb.37.2015.06.21.07.53.23
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 07:53:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of tanmoy@umail.ucsb.edu designates 65.55.169.55 as permitted sender) client-ip=65.55.169.55;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of tanmoy@umail.ucsb.edu designates 65.55.169.55 as permitted sender) smtp.mail=tanmoy@umail.ucsb.edu
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0055.outbound.protection.outlook.com [65.55.169.55])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LErHLr028482
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 10:53:23 -0400
+Authentication-Results: vt.edu; dkim=none (message not signed) header.d=none;
+Received: from [192.168.193.138] (12.31.71.58) by
+ BN3PR08MB1301.namprd08.prod.outlook.com (10.163.41.20) with Microsoft SMTP
+ Server (TLS) id 15.1.195.15; Sun, 21 Jun 2015 14:53:15 +0000
+Date: Sun, 21 Jun 2015 10:52:58 -0400
+Subject: Coming into Roanoke at 12.27 pm, flight # US 4879
+From: Tanmoy Sanyal <tanmoy@umail.ucsb.edu>
+To: Andrew James VT <amjames2@vt.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+Message-ID:
+	<36c08e0e-e400-4d95-a390-2814a658b622@BN3PR08MB1301.namprd08.prod.outlook.com>
+X-Originating-IP: [12.31.71.58]
+X-ClientProxiedBy: DM2PR04CA060.namprd04.prod.outlook.com (10.141.154.178) To
+ BN3PR08MB1301.namprd08.prod.outlook.com (25.163.41.20)
+X-Microsoft-Exchange-Diagnostics:
+	1;BN3PR08MB1301;2:e436AwJARdzxe7mDOzfELUhcYCYdm9tFrytwxbL7f8lSD3j2B+mlsbOa3HMBDX5Z;3:ufwg54vDbt7arQx+NOs/JtTnsPdCd9V6zl5HyhX+UCdFk41hMV0IY0xPHu5VUL0AicJt5mNX7r+oq6SjqEnx+ZIpJUo5wud1Npx+6gnhWXjuYI1B+7rNGTmpzHBumuO5sgzQNp2IwTY483clU/m14Q==;20:mgwDTf+cIBsWAed2Le671dfPpDeEDsgL7oTPAP7kiZl/56X+W+Kqq3iGen8FyDaQ2Utj930uOw/O4JCPsyrU7Yo+w4VljJR/4/P8r5cCI+r27LsQb+FoJOC8yq70BkC4UUsyfRCNqnQR1SeK3tztV487CR3TSZ+SRjn2kuuQE8RZM/WsTQ+n669D2pMaLueGgMs2aFmCnJdYbb65R46+JqX3r18nMeU0XqYINUaLdhliTUxxOrf/5B7HaQxqlp84bLsoKEQDnH8RqHWxWc5thVf4opKuq2r0+a5vfSK8l68NAr3yFZ1QixMJJuS5NVfYM0AzBA40UZCQke2ZgMspy7f5OicrHPV/tZ/IG1ka2tyX9xZ06u9jl/ITjLhMk4QewxqaXsRMomdfpUaA5WMrp9CchKM1MuMOsJGshBcMXSDUxsM9tnKaIMTe3eVZ3oQaGMWh8XiEVmfgmmf/c8jw+EYIg8KBExg4ScaIlcTMyW7GTTnEMRLIxkxotZ8hbYqP
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN3PR08MB1301;
+X-Microsoft-Antispam-PRVS:
+	<BN3PR08MB1301D97653E63AEB249B83E8F5A20@BN3PR08MB1301.namprd08.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(601004)(5005006)(3002001);SRVR:BN3PR08MB1301;BCL:0;PCL:0;RULEID:;SRVR:BN3PR08MB1301;
+X-Microsoft-Exchange-Diagnostics:
+	1;BN3PR08MB1301;4:8NuDXbd2ZgzU76gimWus9UJsq9AdVW1e21x5QBKQ0dN9HkF5N/kj7xJ4a98Cdbe6iUdraOym4f7vGTSFpPkjQfFeRTbtgxbHF5xmSNe10tmsqZs3fTOnZS65V0zyHT0Bawju7JEtAPZN8rQSC3YMhIEt2HP4qxvun0EBrZ+jQhaAnImp9EFMBXrhG0EV+s1CPWme5XDYSTBFNNQMerERZ/3XvHGuGUzP07QUROjHrzAi81Rf8MS+x+nvpqna/ypY7XYC4Jy8pXgPx0sRELzdEfIM4g4QLvkNF9knHhqd4Sg=
+X-Forefront-PRVS: 06141B80DC
+X-Forefront-Antispam-Report:
+	SFV:NSPM;SFS:(10009020)(6009001)(6049001)(62966003)(77096005)(2171001)(33646002)(450100001)(76576001)(31696002)(86362001)(75432002)(40100003)(189998001)(89122001)(229853001)(46102003)(110136002)(107886002)(5001960100002)(74316001)(117156001)(50466002)(122386002)(77156002)(54356999)(42186005)(558084003)(92566002)(23676002)(50986999)(87976001)(47776003)(88552001)(66066001);DIR:OUT;SFP:1101;SCL:1;SRVR:BN3PR08MB1301;H:[192.168.193.138];FPR:;SPF:None;MLV:sfv;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;BN3PR08MB1301;23:OkAU1ioaDCWd3nklOE+zHLJGawpMOXuumWTI/PIDQtgCi1kuqfOfHghUrK3Ktb0bu3zyqoCc5LKWBRrb3ju1js/CHbopUdqpYb+qNG9a31mhpMJafq1fsJQ/9rKa7CMKvZoF0VzEqq3UkULN8TIRcO0neMG7dttaJWKBAEmyj2wK25paNwWd0ToVVLXaINMtso4Z1cj2zeCQevHGGeHBEZtSKMHk7qcxXAhN54cTaJOBamI1pJTrr7jiw9nvPJeFRv6cNCinpE/Okl1JeSdcbAjj1iTmQWu2vo6kyfJSleUSlrDuRN1oma+KBz4OXJG+WJWE8bHpx/HliBgR97IgOmyMbug5E0OL+IDSvm+nDFaL/CnxwpyjgwcCrkkxZLUIpVEOGPIJm4Z2X8gR7duaYW7dksXMh2BuToKsk52fjSMQ2jrWtuLHfbvh23/o2rn7gFycOskDWcIiBxhaAbvS3N8WreyniiVYBmrJyDA4a6J2Ggt31WSXWFocCW8yUUKJ9R8n7IBwW0dX+89Qz6htnalmBAcpPiv3yIOd0fVP1B2uIggXefTGS7otpIslRjo75TyURsAiDaTc/038DMMQOD+NbLPwQ/NSCpkg2XWNxsAvVqmN6jD5XNppyMoBASy7M7wxygBG9dPmT9k16H1imJLAh/HNLI+z5twIm/7vFUDD8tsfnLHbCLvYulkHnS29at5Ci+FaFrRioEGIQ0WAt1IdUKz0xqxr0OXvWALIThWpGMQmVr3e9ZilkblWYI2d5IqyKydRIHUCojZyaBiNjaiysY49XXB78PZ9HHfOiopa5iOaMCAh2H4qjYcFglcrG6WFjefYqrdO/aS+4JYzdUIMBh1p0IP9hiFwvCc3ed4mlybDWKXnQMPAI53Gp/FfWkL9sCGNtiD1fK6kEK3DRQ==
+X-Microsoft-Exchange-Diagnostics:
+	1;BN3PR08MB1301;5:9ibYNA1aGlj3GzLbWfSgi2sTftnhNYeGriUJsAAxP93RztIgwaKcyf0VVTefD/pA2i3eBLx3o97JBWg0Bu0srfK8bFbd0YCEoZ0AI4+Z156Q1fetBw1LNm2l78QQCqg0G5tUVH2/wpeBzEuAgECbgg==;24:4sFOWrVhGC2IzK3dBTaCvQ3E8kOMOpXaY1BjqziU5QPYNYXyqARpVtReU8N8Gv3bV9xcCElx3JUBGmQiYvSqhwqxZ4CQ9Ut9SgqcQgRDBzU=;20:swj1qkQflbcs6HBRgps6Yn3PdnuMVXJONKXwS36iQb/Aj2RI6SjgM7lhadfl+Vj2mhGW/W+sqDoZDH87JZZIhw==
+X-OriginatorOrg: umail.ucsb.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Jun 2015 14:53:15.2292 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR08MB1301
+X-Spam-Status: No, score=0.0 required=5.0 tests=RCVD_IN_DNSWL_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+CgpUYW5tb3kgU2FueWFsCkdyYWR1YXRlIHN0dWRlbnQKVW5pdmVyc2l0eSBvZiBDYWxpZm9ybmlh
+LCBTYW50YSBCYXJiYXJhClBoOiA4MDUtNjM3LTAzNzU=
+

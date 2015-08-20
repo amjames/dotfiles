@@ -1,0 +1,83 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2011775qgt;
+        Mon, 10 Aug 2015 11:36:50 -0700 (PDT)
+X-Received: by 10.140.231.208 with SMTP id b199mr43241788qhc.87.1439231810510;
+        Mon, 10 Aug 2015 11:36:50 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 19si34791277qhf.58.2015.08.10.11.36.47
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 11:36:50 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.214.171 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.214.171;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.214.171 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7AIafcO020405;
+	Mon, 10 Aug 2015 14:36:46 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7AIP1A7004694;
+	Mon, 10 Aug 2015 14:36:41 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100849838 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 10 Aug 2015 14:36:41
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7AIae54007047 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 10 Aug 2015 14:36:40 -0400
+Received: from mail-ob0-f171.google.com (mail-ob0-f171.google.com
+          [209.85.214.171]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t7AIaYVt003262 for <CHEM_GRAD@listserv.vt.edu>; Mon, 10 Aug 2015
+          14:36:39 -0400
+Received: by obbop1 with SMTP id op1so130905852obb.2 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 10 Aug 2015 11:36:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=t/LWRHpzptKlHSh7E45PKsk8leGkEPB5XBCC/IDNXsk=;
+                         b=Y3VwgPQuY3+kyvAO7apXgUW7eYr3MtuG8Uz+A2CQNz/2FnBW1A9Zg+aF5uICsOLN8N
+                         S0dg3EyjNqIQQcXCritVZNjA6AmD2SLNJzgaFdIe++wnp1ubV/MMiMqyX+pmBecT5Zeh
+                         gtdVeCXLD0WtueOYlBxf0uGMamxXeKHPtc0OBj7Vi5P0kHhJU22NUe9/fplLyotGgtpQ
+                         3KLFO2O7G7oFoVNzmqvsZjAIoi0DGhJPqajv9qv+u9ariUgYBvFUAoTg+mIYqnT++CLP
+                         08or2zkCN1dnAN996wYK28Ema7Eev5jNBJcAolAcxDDbIdsoMMQpW+8EReqaeOF9pDa3
+                         8Dyw==
+X-Gm-Message-State: ALoCoQll/kKcv1sZGmbBkNg25/VIhuMiyrZtTcCOCf/9xBLxzTwBdt/oOnVr3ms3nTB5DbBVlNYVNrVKWKai/XSovw5h8AcTI4iRVw3tmFsnlHUckJDQ0ZF41bpng9TBLLuf/p1402DOynGXAYvlBLr6CkrKxEuSnw==
+X-Received: by 10.182.224.194 with SMTP id re2mr2839159obc.24.1439231794372;
+            Mon, 10 Aug 2015 11:36:34 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.182.224.194 with SMTP id re2mr2839136obc.24.1439231794140;
+            Mon, 10 Aug 2015 11:36:34 -0700 (PDT)
+Received: by 10.182.142.200 with HTTP; Mon, 10 Aug 2015 11:36:34 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=089e013a2afad71b35051cf94347
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <CAHkvg250TUWL61ps9YTcQ07GWgkryk8z3PrpGnf+Uy0Vj2n6jQ@mail.gmail.com>
+Date:         Mon, 10 Aug 2015 14:36:34 -0400
+Reply-To: Cragin Harris <ckharris@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Cragin Harris <ckharris@vt.edu>
+Subject: chemical request
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e013a2afad71b35051cf94347
+Content-Type: text/plain; charset=UTF-8
+
+Does anyone have Zinc dust? I only need a small amount. Thank you.
+
+~Cragin Harris
+
+--089e013a2afad71b35051cf94347
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">Does anyone have Zinc dust? I only need a small amount. Thank you.<div><br></div><div>~Cragin Harris</div></div>
+
+--089e013a2afad71b35051cf94347--

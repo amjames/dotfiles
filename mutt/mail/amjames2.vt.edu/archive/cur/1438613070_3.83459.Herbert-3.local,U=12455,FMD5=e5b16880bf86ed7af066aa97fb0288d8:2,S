@@ -1,0 +1,44 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp546442qgt;
+        Fri, 31 Jul 2015 08:27:12 -0700 (PDT)
+X-Received: by 10.55.23.215 with SMTP id 84mr5176453qkx.17.1438356432759;
+        Fri, 31 Jul 2015 08:27:12 -0700 (PDT)
+Return-Path: <no-reply@blueridge.arc.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id j142si6163782qhc.128.2015.07.31.08.27.12
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 31 Jul 2015 08:27:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender) smtp.mail=no-reply@blueridge.arc.vt.edu
+Received: from aquifer.cc.vt.edu ([IPv6:2001:468:c80:2104:219:b9ff:feea:d908])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6VFR7Z7022572
+	for <amjames2@vt.edu>; Fri, 31 Jul 2015 11:27:12 -0400
+Received: from bradmin1.arc.vt.edu.mgt (bradmin1.cluster [10.11.0.1])
+	by aquifer.cc.vt.edu (Postfix) with ESMTP id 3249C36022
+	for <amjames2@vt.edu>; Fri, 31 Jul 2015 11:27:07 -0400 (EDT)
+Received: by bradmin1.arc.vt.edu.mgt (Postfix, from userid 0)
+	id 29803209A5; Fri, 31 Jul 2015 11:27:07 -0400 (EDT)
+To: amjames2@vt.edu
+Subject: PBS JOB 171599.master.cluster
+Precedence: bulk
+Message-Id: <20150731152707.29803209A5@bradmin1.arc.vt.edu.mgt>
+Date: Fri, 31 Jul 2015 11:27:07 -0400 (EDT)
+From: no-reply@blueridge.arc.vt.edu (root)
+X-Spam-Status: No, score=1.3 required=5.0 tests=RDNS_NONE,TVD_SPACE_RATIO
+	autolearn=disabled version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+PBS Job Id: 171599.master.cluster
+Job Name:   follow1
+Exec host:  br200/0+br200/1+br200/2+br200/3+br200/4+br200/5+br200/6+br200/7+br200/8+br200/9+br200/10+br200/11+br200/12+br200/13+br200/14+br200/15
+Execution terminated
+Exit_status=271 resources_used.cput=05:00:47 resources_used.mem=4824172kb resources_used.vmem=5552600kb resources_used.walltime=00:42:31
+Error_Path: brlogin1.cluster:/home/amjames2/chem/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1/new-SA-code/follow1.e171599
+Output_Path: brlogin1.cluster:/home/amjames2/chem/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1/new-SA-code/follow1.o171599

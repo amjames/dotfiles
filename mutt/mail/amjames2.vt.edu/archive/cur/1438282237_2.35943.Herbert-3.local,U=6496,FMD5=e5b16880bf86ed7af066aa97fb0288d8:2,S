@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp724586qge;
+        Thu, 26 Mar 2015 07:53:47 -0700 (PDT)
+X-Received: by 10.52.100.198 with SMTP id fa6mr17371760vdb.86.1427381627304;
+        Thu, 26 Mar 2015 07:53:47 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id dl9si7403752vdc.40.2015.03.26.07.53.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Mar 2015 07:53:47 -0700 (PDT)
+Received-SPF: none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) client-ip=192.254.112.99;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2QErcqZ001008
+	for <amjames2@vt.edu>; Thu, 26 Mar 2015 10:53:44 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=asO7LlCCNxj8vVBGNLY5qek9etc=; b=BPQoJS7jKZys1PQT
+	9neL/etmRAyAkXcDkEoAJ7C0iroQju+bWNSuc/gZUUu0q9vaP5eVwdL9ntk/ZuWu
+	ot0dHu+vqI54P6XHsVYBbJJMeh4rtV9nT+m3Fge2/rQIlwzwwtt5VQ4A9urIYPe7
+	BZr/Pay2VmB4xmnGQSNiWTodzzM=
+Received: by filter0256p1mdw1.sendgrid.net with SMTP id filter0256p1mdw1.22973.55141D711E
+        2015-03-26 14:53:38.119994133 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-040 (SG) with ESMTP id 14c56930582.f29.6643d0
+	for <amjames2@vt.edu>; Thu, 26 Mar 2015 14:53:38 +0000 (UTC)
+Date: Thu, 26 Mar 2015 07:53:37 -0700
+From: Ryan Richard <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f64232e62576d8466ec70327cc496d10e6a9e8d971f592cf00000001112bdf7192a169ce03d75734@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/95/86549722@github.com>
+In-Reply-To: <psi4/psi4/issues/95@github.com>
+References: <psi4/psi4/issues/95@github.com>
+Subject: Re: [psi4] Compilation problems with Intel compiler (#95)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55141d71e32f8_bda3f80c4f012a02775d6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ryanmrichard
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f64232e62576d8466ec70327cc496d10e6a9e8d971f592cf00000001112bdf7192a169ce03d75734@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64232e62576d8466ec70327cc496d10e6a9e8d971f592cf00000001112bdf7192a169ce03d75734@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QoIuTZLsnjAlunj_mYLORyoeZ0piks5n5BTxgaJpZM4D0_qu>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkTh9+NdHjX5HnC5g3Ipu3JyrR4rYCwBsulQc
+ 02Anfz7nOV1pisyDJ8cM7pCTLnHdRgG6wydwFAI0tLV4fqCNzEJ7munKQ0YLbUAzNo1WghYa118Ho5
+ MCN95yjuEi0AiZA=
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55141d71e32f8_bda3f80c4f012a02775d6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+That's an old version of gcc.  Is there anyway you can update it?
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/95#issuecomment-86549722
+----==_mimepart_55141d71e32f8_bda3f80c4f012a02775d6
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>That's an old version of gcc.  Is there anyway you can update it?</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/95#issuecomment-86549722">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QpR9ztG2-0-QaXDONbzBFajquyoeks5n5BTxgaJpZM4D0_qu.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/95#issuecomment-86549722"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55141d71e32f8_bda3f80c4f012a02775d6--

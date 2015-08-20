@@ -1,0 +1,90 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp209392qgt;
+        Sun, 21 Jun 2015 14:46:25 -0700 (PDT)
+X-Received: by 10.55.48.11 with SMTP id w11mr56433003qkw.61.1434923185105;
+        Sun, 21 Jun 2015 14:46:25 -0700 (PDT)
+Return-Path: <sonne058@umn.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id y125si17312869qky.65.2015.06.21.14.46.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 14:46:25 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of sonne058@umn.edu designates 134.84.119.120 as permitted sender) client-ip=134.84.119.120;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of sonne058@umn.edu designates 134.84.119.120 as permitted sender) smtp.mail=sonne058@umn.edu;
+       dkim=pass header.i=@umn.edu
+Received: from vs-m.tc.umn.edu (vs-m.tc.umn.edu [134.84.119.120])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LLk7pf032497
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 17:46:12 -0400
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by vs-m.tc.umn.edu (UMN smtpd) with ESMTP
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 16:46:07 -0500 (CDT)
+X-Umn-Remote-Mta: [N] mail-ie0-f174.google.com [209.85.223.174] #+LO+TS+TR
+X-Umn-Classification: local
+Received: by iecvh10 with SMTP id vh10so7573075iec.3
+        for <amjames2@vt.edu>; Sun, 21 Jun 2015 14:46:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=umn.edu; s=google;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=QXqoaEgzY/AFgf5RkxxnJEhtJwzxJrqQVZzT3RRXLxM=;
+        b=IjlE08QkfklYWYxCXPDI7g3ogBSdaA9bbvRM5xuaGY+TyiLe2mN8UfXMcCGlQqqbOC
+         EnmF73Zg4pD9OZDr5A0/MxqzmkKKRP3crXdzj5cePvS+sQftP6PJZBkbCF0b72ACqfud
+         wPtb+3x5KRnHPXeuOqoaXRD4DsAxllfsHw8/c=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=QXqoaEgzY/AFgf5RkxxnJEhtJwzxJrqQVZzT3RRXLxM=;
+        b=hGJvtvtFE0oCgseZsnWDFbDvmXfohqgsBho5IWLy87v6/u+Hg+vSUJ+cV5SqgK9So+
+         u+6sUb0qE8il2ymenpJnNOD6LtPo28GNaJDpnCUazaDjFnsdl1UBQp5wjqolayFKlAre
+         HZS8PrmcCTyPTr2qcwT3guwovljJKvFk4O/jJp/sNwq0YvN3tYkCmakWx6sjZcotOjDO
+         jLLPPbDK9yCoxM5Ymftk6vtQr6PfjiSxa3SLa/iw9tASj0dPCZvwB7qxHWc7/tPIWpcG
+         zfanLuIH1St9vOuX5azEkLvqyx0bnvnJU3w3L3aMXBQDGhVp5cF1UFoS/TrkcWFg7FEC
+         OfQg==
+X-Gm-Message-State: ALoCoQlc9SY5x6N/UV2O+hbuoAEeePPW+ydA48RA5x4vmGQPhBOAFZLSfxKZP12sgn13NMB4tE6iqlw6SvMz2oA4vXbw9nI1d2Rt7hkxcC1MCaJR8c/SluiFg1Yup89KhrY1Ucxompnr
+X-Received: by 10.50.141.164 with SMTP id rp4mr17617874igb.2.1434923166617;
+        Sun, 21 Jun 2015 14:46:06 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.141.164 with SMTP id rp4mr17617866igb.2.1434923166490;
+ Sun, 21 Jun 2015 14:46:06 -0700 (PDT)
+Received: by 10.107.182.138 with HTTP; Sun, 21 Jun 2015 14:46:06 -0700 (PDT)
+Date: Sun, 21 Jun 2015 16:46:06 -0500
+Message-ID: <CAFDuy4VeQpXAwr09tLiTC1BkZ+y67fgBfYD-CDw-0xHuf=f-7w@mail.gmail.com>
+Subject: Wifi issues
+From: Andrew Sonnenberger <sonne058@umn.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e012953809e7d3605190e1581
+X-Spam-Status: No, score=-1.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e012953809e7d3605190e1581
+Content-Type: text/plain; charset=UTF-8
+
+Andrew,
+
+This is Andy Sonnenberger from the Summer School. I forgot to verify my
+email when I made the request for internet access, so it sent it to pending
+as of 3:30ish. It says I should contact Jessica to expedite the process but
+I do not have her contact info. Do you have her info/is there something
+else I should do?
+
+Thanks,
+Andy
+
+--089e012953809e7d3605190e1581
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Andrew,<div><br></div><div>This is Andy Sonnenberger from =
+the Summer School. I forgot to verify my email when I made the request for =
+internet access, so it sent it to pending as of 3:30ish. It says I should c=
+ontact Jessica to expedite the process but I do not have her contact info. =
+Do you have her info/is there something else I should do?</div><div><br></d=
+iv><div>Thanks,</div><div>Andy=C2=A0</div></div>
+
+--089e012953809e7d3605190e1581--

@@ -1,0 +1,367 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp279054ieb;
+        Mon, 16 Mar 2015 14:57:15 -0700 (PDT)
+X-Received: by 10.152.42.193 with SMTP id q1mr25210017lal.92.1426543034919;
+        Mon, 16 Mar 2015 14:57:14 -0700 (PDT)
+Return-Path: <prvs=1517f2b03d=kenneth.ruud@uit.no>
+Received: from pat.uit.no (mix4.uit.no. [129.242.4.112])
+        by mx.google.com with ESMTPS id s2si9101843laj.101.2015.03.16.14.57.13
+        (version=TLSv1.2 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 16 Mar 2015 14:57:14 -0700 (PDT)
+Received-SPF: none (google.com: prvs=1517f2b03d=kenneth.ruud@uit.no does not designate permitted sender hosts) client-ip=129.242.4.112;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: prvs=1517f2b03d=kenneth.ruud@uit.no does not designate permitted sender hosts) smtp.mail=prvs=1517f2b03d=kenneth.ruud@uit.no
+Received: from EX11.ad.uit.no (ex11.ad.uit.no [129.242.11.141])
+	by pat.uit.no  with ESMTP id t2GLvDRk010256-t2GLvDRm010256
+	(version=TLSv1.0 cipher=ECDHE-RSA-AES256-SHA bits=256 verify=CAFAIL);
+	Mon, 16 Mar 2015 22:57:13 +0100
+Received: from ex08.ad.uit.no (129.242.11.137) by EX11.ad.uit.no
+ (129.242.11.141) with Microsoft SMTP Server (TLS) id 15.0.1044.25; Mon, 16
+ Mar 2015 22:57:13 +0100
+Received: from ex08.ad.uit.no ([fe80::d026:6e33:cb36:abd0]) by ex08.ad.uit.no
+ ([fe80::d026:6e33:cb36:abd0%21]) with mapi id 15.00.1044.021; Mon, 16 Mar
+ 2015 22:57:12 +0100
+From: Ruud Kenneth <kenneth.ruud@uit.no>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+CC: Patrick Norman <johan.patrick.norman@gmail.com>,
+        Trond Saue
+	<trond.saue@irsamc.ups-tlse.fr>,
+        "Robert J. Harrison" <rjharrison@gmail.com>,
+        Eugene Deprince <eugene.deprince@gmail.com>,
+        Eduard Valeyev
+	<edward.valeev@gmail.com>,
+        Tommy Guy <richardtguy84@gmail.com>,
+        Andrew James
+	<andrew.m.james2@gmail.com>,
+        Laurie Good <laurieg@vt.edu>
+Subject: Re: Email announcement for Summer Schools
+Thread-Topic: Email announcement for Summer Schools
+Thread-Index: AQHQYCDVURFA5pZ5h0ORwjqVkDdccJ0fl0oA
+Date: Mon, 16 Mar 2015 21:57:12 +0000
+Message-ID: <0851E005-B4C8-4929-B22C-90C00CB791E6@uit.no>
+References: <CAH0V_1aMYnFCq6b6rTHK+gzWUeeMVeJk9VcNvCr2cwFUZva+=Q@mail.gmail.com>
+In-Reply-To: <CAH0V_1aMYnFCq6b6rTHK+gzWUeeMVeJk9VcNvCr2cwFUZva+=Q@mail.gmail.com>
+Accept-Language: en-GB, nb-NO, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-mailer: Apple Mail (2.1283)
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [129.242.11.190]
+Content-Type: multipart/alternative;
+	boundary="_000_0851E005B4C84929B22C90C00CB791E6uitno_"
+MIME-Version: 1.0
+X-FEAS-SYSTEM-WL: 129.242.11.141
+
+--_000_0851E005B4C84929B22C90C00CB791E6uitno_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Looks excellent. Just a minor issue: The correct names/abbreviations for ou=
+r University is:
+
+University of Troms=F8 - The Arctic University of Norway
+UiT The Arctic University of Norway
+UiT
+
+The last of which of course makes no sense if you do not know the place....=
+..
+
+
+Kenneth
+
+Kenneth Ruud
+Prorector of Research, UiT - The Arctic University of Norway
+Telephone: +47 77623101
+http://www.ctcc.no/people/senior-scientists/ruud/index.html
+
+On Mar 16, 2015, at 8:38 PM, T. Daniel Crawford wrote:
+
+Hi, all,
+
+I believe we have finalized the websites for the two Summer Schools, and I =
+am preparing an email announcement that will reach the vast majority of the=
+ theoretical chemistry community in the U.S. and Canada.  Below is a draft =
+of the text of the announcement, and I would be grateful if you could look =
+at it carefully and send me any corrections or adjustments as soon as possi=
+ble.
+
+Best regards,
+
+-Daniel
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu<mailto:crawdad@vt.edu>
+
+
+
+Subject:  2015 Summer Schools in Software Development and Molecular Respons=
+e Properties
+
+Dear Fellow Theoretical Chemists:
+
+I am pleased to announce two Summer Schools to be held here at Virginia Tec=
+h this year that may be of interest to you or your colleagues.
+
+Third Annual Software Summer School, June 22-July 1:<http://s2i2.org/school=
+_2015/index.html>  This NSF-sponsored Summer School targets first- and seco=
+nd-year graduate students whose Ph.D. research requires significant program=
+ming skills.  The School, which is part of the sustainable software initiat=
+ive led by the SICM2 Project, will cover a range of software design and opt=
+imization, including programming fundamentals, numerical libraries, paralle=
+l computing, and GPU/accelerator algorithms.
+
+http://s2i2.org/school_2015/
+
+Interested students should submit an application consisting of a CV, letter=
+ of support, and a brief description of their research and how it would ben=
+efit from the advanced programming skills offered by the School.  Students =
+accepted to the program will need only provide their own transportation to =
+the Virginia Tech campus; all other expenses, including room, board, and in=
+structional costs will be covered by the School.  (Note that only student a=
+t U.S. institutions are eligible for participation in this year's Software =
+Summer School.)
+
+----------------------
+
+Molecular Response Properties Summer School, June 29-July 3:<http://www.the=
+ory.chem.vt.edu/response/index.html>  Much of our understanding of molecule=
+s and materials is derived from their responses to electromagnetic fields =
+=96 from high-resolution spectroscopic analyses for the identification of m=
+olecules in interstellar space, to magnetic resonance imaging used in medic=
+al diagnostics, to non-linear fiber optics employed in telecommunications. =
+This school will focus on the quantum mechanical theories underlying both w=
+eak- and strong-field responses, in absorption, emission, and scattering, a=
+t a level appropriate for graduate students and postdoctoral researchers.
+
+http://www.theory.chem.vt.edu/response/
+
+The School will be taught by Profs. Patrick Norman (Link=F6ping U., Sweden)=
+, Trond Saue (U. Toulouse), Kenneth Ruud (Arctic University of Norway), and=
+ Daniel Crawford (Virginia Tech).   Interested participants may register at=
+ the above website (no application process is otherwise required).  The $55=
+0 registration fee includes room, board, and instructional expenses, but no=
+t transportation costs.
+
+Best regards,
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu<mailto:crawdad@vt.edu>
+
+
+--_000_0851E005B4C84929B22C90C00CB791E6uitno_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <13EC00A682F42548A923F873995878B5@asp.uit.no>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-lin=
+e-break: after-white-space; ">
+Looks excellent. Just a minor issue: The correct names/abbreviations for ou=
+r University is:
+<div><br>
+</div>
+<div>University of Troms=F8 - The Arctic University of Norway</div>
+<div>UiT The Arctic University of Norway</div>
+<div>UiT</div>
+<div><br>
+</div>
+<div>The last of which of course makes no sense if you do not know the plac=
+e......</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>Kenneth</div>
+<div><br>
+</div>
+<div>
+<div apple-content-edited=3D"true"><span class=3D"Apple-style-span" style=
+=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica;=
+ font-style: normal; font-variant: normal; font-weight: normal; letter-spac=
+ing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; tex=
+t-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-s=
+pacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertica=
+l-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size=
+-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span c=
+lass=3D"Apple-style-span" style=3D"border-collapse: separate; color: rgb(0,=
+ 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; f=
+ont-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2=
+; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-s=
+pace: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spaci=
+ng: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-=
+effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0p=
+x; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<div>Kenneth Ruud<br>
+Prorector of Research, UiT - The Arctic University of Norway<br>
+Telephone: &#43;47 77623101<br>
+<a href=3D"http://www.ctcc.no/people/senior-scientists/ruud/index.html">htt=
+p://www.ctcc.no/people/senior-scientists/ruud/index.html</a><br>
+</div>
+</div>
+</span></div>
+</span></div>
+</span></div>
+</span></span></div>
+<br>
+<div>
+<div>On Mar 16, 2015, at 8:38 PM, T. Daniel Crawford wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<blockquote type=3D"cite">
+<div dir=3D"ltr">Hi, all,
+<div><br>
+</div>
+<div>I believe we have finalized the websites for the two Summer Schools, a=
+nd I am preparing an email announcement that will reach the vast majority o=
+f the theoretical chemistry community in the U.S. and Canada.&nbsp; Below i=
+s a draft of the text of the announcement,
+ and I would be grateful if you could look at it carefully and send me any =
+corrections or adjustments as soon as possible.</div>
+<div><br>
+</div>
+<div>Best regards,</div>
+<div><br>
+</div>
+<div>-Daniel</div>
+<div>
+<div>
+<div class=3D"gmail_signature">
+<div dir=3D"ltr">--
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>Subject: &nbsp;2015 Summer Schools in Software Development and Molecul=
+ar Response Properties
+<div><br>
+</div>
+<div>Dear Fellow Theoretical Chemists:</div>
+<div><br>
+</div>
+<div>I am pleased to announce two Summer Schools to be held here at Virgini=
+a Tech this year that may be of interest to you or your colleagues.</div>
+<div><br>
+</div>
+<div><b><a href=3D"http://s2i2.org/school_2015/index.html">Third Annual Sof=
+tware Summer School, June 22-July 1:</a></b>&nbsp; This NSF-sponsored Summe=
+r School targets first- and second-year graduate students whose Ph.D. resea=
+rch requires significant programming skills.&nbsp;
+ The School, which is part of the sustainable software initiative led by th=
+e SICM2 Project, will cover a range of software design and optimization, in=
+cluding programming fundamentals, numerical libraries, parallel computing, =
+and GPU/accelerator algorithms.</div>
+<div><br>
+</div>
+<div><a href=3D"http://s2i2.org/school_2015/">http://s2i2.org/school_2015/<=
+/a><br>
+</div>
+<div><br>
+</div>
+<div>Interested students should submit an application consisting of a CV, l=
+etter of support, and a brief description of their research and how it woul=
+d benefit from the advanced programming skills offered by the School.&nbsp;=
+ Students accepted to the program will
+ need only provide their own transportation to the Virginia Tech campus;&nb=
+sp;<u>all other expenses, including room, board, and instructional costs wi=
+ll be covered by the School</u>. &nbsp;(Note that only student at U.S. inst=
+itutions are eligible for participation in
+ this year's Software Summer School.)</div>
+<div><br>
+</div>
+<div>----------------------</div>
+<div><br>
+</div>
+<div><b><a href=3D"http://www.theory.chem.vt.edu/response/index.html">Molec=
+ular Response Properties Summer School, June 29-July 3:</a></b>&nbsp;&nbsp;=
+Much of our understanding of molecules and materials is derived from their =
+responses to electromagnetic fields =96 from high-resolution
+ spectroscopic analyses for the identification of molecules in interstellar=
+ space, to magnetic resonance imaging used in medical diagnostics, to non-l=
+inear fiber optics employed in telecommunications. This school will focus o=
+n the quantum mechanical theories
+ underlying both weak- and strong-field responses, in absorption, emission,=
+ and scattering, at a level appropriate for graduate students and postdocto=
+ral researchers.</div>
+<div><br>
+</div>
+<div><a href=3D"http://www.theory.chem.vt.edu/response/">http://www.theory.=
+chem.vt.edu/response/</a><br>
+</div>
+<div><br>
+</div>
+<div>The School will be taught by Profs. Patrick Norman (Link=F6ping U., Sw=
+eden), Trond Saue (U. Toulouse), Kenneth Ruud (Arctic University of Norway)=
+, and Daniel Crawford (Virginia Tech). &nbsp; Interested participants may r=
+egister at the above website (no application
+ process is otherwise required). &nbsp;<u>The $550 registration fee include=
+s room, board, and instructional expenses, but not transportation costs.</u=
+>&nbsp;&nbsp;</div>
+<div><br>
+<div>Best regards,</div>
+<div>--<br>
+</div>
+<div>
+<div class=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_0851E005B4C84929B22C90C00CB791E6uitno_--

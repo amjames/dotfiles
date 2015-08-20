@@ -1,0 +1,93 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2768094qgt;
+        Tue, 11 Aug 2015 17:31:13 -0700 (PDT)
+X-Received: by 10.140.22.73 with SMTP id 67mr53416288qgm.42.1439339473884;
+        Tue, 11 Aug 2015 17:31:13 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id d34si6837348qgd.127.2015.08.11.17.31.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 17:31:13 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7C0V7pg026675
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 20:31:12 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=NizaGLs4diW6VKhiiSy2a9zAEio=; b=EhiAEHzQY1+8TYNa
+	UPrTcV3eCHBqlBfvU/JikI0tEk3z4m2ysRIJ8YkZRk4wk++ZptA03ATTHX/uDef3
+	qZpa/5kTSP94+H1mjeUZ7FO4YazgeS0BBByyeYkbcRB04VWleAc+ooGnv12dHy+7
+	eNnVYQSfjFNAopynKlHK9/67rTY=
+Received: by filter-161.sjc1.sendgrid.net with SMTP id filter-161.16982.55CA934A17
+        2015-08-12 00:28:58.511169465 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0006p1iad1.sendgrid.net (SG) with ESMTP id qIjRu-vvQTi3QFm1BwD3uA
+	for <amjames2@vt.edu>; Wed, 12 Aug 2015 00:28:58 +0000 (UTC)
+Date: Tue, 11 Aug 2015 17:28:58 -0700
+From: "Robert T. McGibbon" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6423e147e773b1a9f6ba38fce568167348a494c506492cf0000000111e2554a92a169ce05fc9b05@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/162@github.com>
+Subject: [psi4public] Compiling plugins without source (#162)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca934a284b5_15d13fac1b1832b84506c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: rmcgibbo
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6423e147e773b1a9f6ba38fce568167348a494c506492cf0000000111e2554a92a169ce05fc9b05@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6423e147e773b1a9f6ba38fce568167348a494c506492cf0000000111e2554a92a169ce05fc9b05@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QhR_iqCDmaKzGlRGYNf2zEyy6ymXks5omorKgaJpZM4Fp4eh>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkTpyYXanwm9CEiJmNUvsonDqHgE590cOVc4X
+ ick5Ubxp2t0mbv/VgfptlIhvbHlXtVnCURy0x8fUkheTXTCgkGYbsVq5dfBVQyd8M2wfQzB5ZdX4Ay
+ 3AyTodzbueN0apU=
+X-Spam-Status: No, score=-1.6 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ca934a284b5_15d13fac1b1832b84506c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Apologies if this is off the development timeline or out of left field. The psi4 plugin system is excellent, and it's one of the really cool unique features of the package.
+
+One way to make it even better would be if it didn't require having access to the source to compile a plugin. Currently, all the static archives stay inside the object directory and are not installed to `prefix`, which means that when the plugins need to link against psi4, they link against the archives in the object directory, and the psi4 binary embeds the location of the source and build directory to use when generating an example plugin makefile. It would be nice to copy the archives to `$PREFIX/lib` instead.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/162
+----==_mimepart_55ca934a284b5_15d13fac1b1832b84506c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Apologies if this is off the development timeline or out of left field. The psi4 plugin system is excellent, and it's one of the really cool unique features of the package.</p>
+
+<p>One way to make it even better would be if it didn't require having access to the source to compile a plugin. Currently, all the static archives stay inside the object directory and are not installed to <code>prefix</code>, which means that when the plugins need to link against psi4, they link against the archives in the object directory, and the psi4 binary embeds the location of the source and build directory to use when generating an example plugin makefile. It would be nice to copy the archives to <code>$PREFIX/lib</code> instead.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/162">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QgE-VVXIxUm12xgGL9J8Rz1pHMkBks5omorKgaJpZM4Fp4eh.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/162"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ca934a284b5_15d13fac1b1832b84506c--

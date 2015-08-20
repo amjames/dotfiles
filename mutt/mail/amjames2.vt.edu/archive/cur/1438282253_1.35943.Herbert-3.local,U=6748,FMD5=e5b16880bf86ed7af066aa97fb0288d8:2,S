@@ -1,0 +1,97 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1622726qgt;
+        Mon, 27 Apr 2015 12:45:44 -0700 (PDT)
+X-Received: by 10.52.111.166 with SMTP id ij6mr29995734vdb.8.1430163943845;
+        Mon, 27 Apr 2015 12:45:43 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id l1si31351298vdv.34.2015.04.27.12.45.42
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Apr 2015 12:45:43 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.215.48;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3RJjat9022196;
+	Mon, 27 Apr 2015 15:45:41 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t3RH8I2C026231;
+	Mon, 27 Apr 2015 15:45:36 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          99219365 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 27 Apr 2015 15:45:36
+          -0400
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:250:3bcb:5b17]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t3RJZZnb011048
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Mon, 27 Apr 2015 15:35:35 -0400
+Received: from mail-la0-f48.google.com (mail-la0-f48.google.com
+          [209.85.215.48]) by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t3RJZT1c023190 for <CHEM_GRAD@listserv.vt.edu>; Mon, 27 Apr 2015
+          15:35:35 -0400
+Received: by lagv1 with SMTP id v1so88046269lag.3 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 27 Apr 2015 12:35:29 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=pK+Go8Z+ALpEtS2EMdTA0LXqfd4DQrQC0T3N6+I9b4Y=;
+                         b=YX7a79KbxUTbdlswJ8vouBQvbCjXu5FqTE87CM03mmBqi+u+27f2mkiX9lHtRudtNG
+                         FQu3Iw3DMd1AE8RydLgRYOpP7rAeo/WkHa1kBD7WZ8OXpNgtMTgJ1+r0gwz4LHpxdtfY
+                         ddTbs/SLoDynE05fVho5NRkCJaJQpaf2d/unpLPY7Oq1VNVkAC9MCLXiDKn72HctFrPK
+                         oj+3PozzJPEv6FSiqdlS/8nOydefYH7T4dbqx2eF5K6MkJUChK5l1dGaLnZV3eQKaXFT
+                         tRVO2ogMiv93/D5pf0yu8B5WFjVJdJCK8hN/IuNfRTLbqGNbQFDOjP3s5fGRMaLBMKiu
+                         qeUg==
+X-Received: by 10.112.166.37 with SMTP id zd5mr11240809lbb.75.1430163329597;
+            Mon, 27 Apr 2015 12:35:29 -0700 (PDT)
+X-Gm-Message-State: ALoCoQkrTTgCnSskN15tR65lukUYWQt4sIktKqWzi7wcT4dsR0KroNgBvjsuoOdyLf/vdbf8LCri3YshAU6fqbJpnAOYABgUNZ6NfCpfPWzMdddzZ6e2WTNpfzIpb+4EZykjM9k4ntV3sHRd9YA5bP+ZBad2S71jtA==
+MIME-Version: 1.0
+X-Received: by 10.112.166.37 with SMTP id zd5mr11240804lbb.75.1430163329523;
+            Mon, 27 Apr 2015 12:35:29 -0700 (PDT)
+Received: by 10.112.148.131 with HTTP; Mon, 27 Apr 2015 12:35:29 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=001a11c382d03a37c90514b9d956
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Message-ID:  <CAO=UG_F2_EfqDG2GMof+_vEfroHAwvX+rO10E=+7CK5qfVsqrw@mail.gmail.com>
+Date:         Mon, 27 Apr 2015 15:35:29 -0400
+Reply-To: Elizabeth Childress <eschildr@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Elizabeth Childress <eschildr@vt.edu>
+Subject: Missing NMR Sample
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c382d03a37c90514b9d956
+Content-Type: text/plain; charset=UTF-8
+
+Hi Everyone,
+
+My NMR sample was taken from the NMR lab. It has a red cap with the code
+name OxaMF. The sample was run yesterday, April 26th. If you find that you
+have this sample, please return it to me or the NMR lab. This is the second
+time I've had this sample taken from me.
+
+Thanks,
+
+Beth Childress
+
+--001a11c382d03a37c90514b9d956
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Everyone,<div><br></div><div>My NMR sample was taken fr=
+om the NMR lab. It has a red cap with the code name OxaMF. The sample was r=
+un yesterday, April 26th. If you find that you have this sample, please ret=
+urn it to me or the NMR lab. This is the second time I&#39;ve had this samp=
+le taken from me.</div><div><br></div><div>Thanks,</div><div><br></div><div=
+>Beth Childress</div></div>
+
+--001a11c382d03a37c90514b9d956--

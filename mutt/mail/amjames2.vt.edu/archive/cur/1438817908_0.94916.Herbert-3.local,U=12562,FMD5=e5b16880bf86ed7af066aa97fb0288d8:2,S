@@ -1,0 +1,151 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp545565qgt;
+        Wed, 5 Aug 2015 11:29:43 -0700 (PDT)
+X-Received: by 10.140.102.144 with SMTP id w16mr18781151qge.82.1438799383582;
+        Wed, 05 Aug 2015 11:29:43 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id b35si6728347qkh.107.2015.08.05.11.29.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 11:29:43 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) client-ip=192.254.112.99;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t75ITZg9004557
+	for <amjames2@vt.edu>; Wed, 5 Aug 2015 14:29:41 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=5wYD1u30lO5OVCgCWO1PO10NfAc=; b=ZusX+tYoLtERgGnU
+	RfNnWn6MT0DMwhP2Sf9iIlb0XBsk7c6lmZr8AI38/R12Z4dK7jZ4v0eWApFvb/k7
+	P/6VcLhVU2Ik2SIJKSJda5fApmZEC8NmpnnYeYU9ZEvF/dqZZWg4ycC5UHN3DY52
+	EIEq0mhkudv1bUm81VPupeOn2TQ=
+Received: by filter0551p1mdw1.sendgrid.net with SMTP id filter0551p1mdw1.6253.55C2560C11
+        2015-08-05 18:29:32.488616613 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0003p1iad1.sendgrid.net (SG) with ESMTP id SI-rREFgSMu6QzZuUJB0cA
+	for <amjames2@vt.edu>; Wed, 05 Aug 2015 18:29:32 +0000 (UTC)
+Date: Wed, 05 Aug 2015 11:29:32 -0700
+From: David Sherrill <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642cff2250c529a22c0efb9a0fe36923aafe8f5eb7992cf0000000111da180c92a169ce05c9b3c1@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/153/128100571@github.com>
+In-Reply-To: <psi4/psi4public/issues/153@github.com>
+References: <psi4/psi4public/issues/153@github.com>
+Subject: Re: [psi4public] crash in Geometry Optimization (#153)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c2560c2be6e_23ab3f7fc273329c172434";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: CDSherrill
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642cff2250c529a22c0efb9a0fe36923aafe8f5eb7992cf0000000111da180c92a169ce05c9b3c1@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642cff2250c529a22c0efb9a0fe36923aafe8f5eb7992cf0000000111da180c92a169ce05c9b3c1@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QlJ49hmeD2Ijlr-cXe1eMmWwGqicks5okk2MgaJpZM4FfWYX>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Ik8FhBlZ05HX0dXHHIuK9wCcpsDFpqZEtia0M
+ UILLrEy9S9jdbVvNqtt+B39lj715505Hh9lqhiqJC06tLy6evw++cWR2KWRLNpJhFr9RE8GtiCWyQo
+ q+vlY3bpad1khv0=
+X-Spam-Status: No, score=-1.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3052
+
+----==_mimepart_55c2560c2be6e_23ab3f7fc273329c172434
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rollin,
+
+Yes, some tips in the manual about difficult optimizations would be helpful!
+
+David
+
+On Tue, Aug 4, 2015 at 9:02 PM, Rollin King <notifications@github.com>
+wrote:
+
+> optking was aborting prematurely. I just pushed the fix to the problem.
+> For this case I found consecutive_backsteps =3D 2 [or more], as well as
+> dynamic_level =3D 1 to now be helpful. (Don't use both at once as that is
+> somewhat redundant.) Sometime I will type up some tips on problematic
+> optimizations. But now optking will at least move you substantially closer
+> to the minimum. Though one may always have to restart an optimization,
+> these options will minimize the manual effort necessary.
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4public/issues/153#issuecomment-127808983>.
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/153#issuecomment-128100571=
+
+----==_mimepart_55c2560c2be6e_23ab3f7fc273329c172434
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rollin,<br>
+<br>
+Yes, some tips in the manual about difficult optimizations would be helpful=
+!<br>
+<br>
+David<br>
+<br>
+On Tue, Aug 4, 2015 at 9:02 PM, Rollin King &lt;notifications@github.com&gt=
+;<br>
+wrote:<br>
+<br>
+&gt; optking was aborting prematurely. I just pushed the fix to the problem=
+.<br>
+&gt; For this case I found consecutive_backsteps =3D 2 [or more], as well a=
+s<br>
+&gt; dynamic_level =3D 1 to now be helpful. (Don&#39;t use both at once as =
+that is<br>
+&gt; somewhat redundant.) Sometime I will type up some tips on problematic<=
+br>
+&gt; optimizations. But now optking will at least move you substantially cl=
+oser<br>
+&gt; to the minimum. Though one may always have to restart an optimization,=
+<br>
+&gt; these options will minimize the manual effort necessary.<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4public/issues/153#issuecomment-1278089=
+83&gt;.<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&mda=
+sh;<br>Reply to this email directly or <a href=3D"https://github.com/psi4/p=
+si4public/issues/153#issuecomment-128100571">view it on GitHub</a>.<img alt=
+=3D"" height=3D"1" src=3D"https://github.com/notifications/beacon/AIn2QjF6z=
+WEC5HsxyMNjzj1BIuWupsCjks5okk2MgaJpZM4FfWYX.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewActi=
+on">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4public/issue=
+s/153#issuecomment-128100571"></link>
+    <meta itemprop=3D"name" content=3D"View Issue"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Issue on GitHub"></me=
+ta>
+</div>
+
+----==_mimepart_55c2560c2be6e_23ab3f7fc273329c172434--

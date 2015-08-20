@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2662163qgt;
+        Tue, 11 Aug 2015 13:05:53 -0700 (PDT)
+X-Received: by 10.60.141.3 with SMTP id rk3mr26414031oeb.3.1439323553249;
+        Tue, 11 Aug 2015 13:05:53 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id n7si5339301qge.126.2015.08.11.13.05.53
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 13:05:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BK5kD6015203
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 16:05:51 -0400
+Date: Tue, 11 Aug 2015 13:05:44 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439323544;
+	bh=e8yys3tUW/mFgZNlaDyGcc8WY5IeWF3zuZX6bemguQ8=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=1YfOhhseMz7CTf+cyqhyVCHJdujCOojOBKvmvPon6ZQ7qLbKLWMNnH2I/j9/6xGw1
+	 eH/s8BvFb3d+kZ/zBG5putKpE3ZcjXf1DzZUcxX9gnlkBMnzBzlnpt6sK/LIjOvmgd
+	 G6VbgJgn8QsNnObE7dKQaqnm3iqHByBuyR+jKSDo=
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6428998b3adaa3926fcc82b98be86a9c6f282743b0492cf0000000111e2179892a169ce05f7d6a1@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issue/158/issue_event/379594426@github.com>
+In-Reply-To: <psi4/psi4public/issues/158@github.com>
+References: <psi4/psi4public/issues/158@github.com>
+Subject: Re: [psi4public] Core dump when native symmetry on (#158)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca55988bc29_2503fe1bf8392b8638036";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6428998b3adaa3926fcc82b98be86a9c6f282743b0492cf0000000111e2179892a169ce05f7d6a1@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6428998b3adaa3926fcc82b98be86a9c6f282743b0492cf0000000111e2179892a169ce05f7d6a1@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qm0NiUdLQ4fdiBCizkYO6LOuPLj8ks5omk0YgaJpZM4Fo5QC>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ca55988bc29_2503fe1bf8392b8638036
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Closed #158.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/158#event-379594426
+----==_mimepart_55ca55988bc29_2503fe1bf8392b8638036
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Closed <a href="https://github.com/psi4/psi4public/issues/158" class="issue-link" title="Core dump when native symmetry on">#158</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/158#event-379594426">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QjdXHU_A_f51QAypTu6fy0OVDXS0ks5omk0YgaJpZM4Fo5QC.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/158#event-379594426"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ca55988bc29_2503fe1bf8392b8638036--

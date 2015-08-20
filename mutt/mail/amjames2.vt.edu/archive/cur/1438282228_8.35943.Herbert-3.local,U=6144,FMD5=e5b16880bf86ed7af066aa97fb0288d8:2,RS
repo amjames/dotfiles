@@ -1,0 +1,125 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp979372qgt;
+        Mon, 20 Apr 2015 01:26:09 -0700 (PDT)
+X-Received: by 10.55.21.17 with SMTP id f17mr26386066qkh.41.1429518368871;
+        Mon, 20 Apr 2015 01:26:08 -0700 (PDT)
+Return-Path: <erik.kallman@kemi.uu.se>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id i62si18947800qkh.58.2015.04.20.01.26.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Apr 2015 01:26:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of erik.kallman@kemi.uu.se designates 130.238.7.172 as permitted sender) client-ip=130.238.7.172;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of erik.kallman@kemi.uu.se designates 130.238.7.172 as permitted sender) smtp.mail=erik.kallman@kemi.uu.se;
+       dkim=pass (test mode) header.i=@uu.se
+Received: from cursor.its.uu.se (smtp-out1.uu.se [130.238.7.172] (may be forged))
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3K8Q1A7031739
+	for <amjames2@vt.edu>; Mon, 20 Apr 2015 04:26:07 -0400
+Received: from e-mailfilter01.sunet.se (e-mailfilter01.sunet.se [192.36.171.201])
+	by cursor.its.uu.se (Postfix) with ESMTP id C3F84F5
+	for <amjames2@vt.edu>; Mon, 20 Apr 2015 10:26:00 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=uu.se;
+	s=centralsmtp; t=1429518360;
+	bh=HWm87qSKrfHjlOQHenk1Of64LSqLr/cniBHEilxTC8s=;
+	h=From:To:Subject:Date;
+	b=gmRTsoneCTMGMFfaQkxE2utGKFGh0LVhYcZGdPRlG6Zc1qd8NctYGQu2pK92uFqDu
+	 wy+9mHlzeImXmIfD2gcA/Q/KOCkmV/0rQBoCpZI9W0I99fXmDkd3hAd0kMA/yYzf0P
+	 ttBzCOPcXIRTtpDE6QFTsvQQCViLqeU7LdqGUkJU=
+Received: from lyra.its.uu.se (lyra.its.uu.se [130.238.7.73])
+	by e-mailfilter01.sunet.se (8.14.4/8.14.4/Debian-4) with ESMTP id t3K8Q0Xa008848
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <amjames2@vt.edu>; Mon, 20 Apr 2015 10:26:00 +0200
+Received: from smtp.user.uu.se (canus01.user.uu.se [130.238.3.117])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by lyra.its.uu.se (Postfix) with ESMTPS id 410DBE8189
+	for <amjames2@vt.edu>; Mon, 20 Apr 2015 10:26:00 +0200 (CEST)
+Received: from COLUMBA03.user.uu.se ([::1]) by CANUS01.user.uu.se ([::1]) with
+ mapi id 14.03.0224.002; Mon, 20 Apr 2015 10:26:00 +0200
+From: =?iso-8859-1?Q?Erik_K=E4llman?= <erik.kallman@kemi.uu.se>
+To: "amjames2@vt.edu" <amjames2@vt.edu>
+Subject: Summer school, special request food 
+Thread-Topic: Summer school, special request food 
+Thread-Index: AQHQe0OhOfi5522SZUOIOXbnubxgpg==
+Date: Mon, 20 Apr 2015 08:25:59 +0000
+Message-ID: <02EB52B539FE7C40AEDAA2A62AA264A218669C59@COLUMBA03.user.uu.se>
+Accept-Language: en-US, sv-SE
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [130.243.201.164]
+Content-Type: multipart/alternative;
+	boundary="_000_02EB52B539FE7C40AEDAA2A62AA264A218669C59COLUMBA03useruu_"
+MIME-Version: 1.0
+X-Bayes-Prob: 0.0001 (Score 0, tokens from: outbound, outbound-uu-se:default, uu-se:default, base:default, @@RPTN)
+X-Spam-Score: -0.10 () [Tag at 15.00] HTML_MESSAGE:0.001,T_RP_MATCHES_RCVD:-0.1
+X-p0f-Info: os=Linux 2.6.x, link=Ethernet or modem
+X-CanIt-Geo: ip=130.238.3.117; country=SE; region=Uppsala; city=Uppsala; latitude=59.8500; longitude=17.6333; http://maps.google.com/maps?q=59.8500,17.6333&z=6
+X-CanItPRO-Stream: outbound-uu-se:outbound (inherits from outbound-uu-se:default,uu-se:default,base:default)
+X-Canit-Stats-ID: 09Oi8q0We - 556eb7e39bde - 20150420
+X-Antispam-Training-Forget: https://mailfilter.sunet.se/canit/b.php?i=09Oi8q0We&m=556eb7e39bde&t=20150420&c=f
+X-Antispam-Training-Nonspam: https://mailfilter.sunet.se/canit/b.php?i=09Oi8q0We&m=556eb7e39bde&t=20150420&c=n
+X-Antispam-Training-Spam: https://mailfilter.sunet.se/canit/b.php?i=09Oi8q0We&m=556eb7e39bde&t=20150420&c=s
+X-CanIt-Archive-Cluster: PfMRe/vJWMiXwM2YIH5BVExnUnw
+Received-SPF: neutral (e-mailfilter01.sunet.se: 130.238.3.117 is neither permitted
+	nor denied by domain erik.kallman@kemi.uu.se)
+	receiver=e-mailfilter01.sunet.se; client-ip=130.238.3.117;
+	envelope-from=<erik.kallman@kemi.uu.se>; helo=lyra.its.uu.se;
+	identity=mailfrom
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 192.36.171.201
+X-Spam-Status: No, score=-2.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,RCVD_IN_DNSWL_MED,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669C59COLUMBA03useruu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi there,
+
+I am an Uppsala University student registered on the Summer School on Respo=
+nse Theory you're having at Virginia Tech, and just wanted to check with yo=
+u so that my supervisor provided the correct information to you with regard=
+s to food.
+
+I'm vegan, and if that is not specified in my registration details,  i woul=
+d be very glad to have that added.
+
+/Erik K=E4llman
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669C59COLUMBA03useruu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style id=3D"owaParaStyle" type=3D"text/css">P {margin-top:0;margin-bottom:=
+0;}</style>
+</head>
+<body ocsi=3D"0" fpstyle=3D"1">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">Hi there,<br>
+<br>
+I am an Uppsala University student registered on the Summer School on Respo=
+nse Theory you're having at Virginia Tech, and just wanted to check with yo=
+u so that my supervisor provided the correct information to you with regard=
+s to food.
+<br>
+<br>
+I'm vegan, and if that is not specified in my registration details,&nbsp; i=
+ would be very glad to have that added.<br>
+<br>
+/Erik K=E4llman<br>
+</div>
+</body>
+</html>
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669C59COLUMBA03useruu_--

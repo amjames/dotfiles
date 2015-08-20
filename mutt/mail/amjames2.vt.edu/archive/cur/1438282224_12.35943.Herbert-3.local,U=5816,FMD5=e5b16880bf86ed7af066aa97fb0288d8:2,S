@@ -1,0 +1,239 @@
+Return-Path: <amjames2@vt.edu>
+Received: from ?IPv6:2001:468:c80:4392:a4c9:1856:ddeb:418f? ([2001:468:c80:4392:a4c9:1856:ddeb:418f])
+        by mx.google.com with ESMTPSA id w186sm6217292qkw.27.2015.04.07.14.49.55
+        for <srijithr@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 07 Apr 2015 14:49:56 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_1A4A93EB-1AB2-4F7B-AD4C-62FC3E49B2F6"
+Message-Id: <F0015E7C-43BC-4925-BBAC-0EFE3A47B6BD@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: CSV data, Andrew James
+Date: Tue, 7 Apr 2015 17:49:55 -0400
+References: <59828F69-04DB-483A-A4BF-AA78C1EE9EE0@vt.edu> <CAA1RhS17-NQCWwVokM7LmTJKLPpGwNCiHRJnsyMgjRGzU52aNw@mail.gmail.com> <4101C028-8EB0-4E4C-BA94-C7A36D2909E8@vt.edu> <CAA1RhS3LZRq=xThyPstMKQyk4bv8EZR=pdSPYtVwUaS0kgj+iQ@mail.gmail.com> <3085B6A5-D8AE-42A0-91A0-CE1BBE5DF8B1@vt.edu> <CAA1RhS2j6RBiLem2V83N95tT46zwPkd6xf7-3mEbuWAv8YB1yw@mail.gmail.com> <750ECD05-AC08-42CB-94F6-ED872DA6BFFB@vt.edu>
+To: Srijith Rajamohan <srijithr@vt.edu>
+In-Reply-To: <750ECD05-AC08-42CB-94F6-ED872DA6BFFB@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+
+--Apple-Mail=_1A4A93EB-1AB2-4F7B-AD4C-62FC3E49B2F6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hello,=20
+
+I am very sorry I was about an hour late for our meeting this morning ( =
+I had accidentally put the appointment in my calendar at 11am not 10).  =
+I hope we are able to reschedule..
+
+Thanks,=20
+=E2=80=94Andrew=20
+> On Apr 3, 2015, at 4:23 PM, Andrew James <Amjames2@vt.edu> wrote:
+>=20
+> I will see you Tuesday morning, thanks=20
+>> On Apr 3, 2015, at 4:14 PM, Srijith Rajamohan <srijithr@vt.edu =
+<mailto:srijithr@vt.edu>> wrote:
+>>=20
+>>=20
+>>  Let us meet around 10 in the morning, if that works.
+>>=20
+>> On Fri, Apr 3, 2015 at 4:09 PM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>> Great!
+>> I would love to come by Tuesday, did you have a particular time in =
+mind?  My only commitment is a class from 2-330 pm.=20
+>>=20
+>> =E2=80=94Andrew=20
+>>> On Apr 3, 2015, at 4:06 PM, Srijith Rajamohan <srijithr@vt.edu =
+<mailto:srijithr@vt.edu>> wrote:
+>>>=20
+>>>=20
+>>>  Thanks for sending me this. Maybe we can put your data in a *.vtk =
+file so we can visualize it.=20
+>>>=20
+>>>  Do you want to stop by on Tuesday with your data so I can look at =
+it ? Identifying it as either nodal data or particle data would be very =
+helpful.
+>>>=20
+>>> Regards,
+>>> Srijith
+>>>=20
+>>> On Fri, Apr 3, 2015 at 3:56 PM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>> There is a different geometry associated with each row of data, =
+however I don=E2=80=99t really know of a good way to store them in a =
+readable file. I normally read them into a three dimensional python =
+array (Geom[I][A][B])
+>>> Where I would be the time step, A, the atom number and B indexes the =
+coordinate x, y, or z.  Then If I want to save them for later I pickle =
+that array using the python pickle module.=20
+>>>=20
+>>> The molecule is 10 atoms in total. Here is a picture of it in its =
+most stable geometry If you would like to take a look.=20
+>>>=20
+>>> <Thiirane_key.png>
+>>>=20
+>>>> On Apr 3, 2015, at 2:56 PM, Srijith Rajamohan <srijithr@vt.edu =
+<mailto:srijithr@vt.edu>> wrote:
+>>>>=20
+>>>>=20
+>>>>  Andrew,
+>>>>=20
+>>>>  Is there no geometry associated with this file ? What was the =
+structure that you wanted to visualize ?
+>>>>=20
+>>>>  Regards,
+>>>>  Srijith
+>>>>=20
+>>>> On Fri, Apr 3, 2015 at 11:55 AM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>>> Hello,
+>>>>=20
+>>>> I have put an example of the data I would like to work with in:
+>>>>=20
+>>>> /home/amjames2/people/srijithr/example.csv
+>>>>=20
+>>>> on blue-ridge.  I can also get the cartesian coordinates of the =
+molecule at each time-step. I also was mistaken when we spoke earlier, =
+my simulation runs for 20,000 times steps but I have take samples at =
+every 5th step, so there are only 4000 rows of data in this file.
+>>>>=20
+>>>> Thanks again for your help,
+>>>>=20
+>>>> =E2=80=94Andrew
+>>>>=20
+>>>=20
+>>>=20
+>>=20
+>>=20
+>=20
+
+
+--Apple-Mail=_1A4A93EB-1AB2-4F7B-AD4C-62FC3E49B2F6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Hello,&nbsp;<div class=3D""><br class=3D""></div><div =
+class=3D"">I am very sorry I was about an hour late for our meeting this =
+morning ( I had accidentally put the appointment in my calendar at 11am =
+not 10). &nbsp;I hope we are able to reschedule..</div><div class=3D""><br=
+ class=3D""></div><div class=3D"">Thanks,&nbsp;</div><div =
+class=3D"">=E2=80=94Andrew&nbsp;<br class=3D""><div><blockquote =
+type=3D"cite" class=3D""><div class=3D"">On Apr 3, 2015, at 4:23 PM, =
+Andrew James &lt;<a href=3D"mailto:Amjames2@vt.edu" =
+class=3D"">Amjames2@vt.edu</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space;" class=3D"">I will see you =
+Tuesday morning, thanks&nbsp;<br class=3D""><div class=3D""><blockquote =
+type=3D"cite" class=3D""><div class=3D"">On Apr 3, 2015, at 4:14 PM, =
+Srijith Rajamohan &lt;<a href=3D"mailto:srijithr@vt.edu" =
+class=3D"">srijithr@vt.edu</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><div dir=3D"ltr" =
+class=3D""><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif">&nbsp;Let =
+us meet around 10 in the morning, if that works.</div></div><div =
+class=3D"gmail_extra"><br class=3D""><div class=3D"gmail_quote">On Fri, =
+Apr 3, 2015 at 4:09 PM, Andrew James <span dir=3D"ltr" class=3D"">&lt;<a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank" =
+class=3D"">amjames2@vt.edu</a>&gt;</span> wrote:<br class=3D""><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex"><div style=3D"word-wrap:break-word" =
+class=3D"">Great!<div class=3D"">I would love to come by Tuesday, did =
+you have a particular time in mind?&nbsp; My only commitment is a class =
+from 2-330 pm.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">=E2=80=94Andrew&nbsp;<br class=3D""><div class=3D""><blockquote=
+ type=3D"cite" class=3D""><span class=3D""><div class=3D"">On Apr 3, =
+2015, at 4:06 PM, Srijith Rajamohan &lt;<a href=3D"mailto:srijithr@vt.edu"=
+ target=3D"_blank" class=3D"">srijithr@vt.edu</a>&gt; wrote:</div><br =
+class=3D""></span><div class=3D""><span class=3D""><div dir=3D"ltr" =
+class=3D""><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">&nbsp;Thanks for sending me =
+this. Maybe we can put your data in a *.vtk file so we can visualize =
+it.&nbsp;</div><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif">&nbsp;Do =
+you want to stop by on Tuesday with your data so I can look at it ? =
+Identifying it as either nodal data or particle data would be very =
+helpful.</div><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">Regards,</div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">Srijith</div></div></span><div =
+class=3D"gmail_extra"><br class=3D""><div class=3D"gmail_quote"><span =
+class=3D"">On Fri, Apr 3, 2015 at 3:56 PM, Andrew James <span dir=3D"ltr" =
+class=3D"">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank" =
+class=3D"">amjames2@vt.edu</a>&gt;</span> wrote:<br =
+class=3D""></span><blockquote class=3D"gmail_quote" style=3D"margin:0 0 =
+0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+style=3D"word-wrap:break-word" class=3D""><span class=3D"">There is a =
+different geometry associated with each row of data, however I don=E2=80=99=
+t really know of a good way to store them in a readable file. I normally =
+read them into a three dimensional python array (Geom[I][A][B])<div =
+class=3D"">Where I would be the time step, A, the atom number and B =
+indexes the coordinate x, y, or z.&nbsp; Then If I want to save them for =
+later I pickle that array using the python pickle =
+module.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">The molecule is 10 atoms in total. Here is a picture of it in =
+its most stable geometry If you would like to take a =
+look.&nbsp;</div><div class=3D""><br class=3D""></div></span><div =
+class=3D""><span class=3D"">&lt;Thiirane_key.png&gt;</span><span =
+class=3D""><div class=3D""><div class=3D""><br class=3D""><div =
+class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On Apr =
+3, 2015, at 2:56 PM, Srijith Rajamohan &lt;<a =
+href=3D"mailto:srijithr@vt.edu" target=3D"_blank" =
+class=3D"">srijithr@vt.edu</a>&gt; wrote:</div><br class=3D""><div =
+class=3D""><div dir=3D"ltr" class=3D""><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">&nbsp;Andrew,</div><div =
+class=3D"gmail_default" style=3D"font-family:tahoma,sans-serif"><br =
+class=3D""></div><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">&nbsp;Is there no geometry =
+associated with this file ? What was the structure that you wanted to =
+visualize ?</div><div class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif"><br class=3D""></div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">&nbsp;Regards,</div><div =
+class=3D"gmail_default" =
+style=3D"font-family:tahoma,sans-serif">&nbsp;Srijith</div></div><div =
+class=3D"gmail_extra"><br class=3D""><div class=3D"gmail_quote">On Fri, =
+Apr 3, 2015 at 11:55 AM, Andrew James <span dir=3D"ltr" class=3D"">&lt;<a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank" =
+class=3D"">amjames2@vt.edu</a>&gt;</span> wrote:<br class=3D""><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex">Hello,<br class=3D"">
+<br class=3D"">
+I have put an example of the data I would like to work with in:<br =
+class=3D"">
+<br class=3D"">
+/home/amjames2/people/srijithr/example.csv<br class=3D"">
+<br class=3D"">
+on blue-ridge.&nbsp; I can also get the cartesian coordinates of the =
+molecule at each time-step. I also was mistaken when we spoke earlier, =
+my simulation runs for 20,000 times steps but I have take samples at =
+every 5th step, so there are only 4000 rows of data in this file.<br =
+class=3D"">
+<br class=3D"">
+Thanks again for your help,<br class=3D"">
+<br class=3D"">
+=E2=80=94Andrew </blockquote></div><br class=3D""></div>
+</div></blockquote></div><br =
+class=3D""></div></div></span></div></div></blockquote></div><br =
+class=3D""></div>
+</div></blockquote></div><br class=3D""></div></div></blockquote></div><br=
+ class=3D""></div>
+</div></blockquote></div><br class=3D""></div></div></blockquote></div><br=
+ class=3D""></div></body></html>=
+
+--Apple-Mail=_1A4A93EB-1AB2-4F7B-AD4C-62FC3E49B2F6--

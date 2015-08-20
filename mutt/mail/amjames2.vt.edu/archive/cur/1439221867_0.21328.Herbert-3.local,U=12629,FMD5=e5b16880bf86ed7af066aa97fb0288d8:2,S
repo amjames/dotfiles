@@ -1,0 +1,216 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1853647qgt;
+        Mon, 10 Aug 2015 06:32:56 -0700 (PDT)
+X-Received: by 10.140.144.208 with SMTP id 199mr39612009qhq.47.1439213576147;
+        Mon, 10 Aug 2015 06:32:56 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id h69si23398110qkh.122.2015.08.10.06.32.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 06:32:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.179 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-io0-f179.google.com (mail-io0-f179.google.com [209.85.223.179])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7ADBMAf017163
+	for <amjames2@vt.edu>; Mon, 10 Aug 2015 09:11:27 -0400
+Received: by iodb91 with SMTP id b91so108574115iod.1
+        for <amjames2@vt.edu>; Mon, 10 Aug 2015 06:11:22 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:from:to:subject:date
+         :list-unsubscribe:mime-version:reply-to:message-id:content-type;
+        bh=VTkqCXpuG/ZNr/2y/rdNbBdFrlrNzMRoP1TZlc5XaRA=;
+        b=Us9NIZk8KJyHk+NezrSCDrA8PN+uiHWP4WQJb5oKz5qC7BLfjt1jlR+8UW2wj6hHY4
+         a1z458qzdOlEyp09ED4JBG/VUJXsg6hri/Bq+S1AZ6g2IvH5bv+bxXjQyW75DCjlroXd
+         V01U0gUnL6VfNXudAblbjBaqIrjtywlqD5U2o2es+kf0tQbj474fkDwvrfdONnGiD57c
+         P69izhW4XJISdC1kNUqsW4YQyX4m8nng+e6GTgFOmchx7XJc7yuHogXrANH7B9+qKOM3
+         onoHor8uEg5wwwdEbLCqZFbuifcjxD+Lmiur0r0gVtlzTaL2qQq2zk4Yqfd5ByQMxCaX
+         MFCA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of bounce-1419141_HTML-1335387008-24301328-97566-0@bounce.aep-email.com designates 66.231.88.35 as permitted sender) smtp.mail=bounce-1419141_HTML-1335387008-24301328-97566-0@bounce.aep-email.com
+X-Received: by 10.107.162.142 with SMTP id l136mr1665996ioe.76.1439212282492;
+        Mon, 10 Aug 2015 06:11:22 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1873095iee;
+        Mon, 10 Aug 2015 06:11:21 -0700 (PDT)
+X-Received: by 10.70.134.134 with SMTP id pk6mr33966491pdb.143.1439212281288;
+        Mon, 10 Aug 2015 06:11:21 -0700 (PDT)
+Received: from mta.aep-email.com (mta.aep-email.com. [66.231.88.35])
+        by mx.google.com with ESMTPS id yb5si8939052pab.209.2015.08.10.06.11.19
+        for <andrew.m.james2@gmail.com>
+        (version=TLS1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 10 Aug 2015 06:11:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-1419141_HTML-1335387008-24301328-97566-0@bounce.aep-email.com designates 66.231.88.35 as permitted sender) client-ip=66.231.88.35;
+Received: by mta.aep-email.com id hp2hfg163hsd for <andrew.m.james2@gmail.com>; Mon, 10 Aug 2015 07:03:29 -0600 (envelope-from <bounce-1419141_HTML-1335387008-24301328-97566-0@bounce.aep-email.com>)
+From: "Appalachian Power" <communications@appalachianpower-mail.com>
+To: <andrew.m.james2@gmail.com>
+Subject: Let us work for you!
+Date: Mon, 10 Aug 2015 07:03:28 -0600
+List-Unsubscribe: <mailto:leave-fc861574746d0579747b28313958-fdf91573766107757214707d-fe6816747664057e771c-feee1d77706202-ffcf14@leave.aep-email.com>
+MIME-Version: 1.0
+Reply-To: "American Electric Power" <reply-fe6816747664057e771c-1419141_HTML-1335387008-97566-0@aep-email.com>
+x-job: 97566_24301328
+Message-ID: <1c92e21a-c333-48f7-abbe-03774b55534c@xtinmta181.xt.local>
+Content-Type: multipart/alternative;
+	boundary="xEmxXjpK8mvq=_?:"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_IMAGE_RATIO_08,
+	HTML_MESSAGE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format.
+
+--xEmxXjpK8mvq=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+To view this email as a web page, go to the link below, or copy and paste it into your browser's address window.
+http://click.aep-email.com/?qs=27277d097352c35e6fe7f981dc38d2e1f9638f1d04c5446819fab5a8a319d9de
+
+http://click.aep-email.com/?qs=27277d097352c35eac7c36060dbd9cbeee32177e5b2b8b76c2f92c9778e5cec1 
+
+   
+
+   
+
+   
+
+   
+
+It's time to make Appalachian Power work for you! 
+http://click.aep-email.com/?qs=27277d097352c35ea5df03874e4b1ace9afe2d69ea0c22d7d920663827da574a 
+Set up paperless billing  and we will send you an email when your bill is ready.
+
+http://click.aep-email.com/?qs=27277d097352c35e4cac808208eb536645632fbd71c997fad0f27fca25ef46fc 
+
+   
+
+   
+
+   
+
+http://click.aep-email.com/?qs=27277d097352c35ebcf9131c155db37940807d0b0809ed98c26880ccb601d379 
+Set up account alerts  and be alerted via text or email or both about power outages at your address. We can also alert you when we receive your payment and when your due date is approaching!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+http://click.aep-email.com/?qs=27277d097352c35e751157fd321589bba8a4622e66e86f8788ee7071f8544d0c 
+Appalachian Power  can do all of this for you! Simply 
+http://click.aep-email.com/?qs=27277d097352c35e751157fd321589bba8a4622e66e86f8788ee7071f8544d0c 
+logon  to your account and get started today! 
+
+ 
+
+To discontinue all emails from 
+http://click.aep-email.com/?qs=27277d097352c35e751157fd321589bba8a4622e66e86f8788ee7071f8544d0c 
+Appalachian Power  please reply to this email. Indicate in your comments that you wish to unsubscribe from future communications from us.   
+
+http://click.aep-email.com/?qs=27277d097352c35ee2b0f84ecc3a77c5eef9679eb9228e6f66116fbfe65d1dd3 
+ 
+http://click.aep-email.com/?qs=27277d097352c35eed2bc03d4676974d4c3e7447bbe71e566d9abb08d8b42126 
+ 
+http://click.aep-email.com/?qs=27277d097352c35e7e58651901b385dc48ca90d8dd8ee74ae3cf2695dbf78eff 
+
+http://click.aep-email.com/?qs=27277d097352c35ebba4aced49ad86e21db7ec2545d4e06a965bc1a3f3001715 
+Update Email  | 
+http://click.aep-email.com/?qs=27277d097352c35e73f5804bf223172d088fcace42accd6db87c91b94e0202fb 
+Privacy  | 
+http://click.aep-email.com/?qs=27277d097352c35e85a934495e9f2937a2672ca1bf7d0d59d44aab4696ddbbf7 
+Contact Us 
+
+ 
+
+Appalachian Power
+1100 Chase Tower
+Charleston, WV 25301 USA 
+
+
+
+           
+
+--xEmxXjpK8mvq=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<HTML><body bgcolor="#ffffff" text="#000000"><P><center><table width="600" cellpadding="0" cellspacing="0" border="0"> <tr>  <td width="100%" align="center">  <font face="verdana" size="1" color="#444444"> To view this email as a web page, go   <a href="http://click.aep-email.com/?qs=27277d097352c35ed1905159d235c0de1a8438a3d508d73bbe16b1f8f46cdec2" > here.</a><br>  </font>  </td> </tr> </table> </center></P><table cellspacing="0" cellpadding="0" border="0"  bgcolor="#ffffff" width="600" align="center"><tr><td><tr border="0" cellpadding="0" cellspacing="0" width="600" align=center margin="0">
+	<td style="margin-top: 0px; margin-bottom: 0px;" align="center"><IMG id=image-placeholder title=img_APCOClouds src="http://image.aep-email.com/lib/feee1d77706202/m/1/img_APCOClouds.jpg" border=0 mdid="f77cc16f-85c3-4a1a-a701-8e209b513f70"></td>
+</tr>
+
+</td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td width="10"><img alt="" src="http://image.aep-email.com/lib/ffcf14/m/1/spacer.gif" height="1" width="10" border="0" style="display: block;" /></td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td><img alt="" src="http://image.aep-email.com/lib/ffcf14/m/1/spacer.gif" height="10" width="1" border="0" style="display: block;" /></td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td valign="top" width="33%" align="left"></td>
+								<td valign="top" width="2%"><img alt="" src="http://image.aep-email.com/lib/ffcf14/m/1/spacer.gif" height="1" width="10" style="display: block;" /></td>
+								<td valign="top" width="65%" align="left"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="" cellpadding="5" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><a href="http://click.aep-email.com/?qs=27277d097352c35eac7c36060dbd9cbeee32177e5b2b8b76c2f92c9778e5cec1"  title="" ><img st="L" id="image-placeholder" style="margin-left: 10px; margin-bottom: 5px;" src="http://image.aep-email.com/lib/feee1d77706202/m/1/Stop+waiting.png" title="Stop waiting" mdid="2b4c0e96-dbfd-4114-954f-37c66733bba6" align="right" border="0" height="224" width="185"></a>
+<p id="text-placeholder" style="margin-top:0px; margin-bottom:0px;"><br></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp; </p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp; </p><p style="margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp; </p><p style="margin-top:0px; margin-bottom:0px;">&nbsp;&nbsp; </p>
+<p style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">It's time to make Appalachian Power work for you! <a   title="Set up paperless billing" href="http://click.aep-email.com/?qs=27277d097352c35e7e28afac90c7470f9e4d6e6d4094ef55bd170a680cf29a87">Set up paperless billing</a> and we will send you an email when your bill is ready.</font></p></td></tr></table></td></tr></table></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="" cellpadding="5" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><a href="http://click.aep-email.com/?qs=27277d097352c35e4cac808208eb536645632fbd71c997fad0f27fca25ef46fc"  title="" ><img st="L" id="image-placeholder" style="margin-right: 10px; margin-bottom: 5px; width: 189px; height: 200px;" src="http://image.aep-email.com/lib/feee1d77706202/m/1/Find+out.png" title="Find out" mdid="7e0afa7a-3590-46ef-b0e7-dbfca8592943" align="left" border="0" height="200" width="189"></a>
+<p id="text-placeholder" style="margin-top:0px; margin-bottom:0px;"></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;&nbsp; </font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;&nbsp; </font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;&nbsp; </font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4"><a   title="Set up account alerts" href="http://click.aep-email.com/?qs=27277d097352c35eecd2799de62ce95225916d7b7710b797896a33cf1651ba70">Set up account alerts
+</a> and be alerted via text or email or both about power outages at your address. We can also alert you when we receive your payment and when your due date is approaching!<br></font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;</font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;</font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;</font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;</font></p><p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4">&nbsp;</font></p>
+<p style="margin-top:0px; margin-bottom:0px;"><font face="Arial Narrow" size="4"><a   title="Appalachian Power" href="http://click.aep-email.com/?qs=27277d097352c35e63f55d19848188159be351d6c0bf0f35a7fa2f5380f3efea">Appalachian Power</a> can do all of this for you! Simply <a   title="logon" href="http://click.aep-email.com/?qs=27277d097352c35e3898c07e4ca10931f40deb3d45101ca6104b541ac8c65289">logon</a> to your account and get started today! <br></font></p></td></tr></table></td></tr></table></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="" cellpadding="5" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px">&nbsp;
+<P><P>To discontinue all emails from&nbsp;<A title="Appalachian Power" href="http://click.aep-email.com/?qs=27277d097352c35e63f55d19848188159be351d6c0bf0f35a7fa2f5380f3efea"  >Appalachian Power</A>&nbsp;please reply to this email.&nbsp;Indicate in your comments that you&nbsp;wish to unsubscribe from&nbsp;future communications from us.&nbsp;&nbsp;&nbsp;</P></P>
+<P><P align=center><A title=Facebook href="http://click.aep-email.com/?qs=27277d097352c35e785ccb1a3edcdc780e467c5f90a533c595fea7cf395363a9"  ><IMG id=image-placeholder title="icon_facebook32 copy" src="http://image.aep-email.com/lib/feee1d77706202/m/1/icon_facebook32+copy.jpg" border=0 mdid="d949b3c7-99b4-4a2b-a848-73846dedc3f3"></A>&nbsp;<A title=Twitter href="http://click.aep-email.com/?qs=27277d097352c35edce9b44c23ff43c42037f33a59e8d8e44f8a689b65483323"  ><IMG id=image-placeholder title=icon_twitter_copy src="http://image.aep-email.com/lib/feee1d77706202/m/1/icon_twitter_copy.jpg" border=0 mdid="a9887382-b449-44de-9ace-e68f3406c98a"></A>&nbsp;<A title=YouTube href="http://click.aep-email.com/?qs=27277d097352c35ea60cd34292dbc079b48167b4397add9320f76b52a458d10a"  >
+<IMG id=image-placeholder title=youTubeLogoSmall src="http://image.aep-email.com/lib/feee1d77706202/m/1/youTubeLogoSmall.gif" border=0 mdid="753af844-e538-42bb-9be3-3c88abea6daf"></A></P></P>
+<P><P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><A title="Update Email" href="http://click.aep-email.com/?qs=27277d097352c35e75bd1dfbbfbf47f2a4d9542f50a0f2da14992617840dd909"  >Update Email</A> | <A title=Privacy href="http://click.aep-email.com/?qs=27277d097352c35e2f40b6ade93993d2c3cbe785e865af26c2bfa243cc1b0aa7"  >Privacy</A> | <A title="Contact Us" href="http://click.aep-email.com/?qs=27277d097352c35e1031aa2ab57664b7598772ba28356423519c9e857b403fb1"  >Contact Us</A></P></P>
+<P><P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center>&nbsp;</P></P>
+<P><P dir=ltr style="MARGIN-RIGHT: 0px" align=left><FONT face=verdana color=#777777 size=1>Appalachian Power<BR>1100 Chase Tower<BR>Charleston, WV 25301 USA </FONT></P></P></td></tr></table></td></tr></table></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td style="padding-top: 10px;" valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td><img alt="" src="http://image.aep-email.com/lib/ffcf14/m/1/spacer.gif" height="10" width="1" border="0" style="display: block;" /></td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"><img alt="" src="http://image.aep-email.com/lib/ffcf14/m/1/spacer.gif" height="1" width="10" border="0" style="display: block;" /></td>
+	</tr>
+</table></td></tr></table><img src="http://click.aep-email.com/open.aspx?ffcb10-fe6816747664057e771c-fdcd15707763007a7510707060-feee1d77706202-fe9a1574746d057974-fdf91573766107757214707d-ffcf14&d=10047" width="1" height="1"> </body></html>
+
+--xEmxXjpK8mvq=_?:--
+

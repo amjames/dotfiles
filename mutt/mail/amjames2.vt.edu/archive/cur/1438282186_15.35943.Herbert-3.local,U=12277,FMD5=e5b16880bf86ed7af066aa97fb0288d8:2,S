@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp598794qgt;
+        Thu, 23 Jul 2015 13:05:50 -0700 (PDT)
+X-Received: by 10.140.234.1 with SMTP id f1mr15209960qhc.48.1437681950844;
+        Thu, 23 Jul 2015 13:05:50 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id k62si7168991qge.19.2015.07.23.13.05.50
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 13:05:50 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) client-ip=192.254.112.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o3.sgmail.github.com (o3.sgmail.github.com [192.254.112.98])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6NK5ilx030734
+	for <amjames2@vt.edu>; Thu, 23 Jul 2015 16:05:49 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=TIcoUWo1XJZzuEhyvgQr1WDIk6s=; b=o+sxEhSsxqQKT1aq
+	NhAo2LI5hB4l/HjOX17lYYNhP/jmh7uL3b0Ycma4Nu+z7Pnzz/tYikmFckkTBTZW
+	tfdLgq7qycdyW3SZsu70KOAfFJGi0lTH01zBcZRMV4qoPbtxPmDHEY7nujt2Zh5T
+	VGOjwxLYq6ZCxMAcF980u1hlOzw=
+Received: by filter0800p1mdw1.sendgrid.net with SMTP id filter0800p1mdw1.18341.55B1491721
+        2015-07-23 20:05:43.805505929 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-037 (SG) with ESMTP id 14ebc8583e2.26e1.181a64
+	for <amjames2@vt.edu>; Thu, 23 Jul 2015 20:05:43 +0000 (UTC)
+Date: Thu, 23 Jul 2015 13:05:43 -0700
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642280059e16af319cad9265de41a4db730266c3d5792cf0000000111c90b1792a169ce05a7bc95@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/115/124225470@github.com>
+In-Reply-To: <psi4/psi4public/issues/115@github.com>
+References: <psi4/psi4public/issues/115@github.com>
+Subject: Re: [psi4public] efp finalization (#115)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55b14917620ca_be23f81b628329c1286936";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642280059e16af319cad9265de41a4db730266c3d5792cf0000000111c90b1792a169ce05a7bc95@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642280059e16af319cad9265de41a4db730266c3d5792cf0000000111c90b1792a169ce05a7bc95@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qu_gqRk6W60UzmBO-sgC7iQDZds_ks5ogUCXgaJpZM4FYA6d>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Im1cW/lc0bvw+6cPKCqCJEIAHRwRJxWsdRAhv
+ qCS5Mes+O7iE2255WFX9D1mf69yWhoqvPxQ+/tWD+vbn4379m3AcqbWem3iPxQdTXkSkCG6mCxdPho
+ cwmB+zmiYWsCPYc=
+X-Spam-Status: No, score=-2.6 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55b14917620ca_be23f81b628329c1286936
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The commit above was probably necessary (solves the segfault) but not sufficient, as spherical basis wavefunction polarization energies still off. Necessary analogous q-chem calcs run and test prepared such that when https://github.com/psi4/psi4public/blob/master/tests/libefp/libefp-qchem-qmefp-puream-sp /input.dat passes, this issue is fixed.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/115#issuecomment-124225470
+----==_mimepart_55b14917620ca_be23f81b628329c1286936
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>The commit above was probably necessary (solves the segfault) but not sufficient, as spherical basis wavefunction polarization energies still off. Necessary analogous q-chem calcs run and test prepared such that when <a href="https://github.com/psi4/psi4public/blob/master/tests/libefp/libefp-qchem-qmefp-puream-sp">https://github.com/psi4/psi4public/blob/master/tests/libefp/libefp-qchem-qmefp-puream-sp</a> /input.dat passes, this issue is fixed.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/115#issuecomment-124225470">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QhyYS6Y8eOsyfQFn29xTZ7VRN62_ks5ogUCXgaJpZM4FYA6d.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/115#issuecomment-124225470"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55b14917620ca_be23f81b628329c1286936--

@@ -1,0 +1,1262 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp2060183iee;
+        Tue, 28 Jul 2015 01:23:50 -0700 (PDT)
+X-Received: by 10.180.81.103 with SMTP id z7mr4059349wix.21.1438071829503;
+        Tue, 28 Jul 2015 01:23:49 -0700 (PDT)
+Return-Path: <hans.lischka@univie.ac.at>
+Received: from grace.univie.ac.at (grace.univie.ac.at. [2001:62a:4:25::25:115])
+        by mx.google.com with ESMTPS id fv11si4640576wic.13.2015.07.28.01.23.48
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Jul 2015 01:23:49 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of hans.lischka@univie.ac.at designates 2001:62a:4:25::25:115 as permitted sender) client-ip=2001:62a:4:25::25:115;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of hans.lischka@univie.ac.at designates 2001:62a:4:25::25:115 as permitted sender) smtp.mail=hans.lischka@univie.ac.at;
+       dkim=pass header.i=@univie.ac.at;
+       dmarc=pass (p=NONE dis=NONE) header.from=univie.ac.at
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=univie.ac.at; s=rev2;
+	h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:From:Cc:References:To:Subject; bh=TYr8tKWiOlSgKQ3ODvzPFkcrvRPvZHvdCflquWgkLwo=;
+	b=jthAYI2Rt8UPOr1Ajs9peYqchYu5v9jLpFh/M9J7SbAL9L4XP3oTEnoKz9UeOmIpT04wxo4YcY/6G8nDAgFME+TuZWIVq6/NPAgWPs4t3zhrdsKMHCWkdWANa6FmJoUMxQI91tLINQsdRKNR4cmKV5cRGVmqROKob0EvqyYDHBU=;
+Received: from jarvis.univie.ac.at ([131.130.3.112] helo=jarvis.univie.ac.at)
+	by grace.univie.ac.at with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZK0Au-0001mP-4t; Tue, 28 Jul 2015 10:23:48 +0200
+Received: from [2001:62a:6:1::d]
+	by jarvis.univie.ac.at with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZK0As-0003OA-7I; Tue, 28 Jul 2015 10:23:48 +0200
+Subject: Re: polyradical paper
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+References: <55736B10.9020807@univie.ac.at>
+ <CAH0V_1ZT05jN7hpMHYn2L5sa1BRF82c1+SZTiyGf4DsUO+pRYA@mail.gmail.com>
+ <557CDE08.5010507@univie.ac.at>
+ <CAH0V_1bZ5xXucZxkMGtY7-182su2Bk9n1Ns_dVkfs4UUFrALBQ@mail.gmail.com>
+ <559050BC.7040805@univie.ac.at>
+ <CAH0V_1bzAw+V_ywB40_GucSdMb7X5yF3NuLGmBoChQpiYeaNvg@mail.gmail.com>
+ <55B5EE49.9080107@univie.ac.at>
+ <CAH0V_1a2X8pskCm_KQ1bxNCUgdgrkrMKnQJs5dUK29SQGQ27xg@mail.gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>,
+ Anita Das <anitadas.chem@gmail.com>
+From: Hans Lischka <hans.lischka@univie.ac.at>
+Message-ID: <55B73C11.2060108@univie.ac.at>
+Date: Tue, 28 Jul 2015 03:23:45 -0500
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.1.0
+MIME-Version: 1.0
+In-Reply-To: <CAH0V_1a2X8pskCm_KQ1bxNCUgdgrkrMKnQJs5dUK29SQGQ27xg@mail.gmail.com>
+Content-Type: multipart/mixed;
+ boundary="------------050509020109080700000806"
+X-Univie-Virus-Scan: scanned by ClamAV on jarvis.univie.ac.at
+
+This is a multi-part message in MIME format.
+--------------050509020109080700000806
+Content-Type: multipart/alternative;
+ boundary="------------070207060305040209080805"
+
+
+--------------070207060305040209080805
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Dear Daniel,
+
+I am attaching the analysis of zethrene which Anita sent me. Currently, 
+I am in Vienna and have only e-mail contact. I added some comments to 
+her text. It is written with Track Changes, mainly for her information.
+It seems to me that polarizing the Ag orbitals we get practically the 
+same results as you, as much as I could see form the orbital energies. 
+However, it would be good to know also your total energies and to 
+compare the shape of the HOMO and LUMO.
+
+ From the first stability analysis one would say that also the orbitals 
+should be polarized in bu symmetry. It is surprising that this 
+instability vanishes after modifying the ag orbitals.
+In order to take into account the bu instability we performed a 
+calculation in Cs symmetry and got a significant stabilization with 
+respect to the ag step. Please see the attached file for details. Please 
+note that the symmetry labels C2h and Cs refers only to the MOs! The 
+geometry had been fixed for all calculations reported here at C2h symmetry.
+With the broken Cs MOs we have also made geometry optimization getting 
+an additional stabilization, but this is not considered here.
+
+Could you do similar calculations for comparison?
+Best regards, Hans
+
+On 7/27/2015 10:38 AM, T. Daniel Crawford wrote:
+> Dear Hans,
+>
+> Yes, I agree that we should carefully compare our UHF wave functions.  
+> Regarding the instability indices, the initial UHF determinant (which 
+> is really RHF), we find the following negative MO Hessian indices:
+>
+> Bu -0.103572       Ag -0.052371       Bu -0.016712 Ag -0.007614
+>
+> We follow the Ag eigenvector and re-compute the SCF to obtain a new 
+> UHF wave function with the following lowest MO Hessian indices:
+>
+> Bu 0.032601        Ag 0.050644        Ag 0.097847  Bu 0.111535
+>
+> For this wave function, the alpha/beta HOMOs have energies 
+> -0.216068/-0.282375 E_h, and the alpha/beta LUMOs are at 
+> 0.092356/0.033109 E_h.
+>
+> We don't have natural orbitals for the UHF wave function.  Actually, I 
+> have to admit that I'm not sure what you mean by UHF natural orbitals 
+> since the MOs all have integer occupations.  Do you define those as 
+> the eigenvectors of the sum of the alpha and beta densities?
+>
+> Best regards,
+>
+> -Daniel
+>
+>
+>
+> -- 
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu <mailto:crawdad@vt.edu>
+>
+> On Mon, Jul 27, 2015 at 4:39 AM, Hans Lischka 
+> <hans.lischka@univie.ac.at <mailto:hans.lischka@univie.ac.at>> wrote:
+>
+>     Dear Daniel,
+>
+>     Thank you for your results. Your calculations based on the RHF and
+>     UHF give  very similar NO occupations. We should compare the
+>     results in more detail. In our Table 5 we give the NO occupations
+>     of the UHF density. They are close to single occupation (4: HONO
+>     1.234, LUNO 0.766). This should be the starting occupations for
+>     your CCSD calculations. Could you please compare this with your
+>     UHF results? Also, we should compare the character of the
+>     instability, for which orbitals does it occur. We should also
+>     compare the total SCF energies (restricted and unrestricted).
+>     Anita, could you please collect our results in more detail?
+>
+>     Best regards, Hans
+>
+>     On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+>>     Dear Hans,
+>>
+>>     We do agree that structure 4 is a strong example. AJ has
+>>     recomputed the CCSD natural orbitals for both 4 and 7, including
+>>     following the totally symmetric UHF orbital instabilities to the
+>>     spin-polarized orbitals.  However, the occupation numbers still
+>>     do not reveal substantial polyradical character.  See the
+>>     attached report from AJ for some details.
+>>
+>>     -TDC
+>>
+>>     -- 
+>>     Prof. T. Daniel Crawford
+>>     crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>
+>>     On Sun, Jun 28, 2015 at 3:53 PM, Hans Lischka
+>>     <hans.lischka@univie.ac.at <mailto:hans.lischka@univie.ac.at>> wrote:
+>>
+>>         Dear Daniel,
+>>
+>>         Thank you very much for your e-mail. We are looking forward
+>>         to your results. The most important question from my point of
+>>         view is whether the restricted or the unrestricted approach
+>>         is the appropriate one (see my previous e-mail). I think we
+>>         should concentrate on that question first of all, taking the
+>>         heptazethrene (str. 4) as example. According to your
+>>         restricted calculations one gets a closed shell state, but
+>>         our multireference calculations and also the UHF density
+>>         shows the opposite. What do you think?
+>>
+>>         Best regards, Hans
+>>
+>>
+>>         On 6/26/2015 10:42 PM, T. Daniel Crawford wrote:
+>>>         Dear Hans,
+>>>
+>>>         I want to apologize for the delay in our response.  AJ and I
+>>>         have been dealing with a pair of summer schools – one
+>>>         focused on computational chemistry software development, the
+>>>         other on molecular response properties – that started this
+>>>         past week and will continue through next week.  I'm the host
+>>>         and an instructor in both schools, and AJ has been
+>>>         invaluable as the primary organizer.  Unfortunately, the
+>>>         schools have pulled us both away from dealing with the
+>>>         polyradical project.  AJ has continued his computations, but
+>>>         we haven't been able to get together to go through his
+>>>         results and provide you with a proper response.  I promise
+>>>         that we will get back to you and Anita as soon as possible.
+>>>
+>>>         Thanks for your patience!
+>>>
+>>>         Best regards,
+>>>
+>>>         -Daniel
+>>>
+>>>         -- 
+>>>         Prof. T. Daniel Crawford
+>>>         crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>
+>>>         On Sat, Jun 13, 2015 at 9:51 PM, Hans Lischka
+>>>         <hans.lischka@univie.ac.at
+>>>         <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>
+>>>             Dear Daniel, dear Andrew,
+>>>
+>>>             Thank you for your e-mail and the data.
+>>>             Concerning geometry differences: these are very small
+>>>             and come from the fact that Anita used Gaussian and
+>>>             Turbomole to verify the consistency of the results. She
+>>>             sent you the Gaussian optimized geometries but then
+>>>             followed up with Turbomole calculations. Finally, we
+>>>             decided to base all results on Turbomole and she changed
+>>>             the coordinates in the Supp. Mat. I am attaching her
+>>>             comments. You can see there that differences are
+>>>             negligible and you need not redo the calculations.
+>>>             Concerning the question of the symmetry in the UDFT
+>>>             geometry optimizations for structures 4-8. These were
+>>>             performed for the singlet ground states. The closed
+>>>             shell high-symmetry DFT solution is unstable. The spin
+>>>             unrestricted (U)DFT wavefunction is symmetry broken and
+>>>             has only Cs symmetry. You can see the orbitals  in Figs.
+>>>             9S-13S of the Supp. Mat. The C2h in Fig. 10S should also
+>>>             read as Cs. Thus, the MOs have Cs symmetry, but alpha
+>>>             and beta orbitals are equivalent so that the structural
+>>>             symmetry is higher, C2h and D2h, respectively. Thus, the
+>>>             formulations should be correct. However, we will explain
+>>>             this in the text. See also Anita's comments attached.
+>>>             I am also attaching a paper on oligoacenes where you see
+>>>             the same effect, the symmetry broken orbitals (Figure 2)
+>>>             and the higher symmetry of the geometry.
+>>>
+>>>             Do you agree?
+>>>
+>>>             Please see my follow-up e-mail on the symmetry breaking.
+>>>
+>>>             Best regards, Hans
+>>>
+>>>
+>>>             On 6/12/2015 1:35 PM, T. Daniel Crawford wrote:
+>>>>             Dear Hans,
+>>>>
+>>>>             Attached is a brief summary of the data that AJ has
+>>>>             collected so far.  There is some confusion about the
+>>>>             geometries for structures 1-3, as well as symmetries of
+>>>>             4-8.  If you and Anita could clarify these, we would be
+>>>>             grateful. Also, the data provided here are for
+>>>>             frozen-core only, but AJ also has carried out
+>>>>             calculations using reduced active spaces, as well.
+>>>>
+>>>>             Best regards,
+>>>>
+>>>>             -Daniel
+>>>>
+>>>>             -- 
+>>>>             Prof. T. Daniel Crawford
+>>>>             crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>>
+>>>>             On Sat, Jun 6, 2015 at 5:50 PM, Hans Lischka
+>>>>             <hans.lischka@univie.ac.at
+>>>>             <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>>
+>>>>                 Dear Daniel,
+>>>>
+>>>>                 I am sending you our next version of our data. We
+>>>>                 included now also pi+sigma correlated calculations.
+>>>>                 Comparison with pi-only shows good agreement. If
+>>>>                 not other aspects show up we regards the
+>>>>                 calculations finished and Anita will concentrate on
+>>>>                 writing the text. Please have a look at our results
+>>>>                 and we might discuss how and what you can fit in
+>>>>                 with your coupled cluster calculations. I am
+>>>>                 looking forward to a comparison.
+>>>>
+>>>>                 Best regards, Hans
+>>>>
+>>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+
+--------------070207060305040209080805
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Dear Daniel,<br>
+    <br>
+    I am attaching the analysis of zethrene which Anita sent me.
+    Currently, I am in Vienna and have only e-mail contact. I added some
+    comments to her text. It is written with Track Changes, mainly for
+    her information.<br>
+    It seems to me that polarizing the Ag orbitals we get practically
+    the same results as you, as much as I could see form the orbital
+    energies. However, it would be good to know also your total energies
+    and to compare the shape of the HOMO and LUMO.<br>
+    <br>
+    From the first stability analysis one would say that also the
+    orbitals should be polarized in bu symmetry. It is surprising that
+    this instability vanishes after modifying the ag orbitals. <br>
+    In order to take into account the bu instability we performed a
+    calculation in Cs symmetry and got a significant stabilization with
+    respect to the ag step. Please see the attached file for details.
+    Please note that the symmetry labels C2h and Cs refers only to the
+    MOs! The geometry had been fixed for all calculations reported here
+    at C2h symmetry.<br>
+    With the broken Cs MOs we have also made geometry optimization
+    getting an additional stabilization, but this is not considered
+    here.<br>
+    <br>
+    Could you do similar calculations for comparison?<br>
+    Best regards, Hans<br>
+    <br>
+    On 7/27/2015 10:38 AM, T. Daniel Crawford wrote:<br>
+    <blockquote type="cite">
+      <div dir="ltr">Dear Hans,
+        <div><br>
+        </div>
+        <div>Yes, I agree that we should carefully compare our UHF wave
+          functions.  Regarding the instability indices, the initial UHF
+          determinant (which is really RHF), we find the following
+          negative MO Hessian indices:
+          <div><br>
+          </div>
+          <div>Bu -0.103572       Ag -0.052371       Bu -0.016712      
+            Ag -0.007614<br>
+          </div>
+          <div><br>
+          </div>
+          <div>We follow the Ag eigenvector and re-compute the SCF to
+            obtain a new UHF wave function with the following lowest MO
+            Hessian indices:</div>
+          <div><br>
+          </div>
+          <div>Bu 0.032601        Ag 0.050644        Ag 0.097847      
+             Bu 0.111535<br>
+          </div>
+          <div><br>
+          </div>
+          <div>For this wave function, the alpha/beta HOMOs have
+            energies -0.216068/-0.282375 E_h, and the alpha/beta LUMOs
+            are at 0.092356/0.033109 E_h.</div>
+          <div><br>
+          </div>
+          <div>We don't have natural orbitals for the UHF wave
+            function.  Actually, I have to admit that I'm not sure what
+            you mean by UHF natural orbitals since the MOs all have
+            integer occupations.  Do you define those as the
+            eigenvectors of the sum of the alpha and beta densities?</div>
+          <div><br>
+          </div>
+          <div>Best regards,</div>
+          <div><br>
+          </div>
+          <div>-Daniel</div>
+          <div><br>
+          </div>
+          <div><br>
+          </div>
+        </div>
+      </div>
+      <div class="gmail_extra"><br clear="all">
+        <div>
+          <div class="gmail_signature">
+            <div dir="ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href="mailto:crawdad@vt.edu" target="_blank">crawdad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="gmail_quote">On Mon, Jul 27, 2015 at 4:39 AM, Hans
+          Lischka <span dir="ltr">&lt;<a
+              href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+          wrote:<br>
+          <blockquote class="gmail_quote" style="margin:0 0 0
+            .8ex;border-left:1px #ccc solid;padding-left:1ex">
+            <div bgcolor="#FFFFFF" text="#000000"> Dear Daniel,<br>
+              <br>
+              Thank you for your results. Your calculations based on the
+              RHF and UHF give  very similar NO occupations. We should
+              compare the results in more detail. In our Table 5 we give
+              the NO occupations of the UHF density. They are close to
+              single occupation (4: HONO 1.234, LUNO 0.766). This should
+              be the starting occupations for your CCSD calculations.
+              Could you please compare this with your UHF results? Also,
+              we should compare the character of the instability, for
+              which orbitals does it occur. We should also compare the
+              total SCF energies (restricted and unrestricted).<br>
+              Anita, could you please collect our results in more
+              detail?<br>
+              <br>
+              Best regards, Hans<span class=""><br>
+                <br>
+                On 7/26/2015 8:25 PM, T. Daniel Crawford wrote: </span>
+              <blockquote type="cite">
+                <div dir="ltr">Dear Hans,
+                  <div><br>
+                  </div>
+                  <span class="">
+                    <div>We do agree that structure 4 is a strong
+                      example. AJ has recomputed the CCSD natural
+                      orbitals for both 4 and 7, including following the
+                      totally symmetric UHF orbital instabilities to the
+                      spin-polarized orbitals.  However, the occupation
+                      numbers still do not reveal substantial
+                      polyradical character.  See the attached report
+                      from AJ for some details.  </div>
+                    <div><br>
+                    </div>
+                    <div>-TDC</div>
+                  </span></div>
+                <div class="gmail_extra"><span class=""><br clear="all">
+                    <div>
+                      <div>
+                        <div dir="ltr">--
+                          <div>Prof. T. Daniel Crawford</div>
+                          <div><a href="mailto:crawdad@vt.edu"
+                              target="_blank">crawdad@vt.edu</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                  </span>
+                  <div class="gmail_quote"><span class="">On Sun, Jun
+                      28, 2015 at 3:53 PM, Hans Lischka <span dir="ltr">&lt;<a
+                          href="mailto:hans.lischka@univie.ac.at"
+                          target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                      wrote:<br>
+                    </span>
+                    <blockquote class="gmail_quote" style="margin:0 0 0
+                      .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                      <div bgcolor="#FFFFFF" text="#000000"><span
+                          class=""> Dear Daniel,<br>
+                          <br>
+                          Thank you very much for your e-mail. We are
+                          looking forward to your results. The most
+                          important question from my point of view is
+                          whether the restricted or the unrestricted
+                          approach is the appropriate one (see my
+                          previous e-mail). I think we should
+                          concentrate on that question first of all,
+                          taking the heptazethrene (str. 4) as example.
+                          According to your restricted calculations one
+                          gets a closed shell state, but our
+                          multireference calculations and also the UHF
+                          density shows the opposite. What do you think?<br>
+                          <br>
+                          Best regards, Hans </span>
+                        <div>
+                          <div><span class=""><br>
+                              <br>
+                              On 6/26/2015 10:42 PM, T. Daniel Crawford
+                              wrote: </span>
+                            <blockquote type="cite"><span class="">
+                                <div dir="ltr">Dear Hans,
+                                  <div><br>
+                                  </div>
+                                  <div>I want to apologize for the delay
+                                    in our response.  AJ and I have been
+                                    dealing with a pair of summer
+                                    schools – one focused on
+                                    computational chemistry software
+                                    development, the other on molecular
+                                    response properties – that started
+                                    this past week and will continue
+                                    through next week.  I'm the host and
+                                    an instructor in both schools, and
+                                    AJ has been invaluable as the
+                                    primary organizer.  Unfortunately,
+                                    the schools have pulled us both away
+                                    from dealing with the polyradical
+                                    project.  AJ has continued his
+                                    computations, but we haven't been
+                                    able to get together to go through
+                                    his results and provide you with a
+                                    proper response.  I promise that we
+                                    will get back to you and Anita as
+                                    soon as possible.</div>
+                                  <div><br>
+                                  </div>
+                                  <div>Thanks for your patience!</div>
+                                  <div><br>
+                                  </div>
+                                  <div>Best regards,</div>
+                                  <div><br>
+                                  </div>
+                                  <div>-Daniel</div>
+                                </div>
+                              </span>
+                              <div class="gmail_extra"><span class=""><br
+                                    clear="all">
+                                  <div>
+                                    <div>
+                                      <div dir="ltr">--
+                                        <div>Prof. T. Daniel Crawford</div>
+                                        <div><a
+                                            href="mailto:crawdad@vt.edu"
+                                            target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                </span>
+                                <div class="gmail_quote"><span class="">On
+                                    Sat, Jun 13, 2015 at 9:51 PM, Hans
+                                    Lischka <span dir="ltr">&lt;<a
+                                        href="mailto:hans.lischka@univie.ac.at"
+                                        target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                    wrote:<br>
+                                  </span>
+                                  <blockquote class="gmail_quote"
+                                    style="margin:0 0 0
+                                    .8ex;border-left:1px #ccc
+                                    solid;padding-left:1ex">
+                                    <div bgcolor="#FFFFFF"
+                                      text="#000000"><span class="">
+                                        Dear Daniel, dear Andrew,<br>
+                                        <br>
+                                        Thank you for your e-mail and
+                                        the data.<br>
+                                        Concerning geometry differences:
+                                        these are very small and come
+                                        from the fact that Anita used
+                                        Gaussian and Turbomole to verify
+                                        the consistency of the results.
+                                        She sent you the Gaussian
+                                        optimized geometries but then
+                                        followed up with Turbomole
+                                        calculations. Finally, we
+                                        decided to base all results on
+                                        Turbomole and she changed the
+                                        coordinates in the Supp. Mat. I
+                                        am attaching her comments. You
+                                        can see there that differences
+                                        are negligible and you need not
+                                        redo the calculations.<br>
+                                        Concerning the question of the
+                                        symmetry in the UDFT geometry
+                                        optimizations for structures
+                                        4-8. These were performed for
+                                        the singlet ground states. The
+                                        closed shell high-symmetry DFT
+                                        solution is unstable. The spin
+                                        unrestricted (U)DFT wavefunction
+                                        is symmetry broken and has only
+                                        Cs symmetry. You can see the
+                                        orbitals  in Figs. 9S-13S of the
+                                        Supp. Mat. The C2h in Fig. 10S
+                                        should also read as Cs. Thus,
+                                        the MOs have Cs symmetry, but
+                                        alpha and beta orbitals are
+                                        equivalent so that the
+                                        structural symmetry is higher,
+                                        C2h and D2h, respectively. Thus,
+                                        the formulations should be
+                                        correct. However, we will
+                                        explain this in the text. See
+                                        also Anita's comments attached.<br>
+                                        I am also attaching a paper on
+                                        oligoacenes where you see the
+                                        same effect, the symmetry broken
+                                        orbitals (Figure 2) and the
+                                        higher symmetry of the geometry.<br>
+                                        <br>
+                                        Do you agree?<br>
+                                        <br>
+                                        Please see my follow-up e-mail
+                                        on the symmetry breaking.<br>
+                                        <br>
+                                        Best regards, Hans </span>
+                                      <div>
+                                        <div><span class=""><br>
+                                            <br>
+                                            On 6/12/2015 1:35 PM, T.
+                                            Daniel Crawford wrote: </span>
+                                          <blockquote type="cite"><span
+                                              class="">
+                                              <div dir="ltr">Dear Hans,
+                                                <div><br>
+                                                </div>
+                                                <div>Attached is a brief
+                                                  summary of the data
+                                                  that AJ has collected
+                                                  so far.  There is some
+                                                  confusion about the
+                                                  geometries for
+                                                  structures 1-3, as
+                                                  well as symmetries of
+                                                  4-8.  If you and Anita
+                                                  could clarify these,
+                                                  we would be grateful. 
+                                                  Also, the data
+                                                  provided here are for
+                                                  frozen-core only, but
+                                                  AJ also has carried
+                                                  out calculations using
+                                                  reduced active spaces,
+                                                  as well. </div>
+                                                <div><br>
+                                                </div>
+                                                <div>Best regards,</div>
+                                                <div><br>
+                                                </div>
+                                                <div>-Daniel</div>
+                                              </div>
+                                            </span>
+                                            <div class="gmail_extra"><br
+                                                clear="all">
+                                              <div>
+                                                <div>
+                                                  <div dir="ltr"><span
+                                                      class="">--
+                                                      <div>Prof. T.
+                                                        Daniel Crawford</div>
+                                                    </span>
+                                                    <div><a
+                                                        href="mailto:crawdad@vt.edu"
+                                                        target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <span class=""> <br>
+                                                <div class="gmail_quote">On
+                                                  Sat, Jun 6, 2015 at
+                                                  5:50 PM, Hans Lischka
+                                                  <span dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                  wrote:<br>
+                                                  <blockquote
+                                                    class="gmail_quote"
+                                                    style="margin:0 0 0
+                                                    .8ex;border-left:1px
+                                                    #ccc
+                                                    solid;padding-left:1ex">Dear
+
+                                                    Daniel,<br>
+                                                    <br>
+                                                    I am sending you our
+                                                    next version of our
+                                                    data. We included
+                                                    now also pi+sigma
+                                                    correlated
+                                                    calculations.
+                                                    Comparison with
+                                                    pi-only shows good
+                                                    agreement. If not
+                                                    other aspects show
+                                                    up we regards the
+                                                    calculations
+                                                    finished and Anita
+                                                    will concentrate on
+                                                    writing the text.
+                                                    Please have a look
+                                                    at our results and
+                                                    we might discuss how
+                                                    and what you can fit
+                                                    in with your coupled
+                                                    cluster
+                                                    calculations. I am
+                                                    looking forward to a
+                                                    comparison.<br>
+                                                    <br>
+                                                    Best regards, Hans<br>
+                                                  </blockquote>
+                                                </div>
+                                                <br>
+                                              </span></div>
+                                          </blockquote>
+                                          <br>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </blockquote>
+                                </div>
+                                <br>
+                              </div>
+                            </blockquote>
+                            <br>
+                          </div>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <br>
+                </div>
+              </blockquote>
+              <br>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------070207060305040209080805--
+
+--------------050509020109080700000806
+Content-Type: application/msword;
+ name="zethrene_result_1_hl1.doc"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename="zethrene_result_1_hl1.doc"
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAANQAAAAAA
+AAAAEAAANwAAAAEAAAD+////AAAAADQAAAD/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///////////////////////////////////spcEAD8AJBAAA8BK/AAAAAAAAEAAAAAAACAAA
+zBkAAA4AYmpiarV5tXkAAAAAAAAAAAAAAAAAAAAAAAAJBBYANCgAANcTAQDXEwEAzBAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAD//w8A
+AAAAAAAAAAAAAAAAAAAAALcAAAAAAJIFAAAAAAAAkgUAAOwSAAAAAAAA7BIAAAAAAADsEgAA
+AAAAAOwSAAAAAAAA7BIAABQAAAAAAAAAAAAAAP////8AAAAAABMAAAAAAAAAEwAAAAAAAAAT
+AAAAAAAAABMAACwAAAAsEwAAFAAAAAATAAAAAAAAKhgAADABAABAEwAAAAAAAEATAAAAAAAA
+QBMAAAAAAABAEwAAAAAAAEATAAAAAAAAGxQAAAAAAAAbFAAAAAAAABsUAAAAAAAAfxcAAAIA
+AACBFwAAAAAAAIEXAAAAAAAAgRcAAAAAAACBFwAAAAAAAIEXAAAAAAAAgRcAACQAAABaGQAA
+sgIAAAwcAAA8AAAApRcAAC0AAAAAAAAAAAAAAAAAAAAAAAAA7BIAAAAAAAAbFAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAbFAAAAAAAABsUAAAAAAAAGxQAAAAAAAAbFAAAAAAAAKUXAAAAAAAA
+AAAAAAAAAADsEgAAAAAAAOwSAAAAAAAAQBMAAAAAAAAAAAAAAAAAAEATAADbAAAA0hcAABwA
+AAAPFwAAAAAAAA8XAAAAAAAADxcAAAAAAAAbFAAA+gAAAOwSAAAAAAAAQBMAAAAAAADsEgAA
+AAAAAEATAAAAAAAAfxcAAAAAAAAAAAAAAAAAAA8XAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxQAAAAAAAB/FwAAAAAAAAAAAAAAAAAA
+DxcAAAAAAAAAAAAAAAAAAA8XAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxcAAAAAAABAEwAA
+AAAAAP////8AAAAA4DdZggzJ0AEAAAAAAAAAAP////8AAAAAFRUAAHIBAAAPFwAAAAAAAAAA
+AAAAAAAAaxcAABQAAADuFwAAPAAAACoYAAAAAAAADxcAAAAAAABIHAAAAAAAAIcWAACIAAAA
+SBwAAAAAAAAPFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgcAAAAAAAAAAAAAAAAAADsEgAA
+AAAAAA8XAABcAAAAGxQAAAAAAAAbFAAAAAAAAA8XAAAAAAAAGxQAAAAAAAAbFAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxQAAAAAAAAbFAAAAAAAABsUAAAAAAAA
+pRcAAAAAAAClFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxcAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsUAAAAAAAAGxQAAAAAAAAbFAAA
+AAAAACoYAAAAAAAAGxQAAAAAAAAbFAAAAAAAABsUAAAAAAAAGxQAAAAAAAAAAAAAAAAAAP//
+//8AAAAA/////wAAAAD/////AAAAAAAAAAAAAAAA/////wAAAAD/////AAAAAP////8AAAAA
+/////wAAAAD/////AAAAAP////8AAAAA/////wAAAAD/////AAAAAP////8AAAAA/////wAA
+AAD/////AAAAAP////8AAAAA/////wAAAAD/////AAAAAEgcAAAAAAAAGxQAAAAAAAAbFAAA
+AAAAABsUAAAAAAAAGxQAAAAAAAAbFAAAAAAAABsUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbFAAAAAAAABsUAAAAAAAA
+GxQAAAAAAACSBQAAIAwAALIRAAA6AQAABQASAQAACQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFN0cnVjdHVyZSA0IChaRVRIUkVORSk6DU5vdGU6IEFs
+bCBjYWxjdWxhdGlvbnMgaGF2ZSBiZWVuIGRvbmUgZm9yIGEgZml4ZWQgZ2VvbWV0cnkgaGF2
+aW5nIEMyaCBzeW1tZXRyeS4gVGhlIHN5bW1ldHJ5IGJyZWFraW5nIHJlZmVycyB0byB0aGUg
+b3JiaXRhbHMgZHVlIHRvIHRoZSBpbnN0YWJpbGl0eSBvZiBSSEYgd2F2ZWZ1bmN0aW9uLg1D
+Mmggc3ltbWV0cnk6DVJIRiBlbmVyZ3kgd2l0aG91dCBzdGFiaWxpdHkgYW5hbHlzaXM6IC0x
+MDY5LjY2MDg4ODI4MiAgIA1TdGFiaWxpdHkgYW5hbHlzaXM6DVRyaXBsZXQgaW5zdGFiaWxp
+dGllczoNMXN0IGFnIGVpZ2VucGFpcjogU0NGIGVuZXJneSBoZXNzaWFuIGVpZ2VudmFsdWU6
+ICAgICAgICAtMC41MjI3ODc1MTUyODY2NDEyRS0wMQ0gMm5kIGFnIGVpZ2VucGFpcjogU0NG
+IGVuZXJneSBoZXNzaWFuIGVpZ2VudmFsdWU6ICAgICAgLTAuNzUyODMwOTAxMDkwOTUwNkUt
+MDINMXN0IGJ1IGVpZ2VucGFpcjogU0NGIGVuZXJneSBoZXNzaWFuIGVpZ2VudmFsdWU6ICAg
+ICAgICAgLTAuMTAzNTA5NDcyODI5OTMxMg0ybmQgYnUgZWlnZW5wYWlyOiBTQ0YgZW5lcmd5
+IGhlc3NpYW4gZWlnZW52YWx1ZTogICAgICAgLTAuMTY2MDgxNjI1Njg1ODk5OUUtMDENU2lu
+Y2UgaW4gQzJoIHN5bW1ldHJ5IHRoZXJlIGlzIGFsc28gdGhlIGluc3RhYmlsaXR5IGluIHRo
+ZSB0b3RhbGx5IHN5bW1ldHJpYyBlaWdlbiB2ZWN0b3JzIChhZyksIHNvIHRoZSBzdGFiaWxp
+dHkgYW5hbHlzaXMgY2FsY3VsYXRpb24gYWxzbyBtYWtlcyBkaWZmZXJlbnQgYWxwaGEgYW5k
+IGJldGEgb3JiaXRhbHMgaW4gQzJoIHN5bW1ldHJ5LiBUaGVzZSBvcmJpdGFscyBhcmUgdXNl
+ZCBhcyBzdGFydGluZyBvcmJpdGFscyBmb3IgVUhGIGNhbGN1bGF0aW9uIGluIEMyaCBzeW1t
+ZXRyeS4NRGFuaWVsOiBUaGlzIHNob3VsZCBiZSB0aGUgY2FsY3VsYXRpb24gY29tcGFyYWJs
+ZSB0byB5b3VycywgYXMgSSB1bmRlcnN0YW5kLiBXaGF0IGFyZSB5b3VyIHRvdGFsIGVuZXJn
+aWVzPyBQbGVhc2UgY29tcGFyZSB3aXRoIG91cnMuDUkgYW0gbm90IHN1cmUgd2hldGhlciB3
+ZSBjYW4gcGVyZm9ybSBhIHN0YWJpbGl0eSBhbmFseXNpcyBvZiB0aGlzIHBhcnRpYWwgc3Rl
+cCBpbiBUdXJib21vbGUgd2hlcmUgb25seSB0aGUgYWcgaW5zdGFiaWxpdHkgaXMgdGFrZW4g
+aW50byBhY2NvdW50LiBUaGUgb3JiaXRhbHMgc3RpbGwgaGF2ZSBDMmggc3ltbWV0cnkuIEFu
+aXRhOiBjb3VsZCB5b3UgcGxlYXNlIGNoZWNrIHdoZXRoZXIgb25lIGNhbiBkbyBhIHN0YWJp
+bGl0eSBhbmFseXNpcyBvZiBhbiBVSEYgd2F2ZWZ1bmN0aW9uIGluIFR1cmJvbW9sZT8NDVdp
+dGggdGhlc2Ugb3JiaXRhbHMgdGhlIFMtVUhGIGVuZWd5IGlzICAtMTA2OS43MTE1MDQ3ODkg
+YW5kIHRoZSBuYXR1cmFsIG9yYml0YWwgb2NjdXBhdGlvbnMNYSAgICAgICA5MCAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoICAgICAxLjgyNzY1MDQ2NTg5MzYzICkN
+IGEgICAgICAgOTEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCAgICAg
+MS41NTA4ODc4NzUwMzQ4NSApDSBhICAgICAgIDkyICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICggICAgIDEuNTQxOTc0MDE1Njg0NjkgKQ0gYSAgICAgICA5MyAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoICAgICAwLjQ1ODAyNTk4NDMxNTEw
+ICkNIGEgICAgICAgOTQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCAg
+ICAgMC40NDkxMTIxMjQ5NjY4NSApDSBhICAgICAgIDk1ICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICggICAgIDAuMTcyMzQ5NTM0MTA2ODcgKQ0gYSAgICAgICA5NiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoICAgICAwLjE3MTk4NzQxODgz
+NDEyICkNIGEgICAgICAgOTcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+KCAgICAgMC4xMjg0OTg4MTI1MTk1MyApDSBhICAgICAgIDk4ICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICggICAgIDAuMTI1MzMwNzYxMDMyNjYgKQ0gYSAgICAgICA5
+OSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoICAgICAwLjExMjczMDg3
+NjgxMjA0ICkNIGEgICAgICAgMTAwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgKCAgICAgMC4xMTA2NTM5OTY3OTk4MCApDQ1UaGUgaW5pdGlhbCBzdGFiaWxpdHkgYW5h
+bHlzaXMgc2hvd3MgdGhhdCB0aGVyZSBpcyBhbiBpbnN0YWJpbGl0eSBpbiBhZyBhbmQgYnUg
+c3ltbWV0cnkuIEl0IGlzIHN1cnByaXNpbmcgdGhhdCBpbiBEYW5pZWyScyBjYWxjdWxhdGlv
+biB0aGUgVUhGIHdhdmVmdW5jdGlvbiBpcyBzdGFibGUgYWxzbyBmb3IgdGhlIGJ1IHN5bW1l
+dHJ5IGV2ZW4gdGhvdWdoIHRoZXNlIG9yYml0YWxzIGhhdmUgbm90IGJlZW4gYWZmZWN0ZWQu
+DVRha2luZyBpbnRvIGFjY291bnQgdGhlIGJ1IGluc3RhYmlsaXR5IHdpbGwgYnJlYWsgdGhl
+IEMyaCBzeW1tZXRyeSBvZiB0aGUgTU9zLiBUaHVzIHdlIHBlcmZvcm1lZCBhIHN0YWJpbGl0
+eSBhbmFseXNpcyBpbiBDcyBzeW1tZXRyeSwgb25seSBjb25zaWRlcmluZyB0aGUgcGxhbmFy
+aXR5IG9mIHRoZSBtb2xlY3VsZS4gSWYgd2UgZG8gdGhpcywgVHVyYm9tb2xlIHdpbGwgcHJv
+ZHVjZSBzcGluLWJyb2tlbiBhbHBoYSBhbmQgYmV0YSBNT3MgYm90aCBmb3IgdGhlIGFnIGFu
+ZCBidSBvcmJpdGFscy4gVXNpbmcgdGhlc2Ugb3JiaXRhbHMgYXMgc3RhcnQgZm9yIGEgVUhG
+IGNhbGN1bGF0aW9uIGxlYWRzIHRvIHRoZSByZXN1bHRzIGdpdmVuIGJlbG93LiBUaGUgVUhG
+IGVuZXJneSBpcyBzdGlsbCBzaWduaWZpY2FudGx5IGRlY3JlYXNlZC4gVGhlIE1PcyBoYXZl
+IG9ubHkgQ3Mgc3ltbWV0cnkgbm93Lg1Bbml0YSwgY291bGQgeW91IHBsZWFzZSBwbG90IHRo
+ZSBIT01PIGFuZCBMVU1PIGZvciBhbHBoYSBhbmQgYmV0YT8NDQ1Gb3IgdGhpcyB3YXZlIGZ1
+bmN0aW9uLCB0aGUgYWxwaGEvYmV0YSBIT01PcyBoYXZlIGVuZXJnaWVzIC0wLjIxNjA2NjI0
+Ly0wLjI4MjMzNzY3IGVWLCAAYQBuAGQAIAB0AGgAZQAgAGEAbABwAGgAYQAvAGIAZQB0AGEA
+IABMAFUATQBPAHMAIABhAHIAZQAgAGEAdAAgADAALgAwADkAMgAxADYAOQAzADEALwAwAC4A
+MAAzADIAOQAzADcAOQAyADUAIABlAFYALgANAA0AQwBTACAAcwB5AG0AbQBlAHQAcgB5ACAA
+KAB0AGgAZQAgAGMAbwByAHIAZQBjAHQAIABvAG4AZQApADoADQBCAGUAYwBhAHUAcwBlACAA
+bwBmACAAQwBTACAAcwB5AG0AbQBlAHQAcgB5ACAAYQBsAGwAIAB0AGgAZQAgAGYAbwB1AHIA
+IABpAG4AcwB0AGEAYgBpAGwAaQB0AHkAIABvAGYAIAB0AGgAZQAgAGUAaQBnAGUAbgAgAHYA
+ZQBjAHQAbwByAHMAIABjAG8AbQBlAHMAIABpAG4AdABvACAAYQC5AiAAcwB5AG0AbQBlAHQA
+cgB5ACAAaQAuAGUALgAsACAAaQBuACAAdABoAGUAIAB0AG8AdABhAGwAbAB5ACAAcwB5AG0A
+bQBlAHQAcgBpAGMAIAByAGUAcAByAGUAcwBlAG4AdABhAHQAaQBvAG4ALgANAFMALQBVAEgA
+RgAgAGUAbgBlAHIAZwB5ADoAIAAgAC0AMQAwADYAOQAuADcANwA3ADgAMzQxNjkNTmF0dXJh
+bCBvcmJpdGFsOiANYSAgICAgICA5MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAoICAgICAxLjgwMDQzNjI2OTI1ODg5ICkNIGEgICAgICAgOTEgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgKCAgICAgMS42NDE5ODkxNDg1OTIxMiApDSBhICAg
+ICAgIDkyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICggICAgIDEuMjM0
+MTAxNzQ5ODY2ODYgKQ0gYSAgICAgICA5MyAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAoICAgICAwLjc2NTg5ODI1MDEzMzQ2ICkNIGEgICAgICAgOTQgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgKCAgICAgMC4zNTgwMTA4NTE0MDcwNyApDSBh
+ICAgICAgIDk1ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICggICAgIDAu
+MTk5NTYzNzMwNzQ0MTAgKQ0gYSAgICAgICA5NiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAoICAgICAwLjE4Mjk1MTg0ODQzMzMxICkNIGEgICAgICAgOTcgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCAgICAgMC4xODE2MDgzMDc0NTU2MSAp
+DSBhICAgICAgIDk4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICggICAg
+IDAuMTgxNDM5MzQ3OTYwNDYgKQ0gYSAgICAgICA5OSAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAoICAgICAwLjExNDY1NDUwMTY2Nzc2ICkNIGEgICAgICAgMTAwICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCAgICAgMC4xMTQxODExNDYxMDcw
+NiApDUZvciB0aGlzIHdhdmUgZnVuY3Rpb24sIHRoZSBhbHBoYS9iZXRhIEhPTU9zIGhhdmUg
+ZW5lcmdpZXMgLTAuMjkxMDc4NzgvLTAuMjkxMDY5OTUgZVYsIGFuZCB0aGUgYWxwaGEvYmV0
+YSBMVU1PcyBhcmUgYXQgMC4xMDA4OTExMy8wLjEwMDg5OTUzIGVWLg0NAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAXCAAAGAgAAMAI
+AADBCAAAwggAAMQIAADPCAAA9ggAAAUJAAAICQAACQkAABwJAAAdCQAANAkAAEQJAABGCQAA
+TQkAAGwJAACECQAAhQkAAJUJAACXCQAAngkAALsJAADTCQAA4wkAAPHl08Syn7Lxj4Bx8eVh
+UvFS8VLxUvFS8VJDHBVomXLhABZocmNoAENKGABPSgAAUUoAAGFKGAAAHBVomXLhABZoZjGo
+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
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABqBA8AEgABAAsBDwAHAAMAAwADAAAA
+BAAIAAAAmAAAAJ4AAACeAAAAngAAAJ4AAACeAAAAngAAAJ4AAACeAAAANgYAADYGAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAAdgIAAHYCAAB2AgAAdgIAAHYCAAB2AgAAdgIAAHYC
+AAB2AgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAAPgIAADYGAAA2BgAANgYAADYGAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYG
+AAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAAKgAAAA2BgAANgYAABYAAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAALgAAAA2BgAANgYAADYGAAA2BgAANgYAADYG
+AAA2BgAANgYAADYGAAA2BgAANgYAADYGAABoAQAASAEAADYGAAA2BgAANgYAADYGAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYG
+AAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYG
+AAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAANgYAADYGAAA2BgAA
+NgYAADYGAAA2BgAANgYAADYGAAA2BgAAsAMAADYGAAAyBgAAGAAAAMADAADQAwAA4AMAAPAD
+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
+bWVNYW5hZ2VyLnhtbFBLAQItABQABgAIAAAAIQAw3UMpqAYAAKQbAAAWAAAAAAAAAAAAAAAA
+ANYCAAB0aGVtZS90aGVtZS90aGVtZTEueG1sUEsBAi0AFAAGAAgAAAAhAA3RkJ+2AAAAGwEA
+ACcAAAAAAAAAAAAAAAAAsgkAAHRoZW1lL3RoZW1lL19yZWxzL3RoZW1lTWFuYWdlci54bWwu
+cmVsc1BLBQYAAAAABQAFAF0BAACtCgAAAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5n
+PSJVVEYtOCIgc3RhbmRhbG9uZT0ieWVzIj8+DQo8YTpjbHJNYXAgeG1sbnM6YT0iaHR0cDov
+L3NjaGVtYXMub3BlbnhtbGZvcm1hdHMub3JnL2RyYXdpbmdtbC8yMDA2L21haW4iIGJnMT0i
+bHQxIiB0eDE9ImRrMSIgYmcyPSJsdDIiIHR4Mj0iZGsyIiBhY2NlbnQxPSJhY2NlbnQxIiBh
+Y2NlbnQyPSJhY2NlbnQyIiBhY2NlbnQzPSJhY2NlbnQzIiBhY2NlbnQ0PSJhY2NlbnQ0IiBh
+Y2NlbnQ1PSJhY2NlbnQ1IiBhY2NlbnQ2PSJhY2NlbnQ2IiBobGluaz0iaGxpbmsiIGZvbEhs
+aW5rPSJmb2xIbGluayIvPgAAAADMEAAAIQAAKAAAAAD/////AAgAAOMJAADCDAAAVRIAAHgU
+AADMGQAADQAAAA8AAAAQAAAAEgAAABMAAAAACAAArRAAAMwZAAAOAAAAEQAAAA8AAPA4AAAA
+AAAG8BgAAAACBAAAAgAAAAEAAAABAAAAAQAAAAIAAABAAB7xEAAAAP//AAAAAP8AgICAAPcA
+ABAADwAC8JIAAAAQAAjwCAAAAAEAAAABBAAADwAD8DAAAAAPAATwKAAAAAEACfAQAAAAAAAA
+AAAAAAAAAAAAAAAAAAIACvAIAAAAAAQAAAUAAAAPAATwQgAAABIACvAIAAAAAQQAAAAOAABT
+AAvwHgAAAL8BAAAQAMsBAAAAAP8BAAAIAAQDCQAAAD8DAQABAAAAEfAEAAAAAQAAAAAAAACz
+AAAAvwAAADsBAABEAQAAjAEAAJUBAADXAQAA2QEAANoBAADjAQAAJAIAACYCAAAnAgAAMAIA
+ALwCAADBAgAAXQQAAGYEAAASBQAAHgUAACIFAAArBQAATAUAAFEFAAD5CAAA+wgAADwJAABI
+CQAAYAkAAGIJAAC3CQAAuQkAAOkJAADtCQAAZAoAAG0KAACuCgAAsAoAAJMMAACYDAAAzhAA
+AAcAHAAHABwABwAcAAcAHAAHABwABwAcAAcAHAAHABwABwAcAAcAHAAHABwABwAcAAcAHAAH
+ABwABwAcAAcAHAAHABwABwAcAAcAHAAHABwABwAAAAAAOAEAADoBAACJAQAAiwEAALwCAADB
+AgAAdgQAAHgEAABSBQAAVwUAAIoFAACLBQAA0wUAANQFAAAcBgAAHQYAAGUGAABmBgAArgYA
+AK8GAAD3BgAA+AYAAEAHAABBBwAAiQcAAIoHAADSBwAA0wcAABsIAAAcCAAAZAgAAGUIAADg
+CAAA7ggAAKcKAACpCgAAkwwAAJgMAAAYDQAAGQ0AAGENAABiDQAAqg0AAKsNAADzDQAA9A0A
+ADwOAAA9DgAAhQ4AAIYOAADODgAAzw4AABcPAAAYDwAAYA8AAGEPAACpDwAAqg8AAPIPAADz
+DwAAzhAAAAcAMwAHADMABwAzAAcAMwAHADMABwAzAAcAMwAHADMABwAzAAcAMwAHADMABwAz
+AAcAMwAHADMABwAzAAcAMwAHADMABwAzAAcAMwAHADMABwAzAAcAMwAHADMABwAzAAcAMwAH
+ADMABwAzAAcAMwAHADMABwAzAAcAAAAAABcAAADAAAAA0gAAANIAAAAcAQAAMwEAAG8CAABv
+AgAAqQIAAKkCAAABAwAACwMAADQDAADBBAAAwgQAAC4FAACKBQAAigUAAKwIAAA7DAAAPQwA
+AM4QAAADAAQAAwAEAAMABAADAAQAAwAEAAMABAADAAQAAwAEAAMABAADAAQAAwAEABEAAAAE
+AAAACAAAAOUAAAAAAAAADgAAAJRYEQAvchIAGRIUAC1ZMwAdeFUAcmNoACEdcACwZXAAPyuJ
+AKg6kABmMagA+FOoADUsqgC3frgAxUTgAJly4QBDNfIAAAAAAMwQAADOEAAAAAAAAAEAAAD/
+QAGAAQDLEAAAyxAAAAAAAAABAAEAyxAAAAAAAADLEAAAAAAAAAIoAAAAAAAAAAAMAAAADQAA
+zBAAAAgBABAAQAAACAEAFAAAAAAIAQAsAEAAAP//AgAAAAcAVQBuAGsAbgBvAHcAbgACAFgA
+WAD//wIACAAAAAAAAAAAAAAAAAAAAAAAAAABAP//AgAAAAAAAAD//wAAAgD//wAAAAD//wAA
+AgD//wAAAAAFAAAARx6QAQAAAgIGAwUEBQIDBP8qAOBBeADACQAAAAAAAAD/AQAAAAAAAFQA
+aQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuAAAANR6QAQIABQUBAgEHBgIFBwAAAAAAAAAQ
+AAAAAAAAAAAAAACAAAAAAFMAeQBtAGIAbwBsAAAAMy6QAQAAAgsGBAICAgICBP8qAOBDeADA
+CQAAAAAAAAD/AQAAAAAAAEEAcgBpAGEAbAAAADcukAEAAAIPBQICAgQDAgT/AgDg/6wAQAEA
+AAAAAAAAnwEAAAAAAABDAGEAbABpAGIAcgBpAAAAQR6QAQAAAAAAAAAAAAAAAP8CAOD/JABC
+AAAAAAAAAACfAQAAAAAAAEMAYQBtAGIAcgBpAGEAIABNAGEAdABoAAAAIgAEAHEIjBgA8NAC
+AABoAQAAAABk4DdHx+A3RwAAAAAGAFQAAACBAgAASw4AAAIACAAAAAQAA5AeAAAAgQIAAEsO
+AAACAAgAAAAeAAAAAAAAACEDAPAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAKAFoAW0ALQAgYEyMAAAAAAAAAAAAAAAAAAAxBAAAMQQAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA
+AAAAAAAAADODEQDwEAAIAPz9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIWAAAAAAJ8P8P
+AQgkUAAA5AQAABgAAAD///9/////f////3////9/////f////39yY2gAAAQAADIAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAhBAAAAAAAAAAAAAAAAAAAAAAAABAcAAAEAAAAAAAAAAAAeAAAAHgA
+AAAAAAAAAAAAAKAFAAAAAAAACwAAAAAAAADcAAAA//8SAAAAAAAAAAAAAAAAAAAABwBQAG8A
+cwB0AEQAbwBjAAIAWABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/wAABgECAAAA
+AAAAAAAAAAAAAAAAAAABAAAA4IWf8vlPaBCrkQgAKyez2TAAAAAYAQAADQAAAAEAAABwAAAA
+BAAAAHgAAAAHAAAAiAAAAAgAAACcAAAACQAAAKgAAAASAAAAtAAAAAoAAADUAAAADAAAAOAA
+AAANAAAA7AAAAA4AAAD4AAAADwAAAAABAAAQAAAACAEAABMAAAAQAQAAAgAAAOQEAAAeAAAA
+CAAAAFBvc3REb2MAHgAAAAwAAABOb3JtYWwuZG90bQAeAAAABAAAAFhYAAAeAAAABAAAADYA
+AAAeAAAAGAAAAE1pY3Jvc29mdCBPZmZpY2UgV29yZAAAAEAAAAAA+BK8CwAAAEAAAAAAyLWq
+/8jQAUAAAAAAqh9hDMnQAQMAAAACAAAAAwAAAIECAAADAAAASw4AAAMAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v8AAAYBAgAAAAAAAAAAAAAA
+AAAAAAAAAQAAAALVzdWcLhsQk5cIACss+a4wAAAA8AAAAAwAAAABAAAAaAAAAA8AAABwAAAA
+BQAAAIQAAAAGAAAAjAAAABEAAACUAAAAFwAAAJwAAAALAAAApAAAABAAAACsAAAAEwAAALQA
+AAAWAAAAvAAAAA0AAADEAAAADAAAANEAAAACAAAA5AQAAB4AAAAMAAAATWljcm9zb2Z0AAAA
+AwAAAB4AAAADAAAACAAAAAMAAADEEAAAAwAAAAAADgALAAAAAAAAAAsAAAAAAAAACwAAAAAA
+AAALAAAAAAAAAB4QAAABAAAAAQAAAAAMEAAAAgAAAB4AAAAGAAAAVGl0bGUAAwAAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcA
+AAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAA
+/v///xYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIA
+AAAjAAAA/v///yUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAD+////LQAAAC4AAAAvAAAA
+MAAAADEAAAAyAAAAMwAAAP7////9////NgAAAP7////+/////v//////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+UgBvAG8AdAAgAEUAbgB0AHIAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABYABQH//////////wMAAAAGCQIAAAAAAMAAAAAAAABGAAAAAAAAAAAAAAAA
+UElaggzJ0AE4AAAAgAAAAAAAAAAxAFQAYQBiAGwAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgACAf////8FAAAA/////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAABIHAAAAAAAAFcAbwByAGQARABvAGMA
+dQBtAGUAbgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAIB
+AQAAAP//////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQo
+AAAAAAAABQBTAHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAACgAAgECAAAABAAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAkAAAAABAAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABTAHUAbQBtAGEA
+cgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAOAACAf///////////////wAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAEAAAAAAAAAEAQwBvAG0A
+cABPAGIAagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAASAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+AAD+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AQD+/wMKAAD/////BgkCAAAAAADAAAAAAAAARiAA
+AABNaWNyb3NvZnQgV29yZCA5Ny0yMDAzIERvY3VtZW50AAoAAABNU1dvcmREb2MAEAAAAFdv
+cmQuRG9jdW1lbnQuOAD0ObJxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+--------------050509020109080700000806--

@@ -1,0 +1,235 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp116640qge;
+        Fri, 9 Jan 2015 09:04:26 -0800 (PST)
+X-Received: by 10.224.120.65 with SMTP id c1mr18502950qar.87.1420823066784;
+        Fri, 09 Jan 2015 09:04:26 -0800 (PST)
+Return-Path: <drew90@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id z2si12771827qad.91.2015.01.09.09.04.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 09 Jan 2015 09:04:26 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning drew90@vt.edu does not designate 74.125.82.170 as permitted sender) client-ip=74.125.82.170;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning drew90@vt.edu does not designate 74.125.82.170 as permitted sender) smtp.mail=drew90@vt.edu
+Received: from mail-we0-f170.google.com (mail-we0-f170.google.com [74.125.82.170])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t09H4KKq029216
+	for <amjames2@vt.edu>; Fri, 9 Jan 2015 12:04:25 -0500
+Received: by mail-we0-f170.google.com with SMTP id w61so8970729wes.1
+        for <amjames2@vt.edu>; Fri, 09 Jan 2015 09:04:20 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=eqdTt4ZXQpke7g+w0XDiEE7BCpDclF0MWEzv7hgQY54=;
+        b=VicFylnQUXUZ99ELq7F8PljPp+grs98rtUi+rd/sAmOocNlzBxE0uOPgC+LqylPC+T
+         eFy0QPrh3D3PAuHxUuXUSE789d5orFDVWoCb/2C8MVgrxo+80bLbYopR621kFqvv8HvT
+         F0tKkD92pItLO6fHWlFkaZuqJQ1CWHW5OpxOOqoMTOhB7/rVh3X46cve6wHcLqjO7cI3
+         zbthieiyTZtQdCZtJsUbDyuVgWwHj9VSlZlQhzbbNRGJ7jeGGoHmh6JIsIAHETx2dEZi
+         OoOufgh01UU0bIoHNetih0/71jefjrkQavZsD4dTlzRScwK+XVpaQqBrPfqe17OgceNs
+         CTBw==
+X-Gm-Message-State: ALoCoQmVOpXNUkDNW2mY/qFGCLABpYm52OzrLfhnd+yO7kjc03oEwHXNUIpTKG9mR6ZT6dm5VU3NIm5PHl+Queii4UBchy0Mdc1KilQdcG0PQn654lZYA+gc/kQBkNg6fYB5m2/8zUJSfe0sFKNaa1V3y6GGNsILRQ==
+X-Received: by 10.180.97.196 with SMTP id ec4mr6698107wib.71.1420823060596;
+        Fri, 09 Jan 2015 09:04:20 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.180.97.196 with SMTP id ec4mr6698068wib.71.1420823060352;
+ Fri, 09 Jan 2015 09:04:20 -0800 (PST)
+Received: by 10.217.11.201 with HTTP; Fri, 9 Jan 2015 09:04:20 -0800 (PST)
+In-Reply-To: <FAF02201-F4DF-45D8-8739-8DC8DF34091D@vt.edu>
+References: <FAF02201-F4DF-45D8-8739-8DC8DF34091D@vt.edu>
+Date: Fri, 9 Jan 2015 12:04:20 -0500
+Message-ID: <CAEuZKPHdcodQe=pqe3yQc1A=sk6bRHR42Nh-SYi-9atOFbS0KA@mail.gmail.com>
+Subject: Fwd: annual evaluations/progress portfolios
+From: Drew Lewis <drew90@vt.edu>
+To: amjames2@vt.edu
+Content-Type: multipart/alternative; boundary=f46d0443067ccd29c6050c3b25e2
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0443067ccd29c6050c3b25e2
+Content-Type: text/plain; charset=UTF-8
+
+---------- Forwarded message ----------
+From: John R. Morris <jrmorris@vt.edu>
+Date: Mon, Dec 22, 2014 at 7:56 AM
+Subject: annual evaluations/progress portfolios
+To: CHEM_GRAD@listserv.vt.edu
+
+
+ Dear Students (Faculty cc'd),
+
+
+This is a reminder that it is time to submit your annual Progress
+Portfolios.  These are due to Joli (jolih@vt.edu) by Monday, Jan 05.  She
+will process them on Tuesday, Jan. 6.  If you cannot complete your
+Portfolio by this time for some legitimate reason, then you need to contact
+Joli promptly.
+
+
+*Finding the Forms*.  In the "CHEM Grad Program" Scholar site, in the
+Resources area, you will find a folder titled "Annual Evaluations."   You
+are advised to read the "General Policies" section before beginning your
+paperwork.  The "Student Progress Portfolio" document is the one that you
+need to complete.  Unless you are a first-year student, you've done this
+before, and you only need to update your information for Calendar Year
+2014.
+
+*If you are a first-year student*, then please accept the following
+suggestions:
+
+*On the Progress Portfolio Cover Sheet:*
+(1) Wait until you get your grades on Hokie Spa (should be available this
+week) before entering your GPA.
+(2) List your new Advisor -- if you have not been assigned to a group yet,
+then enter "John Morris".
+(3) The only "requirement" that you have completed (check-boxes on the
+first page) is CHEM 5004, which all of you have passed.
+(4) You have not had a committee meeting yet -- the first such meeting that
+you'll document is typically the Prelim Exam (targeted for Spring 2016).
+
+ *On the Self-Evaluation Page:*
+(1) While you are evaluating yourself, my suggestion is to enter
+"Excellent" for Academic Performance if you completed three courses with an
+overall GPA of 3.5 or higher.
+(2) Research Progress is probably N/A unless you've been quite busy in the
+lab.
+(3) Professional Activities and Interactions is probably N/A as well.
+(4) For anticipated progress, you could include things like bringing up
+your grades (if you need to), completing some significant portion of your
+project, completion of the literature review, finishing your course work
+(if you can do so by December), etc.
+
+ *For your Student Activities Report page:*
+(1) For the courses you "completed," you do not need to include courses
+that you dropped (before Oct 04) or from which you withdrew (WG).
+(2) It's okay if the "key accomplishments" section is blank.  You will have
+many things to put in there next year, if you are making adequate progress.
+*For your Research Update page*:
+(1) It would be appropriate to give a brief description (perhaps a
+paragraph, with a diagram or scheme) showing what you *intend* to work on
+during the upcoming year.  And of course, if you have made some results
+(beyond just a couple of reactions that you ran), then please document that.
+
+
+
+ Best,
+John
+
+
+
+
+-------
+John R. Morris
+Professor and Graduate Program Director
+Department of Chemistry
+Virginia Tech
+Blacksburg, VA 24061
+Ph. 540-231-2472
+http://www.chem.vt.edu/chem-dept/jmorris/
+
+--f46d0443067ccd29c6050c3b25e2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br>From: <b class=3D"gmail_sendername">John R. Morris</b> <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:jrmorris@vt.edu">jrmorris@vt.edu</a>&gt=
+;</span><br>Date: Mon, Dec 22, 2014 at 7:56 AM<br>Subject: annual evaluatio=
+ns/progress portfolios<br>To: <a href=3D"mailto:CHEM_GRAD@listserv.vt.edu">=
+CHEM_GRAD@listserv.vt.edu</a><br><br><br>
+
+
+
+<div lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:b=
+reak-word">
+<div>
+<p class=3D"MsoNormal">Dear Students (Faculty cc&#39;d),=C2=A0</p><p class=
+=3D"MsoNormal">
+<br>
+This is a reminder that it is time to submit your annual Progress Portfolio=
+s.=C2=A0 These are due to Joli (<a href=3D"mailto:jolih@vt.edu" target=3D"_=
+blank">jolih@vt.edu</a>) by Monday, Jan 05.=C2=A0 She will process them on =
+Tuesday, Jan. 6.=C2=A0 If you cannot complete your Portfolio
+ by this time for some legitimate reason, then you need to contact Joli pro=
+mptly.=C2=A0 <u></u>
+<u></u></p>
+<p class=3D"MsoNormal"><br>
+<u>Finding the Forms</u>.=C2=A0 In the &quot;CHEM Grad Program&quot; Schola=
+r site, in the Resources area, you will find a folder titled &quot;Annual E=
+valuations.&quot;=C2=A0=C2=A0 You are advised to read the &quot;General Pol=
+icies&quot; section before beginning your paperwork.=C2=A0 The &quot;Studen=
+t Progress Portfolio&quot;
+ document is the one that you need to complete.=C2=A0 Unless you are a firs=
+t-year student, you&#39;ve done this before, and you only need to update yo=
+ur information for Calendar Year 2014.=C2=A0
+<br>
+<br>
+<u>If you are a first-year student</u>, then please accept the following su=
+ggestions:<br>
+<br>
+<b>On the Progress Portfolio Cover Sheet:</b><br>
+(1) Wait until you get your grades on Hokie Spa (should be available this w=
+eek) before entering your GPA.<br>
+(2) List your new Advisor -- if you have not been assigned to a group yet, =
+then enter &quot;John Morris&quot;.=C2=A0
+<br>
+(3) The only &quot;requirement&quot; that you have completed (check-boxes o=
+n the first page) is CHEM 5004, which all of you have passed.=C2=A0
+<br>
+(4) You have not had a committee meeting yet -- the first such meeting that=
+ you&#39;ll document is typically the Prelim Exam (targeted for Spring 2016=
+).<br>
+<br>
+<b><u></u><u></u></b></p>
+<p class=3D"MsoNormal"><b>On the Self-Evaluation Page:</b><br>
+(1) While you are evaluating yourself, my suggestion is to enter &quot;Exce=
+llent&quot; for Academic Performance if you completed three courses with an=
+ overall GPA of 3.5 or higher.<br>
+(2) Research Progress is probably N/A unless you&#39;ve been quite busy in =
+the lab.<br>
+(3) Professional Activities and Interactions is probably N/A as well.<br>
+(4) For anticipated progress, you could include things like bringing up you=
+r grades (if you need to), completing some significant portion of your proj=
+ect, completion of the literature review, finishing your course work (if yo=
+u can do so by December), etc.<br>
+<br>
+<b><u></u><u></u></b></p>
+<p class=3D"MsoNormal"><b>For your Student Activities Report page:</b><br>
+(1) For the courses you &quot;completed,&quot; you do not need to include c=
+ourses that you dropped (before Oct 04) or from which you withdrew (WG).<br=
+>
+(2) It&#39;s okay if the &quot;key accomplishments&quot; section is blank.=
+=C2=A0 You will have many things to put in there next year, if you are maki=
+ng adequate progress.<br>
+<b>For your Research Update page</b>:<br>
+(1) It would be appropriate to give a brief description (perhaps a paragrap=
+h, with a diagram or scheme) showing what you
+<i>intend</i> to work on during the upcoming year.=C2=A0 And of course, if =
+you have made some results (beyond just a couple of reactions that you ran)=
+, then please document that.<span style=3D"font-size:12.0pt"><u></u><u></u>=
+</span></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0Best,<u></u></p><div>John</div>
+<p class=3D"MsoNormal"><br></p>
+</div>
+
+
+<br><br><div>
+<span style=3D"border-collapse:separate;color:rgb(0,0,0);font-family:Helvet=
+ica;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing=
+:normal;line-height:normal;text-align:-webkit-auto;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;font-size:medium">-------<b=
+r>John R. Morris<br>Professor and Graduate Program Director<br>Department o=
+f Chemistry<br>Virginia Tech<br>Blacksburg, VA 24061<br>Ph. <a href=3D"tel:=
+540-231-2472" value=3D"+15402312472" target=3D"_blank">540-231-2472</a><br>=
+<a href=3D"http://www.chem.vt.edu/chem-dept/jmorris/" target=3D"_blank">htt=
+p://www.chem.vt.edu/chem-dept/jmorris/</a><br><br></span>
+</div>
+<br></div></div><br></div>
+
+--f46d0443067ccd29c6050c3b25e2--

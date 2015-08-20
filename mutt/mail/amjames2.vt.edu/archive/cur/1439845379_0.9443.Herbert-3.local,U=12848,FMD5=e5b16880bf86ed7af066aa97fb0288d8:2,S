@@ -1,0 +1,164 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1751352qgt;
+        Mon, 17 Aug 2015 13:58:19 -0700 (PDT)
+X-Received: by 10.140.31.4 with SMTP id e4mr6085459qge.85.1439845098987;
+        Mon, 17 Aug 2015 13:58:18 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id y110si27229817qgd.42.2015.08.17.13.58.17
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 17 Aug 2015 13:58:18 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.220.173;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.173 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mailfrom=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7HKwBPa006264;
+	Mon, 17 Aug 2015 16:58:16 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7HJLmt1014444;
+	Mon, 17 Aug 2015 16:58:10 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101263754 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 17 Aug 2015 16:58:10
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7HKm9rP006006 for
+          <chem_grad@listserv.vt.edu>; Mon, 17 Aug 2015 16:48:09 -0400
+Received: from mail-qk0-f173.google.com (mail-qk0-f173.google.com
+          [209.85.220.173]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t7HKm3xp005195 for <chem_grad@listserv.vt.edu>; Mon, 17 Aug 2015
+          16:48:08 -0400
+Received: by qkcs67 with SMTP id s67so51283098qkc.1 for
+          <chem_grad@listserv.vt.edu>; Mon, 17 Aug 2015 13:48:03 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:message-id:cc:to :mime-version;
+                         bh=e9/fyark9tiSgsz6i2kboV4fleZ0HjEpdEG3splOKV4=;
+                         b=L5n9MJeVMuN/bJqty3UkgmkIBiAmv0R17aiI4OU6K9TFOucdYKWxVHAJSB8jacPqW0
+                         /JlptPDf05BEUtxNnOruMh/YJYefbAZ3ymrKvOeWK9JwYK2XrIrL6fYy/HBHaAwvvx2E
+                         dhkDM9AIWaz2km6hXaSsJEqupJaLxvBOrQe7so5MpppbeWkI0mFv81oCzVBjFszi8wO8
+                         v3htlf3SQAxUpMpoLPzC/eSattw5BSRLEjIFYIK1Ac/ufndRCgjdee+NNVD9tNCSH3j/
+                         A69LP2tleZmmUP9dug3H3UIKis1qSy4HajjuAJDKJCtxK+6yuYNqwVZ7luA3mPosWNGD
+                         cJGw==
+X-Gm-Message-State: ALoCoQllPfLI2g6YTpVDbZUvN0s5RpaEI6MawQNlviAJWlGW7DqGUphrxuUItxW8vapvrSDOMRu/o4CxVrAXyEoHnNPYgCFVuw5H6vbr33n53A1LrHCw7bSHT9XmwxeWvMboMDskAa1XOIueWKVQdunNCifOGZJUbw==
+X-Received: by 10.55.18.214 with SMTP id 83mr6055277qks.60.1439844483454; Mon,
+            17 Aug 2015 13:48:03 -0700 (PDT)
+X-Received: by 10.55.18.214 with SMTP id 83mr6055254qks.60.1439844483321; Mon,
+            17 Aug 2015 13:48:03 -0700 (PDT)
+Received: from h80adb7c6.dhcp.vt.edu (h80adb7c6.dhcp.vt.edu. [128.173.183.198])
+          by smtp.gmail.com with ESMTPSA id
+          136sm8831330qhb.20.2015.08.17.13.48.02 (version=TLSv1
+          cipher=ECDHE-RSA-RC4-SHA bits=128/128); Mon, 17 Aug 2015 13:48:02
+          -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_1546D6BD-C755-4D2A-B5D0-7D95BB42D492"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2104\))
+X-Mailer: Apple Mail (2.2104)
+X-Spam-Status: No, score=-0.6 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Message-ID:  <2D782293-A8FD-43A8-A455-5AD6207CE5E7@vt.edu>
+Date:         Mon, 17 Aug 2015 16:48:00 -0400
+Reply-To: "J. M. Tanko" <jtanko@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "J. M. Tanko" <jtanko@vt.edu>
+Subject: ACS Ask Me Anything
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_1546D6BD-C755-4D2A-B5D0-7D95BB42D492
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Dear all,
+
+Our own Prof. Amanda Morris and her team (Spencer Ahrenholtz, William =
+Maza, and Andrew Haring) will be hosting the American Chemical Society =
+"Ask Me Anything (AMA)" Series on Reddit.com. The weekly AMA series is =
+organized by ACS to feature different subject matter experts to answer =
+questions in a moderated one-hour AMA session on r/science. This =
+opportunity allows guests to promote chemistry by sharing their =
+knowledge, their research, and references to publications to a =
+potentially large new audience. Prof. Morris will be answering questions =
+on the topics of artificial photosynthesis and next generation solar =
+cells. You are welcome to submit your questions for feedback. The live =
+AMA session will take place tomorrow, August 18th, from 11 am - 12 noon.=20=
+
+
+best wishes,
+
+jmt
+
+p.s. Anna - pls forward to the undergrad listserv
+
+
+J. M. Tanko, Professor & Chair
+Department of Chemistry
+900 West Campus Drive
+Virginia Polytechnic Institute and State University
+Blacksburg, VA 24061
+phone: (540) 231-6687
+e-mail: jtanko@vt.edu
+
+
+
+
+--Apple-Mail=_1546D6BD-C755-4D2A-B5D0-7D95BB42D492
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dus-ascii"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D"">Dear all,</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Our own Prof. Amanda Morris and her =
+team (Spencer Ahrenholtz, William Maza, and Andrew Haring) will be =
+hosting the American Chemical Society "Ask Me Anything&nbsp;(AMA)" =
+Series on&nbsp;<a href=3D"http://Reddit.com" =
+class=3D"">Reddit.com</a>.&nbsp;The weekly AMA series is organized by =
+ACS to feature different subject matter experts to answer questions in a =
+moderated one-hour AMA&nbsp;session on r/science. This opportunity =
+allows guests to promote chemistry by sharing their knowledge, their =
+research, and references to publications to a potentially large&nbsp;new =
+audience. Prof. Morris will be answering questions on the topics of =
+artificial photosynthesis and next generation solar cells. You are =
+welcome to submit your questions&nbsp;for feedback. The live AMA session =
+will take place tomorrow, August 18th, from 11 am - 12 =
+noon.&nbsp;</div><div class=3D""><br class=3D""></div><div class=3D"">best=
+ wishes,</div><div class=3D""><br class=3D""></div><div =
+class=3D"">jmt</div><div class=3D""><br class=3D""></div><div =
+class=3D"">p.s. Anna - pls forward to the undergrad listserv</div><div =
+class=3D""><br class=3D""></div><div class=3D""><br class=3D""></div><div =
+apple-content-edited=3D"true" class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-align: -webkit-auto; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">J. M. Tanko, Professor &amp; Chair<br =
+class=3D"">Department of Chemistry</div><div style=3D"color: rgb(0, 0, =
+0); font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">900 West Campus Drive<br class=3D"">Virginia Polytechnic =
+Institute and State&nbsp;University<br class=3D"">Blacksburg, VA =
+24061<br class=3D"">phone: (540) 231-6687<br class=3D"">e-mail: <a =
+href=3D"mailto:jtanko@vt.edu" class=3D"">jtanko@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D""></div>
+</div>
+<br class=3D""></body></html>=
+
+--Apple-Mail=_1546D6BD-C755-4D2A-B5D0-7D95BB42D492--

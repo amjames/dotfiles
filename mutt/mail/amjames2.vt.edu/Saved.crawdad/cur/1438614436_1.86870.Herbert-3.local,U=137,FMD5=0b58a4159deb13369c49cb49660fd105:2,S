@@ -1,0 +1,330 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3442223qgt;
+        Thu, 30 Apr 2015 10:17:13 -0700 (PDT)
+X-Received: by 10.140.82.144 with SMTP id h16mr5029558qgd.29.1430414233296;
+        Thu, 30 Apr 2015 10:17:13 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id o94si2283170qgd.51.2015.04.30.10.17.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 10:17:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.169 as permitted sender) client-ip=209.85.223.169;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.169 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHH7sH019589
+	for <amjames2@vt.edu>; Thu, 30 Apr 2015 13:17:12 -0400
+Received: by iedfl3 with SMTP id fl3so81600519ied.1
+        for <amjames2@vt.edu>; Thu, 30 Apr 2015 10:17:07 -0700 (PDT)
+X-Received: by 10.43.63.76 with SMTP id xd12mr10633325icb.11.1430414227463;
+        Thu, 30 Apr 2015 10:17:07 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.162 with SMTP id lt2csp3248141ieb;
+        Thu, 30 Apr 2015 10:17:06 -0700 (PDT)
+X-Received: by 10.55.23.16 with SMTP id i16mr9626832qkh.14.1430414226390;
+        Thu, 30 Apr 2015 10:17:06 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 77si24033798qhv.113.2015.04.30.10.17.05
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 10:17:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHH51M021878
+	for <andrew.m.james2@gmail.com>; Thu, 30 Apr 2015 13:17:05 -0400
+Received: from mail-ie0-f170.google.com (mail-ie0-f170.google.com [209.85.223.170])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHH0Ct007131
+	for <andrew.m.james2@gmail.com>; Thu, 30 Apr 2015 13:17:05 -0400
+Received: by iedfl3 with SMTP id fl3so81597370ied.1
+        for <andrew.m.james2@gmail.com>; Thu, 30 Apr 2015 10:17:00 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=bncz5D1rqo5/pU1RTM+YZktL/A5vCzYaptvIF7HVUao=;
+        b=Pe4/ydlPbSUeErXxdV2MLaz/tXzrBfy5IlZRoLeZFISTRdHEjcKp8LTRI8PFBQYkKn
+         NmEbJwd8ifpArUWmq+D4UmrJwchsruXY0zYKSRbaog8Hz7wGi9/adaat9AB1zrGVB/t5
+         njC8wzzsE7+cCDgGw/nM7+4odYW9ZWkymBdsU5VZ79X6tuBGrU8oR3q1n1eKrS/xD27W
+         YJ1ke2WU2+wmRR9FKShIzzKX/oSmiyIHOLvmhfFcgkSO+JaNAxAZ3g9veEysqWQM+M6b
+         pSa98GaZ4sUhknGVEahDQhogIZ3yn8Q4wYHK3ZOOrbj4Ohk1NZfojcmXQBAGoya2F0AX
+         sRaQ==
+X-Gm-Message-State: ALoCoQk+QwjJYYWhdyCunVRvdsNa6EWDfg4qID/EVq/O7jRZ+2VImddQmPKF281sUkhILcLVXk6h70+WyPnVM72+yfjjvRcjDS14KgA+D2Yhg18Mf9ybiBkpRXUtDZ/X7u32JK0AlVAKDkZCIgwzkxjW3R0i8H4YRQ==
+X-Received: by 10.107.19.2 with SMTP id b2mr7098477ioj.9.1430414219982;
+        Thu, 30 Apr 2015 10:16:59 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.19.2 with SMTP id b2mr7098465ioj.9.1430414219848; Thu,
+ 30 Apr 2015 10:16:59 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Thu, 30 Apr 2015 10:16:59 -0700 (PDT)
+In-Reply-To: <ef31165e0dab4f19891dd7f563fb1fa0@GUTENBERG.cc.w2k.vt.edu>
+References: <CAH0V_1Z6OV3NOD-+s=dcLBLuBrx5=PCBwWt4AVCGizVtGL6YEg@mail.gmail.com>
+	<ef31165e0dab4f19891dd7f563fb1fa0@GUTENBERG.cc.w2k.vt.edu>
+Date: Thu, 30 Apr 2015 13:16:59 -0400
+Message-ID: <CAH0V_1ZJz_ZQ=L+4vMs7inyS2e-FEArYtRHoViDx8j=VLtrfLw@mail.gmail.com>
+Subject: Re: Registration/application lists for MRPSS and SSS?
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>, "Good, Laurie" <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113f2af674b6500514f443cd
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 9209
+
+--001a113f2af674b6500514f443cd
+Content-Type: text/plain; charset=UTF-8
+
+Thanks, Jessica,
+
+If I recall correctly, we need 30 registrants for the MRPSS to break even,
+so as of your email, we're in the hole.  (Please confirm that, if you don't
+mind.)  In that case, I'll need to send out another email blast to try to
+drum up some additional students.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Apr 30, 2015 at 11:47 AM, Brow, Jessica <jbrow@exchange.vt.edu>
+wrote:
+
+>  Daniel,
+>
+>
+>
+> I am attaching the registration for the MRPSS.  It does not include Erik
+> Kallman, whose advisor will be paying for him.
+>
+>
+>
+> There are currently 32 people who have applied for the Software Summer
+> School.  Once you have decided who will be accepted, they need to go to the
+> following site to register.  The link should probably be provided for them.
+>
+>
+>
+> http://www.cpe.vt.edu/reg/sss/
+>
+>
+>
+> If any of the participants need Visa letters, I need to know ASAP so that
+> I can get them run through ISS.  That means that you probably need to
+> inform the applicants of the software summer school pretty quickly if they
+> have been accepted.  Both you and Andrew should have access to be able to
+> look at the applications in Qualtrics.
+>
+>
+>
+> Thanks!
+>
+>
+>
+> Jessica
+>
+> Jessica Brow
+>
+> Project Manager
+>
+> Continuing and Professional Education <http://cpt.vt.edu>
+>
+> Virginia Tech <http://vt.edu>
+>
+> 540-231-4140
+>
+> jbrow@vt.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+> *Sent:* Thursday, April 30, 2015 10:49 AM
+> *To:* Brow, Jessica; Andrew James; Good, Laurie
+> *Subject:* Registration/application lists for MRPSS and SSS?
+>
+>
+>
+> Hi, Jessica and AJ,
+>
+>
+>
+> Can you get me the current registration and application numbers for the
+> two summer schools?
+>
+>
+>
+> Thanks!
+>
+>
+>
+> -TDC
+>
+> --
+>
+> Prof. T. Daniel Crawford
+>
+> crawdad@vt.edu
+>
+
+--001a113f2af674b6500514f443cd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks, Jessica,<div><br></div><div>If I recall correctly,=
+ we need 30 registrants for the MRPSS to break even, so as of your email, w=
+e&#39;re in the hole. =C2=A0(Please confirm that, if you don&#39;t mind.) =
+=C2=A0In that case, I&#39;ll need to send out another email blast to try to=
+ drum up some additional students.</div><div><br></div><div>-TDC</div></div=
+><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_sign=
+ature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div>=
+</div></div>
+<br><div class=3D"gmail_quote">On Thu, Apr 30, 2015 at 11:47 AM, Brow, Jess=
+ica <span dir=3D"ltr">&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=
+=3D"_blank">jbrow@exchange.vt.edu</a>&gt;</span> wrote:<br><blockquote clas=
+s=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pad=
+ding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Daniel,<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">I am attaching the registration for t=
+he MRPSS.=C2=A0 It does not include Erik Kallman, whose advisor will be pay=
+ing for him.=C2=A0
+<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">There are currently 32 people who hav=
+e applied for the Software Summer School.=C2=A0 Once you have decided who w=
+ill be accepted, they need to go to the following site
+ to register.=C2=A0 The link should probably be provided for them.<u></u><u=
+></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><a href=3D"http://www.cpe.vt.edu/reg/=
+sss/" target=3D"_blank">http://www.cpe.vt.edu/reg/sss/</a><u></u><u></u></s=
+pan></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">If any of the participants need Visa =
+letters, I need to know ASAP so that I can get them run through ISS.=C2=A0 =
+That means that you probably need to inform the applicants
+ of the software summer school pretty quickly if they have been accepted.=
+=C2=A0 Both you and Andrew should have access to be able to look at the app=
+lications in Qualtrics.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Thanks!<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Jessica</span><span style=3D"font-siz=
+e:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"><u></u><u></u></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif">Jessica Brow<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif">Project Manager<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><a href=3D"http://cpt.vt.edu" target=3D"_blank"><sp=
+an style=3D"color:#0563c1">Continuing and Professional Education</span></a>=
+<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><a href=3D"http://vt.edu" target=3D"_blank"><span s=
+tyle=3D"color:#0563c1">Virginia Tech</span></a><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><a href=3D"tel:540-231-4140" value=3D"+15402314140"=
+ target=3D"_blank">540-231-4140</a><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><a href=3D"mailto:jbrow@vt.edu" target=3D"_blank">j=
+brow@vt.edu</a><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Crawford [mailto:<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Thursday, April 30, 2015 10:49 AM<br>
+<b>To:</b> Brow, Jessica; Andrew James; Good, Laurie<br>
+<b>Subject:</b> Registration/application lists for MRPSS and SSS?<u></u><u>=
+</u></span></p><div><div class=3D"h5">
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">Hi, Jessica and AJ,<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Can you get me the current registration and applicat=
+ion numbers for the two summer schools?<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks!<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-TDC<u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">--<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div>
+
+--001a113f2af674b6500514f443cd--

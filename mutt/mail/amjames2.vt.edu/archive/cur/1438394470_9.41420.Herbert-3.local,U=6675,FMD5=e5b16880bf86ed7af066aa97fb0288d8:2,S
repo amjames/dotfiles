@@ -1,0 +1,145 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp1101325qgf;
+        Fri, 10 Apr 2015 08:20:57 -0700 (PDT)
+X-Received: by 10.55.20.132 with SMTP id 4mr3835893qku.104.1428679257627;
+        Fri, 10 Apr 2015 08:20:57 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id t5si2075276qgd.84.2015.04.10.08.20.57
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 10 Apr 2015 08:20:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.180 as permitted sender) client-ip=209.85.223.180;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.180 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f180.google.com (mail-ie0-f180.google.com [209.85.223.180])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3AFKpNu002720
+	for <amjames2@vt.edu>; Fri, 10 Apr 2015 11:20:57 -0400
+Received: by iedfl3 with SMTP id fl3so22527802ied.1
+        for <amjames2@vt.edu>; Fri, 10 Apr 2015 08:20:51 -0700 (PDT)
+X-Received: by 10.50.107.36 with SMTP id gz4mr5198993igb.25.1428679251795;
+        Fri, 10 Apr 2015 08:20:51 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.126.133 with SMTP id my5csp1166367ieb;
+        Fri, 10 Apr 2015 08:20:51 -0700 (PDT)
+X-Received: by 10.140.86.199 with SMTP id p65mr2329110qgd.49.1428679250379;
+        Fri, 10 Apr 2015 08:20:50 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id z32si2107701qgd.1.2015.04.10.08.20.48
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 10 Apr 2015 08:20:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:277:40de:506c])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3AFKjeF023254
+	for <andrew.m.james2@gmail.com>; Fri, 10 Apr 2015 11:20:45 -0400
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com [209.85.213.179])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3AFKdxa003597
+	for <andrew.m.james2@gmail.com>; Fri, 10 Apr 2015 11:20:44 -0400
+Received: by igbqf9 with SMTP id qf9so471314igb.1
+        for <andrew.m.james2@gmail.com>; Fri, 10 Apr 2015 08:20:39 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=RATMJIa16bWEo8NQNugitQax7LwmoXOa9D4v0Y75uf0=;
+        b=EmmcyZdtadw9yNhtCe8ZkPBA1kpaIE/nxcIiyLyRzwrLFJiZg5dBr7CgIU+bY7SAlc
+         nDDQ0dXxGxihyRgCAHH+FtWLIzRzt6YVcRC1aNHi+uo2NM+WGIZTsXlz5W/8bnXhRiEO
+         lNpV16du6Oao4ObFKgYK+7TsZTifbEoVbethQE0aMsLboBwv13LQOWZ093J6LfxhTZ0t
+         12xBXb2DXR+H2X1vDW+ch08EM73Hwi9UVNbJrtxt81Ccd366AqDwh94Nfl0D7QWXqDQR
+         v2a+8nL81mWGTzuMXDb+GJZCsNic+Z6lV1ghiaa4xELwQynIFYXho2EZPAl/ba/GKGSx
+         S1Fw==
+X-Gm-Message-State: ALoCoQlWr+Ut1VoV92qG5C4jLzs2vZEn0zMt86/fbQ913+Ein1zpCM7AZN48tFsDipv9e+uTi3sa4BMOb3AvgxtqttuKB8XN3udT5HiIAnPScP859YVzTb9OG6hAHt+R3NzuCkbZ+7LjMjNkGxHoJlZq5mH2a0X/VQ==
+X-Received: by 10.107.38.17 with SMTP id m17mr3393432iom.84.1428679239519;
+        Fri, 10 Apr 2015 08:20:39 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.38.17 with SMTP id m17mr3393411iom.84.1428679239372;
+ Fri, 10 Apr 2015 08:20:39 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Fri, 10 Apr 2015 08:20:39 -0700 (PDT)
+Date: Fri, 10 Apr 2015 11:20:39 -0400
+Message-ID: <CAH0V_1a0S8F-kas-HPcxugkMFQWXRtE6yCQnY52062hJt7A5dQ@mail.gmail.com>
+Subject: Active space question
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Hans Lischka <hans.lischka@univie.ac.at>, anitadas.chem@gmail.com
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1141b53e8fa4c40513604e86
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141b53e8fa4c40513604e86
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Hans and Anita,
+
+We've debugged some problems with frozen virtual spaces in our CC codes,
+and we can now compute the natural orbital occupations.  AJ is putting some
+last touches on the code, and we should then be able to get you the data
+quickly.
+
+In the meantime, I have a question about the choice of active spaces for
+these systems.  From the material that Anita provided, it's clear that
+you've decided not to include the entire =CF=80-MO space in these systems. =
+ For
+example, for phenalenyl, the full =CF=80 space would be 13 orbitals.  Howev=
+er,
+your CASSCF calculations limited the space only to seven MOs.  From looking
+at the ROHF or UHF orbital energies for that system, I can see why this
+would be a good idea, as those seven MOs have rather isolated energies
+(more than 0.1 Eh away from their nearest energetic neighbors).
+Furthermore, I note that including the full 13 =CF=80 MOs results excludes =
+an
+occupied MO that is quite close in energy to one of the "=CF=80" MOs chosen=
+.  I
+don't know what this MO is (I haven't plotted them), but that split
+wouldn't make sense.
+
+My question in the end is simple: is there a reason to limit the active
+space to seven MOs apart from the energy separation issue and the
+computational expense?
+
+Best regards,
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--001a1141b53e8fa4c40513604e86
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Hans and Anita,<div><br></div><div>We&#39;ve debugged=
+ some problems with frozen virtual spaces in our CC codes, and we can now c=
+ompute the natural orbital occupations.=C2=A0 AJ is putting some last touch=
+es on the code, and we should then be able to get you the data quickly. =C2=
+=A0</div><div><br></div><div>In the meantime, I have a question about the c=
+hoice of active spaces for these systems.=C2=A0 From the material that Anit=
+a provided, it&#39;s clear that you&#39;ve decided not to include the entir=
+e =CF=80-MO space in these systems.=C2=A0 For example, for phenalenyl, the =
+full =CF=80 space would be 13 orbitals.=C2=A0 However, your CASSCF calculat=
+ions limited the space only to seven MOs.=C2=A0 From looking at the ROHF or=
+ UHF orbital energies for that system, I can see why this would be a good i=
+dea, as those seven MOs have rather isolated energies (more than 0.1 Eh awa=
+y from their nearest energetic neighbors).=C2=A0 Furthermore, I note that i=
+ncluding the full 13 =CF=80 MOs results excludes an occupied MO that is qui=
+te close in energy to one of the &quot;=CF=80&quot; MOs chosen.=C2=A0 I don=
+&#39;t know what this MO is (I haven&#39;t plotted them), but that split wo=
+uldn&#39;t make sense.<br></div><div><br></div><div>My question in the end =
+is simple: is there a reason to limit the active space to seven MOs apart f=
+rom the energy separation issue and the computational expense?</div><div><b=
+r></div><div>Best regards,</div><div><br></div><div>-Daniel</div><div><br c=
+lear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Pr=
+of. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+
+--001a1141b53e8fa4c40513604e86--

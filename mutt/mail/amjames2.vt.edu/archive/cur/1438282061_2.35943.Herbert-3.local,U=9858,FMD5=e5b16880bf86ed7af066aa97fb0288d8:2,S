@@ -1,0 +1,385 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp707960qgt;
+        Thu, 4 Jun 2015 09:39:43 -0700 (PDT)
+X-Received: by 10.52.114.230 with SMTP id jj6mr55025432vdb.66.1433435982899;
+        Thu, 04 Jun 2015 09:39:42 -0700 (PDT)
+Return-Path: <xsheng@ucmerced.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id ai6si8021015vdd.62.2015.06.04.09.39.40
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Jun 2015 09:39:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of xsheng@ucmerced.edu designates 65.55.169.110 as permitted sender) client-ip=65.55.169.110;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of xsheng@ucmerced.edu designates 65.55.169.110 as permitted sender) smtp.mail=xsheng@ucmerced.edu
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0110.outbound.protection.outlook.com [65.55.169.110])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t54GdVIE001006
+	for <amjames2@vt.edu>; Thu, 4 Jun 2015 12:39:38 -0400
+Received: from CO2PR0601MB710.namprd06.prod.outlook.com (10.141.244.156) by
+ CO2PR0601MB712.namprd06.prod.outlook.com (10.141.245.12) with Microsoft SMTP
+ Server (TLS) id 15.1.172.22; Thu, 4 Jun 2015 16:39:30 +0000
+Received: from CO2PR0601MB710.namprd06.prod.outlook.com ([10.141.244.156]) by
+ CO2PR0601MB710.namprd06.prod.outlook.com ([10.141.244.156]) with mapi id
+ 15.01.0172.012; Thu, 4 Jun 2015 16:39:30 +0000
+From: Xianghai Sheng <xsheng@ucmerced.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Software Summer School Application Status 
+Thread-Topic: Software Summer School Application Status 
+Thread-Index: AQHQnIzKMPMkxaY1qk6ocfn74md1RZ2YPCGcgAERHQCAA0IVAIAAAQig
+Date: Thu, 4 Jun 2015 16:39:29 +0000
+Message-ID: <CO2PR0601MB710072A8BCFEEA421796B29A1B30@CO2PR0601MB710.namprd06.prod.outlook.com>
+References: <8C060B04-39FC-435B-9BB3-3557075C539B@vt.edu>
+ <CO2PR0601MB71061F3EFC3282A4C841AECA1B60@CO2PR0601MB710.namprd06.prod.outlook.com>
+ <,<FBD456E0-E662-4C62-BD2C-06E1F66CA054@vt.edu> <>>
+ <CO2PR0601MB710D4D0EFD086603F7BCB83A1B60@CO2PR0601MB710.namprd06.prod.outlook.com>
+ <7B88526A-088A-4D72-A085-C5A0D209046B@vt.edu>,<7DD42410-F60F-4E85-85CC-D91E80B1F107@vt.edu>
+In-Reply-To: <7DD42410-F60F-4E85-85CC-D91E80B1F107@vt.edu>
+Accept-Language: en-US, zh-CN
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=xsheng@ucmerced.edu; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [169.236.73.199]
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:CO2PR0601MB712;
+x-microsoft-antispam-prvs: <CO2PR0601MB712DC6CD8648194083EC8D3A1B30@CO2PR0601MB712.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006)(520003)(3002001);SRVR:CO2PR0601MB712;BCL:0;PCL:0;RULEID:;SRVR:CO2PR0601MB712;
+x-forefront-prvs: 0597911EE1
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(377454003)(189002)(199003)(24454002)(87936001)(5002640100001)(89122001)(76176999)(2171001)(54356999)(19625215002)(93886004)(88552001)(75432002)(19580395003)(81156007)(33656002)(40100003)(19617315012)(4001540100001)(19627405001)(16236675004)(46102003)(2656002)(90282001)(122556002)(101416001)(106116001)(105586002)(106356001)(68736005)(77096005)(5001830100001)(86362001)(66066001)(74316001)(99286002)(102836002)(62966003)(5001960100002)(5001860100001)(77156002)(110136002)(450100001)(50986999)(19580405001)(2900100001)(2950100001)(189998001)(107886002)(97736004)(76576001)(92566002)(64706001)(15975445007);DIR:OUT;SFP:1102;SCL:1;SRVR:CO2PR0601MB712;H:CO2PR0601MB710.namprd06.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: ucmerced.edu does not designate
+ permitted sender hosts)
+Content-Type: multipart/alternative;
+	boundary="_000_CO2PR0601MB710072A8BCFEEA421796B29A1B30CO2PR0601MB710na_"
+MIME-Version: 1.0
+X-OriginatorOrg: ucmerced.edu
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Jun 2015 16:39:29.4083
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f4dfe9a3-ca78-4998-b7a7-e6d0692eace6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR0601MB712
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_NONE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_CO2PR0601MB710072A8BCFEEA421796B29A1B30CO2PR0601MB710na_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Andrew,
+
+
+Thank you for the clarification. I will reconsider the flights.
+
+
+Xianghai
+
+________________________________
+From: Andrew James <amjames2@vt.edu>
+Sent: Thursday, June 4, 2015 9:33
+To: Xianghai Sheng
+Subject: Re: Software Summer School Application Status
+
+Xianghi,
+
+I am terribly sorry, but I was mistaken when I gave information earlier abo=
+ut the end of the school on the last day.  We are hosting two schools here =
+at tech this summer and the other school has a half day for the last day.  =
+The software school will feature two lecture sessions by Prof. Eugene DePri=
+nce on GPU and Accelerator architectures on wed July 1.  If you have not bo=
+oked a flight yet I would suggest a flight that leaves the next day, or lat=
+e in the evening.
+
+I am very sorry for that mix up.  Let me know when you have finalized your =
+travel plans.
+
+Andrew
+On Jun 2, 2015, at 10:48 AM, Andrew James <Amjames2@vt.edu<mailto:Amjames2@=
+vt.edu>> wrote:
+
+Xianghai,
+
+That might be a bit close, but would not create a problem!
+
+-Andrew
+On Jun 1, 2015, at 6:31 PM, xsheng <xsheng@ucmerced.edu<mailto:xsheng@ucmer=
+ced.edu>> wrote:
+
+Thank you for the quick reply! Would a flight departing at 2:35 be okay?
+
+Xianghai
+________________________________
+From: Andrew James <amjames2@vt.edu<mailto:amjames2@vt.edu>>
+Sent: Monday, June 1, 2015 10:02
+To: xsheng
+Subject: Re: Software Summer School Application Status
+
+The schedule on the website is the most up-to-date version I have gotten.  =
+I know that the class session on July first will end at lunch so an afterno=
+on flight would be okay!
+
+-Andrew
+On Jun 1, 2015, at 1:01 PM, xsheng <xsheng@ucmerced.edu<mailto:xsheng@ucmer=
+ced.edu>> wrote:
+
+Thank you! Could you please send me the detailed schedule of the school? Do=
+es the class on July 1st last a whole day?
+
+Best,
+Xianghai
+________________________________
+From: Andrew James <amjames2@vt.edu<mailto:amjames2@vt.edu>>
+Sent: Monday, June 1, 2015 8:30
+To: xsheng
+Subject: Software Summer School Application Status
+
+Dear Xianghai,
+
+We are happy to announce that your application to the 2015 Software-Develop=
+ment Summer School for Computational Chemistry, Biomolecular Simulation, an=
+d Materials Modeling has been accepted!
+
+The next step is to secure your place in the program by going to this webpa=
+ge to formally register. http://www.cpe.vt.edu/reg/sss/
+The registration page mentions credit cards, so I want to remind you that t=
+here is no charge for participating in the Summer School. Clicking register=
+ will bring you to a page showing a total of $0.00 for registration.
+
+When you have made your travel arrangements I ask that you please send me a=
+n email (amjames2@vt.edu<mailto:amjames2@vt.edu>).
+If you will be flying I will need to know the flight number, airline and th=
+e scheduled arrival/departure time of your arriving and departing flights. =
+ We will use this information to arrange transportation to and from Roanoke=
+ airport.
+
+If you are driving to campus I will need to get you a temporary parking per=
+mit, and give you instructions on where you can park.
+If you have any questions please do not hesitate to contact me. Looking for=
+ward to meeting you in June!
+
+Sincerely,
+Andrew M. James
+Summer School Coordinator
+
+
+
+--_000_CO2PR0601MB710072A8BCFEEA421796B29A1B30CO2PR0601MB710na_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;back=
+ground-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p>Hi Andrew,&nbsp;<br>
+</p>
+<p><br>
+</p>
+<p>Thank you for the clarification. I will reconsider the flights.&nbsp;<br=
+>
+</p>
+<p><br>
+</p>
+<p>Xianghai<br>
+</p>
+<div style=3D"word-wrap: break-word; color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Andrew James &lt;amja=
+mes2@vt.edu&gt;<br>
+<b>Sent:</b> Thursday, June 4, 2015 9:33<br>
+<b>To:</b> Xianghai Sheng<br>
+<b>Subject:</b> Re: Software Summer School Application Status </font>
+<div>&nbsp;</div>
+</div>
+<div>Xianghi,&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">I am terribly sorry, but I was mistaken when I gave informa=
+tion earlier about the end of the school on the last day. &nbsp;We are host=
+ing two schools here at tech this summer and the other school has a half da=
+y for the last day. &nbsp;The software school
+ will feature two lecture sessions by Prof. Eugene DePrince on GPU and Acce=
+lerator architectures on wed July 1. &nbsp;If you have not booked a flight =
+yet I would suggest a flight that leaves the next day, or late in the eveni=
+ng.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">I am very sorry for that mix up. &nbsp;Let me know when you=
+ have finalized your travel plans.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Andrew&nbsp;<br class=3D"">
+<div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Jun 2, 2015, at 10:48 AM, Andrew James &lt;<a href=3D"ma=
+ilto:Amjames2@vt.edu" class=3D"">Amjames2@vt.edu</a>&gt; wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div class=3D"" style=3D"word-wrap:break-word">Xianghai,&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">That might be a bit close, but would not create a problem!&=
+nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">&#8212;Andrew&nbsp;<br class=3D"">
+<div class=3D"">
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Jun 1, 2015, at 6:31 PM, xsheng &lt;<a href=3D"mailto:xs=
+heng@ucmerced.edu" class=3D"">xsheng@ucmerced.edu</a>&gt; wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div id=3D"divtagdefaultwrapper" class=3D"" style=3D"font-style:normal; fon=
+t-variant:normal; font-weight:normal; letter-spacing:normal; line-height:no=
+rmal; orphans:auto; text-align:start; text-indent:0px; text-transform:none;=
+ white-space:normal; widows:auto; word-spacing:0px; font-size:12pt; backgro=
+und-color:rgb(255,255,255); font-family:Calibri,Arial,Helvetica,sans-serif"=
+>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px">Thank you for t=
+he quick reply! Would a flight departing at 2:35 be okay?&nbsp;<br class=3D=
+"">
+</div>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px"><br class=3D"">
+</div>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px">Xianghai<br cla=
+ss=3D"">
+</div>
+<div class=3D"" style=3D"word-wrap:break-word">
+<hr tabindex=3D"-1" class=3D"" style=3D"display:inline-block; width:628.171=
+875px">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr" class=3D""><font face=3D"Calibri, san=
+s-serif" class=3D"" style=3D"font-size:11pt"><b class=3D"">From:</b><span c=
+lass=3D"Apple-converted-space">&nbsp;</span>Andrew James &lt;<a href=3D"mai=
+lto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt;<br class=3D"">
+<b class=3D"">Sent:</b><span class=3D"Apple-converted-space">&nbsp;</span>M=
+onday, June 1, 2015 10:02<br class=3D"">
+<b class=3D"">To:</b><span class=3D"Apple-converted-space">&nbsp;</span>xsh=
+eng<br class=3D"">
+<b class=3D"">Subject:</b><span class=3D"Apple-converted-space">&nbsp;</spa=
+n>Re: Software Summer School Application Status<span class=3D"Apple-convert=
+ed-space">&nbsp;</span></font>
+<div class=3D"">&nbsp;</div>
+</div>
+<div class=3D"">The schedule on the website is the most up-to-date version =
+I have gotten. &nbsp;I know that the class session on July first will end a=
+t lunch so an afternoon flight would be okay!&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">&#8212;Andrew&nbsp;<br class=3D"">
+<div class=3D"">
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Jun 1, 2015, at 1:01 PM, xsheng &lt;<a href=3D"mailto:xs=
+heng@ucmerced.edu" class=3D"">xsheng@ucmerced.edu</a>&gt; wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div id=3D"divtagdefaultwrapper" class=3D"" style=3D"font-style:normal; fon=
+t-variant:normal; font-weight:normal; letter-spacing:normal; line-height:no=
+rmal; orphans:auto; text-align:start; text-indent:0px; text-transform:none;=
+ white-space:normal; widows:auto; word-spacing:0px; font-size:12pt; backgro=
+und-color:rgb(255,255,255); font-family:Calibri,Arial,Helvetica,sans-serif"=
+>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px">Thank you! Coul=
+d you please send me the detailed schedule of the school? Does the class on=
+ July 1st last a whole day?&nbsp;<br class=3D"">
+</div>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px"><br class=3D"">
+</div>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px">Best,&nbsp;<br =
+class=3D"">
+</div>
+<div class=3D"" style=3D"margin-top:0px; margin-bottom:0px">Xianghai<br cla=
+ss=3D"">
+</div>
+<div class=3D"" style=3D"word-wrap:break-word">
+<hr tabindex=3D"-1" class=3D"" style=3D"display:inline-block; width:438.046=
+875px">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr" class=3D""><font face=3D"Calibri, san=
+s-serif" class=3D"" style=3D"font-size:11pt"><b class=3D"">From:</b><span c=
+lass=3D"Apple-converted-space">&nbsp;</span>Andrew James &lt;<a href=3D"mai=
+lto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt;<br class=3D"">
+<b class=3D"">Sent:</b><span class=3D"Apple-converted-space">&nbsp;</span>M=
+onday, June 1, 2015 8:30<br class=3D"">
+<b class=3D"">To:</b><span class=3D"Apple-converted-space">&nbsp;</span>xsh=
+eng<br class=3D"">
+<b class=3D"">Subject:</b><span class=3D"Apple-converted-space">&nbsp;</spa=
+n>Software Summer School Application Status</font>
+<div class=3D"">&nbsp;</div>
+</div>
+<div class=3D"">
+<div class=3D"">Dear Xianghai,</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">We are happy to announce that your application to the 2015 =
+Software-Development Summer School for Computational Chemistry, Biomolecula=
+r Simulation, and Materials Modeling has been accepted!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">The next step is to secure your place in the program by goi=
+ng to this webpage to formally register.&nbsp;<a href=3D"http://www.cpe.vt.=
+edu/reg/sss/" class=3D"">http://www.cpe.vt.edu/reg/sss/</a>&nbsp;</div>
+<div class=3D"">The registration page mentions credit cards, so I want to r=
+emind you that&nbsp;<b class=3D""><i class=3D"">there is no charge for part=
+icipating in the Summer School</i></b>. Clicking register will bring you to=
+ a page showing a total of $0.00 for registration.
+ &nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">When you have made your travel arrangements I ask that you =
+please send me an email (<a href=3D"mailto:amjames2@vt.edu" class=3D"">amja=
+mes2@vt.edu</a>).</div>
+<div class=3D"">If you will be flying I will need to know the flight number=
+, airline and the scheduled arrival/departure time of your arriving and dep=
+arting flights. &nbsp;We will use this information to arrange transportatio=
+n to and from Roanoke airport.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">If you are driving to campus I will need to get you a tempo=
+rary parking permit, and give you instructions on where you can park.&nbsp;=
+</div>
+<div class=3D"">If you have any questions please do not hesitate to contact=
+ me. Looking forward to meeting you in June!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Sincerely,</div>
+<div class=3D"">Andrew M. James</div>
+<div class=3D"">Summer School Coordinator</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CO2PR0601MB710072A8BCFEEA421796B29A1B30CO2PR0601MB710na_--

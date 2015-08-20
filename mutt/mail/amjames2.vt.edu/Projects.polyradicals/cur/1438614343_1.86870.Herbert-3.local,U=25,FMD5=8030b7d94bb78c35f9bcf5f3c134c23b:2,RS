@@ -1,0 +1,147 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1534672qgt;
+        Mon, 20 Jul 2015 13:05:55 -0700 (PDT)
+X-Received: by 10.55.15.209 with SMTP id 78mr34848018qkp.21.1437422755868;
+        Mon, 20 Jul 2015 13:05:55 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 16si25552443qkt.59.2015.07.20.13.05.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Jul 2015 13:05:55 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.171 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6KK5nir010397
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 16:05:54 -0400
+Received: by igvi1 with SMTP id i1so85340806igv.1
+        for <amjames2@vt.edu>; Mon, 20 Jul 2015 13:05:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=eaWi6Jsz9lah4WSyHXZbaVkzOXTBIK/yYiAe++aC+fc=;
+        b=BFfVslLwfVb8PoN3YuxrP+stlykF7Knpb87U48FbciXOwoIOj7idX7Lle4BRaQjS7n
+         pzs5A5A9o4RSQwIWAxd8ytUEWXY5nHsPp7sKPsPtBwB5pQjnjkpQSoRBbE4cHsod6p6v
+         tr44wMxwj5S5tC+faTn08QqTbhJ06fce4o60rbzaVuXX2SuUWeqzXPTdXKQSVlr1tiaH
+         QTdzzLHQT7SrIAo4cPWjYuyDKZRnRnt2kkTIOmkQSQTmjYWB3GydDcLkjwD/9jkITYhk
+         Eglj3fRMJmLMxs8PUjZYNCi9P20u0Qgj1bmFw7jQjNJzN7r/uMNCfUlubu0zMfuH8u+S
+         Uqsw==
+X-Gm-Message-State: ALoCoQnFUk5yWPV9Dg5Ht5DJYZTMhRqb9ogGr36QFomVhN46Zn9YYTMrj9MwjrhbyLhN8UCP6JdUe+0HmAyiNKzQUnBjSILdA56r7t3Ds/6w1CscQ9jMxtQV0BLjqSoyooxZx8JVM8MXfCJ+oETAaS+scVWZjgyYUg==
+X-Received: by 10.107.37.142 with SMTP id l136mr44074414iol.126.1437422749675;
+        Mon, 20 Jul 2015 13:05:49 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.37.142 with SMTP id l136mr44074388iol.126.1437422749530;
+ Mon, 20 Jul 2015 13:05:49 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Mon, 20 Jul 2015 13:05:49 -0700 (PDT)
+In-Reply-To: <63B7E725-00D6-4BF2-AA67-9DA54059D9D7@vt.edu>
+References: <63B7E725-00D6-4BF2-AA67-9DA54059D9D7@vt.edu>
+Date: Mon, 20 Jul 2015 16:05:49 -0400
+Message-ID: <CAH0V_1YeoAKcpTO9v9is+mTNdHLWwEd2eCFPCMYkQRObR2WSRg@mail.gmail.com>
+Subject: Re: New Polyradicals data
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1140269a60d6fd051b54108d
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3167
+
+--001a1140269a60d6fd051b54108d
+Content-Type: text/plain; charset=UTF-8
+
+AJ,
+
+Looking at the output for structure 4 with the UHF reference, the ccdensity
+code appears to have printed only the beta NO occupation numbers.  However,
+your plot appears to give the alpha+beta values.  Where are the alpha
+occupation numbers?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jul 20, 2015 at 3:44 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Dr. Crawford,
+>
+> Here are my latest results.  The directories for the new calculations if
+> you would like to look at the output are
+>
+> 4:
+> /home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1
+> 7:
+> /home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-0.7
+>
+> And for the original data:
+> 4
+> home/amjames2/polyradical/4/singlet-singlet-6-31GS-ROHF-core-nofollow
+> 7
+> /home/amjames2/polyradical/7/singlet-singlet-6-31GS-UHF-core-nofollow
+>
+> I noticed that 7 still had negative hessian eigenvalues after the
+> rotation, but since they are not in the totally symmetric irrep no
+> additional rotation is performed. Is that something to be concerned about?
+>
+>
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+>
+
+--001a1140269a60d6fd051b54108d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">AJ,<div><br></div><div>Looking at the output for structure=
+ 4 with the UHF reference, the ccdensity code appears to have printed only =
+the beta NO occupation numbers.=C2=A0 However, your plot appears to give th=
+e alpha+beta values.=C2=A0 Where are the alpha occupation numbers?</div><di=
+v><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"al=
+l"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Dan=
+iel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 20, 2015 at 3:44 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">D=
+ear Dr. Crawford,<br>
+<br>
+Here are my latest results.=C2=A0 The directories for the new calculations =
+if you would like to look at the output are<br>
+<br>
+4:<br>
+/home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1<br>
+7:<br>
+/home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-0.7<br>
+<br>
+And for the original data:<br>
+4<br>
+home/amjames2/polyradical/4/singlet-singlet-6-31GS-ROHF-core-nofollow<br>
+7<br>
+/home/amjames2/polyradical/7/singlet-singlet-6-31GS-UHF-core-nofollow<br>
+<br>
+I noticed that 7 still had negative hessian eigenvalues after the rotation,=
+ but since they are not in the totally symmetric irrep no additional rotati=
+on is performed. Is that something to be concerned about?<br>
+<br>
+<br><br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+<br></blockquote></div><br></div>
+
+--001a1140269a60d6fd051b54108d--

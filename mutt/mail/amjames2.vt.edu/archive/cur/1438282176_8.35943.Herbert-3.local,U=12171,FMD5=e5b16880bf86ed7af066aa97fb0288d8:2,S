@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2086205qgt;
+        Tue, 21 Jul 2015 09:36:17 -0700 (PDT)
+X-Received: by 10.55.31.40 with SMTP id f40mr56216059qkf.18.1437496577813;
+        Tue, 21 Jul 2015 09:36:17 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id f199si28876620qhc.20.2015.07.21.09.36.17
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Jul 2015 09:36:17 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6LGaBN5014528
+	for <amjames2@vt.edu>; Tue, 21 Jul 2015 12:36:16 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=I1mBUjgJP0jJ64CgTLrtNVpR7hA=; b=g4i3jMDFHoh8CAmK
+	gtC3SqsmX4XBHd67JUo1Fh8a/erf6DenkiEf2HDVcOc2DfhqqW7PSuixuCv7pwLd
+	r22xnSqHY0jKTAIRaDMWzvbiluF5vhjS7pmhgHenXHfPgw05ePNbEPNsMLqy9Ili
+	Egw1FqF/WTk7eY23UAg8uc/qWiM=
+Received: by filter-475.sjc1.sendgrid.net with SMTP id filter-475.29629.55AE74F92
+        2015-07-21 16:36:09.11241217 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-075 (SG) with ESMTP id 14eb178ec47.38aa.260fc9
+	for <amjames2@vt.edu>; Tue, 21 Jul 2015 16:36:08 +0000 (UTC)
+Date: Tue, 21 Jul 2015 09:36:08 -0700
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6427989a954c029ec742d3f21b78bd835ed0706667e92cf0000000111c636f892a169ce05ade551@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/139/123395172@github.com>
+In-Reply-To: <psi4/psi4public/issues/139@github.com>
+References: <psi4/psi4public/issues/139@github.com>
+Subject: Re: [psi4public] fix failing test case plugin skeleton (#139)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ae74f82a1b3_20963fc662d792a0274415";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6427989a954c029ec742d3f21b78bd835ed0706667e92cf0000000111c636f892a169ce05ade551@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6427989a954c029ec742d3f21b78bd835ed0706667e92cf0000000111c636f892a169ce05ade551@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QrnBuS1BZ4mMP81Rzd2DvEdP0fUFks5ofmx4gaJpZM4FZYj4>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkUVvqgrpMlRZHgIlWJi2t+y0FzxXeNoLV1lW
+ yePt+jAdZxD3bylLaLk/xDrCUj77c9ULA9zgKXu9kGxUxbyCmlF3duRwWJnaQhBuYeeN6AhDC0QbvK
+ c3KzVZLiRwCsmeQ=
+X-Spam-Status: No, score=-2.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ae74f82a1b3_20963fc662d792a0274415
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Fixed this with 4ba1537fd07354d0f7c3cf1ccae84b5e6fe4a038
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/139#issuecomment-123395172
+----==_mimepart_55ae74f82a1b3_20963fc662d792a0274415
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Fixed this with <a href="https://github.com/psi4/psi4public/commit/4ba1537fd07354d0f7c3cf1ccae84b5e6fe4a038" class="commit-link"><tt>4ba1537</tt></a></p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/139#issuecomment-123395172">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QpFsMVRTUUupgVl49C7Ttng-SpJjks5ofmx4gaJpZM4FZYj4.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/139#issuecomment-123395172"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ae74f82a1b3_20963fc662d792a0274415--

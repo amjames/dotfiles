@@ -1,0 +1,93 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2540058qgt;
+        Tue, 11 Aug 2015 09:00:22 -0700 (PDT)
+X-Received: by 10.140.202.16 with SMTP id x16mr53443220qha.70.1439308822767;
+        Tue, 11 Aug 2015 09:00:22 -0700 (PDT)
+Return-Path: <bursar-resc@exchange.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 141si4037446qhg.26.2015.08.11.09.00.22
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 09:00:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bursar-resc@exchange.vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bursar-resc@exchange.vt.edu designates 198.82.160.12 as permitted sender) smtp.mailfrom=bursar-resc@exchange.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12] (may be forged))
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BG0HG6011957
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 12:00:22 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: GUTENBERG.cc.w2k.vt.edu
+Received: from BRAILLE.cc.w2k.vt.edu (198.82.160.8) by GUTENBERG.cc.w2k.vt.edu
+ (198.82.160.12) with Microsoft SMTP Server (TLS) id 15.0.1104.5; Tue, 11 Aug
+ 2015 12:00:16 -0400
+Received: from BRAILLE.cc.w2k.vt.edu ([198.82.160.8]) by BRAILLE.cc.w2k.vt.edu
+ ([198.82.160.8]) with mapi id 15.00.0995.032; Tue, 11 Aug 2015 12:00:16 -0400
+From: University Bursar <bursar-resc@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: RE: Incorrect Account Holds: Seccond and Final Notice 
+Thread-Topic: Incorrect Account Holds: Seccond and Final Notice 
+Thread-Index: AQHQ1DUJQqxdiQTBYUOmACeo55336p4G9AUA
+Date: Tue, 11 Aug 2015 16:00:16 +0000
+Message-ID: <59720e5f104f44c2959a7d52fc79dd52@BRAILLE.cc.w2k.vt.edu>
+References: <20150811125539.GB48942@Herbert-3.local>
+In-Reply-To: <20150811125539.GB48942@Herbert-3.local>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [128.173.141.79]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrLqsTGxXIsaAGHroDMqVCDZx82HmG0+Npk7MAYwBDFmpmXlF+RwJpx68U2poLvnhUnX95lamDsde1i5OIQEtjMKLHr1k0mCGceo8T5Tz1sXYycHMwCphJXvjayQNiKEhfuNYDZbEDxS1PuMoPYIgKqEvuX3wKzhQXsJZZfu8IGEXeQeDb5M1SNkcTV18/A4ixA9a13trOD2LwCLhKXNzYzgthCAiYSe7Z9BpvPCTR//fR9YPWMAmIS30+tYYK4QVzi1pP5YLaEgIDEkj3nmSFsJYne2++g4n4SByYuZoGYLyhxcuYTFoi4mcTeB0ugavQkJl9rY4WwAyV6G3YB2RxAtqnE1ffBEGFbiT0zJjJBhJ0l5t2ohwjbSGy/PYMdwtaW2P5qH9QUHYlN11ZBbZKX+H/vPpTtJHG46zw7zJUrFh+AuthBYvnUK+wTGNVmIQX0LKSAnoXk4VlInlnAyLKKUdw9NMTVz8k1yF0vOVmv3Chbr6xELzWldBMjJBXw7GB8Md/9EKMkB5OSKK+CxKlQIb6k/JTKjMTijPii0pzU4kOMEhw8SiK8XySBcrzFBYm5xZnpMCkZDg4lCV5RKaCUYFFqempFWmZOSWoRRPoUo6KUOK8aSFIApC+jNA8uB0uElxhlpYR51cSAangKUotyM0tQ5W8xckhBma8YxTkYlYR5BUEG8mTmlcDd8QroRCagE+0CT4CcWJKIkJJqYJxw7PMLYY4DqtaSPH9aNrw2tphw8sL8TivHtOZvOfGpHdrvlhSdknI4tZh/D+P2E9fN5y67dtHjY+3fvG9L1zQa/Lc6cG+pIK+CfvXx6C/9X0tCK9+zHA+74t9fJfev4L38jHUyvxiv6y56OTXCh+faZ58LDZrf7h0Q/NX8fI7f75vPa/seM7MrsRRnJBpqMRcVJwIAhI2GnoADAAA=
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: GUTENBERG.cc.w2k.vt.edu
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DEAR_SOMETHING,
+	RCVD_IN_DNSWL_MED,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Andrew, the $25 no show charge was posted to your account by the Health Cen=
+ter on 5/14.  If you feel this is an incorrect charge you will need to spea=
+k with the Health Center.  We cannot remove a charge they posted to your ac=
+count without a written request from them to do so.  Their phone is 540-231=
+-6444.  Thank you.
+
+Kelly S. Perkins=20
+Accounts Receivable Supervisor
+Office of the University Bursar (MC0143)
+Student Services Building, Suite 150, Virginia Tech
+800 Washington Street, SW
+Blacksburg, Virginia 24061
+540-231-6277
+540-231-3238 Fax
+
+Academic Record Disclosure: You are receiving this information as determine=
+d by the educational right to know disclosure guidelines of the Family Educ=
+ational Rights and Privacy Act (FERPA). If you are not the intended recipie=
+nt, please do not disclose, copy or distribute this information. Please not=
+ify the sender immediately by return electronic e-mail or by telephone at 5=
+40-231-6277. Thank you.
+
+
+-----Original Message-----
+From: Andrew M James [mailto:amjames2@vt.edu]=20
+Sent: Tuesday, August 11, 2015 8:56 AM
+To: University Bursar
+Subject: Incorrect Account Holds: Seccond and Final Notice=20
+
+Dear Sir or Madam,=20
+
+    This is the second time that I have contacted this office=20
+    regarding an erroneous charge on my account. This charge is now
+    affecting my registration status, and due to some apparent oversight
+    your office failed to remove it after my last message.  This is the
+    final notice: my account hold needs to be cleared by the end of
+    the day.  I will under no circumstances pay any outstanding charges
+    as I have no outstanding debt with the university. The charge
+    showing on my account is in error. I am prepared to escalate the
+    issue if not resolved by this time tomorrow morning.
+
+    Thank you,=20
+    Andrew M. James=20

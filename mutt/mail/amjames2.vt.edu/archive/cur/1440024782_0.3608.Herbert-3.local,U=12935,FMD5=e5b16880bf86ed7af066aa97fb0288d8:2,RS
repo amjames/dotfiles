@@ -1,0 +1,263 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp600620qgb;
+        Wed, 19 Aug 2015 15:49:42 -0700 (PDT)
+X-Received: by 10.140.100.179 with SMTP id s48mr27038635qge.36.1440024582873;
+        Wed, 19 Aug 2015 15:49:42 -0700 (PDT)
+Return-Path: <logsorr@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id z79si3983823qge.93.2015.08.19.15.49.42
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 15:49:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of logsorr@gmail.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of logsorr@gmail.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender) smtp.mailfrom=logsorr@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-lb0-x232.google.com (mail-lb0-x232.google.com [IPv6:2a00:1450:4010:c04::232])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7JMnaqC021446
+	for <amjames2@vt.edu>; Wed, 19 Aug 2015 18:49:42 -0400
+Received: by lbbsx3 with SMTP id sx3so12804394lbb.0
+        for <amjames2@vt.edu>; Wed, 19 Aug 2015 15:49:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=Z0ba8aG/4lVCheNsFikQns816H/PJ2a/ZKcBx6g5ivY=;
+        b=fJ3wtIQxjU9A7g52D/fryAqlBHa/XlKiUGEvUGlfHFF472J36oThnRsAPPHacwz+TD
+         5+haQQ2mh5/XfM+iHePRcHcf5Y07hF59YTBygicLbmTl8qNlhY8rfxIlREEKO96tDpMp
+         OUEqgADMGpzSS2XUOeQ26saCae6Nl0wLB2vDm+L6I4/W9QxI928Q6+moCc8rxyobm9ld
+         toEb2mvEmGvu/7OlHGBFPO7BEP50YJSF4WRtTTLjqjblLP51RzHr8TodTKFrl3z0EL6g
+         efKSGyAbLc4yR9KtUiOr9l6lHprTa3miLBzOT5WDAWTeSZq97JW/QJU5CWSx0k5lPswh
+         WUYg==
+MIME-Version: 1.0
+X-Received: by 10.112.42.172 with SMTP id p12mr13861054lbl.52.1440024576519;
+ Wed, 19 Aug 2015 15:49:36 -0700 (PDT)
+Received: by 10.114.181.132 with HTTP; Wed, 19 Aug 2015 15:49:36 -0700 (PDT)
+In-Reply-To: <9DAE984B-74BF-485F-8A0E-6156664AC6A2@vt.edu>
+References: <CAKfgpTR7d6CiAK=0jpJ0n=n5bRmSgUAjZ2Fhr839-gFEXaA9QQ@mail.gmail.com>
+	<CA+58rsDLCNAiaejNZZ_O8MiUUHY-v5ccboQ2tb-C-wUhbRARTA@mail.gmail.com>
+	<CAKfgpTSb-0_BWtOPPX=ny=6+OeAeKJeo+HbU=HjuUVHzfPGsWQ@mail.gmail.com>
+	<9DAE984B-74BF-485F-8A0E-6156664AC6A2@vt.edu>
+Date: Wed, 19 Aug 2015 18:49:36 -0400
+Message-ID: <CAKfgpTQTfpA-qbmHRSgaLG1Qik2ATh8ALB8kCdPg5HqNG91xYg@mail.gmail.com>
+Subject: Re: Fibonacci Script
+From: Logan Sorrentino <logsorr@gmail.com>
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1134d44e59f50a051db1d981
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,URIBL_DBL_ABUSE_REDIR
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1134d44e59f50a051db1d981
+Content-Type: text/plain; charset=UTF-8
+
+Haha no worries.  Interesting.  I'll have to make use of that in the
+future.
+
+What are you working on these days?
+
+Logan
+
+On Wed, Aug 19, 2015 at 6:32 PM, Andrew M James <amjames2@vt.edu> wrote:
+
+> I did a shell redirect. The conversion from int to char would muck up the
+> numbers because Python will mangle the long ints with the type cast. So by
+> running my script like this from the terminal
+>
+> Python genfib.py
+>
+> It would print to the screen so instead I do
+>
+> Python genfib.py > fibfile.txt
+>
+> The > redirects stdout to the target file. The script opens the file
+> handle but never does anything with it. I replaced the file prints with
+> regular print to terminal but never removed the opening of the file
+> (whoops)
+>
+> Sent from my iPhone
+>
+> On Aug 19, 2015, at 6:23 PM, Logan Sorrentino <logsorr@gmail.com> wrote:
+>
+> Dude, this is incredible thank you.  I'm submitting the fibfile as part of
+> an interview question, so would you just mind telling me how you got from
+> ajfibfile.txt to fibfile.txt? Did you just rename it or did something else
+> happen?
+>
+> Thanks a million dude
+> Logarino
+>
+> On Wed, Aug 19, 2015 at 5:34 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> now if you try to get python to print to a file it will complain at you
+>> because the file print function take a char buffer not an int type. The
+>> type-casting would muck up the values so you can run the script as follows
+>> ( I believe this will work in windows powershell if you are still an ass
+>> backwords twit (windows user)
+>>
+>> <prompt>: python genfib.py > fibfile.txt
+>>
+>>
+>>
+>> Andrew James
+>>
+>> Graduate Teaching Assistant
+>> Virginia Tech
+>> Chemistry Department
+>> amjames2@vt.edu
+>>
+>> On Wed, Aug 19, 2015 at 4:40 PM, Logan Sorrentino <logsorr@gmail.com>
+>> wrote:
+>>
+>>>
+>>>
+>>> --
+>>> *Logan Sorrentino*
+>>> *Co-founder of Champio <http://bit.ly/1FTfjfF>*
+>>>
+>>> M: +1 (516) 510-1592
+>>> O: +1 (314) 272-2642
+>>> logan@champio.com
+>>>
+>>> 4240 Duncan Ave
+>>> Suite #200
+>>> St. Louis, MO 63110
+>>>
+>>
+>>
+>
+>
+> --
+> *Logan Sorrentino*
+> *Co-founder of Champio <http://bit.ly/1FTfjfF>*
+>
+> M: +1 (516) 510-1592
+> O: +1 (314) 272-2642
+> logan@champio.com
+>
+> 4240 Duncan Ave
+> Suite #200
+> St. Louis, MO 63110
+>
+>
+
+
+-- 
+*Logan Sorrentino*
+*Co-founder of Champio <http://bit.ly/1FTfjfF>*
+
+M: +1 (516) 510-1592
+O: +1 (314) 272-2642
+logan@champio.com
+
+4240 Duncan Ave
+Suite #200
+St. Louis, MO 63110
+
+--001a1134d44e59f50a051db1d981
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Haha no worries.=C2=A0 Interesting.=C2=A0 I&#39;ll have to=
+ make use of that in the future. =C2=A0<br><div><br></div><div>What are you=
+ working on these days?</div><div><br></div><div>Logan</div></div><div clas=
+s=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Aug 19, 2015 at 6:=
+32 PM, Andrew M James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.e=
+du" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div dir=3D"auto"><div>I did a shell redirect. The conve=
+rsion from int to char would muck up the numbers because Python will mangle=
+ the long ints with the type cast. So by running my script like this from t=
+he terminal</div><div><br></div><div>Python genfib.py=C2=A0</div><div><br><=
+/div><div>It would print to the screen so instead I do =C2=A0</div><div><br=
+></div><div>Python genfib.py &gt; fibfile.txt=C2=A0</div><div><br></div><di=
+v>The &gt; redirects stdout to the target file. The script opens the file h=
+andle but never does anything with it. I replaced the file prints with regu=
+lar print to terminal but never removed the opening of the file (whoops)=C2=
+=A0</div><div><br>Sent from my iPhone</div><div><div class=3D"h5"><div><br>=
+On Aug 19, 2015, at 6:23 PM, Logan Sorrentino &lt;<a href=3D"mailto:logsorr=
+@gmail.com" target=3D"_blank">logsorr@gmail.com</a>&gt; wrote:<br><br></div=
+><blockquote type=3D"cite"><div><div dir=3D"ltr">Dude, this is incredible t=
+hank you.=C2=A0 I&#39;m submitting the fibfile as part of an interview ques=
+tion, so would you just mind telling me how you got from ajfibfile.txt to f=
+ibfile.txt? Did you just rename it or did something else happen?<div><br></=
+div><div>Thanks a million dude</div><div>Logarino</div></div><div class=3D"=
+gmail_extra"><br><div class=3D"gmail_quote">On Wed, Aug 19, 2015 at 5:34 PM=
+, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" tar=
+get=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div dir=3D"ltr"><div>now if you try to get python to print t=
+o a file it will complain at you because the file print function take a cha=
+r buffer not an int type. The type-casting would muck up the values so you =
+can run the script as follows ( I believe this will work in windows powersh=
+ell if you are still an ass backwords twit (windows user)<br><br></div>&lt;=
+prompt&gt;: python genfib.py &gt; fibfile.txt <br><br><br></div><div class=
+=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">Andrew James=
+=C2=A0<div><br><div>Graduate Teaching Assistant=C2=A0<br><div>Virginia Tech=
+=C2=A0</div></div><div>Chemistry Department=C2=A0</div></div><div><a href=
+=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a></div></di=
+v></div></div><div><div>
+<br><div class=3D"gmail_quote">On Wed, Aug 19, 2015 at 4:40 PM, Logan Sorre=
+ntino <span dir=3D"ltr">&lt;<a href=3D"mailto:logsorr@gmail.com" target=3D"=
+_blank">logsorr@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gma=
+il_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-lef=
+t:1ex"><span><font color=3D"#888888"><div dir=3D"ltr"><br clear=3D"all"><di=
+v><br></div>-- <br><div><div dir=3D"ltr"><b style=3D"font-size:12.800000190=
+7349px">Logan Sorrentino</b><div style=3D"font-size:12.8000001907349px"><i>=
+Co-founder of=C2=A0<a href=3D"http://bit.ly/1FTfjfF" target=3D"_blank">Cham=
+pio</a></i></div><div style=3D"font-size:12.8000001907349px"><br></div><div=
+ style=3D"font-size:12.8000001907349px"><font size=3D"1">M: <a href=3D"tel:=
+%2B1%20%28516%29%20510-1592" value=3D"+15165101592" target=3D"_blank">+1 (5=
+16) 510-1592</a></font></div><div style=3D"font-size:12.8000001907349px"><f=
+ont size=3D"1">O: <a href=3D"tel:%2B1%20%28314%29%20272-2642" value=3D"+131=
+42722642" target=3D"_blank">+1 (314) 272-2642</a></font></div><div style=3D=
+"font-size:12.8000001907349px"><font size=3D"1"><a href=3D"mailto:logan@cha=
+mpio.com" target=3D"_blank">logan@champio.com</a><br></font></div><div styl=
+e=3D"font-size:12.8000001907349px"><font size=3D"1"><br></font></div><div s=
+tyle=3D"font-size:12.8000001907349px"><font size=3D"1">4240 Duncan Ave</fon=
+t></div><div style=3D"font-size:12.8000001907349px"><font size=3D"1">Suite =
+#200</font></div><div style=3D"font-size:12.8000001907349px"><font size=3D"=
+1">St. Louis, MO 63110</font></div></div></div>
+</div>
+</font></span></blockquote></div><br></div></div></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div><div di=
+r=3D"ltr"><b style=3D"font-size:12.8000001907349px">Logan Sorrentino</b><di=
+v style=3D"font-size:12.8000001907349px"><i>Co-founder of=C2=A0<a href=3D"h=
+ttp://bit.ly/1FTfjfF" target=3D"_blank">Champio</a></i></div><div style=3D"=
+font-size:12.8000001907349px"><br></div><div style=3D"font-size:12.80000019=
+07349px"><font size=3D"1">M: <a href=3D"tel:%2B1%20%28516%29%20510-1592" va=
+lue=3D"+15165101592" target=3D"_blank">+1 (516) 510-1592</a></font></div><d=
+iv style=3D"font-size:12.8000001907349px"><font size=3D"1">O: <a href=3D"te=
+l:%2B1%20%28314%29%20272-2642" value=3D"+13142722642" target=3D"_blank">+1 =
+(314) 272-2642</a></font></div><div style=3D"font-size:12.8000001907349px">=
+<font size=3D"1"><a href=3D"mailto:logan@champio.com" target=3D"_blank">log=
+an@champio.com</a><br></font></div><div style=3D"font-size:12.8000001907349=
+px"><font size=3D"1"><br></font></div><div style=3D"font-size:12.8000001907=
+349px"><font size=3D"1">4240 Duncan Ave</font></div><div style=3D"font-size=
+:12.8000001907349px"><font size=3D"1">Suite #200</font></div><div style=3D"=
+font-size:12.8000001907349px"><font size=3D"1">St. Louis, MO 63110</font></=
+div></div></div>
+</div>
+</div></blockquote></div></div></div></blockquote></div><br><br clear=3D"al=
+l"><div><br></div>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><b=
+ style=3D"font-size:12.8000001907349px">Logan Sorrentino</b><div style=3D"f=
+ont-size:12.8000001907349px"><i>Co-founder of=C2=A0<a href=3D"http://bit.ly=
+/1FTfjfF" target=3D"_blank">Champio</a></i></div><div style=3D"font-size:12=
+.8000001907349px"><br></div><div style=3D"font-size:12.8000001907349px"><fo=
+nt size=3D"1">M: +1 (516) 510-1592</font></div><div style=3D"font-size:12.8=
+000001907349px"><font size=3D"1">O: +1 (314) 272-2642</font></div><div styl=
+e=3D"font-size:12.8000001907349px"><font size=3D"1"><a href=3D"mailto:logan=
+@champio.com" target=3D"_blank">logan@champio.com</a><br></font></div><div =
+style=3D"font-size:12.8000001907349px"><font size=3D"1"><br></font></div><d=
+iv style=3D"font-size:12.8000001907349px"><font size=3D"1">4240 Duncan Ave<=
+/font></div><div style=3D"font-size:12.8000001907349px"><font size=3D"1">Su=
+ite #200</font></div><div style=3D"font-size:12.8000001907349px"><font size=
+=3D"1">St. Louis, MO 63110</font></div></div></div>
+</div>
+
+--001a1134d44e59f50a051db1d981--

@@ -1,0 +1,310 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp822289qgt;
+        Fri, 19 Jun 2015 15:57:12 -0700 (PDT)
+X-Received: by 10.140.109.119 with SMTP id k110mr24181770qgf.53.1434754632918;
+        Fri, 19 Jun 2015 15:57:12 -0700 (PDT)
+Return-Path: <harleymc@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id h82si12357487qhc.103.2015.06.19.15.57.12
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 15:57:12 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning harleymc@vt.edu does not designate 209.85.192.48 as permitted sender) client-ip=209.85.192.48;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning harleymc@vt.edu does not designate 209.85.192.48 as permitted sender) smtp.mail=harleymc@vt.edu
+Received: from mail-qg0-f48.google.com (mail-qg0-f48.google.com [209.85.192.48])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5JMv7X7008222
+	for <amjames2@vt.edu>; Fri, 19 Jun 2015 18:57:12 -0400
+Received: by qged89 with SMTP id d89so41252421qge.0
+        for <amjames2@vt.edu>; Fri, 19 Jun 2015 15:57:06 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:from
+         :in-reply-to:date:cc:message-id:references:to;
+        bh=aliE0CJp33BJ3Jj5j1aRuNUUDhRUEbNLEUZT6eM2Y4U=;
+        b=aUov+3GKMUvRekuUxcZnDimssnlIfl9yrbqUfmSq/mhU/RA8T+yiR7/q0V2Omnk6bF
+         hKcJ4Y5iGYRbiPMksoqZTSDhMyyCtqGIux/VtgSvBkSq8Isaew0UxvEzWYseR/R0LEIq
+         9lnVexDlissxSGEvVBoxpdh6ZX1POCYVXEn3F8x2+X0oAo2w8hFHDsa3yhM/8YNpAT5k
+         GwgYG1gY8VXot0wCiHoHxOpTVbrG8+2AJajAwKInI4IBdwhTABJvqWH7Zr01Oglhz8mj
+         eDPgp2soNdoPUhECAZ0ffc/WuwCZhV/pBcprxA9bKMmyfAYKzXHiMj2OGXkBQ3vkn+zQ
+         UwRA==
+X-Gm-Message-State: ALoCoQlN0mxgs9HCE+51+5nj0cuv6O2otKWafIRUcs97OZ5BMu4S4JQyqwd/Sd1/yZlYjIX9cAg3FJ/LPI3I5XqGVlHmHECfJFGGjcoCUaM9NvfKuLIqGPLwv5WKmTa0TWeUmVJ/v5Msta/+6pTbZY7avtqM7vvAm0grnOILvwSHXCwv8ExbDbpvhIiyLL//uueq7iM5qtPi
+X-Received: by 10.140.144.73 with SMTP id 70mr25254164qhq.91.1434754626884;
+        Fri, 19 Jun 2015 15:57:06 -0700 (PDT)
+X-Received: by 10.140.144.73 with SMTP id 70mr25254153qhq.91.1434754626798;
+        Fri, 19 Jun 2015 15:57:06 -0700 (PDT)
+Received: from [192.168.1.6] (c-24-131-5-159.hsd1.va.comcast.net. [24.131.5.159])
+        by mx.google.com with ESMTPSA id g6sm6470164qgd.10.2015.06.19.15.57.05
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Jun 2015 15:57:06 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_D295D7C1-573A-4983-BABA-65671E4F314F"
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+Subject: Re: Software Summer School Flyer
+From: Harley McAlexander <harleymc@vt.edu>
+In-Reply-To: <0CCAC0E8-751B-44B9-836B-B470B890E7E3@vt.edu>
+Date: Fri, 19 Jun 2015 18:57:02 -0400
+Cc: "Good, Laurie" <laurieg@vt.edu>
+Message-Id: <CA77B368-7DA6-4454-ABFA-80381D49982C@vt.edu>
+References: <CAB9B8AD-5341-43AC-ADEF-1ED7F1C29728@vt.edu> <D1A9C914.7BC5B%laurieg@vt.edu> <50C830EB-C2F9-447E-88C0-D1C35596C08A@vt.edu> <D1A9E22C.7BD07%laurieg@vt.edu> <AEA5A244-4427-4B71-B949-295ADE088FC4@vt.edu> <D1A9E9D2.7BD1C%laurieg@vt.edu> <0CCAC0E8-751B-44B9-836B-B470B890E7E3@vt.edu>
+To: "Andrew M. James" <amjames2@vt.edu>
+X-Mailer: Apple Mail (2.1878.6)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail=_D295D7C1-573A-4983-BABA-65671E4F314F
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+Count me in for whatevs/whenevs if we decide to meet!
+
+-Harley
+
+On Jun 19, 2015, at 5:42 PM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> Thanks! its always good to have a backup plan. I can be in as early as =
+needed tomorrow. What time were you thinking?=20
+>=20
+>=20
+> =97AJ
+>=20
+> Andrew M. James
+> amjames2@vt.edu
+>=20
+>=20
+>=20
+>> On Jun 19, 2015, at 3:53 PM, Good, Laurie <laurieg@vt.edu> wrote:
+>>=20
+>> Pretty sure we decided against an opening reception, but TDC needs to =
+confirm that! =20
+>> Oh I misunderstood =97 I forgot you had pickup duty for Sunday for =
+the next school. I could always do it, AJ, if we decide to proceed with =
+the bowling that night.  You should definitely be there.  And there=92s =
+always Tuesday too.
+>> Maybe we should all get together tomorrow and finalize what we can??? =
+=20
+>>=20
+>> You=92ve really done a superb job with this, AJ.  Should a career in =
+chemistry fall through =97 there=92s always event planning!=20
+>>=20
+>> From: "Andrew M. James" <amjames2@vt.edu>
+>> Date: Friday, June 19, 2015 at 3:37 PM
+>> To: Laurie Good <laurieg@vt.edu>
+>> Subject: Re: Software Summer School Flyer
+>>=20
+>>> The Flyer:
+>>> I mentioned the idea to Dr. Crawford about making it and we haven=92t =
+discussed it much since then. I don=92t think its absolutely critical, =
+but if we get something we like i would go over to Kinkos to get them =
+printed.=20
+>>>=20
+>>> Also for the flyer: Do we have a set time or place for the Sunday =
+reception (is that still happening). I have not gotten much in the way =
+of details about that.=20
+>>>=20
+>>> The Wed/ Sunday thing:
+>>> Yes, Sunday the 28th is when most of the Students for the Response =
+Properties School Will be arriving. Thankfully there is not as many of =
+them, and only a few are flying. The one I have to get at 8:46 PM is the =
+last one.  That is why I think wed. would be a better idea, except a =
+good number of the students are leaving on Wednesday, so they wouldn=92t =
+be able to go. We could get the smaller than 40 group rate though..=20
+>>>=20
+>>> Bowling:
+>>> I love the idea! I think its a much better idea than just having =
+like a dinner or something; people are free to mingle while they eat a =
+bit and bowl. I don=92t know how it plays into the budget, but if it =
+works I think we certainly should!
+>>>=20
+>>> Instructors:
+>>> ok, Phew.. I had a little panic attack that I had missed something =
+major.=20
+>>>=20
+>>> Andrew M. James
+>>> Graduate Research Assistant
+>>> amjames2@vt.edu
+>>>=20
+>>>=20
+>>>> On Jun 19, 2015, at 3:16 PM, Good, Laurie <laurieg@vt.edu> wrote:
+>>>>=20
+>>>> No, they=92re coming by car.  And on the Wednesday/Sunday thing =97 =
+I was talking about the 28th =97 so the night after the hike.
+>>>> We=92ll have to take them to Kinkos and have them printed I guess, =
+since it=92s so late.=20
+>>>> TDC hasn=92t committed to the bowling thing (although I think it =
+sounds great=85 do you=97truthfully?)=20
+>>>>=20
+>>>>=20
+>>>=20
+>=20
+
+
+--Apple-Mail=_D295D7C1-573A-4983-BABA-65671E4F314F
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dwindows-1252"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">Count =
+me in for whatevs/whenevs if we decide to =
+meet!<div><br></div><div>-Harley</div><div><br><div><div>On Jun 19, =
+2015, at 5:42 PM, Andrew M. James &lt;<a =
+href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><meta =
+http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dwindows-1252"><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Thanks! its always good to have a backup plan. I can be in as =
+early as needed tomorrow. What time were you thinking?&nbsp;<div =
+class=3D""><br class=3D""></div><div class=3D""><br class=3D""><div =
+apple-content-edited=3D"true" class=3D"">
+=97AJ<br class=3D""><br class=3D"">Andrew M. James<br class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D"">
+</div>
+
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jun 19, 2015, at 3:53 PM, Good, Laurie &lt;<a =
+href=3D"mailto:laurieg@vt.edu" class=3D"">laurieg@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D"">
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Diso-8859-1" class=3D"">
+
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; font-size: 14px; font-family: =
+Calibri, sans-serif;" class=3D"">
+<div class=3D"">
+<div class=3D"">
+<div class=3D"">Pretty sure we decided against an opening reception, but =
+TDC needs to confirm that! &nbsp;</div>
+<div class=3D"">
+<div class=3D"">Oh I misunderstood =97 I forgot you had pickup duty for =
+Sunday for the next school. I could always do it, AJ, if we decide to =
+proceed with the bowling that night. &nbsp;You should definitely be =
+there. &nbsp;And there=92s always Tuesday too.</div>
+</div>
+</div>
+</div>
+<div class=3D"">Maybe we should all get together tomorrow and finalize =
+what we can??? &nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">You=92ve really done a superb job with this, AJ. =
+&nbsp;Should a career in chemistry fall through =97 there=92s always =
+event planning!&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<span id=3D"OLK_SRC_BODY_SECTION" class=3D"">
+<div style=3D"font-family: Calibri; font-size: 11pt; text-align: left; =
+border-width: 1pt medium medium; border-style: solid none none; padding: =
+3pt 0in 0in; border-top-color: rgb(181, 196, 223);" class=3D"">
+<span style=3D"font-weight:bold" class=3D"">From: </span>"Andrew M. =
+James" &lt;<a href=3D"mailto:amjames2@vt.edu" =
+class=3D"">amjames2@vt.edu</a>&gt;<br class=3D"">
+<span style=3D"font-weight:bold" class=3D"">Date: </span>Friday, June =
+19, 2015 at 3:37 PM<br class=3D"">
+<span style=3D"font-weight:bold" class=3D"">To: </span>Laurie Good =
+&lt;<a href=3D"mailto:laurieg@vt.edu" class=3D"">laurieg@vt.edu</a>&gt;<br=
+ class=3D"">
+<span style=3D"font-weight:bold" class=3D"">Subject: </span>Re: Software =
+Summer School Flyer<br class=3D"">
+</div>
+<div class=3D""><br class=3D"">
+</div>
+<blockquote id=3D"MAC_OUTLOOK_ATTRIBUTION_BLOCKQUOTE" =
+style=3D"BORDER-LEFT: #b5c4df 5 solid; PADDING:0 0 0 5; MARGIN:0 0 0 5;" =
+class=3D"" type=3D"cite">
+<div class=3D"">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space;" class=3D"">
+<div class=3D"">The Flyer:</div>
+<div class=3D"">I mentioned the idea to Dr. Crawford about making it and =
+we haven=92t discussed it much since then. I don=92t think its =
+absolutely critical, but if we get something we like i would go over to =
+Kinkos to get them printed.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Also for the flyer: Do we have a set time or place for =
+the Sunday reception (is that still happening). I have not gotten much =
+in the way of details about that.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">The Wed/ Sunday thing:</div>
+<div class=3D"">Yes, Sunday the 28th is when most of the Students for =
+the Response Properties School Will be arriving. Thankfully there is not =
+as many of them, and only a few are flying. The one I have to get at =
+8:46 PM is the last one. &nbsp;That is why I think wed.
+ would be a better idea, except a good number of the students are =
+leaving <i class=3D"">
+on </i>Wednesday, so they wouldn=92t be able to go. We could get the =
+smaller than 40 group rate though..&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Bowling:</div>
+<div class=3D"">I love the idea! I think its a much better idea than =
+just having like a dinner or something; people are free to mingle while =
+they eat a bit and bowl. I don=92t know how it plays into the budget, =
+but if it works I think we certainly should!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Instructors:</div>
+<div class=3D"">ok, Phew.. I had a little panic attack that I had missed =
+something major.&nbsp;</div>
+<br class=3D"">
+<div apple-content-edited=3D"true" class=3D"">Andrew M. James<br =
+class=3D"">
+Graduate Research Assistant<br class=3D"">
+<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D"">
+<br class=3D"">
+</div>
+<br class=3D"">
+<div class=3D"">
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Jun 19, 2015, at 3:16 PM, Good, Laurie &lt;<a =
+href=3D"mailto:laurieg@vt.edu" class=3D"">laurieg@vt.edu</a>&gt; =
+wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; font-size: 14px;" class=3D"">
+<div class=3D"">
+<div class=3D""><font face=3D"Optima" class=3D"">No, they=92re coming by =
+car. &nbsp;And on the&nbsp;Wednesday/Sunday thing&nbsp;=97&nbsp;I was =
+talking about the 28th&nbsp;=97 so the night after the =
+hike.</font></div>
+</div>
+<div class=3D""><font face=3D"Optima" class=3D"">We=92ll have to take =
+them to Kinkos and have them printed I guess, since it=92s so =
+late.&nbsp;</font></div>
+<div class=3D""><font face=3D"Optima" class=3D"">TDC hasn=92t committed =
+to the bowling thing (although I think it sounds great=85 do =
+you=97truthfully?)&nbsp;</font></div>
+<div class=3D""><font face=3D"Optima" class=3D""><br class=3D"">
+</font></div>
+<div style=3D"font-family: Consolas, monospace; font-size: 12px;" =
+class=3D""><br class=3D"">
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</blockquote>
+</span>
+</div>
+
+</div></blockquote></div><br =
+class=3D""></div></div></blockquote></div><br></div></body></html>=
+
+--Apple-Mail=_D295D7C1-573A-4983-BABA-65671E4F314F--

@@ -1,0 +1,72 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.16.17 with SMTP id 17csp228526qga;
+        Tue, 10 Jun 2014 17:04:10 -0700 (PDT)
+X-Received: by 10.140.90.69 with SMTP id w63mr44594653qgd.52.1402445050150;
+        Tue, 10 Jun 2014 17:04:10 -0700 (PDT)
+Return-Path: <andrew.m.james2@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 46si28711551qgo.12.2014.06.10.17.04.09
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 10 Jun 2014 17:04:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=andrew.m.james2@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-ie0-x235.google.com (mail-ie0-x235.google.com [IPv6:2607:f8b0:4001:c03::235])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id s5B044kq007719
+	for <amjames2@vt.edu>; Tue, 10 Jun 2014 20:04:09 -0400
+Received: by mail-ie0-f181.google.com with SMTP id y20so4322245ier.40
+        for <amjames2@vt.edu>; Tue, 10 Jun 2014 17:04:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=mK7/CC9MxlLo8TgYNM95H65PtqGRMZe5b96FU0P0Q08=;
+        b=HR+qtSm6pBxv4Gmpm/n2GsMxBGKAdBS+wBehM3zqKNgw4eB2jGKGOanbf3ZnBMT0A1
+         HvDGol9GBbyHuf17o5JUQceXwG8Y6yLvjx6oZIM+mVnAvXXFpuZY4MMkqvhgtqod+S7D
+         DMfrtIc8/pcVM0xI7k7QkfA4HtNLPAKvLoN16YXCVppkXFfM3FVQBDMaVw3XDmxO4qZd
+         jrxuqb62lQ0O5brAbd8MlQ9qiKSaz9LL3NYDv+Kuy+f2aND2BuLVQmEcE/Yj2DGRd3CN
+         W3Y0mHo0NWaPXKQczAVp5WI4NU6yg/uXujtL14ShckaWOVqUZwdNzaSsiH/Smn/ZhKOq
+         ZetA==
+MIME-Version: 1.0
+X-Received: by 10.50.25.71 with SMTP id a7mr39564814igg.17.1402445044226; Tue,
+ 10 Jun 2014 17:04:04 -0700 (PDT)
+Received: by 10.64.70.138 with HTTP; Tue, 10 Jun 2014 17:04:04 -0700 (PDT)
+Date: Tue, 10 Jun 2014 20:04:04 -0400
+Message-ID: <CAGSsDEyt8VSc=rrHpAawOwOGVeOnq1aCxHRVQm7JAw_UQHm64A@mail.gmail.com>
+Subject: Stafford Account
+From: Andrew James <andrew.m.james2@gmail.com>
+To: "amjames2@vt.edu" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bd74a1cad9f7c04fb842efd
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bd74a1cad9f7c04fb842efd
+Content-Type: text/plain; charset=UTF-8
+
+usr:
+   amjames2
+PIN:
+   8501
+P/w
+   aj850123
+Secure
+   Brass Tax
+
+--047d7bd74a1cad9f7c04fb842efd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">usr:<div>=C2=A0 =C2=A0amjames2<br clear=3D"all"><div><div>=
+PIN:</div><div>=C2=A0 =C2=A08501</div><div>P/w</div><div>=C2=A0 =C2=A0aj850=
+123</div></div><div>Secure</div><div>=C2=A0 =C2=A0Brass Tax</div><div><br><=
+/div><div><br></div>
+</div></div>
+
+--047d7bd74a1cad9f7c04fb842efd--

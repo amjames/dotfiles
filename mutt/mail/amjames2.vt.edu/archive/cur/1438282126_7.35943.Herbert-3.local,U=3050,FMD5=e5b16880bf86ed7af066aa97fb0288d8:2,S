@@ -1,0 +1,75 @@
+MIME-Version: 1.0
+Received: by 10.140.104.134 with HTTP; Wed, 22 Oct 2014 08:58:35 -0700 (PDT)
+Date: Wed, 22 Oct 2014 11:58:35 -0400
+Delivered-To: amjames2@vt.edu
+Message-ID: <CA+58rsDKovK8d24+RbnsenN32O_sAxEuHjy0msEbuXcm1HMYFQ@mail.gmail.com>
+Subject: Hessian matrix and eigenvalues
+From: Andrew James <amjames2@vt.edu>
+To: cecilia1@vt.edu
+Content-Type: multipart/mixed; boundary=20cf303b3a593c0ed6050605059b
+
+--20cf303b3a593c0ed6050605059b
+Content-Type: multipart/alternative; boundary=20cf303b3a593c0ebd0506050599
+
+--20cf303b3a593c0ebd0506050599
+Content-Type: text/plain; charset=UTF-8
+
+Units of hartree/angstrom**
+
+This is only the lower left triangle because its completely symmetric the
+program actually only prints half of it
+
+
+Andrew James
+
+Graduate Teaching Assistant
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu
+
+--20cf303b3a593c0ebd0506050599
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Units of hartree/angstrom**<div><br></div><div>This is onl=
+y the lower left triangle because its completely symmetric the program actu=
+ally only prints half of it</div><div>=C2=A0</div><div><br clear=3D"all"><d=
+iv><div dir=3D"ltr">Andrew James=C2=A0<div><br><div>Graduate Teaching Assis=
+tant=C2=A0<br><div>Virginia Tech=C2=A0</div></div><div>Chemistry Department=
+=C2=A0</div></div><div><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a></div></div></div>
+</div></div>
+
+--20cf303b3a593c0ebd0506050599--
+--20cf303b3a593c0ed6050605059b
+Content-Type: application/octet-stream; name="bcl3.hess"
+Content-Disposition: attachment; filename="bcl3.hess"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_i1kv899u0
+
+ICAgICAgICAgICAgICAgIFgxICAgICAgICBZMSAgICAgICAgWjEgICAgICAgIFgyICAgICAgICBZ
+MiAgICAgICB6MiAgICAgICB4MyAgICAgICB5MyAgICAgICB6MyAgICAgICAgIHg0ICAgICAgIHk0
+ICAgICAgICAgICB6NCAKIFgxICAgICAgICAgICAwLjM1NDQ2CiBZMSAgICAgICAgICAgMC4wMDAw
+MCAgIDAuMzU0NDYKIFoxICAgICAgICAgICAwLjAwMDAwICAgMC4wMDAwMCAgIDAuMDg5MDEKIFgy
+ICAgICAgICAgIC0wLjAyODgzICAgMC4wMDAwMCAgIDAuMDAwMDAgICAwLjAzNjMxCiBZMiAgICAg
+ICAgICAgMC4wMDAwMCAgLTAuMjA3NDggICAwLjAwMDAwICAgMC4wMDAwMCAgIDAuMjU5MjYgICAK
+IFoyICAgICAgICAgICAwLjAwMDAwICAgMC4wMDAwMCAgLTAuMDI5NjcgICAwLjAwMDAwICAgMC4w
+MDAwMCAwLjAxMDcwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiBYMyAgICAgICAgICAtMC4xNjI4MiAgIDAuMDc3MzYgICAwLjAw
+MDAwICAtMC4wMDM3NCAgIDAuMDE1OTUgMC4wMDAwMCAgIDAuMjAzNTIgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogWTMgICAgICAgICAgIDAuMDc3
+MzYgIC0wLjA3MzQ5ICAgMC4wMDAwMCAgIDAuMDIyNDIgIC0wLjAyNTg5IDAuMDAwMDAgIC0wLjA5
+NjU0ICAgMC4wOTIwNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+IFozICAgICAgICAgICAwLjAwMDAwICAgMC4wMDAwMCAgLTAuMDI5NjcgICAwLjAwMDAwICAgMC4w
+MDAwMCAwLjAwOTQ5ICAgMC4wMDAwMCAgIDAuMDAwMDAgICAwLjAxMDcwICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiBYNCAgICAgICAgICAtMC4xNjI4MiAgLTAuMDc3MzYgICAwLjAw
+MDAwICAtMC4wMDM3NCAgLTAuMDE1OTUgMC4wMDAwMCAgLTAuMDM2OTcgIC0wLjAwMzIzICAgMC4w
+MDAwMCAgIDAuMjAzNTIgICAgICAgICAgICAgICAgICAgICAgIAogWTQgICAgICAgICAgLTAuMDc3
+MzYgIC0wLjA3MzQ5ICAgMC4wMDAwMCAgLTAuMDIyNDIgIC0wLjAyNTg5IDAuMDAwMDAgICAwLjAw
+MzIzICAgMC4wMDczNCAgIDAuMDAwMDAgICAwLjA5NjU0ICAgMC4wOTIwNCAgICAgICAgICAgICAK
+IFo0ICAgICAgICAgICAwLjAwMDAwICAgMC4wMDAwMCAgLTAuMDI5NjcgICAwLjAwMDAwICAgMC4w
+MDAwMCAwLjAwOTQ5ICAgMC4wMDAwMCAgIDAuMDAwMDAgICAwLjAwOTQ5ICAgMC4wMDAwMCAgIDAu
+MDAwMDAgICAwLjAxMDcwCiAgICAgCiAgICAgCiAgICAgOndxCiAgICAgRWlnZW52YWx1ZXMgLS0t
+ICAgIDAuMDg0OTYgICAwLjA4NDk2ICAgMC4xMTMwMiAgIDAuMzEyNzggICAwLjUzMzMyCiAgICAg
+RWlnZW52YWx1ZXMgLS0tICAgIDAuNTMzMzIKCgoKCg==
+--20cf303b3a593c0ed6050605059b--

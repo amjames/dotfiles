@@ -1,0 +1,40 @@
+Return-Path: <amjames2@vt.edu>
+Received: from ?IPv6:2001:468:c80:4290:915a:796f:8cd3:4644? ([2001:468:c80:4290:915a:796f:8cd3:4644])
+        by mx.google.com with ESMTPSA id h49sm4860133qgd.24.2015.07.03.12.05.22
+        for <saswatar@uci.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 03 Jul 2015 12:05:22 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Subject: installing external packages into the anaconda framework
+Message-Id: <396A243E-E117-4117-9088-5E05DCA08BEB@vt.edu>
+Date: Fri, 3 Jul 2015 15:05:21 -0400
+To: saswatar@uci.edu
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+X-Mailer: Apple Mail (2.2098)
+
+
+I found this link in the anaconda documentation fort help installing =
+into the anaconda framework. It would seem that if the package is in the =
+anaconda repositories you can do
+
+$ conda install <pkg-name>=20
+
+this is their alternative to the normal python package index =E2=80=9Cpip"=
+
+
+if it is not included in the anaconda repositories you may have to build =
+from source ( which is normally easy for python packages, you just have =
+to run the setup script in the source tree after you unpack the tarball, =
+then modify the $PYTHONPATH envar to let python =E2=80=9Csee=E2=80=9D =
+the module)
+
+The link:
+http://docs.continuum.io/anaconda/faq.html#install-packages
+
+Andrew M. James
+Graduate Research Assistant
+amjames2@vt.edu
+
+

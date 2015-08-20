@@ -1,0 +1,250 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp103058qgt;
+        Tue, 12 May 2015 12:57:21 -0700 (PDT)
+X-Received: by 10.55.52.18 with SMTP id b18mr36927617qka.85.1431460640994;
+        Tue, 12 May 2015 12:57:20 -0700 (PDT)
+Return-Path: <vt4help@service-now.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 77si17212425qkx.67.2015.05.12.12.57.20
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 May 2015 12:57:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of vt4help@service-now.com designates 199.91.140.26 as permitted sender) client-ip=199.91.140.26;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of vt4help@service-now.com designates 199.91.140.26 as permitted sender) smtp.mail=vt4help@service-now.com
+Received: from outbound01.service-now.com (outbound01.service-now.com [199.91.140.26])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4CJvEo5004878
+	for <amjames2@vt.edu>; Tue, 12 May 2015 15:57:20 -0400
+Received: from app128048.iad3.service-now.com (unknown [10.249.64.30])
+	by outbound01.service-now.com (Postfix) with ESMTP id 7166716CC0C1
+	for <amjames2@vt.edu>; Tue, 12 May 2015 12:57:13 -0700 (PDT)
+Date: Tue, 12 May 2015 12:57:13 -0700 (PDT)
+From: Virginia Tech 4Help <vt4help@service-now.com>
+Reply-To: Virginia Tech 4Help <vt4help@service-now.com>
+To: amjames2@vt.edu
+Message-ID: <2099345.4315.1431460633456.JavaMail.p16047@app128048.iad3.service-now.com>
+Subject: Incident INC0051428 has been resolved
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4314_30866150.1431460633455"
+X-ServiceNow-SysEmail-Version: 2
+X-ServiceNow-Source: Notification-e3b96e3f0f8a6100ee5a0bcce1050eb8
+Precedence: bulk
+X-Spam-Status: No, score=-3.9 required=5.0 tests=HTML_MESSAGE,MIME_HTML_ONLY,
+	RCVD_IN_DNSWL_HI,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_4314_30866150.1431460633455
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head></head><body><p>&nbsp;</p>
+<table width=3D"621" align=3D"center" 178px=3D"">
+<tbody>
+<tr>
+<td colspan=3D"4"><img style=3D"align: baseline;" title=3D"" src=3D"cid:sys=
+_attachment.dosys_id55be63250f666500d3254b9ce1050e5a@SNC.1d2a20ef74b4d163" =
+alt=3D"" align=3D"baseline" border=3D"0" hspace=3D"-1" vspace=3D"0" /></td>
+</tr>
+<tr>
+<td colspan=3D"4">
+<p><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt;=
+"><strong>&nbsp; Incident INC0051428 has been resolved.</strong></span></p>
+<p>&nbsp;</p>
+<p style=3D"font: 13px/normal Verdana, Arial, Helvetica, sans-serif; color:=
+ #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; w=
+ord-spacing: 0px; white-space: normal; background-color: #ffffff; -webkit-t=
+ext-stroke-width: 0px;"><strong><strong><span style=3D"font-family: arial,h=
+elvetica,sans-serif; font-size: 12pt;"><strong>&nbsp;<span class=3D"Apple-c=
+onverted-space">&nbsp;</span></strong><span style=3D"color: #0000ff;"><stro=
+ng><span style=3D"font-size: medium;" size=3D"3">Click here to view Inciden=
+t: <a href=3D"https://vt4help.service-now.com/frame_bust.do?sysparm_url=3Dh=
+ttps://vt4help.service-now.com/ess/incident_detail.do?sysparm_document_key=
+=3Dincident,accf859c0f88c600ee5a0bcce1050e67">LINK</a></span></strong></spa=
+n></span></strong></strong></p>
+<p style=3D"font: 13px/normal Verdana, Arial, Helvetica, sans-serif; color:=
+ #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; w=
+ord-spacing: 0px; white-space: normal; background-color: #ffffff; -webkit-t=
+ext-stroke-width: 0px;"><strong>&nbsp;</strong></p>
+<p style=3D"text-align: center;"><strong><strong><span style=3D"font-size: =
+8pt;">&nbsp;</span></strong><span style=3D"font-size: 8pt;"><span style=3D"=
+font-family: arial,helvetica,sans-serif;">4Help replies to<span class=3D"Ap=
+ple-converted-space">&nbsp;</span>questions<span class=3D"Apple-converted-s=
+pace">&nbsp;</span>during business hours (9am-5pm) Monday-Friday. To find a=
+nswers after-hours search the<span class=3D"Apple-converted-space">&nbsp;</=
+span><a title=3D"VT computing site" href=3D"http://computing.vt.edu/search"=
+>VT computing site</a>.</span></span></strong></p>
+<strong> </strong>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp;</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp;</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp; Category:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Services</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp;Subcategory:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Temp Outage</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp; Assignment Group:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Help Desk</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp;Assigned to:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Dean Kirstein</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp; Caller:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Andrew James</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>Caller Email:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;amjames2@vt.edu</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><strong><span style=3D"font-family: arial,helvetica,sans-serif; font-si=
+ze: 12pt;">Phone:</span></strong></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;<span style=3D"font-family: arial,helvetica,sans-serif; font-size:=
+ 12pt;">516 2704809</span></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>&nbsp; Opened by:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;Andrew James</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;"><strong>Open time:</strong></span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;05-11-2015 01:59:38 PM EDT</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+<td><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt=
+;">&nbsp;</span></td>
+</tr>
+<tr>
+<td colspan=3D"4">
+<p><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt;=
+"><strong>&nbsp;</strong><span style=3D"font-size: medium;" size=3D"3"><str=
+ong>Short description:</strong> Qualtrics survey dissapeared? </span></span=
+></p>
+<p>&nbsp;</p>
+<p><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12pt;=
+"><strong>Comments:</strong></span></p>
+<p><tt></tt><br /><span style=3D"font-family: arial,helvetica,sans-serif; f=
+ont-size: 12pt;">&nbsp; </span></p><table cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"table-layout:fixed" width=3D"100%"><tbody><tr><td colspan=3D"2"=
+><hr /></td></tr><tr style=3D""><td class=3D"tdwrap"><strong>05-12-2015 03:=
+56:31 PM EDT - Dean Kirstein</strong></td><td align=3D"right" nowrap=3D"tru=
+e"><sup>Additional comments</sup></td></tr><tr style=3D""><td colspan=3D"2"=
+><span style=3D"word-wrap:break-word;display:block;">I hope you were able t=
+o get the downloads you were looking for, if not, my last suggestion is to =
+contact Qualtrics:  you can call them at 800-340-9194.  They are available =
+from 7am - 6pm MST Mon-Fri. You can also email them at support@qualtrics.co=
+m </span></td></tr><tr><td colspan=3D"2"><hr /></td></tr><tr style=3D""><td=
+ class=3D"tdwrap"><strong>05-12-2015 08:08:09 AM EDT - Dean Kirstein</stron=
+g></td><td align=3D"right" nowrap=3D"true"><sup>Additional comments</sup></=
+td></tr><tr style=3D""><td colspan=3D"2"><span style=3D"word-wrap:break-wor=
+d;display:block;">I have not found much information about delayed downloads=
+ other than this web page: http://www.qualtrics.com/university/researchsuit=
+e/reporting/download-data/download-options/<br /><br />that states at the b=
+ottom of the page: &quot; These downloads all occur in the background. Larg=
+e datasets may take a significant amount of time to download. You can downl=
+oad a dataset for up to 30 days. You can even start one download and then s=
+tart another.&quot;<br /><br />I would guess a background job continues to =
+run even if you close your session. Hopefully this morning your download se=
+t is complete and you can see it.</span></td></tr><tr><td colspan=3D"2"><hr=
+ /></td></tr><tr style=3D""><td class=3D"tdwrap"><strong>05-11-2015 05:00:1=
+6 PM EDT - Andrew James</strong></td><td align=3D"right" nowrap=3D"true"><s=
+up>Additional comments</sup></td></tr><tr style=3D""><td colspan=3D"2"><spa=
+n style=3D"word-wrap:break-word;display:block;">So I set the date range to =
+include only the most recent response, and I still do not see the download =
+starting. </span></td></tr></tbody></table><p></p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><div>&nbsp;</div><div style=3D"display:inline">Ref:MSG0180991<=
+/div></body></html>
+------=_Part_4314_30866150.1431460633455--

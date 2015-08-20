@@ -1,0 +1,508 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3628968qgt;
+        Wed, 10 Jun 2015 19:09:05 -0700 (PDT)
+X-Received: by 10.140.89.104 with SMTP id u95mr8113389qgd.15.1433988545858;
+        Wed, 10 Jun 2015 19:09:05 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id c73si10626676qka.81.2015.06.10.19.09.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 19:09:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5B28xJV011327
+	for <amjames2@vt.edu>; Wed, 10 Jun 2015 22:09:04 -0400
+Received: by igbpi8 with SMTP id pi8so46819433igb.0
+        for <amjames2@vt.edu>; Wed, 10 Jun 2015 19:08:59 -0700 (PDT)
+X-Received: by 10.107.137.155 with SMTP id t27mr8252064ioi.16.1433988539272;
+        Wed, 10 Jun 2015 19:08:59 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp2379277iec;
+        Wed, 10 Jun 2015 19:08:58 -0700 (PDT)
+X-Received: by 10.140.83.168 with SMTP id j37mr8016443qgd.18.1433988538023;
+        Wed, 10 Jun 2015 19:08:58 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id 123si10632671qhx.2.2015.06.10.19.08.56
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 19:08:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr3.cc.vt.edu (mr3.cc.vt.edu [198.82.141.68] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5B28umZ007780
+	for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 22:08:56 -0400
+Received: from mail-ie0-f170.google.com (mail-ie0-f170.google.com [209.85.223.170])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5B28ous011172
+	for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 22:08:55 -0400
+Received: by iesa3 with SMTP id a3so45244797ies.2
+        for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 19:08:50 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=FqGDXm0Cr/jncvKf5XkSkjRB2hNKVm9LJVjFt2ZSOKk=;
+        b=P4Tah2R6Sw1aWoFsLB6FvJfrkvoIELA661CR17J6Te6Kq8KVSYx6rkQJzSrIbRqTf/
+         ktxBSpgK3rhKeCrk4CNYS+mU3BBk1GzqkkJL+vm0x0U6b2C3iUGWp8NaeBpkIEKMSRPZ
+         t1O3erFdtmgXgp2klqhx1XYukUE4HVhcHXHmbLoOuL+1k0ScDr/HDhGPVZP9zZBBo22E
+         KYkWCGPTIFq0//fKv+ASAZZM8fH8YSczxZG++WIhMCA+CSFhmmjOZ/zkr+VlVQzYUxua
+         5cPa2OFKWd1ReTWbBlExH+DIiff3gCgNmRMhJFJBf0SvEI2hccFBzupL2MYSdiTcYs2R
+         MShQ==
+X-Gm-Message-State: ALoCoQnDjj2QDi8gG6Em5cfPE1lO3og1IA4068k/AfWPkrIB5srhF0MeSWKlMdyx7HPcwG0u2CvZ3fRu+YM2hodIxXNh8A+S4sxVjvWhC/Ac0Dw2vLhC5f7pHTQDLAXuMy+xgAZzhp5b7DtGOrJC+rKJU7Ek41W8yg==
+X-Received: by 10.50.141.164 with SMTP id rp4mr31881655igb.2.1433988530696;
+        Wed, 10 Jun 2015 19:08:50 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.141.164 with SMTP id rp4mr31881642igb.2.1433988530512;
+ Wed, 10 Jun 2015 19:08:50 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Wed, 10 Jun 2015 19:08:50 -0700 (PDT)
+In-Reply-To: <CALt-oTKuSNkXeiMfoDPQmgiyTSXZHS4ka7C4p9xV5pH3pbTHXA@mail.gmail.com>
+References: <CALt-oTKSkXj07n9pCOagqCWeCTP2y=ePZBP-HXFpGGV3LHTKcQ@mail.gmail.com>
+	<CABit=J7u+b5PaAMcuAmrvQN571KizR3rEMP+YucKg8HYX2zwgA@mail.gmail.com>
+	<CAH0V_1YgNVME+ZMTg50SaETGubj0ReTpxzLfP1iScriJU-RiaQ@mail.gmail.com>
+	<CALt-oT+EApvoLC6xy0b6O0ZQnUnB3nA_YZQTd3UtPPMyFw4ORA@mail.gmail.com>
+	<CAH0V_1a1iMtqBSNE3=yt4XtHhwTttu5FGMHqDEnQU8owBo120w@mail.gmail.com>
+	<CALt-oTLMi+CngAFZo7c8nsUwRrzYqLwKNbz+uLMPNUYHVC32ZA@mail.gmail.com>
+	<CAH0V_1a+vyf3qJPFKbcW_hps4yU3p4gwhW=f0HnpasAgDc4f3Q@mail.gmail.com>
+	<CALt-oTLZy=O6=4KP5fehwVk5kZNo7pLnPOzD=CF7ArW-J2Y06Q@mail.gmail.com>
+	<CALt-oTKiSO4FW1YcyYdH5Mziyiwk8Fb0Chpysg3sFeXuK4SUtw@mail.gmail.com>
+	<CAH0V_1bBJWt=OT5R78AbCJtg59if3-615QU2z4uOcZSoNPZKqw@mail.gmail.com>
+	<CALt-oTKuSNkXeiMfoDPQmgiyTSXZHS4ka7C4p9xV5pH3pbTHXA@mail.gmail.com>
+Date: Wed, 10 Jun 2015 22:08:50 -0400
+Message-ID: <CAH0V_1Y1sMmoq09Pkn=3+jS+1OTm_wfQb1uamY=hnK3_uq179w@mail.gmail.com>
+Subject: Re: Meeting with Director of HPC
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Justin Krometis <jkrometi@vt.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e01295380f9325e05183478a3
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW,T_FILL_THIS_FORM_SHORT autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e01295380f9325e05183478a3
+Content-Type: text/plain; charset=UTF-8
+
+Dear Justin,
+
+Thanks for the additional accounts.  There is no problem with using a
+blanket password, as there's nothing to protect.  Also, I think it best if
+I just give the instructors access to one of my servers so they can access
+the guest accounts more easily, including from off-campus.
+
+Can I get access to a few (4) of the hpcXX accounts right away so the
+external instructors can test the environment?
+
+Thanks very much!
+
+-TDC
+
+P.S. AJ, can you ask Harley to create four accounts on sirius for Robert
+Harrison, Eugene DePrince, Tommy Guy, and Daniel Chen to use for access to
+blueridge from off campus?  I think Robert may already have one.
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Jun 10, 2015 at 12:55 PM, Justin Krometis <jkrometi@vt.edu> wrote:
+
+> Daniel,
+> We have 39 training accounts already in place; I have requested that an
+> additional 10 be added. The accounts are called hpc01, hpc02, etc. Their
+> ssh access will be automatically granted when the reservation starts at 7am
+> on the 22nd. Is it okay if they use a blanket password (e.g. 'chemistry')?
+> I'm not sure if they will have content that they need to protect or not.
+>
+> Users generally need to be either on campus or on the VPN to access our
+> clusters, though we do have a protocol for granting remote access to non-VT
+> collaborators. So there are two ways that we could handle the instructors:
+> 1. We create external user accounts for them. This might take a bit to get
+> set up, but if we could get an IP address from which they would be logging
+> in, we could allow them to log into BlueRidge from off campus. They could
+> share any content by making it readable by the blueridge group (though that
+> would also share with other BlueRidge users...not sure if that's a
+> problem). For this, we would need their Name, Affiliation, Email, Address,
+> and Phone Number.
+> 2. They use the first few hpcXX accounts. The instructors would need an
+> on-campus machine to log into (presumably provided by Chemistry), from
+> which they could ssh into BlueRidge using their hpc account. They could
+> then share content using the 'training' group, which only the hpcXX
+> accounts have access to.
+>
+> Just let me know which option you would prefer.
+>
+> Thanks,
+>
+> Justin Krometis
+> Advanced Research Computing
+> http://www.arc.vt.edu
+> jkrometis@vt.edu
+>
+> On Wed, Jun 10, 2015 at 10:20 AM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+>> Dear Justin,
+>>
+>> The Software Summer School is rapidly approaching (June 22-July 1).  We
+>> have 42 students registered for the School, as well as six instructors
+>> (four from outside VT), so I'd be grateful for 46 guest accounts on
+>> blueridge.  When those are in place, I'll send the instructors information
+>> on accessing blueridge so they can make sure they have the
+>> compilers/libraries/etc. they need and can test their coding examples.
+>>
+>> That reminds me: *can* the instructors actually access blueridge from off
+>> campus to get things set up in advance?
+>>
+>> Best regards,
+>>
+>> -Daniel
+>>
+>>
+>>
+>>
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Tue, May 19, 2015 at 5:04 PM, Justin Krometis <jkrometi@vt.edu> wrote:
+>>
+>>> Daniel, Diego, and Ed,
+>>> Thank you all for meeting with us today. It was nice to see you again
+>>> and I think it was helpful for Vijay and some of our newer folks to get to
+>>> know you and what you do. Please let us know if you think of anything else
+>>> that you'd like to pass along. Daniel, we've created a 40-node reservation
+>>> on BlueRidge from 22 June through 1 July for the Software Development
+>>> Summer School. We'll be in touch as we get closer with more usage
+>>> information - usernames, passwords, etc. I just wanted to let you know that
+>>> the resources are reserved.
+>>> Thanks,
+>>> Justin
+>>>
+>>> Justin Krometis
+>>> Advanced Research Computing
+>>> http://www.arc.vt.edu
+>>> jkrometis@vt.edu
+>>>
+>>> On Thu, May 14, 2015 at 10:31 AM, Justin Krometis <jkrometi@vt.edu>
+>>> wrote:
+>>>
+>>>> Daniel,
+>>>> Sounds good. We will see you at 3pm on Tuesday.
+>>>> Justin
+>>>>
+>>>> Justin Krometis
+>>>> Advanced Research Computing
+>>>> http://www.arc.vt.edu
+>>>> jkrometis@vt.edu
+>>>>
+>>>> On Thu, May 14, 2015 at 10:29 AM, T. Daniel Crawford <crawdad@vt.edu>
+>>>> wrote:
+>>>>
+>>>>> The atrium outside our offices has sufficient space for a meeting if
+>>>>> my office is too small.
+>>>>>
+>>>>> -TDC
+>>>>>
+>>>>> --
+>>>>> Prof. T. Daniel Crawford
+>>>>> crawdad@vt.edu
+>>>>>
+>>>>> On Thu, May 14, 2015 at 10:10 AM, Justin Krometis <jkrometi@vt.edu>
+>>>>> wrote:
+>>>>>
+>>>>>> Daniel,
+>>>>>> It sounds like we may be bringing a fair number of people to this
+>>>>>> meeting (Vijay, 2-4 computational scientists, perhaps also some vis folks).
+>>>>>> This is good in that everyone wants to meet you and hear your perspective,
+>>>>>> but could make it tricky to fit everyone in your office. Is there another
+>>>>>> room that would be convenient for you all?
+>>>>>>
+>>>>>>
+>>>>>> Justin Krometis
+>>>>>> Advanced Research Computing
+>>>>>> http://www.arc.vt.edu
+>>>>>> jkrometis@vt.edu
+>>>>>>
+>>>>>> On Fri, May 8, 2015 at 10:59 PM, T. Daniel Crawford <crawdad@vt.edu>
+>>>>>> wrote:
+>>>>>>
+>>>>>>> This sounds great to me.  If you like, we can meet in my office,
+>>>>>>> Hahn Hall South 1110.  I'll be glad to provide coffee for those who'd enjoy
+>>>>>>> it.
+>>>>>>>
+>>>>>>> -TDC
+>>>>>>>
+>>>>>>> --
+>>>>>>> Prof. T. Daniel Crawford
+>>>>>>> crawdad@vt.edu
+>>>>>>>
+>>>>>>> On Fri, May 8, 2015 at 1:48 PM, Justin Krometis <jkrometi@vt.edu>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> Thanks for agreeing to meet with us. Let's plan on 3pm on Tuesday,
+>>>>>>>> May 19. We can come to Hahn if that works for you guys.
+>>>>>>>> Thanks,
+>>>>>>>> Justin
+>>>>>>>>
+>>>>>>>> Justin Krometis
+>>>>>>>> Advanced Research Computing
+>>>>>>>> http://www.arc.vt.edu
+>>>>>>>> jkrometis@vt.edu
+>>>>>>>>
+>>>>>>>> On Fri, May 8, 2015 at 1:09 PM, T. Daniel Crawford <crawdad@vt.edu>
+>>>>>>>> wrote:
+>>>>>>>>
+>>>>>>>>> Tuesday or Wednesday afternoon is fine for me.  Mornings are
+>>>>>>>>> booked.
+>>>>>>>>>
+>>>>>>>>> -TDC
+>>>>>>>>>
+>>>>>>>>> --
+>>>>>>>>> Prof. T. Daniel Crawford
+>>>>>>>>> crawdad@vt.edu
+>>>>>>>>>
+>>>>>>>>> On Fri, May 8, 2015 at 12:34 PM, Eduard Valeyev <valeev76@vt.edu>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>>> Justin,
+>>>>>>>>>>
+>>>>>>>>>> I should be available on Tuesday. Currently wide open.
+>>>>>>>>>>
+>>>>>>>>>> Ed.
+>>>>>>>>>> On May 8, 2015 12:29 PM, "Justin Krometis" <jkrometi@vt.edu>
+>>>>>>>>>> wrote:
+>>>>>>>>>>
+>>>>>>>>>>> Drs. Crawford, Troya, and Valeev,
+>>>>>>>>>>> Vijay Agarwala, our new Director of HPC, has asked me to reach
+>>>>>>>>>>> out to schedule meetings with some of our big research groups. He has been
+>>>>>>>>>>> mostly tied up with hardware acquisitions since January but would like to
+>>>>>>>>>>> start getting to know our users:
+>>>>>>>>>>>
+>>>>>>>>>>>    - Your HPC use cases and needs
+>>>>>>>>>>>    - Your experience with ARC systems
+>>>>>>>>>>>    - Anything you still need or want that ARC could be providing
+>>>>>>>>>>>
+>>>>>>>>>>> Would you and/or your students be available to meet with us? We
+>>>>>>>>>>> are targeting Tuesday-Thursday the week after next (19-21 May) for the
+>>>>>>>>>>> first few meetings, so please let me know if you might be available then.
+>>>>>>>>>>> If these days don't work for you, we could certainly postpone until later
+>>>>>>>>>>> this summer.
+>>>>>>>>>>>
+>>>>>>>>>>> Regards,
+>>>>>>>>>>>
+>>>>>>>>>>> Justin Krometis
+>>>>>>>>>>> Advanced Research Computing
+>>>>>>>>>>> http://www.arc.vt.edu
+>>>>>>>>>>> jkrometis@vt.edu
+>>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>
+
+--089e01295380f9325e05183478a3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Justin,<div><br></div><div>Thanks for the additional =
+accounts.=C2=A0 There is no problem with using a blanket password, as there=
+&#39;s nothing to protect.=C2=A0 Also, I think it best if I just give the i=
+nstructors access to one of my servers so they can access the guest account=
+s more easily, including from off-campus.</div><div><br></div><div>Can I ge=
+t access to a few (4) of the hpcXX accounts right away so the external inst=
+ructors can test the environment?</div><div><br></div><div>Thanks very much=
+!</div><div><br></div><div>-TDC</div><div><br></div><div>P.S. AJ, can you a=
+sk Harley to create four accounts on sirius for Robert Harrison, Eugene DeP=
+rince, Tommy Guy, and Daniel Chen to use for access to blueridge from off c=
+ampus?=C2=A0 I think Robert may already have one.</div></div><div class=3D"=
+gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=
+=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jun 10, 2015 at 12:55 PM, Justin Kro=
+metis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.edu" target=3D"_b=
+lank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr"><div class=3D"gmail_extra">Daniel,</div><div class=3D"g=
+mail_extra">We have 39 training accounts already in place; I have requested=
+ that an additional 10 be added. The accounts are called hpc01, hpc02, etc.=
+ Their ssh access will be automatically granted when the reservation starts=
+ at 7am on the 22nd. Is it okay if they use a blanket password (e.g. &#39;c=
+hemistry&#39;)? I&#39;m not sure if they will have content that they need t=
+o protect or not.</div><div class=3D"gmail_extra"><br></div><div class=3D"g=
+mail_extra">Users generally need to be either on campus or on the VPN to ac=
+cess our clusters, though we do have a protocol for granting remote access =
+to non-VT collaborators. So there are two ways that we could handle the ins=
+tructors:</div><div class=3D"gmail_extra">1. We create external user accoun=
+ts for them. This might take a bit to get set up, but if we could get an IP=
+ address from which they would be logging in, we could allow them to log in=
+to BlueRidge from off campus. They could share any content by making it rea=
+dable by the blueridge group (though that would also share with other BlueR=
+idge users...not sure if that&#39;s a problem). For this, we would need the=
+ir Name, Affiliation, Email, Address, and Phone Number.</div><div class=3D"=
+gmail_extra">2. They use the first few hpcXX accounts. The instructors woul=
+d need an on-campus machine to log into (presumably provided by Chemistry),=
+ from which they could ssh into BlueRidge using their hpc account. They cou=
+ld then share content using the &#39;training&#39; group, which only the hp=
+cXX accounts have access to.</div><div class=3D"gmail_extra"><br></div><div=
+ class=3D"gmail_extra">Just let me know which option you would prefer.</div=
+><div class=3D"gmail_extra"><br></div><div class=3D"gmail_extra">Thanks,</d=
+iv><div class=3D"gmail_extra"><span class=3D""><br clear=3D"all"><div><div>=
+<div dir=3D"ltr">Justin Krometis<div>Advanced Research Computing</div><div>=
+<a href=3D"http://www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.edu</=
+a></div><div><a href=3D"mailto:jkrometis@vt.edu" target=3D"_blank">jkrometi=
+s@vt.edu</a></div></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Wed, Jun 10=
+, 2015 at 10:20 AM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<=
+br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>Dear Justin,<div><b=
+r></div><div>The Software Summer School is rapidly approaching (June 22-Jul=
+y 1).=C2=A0 We have 42 students registered for the School, as well as six i=
+nstructors (four from outside VT), so I&#39;d be grateful for 46 guest acco=
+unts on blueridge.=C2=A0 When those are in place, I&#39;ll send the instruc=
+tors information on accessing blueridge so they can make sure they have the=
+ compilers/libraries/etc. they need and can test their coding examples.</di=
+v><div><br></div><div>That reminds me: *can* the instructors actually acces=
+s blueridge from off campus to get things set up in advance?</div></div><di=
+v><br></div><div>Best regards,</div><div><br></div><div>-Daniel</div><div><=
+br></div><div><br></div><div><br></div><div><br></div></div><div class=3D"g=
+mail_extra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof.=
+ T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Tue, May 19, 2015 at 5:0=
+4 PM, Justin Krometis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.e=
+du" target=3D"_blank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div dir=3D"ltr">Daniel, Diego, and Ed,<div>Thank you al=
+l for meeting with us today. It was nice to see you again and I think it wa=
+s helpful for Vijay and some of our newer folks to get to know you and what=
+ you do. Please let us know if you think of anything else that you&#39;d li=
+ke to pass along. Daniel, we&#39;ve created a 40-node reservation on BlueRi=
+dge from 22 June through 1 July for the Software Development Summer School.=
+ We&#39;ll be in touch as we get closer with more usage information - usern=
+ames, passwords, etc. I just wanted to let you know that the resources are =
+reserved.</div><div>Thanks,</div><div>Justin</div></div><div class=3D"gmail=
+_extra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">Justin Krometis<=
+div>Advanced Research Computing</div><div><a href=3D"http://www.arc.vt.edu"=
+ target=3D"_blank">http://www.arc.vt.edu</a></div><div><a href=3D"mailto:jk=
+rometis@vt.edu" target=3D"_blank">jkrometis@vt.edu</a></div></div></div></d=
+iv>
+<br></span><div><div><div class=3D"gmail_quote">On Thu, May 14, 2015 at 10:=
+31 AM, Justin Krometis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.=
+edu" target=3D"_blank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">Daniel,<div>Sounds good. We will see y=
+ou at 3pm on Tuesday.</div><span><font color=3D"#888888"><div>Justin</div><=
+/font></span></div><div class=3D"gmail_extra"><span><br clear=3D"all"><div>=
+<div><div dir=3D"ltr">Justin Krometis<div>Advanced Research Computing</div>=
+<div><a href=3D"http://www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.=
+edu</a></div><div><a href=3D"mailto:jkrometis@vt.edu" target=3D"_blank">jkr=
+ometis@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Thu, May 14, 2015 at 10:=
+29 AM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@v=
+t.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc sol=
+id;padding-left:1ex"><div dir=3D"ltr">The atrium outside our offices has su=
+fficient space for a meeting if my office is too small.<span><font color=3D=
+"#888888"><div><br></div><div>-TDC</div></font></span></div><div class=3D"g=
+mail_extra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof.=
+ T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Thu, May 14, 2015 at 10:=
+10 AM, Justin Krometis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.=
+edu" target=3D"_blank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">Daniel,<div>It sounds like we may be b=
+ringing a fair number of people to this meeting (Vijay, 2-4 computational s=
+cientists, perhaps also some vis folks). This is good in that everyone want=
+s to meet you and hear your perspective, but could make it tricky to fit ev=
+eryone in your office. Is there another room that would be convenient for y=
+ou all?</div><div><br></div><div class=3D"gmail_extra"><span><br clear=3D"a=
+ll"><div><div><div dir=3D"ltr">Justin Krometis<div>Advanced Research Comput=
+ing</div><div><a href=3D"http://www.arc.vt.edu" target=3D"_blank">http://ww=
+w.arc.vt.edu</a></div><div><a href=3D"mailto:jkrometis@vt.edu" target=3D"_b=
+lank">jkrometis@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Fri, May 8, 2015 at 10:5=
+9 PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt=
+.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">This sounds great to me.=C2=A0 If you =
+like, we can meet in my office, Hahn Hall South 1110.=C2=A0 I&#39;ll be gla=
+d to provide coffee for those who&#39;d enjoy it.<span><font color=3D"#8888=
+88"><div><br></div><div>-TDC</div></font></span></div><div class=3D"gmail_e=
+xtra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Da=
+niel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank"=
+>crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Fri, May 8, 2015 at 1:48=
+ PM, Justin Krometis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.ed=
+u" target=3D"_blank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote c=
+lass=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;=
+padding-left:1ex"><div dir=3D"ltr">Thanks for agreeing to meet with us. Let=
+&#39;s plan on 3pm on Tuesday, May 19. We can come to Hahn if that works fo=
+r you guys.<div>Thanks,</div><div>Justin</div></div><div class=3D"gmail_ext=
+ra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">Justin Krometis<div>=
+Advanced Research Computing</div><div><a href=3D"http://www.arc.vt.edu" tar=
+get=3D"_blank">http://www.arc.vt.edu</a></div><div><a href=3D"mailto:jkrome=
+tis@vt.edu" target=3D"_blank">jkrometis@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Fri, May 8, 2015 at 1:09=
+ PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.=
+edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div dir=3D"ltr">Tuesday or Wednesday afternoon is fine =
+for me.=C2=A0 Mornings are booked.<div><br></div><div>-TDC</div></div><div =
+class=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>P=
+rof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div><div><div>
+<br><div class=3D"gmail_quote">On Fri, May 8, 2015 at 12:34 PM, Eduard Vale=
+yev <span dir=3D"ltr">&lt;<a href=3D"mailto:valeev76@vt.edu" target=3D"_bla=
+nk">valeev76@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+><p dir=3D"ltr">Justin,</p>
+<p dir=3D"ltr">I should be available on Tuesday. Currently wide open.</p>
+<p dir=3D"ltr">Ed.</p><div><div>
+<div class=3D"gmail_quote">On May 8, 2015 12:29 PM, &quot;Justin Krometis&q=
+uot; &lt;<a href=3D"mailto:jkrometi@vt.edu" target=3D"_blank">jkrometi@vt.e=
+du</a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><d=
+iv dir=3D"ltr"><div>Drs. Crawford, Troya, and Valeev,</div><div>Vijay Agarw=
+ala, our new Director of HPC, has asked me to reach out to schedule meeting=
+s with some of our big research groups. He has been mostly tied up with har=
+dware acquisitions since January but would like to start getting to know ou=
+r users:</div><div><ul><li>Your HPC use cases and needs<br></li><li>Your ex=
+perience with ARC systems<br></li><li>Anything you still need or want that =
+ARC could be providing</li></ul></div><div>Would you and/or your students b=
+e available to meet with us? We are targeting Tuesday-Thursday the week aft=
+er next (19-21 May) for the first few meetings, so please let me know if yo=
+u might be available then. If these days don&#39;t work for you, we could c=
+ertainly postpone until later this summer.</div><div><br></div><div>Regards=
+,</div><br clear=3D"all"><div><div><div dir=3D"ltr">Justin Krometis<div>Adv=
+anced Research Computing</div><div><a href=3D"http://www.arc.vt.edu" target=
+=3D"_blank">http://www.arc.vt.edu</a></div><div><a href=3D"mailto:jkrometis=
+@vt.edu" target=3D"_blank">jkrometis@vt.edu</a></div></div></div></div>
+</div>
+</blockquote></div>
+</div></div></blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div></div>
+</blockquote></div><br></div>
+
+--089e01295380f9325e05183478a3--

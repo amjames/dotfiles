@@ -1,0 +1,155 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1559774qgt;
+        Tue, 23 Jun 2015 12:15:12 -0700 (PDT)
+X-Received: by 10.140.107.228 with SMTP id h91mr1979950qgf.1.1435086912144;
+        Tue, 23 Jun 2015 12:15:12 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id j202si23162343qhc.29.2015.06.23.12.15.12
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 12:15:12 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.170 as permitted sender) client-ip=209.85.213.170;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.170 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com [209.85.213.170])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NJF6Lp006857
+	for <amjames2@vt.edu>; Tue, 23 Jun 2015 15:15:11 -0400
+Received: by igboe5 with SMTP id oe5so96878185igb.1
+        for <amjames2@vt.edu>; Tue, 23 Jun 2015 12:15:06 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=LPqFEZhrTgOvh9ykVk9Yrufp20+2FA2hEKK0btaMkh0=;
+        b=YeZVexrRWDhRXPqtzyDu8xAUPxceFOav3gppwQ72jcJNmczJU+sr9X+rcMMvzbQbNK
+         xY834F02g+4tC8VcHlVcWby2r9jkR69+035I8Vh8SQ6KgJiF4Xr3ancqh25tiEB4hTOq
+         reUndIXBsWC4P5DvnX+hyNPFmzPgLSQs8GBF4ZvTXLzCaJ5Ob/iaZHcsfpPEa1ApVrpe
+         JaM97QdsqxSO2RNEGNoFDGGfuWS5RUxC5M1sv0y1dSysbO8wtTqq3jq9c3M3XEvLgUZq
+         WcRwhyKmmkOKMhkkn2jY7fZicB/Ag2a/fW7vYlDBuOKCxLCgJ+UmcOQdKtceoaA2NW9o
+         URNg==
+X-Gm-Message-State: ALoCoQktkkXyWLKPyU5rkSKOJ4AUHsQOAg5G6QmHjHYRBnjlrCvwnVLbuDCPGv+ugxcuzIz1C3d+MC9ynGr4MP2BfZPSMAdsoJTleH+7MiMFr2B2VaTvtkYiSASEGC/VVtZ0AEr2MXNnyyBswcgIhZa0/rxpn9tr5Q==
+X-Received: by 10.42.238.14 with SMTP id kq14mr33621738icb.23.1435086906104;
+        Tue, 23 Jun 2015 12:15:06 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.238.14 with SMTP id kq14mr33621732icb.23.1435086905973;
+ Tue, 23 Jun 2015 12:15:05 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Tue, 23 Jun 2015 12:15:05 -0700 (PDT)
+In-Reply-To: <D1AF1D3A.7BF7C%laurieg@vt.edu>
+References: <D1AF1D3A.7BF7C%laurieg@vt.edu>
+Date: Tue, 23 Jun 2015 15:15:05 -0400
+Message-ID: <CAH0V_1YLEzgGciEcRs3_Brqcxpp7=qQb+OjaxgHP8WXqDoJQxw@mail.gmail.com>
+Subject: Re: Current van reservations
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Good, Laurie" <laurieg@vt.edu>
+Cc: "James, Andrew" <amjames2@vt.edu>, "McAlexander, Harley" <harleymc@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bacbbcc40ae060519343572
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bacbbcc40ae060519343572
+Content-Type: text/plain; charset=UTF-8
+
+OK, a couple of things:
+
+(1) Let's see if we can extend reservations 161733 and 161734 through
+Wednesday night @ 11:00pm and then cancel reservations 161339 and whatever
+number comes out of R066981.  That will consolidate the reservations so
+there's no need to return and pick-up at the same time.
+
+(2) I don't understand the last reservation, which has us returning the van
+by 7pm on Friday, 7/3.  What's the return schedule to the airport?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jun 23, 2015 at 2:29 PM, Good, Laurie <laurieg@vt.edu> wrote:
+
+>   See attached.
+>
+>  Yellow highlighted questions on the doc is answered below:
+>
+>   If your vehicle is returned to Fleet Services and the keys are turned
+> in before 7 AM of the succeeding day, you will not be charged for
+> additional days.
+>
+> If you are using a vehicle for one day or even one half a day, the night
+> hours do not add to your total unless you do not return the vehicle by 7 AM
+> the succeeding day.
+>
+>
+>
+>
+>
+
+--047d7bacbbcc40ae060519343572
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">OK, a couple of things:<div><br></div><div>(1) Let&#39;s s=
+ee if we can extend reservations 161733 and 161734 through Wednesday night =
+@ 11:00pm and then cancel reservations 161339 and whatever number comes out=
+ of R066981.=C2=A0 That will consolidate the reservations so there&#39;s no=
+ need to return and pick-up at the same time.</div><div><br></div><div>(2) =
+I don&#39;t understand the last reservation, which has us returning the van=
+ by 7pm on Friday, 7/3.=C2=A0 What&#39;s the return schedule to the airport=
+?<div><br></div><div>-TDC</div></div></div><div class=3D"gmail_extra"><br c=
+lear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Pr=
+of. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Jun 23, 2015 at 2:29 PM, Good, Lauri=
+e <span dir=3D"ltr">&lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank"=
+>laurieg@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>
+<div>
+<div>See attached.</div>
+</div>
+</div>
+<div><br>
+</div>
+<div>Yellow highlighted questions on the doc is answered below:</div>
+<div><br>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font=
+-family:&#39;Times New Roman&#39;,serif">
+<span style=3D"font-size:11pt;font-family:Calibri,sans-serif;color:rgb(31,7=
+3,125)">If your vehicle is returned to Fleet Services and the keys are turn=
+ed in before 7 AM of the succeeding day, you will not be charged for additi=
+onal days.=C2=A0<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font=
+-family:&#39;Times New Roman&#39;,serif">
+<span style=3D"font-size:11pt;font-family:Calibri,sans-serif;color:rgb(31,7=
+3,125)">If you are using a vehicle for one day or even one half a day, the =
+night hours do not add to your total unless you do not return the vehicle b=
+y 7 AM the succeeding day.<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font=
+-family:&#39;Times New Roman&#39;,serif">
+<span style=3D"font-size:11pt;font-family:Calibri,sans-serif;color:rgb(31,7=
+3,125)">=C2=A0</span></p>
+<div style=3D"font-family:Calibri">
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font=
+-family:&#39;Times New Roman&#39;,serif">
+<br>
+</p>
+</div>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+--047d7bacbbcc40ae060519343572--

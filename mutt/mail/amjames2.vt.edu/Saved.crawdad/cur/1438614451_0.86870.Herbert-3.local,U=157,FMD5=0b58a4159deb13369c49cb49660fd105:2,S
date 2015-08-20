@@ -1,0 +1,301 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp878249qgt;
+        Sat, 30 May 2015 06:18:29 -0700 (PDT)
+X-Received: by 10.140.92.132 with SMTP id b4mr14943974qge.93.1432991909862;
+        Sat, 30 May 2015 06:18:29 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id f5si8532100qhc.72.2015.05.30.06.18.29
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 30 May 2015 06:18:29 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.182 as permitted sender) client-ip=209.85.223.182;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.182 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f182.google.com (mail-ie0-f182.google.com [209.85.223.182])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4UDINpO031051
+	for <amjames2@vt.edu>; Sat, 30 May 2015 09:18:28 -0400
+Received: by ieczm2 with SMTP id zm2so81234701iec.1
+        for <amjames2@vt.edu>; Sat, 30 May 2015 06:18:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=I3lleJzNMxzHSfCoh4BWHWrtAeBuP4NunV5dpQHtEow=;
+        b=jQ48Xmw1cw0j4mulJqWfOUIpi0+QZKtHIe7V6D5Vgi1z+M346kKzMSx7DdUWPc+V2R
+         6oMkLnOaIHKMrWEoZ9fJ+T1ZGWJS04fXDlVSgKJUjmwHGOMkvcnXl5PcWsDYlJCZGcF5
+         r7e39sIX8GD6d2uiOAShe+OZkm1kzjz6dW828fWpCQj5cARpoU8XLcS9hlWYevNncfLu
+         qDBYlEH4IjoitaSxoR4b2n5K40h3GQA/b/vtH5bblDWcSDxZTXi0t1huH1ku1joI1ciE
+         R0wXCiJKtWj300uJtja3BLVY6tEwC7nRI3Ritj9QJSKReEL5G3rJS/EnV3AXdz4u+1OA
+         GU6Q==
+X-Gm-Message-State: ALoCoQlnKcoQJ6qPiGzeqvPdLDJI5TQiVugg1HMiO84zNM+6WzCXIZVGpFmhfHAmyyjfvJ50QD4BViBj0Xl5phQSoZ4zyqnpudOr4jz4pPoV4SfdiPpmapchsF1VJbE3a72lbyRAGOlixcEdQ+DGCLMbc0rQzMOCZw==
+X-Received: by 10.42.255.200 with SMTP id nj8mr19814580icb.18.1432991903111;
+        Sat, 30 May 2015 06:18:23 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.255.200 with SMTP id nj8mr19814569icb.18.1432991903000;
+ Sat, 30 May 2015 06:18:23 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Sat, 30 May 2015 06:18:22 -0700 (PDT)
+In-Reply-To: <55698B5F.2060406@um.es>
+References: <55685B85.20604@um.es>
+	<CAH0V_1YuPw5FoSn2Jpz+vfbhmufLf0LD42Q=MCDQ20DTtX-GeA@mail.gmail.com>
+	<CAH0V_1bqDjv95XZ7YaMHbnHQWJfoN9CtUUxZyCUW2hqA_ppgjA@mail.gmail.com>
+	<55698B5F.2060406@um.es>
+Date: Sat, 30 May 2015 09:18:22 -0400
+Message-ID: <CAH0V_1bYrG73FMhyygxyWOUBH02Q2ScCzoEVcazePYX_CwwiYg@mail.gmail.com>
+Subject: Re: Expected arrival to Virginia Tech campus
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Javier Cerezo <jcb1@um.es>
+Cc: Harley McAlexander <harleymc@vt.edu>, "Good, Laurie" <laurieg@vt.edu>,
+        Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=bcaec50fe70b584bcf05174c6d1e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 8574
+
+--bcaec50fe70b584bcf05174c6d1e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Glad you made is Javier!  I hope the room is all right  Do you have bedding
+and such for the room?  Laurie was going to provide something to you.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sat, May 30, 2015 at 6:05 AM, Javier Cerezo <jcb1@um.es> wrote:
+
+>  Dear Daniel,
+>
+> Sorry for not keeping you updated. Plans went as expected: my luggage
+> arrived on the morning and I could get the bus to Blacksburg with all my
+> belongings. One of you students, Andrew James, was waiting for me at the
+> squires and was very helpful. I could get the key of my room and my
+> university card.
+>
+> In the afternoon, I got my student card activated and then I settled in m=
+y
+> room. Since I am still adapting to the new solar time,  that almost
+> completed my day after an early diner. Surely, I will get ride off the
+> jet-lag during the weekend.
+>
+> For Monday, Andrew offer himself to pick me up from the residence,
+> although I think this is not going to be necessary as I will be able to
+> explore the campus during the weekend and easily find the way to the
+> Chemistry department. I will need to finish up some final bureaucratic
+> details, such as showing my health insurance to ISS, but I think they mig=
+ht
+> be quick and I will be ready to start working during the morning.
+>
+> Thank you for your interest.
+>
+> Javier
+>
+> El 29/05/15 a las 23:37, T. Daniel Crawford escribi=C3=B3:
+>
+> Dear Javier,
+>
+>  I didn't get an update on your status today.  Did the transport from
+> Roanoke to your accommodations in Blacksburg go smoothly, or was there a
+> problem?  How about your luggage?
+>
+>  -TDC
+>
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Fri, May 29, 2015 at 8:40 AM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+>> Welcome to Virginia, Javier!  Thanks for keeping me informed regarding
+>> your arrangements.  I'll see you soon, I'm sure.
+>>
+>>  -TDC
+>>
+>>  --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Fri, May 29, 2015 at 8:28 AM, Javier Cerezo <jcb1@um.es> wrote:
+>>
+>>> Dear Daniel,
+>>>
+>>> I arrived yesterday to Roanoke airport but I am still waiting for my
+>>> baggage, which will probably be here at 10.30am. After picking it up, I
+>>> expect to arrive to Virginia Tech campus at around 12.30am today.
+>>>
+>>> I already informed your student, Harley McAlexander, and the people
+>>> helping with the housing, Laurie Good and Martha Pinard.
+>>>
+>>> Javier
+>>>
+>>> --
+>>> Javier CEREZO BASTIDA
+>>> PostDoc Researcher
+>>> ICCOM-CNR, UOS di Pisa
+>>> 56124 PISA (ITALY)
+>>>
+>>
+>>
+>
+>
+> --
+> Javier CEREZO BASTIDA
+> PostDoc Researcher
+> ICCOM-CNR, UOS di Pisa
+> 56124 PISA (ITALY)
+>
+
+--bcaec50fe70b584bcf05174c6d1e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Glad you made is Javier!=C2=A0 I hope the room is all righ=
+t =C2=A0Do you have bedding and such for the room?=C2=A0 Laurie was going t=
+o provide something to you.<div><br></div><div>-TDC</div></div><div class=
+=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div=
+ dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:cr=
+awdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, May 30, 2015 at 6:05 AM, Javier Cere=
+zo <span dir=3D"ltr">&lt;<a href=3D"mailto:jcb1@um.es" target=3D"_blank">jc=
+b1@um.es</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+ =20
+   =20
+ =20
+  <div text=3D"#000000" bgcolor=3D"#FFFFFF">
+    Dear Daniel,<br>
+    <br>
+    Sorry for not keeping you updated. Plans went as expected: my
+    luggage arrived on the morning and I could get the bus to Blacksburg
+    with all my belongings. One of you students, Andrew James, was
+    waiting for me at the squires and was very helpful. I could get the
+    key of my room and my university card.<br>
+    <br>
+    In the afternoon, I got my student card activated and then I settled
+    in my room. Since I am still adapting to the new solar time,=C2=A0 that
+    almost completed my day after an early diner. Surely, I will get
+    ride off the jet-lag during the weekend. <br>
+    <br>
+    For Monday, Andrew offer himself to pick me up from the residence,
+    although I think this is not going to be necessary as I will be able
+    to explore the campus during the weekend and easily find the way to
+    the Chemistry department. I will need to finish up some final
+    bureaucratic details, such as showing my health insurance to ISS,
+    but I think they might be quick and I will be ready to start working
+    during the morning.<br>
+    <br>
+    Thank you for your interest.<br>
+    <br>
+    Javier<br>
+    <br>
+    <div>El 29/05/15 a las 23:37, T. Daniel
+      Crawford escribi=C3=B3:<br>
+    </div><div><div class=3D"h5">
+    <blockquote type=3D"cite">
+      <div dir=3D"ltr">Dear Javier,
+        <div><br>
+        </div>
+        <div>I didn&#39;t get an update on your status today.=C2=A0 Did the
+          transport from Roanoke to your accommodations in Blacksburg go
+          smoothly, or was there a problem?=C2=A0 How about your luggage?</=
+div>
+        <div><br>
+        </div>
+        <div>-TDC</div>
+      </div>
+      <div class=3D"gmail_extra"><br clear=3D"all">
+        <div>
+          <div>
+            <div dir=3D"ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">craw=
+dad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class=3D"gmail_quote">On Fri, May 29, 2015 at 8:40 AM, T.
+          Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@v=
+t.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span>
+          wrote:<br>
+          <blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex">
+            <div dir=3D"ltr">Welcome to Virginia, Javier!=C2=A0 Thanks for
+              keeping me informed regarding your arrangements.=C2=A0 I&#39;=
+ll see
+              you soon, I&#39;m sure.
+              <div><br>
+              </div>
+              <div>-TDC</div>
+            </div>
+            <div class=3D"gmail_extra"><br clear=3D"all">
+              <div>
+                <div>
+                  <div dir=3D"ltr">--
+                    <div>Prof. T. Daniel Crawford</div>
+                    <div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank=
+">crawdad@vt.edu</a></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <br>
+                  <div class=3D"gmail_quote">On Fri, May 29, 2015 at 8:28
+                    AM, Javier Cerezo <span dir=3D"ltr">&lt;<a href=3D"mail=
+to:jcb1@um.es" target=3D"_blank">jcb1@um.es</a>&gt;</span> wrote:<br>
+                    <blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex">Dear
+                      Daniel,<br>
+                      <br>
+                      I arrived yesterday to Roanoke airport but I am
+                      still waiting for my baggage, which will probably
+                      be here at 10.30am. After picking it up, I expect
+                      to arrive to Virginia Tech campus at around
+                      12.30am today.<br>
+                      <br>
+                      I already informed your student, Harley
+                      McAlexander, and the people helping with the
+                      housing, Laurie Good and Martha Pinard.<span><font co=
+lor=3D"#888888"><br>
+                          <br>
+                          Javier<br>
+                          <br>
+                          -- <br>
+                          Javier CEREZO BASTIDA<br>
+                          PostDoc Researcher<br>
+                          ICCOM-CNR, UOS di Pisa<br>
+                          56124 PISA (ITALY)<br>
+                        </font></span></blockquote>
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+    <br>
+    <div>-- <br>
+      Javier CEREZO BASTIDA<br>
+      PostDoc Researcher<br>
+      ICCOM-CNR, UOS di Pisa<br>
+      56124 PISA (ITALY)
+    </div>
+  </div></div></div>
+
+</blockquote></div><br></div>
+
+--bcaec50fe70b584bcf05174c6d1e--

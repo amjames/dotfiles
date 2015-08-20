@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1648533qgt;
+        Fri, 14 Aug 2015 09:00:11 -0700 (PDT)
+X-Received: by 10.140.106.53 with SMTP id d50mr79764479qgf.6.1439568011467;
+        Fri, 14 Aug 2015 09:00:11 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id c37si10163553qkh.15.2015.08.14.09.00.11
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 09:00:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.192 as permitted sender) client-ip=192.30.252.192;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.192 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext1.iad.github.net [192.30.252.192])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EG05WT002897
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 12:00:10 -0400
+Date: Fri, 14 Aug 2015 09:00:05 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439568005;
+	bh=TOMYNoueONJ/CinEvZEB9UnpddWLAi3wzcV3I1fpSL0=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=rP1P2eDsccvzlYJ6vb9Y68pmO93Ymr1rUNxbHXFlaKPqNU5PEDx6x7UgNBdeqWvGK
+	 S7kl0/vSJa5FTLU4kDiJg2NlvP0snmoVzpeRbhd/L/ji10phs6+MQ/1zf9K8DkGVOZ
+	 mWDog/N/VHmWkxdu/6r1iPdI5AKH9WFrmoNwGGvs=
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642d67596eb8e40a2e79045a93e00a99c9bab85473692cf0000000111e5d28592a169ce0605becd@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/167/issue_event/382722268@github.com>
+In-Reply-To: <psi4/psi4public/pull/167@github.com>
+References: <psi4/psi4public/pull/167@github.com>
+Subject: Re: [psi4public] Oh, here too (#167)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce1085b92fc_7d443fe8d852f2a01579997";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642d67596eb8e40a2e79045a93e00a99c9bab85473692cf0000000111e5d28592a169ce0605becd@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642d67596eb8e40a2e79045a93e00a99c9bab85473692cf0000000111e5d28592a169ce0605becd@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QjIKq9KdOmpvMTcgy7BIu9x__Dyzks5onggFgaJpZM4Frwjb>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ce1085b92fc_7d443fe8d852f2a01579997
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Merged #167.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/167#event-382722268
+----==_mimepart_55ce1085b92fc_7d443fe8d852f2a01579997
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Merged <a href="https://github.com/psi4/psi4public/pull/167" class="issue-link" title="Oh, here too">#167</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/167#event-382722268">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qq2f8-NNuAVl5AhduhHIYXIcyNRpks5onggFgaJpZM4Frwjb.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/pull/167#event-382722268"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ce1085b92fc_7d443fe8d852f2a01579997--

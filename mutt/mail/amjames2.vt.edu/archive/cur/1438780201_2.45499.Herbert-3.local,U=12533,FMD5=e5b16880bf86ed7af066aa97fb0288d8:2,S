@@ -1,0 +1,652 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp338309qgt;
+        Wed, 5 Aug 2015 04:34:45 -0700 (PDT)
+X-Received: by 10.140.36.231 with SMTP id p94mr15764878qgp.60.1438774485044;
+        Wed, 05 Aug 2015 04:34:45 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id w10si4844826qkw.84.2015.08.05.04.34.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 04:34:45 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 208.75.123.175 as permitted sender) client-ip=208.75.123.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 208.75.123.175 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@nyacs-cme.ccsend.com
+Received: from mail-ig0-x22a.google.com (mail-ig0-x22a.google.com [IPv6:2607:f8b0:4001:c05::22a])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t75BYalj023399
+	for <amjames2@vt.edu>; Wed, 5 Aug 2015 07:34:42 -0400
+Received: by igbpg9 with SMTP id pg9so112411713igb.0
+        for <amjames2@vt.edu>; Wed, 05 Aug 2015 04:34:36 -0700 (PDT)
+X-Received: by 10.50.109.233 with SMTP id hv9mr5329806igb.92.1438774476645;
+        Wed, 05 Aug 2015 04:34:36 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp342739iee;
+        Wed, 5 Aug 2015 04:34:35 -0700 (PDT)
+X-Received: by 10.140.128.65 with SMTP id 62mr17450523qha.8.1438774475240;
+        Wed, 05 Aug 2015 04:34:35 -0700 (PDT)
+Received: from ccm175.constantcontact.com (ccm175.constantcontact.com. [208.75.123.175])
+        by mx.google.com with ESMTPS id 128si4926718qhh.8.2015.08.05.04.34.34
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 05 Aug 2015 04:34:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of AQi1TcdgYTvWQfTb0rjNPRg==_1102192543433_oG8g0EN8EeOyjtSuUnU5bw==@in.constantcontact.com designates 208.75.123.175 as permitted sender) client-ip=208.75.123.175;
+Received: from p2-jbsvcs5190.ad.prodcc.net (p2-pen3.ad.prodcc.net [10.252.0.103])
+	by p2-mail49.ccm175.constantcontact.com (Postfix) with ESMTP id 81AECAFD48C
+	for <andrew.m.james2@gmail.com>; Wed,  5 Aug 2015 07:34:34 -0400 (EDT)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=134388; d=nyacs-cme.ccsend.com; h=to:X-Feedback-ID:subject:mime-version:message-id:from:date:sender:list-unsubscribe:reply-to; bh=KNVtSL0w0osQrC2eMIOucxTdt71qHbefWEIDn03X7SU=; b=SdO1u1uMDiwuEw1XGY1ZLrNSoJu7VY3YnKLhdwgIQ5SuhJq4Diey83B5B/mQuEZc7Sd22yqNLMmY4EeGAlGyNMJBy2rg7rgHtghMET2vuhv2UjZWxKv+aIQorgCRhiJ3ZcDDy0TEV9WskrGlIPsHqX5HVJwsmmQss/sm34vrA0E=
+Message-ID: <1121829731582.1102192543433.5160.0.250734JL.1102@scheduler.constantcontact.com>
+Date: Wed, 5 Aug 2015 07:34:34 -0400 (EDT)
+From: Chemical Marketing and Economics Group - ACS NY Section <contact@cmeacs.org>
+Reply-To: contact@cmeacs.org
+Sender: Chemical Marketing and Economics Group - ACS NY Section <cmegroup@nyacs-cme.ccsend.com>
+To: andrew.m.james2@gmail.com
+Subject: Attend Sep 9 CME ACS "Shaping the Future at Chemours" Mark
+ Vergnano, Chemours CEO - Poised for a cycle upside
+Cc: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_185581659_1676610318.1438774474516"
+List-Unsubscribe: http://visitor.constantcontact.com/do?p=un&m=0016gQEREPhCAa-GcbHypCBQw%3D%3D&se=001sTLJ5cS6bqU%3D&t=001EkZLEx15CcE%3D&llr=jwbx7pcab
+X-Campaign-Activity-ID: 422d5371-d818-4ef5-907d-36f4ae334f46
+X-Channel-ID: a06f20d0-437c-11e3-b28e-d4ae5275396f
+X-Mailer: Roving Constant Contact 2012 (http://www.constantcontact.com)
+X-Return-Path-Hint: AQi1TcdgYTvWQfTb0rjNPRg==_1102192543433_oG8g0EN8EeOyjtSuUnU5bw==@in.constantcontact.com
+X-Roving-Campaignid: 1121829731582
+X-Roving-Id: 1102192543433.5160
+X-Feedback-ID: a06f20d0-437c-11e3-b28e-d4ae5275396f:422d5371-d818-4ef5-907d-36f4ae334f46:1102192543433:CTCT
+X-CTCT-ID: 9dbbc0a0-437c-11e3-b15b-d4ae5275396f
+X-Spam-Status: No, score=0.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,URI_NOVOWEL autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_185581659_1676610318.1438774474516
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Having trouble viewing this email?
+Click here
+http://campaign.r20.constantcontact.com/render?ca=422d5371-d818-4ef5-907d-36f4ae334f46&c=9dbbc0a0-437c-11e3-b15b-d4ae5275396f&ch=a06f20d0-437c-11e3-b28e-d4ae5275396f
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wednesday September 9, 2015  --  Luncheon and Webcast - Penn Club
+Shaping the Future at Chemours
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When
+September 9, 2015 from 11:15 AM to 2:00 PM EST
+Where
+Penn Club of New York
+30 W. 44th Street
+New York, NY 10036
+Driving Directions [http://r20.rs6.net/tn.jsp?f=001iJqDPgDFICVRUa5cUHcmoSb-ta_nRMmc0xww9dygsntbW-KYZAUNGlsuF-SmEg5oL0aikAAkND7xUG28NcECFtmVxBO1HVjBevjBhxtsseScur9BR_Vn12dLo0z5d3QzR_QhFtewZmJydz5g97sHhvLL2_u1srKLp6ikOc3qknfQwXRMCRPAWHRqBpuN9GRbFhZ9V14Wqq54szrGSnjrjXfA9SBA-ov2KDx8DUWqsD3wv0WFEqrQeutL0u6Mpj8L&c=kFshlEb8wkbn872XrHdgfccfPuGMAMx8g81PybleX-LlN9Ds4PevJg==&ch=Zy0tyxckyIxI78Q5faLp5Dv7phPIHKOqoB0MfSF7fd9KGVpLgjrYnw==]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set the email frequency!
+CM&E covers diverse fields.
+To stop emails on this event, click
+I can't make it
+below "Register Now!"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sponsors
+
+Promotional Partners
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dear Andrew,
+Arguably the most significant spinoff of the legendary DuPont in the last half century,
+The Chemours Company is in a unique position to re-invent the nature of the formerly
+known Chemicals & Fluoroproducts and Titanium Technologies businesses of DuPont.
+This talk will cover how the market cycles pose serious challenges in the feedstock
+price, inventories and profit margins of the performance chemicals markets. Also,
+the presentation will show how companies well-positioned for the increased economic
+activity in consumer spending, housing and automotive sectors can take advantage
+ of the business potential. Chemours has been engineering programs to fully leverage
+its competitive advantages in applications development, scale, productivity and 
+inventory management.
+Don't miss this unique chance to hear about the strategies that the leader of Chemours
+will be implementing to shape the exciting future of one of the leading players 
+in the performance chemicals market.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Speaker:  Mark P. Vergnano is the President and Chief Executive Officer of The Chemours
+Company. Mark draws on over three decades of chemical industry experience, having
+joined DuPont in 1980 as a process engineer. He was named vice president for DuPont
+Surfaces and Building Innovations in October 2005. In 2006 he was named group vice
+president of DuPont Safety & Protection. In 2009 he was named executive vice president
+of DuPont Chemicals & Fluoroproducts and Titanium Technologies.
+Born in Hartford, Conn., Vergnano is a chemical engineer (University of Connecticut)
+and MBA (Virginia Commonwealth University). He is a member of the U. of Conn. School
+of Engineering Academy of Distinguished Engineers and Hall of Fame. Vergano is a
+ board member for the U.S. National Safety Council and Johnson Controls, Inc.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Meeting Schedule
+
+11:15 am to noon -  Networking
+noon to 1:00 pm -   Luncheon
+1:00 pm - 2:00 pm - Presentation
+
+Non-Member Luncheon Fee: $100 until 8/26, then $120 Luncheon Fee.
+Member Luncheon Fee: $70 until 8/26, then $90 (if you paid the 2015 CM&E membership).
+Or $100 until 8/26, then $120 (if this is your first event in 2015, it includes 
+2015 dues)
+Webcast Fee: $30 For Live Webcast or Webcast Recording.
+ACS National Members Webcast Fee: $10. (Requires membership No. Free if you register
+by 8/26.)
+All prices are subject to change without notice. Cancellations may be subject to
+ fees. Venue: See side bar.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Register Now! [http://r20.rs6.net/tn.jsp?f=001iJqDPgDFICVRUa5cUHcmoSb-ta_nRMmc0xww9dygsntbW-KYZAUNGgbNcP_PQvvG7Le5tlbVMG9Om8nwXn0-E1J32oMI-m1UtWSpYtpWG4N4Ft_kFPrZ0AeOQ6JJqe26d2ZQ8mbAzTXO3Kfu9ES-k0adOAsokz3HbuZY4jCWj6PL_e8_HnJ-475jK4QH9r4twOgSpgzXmsSGG8knN6k6zBFflmOZPN9KUyndLf__Kc1m8GqfGjz9eoU_IHHWcqL07S0sBGVPkVURmcVNtVTfQA==&c=kFshlEb8wkbn872XrHdgfccfPuGMAMx8g81PybleX-LlN9Ds4PevJg==&ch=Zy0tyxckyIxI78Q5faLp5Dv7phPIHKOqoB0MfSF7fd9KGVpLgjrYnw==]
+I can't make it [http://events.r20.constantcontact.com/register/decline?oeidk=a07eb95m5hra207083d&c=9dbbc0a0-437c-11e3-b15b-d4ae5275396f&ch=a06f20d0-437c-11e3-b28e-d4ae5275396f]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We look forward to seeing you on September 9th.
+Cordially,
+George Rodriguez
+Chemical Marketing and Economics
+The Business, Investment and Technology group of the
+American Chemical Society's New York Section
+contact@cmeacs.org [mailto:contact@cmeacs.org] - Tel: 908-704-6767
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+This email was sent to andrew.m.james2@gmail.com by contact@cmeacs.org.
+
+Update Profile/Email Address
+http://visitor.constantcontact.com/do?p=oo&m=0016gQEREPhCAa-GcbHypCBQw%3D%3D&ch=a06f20d0-437c-11e3-b28e-d4ae5275396f&ca=422d5371-d818-4ef5-907d-36f4ae334f46
+
+
+Instant removal with SafeUnsubscribe(TM)
+http://visitor.constantcontact.com/do?p=un&m=0016gQEREPhCAa-GcbHypCBQw%3D%3D&ch=a06f20d0-437c-11e3-b28e-d4ae5275396f&ca=422d5371-d818-4ef5-907d-36f4ae334f46
+
+
+Privacy Policy:
+http://ui.constantcontact.com/roving/CCPrivacyPolicy.jsp
+
+
+Online Marketing by
+Constant Contact(R)
+www.constantcontact.com
+
+
+ | Check venue for each event | Venues: Yale Club, Penn Club, Aureole | New York | NY | 10036
+------=_Part_185581659_1676610318.1438774474516
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<body topmargin=3D"0" leftmargin=3D"0" rightmargin=3D"0"><!--Copyright (c) =
+1996-2015 Constant Contact. All rights reserved.  Except as permitted under=
+ a separate
+written agreement with Constant Contact, neither the Constant Contact softw=
+are, nor any content that appears on any Constant Contact site,
+including but not limited to, web pages, newsletters, or templates may be r=
+eproduced, republished, repurposed, or distributed without the
+prior written permission of Constant Contact.  For inquiries regarding repr=
+oduction or distribution of any Constant Contact material, please
+contact legal@constantcontact.com.--><div align=3D"center"><div align=3D"ce=
+nter" style=3D"max-width:602px;margin-left:auto;margin-right:auto;"><table =
+width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"ma=
+rgin-left:auto;margin-right:auto;"><tr><td><img alt=3D"" width=3D"1" height=
+=3D"5" hspace=3D"0" vspace=3D"0" border=3D"0" src=3D"https://imgssl.constan=
+tcontact.com/letters/images/1101116784221/S.gif" /></td><td align=3D"center=
+" valign=3D"top" width=3D"600"><table width=3D"100%" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0"><tr><td align=3D"center" valign=3D"top"><div ali=
+gn=3D"center" style=3D"background-color:#ffffff;padding-bottom:10px;"><div =
+align=3D"left" style=3D"font-family:verdana,arial;font-size:8pt;color:#0000=
+00;"><font face=3D"verdana,arial" size=3D"1" color=3D"#000000" style=3D"fon=
+t-family:verdana,arial;font-size:8pt;color:#000000;"><center><table bgcolor=
+=3D"#ffffff" width=3D"595" id=3D"VWPLINK"><tr><td style=3D"font-size: 8pt; =
+font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000;" width=
+=3D"100%" rowspan=3D"1" colspan=3D"1">Having trouble viewing this email?
+<a track=3D"off" shape=3D"rect" href=3D"http://campaign.r20.constantcontact=
+.com/render?ca=3D422d5371-d818-4ef5-907d-36f4ae334f46&c=3D9dbbc0a0-437c-11e=
+3-b15b-d4ae5275396f&ch=3Da06f20d0-437c-11e3-b28e-d4ae5275396f" target=3D"_b=
+lank">Click here
+</a></td></tr></table></center></font></div></div></td></tr></table></td><t=
+d><img alt=3D"" width=3D"1" height=3D"5" hspace=3D"0" vspace=3D"0" border=
+=3D"0" src=3D"https://imgssl.constantcontact.com/letters/images/11011167842=
+21/S.gif" /></td></tr></table></div></div><img src=3D"http://r20.rs6.net/on=
+.jsp?ca=3D422d5371-d818-4ef5-907d-36f4ae334f46&a=3D1102192543433&d=3D112182=
+9731582&r=3D3&o=3Dhttp://ui.constantcontact.com/images/p1x1.gif&c=3D9dbbc0a=
+0-437c-11e3-b15b-d4ae5275396f&ch=3Da06f20d0-437c-11e3-b28e-d4ae5275396f" he=
+ight=3D"1" width=3D"1" />
+<div id=3D"rootDiv" align=3D"center">
+<table class=3D"body" style=3D"background-color:#FFFFFF;margin:0;padding:0;=
+" bgcolor=3D"#FFFFFF" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+    <td valign=3D"top" rowspan=3D"1" colspan=3D"1" align=3D"center">
+    <table class=3D"TemplateWidth" style=3D"width:600px;" border=3D"0" widt=
+h=3D"600" cellspacing=3D"0" cellpadding=3D"1">
+    <tr>
+        <td valign=3D"top" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=
+=3D"left">
+       =20
+        <table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" id=3D"content_LETTER.BLOCK1"><tr><td style=3D"color: #000000;" valign=
+=3D"bottom" rowspan=3D"1" colspan=3D"1" align=3D"center"><img vspace=3D"5" =
+border=3D"0" name=3D"ACCOUNT.IMAGE.74" hspace=3D"5" width=3D"587" alt=3D"20=
+11 CM&E Header w 2 Logos" src=3D"http://ih.constantcontact.com/fs035/110219=
+2543433/img/74.jpg" /></td></tr></table></td>
+    </tr>
+    <tr>
+        <td class=3D"MainBorder" style=3D"background-color:#000000;padding:=
+1px;" bgcolor=3D"#000000" valign=3D"top" rowspan=3D"1" colspan=3D"1" align=
+=3D"left">
+        <table class=3D"MainBodyBG" style=3D"background-color:#ffffff;" bgc=
+olor=3D"#ffffff" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" id=3D"evm-header-container">
+        <tr>
+            <td width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"center"=
+>
+            <table class=3D"EventTitleBG" style=3D"background-color:#006599=
+;display: table; margin-bottom: 0px;" bgcolor=3D"#006599" border=3D"0" widt=
+h=3D"100%" cellspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK2"=
+><tr><td style=3D"color: #000000;" rowspan=3D"1" colspan=3D"1" align=3D"cen=
+ter" id=3D"evm-invite-event-title">
+<div style=3D"color: #ffffff;"><span style=3D"font-family: Arial, Helvetica=
+, sans-serif; font-size: 11pt;">Wednesday&nbsp;September 9</span><span styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt;">, 2015 &n=
+bsp;-- &nbsp;Luncheon and Webcast&nbsp;- Penn Club</span></div>
+<br /><div style=3D"font-size: 18pt;"><span style=3D"color: #f2c15d; font-f=
+amily: Arial, Helvetica, sans-serif;" color=3D"#f2c15d" face=3D"Arial, Helv=
+etica, sans-serif"><b>Shaping the Future at Chemours</b></span></div><div s=
+tyle=3D"font-size: 18pt;"><span style=3D"color: #f2c15d; font-family: Arial=
+;" color=3D"#f2c15d" face=3D"Arial"><strong>&nbsp;</strong></span></div></t=
+d></tr></table>
+           =20
+            <table style=3D"display: table; margin-bottom: 0px; background-=
+color: #f2c15d;" bgcolor=3D"#F2C15D" border=3D"0" width=3D"100%" cellspacin=
+g=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK17"><tr><td style=3D"co=
+lor: #000000;" rowspan=3D"1" colspan=3D"1" align=3D"center" id=3D"evm-invit=
+e-event-title"><br /></td></tr></table></td>
+        </tr>
+        </table>
+        <table class=3D"MainBodyBG" style=3D"background-color:#ffffff;" bgc=
+olor=3D"#ffffff" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0">
+        <tr>
+            <td class=3D"LeftColWidth" style=3D"width:205px;" valign=3D"top=
+" width=3D"205" rowspan=3D"1" colspan=3D"1" align=3D"left">
+            <table border=3D"0" width=3D"205" cellspacing=3D"0" cellpadding=
+=3D"0">
+            <tr>
+                <td class=3D"LeftColPad" style=3D"padding:0px;" valign=3D"t=
+op" width=3D"205" rowspan=3D"1" colspan=3D"1" align=3D"left">
+               =20
+                <table class=3D"EventInfoBG" style=3D"background-color:#006=
+599;margin-bottom: 0px;" bgcolor=3D"#006599" border=3D"0" width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK3"><tr><td clas=
+s=3D"EventInformationText" style=3D"color:#999999;font-family:Arial,Helveti=
+ca,sans-serif;font-size:10pt;" rowspan=3D"1" colspan=3D"1" align=3D"left" i=
+d=3D"evm-lcol-content">
+<div style=3D"color: #cccccc;">
+<div><span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 1=
+2pt;" id=3D"evm-lcol-title-when"><b>When</b></span><br /></div>
+<div>September 9, 2015 from 11:15 AM to 2:00 PM EST</div>
+</div>
+<div style=3D"color: #cccccc;">&nbsp;&nbsp;<br /></div>
+<div class=3D"EventInfoTitle" style=3D"color:#999999;font-family:Arial,Helv=
+etica,sans-serif;font-size:12pt;" id=3D"evm-lcol-title-where"><span style=
+=3D"color: #cccccc;"><b>Where</b></span></div>
+<div style=3D"color: #cccccc;"><b>Penn Club of New York</b><br /></div>
+<div style=3D"color: #cccccc;">30 W. 44th Street<br /></div>
+<div><span style=3D"color: #cccccc;">New York, NY 10036</span><br /></div>
+<img height=3D"200" width=3D"200" src=3D"https://api.tiles.virtualearth.net=
+/api/GetMap.ashx?ppl=3D24,,40.75529,-73.98175&z=3D12&h=3D200&w=3D200       =
+    "><br /> <span class=3D"cc-link-xsm" style=3D"font-size:10pt;"><a class=
+=3D"cc-link-xsm" style=3D"font-size:10pt;" shape=3D"rect" href=3D"http://r2=
+0.rs6.net/tn.jsp?f=3D001iJqDPgDFICVRUa5cUHcmoSb-ta_nRMmc0xww9dygsntbW-KYZAU=
+NGlsuF-SmEg5oL0aikAAkND7xUG28NcECFtmVxBO1HVjBevjBhxtsseScur9BR_Vn12dLo0z5d3=
+QzR_QhFtewZmJydz5g97sHhvLL2_u1srKLp6ikOc3qknfQwXRMCRPAWHRqBpuN9GRbFhZ9V14Wq=
+q54szrGSnjrjXfA9SBA-ov2KDx8DUWqsD3wv0WFEqrQeutL0u6Mpj8L&c=3DkFshlEb8wkbn872=
+XrHdgfccfPuGMAMx8g81PybleX-LlN9Ds4PevJg=3D=3D&ch=3DZy0tyxckyIxI78Q5faLp5Dv7=
+phPIHKOqoB0MfSF7fd9KGVpLgjrYnw=3D=3D" alt=3D"http://maps.google.com/maps?da=
+ddr=3D30 West 44th St., New York, NY, 10017, US" target=3D"_blank" title=3D=
+"Driving Directions" id=3D"idDrivingDir">Driving Directions</a></span></img=
+></td></tr></table><table class=3D"EventInfoBG" style=3D"background-color:#=
+006599;display: table; margin-bottom: 0px;" bgcolor=3D"#006599" border=3D"0=
+" width=3D"100%" cellspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.B=
+LOCK4"><tr><td style=3D"font-size: 10pt; font-family: Arial, Helvetica, san=
+s-serif; color: #cccccc;" rowspan=3D"1" colspan=3D"1" align=3D"left" id=3D"=
+evm-lcol-content">
+<div><span style=3D"font-size: 12pt; font-family: Arial, Helvetica, sans-se=
+rif;" id=3D"evm-lcol-title-when"><span style=3D"font-size: 12pt;">
+<div><span style=3D"font-family: Arial, Helvetica, sans-serif;">
+<div>Set the email frequency!</div>
+</span></div>
+</span>
+<div><span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 1=
+3px;">
+<div>CM&E covers diverse fields.&nbsp;</div>
+</span></div>
+<div><span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 1=
+3px;">
+<div>To stop emails on this event, click &nbsp;
+<div style=3D"display: inline !important;"><span style=3D"font-size: 12pt;"=
+><strong>I can't make it </strong></span> <br />below "Register Now!" &nbsp=
+;&nbsp;</div>
+</div>
+</span></div>
+</span></div>
+</td></tr></table><table class=3D"EventInfoBG" style=3D"background-color:#0=
+06599;margin-bottom: 0px;" bgcolor=3D"#006599" border=3D"0" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK5"><tr><td cl=
+ass=3D"EventInformationText" style=3D"color:#999999;font-family:Arial,Helve=
+tica,sans-serif;font-size:10pt;" rowspan=3D"1" colspan=3D"1" align=3D"left"=
+ id=3D"evm-lcol-content">
+<h3 style=3D"text-align: center;"><span style=3D"font-family: Arial, Helvet=
+ica, sans-serif; font-size: 14pt;"><strong>Sponsors</strong></span><strong =
+style=3D"color: #ffcc00; font-size: 14pt;">&nbsp;</strong></h3>
+<h3 style=3D"text-align: center;" align=3D"center"><img style=3D"color: #ff=
+ffff; line-height: 1.45; font-size: 12px;" height=3D"68" vspace=3D"6" borde=
+r=3D"0" name=3D"ACCOUNT.IMAGE.177" hspace=3D"8" width=3D"190" src=3D"http:/=
+/ih.constantcontact.com/fs126/1102192543433/img/177.jpg" /></h3>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center"><img style=3D"line-height: 1.45;" height=3D"64" vspace=3D"0" bo=
+rder=3D"0" name=3D"ACCOUNT.IMAGE.250" hspace=3D"0" width=3D"200" src=3D"htt=
+p://ih.constantcontact.com/fs126/1102192543433/img/250.jpg" /></p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center">&nbsp;</p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center"><img height=3D"65" vspace=3D"0" border=3D"0" hspace=3D"0" width=
+=3D"190" style=3D"line-height: 1.45;" src=3D"https://origin.ih.constantcont=
+act.com/fs126/1102192543433/img/282.jpg?ver=3D1417674728000" /></p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center">&nbsp;</p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center"><img style=3D"line-height: 1.45;" height=3D"80" vspace=3D"0" bo=
+rder=3D"0" name=3D"ACCOUNT.IMAGE.283" hspace=3D"0" width=3D"185" src=3D"htt=
+p://ih.constantcontact.com/fs126/1102192543433/img/283.jpg" /></p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center">&nbsp;</p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center"><img height=3D"55" vspace=3D"0" border=3D"0" hspace=3D"0" width=
+=3D"190" src=3D"https://origin.ih.constantcontact.com/fs126/1102192543433/i=
+mg/292.jpg?ver=3D1417674728000" /></p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center">&nbsp;</p>
+<p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;" align=
+=3D"center"><img height=3D"88" vspace=3D"0" border=3D"0" hspace=3D"0" width=
+=3D"190" src=3D"https://origin.ih.constantcontact.com/fs126/1102192543433/i=
+mg/294.jpg?ver=3D1417674728000" /></p>
+<h3 style=3D"text-align: center;" align=3D"center">&nbsp;&nbsp;<img height=
+=3D"51" vspace=3D"0" border=3D"0" name=3D"ACCOUNT.IMAGE.286" hspace=3D"0" w=
+idth=3D"194" src=3D"http://ih.constantcontact.com/fs126/1102192543433/img/2=
+86.jpg" /></h3>
+<h3 style=3D"text-align: center;" align=3D"center"><img height=3D"22" vspac=
+e=3D"0" border=3D"0" hspace=3D"0" width=3D"190" style=3D"font-size: 10pt;" =
+src=3D"https://origin.ih.constantcontact.com/fs126/1102192543433/img/287.jp=
+g?ver=3D1417674728000" /></h3>
+<div><img height=3D"89" vspace=3D"5" border=3D"0" name=3D"ACCOUNT.IMAGE.291=
+" hspace=3D"5" width=3D"197" src=3D"http://ih.constantcontact.com/fs126/110=
+2192543433/img/291.jpg">&nbsp;</img></div>
+<br /><p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;"=
+><strong style=3D"font-size: 14pt;">Promotional Partners</strong></p><p sty=
+le=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;"><span style=
+=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14pt;"><strong>&n=
+bsp;</strong></span></p><p style=3D"text-align: center; margin-top: 0px; ma=
+rgin-bottom: 0px;" align=3D"center"><span style=3D"color: #ffcc00; font-fam=
+ily: Arial, Helvetica, sans-serif; font-size: 14pt;"><strong>&nbsp;&nbsp;<i=
+mg height=3D"105" vspace=3D"0" border=3D"0" name=3D"ACCOUNT.IMAGE.149" hspa=
+ce=3D"0" width=3D"180" alt=3D"Logo_AmericanChemistryCouncil" src=3D"http://=
+ih.constantcontact.com/fs035/1102192543433/img/149.jpg"> &nbsp;</img></stro=
+ng></span></p><p style=3D"text-align: center; margin-top: 0px; margin-botto=
+m: 0px;" align=3D"center"><span style=3D"color: #ffcc00; font-family: Arial=
+, Helvetica, sans-serif; font-size: 14pt;"><strong>&nbsp;</strong></span></=
+p><p style=3D"text-align: center; margin-top: 0px; margin-bottom: 0px;"><st=
+rong style=3D"text-align: left; line-height: 1.45; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14pt;">&nbsp;<img height=3D"66" vspace=3D"0" =
+border=3D"0" hspace=3D"0" width=3D"190" src=3D"https://origin.ih.constantco=
+ntact.com/fs126/1102192543433/img/245.jpg?ver=3D1417674728000"> &nbsp;</img=
+></strong></p><p style=3D"text-align: center; margin-top: 0px; margin-botto=
+m: 0px;"><strong>&nbsp;</strong></p></td></tr></table></td>
+            </tr>
+            </table>
+            </td>
+            <td class=3D"RightColWidth" style=3D"width:385px;" valign=3D"to=
+p" width=3D"385" rowspan=3D"1" colspan=3D"1" align=3D"left">
+            <table class=3D"RightColWidth" style=3D"width:385px;" border=3D=
+"0" width=3D"385" cellspacing=3D"0" cellpadding=3D"0">
+            <tr>
+                <td class=3D"LeftColPad" style=3D"padding:0px;" valign=3D"t=
+op" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"left">
+                <table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpa=
+dding=3D"5" id=3D"content_LETTER.BLOCK6"><tr><td class=3D"MainText" style=
+=3D"color:#000000;font-family:Arial,Helvetica,sans-serif;font-size:10pt;" r=
+owspan=3D"1" colspan=3D"1" id=3D"evm-content-maintext" align=3D"left">
+<div style=3D"margin-top: 0px; margin-bottom: 0px;">Dear Andrew,</div>
+<div style=3D"margin-top: 0px; margin-bottom: 0px;"><br />Arguably the most=
+ significant spinoff of the legendary DuPont in the last half century, The =
+Chemours Company is in a unique position to re-invent the nature of the for=
+merly known Chemicals & Fluoroproducts and Titanium Technologies businesses=
+ of DuPont.<br /><br />This talk will cover how the market cycles pose seri=
+ous challenges in the feedstock price, inventories and profit margins of th=
+e performance chemicals markets. Also, the presentation will show how compa=
+nies well-positioned for the increased economic activity in consumer spendi=
+ng, housing and automotive sectors can take advantage of the business poten=
+tial. Chemours&nbsp;<span style=3D"font-size: 10pt;">has been engineering p=
+rograms to fully leverage its competitive advantages in applications develo=
+pment, scale, productivity and inventory management.</span></div>
+<div><br />Don't miss this unique chance to hear about the strategies that =
+the leader of Chemours will be implementing to shape the exciting future of=
+ one of the leading players in the performance chemicals market.</div>
+</td></tr></table>
+                <table style=3D"display: table; background-color: #ffffff;"=
+ bgcolor=3D"#ffffff" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"5" id=3D"content_LETTER.BLOCK11"><tr><td style=3D"color: black; font=
+-family: Arial, Helvetica, sans-serif; font-size: 10pt;" rowspan=3D"1" cols=
+pan=3D"1" id=3D"evm-lcol-content" align=3D"left">
+<div style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif; font-size: 10pt;"> <img style=3D"border:=
+ 0px dashed black; border-image: none;" height=3D"147" vspace=3D"0" name=3D=
+"ACCOUNT.IMAGE.362" border=3D"0" hspace=3D"10" width=3D"142" src=3D"http://=
+files.ctctcdn.com/9c68bcf9001/2dbe40a3-940e-4c96-912b-1bda1fa720ad.jpg" ali=
+gn=3D"left"> </img></span></div>
+<div style=3D"text-align: left; font-family: Arial,Helvetica,sans-serif; ma=
+rgin-top: 0pt; margin-bottom: 3pt; margin-left: 0in; unicode-bidi: embed; d=
+irection: ltr;"><span style=3D"color: #1450a0;">Speaker</span><span style=
+=3D"color: black; font-size: 10pt;">:  <strong>Mark P. Vergnano </strong>is=
+ </span><span style=3D"color: black; font-size: 10pt;">the President and Ch=
+ief Executive Officer of The </span><span style=3D"color: black; font-size:=
+ 10pt;">Chemours </span><span style=3D"color: black; font-size: 10pt;">Comp=
+any. Mark draws on over three decades of chemical industry experience, havi=
+ng joined DuPont in 1980 as a process </span><span style=3D"color: black; f=
+ont-size: 10pt;">engineer. </span><span style=3D"color: black; font-size: 1=
+0pt;">He was named vice president for DuPont Surfaces and Building Innovati=
+ons in October 2005. In </span><span style=3D"color: black; font-size: 10pt=
+;">2006 </span><span style=3D"color: black; font-size: 10pt;">he was named =
+group vice president of DuPont Safety & Protection. </span><span style=3D"c=
+olor: black; font-size: 10pt;">In 2009 he </span><span style=3D"color: blac=
+k; font-size: 10pt;">was </span><span style=3D"color: black; font-size: 10p=
+t;">named executive vice president of DuPont </span><span style=3D"color: b=
+lack; font-size: 10pt;">Chemicals & </span><span style=3D"color: black; fon=
+t-size: 10pt;">Fluoroproducts</span><span style=3D"color: black; font-size:=
+ 10pt;"> and Titanium</span><span style=3D"color: black; font-size: 10pt;">=
+ Technologies.<br /><br />Born in Hartford, Conn., </span><span style=3D"co=
+lor: black; font-size: 10pt;">Vergnano</span><span style=3D"color: black; f=
+ont-size: 10pt;"> is </span><span style=3D"color: black; font-size: 10pt;">=
+a chemical engineer (</span><span style=3D"color: black; font-size: 10pt;">=
+University </span><span style=3D"color: black; font-size: 10pt;">of Connect=
+icut) and MBA (Virginia Commonwealth </span><span style=3D"color: black; fo=
+nt-size: 10pt;">University). </span><span style=3D"color: black; font-size:=
+ 10pt;">He is a member of the U. of Conn. </span><span style=3D"color: blac=
+k; font-size: 10pt;">School of Engineering Academy </span><span style=3D"co=
+lor: black; font-size: 10pt;">of Distinguished Engineers and Hall of Fame. =
+</span><span style=3D"color: black; font-size: 10pt;">Vergano</span><span s=
+tyle=3D"color: black; font-size: 10pt;"> is a board member for the U.S. Nat=
+ional Safety Council and Johnson Controls, Inc.</span></div>
+</td></tr></table></td>
+            </tr>
+            <tr>
+                <td valign=3D"top" width=3D"100%" rowspan=3D"1" colspan=3D"=
+1" align=3D"left">
+               =20
+                <table class=3D"BlockMargin" style=3D"margin-bottom:5px;bac=
+kground-color: rgb(255, 255, 255);" bgcolor=3D"#ffffff" border=3D"0" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK9">=
+<tr><td style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif;=
+ font-size: 11pt;" rowspan=3D"1" colspan=3D"1" id=3D"evm-content-maintext" =
+align=3D"left">
+<div style=3D"font-size: 10pt;">Meeting Schedule<br /><br /><table style=3D=
+"width: 100%; border-style: none; border-width: 0;" cellpadding=3D"3" cells=
+pacing=3D"0" align=3D"none"><tr><td style=3D"vertical-align: top; font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000; font-size: 13.3333px; font-=
+style: normal; font-weight: 400; width: 34px; height: 25px;" rowspan=3D"1" =
+colspan=3D"1"><br /></td><td style=3D"vertical-align: top; font-family: Ari=
+al,Helvetica,sans-serif; color: #000000; font-size: 13.3333px; font-style: =
+normal; font-weight: 400; width: 325px; height: 25px;" rowspan=3D"1" colspa=
+n=3D"1">
+<div style=3D"margin-top: 0px; margin-bottom: 0px;">11:15 am to noon -  Net=
+working<br />noon to 1:00 pm -   Luncheon<br />1:00 pm - 2:00 pm - Presenta=
+tion</div>
+</td></tr></table><em><br />Non-Member Luncheon Fee:&nbsp;$100 until 8/26</=
+em>, then $120 <span>Luncheon Fee.&nbsp;</span><span style=3D"font-size: 10=
+pt;"><br /><br /></span></div>
+<div style=3D"font-size: 10pt;"><span style=3D"font-size: 10pt;"><em>Member=
+ Luncheon Fee: $70 until 8/26, then&nbsp;</em>$90 (if you paid the 2015 CM&=
+E membership). Or <em>$100 until 8/26</em>, then $120 (if this is your firs=
+t event in 2015, it includes 2015 dues)&nbsp;<span style=3D"color: #a20000;=
+ font-size: 10pt;"><strong><br /><br /></strong></span></span></div>
+<div><span style=3D"font-size: 10pt;">
+<div><em>Webcast Fee:</em> $30 For Live Webcast or Webcast Recording.</div>
+</span></div>
+<div><span style=3D"font-size: 10pt;"><em>ACS National Members Webcast Fee:=
+</em> $10. (Requires membership No. Free if you register by 8/26.)<br /><br=
+ /> All prices are subject to change without notice. Cancellations may be s=
+ubject to fees. Venue: See side bar. </span></div>
+</td></tr></table><table style=3D"background-color: #ffffff; margin-bottom:=
+ 0px;" bgcolor=3D"#ffffff" border=3D"0" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"5" id=3D"content_LETTER.BLOCK9"><tr><td class=3D"cc-register c=
+c-link-sm" style=3D"color:#000000;font-family:Arial,Helvetica,sans-serif;fo=
+nt-size:10pt;font-size:12pt;" rowspan=3D"1" colspan=3D"1" align=3D"center">=
+<strong><span title=3D"Event.registerLink"><a class=3D"cc-register" style=
+=3D"color:#000000;font-family:Arial,Helvetica,sans-serif;font-size:10pt;" h=
+ref=3D"http://r20.rs6.net/tn.jsp?f=3D001iJqDPgDFICVRUa5cUHcmoSb-ta_nRMmc0xw=
+w9dygsntbW-KYZAUNGgbNcP_PQvvG7Le5tlbVMG9Om8nwXn0-E1J32oMI-m1UtWSpYtpWG4N4Ft=
+_kFPrZ0AeOQ6JJqe26d2ZQ8mbAzTXO3Kfu9ES-k0adOAsokz3HbuZY4jCWj6PL_e8_HnJ-475jK=
+4QH9r4twOgSpgzXmsSGG8knN6k6zBFflmOZPN9KUyndLf__Kc1m8GqfGjz9eoU_IHHWcqL07S0s=
+BGVPkVURmcVNtVTfQA=3D=3D&c=3DkFshlEb8wkbn872XrHdgfccfPuGMAMx8g81PybleX-LlN9=
+Ds4PevJg=3D=3D&ch=3DZy0tyxckyIxI78Q5faLp5Dv7phPIHKOqoB0MfSF7fd9KGVpLgjrYnw=
+=3D=3D" shape=3D"rect" alt=3D"http://events.r20.constantcontact.com/registe=
+r/eventReg?oeidk=3Da07eb95m5hra207083d" target=3D"_blank" title=3D"Register=
+ Now!" id=3D"lnkRegister">Register Now!</a></span> </strong> <br /><br /><a=
+ class=3D"cc-register cc-link-xsm" style=3D"color:#000000;font-family:Arial=
+,Helvetica,sans-serif;font-size:10pt;font-size:10pt;" href=3D"http://events=
+.r20.constantcontact.com/register/decline?llr=3Djwbx7pcab&oeidk=3Da07eb95m5=
+hra207083d&c=3D9dbbc0a0-437c-11e3-b15b-d4ae5275396f&ch=3Da06f20d0-437c-11e3=
+-b28e-d4ae5275396f" shape=3D"rect" target=3D"_blank" title=3D"I can't make =
+it" id=3D"lnkDecline">I can't make it</a></td></tr></table><table style=3D"=
+display: table; background-color: #ffffff;" bgcolor=3D"#ffffff" border=3D"0=
+" width=3D"100%" cellspacing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.B=
+LOCK15"><tr><td style=3D"color: #000000; font-family: Arial, Helvetica, san=
+s-serif; font-size: 10pt;" rowspan=3D"1" colspan=3D"1" id=3D"evm-content-ma=
+intext" align=3D"left">
+<div>We look forward to seeing you on September 9th.</div>
+<br /><div>Cordially,<br /><br /></div><div>George Rodriguez<br /><span sty=
+le=3D"font-size: 10pt;">Chemical Marketing and Economics</span></div><div>T=
+he Business, Investment and Technology group of the<br /></div><div>America=
+n Chemical Society's New York Section<br /></div><div><a style=3D"color: bl=
+ue; text-decoration: underline;" shape=3D"rect" href=3D"mailto:contact@cmea=
+cs.org" linktype=3D"2" target=3D"_blank">contact@cmeacs.org</a> - Tel: <spa=
+n class=3D"skype_c2c_print_container notranslate">908-704-6767</span><br />=
+</div></td></tr></table></td>
+            </tr>
+            <tr>
+                <td valign=3D"top" width=3D"100%" rowspan=3D"1" colspan=3D"=
+1" align=3D"left">
+               =20
+                <table style=3D"display: table; margin-bottom: 0px; backgro=
+und-color: #f2c15d;" bgcolor=3D"#F2C15D" border=3D"0" width=3D"100%" cellsp=
+acing=3D"0" cellpadding=3D"5" id=3D"content_LETTER.BLOCK17"><tr><td style=
+=3D"color: #000000;" rowspan=3D"1" colspan=3D"1" align=3D"center" id=3D"evm=
+-invite-event-title"><br /></td></tr></table></td>
+            </tr>
+            </table>
+            </td>
+        </tr>
+        </table>
+        </td>
+    </tr>
+    </table><br />&nbsp;<br />
+    </td>
+</tr>
+</table>
+</div>
+<div align=3D"center" style=3D"background-color:#ffffff;">
+<table style=3D"text-align:left;" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0">
+<tr>
+<td rowspan=3D"1" colspan=3D"1">
+
+
+
+<table style=3D"font-family:tahoma,sans-serif;font-size:11px;color:#2f2f2f;=
+background-color:#ffffff;" border=3D"0" width=3D"619" cellspacing=3D"0" cel=
+lpadding=3D"0">
+<tr>
+<td rowspan=3D"1" colspan=3D"1"><font style=3D"font-family:tahoma,sans-seri=
+f;font-size:11px;color:#2f2f2f;" color=3D"#000000" size=3D"1" face=3D"tahom=
+a,sans-serif">
+<table border=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"middle" width=3D"100" rowspan=3D"1" colspan=3D"1"><a shape=3D=
+"rect" href=3D"http://visitor.constantcontact.com/do?p=3Dun&m=3D0016gQEREPh=
+CAa-GcbHypCBQw%3D%3D&ch=3Da06f20d0-437c-11e3-b28e-d4ae5275396f&ca=3D422d537=
+1-d818-4ef5-907d-36f4ae334f46" target=3D"_blank"><img border=3D"0" src=3D"h=
+ttp://img.constantcontact.com/letters/images/SafeUnsubscribe_Footer_Logo_Ne=
+w.png" /></a><br />
+</td>
+<td width=3D"519" rowspan=3D"1" colspan=3D"1" align=3D"right"><a shape=3D"r=
+ect" href=3D"http://www.constantcontact.com/index.jsp?cc=3DTEVP_Inv_001" ta=
+rget=3D"_blank"><img border=3D"0" src=3D"http://img.constantcontact.com/let=
+ters/images/CC_Footer_Logo_New.png" /></a>
+</td>
+</tr>
+</table><div>This email was sent to andrew.m.james2@gmail.com by <a style=
+=3D"color:#0000ff;" shape=3D"rect" href=3D"mailto:contact@cmeacs.org" targe=
+t=3D"_blank">contact@cmeacs.org</a> <span style=3D"color: #bababa;"> | </sp=
+an> &nbsp; </div><div><a style=3D"color:#0000ff;" shape=3D"rect" href=3D"ht=
+tp://visitor.constantcontact.com/do?p=3Doo&m=3D0016gQEREPhCAa-GcbHypCBQw%3D=
+%3D&ch=3Da06f20d0-437c-11e3-b28e-d4ae5275396f&ca=3D422d5371-d818-4ef5-907d-=
+36f4ae334f46" target=3D"_blank">Update Profile/Email Address</a> <span styl=
+e=3D"color: #bababa;">|</span> Rapid removal with <a style=3D"color:#0000ff=
+;" shape=3D"rect" href=3D"http://visitor.constantcontact.com/do?p=3Dun&m=3D=
+0016gQEREPhCAa-GcbHypCBQw%3D%3D&ch=3Da06f20d0-437c-11e3-b28e-d4ae5275396f&c=
+a=3D422d5371-d818-4ef5-907d-36f4ae334f46" target=3D"_blank">SafeUnsubscribe=
+</a>&trade;  <span style=3D"color: #bababa;">|</span>  <a style=3D"color:#0=
+000ff;" shape=3D"rect" href=3D"http://ui.constantcontact.com/roving/CCPriva=
+cyPolicy.jsp" target=3D"_blank">Privacy Policy</a>.</div>
+</font></td>
+</tr>
+</table>
+<div style=3D"font-family:tahoma,sans-serif;font-size:12px;color:#000000;ba=
+ckground-color:#ffffff;padding-top: 12px;" align=3D"left" id=3D"LETTER.PHYS=
+ICALADDRESS"><font style=3D"font-family:tahoma,sans-serif;font-size:12px;co=
+lor:#000000;" color=3D"#000000" size=3D"1" face=3D"tahoma,sans-serif"><span=
+ style=3D"color: #bababa;"> | </span>Check venue for each event<span style=
+=3D"color: #bababa;"> | </span>Venues: Yale Club, Penn Club, Aureole<span s=
+tyle=3D"color: #bababa;"> | </span>New York<span style=3D"color: #bababa;">=
+ | </span>NY<span style=3D"color: #bababa;"> | </span>10036</font></div>
+</td>
+</tr>
+</table>
+</div></body>
+
+------=_Part_185581659_1676610318.1438774474516--

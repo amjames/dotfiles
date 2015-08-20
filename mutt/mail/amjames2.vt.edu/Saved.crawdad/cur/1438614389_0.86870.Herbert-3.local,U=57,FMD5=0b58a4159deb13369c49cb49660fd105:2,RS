@@ -1,0 +1,113 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp841180qge;
+        Tue, 3 Mar 2015 10:06:00 -0800 (PST)
+X-Received: by 10.55.23.135 with SMTP id 7mr132660qkx.19.1425405960127;
+        Tue, 03 Mar 2015 10:06:00 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id f110si1182968qgf.106.2015.03.03.10.05.59
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Mar 2015 10:06:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.180 as permitted sender) client-ip=209.85.213.180;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.180 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f180.google.com (mail-ig0-f180.google.com [209.85.213.180])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t23I5rO4016337
+	for <amjames2@vt.edu>; Tue, 3 Mar 2015 13:05:58 -0500
+Received: by igbhl2 with SMTP id hl2so27633610igb.0
+        for <amjames2@vt.edu>; Tue, 03 Mar 2015 10:05:53 -0800 (PST)
+X-Received: by 10.42.93.16 with SMTP id v16mr3112872icm.74.1425405953556;
+        Tue, 03 Mar 2015 10:05:53 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp848843ieb;
+        Tue, 3 Mar 2015 10:05:52 -0800 (PST)
+X-Received: by 10.140.150.15 with SMTP id 15mr255239qhw.46.1425405951884;
+        Tue, 03 Mar 2015 10:05:51 -0800 (PST)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id v5si1227359qci.35.2015.03.03.10.05.51
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Mar 2015 10:05:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr3.cc.vt.edu (mr3.cc.vt.edu [198.82.141.68] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t23I5pr4028938
+	for <andrew.m.james2@gmail.com>; Tue, 3 Mar 2015 13:05:51 -0500
+Received: from mail-ig0-f181.google.com (mail-ig0-f181.google.com [209.85.213.181])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t23I5jKh002055
+	for <andrew.m.james2@gmail.com>; Tue, 3 Mar 2015 13:05:50 -0500
+Received: by igdh15 with SMTP id h15so30059541igd.4
+        for <andrew.m.james2@gmail.com>; Tue, 03 Mar 2015 10:05:45 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=XxLJIRi9flAqL2gjmVj4cC3OIC+zlITPTTzP4lXChBM=;
+        b=mW3xoXv4R4lgSsZdfbot10dSsb28r3Jvv+EKcZuHu49WsaR95wbsRxWVy9/rGa/foD
+         GRjtBvKMJizCgmsxwnpHlBif/TWsX3UgVhDjLZ24m0L/iDwkqG/iMU7vjlOZU8yvkeL3
+         kFfPcW4TxjlkcaU9QrztBTeqt02Vc5sulXBGyYhr9zvVupfJMB+otYlEMb4UATRHPL9e
+         YEcGDrQQe8nyTBYKeCxGr+VArRLBAqtzTQ1Fc0ZaRsRVNYIDasGhvfEnnP8F/hD3uSY8
+         09a9w9ltXpxaQ5WJD2z57c0/nv3wUkC253vIhOWPBuor95oQDzbmHjaChQ1mX0AE3POn
+         6UwQ==
+X-Gm-Message-State: ALoCoQnxV+Odimgb6Uq/zdwWRqSz63j1veFGF1ZDnOX03PozWaoMf8K6sMVY6Ulms0inrO5AN3LJ3sbekc5kPcQDxmXvwzpg6Hhh0ltdwfz7LclR1jGB16aIHN2VEWMSPxiQRy8oxoLwAVBTX9JnGdftoKNfxML9AQ==
+X-Received: by 10.42.28.199 with SMTP id o7mr3196364icc.23.1425405945779;
+        Tue, 03 Mar 2015 10:05:45 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.42.28.199 with SMTP id o7mr3196339icc.23.1425405945624; Tue,
+ 03 Mar 2015 10:05:45 -0800 (PST)
+Received: by 10.107.135.36 with HTTP; Tue, 3 Mar 2015 10:05:45 -0800 (PST)
+Date: Tue, 3 Mar 2015 13:05:45 -0500
+Message-ID: <CAH0V_1b3ZcySvfciZfbBbH9COYyuxQ5UnDxPYf3wD6mEFafGCw@mail.gmail.com>
+Subject: blueridge builds
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=20cf304271b20ccec60510662fbe
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 1458
+
+--20cf304271b20ccec60510662fbe
+Content-Type: text/plain; charset=UTF-8
+
+AJ,
+
+To build PSI4 on blueridge, I'm using a boost library and python that I
+compiled in my own area.  Here's my setup:
+
+./setup --prefix=$HOME/psi4 --cc=icc --cxx=icpc --fc=ifort
+--boost-incdir=~crawdad/boost/include --boost-libdir=~crawdad/boost/lib
+--python=~crawdad/bin/python --type=release build
+
+See if that works for you.  If should not need to build the boost library
+distributed with PSI4.
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--20cf304271b20ccec60510662fbe
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">AJ,<div><br></div><div>To build PSI4 on blueridge, I&#39;m=
+ using a boost library and python that I compiled in my own area.=C2=A0 Her=
+e&#39;s my setup:</div><div><br></div><div>./setup --prefix=3D$HOME/psi4 --=
+cc=3Dicc --cxx=3Dicpc --fc=3Difort --boost-incdir=3D~crawdad/boost/include =
+--boost-libdir=3D~crawdad/boost/lib --python=3D~crawdad/bin/python --type=
+=3Drelease build</div><div><br></div><div>See if that works for you.=C2=A0 =
+If should not need to build the boost library distributed with PSI4.</div><=
+div><br></div><div>-TDC<br clear=3D"all"><div><div class=3D"gmail_signature=
+"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div><=
+/div>
+</div></div>
+
+--20cf304271b20ccec60510662fbe--

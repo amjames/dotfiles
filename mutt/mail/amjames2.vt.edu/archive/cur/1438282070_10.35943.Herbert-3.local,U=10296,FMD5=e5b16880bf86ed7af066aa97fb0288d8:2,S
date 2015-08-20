@@ -1,0 +1,126 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1976316qgt;
+        Mon, 8 Jun 2015 13:50:49 -0700 (PDT)
+X-Received: by 10.55.15.129 with SMTP id 1mr36637991qkp.29.1433796649525;
+        Mon, 08 Jun 2015 13:50:49 -0700 (PDT)
+Return-Path: <bpeng@uw.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id f83si3587217qki.63.2015.06.08.13.50.49
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2015 13:50:49 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.213.172 is neither permitted nor denied by domain of bpeng@uw.edu) client-ip=209.85.213.172;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.213.172 is neither permitted nor denied by domain of bpeng@uw.edu) smtp.mail=bpeng@uw.edu
+Received: from mail-ig0-f172.google.com (mail-ig0-f172.google.com [209.85.213.172])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t58KohRe011854
+	for <amjames2@vt.edu>; Mon, 8 Jun 2015 16:50:48 -0400
+Received: by igblz2 with SMTP id lz2so1758800igb.1
+        for <amjames2@vt.edu>; Mon, 08 Jun 2015 13:50:43 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=8ZBtoE8SxVlZFkL1GXmqdQP95RPAcSRh958VluQRsxU=;
+        b=be7OEpFKI6UbqivP9OORJIvolNxJAxss+qVIioBtE3GoeY4zWgemX7e39bPsYt48yl
+         28LG4y5rF4L7+erCXwYMGuGud2xPANAc2/n5TY2t65gWnZ7wcz3U5mQ74ZOV65OUtJhM
+         YrJiQsYxAd5JQzFtxgN86w7SeBDdJfFjE9C73SBwPW9WbUlqy6RyIXj3t2Q8SxabE8pg
+         LKQfP1SNEsecxczRo1boyZkZO9LYWcils54mZ4KOG5KRF+WpltmkOaQfym7QToDLF2P8
+         v0i8QhE1Z7Tifm0zswPVwFLwFLuqKFAIHVCScppoZIzlhfqoBDKLJXUxlh0ZPho8o9Wd
+         Fo+Q==
+X-Gm-Message-State: ALoCoQlLLW3QSVEP0derOIqb/5+KzYy+rmvRWY8mZA0sR680aX+7lfBL9z0ob9hH+SlDm9mS3M4+
+MIME-Version: 1.0
+X-Received: by 10.42.81.201 with SMTP id a9mr26411333icl.9.1433796643292; Mon,
+ 08 Jun 2015 13:50:43 -0700 (PDT)
+Received: by 10.107.41.196 with HTTP; Mon, 8 Jun 2015 13:50:43 -0700 (PDT)
+In-Reply-To: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+Date: Mon, 8 Jun 2015 13:50:43 -0700
+Message-ID: <CABvLAchjrtsxaq3uQzPQW=+DCqcqTVXdeyQBVqhwnX7=56W04A@mail.gmail.com>
+Subject: Re: Molecular Response Properties Travel Itinerary
+From: Bo Peng <bpeng@uw.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=90e6ba614ed29a99f6051807cb78
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--90e6ba614ed29a99f6051807cb78
+Content-Type: text/plain; charset=UTF-8
+
+Hi Andrew,
+
+My name is Bo Peng. I am a graduate studying at University of Washington,
+Seattle.
+The following is my flight itinerary information,
+
+*Flight #4865, from Philadelphia to Roanoke, *
+*                Arrive at 10:11 am on Sunday, June 28, 2015.*
+*-------------------------------------------------------------------------------*
+*Flight #4842, from Roanoke to Charlotte, *
+*                Depart at 5:15 pm on Saturday, July 04, 2015.*
+
+Thanks,
+Bo
+
+On Fri, Jun 5, 2015 at 8:49 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--90e6ba614ed29a99f6051807cb78
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Andrew,<div><br></div><div>My name is Bo Peng. I am a g=
+raduate studying at University of Washington, Seattle.=C2=A0</div><div>The =
+following is my flight itinerary information,</div><div><br></div><div><b>F=
+light #4865, from Philadelphia to Roanoke,=C2=A0</b></div><div><b>=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Arrive at 10:11 am on Sund=
+ay, June 28, 2015.</b></div><div><b>---------------------------------------=
+----------------------------------------</b></div><div><b>Flight #4842, fro=
+m Roanoke to Charlotte,=C2=A0</b></div><div><b>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 Depart at 5:15 pm on Saturday, July 04, 2015.</=
+b></div><div><br></div><div>Thanks,</div><div>Bo</div><div></div><div></div=
+><div></div><div><table width=3D"100%" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"font-size:13px;margin:0px"><tbody></tbody></table></d=
+iv></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, =
+Jun 5, 2015 at 8:49 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<=
+br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex">Hello,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--90e6ba614ed29a99f6051807cb78--

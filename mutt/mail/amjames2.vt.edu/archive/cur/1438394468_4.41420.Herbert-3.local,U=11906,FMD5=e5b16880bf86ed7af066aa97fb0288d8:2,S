@@ -1,0 +1,149 @@
+Return-Path: <amjames2@vt.edu>
+Received: from ?IPv6:2601:5c0:c100:230b:cc23:4ec0:fc5e:211d? ([2601:5c0:c100:230b:cc23:4ec0:fc5e:211d])
+        by smtp.gmail.com with ESMTPSA id g33sm2495299qgg.4.2015.07.08.16.47.41
+        for <crawdad@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 08 Jul 2015 16:47:41 -0700 (PDT)
+From: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_7421A2FA-76A7-45E9-90E9-CE196E50439F"
+Message-Id: <61A751C6-343F-48F5-94F8-D42638555146@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: polyradicals
+Date: Wed, 8 Jul 2015 19:47:39 -0400
+References: <CAH0V_1YB9p6uxjLZzha5D2TBpgD-W0yFePopFMD6j9-gD++FUg@mail.gmail.com> <985AACA0-EEE1-4D53-A3A7-493758300D0E@gmail.com> <CAH0V_1aCBqf8oPHB=SVf6RemgDqp_JZsR020PqZt4J1e32yiLw@mail.gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+In-Reply-To: <CAH0V_1aCBqf8oPHB=SVf6RemgDqp_JZsR020PqZt4J1e32yiLw@mail.gmail.com>
+X-Mailer: Apple Mail (2.2098)
+
+
+--Apple-Mail=_7421A2FA-76A7-45E9-90E9-CE196E50439F
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Dr. Crawford,=20
+
+I just got a Message that my email to you earlier bounced back so I am =
+resending the message from my vt email
+
+the job is in:=20
+
+/home/amjames2/chem/polyradical/4/singlet-singlet-6-31GS-UHF-core
+
+on blueridge. You should be able to see the files.=20
+
+=E2=80=94AJ
+
+Andrew M. James
+amjames2@vt.edu
+
+
+
+> On Jul 8, 2015, at 3:30 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>=20
+> Where is it running?  I'd like to take a look.
+>=20
+> -TDC
+>=20
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu <mailto:crawdad@vt.edu>
+> On Wed, Jul 8, 2015 at 3:28 PM, Andrew James =
+<andrew.m.james2@gmail.com <mailto:andrew.m.james2@gmail.com>> wrote:
+> Hi, Dr. Crawford,=20
+>=20
+> The job failed the first time I ran it and the error message told me =
+to try increase =E2=80=9CFOLLOW_STEP_SCALE=E2=80=9D.  The manual said =
+the default was 0.5 so I increased it to 0.75 and re-submitted.  The job =
+has past the stability analysis now and it on the second CC iteration. =20=
+
+>=20
+>=20
+> =E2=80=94AJ
+>=20
+>> On Jul 8, 2015, at 3:06 PM, T. Daniel Crawford <crawdad@vt.edu =
+<mailto:crawdad@vt.edu>> wrote:
+>>=20
+>> Hi, AJ,
+>>=20
+>> How did you UHF-CC calculations for structure 4 turn out?
+>>=20
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu <mailto:crawdad@vt.edu>
+>=20
+
+
+--Apple-Mail=_7421A2FA-76A7-45E9-90E9-CE196E50439F
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D"">Dr. Crawford,&nbsp;</div><div class=3D""><br =
+class=3D""></div><div class=3D"">I just got a Message that my email to =
+you earlier bounced back so I am resending the message from my vt =
+email</div><div class=3D""><br class=3D""></div><div class=3D"">the job =
+is in:&nbsp;</div><div class=3D""><br =
+class=3D""></div>/home/amjames2/chem/polyradical/4/singlet-singlet-6-31GS-=
+UHF-core<br class=3D""><div class=3D""><br =
+class=3D"webkit-block-placeholder"></div><div class=3D"">on blueridge. =
+You should be able to see the files.&nbsp;</div><div class=3D""><div =
+class=3D""><br class=3D""></div></div><div apple-content-edited=3D"true" =
+class=3D"">
+=E2=80=94AJ<br class=3D""><br class=3D"">Andrew M. James<br class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D"">
+</div>
+
+
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jul 8, 2015, at 3:30 PM, T. Daniel Crawford &lt;<a =
+href=3D"mailto:crawdad@vt.edu" class=3D"">crawdad@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><div =
+dir=3D"ltr" class=3D"">Where is it running?&nbsp; I'd like to take a =
+look.<div class=3D""><br class=3D""></div><div =
+class=3D"">-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all" =
+class=3D""><div class=3D""><div class=3D"gmail_signature"><div dir=3D"ltr"=
+ class=3D"">--<div class=3D"">Prof. T. Daniel Crawford</div><div =
+class=3D""><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank" =
+class=3D"">crawdad@vt.edu</a></div></div></div></div>
+<br class=3D""><div class=3D"gmail_quote">On Wed, Jul 8, 2015 at 3:28 =
+PM, Andrew James <span dir=3D"ltr" class=3D"">&lt;<a =
+href=3D"mailto:andrew.m.james2@gmail.com" target=3D"_blank" =
+class=3D"">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br =
+class=3D""><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 =
+.8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+style=3D"word-wrap:break-word" class=3D"">Hi, Dr. Crawford,&nbsp;<div =
+class=3D""><br class=3D""></div><div class=3D"">The job failed the first =
+time I ran it and the error message told me to try increase =
+=E2=80=9CFOLLOW_STEP_SCALE=E2=80=9D.&nbsp; The manual said the default =
+was 0.5 so I increased it to 0.75 and re-submitted.&nbsp; The job has =
+past the stability analysis now and it on the second CC iteration. =
+&nbsp;</div><span class=3D"HOEnZb"><font color=3D"#888888" class=3D""><div=
+ class=3D""><br class=3D""></div></font></span><div class=3D""><span =
+class=3D"HOEnZb"><font color=3D"#888888" class=3D""><br class=3D""><div =
+class=3D"">
+<div class=3D"">=E2=80=94AJ</div>
+</div></font></span><div class=3D""><div class=3D"h5">
+<br class=3D""><div class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jul 8, 2015, at 3:06 PM, T. Daniel Crawford &lt;<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank" =
+class=3D"">crawdad@vt.edu</a>&gt; wrote:</div><br class=3D""><div =
+class=3D""><div dir=3D"ltr" class=3D"">Hi, AJ,<div class=3D""><br =
+class=3D""></div><div class=3D"">How did you UHF-CC calculations for =
+structure 4 turn out?</div><div class=3D""><br class=3D""></div><div =
+class=3D"">-TDC<br clear=3D"all" class=3D""><div class=3D""><div =
+class=3D""><div dir=3D"ltr" class=3D"">--<div class=3D"">Prof. T. Daniel =
+Crawford</div><div class=3D""><a href=3D"mailto:crawdad@vt.edu" =
+target=3D"_blank" class=3D"">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br =
+class=3D""></div></div></div></div></blockquote></div><br =
+class=3D""></div>
+</div></blockquote></div><br class=3D""></body></html>=
+
+--Apple-Mail=_7421A2FA-76A7-45E9-90E9-CE196E50439F--

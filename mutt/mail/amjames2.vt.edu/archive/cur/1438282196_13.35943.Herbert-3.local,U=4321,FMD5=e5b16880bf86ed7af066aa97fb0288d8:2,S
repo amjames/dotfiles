@@ -1,0 +1,293 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp38368qgt;
+        Sat, 7 Feb 2015 07:18:01 -0800 (PST)
+X-Received: by 10.140.107.227 with SMTP id h90mr20080140qgf.71.1423322281095;
+        Sat, 07 Feb 2015 07:18:01 -0800 (PST)
+Return-Path: <Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id k32si6873029qge.43.2015.02.07.07.18.00
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 07 Feb 2015 07:18:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com designates 198.31.62.62 as permitted sender) client-ip=198.31.62.62;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com designates 198.31.62.62 as permitted sender) smtp.mail=Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com;
+       dkim=pass header.i=@mail.patagonia.com
+Received: from mta.news.patagonia.com (mta.news.patagonia.com [198.31.62.62])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t17FHsNX018237
+	for <amjames2@vt.edu>; Sat, 7 Feb 2015 10:18:00 -0500
+DKIM-Signature: v=1; a=rsa-sha1; d=mail.patagonia.com; s=ei0; c=simple/simple;
+	q=dns/txt; i=@mail.patagonia.com; t=1423322275;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=X5LFzRWL7xsqk88ocFXbVW/kCaQ=;
+	b=zHypUo+2XnTRiYw40yv/QNzcPoJAQ00skpFWPlnLBMiCaQ41aaORcReBuERyoQM0
+	iy9NR5ofNMVJ3k8iRwQP7ADrE1CWOqIO0ztpK0DaGB8K1XcclPN1scMgLjd4Uz10
+	Hac2XxHiHQVK3xDpmezbs4l1lczknr9kbve5GQ83SrE=;
+Received: from [10.21.250.209] ([10.21.250.209:3562] helo=CORE23PUMPER2)
+	by pc1udsmta1n17 (envelope-from <Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id 3D/57-11517-3AC26D45; Sat, 07 Feb 2015 10:17:55 -0500
+Date: Sat, 07 Feb 2015 10:17:55 -0500 (EST)
+Message-Id: <Kilauea187322-23774-142970915-1-1023@flonetwork.com>
+X-DMHA-ID-Packet: Z4gvK5o6220zTBwsWzQ68jhVHd8Qbd_TYlpozhQm18t4DDe33QItDFYYQjkEXW9es2khkdYtwHg=
+From: "Patagonia" <Patagonia@mail.patagonia.com>
+Reply-To: "Patagonia " <Patagonia-ctg1aeb76aac3o5arbmqenknmlfdaeua@mail.patagonia.com>
+To: amjames2@vt.edu
+Subject: How is your new Patagonia gear working for you?
+MIME-Version: 1.0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=4.2 required=5.0 tests=DATE_IN_FUTURE_12_24,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_IMAGE_RATIO_08,HTML_MESSAGE,
+	HTML_TAG_BALANCE_BODY,MIME_HTML_ONLY,RCVD_IN_DNSWL_NONE,T_RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Level: ****
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+<html>
+<body>
+
+<STYLE type="text/css">
+<!--
+A { text-decoration: underline}
+a:hover {text-decoration: underline}
+-->
+</STYLE>
+<BODY link="1040B9" vlink="1040B9">
+
+<TABLE width=600 border=0 align="center" cellPadding=0 cellSpacing=0 summary="">
+<tbody>
+<TR>
+  <TD width=600 height="55" bgColor=#eae7e2><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf40G1?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfcGF0&dm_params_sha256=a1a539f8c1418557e27c7eb1b2cf61e1d46a5cfb497cfa9a689dfd1025ea08dc" class="" title="" target="_blank"> <img border="0" vspace="0px" hspace="0" width="600" alt="Patagonia.com" src="http://www.patagonia.com/email/images/common_images/topnav_topbar-free-shipping.gif" class="" height="55"></a>
+  </td>
+</tr>
+
+<TR><TD bgColor=#eae7e2 height=5></td></tr>
+
+<!-- start of top nav table -->
+<TR>
+<TD>
+  <TABLE cellSpacing=0 cellPadding=0 width=600 summary="" border=0>
+  <tbody>
+  
+  <TR>
+  <TD width=9> <img style="vertical-align:bottom; display: block;" border="0" width="9" src="http://www.patagonia.com/email/images/common_images/topnav_left.gif" class="" height="24"></td>
+  
+  <TD vAlign=middle align=center width=74>
+  <a target="_self" href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf50G2?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfaG0=&dm_params_sha256=c6d77309fa4a9c52a3ad7c9dc1e79c4e18a83d227dc0935a9656a9253f73e5a4" class="" title="">
+  <FONT color=#444444 face="Verdana, Arial, Helvetica" size=2><b>Men's</b></font></a></td>
+  
+  <TD width=3> <img style="vertical-align:bottom; display: block;" border="0" width="3" alt=" " src="http://www.patagonia.com/email/images/common_images/topnav_dividers.gif" class="" height="24"></td>
+  
+  <TD vAlign=middle align=center width=100><a target="_self" href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf60G3?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfaHc=&dm_params_sha256=17bcfa04abdc7402efc874c9484bc1c15c4f1a3d3426dd59ab99d5b1865bb42b" class="" title=""><FONT color=#444444 face="Verdana, Arial, Helvetica" size=2><b>Women's</b></font></a></td>
+  
+  <TD width=3> <img style="vertical-align:bottom; display: block;" border="0" width="3" alt=" " src="http://www.patagonia.com/email/images/common_images/topnav_dividers.gif" class="" height="24"></td>
+  
+  <TD vAlign=middle align=center width=74><a target="_self" href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf70G4?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfaGs=&dm_params_sha256=3b61e1121131ad2cb04b680dfe79a7b32b41701da5b8e8e5480fa3f050756094" class="" title=""><FONT color=#444444 face="Verdana, Arial, Helvetica" size=2><b>Kids'</b></font></a></td>
+  
+  <TD width=3> <img style="vertical-align:bottom; display: block;" border="0" width="3" alt=" " src="http://www.patagonia.com/email/images/common_images/topnav_dividers.gif" class="" height="24"></td>
+  
+  <TD vAlign=middle align=center width=154><a target="_self" href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf80G5?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfaHQ=&dm_params_sha256=8d1d3bb984ede34fa1e96db62fd74601021c3f5966c600550585d5dec8ccba67" class="" title=""><FONT color=#444444 face="Verdana, Arial, Helvetica" size=2><b>Packs &amp; Travel</b></font></a></td>
+  
+  <TD width=3> <img style="vertical-align:bottom; display: block;" border="0" width="3" alt=" " src="http://www.patagonia.com/email/images/common_images/topnav_dividers.gif" class="" height="24"></td>
+  
+  <TD vAlign=middle align=center width=146><a target="_self" href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgA0GG?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfaHdz&dm_params_sha256=2cf00a2ff25d35781c49bbaa981a19e0214a01bf3df41b1c83c80dff69f81736" class="" title=""><FONT color=#444444 face="Verdana, Arial, Helvetica" size=2><b>Web Specials</b></font></a></td>
+  
+  <TD width=31> <img style="vertical-align:bottom; display: block;" border="0" alt=" " vspace="0px" height="24" src="http://dreammail.edgesuite.net/patagonia1/topnav_right.gif" hspace="0" width="31" class=""></td></tr>
+  </tbody></table>
+</td></tr>
+
+<!-- underline of main nav -->
+<TR>
+  <TD height=13 width=600> <img style="vertical-align:bottom; display: block;" vspace="0px" width="600" src="http://dreammail.edgesuite.net/patagonia1/topnav_bottombar.gif" class="" height="13">
+  </td>
+</tr>
+<!-- end of header and header links -->
+
+<TR><TD height=6></td></tr>
+
+<!-- end of header and header links -->
+
+<TR >
+  <TD>
+    <TABLE cellSpacing=0 cellPadding=0 width=600 bgColor=#a67b4f summary="" border=0 >
+      <tbody>
+        <TR >
+          <TD height=41 width=3 > <img style="vertical-align:bottom; display: block;" height="41" src="http://www.patagonia.com/email/images/0907_template/topheader_brown_h41-corner_L.gif" hspace="0" width="3" class=""></font></td>
+          <TD height=41 width=7 ></td>
+          <TD width=587 ><FONT face="georgia, Verdana, Arial, Helvetica" color=#ffffff size=4>Review Your Gear on Patagonia.com</b></font></td>
+          <TD width=3> <img style="vertical-align:bottom; display: block;" height="41" src="http://www.patagonia.com/email/images/0907_template/topheader_brown_h41-corner_R.gif" hspace="0" width="3" class=""></font></td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+
+<TR><TD height=8></td></tr>
+
+<TR>
+  <TD><p>
+  <img src="http://dreammail.edgesuite.net/patagonia1/082808_files/082808_sample_review4.jpg" width="307" height="282" alt="Review you Patagonia Clothing & Gear" border="0" align="right">
+  
+  <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+  <br />
+  <br />Dear Andrew,<br>
+  <br />You recently bought some gear and now that you've had time to use it, we'd
+  love to hear your thoughts. 
+  <br />
+  <br />Our designers and customers are listening:
+  click the links below to <em>tell us what works and what doesn't</em>.</font></p>
+  </td>
+</tr>
+
+<!-- end of intro & sample product page -->
+
+<TR>
+  <TD><br>
+  <img border="0" alt=" " src="http://www.patagonia.com/email/images/common_images/600x3_horizontal_dots.gif" class=""></td>
+</tr>
+
+<TR><TD height=15></td></tr>
+
+<tr>
+  <td>
+  <!--  PRODUCTS  -->
+  <br>
+<img src="http://www.patagonia.com/tsimages/25521_WAX.fpx?wid=128&ftr=8&qlt=100&effect=dropshadow,0x000000,10,8,120,8&cvt=jpeg" class="" align="left" border="0" height="128" hspace="0" vspace="0" width="128">
+
+<br />
+<font face="Verdana" size="2"><strong>Men's Better Sweater(R) 1/4-Zip:</strong><br><br>
+
+          <div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://reviews.patagonia.com/9248/25521/submission.htm?user=NULL&return=http://www.patagonia.com/us/product/patagonia/?p=25521&dmmid=142970915&src=revrqst" style="height:35px;v-text-anchor:middle;width:150px;" arcsize="15%" strokecolor="#1e3650" fillcolor="#466897">
+    <w:anchorlock/>
+    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">WRITE A REVIEW</center>
+  </v:roundrect>
+<![endif]--><![if !mso]><a href="http://reviews.patagonia.com/9248/25521/submission.htm?user=NULL&return=http://www.patagonia.com/us/product/patagonia/?p=25521&dmmid=142970915&src=revrqst"
+style="background-color:#466897;border:1px solid #1e3650;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">WRITE A REVIEW</a><![endif]></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="http://dreammail.edgesuite.net/patagonia1/082808_files/525x3_horizontal_dots.gif" class="" border="0" height="3" width="525" vspace="15">  </td>
+</tr>
+
+<tr><!--  thanks  -->
+  <td><font face="Verdana" size="2"><em>
+  <br>We appreciate your feedback and others will benefit from your knowledge.</em>
+  <br /><font color="#800000"><font size="-2">
+  <br />
+  <br />Were any of these gifts? If so, please forward this message on to the
+  gift recipient.</font></font></font></td>
+</tr>
+
+<tr><td height="50"></td></tr>
+
+
+
+<!-- start of substory table -->
+<tr>
+  <td>
+    <table width="525" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tbody>      
+        <TR>
+          <td width="130" align="middle" valign="top"><img src="http://www.patagonia.com/images/structure/en_US/email_images/gen5_custsrv_guarantee.jpg" alt="IronClad Guarantee" width="130" height="100" hspace="0" border="0" align="top" class=""></td>
+          <td width="20"></td>
+          <td width="385" valign="top">
+          <p><FONT face="Verdana, Arial, Helvetica, sans-serif" size=-2><STRONG>Our Ironclad Guarantee<br></strong>We guarantee everything we make. If you are not satisfied with one of our products at the time you receive it, or if one of our products does not perform to your satisfaction, return it to the store you bought it from or to Patagonia for a repair, replacement or refund. Damage due to wear and tear will be repaired at a reasonable charge.</font></p></td>
+        </tr>
+    
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+<TR><td height="30"></td></tr>
+
+<TR>
+  <TD vAlign=bottom bgColor=#f0ece9><img border="0" vspace="0px" hspace="0" width="600" alt=" " src="http://dreammail.edgesuite.net/patagonia1/bottomnav_ekg_pro.gif" class="" height="25"></td>
+</tr>
+      
+<!-- darker gray spacer -->
+<TR>
+  <TD bgColor=#f0ece9 height=5></td></tr>
+      
+<!-- start of table for CS, social, 1% links -->
+<tr>
+  <td>
+    <table border="0" bgcolor=#f0ece9 cellpadding=10 width="600">
+      <TR><!-- Row 1 -->
+         <td width="145"><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgB0GH?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfY3M=&dm_params_sha256=8a4f507413e298661b2d31c39780d933ea76cf44f25205556b6f26f609f5daca" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333><b>Customer Service</b></FONT></a>
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgC0GI?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfY2k=&dm_params_sha256=19230cca65d737abbd7e875952bcc521f69b6bdc5db0d1904f564311187d7185" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Company Info</FONT></a>
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgD0GJ?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfcHA=&dm_params_sha256=cf063c567a8cc9d9b1bd8dca9cc197660ec5c08c1ae30af6161b9fc7a4fa4c0e" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Privacy Policy</FONT></a>
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgE0GK?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfY3U=&dm_params_sha256=b6d5ebd800e633793f5b60f3ff3d45c2aa783a9e3def95e247b8957a1b902ee9" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Contact Us</font></a></td><!-- Col 1 -->
+    
+         <td width="420"><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgF0GL" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Facebook</FONT></a>  
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgG0GM" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Twitter</font></a>
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgH0GN" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>YouTube</font></a>
+         <br /><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgI0GO?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfZmNs&dm_params_sha256=86889cbe6632d8e122ae241f02d91d9fee25529738b299fe8321b6b80621e2da" target="_blank"><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>BLOG: The Cleanest Line</font></a>
+         </td><!-- Col 2 -->
+         
+         <TD align=left width=35><a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsgJ0GP?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZzcmM9ZW1haWxzaWdudXBfb3A=&dm_params_sha256=48bff4e72e2eff54ca7daa6d70bec662a1d3e3822aefd70a721ab4e732da1041" class="" title="" target="_blank"><img border="0" vspace="0px" hspace="0" width="35" alt="One Percent for the Planet" src="http://www.patagonia.com/email/images/common_images/1percent4planet.gif" class="" height="42"></a></td><!-- Col 3 -->
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- end of table for CS, social, 1% links -->
+      
+<!-- dark gray spacer -->
+<TR><TD bgColor=#f0ece9 height=10></td></tr>
+      
+<!-- start of table for contact info/unsub -->
+<TR>
+  <TD>
+    <TABLE cellSpacing=0 cellPadding=0 summary="" border=0 width=600>
+      <tbody>
+        <TR>
+          <TD width=10 bgColor=#f0ece9 height="23"></td>
+          <TD width=5 bgColor=#f7f5f4></td>
+          <TD align=left width=575 bgColor=#f7f5f4><FONT face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=1>Patagonia Customer Service, 8550 White Fir Street, Reno, Nevada 89523 | <a href="http://mail.patagonia.com/cgi-bin23/DM/t/h1CC0LB3Ij0GkO0BRsf30Gz?dm_params=JkVtYWlsQWRkcj1hbWphbWVzMkB2dC5lZHU=&dm_params_sha256=64d8e0c9bcf496a23bf205ef128df663d32faec1b4bfd74a11d7a521900e0df7"><font color=#333333>Unsubscribe</font></a></font></font></td>
+          <TD width=10 bgColor=#f0ece9></td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<!-- end of table for contact info/unsub -->
+
+
+<TR><TD bgColor=#f0ece9 height=15></td></tr>
+      
+<TR>
+  <TD bgColor=#f0ece9>
+    <TABLE cellSpacing=0 cellPadding=0 summary="" border=0>
+      <tbody>
+        <TR>
+          <TD width=10></td>
+          <TD width=580><FONT face="Verdana, Arial, Helvetica, sans-serif" color=#666666 size=1>* If your order meets or exceeds the amount advertised on the website, you qualify for free standard ground shipping. To get free standard ground shipping, choose the FREE delivery option (7-14 days) at checkout or over the phone at 1-800-638-6464. This offer is valid for orders shipped to addresses in the 48 contiguous United States only, not valid in Alaska and Hawai'i. The Free shipping option is not valid in retail stores, or with Pro, Team and Group Sales.
+          <br />
+          <br />&copy;&nbsp;2015&nbsp;Patagonia, Inc.<br>
+          <br>
+          This message was sent to:amjames2@vt.edu - v060513_nu</font></td>
+          <TD width=10></td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+
+
+<TR><TD bgColor=#f0ece9 height=10></td></tr>
+         
+</tbody>
+</table>
+
+<IMG SRC="http://mail.patagonia.com/cgi-bin23/flosensing?y=1CC0LB3Ij0GkO0BC"></html>

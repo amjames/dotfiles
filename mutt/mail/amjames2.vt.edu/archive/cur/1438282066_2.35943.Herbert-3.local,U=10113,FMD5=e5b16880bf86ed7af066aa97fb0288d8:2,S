@@ -1,0 +1,131 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp151830qgt;
+        Fri, 5 Jun 2015 11:20:27 -0700 (PDT)
+X-Received: by 10.55.21.211 with SMTP id 80mr8989268qkv.11.1433528426974;
+        Fri, 05 Jun 2015 11:20:26 -0700 (PDT)
+Return-Path: <pradeep1990299@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 184si8159374qhu.27.2015.06.05.11.20.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 11:20:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pradeep1990299@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of pradeep1990299@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=pradeep1990299@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-vn0-x236.google.com (mail-vn0-x236.google.com [IPv6:2607:f8b0:400c:c0f::236])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55IKLun018351
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 14:20:26 -0400
+Received: by vnbg7 with SMTP id g7so4038129vnb.10
+        for <amjames2@vt.edu>; Fri, 05 Jun 2015 11:20:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to:content-type;
+        bh=RokwvEpp00VYzbhbxv1HyPHEgmM0rRDqA/ipQgCv63E=;
+        b=X0hM2M35qWYfKLeIys8SzzDBkWvhKJlzmjF1xzxvhdtjjpT2k2AmJ2doHG/piQPfAp
+         6HrIfu7gBqrpBSgB5LSaFmGkwVJhEw8/pPjvn1hlSGlHczWh+v/hsF/aLgTu8OjQiMkj
+         yamKk56rTf0qyQJuQMzWc6Y6t72E1V9jYb12VpT3doHCZEGlkCmrQdn/iX7kV5M7m/eP
+         8YN/EpLY3M6EnqT3ZvLYAop3CCJ0IP6iaFRaXBY5smEIznVNVVIPSvn7U3zOo6egXErB
+         I0pesDb4P11I03b4JMs3L9PF+PxobAi/9QEAeGK44owO1+Wn2BM4kfVH3idfn6rKehX+
+         rHsQ==
+X-Received: by 10.52.112.36 with SMTP id in4mr8342646vdb.3.1433528421291; Fri,
+ 05 Jun 2015 11:20:21 -0700 (PDT)
+MIME-Version: 1.0
+Sender: pradeep1990299@gmail.com
+Received: by 10.52.52.136 with HTTP; Fri, 5 Jun 2015 11:19:40 -0700 (PDT)
+In-Reply-To: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+From: Pradeep Kumar Gurunathan <pgurunat@purdue.edu>
+Date: Fri, 5 Jun 2015 23:49:40 +0530
+X-Google-Sender-Auth: jOwYcOU54C4wNu6T5pcq21gjlHo
+Message-ID: <CAEAJNd4Ni5K0KJuY1-1CT4_PrHWqVDLknUuVhR97Te7aGZVrnQ@mail.gmail.com>
+Subject: Re: Molecular Response Properties Travel Itinerary
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=bcaec548a9f353ace90517c95887
+X-Spam-Status: No, score=0.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec548a9f353ace90517c95887
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew:
+
+I am Pradeep Gurunathan from Purdue University, and I am attending the
+molecular properties summer school this June. I will be driving to
+Blacksburg from my place, and I will arrive there on the night of June 28!
+Could you please arrange for a parking pass for my vehicle? Thank you very
+much, and have a great weekend!!!
+
+Sincerely,
+
+Pradeep Kumar Gurunathan
+Third Year Graduate Student in Chemistry
+Slipchenko Research Group
+Purdue University
+West Lafayette IN 47907
+http://web.ics.purdue.edu/~pgurunat/
+
+On Fri, Jun 5, 2015 at 9:19 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--bcaec548a9f353ace90517c95887
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello Andrew:<div><br></div><div>I am Pradeep Gurunathan f=
+rom Purdue University, and I am attending the molecular properties summer s=
+chool this June. I will be driving to Blacksburg from my place, and I will =
+arrive there on the night of June 28! Could you please arrange for a parkin=
+g pass for my vehicle? Thank you very much, and have a great weekend!!!</di=
+v><div><br></div><div>Sincerely,</div></div><div class=3D"gmail_extra"><br =
+clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr"><div>Pra=
+deep Kumar Gurunathan</div><div>Third Year Graduate Student in Chemistry</d=
+iv><div>Slipchenko Research Group</div><div>Purdue University</div><div>Wes=
+t Lafayette IN 47907</div><div><a href=3D"http://web.ics.purdue.edu/~pgurun=
+at/" target=3D"_blank">http://web.ics.purdue.edu/~pgurunat/</a></div></div>=
+</div></div>
+<br><div class=3D"gmail_quote">On Fri, Jun 5, 2015 at 9:19 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">He=
+llo,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--bcaec548a9f353ace90517c95887--

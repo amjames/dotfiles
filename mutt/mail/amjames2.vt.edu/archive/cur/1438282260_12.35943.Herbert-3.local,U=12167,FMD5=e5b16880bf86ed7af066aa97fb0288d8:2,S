@@ -1,0 +1,133 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2081302qgt;
+        Tue, 21 Jul 2015 09:27:35 -0700 (PDT)
+X-Received: by 10.140.233.70 with SMTP id e67mr49302968qhc.7.1437496055908;
+        Tue, 21 Jul 2015 09:27:35 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id o103si28908936qko.32.2015.07.21.09.27.35
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Jul 2015 09:27:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6LGRUrs028906
+	for <amjames2@vt.edu>; Tue, 21 Jul 2015 12:27:35 -0400
+Date: Tue, 21 Jul 2015 09:27:30 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1437496050;
+	bh=7EqmaKPKIMRQYZ8SpV4thbYKXeYVVtzT8FX+M1XlJkk=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=0XufxefvAPohVwAYmJMQvOm5rIJ+/N+QLOuN72nwo6o5SOTLTJ4x3o3XP4hUxFLTm
+	 qEVfmOVwFmVu3lRG5LTv+yM7vguF7d0kTTsyWizkYRhmOidKggNWdPTlIbYrShrzGL
+	 5lPBj13taxCQ7VQBGfMHrJc/iBW52+Tx/jUb7NQQ=
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642b28758385a0268121c8866fe102111560696ffd992cf0000000111c634f292a169ce05ace71a@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/120/123392969@github.com>
+In-Reply-To: <psi4/psi4public/issues/120@github.com>
+References: <psi4/psi4public/issues/120@github.com>
+Subject: Re: [psi4public] fix failing test case fnocc1 (#120)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ae72f2f9c5_25c33fbeff8a32b8672b7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642b28758385a0268121c8866fe102111560696ffd992cf0000000111c634f292a169ce05ace71a@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642b28758385a0268121c8866fe102111560696ffd992cf0000000111c634f292a169ce05ace71a@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QqdEZA8a2AbLGk4wO48lTPwwrtcPks5ofmpygaJpZM4FZJNu>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ae72f2f9c5_25c33fbeff8a32b8672b7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+One of my runs had one of the fnocc's failing. I'm wondering if a run
+through Valgrind is needed.
+
+Justin Turney, Ph.D.
+Senior Research Scientist
+CCQC/UGA
+
+On Tue, Jul 21, 2015 at 12:07 PM, Eugene DePrince <notifications@github.c=
+om>
+wrote:
+
+> Can I see the errors from RHEL7 conda? I can't reproduce this one.
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4public/issues/120#issuecomment-123386691>.=
+
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/120#issuecomment-123392969=
+
+----==_mimepart_55ae72f2f9c5_25c33fbeff8a32b8672b7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+One of my runs had one of the fnocc&#39;s failing. I&#39;m wondering if a=
+ run<br>
+through Valgrind is needed.<br>
+<br>
+Justin Turney, Ph.D.<br>
+Senior Research Scientist<br>
+CCQC/UGA<br>
+<br>
+On Tue, Jul 21, 2015 at 12:07 PM, Eugene DePrince &lt;notifications@githu=
+b.com&gt;<br>
+wrote:<br>
+<br>
+&gt; Can I see the errors from RHEL7 conda? I can&#39;t reproduce this on=
+e.<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4public/issues/120#issuecomment-12338=
+6691&gt;.<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br>Reply to this email directly or <a href=3D"https://github.com/ps=
+i4/psi4public/issues/120#issuecomment-123392969">view it on GitHub</a>.<i=
+mg alt=3D"" height=3D"1" src=3D"https://github.com/notifications/beacon/A=
+In2Qi4FLBsjOQmgfqNHzZSXvNp2pecpks5ofmpygaJpZM4FZJNu.gif" width=3D"1" /></=
+p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAc=
+tion">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4public/iss=
+ues/120#issuecomment-123392969"></link>
+    <meta itemprop=3D"name" content=3D"View Issue"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Issue on GitHub"></=
+meta>
+</div>
+
+----==_mimepart_55ae72f2f9c5_25c33fbeff8a32b8672b7--

@@ -1,0 +1,176 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp550395qgt;
+        Thu, 23 Jul 2015 11:11:41 -0700 (PDT)
+X-Received: by 10.55.33.92 with SMTP id h89mr14179592qkh.69.1437675101915;
+        Thu, 23 Jul 2015 11:11:41 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 130si6842578qhg.28.2015.07.23.11.11.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 11:11:41 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.218.52 as permitted sender) client-ip=209.85.218.52;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.218.52 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-oi0-f52.google.com (mail-oi0-f52.google.com [209.85.218.52])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6NIBaGQ017851
+	for <amjames2@vt.edu>; Thu, 23 Jul 2015 14:11:41 -0400
+Received: by oihq81 with SMTP id q81so172908359oih.2
+        for <amjames2@vt.edu>; Thu, 23 Jul 2015 11:11:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=pe94PC5RJ3WPSQt9zhDI8vzz7nbtdRJ6wyWjc7pk6m0=;
+        b=BUPo89+F/bstA+mryGoK415TVjJNWR1nEi2+Ek1y5E0XFQPAkr4XSiQ/hTj6U3FmCi
+         1CzAJba8ZppJSyWcf/r9RoQ2Fdf6PaBDniEUJLmFbr74b9WAQqM652in4RHzmezRzod5
+         QYIZ03TEBg9Xxw1s+meQ0XmflJQTIPwSA2XCCy1X3a8wLT53v3wQhgMF3ijlFBXUfO7/
+         4MBbgobklCbA+xlbw4H8G2xfQHiP39JTlFOG9ysvMg/aT9MECtr+4mRE4v7EufchVYtj
+         erQ8bbs0sc2sHn0fh3Hyh+SVqot0cJmTQ5va+edjS1yYgU2wBxDvTI+lxEryvwg+BRoY
+         l0dA==
+X-Gm-Message-State: ALoCoQle6fHyNQD6xQpbKrNP3KGZtXKamfy0P96lc9IjQZeaQS26Zq4zINUlxWHLpGV0Sp/AfRGGED6g3sKrv6bOKzfLUdKqH2jNkMWHnMHuOUIwgzUBMqbCvNJy43DCBdqshdhBH56g/eRaokoj2qiqxBkctRkx+A==
+X-Received: by 10.60.93.42 with SMTP id cr10mr10730269oeb.74.1437675096136;
+        Thu, 23 Jul 2015 11:11:36 -0700 (PDT)
+X-Received: by 10.60.93.42 with SMTP id cr10mr10730246oeb.74.1437675095995;
+ Thu, 23 Jul 2015 11:11:35 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.155.137 with HTTP; Thu, 23 Jul 2015 11:11:16 -0700 (PDT)
+In-Reply-To: <16DDD868-B889-4A75-8BDF-3716A56562C8@vt.edu>
+References: <DE5CFCE7-21AE-4FF3-9E68-2DE287BE7485@vt.edu> <CAECk6+4BmNJc1XxmnXuAcgJPE0ASu5CdeX1Qtx3=cwLV26qMrQ@mail.gmail.com>
+ <CD1A87ED-533C-446B-8BDE-DB6DA2DC4FE1@vt.edu> <CAECk6+4bBEh9vrvAbW0fXLrn1uDi4pKHg0xCCVZbQRZX7zSWBQ@mail.gmail.com>
+ <16DDD868-B889-4A75-8BDF-3716A56562C8@vt.edu>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Thu, 23 Jul 2015 14:11:16 -0400
+Message-ID: <CAECk6+53xdpXgiut=GbH6Go31HjUCKxdpN3bFaeE4OPEbqZhUg@mail.gmail.com>
+Subject: Re: the light at the end of the tunnel
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b33d42c665a03051b8ed14e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7b33d42c665a03051b8ed14e
+Content-Type: text/plain; charset=UTF-8
+
+hahahahaha had to go pick up his farm from the airport. I just got a good
+chuckle out of that  =)
+
+Okay, so then let me know when you have an idea of your preferred leaving
+time; I'm definitely thinking like 5 at the latest.
+
+
+On Thu, Jul 23, 2015 at 2:08 PM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> I got your email :P
+>
+> Also, Group meeting canceled crawdad had to go pick up his farm from the
+> airport
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+> On Jul 23, 2015, at 12:26 PM, Christine Duchane <cduchane@vt.edu> wrote:
+>
+> WE'RE READY NOW!!!!!!!!!
+>
+> On Thu, Jul 23, 2015 at 11:50 AM, Andrew M. James <amjames2@vt.edu> wrote:
+>
+>> AWW THAT WOULD BE RAD!
+>>
+>> email me when your ready and I will meet you outside where hann faces
+>> davidson?
+>>
+>> Andrew M. James
+>> Graduate Research Assistant
+>> amjames2@vt.edu
+>>
+>>
+>> On Jul 23, 2015, at 11:46 AM, Christine Duchane <cduchane@vt.edu> wrote:
+>>
+>> Loren wants to go to bdubs. The kids are all rotovaping and I'm trying to
+>> rush them along a bit. I'm hoping they'll all be done enough that we can
+>> leave by 12:30.
+>>
+>> On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <amjames2@vt.edu> wrote:
+>>
+>>> Im done email me about lunch. Phone is almost dead, and I have no
+>>> service in here lately :( its showing as working online now
+>>>
+>>> Andrew M. James
+>>> Graduate Research Assistant
+>>> amjames2@vt.edu
+>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+--047d7b33d42c665a03051b8ed14e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>hahahahaha had to go pick up his farm from the airpor=
+t. I just got a good chuckle out of that =C2=A0=3D)<br></div><div><br></div=
+><div>Okay, so then let me know when you have an idea of your preferred lea=
+ving time; I&#39;m definitely thinking like 5 at the latest.</div><div><br>=
+</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Th=
+u, Jul 23, 2015 at 2:08 PM, Andrew M. James <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span=
+> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:break-wo=
+rd">I got your email :P<div><br></div><div>Also, Group meeting canceled cra=
+wdad had to go pick up his farm from the airport</div><div><span class=3D""=
+><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div class=3D"h5"><div><blockquote type=3D"cite"><div>On Ju=
+l 23, 2015, at 12:26 PM, Christine Duchane &lt;<a href=3D"mailto:cduchane@v=
+t.edu" target=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div =
+dir=3D"ltr">WE&#39;RE READY NOW!!!!!!!!!</div><div class=3D"gmail_extra"><b=
+r><div class=3D"gmail_quote">On Thu, Jul 23, 2015 at 11:50 AM, Andrew M. Ja=
+mes <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_bla=
+nk">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+><div style=3D"word-wrap:break-word">AWW THAT WOULD BE RAD!<div>=C2=A0</div=
+><div>email me when your ready and I will meet you outside where hann faces=
+ davidson?=C2=A0</div><div><span><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div><div><blockquote type=3D"cite"><div>On Jul 23, 2015, a=
+t 11:46 AM, Christine Duchane &lt;<a href=3D"mailto:cduchane@vt.edu" target=
+=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">L=
+oren wants to go to bdubs. The kids are all rotovaping and I&#39;m trying t=
+o rush them along a bit. I&#39;m hoping they&#39;ll all be done enough that=
+ we can leave by 12:30.</div><div class=3D"gmail_extra"><br><div class=3D"g=
+mail_quote">On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <span dir=3D"ltr=
+">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu<=
+/a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Im done email me ab=
+out lunch. Phone is almost dead, and I have no service in here lately :( it=
+s showing as working online now<br>
+<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<br>
+<br>
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--047d7b33d42c665a03051b8ed14e--

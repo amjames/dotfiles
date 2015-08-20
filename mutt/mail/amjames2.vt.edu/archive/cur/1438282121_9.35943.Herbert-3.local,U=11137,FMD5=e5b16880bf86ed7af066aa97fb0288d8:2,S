@@ -1,0 +1,188 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp794306qgt;
+        Mon, 22 Jun 2015 10:51:38 -0700 (PDT)
+X-Received: by 10.140.238.77 with SMTP id j74mr41055506qhc.33.1434995497872;
+        Mon, 22 Jun 2015 10:51:37 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id kv4si4785225qcb.18.2015.06.22.10.51.33
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 10:51:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.13 as permitted sender) client-ip=198.82.160.13;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.13 as permitted sender) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MHpRRR014673;
+	Mon, 22 Jun 2015 13:51:32 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t5MCO7Dd019487;
+	Mon, 22 Jun 2015 13:51:27 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100126532 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 22 Jun 2015 13:51:26
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5MHpQQW011031 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 22 Jun 2015 13:51:26 -0400
+Received: from MARCONI.cc.w2k.vt.edu (marconi.cc.vt.edu [198.82.160.13] (may be
+          forged)) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t5MHpK2s008704 for <CHEM_GRAD@listserv.vt.edu>; Mon, 22 Jun 2015
+          13:51:25 -0400
+Received: from BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) by
+          MARCONI.cc.w2k.vt.edu (2001:468:c80:2104:0:2ce:f173:7f15) with
+          Microsoft SMTP Server (TLS) id 15.0.995.29; Mon, 22 Jun 2015 13:51:20
+          -0400
+Received: from BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109]) by
+          BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109%12]) with mapi id
+          15.00.0995.032; Mon, 22 Jun 2015 13:51:20 -0400
+Thread-Topic: Request for Information: VT CHEM External Presentations - please
+              respond by June 24, 2015
+Thread-Index: AdCtFABfZK7eTpo1RdejTooRWQZpHQ==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.159.237]
+Content-Type: multipart/alternative; boundary="_000_4fed75912370408aab3b13b14725475eBELLccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-1.4 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <4fed75912370408aab3b13b14725475e@BELL.cc.w2k.vt.edu>
+Date:         Mon, 22 Jun 2015 17:51:19 +0000
+Reply-To: "Huynh, Joli" <jolih@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Huynh, Joli" <jolih@vt.edu>
+Subject: Request for Information: VT CHEM External Presentations - please respond by June 24, 2015
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_4fed75912370408aab3b13b14725475eBELLccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Graduate Students:
+I am compiling data for the Chemistry Department's Annual Report. We would =
+like to include any external presentations given by our current and Spring =
+2015 graduates in the past year: from June 2014 through May 2015. If you ha=
+ve presented, please provide the information below:
+ Your Name
+Title of Presentation
+Where (name of conference, university, etc)
+Date of Presentation
+Your Research Group
+If you have any questions, please let me know.
+Thank you
+Joli Huynh
+Graduate Coordinator
+Department of Chemistry
+306 Hahn Hall North
+Mail Code 0212
+Blacksburg, VA 24061
+
+540-231-8225
+
+
+
+--_000_4fed75912370408aab3b13b14725475eBELLccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Hello Graduate Students:<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">I am compiling data for the Chemistry Department&#8217;s Annual Re=
+port. We would like to include any external presentations given by our curr=
+ent and Spring 2015 graduates in the past
+ year: from June 2014 through May 2015. If you have presented, please provi=
+de the information below:<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">&nbsp;Your Name<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Title of Presentation<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Where (name of conference, university, etc)<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Date of Presentation
+<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Your Research Group<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">If you have any questions, please let me know.<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">Thank you<o:p></o:p></p>
+<p class=3D"MsoNormal">Joli Huynh<o:p></o:p></p>
+<p class=3D"MsoNormal">Graduate Coordinator<o:p></o:p></p>
+<p class=3D"MsoNormal">Department of Chemistry<o:p></o:p></p>
+<p class=3D"MsoNormal">306 Hahn Hall North<o:p></o:p></p>
+<p class=3D"MsoNormal">Mail Code 0212<o:p></o:p></p>
+<p class=3D"MsoNormal">Blacksburg, VA 24061<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">540-231-8225<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_4fed75912370408aab3b13b14725475eBELLccw2kvtedu_--

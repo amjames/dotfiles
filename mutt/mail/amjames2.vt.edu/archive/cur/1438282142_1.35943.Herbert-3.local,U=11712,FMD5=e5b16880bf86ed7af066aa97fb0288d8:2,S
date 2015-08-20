@@ -1,0 +1,162 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp667371qgt;
+        Wed, 1 Jul 2015 07:57:16 -0700 (PDT)
+X-Received: by 10.140.19.1 with SMTP id 1mr34333756qgg.78.1435762636111;
+        Wed, 01 Jul 2015 07:57:16 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id h137si2504593qhc.38.2015.07.01.07.57.13
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Jul 2015 07:57:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.12 as permitted sender) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t61Ev5HI026228;
+	Wed, 1 Jul 2015 10:57:10 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t61BWgUP013464;
+	Wed, 1 Jul 2015 10:57:05 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100286816 for CHEM_GRAD@LISTSERV.VT.EDU; Wed, 1 Jul 2015 10:57:05
+          -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t61EQDvZ028120; Wed, 1 Jul
+          2015 10:57:04 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100286682 for CHEM_EVERYONE@LISTSERV.VT.EDU; Wed, 1 Jul 2015 10:57:04
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t61El416032324 for
+          <chem_everyone@listserv.vt.edu>; Wed, 1 Jul 2015 10:47:04 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12]
+          (may be forged)) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t61Ekx9l032667 for <chem_everyone@listserv.vt.edu>; Wed, 1 Jul 2015
+          10:47:04 -0400
+Received: from BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) by
+          GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:0:243:942e:ff76) with
+          Microsoft SMTP Server (TLS) id 15.0.995.29; Wed, 1 Jul 2015 10:46:50
+          -0400
+Received: from BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109]) by
+          BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109%12]) with mapi id
+          15.00.0995.032; Wed, 1 Jul 2015 10:46:50 -0400
+Thread-Topic: test
+Thread-Index: AdC0DMFu1jKDv1uuRL+NW/JDXd9frA==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.183.196]
+Content-Type: multipart/alternative; boundary="_000_6be002b307314f28af245ccca068d717BELLccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.6 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Precedence: list
+Message-ID:  <6be002b307314f28af245ccca068d717@BELL.cc.w2k.vt.edu>
+Date:         Wed, 1 Jul 2015 14:46:50 +0000
+Reply-To: "Kritak, Angela" <akritak@EXCHANGE.VT.EDU>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Kritak, Angela" <akritak@EXCHANGE.VT.EDU>
+Subject: test
+To: CHEM_GRAD@LISTSERV.VT.EDU
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_6be002b307314f28af245ccca068d717BELLccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+test
+
+Angela K Kritak
+
+Department of Chemistry
+480 Davidson Hall
+Blacksburg VA 24061
+Phone: 540-231-5391
+Fax: 540-231-3255
+
+
+--_000_6be002b307314f28af245ccca068d717BELLccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Bradley Hand ITC";
+	panose-1:3 7 4 2 5 3 2 3 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">test<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;font-family:&quot;Br=
+adley Hand ITC&quot;">Angela K Kritak<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;font-family:&quot;Br=
+adley Hand ITC&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">Department of Chemistry<o:p></o:p></p>
+<p class=3D"MsoNormal">480 Davidson Hall<o:p></o:p></p>
+<p class=3D"MsoNormal">Blacksburg VA 24061<o:p></o:p></p>
+<p class=3D"MsoNormal">Phone: 540-231-5391<o:p></o:p></p>
+<p class=3D"MsoNormal">Fax: 540-231-3255<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_6be002b307314f28af245ccca068d717BELLccw2kvtedu_--

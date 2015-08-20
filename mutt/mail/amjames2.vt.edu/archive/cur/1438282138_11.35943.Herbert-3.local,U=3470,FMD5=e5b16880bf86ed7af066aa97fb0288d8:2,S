@@ -1,0 +1,78 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.16.17 with SMTP id 17csp173716qga;
+        Tue, 3 Jun 2014 09:21:43 -0700 (PDT)
+X-Received: by 10.140.81.146 with SMTP id f18mr59767580qgd.47.1401812502996;
+        Tue, 03 Jun 2014 09:21:42 -0700 (PDT)
+Return-Path: <andrew.m.james2@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id n104si22877976qgd.74.2014.06.03.09.21.42
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Jun 2014 09:21:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=andrew.m.james2@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-qg0-x22f.google.com (mail-qg0-x22f.google.com [IPv6:2607:f8b0:400d:c04::22f])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id s53GLbm8024962
+	for <amjames2@vt.edu>; Tue, 3 Jun 2014 12:21:42 -0400
+Received: by mail-qg0-f47.google.com with SMTP id j107so13397756qga.20
+        for <amjames2@vt.edu>; Tue, 03 Jun 2014 09:21:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:content-transfer-encoding:subject:from:message-id:date
+         :to:mime-version;
+        bh=H8nz3BVKqzzZ69kbED+0YlE5WQv+1DZJRSwXld/Fnvw=;
+        b=CX9O0WIBuunafLATRzMb8mAh9N/Yku15UtjKi0wkfwYp+1XtXnN3BEy15qNgnAWlM9
+         OhtHyevBlbkeXNAUywLbV5u+TsUabcr5z40el8jAh5A2elLEUdE2NXydB0FtXkwFQAQ4
+         Gm+txs6DG3wgkx/G0/nR9/jPbiOXmJMUyCU+bQRktt4Q75pkUH4ykt3tATCh7DHzlb4c
+         Agq70ple898MZlCMwnrGDBgVpApRzrm+MDexwna4AS/CsWj4pvpsQXi5UkSiQWNt3wYv
+         mQEd8IuQt2Dgl9n7xTGYhH+toQgWW1EVHyN9nDceL3/U2UO38qjTBUbUzf55m/AI2bAe
+         BriQ==
+X-Received: by 10.224.160.202 with SMTP id o10mr63248708qax.8.1401812497183;
+        Tue, 03 Jun 2014 09:21:37 -0700 (PDT)
+Received: from [10.0.1.40] (h80ad9fe6.dhcp.vt.edu. [128.173.159.230])
+        by mx.google.com with ESMTPSA id a41sm6934329qgf.3.2014.06.03.09.21.36
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 03 Jun 2014 09:21:36 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: VT Passwords and Such
+From: Andrew James <andrew.m.james2@gmail.com>
+Message-Id: <91202C5E-B6CB-4CAB-8A5A-F8D024047DE6@gmail.com>
+Date: Tue, 3 Jun 2014 12:21:35 -0400
+To: "amjames2@vt.edu" <amjames2@vt.edu>
+Mime-Version: 1.0 (1.0)
+X-Mailer: iPad Mail (11B554a)
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+VT Passwords and Such 
+
+VTID#					      PW
+905876169   				      Dont4getthis!
+
+PID/{email}@vt.edu                PW
+amjames2				       Amjj470@
+
+Network				       PW TBA
+amjames2				       
+
+
+Local network (lab)
+hidden wpa2
+crawdad 		   		      G98sxegs
+
+
+
+
+
+Andrew James
+Marist College '14

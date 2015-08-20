@@ -1,0 +1,108 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2112188qgt;
+        Tue, 28 Apr 2015 08:29:59 -0700 (PDT)
+X-Received: by 10.140.231.14 with SMTP id b14mr11410188qhc.85.1430234999827;
+        Tue, 28 Apr 2015 08:29:59 -0700 (PDT)
+Return-Path: <noreply@qemailserver.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id f194si18686454qhe.112.2015.04.28.08.29.59
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 08:29:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@qemailserver.com designates 192.41.90.166 as permitted sender) client-ip=192.41.90.166;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@qemailserver.com designates 192.41.90.166 as permitted sender) smtp.mail=noreply@qemailserver.com;
+       dkim=pass (test mode) header.i=@qemailserver.com
+Received: from smtp6.ut1.qprod.net (smtp6.qemailserver.com [192.41.90.166])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SFTrnI029687
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 11:29:59 -0400
+Received: from jwm1.ut1.qprod.net (qlb1.ut1.qprod.net [10.200.110.1])
+	by smtp6.ut1.qprod.net (Postfix) with ESMTP id 1D69D611D2
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 09:29:53 -0600 (MDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=qemailserver.com;
+	s=qualtrics; t=1430234993;
+	bh=EjIUT7ZptAABUxdF3EWarJZC2zlIeXBvxa71/O7+9pk=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=ISdXwZcBy+9DLzf2oA6lJfDMQy8gtNjrI0rNc4iLdzfN78eq4DO2aJNiXBBSlHI+H
+	 t1EqSP33Z+fA5FqGMn9advMWchv9l2M/4bVGz6Rn9gpzZGCqgdqUt9yeEEKip253dt
+	 Us/9wGDXfQNas5lAr479YdrHnuBJMndnWT2Wl8vU=
+Date: Tue, 28 Apr 2015 09:29:53 -0600 (MDT)
+From: jbrow jbrow <noreply@qemailserver.com>
+Sender: jbrow jbrow <noreply@qemailserver.com>
+Reply-To: jbrow jbrow <jbrow@vt.edu>
+To:  <amjames2@vt.edu>
+Message-ID: <518896693.1937392.1430234993127.JavaMail.dev@jwm1.ut1.qprod.net>
+Subject: jbrow jbrow wants to share a Qualtrics survey with you!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1937389_759637331.1430234993115"
+X-QUMID: UR_1CcvHphedbGa2oZ-EMD_abHz5hJYWPGionP
+List-Unsubscribe: <mailto:abuse@qemailserver.com>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,T_RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_1937389_759637331.1430234993115
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1937390_434340702.1430234993115"
+
+------=_Part_1937390_434340702.1430234993115
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I want to collaborate with you on an online survey I created. Follow the
+instructions below to begin working with me on this project.
+
+----------------------
+
+jbrow jbrow has invited you to collaborate in developing an online survey.
+
+The survey was built using the Qualtrics Research Suite and can be accessed
+at any time.
+* Login <https://www.qualtrics.com/login/> or register
+<https://dc-viawest.qualtrics.com/ControlPanel/Register.php?BrandID=qsharing> a
+new Qualtrics account
+
+* Click the "Accept Shared Survey" button under the My Surveys section
+
+* Copy and paste this collaboration code: 1XQvXEaOjKayydn  Thanks,
+The Qualtrics Team
+------=_Part_1937390_434340702.1430234993115
+Content-Type: multipart/related; 
+	boundary="----=_Part_1937391_667262361.1430234993115"
+
+------=_Part_1937391_667262361.1430234993115
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+ <head></head> 
+ <body>
+   I want to collaborate with you on an online survey I created. Follow the instructions below to begin working with me on this project. 
+  <br> 
+  <br>---------------------- 
+  <br> 
+  <br> 
+  <b>jbrow jbrow has invited you to collaborate in developing an online survey.</b> 
+  <br> 
+  <br> The survey was built using the Qualtrics Research Suite and can be accessed at any time. 
+  <ul> 
+   <li><a href="https://www.qualtrics.com/login/">Login</a> or <a href="https://dc-viawest.qualtrics.com/ControlPanel/Register.php?BrandID=qsharing">register</a> a new Qualtrics account</li> 
+   <br> 
+   <li>Click the "Accept Shared Survey" button under the My Surveys section</li> 
+   <br> 
+   <li>Copy and paste this collaboration code: <strong>1XQvXEaOjKayydn</strong></li> 
+  </ul> Thanks, 
+  <br> The Qualtrics Team  
+ </body>
+</html>
+------=_Part_1937391_667262361.1430234993115--
+
+------=_Part_1937390_434340702.1430234993115--
+
+------=_Part_1937389_759637331.1430234993115--

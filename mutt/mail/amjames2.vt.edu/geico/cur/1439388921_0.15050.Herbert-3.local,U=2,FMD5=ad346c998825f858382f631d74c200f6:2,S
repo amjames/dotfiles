@@ -1,0 +1,407 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp278977qgt;
+        Wed, 12 Aug 2015 06:29:09 -0700 (PDT)
+X-Received: by 10.140.201.204 with SMTP id w195mr60768664qha.16.1439386149101;
+        Wed, 12 Aug 2015 06:29:09 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id j8si9818239qge.113.2015.08.12.06.29.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 06:29:09 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 68.232.199.217 as permitted sender) client-ip=68.232.199.217;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 68.232.199.217 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@email1.geico.com
+Received: from mail-ig0-x229.google.com (mail-ig0-x229.google.com [IPv6:2607:f8b0:4001:c05::229])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7CDT3pi031410
+	for <amjames2@vt.edu>; Wed, 12 Aug 2015 09:29:08 -0400
+Received: by igbij6 with SMTP id ij6so111519118igb.1
+        for <amjames2@vt.edu>; Wed, 12 Aug 2015 06:29:03 -0700 (PDT)
+X-Received: by 10.50.79.230 with SMTP id m6mr21766228igx.86.1439386143017;
+        Wed, 12 Aug 2015 06:29:03 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp269862iee;
+        Wed, 12 Aug 2015 06:29:02 -0700 (PDT)
+X-Received: by 10.66.183.164 with SMTP id en4mr54960413pac.24.1439386142130;
+        Wed, 12 Aug 2015 06:29:02 -0700 (PDT)
+Received: from mta.email1.geico.com (mta.email1.geico.com. [68.232.199.217])
+        by mx.google.com with ESMTP id tb9si9509260pac.203.2015.08.12.06.29.01
+        for <ANDREW.M.JAMES2@gmail.com>;
+        Wed, 12 Aug 2015 06:29:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-26_HTML-282625148-105996-1058498-151182@bounce.email1.geico.com designates 68.232.199.217 as permitted sender) client-ip=68.232.199.217;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email1.geico.com;
+ h=From:To:Subject:Date:MIME-Version:Reply-To:Message-ID:Content-Type:Content-Transfer-Encoding; i=geico@email1.geico.com;
+ bh=txxmaPxHcmxG25oeW+1Bla3ekQA=;
+ b=qncgwS9dyLjQvKrKmgSw8NAcQuNnNJQr0rHIDe4VuT6eVCbSlFHDFxpepuVyvL/A7ld8syyHT91P
+   yQs9Y0UhaytKZHVS1R1mRvAghVuK+7fdRkRUxwn5qbLOk1xk1yTa3arh6Tq9oIqRbDxrKKR1mkd2
+   uMjBJdH5/UQ+adnIdkw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=email1.geico.com;
+ b=bvVpd332do74B2FnQeVHalTreIhLKglQ/c31nPdVHv5cU754YH36jdYGUl6lBu9ynsnAP8qzF3ua
+   G+8Fh/VibT/0WM2nq5UvnMec3/YTebzjzK4TbeHMyY8EXtVJukX1ZXPgxCEWESQzLtHgRN9qTy+p
+   8uztwYJfMxsHN63YY3E=;
+Received: by mta.email1.geico.com id hpd51s163hsk for <ANDREW.M.JAMES2@GMAIL.COM>; Wed, 12 Aug 2015 07:28:33 -0600 (envelope-from <bounce-26_HTML-282625148-105996-1058498-151182@bounce.email1.geico.com>)
+From: "GEICO" <geico@email1.geico.com>
+To: <ANDREW.M.JAMES2@GMAIL.COM>
+Subject: Your request has been completed
+Date: Wed, 12 Aug 2015 07:28:32 -0600
+MIME-Version: 1.0
+Reply-To: "GEICO" <reply-fec11570706d0d7b-26_HTML-282625148-1058498-151182@email1.geico.com>
+x-job: 1058498_105996
+Message-ID: <5e18d778-112e-4eb4-b6eb-2f0283c42737@xtnvmta153.xt.local>
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=1.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,MIME_HTML_ONLY,T_REMOTE_IMAGE autolearn=disabled
+	version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 13388
+
+<html><body style="margin: 0px; -webkit-text-size-adjust:none;" yahoo="fix">
+<style type="text/css">
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+line-height: 100%;
+}
+table td {
+border-collapse: collapse;
+}
+table tr td {
+mso-line-height-rule: exactly;
+}
+.appleLinks a {
+color: #000001;
+text-decoration: none;
+}
+.appleLinksWhite a {
+color: #ffffff;
+text-decoration: none;
+}
+.appleLinksDarkGray a {
+color: #60574A;
+text-decoration: none;
+}
+@-ms-viewport{
+    width: device-width;
+}
+@media only screen and (max-device-width: 1024px) {
+body[yahoo] .show {
+    display: block !important;
+	margin:0 !important;
+	padding:0 !important;
+	overflow: visible !important;
+	width: auto !important;
+	max-height:inherit !important;	
+	}
+
+}
+</style>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	  <td align="left" valign="top" bgcolor="#ffffff" style="padding-right:0px; padding-left:0px;">
+	  	<div align="center">
+			<table align="center" width="548" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<!-- Ampscript Section Starts From Here -->
+					<td align="left" style="padding-left:4px;"></td>
+					<!-- Ampscript Section Ends Here --> 
+				</tr>
+			</table>
+		</div>
+	  </td>
+  	</tr>
+	<tr>
+		<td width="100%" align="left" valign="top" bgcolor="#ffffff">
+		<div align="center">
+		<table align="center" width="548" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #bab4ab; min-width: 548px;">
+			<tr>
+				<td width="548" align="left" valign="middle" bgcolor="#f1f0ec" style="padding-left:0px; padding-right:0px;">
+				<div align="center">
+				<table align="center" width="548" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<!-- Pre-Header Section Starts From Here -->
+						<td width="340" align="left" valign="middle" style="padding-left:30px;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>
+									
+								</td>
+							</tr>
+						</table>
+						</td>
+						<!-- Pre-Header Section Ends Here -->
+
+						<!-- View as Webpage Section Starts From Here -->
+						<td width="200" align="right" valign="middle" style="padding-right:30px;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="right" height="30" style="font-family: Arial, Helvetica, sans-serif; color:#60574a; font-size:12px;"><a href="http://click.email1.geico.com/?qs=bbb713a946950e5520b6de825a7933273643ee7c775446af4c183f48d5a206708fad52030095be36" style="color:#60574a; text-decoration:underline;">View this email in your browser</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<!-- View as Webpage Section Ends Here -->
+					</tr>
+				</table>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						 
+						<!-- Logo Section Starts From Here -->
+						<td width="150" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr>
+			<td valign="top" align="left"><a style="color: #000001; text-decoration: none;" target="_blank" href="http://click.email1.geico.com/?qs=750d104547cd4c12d3f53fa442e201de34fe71c9e012ecab8de3c1f8c76f408be86231cbce57927a"><img width="150" height="60" border="0" alt="GEICO Logo" src="https://media.geico.com/email/images/3.0/geico-logo.jpg" style="display: block;" /></a></td>
+		</tr>
+	</tbody>
+</table>	
+								</td>
+							</tr>
+						</table>
+						</td>
+						<!-- Logo Section Ends Here --> 
+						<!-- Account info Section Starts From Here -->
+						<td style="padding-right:30px; background:#154995; color:#ffffff;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="right">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="right" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #ffffff; LINE-HEIGHT:18px;">FREDERICK JAMES</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #ffffff; line-height:18px;">Auto Policy Number: <a href="#" style="color:#ffffff; text-decoration:none;"><span class="appleLinksWhite">4395979372</span></a>
+		</tr>
+	</tbody>
+</table>
+								</td>
+						  </tr>
+						</table>
+						</td>
+						<!-- Account info Section Ends Here --> 
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size:0px;">
+         <tbody>
+                  <tr>
+                           <td bgcolor="#529dde" width="100%" height="8" style="background: #529dde;"></td>
+                  </tr>
+         </tbody>
+</table>
+
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left" valign="top" bgcolor="#ffffff" style="padding-top:0px; padding-right:30px; padding-bottom:30px; padding-left:30px;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<!-- Transactional Message Section Starts From Here -->
+								<td align="left" valign="top">
+									<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="padding-top: 60px; padding-right: 15px;"><img src="https://media.geico.com/email/images/3.0/icon-confirmation-POLICY.gif" width="30" style="width: 30px;" alt="" /></td>
+			<td align="left" valign="top" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #529dde; line-height:24px; padding-bottom: 24px; padding-top: 60px;">Your request has been completed</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Congratulations on your recent move!<br />
+<br />
+This email is to confirm that we have successfully updated the address on your policy effective <strong>08/13/2015</strong>. Your updated policy premium is <strong>$362.67</strong>.<br />
+<br />
+You will receive your updated documents in the mail; however, your payment schedule and policy documents are always available for review when you <a style="color: #154995;" href="http://click.email1.geico.com/?qs=62ff509016a1daa993b53deae920708fe6ae0a7126cc348adb086602bbabbc93e88f0ba0f401def6" >log in online</a>.
+<br />
+<br />
+Your confirmation number is <strong>2314-710J22HD-19JI04D</strong>.<br />
+<br />
+Thank you for using our online services.</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Sincerely,</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #60574a; line-height:24px; padding-bottom: 24px;">Your GEICO Service Team</td>
+		</tr>
+	</tbody>
+</table>
+
+								</td>
+								<!-- Transactional Message Section Ends Here --> 
+							</tr>
+							<tr>
+								<!-- Cross-Sell Section Starts From Here -->
+								<td align="left" valign="top"></td>
+								<!-- Cross-Sell Section Ends Here --> 
+							</tr>
+                            				<tr>
+								<!-- Mobile App Section Starts From Here -->
+								<td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tbody>
+		<tr>
+			<td style="padding-top:20px"> <a style="color: #333333; text-decoration: none;" href="http://click.email1.geico.com/?qs=1e6155324e71d116d35a1a058a19ebaa79cdc5ff2a873afb0337bc48acbb0c30bdf61af5285b0b24" target="_blank"><span style="color: #333333; text-decoration: none;"><img width="488" height="149" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; font-weight: bold;" title="Gas Buddy Promotion" border="0" alt="Find Gas Prices"  src="http://media.geico.com/email/images/gasBuddy.gif" /></span></a></td>
+		</tr>
+	</tbody>
+</table></td>
+								<!-- Mobile App Section Ends Here --> 
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+																
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+									
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="left">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background: #bab4ab;">
+	<tbody>
+		<tr>
+			<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: normal; color: #ffffff; padding: 20px 30px; ">
+			This email was sent to you at the following email address: <a href="mailto:ANDREW.M.JAMES2@GMAIL.COM" style="color:#ffffff;">ANDREW.M.JAMES2@GMAIL.COM</a>
+			<br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" height="0" cellpadding="0" bgcolor="#ffffff" style="border-bottom: 1px solid #f2f0ec;">
+	<tbody>
+		<tr>
+			<td style="padding: 30px 0px 30px 30px;">
+				<a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="http://click.email1.geico.com/?qs=60af945533c052a74974b340ce7de7c3cc2f5eea6e5ceb96ed4fe19ce0e2a20b1f3416d749b15874">Contact Us</a>
+			</td>
+			<td style="padding: 30px 0px 30px 30px;">
+				<a style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #9E9586; font-weight: normal;" href="http://click.email1.geico.com/?qs=9e260fff948f0919babbe3199a602d4a8685a07dc45ee7f71326aa309fb86cdb205fb221cc6ee13c">Privacy Policy</a>
+			</td>
+			<td width="320">
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+    <tbody>
+        <tr>
+            <td width="370" style="padding:30px;">
+                     <span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #60574A; font-weight: bold;">
+                        Message ID: <span class="appleLinksDarkGray">I-130</span>
+                     </span>
+            </td>
+            <td valign="middle" style="padding: 30px 5px 0px 0px;">
+                     <a href="http://click.email1.geico.com/?qs=99c8adffc885f9187123caac622511c61788af504a5012114132cf4c88eb125c95bf9c96bd828db2"><img src="https://media.geico.com/email/images/3.0/social-facebook.jpg" border="0" alt="" /></a>
+            </td>
+            <td valign="middle" style="padding: 30px 5px 0px 0px;">
+                     <a href="http://click.email1.geico.com/?qs=a7ec34476351100462b94ea8de6c03e0429ed2afda04d76e0554ca5c062a1b425a3a8eef1517c6d8"><img src="https://media.geico.com/email/images/3.0/social-googleplus.jpg" border="0" alt="" /></a>
+            </td>
+            <td valign="middle" style="padding: 30px 5px 0px 0px;">
+                     <a href="http://click.email1.geico.com/?qs=669b55cecedbc114f005b471b2a3f4cf6b20badf3098d5b073eec8db174faffa5f3fe90ee71782f7"><img src="https://media.geico.com/email/images/3.0/social-twitter.jpg" border="0" alt="" /></a>
+            </td>
+            <td valign="middle" style="padding: 30px 30px 0px 0px;">
+                     <a href="http://click.email1.geico.com/?qs=3e6c3cd78e22bba63206730ed8dc31855264d0290d3f034f98861910db7a23b39cb31ba573a164bf"><img src="https://media.geico.com/email/images/3.0/social-youtube.jpg" border="0" alt="" /></a>
+              </td>
+        </tr>
+    </tbody>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+    <tbody>
+        <tr>
+        	<td style="padding:0px 30px 30px 30px;">
+           		<span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #bab4ab; font-weight: normal;">
+               		GEICO Advantage Insurance Company
+               		<br />
+               		One GEICO Plaza, Washington, D.C. 20076
+               	</span>
+           	</td>
+        </tr>
+    </tbody>
+</table>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</div>
+		</td>
+	</tr>
+</table>
+<img src="http://click.email1.geico.com/open.aspx?ffcb10-fec11570706d0d7b-fe2c16737d61077d721477-fe8c1570706c00747d-ff971676-fe29167877620678741078-fecd157574650c7f&d=40041" width="1" height="1">
+</body></html>

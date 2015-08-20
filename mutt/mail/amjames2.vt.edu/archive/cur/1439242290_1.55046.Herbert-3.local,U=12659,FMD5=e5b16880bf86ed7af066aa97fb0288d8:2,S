@@ -1,0 +1,135 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2082030qgt;
+        Mon, 10 Aug 2015 14:27:13 -0700 (PDT)
+X-Received: by 10.140.108.164 with SMTP id j33mr38449488qgf.83.1439242033670;
+        Mon, 10 Aug 2015 14:27:13 -0700 (PDT)
+Return-Path: <>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id p98si31012717qkp.57.2015.08.10.14.27.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 14:27:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of  designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of  designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=
+Received: from omr2.cc.vt.edu (omr2.cc.vt.edu [172.28.52.10] (may be forged))
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7ALR86n013425
+	for <amjames2@vt.edu>; Mon, 10 Aug 2015 17:27:13 -0400
+Received: from localhost (localhost)
+	by omr2.cc.vt.edu (8.14.4/8.14.4) id t7ALR8c9000828;
+	Mon, 10 Aug 2015 17:27:08 -0400
+Date: Mon, 10 Aug 2015 17:27:08 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@omr2.cc.vt.edu>
+Message-Id: <201508102127.t7ALR8c9000828@omr2.cc.vt.edu>
+To: <amjames2@vt.edu>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="t7ALR8c9000828.1439242028/omr2.cc.vt.edu"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+X-Spam-Status: No, score=-1.0 required=5.0 tests=ALL_TRUSTED,
+	T_TVD_MIME_NO_HEADERS autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a MIME-encapsulated message
+
+--t7ALR8c9000828.1439242028/omr2.cc.vt.edu
+
+The original message was received at Mon, 10 Aug 2015 17:27:08 -0400
+from mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234]
+
+   ----- The following addresses had permanent fatal errors -----
+<jk@herbert-3.local>
+    (reason: 550 Host unknown)
+
+   ----- Transcript of session follows -----
+550 5.1.2 <jk@herbert-3.local>... Host unknown (Name server: herbert-3.local.: host not found)
+
+--t7ALR8c9000828.1439242028/omr2.cc.vt.edu
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; omr2.cc.vt.edu
+Received-From-MTA: DNS; mr5.cc.ipv6.vt.edu
+Arrival-Date: Mon, 10 Aug 2015 17:27:08 -0400
+
+Final-Recipient: RFC822; jk@herbert-3.local
+Action: failed
+Status: 5.1.2
+Remote-MTA: DNS; herbert-3.local
+Diagnostic-Code: SMTP; 550 Host unknown
+Last-Attempt-Date: Mon, 10 Aug 2015 17:27:08 -0400
+
+--t7ALR8c9000828.1439242028/omr2.cc.vt.edu
+Content-Type: message/rfc822
+
+Return-Path: <amjames2@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7ALR8c9000826
+	for <jk@herbert-3.local>; Mon, 10 Aug 2015 17:27:08 -0400
+Received: from mail-qg0-f53.google.com (mail-qg0-f53.google.com [209.85.192.53])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7ALR2g6011973
+	for <jk@herbert-3.local>; Mon, 10 Aug 2015 17:27:07 -0400
+Received: by qged69 with SMTP id d69so127024413qge.0
+        for <jk@herbert-3.local>; Mon, 10 Aug 2015 14:27:02 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:to:subject:message-id:references
+         :mime-version:content-type:content-disposition:in-reply-to
+         :user-agent;
+        bh=gaT+aiW3HGc09rOCCMtod3zOckbKflRWw/vh6ULmwzM=;
+        b=Mc1R0SSGPAPWAtCB33/ummLGo+r4UzPpXQqPlsfVFEQ+AVSK/4kKWZzVbh/vc+6wMj
+         bC1AnNvSfbSOZ1tO3vdS/a40U/99V45oThxz4lJk8K6GVVynpwl05M3fMJHe60PZ/Q/t
+         6t1Bc6UsQIPCkkHBn784GqiErKZTtplbJIRKRQeSiI2pFHz0oFsxngt9euXC7vMMwkzr
+         aQBdjAeWsR/aIedHSN3ildwHqRfcUaXM4cqp/bhsMbHU30hXg9jAwrtwknEwK/jo/Tay
+         u1Qci3k9AsW8Zo73bXzgKXObcxs+03SW/Lk/wq9KVd26k/QL7F3LHNfAnhIBgdu52cof
+         Vqug==
+X-Gm-Message-State: ALoCoQnD8faVCakYUXVko1WZBDwgDnNtwVRmy+rHs/BIc10TziuMhbC5zAlqZucaJ1psrsA1/FqVxOZRWtTgfaLypR1dIYjpst1/Tl7KN1U9P/D0lVjJOduZpAb/P75AvJwbru6moH7ItVJMZ47hekNcBEEhEmNmuQ==
+X-Received: by 10.140.133.16 with SMTP id 16mr44449499qhf.43.1439242022741;
+        Mon, 10 Aug 2015 14:27:02 -0700 (PDT)
+X-Received: by 10.140.133.16 with SMTP id 16mr44449489qhf.43.1439242022635;
+        Mon, 10 Aug 2015 14:27:02 -0700 (PDT)
+Received: from localhost (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by smtp.gmail.com with ESMTPSA id 19sm8842899qhx.39.2015.08.10.14.27.02
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 14:27:02 -0700 (PDT)
+Date: Mon, 10 Aug 2015 17:27:00 -0400
+From: Andrew M James <amjames2@vt.edu>
+To: Christine Duchane <cduchane@vt.edu>, jk@Herbert-3.local
+Subject: Re: lunch
+Message-ID: <20150810212700.GA48942@Herbert-3.local>
+References: <20150810170556.GB27985@Herbert-3.local>
+ <CAECk6+7bnxHJXgtuU+RL8VHp8Akvo6WsKQ6YejjLKcng-h7e=A@mail.gmail.com>
+ <CAECk6+4WrqyNVnmDWzPf4H4QWhDcN3Yw-YgoAvv-TtCzzT_m7w@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <CAECk6+4WrqyNVnmDWzPf4H4QWhDcN3Yw-YgoAvv-TtCzzT_m7w@mail.gmail.com>
+User-Agent: Mutt/1.5.23 (2014-03-12)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+
+For lunch? 
+
+On 08/10||17:22, Christine Duchane wrote:
+> Hey babe, I'm ready whenever
+> 
+> On Mon, Aug 10, 2015 at 1:08 PM, Christine Duchane <cduchane@vt.edu> wrote:
+> 
+> > Ya I'll come down in a few
+> >
+> > On Mon, Aug 10, 2015 at 1:05 PM, Andrew M James <amjames2@vt.edu> wrote:
+> >
+> >> Hey you want to eat kinda soon?
+> >>
+> >> --AJ
+> >>
+> >
+> >
+
+--t7ALR8c9000828.1439242028/omr2.cc.vt.edu--
+

@@ -1,0 +1,71 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp183750qgt;
+        Thu, 11 Jun 2015 12:34:49 -0700 (PDT)
+X-Received: by 10.140.148.67 with SMTP id 64mr14538358qhu.74.1434051289938;
+        Thu, 11 Jun 2015 12:34:49 -0700 (PDT)
+Return-Path: <msalem@ualberta.ca>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id i8si1579280qgf.23.2015.06.11.12.34.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 11 Jun 2015 12:34:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of msalem@ualberta.ca designates 209.85.192.176 as permitted sender) client-ip=209.85.192.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of msalem@ualberta.ca designates 209.85.192.176 as permitted sender) smtp.mail=msalem@ualberta.ca
+Received: from mail-pd0-f176.google.com (mail-pd0-f176.google.com [209.85.192.176])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5BJYfld003189
+	for <amjames2@vt.edu>; Thu, 11 Jun 2015 15:34:46 -0400
+Received: by pdbki1 with SMTP id ki1so9262190pdb.1
+        for <amjames2@vt.edu>; Thu, 11 Jun 2015 12:34:41 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-type:content-transfer-encoding
+         :subject:message-id:date:to:mime-version;
+        bh=Lk9XAkvG9SYJysZ/VEjMelmctW5Kcv8RW3szUGi2oXo=;
+        b=UWA1imqsRMWEKYzKYv1MdlLNcC9OBSYKXToUkT/qx2vn9qG4bBxgVyh3YJUPYO0WAG
+         706s0tYiItiwEq2vXwXh/0FVNtRa/JvBlGXBoW/dI8d4MiUEaklZsy1Db9ZX75sCEm9t
+         XKmLC6DBD8j9gBybx54/VngFi2JQaGk1B33BH2mXsTTt+26gBA9lS6CM0Jbc5pip322k
+         Duo3pUSueJdhKDGfSdmhsSdfROrs682mLkD0Ccxj1+n2oz7FLC5aTYYheMA0I/oliCZy
+         lHbiyiQNoPf0sgdno+97lWFvUiVW5BHqEVQgVSkU7TCgNJq+4fstYnHxw4GTwlOP913f
+         ykCw==
+X-Gm-Message-State: ALoCoQnUEY2L6UXt00nG8sS4iRVkenfbLbVEwsnKy4BH+lJV9tkILD2LyNKMaAATA7ncGvF/mQHi
+X-Received: by 10.68.136.169 with SMTP id qb9mr17066993pbb.47.1434051281138;
+        Thu, 11 Jun 2015 12:34:41 -0700 (PDT)
+Received: from msalem.chem.ualberta.ca (msalem.chem.ualberta.ca. [129.128.229.44])
+        by mx.google.com with ESMTPSA id zt9sm1485329pac.9.2015.06.11.12.34.39
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 11 Jun 2015 12:34:39 -0700 (PDT)
+From: Mohammad Salem <msalem@ualberta.ca>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Subject: Cancelling my registration in the Molecular Response Properties Summer School 
+Message-Id: <DB71C219-D0A9-4EB8-9B36-8F8DE6ED4315@ualberta.ca>
+Date: Thu, 11 Jun 2015 13:34:37 -0600
+To: Andrew James <amjames2@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+X-Mailer: Apple Mail (2.2098)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Hi Andrew,
+
+There is a problem with the computer system of the US consulate here, so =
+it looks like they won=E2=80=99t process my VISA in time. Could you =
+please guide me through the process of cancelling my registration so =
+that I could receive the registration fees? I understand there is a =
+deduction for an administrative fee :)
+
+Sorry for the inconvenience.
+
+
+Regards,
+
+Mohammad
+
+

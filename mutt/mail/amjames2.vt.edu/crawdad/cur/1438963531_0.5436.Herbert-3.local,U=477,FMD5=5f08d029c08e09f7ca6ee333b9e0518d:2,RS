@@ -1,0 +1,254 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1041466qgt;
+        Thu, 6 Aug 2015 09:03:01 -0700 (PDT)
+X-Received: by 10.140.151.6 with SMTP id 6mr4588766qhx.53.1438876981806;
+        Thu, 06 Aug 2015 09:03:01 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 18si12519249qgk.119.2015.08.06.09.03.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 09:03:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) client-ip=209.85.213.179;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com [209.85.213.179])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76G2tA7025821
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 12:03:01 -0400
+Received: by igbij6 with SMTP id ij6so14087560igb.1
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 09:02:55 -0700 (PDT)
+X-Received: by 10.50.112.73 with SMTP id io9mr2773947igb.18.1438876975804;
+        Thu, 06 Aug 2015 09:02:55 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1069242iee;
+        Thu, 6 Aug 2015 09:02:55 -0700 (PDT)
+X-Received: by 10.55.15.155 with SMTP id 27mr4268416qkp.25.1438876974980;
+        Thu, 06 Aug 2015 09:02:54 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id n66si12570477qkh.67.2015.08.06.09.02.54
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 09:02:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76G2sUi020376
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 12:02:54 -0400
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76G2lVc031734
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 12:02:52 -0400
+Received: by igbpg9 with SMTP id pg9so14475992igb.0
+        for <andrew.m.james2@gmail.com>; Thu, 06 Aug 2015 09:02:47 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=0XyT+laEYS6iQyJRDvMmlsnR2WyljN0K2U9WXlJ7GK4=;
+        b=lHcbSci03/AwcVKrzIlF8Bp9ijKr4JFogWh5hxZEX25n8aNY/H1c57UWFjZZDN92Xr
+         dMQSKuS+LC7K6oIpXqrmwr97jiTT+piNpivztsv0BzFCYRkrB4nrmFzcn83CvBAWl8rV
+         ZEt+toaftmThsSHCjqOjGJSDeVDvN3mB408yuCMdOuiCNumZywrTydNiWkCAKKzVoj1m
+         +eTjvOP9xZ8bQcfOnXXRUHLd88GmA6JzyLGWfZGTeRgl0fzDIMEgU4Ni308qwAWHxuLX
+         vF0LJdK8bv4fOXwzPjxWxwC8sZytN2msk59vMr4BFMjcvndRik+PVJo8/WXvrD7DGv4s
+         3RsA==
+X-Gm-Message-State: ALoCoQkU8tkiZV5kRjueDdmVTRp+vOtB6RGZ4gGD4c78KZn/wvHqWNfCe0sGWLUm41ketVu6LVGoymZmnl4+etixa7Umt5rfyaJqQ1eM8GboIPqs/DwYTR2XSbA4cfPb7aj7M6rOesDxq1uNuYR/d/WW6SarIMLjDQ==
+X-Received: by 10.50.141.164 with SMTP id rp4mr1755969igb.2.1438876967477;
+        Thu, 06 Aug 2015 09:02:47 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.141.164 with SMTP id rp4mr1755926igb.2.1438876967225;
+ Thu, 06 Aug 2015 09:02:47 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 09:02:47 -0700 (PDT)
+In-Reply-To: <00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+	<FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+	<CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+	<00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+Date: Thu, 6 Aug 2015 10:02:47 -0600
+Message-ID: <CAH0V_1bU3Q+i0vc7h0uAzH7anyU0YF8B7qS5QAXnfi96eVRgpw@mail.gmail.com>
+Subject: Re: UHF NOs
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew Simmonett <andy.simmonett@gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e0129538081e1a3051ca6a69b
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 7735
+
+--089e0129538081e1a3051ca6a69b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Very good structure.  For now, however, I'm just inserting the UHF-NO code
+into the UHF::finalize() function, including a rip-off of the printing code
+from OEProp.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Aug 6, 2015 at 10:01 AM, Andrew Simmonett <andy.simmonett@gmail.com=
+>
+wrote:
+
+> Daniel,
+>
+> I agree with that strategy.  I think the way we normally do that is to
+> provide a default implementation in Wavefunction that simply throws a =E2=
+=80=9Cnot
+> implemented=E2=80=9D error.  Then, derived classes override that function=
+ with the
+> correct implementation.
+>
+> cheers,
+>
+> Andy.
+>
+>
+> On Aug 6, 2015, at 9:59 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Yes, I agree.  Right now all the NO computation is carried out within
+> OEProp, but perhaps all that should be moved up to Wavefunction at some
+> point, with derived classes handling their own special cases (like UHF).
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Thu, Aug 6, 2015 at 9:57 AM, Andrew Simmonett <andy.simmonett@gmail.co=
+m
+> > wrote:
+>
+>> Daniel (and A.J.),
+>>
+>> I agree with your sentiment that code repetition is not an issue, so
+>> there=E2=80=99s not much motivation to put it in OEProp.  I think NO for=
+mation
+>> should be handled by Wavefunction, because then the NOs can be easily
+>> handed off to a CAS code, without needing a property calculation in
+>> between.  I like the idea of being able to run a CC/CI/MP2 calculation w=
+ith
+>> a "compute_nos true=E2=80=9D flag, and knowing on exit that the wavefunc=
+tion object
+>> will automagically contain the NOs.  If your printing machinery were add=
+ed
+>> to Wavefunction itself, that would simplify the process of making sure
+>> computing and printing correlated NOs is consistent.
+>>
+>> Andy.
+>>
+>> On Aug 6, 2015, at 9:24 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> Hi, Andy,
+>>
+>> I need to ask your input on the best place to include the computation of
+>> UHF NOs within the UHF class.  I added them to the finalize() function w=
+ith
+>> no problems, and the code works cleanly, but I'm wondering if I should t=
+ry
+>> to be more elegant about this and insert them into the OEProp class.  Th=
+e
+>> problem with OEProp is that the approach we have to use to compute the N=
+Os
+>> really applies only to the UHF wave function, so perhaps I should keep t=
+he
+>> code limited to the UHF class only.  Now, some of what this calculation
+>> requires is already computed in the compute_wiberg_lowdin_indices() code=
+,
+>> namely the formation of S^(1/2) D S^(1/2), but this is so trivial that I
+>> guess it doesn't matter if I repeat it.  The only thing the
+>> compute_no_occupations() code offers is the nasty sorting and printing o=
+f
+>> the NOONs.
+>>
+>> Opinions?
+>>
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>>
+>>
+>
+>
+
+--089e0129538081e1a3051ca6a69b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Very good structure.=C2=A0 For now, however, I&#39;m just =
+inserting the UHF-NO code into the UHF::finalize() function, including a ri=
+p-off of the printing code from OEProp. =C2=A0<div><br></div><div>-TDC</div=
+></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmai=
+l_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></=
+div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 10:01 AM, Andrew Simm=
+onett <span dir=3D"ltr">&lt;<a href=3D"mailto:andy.simmonett@gmail.com" tar=
+get=3D"_blank">andy.simmonett@gmail.com</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc sol=
+id;padding-left:1ex"><div style=3D"word-wrap:break-word">Daniel,<div><br></=
+div><div>I agree with that strategy.=C2=A0 I think the way we normally do t=
+hat is to provide a default implementation in Wavefunction that simply thro=
+ws a =E2=80=9Cnot implemented=E2=80=9D error.=C2=A0 Then, derived classes o=
+verride that function with the correct implementation.</div><div><br></div>=
+<div>cheers,</div><div><br></div><div>Andy.</div><div><div class=3D"h5"><di=
+v><br></div><div><br></div><div><div><blockquote type=3D"cite"><div>On Aug =
+6, 2015, at 9:59 AM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.ed=
+u" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div dir=
+=3D"ltr">Yes, I agree.=C2=A0 Right now all the NO computation is carried ou=
+t within OEProp, but perhaps all that should be moved up to Wavefunction at=
+ some point, with derived classes handling their own special cases (like UH=
+F).<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=
+=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><d=
+iv><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></=
+div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 9:57 AM, Andrew Simmo=
+nett <span dir=3D"ltr">&lt;<a href=3D"mailto:andy.simmonett@gmail.com" targ=
+et=3D"_blank">andy.simmonett@gmail.com</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div style=3D"word-wrap:break-word">Daniel (and A.J.),<=
+div><br></div><div>I agree with your sentiment that code repetition is not =
+an issue, so there=E2=80=99s not much motivation to put it in OEProp.=C2=A0=
+ I think NO formation should be handled by Wavefunction, because then the N=
+Os can be easily handed off to a CAS code, without needing a property calcu=
+lation in between.=C2=A0 I like the idea of being able to run a CC/CI/MP2 c=
+alculation with a &quot;compute_nos true=E2=80=9D flag, and knowing on exit=
+ that the wavefunction object will automagically contain the NOs.=C2=A0 If =
+your printing machinery were added to Wavefunction itself, that would simpl=
+ify the process of making sure computing and printing correlated NOs is con=
+sistent.</div><div><br></div><div>Andy.</div><div><div><div><br><div><block=
+quote type=3D"cite"><div>On Aug 6, 2015, at 9:24 AM, T. Daniel Crawford &lt=
+;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;=
+ wrote:</div><br><div><div dir=3D"ltr">Hi, Andy,<div><br></div><div>I need =
+to ask your input on the best place to include the computation of UHF NOs w=
+ithin the UHF class.=C2=A0 I added them to the finalize() function with no =
+problems, and the code works cleanly, but I&#39;m wondering if I should try=
+ to be more elegant about this and insert them into the OEProp class.=C2=A0=
+ The problem with OEProp is that the approach we have to use to compute the=
+ NOs really applies only to the UHF wave function, so perhaps I should keep=
+ the code limited to the UHF class only.=C2=A0 Now, some of what this calcu=
+lation requires is already computed in the compute_wiberg_lowdin_indices() =
+code, namely the formation of S^(1/2) D S^(1/2), but this is so trivial tha=
+t I guess it doesn&#39;t matter if I repeat it.=C2=A0 The only thing the co=
+mpute_no_occupations() code offers is the nasty sorting and printing of the=
+ NOONs.</div><div><br></div><div>Opinions?</div><div><br></div><div>-TDC<br=
+ clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</=
+div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu=
+</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--089e0129538081e1a3051ca6a69b--

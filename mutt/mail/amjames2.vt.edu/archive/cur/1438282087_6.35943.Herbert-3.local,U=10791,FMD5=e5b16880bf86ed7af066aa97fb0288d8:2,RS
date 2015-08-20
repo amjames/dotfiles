@@ -1,0 +1,72 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp828910qgt;
+        Wed, 17 Jun 2015 15:30:15 -0700 (PDT)
+X-Received: by 10.140.147.195 with SMTP id 186mr11478226qht.59.1434580215322;
+        Wed, 17 Jun 2015 15:30:15 -0700 (PDT)
+Return-Path: <jag20@rice.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id mf7si5938442qcb.0.2015.06.17.15.30.15
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 15:30:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.101 as permitted sender) client-ip=128.42.201.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.101 as permitted sender) smtp.mail=jag20@rice.edu
+Received: from pp2.rice.edu (proofpoint2.mail.rice.edu [128.42.201.101])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5HMU99f029781
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 18:30:14 -0400
+Received: from pps.filterd (pp2.rice.edu [127.0.0.1])
+	by pp2.rice.edu (8.14.5/8.14.5) with SMTP id t5HMQB5l014730
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 17:30:09 -0500
+Received: from mh11.mail.rice.edu (mh11.mail.rice.edu [128.42.199.30])
+	by pp2.rice.edu with ESMTP id 1v3gc2g1xt-1
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 17:30:08 -0500
+X-Virus-Scanned: by amavis-2.7.0 at mh11.mail.rice.edu, auth channel
+Received: from webmail-n1.rice.edu (webmail-n1.rice.edu [10.128.81.181])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: jag20)
+	by mh11.mail.rice.edu (Postfix) with ESMTPSA id 7C0BD4C028D
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 17:30:08 -0500 (CDT)
+Received: from netscaler3.rice.edu (netscaler3.rice.edu [128.42.204.5]) by
+ webmail.rice.edu (Horde Framework) with HTTP; Wed, 17 Jun 2015 17:30:08
+ -0500
+Date: Wed, 17 Jun 2015 17:30:08 -0500
+Message-ID: <20150617173008.Horde.l9lDF_eCVxLVXDYGhxI9Cg4@webmail.rice.edu>
+From: jag20 <jag20@rice.edu>
+To: amjames2@vt.edu
+Subject: Software Development Summer School
+User-Agent: Internet Messaging Program (IMP) H5 (6.1.7)
+Content-Type: text/plain; charset=UTF-8; format=flowed; DelSp=Yes
+MIME-Version: 1.0
+Content-Disposition: inline
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 kscore.is_bulkscore=7.4131811800271e-12
+ kscore.compositescore=0 circleOfTrustscore=0
+ compositescore=0.483191553621556 suspectscore=1
+ recipient_domain_to_sender_totalscore=0 phishscore=0 bulkscore=0
+ kscore.is_spamscore=0 rbsscore=0.483191553621556
+ recipient_to_sender_totalscore=0
+ recipient_domain_to_sender_domain_totalscore=0 spamscore=0
+ recipient_to_sender_domain_totalscore=0 urlsuspectscore=0.483191553621556
+ adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=7.0.1-1402240000 definitions=main-1506170373
+X-Spam-Status: No, score=-1.3 required=5.0 tests=RCVD_IN_DNSWL_LOW,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Hi Andrew,
+
+Is there any information available on where on the VT campus software  
+development summer school participants should go to check in this  
+Sunday? Also, is there any available information on travel  
+arrangements to VT from the Roanoke airport? I just want to make sure  
+I know where I need to be, and how I'm going to get there.
+
+Thanks,
+
+John
+

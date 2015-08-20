@@ -1,0 +1,155 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2433546qgt;
+        Tue, 16 Jun 2015 05:40:30 -0700 (PDT)
+X-Received: by 10.140.84.179 with SMTP id l48mr227955qgd.11.1434458430663;
+        Tue, 16 Jun 2015 05:40:30 -0700 (PDT)
+Return-Path: <maps+bncBD2PLVWC4UFRBNNSQCWAKGQEYVA7P3I@googleproductforums.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id r78si785921qkh.71.2015.06.16.05.40.30
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Jun 2015 05:40:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of maps+bncBD2PLVWC4UFRBNNSQCWAKGQEYVA7P3I@googleproductforums.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of maps+bncBD2PLVWC4UFRBNNSQCWAKGQEYVA7P3I@googleproductforums.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender) smtp.mail=maps+bncBD2PLVWC4UFRBNNSQCWAKGQEYVA7P3I@googleproductforums.com;
+       dkim=pass header.i=@googleproductforums.com
+Received: from mail-pd0-x248.google.com (mail-pd0-x248.google.com [IPv6:2607:f8b0:400e:c02::248])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5GCeOjZ029560
+	for <amjames2@vt.edu>; Tue, 16 Jun 2015 08:40:29 -0400
+Received: by pdmx3 with SMTP id x3sf34215090pdm.1
+        for <amjames2@vt.edu>; Tue, 16 Jun 2015 05:40:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googleproductforums.com; s=googleproductforums;
+        h=sender:date:from:to:message-id:in-reply-to:references:subject
+         :mime-version:content-type:precedence:mailing-list:list-id:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=e3a27T/y56ghT7s60/35nQrF71/q3R8AiL0nN4Hejbc=;
+        b=C4A1r2JAPFbdGG+VMVoN9k3Jh1tX2Cau2M863tdGPUapqR1uR9hsk/WALjFZ/OSytR
+         fmoeVl+iTZY9r92EOelPvGvFcGl8NW1YVBVe0GwhKwcO4T9RE2wOKSGoHtGuIgTfi33L
+         m+NGO6CdNp8uH1Q1aCDmmoP6qXbpRT7aJD+us=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:date:from:to:message-id:in-reply-to
+         :references:subject:mime-version:content-type:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe;
+        bh=e3a27T/y56ghT7s60/35nQrF71/q3R8AiL0nN4Hejbc=;
+        b=TZVXgiyeD6o5Vy+V056jTk99zYO9Omqu2BVL/E6Iu9XhB071WCoh8cOVQ3cjNjBXaX
+         zbZR1RaJmz2jQ8pBiwxbyU/cyZ5JgfBIUZBAMP2IVFeDI7JvL4W/ogetcmDvS6+kd0EK
+         YIwyvwbYmM9rOxRdEMA0g56hIEpAzfwAGHe/NBCZcPk+0fbdJcgn+6/Z+FHimXa+gYVp
+         4XOjj7CBa1ST/rxJPcjGnn255TjkXZn0MtjdxJCexdANXv+c005H4rK94wyIteQR0RT/
+         fIVo8GFljBYcOITBNb15bgvxSmerfLnWm0/C5wQufBxgXsco5aF/1BcCdtDLrIBhk4pw
+         G5+Q==
+Sender: maps@googleproductforums.com
+X-Gm-Message-State: ALoCoQm5H2DRPh9Ehhy8zPKBTUgQuIOe/iYsH7Bubw4QG9Ew2nDA94/7J5wLGCK03su9GC5tZaFA
+X-Received: by 10.66.249.198 with SMTP id yw6mr131325pac.35.1434458424357;
+        Tue, 16 Jun 2015 05:40:24 -0700 (PDT)
+X-Received: by 10.66.118.135 with SMTP id km7mr235767pab.4.1434458421527;
+        Tue, 16 Jun 2015 05:40:21 -0700 (PDT)
+X-BeenThere: maps@googleproductforums.com
+Received: by 10.140.31.227 with SMTP id f90ls234709qgf.9.gmail; Tue, 16 Jun
+ 2015 05:38:59 -0700 (PDT)
+X-Received: by 10.140.106.247 with SMTP id e110mr2592qgf.7.1434458339094;
+        Tue, 16 Jun 2015 05:38:59 -0700 (PDT)
+Date: Tue, 16 Jun 2015 05:38:56 -0700 (PDT)
+From: Beryldrue via Google Maps and Earth Help Forum <maps+APn2wQd_-q4V3kuFIyCOgxbEUnYKPhdyh30ZU3kril2BHzgxL04AlfXwH65@googleproductforums.com>
+To: maps@googleproductforums.com
+Message-Id: <f807b971-21af-44e0-a144-0ca2e7f03898@googleproductforums.com>
+In-Reply-To: <81652b60-98d0-40e4-983a-64e7366a0e1a@googleproductforums.com>
+References: <81652b60-98d0-40e4-983a-64e7366a0e1a@googleproductforums.com>
+Subject: Re: Remove Default Map Markings Like road names and Landmarks
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_365_1598355785.1434458337056"
+Precedence: list
+Mailing-list: list maps@googleproductforums.com; contact maps+owners@googleproductforums.com
+List-ID: <maps.googleproductforums.com>
+X-Google-Group-Id: 287312660799
+List-Post: <http://groups.google.com/a/googleproductforums.com/group/maps/post>,
+ <mailto:maps@googleproductforums.com>
+List-Help: <http://support.google.com/a/googleproductforums.com/bin/topic.py?topic=25838>,
+ <mailto:maps+help@googleproductforums.com>
+List-Archive: <http://groups.google.com/a/googleproductforums.com/group/maps/>
+List-Subscribe: <http://groups.google.com/a/googleproductforums.com/group/maps/subscribe>,
+ <mailto:maps+subscribe@googleproductforums.com>
+List-Unsubscribe: <mailto:googlegroups-manage+287312660799+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/googleproductforums.com/d/topic/maps/kzWNb6Ae78g/unsubscribe>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_365_1598355785.1434458337056
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_366_692738172.1434458337056"
+
+------=_Part_366_692738172.1434458337056
+Content-Type: text/plain; charset=UTF-8
+
+From your post it sounds like you are creating a custom map with *my maps*. 
+
+There are nine different *base map styles* to choose when you use this 
+program. One of them may suit your taste more. To select a different base 
+map, look in bottom edge of the left sidebar box "Base Map"
+
+Here's more on that from my maps help site 
+<https://support.google.com/mymaps/answer/3024934?hl=en&ref_topic=3188329>
+
+Your categories mention regular Google Maps, so if you really do mean 
+Google Maps, you can't alter the appearance of regular Google Maps.
+
+--- ---
+DID YOU FIND A REPLY HELPFUL? Mark it helpful or a best answer so the person who replied as well as others who have the same question know it helped you
+--- 
+You received this message because you are subscribed to a topic in the Google Groups "Google Maps and Earth Help Forum" group.
+To unsubscribe from this topic, visit https://groups.google.com/a/googleproductforums.com/d/topic/maps/kzWNb6Ae78g/unsubscribe.
+To unsubscribe from this group and all its topics, send an email to maps+unsubscribe@googleproductforums.com.
+Visit this group at http://groups.google.com/a/googleproductforums.com/group/maps/.
+To view this discussion on the web visit https://groups.google.com/a/googleproductforums.com/d/msgid/maps/f807b971-21af-44e0-a144-0ca2e7f03898%40googleproductforums.com.
+
+------=_Part_366_692738172.1434458337056
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">From your post it sounds like you are creating a custom ma=
+p with <b>my maps</b>.&nbsp;<div><br></div><div><font><font>There are nine =
+different <b>base map styles</b>&nbsp;to choose when you use this program. =
+One of them may suit your taste more. To select a different base map, look =
+in bottom edge of the left sidebar box "Base Map"</font></font></div><div><=
+font><font><br></font></font></div><div><font><font><a href=3D"https://supp=
+ort.google.com/mymaps/answer/3024934?hl=3Den&amp;ref_topic=3D3188329">Here'=
+s more on that from my maps help site</a></font></font></div><div><font><br=
+></font></div><div><font>Your categories mention regular Google Maps, so if=
+ you really do mean Google Maps, you can't alter the appearance of regular =
+Google Maps.</font></div></div>
+
+<p></p>
+
+--- ---<br />
+DID YOU FIND A REPLY HELPFUL? Mark it helpful or a best answer so the perso=
+n who replied as well as others who have the same question know it helped y=
+ou<br />
+--- <br />
+You received this message because you are subscribed to a topic in the Goog=
+le Groups &quot;Google Maps and Earth Help Forum&quot; group.<br />
+To unsubscribe from this topic, visit <a href=3D"https://groups.google.com/=
+a/googleproductforums.com/d/topic/maps/kzWNb6Ae78g/unsubscribe">https://gro=
+ups.google.com/a/googleproductforums.com/d/topic/maps/kzWNb6Ae78g/unsubscri=
+be</a>.<br />
+To unsubscribe from this group and all its topics, send an email to <a href=
+=3D"mailto:maps+unsubscribe@googleproductforums.com">maps+unsubscribe@googl=
+eproductforums.com</a>.<br />
+Visit this group at <a href=3D"http://groups.google.com/a/googleproductforu=
+ms.com/group/maps/">http://groups.google.com/a/googleproductforums.com/grou=
+p/maps/</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/a/googleproductforums.com/d/msgid/maps/f807b971-21af-44e0-a144-0ca2e7f03=
+898%40googleproductforums.com?utm_medium=3Demail&utm_source=3Dfooter">https=
+://groups.google.com/a/googleproductforums.com/d/msgid/maps/f807b971-21af-4=
+4e0-a144-0ca2e7f03898%40googleproductforums.com</a>.<br />
+
+------=_Part_366_692738172.1434458337056--
+------=_Part_365_1598355785.1434458337056--

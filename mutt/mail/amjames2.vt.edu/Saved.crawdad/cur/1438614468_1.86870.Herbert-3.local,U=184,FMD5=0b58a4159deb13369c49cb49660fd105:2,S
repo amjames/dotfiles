@@ -1,0 +1,95 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp665357qgt;
+        Mon, 22 Jun 2015 07:25:20 -0700 (PDT)
+X-Received: by 10.55.18.27 with SMTP id c27mr55204022qkh.84.1434983120143;
+        Mon, 22 Jun 2015 07:25:20 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 78si19198531qkp.59.2015.06.22.07.25.19
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 07:25:20 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.169 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MEPE7I018029
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 10:25:19 -0400
+Received: by igblr2 with SMTP id lr2so32511956igb.0
+        for <amjames2@vt.edu>; Mon, 22 Jun 2015 07:25:14 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=g5OxyMhhLxHYR0L6hXUgmtwPBx71SnG2U3reenrr8Q4=;
+        b=i8ILmYu3qgGR31+PyhA9K9fQuULs2jTc40djDxXfs+7st/eM/RFeDVThr6zsfaGzu7
+         nmO5pziqh1LG4b0ScHexfv053FRYJQTLJqwfU3piLhrcKR0uvILnnJUtDNtmXKRsaqtg
+         826UZTSRHq2yyCz3WbW0c5LXgaVxt4get5j33aINIS+FzNUeffuF63vyGpFRN5xPC2R6
+         m7G1x/Xm9xaHnqGTq5QHKtoVx00iLVPpkXLR7Z6Tmw4ujbCaRB6x3y07HDdTF6qINJ4V
+         424Ad5C/rtHmZ5AvHxIJM2H61uGtYCAnSWtgYcmFIGbSJn0mLYa7q39EJHRLN9rd22hD
+         B5tw==
+X-Gm-Message-State: ALoCoQlZNaiVVaK9KJhalDz2rFWIuazozgQybrXeJK5yOJt67TKaQmD0xyrjvuyKp1svhpiYhWD6cevaoGXUoqUcaB68L/3FG56lTva23DtNgNgPBO6oVa56hb/h3GNIyNmLJT+u2ZaiRZHkaMKB/oMFBmg3tqM58w==
+X-Received: by 10.50.4.67 with SMTP id i3mr21200007igi.47.1434983114208;
+        Mon, 22 Jun 2015 07:25:14 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.4.67 with SMTP id i3mr21199987igi.47.1434983114032; Mon,
+ 22 Jun 2015 07:25:14 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Mon, 22 Jun 2015 07:25:13 -0700 (PDT)
+Date: Mon, 22 Jun 2015 09:25:13 -0500
+Message-ID: <CAH0V_1aF2x3rrfAMWM-5PJaKXAVhRBRaaYZVNk8JY7wMWHT8yw@mail.gmail.com>
+Subject: Two quick items
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: "Good, Laurie" <laurieg@vt.edu>, Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c2a13ec5634c05191c0a22
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 1748
+
+--001a11c2a13ec5634c05191c0a22
+Content-Type: text/plain; charset=UTF-8
+
+Dear Jessica,
+
+I believe that Laurie had asked for some additional dining cards for the
+instructors and AJ to use to increase interactions with the students.  Do
+you know how we can get to those?
+
+Regarding the bathroom situation, could you ask the dormitory folks to put
+a note under the doors of the students affected by the bathroom
+reassignment?  After thinking about it, I'd prefer not to have to make an
+announcement about this in our sessions, and I feel it's the housing folks'
+job to communicate the problem.
+
+Thanks for your help!
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--001a11c2a13ec5634c05191c0a22
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Jessica,<div><br></div><div>I believe that Laurie had=
+ asked for some additional dining cards for the instructors and AJ to use t=
+o increase interactions with the students.=C2=A0 Do you know how we can get=
+ to those?</div><div><br></div><div>Regarding the bathroom situation, could=
+ you ask the dormitory folks to put a note under the doors of the students =
+affected by the bathroom reassignment?=C2=A0 After thinking about it, I&#39=
+;d prefer not to have to make an announcement about this in our sessions, a=
+nd I feel it&#39;s the housing folks&#39; job to communicate the problem.</=
+div><div><br></div><div>Thanks for your help!</div><div><br></div><div>-Dan=
+iel</div><div><br clear=3D"all"><div><div class=3D"gmail_signature"><div di=
+r=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawd=
+ad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+
+--001a11c2a13ec5634c05191c0a22--

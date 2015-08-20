@@ -1,0 +1,517 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.126.133 with SMTP id my5csp1633941ieb;
+        Mon, 13 Apr 2015 20:39:20 -0700 (PDT)
+X-Received: by 10.180.103.231 with SMTP id fz7mr27645891wib.35.1428982759637;
+        Mon, 13 Apr 2015 20:39:19 -0700 (PDT)
+Return-Path: <chemvarun@gmail.com>
+Received: from mail-wi0-x22a.google.com (mail-wi0-x22a.google.com. [2a00:1450:400c:c05::22a])
+        by mx.google.com with ESMTPS id c9si16101140wiy.123.2015.04.13.20.39.18
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 20:39:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of chemvarun@gmail.com designates 2a00:1450:400c:c05::22a as permitted sender) client-ip=2a00:1450:400c:c05::22a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of chemvarun@gmail.com designates 2a00:1450:400c:c05::22a as permitted sender) smtp.mail=chemvarun@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wi0-x22a.google.com with SMTP id k4so89923679wiz.1
+        for <andrew.m.james2@gmail.com>; Mon, 13 Apr 2015 20:39:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=8BoOBw/RcnD3UqBbDhViHTRiJrmLU41ryFDQQeI735I=;
+        b=dOtodR+qOuuOPuduKz6voWdvaZYiwu6CHs2JIgk8qIIay7QsHEfNgoe27mNs0tZDZw
+         gbh0NQtZE1gYg7trHElbJi5cDyQrHHkc+hiJxhFfykgBBuxm1ss1R3cicZzOselSfzYf
+         xadb/Zchlib3qtGn914+cV5V47HFuur663HytLFcrJWtuclSE5ixyaH54DwkyipS6nb4
+         v+kWkfEUgifhOc2cu9t3tJT/cV8vNfpbKpV+zYuxj2rHMF+gKcyF9D5kcQj3Zyd+9Efm
+         R9Y1ll+dVFFX0bzhtOzrIe2ASz9x5p4mkq/REM4wXFl094P9oNUq72s5AFdilp2d9D1m
+         qgSw==
+MIME-Version: 1.0
+X-Received: by 10.180.109.6 with SMTP id ho6mr27907851wib.58.1428982758813;
+ Mon, 13 Apr 2015 20:39:18 -0700 (PDT)
+Received: by 10.27.138.67 with HTTP; Mon, 13 Apr 2015 20:39:18 -0700 (PDT)
+In-Reply-To: <CAAtVcpYW3dLX+PfH91Ua6uiAoa3cwFFtgiNC54E8to3DcuckDg@mail.gmail.com>
+References: <CAAtVcpZMR9S2uJQ_OJ4pJg5fNqy173Rv7PYzhd-TRUYzjkHu4w@mail.gmail.com>
+	<BE8FDBDE-BC91-4601-9D28-49CD49EDBCE6@gmail.com>
+	<CAAtVcpZdwGaPEPXr=1zPkP64zQ377zAZVbY66kRuNb4kxvxdjQ@mail.gmail.com>
+	<EEE8A450-9483-48FF-953A-2590EE33C89E@gmail.com>
+	<CAAtVcpbRXN98gPW7NSFgK+=hM_A7Za2KT9mncdSy_dgbiWMuqA@mail.gmail.com>
+	<CAAtVcpbAtYabrJ5dnisEWCE8gT0U7mcsHUr3ihnjpB3bsgBeHQ@mail.gmail.com>
+	<671C7C1B-5900-4BA4-924D-D8A0B41F690E@gmail.com>
+	<CAAtVcpYW3dLX+PfH91Ua6uiAoa3cwFFtgiNC54E8to3DcuckDg@mail.gmail.com>
+Date: Tue, 14 Apr 2015 09:09:18 +0530
+Message-ID: <CAAtVcpY5gLJG6WAjOzET5EQSKgr_rnQ86Kj_ZTJDtkkPEH-EqQ@mail.gmail.com>
+Subject: Re: Property Summery School
+From: Varun Kundi <chemvarun@gmail.com>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=e89a8f3ba5f3bab7030513a6f91f
+
+--e89a8f3ba5f3bab7030513a6f91f
+Content-Type: text/plain; charset=ISO-8859-1
+
+I have sent the fax. I need acceptance and invitation letter for funding
+and VISA. Please send me soon.
+
+On Sat, Apr 11, 2015 at 1:14 AM, Varun Kundi <chemvarun@gmail.com> wrote:
+
+> Yes I received two messages from  confreg@vt.edu .
+>
+> On Fri, Apr 10, 2015 at 11:12 PM, Andrew James <andrew.m.james2@gmail.com>
+> wrote:
+>
+>> Your payment has bee received, and you will receive an email soon from
+>> the Continuing and Professional Education department at Virginia Tech. They
+>> are handling the registration process for us.
+>>
+>> Regards,
+>> Andrew James
+>>
+>> On Apr 10, 2015, at 9:53 AM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>
+>> After the fax I will need the acceptance letter from the organizers so
+>> that I can apply for funding and VISA.
+>>
+>> On Fri, Apr 10, 2015 at 7:21 PM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>
+>>> Thank you very much. I have completed the payment procedure. I will fax
+>>> the document within one day and will inform you. Thank you very much again
+>>> for such a great cooperation.
+>>>
+>>> On Fri, Apr 10, 2015 at 7:18 PM, Andrew James <andrew.m.james2@gmail.com
+>>> > wrote:
+>>>
+>>>> Yes the FID number is not needed for a credit card payment.
+>>>>
+>>>> Andrew
+>>>> On Apr 10, 2015, at 7:13 AM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>>>
+>>>> Hello,
+>>>>          What is this Organization FID no? As I paid my Registration
+>>>> fee from my Supervisor's credit card, I do not think that I need to write
+>>>> FID for refunding (in case). The amount should come directly in my Boss's
+>>>> account. Isn't it?
+>>>>
+>>>> On Thu, Apr 9, 2015 at 11:10 PM, Andrew James <
+>>>> andrew.m.james2@gmail.com> wrote:
+>>>>
+>>>>> Hello,
+>>>>>
+>>>>> I hope I can clear these things up for you.
+>>>>> The credit card  that you use to fill out the PDF will be charged the
+>>>>> registration fee once the office opens and someone retrieves it from the
+>>>>> fax machine.  That charge will be for 550 USD.  You are also accepted to
+>>>>> the program once you register.  Your registration would be complete once
+>>>>> the faxed form is received.  This should trigger an email to be sent you
+>>>>> you confirming you are registered for the School. If you require more
+>>>>> documentation for your funding agencies I can make sure that gets sent
+>>>>> before 23 April.
+>>>>>
+>>>>> Please let me know if any of this is unclear, or if I can be of any
+>>>>> more help.
+>>>>>
+>>>>> Regards,
+>>>>>
+>>>>> Andrew James
+>>>>> Crawford Group
+>>>>> Virginia Tech.
+>>>>>
+>>>>> On Apr 9, 2015, at 2:44 AM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>>>>
+>>>>> Hello Sir,
+>>>>>        I am Varun Kundi, Research Scholar from IIT Roorkee, India. As
+>>>>> it is written in pdf, I need to write Card No. and fill the whole form
+>>>>> followed by fax to the mentioned no. Will it be enough for transaction?
+>>>>> Actually I am going to use my boss's credit card therefore I eed to tell
+>>>>> him each and everthing before that what will happen in which order. If you
+>>>>> can explain a little more, I will be very thankful to you for that. When
+>>>>> will I get the acceptance letter? Actually I need acceptance before 23
+>>>>> april to get the financial assistance from government funding agency. How
+>>>>> the things will happen? Please help me.
+>>>>>
+>>>>> --
+>>>>> With Regards
+>>>>>
+>>>>> *Varun Kundi* (Research Scholar)
+>>>>> Theoretical Chemistry Lab,
+>>>>> Department of Chemistry
+>>>>> *Indian Institute of Technology, Roorkee.*
+>>>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>>>> Phone- 01332-286228 (O), 09458113440(M)
+>>>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>>
+>>>> --
+>>>> With Regards
+>>>>
+>>>> *Varun Kundi* (Research Scholar)
+>>>> Theoretical Chemistry Lab,
+>>>> Department of Chemistry
+>>>> *Indian Institute of Technology, Roorkee.*
+>>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>>> Phone- 01332-286228 (O), 09458113440(M)
+>>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>>
+>>>>
+>>>
+>>>
+>>> --
+>>> With Regards
+>>>
+>>> *Varun Kundi* (Research Scholar)
+>>> Theoretical Chemistry Lab,
+>>> Department of Chemistry
+>>> *Indian Institute of Technology, Roorkee.*
+>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>> Phone- 01332-286228 (O), 09458113440(M)
+>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>
+>>
+>>
+>>
+>> --
+>> With Regards
+>>
+>> *Varun Kundi* (Research Scholar)
+>> Theoretical Chemistry Lab,
+>> Department of Chemistry
+>> *Indian Institute of Technology, Roorkee.*
+>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>> Phone- 01332-286228 (O), 09458113440(M)
+>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>
+>>
+>>
+>
+>
+> --
+> With Regards
+>
+> *Varun Kundi* (Research Scholar)
+> Theoretical Chemistry Lab,
+> Department of Chemistry
+> *Indian Institute of Technology, Roorkee.*
+> Roorkee- 247 667 , UTTARAKHAND , INDIA
+> Phone- 01332-286228 (O), 09458113440(M)
+> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>
+
+
+
+-- 
+With Regards
+
+*Varun Kundi* (Research Scholar)
+Theoretical Chemistry Lab,
+Department of Chemistry
+*Indian Institute of Technology, Roorkee.*
+Roorkee- 247 667 , UTTARAKHAND , INDIA
+Phone- 01332-286228 (O), 09458113440(M)
+Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+
+--e89a8f3ba5f3bab7030513a6f91f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I have sent the fax. I need acceptance and invitation lett=
+er for funding and VISA. Please send me soon.</div><div class=3D"gmail_extr=
+a"><br><div class=3D"gmail_quote">On Sat, Apr 11, 2015 at 1:14 AM, Varun Ku=
+ndi <span dir=3D"ltr">&lt;<a href=3D"mailto:chemvarun@gmail.com" target=3D"=
+_blank">chemvarun@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div dir=3D"ltr">Yes I received two messages from =A0<a href=3D"ma=
+ilto:confreg@vt.edu" target=3D"_blank">confreg@vt.edu</a> .</div><div class=
+=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"><br><div class=3D"=
+gmail_quote">On Fri, Apr 10, 2015 at 11:12 PM, Andrew James <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=3D"_blank">andre=
+w.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div style=3D"word-wrap:break-word">Your payment has bee received, and yo=
+u will receive an email soon from the Continuing and Professional Education=
+ department at Virginia Tech. They are handling the registration process fo=
+r us. =A0<div><br></div><div>Regards,=A0</div><div><span><font color=3D"#88=
+8888">Andrew James=A0</font></span><div><div><br><div><blockquote type=3D"c=
+ite"><div>On Apr 10, 2015, at 9:53 AM, Varun Kundi &lt;<a href=3D"mailto:ch=
+emvarun@gmail.com" target=3D"_blank">chemvarun@gmail.com</a>&gt; wrote:</di=
+v><br><div><div dir=3D"ltr">After the fax I will need the acceptance letter=
+ from the organizers so that I can apply for funding and VISA.</div><div cl=
+ass=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, Apr 10, 2015 at =
+7:21 PM, Varun Kundi <span dir=3D"ltr">&lt;<a href=3D"mailto:chemvarun@gmai=
+l.com" target=3D"_blank">chemvarun@gmail.com</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex"><div dir=3D"ltr">Thank you very much. I have comp=
+leted the payment procedure. I will fax the document within one day and wil=
+l inform you. Thank you very much again for such a great cooperation.</div>=
+<div><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri,=
+ Apr 10, 2015 at 7:18 PM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:andrew.m.james2@gmail.com" target=3D"_blank">andrew.m.james2@gmail.com<=
+/a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><=
+div>Yes the FID number is not needed for a credit card payment.=A0</div><sp=
+an><font color=3D"#888888"><div><br>Andrew</div></font></span><div><div><di=
+v>On Apr 10, 2015, at 7:13 AM, Varun Kundi &lt;<a href=3D"mailto:chemvarun@=
+gmail.com" target=3D"_blank">chemvarun@gmail.com</a>&gt; wrote:<br><br></di=
+v><blockquote type=3D"cite"><div><div dir=3D"ltr">Hello,<div>=A0 =A0 =A0 =
+=A0 =A0What is this Organization FID no? As I paid my Registration fee from=
+ my Supervisor&#39;s credit card, I do not think that I need to write FID f=
+or refunding (in case). The amount should come directly in my Boss&#39;s ac=
+count. Isn&#39;t it?</div></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Thu, Apr 9, 2015 at 11:10 PM, Andrew James <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=3D"_blank">an=
+drew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:=
+1ex"><div style=3D"word-wrap:break-word">Hello,=A0<div><br></div><div>I hop=
+e I can clear these things up for you.</div><div>The credit card =A0that yo=
+u use to fill out the PDF will be charged the registration fee once the off=
+ice opens and someone retrieves it from the fax machine.=A0 That charge wil=
+l be for 550 USD.=A0 You are also accepted to the program once you register=
+.=A0 Your registration would be complete once the faxed form is received.=
+=A0 This should trigger an email to be sent you you confirming you are regi=
+stered for the School. If you require more documentation for your funding a=
+gencies I can make sure that gets sent before 23 April. =A0</div><div><br><=
+/div><div>Please let me know if any of this is unclear, or if I can be of a=
+ny more help. =A0</div><div><br></div><div>Regards,=A0</div><span><font col=
+or=3D"#888888"><div><br></div><div>Andrew James=A0</div><div>Crawford Group=
+</div></font></span><div><span><font color=3D"#888888">Virginia Tech.=A0</f=
+ont></span><div><div><br><div><blockquote type=3D"cite"><div>On Apr 9, 2015=
+, at 2:44 AM, Varun Kundi &lt;<a href=3D"mailto:chemvarun@gmail.com" target=
+=3D"_blank">chemvarun@gmail.com</a>&gt; wrote:</div><br><div><div dir=3D"lt=
+r">Hello Sir,<div>=A0 =A0 =A0 =A0I am Varun Kundi, Research Scholar from II=
+T Roorkee, India. As it is written in pdf, I need to write Card No. and fil=
+l the whole form followed by fax to the mentioned no. Will it be enough for=
+ transaction? Actually I am going to use my boss&#39;s credit card therefor=
+e I eed to tell him each and everthing before that what will happen in whic=
+h order. If you can explain a little more, I will be very thankful to you f=
+or that. When will I get the acceptance letter? Actually I need acceptance =
+before 23 april to get the financial assistance from government funding age=
+ncy. How the things will happen? Please help me.<br clear=3D"all"><div><br>=
+</div>-- <br><div><div dir=3D"ltr"><div style=3D"text-align:left"><span sty=
+le=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backg=
+round-color:rgb(255,255,255)">With Regards</span></div><div style=3D"text-a=
+lign:left"><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fo=
+nt-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34=
+,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(25=
+5,255,255)"><b>Varun Kundi</b> (Research Scholar)</span><br style=3D"color:=
+rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:=
+rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)">Theoretical Chemis=
+try Lab,</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-seri=
+f;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rg=
+b(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rg=
+b(255,255,255)">Department of Chemistry</span><br style=3D"color:rgb(34,34,=
+34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,25=
+5,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fon=
+t-size:13px;background-color:rgb(255,255,255)"><b>Indian Institute of Techn=
+ology, Roorkee.</b></span><br style=3D"color:rgb(34,34,34);font-family:aria=
+l,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHAND , INDIA</span><b=
+r style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;=
+background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-=
+family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">P=
+hone- 01332-286228 (O), 09458113440(M)</span><br style=3D"color:rgb(34,34,3=
+4);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255=
+,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font=
+-size:13px;background-color:rgb(255,255,255)">Email-=A0</span><a href=3D"ma=
+ilto:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,85,204);font-family:aria=
+l,sans-serif;font-size:13px;background-color:rgb(255,255,255)" target=3D"_b=
+lank">bmrvkdcy@iitr.ernet.in</a><span style=3D"color:rgb(34,34,34);font-fam=
+ily:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=A0,=
+=A0</span><a href=3D"mailto:chemvarun@gmail.com" style=3D"color:rgb(17,85,2=
+04);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,25=
+5,255)" target=3D"_blank">chemvarun@gmail.com</a></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+><br clear=3D"all"><div><br></div>-- <br><div><div dir=3D"ltr"><div style=
+=3D"text-align:left"><span style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)">With Regards</s=
+pan></div><div style=3D"text-align:left"><br style=3D"color:rgb(34,34,34);f=
+ont-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255=
+)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-siz=
+e:13px;background-color:rgb(255,255,255)"><b>Varun Kundi</b> (Research Scho=
+lar)</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fo=
+nt-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34=
+,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(25=
+5,255,255)">Theoretical Chemistry Lab,</span><br style=3D"color:rgb(34,34,3=
+4);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255=
+,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font=
+-size:13px;background-color:rgb(255,255,255)">Department of Chemistry</span=
+><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);fo=
+nt-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)=
+"><b>Indian Institute of Technology, Roorkee.</b></span><br style=3D"color:=
+rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:=
+rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)">Roorkee- 247 667 ,=
+ UTTARAKHAND , INDIA</span><br style=3D"color:rgb(34,34,34);font-family:ari=
+al,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)">Phone- 01332-286228 (O), 09458113440(M)</span><=
+br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px=
+;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+Email-=A0</span><a href=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rg=
+b(17,85,204);font-family:arial,sans-serif;font-size:13px;background-color:r=
+gb(255,255,255)" target=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D=
+"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background=
+-color:rgb(255,255,255)">=A0,=A0</span><a href=3D"mailto:chemvarun@gmail.co=
+m" style=3D"color:rgb(17,85,204);font-family:arial,sans-serif;font-size:13p=
+x;background-color:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com<=
+/a></div></div></div>
+</div>
+</div></blockquote></div></div></div></blockquote></div><br><br clear=3D"al=
+l"><div><br></div>-- <br><div><div dir=3D"ltr"><div style=3D"text-align:lef=
+t"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-siz=
+e:13px;background-color:rgb(255,255,255)">With Regards</span></div><div sty=
+le=3D"text-align:left"><br style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"=
+color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-=
+color:rgb(255,255,255)"><b>Varun Kundi</b> (Research Scholar)</span><br sty=
+le=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backg=
+round-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-famil=
+y:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">Theore=
+tical Chemistry Lab,</span><br style=3D"color:rgb(34,34,34);font-family:ari=
+al,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)">Department of Chemistry</span><br style=3D"colo=
+r:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-colo=
+r:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sa=
+ns-serif;font-size:13px;background-color:rgb(255,255,255)"><b>Indian Instit=
+ute of Technology, Roorkee.</b></span><br style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+<span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHAND , IND=
+IA</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font=
+-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,3=
+4,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,=
+255,255)">Phone- 01332-286228 (O), 09458113440(M)</span><br style=3D"color:=
+rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:=
+rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)">Email-=A0</span><a=
+ href=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,85,204);font-=
+family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)" t=
+arget=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D"color:rgb(34,34,3=
+4);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255=
+,255)">=A0,=A0</span><a href=3D"mailto:chemvarun@gmail.com" style=3D"color:=
+rgb(17,85,204);font-family:arial,sans-serif;font-size:13px;background-color=
+:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com</a></div></div></d=
+iv>
+</div>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div><div dir=3D"ltr"><div style=3D"text-align:left"><span style=3D"color:r=
+gb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:r=
+gb(255,255,255)">With Regards</span></div><div style=3D"text-align:left"><b=
+r style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;=
+background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-=
+family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><=
+b>Varun Kundi</b> (Research Scholar)</span><br style=3D"color:rgb(34,34,34)=
+;font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,2=
+55)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-s=
+ize:13px;background-color:rgb(255,255,255)">Theoretical Chemistry Lab,</spa=
+n><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);f=
+ont-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255=
+)">Department of Chemistry</span><br style=3D"color:rgb(34,34,34);font-fami=
+ly:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span=
+ style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;b=
+ackground-color:rgb(255,255,255)"><b>Indian Institute of Technology, Roorke=
+e.</b></span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;=
+font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(=
+34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(=
+255,255,255)">Roorkee- 247 667 , UTTARAKHAND , INDIA</span><br style=3D"col=
+or:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-col=
+or:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)">Phone- 01332-28=
+6228 (O), 09458113440(M)</span><br style=3D"color:rgb(34,34,34);font-family=
+:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span s=
+tyle=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;bac=
+kground-color:rgb(255,255,255)">Email-=A0</span><a href=3D"mailto:bmrvkdcy@=
+iitr.ernet.in" style=3D"color:rgb(17,85,204);font-family:arial,sans-serif;f=
+ont-size:13px;background-color:rgb(255,255,255)" target=3D"_blank">bmrvkdcy=
+@iitr.ernet.in</a><span style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)">=A0,=A0</span><a h=
+ref=3D"mailto:chemvarun@gmail.com" style=3D"color:rgb(17,85,204);font-famil=
+y:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)" target=
+=3D"_blank">chemvarun@gmail.com</a></div></div></div>
+</div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+><br clear=3D"all"><div><br></div>-- <br><div><div dir=3D"ltr"><div style=
+=3D"text-align:left"><span style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)">With Regards</s=
+pan></div><div style=3D"text-align:left"><br style=3D"color:rgb(34,34,34);f=
+ont-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255=
+)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-siz=
+e:13px;background-color:rgb(255,255,255)"><b>Varun Kundi</b> (Research Scho=
+lar)</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fo=
+nt-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34=
+,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(25=
+5,255,255)">Theoretical Chemistry Lab,</span><br style=3D"color:rgb(34,34,3=
+4);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255=
+,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font=
+-size:13px;background-color:rgb(255,255,255)">Department of Chemistry</span=
+><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);fo=
+nt-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)=
+"><b>Indian Institute of Technology, Roorkee.</b></span><br style=3D"color:=
+rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:=
+rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)">Roorkee- 247 667 ,=
+ UTTARAKHAND , INDIA</span><br style=3D"color:rgb(34,34,34);font-family:ari=
+al,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)">Phone- 01332-286228 (O), 09458113440(M)</span><=
+br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px=
+;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+Email-=A0</span><a href=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rg=
+b(17,85,204);font-family:arial,sans-serif;font-size:13px;background-color:r=
+gb(255,255,255)" target=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D=
+"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background=
+-color:rgb(255,255,255)">=A0,=A0</span><a href=3D"mailto:chemvarun@gmail.co=
+m" style=3D"color:rgb(17,85,204);font-family:arial,sans-serif;font-size:13p=
+x;background-color:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com<=
+/a></div></div></div>
+</div>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div class=3D"gmail_signature"><div dir=3D"ltr"><div style=3D"text-align:le=
+ft"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-si=
+ze:13px;background-color:rgb(255,255,255)">With Regards</span></div><div st=
+yle=3D"text-align:left"><br style=3D"color:rgb(34,34,34);font-family:arial,=
+sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D=
+"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background=
+-color:rgb(255,255,255)"><b>Varun Kundi</b> (Research Scholar)</span><br st=
+yle=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;back=
+ground-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-fami=
+ly:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">Theor=
+etical Chemistry Lab,</span><br style=3D"color:rgb(34,34,34);font-family:ar=
+ial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span styl=
+e=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgr=
+ound-color:rgb(255,255,255)">Department of Chemistry</span><br style=3D"col=
+or:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-col=
+or:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)"><b>Indian Insti=
+tute of Technology, Roorkee.</b></span><br style=3D"color:rgb(34,34,34);fon=
+t-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"=
+><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:=
+13px;background-color:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHAND , IN=
+DIA</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fon=
+t-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,=
+34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255=
+,255,255)">Phone- 01332-286228 (O), 09458113440(M)</span><br style=3D"color=
+:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color=
+:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,san=
+s-serif;font-size:13px;background-color:rgb(255,255,255)">Email-=A0</span><=
+a href=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,85,204);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)" =
+target=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D"color:rgb(34,34,=
+34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,25=
+5,255)">=A0,=A0</span><a href=3D"mailto:chemvarun@gmail.com" style=3D"color=
+:rgb(17,85,204);font-family:arial,sans-serif;font-size:13px;background-colo=
+r:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com</a></div></div></=
+div>
+</div>
+
+--e89a8f3ba5f3bab7030513a6f91f--

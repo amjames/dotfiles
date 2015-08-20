@@ -1,0 +1,99 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp655904qgt;
+        Wed, 12 Aug 2015 20:28:46 -0700 (PDT)
+X-Received: by 10.140.216.136 with SMTP id m130mr66628590qhb.60.1439436526531;
+        Wed, 12 Aug 2015 20:28:46 -0700 (PDT)
+Return-Path: <owner-arc_blueridge_users@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id l62si1484269qge.55.2015.08.12.20.28.44
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 20:28:46 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.213.170 is neither permitted nor denied by best guess record for domain of owner-arc_blueridge_users@listserv.vt.edu) client-ip=209.85.213.170;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.213.170 is neither permitted nor denied by best guess record for domain of owner-arc_blueridge_users@listserv.vt.edu) smtp.mailfrom=owner-arc_blueridge_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7D3ScRv008566;
+	Wed, 12 Aug 2015 23:28:43 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7D3RUJJ021326;
+	Wed, 12 Aug 2015 23:28:37 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101195371 for ARC_BLUERIDGE_USERS@LISTSERV.VT.EDU; Wed, 12 Aug 2015
+          22:44:53 -0400
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:277:40de:506c]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7D2iqLO030077 for
+          <ARC_BLUERIDGE_USERS@listserv.vt.edu>; Wed, 12 Aug 2015 22:44:52 -0400
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com
+          [209.85.213.170]) by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id
+          t7D2il8v025125 for <ARC_BLUERIDGE_USERS@listserv.vt.edu>; Wed, 12 Aug
+          2015 22:44:52 -0400
+Received: by igbpg9 with SMTP id pg9so27127784igb.0 for
+          <ARC_BLUERIDGE_USERS@listserv.vt.edu>; Wed, 12 Aug 2015 19:44:47
+          -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=pl29B5/RBHFOFzEUmAPtMDzjTNrGSdz6FbqwPjbwHcs=;
+                         b=JQiEUdn4bINfphteLHHphkRyUWN3QevlnB7DAnCTiANxgtMtDVOvoh2K6Rz6KXGp9h
+                         G2w/uw1OTA0mREhgr8FwiIh+4YuBVkrC5is0m6B+pTYxwyKF+O/2PV6+bhD/+a7mzD0L
+                         IpwscAw+msWwbg/Qvs20iQ8g+mawF3nlkAlr5cmQojaCBFNXGs9Ldl19ufRTsdF01JvB
+                         VlBLb2foWFoWJT9PIQlPpSLkcRc3/fCcbT2b1kT+RvFVLM86lPZfJXyqJgwZisYyihcf
+                         CBzRwQxPB3QhOG+Rb0ZPuyn2DXn2VETovUOyL+/JAat9IczzyLKDCmySesopjPea7I/C
+                         klww==
+X-Gm-Message-State: ALoCoQlQzgNM6STbMdybYSGFKO+gqi5mnwyUQBTLmBx2d+TD/OUpAsrs4bz1TcDf4WoBIiFMhIg97WmKm3gEYsdZsJvR2z1g6pT3XLSLuhN3pi4yEUl1apK2RzStLAi4V3AgOsZnLR2Pu8taeUxjV/c4c68GxB2hET1mK/WE9iXKumeJxeLNivU=
+X-Received: by 10.50.110.72 with SMTP id hy8mr25653031igb.36.1439433887194;
+            Wed, 12 Aug 2015 19:44:47 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.110.72 with SMTP id hy8mr25653027igb.36.1439433887092;
+            Wed, 12 Aug 2015 19:44:47 -0700 (PDT)
+Received: by 10.79.116.26 with HTTP; Wed, 12 Aug 2015 19:44:47 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=089e011849d484b5d8051d285161
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Message-ID:  <CAD0XtKR+mh+N=dn=WEz7p99uuNPyokROGXJGA2NVejSjq28Jzg@mail.gmail.com>
+Date:         Wed, 12 Aug 2015 22:44:47 -0400
+Reply-To: VT - ARC - Blue Ridge Cluster Users
+              <ARC_BLUERIDGE_USERS@listserv.vt.edu>
+Sender: VT - ARC - Blue Ridge Cluster Users <ARC_BLUERIDGE_USERS@listserv.vt.edu>
+From: Brian Marshall <mimarsh2@vt.edu>
+Subject: $ARCHIVE now mounted on blueridge
+To: ARC_BLUERIDGE_USERS@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_BLUERIDGE_USERS>,
+           <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_BLUERIDGE_USERS>
+List-Unsubscribe: <mailto:ARC_BLUERIDGE_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_BLUERIDGE_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_BLUERIDGE_USERS-request@LISTSERV.VT.EDU>
+List-Archive: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_BLUERIDGE_USERS>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e011849d484b5d8051d285161
+Content-Type: text/plain; charset=UTF-8
+
+All,
+
+A few days ago, $ARCHIVE was unmounted from the blueridge login nodes as
+the storage system was still experiencing some instability.  The filesystem
+has been remounted.  Please let us know if you experience problems.
+
+
+Thank you,
+Brian Marshall
+ARC
+
+--089e011849d484b5d8051d285161
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">All,<div><br></div><div>A few days ago, $ARCHIVE was unmou=
+nted from the blueridge login nodes as the storage system was still experie=
+ncing some instability.=C2=A0 The filesystem has been remounted.=C2=A0 Plea=
+se let us know if you experience problems.</div><div><br></div><div><br></d=
+iv><div>Thank you,</div><div>Brian Marshall</div><div>ARC</div></div>
+
+--089e011849d484b5d8051d285161--

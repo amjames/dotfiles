@@ -1,0 +1,640 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp985127qgf;
+        Sun, 12 Apr 2015 10:38:23 -0700 (PDT)
+X-Received: by 10.55.19.160 with SMTP id 32mr21874117qkt.24.1428860303709;
+        Sun, 12 Apr 2015 10:38:23 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id b30si2141243qga.95.2015.04.12.10.38.23
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Apr 2015 10:38:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) client-ip=209.85.213.178;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f178.google.com (mail-ig0-f178.google.com [209.85.213.178])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3CHcG3B001479
+	for <amjames2@vt.edu>; Sun, 12 Apr 2015 13:38:22 -0400
+Received: by igbqf9 with SMTP id qf9so29244622igb.1
+        for <amjames2@vt.edu>; Sun, 12 Apr 2015 10:38:16 -0700 (PDT)
+X-Received: by 10.107.152.211 with SMTP id a202mr15791460ioe.59.1428860296744;
+        Sun, 12 Apr 2015 10:38:16 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.126.133 with SMTP id my5csp849216ieb;
+        Sun, 12 Apr 2015 10:38:16 -0700 (PDT)
+X-Received: by 10.140.150.19 with SMTP id 19mr13895600qhw.69.1428860295423;
+        Sun, 12 Apr 2015 10:38:15 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 198si8174831qhb.33.2015.04.12.10.38.15
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Apr 2015 10:38:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:277:40de:506c])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3CHcEKl007775
+	for <andrew.m.james2@gmail.com>; Sun, 12 Apr 2015 13:38:14 -0400
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3CHc9Ps002311
+	for <andrew.m.james2@gmail.com>; Sun, 12 Apr 2015 13:38:14 -0400
+Received: by iebrs15 with SMTP id rs15so49644596ieb.3
+        for <andrew.m.james2@gmail.com>; Sun, 12 Apr 2015 10:38:08 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=LWYKTilh31LmNo6tFbh8qfgUNzly4uDFZJSi5D3sa4w=;
+        b=inE69c/lAYnz4/D7nDCNcIFH1uIfJ2vQ5wXpMV2aK0RmCfToAHQGgqSvfQj4hs4s45
+         rIKIxZwjI/gD47+aDRpzCLRX8BNf4KdHb4588xrRvsnPUhpgjAviIkbNSAal6WO1FTvI
+         Y3oO0Jnzy8NKCWgH+bb4mqEND9FbJqcjA0cFcR2sA95KO3D2Q8dqvItmq91IFZaTLv50
+         +lxl5v7wKQsOOmUn/Mt9PfWpNA7eh638EWGQrgANAL1sCamgHssmpkZhTgEhee32PA++
+         L8gDPvZ608OwBFdbnwZI3YoqNOz0KwvOxdDy3VoevkWfaC6CuFmQEbFBRZfA7wUdFHYa
+         R+9g==
+X-Gm-Message-State: ALoCoQkYZ6a3cyO5exkjN/LYlVRnQ1uSgGMEYmB4A4gVDPsxBlcdempD5M4U6PMbugrxZJlNSpUGlBWGe4AdrxtoGF6nuDm71nmFmyn2vvNcHnWuGPS+2YZBZTN75ZL8wqJcs/sfQn+iH/ryIZSwkuWDh6on6dsBbQ==
+X-Received: by 10.42.82.199 with SMTP id e7mr14617231icl.18.1428860288871;
+        Sun, 12 Apr 2015 10:38:08 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.82.199 with SMTP id e7mr14617220icl.18.1428860288703;
+ Sun, 12 Apr 2015 10:38:08 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Sun, 12 Apr 2015 10:38:08 -0700 (PDT)
+In-Reply-To: <55284C21.5070300@univie.ac.at>
+References: <CAH0V_1a0S8F-kas-HPcxugkMFQWXRtE6yCQnY52062hJt7A5dQ@mail.gmail.com>
+	<55282638.2050303@univie.ac.at>
+	<CAH0V_1a0pRigZ6F5p0zP-fTTt+3SkLiH-eBDDc+RQrnuQefRAw@mail.gmail.com>
+	<55283673.9020903@univie.ac.at>
+	<CAH0V_1Yop-434namTRpB2TE_YAZEmDh+qn_uxMk-_FFGd_pknA@mail.gmail.com>
+	<552837A2.9010809@univie.ac.at>
+	<CAH0V_1ZmFsQrUWDcOui3ZHdk8t99cV68Q0V1G9LNyGQeRoPRKg@mail.gmail.com>
+	<55284C21.5070300@univie.ac.at>
+Date: Sun, 12 Apr 2015 13:38:08 -0400
+Message-ID: <CAH0V_1a=mTK5KtGxNULAC+ng_ccO6Kd9PPdOE3UTRC8sZocjgg@mail.gmail.com>
+Subject: Re: Active space question
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Hans Lischka <hans.lischka@univie.ac.at>
+Cc: Anita Das <anitadas.chem@gmail.com>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=20cf30334657f1233a05138a752f
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--20cf30334657f1233a05138a752f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+We'll see what we can do.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Apr 10, 2015 at 6:18 PM, Hans Lischka <hans.lischka@univie.ac.at>
+wrote:
+
+>  We will check our calculations. Could you do calculations including sigm=
+a
+> orbitals in order to check?
+>
+>
+> On 4/10/2015 4:02 PM, T. Daniel Crawford wrote:
+>
+> Well, this is the heart of what concerns me.  Again, consider the
+> phenalenyl radical as an example.  A H=C3=BCckel-type analysis suggests t=
+hat
+> there should be 13 pi MOs: six doubly occupied, one singly occupied, and
+> six unoccupied.  Initially I thought we should use that entire space for
+> our CC computations, but freeze everything else.  However, the ROHF and U=
+HF
+> MO energies for the HOMO-5 (active) and HOMO-6 (frozen) are nearly
+> identical, which suggests that the partitioning between pi and sigma is n=
+ot
+> so clear.  I'm not sure it would be reasonable to trust such a computatio=
+n.
+>
+>  -Daniel
+>
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Fri, Apr 10, 2015 at 4:50 PM, Hans Lischka <hans.lischka@univie.ac.at>
+> wrote:
+>
+>>  We only freeze the sigma system. All pi electrons/orbitals are included
+>> in the AQCC calculation. The pi-orbitals which are not active are doubly
+>> occupied in the reference wavefunction, but they are included in the
+>> generation of all singles and doubles.
+>> Thus, I thought you will do the analogous procedure: to include all pi
+>> electrons and pi-orbitals in the CC calculation, correct?
+>>
+>>
+>> On 4/10/2015 3:47 PM, T. Daniel Crawford wrote:
+>>
+>> We just need to select the appropriate orbitals to freeze.
+>>
+>>  -Daniel
+>>
+>>  --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Fri, Apr 10, 2015 at 4:45 PM, Hans Lischka <hans.lischka@univie.ac.at=
+>
+>> wrote:
+>>
+>>>  Daniel,
+>>>
+>>> I just wonder, where do you need the active space structure in your CC
+>>> calculations?
+>>>
+>>>
+>>> On 4/10/2015 3:22 PM, T. Daniel Crawford wrote:
+>>>
+>>> Thanks, Hans!  We're going to follow the same active space structure
+>>> Anita has in her computations.
+>>>
+>>>  Best regards,
+>>>
+>>>  -Daniel
+>>>
+>>>  --
+>>> Prof. T. Daniel Crawford
+>>> crawdad@vt.edu
+>>>
+>>> On Fri, Apr 10, 2015 at 3:36 PM, Hans Lischka <hans.lischka@univie.ac.a=
+t
+>>> > wrote:
+>>>
+>>>>  Dear Daniel,
+>>>>
+>>>> It is good to hear about your progress.
+>>>> Our procedure concerning the active orbitals for the CASSCF is a
+>>>> pragmatic one. First of all, the CASSCF calculation does not stand alo=
+ne,
+>>>> it is only meant to provide appropriate orbitals for the subsequent MR=
+CI
+>>>> and MR-AQCC calculations. The CAS space increases exponentially and ve=
+ry
+>>>> soon gets out of hand. At the MRCI and MR-AQCC all orbitals not frozen=
+ are
+>>>> correlated, with the AQCC calculation even higher (quadruple) excitati=
+ons
+>>>> included explicitly. Thus, our focus is more on the construction of th=
+e
+>>>> reference space for MR-AQCC than having an extensive CASSCF space. For=
+ the
+>>>> choice of the reference space NO occupations of test AQCC calculations=
+ and
+>>>> the analysis of the major contributions to the wavefunction were used.=
+  We
+>>>> have a occupation threshold of ~0.05-0.1 e. Orbitals for which the NO
+>>>> occupation deviates  from 2 and 0, respectively,  more than that are
+>>>> included into the active space. Anita also looked at DFT orbital energ=
+ies,
+>>>> to my knowledge.  She can give more information when needed. Another p=
+oint
+>>>> was that the non-Kekule systems have D3h symmetry and we can use only =
+C2v.
+>>>> Thus, we do not have good control over degenerate orbitals. Thus, some=
+times
+>>>> a bit of experimenting was necessary in order to balance the choice of
+>>>> orbitals and not to let one degenerate component in the active space a=
+nd
+>>>> the other one in the virtual space.
+>>>>
+>>>> The size of 7 orbitals is certainly not a hard limit, it was chosen ou=
+t
+>>>> of convenience. I am even not sure at the moment whether all cases
+>>>> calculated have the same CAS size at CASSCF level. As I said before, i=
+t is
+>>>> more the choice of the reference space for the AQCC calculation which =
+is
+>>>> important for us.
+>>>>
+>>>> Please let me know whether you have more questions.
+>>>>
+>>>> Best regards, Hans
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> On 4/10/2015 10:20 AM, T. Daniel Crawford wrote:
+>>>>
+>>>> Dear Hans and Anita,
+>>>>
+>>>>  We've debugged some problems with frozen virtual spaces in our CC
+>>>> codes, and we can now compute the natural orbital occupations.  AJ is
+>>>> putting some last touches on the code, and we should then be able to g=
+et
+>>>> you the data quickly.
+>>>>
+>>>>  In the meantime, I have a question about the choice of active spaces
+>>>> for these systems.  From the material that Anita provided, it's clear =
+that
+>>>> you've decided not to include the entire =CF=80-MO space in these syst=
+ems.  For
+>>>> example, for phenalenyl, the full =CF=80 space would be 13 orbitals.  =
+However,
+>>>> your CASSCF calculations limited the space only to seven MOs.  From lo=
+oking
+>>>> at the ROHF or UHF orbital energies for that system, I can see why thi=
+s
+>>>> would be a good idea, as those seven MOs have rather isolated energies
+>>>> (more than 0.1 Eh away from their nearest energetic neighbors).
+>>>> Furthermore, I note that including the full 13 =CF=80 MOs results excl=
+udes an
+>>>> occupied MO that is quite close in energy to one of the "=CF=80" MOs c=
+hosen.  I
+>>>> don't know what this MO is (I haven't plotted them), but that split
+>>>> wouldn't make sense.
+>>>>
+>>>>  My question in the end is simple: is there a reason to limit the
+>>>> active space to seven MOs apart from the energy separation issue and t=
+he
+>>>> computational expense?
+>>>>
+>>>>  Best regards,
+>>>>
+>>>>  -Daniel
+>>>>
+>>>>  --
+>>>> Prof. T. Daniel Crawford
+>>>> crawdad@vt.edu
+>>>>
+>>>>
+>>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+--20cf30334657f1233a05138a752f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">We&#39;ll see what we can do.<div><br></div><div>-TDC</div=
+></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmai=
+l_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></=
+div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Apr 10, 2015 at 6:18 PM, Hans Lischk=
+a <span dir=3D"ltr">&lt;<a href=3D"mailto:hans.lischka@univie.ac.at" target=
+=3D"_blank">hans.lischka@univie.ac.at</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex">
+ =20
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF" text=3D"#000000">
+    We will check our calculations. Could you do calculations including
+    sigma orbitals in order to check?<div><div class=3D"h5"><br>
+    <br>
+    On 4/10/2015 4:02 PM, T. Daniel Crawford wrote:
+    <blockquote type=3D"cite">
+      <div dir=3D"ltr">Well, this is the heart of what concerns me.=C2=A0
+        Again, consider the phenalenyl radical as an example.=C2=A0 A
+        H=C3=BCckel-type analysis suggests that there should be 13 pi MOs:
+        six doubly occupied, one singly occupied, and six unoccupied.=C2=A0
+        Initially I thought we should use that entire space for our CC
+        computations, but freeze everything else.=C2=A0 However, the ROHF a=
+nd
+        UHF MO energies for the HOMO-5 (active) and HOMO-6 (frozen) are
+        nearly identical, which suggests that the partitioning between
+        pi and sigma is not so clear.=C2=A0 I&#39;m not sure it would be
+        reasonable to trust such a computation.
+        <div><br>
+        </div>
+        <div>-Daniel</div>
+      </div>
+      <div class=3D"gmail_extra"><br clear=3D"all">
+        <div>
+          <div>
+            <div dir=3D"ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">craw=
+dad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class=3D"gmail_quote">On Fri, Apr 10, 2015 at 4:50 PM, Hans
+          Lischka <span dir=3D"ltr">&lt;<a href=3D"mailto:hans.lischka@univ=
+ie.ac.at" target=3D"_blank">hans.lischka@univie.ac.at</a>&gt;</span>
+          wrote:<br>
+          <blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex">
+            <div bgcolor=3D"#FFFFFF" text=3D"#000000"> We only freeze the
+              sigma system. All pi electrons/orbitals are included in
+              the AQCC calculation. The pi-orbitals which are not active
+              are doubly occupied in the reference wavefunction, but
+              they are included in the generation of all singles and
+              doubles.<br>
+              Thus, I thought you will do the analogous procedure: to
+              include all pi electrons and pi-orbitals in the CC
+              calculation, correct?
+              <div>
+                <div><br>
+                  <br>
+                  On 4/10/2015 3:47 PM, T. Daniel Crawford wrote:
+                  <blockquote type=3D"cite">
+                    <div dir=3D"ltr">We just need to select the
+                      appropriate orbitals to freeze. =C2=A0
+                      <div><br>
+                      </div>
+                      <div>-Daniel</div>
+                    </div>
+                    <div class=3D"gmail_extra"><br clear=3D"all">
+                      <div>
+                        <div>
+                          <div dir=3D"ltr">--
+                            <div>Prof. T. Daniel Crawford</div>
+                            <div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class=3D"gmail_quote">On Fri, Apr 10, 2015 at
+                        4:45 PM, Hans Lischka <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:hans.lischka@univie.ac.at" target=3D"_blank">hans.lischka@univie=
+.ac.at</a>&gt;</span>
+                        wrote:<br>
+                        <blockquote class=3D"gmail_quote" style=3D"margin:0=
+ 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                          <div bgcolor=3D"#FFFFFF" text=3D"#000000"> Daniel=
+,<br>
+                            <br>
+                            I just wonder, where do you need the active
+                            space structure in your CC calculations?
+                            <div>
+                              <div><br>
+                                <br>
+                                On 4/10/2015 3:22 PM, T. Daniel Crawford
+                                wrote:
+                                <blockquote type=3D"cite">
+                                  <div dir=3D"ltr">Thanks, Hans!=C2=A0 We&#=
+39;re
+                                    going to follow the same active
+                                    space structure Anita has in her
+                                    computations. =C2=A0
+                                    <div><br>
+                                    </div>
+                                    <div>Best regards,</div>
+                                    <div><br>
+                                    </div>
+                                    <div>-Daniel</div>
+                                  </div>
+                                  <div class=3D"gmail_extra"><br clear=3D"a=
+ll">
+                                    <div>
+                                      <div>
+                                        <div dir=3D"ltr">--
+                                          <div>Prof. T. Daniel Crawford</di=
+v>
+                                          <div><a href=3D"mailto:crawdad@vt=
+.edu" target=3D"_blank">crawdad@vt.edu</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class=3D"gmail_quote">On Fri, Apr
+                                      10, 2015 at 3:36 PM, Hans Lischka
+                                      <span dir=3D"ltr">&lt;<a href=3D"mail=
+to:hans.lischka@univie.ac.at" target=3D"_blank">hans.lischka@univie.ac.at</=
+a>&gt;</span>
+                                      wrote:<br>
+                                      <blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                                        <div bgcolor=3D"#FFFFFF" text=3D"#0=
+00000"> Dear Daniel,<br>
+                                          <br>
+                                          It is good to hear about your
+                                          progress.<br>
+                                          Our procedure concerning the
+                                          active orbitals for the CASSCF
+                                          is a pragmatic one. First of
+                                          all, the CASSCF calculation
+                                          does not stand alone, it is
+                                          only meant to provide
+                                          appropriate orbitals for the
+                                          subsequent MRCI and MR-AQCC
+                                          calculations. The CAS space
+                                          increases exponentially and
+                                          very soon gets out of hand. At
+                                          the MRCI and MR-AQCC all
+                                          orbitals not frozen are
+                                          correlated, with the AQCC
+                                          calculation even higher
+                                          (quadruple) excitations
+                                          included explicitly. Thus, our
+                                          focus is more on the
+                                          construction of the reference
+                                          space for MR-AQCC than having
+                                          an extensive CASSCF space. For
+                                          the choice of the reference
+                                          space NO occupations of test
+                                          AQCC calculations and the
+                                          analysis of the major
+                                          contributions to the
+                                          wavefunction were used.=C2=A0 We
+                                          have a occupation threshold of
+                                          ~0.05-0.1 e. Orbitals for
+                                          which the NO occupation
+                                          deviates=C2=A0 from 2 and 0,
+                                          respectively,=C2=A0 more than tha=
+t
+                                          are included into the active
+                                          space. Anita also looked at
+                                          DFT orbital energies, to my
+                                          knowledge.=C2=A0 She can give mor=
+e
+                                          information when needed.
+                                          Another point was that the
+                                          non-Kekule systems have D3h
+                                          symmetry and we can use only
+                                          C2v. Thus, we do not have good
+                                          control over degenerate
+                                          orbitals. Thus, sometimes a
+                                          bit of experimenting was
+                                          necessary in order to balance
+                                          the choice of orbitals and not
+                                          to let one degenerate
+                                          component in the active space
+                                          and the other one in the
+                                          virtual space.<br>
+                                          <br>
+                                          The size of 7 orbitals is
+                                          certainly not a hard limit, it
+                                          was chosen out of convenience.
+                                          I am even not sure at the
+                                          moment whether all cases
+                                          calculated have the same CAS
+                                          size at CASSCF level. As I
+                                          said before, it is more the
+                                          choice of the reference space
+                                          for the AQCC calculation which
+                                          is important for us.<br>
+                                          <br>
+                                          Please let me know whether you
+                                          have more questions.<br>
+                                          <br>
+                                          Best regards, Hans
+                                          <div>
+                                            <div><br>
+                                              <br>
+                                              <br>
+                                              <br>
+                                              On 4/10/2015 10:20 AM, T.
+                                              Daniel Crawford wrote:
+                                              <blockquote type=3D"cite">
+                                                <div dir=3D"ltr">Dear Hans
+                                                  and Anita,
+                                                  <div><br>
+                                                  </div>
+                                                  <div>We&#39;ve debugged
+                                                    some problems with
+                                                    frozen virtual
+                                                    spaces in our CC
+                                                    codes, and we can
+                                                    now compute the
+                                                    natural orbital
+                                                    occupations.=C2=A0 AJ i=
+s
+                                                    putting some last
+                                                    touches on the code,
+                                                    and we should then
+                                                    be able to get you
+                                                    the data quickly. =C2=
+=A0</div>
+                                                  <div><br>
+                                                  </div>
+                                                  <div>In the meantime,
+                                                    I have a question
+                                                    about the choice of
+                                                    active spaces for
+                                                    these systems.=C2=A0 Fr=
+om
+                                                    the material that
+                                                    Anita provided, it&#39;=
+s
+                                                    clear that you&#39;ve
+                                                    decided not to
+                                                    include the entire
+                                                    =CF=80-MO space in thes=
+e
+                                                    systems.=C2=A0 For
+                                                    example, for
+                                                    phenalenyl, the full
+                                                    =CF=80 space would be 1=
+3
+                                                    orbitals.=C2=A0 However=
+,
+                                                    your CASSCF
+                                                    calculations limited
+                                                    the space only to
+                                                    seven MOs.=C2=A0 From
+                                                    looking at the ROHF
+                                                    or UHF orbital
+                                                    energies for that
+                                                    system, I can see
+                                                    why this would be a
+                                                    good idea, as those
+                                                    seven MOs have
+                                                    rather isolated
+                                                    energies (more than
+                                                    0.1 Eh away from
+                                                    their nearest
+                                                    energetic
+                                                    neighbors).=C2=A0
+                                                    Furthermore, I note
+                                                    that including the
+                                                    full 13 =CF=80 MOs
+                                                    results excludes an
+                                                    occupied MO that is
+                                                    quite close in
+                                                    energy to one of the
+                                                    &quot;=CF=80&quot; MOs =
+chosen.=C2=A0 I
+                                                    don&#39;t know what thi=
+s
+                                                    MO is (I haven&#39;t
+                                                    plotted them), but
+                                                    that split wouldn&#39;t
+                                                    make sense.<br>
+                                                  </div>
+                                                  <div><br>
+                                                  </div>
+                                                  <div>My question in
+                                                    the end is simple:
+                                                    is there a reason to
+                                                    limit the active
+                                                    space to seven MOs
+                                                    apart from the
+                                                    energy separation
+                                                    issue and the
+                                                    computational
+                                                    expense?</div>
+                                                  <div><br>
+                                                  </div>
+                                                  <div>Best regards,</div>
+                                                  <div><br>
+                                                  </div>
+                                                  <div>-Daniel</div>
+                                                  <div><br clear=3D"all">
+                                                    <div>
+                                                      <div>
+                                                        <div dir=3D"ltr">--
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          <div><a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </blockquote>
+                                              <br>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </blockquote>
+                                    </div>
+                                    <br>
+                                  </div>
+                                </blockquote>
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <br>
+                    </div>
+                  </blockquote>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </div></div></div>
+
+</blockquote></div><br></div>
+
+--20cf30334657f1233a05138a752f--

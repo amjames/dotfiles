@@ -1,0 +1,208 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp839555qgt;
+        Wed, 17 Jun 2015 15:54:43 -0700 (PDT)
+X-Received: by 10.55.15.168 with SMTP id 40mr18318512qkp.25.1434581683213;
+        Wed, 17 Jun 2015 15:54:43 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 184si5967822qhy.54.2015.06.17.15.54.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 15:54:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.173 as permitted sender) client-ip=209.85.213.173;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.173 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f173.google.com (mail-ig0-f173.google.com [209.85.213.173])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5HMsbP2009374
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 18:54:42 -0400
+Received: by igboe5 with SMTP id oe5so5109867igb.1
+        for <amjames2@vt.edu>; Wed, 17 Jun 2015 15:54:37 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=n9mDn9XeByLxfRFOet4/CEIgQ8syuA8sCvJZ/4eRQGE=;
+        b=iQlVYC2xUaSpD1JL5U/CK3xDKm7J8SgMjV0T10rBQVEkZ5w6d907FICzb2Lx29gG1u
+         2pYcCrD8KKKE/bg2RbHUVf3ISZv6Fg+oY2K4MmDHgUDP5pyE0YhE0iOOmZ5MIxmOye7r
+         a27mJismrSOYTN6K7zj2yBKAXtOU0m/nOeJRZITk0dAxCJHzc/TZFKol0rPaYKFwiDRE
+         txIJl2GSo9uRpd1KwSvt/FRSiUIAas4WOW8Mm+C2kLoY+b/06F+++Xl8JGTSpcBw4+6W
+         KF/UVmJG8Ubfd82kTYBNwVeC5e/liBoJ0QvHeK9BXuwPMU3Ojng9rJj3BIxYfIZUq3jv
+         RuBA==
+X-Gm-Message-State: ALoCoQlKq3WFk/Iq3ARV+DhwkaUweBIWKwJIxqikRD2nJQ956dljC3HgMNegGlLpghiR6xdlh/RBLuT/LAD9ipYpSUpkofhKTKBRnRPXGxCInNScB98bonpW/sB7+u6lCKVeL9BMx/1QghbtohSTQTFFBng3renItg==
+X-Received: by 10.50.30.196 with SMTP id u4mr14395548igh.11.1434581677307;
+        Wed, 17 Jun 2015 15:54:37 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.30.196 with SMTP id u4mr14395534igh.11.1434581677106;
+ Wed, 17 Jun 2015 15:54:37 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Wed, 17 Jun 2015 15:54:37 -0700 (PDT)
+In-Reply-To: <37D8DBD4-53B4-4A88-9B01-8F82163B189D@vt.edu>
+References: <37D8DBD4-53B4-4A88-9B01-8F82163B189D@vt.edu>
+Date: Wed, 17 Jun 2015 17:54:37 -0500
+Message-ID: <CAH0V_1Z-G_mRfVewbNa1hUJbiX0xV9TKUZzx4VbhoUYJPdZZHQ@mail.gmail.com>
+Subject: Re: Software Summer School Website Updates
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bdc11bc4402e60518be9316
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bdc11bc4402e60518be9316
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I can't see the website yet because I can't clone your repo (my connection
+is too slow), so go ahead and upload it, and I'll just examine the site
+directly.
+
+You draft message looks fine.  Two changes: (1) "There are also
+instructions..." (2) Send a link to the SSS main page so the students can
+see your changes.   Otherwise it's fine so go ahead and send.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Jun 17, 2015 at 2:56 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hi Dr. Crawford,
+>
+> I have finished updating the SSS webpage. I have added information about
+> check-in and arrivals under the students tab, as well as a neat map of
+> campus. I also added the daily schedule breakdown, and some more specific=
+s
+> about social activities to the agenda page.  I added a resources tab, whe=
+re
+> I mention that students need their laptops, and to register for a guest
+> wireless account (with instructions on how to do so). I included a link t=
+o
+> the github, SWC=E2=80=99s setup instructions, and info about blue ridge a=
+nd the
+> module system under the Resources tab. The site is too big for me to just
+> ship (even as a tarball), so I pushed it to this github repo. If you like
+> the changes/are okay with everything I will send it up to the web server.
+>
+> git@github.com:amjames/School_website.git
+>
+> I was going to send a =E2=80=9Cpreparing for the school=E2=80=9D email to=
+ all of the
+> students at the same time. I have a draft for you to look over below. It =
+is
+> brief since I have so much on the website.
+> Note: The email links to parts of the website that aren=E2=80=99t up yet,=
+ but they
+> are in the git repo.
+>
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+> >Subject: Preparing for the 2015 Software Summer School
+>
+> Hello,
+>
+> The Software Summer School is only a few days away, and as you get ready
+> to come to Blacksburg we want to share a few details with you.
+>
+> *Check-in and Wireless access:*
+> Arrival and check-in information has been added to the school website
+> under =E2=80=9CStudents=E2=80=9D.  There is also instructions for setting=
+ up a guest
+> wireless account which should be completed ASAP. Please remember that the
+> course will involve hands-on examples, so everyone will need a laptop,
+> charger, and internet connection!
+>
+> *School Resources:*
+> We have also added some materials for the School itself under =E2=80=9CRe=
+sources=E2=80=9D (
+> http://www.s2i2.org/school_2015/resources.html).  In particular Software
+> Carpentry has prepared specific setup instructions that are available her=
+e
+> (also linked on the website):
+> http://guyrt.github.io/2015-06-21-s2i2/
+>
+> If you have any questions you can send me an email.
+> We are looking forward to your arrival!
+>
+>
+> Andrew M James
+> Summer School Coordinator
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+>
+> Let me know what you think.
+>
+> =E2=80=94AJ
+>
+>
+>
+>
+
+--047d7bdc11bc4402e60518be9316
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I can&#39;t see the website yet because I can&#39;t clone =
+your repo (my connection is too slow), so go ahead and upload it, and I&#39=
+;ll just examine the site directly. =C2=A0<div><br></div><div>You draft mes=
+sage looks fine.=C2=A0 Two changes: (1) &quot;There are also instructions..=
+.&quot; (2) Send a link to the SSS main page so the students can see your c=
+hanges. =C2=A0 Otherwise it&#39;s fine so go ahead and send.</div><div><br>=
+</div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><di=
+v><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Cr=
+awford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawda=
+d@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jun 17, 2015 at 2:56 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+div style=3D"word-wrap:break-word">Hi Dr. Crawford,=C2=A0<div><br></div><di=
+v>I have finished updating the SSS webpage. I have added information about =
+check-in and arrivals under the students tab, as well as a neat map of camp=
+us. I also added the daily schedule breakdown, and some more specifics abou=
+t social activities to the agenda page.=C2=A0 I added a resources tab, wher=
+e I mention that students need their laptops, and to register for a guest w=
+ireless account (with instructions on how to do so). I included a link to t=
+he github, SWC=E2=80=99s setup instructions, and info about blue ridge and =
+the module system under the Resources tab. The site is too big for me to ju=
+st ship (even as a tarball), so I pushed it to this github repo. If you lik=
+e the changes/are okay with everything I will send it up to the web server.=
+=C2=A0</div><div><br></div><div>git@github.com:amjames/School_website.git</=
+div><div><br></div><div>I was going to send a =E2=80=9Cpreparing for the sc=
+hool=E2=80=9D email to all of the students at the same time. I have a draft=
+ for you to look over below. It is brief since I have so much on the websit=
+e.</div><div>Note: The email links to parts of the website that aren=E2=80=
+=99t up yet, but they are in the git repo.</div><div><br></div><blockquote =
+style=3D"margin:0 0 0 40px;border:none;padding:0px"><div>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div>=
+<div>&gt;Subject: Preparing for the 2015 Software Summer School</div><div><=
+br></div><div>Hello,</div><div><br></div><div>The Software Summer School is=
+ only a few days away, and as you get ready to come to Blacksburg we want t=
+o share a few details with you. =C2=A0</div><div><br></div><div><b><u>Check=
+-in and Wireless access:</u></b></div><div>Arrival and check-in information=
+ has been added to the school website under =E2=80=9CStudents=E2=80=9D.=C2=
+=A0 There is also instructions for setting up a guest wireless account whic=
+h should be completed ASAP. Please remember that the course will involve ha=
+nds-on examples, so everyone will need a laptop, charger, and internet conn=
+ection!</div><div><br></div><div><b><u>School Resources:</u></b></div><div>=
+We have also added some materials for the School itself under =E2=80=9CReso=
+urces=E2=80=9D (<a href=3D"http://www.s2i2.org/school_2015/resources.html" =
+target=3D"_blank">http://www.s2i2.org/school_2015/resources.html</a>).=C2=
+=A0 In particular Software Carpentry has prepared specific setup instructio=
+ns that are available here (also linked on the website):</div><div><a href=
+=3D"http://guyrt.github.io/2015-06-21-s2i2/" target=3D"_blank">http://guyrt=
+.github.io/2015-06-21-s2i2/</a></div><div><br></div><div>If you have any qu=
+estions you can send me an email.</div><div>We are looking forward to your =
+arrival!</div><div><br></div><div><br></div><div>Andrew M James=C2=A0</div>=
+<div>Summer School Coordinator=C2=A0</div><div>=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div></blockqu=
+ote><div>Let me know what you think.</div><span class=3D"HOEnZb"><font colo=
+r=3D"#888888"><div><br></div><div>=E2=80=94AJ</div><div><br></div><div><br>=
+</div><div>=C2=A0=C2=A0</div></font></span></div></blockquote></div><br></d=
+iv>
+
+--047d7bdc11bc4402e60518be9316--

@@ -1,0 +1,93 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1142011qgt;
+        Thu, 13 Aug 2015 14:04:22 -0700 (PDT)
+X-Received: by 10.141.28.2 with SMTP id f2mr77077506qhe.9.1439499862781;
+        Thu, 13 Aug 2015 14:04:22 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id i101si5869456qkh.28.2015.08.13.14.04.22
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Aug 2015 14:04:22 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7DL4F7c001900
+	for <amjames2@vt.edu>; Thu, 13 Aug 2015 17:04:21 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=ai+enkFbNZQn5pbdt7LDCSCeZOg=; b=um9U1BP5zpGqM6GI
+	yV+7unqab6h7ma8Lo0cPt3AVgRdL/jkBb5NsiMcH5hDYWlTBNpnTJwxAN8FwEABL
+	Z5hbzKNsU+b8jpzPTn3bOWx4G/K2CHWS7cgZuEtkbmZxdbuzRMGTpkfkKkAAsK/h
+	hUdv0H+KU/YcEaL1PLUSPpz+abY=
+Received: by filter0468p1mdw1.sendgrid.net with SMTP id filter0468p1mdw1.32444.55CD064E1F
+        2015-08-13 21:04:14.525744531 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0005p1iad1.sendgrid.net (SG) with ESMTP id ifs-709nRWiwo2UItui1xQ
+	for <amjames2@vt.edu>; Thu, 13 Aug 2015 21:04:14 +0000 (UTC)
+Date: Thu, 13 Aug 2015 14:04:14 -0700
+From: Rob Parrish <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642a8fce1c708399b4498cc1830a2a5542f67684bf092cf0000000111e4c84e92a169ce05acd8a9@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/119/130844551@github.com>
+In-Reply-To: <psi4/psi4public/issues/119@github.com>
+References: <psi4/psi4public/issues/119@github.com>
+Subject: Re: [psi4public] DF-MP2 crashes if given more than 30GB of memory
+ (maybe) (#119)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55cd064e5ff1e_7b383fe0a21df2a01127fd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: robparrish
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642a8fce1c708399b4498cc1830a2a5542f67684bf092cf0000000111e4c84e92a169ce05acd8a9@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642a8fce1c708399b4498cc1830a2a5542f67684bf092cf0000000111e4c84e92a169ce05acd8a9@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QlBv7sEY29wv6d9iMUDV9Zx3thNJks5onP3OgaJpZM4FZIa->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Il+e3LUrOuwIFjOlNG8WPZUzRg4p1bv5s8Z0X
+ Nk4WYc9ys4GVaTeJdcO9ty4yORxKCVx9uNg55XcVrOVmwmKJWs+8aOF/6tF9VsWtoAhVUbHx7cs06g
+ BJAHuG8zbqDiRak=
+X-Spam-Status: No, score=1.7 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_08,HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.4.0
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55cd064e5ff1e_7b383fe0a21df2a01127fd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Daniel, you have the original tgz? Trying to replicate. 
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/119#issuecomment-130844551
+----==_mimepart_55cd064e5ff1e_7b383fe0a21df2a01127fd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Daniel, you have the original tgz? Trying to replicate. </p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/119#issuecomment-130844551">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QkAAvUgDHxYXlY7DuaGblKIXLCqeks5onP3OgaJpZM4FZIa-.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/119#issuecomment-130844551"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55cd064e5ff1e_7b383fe0a21df2a01127fd--

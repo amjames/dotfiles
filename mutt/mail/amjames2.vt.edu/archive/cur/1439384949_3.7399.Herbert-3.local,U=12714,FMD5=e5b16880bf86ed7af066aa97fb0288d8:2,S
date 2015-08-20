@@ -1,0 +1,94 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2756203qgt;
+        Tue, 11 Aug 2015 16:59:51 -0700 (PDT)
+X-Received: by 10.55.31.211 with SMTP id n80mr54179532qkh.28.1439337591304;
+        Tue, 11 Aug 2015 16:59:51 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id g9si6692140qgf.41.2015.08.11.16.50.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 16:59:51 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) client-ip=192.254.112.99;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BNmhuE024332
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 19:48:49 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=uGnlqzlPdXeSjNvYBE5C/O2ru/4=; b=NeGjD5JYWhgV1e2C
+	jD5IDNzOgtbzsI8UREXKBsi+oaJCpm2+9tEGDV46E/0hYIqvMsMkRCPBczdZ2Txy
+	GROXNnNPk/zXsE6UsVPXF8MoZcKmruL7SpJtvhQd2auWEZcx5p7CY76he564+bYa
+	Ri46UzGF8HDoT2OgaQ7PZF2ihWM=
+Received: by filter-325.sjc1.sendgrid.net with SMTP id filter-325.8628.55CA892C24
+        2015-08-11 23:45:48.558359324 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0002p1iad1.sendgrid.net (SG) with ESMTP id 2jhGcuaRQ9WM5w7tps7E8g
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 23:45:48 +0000 (UTC)
+Date: Tue, 11 Aug 2015 16:45:48 -0700
+From: "Robert T. McGibbon" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642068cb2bd07142e45b73b12b9539c0d6852f5c47192cf0000000111e24b2c92a169ce05fc8800@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/161@github.com>
+Subject: [psi4public] Trouble getting files copied to CMAKE_INSTALL_PREFIX
+ (#161)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca892c186db_3ab3fc868f932b832872";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: rmcgibbo
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642068cb2bd07142e45b73b12b9539c0d6852f5c47192cf0000000111e24b2c92a169ce05fc8800@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642068cb2bd07142e45b73b12b9539c0d6852f5c47192cf0000000111e24b2c92a169ce05fc8800@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QvN53qAq7EY7r_faOJm7IERNMJthks5omoCsgaJpZM4Fp3am>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkpoEQqTixZaQ4N0Z+QHPrvJjP8HVYn4ksWvP
+ gFZW0/Jf2jmcDHMB9QXSHkzrE4AaBge0YBUeKnt2O0kQAfWEXddRFNQhA5mCrZf+q3BUMNnX9SL5/J
+ 6buhQTF+iVWgvP8=
+X-Spam-Status: No, score=-1.6 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ca892c186db_3ab3fc868f932b832872
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I'm having trouble getting everything copied into the install location. I generally configure with `mkdir build; cd build; ccmake ..;`, and then customize the CMAKE_INSTALL_PREFIX and other options from the curses gui. I think maybe `CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT` doesn't get updated here: https://github.com/psi4/psi4public/blob/master/CMakeLists.txt#L103-L114
+
+What's the purpose of that section explicitly changing the install prefix?
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/161
+----==_mimepart_55ca892c186db_3ab3fc868f932b832872
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I'm having trouble getting everything copied into the install location. I generally configure with <code>mkdir build; cd build; ccmake ..;</code>, and then customize the CMAKE_INSTALL_PREFIX and other options from the curses gui. I think maybe <code>CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT</code> doesn't get updated here: <a href="https://github.com/psi4/psi4public/blob/master/CMakeLists.txt#L103-L114">https://github.com/psi4/psi4public/blob/master/CMakeLists.txt#L103-L114</a></p>
+
+<p>What's the purpose of that section explicitly changing the install prefix?</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/161">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qqg7N1LW_sSH1yYxl5zWOMjZvA_nks5omoCsgaJpZM4Fp3am.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/161"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ca892c186db_3ab3fc868f932b832872--

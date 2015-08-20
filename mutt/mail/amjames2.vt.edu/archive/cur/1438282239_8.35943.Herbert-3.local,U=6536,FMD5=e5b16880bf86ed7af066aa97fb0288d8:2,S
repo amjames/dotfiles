@@ -1,0 +1,149 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1668964qge;
+        Mon, 23 Mar 2015 08:00:35 -0700 (PDT)
+X-Received: by 10.140.231.75 with SMTP id b72mr121242181qhc.3.1427122834975;
+        Mon, 23 Mar 2015 08:00:34 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id a8si960726qce.17.2015.03.23.08.00.33
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Mar 2015 08:00:34 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2NF0QIl007573;
+	Mon, 23 Mar 2015 11:00:31 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NCGHri030532;
+	Mon, 23 Mar 2015 11:00:26 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98451751 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 23 Mar 2015 11:00:25
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NF0O0k014202
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+          Mon, 23 Mar 2015 11:00:24 -0400
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be
+          forged)) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2NF0JXd007186; Mon, 23 Mar 2015 11:00:24 -0400
+Received: from BELL.cc.w2k.vt.edu (198.82.160.7) by BRAILLE.cc.w2k.vt.edu
+          (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Mon,
+          23 Mar 2015 11:00:18 -0400
+Received: from BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109]) by
+          BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109%12]) with mapi id
+          15.00.0995.032; Mon, 23 Mar 2015 11:00:19 -0400
+Thread-Topic: Reminder: Graduate Seminar TODAY
+Thread-Index: AdBlefWy/HApZX4DT5+xrPftpavtLw==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.159.237]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrFqsTGxXIsaAG7bpOWQKjB2sfnDjNZdExZxeTAGMAQxZqZl5RfkcCa0fHJqeC7Q8XE1jdsDYwvbLsYuTiEBNYyShw5tJC1i5ETyNnOKHF6tQiIzSxgKnHlayMLhK0oceFeA5jNJqAkcXHOBGYQW0TAWuLWpB+sIIOYBToYJb5ems4OkhAW0JS4s3MtkM0BVKQn8XWWMUS9nkTX9V6wXSwCqhLLPs4Hm8kr4CjxctZcMJtRQEzi+6k1TBB7xSVuPZkPZksICEgs2XOeGcJWkui9/Q4q7i3x7thNqDmCEidnPmGBiJtJ7H2wBKpGV+LUiiWsEHagxI35FxlBTpMA+vHq+2CIsK3EnhkTmSDCzhLzbtRDhC0lrt56AzVRW2L7q31QU3QkNl1bBRWXl/h/7z6U7Syx5MpcdghbWeLH/01QdoDEoX1boXqLJW5/3sk+gVF1FlJAz0IK6FlInp+F5LEFjCyrGEWdghw9fXxc9ZKT9cqNsvXKSvRSU0o3MUKSAMcOxuXfnA8xSnIwKYnyblATCBXiS8pPqcxILM6ILyrNSS0+xCjBwaMkwrtUAyjHW1yQmFucmQ6TkuHgUJLg/acOlBIsSk1PrUjLzClJLYJIn2JUlBLnTQPpEwDpyyjNg8vBUuAlRlkpYV45RaAanoLUotzMElT5W4wcUlDmK0ZxDkYlYd5tIAN5MvNK4O54BXQiE9CJ5/L5QE4sSURISTUwrn735eO8Lzte77m/sMv+7DpP++PpK5dc134hGj93/yeBvJDTDoY7Nzit+JC17dQvn9tJdYG/zNtvb+oo6vF9qNOrFDJz0oxbE06tEPrp+LHsnvKc/PtXZsle2GY2a1tX/s4/Fm3/Qs8/en0+qEc59E5bV2TOjvWbXJL3r4/v3bTza55P1ZT98n+VWIozEg21mIuKEwFypWy4fQMAAA==
+Content-Type: multipart/alternative; boundary="_000_0c577ef722c748509514efb435ebc396BELLccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Message-ID:  <0c577ef722c748509514efb435ebc396@BELL.cc.w2k.vt.edu>
+Date:         Mon, 23 Mar 2015 15:00:18 +0000
+Reply-To: "Huynh, Joli" <jolih@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Huynh, Joli" <jolih@vt.edu>
+Subject: Reminder: Graduate Seminar TODAY
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_0c577ef722c748509514efb435ebc396BELLccw2kvtedu_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+R3JhZHVhdGUgc2VtaW5hcnMgYXJlICJyZXF1aXJlZCBhdHRlbmRhbmNlIiBmb3Igc3R1ZGVudHMg
+ZW5yb2xsZWQgaW4gQ0hFTSA1OTQ0IEdyYWR1YXRlIFNlbWluYXIgKGFuZCBmb3IgdGhlIEFkdmlz
+b3J5IENvbW1pdHRlZSBvZiB0aGUgc3R1ZGVudCBtYWtpbmcgdGhlIHByZXNlbnRhdGlvbikuICBU
+aGV5IGFyZSBvcHRpb25hbCBmb3IgZXZlcnlvbmUgZWxzZS4gIEFsbCBHcmFkdWF0ZSBTZW1pbmFy
+cyBhcmUgYXQgMzozMCBQTSBpbiBISE4gNDAyIHVubGVzcyBzcGVjaWZpZWQgb3RoZXJ3aXNlLg0K
+IOKAiw0KDQpVcGNvbWluZyBTZW1pbmFyOg0KDQoNCk1vbmRheSwgTWFyY2ggMjNyZA0KQWxleCBF
+YXRvbg0KS2luZ3N0b24gR3JvdXANCkhITiA0MDINCjM6MzAgUE0NCg0KDQpKb2xpIEh1eW5oDQpH
+cmFkdWF0ZSBDb29yZGluYXRvcg0KRGVwYXJ0bWVudCBvZiBDaGVtaXN0cnkNCjMwNiBIYWhuIEhh
+bGwgTm9ydGgNCk1haWwgQ29kZSAwMjEyDQpCbGFja3NidXJnLCBWQSAyNDA2MQ0KDQo1NDAtMjMx
+LTgyMjUNCg0KDQo=
+
+--_000_0c577ef722c748509514efb435ebc396BELLccw2kvtedu_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWwgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiIHhtbG5zOm89InVy
+bjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOm9mZmljZSIgeG1sbnM6dz0idXJuOnNjaGVt
+YXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6d29yZCIgeG1sbnM6bT0iaHR0cDovL3NjaGVtYXMubWlj
+cm9zb2Z0LmNvbS9vZmZpY2UvMjAwNC8xMi9vbW1sIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+VFIvUkVDLWh0bWw0MCI+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIg
+Y29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjxtZXRhIG5hbWU9IkdlbmVyYXRv
+ciIgY29udGVudD0iTWljcm9zb2Z0IFdvcmQgMTUgKGZpbHRlcmVkIG1lZGl1bSkiPg0KPHN0eWxl
+PjwhLS0NCi8qIEZvbnQgRGVmaW5pdGlvbnMgKi8NCkBmb250LWZhY2UNCgl7Zm9udC1mYW1pbHk6
+IkNhbWJyaWEgTWF0aCI7DQoJcGFub3NlLTE6MiA0IDUgMyA1IDQgNiAzIDIgNDt9DQpAZm9udC1m
+YWNlDQoJe2ZvbnQtZmFtaWx5OkNhbGlicmk7DQoJcGFub3NlLTE6MiAxNSA1IDIgMiAyIDQgMyAy
+IDQ7fQ0KLyogU3R5bGUgRGVmaW5pdGlvbnMgKi8NCnAuTXNvTm9ybWFsLCBsaS5Nc29Ob3JtYWws
+IGRpdi5Nc29Ob3JtYWwNCgl7bWFyZ2luOjBpbjsNCgltYXJnaW4tYm90dG9tOi4wMDAxcHQ7DQoJ
+Zm9udC1zaXplOjExLjBwdDsNCglmb250LWZhbWlseToiQ2FsaWJyaSIsc2Fucy1zZXJpZjt9DQph
+OmxpbmssIHNwYW4uTXNvSHlwZXJsaW5rDQoJe21zby1zdHlsZS1wcmlvcml0eTo5OTsNCgljb2xv
+cjojMDU2M0MxOw0KCXRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmU7fQ0KYTp2aXNpdGVkLCBzcGFu
+Lk1zb0h5cGVybGlua0ZvbGxvd2VkDQoJe21zby1zdHlsZS1wcmlvcml0eTo5OTsNCgljb2xvcjoj
+OTU0RjcyOw0KCXRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmU7fQ0KcA0KCXttc28tc3R5bGUtcHJp
+b3JpdHk6OTk7DQoJbWFyZ2luOjBpbjsNCgltYXJnaW4tYm90dG9tOi4wMDAxcHQ7DQoJZm9udC1z
+aXplOjEyLjBwdDsNCglmb250LWZhbWlseToiVGltZXMgTmV3IFJvbWFuIixzZXJpZjt9DQpzcGFu
+LkVtYWlsU3R5bGUxOA0KCXttc28tc3R5bGUtdHlwZTpwZXJzb25hbDsNCglmb250LWZhbWlseToi
+Q2FsaWJyaSIsc2Fucy1zZXJpZjsNCgljb2xvcjp3aW5kb3d0ZXh0O30NCnNwYW4uRW1haWxTdHls
+ZTE5DQoJe21zby1zdHlsZS10eXBlOnBlcnNvbmFsLXJlcGx5Ow0KCWZvbnQtZmFtaWx5OiJDYWxp
+YnJpIixzYW5zLXNlcmlmOw0KCWNvbG9yOiMxRjQ5N0Q7fQ0KLk1zb0NocERlZmF1bHQNCgl7bXNv
+LXN0eWxlLXR5cGU6ZXhwb3J0LW9ubHk7DQoJZm9udC1zaXplOjEwLjBwdDt9DQpAcGFnZSBXb3Jk
+U2VjdGlvbjENCgl7c2l6ZTo4LjVpbiAxMS4waW47DQoJbWFyZ2luOjEuMGluIDEuMGluIDEuMGlu
+IDEuMGluO30NCmRpdi5Xb3JkU2VjdGlvbjENCgl7cGFnZTpXb3JkU2VjdGlvbjE7fQ0KLS0+PC9z
+dHlsZT48IS0tW2lmIGd0ZSBtc28gOV0+PHhtbD4NCjxvOnNoYXBlZGVmYXVsdHMgdjpleHQ9ImVk
+aXQiIHNwaWRtYXg9IjEwMjYiIC8+DQo8L3htbD48IVtlbmRpZl0tLT48IS0tW2lmIGd0ZSBtc28g
+OV0+PHhtbD4NCjxvOnNoYXBlbGF5b3V0IHY6ZXh0PSJlZGl0Ij4NCjxvOmlkbWFwIHY6ZXh0PSJl
+ZGl0IiBkYXRhPSIxIiAvPg0KPC9vOnNoYXBlbGF5b3V0PjwveG1sPjwhW2VuZGlmXS0tPg0KPC9o
+ZWFkPg0KPGJvZHkgbGFuZz0iRU4tVVMiIGxpbms9IiMwNTYzQzEiIHZsaW5rPSIjOTU0RjcyIj4N
+CjxkaXYgY2xhc3M9IldvcmRTZWN0aW9uMSI+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBz
+dHlsZT0iY29sb3I6YmxhY2siPkdyYWR1YXRlIHNlbWluYXJzIGFyZSAmcXVvdDtyZXF1aXJlZCBh
+dHRlbmRhbmNlJnF1b3Q7IGZvciBzdHVkZW50cyBlbnJvbGxlZCBpbiBDSEVNIDU5NDQgR3JhZHVh
+dGUgU2VtaW5hciAoYW5kIGZvciB0aGUgQWR2aXNvcnkgQ29tbWl0dGVlIG9mIHRoZSBzdHVkZW50
+IG1ha2luZyB0aGUgcHJlc2VudGF0aW9uKS4gJm5ic3A7VGhleSBhcmUgb3B0aW9uYWwgZm9yIGV2
+ZXJ5b25lIGVsc2UuICZuYnNwO0FsbA0KIEdyYWR1YXRlIFNlbWluYXJzIGFyZSBhdCAzOjMwIFBN
+IGluIEhITiA0MDIgdW5sZXNzIHNwZWNpZmllZCBvdGhlcndpc2UuPC9zcGFuPjxzcGFuIHN0eWxl
+PSJmb250LXNpemU6MTIuMHB0O2NvbG9yOmJsYWNrIj48bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8
+cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBzdHlsZT0iY29sb3I6YmxhY2siPiZuYnNwO+KAizwv
+c3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6IzFGNDk3RCI+PG86cD48L286cD48L3NwYW4+PC9wPg0K
+PHA+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiZxdW90O0NhbGlicmkmcXVvdDssc2Fucy1zZXJp
+Zjtjb2xvcjpibGFjayI+VXBjb21pbmcgU2VtaW5hcjo8bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8
+cD48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6JnF1b3Q7Q2FsaWJyaSZxdW90OyxzYW5zLXNlcmlm
+O2NvbG9yOmJsYWNrIj48bzpwPiZuYnNwOzwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNv
+Tm9ybWFsIj5Nb25kYXksIE1hcmNoIDIzcmQ8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29O
+b3JtYWwiPkFsZXggRWF0b248bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPktp
+bmdzdG9uIEdyb3VwPG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5ISE4gNDAy
+PG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj4zOjMwIFBNPG86cD48L286cD48
+L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCjxwIGNsYXNz
+PSJNc29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+
+Sm9saSBIdXluaDxvOnA+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+R3JhZHVhdGUg
+Q29vcmRpbmF0b3I8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPkRlcGFydG1l
+bnQgb2YgQ2hlbWlzdHJ5PG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj4zMDYg
+SGFobiBIYWxsIE5vcnRoPG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5NYWls
+IENvZGUgMDIxMjxvOnA+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+QmxhY2tzYnVy
+ZywgVkEgMjQwNjE8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxvOnA+Jm5i
+c3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+NTQwLTIzMS04MjI1PG86cD48L286
+cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEwLjBw
+dDtmb250LWZhbWlseTomcXVvdDtBcmlhbCZxdW90OyxzYW5zLXNlcmlmIj4mbmJzcDs8L3NwYW4+
+PG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48bzpwPiZuYnNwOzwvbzpwPjwv
+cD4NCjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg0K
+
+--_000_0c577ef722c748509514efb435ebc396BELLccw2kvtedu_--

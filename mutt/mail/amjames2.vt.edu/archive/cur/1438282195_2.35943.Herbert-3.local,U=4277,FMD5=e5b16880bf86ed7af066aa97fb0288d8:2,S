@@ -1,0 +1,71 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp645008qge;
+        Mon, 2 Feb 2015 18:08:27 -0800 (PST)
+X-Received: by 10.229.35.74 with SMTP id o10mr4723513qcd.26.1422929306494;
+        Mon, 02 Feb 2015 18:08:26 -0800 (PST)
+Return-Path: <cduchane@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id dw1si26551077qcb.42.2015.02.02.18.08.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Feb 2015 18:08:26 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.44 as permitted sender) client-ip=209.85.213.44;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.44 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-yh0-f44.google.com (mail-yh0-f44.google.com [209.85.213.44])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1328KtD005788
+	for <amjames2@vt.edu>; Mon, 2 Feb 2015 21:08:26 -0500
+Received: by mail-yh0-f44.google.com with SMTP id i57so17392021yha.3
+        for <amjames2@vt.edu>; Mon, 02 Feb 2015 18:08:20 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :content-type;
+        bh=EDRwJgDD61nt8olxW+EK3rV4gNdYMfsNLaqSaJN7KtY=;
+        b=PYrBr9cknpTTmhLxp6UiUpNyRuCGINFDlt6jvhZyCFIdP18lQIgnI3aDTQZ7Uf4iPz
+         hk4PVn/oej4AWI9vDYYWIudfXSdncQ3XV179S3cB1rTsHDvE+R8nImaBuaRiyrFSn1Dr
+         X3yFC4tuQSJfzQasmqIecgw+JyLTb69b02Ibz0dDMJbN1tWowxuuLPGsl9juO7BVRrID
+         Fef6GXTYPk6DjjJIgA/pU5fqQyYxDKXOxETYu47V1SZfsvXPtxttZ1kkePS7LczFRapr
+         MuyokfR2Pf13QUyhitnVJpXkAgPekrTbZkIGoqv2AG1ePLb+mv1hrTqeueeGpWOhEkk6
+         VULw==
+X-Gm-Message-State: ALoCoQkut/C6BTVmLRjU2gqpIDV4pob1bKXpue6NbfgRynpDZrWOPKQv93pLmMklnBjawZp5fB13YlWH/urbILKlyABOXhytcQBPH7us7HXwwWjx5ZAP7Mt9Amr4/YkdSpbwv7gvarJOubse3JueXSdFb0iJC0xVCw==
+X-Received: by 10.236.11.162 with SMTP id 22mr9084401yhx.6.1422929300876;
+        Mon, 02 Feb 2015 18:08:20 -0800 (PST)
+X-Received: by 10.236.11.162 with SMTP id 22mr9084399yhx.6.1422929300785; Mon,
+ 02 Feb 2015 18:08:20 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.170.153.70 with HTTP; Mon, 2 Feb 2015 18:08:00 -0800 (PST)
+From: Christine Duchane <cduchane@vt.edu>
+Date: Mon, 2 Feb 2015 21:08:00 -0500
+Message-ID: <CAECk6+4hmqBr_g1r2UzPuH0LV8Tvk+HUj77DWeOWEuwUVnjoXg@mail.gmail.com>
+Subject: Townside properties
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1137f00883986d050e258bf3
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1137f00883986d050e258bf3
+Content-Type: text/plain; charset=UTF-8
+
+Hey,
+These guys have a ton of shit that looks promising, thought you might want
+to take a look. I'm gonna call tomorrow.
+
+
+https://www.townside.com/?page_id=492
+
+--001a1137f00883986d050e258bf3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hey,</div><div>These guys have a ton of shit that loo=
+ks promising, thought you might want to take a look. I&#39;m gonna call tom=
+orrow.</div><div><br></div><div><br></div><a href=3D"https://www.townside.c=
+om/?page_id=3D492">https://www.townside.com/?page_id=3D492</a><br></div>
+
+--001a1137f00883986d050e258bf3--

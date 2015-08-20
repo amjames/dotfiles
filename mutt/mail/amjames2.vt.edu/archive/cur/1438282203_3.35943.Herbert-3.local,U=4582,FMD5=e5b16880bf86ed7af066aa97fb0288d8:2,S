@@ -1,0 +1,295 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp1494147qga;
+        Mon, 23 Feb 2015 08:17:46 -0800 (PST)
+X-Received: by 10.236.108.137 with SMTP id q9mr10414488yhg.115.1424708266254;
+        Mon, 23 Feb 2015 08:17:46 -0800 (PST)
+Return-Path: <owner-glc-programs@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id t9si5980003qaj.83.2015.02.23.08.17.43
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Feb 2015 08:17:46 -0800 (PST)
+Received-SPF: none (google.com: owner-glc-programs@listserv.vt.edu does not designate permitted sender hosts) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-glc-programs@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-glc-programs@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1NGHYLZ020889;
+	Mon, 23 Feb 2015 11:17:39 -0500
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t1NEBuIw024901;
+	Mon, 23 Feb 2015 11:17:34 -0500
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          97862781 for GLC-PROGRAMS@LISTSERV.VT.EDU; Mon, 23 Feb 2015 11:17:33
+          -0500
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t1NGHWD0022977
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <glc-programs@listserv.vt.edu>; Mon, 23 Feb 2015 11:17:32 -0500
+Received: from exchange.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be
+          forged)) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t1NGHP4p001773 for <glc-programs@listserv.vt.edu>; Mon, 23 Feb 2015
+          11:17:30 -0500
+Received: from MARCONI.cc.w2k.vt.edu (198.82.160.13) by BRAILLE.cc.w2k.vt.edu
+          (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Mon,
+          23 Feb 2015 11:17:25 -0500
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+          MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+          15.00.0995.032; Mon, 23 Feb 2015 11:17:25 -0500
+Thread-Topic: Events, opportunities and services for graduate students,
+              Feb 23 - Mar 1, 2015
+Thread-Index: AdBPhBOLZ/kS3+dmSROnoxrLIi6tcg==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.148.192]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFvrIqsTGxXIsaAGv7tSg1yEGq7Zu/M1k8f/1aVaLjSc3szgwBTBEsWbmJeVXJLBmvNu2n7lg+zLGitZPF1kbGD8sZOxi5OIQEtjIKDF19102CGc3o8TTnV1ADicHs4CpxJWvjSwQtqLEhXsNYDabgLrEk/efwGwRAWeJzU+WMIPYwgKREt9nP2eGiMdJNJ3Zwt7FyAFk60m8/l0MEmYRUJWYOGEJE0iYV8BF4mJjNUiYUUBM4vupNUwQm8Qlbj2ZD2ZLCAhILNlznhnCVpLovf0OKu4n8WXrd7AreQUEJU7OfMICETeT2PtgCVSNnkRz61FGCDtQ4vnVW2DXSAB9dfV9METYVmLPjIlMEGFniXk36iHCNhLX+ndAbdWW2P5qHyuErSOx6doqqE2OEtP3LmOBaX27QAoirCzxaf9CdgjbX+LR0dVQY8ok1px7Cw5jCYG5jBL71h5mmcCoMgspmGchBfMspICYheTJBYwsqxhFnYIcPX18XPWSk/XKjbL1ykr0UlNKNzFCUgLHDsbl35wPMUpyMCmJ8koFvA4R4kvKT6nMSCzOiC8qzUktPsQowcGjJMJ7GyTHW1yQmFucmQ6TkuHgUJLg1Q0ESgkWpaanVqRl5pSkFkGkTzEqSonzFoIkBUD6Mkrz4HKwhHiJUVZKmFcapIanILUoN7MEVf4WI4cUlPmKUZyDUUmYtwKsODOvBO6OV0AnMgGduOfxK5ATSxIRUlINjJNt9+vfmz796qe9zq8P/VnQe/lvTKvEuku+MdMMFVlnnX32RtXl+Npa3RT95akTs1bufXJQxnlbfNbB++63V9Vru0Tet1uq/e6Y74xD5+J/WCVFzJv6w+4rc/2TRfuPVptkbpzqvu7lPsWMlTw9aVsKm7qtjMT3mXp+X2ai96rwdYqEgpTmzTwlluKMREMt5qLiRABZ9jy+hAMAAA==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.0 required=5.0 tests=LOTS_OF_MONEY,
+	T_RP_MATCHES_RCVD,URIBL_DBL_ABUSE_REDIR autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by listserv.vt.edu id t1NGHXCx022978
+Message-ID:  <35fa0d9f55d64c6bb67be4dd2f7f86b4@MARCONI.cc.w2k.vt.edu>
+Date:         Mon, 23 Feb 2015 16:17:24 +0000
+Reply-To: gibsonm@vt.edu
+From: "Gibson, Monika" <gibsonm@vt.edu>
+Subject: Events, opportunities and services for graduate students, Feb 23 - Mar 1, 2015
+To: GLC-PROGRAMS@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20GLC-PROGRAMS>
+List-Unsubscribe: <mailto:GLC-PROGRAMS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:GLC-PROGRAMS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:GLC-PROGRAMS-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+****************************************
+Welcome to the Graduate School’s listserv. Messages are posted on Mondays. Graduate students may submit items for posting by Friday before the Monday on which the posting is to appear by emailing it to grads@vt.edu. The GLC Weekly postings are also available at https://secure.graduateschool.vt.edu/weblog/opportunitiesandservices/.
+****************************************
+
+Events:
+1.  WEEKLY WALK-IN SERVICES IN THE GLC
+2. SHORT STATS COURSES FOR GRADS: GRAPHICS IN R
+3. FULBRIGHT U.S. STUDENT GRANT INFO SESSION
+4. CONNECTIONS JOB FAIR
+5. CREATIVE COMMONS / OPEN EDUCATIONAL RESOURCES INFO SESSION
+6. SAM SHEPARD’S FOOL FOR LOVE
+7. OVER-30 GRADS PLANNING MEETING
+8. FREE ANXIETY AND OCD SUPPORT GROUP
+9. LGBTQ+ AND ALLIES ENGINEERING CONNECT LUNCH
+10. AFFORDABILITY OF LEARNING RESOURCES – PANEL DISCUSSION
+11. INTERSECTIONAL IDENTITIES SPEAKER SERIES: LENA WAITHE
+12. OPENLY LICENCED RESOURCES/TEXTBOOKS OPEN HOUSE
+13. INTERDISCIPLINARY RESEARCH DAY
+14. GLC CAFÉ
+15. DINING ETIQUETTE WORKSHOP – register now
+16. KIDS’ NIGHT OUT – FREE WEEKLY DROP IN CHILD CARE
+
+Administrative Announcements:
+17. BGSO ACCEPTING NOMINATIONS FOR FOUR AWARDS – 1st posting
+18. CALL FOR PARTICIPANTS FOR MUSIC OF NATIONS – 1st posting
+19. GSA TRAVEL FUND PROGRAM'S SPRING APPLICATION CYCLE OPEN MAR 2-22 – 1st posting
+
+Jobs:
+None at this time
+
+Volunteers and research participants sought:
+20. VOLUNTEERS NEEDED FOR VT-STEM FIELD TRIP – 1st posting
+21. CALL FOR MEMBERSHIP TO ACADEMY OF GTA EXCELLENCE – 2nd posting
+22. SUBMISSIONS INVITED FOR GLC ART & PHOTO CONTEST – 2nd posting
+23. CALLING ALL GRADUATE STUDENT ENTERTAINERS FOR GEW PERFORMANCE – 2nd posting
+24. INVITATION TO SMALL-GROUP DISCUSSION ABOUT DIVERSITY AND INCLUSION – 3rd posting
+25. APPLICATIONS ACCEPTED FOR SUMMER ’15 COHORT OF I-CORPS – 3nd posting
+26. VIRGINIA GOVERNOR’S FELLOWS PROGRAM – apply by Mar 1, 2015.
+27. ADMIN GRADUATE FELLOW OPENING IN HONORS RESIDENTIAL COLLEGE – 3rd posting
+28. PAID TOUR GUIDES SOUGHT FOR GRADUATE SCHOOL – 3rd posting
+29. LGBTW YOUTH & YOUNG ADULTS WANTED FOR RESEARCH PROJECT – 1st posting
+30. PARENTS OF LGB YOUTH  & YOUNG ADULTS WANTED FOR RESEARCH PROJECT – 1st posting
+31. RESEARCH PARTICIPANTS SOUGHT FOR AMBIENT DISPLAYS/TASK MANAGEMENT STUDY – 2nd posting
+32. PARTICIPANTS SOUGHT FOR STUDY ON SKELETAL MUSCLE A – 2nd posting
+33. PARTICIPANTS SOUGHT FOR STUDY ON SKELETAL MUSCLE B – 2nd posting
+34. RESEARCH PARTICIPANTS SOUGHT ABOUT SOCIAL NETWORKING USAGE – 2nd posting
+35. SURVEY PARTICIPANTS SOUGHT – 2nd posting
+36. ADOLESCENTS (AGE 11-14) SOUGHT FOR PEER RELATIONS STUDY – 3rd posting
+
+Upcoming events:
+
+--- GLC MOVIE NIGHT: TOP GUN: 3/3
+--- SHORT STATS COURSES FOR GRADS – SPRING 2015 SCHEDULE
+--- WORKSHOP FOR SCIENTISTS AND ARTISTS: MODELING SCIENCE & IDEAS – register now!
+
+1.  WEEKLY WALK-IN SERVICES IN THE GLC
+- Career Services advising: Wednesdays 2:00-5:00pm, GLC lobby
+- Cook Counseling: Thursdays and Fridays 1:00-5:00pm, Green Room
+- GLC Café: 3:30-5:00 every Thursday, Reading Room
+- Statistical consulting by LISA: Tuesdays, Thursdays, Fridays 10:00am-12:00pm, Room A
+- Writing assistance: Thursdays starting Jan 29 5:00-8:00pm, Room A
+
+2. SHORT STATS COURSES FOR GRADS: GRAPHICS IN R
+Monday, Feb 23, 5:30-7:30pm and Tuesday, Feb 24, 4:00-6:00pm, 1080 Torgersen Hall;
+The R programming package offers a powerful, flexible, and free platform which can be used to produce publication-quality graphics. Taught by Adam Edwards, this short course will introduce R techniques to produce several statistical graphs including histograms, bar plots, box plots, and scatter plots among others. Syntax to control colors, plotting characters, axes, legends, and labels will be covered, and users will learn to write high resolution graphics to the file type of their choice. The course format includes lecture and computer laboratory components. The lecture component will cover pros and cons of various graphics and approaches, and the computer portion will allow attendees to write, modify, and execute R codes to produce graphics based on these data. This session is the second part of a three-course series which assumes no previous coding experience in R or any other language, and is intended for researchers who want to gain basic exposure to R with the goal of !
+ incorporating R into their research programs. See www.lisa.stat.vt.edu/?q=short_courses for instructions on how to register.
+
+3. FULBRIGHT U.S. STUDENT GRANT INFO SESSION
+Monday, Feb 23, 7:00pm, GLC Room F
+The Fulbright U.S. Student Program provides grants for individually designed study/research projects or for English Teaching Assistant Programs. During their grants, Fulbrighters will meet, work, live with and learn from the people of the host country, sharing daily experiences.  The program facilitates cultural exchange through direct interaction on an individual basis in the classroom, field, home, and in routine tasks, allowing the grantee to gain an appreciation of others’ viewpoints and beliefs, the way they do things, and the way they think. Learn more at http://us.fulbrightonline.org. Lee Rivers from the Institute for International Education will host this info session. The next application cycle opens Mar 31.
+
+4. CONNECTIONS JOB FAIR
+Tuesday, Feb 24, 10:00am-4:00pm, Squires Student Center
+Open to all majors and degree levels. More details, list of attending employers and candidates they’re seeking can be found at:  http://www.career.vt.edu/CONNECTION/SpringStudentIndex.html. Sponsored by Career Services.
+
+5. CREATIVE COMMONS / OPEN EDUCATIONAL RESOURCES INFO SESSION
+Tuesday, Feb 24, 11:00am-12:30pm, Newman Library's 1st Floor Multipurpose Room
+Participate in this interactive presentation of "Get Creative (and Stay Legal)" to learn more about the conceptual and practical aspects of open licensing. This event is part of the Library’s Open Education Week: http://guides.lib.vt.edu/oer/oeweek.
+
+6. SAM SHEPARD’S FOOL FOR LOVE
+Feb 24-28 and Mar 2-4, 7:30pm, Squires Studio Theatre
+Donna Thompson, graduate student in the MFA program, invites all graduate students to the School of Performing Arts’ next Mainstage production. Check out the good work of grad students in the theatre arts program! Tickets are on sale now. For group sales contact the office at 231-5200 or email to performingarts@vt.edu.
+
+7. OVER-30 GRADS PLANNING MEETING
+Tuesday, Feb 24, 4-5:30pm, GLC Room F
+The Graduate School hosts this planning meeting for the Over-30 grad student group, as a follow-up to the fall social. Please attend to give feedback and learn about the efforts to network and organize with other over-30 students. Snacks provided. Contact Dannette Beane with questions at dannette@vt.edu.
+
+8. FREE ANXIETY AND OCD SUPPORT GROUP
+Tuesday, February 24, 7:00pm, GLC Meeting Room D
+Are you feeling overwhelmed by anxiety? Do you struggle with OCD? A free monthly support group meets the last Tuesday of every month. Please join the group at the Graduate Life Center in Meeting Room D to learn more about anxiety disorders and OCD, hear success stories from those who have worked to overcome their anxiety and OCD, and receive support in an informal setting. Family members and significant others are also welcome. If you have questions or would like more information, please contact the Psychological Services Center at 231-6914, visit http://www.psyc.vt.edu/outreach/psc , or email Kelsey Banes at kbanes@vt.edu.
+
+9. LGBTQ+ AND ALLIES ENGINEERING CONNECT LUNCH
+Wednesday, Feb 25, 12:00pm, 310 Kelly Hall
+Come to connect, share, and learn more about engineering-specific initiatives from Queer Grads, Professionals and Allies (QGPA) and out in Science, Technology, Engineering, and Mathematics (oSTEM). Safe Spaces included. All undergraduates, graduates, faculty, and staff welcome. Sponsored by the College of Engineering Diversity Committee. Questions? Email QGPAvt@gmail.com.
+
+10. AFFORDABILITY OF LEARNING RESOURCES – PANEL DISCUSSION
+Wednesday, Feb 25, 12:30-1:45pm. Newman Library's 1st Floor Multipurpose Room
+Learn what students have to say about the affordability of learning resources and how this affects them at this panel discussion hosted by the Student Government Association. This event is part of the Library’s Open Education Week: http://guides.lib.vt.edu/oer/oeweek.
+
+11. INTERSECTIONAL IDENTITIES SPEAKER SERIES: LENA WAITHE
+Wednesday, Feb 25, 7:00pm, Black Cultural Center in Squires
+Queer People of Color will host Lena Waithe to discuss oppression and activism through Lena Waithe's lived experience. Lena Waithe is a writer/producer most recently known for co-producing “Dear White People.” She will speak about her experiences navigating her personal and professional life as an out, queer, gender-non-conforming black woman in the entertainment industry. She will engage participants in a discussion about visibility and the importance of elevating authentic, underrepresented narratives in mainstream media and challenging stereotypes and the status quo. If you have any questions, contact Megan Nguyen at mnguyen9@vt.edu.
+
+12. OPENLY LICENCED RESOURCES/TEXTBOOKS OPEN HOUSE
+Wednesday, Feb 25, 3:30pm, Newman Library's 1st Floor Multipurpose Room
+Attend this open house to meet faculty who have authored or are implementing openly licensed resources/open textbooks in their courses and stay for the panel discussion 4:00-5:30pm to learn more. Panelists include: Peter Doolittle, Heath Hart, Greg Hartman (VMI), and Mohammed Seyam. This event is part of the Library’s Open Education Week: http://guides.lib.vt.edu/oer/oeweek.
+
+13. INTERDISCIPLINARY RESEARCH DAY
+Thursday, Feb 26, 2:00-8:30pm, The Inn @ Virginia Tech
+This is a special day highlighting academic considerations for interdisciplinary research and education with guest speaker Dr. Marie Paretti and showcasing student-led interdisciplinary research. The day will close with a buffet dinner and engaging roundtable discussions to try to solve some important regional problems identified by the Blacksburg Town Council. Participants will gain insights into working in interdisciplinary teams and how to bridge disciplinary boundaries. IDR Day is FREE and open to anyone on campus. Please Register at www.idrsociety.org.
+
+14. GLC CAFÉ
+Thursday, Feb 26, 3:30-5:00pm, GLC Reading Room
+Enjoy coffee, tea, and cookies in the company of your graduate student and Grad School colleagues. Relax, explore big and small ideas, and build your network of colleagues and friends.
+
+15. DINING ETIQUETTE WORKSHOP – register now
+Thursday, Feb 26, 5:30-7:00pm, GLC Multipurpose Room
+Learn how to conduct yourself during a formal meal in a professional setting, whether the dinner is part of an interview, a conference, or other engagement. The program will include a presentation, helpful props and tips, and an informal meal during which you can network with graduate students. Registration required. Please complete this short survey at https://survey.vt.edu/survey/entry.jsp?id=1423598193822 to sign up.
+
+16. KIDS’ NIGHT OUT – FREE WEEKLY DROP IN CHILD CARE
+Thursdays, 6:00-8:30pm, Women’s Center (206 Washington Street, enter up the stairs in the parking lot)
+Need a break? Have to study or attend a lecture? Want to catch up on work? If you are a VT student with children, bring your kids aged 2-12 (must be toilet trained). No need to pre-register. Childcare provided by the volunteers of Chi Delta Alpha sorority. KNO will be held every Thursday throughout the semester when classes are in session. For more information, contact Jessie Meltsner at jmelts@vt.edu, 231-7806.
+
+17. BGSO ACCEPTING NOMINATIONS FOR FOUR AWARDS – 1st posting
+The first two awards will be presented to an undergraduate and graduate student that has sustained personal engagement with the VT community. The candidates should have active involvement in campus organizations, service to the community, and/or volunteer work. You can nominate and/or self-nominate a candidate at https://survey.vt.edu/survey/entry.jsp?id=1420820436631. The second two awards will be presented to a community and/ or faculty member that has active engagement in the community and/or has demonstrated a lifetime dedication to the betterment of the community. You can nominate and/or self-nominate a candidate at https://survey.vt.edu/survey/entry.jsp?id=1422932997108. Awards will be presented Apr 17, 2015 at the 17th Annual Ebony Affair “Black Excellence: Forging a Prominent Future”; where Dr. Nikki Giovanni will serve as the keynote speaker.
+
+18. CALL FOR PARTICIPANTS FOR MUSIC OF NATIONS – 1st posting
+CISO is excited to launch a new event, Music of Nations, to celebrate cultural diversity on the Virginia Tech campus and promote traditional, folk, and pop music of the international community.  Music of Nations will be held during International Week by Council of International Student Organizations (CISO). If you are interested in participating, complete this form http://goo.gl/forms/sZwHi5ZgJe by 28th Feb (Sat) 5:00pm. The event will take place on Mar 18, 6:00-8:00pm in the GLC Multipurpose Room. Contact Ankit Saigal with any questions/concerns (ankit92@vt.edu).
+
+19. GSA TRAVEL FUND PROGRAM'S SPRING APPLICATION CYCLE OPEN MAR 2-22 – 1st posting
+If you're planning to travel or have traveled to present your research at a scholarly conference between Jan 1 and Jun 30, 2015, consider applying for the Graduate Student Assembly's Travel Fund Program (TFP). Last year, the TFP provided partial reimbursement of travel and registration expenses to over 200 graduate students. Masters/doctoral students and domestic/international travel are all eligible. Applications accepted for the spring cycle from Monday, Mar 2 8:00am to Sunday, Mar 22 5:00pm. Visit http://blogs.lt.vt.edu/graduatestudentassembly/travel-fund-program/ for details and to apply. Read all the eligibility requirements and the FAQ and check out the GSA's other programs and opportunities while you're there! Contact Kasey Richardson, TFP Chair, or Chelsea Corkins, TFP Vice Chair at tfp2014@vt.edu with questions.
+
+20. VOLUNTEERS NEEDED FOR VT-STEM FIELD TRIP – 1st posting
+VT-STEM in collaboration with other partners will host its annual Kindergarten to College (K2C) program for 5th grade students from Title I elementary schools to participate in a rewarding college experience. Volunteers are needed to host student groups, tour the VT campus, and share college experiences with teachers, parents, and students. The first K2C visit will be on Feb 27, 9:00am-1:30pm. Contact Andrae Hash (hashas@vt.edu) for additional details and to get involved.
+
+21. CALL FOR MEMBERSHIP TO ACADEMY OF GTA EXCELLENCE – 2nd posting
+The Academy for GTA Excellence (Academy) invites applications for membership in the Learning Community and advancement into the Academy.  The Academy provides opportunities for graduate students to receive advanced education and training in innovative teaching and learning strategies. It also provides a space to recognize excellence in teaching by graduate students. A social and information session will be held on Tuesday, Feb 24, 5:00-7:00pm  at the University Club for interested graduate students. Membership is open to graduate students at all VT campuses.  For additional information and application: https://blogs.lt.vt.edu/jwrgrad/academy-for-advanced-teaching-and-transforming-learning-aattl/.  Applications are due Monday, March 16, 2015. For questions about the Academy, contact Vice President and Dean for Graduate Education Karen P. DePauw (kpdwpauw@vt.edu) or Nicole J. Johnson (nicj712@vt.edu).
+
+22. SUBMISSIONS INVITED FOR GLC ART & PHOTO CONTEST – 2nd posting
+The Graduate School invites submissions of art work and photography by graduate students for display in the GLC during Graduate Education Week (Mar 23-27) and beyond. Submissions are limited to three pieces (art and/or photography) per graduate student. Photos may be submitted online at https://secure.graduateschool.vt.edu/imageupload/ to be printed by the Graduate School. Submission deadline: Tuesday, Mar 17, 2015.  Learn more at http://www.graduatelifecenter.vt.edu/contest/.
+
+23. CALLING ALL GRADUATE STUDENT ENTERTAINERS FOR GEW PERFORMANCE – 2nd posting
+The Graduate School is seeking students to provide entertainment during the Graduate Education Week Big Cook-out on Friday, March 27. The circus-themed cook-out will run from 4:30-6:30pm on the Graduate School Lawn.  Entertainers needed include face painters, balloon artists, caricature artists, jugglers, or anything that may fit into our theme. To join our slate of performers, please complete this survey: https://survey.vt.edu/survey/entry.jsp?id=1422907809572  Contact Lauren Surface at lkeister@vt.edu if you have questions.
+
+24. INVITATION TO SMALL-GROUP DISCUSSION ABOUT DIVERSITY AND INCLUSION – 3rd posting
+Are you new to the conversation about diversity and inclusion? Would you like a safe, supportive space to speak openly and honestly about your perceptions and experiences, or perhaps to ask questions? The Graduate School will host small group sessions where graduate students can talk without fear of making a mistake or being judged. The groups will meet for 8 hours (in total) and will be led by a trained facilitator. If interested, please sign up at https://virginiatech.qualtrics.com/SE/?SID=SV_bgrufAeSqIEcCiN. Contact Dannette Beane at dannette@vt.edu with questions.
+
+25. APPLICATIONS ACCEPTED FOR SUMMER ’15 COHORT OF I-CORPS – 3nd posting
+This NSF-supported program is accepting applications for its summer cohort at Virginia Tech.
+Open to research teams, including graduate students, and technology entrepreneurs from universities, federal laboratories, agencies and the general community, to guide researchers in exploring the commercial potential of their inventions. Opening session May 28-29, midpoint session Jun 17, closing session Jul 1, all at VT; remote webex sessions Jun 3, 10, 24. Learn more at www.dcicorps.org, or contact Mike Abbott at flyinghk@vt.edu for more information.
+
+26. VIRGINIA GOVERNOR’S FELLOWS PROGRAM – apply by Mar 1, 2015.
+For rising seniors, just graduated seniors and graduate students interested in learning more about the administration of state government.  Full information at https://governor.virginia.gov/the-administration/governors-fellows-program/   A stipend is available through Career Services for any selected VT students.  Contact Amy McPherson at amcphers@vt.edu for more information about the stipend.
+
+27. ADMIN GRADUATE FELLOW OPENING IN HONORS RESIDENTIAL COLLEGE – 3rd posting
+The Admin Graduate Fellow serves the intellectual life and educational mission of the Honors Residential College (HRC) and University Honors. The Fellow will take an active part in the HRC and work closely with the Faculty Principal, maintaining a collegial working relationship with the Student Life Coordinator, student leadership, and University Honors staff. The Fellow will reside in East Ambler Johnston Hall, modeling presence; actively participate in the life of the HRC, including weekly dinner, Principal’s Tea, and other official College events; work 20 hrs/wk supervised by the HRC Principal. This work includes: organizational duties related to community events; administration of the College curriculum; coordination and leadership of the Apartment Fellowship and publicity for the mission of the HRC and official College events; organization and execution of programming for HRC Fellows; mentoring of Junior Fellows; and other duties as assigned by the HRC Faculty Princip!
+ al. Compensation: housing and a meal plan (approximately $14,500 provided by HRL and University Honors); meals during training periods (fall and winter); in-state tuition scholarship; Grad Fellow may not accept any additional employment or major co-curricular involvement (such as a partial assistantship) without prior approval of the Faculty Principal. To apply, submit a single PDF document that includes a cover letter and resumé or curriculum vitae. All submissions and inquiries should go to HRCprincipal@VT.Edu.
+
+28. PAID TOUR GUIDES SOUGHT FOR GRADUATE SCHOOL – 3rd posting
+The Graduate School is seeking tour guides to assist on an as-needed basis throughout the year. You will need to dedicate 2 hours to training and then be eligible for $20 per tour. You must be at least in your second year at Virginia Tech and be a Blacksburg campus student. Must have a strong command of English, a driver's license, and clean driving record. Please contact Nayesdi Badillo-Delgado, if you are interested or have questions, at nayesdi@vt.edu.
+
+29. LGBTW YOUTH & YOUNG ADULTS WANTED FOR RESEARCH PROJECT – 1st posting
+VT researchers are seeking lesbian, gay, bisexual, and queer youth and young adults age 13-21 to participate in a project exploring the decision to come out to family as gay, lesbian, bisexual or queer.  The questionnaire and in-depth interview take approximately 2-2.5 hours and participants will receive a $20 gift card. The PI is in the process of developing a program to help youth make safe and successful disclosure decisions to family; this research will help inform that project.  Participation is voluntary and all information associated with this IRB-approved study will remain strictly confidential.  If you have questions or would like to discuss eligibility, please contact the project office by email at VTProjectSMYLE@gmail.com or call (540)-231-4235. You can also check out our Facebook page for more information: https://www.facebook.com/VTProjectSMYLE
+
+30. PARENTS OF LGB YOUTH  & YOUNG ADULTS WANTED FOR RESEARCH PROJECT – 1st posting
+VT researchers are seeking parents who have had a child disclose to them in the last five years that they are lesbian, gay or bisexual when the child was 13-21.  The brief questionnaire and in-depth interview take about 1-2 hours and participants will receive a $20 gift card. The principal investigator is in the process of developing a program to help youth make safe and successful disclosure decisions to family; this research will help inform that project. Participation is voluntary and all information associated with this IRB-approved study will remain strictly confidential.  If you have questions or would like to discuss eligibility, please contact the project office by email at VTProjectSMYLE@gmail.com or call (540)-231-4235. You can also check out our Facebook page for more information: https://www.facebook.com/VTProjectSMYLE
+
+31. RESEARCH PARTICIPANTS SOUGHT FOR AMBIENT DISPLAYS/TASK MANAGEMENT STUDY – 2nd posting
+Participants are sought for a 2-m long research study to observe the use of ambient displays for personal task management information. This study involves the use of an iPad to showcase your Google Calendar events and to-do list activities in an interactive visualization for your use. Over the course of the 8-week study, you will be asked to participate in surveys and interviews to allow researchers to learn about your use of our ambient display system. Upon completion of the study, an interview will take place and iPads will need to be returned. During the study, you will participate in 3 surveys and 1 interview per week, for a total of 24 surveys and 8 interviews. Upon completion of the 8-week period, you will have the option to extend your participation in the study to up to 4 more weeks.  Participation is voluntary; you may discontinue participation at any time. Information collected in all phases of the study will be confidential. If you are interested, email sheriff1@v!
+ t.edu to schedule an initial 1-hour meeting about the project, participation, consenting, and iPad distribution. Contact Sheriff Jolaoso at sheriff1@vt.edu with questions.
+
+32. PARTICIPANTS SOUGHT FOR STUDY ON SKELETAL MUSCLE A – 2nd posting
+Volunteers are sought for a study examining whether endurance training influences skeletal muscle. Participants must be:  non-smoker males; 18-40 yrs old; sedentary, not exercising more than 20 minutes per day, 2 days per week; not currently taking any medications; without any major medical problems; willing to eat a high fat meal; willing to have your blood drawn, a muscle biopsy, and a fitness test. Participants will receive extensive health information and will be compensated $50 per biopsy.  The total amount possible for participation is $100.  If you meet the above requirements and are interested, contact Madlyn Frisard or Mike Tarpey at the Human Integrative Physiology Laboratory at Virginia Tech: (540) 231-9994, frisardm@vt.edu or  tarpeym@vt.edu.
+
+33. PARTICIPANTS SOUGHT FOR STUDY ON SKELETAL MUSCLE B – 2nd posting
+Volunteers are sought for a study examining whether endurance training influences skeletal muscle. Participants must be:  non-smoker males; 18-40 yrs old; run an average of 5 hours per week and compete in 2 events in the past 12 months; not currently taking any medications; without any major medical problems; willing to eat a high fat meal; willing to have your blood drawn, a muscle biopsy, and a fitness test. Participants will receive extensive health information and will be compensated $50 per biopsy.  The total amount possible for participation is $100.  If you meet the above requirements and are interested, contact Madlyn Frisard or Mike Tarpey at the Human Integrative Physiology Laboratory at Virginia Tech: (540) 231-9994, frisardm@vt.edu or  tarpeym@vt.edu.
+
+34. RESEARCH PARTICIPANTS SOUGHT ABOUT SOCIAL NETWORKING USAGE – 2nd posting
+A VT grad student researcher studying Computer Supported Cooperative Work (CSCW) would like your brief feedback on social networking about Facebook for a class project and personal study.  No information will be shared for research or publication purposes. There is no compensation being offered.  If you are interested in participating or have any questions, contact Chris Frisina at special@vt.edu.
+
+35. SURVEY PARTICIPANTS SOUGHT – 2nd posting
+The Pamplin College of Business is conducting a survey on the start-up culture at Virginia Tech. Help the college better target entrepreneurship resources and funding at Virginia Tech by completing this survey: https://survey.vt.edu/survey/entry.jsp?id=1423773704744. This message is posted on behalf of graduate student Keith Heyde, kcheyde@gmail.com.
+
+36. ADOLESCENTS (AGE 11-14) SOUGHT FOR PEER RELATIONS STUDY – 3rd posting
+This study utilizes techniques from Acceptance and Commitment Therapy (ACT) to assist adolescents (ages 11-14) who are dealing with problems related to rejection by peers. Participants will complete a series of psychological measures and five weekly intervention sessions, with some brief opportunities for at-home practice. There is slight risk to participating, given the sensitive nature of the subject matter and the time commitment. However, participants will be compensated for their time and participation and will also benefit by learning new coping skills. Graduate students who have children who meet these qualifications are invited to contact Amanda Halliburton at ahallibu@vt.edu or (757) 409-0062 if interested in enrolling a child in the study. Written parental permission is required for participation.
+
+UPCOMING EVENTS:
+
+GLC MOVIE NIGHT: TOP GUN
+Tuesday, Mar 3, 8:30pm, GLC Room F
+Come join fellow grad students for a screening of Top Gun. Light snacks and refreshments will be provided.  This event is sponsored by the GLC Fellows.
+
+SHORT STATS COURSES FOR GRADS – SPRING 2015 SCHEDULE
+LISA (Virginia Tech's Laboratory for Interdisciplinary Statistical Analysis) provides a series of evening short courses to help graduate students use statistics in their research. The focus of these two-hour courses is on teaching practical statistical techniques for analyzing or collecting data. Registration is required, but all courses are free. Spring 2015 Schedule:
+Tuesday, March 3: Multivariate Analysis in R;
+Tuesday, March 17: Designing Experiments;
+Monday & Tuesday, March 23 & 24: Using ggplot2 to produce enhanced graphics in R;*
+Tuesday, April 7: T-tests & ANOVA;
+Tuesday, April 14: Solutions for Broken Linear Models;
+*Two sessions of the same course to accommodate more attendees.
+Visit the LISA website at http://www.lisa.stat.vt.edu/?q=short_courses for more information about these courses and to register.
+
+WORKSHOP FOR SCIENTISTS AND ARTISTS: MODELING SCIENCE, MODELING IDEAS – register now!
+Wednesday Mar 18, 10:00am-12:00pm, Moss Arts Center
+With vast improvements in quality and complexity of data in the life sciences, what thinking skills do we need to make sense of what's there—and to make discoveries? Modeling brings precision and depth to the conceptualizations of biological processes, and embodied learning through "science choreography" catalyzes deconstruction and illumination of the core components and processes in modeling. This hands-on workshop, led by visiting choreographer and MacArthur "Genius Grant" Fellow Liz Lerman, is designed especially for mixed groups of artists (theatre and dance) and scientists. No experience necessary. Contact Sarah at sarahhf@vt.edu to sign up. In your message, please indicate if you identify as a scientist, an artist, or both. Limited space is available; slots will be filled on a first-come, first-served basis.
+
+Anyone who can make this cold and all the snow go away will get a box of my favorite chocolate.
+
+Please contact me if you have any questions.
+
+Monika
+
+Monika Gibson
+Director of Student Services
+Graduate School 0325
+117 Graduate Life Center at Donaldson Brown
+Virginia Tech
+Blacksburg, VA 24061
+Phone: 540.231.4558
+Fax: 540.231.3714
+www.graduateschool.vt.edu
+www.glc.vt.edu
+
+***********************************************************************
+This is the Virginia Tech Graduate School – GLC Programs listserv. The subscription list is updated each semester based on enrollment. Messages are posted on Mondays. Graduate students may submit items for posting by Friday before the Monday on which the posting is to appear. If you do not wish to receive these messages, you may unsubscribe at any time by logging into http://listserv.vt.edu/cgi-bin/wa.cgi?LMGT1 and changing your subscription status for this or any other VT-managed lists. The GLC Weekly postings are also available at https://secure.graduateschool.vt.edu/weblog/opportunitiesandservices/.
+***********************************************************************

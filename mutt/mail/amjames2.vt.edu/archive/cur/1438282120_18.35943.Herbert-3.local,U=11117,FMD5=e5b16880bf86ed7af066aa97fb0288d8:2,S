@@ -1,0 +1,189 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp621665qgt;
+        Mon, 22 Jun 2015 06:16:50 -0700 (PDT)
+X-Received: by 10.55.20.16 with SMTP id e16mr60261611qkh.71.1434979010453;
+        Mon, 22 Jun 2015 06:16:50 -0700 (PDT)
+Return-Path: <kaye.andrea.archer@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 186si18987630qhw.24.2015.06.22.06.16.50
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 06:16:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kaye.andrea.archer@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kaye.andrea.archer@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender) smtp.mail=kaye.andrea.archer@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wi0-x22c.google.com (mail-wi0-x22c.google.com [IPv6:2a00:1450:400c:c05::22c])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MDGiVL002819
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 09:16:49 -0400
+Received: by wiga1 with SMTP id a1so76542269wig.0
+        for <amjames2@vt.edu>; Mon, 22 Jun 2015 06:16:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=D8dwmp0pi/y0EL5gzYxRbP4o64QFtuFhk8BF86Kzkuw=;
+        b=hU0S1AO2uCQNrpEJ80E/y7kZ/5D4O65uC8nixf0Bu760Y1wrulUNlSjreSknS+gCFa
+         iYBHCstX/FZXFtIZA579TAk4z5dcTnULq5Ov6otwodLTuh+419FXsnqHE2gTRjXcWune
+         8SC1E2OdwWh9fgVWvIBN+4ZV3wN/UU/WYbdKP430Px93lVlR7SRI1YW7LXSVJW+x7SBA
+         q+BeOB0jJwxxuuuHZu0LFD3ys5BJezW+QUveCXMxEkqNbODrqEe+NXhCYk5hoQeRHQ4e
+         YeTsaZn1LTiCS7Js/8jwWmy0LM2Li3FtMrGAD2LrMQyZDSpnxcng9H48aiAvIv+pykmB
+         8bNQ==
+MIME-Version: 1.0
+X-Received: by 10.194.185.8 with SMTP id ey8mr52002415wjc.118.1434979004478;
+ Mon, 22 Jun 2015 06:16:44 -0700 (PDT)
+Received: by 10.28.223.214 with HTTP; Mon, 22 Jun 2015 06:16:43 -0700 (PDT)
+Received: by 10.28.223.214 with HTTP; Mon, 22 Jun 2015 06:16:43 -0700 (PDT)
+In-Reply-To: <4345D255-13CD-4DF3-8A7C-45F367136788@vt.edu>
+References: <073D9702-C2FB-42CD-8098-06F5BD332D07@vt.edu>
+	<CAMxiopUXm2jMDBtnZxiv6M+VnKsJFORZqr7ivO2HankvFyukww@mail.gmail.com>
+	<482EF2E6-1E0F-4005-A327-77EB223124E7@vt.edu>
+	<CAMxiopWSd43RFoRQXrtWm8fTFCUYrazSSfZEsqmDzFOHUofuew@mail.gmail.com>
+	<CAMxiopWXKG5saVe7FYnX4LeQZjo8BCt4r3nbwSeeEtN2hOPQPQ@mail.gmail.com>
+	<4345D255-13CD-4DF3-8A7C-45F367136788@vt.edu>
+Date: Mon, 22 Jun 2015 09:16:43 -0400
+Message-ID: <CAMxiopUvpdLpkNUPw38CQe2zuvuiL8rdG1HrrQkKbT2efmShjA@mail.gmail.com>
+Subject: Re: Software Summer School Arrival
+From: Kaye Archer <kaye.andrea.archer@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bd6abeed280b505191b1563
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bd6abeed280b505191b1563
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks.
+Kaye
+On Jun 22, 2015 9:12 AM, "Andrew M James" <amjames2@vt.edu> wrote:
+
+> Harley McAlexander will be picking you up ( I'm in class) he has a white
+> button down long sleeve shirt on he's in the terminal waiting for you.
+>
+> --AJ
+>
+> Sent from my iPhone
+>
+> On Jun 22, 2015, at 8:53 AM, Kaye Archer <kaye.andrea.archer@gmail.com>
+> wrote:
+>
+> Hi Andrew,
+> I  just arrived. How should I  proceed?
+> Kaye
+> On Jun 21, 2015 9:56 AM, "Kaye Archer" <kaye.andrea.archer@gmail.com>
+> wrote:
+>
+>> Thanks.
+>> Kaye
+>> On Jun 21, 2015 9:55 AM, "Andrew M. James" <amjames2@vt.edu> wrote:
+>>
+>>> Kaye,
+>>>
+>>> Thanks! I just wanted to make sure you weren=E2=80=99t waiting for me. =
+ I will
+>>> contact you about getting from the airport to tech tomorrow!
+>>>
+>>>
+>>> Andrew M. James
+>>> Graduate Research Assistant
+>>> amjames2@vt.edu
+>>>
+>>>
+>>> On Jun 21, 2015, at 9:54 AM, Kaye Archer <kaye.andrea.archer@gmail.com>
+>>> wrote:
+>>>
+>>> Hi Andrew,
+>>> I am arriving tomorrow about the missing communication, I am arriving
+>>> tomorrow.
+>>> Kaye
+>>> On Jun 21, 2015 9:52 AM, "Andrew James" <amjames2@vt.edu> wrote:
+>>>
+>>>> Hello Kaye,
+>>>>
+>>>> I just wanted to make sure everything was okay for your arrival to VT
+>>>> today. I was at the airport for your arrival at 8:49 am, but I did not=
+ see
+>>>> you. Was your flight rescheduled?
+>>>>
+>>>> Thanks,
+>>>> Andrew M. James
+>>>> Graduate Research Assistant
+>>>> amjames2@vt.edu
+>>>>
+>>>>
+>>>>
+>>>
+
+--047d7bd6abeed280b505191b1563
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Thanks. <br>
+Kaye</p>
+<div class=3D"gmail_quote">On Jun 22, 2015 9:12 AM, &quot;Andrew M James&qu=
+ot; &lt;<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<b=
+r type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"margin:0 =
+0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><di=
+v>Harley McAlexander will be picking you up ( I&#39;m in class) he has a wh=
+ite button down long sleeve shirt on he&#39;s in the terminal waiting for y=
+ou.=C2=A0</div><div><br></div><div>--AJ<br><br>Sent from my iPhone</div><di=
+v><br>On Jun 22, 2015, at 8:53 AM, Kaye Archer &lt;<a href=3D"mailto:kaye.a=
+ndrea.archer@gmail.com" target=3D"_blank">kaye.andrea.archer@gmail.com</a>&=
+gt; wrote:<br><br></div><blockquote type=3D"cite"><div><p dir=3D"ltr">Hi An=
+drew, <br>
+I=C2=A0 just arrived. How should I=C2=A0 proceed? <br>
+Kaye</p>
+<div class=3D"gmail_quote">On Jun 21, 2015 9:56 AM, &quot;Kaye Archer&quot;=
+ &lt;<a href=3D"mailto:kaye.andrea.archer@gmail.com" target=3D"_blank">kaye=
+.andrea.archer@gmail.com</a>&gt; wrote:<br type=3D"attribution"><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><p dir=3D"ltr">Thanks.<br>
+Kaye</p>
+<div class=3D"gmail_quote">On Jun 21, 2015 9:55 AM, &quot;Andrew M. James&q=
+uot; &lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.e=
+du</a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><d=
+iv style=3D"word-wrap:break-word">Kaye,=C2=A0<div><br></div><div>Thanks! I =
+just wanted to make sure you weren=E2=80=99t waiting for me.=C2=A0 I will c=
+ontact you about getting from the airport to tech tomorrow!</div><div><br><=
+/div><div><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br><div><blockquote type=3D"cite"><div>On Jun 21, 2015, at 9:54 AM, Kaye A=
+rcher &lt;<a href=3D"mailto:kaye.andrea.archer@gmail.com" target=3D"_blank"=
+>kaye.andrea.archer@gmail.com</a>&gt; wrote:</div><br><div><p dir=3D"ltr">H=
+i Andrew,<br>
+I am arriving tomorrow about the missing communication, I am arriving=C2=A0=
+ tomorrow. <br>
+Kaye</p>
+<div class=3D"gmail_quote">On Jun 21, 2015 9:52 AM, &quot;Andrew James&quot=
+; &lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu<=
+/a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hello=
+ Kaye,<br>
+<br>
+I just wanted to make sure everything was okay for your arrival to VT today=
+. I was at the airport for your arrival at 8:49 am, but I did not see you. =
+Was your flight rescheduled?<br>
+<br>
+Thanks,<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<br>
+<br>
+</blockquote></div>
+</div></blockquote></div><br></div></div></blockquote></div>
+</blockquote></div>
+</div></blockquote></div></blockquote></div>
+
+--047d7bd6abeed280b505191b1563--

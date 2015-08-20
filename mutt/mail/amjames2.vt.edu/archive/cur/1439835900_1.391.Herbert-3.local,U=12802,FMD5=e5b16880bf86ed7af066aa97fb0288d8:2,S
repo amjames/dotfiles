@@ -1,0 +1,83 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1567627qgt;
+        Fri, 14 Aug 2015 06:57:33 -0700 (PDT)
+X-Received: by 10.140.239.84 with SMTP id k81mr82931497qhc.66.1439560653892;
+        Fri, 14 Aug 2015 06:57:33 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id o40si9608931qkh.58.2015.08.14.06.57.33
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 06:57:33 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.178 as permitted sender) client-ip=209.85.223.178;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.178 as permitted sender) smtp.mailfrom=cduchane@vt.edu
+Received: from mail-io0-f178.google.com (mail-io0-f178.google.com [209.85.223.178])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EDvS4S025574
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 09:57:33 -0400
+Received: by iodb91 with SMTP id b91so84967115iod.1
+        for <amjames2@vt.edu>; Fri, 14 Aug 2015 06:57:28 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=pbp5qybDr7pqqtx96N8qGNFvuBj5Ntf1PNx/RAYGwYQ=;
+        b=WRhm1DPx/oM1M9dYDtzC686cxkFacGmmc5bqJFBtv2WxMMNtkcb16DOOVmjLoTEs24
+         a6NtNZztMV6Qvm2FLEbW5lYrmHE+ubdeWiV3sGq6miBSCEvkLFLK1QgfnlXdI3M60//I
+         zH41Cf5ZZSt4MOTMwfHLJi5V2oREM29GBCrdJOMuWth7D5kyRbL3hJsiyZ7fPVTO5mKm
+         s8oTdRvRB3bnBA235VxFHDzPxCgIQTzk4fLMB8DHGIKI6+HMzNBZklhOD74DCEi3Ewpy
+         acFKuMkyhAEjEoYdRl82lBY3BBF4KiERxhQXDy9smuyDaU5KS4r+rrlyMdNPGQpMLQ/H
+         H6+Q==
+X-Gm-Message-State: ALoCoQmQQIAqRmDsnabsuspXO4cCS+pIXjZ46zwXYZ0N/ugGof+J/yurCRtJ1mL9QJ+hFm9girYEZNea/W2mKn2M7x+FDJcQFDrbuLOdkeoFrFuea5dfyHCVaVuNS8/w9DsBRdzlsGh9WwxzKJriCE91VkYfN+FeQg==
+X-Received: by 10.107.41.67 with SMTP id p64mr41802459iop.58.1439560648084;
+        Fri, 14 Aug 2015 06:57:28 -0700 (PDT)
+X-Received: by 10.107.41.67 with SMTP id p64mr41802448iop.58.1439560647915;
+ Fri, 14 Aug 2015 06:57:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Fri, 14 Aug 2015 06:57:08 -0700 (PDT)
+In-Reply-To: <D54A1D25-65FC-4D3C-9EDB-092F010D2D39@vt.edu>
+References: <D54A1D25-65FC-4D3C-9EDB-092F010D2D39@vt.edu>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Fri, 14 Aug 2015 09:57:08 -0400
+Message-ID: <CAECk6+5Qa-u_=sVq=SLaRMTehXfYhJUgTzDL_tvwzhUF4J2dow@mail.gmail.com>
+Subject: Re: Prepare for giggles
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1141f9660d5a1e051d45d55a
+X-Spam-Status: No, score=1.1 required=5.0 tests=HTML_IMAGE_ONLY_08,
+	HTML_MESSAGE,RCVD_IN_DNSWL_LOW,T_REMOTE_IMAGE autolearn=disabled version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141f9660d5a1e051d45d55a
+Content-Type: text/plain; charset=UTF-8
+
+Hahaha that's awesome. On that note...
+
+
+On Aug 14, 2015 9:30 AM, "Vtech" <amjames2@vt.edu> wrote:
+
+>
+>
+> Andrew James
+> Marist College '14
+
+--001a1141f9660d5a1e051d45d55a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p dir=3D"ltr">Hahaha that&#39;s awesome. On that note...<=
+/p><p dir=3D"ltr"><img src=3D"http://i.stack.imgur.com/fMkEJ.gif"><br></p>
+<div class=3D"gmail_quote">On Aug 14, 2015 9:30 AM, &quot;Vtech&quot; &lt;<=
+a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;=
+ wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"=
+margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><br>
+<br>
+Andrew James<br>
+Marist College &#39;14</blockquote></div>
+</div>
+
+--001a1141f9660d5a1e051d45d55a--

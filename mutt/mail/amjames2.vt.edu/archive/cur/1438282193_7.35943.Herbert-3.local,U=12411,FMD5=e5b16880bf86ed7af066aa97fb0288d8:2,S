@@ -1,0 +1,265 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp687339qgt;
+        Thu, 30 Jul 2015 08:19:13 -0700 (PDT)
+X-Received: by 10.140.92.207 with SMTP id b73mr37079676qge.6.1438269553679;
+        Thu, 30 Jul 2015 08:19:13 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id l9si1621258qhl.31.2015.07.30.08.19.12
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 08:19:13 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.170 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.217.170;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.217.170 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6UFJ4Em016452;
+	Thu, 30 Jul 2015 11:19:09 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t6UEiEYO016943;
+	Thu, 30 Jul 2015 11:19:04 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100701376 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 30 Jul 2015 11:19:03
+          -0400
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:277:40de:506c]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6UF92B0021445 for
+          <chem_grad@listserv.vt.edu>; Thu, 30 Jul 2015 11:09:03 -0400
+Received: from mail-lb0-f170.google.com (mail-lb0-f170.google.com
+          [209.85.217.170]) by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id
+          t6UF8uVP018322 for <chem_grad@listserv.vt.edu>; Thu, 30 Jul 2015
+          11:09:01 -0400
+Received: by lbbud7 with SMTP id ud7so25161766lbb.3 for
+          <chem_grad@listserv.vt.edu>; Thu, 30 Jul 2015 08:08:56 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:cc:content-type;
+                         bh=A4y5+QRgek7mU2jSMhoGWuQoHKYE9Eqf9q5ITARPNK4=;
+                         b=GV9ab7OAESPYGUJ+cmur3zEc4cLufwGwvUTsNiQxH71u+mBIB+J9N2xunKQGdGjf74
+                         opekBvBKVmEROzZt6OKakmUwNV8PyHb+nAv1mUvcteZLiFl7u8PrrwC3l16q98gcBtft
+                         04gKnur7/zTx1uBQ/mKmcS1RsOr4I3LnXaGZ64yJvZFgcPi7/tC/+56oTaqh/M/owGP8
+                         LIhurBgRKiGZK/L6QM/H28IFJrRYbxg9fSfGGpoAzMi1ulPN6Bdh6B2tb+JwekygkqjH
+                         NpXfzCAQsdY8XwlOLVOEreGXNLzhzfndBSo/v0gSlopomxAKTXBisyF3Id9rlgxtUXlH
+                         TcLw==
+X-Gm-Message-State: ALoCoQnS91dDDfZMXRtCfFABA1eL55vXxUrte10N46b9UUUXZWTkFlzF77IHBfKRJ6jnr14UCxrW1SDK2YKBYPx1hRwBY+8IsAE3s8jRjDiYBEBrsQ3Avn1bCh6DYTJ0vdY0oKhbolJGOqpkgF/2zp61Xkqt78WrIw==
+X-Received: by 10.112.142.105 with SMTP id rv9mr44266079lbb.11.1438268936206;
+            Thu, 30 Jul 2015 08:08:56 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.112.142.105 with SMTP id rv9mr44266067lbb.11.1438268936069;
+            Thu, 30 Jul 2015 08:08:56 -0700 (PDT)
+Received: by 10.114.22.100 with HTTP; Thu, 30 Jul 2015 08:08:55 -0700 (PDT)
+Received: by 10.114.22.100 with HTTP; Thu, 30 Jul 2015 08:08:55 -0700 (PDT)
+References: <1438267965555.79918@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c3775c06b569051c1915a6
+X-Spam-Status: No, score=0.2 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD,
+	SUBJ_ALL_CAPS autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+Message-ID:  <CAFVnc+a_YmOXb8CHWgqsuy-o+fYNqAPtOtPgEgw_Rz03uWSpiA@mail.gmail.com>
+Date:         Thu, 30 Jul 2015 11:08:55 -0400
+Reply-To: Thomas Wertalik <wertalik@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Thomas Wertalik <wertalik@vt.edu>
+Subject: Fwd: DAVIDSON-SHUTDOWN NOTIFICATION
+To: CHEM_GRAD@LISTSERV.VT.EDU
+In-Reply-To:  <1438267965555.79918@vt.edu>
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c3775c06b569051c1915a6
+Content-Type: text/plain; charset=UTF-8
+
+The Davidson Hall air conditioning and ventilation system will be shutdown
+on August 4th from 1:00 pm until 4:00pm. This will affect the hoods and
+they will not be safe to use for the duration of the shutdown.
+---------- Forwarded message ----------
+From: "VT Repair" <vtrepair@vt.edu>
+Date: Jul 30, 2015 10:52 AM
+Subject: DAVIDSON-SHUTDOWN NOTIFICATION
+To: "Bell, Thomas" <tbell@vt.edu>, "Shephard, Emillie" <
+eloope@exchange.vt.edu>, "Smith, Brian" <brian1@vt.edu>, "Wertalik, Thomas"
+<wertalik@vt.edu>
+Cc: "Adams, Zachary" <adamsz@vt.edu>, "Agnew, Joseph" <jagnew@vt.edu>,
+"Albert, Joseph" <albertj@vt.edu>, "Albrecht, Patrick" <sapatr1@vt.edu>,
+"Beach, John" <jbeach@vt.edu>, "Bell, Sarah" <slbell7@vt.edu>,
+"Blankenship, April" <blankena@vt.edu>, "Boswell, William Stewart" <
+boswell8@vt.edu>, "Boyd, Jennifer" <jboyd@vt.edu>, "Briele, Kim" <
+sbriele@vt.edu>, "Bush, Kevin" <kbush@vt.edu>, "Cockey, William" <
+wcockey@vt.edu>, "Cooper, Chris" <chcoope2@vt.edu>, "Cornwell, James" <
+jacornwe@vt.edu>, "Criner, Renae" <rcriner@vt.edu>, "Curfiss, Aaron" <
+acurfiss@vt.edu>, "Doss, James" <jdoss@vt.edu>, "Dunn, Michael" <
+midunn2@vt.edu>, "Edwards, Donna" <donnaedw@vt.edu>, "Epps, Douglas" <
+depps01@vt.edu>, "Gallemore, Tom" <tgallemo@vt.edu>, "Goff, Christopher" <
+cgoff@vt.edu>, "Gust, Marilyn" <mgust@exchange.vt.edu>, "Haga, Tony" <
+tchaga@vt.edu>, "Helms, Mark" <mahelms@vt.edu>, "Hinson, William" <
+hinson@vt.edu>, "Hoeflein, Joseph" <jhoeflei@vt.edu>, "Houston, Vince" <
+houstonv@vt.edu>, "Hutchison, Derek" <hutchisd@vt.edu>, "Jackson, George" <
+gejackso@vt.edu>, "McNew, Ashley" <ashleyjj@vt.edu>, "Kast, Paul" <
+pkast@vt.edu>, "Kirk, Brenda" <bmoser@vt.edu>, "LaClair, Leigh" <
+llaclair@vt.edu>, "Lau, Scott" <scottl@vt.edu>, "Liles, Michaela" <
+mklaudt@vt.edu>, "Long, David" <erlong@vt.edu>, "Lytton, Bruce" <
+blytton@vt.edu>, "McCall-Miller, Robin" <rmmiller@vt.edu>, "McClain, James"
+<mcclainj@vt.edu>, "McDaniel, James" <jmcdani@vt.edu>, "Meadows, Tim" <
+tmeadows@vt.edu>, "Moore, Michael" <mimoore@vt.edu>, "Miller, Westly" <
+wwmiller@vt.edu>, "Moore, Helen" <moorehc@vt.edu>, "Palmer, Milford" <
+palmerm@vt.edu>, "Pegues, Valerie" <spvaler@vt.edu>, "Perkins, Chuck" <
+chuckp@vt.edu>, "Polly, Bobby" <bpolly@vt.edu>, "Price, Sydney" <
+syd4vt@vt.edu>, "Pritts, Teresa" <prittste@vt.edu>, "Roschelli, Donald" <
+droschel@exchange.vt.edu>, "Sanders, Al" <asanders@vt.edu>, "Sasser, J.
+Wyatt" <jsasser@vt.edu>, "Smith, Randi" <randi@vt.edu>, "Smith, Sean" <
+sesmith1@vt.edu>, "Smith, Steven" <stsmith1@vt.edu>, "Snidow, Heather" <
+hsnidow@vt.edu>, "Tribble, David" <tribbled@vt.edu>, "Troutman, Karen" <
+karent3@vt.edu>, "VT Repair" <vtrepair@vt.edu>, "wakers9@hotmail.com" <
+wakers9@hotmail.com>, "Watson, Anthony" <anwatson@vt.edu>, "Whitt, Blake" <
+bwhitt87@vt.edu>, "Williams, Jeremy" <jewilli6@vt.edu>, "Wilson, Hannah" <
+hjohnst@exchange.vt.edu>, "Worrell, Diane" <worrelld@vt.edu>, "Zenner,
+Paul" <pzenner@vt.edu>, "Robinson, Kelley" <kell24@exchange.vt.edu>, "Helm,
+Stuart" <schelm@vt.edu>, "Montgomery, Eric" <ericmont@vt.edu>, "Ashe,
+Harley" <hashe@vt.edu>, "Ross, Bill" <wross@vt.edu>, "Rader, Paul" <
+jprader@vt.edu>, "Moye, Christopher" <chmoye@vt.edu>, "Simmons, Dave" <
+dsimmons@vt.edu>
+
+Engineering Operations will be working on Air Handler 1 in Davidson on
+August 4, 2015 starting at 1:00PM until 4:00PM. There may be changes in air
+flow and fume hood alarms may go off because of air flow changes.
+
+
+
+VT Repair
+
+231-4300
+
+--001a11c3775c06b569051c1915a6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">The Davidson Hall air conditioning and ventilation system wi=
+ll be shutdown on August 4th from 1:00 pm until 4:00pm. This will affect th=
+e hoods and they will not be safe to use for the duration of the shutdown.<=
+/p>
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>From:=
+ &quot;VT Repair&quot; &lt;<a href=3D"mailto:vtrepair@vt.edu">vtrepair@vt.e=
+du</a>&gt;<br>Date: Jul 30, 2015 10:52 AM<br>Subject: DAVIDSON-SHUTDOWN NOT=
+IFICATION<br>To: &quot;Bell, Thomas&quot; &lt;<a href=3D"mailto:tbell@vt.ed=
+u">tbell@vt.edu</a>&gt;, &quot;Shephard, Emillie&quot; &lt;<a href=3D"mailt=
+o:eloope@exchange.vt.edu">eloope@exchange.vt.edu</a>&gt;, &quot;Smith, Bria=
+n&quot; &lt;<a href=3D"mailto:brian1@vt.edu">brian1@vt.edu</a>&gt;, &quot;W=
+ertalik, Thomas&quot; &lt;<a href=3D"mailto:wertalik@vt.edu">wertalik@vt.ed=
+u</a>&gt;<br>Cc: &quot;Adams, Zachary&quot; &lt;<a href=3D"mailto:adamsz@vt=
+.edu">adamsz@vt.edu</a>&gt;, &quot;Agnew, Joseph&quot; &lt;<a href=3D"mailt=
+o:jagnew@vt.edu">jagnew@vt.edu</a>&gt;, &quot;Albert, Joseph&quot; &lt;<a h=
+ref=3D"mailto:albertj@vt.edu">albertj@vt.edu</a>&gt;, &quot;Albrecht, Patri=
+ck&quot; &lt;<a href=3D"mailto:sapatr1@vt.edu">sapatr1@vt.edu</a>&gt;, &quo=
+t;Beach, John&quot; &lt;<a href=3D"mailto:jbeach@vt.edu">jbeach@vt.edu</a>&=
+gt;, &quot;Bell, Sarah&quot; &lt;<a href=3D"mailto:slbell7@vt.edu">slbell7@=
+vt.edu</a>&gt;, &quot;Blankenship, April&quot; &lt;<a href=3D"mailto:blanke=
+na@vt.edu">blankena@vt.edu</a>&gt;, &quot;Boswell, William Stewart&quot; &l=
+t;<a href=3D"mailto:boswell8@vt.edu">boswell8@vt.edu</a>&gt;, &quot;Boyd, J=
+ennifer&quot; &lt;<a href=3D"mailto:jboyd@vt.edu">jboyd@vt.edu</a>&gt;, &qu=
+ot;Briele, Kim&quot; &lt;<a href=3D"mailto:sbriele@vt.edu">sbriele@vt.edu</=
+a>&gt;, &quot;Bush, Kevin&quot; &lt;<a href=3D"mailto:kbush@vt.edu">kbush@v=
+t.edu</a>&gt;, &quot;Cockey, William&quot; &lt;<a href=3D"mailto:wcockey@vt=
+.edu">wcockey@vt.edu</a>&gt;, &quot;Cooper, Chris&quot; &lt;<a href=3D"mail=
+to:chcoope2@vt.edu">chcoope2@vt.edu</a>&gt;, &quot;Cornwell, James&quot; &l=
+t;<a href=3D"mailto:jacornwe@vt.edu">jacornwe@vt.edu</a>&gt;, &quot;Criner,=
+ Renae&quot; &lt;<a href=3D"mailto:rcriner@vt.edu">rcriner@vt.edu</a>&gt;, =
+&quot;Curfiss, Aaron&quot; &lt;<a href=3D"mailto:acurfiss@vt.edu">acurfiss@=
+vt.edu</a>&gt;, &quot;Doss, James&quot; &lt;<a href=3D"mailto:jdoss@vt.edu"=
+>jdoss@vt.edu</a>&gt;, &quot;Dunn, Michael&quot; &lt;<a href=3D"mailto:midu=
+nn2@vt.edu">midunn2@vt.edu</a>&gt;, &quot;Edwards, Donna&quot; &lt;<a href=
+=3D"mailto:donnaedw@vt.edu">donnaedw@vt.edu</a>&gt;, &quot;Epps, Douglas&qu=
+ot; &lt;<a href=3D"mailto:depps01@vt.edu">depps01@vt.edu</a>&gt;, &quot;Gal=
+lemore, Tom&quot; &lt;<a href=3D"mailto:tgallemo@vt.edu">tgallemo@vt.edu</a=
+>&gt;, &quot;Goff, Christopher&quot; &lt;<a href=3D"mailto:cgoff@vt.edu">cg=
+off@vt.edu</a>&gt;, &quot;Gust, Marilyn&quot; &lt;<a href=3D"mailto:mgust@e=
+xchange.vt.edu">mgust@exchange.vt.edu</a>&gt;, &quot;Haga, Tony&quot; &lt;<=
+a href=3D"mailto:tchaga@vt.edu">tchaga@vt.edu</a>&gt;, &quot;Helms, Mark&qu=
+ot; &lt;<a href=3D"mailto:mahelms@vt.edu">mahelms@vt.edu</a>&gt;, &quot;Hin=
+son, William&quot; &lt;<a href=3D"mailto:hinson@vt.edu">hinson@vt.edu</a>&g=
+t;, &quot;Hoeflein, Joseph&quot; &lt;<a href=3D"mailto:jhoeflei@vt.edu">jho=
+eflei@vt.edu</a>&gt;, &quot;Houston, Vince&quot; &lt;<a href=3D"mailto:hous=
+tonv@vt.edu">houstonv@vt.edu</a>&gt;, &quot;Hutchison, Derek&quot; &lt;<a h=
+ref=3D"mailto:hutchisd@vt.edu">hutchisd@vt.edu</a>&gt;, &quot;Jackson, Geor=
+ge&quot; &lt;<a href=3D"mailto:gejackso@vt.edu">gejackso@vt.edu</a>&gt;, &q=
+uot;McNew, Ashley&quot; &lt;<a href=3D"mailto:ashleyjj@vt.edu">ashleyjj@vt.=
+edu</a>&gt;, &quot;Kast, Paul&quot; &lt;<a href=3D"mailto:pkast@vt.edu">pka=
+st@vt.edu</a>&gt;, &quot;Kirk, Brenda&quot; &lt;<a href=3D"mailto:bmoser@vt=
+.edu">bmoser@vt.edu</a>&gt;, &quot;LaClair, Leigh&quot; &lt;<a href=3D"mail=
+to:llaclair@vt.edu">llaclair@vt.edu</a>&gt;, &quot;Lau, Scott&quot; &lt;<a =
+href=3D"mailto:scottl@vt.edu">scottl@vt.edu</a>&gt;, &quot;Liles, Michaela&=
+quot; &lt;<a href=3D"mailto:mklaudt@vt.edu">mklaudt@vt.edu</a>&gt;, &quot;L=
+ong, David&quot; &lt;<a href=3D"mailto:erlong@vt.edu">erlong@vt.edu</a>&gt;=
+, &quot;Lytton, Bruce&quot; &lt;<a href=3D"mailto:blytton@vt.edu">blytton@v=
+t.edu</a>&gt;, &quot;McCall-Miller, Robin&quot; &lt;<a href=3D"mailto:rmmil=
+ler@vt.edu">rmmiller@vt.edu</a>&gt;, &quot;McClain, James&quot; &lt;<a href=
+=3D"mailto:mcclainj@vt.edu">mcclainj@vt.edu</a>&gt;, &quot;McDaniel, James&=
+quot; &lt;<a href=3D"mailto:jmcdani@vt.edu">jmcdani@vt.edu</a>&gt;, &quot;M=
+eadows, Tim&quot; &lt;<a href=3D"mailto:tmeadows@vt.edu">tmeadows@vt.edu</a=
+>&gt;, &quot;Moore, Michael&quot; &lt;<a href=3D"mailto:mimoore@vt.edu">mim=
+oore@vt.edu</a>&gt;, &quot;Miller, Westly&quot; &lt;<a href=3D"mailto:wwmil=
+ler@vt.edu">wwmiller@vt.edu</a>&gt;, &quot;Moore, Helen&quot; &lt;<a href=
+=3D"mailto:moorehc@vt.edu">moorehc@vt.edu</a>&gt;, &quot;Palmer, Milford&qu=
+ot; &lt;<a href=3D"mailto:palmerm@vt.edu">palmerm@vt.edu</a>&gt;, &quot;Peg=
+ues, Valerie&quot; &lt;<a href=3D"mailto:spvaler@vt.edu">spvaler@vt.edu</a>=
+&gt;, &quot;Perkins, Chuck&quot; &lt;<a href=3D"mailto:chuckp@vt.edu">chuck=
+p@vt.edu</a>&gt;, &quot;Polly, Bobby&quot; &lt;<a href=3D"mailto:bpolly@vt.=
+edu">bpolly@vt.edu</a>&gt;, &quot;Price, Sydney&quot; &lt;<a href=3D"mailto=
+:syd4vt@vt.edu">syd4vt@vt.edu</a>&gt;, &quot;Pritts, Teresa&quot; &lt;<a hr=
+ef=3D"mailto:prittste@vt.edu">prittste@vt.edu</a>&gt;, &quot;Roschelli, Don=
+ald&quot; &lt;<a href=3D"mailto:droschel@exchange.vt.edu">droschel@exchange=
+.vt.edu</a>&gt;, &quot;Sanders, Al&quot; &lt;<a href=3D"mailto:asanders@vt.=
+edu">asanders@vt.edu</a>&gt;, &quot;Sasser, J. Wyatt&quot; &lt;<a href=3D"m=
+ailto:jsasser@vt.edu">jsasser@vt.edu</a>&gt;, &quot;Smith, Randi&quot; &lt;=
+<a href=3D"mailto:randi@vt.edu">randi@vt.edu</a>&gt;, &quot;Smith, Sean&quo=
+t; &lt;<a href=3D"mailto:sesmith1@vt.edu">sesmith1@vt.edu</a>&gt;, &quot;Sm=
+ith, Steven&quot; &lt;<a href=3D"mailto:stsmith1@vt.edu">stsmith1@vt.edu</a=
+>&gt;, &quot;Snidow, Heather&quot; &lt;<a href=3D"mailto:hsnidow@vt.edu">hs=
+nidow@vt.edu</a>&gt;, &quot;Tribble, David&quot; &lt;<a href=3D"mailto:trib=
+bled@vt.edu">tribbled@vt.edu</a>&gt;, &quot;Troutman, Karen&quot; &lt;<a hr=
+ef=3D"mailto:karent3@vt.edu">karent3@vt.edu</a>&gt;, &quot;VT Repair&quot; =
+&lt;<a href=3D"mailto:vtrepair@vt.edu">vtrepair@vt.edu</a>&gt;, &quot;<a hr=
+ef=3D"mailto:wakers9@hotmail.com">wakers9@hotmail.com</a>&quot; &lt;<a href=
+=3D"mailto:wakers9@hotmail.com">wakers9@hotmail.com</a>&gt;, &quot;Watson, =
+Anthony&quot; &lt;<a href=3D"mailto:anwatson@vt.edu">anwatson@vt.edu</a>&gt=
+;, &quot;Whitt, Blake&quot; &lt;<a href=3D"mailto:bwhitt87@vt.edu">bwhitt87=
+@vt.edu</a>&gt;, &quot;Williams, Jeremy&quot; &lt;<a href=3D"mailto:jewilli=
+6@vt.edu">jewilli6@vt.edu</a>&gt;, &quot;Wilson, Hannah&quot; &lt;<a href=
+=3D"mailto:hjohnst@exchange.vt.edu">hjohnst@exchange.vt.edu</a>&gt;, &quot;=
+Worrell, Diane&quot; &lt;<a href=3D"mailto:worrelld@vt.edu">worrelld@vt.edu=
+</a>&gt;, &quot;Zenner, Paul&quot; &lt;<a href=3D"mailto:pzenner@vt.edu">pz=
+enner@vt.edu</a>&gt;, &quot;Robinson, Kelley&quot; &lt;<a href=3D"mailto:ke=
+ll24@exchange.vt.edu">kell24@exchange.vt.edu</a>&gt;, &quot;Helm, Stuart&qu=
+ot; &lt;<a href=3D"mailto:schelm@vt.edu">schelm@vt.edu</a>&gt;, &quot;Montg=
+omery, Eric&quot; &lt;<a href=3D"mailto:ericmont@vt.edu">ericmont@vt.edu</a=
+>&gt;, &quot;Ashe, Harley&quot; &lt;<a href=3D"mailto:hashe@vt.edu">hashe@v=
+t.edu</a>&gt;, &quot;Ross, Bill&quot; &lt;<a href=3D"mailto:wross@vt.edu">w=
+ross@vt.edu</a>&gt;, &quot;Rader, Paul&quot; &lt;<a href=3D"mailto:jprader@=
+vt.edu">jprader@vt.edu</a>&gt;, &quot;Moye, Christopher&quot; &lt;<a href=
+=3D"mailto:chmoye@vt.edu">chmoye@vt.edu</a>&gt;, &quot;Simmons, Dave&quot; =
+&lt;<a href=3D"mailto:dsimmons@vt.edu">dsimmons@vt.edu</a>&gt;<br><br type=
+=3D"attribution">
+
+
+
+
+<div dir=3D"ltr" style=3D"font-size:12pt;color:#000000;background-color:#ff=
+ffff;font-family:Calibri,Arial,Helvetica,sans-serif">
+<p>Engineering Operations will be working on Air Handler 1 in Davidson on A=
+ugust 4, 2015 starting at 1:00PM until 4:00PM. There may be changes in air =
+flow and fume hood alarms may go off because of air flow changes.=C2=A0
+</p>
+<p>=C2=A0</p>
+<p>VT Repair</p>
+<p>231-4300</p>
+<p></p>
+</div>
+
+</div>
+
+--001a11c3775c06b569051c1915a6--

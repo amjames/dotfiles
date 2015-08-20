@@ -1,0 +1,131 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp779589ieb;
+        Wed, 1 Apr 2015 08:16:59 -0700 (PDT)
+X-Received: by 10.112.64.137 with SMTP id o9mr36154789lbs.15.1427901418292;
+        Wed, 01 Apr 2015 08:16:58 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from mail-lb0-x22b.google.com (mail-lb0-x22b.google.com. [2a00:1450:4010:c04::22b])
+        by mx.google.com with ESMTPS id kj12si1438578lbb.98.2015.04.01.08.16.57
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Apr 2015 08:16:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c04::22b as permitted sender) client-ip=2a00:1450:4010:c04::22b;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c04::22b as permitted sender) smtp.mail=johan.patrick.norman@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-lb0-x22b.google.com with SMTP id ug6so34628377lbb.3
+        for <andrew.m.james2@gmail.com>; Wed, 01 Apr 2015 08:16:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=yD9rHtz3ZI4IaH8ncvkcLCfcqdyj4WWbWMdosJoA00Y=;
+        b=GGOHXwUYSb4eLF085z0v+5dEwcM2bx5NMFY9h6CS/GDSiNleVXtPhZKrlNG56jbDts
+         o4q1wCjXI2yjQ4SolrVAA9HUtcW7mUcfy86giBnd62QotsyBQc6nrz170Mij7N3cSsda
+         G4cBKa42JtUxtHxzweJ0z7mtxMtxXiNWPu/AVdZOnR20yoNPnyYY7VrsAM1Ixs8Ocxxy
+         3toH8peP/L26qMNLxA/nAWpcA1ESciUpdSchPcrlRxQShT7g0moO238/vrqp49NzNeF0
+         h0FF44ldeVm/KFnhEnQ+usbqUAiXWtnTxkpvI/Ggnou7y5k+gcdF6RIy4YmZyETWmDuF
+         hETw==
+X-Received: by 10.152.203.134 with SMTP id kq6mr36296842lac.110.1427901416914;
+        Wed, 01 Apr 2015 08:16:56 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from c-213-160.eduroam.liu.se (c-213-160.eduroam.liu.se. [130.236.213.160])
+        by mx.google.com with ESMTPSA id lv11sm477236lac.38.2015.04.01.08.16.56
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 01 Apr 2015 08:16:56 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: Poster sessions?
+From: Patrick Norman <johan.patrick.norman@gmail.com>
+In-Reply-To: <CAH0V_1Zr3tEBUfwgA4i9L5eZTsJy4hXZG++qekJsAjGJ5GvsSg@mail.gmail.com>
+Date: Wed, 1 Apr 2015 17:17:04 +0200
+Cc: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>,
+ Kenneth Ruud <kenneth.ruud@uit.no>,
+ Andrew James <andrew.m.james2@gmail.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E14BD08E-EDB1-4EF2-B8A7-44E2921AB7BA@gmail.com>
+References: <CAH0V_1ZvG5FKCggfAqBeQyOkofOo-NbcSp-iQSH_E8f8OQR+Pg@mail.gmail.com> <C8882758-3D09-4350-8448-F66BDA4A126E@uit.no> <372CE287-8FF0-49A8-AF4A-005DCB1B00AF@ifm.liu.se> <CAH0V_1Zr3tEBUfwgA4i9L5eZTsJy4hXZG++qekJsAjGJ5GvsSg@mail.gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+Super!
+
+> On 01 Apr 2015, at 15:43, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>=20
+> Yes, the advertisement was sent out a few weeks ago, though I don't =
+yet have information on registration statistics.  I'll see what I can =
+find out.
+>=20
+> -TDC
+>=20
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>=20
+> On Wed, Apr 1, 2015 at 9:36 AM, Patrick Norman =
+<johan.patrick.norman@gmail.com> wrote:
+> Hi Daniel!
+>=20
+> Trond and I are also very positive to a poster session (but not short =
+talks) as an evening activity.
+>=20
+> By the way, have you sent out the official call for student =
+registration to the PIs that replied positively in the poll? If yes, =
+have you received any registrations so far?
+>=20
+> Best regards,
+> Patrick.
+>=20
+> > On 01 Apr 2015, at 07:03, Ruud Kenneth <kenneth.ruud@uit.no> wrote:
+> >
+> > I believe we had a poster session last time, and I would be happy to =
+organize one as well. However, last time we had a day "off" for which =
+the evening was used for the poster session (I believe). Perhaps we =
+should look into the schedule with Daniel's lecture before giving a =
+clear yes or no. I am more hesitant about flash-poster =
+presentations......
+> >
+> >
+> > Kenneth
+> >
+> > Kenneth Ruud
+> > Prorector of Research, UiT - The Arctic University of Norway
+> > Telephone: +47 77623101
+> > http://www.ctcc.no/people/senior-scientists/ruud/index.html
+> >
+> > On Mar 31, 2015, at 11:41 PM, T. Daniel Crawford wrote:
+> >
+> >> Dear Patrick, Kenneth, and Trond,
+> >>
+> >> A potential student for the summer school has asked if there would =
+be an opportunity for students to give posters or short talks.  Can you =
+give me your opinion on this before we respond?
+> >>
+> >> -TDC
+> >> --
+> >> Prof. T. Daniel Crawford
+> >> crawdad@vt.edu
+> >
+>=20
+> --
+> =
+-----------------------------------------------------------------------
+> Patrick Norman                         e-mail: panor@ifm.liu.se
+> Dept of Physics, Link=C3=B6ping University  phone : +46-13 28 16 88
+> SE-581 83 Link=C3=B6ping                    fax   : +46-13 13 75 68
+> Sweden                                 www   : =
+people.ifm.liu.se/panor/
+> =
+-----------------------------------------------------------------------
+>=20
+>=20
+
+--=20
+------------------------------------------------------------------------
+Patrick Norman                  e-mail: johan.patrick.norman@gmail.com
+Furubackav=C3=A4gen 4A               phone : +46-13 29 99 97
+SE-586 63 Link=C3=B6ping, Sweden     mobile: +46-70 191 8541
+------------------------------------------------------------------------=20=
+
+

@@ -1,0 +1,203 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp51407qgt;
+        Fri, 3 Jul 2015 09:21:34 -0700 (PDT)
+X-Received: by 10.140.93.199 with SMTP id d65mr51984644qge.27.1435940494165;
+        Fri, 03 Jul 2015 09:21:34 -0700 (PDT)
+Return-Path: <chemvarun@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id n192si10880929qhb.2.2015.07.03.09.21.33
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 09:21:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of chemvarun@gmail.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of chemvarun@gmail.com designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender) smtp.mail=chemvarun@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-qk0-x22c.google.com (mail-qk0-x22c.google.com [IPv6:2607:f8b0:400d:c09::22c])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63GLSqt026525
+	for <amjames2@vt.edu>; Fri, 3 Jul 2015 12:21:33 -0400
+Received: by qkhu186 with SMTP id u186so75729602qkh.0
+        for <amjames2@vt.edu>; Fri, 03 Jul 2015 09:21:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:from:content-type:in-reply-to:message-id:date:to
+         :content-transfer-encoding:mime-version;
+        bh=nw6T0vcjPwd0GAYbvtVGh+V+C8p6ADVlBit2qzRcSng=;
+        b=fzSttqUo50q0z1okMR91zX3cWAA2LYANEYEGy0DG0Z/PrhxoArfk5BnQPniDVCmg0n
+         0yZlFs9naWRISjmfm+9PJdVpcrD/VuXzR0wFIHZ07EvZ7s0BTagaVCnFlH8JDyYa/3+E
+         9uc9tBURcq2wfBtRlHD3yLnuG45pt49UiIcsasBjHkvk6xpJZOcc8U5pD/JuL2a6m5XS
+         C4lUSAENIgPFNsckG4vbSePP85IAbC4oMNuKcPHa2tCQ1jtFrsBdB/1cmJHMThxZ8OEv
+         7oSNnwFj3JUkkUzD8o1pzTes28yOdsKqlKiKpMk/ABFyb8lHZe44l8CC4iWlduiohPXm
+         vK+Q==
+X-Received: by 10.140.39.49 with SMTP id u46mr52786413qgu.5.1435940488442;
+        Fri, 03 Jul 2015 09:21:28 -0700 (PDT)
+Received: from ?IPv6:2001:468:c80:4220:cc09:2cbb:d971:b3f2? ([2001:468:c80:4220:cc09:2cbb:d971:b3f2])
+        by mx.google.com with ESMTPSA id e77sm4610857qhc.0.2015.07.03.09.21.27
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 03 Jul 2015 09:21:27 -0700 (PDT)
+Subject: Re: Varun Kundi Attendance Certificate
+References: <CAH0V_1bdH8f2ay+S4vdgR2tE7jFkVv5tqBsswx+0vmaO_oLeKQ@mail.gmail.com> <E6E051DD-E843-4B36-A7C0-A59813295134@vt.edu>
+From: Varun <chemvarun@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-6AE2ADAD-2CED-41F9-BB9E-594C495E2E5F
+X-Mailer: iPhone Mail (11D257)
+In-Reply-To: <E6E051DD-E843-4B36-A7C0-A59813295134@vt.edu>
+Message-Id: <D66A3326-5D86-4C39-BD09-45EF98FC4BBD@gmail.com>
+Date: Fri, 3 Jul 2015 12:21:24 -0400
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,MIME_QP_LONG_LINE autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail-6AE2ADAD-2CED-41F9-BB9E-594C495E2E5F
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Thank you very much Andrew. Services were at their best.=20
+
+Sent from my iPhone
+
+> On 03-Jul-2015, at 11:28 am, "Andrew M. James" <amjames2@vt.edu> wrote:
+>=20
+> Dear Varun,=20
+>=20
+> Please find the letter attached from Dr. Crawford. I hope you enjoyed the p=
+rogram and have a safe trip.=20
+>=20
+> Regards,
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>=20
+>=20
+>> Begin forwarded message:
+>>=20
+>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>> Subject: Re: Varun Kundi Attendance Certificate
+>> Date: July 3, 2015 at 11:26:00 AM EDT
+>> To: Andrew James <amjames2@vt.edu>
+>> Cc: Laurie Good <laurieg@vt.edu>
+>>=20
+>> I've attached a PDF file with the letter.  I'm also printing a hard copy t=
+hat he can take with him, if necessary.
+>>=20
+>> -TDC
+>>=20
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>=20
+>>> On Fri, Jul 3, 2015 at 11:22 AM, Andrew James <amjames2@vt.edu> wrote:
+>>> Dr. Crawford,
+>>>=20
+>>> Varun Kundi has asked me if he can get some kind of letter or certificat=
+e that verifies he attended the Summer School.  He says that he needs one to=
+ be reimbursed by his funding source.
+>>>=20
+>>> Thanks,
+>>>=20
+>>> =E2=80=94AJ
+>>>=20
+>>> Andrew M. James
+>>> amjames2@vt.edu
+> <MRPSS Kundi 2015 Cert of Attendance.pdf>
+>=20
+
+--Apple-Mail-6AE2ADAD-2CED-41F9-BB9E-594C495E2E5F
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>Thank you very much Andrew. Services w=
+ere at their best.&nbsp;<br><br>Sent from my iPhone</div><div><br>On 03-Jul-=
+2015, at 11:28 am, "Andrew M. James" &lt;<a href=3D"mailto:amjames2@vt.edu">=
+amjames2@vt.edu</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><=
+meta http-equiv=3D"Content-Type" content=3D"text/html charset=3Dutf-8">Dear V=
+arun,&nbsp;<div class=3D""><br class=3D""></div><div class=3D"">Please find t=
+he letter attached from Dr. Crawford. I hope you enjoyed the program and hav=
+e a safe trip.&nbsp;</div><div class=3D""><br class=3D""></div><div class=3D=
+"">Regards,<br class=3D""><div apple-content-edited=3D"true" class=3D"">
+Andrew M. James<br class=3D"">Graduate Research Assistant<br class=3D""><a h=
+ref=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br class=3D"">=
+<br class=3D"">
+
+</div>
+<div><br class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">Beg=
+in forwarded message:</div><br class=3D"Apple-interchange-newline"><div styl=
+e=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0p=
+x;" class=3D""><span style=3D"font-family: -webkit-system-font, Helvetica Ne=
+ue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D=
+"">From: </b></span><span style=3D"font-family: -webkit-system-font, Helveti=
+ca Neue, Helvetica, sans-serif;" class=3D"">"T. Daniel Crawford" &lt;<a href=
+=3D"mailto:crawdad@vt.edu" class=3D"">crawdad@vt.edu</a>&gt;<br class=3D""><=
+/span></div><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom:=
+ 0px; margin-left: 0px;" class=3D""><span style=3D"font-family: -webkit-syst=
+em-font, Helvetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);" c=
+lass=3D""><b class=3D"">Subject: </b></span><span style=3D"font-family: -web=
+kit-system-font, Helvetica Neue, Helvetica, sans-serif;" class=3D""><b class=
+=3D"">Re: Varun Kundi Attendance Certificate</b><br class=3D""></span></div>=
+<div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin=
+-left: 0px;" class=3D""><span style=3D"font-family: -webkit-system-font, Hel=
+vetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b=
+ class=3D"">Date: </b></span><span style=3D"font-family: -webkit-system-font=
+, Helvetica Neue, Helvetica, sans-serif;" class=3D"">July 3, 2015 at 11:26:0=
+0 AM EDT<br class=3D""></span></div><div style=3D"margin-top: 0px; margin-ri=
+ght: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span style=3D"f=
+ont-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif; colo=
+r:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">To: </b></span><span style=3D=
+"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;" c=
+lass=3D"">Andrew James &lt;<a href=3D"mailto:amjames2@vt.edu" class=3D"">amj=
+ames2@vt.edu</a>&gt;<br class=3D""></span></div><div style=3D"margin-top: 0p=
+x; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><spa=
+n style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans=
+-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Cc: </b></span><=
+span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, s=
+ans-serif;" class=3D"">Laurie Good &lt;<a href=3D"mailto:laurieg@vt.edu" cla=
+ss=3D"">laurieg@vt.edu</a>&gt;<br class=3D""></span></div><br class=3D""><di=
+v class=3D""><div dir=3D"ltr" class=3D"">I've attached a PDF file with the l=
+etter.&nbsp; I'm also printing a hard copy that he can take with him, if nec=
+essary.<div class=3D""><br class=3D""></div><div class=3D"">-TDC</div></div>=
+<div class=3D"gmail_extra"><br clear=3D"all" class=3D""><div class=3D""><div=
+ class=3D"gmail_signature"><div dir=3D"ltr" class=3D"">--<div class=3D"">Pro=
+f. T. Daniel Crawford</div><div class=3D""><a href=3D"mailto:crawdad@vt.edu"=
+ target=3D"_blank" class=3D"">crawdad@vt.edu</a></div></div></div></div>
+<br class=3D""><div class=3D"gmail_quote">On Fri, Jul 3, 2015 at 11:22 AM, A=
+ndrew James <span dir=3D"ltr" class=3D"">&lt;<a href=3D"mailto:amjames2@vt.e=
+du" target=3D"_blank" class=3D"">amjames2@vt.edu</a>&gt;</span> wrote:<br cl=
+ass=3D""><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border=
+-left:1px #ccc solid;padding-left:1ex">Dr. Crawford,<br class=3D"">
+<br class=3D"">
+Varun Kundi has asked me if he can get some kind of letter or certificate th=
+at verifies he attended the Summer School.&nbsp; He says that he needs one t=
+o be reimbursed by his funding source.<br class=3D"">
+<br class=3D"">
+Thanks,<br class=3D"">
+<br class=3D"">
+=E2=80=94AJ<br class=3D"">
+<br class=3D"">
+Andrew M. James<br class=3D"">
+<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br class=3D=
+"">
+<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+</blockquote></div><br class=3D""></div>
+</div></blockquote></div></div></div></blockquote><blockquote type=3D"cite">=
+<div>&lt;MRPSS Kundi 2015 Cert of Attendance.pdf&gt;</div></blockquote><bloc=
+kquote type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/=
+html charset=3Dus-ascii"><div class=3D""><div><blockquote type=3D"cite" clas=
+s=3D""><div class=3D""></div></blockquote></div><br class=3D""></div></div><=
+/blockquote></body></html>=
+
+--Apple-Mail-6AE2ADAD-2CED-41F9-BB9E-594C495E2E5F--

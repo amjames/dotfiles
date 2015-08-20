@@ -1,0 +1,165 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2461575qgt;
+        Tue, 26 May 2015 11:06:37 -0700 (PDT)
+X-Received: by 10.140.135.21 with SMTP id 21mr37215664qhh.89.1432663596971;
+        Tue, 26 May 2015 11:06:36 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id b64si5673449qhc.113.2015.05.26.11.06.36
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 May 2015 11:06:36 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.179 as permitted sender) client-ip=209.85.213.179;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.179 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com [209.85.213.179])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4QI6V2K006773
+	for <amjames2@vt.edu>; Tue, 26 May 2015 14:06:36 -0400
+Received: by igbhj9 with SMTP id hj9so66848291igb.1
+        for <amjames2@vt.edu>; Tue, 26 May 2015 11:06:31 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=lQK2Eur+WbvMMpbR4t4b+d4AZ6JJFe/R4wcyrCGtitE=;
+        b=eWpPGhZj62FLzRPVy7Qd3IPpzrZKHGn3YDQx1NqvHG/2+7Bk2VELB6akcn0Yq9eDK7
+         2lrLADggmTZIayW8ojOB9V26AhlgAKT8CzFICVs9pPxCfTuIiV2pLnDEI1OOMUgv15Xn
+         yiFfzCgUMiVX8QrGFIvQT3GHvG6d9JLczmRlMpGE3BFBuBF1iiu+zxFvEJVVZ317WLbj
+         h4WbLh0RkV9jprYcFFePvEmLg2H+np9dz5+Nik1ZUsrW2jsELlCTWWEgedZV6jCX3MGf
+         CXXUlxvSHvB/PaXQ9Nb9gnR26wRjOdpPOjxZ9Xr1+N6Cs/rC1L7VXpim7H9tpgXr2gVG
+         TcIw==
+X-Gm-Message-State: ALoCoQms9N6BJmBVvGRBMq0tfkKcf5GNqLCDptjkYVBRyjQf2yX5c2eTHEkgaOpjDc4qsvJ6tgS41/S8t4J1MtgMKE5/zA+LxthQPyxMxKTIqQWMucDGbFRdXf+2fkAAu8EdMR+TsvJjcb4tIm0/dxYLB94rq4IY2A==
+X-Received: by 10.42.238.14 with SMTP id kq14mr26608516icb.23.1432663591192;
+        Tue, 26 May 2015 11:06:31 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.238.14 with SMTP id kq14mr26608502icb.23.1432663591034;
+ Tue, 26 May 2015 11:06:31 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Tue, 26 May 2015 11:06:30 -0700 (PDT)
+In-Reply-To: <DF26326F-52D7-4D59-B45D-5086B71E299A@vt.edu>
+References: <1fb2bf3ab1274c3ca2902b41116054a4@GUTENBERG.cc.w2k.vt.edu>
+	<DF26326F-52D7-4D59-B45D-5086B71E299A@vt.edu>
+Date: Tue, 26 May 2015 14:06:30 -0400
+Message-ID: <CAH0V_1Zh2DBwghmkZ1RbrNpUFEtKDgt+0sH-NOBXiAVR_MjEiQ@mail.gmail.com>
+Subject: Re: Kaye Archer: MRPSS
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bacbbcc6d34330516fffc0b
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bacbbcc6d34330516fffc0b
+Content-Type: text/plain; charset=UTF-8
+
+What's the total number of registrants for the property school, then?  25?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, May 26, 2015 at 2:03 PM, Andrew James <amjames2@vt.edu> wrote:
+
+>
+>
+> Begin forwarded message:
+>
+> *From: *"Brow, Jessica" <jbrow@exchange.vt.edu>
+> *To: *"James, Andrew" <amjames2@vt.edu>
+> *Subject: **RE: Kaye Archer: MRPSS*
+> *Date: *May 26, 2015 at 8:36:43 AM EDT
+>
+> Hi Andrew,
+>
+> Kaye was registered for the Property Summer School but she dropped late
+> last week.  She had paid, and should receive her refund, less the
+> cancellation amount, shortly.
+>
+> Thanks!
+>
+> Jessica
+>
+>
+> Jessica Brow
+> Project Manager
+> Continuing and Professional Education
+> Virginia Tech
+> 540-231-4140
+> jbrow@vt.edu
+>
+>
+>
+> -----Original Message-----
+> From: Andrew M James [mailto:amjames2@vt.edu]
+> Sent: Saturday, May 23, 2015 1:54 PM
+> To: Brow, Jessica
+> Subject: Kaye Archer: MRPSS
+>
+> Jessica,
+>
+> When you get a chance could see if Kaye Archer has paid for the property
+> school or not?
+>
+> Thanks
+>
+> Andrew
+>
+>
+>
+>
+
+--047d7bacbbcc6d34330516fffc0b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">What&#39;s the total number of registrants for the propert=
+y school, then? =C2=A025?<div><br></div><div>-TDC</div></div><div class=3D"=
+gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=
+=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, May 26, 2015 at 2:03 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+div style=3D"word-wrap:break-word"><br><div><br><blockquote type=3D"cite"><=
+div>Begin forwarded message:</div><br><div style=3D"margin-top:0px;margin-r=
+ight:0px;margin-bottom:0px;margin-left:0px"><span style=3D"font-family:-web=
+kit-system-font,Helvetica Neue,Helvetica,sans-serif;color:rgba(0,0,0,1.0)">=
+<b>From: </b></span><span style=3D"font-family:-webkit-system-font,Helvetic=
+a Neue,Helvetica,sans-serif">&quot;Brow, Jessica&quot; &lt;<a href=3D"mailt=
+o:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@exchange.vt.edu</a>&gt;<br=
+></span></div><div style=3D"margin-top:0px;margin-right:0px;margin-bottom:0=
+px;margin-left:0px"><span style=3D"font-family:-webkit-system-font,Helvetic=
+a Neue,Helvetica,sans-serif;color:rgba(0,0,0,1.0)"><b>To: </b></span><span =
+style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,sans-seri=
+f">&quot;James, Andrew&quot; &lt;<a href=3D"mailto:amjames2@vt.edu" target=
+=3D"_blank">amjames2@vt.edu</a>&gt;<br></span></div><div style=3D"margin-to=
+p:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><span style=3D"fo=
+nt-family:-webkit-system-font,Helvetica Neue,Helvetica,sans-serif;color:rgb=
+a(0,0,0,1.0)"><b>Subject: </b></span><span style=3D"font-family:-webkit-sys=
+tem-font,Helvetica Neue,Helvetica,sans-serif"><b>RE: Kaye Archer: MRPSS</b>=
+<br></span></div><div style=3D"margin-top:0px;margin-right:0px;margin-botto=
+m:0px;margin-left:0px"><span style=3D"font-family:-webkit-system-font,Helve=
+tica Neue,Helvetica,sans-serif;color:rgba(0,0,0,1.0)"><b>Date: </b></span><=
+span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,sans=
+-serif">May 26, 2015 at 8:36:43 AM EDT<br></span></div><br><div>Hi Andrew,<=
+br><br>Kaye was registered for the Property Summer School but she dropped l=
+ate last week.=C2=A0 She had paid, and should receive her refund, less the =
+cancellation amount, shortly.<br><br>Thanks!<br><br>Jessica<br><br><br>Jess=
+ica Brow<br>Project Manager<br>Continuing and Professional Education<br>Vir=
+ginia Tech<br><a href=3D"tel:540-231-4140" value=3D"+15402314140" target=3D=
+"_blank">540-231-4140</a><br><a href=3D"mailto:jbrow@vt.edu" target=3D"_bla=
+nk">jbrow@vt.edu</a><br><br><br><br>-----Original Message-----<br>From: And=
+rew M James [mailto:<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">am=
+james2@vt.edu</a>] <br>Sent: Saturday, May 23, 2015 1:54 PM<br>To: Brow, Je=
+ssica<br>Subject: Kaye Archer: MRPSS<br><br>Jessica, <br><br>When you get a=
+ chance could see if Kaye Archer has paid for the property school or not? <=
+br><br>Thanks<br><br>Andrew<br><br><br></div></blockquote></div><br></div><=
+/blockquote></div><br></div>
+
+--047d7bacbbcc6d34330516fffc0b--

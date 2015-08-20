@@ -1,0 +1,66 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp613347qgt;
+        Fri, 31 Jul 2015 10:46:49 -0700 (PDT)
+X-Received: by 10.141.23.84 with SMTP id z81mr6668586qhd.14.1438364809622;
+        Fri, 31 Jul 2015 10:46:49 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id h49si5307359qgf.39.2015.07.31.10.46.49
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 31 Jul 2015 10:46:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6VHkiQq011253
+	for <amjames2@vt.edu>; Fri, 31 Jul 2015 13:46:49 -0400
+Date: Fri, 31 Jul 2015 10:46:43 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1438364803;
+	bh=jklJQlifhT0rN5PLE7TjPP2Ib1b0ZMzbFdNzgbFhU8s=;
+	h=From:To:Subject:From;
+	b=v2YOLZdV9p7vMHgK0BLoegWB/o0pxGz4OQPXH29iDd6eCcW7Ec1NAeKE/A4STAPFA
+	 5oihmIRQLx7rUJe1t4MFFYm0YN6Hv78YgZW9lxDePGoA7gI+EGadZMT0FS2+o7xX3G
+	 k0B2dgIxr3lt4tvNGAcbaPKBCTPhK8GgVaZdAAHQ=
+From: GitHub <noreply@github.com>
+To: amjames2@vt.edu
+Message-ID: <55bbb483a27db_4fb53fd5751e929c259126@github-lowworker8-cp1-prd.iad.github.net.mail>
+Subject: [GitHub] Subscribed to loriab/psi4 notifications
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Auto-Response-Suppress: All
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+Hey there, we=E2=80=99re just writing to let you know that you=E2=80=99ve=
+ been automatically subscribed to a repository on GitHub.
+
+    loriab/psi4 forked by loriab from psi4/psi4
+    Open-Source Quantum Chemistry
+    https://github.com/loriab/psi4
+
+You=E2=80=99ll receive notifications for all issues, pull requests, and c=
+omments that happen inside the repository. If you would like to stop watc=
+hing this repository, you can manage your settings here:
+
+    https://github.com/loriab/psi4/subscription
+
+You can unwatch this repository immediately by clicking here:
+
+    https://github.com/loriab/psi4/unsubscribe_via_email/AIn2QocMYsKETZAR=
+t8GkJ1Q7nkSnRLrSks5oi6wDgaJpZM4CYp09
+
+You were automatically subscribed because you=E2=80=99ve been given push =
+access to the repository.
+
+Thanks!

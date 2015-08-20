@@ -1,0 +1,1006 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp156593qgt;
+        Fri, 5 Jun 2015 11:30:17 -0700 (PDT)
+X-Received: by 10.140.108.6 with SMTP id i6mr5581051qgf.73.1433529015580;
+        Fri, 05 Jun 2015 11:30:15 -0700 (PDT)
+Return-Path: <danielricardo.nascimento@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id n28si8184878qkh.89.2015.06.05.11.30.15
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 11:30:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of danielricardo.nascimento@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of danielricardo.nascimento@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=danielricardo.nascimento@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-lb0-x236.google.com (mail-lb0-x236.google.com [IPv6:2a00:1450:4010:c04::236])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55IU9S5023268
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 14:30:14 -0400
+Received: by lbcue7 with SMTP id ue7so51043626lbc.0
+        for <amjames2@vt.edu>; Fri, 05 Jun 2015 11:30:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=OABAAMvCiz0x0fCumDYjlYbQh3HvHYJ1Be4ZQsXppVs=;
+        b=o0S4L3As3XL3hERLGU14mQGkoW1El/SYXsWIHsKhfQCHPH3gnAqTxsuhAVwc+cJeIg
+         rhHMx0p12QR5UEADfOnJ8cV76c/V05btzSXMNd8+tpbAkMzUw8ffCuBAirJ5tNOkpLCJ
+         lL3FB/Dn3MWWrAzV8yzZ6j4g+iniFp46L4A1cU9Mz1NIROPV/2hA4+rIIWhqEEYAwVv2
+         brA+MlBn90kSNR/SMZizXidhpOJWhVaB9yUwHIRnVi4M1lSMCcHKpGkbXAHKHvrVIKUk
+         zYgcSdHWVoT7DbR2XDQreWtP4rmdmiuN17Xw9QHrs7IdOaYM4cW3mle8P9R7+N7oIH86
+         yWgw==
+MIME-Version: 1.0
+X-Received: by 10.112.120.162 with SMTP id ld2mr4639220lbb.68.1433529009000;
+ Fri, 05 Jun 2015 11:30:09 -0700 (PDT)
+Received: by 10.114.59.9 with HTTP; Fri, 5 Jun 2015 11:30:08 -0700 (PDT)
+In-Reply-To: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+Date: Fri, 5 Jun 2015 14:30:08 -0400
+Message-ID: <CAHTk=1Y8xzju+cbnW40qP+PKOgfwG2xhoCxLDP3VWKthJCKvyw@mail.gmail.com>
+Subject: Re: Molecular Response Properties Travel Itinerary
+From: Daniel Nascimento <danielricardo.nascimento@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7beb91b65b55db0517c97b1b
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7beb91b65b55db0517c97b1b
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+
+I will be flying into Roanoke Airport.
+
+My travel itinerary is:
+
+   TLH   ROA  Tallahassee, FL to Roanoke, VA
+ Sunday, June 28, 2015    FLIGHT# 5155     Operated by PSA Airlines dba US
+Airways Express    DEPART   11:00 AM TLH   AIRCRAFT   CRJ-200    ARRIVE   12:28
+PM CLT   CABIN   Coach   TRAVEL TIME   1h 28m   MEAL   --          SEATS   12A
+<https://www.usairways.com/Goto/Default.aspx?from=&target=myseats&code=EVJDBY&date=20150628&mapIndex=1>
+     Flight # 5155 : Plane change required in CLT    Stop: Change plane in
+Charlotte, NC (CLT)
+
+
+   FLIGHT# 4829     Operated by Piedmont Airlines dba US Airways Express
+DEPART   02:35 PM CLT   AIRCRAFT   Dash 8-300    ARRIVE   03:40 PM ROA   CABIN
+  Coach   TRAVEL TIME   1h 5m   MEAL   --          SEATS   10F
+<https://www.usairways.com/Goto/Default.aspx?from=&target=myseats&code=EVJDBY&date=20150628&mapIndex=2>
+      ROA   TLH  Roanoke, VA to Tallahassee, FL
+ Friday, July 03, 2015    FLIGHT# 4829     Operated by Piedmont Airlines
+dba US Airways Express    DEPART   04:10 PM ROA   AIRCRAFT   Dash 8-300
+ARRIVE   05:14 PM CLT   CABIN   Coach   TRAVEL TIME   1h 4m   MEAL   --
+    SEATS   10F
+<https://www.usairways.com/Goto/Default.aspx?from=&target=myseats&code=EVJDBY&date=20150703&mapIndex=3>
+     Flight # 4829 : Plane change required in CLT    Stop: Change plane in
+Charlotte, NC (CLT)
+
+
+   FLIGHT# 5136     Operated by PSA Airlines dba US Airways Express
+DEPART   06:00 PM CLT   AIRCRAFT   CRJ-200    ARRIVE   07:28 PM TLH   CABIN
+  Coach   TRAVEL TIME   1h 28m   MEAL   --          SEATS   12A
+<https://www.usairways.com/Goto/Default.aspx?from=&target=myseats&code=EVJDBY&date=20150703&mapIndex=4>
+   Thank you,
+
+*Daniel R. Nascimento*
+Department of Chemistry and Biochemistry
+*Florida State University*
+Tallahassee, 32310, FL
+
+2015-06-05 11:49 GMT-04:00 Andrew James <amjames2@vt.edu>:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--047d7beb91b65b55db0517c97b1b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div>Hello Andrew,<br><br></div>I will be f=
+lying into Roanoke Airport.<br><br></div>My travel itinerary is:<br><br></d=
+iv><span id=3D"yiv7993162722ctl06_SliceRepeater_ctl00_DepartLabelSpan">
+                        <img id=3D"yui_3_16_0_1_1433271596795_30966" src=3D=
+"http://images.usairways.com/newEmail/gen3/templates/depart_flag.gif" heigh=
+t=3D"20" width=3D"112" border=3D"0">
+                    </span>
+                   =20
+               =20
+           =20
+           =20
+               =20
+                    <table id=3D"yui_3_16_0_1_1433271596795_31050" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				        <tbody id=3D"yui_3_16_0_1_1433271596795_31049"><tr id=3D"yui_3_=
+16_0_1_1433271596795_31048">
+					        <td id=3D"yui_3_16_0_1_1433271596795_31316" style=3D"font:36px=
+ Arial,Helvetica,sans-serif;color:rgb(36,66,124)" width=3D"88" align=3D"lef=
+t">
+                                TLH
+					        </td>
+					        <td style=3D"padding-top:2px" valign=3D"middle" width=3D"32" a=
+lign=3D"left">
+						        <img src=3D"http://images.usairways.com/newEmail/gen3/templat=
+es/arrow_right_large.gif" height=3D"22" width=3D"20" border=3D"0">
+					        </td>
+					        <td id=3D"yui_3_16_0_1_1433271596795_31321" style=3D"font:36px=
+ Arial,Helvetica,sans-serif;color:rgb(36,66,124)" width=3D"95" align=3D"lef=
+t">
+                                ROA
+					        </td>
+					        <td id=3D"yui_3_16_0_1_1433271596795_31047" valign=3D"middle" =
+width=3D"398" align=3D"left">
+						        <span id=3D"yui_3_16_0_1_1433271596795_31322" style=3D"font:b=
+old 15px Arial,Helvetica,sans-serif;color:rgb(39,125,178)">
+							        Tallahassee, FL=20
+                                    to=20
+                                    Roanoke, VA
+						        </span>
+						        <br>
+						        <span id=3D"yui_3_16_0_1_1433271596795_31046" style=3D"font:1=
+2px Arial,Helvetica,sans-serif">
+							        Sunday, June 28, 2015
+						        </span>
+					        </td>
+				        </tr>
+			        </tbody></table>
+               =20
+           =20
+           =20
+                   =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_30994" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_30993">=
+<tr id=3D"yui_3_16_0_1_1433271596795_30992">
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31174" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(39,125,178)" width=3D=
+"100" align=3D"right">
+                                                FLIGHT#
+						                        5155
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31173" wi=
+dth=3D"20">=C2=A0</td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31172" valign=3D"middle" width=3D"36">
+                                                <img src=3D"https://content=
+.usairways.com/en-US/Resources/images/icons/airline/usflag_oh.png" alt=3D""=
+ style=3D"border: 0px none;" border=3D"0">
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_30991" st=
+yle=3D"font:italic 11px Arial,Helvetica,sans-serif" align=3D"left">
+					                            Operated by PSA Airlines dba US Airways Ex=
+press
+                                               =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31043" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31042">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31176">
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31175" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                DEPART
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31315" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" width=3D"95" align=3D"left">
+						                        11:00 AM=20
+						                        <span style=3D"color:rgb(39,125,178);padding-=
+left:3px">
+                                                    TLH
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31181" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31323" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                AIRCRAFT
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31324" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31326" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" valign=3D"middle" align=3D"lef=
+t">
+						                        <span id=3D"yui_3_16_0_1_1433271596795_31325"=
+>CRJ-200=C2=A0</span>
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31041">
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31177" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                ARRIVE
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31178" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31179" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        12:28 PM=20
+						                        <span id=3D"yui_3_16_0_1_1433271596795_31180"=
+ style=3D"color:rgb(39,125,178);padding-left:3px">
+                                                    CLT
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31040" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                CABIN
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31327" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" align=3D"left">
+						                        Coach
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31183">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                TRAVEL TIME
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31236" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31219" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        1h 28m
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31182" width=3D"95">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31314" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                MEAL
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31328" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" align=3D"left">
+						                       =20
+                                                --
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31185">
+					                        <td width=3D"100">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31235" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31218" wi=
+dth=3D"95">=C2=A0</td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31184" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                SEATS
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"top" align=3D"left">
+					                           =20
+
+                                               =20
+                                       =20
+						                       =20
+                                                       =20
+                                                               =20
+                                                                    <a rel=
+=3D"nofollow" target=3D"_blank" href=3D"https://www.usairways.com/Goto/Defa=
+ult.aspx?from=3D&amp;target=3Dmyseats&amp;code=3DEVJDBY&amp;date=3D20150628=
+&amp;mapIndex=3D1" style=3D"color:rgb(36,66,124)">12A </a>=C2=A0
+                                                               =20
+                                                               =20
+                                                                           =
+                                                =20
+                                                           =20
+                                                   =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+=09
+                                    <table id=3D"yui_3_16_0_1_1433271596795=
+_31213" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                        <tbody id=3D"yui_3_16_0_1_143327159=
+6795_31212"><tr id=3D"yui_3_16_0_1_1433271596795_31211">
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31233" valign=3D"top" width=3D"30" align=3D"left">
+                                                <img id=3D"yui_3_16_0_1_143=
+3271596795_31234" src=3D"http://images.usairways.com/newEmail/Gen3/template=
+s/20px_alert.gif" height=3D"20" width=3D"20" border=3D"0" align=3D"absmiddl=
+e">
+                                            </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31210" valign=3D"top" align=3D"left">
+                                               =20
+                                                        <table id=3D"yui_3_=
+16_0_1_1433271596795_31217" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+">
+                                                   =20
+                                                       =20
+                                                       =20
+                                                            <tbody id=3D"yu=
+i_3_16_0_1_1433271596795_31216"><tr id=3D"yui_3_16_0_1_1433271596795_31215"=
+ style=3D"padding-top:2px"><td id=3D"yui_3_16_0_1_1433271596795_31214" styl=
+e=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(51,51,51)">Flight # 515=
+5 : Plane change required in CLT</td></tr>
+                                                       =20
+                                                   =20
+                                                        </tbody></table>
+                                                   =20
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                               =20
+
+
+                           =20
+=09
+                                    <table id=3D"yui_3_16_0_1_1433271596795=
+_31037" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                        <tbody id=3D"yui_3_16_0_1_143327159=
+6795_31036"><tr id=3D"yui_3_16_0_1_1433271596795_31035">
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31034" style=3D"font:bold 12px Arial,Helvetica,sans-serif;color:rgb(1=
+98,127,0);white-space:nowrap;padding:0px" nowrap>
+                                               =20
+                                                Stop: Change plane in Charl=
+otte, NC (CLT)
+                                            </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31330" style=3D"text-align:left;padding:0px 20px;width:100%;font-size=
+:8px"><div id=3D"yui_3_16_0_1_1433271596795_31329" style=3D"width:100%">=C2=
+=A0</div><div id=3D"yui_3_16_0_1_1433271596795_31331" style=3D"border-top:1=
+px dashed rgb(153,153,153);width:100%">=C2=A0</div></td>
+                                        </tr>
+                                    </tbody></table>
+                               =20
+
+
+                       =20
+               =20
+                   =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31007" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31006">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31005">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(39,125,178)" width=3D"100" align=3D"right">
+                                                FLIGHT#
+						                        4829
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+                                            <td valign=3D"middle" width=3D"=
+36">
+                                                <img src=3D"https://content=
+.usairways.com/en-US/Resources/images/icons/airline/usflag_pt.png" alt=3D""=
+ style=3D"border: 0px none;" border=3D"0">
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31004" st=
+yle=3D"font:italic 11px Arial,Helvetica,sans-serif" align=3D"left">
+					                            Operated by Piedmont Airlines dba US Airwa=
+ys Express
+                                               =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31001" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31000">=
+<tr id=3D"yui_3_16_0_1_1433271596795_30999">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                DEPART
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_30998" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        02:35 PM=20
+						                        <span id=3D"yui_3_16_0_1_1433271596795_30997"=
+ style=3D"color:rgb(39,125,178);padding-left:3px">
+                                                    CLT
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31237" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31311" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                AIRCRAFT
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31313" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" valign=3D"middle" align=3D"lef=
+t">
+						                        <span id=3D"yui_3_16_0_1_1433271596795_31312"=
+>Dash 8-300=C2=A0</span>
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31013">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                ARRIVE
+					                        </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31220" wi=
+dth=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31209" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        03:40 PM=20
+						                        <span id=3D"yui_3_16_0_1_1433271596795_31208"=
+ style=3D"color:rgb(39,125,178);padding-left:3px">
+                                                    ROA
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31232" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31012" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                CABIN
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                        Coach
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31207">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                TRAVEL TIME
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31206" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        1h 5m
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31226" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                MEAL
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                       =20
+                                                --
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31205">
+					                        <td width=3D"100">=C2=A0</td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31204" wi=
+dth=3D"95">=C2=A0</td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31227" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                SEATS
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"top" align=3D"left">
+					                           =20
+
+                                               =20
+                                       =20
+						                       =20
+                                                       =20
+                                                               =20
+                                                                    <a rel=
+=3D"nofollow" target=3D"_blank" href=3D"https://www.usairways.com/Goto/Defa=
+ult.aspx?from=3D&amp;target=3Dmyseats&amp;code=3DEVJDBY&amp;date=3D20150628=
+&amp;mapIndex=3D2" style=3D"color:rgb(36,66,124)">10F </a>=C2=A0
+                                                               =20
+                                                               =20
+                                                                           =
+                                                =20
+                                                           =20
+                                                   =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+                           =20
+                       =20
+               =20
+           =20
+		       =20
+           =20
+           =20
+                =C2=A0
+           =20
+       =20
+           =20
+               =20
+                   =20
+                    <span id=3D"yiv7993162722ctl06_SliceRepeater_ctl01_Retu=
+rnLabelSpan">
+                        <img src=3D"http://images.usairways.com/newEmail/ge=
+n3/templates/return_flag.gif" height=3D"20" width=3D"112" border=3D"0">
+                    </span>
+               =20
+           =20
+           =20
+               =20
+                    <table id=3D"yui_3_16_0_1_1433271596795_31192" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				        <tbody id=3D"yui_3_16_0_1_1433271596795_31191"><tr id=3D"yui_3_=
+16_0_1_1433271596795_31190">
+					        <td style=3D"font:36px Arial,Helvetica,sans-serif;color:rgb(36=
+,66,124)" width=3D"88" align=3D"left">
+                                ROA
+					        </td>
+					        <td style=3D"padding-top:2px" valign=3D"middle" width=3D"32" a=
+lign=3D"left">
+						        <img src=3D"http://images.usairways.com/newEmail/gen3/templat=
+es/arrow_right_large.gif" height=3D"22" width=3D"20" border=3D"0">
+					        </td>
+					        <td id=3D"yui_3_16_0_1_1433271596795_31201" style=3D"font:36px=
+ Arial,Helvetica,sans-serif;color:rgb(36,66,124)" width=3D"95" align=3D"lef=
+t">
+                                TLH
+					        </td>
+					        <td id=3D"yui_3_16_0_1_1433271596795_31189" valign=3D"middle" =
+width=3D"398" align=3D"left">
+						        <span id=3D"yui_3_16_0_1_1433271596795_31231" style=3D"font:b=
+old 15px Arial,Helvetica,sans-serif;color:rgb(39,125,178)">
+							        Roanoke, VA=20
+                                    to=20
+                                    Tallahassee, FL
+						        </span>
+						        <br>
+						        <span id=3D"yui_3_16_0_1_1433271596795_31188" style=3D"font:1=
+2px Arial,Helvetica,sans-serif">
+							        Friday, July 03, 2015
+						        </span>
+					        </td>
+				        </tr>
+			        </tbody></table>
+               =20
+           =20
+           =20
+                   =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31017" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31016">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31015">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(39,125,178)" width=3D"100" align=3D"right">
+                                                FLIGHT#
+						                        4829
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+                                            <td valign=3D"middle" width=3D"=
+36">
+                                                <img src=3D"https://content=
+.usairways.com/en-US/Resources/images/icons/airline/usflag_pt.png" alt=3D""=
+ style=3D"border: 0px none;" border=3D"0">
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31014" st=
+yle=3D"font:italic 11px Arial,Helvetica,sans-serif" align=3D"left">
+					                            Operated by Piedmont Airlines dba US Airwa=
+ys Express
+                                               =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31029" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31028">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31196">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                DEPART
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31200" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        04:10 PM=20
+						                        <span style=3D"color:rgb(39,125,178);padding-=
+left:3px">
+                                                    ROA
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31195" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                AIRCRAFT
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"middle" align=3D"left">
+						                        <span>Dash 8-300=C2=A0</span>
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31198">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                ARRIVE
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31199" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" align=3D"left">
+						                        05:14 PM=20
+						                        <span style=3D"color:rgb(39,125,178);padding-=
+left:3px">
+                                                    CLT
+						                        </span>
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31197" style=3D"font:12px Arial,Helvetica,sans-serif" width=3D"95" al=
+ign=3D"left">
+                                               =20
+                                            </td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                CABIN
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                        Coach
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31033">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                TRAVEL TIME
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" width=3D"95" align=3D"left">
+						                        1h 4m
+					                        </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31032" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                MEAL
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                       =20
+                                                --
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31027">
+					                        <td width=3D"100">=C2=A0</td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td width=3D"95">=C2=A0</td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31026" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                SEATS
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"top" align=3D"left">
+					                           =20
+
+                                               =20
+                                       =20
+						                       =20
+                                                       =20
+                                                               =20
+                                                                    <a rel=
+=3D"nofollow" target=3D"_blank" href=3D"https://www.usairways.com/Goto/Defa=
+ult.aspx?from=3D&amp;target=3Dmyseats&amp;code=3DEVJDBY&amp;date=3D20150703=
+&amp;mapIndex=3D3" style=3D"color:rgb(36,66,124)">10F </a>=C2=A0
+                                                               =20
+                                                               =20
+                                                                           =
+                                                =20
+                                                           =20
+                                                   =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+=09
+                                    <table id=3D"yui_3_16_0_1_1433271596795=
+_31335" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                        <tbody id=3D"yui_3_16_0_1_143327159=
+6795_31334"><tr id=3D"yui_3_16_0_1_1433271596795_31333">
+                                            <td valign=3D"top" width=3D"30"=
+ align=3D"left">
+                                                <img src=3D"http://images.u=
+sairways.com/newEmail/Gen3/templates/20px_alert.gif" height=3D"20" width=3D=
+"20" border=3D"0" align=3D"absmiddle">
+                                            </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31332" valign=3D"top" align=3D"left">
+                                               =20
+                                                        <table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0">
+                                                   =20
+                                                       =20
+                                                       =20
+                                                            <tbody><tr styl=
+e=3D"padding-top:2px"><td style=3D"font:12px Arial,Helvetica,sans-serif;col=
+or:rgb(51,51,51)">Flight # 4829 : Plane change required in CLT</td></tr>
+                                                       =20
+                                                   =20
+                                                        </tbody></table>
+                                                   =20
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                               =20
+
+
+                           =20
+=09
+                                    <table id=3D"yui_3_16_0_1_1433271596795=
+_31342" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                        <tbody id=3D"yui_3_16_0_1_143327159=
+6795_31341"><tr id=3D"yui_3_16_0_1_1433271596795_31340">
+                                            <td style=3D"font:bold 12px Ari=
+al,Helvetica,sans-serif;color:rgb(198,127,0);white-space:nowrap;padding:0px=
+" nowrap>
+                                               =20
+                                                Stop: Change plane in Charl=
+otte, NC (CLT)
+                                            </td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31339" style=3D"text-align:left;padding:0px 20px;width:100%;font-size=
+:8px"><div id=3D"yui_3_16_0_1_1433271596795_31338" style=3D"width:100%">=C2=
+=A0</div><div id=3D"yui_3_16_0_1_1433271596795_31345" style=3D"border-top:1=
+px dashed rgb(153,153,153);width:100%">=C2=A0</div></td>
+                                        </tr>
+                                    </tbody></table>
+                               =20
+
+
+                       =20
+               =20
+                   =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31308" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31307">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31306">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(39,125,178)" width=3D"100" align=3D"right">
+                                                FLIGHT#
+						                        5136
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+                                            <td valign=3D"middle" width=3D"=
+36">
+                                                <img src=3D"https://content=
+.usairways.com/en-US/Resources/images/icons/airline/usflag_oh.png" alt=3D""=
+ style=3D"border: 0px none;" border=3D"0">
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31305" st=
+yle=3D"font:italic 11px Arial,Helvetica,sans-serif" align=3D"left">
+					                            Operated by PSA Airlines dba US Airways Ex=
+press
+                                               =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+		                       =20
+			                        <table id=3D"yui_3_16_0_1_1433271596795_31023" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				                        <tbody id=3D"yui_3_16_0_1_1433271596795_31022">=
+<tr id=3D"yui_3_16_0_1_1433271596795_31021">
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                DEPART
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" width=3D"95" align=3D"left">
+						                        06:00 PM=20
+						                        <span style=3D"color:rgb(39,125,178);padding-=
+left:3px">
+                                                    CLT
+						                        </span>
+					                        </td>
+                                            <td style=3D"font:12px Arial,He=
+lvetica,sans-serif" width=3D"95" align=3D"left">
+                                               =20
+                                            </td>
+					                        <td id=3D"yui_3_16_0_1_1433271596795_31020" st=
+yle=3D"font:12px Arial,Helvetica,sans-serif;color:rgb(153,153,153)" width=
+=3D"100" align=3D"right">
+                                                AIRCRAFT
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"middle" align=3D"left">
+						                        <span>CRJ-200=C2=A0</span>
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                ARRIVE
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" width=3D"95" align=3D"left">
+						                        07:28 PM=20
+						                        <span style=3D"color:rgb(39,125,178);padding-=
+left:3px">
+                                                    TLH
+						                        </span>
+					                        </td>
+                                            <td style=3D"font:12px Arial,He=
+lvetica,sans-serif" width=3D"95" align=3D"left">
+                                               =20
+                                            </td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                CABIN
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                        Coach
+					                        </td>
+				                        </tr>
+				                        <tr>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                TRAVEL TIME
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" width=3D"95" align=3D"left">
+						                        1h 28m
+					                        </td>
+                                            <td width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                MEAL
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" align=3D"left">
+						                       =20
+                                                --
+                                               =20
+					                        </td>
+				                        </tr>
+				                        <tr id=3D"yui_3_16_0_1_1433271596795_31261">
+					                        <td width=3D"100">=C2=A0</td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td width=3D"95">=C2=A0</td>
+                                            <td id=3D"yui_3_16_0_1_14332715=
+96795_31260" width=3D"95">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif;color:rgb(153,153,153)" width=3D"100" align=3D"right">
+                                                SEATS
+					                        </td>
+					                        <td width=3D"20">=C2=A0</td>
+					                        <td style=3D"font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"top" align=3D"left">
+					                           =20
+
+                                               =20
+                                       =20
+						                       =20
+                                                       =20
+                                                               =20
+                                                                    <a rel=
+=3D"nofollow" target=3D"_blank" href=3D"https://www.usairways.com/Goto/Defa=
+ult.aspx?from=3D&amp;target=3Dmyseats&amp;code=3DEVJDBY&amp;date=3D20150703=
+&amp;mapIndex=3D4" style=3D"color:rgb(36,66,124)">12A </a>=C2=A0
+                                                               =20
+                                                               =20
+                                                                           =
+                                                =20
+                                                           =20
+                                                   =20
+					                        </td>
+				                        </tr>
+			                        </tbody></table>
+		                       =20
+	                       =20
+                           =20
+                           =20
+                       =20
+               =20
+           =20
+		       =20
+            =C2=A0
+           =20
+                Thank you,<br><b><br></b></div><b>Daniel R. Nascimento</b><=
+br><div><div><div>Department of Chemistry and Biochemistry<br></div><div><i=
+>Florida State University</i><br></div><div>Tallahassee, 32310, FL<br></div=
+></div></div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote=
+">2015-06-05 11:49 GMT-04:00 Andrew James <span dir=3D"ltr">&lt;<a href=3D"=
+mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span>:<b=
+r><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:=
+1px #ccc solid;padding-left:1ex">Hello,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--047d7beb91b65b55db0517c97b1b--

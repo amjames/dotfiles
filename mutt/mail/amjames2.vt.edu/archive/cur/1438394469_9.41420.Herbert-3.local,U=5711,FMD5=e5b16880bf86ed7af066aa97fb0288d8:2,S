@@ -1,0 +1,153 @@
+MIME-Version: 1.0
+Received: by 10.140.90.18 with HTTP; Sat, 4 Apr 2015 10:09:55 -0700 (PDT)
+In-Reply-To: <E27DB792-A084-4D1F-8246-7F6D0B76C1B9@vt.edu>
+References: <CAH0V_1byf=CF8vGAhc05iz1gVQ8conR_-f-bMhRdAxuu3bNaFw@mail.gmail.com>
+	<CA+58rsDrkvQvOGyjXjA+n4xg1woh5ENSOtwSbxWzvRkXYkxfWQ@mail.gmail.com>
+	<E27DB792-A084-4D1F-8246-7F6D0B76C1B9@vt.edu>
+Date: Sat, 4 Apr 2015 13:09:55 -0400
+Delivered-To: amjames2@vt.edu
+Message-ID: <CA+58rsCpO1OCDWyc5WzxCr4MKSB6gsAKoy6yRvXDvnrbLd5+Xg@mail.gmail.com>
+Subject: Re: Natural orbitals
+From: Andrew James <amjames2@vt.edu>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Content-Type: multipart/mixed; boundary=001a11345bf84fd32a0512e9229d
+
+--001a11345bf84fd32a0512e9229d
+Content-Type: multipart/alternative; boundary=001a11345bf84fd2f90512e9229b
+
+--001a11345bf84fd2f90512e9229b
+Content-Type: text/plain; charset=UTF-8
+
+Here is my input file. I get a seg-fault with a rohf reference, and then
+some very jumbled nonsense as an error message when I use a uhf reference.
+
+
+Here is the input file
+
+Andrew James
+
+Graduate Teaching Assistant
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu
+
+On Sat, Apr 4, 2015 at 1:01 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Can you send me an input file?
+>
+> TDC
+>
+> Sent from my iPhone
+>
+> On Apr 4, 2015, at 12:56 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> Dr. Crawford,
+>
+> I think I will need some help moving forward. I am not quite sure what I
+> need to change at this point to get it working.
+>
+> --AJ
+>
+> Andrew James
+>
+> Graduate Teaching Assistant
+> Virginia Tech
+> Chemistry Department
+> amjames2@vt.edu
+>
+> On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+>> Dear AJ,
+>>
+>> Prof. Lischka tells me that they are in the stage of preparing their
+>> manuscript on the aromatic systems, and they would like to have results
+>> from us as soon as possible.  Do you need help from me to move forward with
+>> the code and testing?
+>>
+>> -TDC
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>
+>
+
+--001a11345bf84fd2f90512e9229b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Here is my input file. I get a seg-fault with a rohf refer=
+ence, and then some very jumbled nonsense as an error message when I use a =
+uhf reference.=C2=A0<div><br></div><div><br></div><div>Here is the input fi=
+le=C2=A0</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div =
+class=3D"gmail_signature"><div dir=3D"ltr">Andrew James=C2=A0<div><br><div>=
+Graduate Teaching Assistant=C2=A0<br><div>Virginia Tech=C2=A0</div></div><d=
+iv>Chemistry Department=C2=A0</div></div><div><a href=3D"mailto:amjames2@vt=
+.edu" target=3D"_blank">amjames2@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Apr 4, 2015 at 1:01 PM, T. Daniel Cr=
+awford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_b=
+lank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"auto"><div>Can you send me an input file?</div><div><br></div=
+><div>TDC<br><br>Sent from my iPhone</div><div><div class=3D"h5"><div><br>O=
+n Apr 4, 2015, at 12:56 PM, Andrew James &lt;<a href=3D"mailto:amjames2@vt.=
+edu" target=3D"_blank">amjames2@vt.edu</a>&gt; wrote:<br><br></div><blockqu=
+ote type=3D"cite"><div><div dir=3D"ltr">Dr. Crawford,<div><br></div><div>I =
+think I will need some help moving forward. I am not quite sure what I need=
+ to change at this point to get it working.</div><div><br></div><div>--AJ</=
+div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=
+=3D"ltr">Andrew James=C2=A0<div><br><div>Graduate Teaching Assistant=C2=A0<=
+br><div>Virginia Tech=C2=A0</div></div><div>Chemistry Department=C2=A0</div=
+></div><div><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@v=
+t.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel C=
+rawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Dear AJ,<div><br></div><div>Prof. Lischka tells me that=
+ they are in the stage of preparing their manuscript on the aromatic system=
+s, and they would like to have results from us as soon as possible.=C2=A0 D=
+o you need help from me to move forward with the code and testing?</div><di=
+v><br></div><div>-TDC</div><div><br clear=3D"all"><div><div><div dir=3D"ltr=
+">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.ed=
+u" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+</div></blockquote></div></div></div></blockquote></div><br></div>
+
+--001a11345bf84fd2f90512e9229b--
+--001a11345bf84fd32a0512e9229d
+Content-Type: application/octet-stream; name="input.dat"
+Content-Disposition: attachment; filename="input.dat"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_i839zp3f0
+
+bWVtb3J5IDQgZ2IKIAptb2xlY3VsZSBwaGVuYWxlbnlsIHsgCjAgMiAKQyAgICAgICAgIDAuMDAw
+MDAwICAgICAgICAgMC4wMDAwMDAgICAgICAgICAgMi44MjMwOTAKQyAgICAgICAgIDAuMDAwMDAw
+ICAgICAgICAgMS4yMTA2NzQgICAgICAgICAgMi4xMzQyNDkKQyAgICAgICAgIDAuMDAwMDAwICAg
+ICAgICAtMS4yMTA2NzQgICAgICAgICAgMi4xMzQyNDkKQyAgICAgICAgIDAuMDAwMDAwICAgICAg
+ICAgMS4yMzk2MzYgICAgICAgICAgMC43MTU3NDEKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAt
+MS4yMzk2MzYgICAgICAgICAgMC43MTU3NDEKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMC4w
+MDAwMDAgICAgICAgICAgMC4wMDAwMTQKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMi40NTM1
+OTggICAgICAgICAtMC4wMTg2NTUKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAtMi40NTM1OTgg
+ICAgICAgICAtMC4wMTg2NTUKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMC4wMDAwMDAgICAg
+ICAgICAtMS40MzE0MDgKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMS4yNDI5MTggICAgICAg
+ICAtMi4xMTU2NDMKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAtMS4yNDI5MTggICAgICAgICAt
+Mi4xMTU2NDMKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMi40NDQ3ODIgICAgICAgICAtMS40
+MTE1NTAKQyAgICAgICAgIDAuMDAwMDAwICAgICAgICAtMi40NDQ3ODIgICAgICAgICAtMS40MTE1
+NTAKSCAgICAgICAgIDAuMDAwMDAwICAgICAgICAgMy4zOTYwMTQgICAgICAgICAgMC41MjMxMDkK
+SCAgICAgICAgIDAuMDAwMDAwICAgICAgICAtMy4zOTYwMTQgICAgICAgICAgMC41MjMxMDkKSCAg
+ICAgICAgIDAuMDAwMDAwICAgICAgICAgMC4wMDAwMDAgICAgICAgICAgMy45MDk5NDMKSCAgICAg
+ICAgIDAuMDAwMDAwICAgICAgICAgMi4xNTEwMTAgICAgICAgICAgMi42Nzk2MzAKSCAgICAgICAg
+IDAuMDAwMDAwICAgICAgICAtMi4xNTEwMTAgICAgICAgICAgMi42Nzk2MzAKSCAgICAgICAgIDAu
+MDAwMDAwICAgICAgICAgMy4zODYwMzAgICAgICAgICAtMS45NTQ5NzYKSCAgICAgICAgIDAuMDAw
+MDAwICAgICAgICAtMy4zODYwMzAgICAgICAgICAtMS45NTQ5NzYKSCAgICAgICAgIDAuMDAwMDAw
+ICAgICAgICAgMS4yNDQ4MjcgICAgICAgICAtMy4yMDI2NzMKSCAgICAgICAgIDAuMDAwMDAwICAg
+ICAgICAtMS4yNDQ4MjcgICAgICAgICAtMy4yMDI2NzMKdW5pdHMgYW5nc3Ryb20KfQpzZXQgZ2xv
+YmFscyB7CgliYXNpcyA9Ni0zMUcqCglyZWZlcmVuY2UgPXVoZgoJI2Zyb3plbl9kb2NjID0gWzIx
+LCAgMCwgIDAsIDE2XQoJI2Zyb3plbl91b2NjID0gWzY2LCAxOSwgMjMsIDU1XSAKfQoKZW5lcmd5
+KCdjY3NkJykKc2V0IG5vX3JhbmdlPTcKcHJvcGVydHkoJ2Njc2QnLHByb3BlcnRpZXM9WydkaXBv
+bGUnXSkKCgoK
+--001a11345bf84fd32a0512e9229d--

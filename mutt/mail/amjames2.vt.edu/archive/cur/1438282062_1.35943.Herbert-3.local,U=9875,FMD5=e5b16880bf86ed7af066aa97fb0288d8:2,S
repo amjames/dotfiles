@@ -1,0 +1,150 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp742451qgt;
+        Thu, 4 Jun 2015 10:37:02 -0700 (PDT)
+X-Received: by 10.55.25.150 with SMTP id 22mr73491949qkz.105.1433439422211;
+        Thu, 04 Jun 2015 10:37:02 -0700 (PDT)
+Return-Path: <magee@uci.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id c9si4764820qgf.105.2015.06.04.10.37.02
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Jun 2015 10:37:02 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.215.53 is neither permitted nor denied by best guess record for domain of magee@uci.edu) client-ip=209.85.215.53;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.215.53 is neither permitted nor denied by best guess record for domain of magee@uci.edu) smtp.mail=magee@uci.edu
+Received: from mail-la0-f53.google.com (mail-la0-f53.google.com [209.85.215.53])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t54Hau2H029660
+	for <amjames2@vt.edu>; Thu, 4 Jun 2015 13:37:01 -0400
+Received: by laei3 with SMTP id i3so37047537lae.3
+        for <amjames2@vt.edu>; Thu, 04 Jun 2015 10:36:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=IY5qMv0kDId4SsYN8guL3dUm/L/3gIXwKQYemlccEc8=;
+        b=YTu6g47TFblfmoD2HpQPDZwupRH2DPFYKAkX7rfvV5mnYpayk+G79+fpoSqwotBQqM
+         eToQTbhE2g628mINuFd3Xhr13+RIeYx2ia/jJi6OwIdWV4TLa7k++9UHmwrfoh6unkxY
+         k41EzUYKg5EXKOzozTgqQvdj+Sh+hJxojym1OGF0v9YgITR70FRHXiAB0FfRMTktX0j6
+         fNHop9rcDoP3e27/bMaMoDcHvc3/K8h6IbD+/i3jmp6p3FDDt3/ATbERxKopUhHmLgXQ
+         QMQxFxkKUbre1I3li0RRDtOJxpSq0R5XjNtQCx2C6otqKgJ59O5xgRwJ7f1pf/TR3sS5
+         JwKg==
+X-Gm-Message-State: ALoCoQnegZfbaOtQ5ik2fgQ8ah8xDyz4oB1L7hEt8HbJ1ap18fIKg0UBeaoUIE93umUpn90XypRN
+MIME-Version: 1.0
+X-Received: by 10.112.137.99 with SMTP id qh3mr14868527lbb.108.1433439415847;
+ Thu, 04 Jun 2015 10:36:55 -0700 (PDT)
+Received: by 10.25.37.207 with HTTP; Thu, 4 Jun 2015 10:36:55 -0700 (PDT)
+In-Reply-To: <00F2B29A-1CFC-469C-90E6-06C080BB14E3@vt.edu>
+References: <00F2B29A-1CFC-469C-90E6-06C080BB14E3@vt.edu>
+Date: Thu, 4 Jun 2015 10:36:55 -0700
+Message-ID: <CAMzvrF9auDhSWs-35aTApkT+ccf8zL7J8XejALcnYQeUjNjszw@mail.gmail.com>
+Subject: Re: Software Summer School Application Status
+From: Matthew Madsen Agee <magee@uci.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0118279c305f2c0517b49fea
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0118279c305f2c0517b49fea
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+
+Here is my arriving and departing flight information:
+
+Arrival:
+
+Flight # - 4842
+Airline - Piedmont Airlines dba US Airways Expres
+Arrival Time - 4:47 PM
+
+
+Departure:
+
+Flight # - 4879
+Airline - Piedmont Airlines dba US Airways Express
+Departure Time - 12:55 PM
+
+
+Thanks,
+
+Matt Agee
+
+
+On Tue, May 19, 2015 at 11:04 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Matthew,
+>
+> We are happy to announce that your application to the 2015
+> Software-Development Summer School for Computational Chemistry,
+> Biomolecular Simulation, and Materials Modeling has been accepted!
+>
+> The next step is to secure your place in the program by going to this
+> webpage to formally register. http://www.cpe.vt.edu/reg/sss/
+> The registration page mentions credit cards, so I want to remind you that *there
+> is no charge for participating in the Summer School*. Clicking register
+> will bring you to a page showing a total of $0.00 for registration.
+>
+> When you have made your travel arrangements I ask that you please send me
+> an email (amjames2@vt.edu).
+> If you will be flying I will need to know the flight number, airline and
+> the scheduled arrival/departure time of your arriving and departing
+> flights.  We will use this information to arrange transportation to and
+> from Roanoke airport.
+>
+> If you are driving to campus I will need to get you a temporary parking
+> permit, and give you instructions on where you can park.
+>
+> If you have any questions please do not hesitate to contact me. Looking
+> forward to meeting you in June!
+>
+> Sincerely,
+> Andrew M. James
+> Summer School Coordinator
+>
+
+--089e0118279c305f2c0517b49fea
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div><div><div>Hello Andrew, <br><br></div>=
+Here is my arriving and departing flight information:<br><br></div>Arrival:=
+<br><br></div><div>Flight # - 4842<br></div><div>Airline - Piedmont Airline=
+s dba US Airways Expres<br></div><div>Arrival Time - 4:47 PM<br></div><div>=
+<br><br></div>Departure:<br><br></div>Flight # - 4879<br></div>Airline - Pi=
+edmont Airlines dba US Airways Express
+</div>Departure Time - 12:55 PM<br><div><div><div><div><div><br><br></div><=
+div>Thanks, <br><br></div><div>Matt Agee<br></div><div><br></div></div></di=
+v></div></div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quot=
+e">On Tue, May 19, 2015 at 11:04 AM, Andrew James <span dir=3D"ltr">&lt;<a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</=
+span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8e=
+x;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:brea=
+k-word"><div>Dear Matthew,</div><div><br></div><div>We are happy to announc=
+e that your application to the 2015 Software-Development Summer School for =
+Computational Chemistry, Biomolecular Simulation, and Materials Modeling ha=
+s been accepted!</div><div><br></div><div>The next step is to secure your p=
+lace in the program by going to this webpage to formally register.=C2=A0<a =
+href=3D"http://www.cpe.vt.edu/reg/sss/" target=3D"_blank">http://www.cpe.vt=
+.edu/reg/sss/</a>=C2=A0</div><div>The registration page mentions credit car=
+ds, so I want to remind you that=C2=A0<b><i>there is no charge for particip=
+ating in the Summer School</i></b>. Clicking register will bring you to a p=
+age showing a total of $0.00 for registration. =C2=A0</div><div><br></div><=
+div>When you have made your travel arrangements I ask that you please send =
+me an email (<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@=
+vt.edu</a>).</div><div>If you will be flying I will need to know the flight=
+ number, airline and the scheduled arrival/departure time of your arriving =
+and departing flights.=C2=A0 We will use this information to arrange transp=
+ortation to and from Roanoke airport.=C2=A0</div><div><br></div><div>If you=
+ are driving to campus I will need to get you a temporary parking permit, a=
+nd give you instructions on where you can park.=C2=A0</div><div><br></div><=
+div>If you have any questions please do not hesitate to contact me. Looking=
+ forward to meeting you in June!</div><div><br></div><div>Sincerely,</div><=
+div>Andrew M. James</div><div>Summer School Coordinator</div></div></blockq=
+uote></div><br></div>
+
+--089e0118279c305f2c0517b49fea--

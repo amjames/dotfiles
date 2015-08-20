@@ -1,0 +1,98 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp420028qgb;
+        Wed, 19 Aug 2015 09:24:04 -0700 (PDT)
+X-Received: by 10.140.196.8 with SMTP id r8mr26066105qha.25.1440001444715;
+        Wed, 19 Aug 2015 09:24:04 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id e94si1833035qkh.45.2015.08.19.09.24.04
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 09:24:04 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 209.50.248.249 as permitted sender) client-ip=209.50.248.249;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 209.50.248.249 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@tonymacx86.com
+Received: from mail-io0-x234.google.com (mail-io0-x234.google.com [IPv6:2607:f8b0:4001:c06::234])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7JGNwLG011391
+	for <amjames2@vt.edu>; Wed, 19 Aug 2015 12:24:04 -0400
+Received: by iods203 with SMTP id s203so15058081iod.0
+        for <amjames2@vt.edu>; Wed, 19 Aug 2015 09:23:58 -0700 (PDT)
+X-Received: by 10.107.128.83 with SMTP id b80mr13347906iod.84.1440001438746;
+        Wed, 19 Aug 2015 09:23:58 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.62.209 with SMTP id a17csp381320ies;
+        Wed, 19 Aug 2015 09:23:57 -0700 (PDT)
+X-Received: by 10.140.16.43 with SMTP id 40mr24298897qga.64.1440001437445;
+        Wed, 19 Aug 2015 09:23:57 -0700 (PDT)
+Received: from server1.tonymacx86.com (server1.tonymacx86.com. [209.50.248.249])
+        by mx.google.com with ESMTPS id 41si1884797qgc.12.2015.08.19.09.23.56
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 09:23:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of donotreply@tonymacx86.com designates 209.50.248.249 as permitted sender) client-ip=209.50.248.249;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=tonymacx86.com; s=default;
+	h=Date:Content-Transfer-Encoding:Content-Type:MIME-Version:Message-ID:From:Subject:To; bh=h6r8pMXTvu9EuIfI2uYahl0ox3Xvtfv7a8fudAF5rLQ=;
+	b=lYSwk2f28+xCV1mnbbg2+kYdJby0gSjHKJgDoUPC28W81uIjbhThDOcGZKklljnUVOeRPyXsMzK6NGRYN2QBUG1w+xetBtvRFtzmLLn2Z5/NsCcy1OkPZeGfD7H9se6H2XyG9PEZQdTT/nH+v5GaXKFc7h8nUqszJHqL1w062wo=;
+Received: from nobody by server1.tonymacx86.com with local (Exim 4.85)
+	(envelope-from <donotreply@tonymacx86.com>)
+	id 1ZS69c-000693-MG
+	for andrew.m.james2@gmail.com; Wed, 19 Aug 2015 12:23:56 -0400
+To: andrew.m.james2@gmail.com
+Subject: Action Required to Activate Membership for tonymacx86.com - Forum
+From: "tonymacx86.com - Forum" <donotreply@tonymacx86.com>
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <20150819162356.f3e178402790@www.tonymacx86.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-Mailer: vBulletin Mail via PHP
+Date: Wed, 19 Aug 2015 12:23:56 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server1.tonymacx86.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 32007] / [47 12]
+X-AntiAbuse: Sender Address Domain - tonymacx86.com
+X-Get-Message-Sender-Via: server1.tonymacx86.com: uid via acl_c_vhost_owner from authenticated_id: nobody from /only user confirmed/virtual account not confirmed
+X-Source: 
+X-Source-Args: /usr/local/apache/bin/httpd -k start 
+X-Source-Dir: tonymacx86.com:/public_html
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HEADER_FROM_DIFFERENT_DOMAINS autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear amjames2,
+
+Thank you for registering at the tonymacx86.com - Forum. Before we can activate your account one last step must be taken to complete your registration.
+
+Please note - you must complete this last step to become a registered member. You will only need to visit this URL once to activate your account.
+
+To complete your registration, please visit this URL:
+http://www.tonymacx86.com/register.php?a=act&u=1383438&i=06029847374ee3a8e0cd53b81f8558a08f861f1e
+
+**** Does The Above URL Not Work? ****
+If the above URL does not work, please use your Web browser to go to:
+http://www.tonymacx86.com/register.php?a=ver
+
+Please be sure not to add extra spaces. You will need to type in your username and activation number on the page that appears when you visit the URL.
+
+Your Username is: amjames2
+Your Activation ID is: 06029847374ee3a8e0cd53b81f8558a08f861f1e
+
+If you are still having problems signing up please contact a member of our support staff at donotreply@tonymacx86.com
+
+tonymacx86 & MacMan
+http://www.tonymacx86.com
+
+
+--------------------
+To stop receiving this email, please visit this URL:
+http://www.tonymacx86.com/register.php?do=deleteactivation&u=1383438&i=06029847374ee3a8e0cd53b81f8558a08f861f1e

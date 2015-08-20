@@ -1,0 +1,109 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp957359qgb;
+        Thu, 20 Aug 2015 06:18:49 -0700 (PDT)
+X-Received: by 10.55.197.149 with SMTP id k21mr5402506qkl.10.1440076729725;
+        Thu, 20 Aug 2015 06:18:49 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 19si7322242qhc.39.2015.08.20.06.18.48
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 20 Aug 2015 06:18:49 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) client-ip=192.254.112.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o3.sgmail.github.com (o3.sgmail.github.com [192.254.112.98])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7KDIfDS025155
+	for <amjames2@vt.edu>; Thu, 20 Aug 2015 09:18:47 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=6Xh3bh9pz6eMPI27/XxwFXFjkm4=; b=IU0AcaI/vzEzAv1N
+	VTWinLPuutzjSgy0mSCFfMhI6mtG4MYlfYRPRI9n48j3DPeC4B9pyBnNaw8pSiy1
+	SJ3fNmK5dh9SS4hG3aejW9bqzznHk5olPVa/M7IJp82k+LiGwqaZbGlxyoQqyaSz
+	Ou24Yx4dPNURX6s0FpLtKKhgXl0=
+Received: by filter0417p1mdw1.sendgrid.net with SMTP id filter0417p1mdw1.7521.55D5D3B01D
+        2015-08-20 13:18:40.720318982 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0003p1iad1.sendgrid.net (SG) with ESMTP id GDIdaA5CS5u6nK8vC3Pdzg
+	for <amjames2@vt.edu>; Thu, 20 Aug 2015 13:18:40.702 +0000 (UTC)
+Date: Thu, 20 Aug 2015 06:18:40 -0700
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642770e6004f0a420d1b143b68038fd8166603dcd6792cf0000000111ed95b092a169ce05989dab@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/103/133004640@github.com>
+In-Reply-To: <psi4/psi4/issues/103@github.com>
+References: <psi4/psi4/issues/103@github.com>
+Subject: Re: [psi4] Stability analysis (#103)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d5d3b07c8c3_16973f94642ef29c505813";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642770e6004f0a420d1b143b68038fd8166603dcd6792cf0000000111ed95b092a169ce05989dab@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642770e6004f0a420d1b143b68038fd8166603dcd6792cf0000000111ed95b092a169ce05989dab@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QrE5P1oo7M-hv-TyieaX5GXRUXQlks5opcswgaJpZM4FUwc->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkEJ8efKv3bglnXrXBNXmourWULEv9xCesr9o
+ I5gbdk37glRll1whKVwZhnAQT1F5+CfPNO984e0D1FWaP6h1QACT/KJjAMqaTJrPanyIrP5xme/W/p
+ vqr6VAHbPFh33Z8=
+X-Spam-Status: No, score=-2.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55d5d3b07c8c3_16973f94642ef29c505813
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I think I'd like to see the compute_energy code broken apart into at least three parts: 
+
+* initialize() - compute integrals, generate initial guess, etc.
+* iterations() - contains the SCF iteration for loop
+* finalize() - stability analysis and normal finalize of SCF
+
+Stability analysis would live very early in finalize making calls to iterations as needed and then let the remaining code in finalize be executed. This would easily allow for integral reuse and other quantities.
+
+Does this flow work for this?
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/103#issuecomment-133004640
+----==_mimepart_55d5d3b07c8c3_16973f94642ef29c505813
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I think I'd like to see the compute_energy code broken apart into at least three parts: </p>
+
+<ul>
+<li>initialize() - compute integrals, generate initial guess, etc.</li>
+<li>iterations() - contains the SCF iteration for loop</li>
+<li>finalize() - stability analysis and normal finalize of SCF</li>
+</ul>
+
+<p>Stability analysis would live very early in finalize making calls to iterations as needed and then let the remaining code in finalize be executed. This would easily allow for integral reuse and other quantities.</p>
+
+<p>Does this flow work for this?</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/103#issuecomment-133004640">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QiKHhW1WnoTwkSdIOWck8XWDs_eSks5opcswgaJpZM4FUwc-.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4/issues/103#issuecomment-133004640"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55d5d3b07c8c3_16973f94642ef29c505813--

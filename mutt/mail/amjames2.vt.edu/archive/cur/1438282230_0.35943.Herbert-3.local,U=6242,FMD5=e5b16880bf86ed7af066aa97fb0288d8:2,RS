@@ -1,0 +1,203 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp417710qgt;
+        Tue, 21 Apr 2015 00:21:52 -0700 (PDT)
+X-Received: by 10.140.83.116 with SMTP id i107mr20961165qgd.97.1429600910551;
+        Tue, 21 Apr 2015 00:21:50 -0700 (PDT)
+Return-Path: <erik.kallman@kemi.uu.se>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 62si1071105qku.44.2015.04.21.00.21.49
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Apr 2015 00:21:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of erik.kallman@kemi.uu.se designates 130.238.7.172 as permitted sender) client-ip=130.238.7.172;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of erik.kallman@kemi.uu.se designates 130.238.7.172 as permitted sender) smtp.mail=erik.kallman@kemi.uu.se;
+       dkim=pass (test mode) header.i=@uu.se
+Received: from cursor.its.uu.se (smtp-out1.uu.se [130.238.7.172] (may be forged))
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3L7Lho3030889
+	for <amjames2@vt.edu>; Tue, 21 Apr 2015 03:21:48 -0400
+Received: from e-mailfilter02.sunet.se (e-mailfilter02.sunet.se [192.36.171.202])
+	by cursor.its.uu.se (Postfix) with ESMTP id 6EDE5B71
+	for <amjames2@vt.edu>; Tue, 21 Apr 2015 09:21:42 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=uu.se;
+	s=centralsmtp; t=1429600902;
+	bh=0NV5IyGSwiv337fi5WoTDYn36/5xacdr/AJlWFTohaI=;
+	h=From:To:Subject:Date:References:In-Reply-To;
+	b=xc21iC/uLvZcQzlUTZ92Cc2y9DZCAbxooKjRVH/DETcRGapsOGDQiAAAbAITozF5U
+	 KP+9B8dDDIwTV9XoKqEcKLDaa69Jw8dKl2XLRYatgBIpBJyjRtYfRi08qsAasF2LOx
+	 nGb5veCOrnDN+zf32Nr4QzFRy3J8Blb6R4ySY3gk=
+Received: from velox.its.uu.se (velox.its.uu.se [130.238.7.74])
+	by e-mailfilter02.sunet.se (8.14.4/8.14.4/Debian-4) with ESMTP id t3L7LgA7013472
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <amjames2@vt.edu>; Tue, 21 Apr 2015 09:21:42 +0200
+Received: from smtp.user.uu.se (canus00.user.uu.se [130.238.3.116])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by velox.its.uu.se (Postfix) with ESMTPS id A99A434EA2
+	for <amjames2@vt.edu>; Tue, 21 Apr 2015 09:22:06 +0200 (CEST)
+Received: from COLUMBA03.user.uu.se ([::1]) by CANUS00.user.uu.se ([::1]) with
+ mapi id 14.03.0224.002; Tue, 21 Apr 2015 09:20:14 +0200
+From: =?iso-8859-1?Q?Erik_K=E4llman?= <erik.kallman@kemi.uu.se>
+To: Andrew James <amjames2@vt.edu>
+Subject: RE: Summer school, special request food
+Thread-Topic: Summer school, special request food
+Thread-Index: AQHQe5vnGB3e6BSgsU2cEqcEuCqwMZ1XDenj
+Date: Tue, 21 Apr 2015 07:20:13 +0000
+Message-ID: <02EB52B539FE7C40AEDAA2A62AA264A218669CA7@COLUMBA03.user.uu.se>
+References: <02EB52B539FE7C40AEDAA2A62AA264A218669C59@COLUMBA03.user.uu.se>,<6BEABD5F-8AB9-46DD-9BCD-A1FD65C58713@vt.edu>
+In-Reply-To: <6BEABD5F-8AB9-46DD-9BCD-A1FD65C58713@vt.edu>
+Accept-Language: en-US, sv-SE
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [130.243.140.208]
+Content-Type: multipart/alternative;
+	boundary="_000_02EB52B539FE7C40AEDAA2A62AA264A218669CA7COLUMBA03useruu_"
+MIME-Version: 1.0
+X-Bayes-Prob: 0.0001 (Score 0, tokens from: outbound, outbound-uu-se:default, uu-se:default, base:default, @@RPTN)
+X-Spam-Score: -0.10 () [Tag at 15.00] HTML_MESSAGE:0.001,T_RP_MATCHES_RCVD:-0.1
+X-p0f-Info: os=Linux 2.6.x, link=Ethernet or modem
+X-CanIt-Geo: ip=130.238.3.116; country=SE; region=Uppsala; city=Uppsala; latitude=59.8500; longitude=17.6333; http://maps.google.com/maps?q=59.8500,17.6333&z=6
+X-CanItPRO-Stream: outbound-uu-se:outbound (inherits from outbound-uu-se:default,uu-se:default,base:default)
+X-Canit-Stats-ID: 0aOivlG9K - b4ddf2438214 - 20150421
+X-Antispam-Training-Forget: https://mailfilter.sunet.se/canit/b.php?i=0aOivlG9K&m=b4ddf2438214&t=20150421&c=f
+X-Antispam-Training-Nonspam: https://mailfilter.sunet.se/canit/b.php?i=0aOivlG9K&m=b4ddf2438214&t=20150421&c=n
+X-Antispam-Training-Spam: https://mailfilter.sunet.se/canit/b.php?i=0aOivlG9K&m=b4ddf2438214&t=20150421&c=s
+X-CanIt-Archive-Cluster: PfMRe/vJWMiXwM2YIH5BVExnUnw
+Received-SPF: neutral (e-mailfilter02.sunet.se: 130.238.3.116 is neither permitted
+	nor denied by domain erik.kallman@kemi.uu.se)
+	receiver=e-mailfilter02.sunet.se; client-ip=130.238.3.116;
+	envelope-from=<erik.kallman@kemi.uu.se>; helo=velox.its.uu.se;
+	identity=mailfrom
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 192.36.171.202
+X-Spam-Status: No, score=-2.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,RCVD_IN_DNSWL_MED,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669CA7COLUMBA03useruu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Im glad to hear! Thank you for that.
+
+I will be arriving late in the evening (23:09) of the 28:th of June at Roan=
+oke. Is accomodation of the participants arranged from the evening of the 2=
+8:th? I'm sure i can find an alternative if this is not the case.
+
+/Erik
+________________________________
+From: Andrew James [amjames2@vt.edu]
+Sent: Monday, April 20, 2015 8:57 PM
+To: Erik K=E4llman
+Subject: Re: Summer school, special request food
+
+Erik,
+
+During the school you will eat in the D2 dining facility at Virginia Tech. =
+ The facility serves thousands of students daily and has options to accommo=
+date vegan diets.  Your food needs will be met!
+
+Thanks,
+Andrew  M. James
+Graduate Student
+Virginia Tech.
+On Apr 20, 2015, at 4:25 AM, Erik K=E4llman <erik.kallman@kemi.uu.se<mailto=
+:erik.kallman@kemi.uu.se>> wrote:
+
+Hi there,
+
+I am an Uppsala University student registered on the Summer School on Respo=
+nse Theory you're having at Virginia Tech, and just wanted to check with yo=
+u so that my supervisor provided the correct information to you with regard=
+s to food.
+
+I'm vegan, and if that is not specified in my registration details,  i woul=
+d be very glad to have that added.
+
+/Erik K=E4llman
+
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669CA7COLUMBA03useruu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style id=3D"owaParaStyle" type=3D"text/css">P {margin-top:0;margin-bottom:=
+0;}</style>
+</head>
+<body ocsi=3D"0" fpstyle=3D"1" class=3D"" style=3D"word-wrap:break-word">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">Im glad to hear! Thank you for that.<br>
+<br>
+I will be arriving late in the evening (23:09) of the 28:th of June at Roan=
+oke. Is accomodation of the participants arranged from the evening of the 2=
+8:th? I'm sure i can find an alternative if this is not the case.<br>
+<br>
+/Erik<br>
+<div style=3D"font-family: Times New Roman; color: #000000; font-size: 16px=
+">
+<hr tabindex=3D"-1">
+<div style=3D"direction: ltr;" id=3D"divRpF842171"><font face=3D"Tahoma" co=
+lor=3D"#000000" size=3D"2"><b>From:</b> Andrew James [amjames2@vt.edu]<br>
+<b>Sent:</b> Monday, April 20, 2015 8:57 PM<br>
+<b>To:</b> Erik K=E4llman<br>
+<b>Subject:</b> Re: Summer school, special request food<br>
+</font><br>
+</div>
+<div></div>
+<div>Erik,&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">During the school you will eat in the D2 dining facility at=
+ Virginia Tech. &nbsp;The facility serves thousands of students daily and h=
+as options to accommodate vegan diets. &nbsp;Your food needs will be met!</=
+div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Thanks,&nbsp;</div>
+<div class=3D"">Andrew &nbsp;M. James</div>
+<div class=3D"">Graduate Student</div>
+<div class=3D"">Virginia Tech.&nbsp;<br class=3D"">
+<div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Apr 20, 2015, at 4:25 AM, Erik K=E4llman &lt;<a href=3D"=
+mailto:erik.kallman@kemi.uu.se" class=3D"" target=3D"_blank">erik.kallman@k=
+emi.uu.se</a>&gt; wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div class=3D"" style=3D"font-style:normal; font-variant:normal; font-weigh=
+t:normal; letter-spacing:normal; line-height:normal; orphans:auto; text-ali=
+gn:start; text-indent:0px; text-transform:none; white-space:normal; widows:=
+auto; word-spacing:0px; direction:ltr; font-family:Tahoma; font-size:10pt">
+Hi there,<br class=3D"">
+<br class=3D"">
+I am an Uppsala University student registered on the Summer School on Respo=
+nse Theory you're having at Virginia Tech, and just wanted to check with yo=
+u so that my supervisor provided the correct information to you with regard=
+s to food.<span class=3D"Apple-converted-space">&nbsp;</span><br class=3D""=
+>
+<br class=3D"">
+I'm vegan, and if that is not specified in my registration details,&nbsp; i=
+ would be very glad to have that added.<br class=3D"">
+<br class=3D"">
+/Erik K=E4llman</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_02EB52B539FE7C40AEDAA2A62AA264A218669CA7COLUMBA03useruu_--

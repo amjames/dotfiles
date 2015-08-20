@@ -1,0 +1,198 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1749555qge;
+        Mon, 23 Mar 2015 10:03:40 -0700 (PDT)
+X-Received: by 10.140.150.131 with SMTP id 125mr99820qhw.55.1427130220735;
+        Mon, 23 Mar 2015 10:03:40 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id f135si1209549qhe.122.2015.03.23.10.03.35
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Mar 2015 10:03:40 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.192.50;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2NH3RcW018265;
+	Mon, 23 Mar 2015 13:03:33 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NGOHde006434;
+	Mon, 23 Mar 2015 13:03:27 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98455511 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 23 Mar 2015 13:03:27
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2NH3REd017682
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Mon, 23 Mar 2015 13:03:27 -0400
+Received: from mail-qg0-f50.google.com (mail-qg0-f50.google.com
+          [209.85.192.50]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2NH3LuV021520 for <CHEM_GRAD@listserv.vt.edu>; Mon, 23 Mar 2015
+          13:03:26 -0400
+Received: by qgf74 with SMTP id 74so28508638qgf.2 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 23 Mar 2015 10:03:21 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:references:to :message-id:mime-version;
+                         bh=dM5CzWuT05lcIDwIS75LW8VgaNAo6+bjPzfpsXf4Z/I=;
+                         b=VAP/O5lSST1L9+NjBzulso5Q9RCTvqXPFl46D1YFtnGfMYziC69TIk+s+QqTsuXdrm
+                         7iaRTZpG8BVE19O6RgpkZMVCjn14RVDwKPmLZ6ax0et1PbwXYLwcDo++Np9izJpsBTNV
+                         qCW15RkvryXFH5VTe9ewxjFyb+SiLf89BesTZyziYNpz1L2ThtX8T23dt/euG+zzfK4L
+                         HDlWrpUMygDGdlHTEdm6lVlWUfPBgDzPnPLZp+zAfMYAh07kDD28h4fv2ElFniueud9A
+                         C8CuZXtbivqYnL+7B/wjzJ20zchrlSiWCcpqNmSmw0G0S7Khza0uSrUhGxxZBTMSbZJS
+                         cA+A==
+X-Gm-Message-State: ALoCoQk8FjEOavSOs1SmB7tiAjZMRUmBo4sqXH80ub9Bby9lVfoIaN+vowuycI/un5/ylCp2SjMAFTXCjBxH52FPGWHQY4IGba9Y0dyF+k7+ijlgK1zzRenn/rQgrQqGaf6Dbq/oHH1hjbT8pA+ZuyDvr0J1ELqA49emtoICGhDDk4Vfdqyu1zOo+B2P37oxSFsf/Ur/8Qwo
+X-Received: by 10.140.86.199 with SMTP id p65mr95679qgd.49.1427130193861; Mon,
+            23 Mar 2015 10:03:13 -0700 (PDT)
+X-Received: by 10.140.86.199 with SMTP id p65mr95662qgd.49.1427130193764; Mon,
+            23 Mar 2015 10:03:13 -0700 (PDT)
+Received: from [10.0.1.5] (h80adb7b8.dhcp.vt.edu. [128.173.183.184]) by
+          mx.google.com with ESMTPSA id g82sm870447qkh.18.2015.03.23.10.03.12
+          for <CHEM_GRAD@listserv.vt.edu> (version=TLSv1 cipher=RC4-SHA
+          bits=128/128); Mon, 23 Mar 2015 10:03:13 -0700 (PDT)
+X-Google-Original-From: "John R. Morris" <morris@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_5A06197B-B853-4966-8DC6-7C74FA0CF03D"
+References: <551027A8.4090502@vt.edu>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Message-ID:  <1BD43527-6239-4941-9EEC-3579F49AD8BC@vt.edu>
+Date:         Mon, 23 Mar 2015 13:03:12 -0400
+Reply-To: "John R. Morris" <jrmorris@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "John R. Morris" <jrmorris@vt.edu>
+Subject: Fwd: Summer Data Science Fellowship Opportunity
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_5A06197B-B853-4966-8DC6-7C74FA0CF03D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Students,
+Please see the following opportunity.=20
+John
+
+Begin forwarded message:
+
+> Program: The Data Incubator is an intensive 7 week fellowship that =
+prepares masters, PhDs, and postdocs in STEM + social science fields =
+seeking industry careers as data scientists. The program is free for =
+fellows and supported by sponsorships from dozens of employers across =
+multiple industries. In response to the overwhelming interest in our =
+earlier sessions, we will be holding another fellowship.
+>=20
+> Locations: There will be both an in-person (in NYC, DC, SF) and online =
+section of the fellowship. There is a common application for both the =
+online and in-person sections.
+>=20
+> Dates: All sections will be from 2015-06-01 to 2015-07-17
+>=20
+> Application Link: =
+http://www.thedataincubator.com/#apply?ref=3DwcGRlY2tAdnQuZWR1
+>=20
+> Who should apply: Anyone within one year of graduating from a masters =
+or PhD program or who has already obtained a masters or PhD is welcome =
+to apply. Applications from international students are welcome. Everyone =
+else is encouraged to sign-up for a future session.
+>=20
+> Sincerely,
+> Michael
+> Postdoc, Cornell
+>=20
+
+-------
+John R. Morris
+Professor and Graduate Program Director
+Department of Chemistry
+Virginia Tech
+Blacksburg, VA 24061
+Ph. 540-231-2472
+http://www.chem.vt.edu/chem-dept/jmorris/
+
+
+
+--Apple-Mail=_5A06197B-B853-4966-8DC6-7C74FA0CF03D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+">Students,<div>Please see the following =
+opportunity.&nbsp;</div><div>John<br><div><br><div>Begin forwarded =
+message:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><span class=3D"Apple-style-span" style=3D"border-collapse: =
+separate; font-family: Helvetica; font-style: normal; font-variant: =
+normal; font-weight: normal; letter-spacing: normal; line-height: =
+normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; =
+"><p><strong>Program:</strong><span =
+class=3D"Apple-converted-space">&nbsp;</span>The Data Incubator is an =
+intensive 7 week fellowship that prepares masters, PhDs, and postdocs in =
+STEM + social science fields seeking industry careers as data =
+scientists. The program is free for fellows and supported by =
+sponsorships from dozens of employers across multiple industries. In =
+response to the overwhelming interest in our earlier sessions, we will =
+be holding another fellowship.</p><p><strong>Locations:</strong><span =
+class=3D"Apple-converted-space">&nbsp;</span>There will be both an =
+in-person (in NYC, DC, SF) and online section of the fellowship. There =
+is a common application for both the online and in-person =
+sections.</p><p><strong>Dates:</strong><span =
+class=3D"Apple-converted-space">&nbsp;</span>All sections will be from =
+2015-06-01 to 2015-07-17</p><p><strong>Application Link</strong>:<span =
+class=3D"Apple-converted-space">&nbsp;</span><a moz-do-not-send=3D"true" =
+href=3D"http://www.thedataincubator.com/#apply?ref=3DwcGRlY2tAdnQuZWR1">ht=
+tp://www.thedataincubator.com/#apply?ref=3DwcGRlY2tAdnQuZWR1</a></p><p><st=
+rong>Who should apply:</strong><span =
+class=3D"Apple-converted-space">&nbsp;</span>Anyone within one year of =
+graduating from a masters or PhD program or who has already obtained a =
+masters or PhD is welcome to apply. Applications from international =
+students are welcome. Everyone else is encouraged to<span =
+class=3D"Apple-converted-space">&nbsp;</span><a moz-do-not-send=3D"true" =
+href=3D"http://www.thedataincubator.com/#apply?ref=3DwcGRlY2tAdnQuZWR1">si=
+gn-up for a future session</a>.</p><p>Sincerely,<br>Michael<br>Postdoc, =
+Cornell</p></span></blockquote></div><br><div =
+apple-content-edited=3D"true">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: =
+normal; font-weight: normal; letter-spacing: normal; line-height: =
+normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">-------<br>John R. =
+Morris<br>Professor and Graduate Program Director<br>Department of =
+Chemistry<br>Virginia Tech<br>Blacksburg, VA 24061<br>Ph. =
+540-231-2472<br><a =
+href=3D"http://www.chem.vt.edu/chem-dept/jmorris/">http://www.chem.vt.edu/=
+chem-dept/jmorris/</a><br><br></div></span></span>
+</div>
+<br></div></body></html>=
+
+--Apple-Mail=_5A06197B-B853-4966-8DC6-7C74FA0CF03D--

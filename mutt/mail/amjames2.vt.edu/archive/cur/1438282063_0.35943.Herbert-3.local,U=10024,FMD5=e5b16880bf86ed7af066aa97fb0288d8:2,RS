@@ -1,0 +1,114 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp68928qgt;
+        Fri, 5 Jun 2015 08:54:52 -0700 (PDT)
+X-Received: by 10.140.104.147 with SMTP id a19mr4839734qgf.71.1433519692463;
+        Fri, 05 Jun 2015 08:54:52 -0700 (PDT)
+Return-Path: <t.fransson.swe@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id l35si7812390qgd.62.2015.06.05.08.54.52
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 08:54:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of t.fransson.swe@gmail.com designates 2001:468:c80:2105:0:277:40de:506c as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of t.fransson.swe@gmail.com designates 2001:468:c80:2105:0:277:40de:506c as permitted sender) smtp.mail=t.fransson.swe@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-ig0-x230.google.com (mail-ig0-x230.google.com [IPv6:2607:f8b0:4001:c05::230])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55FskMw029854
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 11:54:51 -0400
+Received: by igbhj9 with SMTP id hj9so18632306igb.1
+        for <amjames2@vt.edu>; Fri, 05 Jun 2015 08:54:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=eId7uJiNH3MOB37ew+vWYEH5TtO4UUcDnkhWPAUa6Qw=;
+        b=dCMxBDlPJVV5vsrzXZTWY97mgaLcGdUv69OL934iW4C5Arb6js0ZWUBJgoarTf5VRM
+         pkHVGNgBQYxJdZDCmOe6fllkLEKfQxMoZeC6yPsvZmXWUaD5z8jZaw1YHvvy00ZAa/H5
+         ooUsAk4AsryitQAyrjnV85kuzGJSEVmvDJVKAg1smVI3+1xyWy4MDPyVPqGsI0Vh8hFk
+         KNbucH9VJbhaKROidnNFnn9Hg9ZT3v2yIVAwDQEiWDYih8wwWpS46/k9Q1VqRIyvCz1v
+         yXZXjDoCesNGVbKAj7rIIy2BE+GPKU2ts7qcEJ+xW3KkACWdhpAzOdTXkka06aBy4gxP
+         v5Rw==
+MIME-Version: 1.0
+X-Received: by 10.42.208.139 with SMTP id gc11mr11015790icb.84.1433519686464;
+ Fri, 05 Jun 2015 08:54:46 -0700 (PDT)
+Received: by 10.36.71.145 with HTTP; Fri, 5 Jun 2015 08:54:46 -0700 (PDT)
+In-Reply-To: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+Date: Fri, 5 Jun 2015 17:54:46 +0200
+Message-ID: <CANCfpECnQd96YuUWOGbpZ0XsYtqfq0ayUax10bVpfBnWWZ_19A@mail.gmail.com>
+Subject: Re: Molecular Response Properties Travel Itinerary
+From: Thomas Fransson <t.fransson.swe@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=20cf303dd970b0bc8d0517c74fab
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--20cf303dd970b0bc8d0517c74fab
+Content-Type: text/plain; charset=UTF-8
+
+Hi!
+
+Me, Tobias Fahleson, Iurii Zhovtobriukh, and Chang Liu are renting a car
+from Dulles Airport, so we'll need some parking place. We count on reaching
+Blacksburg after lunch on Sunday and leaving at Friday evening.
+
+Have a nice weekend,
+Thomas Fransson
+
+2015-06-05 17:49 GMT+02:00 Andrew James <amjames2@vt.edu>:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--20cf303dd970b0bc8d0517c74fab
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>Hi!<br><br></div>Me, Tobias Fahleson, Iurii=
+ Zhovtobriukh, and <span class=3D""><span>Chang Liu are renting a car from =
+Dulles Airport, so we&#39;ll need some parking place. We count on reaching =
+Blacksburg after lunch on Sunday and leaving at Friday evening.<br><br></sp=
+an></span></div><span class=3D""><span>Have a nice weekend,<br></span></spa=
+n></div><span class=3D""><span>Thomas Fransson<br></span></span></div><div =
+class=3D"gmail_extra"><br><div class=3D"gmail_quote">2015-06-05 17:49 GMT+0=
+2:00 Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" =
+target=3D"_blank">amjames2@vt.edu</a>&gt;</span>:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex">Hello,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--20cf303dd970b0bc8d0517c74fab--

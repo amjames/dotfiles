@@ -1,0 +1,107 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1345395qgt;
+        Sat, 20 Jun 2015 12:43:42 -0700 (PDT)
+X-Received: by 10.140.233.10 with SMTP id e10mr31059644qhc.55.1434829422327;
+        Sat, 20 Jun 2015 12:43:42 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 81si14658461qgx.77.2015.06.20.12.43.42
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 20 Jun 2015 12:43:42 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.181 as permitted sender) client-ip=209.85.213.181;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.181 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f181.google.com (mail-ig0-f181.google.com [209.85.213.181])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5KJhas2008078
+	for <amjames2@vt.edu>; Sat, 20 Jun 2015 15:43:41 -0400
+Received: by igboe5 with SMTP id oe5so38143454igb.1
+        for <amjames2@vt.edu>; Sat, 20 Jun 2015 12:43:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=r2NQanEhrcqyUlghkBd1X/hKllQ7m8dWh6ikUIEyCJQ=;
+        b=W9oHh29r1laIcTqj8pSh6r57xFAaRGrWCKCLDbIeE7xhTtUndpRpjFoui5QuWIB+KH
+         TiK5QsZyZC8HuzgWaGh127ORbVrvz4+ETF7VV7qZ+CeEuvq0QDHOnObC/Wc7ARW77iu4
+         8HvDcUG19cXjejS3OAdfovojGR9P1wyT67HMBxyMDYB7fTpkaWHLn1i8whXYe5QBacfx
+         jgl+Pzni13DZGE9TIHX2KDO/2g/IRN921TVxExQUw/4mH0zSu4ElwZV8KhdGC93CH0hq
+         TqIUkXk9pHbgmPryCjKs6hgZENAZ+A44eGHfevkZhFeWvbhqurXC6IfwYi9hDhXJhWFP
+         DaQg==
+X-Gm-Message-State: ALoCoQlaraGOKKUPJqnsGYifl96PFvQalNhMgptZ1H2b+VuIRUVdtnVa4Tkap3gZc+mXQbc5gj8LMBMZ9YvdmIli48czAu/PF5LKvTUCUCTcytKUDcXhkFoEoPZmcJfmdyG1CL0oErdT5HQokL0jQwjRu8SyTvpO5Q==
+X-Received: by 10.50.114.40 with SMTP id jd8mr12104634igb.47.1434829416677;
+        Sat, 20 Jun 2015 12:43:36 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.114.40 with SMTP id jd8mr12104619igb.47.1434829416561;
+ Sat, 20 Jun 2015 12:43:36 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Sat, 20 Jun 2015 12:43:36 -0700 (PDT)
+In-Reply-To: <EC7E24CD-82B6-4BD6-8C92-E1F5DE0B207A@vt.edu>
+References: <EC7E24CD-82B6-4BD6-8C92-E1F5DE0B207A@vt.edu>
+Date: Sat, 20 Jun 2015 15:43:36 -0400
+Message-ID: <CAH0V_1beW8ov0t+McUtfdkJB3-ZVJ8fKLoBgt+cTCHUno5335g@mail.gmail.com>
+Subject: Re: Flyer
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b3a9ba2b019e90518f841e5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7b3a9ba2b019e90518f841e5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+It printed just fine.  Do you want me to make a bunch of copies for you?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sat, Jun 20, 2015 at 3:41 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Here is the updated flyer. =E2=80=9CRead friendly=E2=80=9D and =E2=80=9Cp=
+rint friendly=E2=80=9D versions
+>
+> =E2=80=94AJ
+>
+> Andrew M. James
+> amjames2@vt.edu
+>
+>
+>
+>
+>
+>
+
+--047d7b3a9ba2b019e90518f841e5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">It printed just fine.=C2=A0 Do you want me to make a bunch=
+ of copies for you?<div><br></div><div>-TDC</div></div><div class=3D"gmail_=
+extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"lt=
+r">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.e=
+du" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Jun 20, 2015 at 3:41 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">H=
+ere is the updated flyer. =E2=80=9CRead friendly=E2=80=9D and =E2=80=9Cprin=
+t friendly=E2=80=9D versions<br>
+<br>
+=E2=80=94AJ<br>
+<br>
+Andrew M. James<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+<br><br>
+<br></blockquote></div><br></div>
+
+--047d7b3a9ba2b019e90518f841e5--

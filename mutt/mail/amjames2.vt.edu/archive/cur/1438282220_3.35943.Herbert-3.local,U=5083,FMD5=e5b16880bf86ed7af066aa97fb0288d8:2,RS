@@ -1,0 +1,159 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp496256qge;
+        Tue, 17 Mar 2015 05:17:02 -0700 (PDT)
+X-Received: by 10.229.202.136 with SMTP id fe8mr81253220qcb.26.1426594621829;
+        Tue, 17 Mar 2015 05:17:01 -0700 (PDT)
+Return-Path: <pamateis@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id b8si13040832qcm.40.2015.03.17.05.17.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 17 Mar 2015 05:17:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning pamateis@vt.edu does not designate 209.85.192.51 as permitted sender) client-ip=209.85.192.51;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning pamateis@vt.edu does not designate 209.85.192.51 as permitted sender) smtp.mail=pamateis@vt.edu
+Received: from mail-qg0-f51.google.com (mail-qg0-f51.google.com [209.85.192.51])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2HCGtmN013168
+	for <amjames2@vt.edu>; Tue, 17 Mar 2015 08:17:00 -0400
+Received: by qgf3 with SMTP id 3so5654165qgf.3
+        for <amjames2@vt.edu>; Tue, 17 Mar 2015 05:16:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=p5jRgoqvVuKuDuYZnzKPBqyX4p0KI4PIKMgFW+5Dl3g=;
+        b=TwRO+5ojloHQG0obFlJZrgi3/2tkPvpSKbS09GDD5GPD/NX1fmlV7leoFOXXVijTUD
+         vt7hKHU++/uLE5WigIlcp8jkSOAwHtECkEuASLBybbJUo3qiw81St8SA6Vzo+2H+cuFT
+         mm11UBokS3P5LCWd3OGBOrrrvTvuu59tDLna4ffiKy7aUd92avl64lmnZoHxu2SFlh3o
+         mj6tDyxi/cz15DyeiVrW3mH5yRVt0reVFLj2c5WKO5MGUARJx/zdkSzrtiwwKmqd1Yif
+         GURXrz+avZUrUkBeyhj7HQquHhSloL8262TW6m/5pT2tRK9+KGiD88S9YVhsbwWkJXjp
+         QLPw==
+X-Gm-Message-State: ALoCoQnyCwo5aneeVXxYHxwKGlfWNRtCT1OYi4n/5FajCkBLn1a6AbtbKjeYI+Aq8akJLN4/T4vEhriW8UIZW3aeQF6bLxp+VoYCL1sVdmq9SEx7B/O5o8hFqaL8yIwCJgqSUpkSbdxiAdlDHzuQ+xiYgZP/86eIiA==
+X-Received: by 10.140.28.36 with SMTP id 33mr80146549qgy.6.1426594615165;
+        Tue, 17 Mar 2015 05:16:55 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.140.28.36 with SMTP id 33mr80146533qgy.6.1426594615082; Tue,
+ 17 Mar 2015 05:16:55 -0700 (PDT)
+Received: by 10.229.56.72 with HTTP; Tue, 17 Mar 2015 05:16:55 -0700 (PDT)
+In-Reply-To: <CAAhL4CYhTAGCrCPULaNUiSO_1yyV2U9G+_-mStcOVhEiSG9xSg@mail.gmail.com>
+References: <CAAhL4CYhTAGCrCPULaNUiSO_1yyV2U9G+_-mStcOVhEiSG9xSg@mail.gmail.com>
+Date: Tue, 17 Mar 2015 08:16:55 -0400
+Message-ID: <CAAhL4CZ8oF9N1FAMqwn=ZvTvbQLrQTu-Pp_ntOue60X1VxLoUg@mail.gmail.com>
+Subject: Re: General Chemistry test on March 17
+From: Patricia Amateis <pamateis@vt.edu>
+To: "Godward, Dennis" <jgodward@vt.edu>, "Huang, Yongzheng" <huang89@vt.edu>,
+        amjames2@vt.edu, yunhuali@vt.edu, "Li, Xiuli" <lix@vt.edu>,
+        "Karpin, George" <rahzel05@vt.edu>, "Lin, Shaoyang" <shaoyang@vt.edu>,
+        hemanthi@vt.edu, "Marks, Joyann" <joyannam@vt.edu>, jpmccord@vt.edu,
+        "Devi, Sarika" <sarika@vt.edu>, clayps@vt.edu, jshroads@vt.edu,
+        "Wang, Ming" <mingw@vt.edu>, "Wang, Ying" <wying102@vt.edu>,
+        "Xu, Yunnan" <yunnan91@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113a9a644556c905117af191
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113a9a644556c905117af191
+Content-Type: text/plain; charset=UTF-8
+
+A reminder:
+
+We will be giving our second General Chemistry 1036 test tonight Tuesday
+March 17 at 7:00-8:30 pm.
+
+If you proctor for me in Davidson Hall or in Surge or for Dr. Durrill in
+Goodwin Hall, you will proctor on this evening.
+If you proctor in Davidson 281: please arrive in that room at 6:40 pm.
+
+If you proctor in Surge 104A, 104B, 104C please meet Dr. Arachchige in
+Surge 117 at 6:40 pm (she is helping me with my test).
+
+If you proctor for  Dr. Durrill in Goodwin Hall, meet him on the ground
+floor of Goodwin Hall near Room 190 at 6:30 pm.
+
+
+We are counting on all of you showing up - should you have a conflict, you
+must find a substitute and let me know who that is.
+
+Thank you for your help.
+
+Patricia Amateis
+Chemistry
+
+On Fri, Mar 13, 2015 at 1:45 PM, Patricia Amateis <pamateis@vt.edu> wrote:
+
+> Hello GTA Test Proctors,
+>
+> We will be giving our second General Chemistry 1036 test on Tuesday March
+> 17 at 7:00-8:30 pm.
+>
+> If you proctor for me in Davidson Hall or Surge or for Dr. Durrill in
+> Goodwin Hall, you will proctor on this evening.
+> If you proctor in Davidson 281: please arrive in that room at 6:40 pm.
+>
+> If you proctor in Surge 104A, 104B, 104C please meet Dr. Arachchige in
+> Surge 117 at 6:40 pm (she is helping me with my test).
+>
+> If you proctor for  Dr. Durrill in Goodwin Hall, meet him on the ground
+> floor of Goodwin Hall near Room 190 at 6:30 pm.
+>
+>
+> We are counting on all of you showing up - should you have a conflict, you
+> must find a substitute and let me know who that is.  Please remember that
+> if you suspect cheating, you must let the instructor know immediately, not
+> after the test is over.  Two TAs failed to follow that policy with Test
+> 1. Let us know as soon as you see something that should not be happening.
+>
+> Thank you for your help.
+>
+> Patricia
+>
+>
+>
+
+--001a113a9a644556c905117af191
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>A reminder:</div><div><br></div><div>We will be givin=
+g our second General Chemistry 1036 test tonight Tuesday March 17 at 7:00-8=
+:30 pm.</div><div><br></div><div>If you proctor for me in Davidson Hall or =
+in Surge or for Dr. Durrill in Goodwin Hall, you will proctor on this eveni=
+ng.</div><div>If you proctor in Davidson 281: please arrive in that room at=
+ 6:40 pm.</div><div><br></div><div>If you proctor in Surge 104A, 104B, 104C=
+ please meet Dr. Arachchige in Surge 117 at 6:40 pm (she is helping me with=
+ my test).</div><div><br></div><div>If you proctor for=C2=A0 Dr. Durrill in=
+ Goodwin Hall, meet him on the ground floor of Goodwin Hall near Room 190 a=
+t 6:30 pm.</div><div><br></div><div><br></div><div>We are counting on all o=
+f you showing up - should you have a conflict, you must find a substitute a=
+nd let me know who that is.=C2=A0 </div><div><br></div><div>Thank you for y=
+our help.</div><div><br></div><div>Patricia Amateis</div><div>Chemistry</di=
+v></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, M=
+ar 13, 2015 at 1:45 PM, Patricia Amateis <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:pamateis@vt.edu" target=3D"_blank">pamateis@vt.edu</a>&gt;</span> wro=
+te:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-=
+left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>Hello GTA Test =
+Proctors,</div><div><br></div><div>We will be giving our second General Che=
+mistry 1036 test on Tuesday March 17 at 7:00-8:30 pm.</div><div><br></div><=
+div>If you proctor for me in Davidson Hall or Surge or for Dr. Durrill in G=
+oodwin Hall, you will proctor on this evening.</div><div>If you proctor in =
+Davidson 281: please arrive in that room at 6:40 pm.</div><div><br></div><d=
+iv>If you proctor in Surge 104A, 104B, 104C please meet Dr. Arachchige in S=
+urge 117 at 6:40 pm (she is helping me with my test).</div><div><br></div><=
+div>If you proctor for=C2=A0 Dr. Durrill in Goodwin Hall, meet him on the g=
+round floor of Goodwin Hall near Room 190 at 6:30 pm.</div><div><br></div><=
+div><br></div><div>We are counting on all of you showing up - should you ha=
+ve a conflict, you must find a substitute and let me know who that is.=C2=
+=A0 Please remember that if you suspect cheating, you must let the instruct=
+or know immediately, not after the test is over.=C2=A0 Two TAs failed to fo=
+llow that policy with Test 1.=C2=A0Let us know as soon as you see something=
+ that should not be happening.=C2=A0 </div><div><br></div><div>Thank you fo=
+r your help.</div><span class=3D"HOEnZb"><font color=3D"#888888"><div><br><=
+/div><div>Patricia</div><div><br></div><div><br></div></font></span></div>
+</blockquote></div><br></div>
+
+--001a113a9a644556c905117af191--

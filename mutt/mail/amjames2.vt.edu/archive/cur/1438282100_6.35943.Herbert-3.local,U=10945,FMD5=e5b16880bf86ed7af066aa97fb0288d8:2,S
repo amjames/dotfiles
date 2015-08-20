@@ -1,0 +1,98 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp695964qgt;
+        Fri, 19 Jun 2015 11:32:45 -0700 (PDT)
+X-Received: by 10.140.105.69 with SMTP id b63mr23600421qgf.66.1434738765031;
+        Fri, 19 Jun 2015 11:32:45 -0700 (PDT)
+Return-Path: <eugene.deprince@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 81si11706243qgx.77.2015.06.19.11.32.44
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 11:32:45 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning eugene.deprince@gmail.com does not designate 128.186.184.144 as permitted sender) client-ip=128.186.184.144;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning eugene.deprince@gmail.com does not designate 128.186.184.144 as permitted sender) smtp.mail=eugene.deprince@gmail.com
+Received: from mail.chem.fsu.edu (mail.chem.fsu.edu [128.186.184.144])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5JIWdYM012960;
+	Fri, 19 Jun 2015 14:32:44 -0400
+Received: from illegally-used-at.fsu (unknown [128.186.187.113])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by mail.chem.fsu.edu (Postfix) with ESMTPSA id 975BEAAB551;
+	Fri, 19 Jun 2015 14:32:05 -0400 (EDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_95F25DDE-5563-40BA-817C-D1923FE1CB22"
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+Subject: Re: BlueRidge access for the SSS
+From: Eugene DePrince <eugene.deprince@gmail.com>
+In-Reply-To: <CAG=B6YMvE9eEJYUQs1zz5K=1ED0cVc+=tJ4yGpZ1Z_CMPFvdwg@mail.gmail.com>
+Date: Fri, 19 Jun 2015 14:32:35 -0400
+Cc: Andrew James <amjames2@vt.edu>, "T. Daniel Crawford" <crawdad@vt.edu>,
+        Tommy Guy <richardtguy84@gmail.com>,
+        "Robert J. Harrison" <rjharrison@gmail.com>,
+        Eduard Valeyev <valeev76@vt.edu>
+Message-Id: <58706BB6-1190-4769-8785-3A31A111A0AF@gmail.com>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com> <DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com> <C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu> <CAL+5Pjw5ruHVtaQoLnmu5OGtKzCrK9U_8MU-P+G35R8c5Ufa8Q@mail.gmail.com> <CAH0V_1bkiiauNqQbXX0+f1gFoyCkP+JciohO9T7SXL8WqxBnng@mail.gmail.com> <699B3352-FAB7-4D26-ABA0-56BD69C5B9D1@vt.edu> <CAG=B6YMvE9eEJYUQs1zz5K=1ED0cVc+=tJ4yGpZ1Z_CMPFvdwg@mail.gmail.com>
+To: Daniel Chen <dcheny@gmail.com>
+X-Mailer: Apple Mail (2.1878.6)
+X-Chemistry-MailScanner-Information: Please contact the ISP for more information
+X-Chemistry-MailScanner-ID: 975BEAAB551.A9FB2
+X-Chemistry-MailScanner: Found to be clean
+X-Chemistry-MailScanner-SpamCheck: not spam (whitelisted),
+	SpamAssassin (not cached, score=0.003, required 2, ALL_TRUSTED -1.00,
+	DKIM_ADSP_CUSTOM_MED 0.00, DNS_FROM_AHBL_RHSBL 0.50,
+	FREEMAIL_FROM 0.00, HTML_MESSAGE 0.00, NML_ADSP_CUSTOM_MED 0.50)
+X-Chemistry-MailScanner-From: eugene.deprince@gmail.com
+X-Spam-Status: No, score=-1.1 required=5.0 tests=DKIM_ADSP_CUSTOM_MED,
+	FREEMAIL_FROM,HTML_MESSAGE,NML_ADSP_CUSTOM_MED,RCVD_IN_DNSWL_MED
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail=_95F25DDE-5563-40BA-817C-D1923FE1CB22
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+I can log in as well.  Thanks!
+
+On Jun 19, 2015, at 2:28 PM, Daniel Chen <dcheny@gmail.com> wrote:
+
+>>> blueridge1.arc.vt.edu 
+
+
+--Apple-Mail=_95F25DDE-5563-40BA-817C-D1923FE1CB22
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dus-ascii"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">I can =
+log in as well. &nbsp;Thanks!<div><br><div><div>On Jun 19, 2015, at 2:28 =
+PM, Daniel Chen &lt;<a =
+href=3D"mailto:dcheny@gmail.com">dcheny@gmail.com</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><blockquote type=3D"cite" style=3D"font-family: Helvetica; =
+font-size: 12px; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><div class=3D"gmail_extra"><div class=3D"gmail_quote"><blockquote =
+class=3D"gmail_quote" style=3D"margin: 0px 0px 0px 0.8ex; =
+border-left-width: 1px; border-left-color: rgb(204, 204, 204); =
+border-left-style: solid; padding-left: 1ex;"><div =
+class=3D"gmail_extra"><div class=3D"gmail_quote"><blockquote =
+class=3D"gmail_quote" style=3D"margin: 0px 0px 0px 0.8ex; =
+border-left-width: 1px; border-left-color: rgb(204, 204, 204); =
+border-left-style: solid; padding-left: 1ex;"><div style=3D"word-wrap: =
+break-word;"><blockquote type=3D"cite"><div style=3D"word-wrap: =
+break-word;"><div style=3D"margin: 0px; font-size: 11px; font-family: =
+Menlo;"><a href=3D"http://blueridge1.arc.vt.edu/" =
+target=3D"_blank">blueridge1.arc.vt.edu</a>&nbsp;</div></div></blockquote>=
+</div></blockquote></div></div></blockquote></div></div></blockquote></blo=
+ckquote></div><br></div></body></html>=
+
+--Apple-Mail=_95F25DDE-5563-40BA-817C-D1923FE1CB22--

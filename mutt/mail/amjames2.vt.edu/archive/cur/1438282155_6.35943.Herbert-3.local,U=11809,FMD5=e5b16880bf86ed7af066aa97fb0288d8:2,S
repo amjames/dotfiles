@@ -1,0 +1,240 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp6251qgt;
+        Fri, 3 Jul 2015 08:05:09 -0700 (PDT)
+X-Received: by 10.140.218.18 with SMTP id o18mr54918450qhb.30.1435935909759;
+        Fri, 03 Jul 2015 08:05:09 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id o7si10608097qhb.69.2015.07.03.08.05.09
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 08:05:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63F53UI018662
+	for <amjames2@vt.edu>; Fri, 3 Jul 2015 11:05:08 -0400
+Received: by iebmu5 with SMTP id mu5so78128633ieb.1
+        for <amjames2@vt.edu>; Fri, 03 Jul 2015 08:05:03 -0700 (PDT)
+X-Received: by 10.107.156.140 with SMTP id f134mr16759722ioe.34.1435935903411;
+        Fri, 03 Jul 2015 08:05:03 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp97091iee;
+        Fri, 3 Jul 2015 08:05:02 -0700 (PDT)
+X-Received: by 10.140.151.6 with SMTP id 6mr54567505qhx.89.1435935902332;
+        Fri, 03 Jul 2015 08:05:02 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id h72si10593808qhc.105.2015.07.03.08.05.01
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 08:05:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of scholar@edtech.vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63F4wEP009331;
+	Fri, 3 Jul 2015 11:04:58 -0400
+Received: from fajita (fajita.edtech.vt.edu [198.82.175.41])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63F4qBb013653;
+	Fri, 3 Jul 2015 11:04:57 -0400
+Received: from localhost ([127.0.0.1] helo=fajita)
+	by fajita with esmtp (Exim 4.76)
+	(envelope-from <scholar@edtech.vt.edu>)
+	id 1ZB2WK-00058n-Q8; Fri, 03 Jul 2015 11:04:52 -0400
+Message-ID: <CAH0V_1Ygs1RgnKJAozjt6P_xUA_x1ORq5RVUOyMnPiCLRyXyZw@mail.gmail.com>
+Subject: Re: Special seminars next week: Drs. Antonio Rizzo and Fabrizio
+ Santoro, CNR, Pisa, Italy
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2673_1903983081.1435935892800"
+Received: from mr2.cc.vt.edu ([198.82.163.74])
+          by fajita (JAMES SMTP Server 2.3.2) with SMTP ID 474
+          for <theorychem@scholar.vt.edu>;
+          Fri, 3 Jul 2015 11:04:52 -0400 (EDT)
+Received: from mail-ig0-f174.google.com (mail-ig0-f174.google.com [209.85.213.174])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63F4kXN013405
+	for <theorychem@scholar.vt.edu>; Fri, 3 Jul 2015 11:04:51 -0400
+Received: by igrv9 with SMTP id v9so118580464igr.1
+        for <theorychem@scholar.vt.edu>; Fri, 03 Jul 2015 08:04:46 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=ZcnLvViUco08447+wArFHGtC/t05cZbntOiGh0LGyhk=;
+        b=Zq09xGLz5cMK10AaEzhSq/Bs5f5iK184elXb9M6P6vmey2H0YbkcGSdCZsyd8Lnjrd
+         Da96S30aOrFM0vkrs1Qrd8d5Ghwm0NI3RZc9rF8Vt84pDxU8HZ9GF8WCljM7tPPaZPOF
+         KrvYfgfZwyPq9KrY7bn6hZnecfsTudYmv5qB1Y1/mk51lgO54HwXO+5XLOTTUSlbMacu
+         UjUAo7b2TTzCWexbZNzxHVn5qRBYwSz5Zj5KiIMkW4lY0GYoiThQ9hrUs/b4dsJY7mzP
+         1KOmBcis6PyJL//lVmYs88OpTLvq8RSypmu5Zugvn1/jTWR10Y04jP9LGlW7s2agcfRH
+         EekQ==
+X-Gm-Message-State: ALoCoQnmlKk6MbusqNY1pnKQ59hi3pYCDnyhT3244TsNv6kfvckva3u2D+IQ4eOaVlGgXdvcufjgIfMDFgGzLPexjqKmU90+04OsttO9XWPFQeasadb233uPWV4nj72SK/rnj7Fha5McSYfrsfp0imCg6T8/5w/M8A==
+X-Received: by 10.107.168.150 with SMTP id e22mr56587958ioj.9.1435935886482;
+        Fri, 03 Jul 2015 08:04:46 -0700 (PDT)
+X-Received: by 10.107.168.150 with SMTP id e22mr56587941ioj.9.1435935886374;
+ Fri, 03 Jul 2015 08:04:46 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Fri, 3 Jul 2015 08:04:46 -0700 (PDT)
+In-Reply-To: <CAH0V_1bYPLgUMsO4TQBQbMBdPmZh0Af3rwLwE4scCnY3rPDcTg@mail.gmail.com>
+References: <CAH0V_1b3MX-DZRMZ0W2uoDT9wMfbMbXFt5n7c9pynnQ3S2V+AQ@mail.gmail.com>
+	<CAH0V_1bYPLgUMsO4TQBQbMBdPmZh0Af3rwLwE4scCnY3rPDcTg@mail.gmail.com>
+Date: Fri, 3 Jul 2015 11:04:46 -0400
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: theorychem@scholar.vt.edu,
+        Chemistry
+ Faculty <CHEM_FACULTY@listserv.vt.edu>
+Cc: "Good, Laurie" <laurieg@vt.edu>, Javier Cerezo <jcb1@um.es>
+X-Content-Type-Outer-Envelope: multipart/alternative; boundary=001a11426eae6d93ce0519f9e032
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MSGID_FROM_MTA_HEADER,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Content-Type-Message-Body: text/plain; charset=UTF-8
+List-Id: <main.localhost>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_2673_1903983081.1435935892800
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi, all,
+
+Please forgive one more reminder about today's special seminar by Dr.
+Fabrizio Santoro at 2:00pm in HHN 200.  I hope you'll be able to attend.
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Jul 1, 2015 at 5:57 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Dear Colleagues,
+>
+> This is a reminder about the first of two seminars tomorrow (Thursday) @
+> 2:00pm in HHN 200.  Dr. Antonio Rizzo from Pisa will discuss non-linear
+> spectroscopy for chiral compounds.  Also remember that we'll have a secon=
+d
+> lecture on Friday @ 2:00pm in HHN 200 by Dr. Fabrizio Santoro, who will
+> discuss methods for providing ever more realistic simulations of electron=
+ic
+> spectra.
+>
+> I hope to see you there!
+>
+> Best regards,
+>
+> -Daniel
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Fri, Jun 26, 2015 at 1:31 PM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+>> Dear Colleagues,
+>>
+>> I am pleased to announce that we will host two special seminars next
+>> Thursday and Friday from visitors from the Consiglio Nazionale delle
+>> Ricerche (the National Research Council) of Italy:
+>>
+>> Dr. Antonio Rizzo
+>> =93Non linear chiroptical spectroscopies=94
+>> Thursday, July 2nd, 2:00pm
+>> HHN 200
+>>
+>> Dr. Fabrizio Santoro
+>> "Computational electronic spectroscopy: From the vertical transition
+>> approach to the simulation of line shapes"
+>> Friday, July 3rd, 2:00pm
+>> HHN 200
+>>
+>> Drs. Rizzo and Santoro are experts in the development of quantum
+>> mechanical methods for simulating a broad range of spectroscopies,
+>> including multi-photon and chiroptical techniques.  Their lectures will
+>> include background material appropriate for newcomers to the field as we=
+ll
+>> as topics of interest to experts.  I encourage you and your groups to
+>> attend, if your schedules allow.
+>>
+>> Best regards,
+>>
+>> -Daniel
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>
+>
+
+----------------------
+This automatic notification message was sent by Scholar (https://scholar.vt=
+.edu/portal) from the VT Theoretical Chemistry site.
+You can modify how you receive notifications at My Workspace > Preferences.
+
+------=_Part_2673_1903983081.1435935892800
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>  <head><title>Re: Special seminars next week: Drs. Antonio Rizzo and=
+ Fabrizio
+ Santoro, CNR, Pisa, Italy</title></head>  <body><div dir=3D"ltr">Hi, all,<=
+div><br></div><div>Please forgive one more reminder about today&#39;s speci=
+al seminar by Dr. Fabrizio Santoro at 2:00pm in HHN 200.=A0 I hope you&#39;=
+ll be able to attend.</div><div><br></div><div>-Daniel</div></div><div clas=
+s=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><di=
+v dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 1, 2015 at 5:57 PM, T. Daniel Cr=
+awford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_b=
+lank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"ltr">Dear Colleagues,<div><br></div><div>This is a reminder a=
+bout the first of two seminars tomorrow (Thursday) @ 2:00pm in HHN 200.=A0 =
+Dr. Antonio Rizzo from Pisa will discuss non-linear spectroscopy for chiral=
+ compounds.=A0 Also remember that we&#39;ll have a second lecture on Friday=
+ @ 2:00pm in HHN 200 by Dr. Fabrizio Santoro, who will discuss methods for =
+providing ever more realistic simulations of electronic spectra.<div><br></=
+div><div>I hope to see you there!</div><div><br></div><div>Best regards,</d=
+iv><div><br></div><div>-Daniel</div></div></div><div class=3D"gmail_extra">=
+<span class=3D""><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. =
+T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_b=
+lank">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Fri, Jun 26=
+, 2015 at 1:31 PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mail=
+to:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<b=
+r><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:=
+1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Dear Colleagues,<div><br>=
+</div><div>I am pleased to announce that we will host two special seminars =
+next Thursday and Friday from visitors from the=A0Consiglio Nazionale delle=
+ Ricerche (the National Research Council) of Italy:</div><div><br></div><di=
+v>Dr. Antonio Rizzo</div><div>=93Non linear chiroptical spectroscopies=94<b=
+r></div><div>Thursday, July 2nd, 2:00pm</div><div>HHN 200</div><div><br></d=
+iv><div>Dr. Fabrizio Santoro</div><div>&quot;Computational electronic spect=
+roscopy: From the vertical transition approach to the simulation of line sh=
+apes&quot;<br></div><div>Friday, July 3rd, 2:00pm</div><div>HHN 200</div><d=
+iv><br></div><div>Drs. Rizzo and Santoro are experts in the development of =
+quantum mechanical methods for simulating a broad range of spectroscopies, =
+including multi-photon and chiroptical techniques.=A0 Their lectures will i=
+nclude background material appropriate for newcomers to the field as well a=
+s topics of interest to experts.=A0 I encourage you and your groups to atte=
+nd, if your schedules allow.</div><div><br></div><div>Best regards,</div><d=
+iv><br></div><div>-Daniel</div><div><div><div><div dir=3D"ltr">--<div>Prof.=
+ T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div>
+<br/><hr/><br/>This automatic notification message was sent by Scholar (<a =
+href=3D"https://scholar.vt.edu/portal" >https://scholar.vt.edu/portal<a/>) =
+from the VT Theoretical Chemistry site.<br/>You can modify how you receive =
+notifications at My Workspace > Preferences.<br/>  </body></html>
+
+------=_Part_2673_1903983081.1435935892800--

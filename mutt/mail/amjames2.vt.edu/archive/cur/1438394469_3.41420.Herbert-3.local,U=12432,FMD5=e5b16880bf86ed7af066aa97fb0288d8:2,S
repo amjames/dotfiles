@@ -1,0 +1,535 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp119814qgt;
+        Thu, 30 Jul 2015 13:36:07 -0700 (PDT)
+X-Received: by 10.55.23.215 with SMTP id 84mr74200130qkx.17.1438288567976;
+        Thu, 30 Jul 2015 13:36:07 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id e80si2829314qka.22.2015.07.30.13.36.07
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 13:36:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UKa2Px017103
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 16:36:07 -0400
+Received: by iggf3 with SMTP id f3so3981063igg.1
+        for <amjames2@vt.edu>; Thu, 30 Jul 2015 13:36:02 -0700 (PDT)
+X-Received: by 10.50.30.10 with SMTP id o10mr7874633igh.86.1438288561929;
+        Thu, 30 Jul 2015 13:36:01 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp62928iee;
+        Thu, 30 Jul 2015 13:36:01 -0700 (PDT)
+X-Received: by 10.55.40.230 with SMTP id o99mr73689049qko.28.1438288561021;
+        Thu, 30 Jul 2015 13:36:01 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id b16si2826012qkh.27.2015.07.30.13.35.59
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 13:36:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UKZvqw003309
+	for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 16:35:57 -0400
+Received: from mail-ig0-f178.google.com (mail-ig0-f178.google.com [209.85.213.178])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UKZpxR021110
+	for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 16:35:56 -0400
+Received: by igbpg9 with SMTP id pg9so4022750igb.0
+        for <andrew.m.james2@gmail.com>; Thu, 30 Jul 2015 13:35:51 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=kOTuTIZtrOtxaCB7CV9aaoyXg68A6pWAq3cwiQoKqw8=;
+        b=THbVv3Axtm8GnNHiHgbaLO53HQtqK6TgNzCrE0aGP0V2OG8eXnodHKivT94iNIXPga
+         Kq45r+kvGVan4iwaH1oEUBKyHP69p9Et8s5f/DAAq12DrbCUXR8wjRrTgm6NaFLQ6a3C
+         sbowYKPGOiO8ZBzUI6QjnvjgaYww0SkxNbxMfsmLSqNiT3VkfrRb45MXLcUyMZ3aQHX0
+         6GE+CdOp2beyylGZR1otI+DPMXn66iq+CICvEQ4pnMXfo6veH81pquZd6FU9RCHzFoA3
+         i50zOjhbgqvjPUNVhmHimb3G4Pl7OBDdB1AqHxve21L3/Ldk8ctuz/P9nqcLkSZb0V7c
+         zpTw==
+X-Gm-Message-State: ALoCoQl71XPQu/35STc30Fxwz/IQRchqMDh8hGwo55mYZWeD0i1IH0iNqwgQldKGrai8TI157X/jcGI44u30e2irb6WB+ixS8o2ZmwRoGmqEzoSsgfkh0E35axothf9aI48ZbJhco/32wMoCJzjb7lLFO666pSaosQ==
+X-Received: by 10.50.8.39 with SMTP id o7mr8118963iga.23.1438288551409;
+        Thu, 30 Jul 2015 13:35:51 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.8.39 with SMTP id o7mr8118952iga.23.1438288551291; Thu,
+ 30 Jul 2015 13:35:51 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 30 Jul 2015 13:35:51 -0700 (PDT)
+In-Reply-To: <DM2PR0701MB1135B8C3BAC191146D63DBA6C48B0@DM2PR0701MB1135.namprd07.prod.outlook.com>
+References: <CAH0V_1Zi9axqoRF1tRGGpH98dtOdm7JQcBaNJ5QHsY0ZB6gRsQ@mail.gmail.com>
+	<DM2PR0701MB1135B8C3BAC191146D63DBA6C48B0@DM2PR0701MB1135.namprd07.prod.outlook.com>
+Date: Thu, 30 Jul 2015 16:35:51 -0400
+Message-ID: <CAH0V_1YBj-MqegJZf-yXZH=HGtdK43YSTYXkv4TobXNY4AGKFg@mail.gmail.com>
+Subject: Re: RHF->UHF MO Stability Code Question
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Gonthier, Jerome F" <jerome.gonthier@chemistry.gatech.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e011840222f4b78051c1da659
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e011840222f4b78051c1da659
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for taking a look.  In the meantime, I'm running the PK version of
+the code for now.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Jul 30, 2015 at 4:35 PM, Gonthier, Jerome F <
+jerome.gonthier@chemistry.gatech.edu> wrote:
+
+>  Hi again,
+>
+>
+>  I did some tests and it seems that I am still not rotating the orbitals
+> correctly, when compared to the old PK code. I am going to figure this ou=
+t
+> and keep you informed, but I have a grant proposal due Saturday and I may
+> not be able to solve the problem before that.
+>
+>
+>  Best regards,
+>
+>
+>  J=C3=A9r=C3=B4me
+>
+>
+>  ------------------------------
+> *From:* T. Daniel Crawford <crawdad@vt.edu>
+> *Sent:* Thursday, July 30, 2015 10:32 AM
+> *To:* Gonthier, Jerome F
+> *Cc:* Andrew James
+> *Subject:* RHF->UHF MO Stability Code Question
+>
+>  Dear Jerome,
+>
+>  One of our projects here requires checking MO stabilities indices and
+> finding symmetry-broken UHF wave functions.  Until recently we'd been
+> dealing with the older version of the stability code, and, with code
+> updates we've switched to your new version.  Unfortunately, the upgrade i=
+s
+> giving us a bit of trouble for a polyradical (see the attached input for =
+a
+> sample).  We correctly identify the instabilities, but we can't follow th=
+em
+> to lower-energy solutions.  I've tried bumping up the eigenvector scale
+> factors and adjusting convergence criteria otherwise, but without luck.
+> The eigenvector following works fine if I switch to the old algorithm by
+> choosing scf_type =3D pk.  Could you take a look and let me know if you s=
+ee
+> any solutions?  (FYI, I've actually been doing this for a 6-31G* basis, b=
+ut
+> the STO-3G basis exhibits the same problems, so I've sent it instead.)
+>
+>  Thanks for your input!
+>
+>  -Daniel
+>
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>  memory 2 gb
+>
+>
+>  molecule heptazethrene {
+>
+> 0 1
+>
+> C        -0.419928         5.172036          0.000000
+>
+> C         0.419928        -5.172036          0.000000
+>
+> C        -0.003202         3.802586          0.000000
+>
+> C         0.003202        -3.802586          0.000000
+>
+> C        -1.804101         5.470814          0.000000
+>
+> C         1.804101        -5.470814          0.000000
+>
+> C        -0.975357         2.753865          0.000000
+>
+> C         0.975357        -2.753865          0.000000
+>
+> C        -2.736151         4.451561          0.000000
+>
+> C         2.736151        -4.451561          0.000000
+>
+> C        -2.327367         3.108668          0.000000
+>
+> C         2.327367        -3.108668          0.000000
+>
+> C         1.910653         5.889357          0.000000
+>
+> C        -1.910653        -5.889357          0.000000
+>
+> C         2.329969         4.549443          0.000000
+>
+> C        -2.329969        -4.549443          0.000000
+>
+> C         0.564646         6.199544          0.000000
+>
+> C        -0.564646        -6.199544          0.000000
+>
+> C         1.401864         3.501384          0.000000
+>
+> C        -1.401864        -3.501384          0.000000
+>
+> C         1.814938         2.135020          0.000000
+>
+> C        -1.814938        -2.135020          0.000000
+>
+> C         0.914289         1.087230          0.000000
+>
+> C        -0.914289        -1.087230          0.000000
+>
+> C        -0.519518         1.351519          0.000000
+>
+> C         0.519518        -1.351519          0.000000
+>
+> C         1.367708        -0.271594          0.000000
+>
+> C        -1.367708         0.271594          0.000000
+>
+> H        -2.119961         6.510958          0.000000
+>
+> H         2.119961        -6.510958          0.000000
+>
+> H        -3.797766         4.683585          0.000000
+>
+> H         3.797766        -4.683585          0.000000
+>
+> H        -3.092623         2.339609          0.000000
+>
+> H         3.092623        -2.339609          0.000000
+>
+> H         2.652532         6.683427          0.000000
+>
+> H        -2.652532        -6.683427          0.000000
+>
+> H         3.391260         4.313308          0.000000
+>
+> H        -3.391260        -4.313308          0.000000
+>
+> H         0.237241         7.235991          0.000000
+>
+> H        -0.237241        -7.235991          0.000000
+>
+> H         2.881401         1.919591          0.000000
+>
+> H        -2.881401        -1.919591          0.000000
+>
+> H         2.444053        -0.416523          0.000000
+>
+> H        -2.444053         0.416523          0.000000
+>
+> symmetry cs
+>
+> }
+>
+>
+>  set {
+>
+>   basis STO-3G
+>
+>   reference uhf
+>
+>   stability_analysis follow
+>
+>   solver_n_guess 10
+>
+>   solver_n_root 4
+>
+>   follow_step_scale =3D 2.0
+>
+>   df_scf_guess=3D false
+>
+> }
+>
+>
+>  energy('scf')
+>
+>
+>
+
+--089e011840222f4b78051c1da659
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks for taking a look.=C2=A0 In the meantime, I&#39;m r=
+unning the PK version of the code for now. =C2=A0<div><br></div><div>-TDC</=
+div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"g=
+mail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div>=
+<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div=
+></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Jul 30, 2015 at 4:35 PM, Gonthier, J=
+erome F <span dir=3D"ltr">&lt;<a href=3D"mailto:jerome.gonthier@chemistry.g=
+atech.edu" target=3D"_blank">jerome.gonthier@chemistry.gatech.edu</a>&gt;</=
+span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8e=
+x;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+<div dir=3D"ltr">
+<div style=3D"font-size:12pt;color:#000000;background-color:#ffffff;font-fa=
+mily:Calibri,Arial,Helvetica,sans-serif">
+<p>Hi again,</p>
+<p><br>
+</p>
+<p>I did some tests and it seems that I am still not rotating the orbitals =
+correctly, when compared to the old PK code. I am going to figure this out =
+and keep you informed, but I have a grant proposal due Saturday and I may n=
+ot be able to solve the problem
+ before that.</p>
+<p><br>
+</p>
+<p>Best regards,</p>
+<p><br>
+</p>
+<p>J=C3=A9r=C3=B4me<br>
+</p>
+<br>
+<br>
+<div style=3D"color:rgb(24,22,21)"><span class=3D"">
+<hr style=3D"display:inline-block;width:98%">
+<div dir=3D"ltr"><font style=3D"font-size:11pt" color=3D"#000000" face=3D"C=
+alibri, sans-serif"><b>From:</b> T. Daniel Crawford &lt;<a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+<b>Sent:</b> Thursday, July 30, 2015 10:32 AM<br>
+<b>To:</b> Gonthier, Jerome F<br>
+<b>Cc:</b> Andrew James<br>
+<b>Subject:</b> RHF-&gt;UHF MO Stability Code Question</font>
+<div>=C2=A0</div>
+</div>
+</span><div><div class=3D"h5"><div>
+<div dir=3D"ltr">Dear Jerome,
+<div><br>
+</div>
+<div>One of our projects here requires checking MO stabilities indices and =
+finding symmetry-broken UHF wave functions.=C2=A0 Until recently we&#39;d b=
+een dealing with the older version of the stability code, and, with code up=
+dates we&#39;ve switched to your new version.=C2=A0
+ Unfortunately, the upgrade is giving us a bit of trouble for a polyradical=
+ (see the attached input for a sample).=C2=A0 We correctly identify the ins=
+tabilities, but we can&#39;t follow them to lower-energy solutions.=C2=A0 I=
+&#39;ve tried bumping up the eigenvector scale factors
+ and adjusting convergence criteria otherwise, but without luck.=C2=A0 The =
+eigenvector following works fine if I switch to the old algorithm by choosi=
+ng scf_type =3D pk.=C2=A0 Could you take a look and let me know if you see =
+any solutions? =C2=A0(FYI, I&#39;ve actually been doing
+ this for a 6-31G* basis, but the STO-3G basis exhibits the same problems, =
+so I&#39;ve sent it instead.)</div>
+<div><br>
+</div>
+<div>Thanks for your input!</div>
+<div><br>
+</div>
+<div>-Daniel</div>
+<div><br clear=3D"all">
+<div>
+<div>
+<div dir=3D"ltr">--
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+<div><br>
+</div>
+<div>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">memory 2 gb</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br>
+</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">molecule heptazet=
+hrene {</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">0 1</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.419928 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.172036=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.419928=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.172036=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.003202 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.802586=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.003202=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.802586=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.804101 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.470814=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.804101=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.470814=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.975357 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.753865=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.975357=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.753865=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.736151 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.451561=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.736151=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.451561=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.327367 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.108668=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.327367=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.108668=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.910653 =C2=A0 =C2=A0 =C2=A0 =C2=A0 5.889357=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.910653=C2=A0 =C2=A0 =C2=A0 =C2=A0 -5.889357=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.329969 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.549443=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.329969=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.549443=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.564646 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.199544=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.564646=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.199544=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.401864 =C2=A0 =C2=A0 =C2=A0 =C2=A0 3.501384=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.401864=C2=A0 =C2=A0 =C2=A0 =C2=A0 -3.501384=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.814938 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.135020=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.814938=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.135020=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.914289 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.087230=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.914289=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.087230=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.519518 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.351519=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.519518=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.351519=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 1.367708=C2=A0 =C2=A0 =C2=A0 =C2=A0 -0.271594=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">C=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -1.367708 =C2=A0 =C2=A0 =C2=A0 =C2=A0 0.271594=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.119961 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.510958=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.119961=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.510958=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.797766 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.683585=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.797766=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.683585=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.092623 =C2=A0 =C2=A0 =C2=A0 =C2=A0 2.339609=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.092623=C2=A0 =C2=A0 =C2=A0 =C2=A0 -2.339609=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.652532 =C2=A0 =C2=A0 =C2=A0 =C2=A0 6.683427=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.652532=C2=A0 =C2=A0 =C2=A0 =C2=A0 -6.683427=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 3.391260 =C2=A0 =C2=A0 =C2=A0 =C2=A0 4.313308=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -3.391260=C2=A0 =C2=A0 =C2=A0 =C2=A0 -4.313308=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 0.237241 =C2=A0 =C2=A0 =C2=A0 =C2=A0 7.235991=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -0.237241=C2=A0 =C2=A0 =C2=A0 =C2=A0 -7.235991=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.881401 =C2=A0 =C2=A0 =C2=A0 =C2=A0 1.919591=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.881401=C2=A0 =C2=A0 =C2=A0 =C2=A0 -1.919591=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 2.444053=C2=A0 =C2=A0 =C2=A0 =C2=A0 -0.416523=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">H=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 -2.444053 =C2=A0 =C2=A0 =C2=A0 =C2=A0 0.416523=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 0.000000</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">symmetry cs</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">}</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br>
+</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">set {</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 basis STO-=
+3G</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 reference =
+uhf</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 stability_=
+analysis follow</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 solver_n_g=
+uess 10</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 solver_n_r=
+oot 4</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 follow_ste=
+p_scale =3D 2.0</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">=C2=A0 df_scf_gue=
+ss=3D false</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">}</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br>
+</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco">energy(&#39;scf&#=
+39;)</p>
+<p style=3D"margin:0px;font-size:10px;font-family:Monaco;min-height:14px"><=
+br>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+--089e011840222f4b78051c1da659--

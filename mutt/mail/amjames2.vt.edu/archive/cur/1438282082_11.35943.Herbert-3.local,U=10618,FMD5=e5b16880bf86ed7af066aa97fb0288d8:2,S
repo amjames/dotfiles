@@ -1,0 +1,102 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2050064qgt;
+        Mon, 15 Jun 2015 16:59:00 -0700 (PDT)
+X-Received: by 10.140.95.204 with SMTP id i70mr38627241qge.51.1434412740605;
+        Mon, 15 Jun 2015 16:59:00 -0700 (PDT)
+Return-Path: <owner-arc_hokiespeed_users@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id o97si4169811qko.10.2015.06.15.16.58.59
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Jun 2015 16:59:00 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.218.53 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) client-ip=209.85.218.53;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.218.53 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) smtp.mail=owner-arc_hokiespeed_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5FNwrqH020428;
+	Mon, 15 Jun 2015 19:58:58 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t5FJAnGN009388;
+	Mon, 15 Jun 2015 19:58:52 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100000109 for ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU; Mon, 15 Jun 2015
+          19:58:52 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5FJAnGL009388; Mon, 15 Jun
+          2015 19:58:51 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100000106 for ARC_USERS@LISTSERV.VT.EDU; Mon, 15 Jun 2015 19:58:51
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5FNwoCi002644 for
+          <ARC_USERS@listserv.vt.edu>; Mon, 15 Jun 2015 19:58:50 -0400
+Received: from mail-oi0-f53.google.com (mail-oi0-f53.google.com
+          [209.85.218.53]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t5FNwj9F016451 for <ARC_USERS@listserv.vt.edu>; Mon, 15 Jun 2015
+          19:58:50 -0400
+Received: by oigx81 with SMTP id x81so776427oig.1 for
+          <ARC_USERS@listserv.vt.edu>; Mon, 15 Jun 2015 16:58:45 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc :content-type;
+                         bh=EB0jwr0oRrwnBDCWJZoGDP0noRdXNWCuct9MIgdJSUs=;
+                         b=E2YOfRSinCr2/sCaKEFYmITc9sws4G9zwuwLm49iWGT/Intu/GTLybfHPPkKJk/xgM
+                         HTOG6/uOwvLu4xS2C1J7gSlKvb7enxqe6eAHEiJUTi75f2LEI3q9vodv++50ZiqMmV0P
+                         GpKDwVsip76e0uYGQN7lJ4mViGOxZym8XgCi3XsL2rSU2uFWpggujeb40OOMGlrMSppo
+                         inzA/1dt1zMQmzOssAftC2lsD56qbCTL6nw2lRAWdHyq+PQoVqlIsNnio26S6dKq6EyP
+                         /ffY34jdzILOemBKVAowmkY5YwIswdwp2byaNkhGtzWC3U7H+I7YI/wyOhWmbsqyqRSC
+                         yrvA==
+X-Gm-Message-State: ALoCoQl8schHhrpZA5lFD2zk0oxknpQAZHPbQD1c/uw6/uXDuphgbbdAHbixZvn85YgZ30ZbVVm/bti+gN62LaT3onS+CtaiWQu50zUs2WHWanUpLgd7FXCfvmNauKNtu8W3YPxANI4qwjAJbXdWVkfZPkLGuCsgkw==
+X-Received: by 10.202.219.195 with SMTP id s186mr24540033oig.25.1434412725002;
+            Mon, 15 Jun 2015 16:58:45 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.202.219.195 with SMTP id s186mr24540027oig.25.1434412724903;
+            Mon, 15 Jun 2015 16:58:44 -0700 (PDT)
+Received: by 10.202.83.22 with HTTP; Mon, 15 Jun 2015 16:58:44 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=001a113d29daedfb5e0518973cae
+X-Spam-Status: No, score=-0.5 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Precedence: list
+Message-ID:  <CA+1tEsFwW1CpgmBGMuAr+j0-0Niz7EM8Bt02xDCJqUDE3r4pnQ@mail.gmail.com>
+Date:         Mon, 15 Jun 2015 19:58:44 -0400
+Reply-To: Christopher Snapp <christopher.snapp@vt.edu>
+Sender: "Users of Advanced Research Computing's Cluster HokieSpeed" <ARC_HOKIESPEED_USERS@listserv.vt.edu>
+From: Christopher Snapp <christopher.snapp@vt.edu>
+Subject: Service Outage: CXFS /archive outage
+To: ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU
+List-Help: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>,
+           <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_HOKIESPEED_USERS>
+List-Unsubscribe: <mailto:ARC_HOKIESPEED_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_HOKIESPEED_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_HOKIESPEED_USERS-request@LISTSERV.VT.EDU>
+List-Archive: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113d29daedfb5e0518973cae
+Content-Type: text/plain; charset=UTF-8
+
+The storage that supports /archive on the login nodes of the ARC clusters
+appears to have suffered a switch failure.
+
+This should not affect jobs running on the clusters, but will impact the
+login nodes and the ability to open new sessions.
+
+More information will be provided as the storage team has a chance to
+assess the issue.
+
+--001a113d29daedfb5e0518973cae
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">The storage that supports /archive on the login nodes of t=
+he ARC clusters appears to have suffered a switch failure.
+<div><br></div><div>This should not affect jobs running on the clusters, bu=
+t will impact the login nodes and the ability to open new sessions.</div><d=
+iv><br></div><div>More information will be provided as the storage team has=
+ a chance to assess the issue.</div></div>
+
+--001a113d29daedfb5e0518973cae--

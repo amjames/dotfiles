@@ -1,0 +1,2607 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1631917qgt;
+        Fri, 14 Aug 2015 08:32:25 -0700 (PDT)
+X-Received: by 10.140.102.119 with SMTP id v110mr40192127qge.103.1439566344998;
+        Fri, 14 Aug 2015 08:32:24 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 53si10046924qgx.6.2015.08.14.08.32.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:32:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.197 as permitted sender) client-ip=192.30.252.197;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.197 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext6.iad.github.net [192.30.252.197])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EFWCCh002756
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 11:32:17 -0400
+Date: Fri, 14 Aug 2015 08:32:12 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439566332;
+	bh=oP3bqAkP4m6A7alhiSU16MOtXZhBWmHCoM1M9WrIRig=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=D9+QF7HNWNbvIsW4Aqm7Enh1s7CAyn0gGA6pzLIPjjox+AzmnuMzI+u/8WwUQy4lr
+	 Ulm4QpvfbEt+rwsYdCVoBBG/PtJl4zf5zyg2wMvSQItBIPRhuObyatJK9OUVWulngv
+	 VLBhRWzqFd0+3fNArMxSxAeYm4H6ER0y4uh3nViY=
+From: "Robert T. McGibbon" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642c412de669b94ae38f3f51dc8f4e60107d6c3402892cf0000000111e5cbfc92a169ce0603ca40@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/164/c131150834@github.com>
+In-Reply-To: <psi4/psi4public/pull/164@github.com>
+References: <psi4/psi4public/pull/164@github.com>
+Subject: Re: [psi4public] Fix CMake finding proper python (#164)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce09fc7c19a_30b23fcee12432a072225";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: rmcgibbo
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642c412de669b94ae38f3f51dc8f4e60107d6c3402892cf0000000111e5cbfc92a169ce0603ca40@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642c412de669b94ae38f3f51dc8f4e60107d6c3402892cf0000000111e5cbfc92a169ce0603ca40@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QuBr8ERWETmwQqFW0lsY3ak3XcwGks5ongF8gaJpZM4FrZfz>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-5.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,RCVD_IN_DNSWL_HI autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ce09fc7c19a_30b23fcee12432a072225
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Surprisingly for its length, that output doesn't contain the right info. :)
+Can you post the output of the setup command and the result of 'grep PYTHON
+CMakeCache.txt'
+
+On Aug 14, 2015 8:27 AM, "Lori A. Burns" <notifications@github.com> wrote:
+>
+> Third-ed. Passing in anaconda python 2.7 via setup --python fails at
+link-time on mbp.
+>
+> Linking CXX executable ../../../bin/psi4
+> Undefined symbols for architecture x86_64:
+>   "_PyArg_Parse", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>   "_PyArg_ParseTupleAndKeywords", referenced from:
+>       boost::python::property_init(_object*, _object*, _object*) in
+libboost_python-1_57.a(class.o)
+>   "_PyBaseObject_Type", referenced from:
+>       boost::python::objects::class_type() in
+libboost_python-1_57.a(class.o)
+>   "_PyBool_FromLong", referenced from:
+>       boost::python::to_python_value<bool const&>::operator()(bool
+const&) const in export_mints.cc.o
+>       boost::python::converter::arg_to_python<bool>::arg_to_python(bool
+const&) in export_mints.cc.o
+>       boost::python::to_python_value<bool const&>::operator()(bool
+const&) const in export_functional.cc.o
+>       boost::python::to_python_value<bool const&>::operator()(bool
+const&) const in export_libparallel.cc.o
+>       boost::python::to_python_value<bool const&>::operator()(bool
+const&) const in python.cc.o
+>       boost::python::converter::arg_to_python<bool>::arg_to_python(bool
+const&) in libmints.a(onebody.cc.o)
+>       boost::python::converter::arg_to_python<bool>::arg_to_python(bool
+const&) in libboost_python-1_57.a(class.o)
+>       ...
+>   "_PyBool_Type", referenced from:
+>       boost::python::to_python_value<bool const&>::get_pytype() const in
+export_mints.cc.o
+>       boost::python::to_python_value<bool const&>::get_pytype() const in
+export_functional.cc.o
+>       boost::python::to_python_value<bool const&>::get_pytype() const in
+export_libparallel.cc.o
+>       boost::python::to_python_value<bool const&>::get_pytype() const in
+python.cc.o
+>       boost::python::converter::(anonymous
+namespace)::bool_rvalue_from_python::get_pytype() in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyCFunction_NewEx", referenced from:
+>       boost::python::objects::class_base::def_no_init() in
+libboost_python-1_57.a(class.o)
+>   "_PyCFunction_Type", referenced from:
+>       boost::python::objects::function_get_class(_object*, void*) in
+libboost_python-1_57.a(function.o)
+>   "_PyCallable_Check", referenced from:
+>       boost::python::objects::(anonymous
+namespace)::callable_check(_object*) in libboost_python-1_57.a(class.o)
+>   "_PyClass_Type", referenced from:
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>   "_PyComplex_ImagAsDouble", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::complex_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyComplex_RealAsDouble", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::complex_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyComplex_Type", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::complex_rvalue_from_python::get_pytype() in
+libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::complex_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::complex_rvalue_from_python::get_slot(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyDict_Clear", referenced from:
+>       boost::python::detail::dict_base::clear() in
+libboost_python-1_57.a(dict.o)
+>   "_PyDict_Copy", referenced from:
+>       boost::python::detail::dict_base::copy() in
+libboost_python-1_57.a(dict.o)
+>   "_PyDict_GetItem", referenced from:
+>       boost::python::detail::dict_base::get(boost::python::api::object
+const&) const in libboost_python-1_57.a(dict.o)
+>       boost::python::objects::function::call(_object*, _object*) const in
+libboost_python-1_57.a(function.o)
+>   "_PyDict_GetItemString", referenced from:
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>   "_PyDict_Items", referenced from:
+>       boost::python::detail::dict_base::items() const in
+libboost_python-1_57.a(dict.o)
+>   "_PyDict_Keys", referenced from:
+>       boost::python::detail::dict_base::keys() const in
+libboost_python-1_57.a(dict.o)
+>   "_PyDict_New", referenced from:
+>       boost::python::objects::instance_get_dict(_object*, void*) in
+libboost_python-1_57.a(class.o)
+>       boost::python::detail::dict_base::dict_base() in
+libboost_python-1_57.a(dict.o)
+>   "_PyDict_Size", referenced from:
+>       boost::python::objects::function::call(_object*, _object*) const in
+libboost_python-1_57.a(function.o)
+>   "_PyDict_Type", referenced from:
+>       boost::python::converter::pyobject_type<boost::python::dict,
+&(PyDict_Type)>::get_pytype() in export_mints.cc.o
+>       boost::python::converter::pyobject_type<boost::python::dict,
+&(PyDict_Type)>::check(_object*) in python.cc.o
+>       boost::python::converter::pyobject_type<boost::python::dict,
+&(PyDict_Type)>::get_pytype() in python.cc.o
+>
+boost::python::converter::pytype_object_manager_traits<&(PyDict_Type),
+boost::python::dict>::adopt(_object*) in libmints.a(basisset.cc.o)
+>       boost::python::detail::dict_base::call(boost::python::api::object
+const&) in libboost_python-1_57.a(dict.o)
+>       boost::python::detail::(anonymous
+namespace)::check_exact(boost::python::detail::dict_base const*) in
+libboost_python-1_57.a(dict.o)
+>
+boost::python::detail::register_dict_pytype_ptr::register_dict_pytype_ptr()
+in libboost_python-1_57.a(dict.o)
+>       ...
+>   "_PyDict_Update", referenced from:
+>       boost::python::detail::dict_base::update(boost::python::api::object
+const&) in libboost_python-1_57.a(dict.o)
+>   "_PyDict_Values", referenced from:
+>       boost::python::detail::dict_base::values() const in
+libboost_python-1_57.a(dict.o)
+>   "_PyErr_Clear", referenced from:
+>       boost::python::objects::instance_new(_typeobject*, _object*,
+_object*) in libboost_python-1_57.a(class.o)
+>       boost::python::api::getattr(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::getattr(boost::python::api::object const&, char
+const*, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::objects::function::call(_object*, _object*) const in
+libboost_python-1_57.a(function.o)
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>   "_PyErr_ExceptionMatches", referenced from:
+>       boost::python::api::getattr(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::getattr(boost::python::api::object const&, char
+const*, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>   "_PyErr_Fetch", referenced from:
+>       psi::HandleError() in libfrag.a(LibFragDriver.cc.o)
+>   "_PyErr_Format", referenced from:
+>       boost::python::pytype_check(_typeobject*, _object*) in
+libboost_python-1_57.a(from_python.o)
+>       boost::python::objects::(anonymous
+namespace)::callable_check(_object*) in libboost_python-1_57.a(class.o)
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>       boost::python::converter::registration::get_class_object() const in
+libboost_python-1_57.a(registry.o)
+>   "_PyErr_NewException", referenced from:
+>       boost::python::objects::function::argument_error(_object*,
+_object*) const in libboost_python-1_57.a(function.o)
+>   "_PyErr_NoMemory", referenced from:
+>       boost::python::handle_exception_impl(boost::function0<void>) in
+libboost_python-1_57.a(errors.o)
+>   "_PyErr_Occurred", referenced from:
+>       boost::python::len(boost::python::api::object const&) in python.cc.o
+>       boost::python::len(boost::python::api::object const&) in
+libparallel2.a(LibParallelHelper.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libmints.a(matrix.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_hessian_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_1_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_freq_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_freq_1.cc.o)
+>       ...
+>   "_PyErr_Print", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>       psi::Dispersion::compute_energy(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::Dispersion::compute_gradient(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::SuperFunctional::build(std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, int)
+in libfunctional.a(superfactory.cc.o)
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>       psi::Try(_object*&, _object*) in libPsiUtil.a(PythonFxnGuts.cc.o)
+>       ...
+>   "_PyErr_SetObject", referenced from:
+>       translate_psi_exception(psi::PsiException const&) in python.cc.o
+>       boost::python::converter::rvalue_from_python_stage2(_object*,
+boost::python::converter::rvalue_from_python_stage1_data&,
+boost::python::converter::registration const&) in
+libboost_python-1_57.a(from_python.o)
+>       boost::python::converter::(anonymous
+namespace)::throw_no_lvalue_from_python(_object*,
+boost::python::converter::registration const&, char const*) in
+libboost_python-1_57.a(from_python.o)
+>       boost::python::converter::(anonymous
+namespace)::lvalue_result_from_python(_object*,
+boost::python::converter::registration const&, char const*) in
+libboost_python-1_57.a(from_python.o)
+>       boost::python::objects::(anonymous
+namespace)::get_class(boost::python::type_info) in
+libboost_python-1_57.a(class.o)
+>       boost::python::objects::function::argument_error(_object*,
+_object*) const in libboost_python-1_57.a(function.o)
+>       boost::python::objects::stop_iteration_error() in
+libboost_python-1_57.a(iterator.o)
+>       ...
+>   "_PyErr_SetString", referenced from:
+>       _object* boost::python::with_custodian_and_ward_postcall<0ul, 1ul,
+boost::python::default_call_policies>::postcall<_object*>(_object* const&,
+_object*) in export_mints.cc.o
+>       boost::python::indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>, true, false, double, unsigned long,
+double>::base_set_item(std::__1::vector<double, std::__1::allocator<double>
+>&, _object*, _object*) in export_mints.cc.o
+>       boost::python::vector_indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>
+>::base_append(std::__1::vector<double, std::__1::allocator<double> >&,
+boost::python::api::object) in export_mints.cc.o
+>       void
+boost::python::container_utils::extend_container<std::__1::vector<double,
+std::__1::allocator<double> > >(std::__1::vector<double,
+std::__1::allocator<double> >&, boost::python::api::object) in
+export_mints.cc.o
+>       boost::python::vector_indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>
+>::convert_index(std::__1::vector<double, std::__1::allocator<double> >&,
+_object*) in export_mints.cc.o
+>       boost::python::detail::slice_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::no_proxy_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::container_element<std::__1::vector<double,
+std::__1::allocator<double> >, unsigned long,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true> >, unsigned long>, double, unsigned
+long>::base_get_slice_data(std::__1::vector<double,
+std::__1::allocator<double> >&, PySliceObject*, unsigned long&, unsigned
+long&) in export_mints.cc.o
+>       boost::python::detail::slice_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::no_proxy_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::container_element<std::__1::vector<double,
+std::__1::allocator<double> >, unsigned long,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true> >, unsigned long>, double, unsigned
+long>::base_set_slice(std::__1::vector<double, std::__1::allocator<double>
+>&, PySliceObject*, _object*) in export_mints.cc.o
+>       ...
+>   "_PyErr_WarnEx", referenced from:
+>       boost::python::converter::registry::insert(_object* (*)(void
+const*), boost::python::type_info, _typeobject const* (*)()) in
+libboost_python-1_57.a(registry.o)
+>   "_PyEval_CallFunction", referenced from:
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object>(_object*,
+boost::type<boost::python::api::object>*) in export_mints.cc.o
+>       boost::python::detail::returnable<void>::type
+boost::python::call<void, boost::shared_ptr<psi::Wavefunction> >(_object*,
+boost::shared_ptr<psi::Wavefunction> const&, boost::type<void>*) in
+libmints.a(wavefunction.cc.o)
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object,
+boost::python::handle<_object>, boost::python::handle<_object>,
+boost::python::handle<_object> >(_object*, boost::python::handle<_object>
+const&, boost::python::handle<_object> const&,
+boost::python::handle<_object> const&,
+boost::type<boost::python::api::object>*) in libfrag.a(LibFragDriver.cc.o)
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object,
+boost::python::handle<_object>, boost::python::handle<_object> >(_object*,
+boost::python::handle<_object> const&, boost::python::handle<_object>
+const&, boost::type<boost::python::api::object>*) in
+libfrag.a(LibFragDriver.cc.o)
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object, char const*,
+boost::python::handle<_object>, boost::python::dict>(_object*, char const*
+const&, boost::python::handle<_object> const&, boost::python::dict const&,
+boost::type<boost::python::api::object>*) in libboost_python-1_57.a(class.o)
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object>(_object*,
+boost::type<boost::python::api::object>*) in libboost_python-1_57.a(str.o)
+>       boost::python::detail::returnable<boost::python::api::object>::type
+boost::python::call<boost::python::api::object, boost::python::api::object,
+boost::python::api::object, boost::python::api::object>(_object*,
+boost::python::api::object const&, boost::python::api::object const&,
+boost::python::api::object const&,
+boost::type<boost::python::api::object>*) in libboost_python-1_57.a(str.o)
+>       ...
+>   "_PyEval_CallObjectWithKeywords", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>       psi::Dispersion::compute_energy(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::Dispersion::compute_gradient(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::SuperFunctional::build(std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, int)
+in libfunctional.a(superfactory.cc.o)
+>       boost::python::list
+psi::PythonFxn<boost::python::list>::operator()<char const*>(char const*)
+in libfrag.a(LibFragDriver.cc.o)
+>       boost::python::dict
+psi::PythonFxn<boost::python::dict>::operator()<char const*, char const*,
+int>(char const*, char const*, int) in libfrag.a(LibFragDriver.cc.o)
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>       ...
+>   "_PyEval_GetGlobals", referenced from:
+>       boost::python::eval(boost::python::str, boost::python::api::object,
+boost::python::api::object) in libboost_python-1_57.a(exec.o)
+>       boost::python::exec(boost::python::str, boost::python::api::object,
+boost::python::api::object) in libboost_python-1_57.a(exec.o)
+>       boost::python::exec_statement(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>       boost::python::exec_file(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>   "_PyExc_AttributeError", referenced from:
+>       boost::python::static_data_descr_set(_object*, _object*, _object*)
+in libboost_python-1_57.a(class.o)
+>       boost::python::api::getattr(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::getattr(boost::python::api::object const&, char
+const*, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::objects::function_get_module(_object*, void*) in
+libboost_python-1_57.a(function.o)
+>   "_PyExc_IndexError", referenced from:
+>       _object* boost::python::with_custodian_and_ward_postcall<0ul, 1ul,
+boost::python::default_call_policies>::postcall<_object*>(_object* const&,
+_object*) in export_mints.cc.o
+>       boost::python::vector_indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>
+>::convert_index(std::__1::vector<double, std::__1::allocator<double> >&,
+_object*) in export_mints.cc.o
+>       boost::python::detail::slice_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::no_proxy_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::container_element<std::__1::vector<double,
+std::__1::allocator<double> >, unsigned long,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true> >, unsigned long>, double, unsigned
+long>::base_get_slice_data(std::__1::vector<double,
+std::__1::allocator<double> >&, PySliceObject*, unsigned long&, unsigned
+long&) in export_mints.cc.o
+>
+boost::python::vector_indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>
+>::convert_index(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&, _object*) in
+export_mints.cc.o
+>
+boost::python::detail::slice_helper<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>,
+boost::python::detail::no_proxy_helper<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>,
+boost::python::detail::container_element<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, unsigned long,
+boost::python::detail::final_vector_derived_policies<std::__1::vector&lt
+>  ;boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true> >, unsigned
+long>, boost::shared_ptr<psi::Matrix>, unsigned
+long>::base_get_slice_data(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&, PySliceObject*,
+unsigned long&, unsigned long&) in export_mints.cc.o
+>       boost::python::handle_exception_impl(boost::function0<void>) in
+libboost_python-1_57.a(errors.o)
+>   "_PyExc_OverflowError", referenced from:
+>       boost::python::handle_exception_impl(boost::function0<void>) in
+libboost_python-1_57.a(errors.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+long>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+int>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+short>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+char>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>   "_PyExc_ReferenceError", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::lvalue_result_from_python(_object*,
+boost::python::converter::registration const&, char const*) in
+libboost_python-1_57.a(from_python.o)
+>   "_PyExc_RuntimeError", referenced from:
+>       translate_psi_exception(psi::PsiException const&) in python.cc.o
+>       _no_init in libboost_python-1_57.a(class.o)
+>       boost::python::objects::(anonymous
+namespace)::get_class(boost::python::type_info) in
+libboost_python-1_57.a(class.o)
+>       boost::python::handle_exception_impl(boost::function0<void>) in
+libboost_python-1_57.a(errors.o)
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>       boost::python::detail::pure_virtual_called() in
+libboost_python-1_57.a(function.o)
+>       boost::python::(anonymous
+namespace)::instance_reduce(boost::python::api::object) in
+libboost_python-1_57.a(pickle_support.o)
+>       ...
+>   "_PyExc_StopIteration", referenced from:
+>       boost::python::objects::stop_iteration_error() in
+libboost_python-1_57.a(iterator.o)
+>   "_PyExc_TypeError", referenced from:
+>       boost::python::indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>, true, false, double, unsigned long,
+double>::base_set_item(std::__1::vector<double, std::__1::allocator<double>
+>&, _object*, _object*) in export_mints.cc.o
+>       boost::python::vector_indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>
+>::base_append(std::__1::vector<double, std::__1::allocator<double> >&,
+boost::python::api::object) in export_mints.cc.o
+>       void
+boost::python::container_utils::extend_container<std::__1::vector<double,
+std::__1::allocator<double> > >(std::__1::vector<double,
+std::__1::allocator<double> >&, boost::python::api::object) in
+export_mints.cc.o
+>       boost::python::vector_indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>
+>::convert_index(std::__1::vector<double, std::__1::allocator<double> >&,
+_object*) in export_mints.cc.o
+>       boost::python::detail::slice_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::no_proxy_helper<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>,
+boost::python::detail::container_element<std::__1::vector<double,
+std::__1::allocator<double> >, unsigned long,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true> >, unsigned long>, double, unsigned
+long>::base_set_slice(std::__1::vector<double, std::__1::allocator<double>
+>&, PySliceObject*, _object*) in export_mints.cc.o
+>
+boost::python::indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>, true, false,
+boost::shared_ptr<psi::Matrix>, unsigned long,
+boost::shared_ptr<psi::Matrix>
+>::base_set_item(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&, _object*,
+_object*) in export_mints.cc.o
+>
+boost::python::vector_indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>
+>::base_append(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&,
+boost::python::api::object) in export_mints.cc.o
+>       ...
+>   "_PyExc_ValueError", referenced from:
+>       boost::python::handle_exception_impl(boost::function0<void>) in
+libboost_python-1_57.a(errors.o)
+>   "_PyFile_AsFile", referenced from:
+>       boost::python::exec_file(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>   "_PyFile_FromString", referenced from:
+>       boost::python::exec_file(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>   "_PyFloat_FromDouble", referenced from:
+>       boost::python::to_python_value<double const&>::operator()(double
+const&) const in export_mints.cc.o
+>       boost::python::to_python_value<double&>::operator()(double const&)
+const in export_mints.cc.o
+>
+boost::python::converter::arg_to_python<double>::arg_to_python(double
+const&) in export_mints.cc.o
+>       boost::python::to_python_value<double const&>::operator()(double
+const&) const in export_functional.cc.o
+>       boost::python::to_python_value<double const&>::operator()(double
+const&) const in export_chkpt.cc.o
+>       boost::python::to_python_value<double const&>::operator()(double
+const&) const in export_blas_lapack.cc.o
+>       boost::python::to_python_value<double const&>::operator()(double
+const&) const in python.cc.o
+>       ...
+>   "_PyFloat_Type", referenced from:
+>       boost::python::to_python_value<double const&>::get_pytype() const
+in export_mints.cc.o
+>       boost::python::to_python_value<double&>::get_pytype() const in
+export_mints.cc.o
+>       boost::python::to_python_value<double const&>::get_pytype() const
+in export_functional.cc.o
+>       boost::python::to_python_value<double const&>::get_pytype() const
+in export_chkpt.cc.o
+>       boost::python::to_python_value<double const&>::get_pytype() const
+in export_blas_lapack.cc.o
+>       boost::python::to_python_value<double const&>::get_pytype() const
+in python.cc.o
+>       boost::python::converter::(anonymous
+namespace)::float_rvalue_from_python::get_slot(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>       ...
+>   "_PyImport_AddModule", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>   "_PyImport_AppendInittab", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>   "_PyImport_ImportModule", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>       psi::Dispersion::compute_energy(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::Dispersion::compute_gradient(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::SuperFunctional::build(std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, int)
+in libfunctional.a(superfactory.cc.o)
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>       psi::PythonFxnGuts::PythonFxnGuts(char const*, char const*, char
+const*) in libPsiUtil.a(PythonFxnGuts.cc.o)
+>       ...
+>   "_PyInt_AsLong", referenced from:
+>       boost::python::objects::instance_new(_typeobject*, _object*,
+_object*) in libboost_python-1_57.a(class.o)
+>
+boost::python::detail::str_base::endswith(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::find(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::find(boost::python::api::object
+const&, boost::python::api::object const&) const in
+libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::find(boost::python::api::object
+const&, boost::python::api::object const&, boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::index(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::index(boost::python::api::object
+const&, boost::python::api::object const&) const in
+libboost_python-1_57.a(str.o)
+>       ...
+>   "_PyInt_FromLong", referenced from:
+>       boost::python::to_python_value<int const&>::operator()(int const&)
+const in export_psio.cc.o
+>       boost::python::to_python_value<int const&>::operator()(int const&)
+const in export_mints.cc.o
+>       boost::python::to_python_value<unsigned long
+const&>::operator()(unsigned long const&) const in export_mints.cc.o
+>       boost::python::converter::arg_to_python<int>::arg_to_python(int
+const&) in export_mints.cc.o
+>       boost::python::converter::arg_to_python<long>::arg_to_python(long
+const&) in export_mints.cc.o
+>       boost::python::to_python_value<int const&>::operator()(int const&)
+const in export_functional.cc.o
+>       boost::python::to_python_value<int const&>::operator()(int const&)
+const in export_chkpt.cc.o
+>       ...
+>   "_PyInt_Type", referenced from:
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_psio.cc.o
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_mints.cc.o
+>       boost::python::to_python_value<unsigned long const&>::get_pytype()
+const in export_mints.cc.o
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_functional.cc.o
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_chkpt.cc.o
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_plugins.cc.o
+>       boost::python::to_python_value<int const&>::get_pytype() const in
+export_blas_lapack.cc.o
+>       ...
+>   "_PyIter_Next", referenced from:
+>       boost::python::objects::stl_input_iterator_impl::increment() in
+libboost_python-1_57.a(stl_iterator.o)
+>   "_PyList_Append", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>       boost::python::detail::list_base::append(boost::python::api::object
+const&) in libboost_python-1_57.a(list.o)
+>   "_PyList_Insert", referenced from:
+>       boost::python::detail::list_base::insert(long,
+boost::python::api::object const&) in libboost_python-1_57.a(list.o)
+>   "_PyList_New", referenced from:
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>       boost::python::detail::list_base::list_base() in
+libboost_python-1_57.a(list.o)
+>   "_PyList_Reverse", referenced from:
+>       boost::python::detail::list_base::reverse() in
+libboost_python-1_57.a(list.o)
+>   "_PyList_SetItem", referenced from:
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>   "_PyList_Sort", referenced from:
+>       boost::python::detail::list_base::sort() in
+libboost_python-1_57.a(list.o)
+>   "_PyList_Type", referenced from:
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in export_mints.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::get_pytype() in export_mints.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::get_pytype() in export_libparallel.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in export_libparallel.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in python.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::get_pytype() in python.cc.o
+>
+boost::python::converter::pytype_object_manager_traits<&(PyList_Type),
+boost::python::list>::adopt(_object*) in python.cc.o
+>       ...
+>   "_PyLong_AsLongLong", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::long_long_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyLong_AsUnsignedLong", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+long>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+int>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+short>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>       boost::python::converter::(anonymous
+namespace)::unsigned_int_rvalue_from_python<unsigned
+char>::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)
+>   "_PyLong_AsUnsignedLongLong", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::unsigned_long_long_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyLong_FromUnsignedLong", referenced from:
+>       boost::python::to_python_value<unsigned long
+const&>::operator()(unsigned long const&) const in export_mints.cc.o
+>       boost::python::to_python_value<unsigned long
+const&>::operator()(unsigned long const&) const in export_blas_lapack.cc.o
+>       boost::python::to_python_value<unsigned long
+const&>::operator()(unsigned long const&) const in python.cc.o
+>       boost::python::converter::arg_to_python<unsigned
+long>::arg_to_python(unsigned long const&) in libmints.a(matrix.cc.o)
+>       boost::python::converter::arg_to_python<unsigned
+long>::arg_to_python(unsigned long const&) in
+libboost_python-1_57.a(class.o)
+>       boost::python::converter::arg_to_python<unsigned
+int>::arg_to_python(unsigned int const&) in
+libboost_python-1_57.a(function.o)
+>       boost::python::converter::arg_to_python<unsigned
+int>::arg_to_python(unsigned int const&) in libboost_python-1_57.a(enum.o)
+>       ...
+>   "_PyLong_Type", referenced from:
+>       boost::python::converter::(anonymous
+namespace)::long_long_rvalue_from_python_base::get_pytype() in
+libboost_python-1_57.a(builtin_converters.o)
+>   "_PyMem_Free", referenced from:
+>       boost::python::instance_holder::deallocate(_object*, void*) in
+libboost_python-1_57.a(class.o)
+>   "_PyMem_Malloc", referenced from:
+>       boost::python::instance_holder::allocate(_object*, unsigned long,
+unsigned long) in libboost_python-1_57.a(class.o)
+>   "_PyMethod_New", referenced from:
+>       boost::python::objects::function_descr_get(_object*, _object*,
+_object*) in libboost_python-1_57.a(function.o)
+>   "_PyModule_GetDict", referenced from:
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>   "_PyModule_Type", referenced from:
+>       boost::python::objects::module_prefix() in
+libboost_python-1_57.a(class.o)
+>   "_PyNumber_Add", referenced from:
+>       boost::python::api::operator+(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_And", referenced from:
+>       boost::python::api::operator&(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Divide", referenced from:
+>       boost::python::api::operator/(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceAdd", referenced from:
+>       boost::python::api::operator+=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceAnd", referenced from:
+>       boost::python::api::operator&=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceDivide", referenced from:
+>       boost::python::api::operator/=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceLshift", referenced from:
+>       boost::python::api::operator<<=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceMultiply", referenced from:
+>       boost::python::api::operator*=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceOr", referenced from:
+>       boost::python::api::operator|=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceRemainder", referenced from:
+>       boost::python::api::operator%=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceRshift", referenced from:
+>       boost::python::api::operator>>=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceSubtract", referenced from:
+>       boost::python::api::operator-=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_InPlaceXor", referenced from:
+>       boost::python::api::operator^=(boost::python::api::object&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Lshift", referenced from:
+>       boost::python::api::operator<<(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Multiply", referenced from:
+>       boost::python::api::operator*(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Or", referenced from:
+>       boost::python::api::operator|(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Remainder", referenced from:
+>       boost::python::api::operator%(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Rshift", referenced from:
+>       boost::python::api::operator>>(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Subtract", referenced from:
+>       boost::python::api::operator-(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyNumber_Xor", referenced from:
+>       boost::python::api::operator^(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyObject_CallFunction", referenced from:
+>       boost::python::objects::class_base::add_property(char const*,
+boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(class.o)
+>       boost::python::objects::class_base::add_property(char const*,
+boost::python::api::object const&, boost::python::api::object const&, char
+const*) in libboost_python-1_57.a(class.o)
+>       boost::python::objects::class_base::add_static_property(char
+const*, boost::python::api::object const&) in
+libboost_python-1_57.a(class.o)
+>       boost::python::objects::class_base::add_static_property(char
+const*, boost::python::api::object const&, boost::python::api::object
+const&) in libboost_python-1_57.a(class.o)
+>       boost::python::static_data_descr_get(_object*, _object*, _object*)
+in libboost_python-1_57.a(class.o)
+>       boost::python::static_data_descr_set(_object*, _object*, _object*)
+in libboost_python-1_57.a(class.o)
+>       boost::python::detail::tuple_base::call(boost::python::api::object
+const&) in libboost_python-1_57.a(tuple.o)
+>       ...
+>   "_PyObject_CallMethod", referenced from:
+>       boost::python::detail::str_base::capitalize() const in
+libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::center(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::expandtabs() const in
+libboost_python-1_57.a(str.o)
+>
+boost::python::detail::str_base::expandtabs(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::join(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::ljust(boost::python::api::object
+const&) const in libboost_python-1_57.a(str.o)
+>       boost::python::detail::str_base::lower() const in
+libboost_python-1_57.a(str.o)
+>       ...
+>   "_PyObject_ClearWeakRefs", referenced from:
+>       boost::python::objects::instance_dealloc(_object*) in
+libboost_python-1_57.a(class.o)
+>   "_PyObject_DelItem", referenced from:
+>       boost::python::api::delitem(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::(anonymous namespace)::assign_slice(_object*,
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PyObject_GetAttr", referenced from:
+>       boost::python::api::getattr(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::getattr(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>   "_PyObject_GetAttrString", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>       psi::Dispersion::compute_energy(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::Dispersion::compute_gradient(boost::shared_ptr<psi::Molecule>)
+in libdisp.a(dispersion.cc.o)
+>       psi::SuperFunctional::build(std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, int)
+in libfunctional.a(superfactory.cc.o)
+>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr<psi::Molecule>
+const&, std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&,
+std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> > const&, std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) in
+libmints.a(basisset.cc.o)
+>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr<psi::Molecule>
+const&, std::__1::vector<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>,
+std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&,
+std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char&g
+>  t;, std::__1::allocator<char> >,
+std::__1::allocator<std::__1::basic_string<char,
+std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, int)
+in libmints.a(basisset.cc.o)
+>       boost::python::objects::instance_new(_typeobject*, _object*,
+_object*) in libboost_python-1_57.a(class.o)
+>       ...
+>   "_PyObject_GetItem", referenced from:
+>       boost::python::api::getitem(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::(anonymous namespace)::apply_slice(_object*,
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>   "_PyObject_IsInstance", referenced from:
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in export_mints.cc.o
+>       boost::python::converter::pyobject_type<boost::python::tuple,
+&(PyTuple_Type)>::check(_object*) in export_mints.cc.o
+>
+boost::python::enum_<psi::Molecule::GeometryUnits>::convertible_from_python(_object*)
+in export_mints.cc.o
+>
+boost::python::enum_<psi::diagonalize_order>::convertible_from_python(_object*)
+in export_mints.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in export_libparallel.cc.o
+>       boost::python::converter::pyobject_type<boost::python::str,
+&(PyString_Type)>::check(_object*) in export_libparallel.cc.o
+>       boost::python::converter::pyobject_type<boost::python::list,
+&(PyList_Type)>::check(_object*) in python.cc.o
+>       ...
+>   "_PyObject_IsTrue", referenced from:
+>
+boost::python::api::object_operators<boost::python::api::object>::operator
+_object* (boost::python::api::object::*)() const() const in
+export_mints.cc.o
+>
+boost::python::api::object_operators<boost::python::api::object>::operator
+_object* (boost::python::api::object::*)() const() const in
+libboost_python-1_57.a(class.o)
+>
+boost::python::api::object_operators<boost::python::api::object>::operator
+_object* (boost::python::api::object::*)() const() const in
+libboost_python-1_57.a(function.o)
+>
+boost::python::api::object_operators<boost::python::api::object>::operator!()
+const in libboost_python-1_57.a(function.o)
+>
+boost::python::api::object_operators<boost::python::api::object>::operator
+_object* (boost::python::api::object::*)() const() const in
+libboost_python-1_57.a(enum.o)
+>       boost::python::converter::(anonymous
+namespace)::bool_rvalue_from_python::extract(_object*) in
+libboost_python-1_57.a(builtin_converters.o)
+>
+boost::python::api::object_operators<boost::python::api::object>::operator!()
+const in libboost_python-1_57.a(pickle_support.o)
+>       ...
+>   "_PyObject_RichCompare", referenced from:
+>       boost::python::api::object const&
+boost::python::api::operator>(boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>       boost::python::api::operator>=(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>       boost::python::api::operator<(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>       boost::python::api::operator<=(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>       boost::python::api::operator==(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>       boost::python::api::operator!=(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_operators.o)
+>   "_PyObject_SetAttr", referenced from:
+>       boost::python::api::setattr(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::delattr(boost::python::api::object const&,
+boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>   "_PyObject_SetAttrString", referenced from:
+>       boost::python::objects::class_base::setattr(char const*,
+boost::python::api::object const&) in libboost_python-1_57.a(class.o)
+>       boost::python::api::setattr(boost::python::api::object const&, char
+const*, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::delattr(boost::python::api::object const&, char
+const*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PyObject_SetItem", referenced from:
+>       boost::python::api::setitem(boost::python::api::object const&,
+boost::python::api::object const&, boost::python::api::object const&) in
+libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::(anonymous namespace)::assign_slice(_object*,
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PyObject_Size", referenced from:
+>       boost::python::len(boost::python::api::object const&) in python.cc.o
+>       boost::python::len(boost::python::api::object const&) in
+libparallel2.a(LibParallelHelper.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libmints.a(matrix.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_hessian_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_1_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_freq_0.cc.o)
+>       boost::python::len(boost::python::api::object const&) in
+libfindif.a(fd_freq_1.cc.o)
+>       ...
+>   "_PyProperty_Type", referenced from:
+>       boost::python::objects::static_data() in
+libboost_python-1_57.a(class.o)
+>       boost::python::objects::class_base::add_property(char const*,
+boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(class.o)
+>       boost::python::objects::class_base::add_property(char const*,
+boost::python::api::object const&, boost::python::api::object const&, char
+const*) in libboost_python-1_57.a(class.o)
+>   "_PyRun_FileExFlags", referenced from:
+>       boost::python::exec_file(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>   "_PyRun_SimpleStringFlags", referenced from:
+>       psi::Python::run(__sFILE*) in python.cc.o
+>   "_PyRun_StringFlags", referenced from:
+>       boost::python::eval(boost::python::str, boost::python::api::object,
+boost::python::api::object) in libboost_python-1_57.a(exec.o)
+>       boost::python::exec(boost::python::str, boost::python::api::object,
+boost::python::api::object) in libboost_python-1_57.a(exec.o)
+>       boost::python::exec_statement(boost::python::str,
+boost::python::api::object, boost::python::api::object) in
+libboost_python-1_57.a(exec.o)
+>   "_PySequence_DelSlice", referenced from:
+>       boost::python::api::(anonymous namespace)::assign_slice(_object*,
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PySequence_GetSlice", referenced from:
+>       boost::python::api::(anonymous namespace)::apply_slice(_object*,
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PySequence_SetSlice", referenced from:
+>       boost::python::api::(anonymous namespace)::assign_slice(_object*,
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PySlice_New", referenced from:
+>       boost::python::api::(anonymous namespace)::apply_slice(_object*,
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>       boost::python::api::(anonymous namespace)::assign_slice(_object*,
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)
+>   "_PySlice_Type", referenced from:
+>       boost::python::indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>, true, false, double, unsigned long,
+double>::base_set_item(std::__1::vector<double, std::__1::allocator<double>
+>&, _object*, _object*) in export_mints.cc.o
+>       boost::python::indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>, true, false, double, unsigned long,
+double>::base_delete_item(std::__1::vector<double,
+std::__1::allocator<double> >&, _object*) in export_mints.cc.o
+>       boost::python::indexing_suite<std::__1::vector<double,
+std::__1::allocator<double> >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<double,
+std::__1::allocator<double> >, true>, true, false, double, unsigned long,
+double>::base_get_item(boost::python::back_reference<std::__1::vector<double,
+std::__1::allocator<double> >&>, _object*) in export_mints.cc.o
+>
+boost::python::indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>, true, false,
+boost::shared_ptr<psi::Matrix>, unsigned long,
+boost::shared_ptr<psi::Matrix>
+>::base_set_item(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&, _object*,
+_object*) in export_mints.cc.o
+>
+boost::python::indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>, true, false,
+boost::shared_ptr<psi::Matrix>, unsigned long,
+boost::shared_ptr<psi::Matrix>
+>::base_delete_item(std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&, _object*) in
+export_mints.cc.o
+>
+boost::python::indexing_suite<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >,
+boost::python::detail::final_vector_derived_policies<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >, true>, true, false,
+boost::shared_ptr<psi::Matrix>, unsigned long,
+boost::shared_ptr<psi::Matrix>
+>::base_get_item(boost::python::back_reference<std::__1::vector<boost::shared_ptr<psi::Matrix>,
+std::__1::allocator<boost::shared_ptr<psi::Matrix> > >&>, _object*) in
+export_mints.cc.o
+>   "_PyStaticMethod_New", referenced from:
+>       boost::python::objects::class_base::make_method_static(char const*)
+in libboost_python-1_57.a(class.o)
+>   "_PyStaticMethod_Type", referenced from:
+>
+boost::python::objects::function::add_to_namespace(boost::python::api::object
+const&, char const*, boost::python::api::object const&, char const*) in
+libboost_python-1_57.a(function.o)
+>   "_PyString_AsString", referenced from:
+>       boost::python::objects::enum_repr(
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/164#issuecomment-131150834
+----==_mimepart_55ce09fc7c19a_30b23fcee12432a072225
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Surprisingly for its length, that output doesn&#39;t contain the right info. :)<br>
+Can you post the output of the setup command and the result of &#39;grep PYTHON<br>
+CMakeCache.txt&#39;<br>
+<br>
+On Aug 14, 2015 8:27 AM, &quot;Lori A. Burns&quot; &lt;notifications@github.com&gt; wrote:<br>
+&gt;<br>
+&gt; Third-ed. Passing in anaconda python 2.7 via setup --python fails at<br>
+link-time on mbp.<br>
+&gt;<br>
+&gt; Linking CXX executable ../../../bin/psi4<br>
+&gt; Undefined symbols for architecture x86_64:<br>
+&gt;   &quot;_PyArg_Parse&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;   &quot;_PyArg_ParseTupleAndKeywords&quot;, referenced from:<br>
+&gt;       boost::python::property_init(_object*, _object*, _object*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyBaseObject_Type&quot;, referenced from:<br>
+&gt;       boost::python::objects::class_type() in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyBool_FromLong&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::operator()(bool<br>
+const&amp;) const in export_mints.cc.o<br>
+&gt;       boost::python::converter::arg_to_python&lt;bool&gt;::arg_to_python(bool<br>
+const&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::operator()(bool<br>
+const&amp;) const in export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::operator()(bool<br>
+const&amp;) const in export_libparallel.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::operator()(bool<br>
+const&amp;) const in python.cc.o<br>
+&gt;       boost::python::converter::arg_to_python&lt;bool&gt;::arg_to_python(bool<br>
+const&amp;) in libmints.a(onebody.cc.o)<br>
+&gt;       boost::python::converter::arg_to_python&lt;bool&gt;::arg_to_python(bool<br>
+const&amp;) in libboost_python-1_57.a(class.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyBool_Type&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::get_pytype() const in<br>
+export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::get_pytype() const in<br>
+export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::get_pytype() const in<br>
+export_libparallel.cc.o<br>
+&gt;       boost::python::to_python_value&lt;bool const&amp;&gt;::get_pytype() const in<br>
+python.cc.o<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::bool_rvalue_from_python::get_pytype() in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyCFunction_NewEx&quot;, referenced from:<br>
+&gt;       boost::python::objects::class_base::def_no_init() in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyCFunction_Type&quot;, referenced from:<br>
+&gt;       boost::python::objects::function_get_class(_object*, void*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyCallable_Check&quot;, referenced from:<br>
+&gt;       boost::python::objects::(anonymous<br>
+namespace)::callable_check(_object*) in libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyClass_Type&quot;, referenced from:<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyComplex_ImagAsDouble&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::complex_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyComplex_RealAsDouble&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::complex_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyComplex_Type&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::complex_rvalue_from_python::get_pytype() in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::complex_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::complex_rvalue_from_python::get_slot(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyDict_Clear&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::clear() in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_Copy&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::copy() in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_GetItem&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::get(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(dict.o)<br>
+&gt;       boost::python::objects::function::call(_object*, _object*) const in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyDict_GetItemString&quot;, referenced from:<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;   &quot;_PyDict_Items&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::items() const in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_Keys&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::keys() const in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_New&quot;, referenced from:<br>
+&gt;       boost::python::objects::instance_get_dict(_object*, void*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::detail::dict_base::dict_base() in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_Size&quot;, referenced from:<br>
+&gt;       boost::python::objects::function::call(_object*, _object*) const in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyDict_Type&quot;, referenced from:<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::dict,<br>
+&amp;(PyDict_Type)&gt;::get_pytype() in export_mints.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::dict,<br>
+&amp;(PyDict_Type)&gt;::check(_object*) in python.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::dict,<br>
+&amp;(PyDict_Type)&gt;::get_pytype() in python.cc.o<br>
+&gt;<br>
+boost::python::converter::pytype_object_manager_traits&lt;&amp;(PyDict_Type),<br>
+boost::python::dict&gt;::adopt(_object*) in libmints.a(basisset.cc.o)<br>
+&gt;       boost::python::detail::dict_base::call(boost::python::api::object<br>
+const&amp;) in libboost_python-1_57.a(dict.o)<br>
+&gt;       boost::python::detail::(anonymous<br>
+namespace)::check_exact(boost::python::detail::dict_base const*) in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;<br>
+boost::python::detail::register_dict_pytype_ptr::register_dict_pytype_ptr()<br>
+in libboost_python-1_57.a(dict.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyDict_Update&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::update(boost::python::api::object<br>
+const&amp;) in libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyDict_Values&quot;, referenced from:<br>
+&gt;       boost::python::detail::dict_base::values() const in<br>
+libboost_python-1_57.a(dict.o)<br>
+&gt;   &quot;_PyErr_Clear&quot;, referenced from:<br>
+&gt;       boost::python::objects::instance_new(_typeobject*, _object*,<br>
+_object*) in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;, char<br>
+const*, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::objects::function::call(_object*, _object*) const in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyErr_ExceptionMatches&quot;, referenced from:<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;, char<br>
+const*, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PyErr_Fetch&quot;, referenced from:<br>
+&gt;       psi::HandleError() in libfrag.a(LibFragDriver.cc.o)<br>
+&gt;   &quot;_PyErr_Format&quot;, referenced from:<br>
+&gt;       boost::python::pytype_check(_typeobject*, _object*) in<br>
+libboost_python-1_57.a(from_python.o)<br>
+&gt;       boost::python::objects::(anonymous<br>
+namespace)::callable_check(_object*) in libboost_python-1_57.a(class.o)<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;       boost::python::converter::registration::get_class_object() const in<br>
+libboost_python-1_57.a(registry.o)<br>
+&gt;   &quot;_PyErr_NewException&quot;, referenced from:<br>
+&gt;       boost::python::objects::function::argument_error(_object*,<br>
+_object*) const in libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyErr_NoMemory&quot;, referenced from:<br>
+&gt;       boost::python::handle_exception_impl(boost::function0&lt;void&gt;) in<br>
+libboost_python-1_57.a(errors.o)<br>
+&gt;   &quot;_PyErr_Occurred&quot;, referenced from:<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in python.cc.o<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libparallel2.a(LibParallelHelper.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libmints.a(matrix.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_hessian_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_1_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_freq_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_freq_1.cc.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyErr_Print&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;       psi::Dispersion::compute_energy(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::Dispersion::compute_gradient(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::SuperFunctional::build(std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int, int)<br>
+in libfunctional.a(superfactory.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;       psi::Try(_object*&amp;, _object*) in libPsiUtil.a(PythonFxnGuts.cc.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyErr_SetObject&quot;, referenced from:<br>
+&gt;       translate_psi_exception(psi::PsiException const&amp;) in python.cc.o<br>
+&gt;       boost::python::converter::rvalue_from_python_stage2(_object*,<br>
+boost::python::converter::rvalue_from_python_stage1_data&amp;,<br>
+boost::python::converter::registration const&amp;) in<br>
+libboost_python-1_57.a(from_python.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::throw_no_lvalue_from_python(_object*,<br>
+boost::python::converter::registration const&amp;, char const*) in<br>
+libboost_python-1_57.a(from_python.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::lvalue_result_from_python(_object*,<br>
+boost::python::converter::registration const&amp;, char const*) in<br>
+libboost_python-1_57.a(from_python.o)<br>
+&gt;       boost::python::objects::(anonymous<br>
+namespace)::get_class(boost::python::type_info) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::function::argument_error(_object*,<br>
+_object*) const in libboost_python-1_57.a(function.o)<br>
+&gt;       boost::python::objects::stop_iteration_error() in<br>
+libboost_python-1_57.a(iterator.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyErr_SetString&quot;, referenced from:<br>
+&gt;       _object* boost::python::with_custodian_and_ward_postcall&lt;0ul, 1ul,<br>
+boost::python::default_call_policies&gt;::postcall&lt;_object*&gt;(_object* const&amp;,<br>
+_object*) in export_mints.cc.o<br>
+&gt;       boost::python::indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;, true, false, double, unsigned long,<br>
+double&gt;::base_set_item(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt;<br>
+&gt;&amp;, _object*, _object*) in export_mints.cc.o<br>
+&gt;       boost::python::vector_indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;<br>
+&gt;::base_append(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt; &gt;&amp;,<br>
+boost::python::api::object) in export_mints.cc.o<br>
+&gt;       void<br>
+boost::python::container_utils::extend_container&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt; &gt;(std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;, boost::python::api::object) in<br>
+export_mints.cc.o<br>
+&gt;       boost::python::vector_indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;<br>
+&gt;::convert_index(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt; &gt;&amp;,<br>
+_object*) in export_mints.cc.o<br>
+&gt;       boost::python::detail::slice_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::no_proxy_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::container_element&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, unsigned long,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt; &gt;, unsigned long&gt;, double, unsigned<br>
+long&gt;::base_get_slice_data(std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;, PySliceObject*, unsigned long&amp;, unsigned<br>
+long&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::detail::slice_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::no_proxy_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::container_element&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, unsigned long,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt; &gt;, unsigned long&gt;, double, unsigned<br>
+long&gt;::base_set_slice(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt;<br>
+&gt;&amp;, PySliceObject*, _object*) in export_mints.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyErr_WarnEx&quot;, referenced from:<br>
+&gt;       boost::python::converter::registry::insert(_object* (*)(void<br>
+const*), boost::python::type_info, _typeobject const* (*)()) in<br>
+libboost_python-1_57.a(registry.o)<br>
+&gt;   &quot;_PyEval_CallFunction&quot;, referenced from:<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object&gt;(_object*,<br>
+boost::type&lt;boost::python::api::object&gt;*) in export_mints.cc.o<br>
+&gt;       boost::python::detail::returnable&lt;void&gt;::type<br>
+boost::python::call&lt;void, boost::shared_ptr&lt;psi::Wavefunction&gt; &gt;(_object*,<br>
+boost::shared_ptr&lt;psi::Wavefunction&gt; const&amp;, boost::type&lt;void&gt;*) in<br>
+libmints.a(wavefunction.cc.o)<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object,<br>
+boost::python::handle&lt;_object&gt;, boost::python::handle&lt;_object&gt;,<br>
+boost::python::handle&lt;_object&gt; &gt;(_object*, boost::python::handle&lt;_object&gt;<br>
+const&amp;, boost::python::handle&lt;_object&gt; const&amp;,<br>
+boost::python::handle&lt;_object&gt; const&amp;,<br>
+boost::type&lt;boost::python::api::object&gt;*) in libfrag.a(LibFragDriver.cc.o)<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object,<br>
+boost::python::handle&lt;_object&gt;, boost::python::handle&lt;_object&gt; &gt;(_object*,<br>
+boost::python::handle&lt;_object&gt; const&amp;, boost::python::handle&lt;_object&gt;<br>
+const&amp;, boost::type&lt;boost::python::api::object&gt;*) in<br>
+libfrag.a(LibFragDriver.cc.o)<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object, char const*,<br>
+boost::python::handle&lt;_object&gt;, boost::python::dict&gt;(_object*, char const*<br>
+const&amp;, boost::python::handle&lt;_object&gt; const&amp;, boost::python::dict const&amp;,<br>
+boost::type&lt;boost::python::api::object&gt;*) in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object&gt;(_object*,<br>
+boost::type&lt;boost::python::api::object&gt;*) in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::returnable&lt;boost::python::api::object&gt;::type<br>
+boost::python::call&lt;boost::python::api::object, boost::python::api::object,<br>
+boost::python::api::object, boost::python::api::object&gt;(_object*,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;,<br>
+boost::type&lt;boost::python::api::object&gt;*) in libboost_python-1_57.a(str.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyEval_CallObjectWithKeywords&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;       psi::Dispersion::compute_energy(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::Dispersion::compute_gradient(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::SuperFunctional::build(std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int, int)<br>
+in libfunctional.a(superfactory.cc.o)<br>
+&gt;       boost::python::list<br>
+psi::PythonFxn&lt;boost::python::list&gt;::operator()&lt;char const*&gt;(char const*)<br>
+in libfrag.a(LibFragDriver.cc.o)<br>
+&gt;       boost::python::dict<br>
+psi::PythonFxn&lt;boost::python::dict&gt;::operator()&lt;char const*, char const*,<br>
+int&gt;(char const*, char const*, int) in libfrag.a(LibFragDriver.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyEval_GetGlobals&quot;, referenced from:<br>
+&gt;       boost::python::eval(boost::python::str, boost::python::api::object,<br>
+boost::python::api::object) in libboost_python-1_57.a(exec.o)<br>
+&gt;       boost::python::exec(boost::python::str, boost::python::api::object,<br>
+boost::python::api::object) in libboost_python-1_57.a(exec.o)<br>
+&gt;       boost::python::exec_statement(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;       boost::python::exec_file(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;   &quot;_PyExc_AttributeError&quot;, referenced from:<br>
+&gt;       boost::python::static_data_descr_set(_object*, _object*, _object*)<br>
+in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;, char<br>
+const*, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::objects::function_get_module(_object*, void*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyExc_IndexError&quot;, referenced from:<br>
+&gt;       _object* boost::python::with_custodian_and_ward_postcall&lt;0ul, 1ul,<br>
+boost::python::default_call_policies&gt;::postcall&lt;_object*&gt;(_object* const&amp;,<br>
+_object*) in export_mints.cc.o<br>
+&gt;       boost::python::vector_indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;<br>
+&gt;::convert_index(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt; &gt;&amp;,<br>
+_object*) in export_mints.cc.o<br>
+&gt;       boost::python::detail::slice_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::no_proxy_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::container_element&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, unsigned long,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt; &gt;, unsigned long&gt;, double, unsigned<br>
+long&gt;::base_get_slice_data(std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;, PySliceObject*, unsigned long&amp;, unsigned<br>
+long&amp;) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::vector_indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;<br>
+&gt;::convert_index(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;, _object*) in<br>
+export_mints.cc.o<br>
+&gt;<br>
+boost::python::detail::slice_helper&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;,<br>
+boost::python::detail::no_proxy_helper&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;,<br>
+boost::python::detail::container_element&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, unsigned long,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&amp;lt<br>
+&gt;  ;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt; &gt;, unsigned<br>
+long&gt;, boost::shared_ptr&lt;psi::Matrix&gt;, unsigned<br>
+long&gt;::base_get_slice_data(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;, PySliceObject*,<br>
+unsigned long&amp;, unsigned long&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::handle_exception_impl(boost::function0&lt;void&gt;) in<br>
+libboost_python-1_57.a(errors.o)<br>
+&gt;   &quot;_PyExc_OverflowError&quot;, referenced from:<br>
+&gt;       boost::python::handle_exception_impl(boost::function0&lt;void&gt;) in<br>
+libboost_python-1_57.a(errors.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+long&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+int&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+short&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+char&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyExc_ReferenceError&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::lvalue_result_from_python(_object*,<br>
+boost::python::converter::registration const&amp;, char const*) in<br>
+libboost_python-1_57.a(from_python.o)<br>
+&gt;   &quot;_PyExc_RuntimeError&quot;, referenced from:<br>
+&gt;       translate_psi_exception(psi::PsiException const&amp;) in python.cc.o<br>
+&gt;       _no_init in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::(anonymous<br>
+namespace)::get_class(boost::python::type_info) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::handle_exception_impl(boost::function0&lt;void&gt;) in<br>
+libboost_python-1_57.a(errors.o)<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;       boost::python::detail::pure_virtual_called() in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;       boost::python::(anonymous<br>
+namespace)::instance_reduce(boost::python::api::object) in<br>
+libboost_python-1_57.a(pickle_support.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyExc_StopIteration&quot;, referenced from:<br>
+&gt;       boost::python::objects::stop_iteration_error() in<br>
+libboost_python-1_57.a(iterator.o)<br>
+&gt;   &quot;_PyExc_TypeError&quot;, referenced from:<br>
+&gt;       boost::python::indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;, true, false, double, unsigned long,<br>
+double&gt;::base_set_item(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt;<br>
+&gt;&amp;, _object*, _object*) in export_mints.cc.o<br>
+&gt;       boost::python::vector_indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;<br>
+&gt;::base_append(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt; &gt;&amp;,<br>
+boost::python::api::object) in export_mints.cc.o<br>
+&gt;       void<br>
+boost::python::container_utils::extend_container&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt; &gt;(std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;, boost::python::api::object) in<br>
+export_mints.cc.o<br>
+&gt;       boost::python::vector_indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;<br>
+&gt;::convert_index(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt; &gt;&amp;,<br>
+_object*) in export_mints.cc.o<br>
+&gt;       boost::python::detail::slice_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::no_proxy_helper&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;,<br>
+boost::python::detail::container_element&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, unsigned long,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt; &gt;, unsigned long&gt;, double, unsigned<br>
+long&gt;::base_set_slice(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt;<br>
+&gt;&amp;, PySliceObject*, _object*) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;, true, false,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;, unsigned long,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;<br>
+&gt;::base_set_item(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;, _object*,<br>
+_object*) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::vector_indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;<br>
+&gt;::base_append(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;,<br>
+boost::python::api::object) in export_mints.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyExc_ValueError&quot;, referenced from:<br>
+&gt;       boost::python::handle_exception_impl(boost::function0&lt;void&gt;) in<br>
+libboost_python-1_57.a(errors.o)<br>
+&gt;   &quot;_PyFile_AsFile&quot;, referenced from:<br>
+&gt;       boost::python::exec_file(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;   &quot;_PyFile_FromString&quot;, referenced from:<br>
+&gt;       boost::python::exec_file(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;   &quot;_PyFloat_FromDouble&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::operator()(double<br>
+const&amp;) const in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double&amp;&gt;::operator()(double const&amp;)<br>
+const in export_mints.cc.o<br>
+&gt;<br>
+boost::python::converter::arg_to_python&lt;double&gt;::arg_to_python(double<br>
+const&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::operator()(double<br>
+const&amp;) const in export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::operator()(double<br>
+const&amp;) const in export_chkpt.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::operator()(double<br>
+const&amp;) const in export_blas_lapack.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::operator()(double<br>
+const&amp;) const in python.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyFloat_Type&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::get_pytype() const<br>
+in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double&amp;&gt;::get_pytype() const in<br>
+export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::get_pytype() const<br>
+in export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::get_pytype() const<br>
+in export_chkpt.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::get_pytype() const<br>
+in export_blas_lapack.cc.o<br>
+&gt;       boost::python::to_python_value&lt;double const&amp;&gt;::get_pytype() const<br>
+in python.cc.o<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::float_rvalue_from_python::get_slot(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyImport_AddModule&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;   &quot;_PyImport_AppendInittab&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;   &quot;_PyImport_ImportModule&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;       psi::Dispersion::compute_energy(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::Dispersion::compute_gradient(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::SuperFunctional::build(std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int, int)<br>
+in libfunctional.a(superfactory.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;       psi::PythonFxnGuts::PythonFxnGuts(char const*, char const*, char<br>
+const*) in libPsiUtil.a(PythonFxnGuts.cc.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyInt_AsLong&quot;, referenced from:<br>
+&gt;       boost::python::objects::instance_new(_typeobject*, _object*,<br>
+_object*) in libboost_python-1_57.a(class.o)<br>
+&gt;<br>
+boost::python::detail::str_base::endswith(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::find(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::find(boost::python::api::object<br>
+const&amp;, boost::python::api::object const&amp;) const in<br>
+libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::find(boost::python::api::object<br>
+const&amp;, boost::python::api::object const&amp;, boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::index(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::index(boost::python::api::object<br>
+const&amp;, boost::python::api::object const&amp;) const in<br>
+libboost_python-1_57.a(str.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyInt_FromLong&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::operator()(int const&amp;)<br>
+const in export_psio.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::operator()(int const&amp;)<br>
+const in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;unsigned long<br>
+const&amp;&gt;::operator()(unsigned long const&amp;) const in export_mints.cc.o<br>
+&gt;       boost::python::converter::arg_to_python&lt;int&gt;::arg_to_python(int<br>
+const&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::converter::arg_to_python&lt;long&gt;::arg_to_python(long<br>
+const&amp;) in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::operator()(int const&amp;)<br>
+const in export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::operator()(int const&amp;)<br>
+const in export_chkpt.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyInt_Type&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_psio.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;unsigned long const&amp;&gt;::get_pytype()<br>
+const in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_functional.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_chkpt.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_plugins.cc.o<br>
+&gt;       boost::python::to_python_value&lt;int const&amp;&gt;::get_pytype() const in<br>
+export_blas_lapack.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyIter_Next&quot;, referenced from:<br>
+&gt;       boost::python::objects::stl_input_iterator_impl::increment() in<br>
+libboost_python-1_57.a(stl_iterator.o)<br>
+&gt;   &quot;_PyList_Append&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;       boost::python::detail::list_base::append(boost::python::api::object<br>
+const&amp;) in libboost_python-1_57.a(list.o)<br>
+&gt;   &quot;_PyList_Insert&quot;, referenced from:<br>
+&gt;       boost::python::detail::list_base::insert(long,<br>
+boost::python::api::object const&amp;) in libboost_python-1_57.a(list.o)<br>
+&gt;   &quot;_PyList_New&quot;, referenced from:<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;       boost::python::detail::list_base::list_base() in<br>
+libboost_python-1_57.a(list.o)<br>
+&gt;   &quot;_PyList_Reverse&quot;, referenced from:<br>
+&gt;       boost::python::detail::list_base::reverse() in<br>
+libboost_python-1_57.a(list.o)<br>
+&gt;   &quot;_PyList_SetItem&quot;, referenced from:<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;   &quot;_PyList_Sort&quot;, referenced from:<br>
+&gt;       boost::python::detail::list_base::sort() in<br>
+libboost_python-1_57.a(list.o)<br>
+&gt;   &quot;_PyList_Type&quot;, referenced from:<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in export_mints.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::get_pytype() in export_mints.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::get_pytype() in export_libparallel.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in export_libparallel.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in python.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::get_pytype() in python.cc.o<br>
+&gt;<br>
+boost::python::converter::pytype_object_manager_traits&lt;&amp;(PyList_Type),<br>
+boost::python::list&gt;::adopt(_object*) in python.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyLong_AsLongLong&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::long_long_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyLong_AsUnsignedLong&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+long&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+int&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+short&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_int_rvalue_from_python&lt;unsigned<br>
+char&gt;::extract(_object*) in libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyLong_AsUnsignedLongLong&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::unsigned_long_long_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyLong_FromUnsignedLong&quot;, referenced from:<br>
+&gt;       boost::python::to_python_value&lt;unsigned long<br>
+const&amp;&gt;::operator()(unsigned long const&amp;) const in export_mints.cc.o<br>
+&gt;       boost::python::to_python_value&lt;unsigned long<br>
+const&amp;&gt;::operator()(unsigned long const&amp;) const in export_blas_lapack.cc.o<br>
+&gt;       boost::python::to_python_value&lt;unsigned long<br>
+const&amp;&gt;::operator()(unsigned long const&amp;) const in python.cc.o<br>
+&gt;       boost::python::converter::arg_to_python&lt;unsigned<br>
+long&gt;::arg_to_python(unsigned long const&amp;) in libmints.a(matrix.cc.o)<br>
+&gt;       boost::python::converter::arg_to_python&lt;unsigned<br>
+long&gt;::arg_to_python(unsigned long const&amp;) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::converter::arg_to_python&lt;unsigned<br>
+int&gt;::arg_to_python(unsigned int const&amp;) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;       boost::python::converter::arg_to_python&lt;unsigned<br>
+int&gt;::arg_to_python(unsigned int const&amp;) in libboost_python-1_57.a(enum.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyLong_Type&quot;, referenced from:<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::long_long_rvalue_from_python_base::get_pytype() in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;   &quot;_PyMem_Free&quot;, referenced from:<br>
+&gt;       boost::python::instance_holder::deallocate(_object*, void*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyMem_Malloc&quot;, referenced from:<br>
+&gt;       boost::python::instance_holder::allocate(_object*, unsigned long,<br>
+unsigned long) in libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyMethod_New&quot;, referenced from:<br>
+&gt;       boost::python::objects::function_descr_get(_object*, _object*,<br>
+_object*) in libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyModule_GetDict&quot;, referenced from:<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;   &quot;_PyModule_Type&quot;, referenced from:<br>
+&gt;       boost::python::objects::module_prefix() in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyNumber_Add&quot;, referenced from:<br>
+&gt;       boost::python::api::operator+(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_And&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&amp;(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Divide&quot;, referenced from:<br>
+&gt;       boost::python::api::operator/(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceAdd&quot;, referenced from:<br>
+&gt;       boost::python::api::operator+=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceAnd&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&amp;=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceDivide&quot;, referenced from:<br>
+&gt;       boost::python::api::operator/=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceLshift&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&lt;&lt;=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceMultiply&quot;, referenced from:<br>
+&gt;       boost::python::api::operator*=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceOr&quot;, referenced from:<br>
+&gt;       boost::python::api::operator|=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceRemainder&quot;, referenced from:<br>
+&gt;       boost::python::api::operator%=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceRshift&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&gt;&gt;=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceSubtract&quot;, referenced from:<br>
+&gt;       boost::python::api::operator-=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_InPlaceXor&quot;, referenced from:<br>
+&gt;       boost::python::api::operator^=(boost::python::api::object&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Lshift&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&lt;&lt;(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Multiply&quot;, referenced from:<br>
+&gt;       boost::python::api::operator*(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Or&quot;, referenced from:<br>
+&gt;       boost::python::api::operator|(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Remainder&quot;, referenced from:<br>
+&gt;       boost::python::api::operator%(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Rshift&quot;, referenced from:<br>
+&gt;       boost::python::api::operator&gt;&gt;(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Subtract&quot;, referenced from:<br>
+&gt;       boost::python::api::operator-(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyNumber_Xor&quot;, referenced from:<br>
+&gt;       boost::python::api::operator^(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyObject_CallFunction&quot;, referenced from:<br>
+&gt;       boost::python::objects::class_base::add_property(char const*,<br>
+boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::class_base::add_property(char const*,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;, char<br>
+const*) in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::class_base::add_static_property(char<br>
+const*, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::class_base::add_static_property(char<br>
+const*, boost::python::api::object const&amp;, boost::python::api::object<br>
+const&amp;) in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::static_data_descr_get(_object*, _object*, _object*)<br>
+in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::static_data_descr_set(_object*, _object*, _object*)<br>
+in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::detail::tuple_base::call(boost::python::api::object<br>
+const&amp;) in libboost_python-1_57.a(tuple.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyObject_CallMethod&quot;, referenced from:<br>
+&gt;       boost::python::detail::str_base::capitalize() const in<br>
+libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::center(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::expandtabs() const in<br>
+libboost_python-1_57.a(str.o)<br>
+&gt;<br>
+boost::python::detail::str_base::expandtabs(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::join(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::ljust(boost::python::api::object<br>
+const&amp;) const in libboost_python-1_57.a(str.o)<br>
+&gt;       boost::python::detail::str_base::lower() const in<br>
+libboost_python-1_57.a(str.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyObject_ClearWeakRefs&quot;, referenced from:<br>
+&gt;       boost::python::objects::instance_dealloc(_object*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyObject_DelItem&quot;, referenced from:<br>
+&gt;       boost::python::api::delitem(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::(anonymous namespace)::assign_slice(_object*,<br>
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PyObject_GetAttr&quot;, referenced from:<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::getattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PyObject_GetAttrString&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;       psi::Dispersion::compute_energy(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::Dispersion::compute_gradient(boost::shared_ptr&lt;psi::Molecule&gt;)<br>
+in libdisp.a(dispersion.cc.o)<br>
+&gt;       psi::SuperFunctional::build(std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int, int)<br>
+in libfunctional.a(superfactory.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_auxiliary(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;,<br>
+std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, int) in<br>
+libmints.a(basisset.cc.o)<br>
+&gt;<br>
+psi::BasisSet::pyconstruct_combined(boost::shared_ptr&lt;psi::Molecule&gt;<br>
+const&amp;, std::__1::vector&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;,<br>
+std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;,<br>
+std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&amp;g<br>
+&gt;  t;, std::__1::allocator&lt;char&gt; &gt;,<br>
+std::__1::allocator&lt;std::__1::basic_string&lt;char,<br>
+std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; const&amp;, int)<br>
+in libmints.a(basisset.cc.o)<br>
+&gt;       boost::python::objects::instance_new(_typeobject*, _object*,<br>
+_object*) in libboost_python-1_57.a(class.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyObject_GetItem&quot;, referenced from:<br>
+&gt;       boost::python::api::getitem(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::(anonymous namespace)::apply_slice(_object*,<br>
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyObject_IsInstance&quot;, referenced from:<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in export_mints.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::tuple,<br>
+&amp;(PyTuple_Type)&gt;::check(_object*) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::enum_&lt;psi::Molecule::GeometryUnits&gt;::convertible_from_python(_object*)<br>
+in export_mints.cc.o<br>
+&gt;<br>
+boost::python::enum_&lt;psi::diagonalize_order&gt;::convertible_from_python(_object*)<br>
+in export_mints.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in export_libparallel.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::str,<br>
+&amp;(PyString_Type)&gt;::check(_object*) in export_libparallel.cc.o<br>
+&gt;       boost::python::converter::pyobject_type&lt;boost::python::list,<br>
+&amp;(PyList_Type)&gt;::check(_object*) in python.cc.o<br>
+&gt;       ...<br>
+&gt;   &quot;_PyObject_IsTrue&quot;, referenced from:<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator<br>
+_object* (boost::python::api::object::*)() const() const in<br>
+export_mints.cc.o<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator<br>
+_object* (boost::python::api::object::*)() const() const in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator<br>
+_object* (boost::python::api::object::*)() const() const in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator!()<br>
+const in libboost_python-1_57.a(function.o)<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator<br>
+_object* (boost::python::api::object::*)() const() const in<br>
+libboost_python-1_57.a(enum.o)<br>
+&gt;       boost::python::converter::(anonymous<br>
+namespace)::bool_rvalue_from_python::extract(_object*) in<br>
+libboost_python-1_57.a(builtin_converters.o)<br>
+&gt;<br>
+boost::python::api::object_operators&lt;boost::python::api::object&gt;::operator!()<br>
+const in libboost_python-1_57.a(pickle_support.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyObject_RichCompare&quot;, referenced from:<br>
+&gt;       boost::python::api::object const&amp;<br>
+boost::python::api::operator&gt;(boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;       boost::python::api::operator&gt;=(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;       boost::python::api::operator&lt;(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;       boost::python::api::operator&lt;=(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;       boost::python::api::operator==(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;       boost::python::api::operator!=(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_operators.o)<br>
+&gt;   &quot;_PyObject_SetAttr&quot;, referenced from:<br>
+&gt;       boost::python::api::setattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::delattr(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyObject_SetAttrString&quot;, referenced from:<br>
+&gt;       boost::python::objects::class_base::setattr(char const*,<br>
+boost::python::api::object const&amp;) in libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::api::setattr(boost::python::api::object const&amp;, char<br>
+const*, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::delattr(boost::python::api::object const&amp;, char<br>
+const*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PyObject_SetItem&quot;, referenced from:<br>
+&gt;       boost::python::api::setitem(boost::python::api::object const&amp;,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;) in<br>
+libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::(anonymous namespace)::assign_slice(_object*,<br>
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PyObject_Size&quot;, referenced from:<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in python.cc.o<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libparallel2.a(LibParallelHelper.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libmints.a(matrix.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_hessian_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_1_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_freq_0.cc.o)<br>
+&gt;       boost::python::len(boost::python::api::object const&amp;) in<br>
+libfindif.a(fd_freq_1.cc.o)<br>
+&gt;       ...<br>
+&gt;   &quot;_PyProperty_Type&quot;, referenced from:<br>
+&gt;       boost::python::objects::static_data() in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::class_base::add_property(char const*,<br>
+boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(class.o)<br>
+&gt;       boost::python::objects::class_base::add_property(char const*,<br>
+boost::python::api::object const&amp;, boost::python::api::object const&amp;, char<br>
+const*) in libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyRun_FileExFlags&quot;, referenced from:<br>
+&gt;       boost::python::exec_file(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;   &quot;_PyRun_SimpleStringFlags&quot;, referenced from:<br>
+&gt;       psi::Python::run(__sFILE*) in python.cc.o<br>
+&gt;   &quot;_PyRun_StringFlags&quot;, referenced from:<br>
+&gt;       boost::python::eval(boost::python::str, boost::python::api::object,<br>
+boost::python::api::object) in libboost_python-1_57.a(exec.o)<br>
+&gt;       boost::python::exec(boost::python::str, boost::python::api::object,<br>
+boost::python::api::object) in libboost_python-1_57.a(exec.o)<br>
+&gt;       boost::python::exec_statement(boost::python::str,<br>
+boost::python::api::object, boost::python::api::object) in<br>
+libboost_python-1_57.a(exec.o)<br>
+&gt;   &quot;_PySequence_DelSlice&quot;, referenced from:<br>
+&gt;       boost::python::api::(anonymous namespace)::assign_slice(_object*,<br>
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PySequence_GetSlice&quot;, referenced from:<br>
+&gt;       boost::python::api::(anonymous namespace)::apply_slice(_object*,<br>
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PySequence_SetSlice&quot;, referenced from:<br>
+&gt;       boost::python::api::(anonymous namespace)::assign_slice(_object*,<br>
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PySlice_New&quot;, referenced from:<br>
+&gt;       boost::python::api::(anonymous namespace)::apply_slice(_object*,<br>
+_object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;       boost::python::api::(anonymous namespace)::assign_slice(_object*,<br>
+_object*, _object*, _object*) in libboost_python-1_57.a(object_protocol.o)<br>
+&gt;   &quot;_PySlice_Type&quot;, referenced from:<br>
+&gt;       boost::python::indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;, true, false, double, unsigned long,<br>
+double&gt;::base_set_item(std::__1::vector&lt;double, std::__1::allocator&lt;double&gt;<br>
+&gt;&amp;, _object*, _object*) in export_mints.cc.o<br>
+&gt;       boost::python::indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;, true, false, double, unsigned long,<br>
+double&gt;::base_delete_item(std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;, _object*) in export_mints.cc.o<br>
+&gt;       boost::python::indexing_suite&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;, true&gt;, true, false, double, unsigned long,<br>
+double&gt;::base_get_item(boost::python::back_reference&lt;std::__1::vector&lt;double,<br>
+std::__1::allocator&lt;double&gt; &gt;&amp;&gt;, _object*) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;, true, false,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;, unsigned long,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;<br>
+&gt;::base_set_item(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;, _object*,<br>
+_object*) in export_mints.cc.o<br>
+&gt;<br>
+boost::python::indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;, true, false,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;, unsigned long,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;<br>
+&gt;::base_delete_item(std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;, _object*) in<br>
+export_mints.cc.o<br>
+&gt;<br>
+boost::python::indexing_suite&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;,<br>
+boost::python::detail::final_vector_derived_policies&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;, true&gt;, true, false,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;, unsigned long,<br>
+boost::shared_ptr&lt;psi::Matrix&gt;<br>
+&gt;::base_get_item(boost::python::back_reference&lt;std::__1::vector&lt;boost::shared_ptr&lt;psi::Matrix&gt;,<br>
+std::__1::allocator&lt;boost::shared_ptr&lt;psi::Matrix&gt; &gt; &gt;&amp;&gt;, _object*) in<br>
+export_mints.cc.o<br>
+&gt;   &quot;_PyStaticMethod_New&quot;, referenced from:<br>
+&gt;       boost::python::objects::class_base::make_method_static(char const*)<br>
+in libboost_python-1_57.a(class.o)<br>
+&gt;   &quot;_PyStaticMethod_Type&quot;, referenced from:<br>
+&gt;<br>
+boost::python::objects::function::add_to_namespace(boost::python::api::object<br>
+const&amp;, char const*, boost::python::api::object const&amp;, char const*) in<br>
+libboost_python-1_57.a(function.o)<br>
+&gt;   &quot;_PyString_AsString&quot;, referenced from:<br>
+&gt;       boost::python::objects::enum_repr(
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/164#issuecomment-131150834">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QqSfbxVeEcZwmLcVDe_2LL98QtWRks5ongF8gaJpZM4FrZfz.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/pull/164#issuecomment-131150834"></link>
+  <meta itemprop="name" content="View Pull Request"></meta>
+</div>
+<meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+----==_mimepart_55ce09fc7c19a_30b23fcee12432a072225--

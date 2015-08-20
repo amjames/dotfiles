@@ -1,0 +1,126 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2636395qgt;
+        Tue, 7 Jul 2015 13:29:09 -0700 (PDT)
+X-Received: by 10.55.24.94 with SMTP id j91mr10286634qkh.54.1436300948741;
+        Tue, 07 Jul 2015 13:29:08 -0700 (PDT)
+Return-Path: <owner-arc_hokiespeed_users@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id j201si26303817qhc.130.2015.07.07.13.29.07
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 13:29:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 74.125.82.42 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) client-ip=74.125.82.42;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.42 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) smtp.mail=owner-arc_hokiespeed_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67KT1ph031098;
+	Tue, 7 Jul 2015 16:29:06 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t67KPaVw031764;
+	Tue, 7 Jul 2015 16:29:00 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100375967 for ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU; Tue, 7 Jul 2015
+          16:29:00 -0400
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b8:b328:9234]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t67KT0HY010343 for
+          <ARC_HOKIESPEED_USERS@listserv.vt.edu>; Tue, 7 Jul 2015 16:29:00 -0400
+Received: from mail-wg0-f42.google.com (mail-wg0-f42.google.com [74.125.82.42])
+          by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67KSst2016286 for
+          <ARC_HOKIESPEED_USERS@listserv.vt.edu>; Tue, 7 Jul 2015 16:28:59 -0400
+Received: by wgfr2 with SMTP id r2so23066201wgf.1 for
+          <ARC_HOKIESPEED_USERS@listserv.vt.edu>; Tue, 07 Jul 2015 13:28:54
+          -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:content-type;
+                         bh=M9EDkQymSZqfLRGIBzGYJYRrNtLWqWvYQ03H9AsvB7k=;
+                         b=MDsXyoFbp7N6q5AMa5BGJFXm1tghszb++bS6GxFyCmfWRoILt+SxyYtSZQuJ2BcGPJ
+                         CNx5+GME7qmFs/zSj4s0CASgMLc5U/x7EwNrO1iCFtAJ6A4HX/Oe+cuMAl0ytybRB4Yb
+                         JiAjzkqkukziSEgMovIrwf/wcgHPOgGAakQgjlGSNxUG3balpe764J8zZWmjD7EFiD1r
+                         Hk+Q7Hlh0MXzzc2dntrf5SA0uetA6+HE4o9iAZ7HGDgtvr/L34IS9IqOyp5IuOZBk8OX
+                         OE7xcT+OIj1XQ0Z7kAicrOm8mpSZU8MPY73CPQOSnzpAlpZCV1C9H6E/q/foeWWkuE8f
+                         e3Bg==
+X-Gm-Message-State: ALoCoQlb4pJekQD/unJ+wflA/6wWbc2VDw2IIZxexaQ/hzN8R+dEg2r8IYvormrmeU/+jksQYHQo8Po66sbol7/EC9PWVBiSURMyXz7jdvuUoS00ldBub0yk2/PTcWL7QSHHBq904jTgQZ16crBC+ekN9fhVapj/HS+fqJJ26WF4Jjz+tpv1rWo=
+X-Received: by 10.180.10.200 with SMTP id k8mr11808956wib.52.1436300934412;
+            Tue, 07 Jul 2015 13:28:54 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.10.200 with SMTP id k8mr11808946wib.52.1436300934349;
+            Tue, 07 Jul 2015 13:28:54 -0700 (PDT)
+Received: by 10.194.5.170 with HTTP; Tue, 7 Jul 2015 13:28:54 -0700 (PDT)
+References: <CAFMLoiaJadrL2JsYPqMHssBajGm1V1SqhtdxPxFozJ-xCbuVPw@mail.gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c26458fb8d7d051a4ede50
+X-Spam-Status: No, score=-0.8 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <CAFMLoiZgbB6wSo-9385THzN=+eDcbc-v=Kq=ynqZanyaheXp3Q@mail.gmail.com>
+Date:         Tue, 7 Jul 2015 16:28:54 -0400
+Reply-To: arc@vt.edu
+Sender: "Users of Advanced Research Computing's Cluster HokieSpeed" <ARC_HOKIESPEED_USERS@listserv.vt.edu>
+From: Brandon Sawyers <bsawyers@vt.edu>
+Subject: Fwd: Trouble with /work and logging into the clusters
+To: ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU
+In-Reply-To:  <CAFMLoiaJadrL2JsYPqMHssBajGm1V1SqhtdxPxFozJ-xCbuVPw@mail.gmail.com>
+Precedence: list
+List-Help: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>,
+           <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_HOKIESPEED_USERS>
+List-Unsubscribe: <mailto:ARC_HOKIESPEED_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_HOKIESPEED_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_HOKIESPEED_USERS-request@LISTSERV.VT.EDU>
+List-Archive: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c26458fb8d7d051a4ede50
+Content-Type: text/plain; charset=UTF-8
+
+Hello everyone:
+
+We're currently experiencing issues mounting /work on the login nodes of
+the Ithaca and Hokiespeed.
+
+This is also preventing some users from logging into the login nodes.
+
+The nodes (and presumably jobs) do not appear to be having the same issue.
+
+The storage team is looking into the issue and we will update as soon as we
+have more info.
+
+We apologize for any inconvenience this may cause.
+
+Thanks.
+
+
+
+-- 
+
+*Brandon Sawyers*
+*HPC Systems Specialist*
+NIS & Systems Support (MC0214)
+1700 Pratt Drive
+Blacksburg, VA 24060
+
+--001a11c26458fb8d7d051a4ede50
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr">Hello everyone=
+:<div><br></div><div>We&#39;re currently experiencing issues mounting /work=
+ on the login nodes of the Ithaca and Hokiespeed.=C2=A0</div><div><br></div=
+><div>This is also preventing some users from logging into the login nodes.=
+</div><div><br></div><div>The nodes (and presumably jobs) do not appear to =
+be having the same issue.</div><div><br></div><div>The storage team is look=
+ing into the issue and we will update as soon as we have more info.<br clea=
+r=3D"all"><div><br></div><div>We apologize for any inconvenience this may c=
+ause.</div><div><br></div><div>Thanks.</div>
+</div></div>
+</div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signa=
+ture"><div dir=3D"ltr"><div><b>Brandon Sawyers<br></b></div><b><span style=
+=3D"font-family:arial;font-size:small">HPC Systems Specialist</span></b><br=
+><div><div>NIS &amp; Systems Support (MC0214)<br></div><div>1700 Pratt Driv=
+e<br></div><div>Blacksburg, VA 24060<br></div></div></div></div>
+</div>
+
+--001a11c26458fb8d7d051a4ede50--

@@ -1,0 +1,712 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp228556qgt;
+        Fri, 6 Feb 2015 11:36:18 -0800 (PST)
+X-Received: by 10.224.69.67 with SMTP id y3mr11438230qai.59.1423251378541;
+        Fri, 06 Feb 2015 11:36:18 -0800 (PST)
+Return-Path: <Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id y2si3815109qas.125.2015.02.06.11.36.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 06 Feb 2015 11:36:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com designates 198.31.62.62 as permitted sender) client-ip=198.31.62.62;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com designates 198.31.62.62 as permitted sender) smtp.mail=Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com;
+       dkim=pass header.i=@mail.patagonia.com
+Received: from mta.news.patagonia.com (mta.news.patagonia.com [198.31.62.62])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t16JaBAp026931
+	for <amjames2@vt.edu>; Fri, 6 Feb 2015 14:36:17 -0500
+DKIM-Signature: v=1; a=rsa-sha1; d=mail.patagonia.com; s=ei0; c=simple/simple;
+	q=dns/txt; i=@mail.patagonia.com; t=1423251371;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=FZR3Cu/y7YJENlsSfjaG2i+oZxI=;
+	b=y/2lRKDPNNEwElOQ6EDyeOBnH4S8wRvhuexSvMwPnWbFkFU0iK19vuYhBRbakeDN
+	tFuse6EfPqmxj/cey6hQ1shLgSk/S61JJ0eW4Cg3B2DI6C9yENQEqNKd0pXtYh/7
+	RDb7dCGnrsEl0wrG8fryHrVimiU/tl1jzadVvCB6o1s=;
+Received: from [10.21.250.208] ([10.21.250.208:2267] helo=CORE23PUMPER1)
+	by pc1udsmta1n21 (envelope-from <Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id 52/CC-26071-BA715D45; Fri, 06 Feb 2015 14:36:11 -0500
+Date: Fri, 06 Feb 2015 14:36:11 -0500 (EST)
+Message-Id: <Kilauea187234-73524-142970915-3-1023@flonetwork.com>
+X-DMHA-ID-Packet: Z4gvK5o6220zTBwsWzQ68jhVIwgQbd8LYlsrJBQm18t4DDejnwotDFYbeTEEXW9es2khkcBI5IM=
+From: =?utf-8?B?UGF0YWdvbmlh?=<Patagonia@mail.patagonia.com>
+Reply-To: =?utf-8?B?UGF0YWdvbmlhIA==?=<Patagonia-ctg1ieb76aac3nrarbmqenknkf5lae7q@mail.patagonia.com>
+To: amjames2@vt.edu
+Subject: =?utf-8?B?U2hlbGwgZ2FtZQ==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----000000000000000000000000000000000000000000000000000000000000000"
+X-Spam-Status: No, score=1.9 required=5.0 tests=DATE_IN_FUTURE_24_48,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FROM_EXCESS_BASE64,HTML_IMAGE_RATIO_04,
+	HTML_MESSAGE,RCVD_IN_DNSWL_NONE,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------000000000000000000000000000000000000000000000000000000000000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Please view this email as a web page for all the details:
+http://mail.patagonia.com/hosted?Z4gvKJo6220zTBwsWzQ68jhVIwgQbd8LYlsrJBQm18t4DDejnwotDFYbeTFQoMvrQcAGpA==
+
+
+----------------------------------
+
+To stop receiving our emails, or to change your email address on
+record, simply click the link below.
+http://mail.patagonia.com/cgi-bin23/DM/t/m1Ai0LB3Ij0UZY0BRrjM0HE?dm_params=JkVtYWlsQWRkcj1hbWphbWVzMkB2dC5lZHUmRE1BSUxWQVJfVU5TVUI9MWFtYjc2YWFjM25yYXJibXFlbmtua2Y1bGFlN3E=&dm_params_sha256=780b15ce69a2b6eef53f84872064fc1094ebd25ca13fffcd997a39e6ac3a550e
+
+Call us anytime: 800-638-6464
+Patagonia Customer Service, 8550 White Fir St, Reno, NV 89523
+
+This message was sent to: amjames2@vt.edu
+(C) 2015 Patagonia, Inc.
+------000000000000000000000000000000000000000000000000000000000000000
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+   
+  @import url(http://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
+   /* This should be the first item in your style tag */
+      .muli {font-family: 'Muli', Arial, Helvetica, sans-serif !important;} /* Class to make the Google font show up, make sure you state web-safe default fonts */
+   
+  body {
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin: 0px;
+      -webkit-text-size-adjust: none;
+  }
+  .ExternalClass * {
+      line-height: 100%;
+  }
+  .ExternalClass {
+      width: 100%;
+      line-height: 100%
+  }
+  .ExternalClass font {
+      line-height: 100%
+  }
+  body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  table {
+      border-collapse: collapse;
+  }
+  .appleLinks a {color:#000001; text-decoration:none;}
+  
+  @media only screen and (max-width: 480px), (max-device-width: 480px) {
+      
+  /**Global Styles**/
+      body[yahoo] .hide {display: none !important;}
+      body[yahoo] .Block  {display: block !important;}
+      body[yahoo] .BlockLogo  {display: block !important; padding:0 0 15px 0 !important;}
+      body[yahoo] .FloatL {float:left !important;}
+      body[yahoo] .MainWidth {width: 320px !important; min-width: 320px !important;}
+      body[yahoo] .MainWidth1 {width: 280px !important; min-width: 280px !important;}
+      body[yahoo] .MainWidth2 {width: 180px !important; min-width: 180px !important;}
+      body[yahoo] .MainWidth3 {width: 200px !important; min-width: 200px !important;}
+      body[yahoo] .MainWidth4 {width: 210px !important; min-width: 210px !important; float:left !important;}
+      body[yahoo] .MainWidth5 {width: 240px !important; min-width: 280px !important;}
+      body[yahoo] .PaddingNull {padding:0 0 0 0 !important;}
+      body[yahoo] .PaddingTB {padding:0 20px 0 20px!important;}
+      body[yahoo] .PaddingTB1 {padding:30px 0 30px 0!important;}
+      body[yahoo] .PaddingBTM5 {padding:0 0 5px 0 !important;}
+      body[yahoo] .PaddingBTM25 {padding:0 0 25px 0 !important;}
+      body[yahoo] .PaddingBTM30 {padding:20px 0 20px 0 !important;}
+      body[yahoo] .PaddingBTMN{padding:30px 20px 0 20px !important;}
+	  body[yahoo] .PaddingBTMN2{padding:10px 20px 20px 20px !important;}
+      body[yahoo] .PaddingNav {padding:10px 0 10px 0 !important;}
+      body[yahoo] .medPad{padding:20px 20px 0 0 !important;}
+      body[yahoo] .medPad1{padding:0 0 0 13px !important;}
+      body[yahoo] .paddingBottom {padding: 0px 0px 30px 0px !important;}
+      body[yahoo] .borderspace {padding:30px 0 0 0 !important; border-top:1px #999999 solid !important;}
+      body[yahoo] .TextCenter {text-align:center !important;}
+  /**Global Styles**/
+      
+      
+  /**HERO**/
+      body[yahoo] .Hero {width: 320px !important; height:auto !important;} 
+  /**HERO**/
+   
+   
+  /**EVENT**/
+      body[yahoo] .Event {width: 280px !important; height:auto !important;} 
+      body[yahoo] .EventInfo {width: 280px !important; float:left !important;}
+      body[yahoo] .EventInfo2 {width:220px !important; float:left !important;}
+      body[yahoo] .EventInfoPad {padding:20px 0 20px 20px !important;}      body[yahoo] .EventH {padding:0px 60px 0px 60px !important;}
+      body[yahoo] .EventImgPad {padding:0 0 0 20px !important;}
+  /**EVENT**/
+  
+  
+  /**Section**/
+      body[yahoo] .sectionLine {height:20px !important; width:22px !important;}
+  /**Section**/
+  
+  
+  /**Text**/
+      body[yahoo] .NavText1 {font-size:13px !important;}
+      body[yahoo] .NavText1a {padding:0 0 0 20px !important; font-size:13px !important;}
+      body[yahoo] .NavText1b {padding:0 0 0 50px !important; font-size:13px !important;}
+      body[yahoo] .NavText1c {font-size:13px !important; text-align:center !important;}
+      body[yahoo] .Featsubhead {font-size:18px !important; line-height:21px !important; padding:0 30px 25px 30px !important;}
+      body[yahoo] .Featsubhead1 {font-size:24px !important; line-height:27px !important;}
+      body[yahoo] .Featsubhead2 {font-size:10px !important; line-height:13px !important; !important;}
+	  body[yahoo] .Featsubhead3 {font-size:10px !important; line-height:13px !important; padding:15px 20px 25px 20px !important;}
+  /**Text**/
+  
+  
+  /** Hide**/
+      body[yahoo] .HideBack {background-image:none !important;}
+      body[yahoo] .HideColor { background-color:transparent !important;}
+  /** Hide**/
+  
+  
+  /**CTA**/
+      body[yahoo] .CTA {padding:5px 0 5px 0 !important; width:100% !important; text-align:center !important;}
+      body[yahoo] .CTAa {padding:5px 0 5px 0 !important; width:210px !important; text-align:center !important; float:left !important;}
+      body[yahoo] .CTAb {padding:5px 0 5px 0 !important; width:187px !important; text-align:center !important;}
+      body[yahoo] .CTAc {padding:5px 0 5px 0 !important; width:147px !important; text-align:center !important;}
+      body[yahoo] .CTAd {padding:5px 0 5px 0 !important; width:73px !important; text-align:center !important;}
+      body[yahoo] .CTAe {padding:5px 0 5px 0 !important; width:178px !important; text-align:center !important;}
+      body[yahoo] .CTAf {padding:5px 0 5px 0 !important; width:112px !important; text-align:center !important;}
+      body[yahoo] .CTA2across {display:block !important; padding:0 20px 0 20px !important; width:280px !important;height:42px !important;}
+      body[yahoo] .CTA2acrossA {display:block !important; padding:0 20px 5px 20px !important; width:280px !important;height:42px !important;}
+  /**CTA**/
+  
+  
+  /**Upsize**/
+      body[yahoo] .Feat2across {display:block !important; padding:0 0 0 0 !important; width:320px !important;height:162px !important;} 
+      body[yahoo] .Feat2acrossA {display:block !important; padding:0 0 5px 0 !important; width:320px !important;height:162px !important;}
+      body[yahoo] .Feat3across {display:block !important; padding:0 0 0 0 !important; width:320px !important;height:247px !important;}
+      body[yahoo] .Feat3acrossA {display:block !important; padding:0 0 5px 0 !important; width:320px !important;height:247px !important;}
+      body[yahoo] .Feat2ProdA {display:block !important; padding:0 0 5px 0 !important; width:280px !important;height:154px !important;}
+      body[yahoo] .Feat2Prod {display:block !important; padding:0 0 0 0 !important; width:280px !important;height:154px !important;}
+      body[yahoo] .Feat3ProdA {display:block !important; padding:0 0 5px 0 !important; width:320px !important;height:320px !important;}
+      body[yahoo] .Feat3Prod {display:block !important; padding:0 0 0 0 !important; width:280px !important;height:238px !important;}
+      body[yahoo] .Prod4 {display:block !important; padding:0 0 0 0 !important; width:136px !important;height:159px !important;}
+      body[yahoo] .ArticleImg {display:block !important; padding:0 0 10px 0 !important; width:280px !important;height:auto !important;}
+      body[yahoo] .FullSize {display:block !important; width:100% !important; height:100% !important;}
+      body[yahoo] .FullSizeb {width:100% !important; height:auto !important; padding:0 0 5px 0 !important; display:block !important;}
+      body[yahoo] .FullSizec {display:block !important; width:280px !important; height:280px !important;}
+      body[yahoo] .ImgmobileFeat {display:block !important;height:192px !important; width:320px !important; background-image: url('http://media.4at5.net/email_domains/pata/158132/images/featoverlaymobile.jpg') !important; background-repeat:no-repeat !important;}
+      body[yahoo] .Imgmobile {display:block !important;height:280px !important; width:280px !important; background-image: url('http://media.4at5.net/email_domains/pata/158132/images/article.jpg') !important; background-repeat:no-repeat !important;}
+  /**Upsize**/
+  
+    
+  /**Small Article**/
+      body[yahoo] .Smallart {width:88px !important; height:88px !important;  display:block !important;}
+  /**Small Article**/
+  
+  
+  /*** 3 Across Styling ***/
+      table[class=horizontal] {width:280px !important;}
+      table[class=horizontal] tr.inline {
+          display: inline !important;
+      }
+      table[class=horizontal] td.floatLeft {
+          float: left !important;
+          width: 110px !important;
+          padding-left:20px !important;
+       
+      }
+      table[class=horizontal] td.floatLeft img {
+          width: 110px !important;
+          height: auto !important;
+          float: left !important
+      }
+      table[class=horizontal] td.floatRight {
+          float: left !important;
+          width: 140px !important;
+          padding-top:10px !important;
+          padding-right:10px !important;
+      }
+  /*** 3 Across Styling ***/
+    
+    
+  /*** Footer ***/
+      body[yahoo] .footerBorder{border-bottom:1px #d4d4d4 solid !important;}
+  /*** Footer ***/
+  
+  }
+  </style>
+  
+  <!--[if gt mso 9]>
+    <style type="text/css">
+        .muli {font-family: Arial, Helvetica, sans-serif !important;} /* prevents Outlook from defaulting to Times New Roman */
+    </style>
+  <![endif]-->
+</head>
+
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align:center">
+  <tr>
+    <td width="100%" valign="top" align="center">
+    
+    
+    <!--Wrapper-->
+      <table width="600" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth" style="min-width:600px;">
+        <tr>
+         <td class="MainWidth" style="min-width:600px;" valign="top" align="center">
+   
+   
+   
+<!--PREHEADER-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="77%" align="center" valign="top" class="hide muli" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:13px; color:#ffffff; text-align:left; padding:5px 0 5px 0;">
+            <!--Preheader goes here-->Plus, see the latest social media photos from the Patagonia climbing season.
+        </td>
+        <td width="23%" align="center" valign="top" class="hide muli" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:13px; color:#999999; text-align:right; padding:5px 0 5px 0;">
+            <a href="http://mail.patagonia.com/hosted?Z4gvKJo6220zTBwsWzQ68jhVIwgQbd8LYlsrJBQm18t4DDejnwotDFYbeTFQoMvrQcAGpA==">View on web</a></td>
+    </tr>
+  </table>
+<!--End PREHEADER-->
+
+
+<!--HEADER SHOPPING-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td width="47%" align="center" valign="top" class="muli Block">
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="59%" align="center" valign="top">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsC60GC?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19ocGF0&dm_params_sha256=1e08aadae22ae99305e1df19528219756f715a4490c28262afbe043396ee64d8"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/pata_logo.jpg" alt="patagonia&reg;" style="display:block;" border="0"/></a>
+                </td>
+                <td width="41%">&nbsp;
+                </td>
+            </tr>
+            </table>
+        </td>
+        <td width="53%" align="center" valign="middle" class="BlockLogo MainWidth1" style="padding:0 20px 0 0;">
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="27%" align="center" valign="top" class="NavText1a" style="padding:0 28px 0 0; font-family:Arial, Helvetica, sans serif; text-align:left; font-weight:bold; font-size:14px; line-height:17px;">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsC70GD?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19obQ==&dm_params_sha256=328167f5b85da45c170eca47261bf0c29d4d47eeab0432e82baace7e9170802e" style="color:#000001; text-decoration:none;">MEN'S</a>
+                </td>
+                <td width="29%" align="center" valign="top" class="NavText1" style="padding:0 0 0 0; font-family:Arial, Helvetica, sans serif; text-align:center; font-weight:bold; font-size:14px; line-height:17px;">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsC80GE?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19odw==&dm_params_sha256=6bd4ee630b9834d7df1ff49c20c1786b3c2ba341dbc6ce70dc86cd62bc3f7194" style="color:#000001; text-decoration:none;">WOMEN'S</a>
+                </td>
+                <td width="44%" align="center" valign="top" class="NavText1" style="padding:0 0 0 0; font-family:Arial, Helvetica, sans serif; text-align:right; font-weight:bold; font-size:14px; line-height:17px;">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDA0GO?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19od3M=&dm_params_sha256=7639778349ba66c6e143b3879b7e00e0fadd3ec96c0b81f4789a13478c468346" style="color:#000001; text-decoration:none;">WEB SPECIALS</a>
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+  </table>
+<!--END HEADER SHOPPING-->
+    
+<!--FREE SHIPPING BANNER-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000" class="MainWidth">
+    <tr>
+      <td width="47%" align="center" valign="top" class="hide" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:13px; color:#999999; text-align:left; padding:0 0 0 0;">
+      </td>
+      <td width="53%" class="TextCenter PaddingNav" align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:14px; text-transform:uppercase; color:#999999; text-align:right; padding:10px 20px 10px 0; font-weight:bold; letter-spacing:1px;">
+          <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDB0GP?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19zaQ==&dm_params_sha256=9fc242b57a5a6cb6f437cb9aad948978e5f2f469afedc38754383e40e0fc422a" style="color:#999999; text-decoration:none;">FREE SHIPPING on orders over $75*</a>
+      </td>
+    </tr>
+  </table>
+  
+  <!-- this is a little spacer -->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="MainWidth">
+    <tr>
+      <td width="100%" align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:1px; color:#ffffff; padding:1px 0 0 0;">
+nbsp;
+      </td>
+    </tr>
+  </table>
+<!--END FREE SHIPPING BANNER-->
+   
+<!--FEATURE HEADLINE OVER IMAGE-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td align="center" valign="top" bgcolor="#3e2f80" style="padding:0 0 0 0;">
+            <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDC0GQ?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19taTE=&dm_params_sha256=831be3a00d1da44ff84054cb72bd060236fd0d9f09155c761d479a0a5dae211e"><img src="http://dreammail.edgesuite.net/patagonia1/images/15/020615_Softshell-main3_S15.jpg" width="600" height="588" class="Hero" border="0" alt="Levitation Hoody Soft Shell" style="font-family: Arial; color: #FFFFFF; font-size: 30px; display: block;"/></a>
+        </td>
+    </tr>
+  </table>
+<!--END FEATURE HEADLINE OVER IMAGE-->
+    
+<!--MODIFIED HEADLINE-->
+    
+    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+
+    <tr>
+        <td valign="top" align="center" class="muli" style="line-height:40px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:36px; mso-line-height-rule: exactly; padding:20px 15px 0px 15px; text-align:center;">
+            Soft Shells
+        </td>
+    </tr>
+                    
+        <tr>
+            <td align="center" valign="top" class="muli" style="padding:0px 30px 6px 30px; font-family:Arial, Helvetica, sans serif; text-align:center; font-size:14px;line-height:20px; color:#333333"><p>When the weather’s flat-out awful, even the hardcore hunker down to wait. But “good” conditions often range from splitter to iffy: Patagonia soft shells balance breathability, stretch, water resistance and wind protection, so you can get after it in all but the wettest weather.</p>
+              <p>Our new Levitation Hoody (shown here) is built from burly yet supple polyester fabric that breathes freely and stretches fully—combine it with the Simul Alpine or the Dual Point Alpine Pants for high-output ice and mixed climbs.</p></td>
+        </tr>
+
+    </table>
+    
+<!--END MODIFIED-HEADLINE-->
+<!--CTA.SINGLE-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td align="center" valign="top" style="padding:0px 0 40px 0;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#f26525" width="277" class="CTA">
+            <tr>
+                <td class="muli" align="center" valign="middle" style="padding:10px 5px 10px 5px; font-size:16px;line-height:18px; font-family:Arial, Helvetica, sans serif; text-align:center; color:#ffffff; text-transform:uppercase;">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDD0GR?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19idG5h&dm_params_sha256=0b03b68fa0da4bb7cfd62db0ab1abf8d7eed8242a86712ab01d5ab4e880ad180" style="text-decoration:none; color:#FFFFFF;">Shop Soft Shells</a>
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+  </table>
+<!--END CTA.SINGLE-->
+
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tbody><tr>
+        <td align="center" valign="top">
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td class="Hero" align="center" valign="top" style="padding:20px 0 0 0; border-top:1px #999999 solid;">
+                    
+                </td>
+            </tr>
+            </tbody></table>
+
+<!--FEATURE HEADLINE OVER IMAGE-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td align="center" valign="top" style="padding:0px 0 0px 0px; border-top:0px #999999 solid;" bgcolor="#ffffff">
+            <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDE0GS?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19taTE=&dm_params_sha256=831be3a00d1da44ff84054cb72bd060236fd0d9f09155c761d479a0a5dae211e"><img src="http://dreammail.edgesuite.net/patagonia1/images/15/020615_vida-patagonia_S15.jpg" alt="#VidaPatagonia Live Updates" width="557" height="220" class="Hero" style="color: #333333; display:block;" border="0"/></a>
+        </td>
+    </tr>
+  </table>
+<!--END FEATURE HEADLINE OVER IMAGE-->
+    
+<!--MODIFIED HEADLINE-->
+    
+    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+
+    <tr>
+        <td valign="top" align="center" class="muli" style="line-height:25px;font-family:Arial, Helvetica, sans serif; color:#333333; font-size:22px; mso-line-height-rule: exactly; padding:20px 15px 10px 15px; text-align:center;">
+            #VidaPatagonia Live Updates
+        </td>
+    </tr>
+                    
+        <tr>
+            <td align="center" valign="top" class="muli" style="padding:0px 30px 15px 30px; font-family:Arial, Helvetica, sans serif; text-align:center; font-size:14px;line-height:20px; color:#333333">Check out the latest social media photos from the Patagonia region, including Colin Haley and Marc-André Leclerc’s reverse traverse of the Cerro Torre group, La Travesía del Oso Buda. Mikey Schaefer is sharing photos, too, and the weather’s been amazing for the last two and a half weeks.</td>
+        </tr>
+
+    </table>
+    
+<!--END MODIFIED-HEADLINE-->
+
+<!--CTA.SINGLE-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td align="center" valign="top" style="padding:5px 0 40px 0;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#3e2f80" width="220" class="CTA">
+            <tr>
+                <td class="muli" align="center" valign="middle" style="padding:10px 5px 10px 5px; font-size:16px;line-height:18px; font-family:Arial, Helvetica, sans serif; text-align:center; color:#ffffff; text-transform:uppercase;">
+                    <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDF0GT?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19idG5h&dm_params_sha256=0b03b68fa0da4bb7cfd62db0ab1abf8d7eed8242a86712ab01d5ab4e880ad180" style="text-decoration:none; color:#FFFFFF;">View the gallery</a>
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+  </table>
+<!--END CTA.SINGLE-->
+
+<!--02F -CAPTION-->
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+    <tr>
+        <td align="center" valign="top" class="muli" style="font-family:Arial, Helvetica, sans serif; text-align:center; border-top:1px #999999 solid;">
+            <table width="540" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+            <tr>
+                <td align="center" valign="top" class="muli Featsubhead2" style="padding:8px 0 8px 0; font-family:Arial, Helvetica, sans serif; text-align:center; font-size:11px;line-height:14px; color:#666666;">
+                    <span style="color:#f26525;">Photo:</span> MIKEY SCHAEFER </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+  </table>
+<!--END 02F -CAPTION-->
+
+<!--NAV FOOTER-->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+<tr>
+	<td class="MainWidth" valign="top" align="center" style="padding:0 0 0 0; border-top:0px solid #999999; border-bottom:1px solid #999999;">
+		<!--DIVIDER-->
+		<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+		<tr>
+			<td valign="top" align="center" class="MainWidth1">
+				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal;border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDG0GU?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19t&dm_params_sha256=37f21c98e2501fd3ccbeb31a36f102f03282de95d844e3ee6ec3c1025d6c9c63" style="color:#333333; text-decoration:none;">MEN'S</a>
+					</td>
+					<td width="16" class="hide">&nbsp;
+						
+					</td>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal; border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDH0GV?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d193&dm_params_sha256=9370132e294c4421883bbeb46f8af3c2e45ae33fadd9e28c6f50c7090b42f828" style="color:#333333; text-decoration:none;">WOMEN'S</a>
+					</td>
+				</tr>
+				</table>
+				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal;border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDI0GW?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19r&dm_params_sha256=80fa56a2546b6a09dd1effd2cc21070e67e881264f4870152b2627b3feaddcce" style="color:#333333; text-decoration:none;">KIDS</a>
+					</td>
+					<td width="16" class="hide">&nbsp;
+						
+					</td>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal; border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDJ0GX?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19s&dm_params_sha256=220249462299d76f36f31a302e5e91a89df18d5f7b1bb78ef640fa1ab82de4e1" style="color:#333333; text-decoration:none;">TRAVEL & GEAR</a>
+					</td>
+				</tr>
+				</table>
+				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal;border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDK0GY?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d193cw==&dm_params_sha256=c7da442c8de86c163234fc004a4c8fa420a1cda1606f75b32f8c157da6a52780" style="color:#333333; text-decoration:none;">WEB SPECIALS</a>
+					</td>
+					<td width="16" class="hide">&nbsp;
+						
+					</td>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal; border-bottom:1px #d4d4d4 solid; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDL0GZ?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19zbA==&dm_params_sha256=dd9e618956de453df6656fcac5e07bd60f69b0b0e480f7e16e966f90e7ed9943" style="color:#333333; text-decoration:none;">FIND A STORE</a>
+					</td>
+				</tr>
+				</table>
+				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="272" align="center" valign="top" class="muli Block footerBorder" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDM0Ga?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19ib29rcw==&dm_params_sha256=cf123cd3a4029deaea77ee1bb971ea4012ee454a238c631178a9fb96bd1ac76d" style="color:#333333; text-decoration:none;">BOOKS</a>
+					</td>
+					<td width="16" class="hide">&nbsp;
+						
+					</td>
+					<td width="272" align="center" valign="top" class="muli Block" style="line-height:24px;font-family:Arial, Helvetica, sans serif;color:#333333; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 30px 0; font-weight:normal; text-align:left;">
+						&nbsp;&nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDN0Gb?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19wcm92aXNpb25z&dm_params_sha256=8cbcc6d4a1cd756a9c9f644db1738be2a797ec32eed13239f6461076908de7af" style="color:#333333; text-decoration:none;">PATAGONIA PROVISIONS<sup style="font-size: 8px; line-height: 0; vertical-align:5px;">&reg;</sup></a>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!--END NAV FOOTER-->
+
+
+
+
+<!--START OF PAT.COM FOOTER TABLE-->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+  <tr>
+      <td class="MainWidth" valign="top" align="center" style="padding:30px 0 30px 0;">
+      
+      
+      <!--FOOTER SOCIAL-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+          <tr>
+              <td valign="top" align="center">
+                  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                      <td valign="top" align="center">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth2">
+                          <tr>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrje0Gb"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/fb.jpg" alt="facebook" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjf0Gc"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/instagram.jpg" alt="instagram" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center" class="hide">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjg0Gd"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/tw.jpg" alt="twitter" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center" class="hide">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjh0Ge"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/tw_1.jpg" alt="tumblr" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center" class="hide">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrji0Gf"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/pin.jpg" alt="pinterest" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center" class="hide">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjj0Gg"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/vimeo.jpg" alt="vimeo" style="display:block:" border="0"/></a>
+                              </td>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjk0Gh"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/yt.jpg" alt="youtube" style="display:block:" border="0"/></a>
+                              </td>
+                          </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  </table>
+              </td>
+          </tr>
+        </table>
+      <!--END FOOTER SOCIAL-->
+      
+      
+      <!--FOOTER CUSTOMER-SERVICE-->
+        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+          <tr>
+              <td valign="top" align="center" class="MainWidth1">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                      <td width="100%" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#333333; line-height:24px; font-size:16px; mso-line-height-rule: exactly; padding:30px 0 10px 0; text-align:center; text-transform:uppercase;">
+                          Patagonia Customer Service: <span class="appleLinks">800.638.6464</span>
+                      </td>
+                  </tr>
+                  </table>
+              </td>
+          </tr>
+          </table>
+          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth3">
+          <tr>
+              <td valign="top" align="center" class="MainWidth3">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                      <td width="100%" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#333333; line-height:24px; font-size:12px; mso-line-height-rule: exactly; padding:0 0 20px 0; text-align:center;">
+                          <span class="appleLinks">8550 White Fir St, Reno, NV 89523</span><span class="hide"> &nbsp;|&nbsp;</span> <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRrjM0GD?dm_params=JkVtYWlsQWRkcj1hbWphbWVzMkB2dC5lZHUmRE1BSUxWQVJfVU5TVUI9MWFtYjc2YWFjM25yYXJibXFlbmtua2Y1bGFlN3E=&dm_params_sha256=780b15ce69a2b6eef53f84872064fc1094ebd25ca13fffcd997a39e6ac3a550e" style="color:#333333; text-decoration:none;">Unsubscribe</a> &nbsp;| &nbsp;<a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDW0Gk?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19jcw==&dm_params_sha256=744b9b4383b5e8564c9e40a50c2f094aa199bf653c901dd8dd9bd47e3518f40f" style="color:#333333; text-decoration:none;">Contact Us</a>
+                      </td>
+                  </tr>
+                  </table>
+              </td>
+          </tr>
+        </table>
+      <!--END FOOTER CUSTOMER-SERVICE-->
+      
+      
+      <!--FOOTER ORGS-->
+        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+          <tr>
+              <td valign="top" align="center" class="MainWidth1" style="padding:0 0 0 0;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth2">
+                  <tr>
+                      <td valign="top" align="center" class="hide" style="padding:0 40px 0 0;">
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDX0Gl?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19mYw==&dm_params_sha256=e6fae54e55313858eefdd238e010ee2218493256bd2c7da92eaa51399bd9acc7"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/footprint_chronicles.jpg" alt="#" width="74" height="54" style="display:block:" border="0"/></a>
+                              </td>
+                          </tr>
+                          </table>
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#333333; line-height:13px; font-size:10px;text-align:center; color:#333333;">
+                                  Footprint Chronicles
+                              </td>
+                          </tr>
+                          </table>
+                      </td>
+                                            <td valign="top" align="center" style="padding:0 40px 0 0;" class="PaddingNull">
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDY0Gm?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19pZw==&dm_params_sha256=ae2a2bda7a9bc17db9051f451f862e4e1c31c32eb725e419d85b068ef7d46c2d"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/ironclad_guarantee.jpg" alt="#" width="74" height="54" style="display:block:" border="0"/></a>
+                              </td>
+                          </tr>
+                          </table>
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#333333; line-height:13px; font-size:10px;text-align:center; color:#333333;">
+                                  Ironclad Guarantee
+                              </td>
+                          </tr>
+                          </table>
+                      </td>
+                      <td valign="top" align="center" style="padding:0 0 0 0;" class="hide">
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center">
+                                  <a href="http://mail.patagonia.com/cgi-bin23/DM/t/n1Ai0LB3Ij0UZY0BRsDZ0Gn?dm_params=JmRtbWlkPTE0Mjk3MDkxNSZ1dG1fc291cmNlPWVtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTAyMDYxNV9zb2Z0X3NoZWxscyZzcmM9MDIwNjE1d19vcA==&dm_params_sha256=fb0c375109289fa9ff4d9f1caeeccd8b5c1dd823e1846bdf06c7680b608886ed"><img src="http://dreammail.edgesuite.net/patagonia1/071414b_images/planet.jpg" alt="#" width="74" height="54" style="display:block:" border="0"/></a>
+                              </td>
+                          </tr>
+                          </table>
+                          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td valign="top" align="center" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#333333; line-height:13px; font-size:10px;text-align:center; color:#333333;">
+                                  1% for the Planet
+                              </td>
+                          </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  </table>
+              </td>
+          </tr>
+        </table>
+      <!--END FOOTER ORGS-->
+      
+      
+      <!-- FOOTER CANSPAM-LEGAL-->
+        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth">
+          <tr>
+              <td class="muli TextCenter" align="center" valign="top" style="padding:30px 20px 30px 20px; font-family:Arial, Helvetica, sans serif; color:#777777; line-height:18px; font-size:10px; mso-line-height-rule: exactly; text-align:left;">
+* Free Shipping details: If your order meets or exceeds the amount advertised on the website, you qualify for free ground shipping. Choose the FREE delivery option (up to 12 business days) at checkout or over the phone at <span class="appleLinks">1-800-638-6464</span>. This offer is valid for orders shipped to addresses in the United States and all US Territories only, not valid for international orders. The free shipping option is not valid for gift cards, Patagonia Outlet stores, wetsuits, surfboards, or with Pro, Team and Group Sales.<br/><br/>
+                    This email was sent to <span class="appleLinks">amjames2@vt.edu</span>
+              </td>
+          </tr>
+        </table>
+      <!--END FOOTER CANSPAM-LEGAL-->
+      
+      
+      <!-- FOOTER COPYRIGHT-->
+        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="MainWidth1">
+          <tr>
+              <td valign="top" align="center" class="MainWidth1">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                      <td width="100%" class="muli" style="font-family:Arial, Helvetica, sans serif; color:#666666; line-height:14px; font-size:12px; mso-line-height-rule: exactly; padding:10px 0 10px 0; text-align:center;">
+                          &copy;&nbsp;2015&nbsp;Patagonia, Inc.
+                      </td>
+                  </tr>
+                  </table>
+              </td>
+          </tr>
+        </table>
+      <!-- FOOTER COPYRIGHT-->
+      
+      
+      </td>
+  </tr>
+</table>
+<!--END OF PAT.COM FOOTER TABLE-->
+
+
+    </td>
+  </tr>
+</table>
+<!--End Wrapper-->
+
+
+    </td>
+  </tr>
+</table>
+
+<!-- pixel tracking code -->
+<img src="http://pix.bfi0.com/t.gif?k=VXFONVIwaGdycUs4RC9WaXRzam00THZOWXZVMXpqVXZIV2RPeGticy94QT0&c=020615_soft_shells&s=142970915" width="1" height="1" />
+</body>
+
+<IMG SRC="http://mail.patagonia.com/cgi-bin23/flosensing?z=1Ai0LB3Ij0UZY0Dv"></html>
+------000000000000000000000000000000000000000000000000000000000000000--
+

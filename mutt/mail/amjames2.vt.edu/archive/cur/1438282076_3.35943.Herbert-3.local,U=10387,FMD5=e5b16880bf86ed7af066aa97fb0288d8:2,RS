@@ -1,0 +1,120 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2873963qgt;
+        Tue, 9 Jun 2015 18:56:42 -0700 (PDT)
+X-Received: by 10.55.20.204 with SMTP id 73mr1210121qku.5.1433901402106;
+        Tue, 09 Jun 2015 18:56:42 -0700 (PDT)
+Return-Path: <magee@uci.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id j194si7174311qhc.48.2015.06.09.18.56.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 18:56:42 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.170 is neither permitted nor denied by best guess record for domain of magee@uci.edu) client-ip=209.85.217.170;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.217.170 is neither permitted nor denied by best guess record for domain of magee@uci.edu) smtp.mail=magee@uci.edu
+Received: from mail-lb0-f170.google.com (mail-lb0-f170.google.com [209.85.217.170])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5A1uZI6029287
+	for <amjames2@vt.edu>; Tue, 9 Jun 2015 21:56:41 -0400
+Received: by lbcue7 with SMTP id ue7so20093532lbc.0
+        for <amjames2@vt.edu>; Tue, 09 Jun 2015 18:56:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=2Y2J4+JyaphT1tt3GXZsMhNwc86kjdsG+avHlxlH7vI=;
+        b=gkorGovdTTdvMn+xvu6K0Ef5AIA+kaWHX9F+oWvDT4d1VuoYKFQ9nky/z9ng67nUSH
+         XIS/lHbjU6rj7d2rf9smuGorymHRXv+2jDqK20Qo25/36U2eSUII1I8tEeS1pjGIjDad
+         eMLqtd5G8NqELj8mivsNz5aHLFMChcOfLfAakT3TiGFJJxGqPGr+gyTJvQ9eYQT+euqD
+         3Rzesx0+I7gHBiTzNjeRKzXVxfB9UiCmlbJb2RkWqAAqnHfwH7dyk0HxQ0iLSZp3IoqZ
+         tsy4oZOrWASdmXAUA4YvA7hJGmm7xgEYpGAkNDkVJYxV6qN0Q0ykbqRzxKxEONZ5ssHz
+         QbgQ==
+X-Gm-Message-State: ALoCoQnd1hFS7+MyDuGJzMxQcpjrWX4cahNqGDEuKfUqIkBAT6hXeoIt3gFVcbD9OFFdtZPt9VZb
+MIME-Version: 1.0
+X-Received: by 10.152.234.233 with SMTP id uh9mr636266lac.64.1433901395460;
+ Tue, 09 Jun 2015 18:56:35 -0700 (PDT)
+Received: by 10.25.37.207 with HTTP; Tue, 9 Jun 2015 18:56:35 -0700 (PDT)
+In-Reply-To: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+Date: Tue, 9 Jun 2015 18:56:35 -0700
+Message-ID: <CAMzvrF82AbekzL8+t_x3Nf0EVdBtfzQMfSNWL0PgZHhMwc1ZPQ@mail.gmail.com>
+Subject: Re: Molecular Response Properties Travel Itinerary
+From: Matthew Madsen Agee <magee@uci.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1133a96c51daa70518202fdb
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1133a96c51daa70518202fdb
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+
+I think I sent an email previously with all my information in it. I'm
+attending the molecular response summer school and the software summer
+school.
+
+Did you get my itinerary and are you able to provide transportation to and
+from the airport?
+
+Just wanted to make sure.
+
+Thanks,
+
+Matt Agee
+
+On Fri, Jun 5, 2015 at 8:49 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--001a1133a96c51daa70518202fdb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div>Hello Andrew, <br><br></div>I think I =
+sent an email previously with all my information in it. I&#39;m attending t=
+he molecular response summer school and the software summer school. <br><br=
+></div>Did you get my itinerary and are you able to provide transportation =
+to and from the airport? <br><br></div><div>Just wanted to make sure. <br><=
+/div><div><br></div>Thanks, <br><br></div>Matt Agee<br></div><div class=3D"=
+gmail_extra"><br><div class=3D"gmail_quote">On Fri, Jun 5, 2015 at 8:49 AM,=
+ Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" targ=
+et=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex">Hello,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--001a1133a96c51daa70518202fdb--

@@ -1,0 +1,265 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp3744013qgf;
+        Tue, 7 Apr 2015 11:46:13 -0700 (PDT)
+X-Received: by 10.140.85.137 with SMTP id n9mr24249881qgd.40.1428432373503;
+        Tue, 07 Apr 2015 11:46:13 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 145si8255216qhx.130.2015.04.07.11.46.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Apr 2015 11:46:13 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.182 as permitted sender) client-ip=209.85.213.182;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.182 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t37Ik7OE024583
+	for <amjames2@vt.edu>; Tue, 7 Apr 2015 14:46:12 -0400
+Received: by igblo3 with SMTP id lo3so20512354igb.1
+        for <amjames2@vt.edu>; Tue, 07 Apr 2015 11:46:07 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=Cu5WV4RaINcOHJBwqLET1tMErxC+sjDEGFrPkRfERSM=;
+        b=jCb9g98AENloLKzxinka/L3FVxupbCiMaxDbYpon91K0E0aXH7BGxO4kViONEDq4d3
+         miKgr5ZkA45gLWaeVETFWMV+/sz9JDRNMT/pqR9R9tdXSJSwQxrAaLVLT/TC3Z+OmDKm
+         nQNKE5igW5eFGnPK5PxhFFi/ADm9Y7pW1Lmif9od1UjTo9HBItqSXMgFyZpJnM1R/bUA
+         f+5Qn2h0WTONhwW4Y6C5a4zOZXgT+xFoIuo4qyNOhEt5hqBKdfyW/yRrLepQyGiFFFZd
+         d1I70fGvHobSGRymhD1ONaJrvCvBLhuEb+T3/DnGaVS3tdTFXQSfFDr6NeGt6dqll/oh
+         Rp6g==
+X-Gm-Message-State: ALoCoQn9cQ7kjKtGCAzgJr1S8ByCETmHFvF8gjv2bP7ph2bHRaLKC4FpKD8XQPjDvvo5lYXKBWjh/Kc48Ph+1daDcdUTe7AwNSfKCaipQf55pLgqLPibW4LNdUGNnivOgRGdzX/UUyl7CMLZM/zmhh+S9dC2PufYnA==
+X-Received: by 10.50.35.195 with SMTP id k3mr5978183igj.11.1428432367357;
+        Tue, 07 Apr 2015 11:46:07 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.35.195 with SMTP id k3mr5978169igj.11.1428432367264; Tue,
+ 07 Apr 2015 11:46:07 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Tue, 7 Apr 2015 11:46:07 -0700 (PDT)
+In-Reply-To: <A501C7E7-BB11-4935-9E8B-7560F5A9BA03@vt.edu>
+References: <CAH0V_1byf=CF8vGAhc05iz1gVQ8conR_-f-bMhRdAxuu3bNaFw@mail.gmail.com>
+	<CA+58rsDrkvQvOGyjXjA+n4xg1woh5ENSOtwSbxWzvRkXYkxfWQ@mail.gmail.com>
+	<E27DB792-A084-4D1F-8246-7F6D0B76C1B9@vt.edu>
+	<A501C7E7-BB11-4935-9E8B-7560F5A9BA03@vt.edu>
+Date: Tue, 7 Apr 2015 14:46:07 -0400
+Message-ID: <CAH0V_1bYG42PsnMNNvNuEhmiHYKhJ6UPQ=JTLZc3AkaWiSgEag@mail.gmail.com>
+Subject: Re: Natural orbitals
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1134af1ad64299051326d376
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 9502
+
+--001a1134af1ad64299051326d376
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi, AJ,
+
+I've made some progress on the natural orbital efforts and identified a few
+unexpected pitfalls.  I'll keep you informed, but I also think we should
+sit down together and go through aspects of the code so that you can
+understand what I'm doing.  I've got a long list of things I have to
+accomplish today, but perhaps tomorrow or Thursday afternoon might work.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sat, Apr 4, 2015 at 5:02 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> I have put together a summery of what I have tried and found out so far. =
+I
+> have also made sure you can access the executable of the modified version
+> of psi in :
+> ~amjames2/installed/psi4_NatOrb/bin
+>
+> I think the ROHF jobs are getting a segfault because of the sortone code.
+> Inside sortone_ROHF.cc there is a statement that the code does=E2=80=99t =
+work with
+> frozen orbitals.  I have tried submitting the job with no frozen orbitals
+> to see if It runs.  That will take a bit longer to get to where it fails =
+in
+> the first place so I will update you on the success/failure.
+>
+> The segfault in the ROHF jobs happens after the information about occupie=
+d
+> orbitals is printed in the output file.  I made some print statements in
+> dipole.cc to try and narrow it down and found that it is at the line:
+> Pap[i][j] =3D moinfo.opdm[I][J]
+> in dipole.cc (line 79 ).
+>
+> I have not made as much progress with the failures in the UHF code. But I
+> have an idea:
+> I am getting a message in the job error file that indicates the program i=
+s
+> trying to free the same thing
+>
+>
+> *** glibc detected *** /home/amjames2/installed/psi4_NatOrb/bin/psi4:
+> double free or corruption (out): 0x0000000005ff8570 ***
+> =3D=3D=3D=3D=3D=3D=3D Backtrace: =3D=3D=3D=3D=3D=3D=3D=3D=3D
+> /lib64/libc.so.6(+0x75366)[0x2b0f023e3366]
+>
+> I think this happens becasue I am still trying to use moinfo.opdm for UHF=
+,
+> and with the UHF reference I should be using the two different opdm=E2=80=
+=99s a and
+> b.
+>
+> The good news is I can=E2=80=99t find any problems with them modification=
+s I made
+> to change how many of the NO occupation numbers are printed.
+>
+> I have also given you access to the modified source code if you wanted to
+> take a look.  It is in:
+>
+> ~amjames2/src/psi4/NatOrbs/src =E2=80=A6
+>
+> Do you want to meet to talk about this sometime this week? I think my
+> major problem here is not quite understanding how the natural orbitals
+> occupations calculation works.
+>
+> I hope this info is able to help.
+>
+> =E2=80=94AJ
+>
+>
+>
+> On Apr 4, 2015, at 1:01 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Can you send me an input file?
+>
+> TDC
+>
+> Sent from my iPhone
+>
+> On Apr 4, 2015, at 12:56 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> Dr. Crawford,
+>
+> I think I will need some help moving forward. I am not quite sure what I
+> need to change at this point to get it working.
+>
+> --AJ
+>
+> Andrew James
+>
+> Graduate Teaching Assistant
+> Virginia Tech
+> Chemistry Department
+> amjames2@vt.edu
+>
+> On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+>> Dear AJ,
+>>
+>> Prof. Lischka tells me that they are in the stage of preparing their
+>> manuscript on the aromatic systems, and they would like to have results
+>> from us as soon as possible.  Do you need help from me to move forward w=
+ith
+>> the code and testing?
+>>
+>> -TDC
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>
+>
+>
+
+--001a1134af1ad64299051326d376
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, AJ,<div><br></div><div>I&#39;ve made some progress on =
+the natural orbital efforts and identified a few unexpected pitfalls.=C2=A0=
+ I&#39;ll keep you informed, but I also think we should sit down together a=
+nd go through aspects of the code so that you can understand what I&#39;m d=
+oing.=C2=A0 I&#39;ve got a long list of things I have to accomplish today, =
+but perhaps tomorrow or Thursday afternoon might work.</div><div><br></div>=
+<div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div=
+ class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford=
+</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.e=
+du</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Apr 4, 2015 at 5:02 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><d=
+iv style=3D"word-wrap:break-word">I have put together a summery of what I h=
+ave tried and found out so far. I have also made sure you can access the ex=
+ecutable of the modified version of psi in :=C2=A0<div>~amjames2/installed/=
+psi4_NatOrb/bin<br><div><br></div><div>I think the ROHF jobs are getting a =
+segfault because of the sortone code.=C2=A0 Inside sortone_ROHF.cc there is=
+ a statement that the code does=E2=80=99t work with frozen orbitals.=C2=A0 =
+I have tried submitting the job with no frozen orbitals to see if It runs.=
+=C2=A0 That will take a bit longer to get to where it fails in the first pl=
+ace so I will update you on the success/failure.=C2=A0</div><div><br></div>=
+<div>The segfault in the ROHF jobs happens after the information about occu=
+pied orbitals is printed in the output file.=C2=A0 I made some print statem=
+ents in <a href=3D"http://dipole.cc" target=3D"_blank">dipole.cc</a>=C2=A0t=
+o try and narrow it down and found that it is at the line:=C2=A0</div><div>=
+Pap[i][j] =3D moinfo.opdm[I][J]=C2=A0</div><div>in <a href=3D"http://dipole=
+.cc" target=3D"_blank">dipole.cc</a>=C2=A0(line 79 ).=C2=A0</div><div><br><=
+/div><div>I have not made as much progress with the failures in the UHF cod=
+e. But I have an idea:</div><div>I am getting a message in the job error fi=
+le that indicates the program is trying to free the same thing=C2=A0</div><=
+div><br></div><div><div><br></div><div>*** glibc detected *** /home/amjames=
+2/installed/psi4_NatOrb/bin/psi4: double free or corruption (out): 0x000000=
+0005ff8570 ***</div><div>=3D=3D=3D=3D=3D=3D=3D Backtrace: =3D=3D=3D=3D=3D=
+=3D=3D=3D=3D</div><div>/lib64/libc.so.6(+0x75366)[0x2b0f023e3366]</div></di=
+v><div><br></div><div>I think this happens becasue I am still trying to use=
+ moinfo.opdm for UHF, and with the UHF reference I should be using the two =
+different opdm=E2=80=99s a and b.=C2=A0</div><div><br></div><div>The good n=
+ews is I can=E2=80=99t find any problems with them modifications I made to =
+change how many of the NO occupation numbers are printed. =C2=A0</div><div>=
+<br></div><div>I have also given you access to the modified source code if =
+you wanted to take a look.=C2=A0 It is in:=C2=A0</div><div><br></div><div>~=
+amjames2/src/psi4/NatOrbs/src =E2=80=A6=C2=A0</div><div><br></div><div>Do y=
+ou want to meet to talk about this sometime this week? I think my major pro=
+blem here is not quite understanding how the natural orbitals occupations c=
+alculation works.=C2=A0</div><div><br></div><div>I hope this info is able t=
+o help.=C2=A0</div><span class=3D"HOEnZb"><font color=3D"#888888"><div><br>=
+</div><div>=E2=80=94AJ=C2=A0</div></font></span><div><div class=3D"h5"><div=
+><br></div><div><br></div><div><br></div><div><div><blockquote type=3D"cite=
+"><div>On Apr 4, 2015, at 1:01 PM, T. Daniel Crawford &lt;<a href=3D"mailto=
+:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><=
+div><div dir=3D"auto"><div>Can you send me an input file?</div><div><br></d=
+iv><div>TDC<br><br>Sent from my iPhone</div><div><br>On Apr 4, 2015, at 12:=
+56 PM, Andrew James &lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><di=
+v><div dir=3D"ltr">Dr. Crawford,<div><br></div><div>I think I will need som=
+e help moving forward. I am not quite sure what I need to change at this po=
+int to get it working.</div><div><br></div><div>--AJ</div></div><div class=
+=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">Andrew James=
+=C2=A0<div><br><div>Graduate Teaching Assistant=C2=A0<br><div>Virginia Tech=
+=C2=A0</div></div><div>Chemistry Department=C2=A0</div></div><div><a href=
+=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a></div></di=
+v></div></div>
+<br><div class=3D"gmail_quote">On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel C=
+rawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Dear AJ,<div><br></div><div>Prof. Lischka tells me that=
+ they are in the stage of preparing their manuscript on the aromatic system=
+s, and they would like to have results from us as soon as possible.=C2=A0 D=
+o you need help from me to move forward with the code and testing?</div><di=
+v><br></div><div>-TDC</div><div><br clear=3D"all"><div><div><div dir=3D"ltr=
+">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.ed=
+u" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+</div></blockquote></div></div></blockquote></div><br></div></div></div></d=
+iv></div></blockquote></div><br></div>
+
+--001a1134af1ad64299051326d376--

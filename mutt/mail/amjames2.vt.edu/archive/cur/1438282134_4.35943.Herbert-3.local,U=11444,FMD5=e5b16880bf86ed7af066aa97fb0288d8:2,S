@@ -1,0 +1,119 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1282683qgt;
+        Fri, 26 Jun 2015 06:46:39 -0700 (PDT)
+X-Received: by 10.140.231.19 with SMTP id b19mr2335617qhc.22.1435326398968;
+        Fri, 26 Jun 2015 06:46:38 -0700 (PDT)
+Return-Path: <kannon1992@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id g1si33036946qco.12.2015.06.26.06.46.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Jun 2015 06:46:38 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning kannon1992@gmail.com does not designate 198.82.22.144 as permitted sender) client-ip=198.82.22.144;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning kannon1992@gmail.com does not designate 198.82.22.144 as permitted sender) smtp.mail=kannon1992@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-qg0-x22e.google.com (mail-qg0-x22e.google.com [IPv6:2607:f8b0:400d:c04::22e])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5QDkXUF006819
+	for <amjames2@vt.edu>; Fri, 26 Jun 2015 09:46:38 -0400
+Received: by qgal13 with SMTP id l13so35206939qga.3
+        for <amjames2@vt.edu>; Fri, 26 Jun 2015 06:46:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:message-id:mime-version:subject:date:references
+         :cc:to;
+        bh=ozBfR9uEXUcSP4skhKBPJvvtDYYq8gC3pWGMxes9GiU=;
+        b=AeUDa4BiByOM6OezZPuxH2u0EeChiegvgon1ADqlJNulQ9n+EN6vKSp8y6Ggkp30ZR
+         AsXEQqdibCXaZDxXxv47E4QX3dKBoqERrGVPv3pkqjuvTyP2V5iBxq5uybBnw6VcUIn9
+         1SuC2m+UGa4pwy+McjWpDormSWa5CHjRCtPUu/R/cubcmLKPVYuuiaJZjdn4MwI7cqo1
+         RtCMP1E/3dLu+qxuiE4aRXtmXLKrvOZ6JaTp/4GhYl066te2eW8b/902E83shJAuLiK1
+         E/1BPtKLeLzLIerxwJQPXxZ2GanpjLXxyns9xsyQmdedjWA89+TLTsYlA1VuMEV8EdRi
+         T4Fg==
+X-Received: by 10.140.29.55 with SMTP id a52mr2212475qga.25.1435326393171;
+        Fri, 26 Jun 2015 06:46:33 -0700 (PDT)
+Received: from [172.31.17.123] (nc6521690.cns.vt.edu. [198.82.22.144])
+        by mx.google.com with ESMTPSA id f8sm6834536qkf.7.2015.06.26.06.46.32
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 26 Jun 2015 06:46:32 -0700 (PDT)
+From: Kevin Hannon <kannon1992@gmail.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_980A9138-B945-4E45-962B-C4504E17580A"
+Message-Id: <888A4750-F271-4542-A1CA-5C504B839C65@gmail.com>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Fwd: valeev
+Date: Fri, 26 Jun 2015 09:46:34 -0400
+References: <A6967173-4F14-4ABD-849D-B9CEDE6F653D@gmail.com>
+Cc: amjames2@vt.edu
+To: "sarah.elliott@uga.edu" <sara.elliott@uga.edu>
+X-Mailer: Apple Mail (2.2098)
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail=_980A9138-B945-4E45-962B-C4504E17580A
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+
+
+> Begin forwarded message:
+> 
+> From: Avery Wiens <avery.wiens@gmail.com>
+> Subject: valeev
+> Date: June 25, 2015 at 5:00:38 PM EDT
+> To: kannon1992@gmail.com, megha@uga.edu
+> 
+> https://docs.google.com/file/d/0B3V7ZGDSlcNUNkgxeVpldGl1TWs/edit
+
+
+--Apple-Mail=_980A9138-B945-4E45-962B-C4504E17580A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dus-ascii"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><br class=3D""><div style=3D""><br class=3D""><blockquote =
+type=3D"cite" class=3D""><div class=3D"">Begin forwarded =
+message:</div><br class=3D"Apple-interchange-newline"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;" class=3D""><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif; =
+color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">From: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">Avery Wiens &lt;<a =
+href=3D"mailto:avery.wiens@gmail.com" =
+class=3D"">avery.wiens@gmail.com</a>&gt;<br class=3D""></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;" class=3D""><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif; =
+color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Subject: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><b class=3D"">valeev</b><br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Date: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">June 25, 2015 at 5:00:38 PM =
+EDT<br class=3D""></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span=
+ style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">To: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><a =
+href=3D"mailto:kannon1992@gmail.com" class=3D"">kannon1992@gmail.com</a>, =
+<a href=3D"mailto:megha@uga.edu" class=3D"">megha@uga.edu</a><br =
+class=3D""></span></div><br class=3D""><div class=3D""><a =
+href=3D"https://docs.google.com/file/d/0B3V7ZGDSlcNUNkgxeVpldGl1TWs/edit" =
+class=3D"">https://docs.google.com/file/d/0B3V7ZGDSlcNUNkgxeVpldGl1TWs/edi=
+t</a><br class=3D""></div></blockquote></div><br class=3D""></body></html>=
+
+--Apple-Mail=_980A9138-B945-4E45-962B-C4504E17580A--

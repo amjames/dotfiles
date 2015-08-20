@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp906172qge;
+        Thu, 26 Mar 2015 12:44:24 -0700 (PDT)
+X-Received: by 10.140.32.52 with SMTP id g49mr19733886qgg.83.1427399063868;
+        Thu, 26 Mar 2015 12:44:23 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id g69si5960777qhc.10.2015.03.26.12.44.22
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Mar 2015 12:44:23 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.218.49;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2QJiG7j005719;
+	Thu, 26 Mar 2015 15:44:21 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2QIsT8G007463;
+	Thu, 26 Mar 2015 15:44:16 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98547541 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 26 Mar 2015 15:44:16
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2QJiFXN021077
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Thu, 26 Mar 2015 15:44:15 -0400
+Received: from mail-oi0-f49.google.com (mail-oi0-f49.google.com
+          [209.85.218.49]) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2QJiAnf020665 for <CHEM_GRAD@listserv.vt.edu>; Thu, 26 Mar 2015
+          15:44:15 -0400
+Received: by oifl3 with SMTP id l3so58701258oif.0 for
+          <CHEM_GRAD@listserv.vt.edu>; Thu, 26 Mar 2015 12:44:09 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=b4KIEbR+VZq4in2KymzfXZX+zxVZGIodQMucYYZ80Ls=;
+                         b=YN64781pidQcEJLbNtCeh454U3x3XRRTb3qHDaiEKsTBDKqSveOPOGdaZwtT7PslS9
+                         ew2iDE89pMrAxMaHDD6ogBK6SCr2mlWTOxseIR2crhyFNiM1xJIY79b0va+BYAquXCeY
+                         wPJOkOgcRBVVtYuEhS5PhoFFt3QVQsKTkfxc9o/i5IuHBJaAeG7dcc9rqgRtvTiNNSpG
+                         bf3KqiVNbVYNAkt3qZLmZ7WPxYSYnwrMOGYHKIJ7F1xC1PzanspBxqTp30ZMquetEIAJ
+                         riX4oCoUKwfTPyswE8lacM7nmfrOyJ8GJojYHiIcMacOEz3ddjRjXN3BveMSmIrxDUF1
+                         k2rQ==
+X-Gm-Message-State: ALoCoQmBSFS5op31j7oLWIxPJiTbJmoGA0QvyJWf/q565EuzCj6LN4YUJm9lbkDCzxPGhgMn+JArvi8IDNwxAPHq0XSsLBv0Lns5YT1FQLNSoUgXSp+3VeTVhPnRoKYR15+PLRJsjeo66mQ0m1lE+nsi0GIuJDWHhA==
+X-Received: by 10.182.128.234 with SMTP id nr10mr13368512obb.62.1427399049929;
+            Thu, 26 Mar 2015 12:44:09 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.182.128.234 with SMTP id nr10mr13368507obb.62.1427399049862;
+            Thu, 26 Mar 2015 12:44:09 -0700 (PDT)
+Received: by 10.202.54.85 with HTTP; Thu, 26 Mar 2015 12:44:09 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=089e015382b651f8ac0512363d25
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <CAHASyh1jmgpeBLGtxXfsX7KBNYbG4o0kcyfA6ZrcKD3qo4+E-g@mail.gmail.com>
+Date:         Thu, 26 Mar 2015 15:44:09 -0400
+Reply-To: Christopher Houser <clh70441@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Christopher Houser <clh70441@vt.edu>
+Subject: Chloronapthalene and nitrobenzene
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e015382b651f8ac0512363d25
+Content-Type: text/plain; charset=UTF-8
+
+Would anyone have any chloronapthalene and/or nitrobenzene I could use? I'd
+only need about 50 mL of each. Thanks.
+
+Sincerely,
+Chris Houser
+
+--089e015382b651f8ac0512363d25
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><div><div>Would anyone have any chloronapthalene and/or nitrobenzene I could use? I&#39;d only need about 50 mL of each. Thanks.<br><br></div>Sincerely,<br></div>Chris Houser<br></div>
+
+--089e015382b651f8ac0512363d25--

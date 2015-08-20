@@ -1,0 +1,155 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp582739qgt;
+        Thu, 25 Jun 2015 07:09:49 -0700 (PDT)
+X-Received: by 10.140.105.69 with SMTP id b63mr60293550qgf.66.1435241389915;
+        Thu, 25 Jun 2015 07:09:49 -0700 (PDT)
+Return-Path: <rjharrison@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id w76si29409372qge.98.2015.06.25.07.09.49
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jun 2015 07:09:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of rjharrison@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of rjharrison@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=rjharrison@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-oi0-x22e.google.com (mail-oi0-x22e.google.com [IPv6:2607:f8b0:4003:c06::22e])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5PE9hvf019591;
+	Thu, 25 Jun 2015 10:09:48 -0400
+Received: by oiyy130 with SMTP id y130so53218394oiy.0;
+        Thu, 25 Jun 2015 07:09:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        bh=QzUcPMnIvI+gJfsjFbYggT0BsgLbXkkGyfbtHexBRR8=;
+        b=HRdduOMAf0ub/dnHWuiR6Erj2j+UMJJa2B6immhSN+JgNhWtCdPm2RfyJWCMcB7UN7
+         ThGIGcMoZ4sCTCMOzvykAul/0Ts1wbJVU27OzFNFA2imFn+IOsjLo8Uner3h98sZNCF/
+         OCLlKCmRmWwKF0BWodm8w4j2P6Az/zL/f0D8EwoS7pJbnWg8x3ILC6Ws9fOiWk+2dQBh
+         cunhDxhxU5odjomauGLAQm/r1aNpZy6TQY9hwsLYais/oVsHA/vIOwquLitkUs2dmDG1
+         df5quMG9D6goKBxmwMAnCi9mYiW5xPi9C16INGH1zZzebbB7qVFqrvwV4MQuvTUXMsIw
+         NKrQ==
+MIME-Version: 1.0
+X-Received: by 10.202.187.138 with SMTP id l132mr37403437oif.31.1435241383575;
+ Thu, 25 Jun 2015 07:09:43 -0700 (PDT)
+Received: by 10.202.214.77 with HTTP; Thu, 25 Jun 2015 07:09:43 -0700 (PDT)
+In-Reply-To: <CALt-oT+LsZ27Gv99SaYkJLx8cHRKP4L+6oNvuAR_cNjhE=gjMg@mail.gmail.com>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com>
+	<DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+	<C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+	<CA+hCaPOtxoVXboGXm-6etY-=TdWJh4bO3eknTFE6XWnEiogo0w@mail.gmail.com>
+	<CAH0V_1Z5cKgjkkrLmjpFRNb+Eu0-Zh-H-2MuRr6WPV_kNSMpRA@mail.gmail.com>
+	<CALt-oT+LsZ27Gv99SaYkJLx8cHRKP4L+6oNvuAR_cNjhE=gjMg@mail.gmail.com>
+Date: Thu, 25 Jun 2015 10:09:43 -0400
+Message-ID: <CA+hCaPNYZrYf-FiJiRcR79LoLhxz-gBaSU7vXk0qFgJd+BiyLA@mail.gmail.com>
+Subject: Re: BlueRidge access for the SSS
+From: Robert Harrison <rjharrison@gmail.com>
+To: Justin Krometis <jkrometi@vt.edu>
+Cc: Daniel Crawford <crawdad@vt.edu>, Andrew James <amjames2@vt.edu>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+The compilers are there and they work.
+
+But the mpi stack seems to be absent.  E.g., loading the Intel15
+module results in mpicxx not being found.
+
+On Thu, Jun 25, 2015 at 9:01 AM, Justin Krometis <jkrometi@vt.edu> wrote:
+> Version 15 of the Intel compilers should be on BlueRidge and loadable wit=
+h
+> module load intel/15.1
+> If they're not installed (or if we don't have an MPI Stack built against
+> them), that is an oversight that we can fix, probably this afternoon.
+>
+> Thanks,
+> Justin
+>
+> On Jun 25, 2015 8:43 AM, "T. Daniel Crawford" <crawdad@vt.edu> wrote:
+>>
+>> Justin,
+>>
+>> Please see Robert's inquiry below.  What do you think?
+>>
+>> -TDC
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Thu, Jun 25, 2015 at 4:53 AM, Robert Harrison <rjharrison@gmail.com>
+>> wrote:
+>>>
+>>> Daniel ... any chance of getting a version of MPI compatible with the
+>>> Intel 15 compiler?   The present MPI seems to be set up for version
+>>> 13.  This is not crucial (so is not worth burning any favors for), but
+>>> it would help in case people wanted to try mixing MPI+OpenMP and would
+>>> also avoid people having to switch (version 15 has much better
+>>> parallelization and vectorization)
+>>>
+>>> Best wishes
+>>>
+>>> Robert
+>>>
+>>>
+>>>
+>>> On Wed, Jun 17, 2015 at 12:19 PM, Andrew James <amjames2@vt.edu> wrote:
+>>> > Dr. Crawford,
+>>> >
+>>> > The cerebro accounts are set up. The usernames are the same:
+>>> > dcheny
+>>> > dprince
+>>> > tguy
+>>> > rjharrison
+>>> >
+>>> > Passwords are the same as the usernames.  I also checked and the hpc
+>>> > account
+>>> > passwords are still =E2=80=9Chokies14=E2=80=9D.
+>>> >
+>>> > =E2=80=94AJ
+>>> >
+>>> > On Jun 16, 2015, at 4:53 PM, Eugene DePrince
+>>> > <eugene.deprince@gmail.com>
+>>> > wrote:
+>>> >
+>>> > Daniel,
+>>> >
+>>> > I can get into sirius, but I=E2=80=99m having trouble seeing
+>>> > blueridge1.arc.vt.edu
+>>> > from there
+>>> >
+>>> > [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu
+>>> > PING blueridge1.arc.vt.edu (198.82.161.171) 56(84) bytes of data.
+>>> > From sirius.chem.vt.edu (198.82.162.246) icmp_seq=3D1 Destination Hos=
+t
+>>> > Unreachable
+>>> >
+>>> > Eugene
+>>> >
+>>> > On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu> wrot=
+e:
+>>> >
+>>> > hpc01
+>>> >
+>>> >
+>>> >
+>>>
+>>>
+>>>
+>>> --
+>>> Robert J. Harrison
+>>> tel:  865-272-9262
+>>
+>>
+>
+
+
+
+--=20
+Robert J. Harrison
+tel:  865-272-9262

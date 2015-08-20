@@ -1,0 +1,221 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp1430796qgf;
+        Mon, 13 Apr 2015 07:27:50 -0700 (PDT)
+X-Received: by 10.140.192.15 with SMTP id n15mr18895640qha.28.1428935270059;
+        Mon, 13 Apr 2015 07:27:50 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 95si11022936qgg.48.2015.04.13.07.27.48
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 07:27:49 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.220.181;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3DERgdY010671;
+	Mon, 13 Apr 2015 10:27:47 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t3DBYweK022129;
+	Mon, 13 Apr 2015 10:27:42 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98907048 for CHEM_GRAD@LISTSERV.VT.EDU; Mon, 13 Apr 2015 10:27:42
+          -0400
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:250:3bcb:5b17]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t3DERfdO030287
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Mon, 13 Apr 2015 10:27:41 -0400
+Received: from mail-qk0-f181.google.com (mail-qk0-f181.google.com
+          [209.85.220.181]) by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t3DERZSu031914 for <CHEM_GRAD@listserv.vt.edu>; Mon, 13 Apr 2015
+          10:27:40 -0400
+Received: by qkx62 with SMTP id 62so182772479qkx.0 for
+          <CHEM_GRAD@listserv.vt.edu>; Mon, 13 Apr 2015 07:27:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:references:to :message-id:mime-version;
+                         bh=ZKYssgxPZiKFZoeqvto1G7fYNY0+cvRBcSVHhIzDT7E=;
+                         b=K1fRryP3jpih2CcwakX2hhryJLR+9QAx7/rB///srgFossKdy3TZPpL0GkUYDi3mrl
+                         NhSOcOl85zdNnmCeDXg29DHitMFKxjU/8QGJr04rMmJCBaFcfZbhIDufWaa3q7shzXXI
+                         SED9TKEmfciCbTrDj7fiIrbNwBwzMf5GfZeQWHo+S63XDz5Cmo9+zF1Ey+TfL60Ij2Y5
+                         Hl70i2fO3seTzm9L1vtugep93q/raCiNgpMdHDP4RudawOXUb4ZmT5V+AOMLhs/2fOs+
+                         cl/k1tBqRLCsU9qa5bZ2k2SrYQ1xhNfj0h8mGWCNp7q8j5RPCqZDWJBY9/j2Npxr9RHK
+                         wotQ==
+X-Gm-Message-State: ALoCoQkyJWnbMLrum1jx+MEpouBArx8M5ObjeKAfa7ZuyZg/gleEM91UnXWpLoSLY8MOrMChAwQR09u+e6M3Fv9B6nOY/4W9anPETlBoKRDH2qlRCpSbmHbT+pYo4Xcm6hhh1JUJSjFxiFFynd4tnVF/dqGYzkuD7IwvzivG3oXacn1elJ/qrw5UL32eelIJD7DiqroGfRuD
+X-Received: by 10.55.20.141 with SMTP id 13mr30369373qku.30.1428935255160; Mon,
+            13 Apr 2015 07:27:35 -0700 (PDT)
+X-Received: by 10.55.20.141 with SMTP id 13mr30369360qku.30.1428935255094; Mon,
+            13 Apr 2015 07:27:35 -0700 (PDT)
+Received: from ?IPv6:2607:b400:24:8006:b997:ed48:b082:264f?
+          ([2607:b400:24:8006:b997:ed48:b082:264f]) by mx.google.com with
+          ESMTPSA id n83sm5871416qkh.31.2015.04.13.07.27.34 for
+          <CHEM_GRAD@listserv.vt.edu> (version=TLSv1 cipher=RC4-SHA
+          bits=128/128); Mon, 13 Apr 2015 07:27:34 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_5884AEAB-DC70-4AD5-A8E6-60A70E03FC72"
+References: <CALT+6YXw0vC+Kh_0bBWy9F7C0uqjTQOC18ZnN31xg00fXxGkiA@mail.gmail.com>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <A7BF48D5-4154-4434-A608-30FD3BD71C50@vt.edu>
+Date:         Mon, 13 Apr 2015 10:27:33 -0400
+Reply-To: "John R. Morris" <jrmorris@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "John R. Morris" <jrmorris@vt.edu>
+Subject: Fwd: GSA Graduation Gown/Cap Free Rental Program
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_5884AEAB-DC70-4AD5-A8E6-60A70E03FC72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+A great opportunity, below, if you are graduating!
+John
+
+
+Begin forwarded message:
+
+> From: Marilynn King <making3@vt.edu>
+> Subject: Fwd: GSA Graduation Gown/Cap Free Rental Program
+> Date: April 13, 2015 10:24:41 AM EDT
+> To: GRADUATEDIRECTORS@LISTSERV.VT.EDU
+> Reply-To: Marilynn King <making3@vt.edu>
+>=20
+> Please Share with all Master and PhD Students
+>=20
+>=20
+> Graduation Gown and Cap Rental Program
+> The Graduate Student Assembly Graduation Gown Rental program will loan =
+a limited number of graduation gowns and caps to graduate students =
+participating in Spring 2015 graduation ceremonies. This rental program =
+is free and only provides gown and (one size fits all) cap. The hood and =
+tassle are not provided by GSA and should be purchased by the student. =
+As this is rental program, students will be held fully responsible for =
+returning the gown and cap in fair condition to the Graduate Student =
+Assembly. Interested students who fill out this survey completely will =
+be entered in a lottery. This survey will be open until Monday, April 20 =
+at 5:00 p.m. Please review complete guidelines and important dates and =
+deadlines on the GSA website. Contact Richard Rodrigues (richrr@vt.edu) =
+with questions.
+>=20
+
+-------
+John R. Morris
+Professor and Graduate Program Director
+Department of Chemistry
+Virginia Tech
+Blacksburg, VA 24061
+Ph. 540-231-2472
+http://www.chem.vt.edu/chem-dept/jmorris/
+
+
+
+--Apple-Mail=_5884AEAB-DC70-4AD5-A8E6-60A70E03FC72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">A =
+great opportunity, below, if you are =
+graduating!<div>John</div><div><br><div><br><div>Begin forwarded =
+message:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>From: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">Marilynn King &lt;<a =
+href=3D"mailto:making3@vt.edu">making3@vt.edu</a>&gt;<br></span></div><div=
+ style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>Subject: =
+</b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><b>Fwd: GSA Graduation Gown/Cap Free Rental =
+Program</b><br></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Date: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">April 13, 2015 10:24:41 AM EDT<br></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>To: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;"><a =
+href=3D"mailto:GRADUATEDIRECTORS@LISTSERV.VT.EDU">GRADUATEDIRECTORS@LISTSE=
+RV.VT.EDU</a><br></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Reply-To: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">Marilynn King &lt;<a =
+href=3D"mailto:making3@vt.edu">making3@vt.edu</a>&gt;<br></span></div><br>=
+<div dir=3D"ltr"><div class=3D"gmail_default" =
+style=3D"text-align:center"><b><font face=3D"comic sans ms, sans-serif" =
+style=3D"background-color:rgb(255,255,0)">Please Share with all Master =
+and PhD Students</font></b></div><div class=3D"gmail_default" =
+style=3D"text-align:center"><b><font face=3D"comic sans ms, =
+sans-serif"><br></font></b></div><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div><div><br><div><b>Graduation Gown and Cap Rental =
+Program</b><br>
+				The Graduate Student Assembly Graduation =
+Gown Rental program will=20
+loan a limited number of graduation gowns and caps to graduate students=20=
+
+participating in Spring 2015 graduation ceremonies. This rental program=20=
+
+is free and only provides gown and (one size fits all) cap. The hood and
+ tassle are not provided by <span>GSA</span> and should be=20
+purchased by the student. As this is rental program, students will be=20
+held fully responsible for returning the gown and cap in fair condition=20=
+
+to the Graduate Student Assembly. Interested students who fill out <a =
+href=3D"https://survey.vt.edu/survey/entry.jsp?id=3D1428079193290" =
+target=3D"_blank">this</a> survey completely will be entered in a =
+lottery. This survey will be open until <span><span><span><span>Monday, =
+April 20 at 5:00 p.m.</span></span></span></span> Please review complete =
+guidelines and important dates and deadlines on <a =
+href=3D"http://blogs.lt.vt.edu/graduatestudentassembly/gsa-graduation-gown=
+-rental-program/" target=3D"_blank">the <span>GSA</span> website</a>. =
+Contact Richard Rodrigues (<a href=3D"mailto:richrr@vt.edu" =
+target=3D"_blank">richrr@vt.edu</a>) with questions.<span =
+class=3D"HOEnZb"><font color=3D"#888888"><br =
+clear=3D"all"><br></font></span></div></div></div></div></div>
+</div>
+</blockquote></div><br><div apple-content-edited=3D"true">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: =
+normal; font-weight: normal; letter-spacing: normal; line-height: =
+normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">-------<br>John R. =
+Morris<br>Professor and Graduate Program Director<br>Department of =
+Chemistry<br>Virginia Tech<br>Blacksburg, VA 24061<br>Ph. =
+540-231-2472<br><a =
+href=3D"http://www.chem.vt.edu/chem-dept/jmorris/">http://www.chem.vt.edu/=
+chem-dept/jmorris/</a><br><br></div></span></span>
+</div>
+<br></div></body></html>=
+
+--Apple-Mail=_5884AEAB-DC70-4AD5-A8E6-60A70E03FC72--

@@ -1,0 +1,327 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp969184qgt;
+        Sun, 10 May 2015 04:48:41 -0700 (PDT)
+X-Received: by 10.140.237.147 with SMTP id i141mr8021059qhc.25.1431258521668;
+        Sun, 10 May 2015 04:48:41 -0700 (PDT)
+Return-Path: <acs-mh-bounces@lists.msmc.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 47si10227534qgt.45.2015.05.10.04.48.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 May 2015 04:48:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of acs-mh-bounces@lists.msmc.edu designates 192.245.86.38 as permitted sender) client-ip=192.245.86.38;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of acs-mh-bounces@lists.msmc.edu designates 192.245.86.38 as permitted sender) smtp.mail=acs-mh-bounces@lists.msmc.edu
+Received: from lists.msmc.edu (LISTS.MSMC.EDU [192.245.86.38])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with SMTP id t4ABmZpc007841
+	for <amjames2@vt.edu>; Sun, 10 May 2015 07:48:40 -0400
+Received: from lists.msmc.edu (localhost.localdomain [127.0.0.1])
+	by lists.msmc.edu (Postfix) with ESMTP id F30834ABD7;
+	Sun, 10 May 2015 11:48:22 +0000 (UTC)
+X-Original-To: acs-mh@lists.msmc.edu
+Delivered-To: acs-mh@lists.msmc.edu
+Received: from mx1.msmc.edu (MX1.MSMC.EDU [192.245.86.35])
+	by lists.msmc.edu (Postfix) with ESMTP id 21F1A4ABD7
+	for <acs-mh@lists.msmc.edu>; Fri,  8 May 2015 20:51:54 +0000 (UTC)
+Received: from mx1.msmc.edu (localhost.localdomain [127.0.0.1])
+	by localhost (Email Security Appliance) with SMTP id
+	040181226A9C_54D21EAB
+	for <acs-mh@lists.msmc.edu>; Fri,  8 May 2015 20:51:54 +0000 (GMT)
+Received: from smtp-outbound3.marist.edu (smtp-outbound3.marist.edu
+	[148.100.49.24])
+	by mx1.msmc.edu (Sophos Email Appliance) with SMTP id
+	8C80E1226EF7_54D21E9F
+	for <acs-mh@lists.msmc.edu>; Fri,  8 May 2015 20:51:53 +0000 (GMT)
+Received: from smtp.notes.marist.edu (smtp.notes.marist.edu [148.100.49.121])
+	by smtp-outbound3.marist.edu with ESMTP id sp8vzJ7zy7eJFH3i for
+	<acs-mh@lists.msmc.edu>; Fri, 08 May 2015 16:51:52 -0400 (EDT)
+To: acs-mh@lists.msmc.edu
+MIME-Version: 1.0
+X-KeepSent: 24924536:5FCCB4DB-85257E3F:004F095A;
+ type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 8.5.3 September 15, 2011
+Message-ID: <OF24924536.5FCCB4DB-ON85257E3F.004F095A-85257E3F.00729CA3@marist.edu>
+From: Irene Buccieri <Irene.Buccieri@marist.edu>
+Date: Fri, 8 May 2015 16:51:51 -0400
+X-MIMETrack: Serialize by Router on The-Globe/Marist(Release 9.0.1FP1HF281 |
+	June 16, 2014) at 05/08/2015 16:51:52,
+	Serialize complete at 05/08/2015 16:51:52
+X-Virus-Scanned: by bsmtpd at marist.edu
+X-Sophos-SenderHistory: ip=148.100.49.24,fs=634642,da=751331,mc=7
+X-Sophos-ESA: [mx1.msmc.edu] 3.8.1.1, Antispam-Engine: 2.7.2.1390750,
+	Antispam-Data: 2015.5.8.203917
+X-SEA-Spam: Gauge=XIIIII, Probability=15%, Report='
+	SUBJ_ENDS_IN_SPACE 1.5, BODYTEXTH_SIZE_10000_LESS 0,
+	BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_10000_PLUS 0, DATE_TZ_NA 0,
+	FROM_EDU_TLD 0, GIF_GCT_NOTSORTED 0, GIF_VERSION89A 0,
+	SINGLE_IMG_ATTACH 0, SPF_NONE 0, URI_ENDS_IN_PHP 0, __ANY_URI 0,
+	__C230066_P1_5 0, __C230066_P2 0, __C230066_P5 0,
+	__CP_URI_IN_BODY 0, __CT 0, __CTYPE_HAS_BOUNDARY 0,
+	__CTYPE_MULTIPART 0, __EMBEDDED_IMG 0, __EXTRA_MPART_TYPE_N1 0,
+	__GIF_ATTACHED 0, __GIF_WIDTH_100 0, __HAS_FROM 0, __HAS_HTML 0,
+	__HAS_MSGID 0, __HAS_X_MAILER 0, __LINES_OF_YELLING 0,
+	__MIME_HTML 0, __MIME_VERSION 0, __PHISH_SPEAR_GREETING 0,
+	__RATWARE_SIGNATURE_3_N1 0, __SANE_MSGID 0, __SUBJ_ALPHA_END 0,
+	__SUBJ_ALPHA_NEGATE 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0,
+	__URI_NO_PATH 0, __URI_NS '
+X-MailScanner: Found to be clean, Found to be clean
+X-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=1.143,
+	required 5, autolearn=disabled, DNS_FROM_AHBL_RHSBL 0.31,
+	HTML_IMAGE_ONLY_32 0.84, HTML_MESSAGE 0.00), not spam, SpamAssassin (not cached, score=1.142,
+	required 5, autolearn=disabled, DNS_FROM_AHBL_RHSBL 0.31,
+	HTML_IMAGE_ONLY_32 0.84, HTML_MESSAGE 0.00, SPF_HELO_PASS -0.00)
+X-MailScanner-SpamScore: s, s
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_IMAGE_ONLY_32,
+	HTML_MESSAGE,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Mailman-Approved-At: Sun, 10 May 2015 11:48:20 +0000
+Subject: [acs-mh] Marist College seeks Adjunct Instructor for Chemistry
+X-BeenThere: acs-mh@lists.msmc.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: American Chemical Society - Mid-Hudson Discussion List
+	<acs-mh.lists.msmc.edu>
+List-Unsubscribe: <http://lists.msmc.edu/mailman/listinfo/acs-mh>,
+	<mailto:acs-mh-request@lists.msmc.edu?subject=unsubscribe>
+List-Archive: <http://lists.msmc.edu/mailman/private/acs-mh>
+List-Post: <mailto:acs-mh@lists.msmc.edu>
+List-Help: <mailto:acs-mh-request@lists.msmc.edu?subject=help>
+List-Subscribe: <http://lists.msmc.edu/mailman/listinfo/acs-mh>,
+	<mailto:acs-mh-request@lists.msmc.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0748309587=="
+Sender: acs-mh-bounces@lists.msmc.edu
+Errors-To: acs-mh-bounces@lists.msmc.edu
+X-MailScanner-From: acs-mh-bounces@lists.msmc.edu
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multipart message in MIME format.
+--===============0748309587==
+Content-Type: multipart/related; boundary="=_related 00729CA385257E3F_="
+
+This is a multipart message in MIME format.
+--=_related 00729CA385257E3F_=
+Content-Type: multipart/alternative;
+	boundary="=_alternative 00729CA385257E3F_="
+
+
+--=_alternative 00729CA385257E3F_=
+Content-Type: text/plain; charset="US-ASCII"
+
+Dear Members,
+
+The Department of Chemistry, Biochemistry, & Physics at Marist College 
+invites applications for part-time adjunct instructors to teach General 
+Chemistry Lab starting at the end of August for the Fall 2015 semester. 
+Other courses, such as Introduction to Organic Chemistry (lecture and 
+lab), may become available in the Spring 2016 semester. 
+
+Master's degree in Chemistry or closely related field required; PhD and 
+college teaching experience preferred. The ideal candidate must be able to 
+collaborate with other lab instructors in developing best teaching 
+practices and maintaining lab protocols.
+
+Marist College is an independent and comprehensive liberal arts 
+institution located in New York's historic Hudson River Valley.  Situated 
+on 210 acres overlooking the Hudson River, it enrolls 4,787 traditional 
+undergraduate, 799 full and part-time graduate and 543 continuing 
+education students. Marist also has a branch campus in Florence, Italy, 
+and extension sites throughout New York. Marist has been recognized for 
+excellence by U.S. News & World Report, TIME Magazine, The Princeton 
+Review's The Best 376 Colleges, and Barron's Best Buys in College 
+Education and is noted for being a pioneer in the area of online degree 
+programs. 
+
+To learn more or to apply, please visit: 
+https://jobs.marist.edu/view_position.php?postingid=673. Only online 
+applications are accepted.
+
+Marist College is strongly committed to the principle of diversity and is 
+especially interested in receiving applications from members of ethnic and 
+racial minority groups, women, persons with disabilities, veterans, and 
+persons from other under-represented groups.
+
+AN EQUAL OPPORTUNITY/AFFIRMATIVE ACTION EMPLOYER
+
+
+Sincerely,
+
+Irene Buccieri
+Assistant Director for Strategic Recruitment
+
+3399 North Road
+Poughkeepsie, NY 12601
+Irene.Buccieri@Marist.edu
+Office: 845.575.3349
+Direct Line: 845.575.3278
+Fax: 845.575.3348
+www.marist.edu
+Jobs at Marist: http://jobs.marist.edu
+--=_alternative 00729CA385257E3F_=
+Content-Type: text/html; charset="US-ASCII"
+
+<font size=2 face="sans-serif">Dear Members,</font>
+<br>
+<br><font size=2 face="sans-serif">The Department of Chemistry, Biochemistry,
+&amp; Physics at Marist College invites applications for part-time adjunct
+instructors to teach General Chemistry Lab starting at the end of August
+for the Fall 2015 semester. Other courses, such as Introduction to Organic
+Chemistry (lecture and lab), may become available in the Spring 2016 semester.
+</font>
+<br>
+<br><font size=2 face="sans-serif">Master's degree in Chemistry or closely
+related field required; PhD and college teaching experience preferred.
+The ideal candidate must be able to collaborate with other lab instructors
+in developing best teaching practices and maintaining lab protocols.</font>
+<br>
+<br><font size=2 face="sans-serif">Marist College is an independent and
+comprehensive liberal arts institution located in New York's historic Hudson
+River Valley. &nbsp;Situated on 210 acres overlooking the Hudson River,
+it enrolls 4,787 traditional undergraduate, 799 full and part-time graduate
+and 543 continuing education students. Marist also has a branch campus
+in Florence, Italy, and extension sites throughout New York. Marist has
+been recognized for excellence by <i>U.S. News &amp; World Report, TIME
+Magazine, The Princeton Review's The Best 376 Colleges</i>, and <i>Barron's
+Best Buys in College Education</i> and is noted for being a pioneer in
+the area of online degree programs. </font>
+<br>
+<br><font size=2 face="sans-serif">To learn more or to apply, please visit:
+</font><a href="https://jobs.marist.edu/view_position.php?postingid=673"><font size=2 face="sans-serif">https://jobs.marist.edu/view_position.php?postingid=673</font></a><font size=2 face="sans-serif">.
+Only online applications are accepted.</font>
+<br>
+<br><font size=2 face="sans-serif">Marist College is strongly committed
+to the principle of diversity and is especially interested in receiving
+applications from members of ethnic and racial minority groups, women,
+persons with disabilities, veterans, and persons from other under-represented
+groups.</font>
+<br>
+<div align=center><font size=2 face="sans-serif"><b>AN EQUAL OPPORTUNITY/AFFIRMATIVE
+ACTION EMPLOYER</b></font></div>
+<br>
+<br>
+<br><font size=2 face="sans-serif">Sincerely,</font>
+<br>
+<br><font size=2 face="sans-serif">Irene Buccieri</font>
+<br><font size=2 face="sans-serif">Assistant Director for Strategic Recruitment</font>
+<br><img src=cid:_1_0C8FCFC80C8FCD5C00729CA385257E3F>
+<br><font size=2 face="sans-serif">3399 North Road</font>
+<br><font size=2 face="sans-serif">Poughkeepsie, NY 12601<br>
+Irene.Buccieri@Marist.edu<br>
+Office: 845.575.3349</font>
+<br><font size=2 face="sans-serif">Direct Line: 845.575.3278<br>
+Fax: 845.575.3348<br>
+</font><a href=www.marist.edu><font size=2 face="sans-serif">www.marist.edu</font></a>
+<br><font size=2 face="sans-serif">Jobs at Marist: </font><a href=http://jobs.marist.edu/><font size=2 face="sans-serif">http://jobs.marist.edu</font></a>
+--=_alternative 00729CA385257E3F_=--
+--=_related 00729CA385257E3F_=
+Content-Type: image/gif
+Content-ID: <_1_0C8FCFC80C8FCD5C00729CA385257E3F>
+Content-Transfer-Encoding: base64
+
+R0lGODlhsAA+AOYAAP///9ggKNggMNgYKAAAANAgKNAQIAgICNAgMPDo6MgYIBAQEOC4uBgYGPDw
+8Pjw8NAYIPD4+Dg4ONAYKNAwOOCgqCAgIEBAQMgQIOi4uPDQ0Pjo8Ojo6MAwOFhYWDAwMFBQUCgo
+KLCwsMhASOjQ0MhYYNgYMGBgYPDg4EhISNAoONhweLi4uNjY2NAQGPDY2JCQkNgQIOjIyICAgKCg
+oMDAwMgQGMggKMggMMjIyODg4Hh4eHBwcKioqPDI0IiIiJiYmMBYWMgYKGhoaMAgMPj48NgYIOCo
+qOjI0MAYIMAoMMhQWOi4wPDY4Pjo6NBgcNBocNDQ0NiQmMAgKMgwQMhIUOAYKOjQ2Pjw6MAQIMhY
+aMhocNAIGOCYoOjAwPDg2MgwOMg4SNBQWNBYYNBYaNBoeNBweNhwgNiYoOCgoOCosPDg6Pjw+LgQ
+ILgoMMAYKMBAUNAIINAQKNhgaOAYMMgIGMgQKMggOMgoOMhgaMhgcNA4SNh4gOCwuOiwsPDQ2CwA
+AAAAsAA+AEAI/wABCBxIEEAEggcLKlzIsKHDhxAjSmyYkGGEigMxTtyosMQTKTYCiBSJocJDNVOk
+3BgZYICKBBKXxBgwgAoWiRUMmEAQQACEEQsfLIEQAAGCCTbMMEzQYUKBAE8NZFBYIcuAKV4eykBg
+hMgVgXO4dIBJkIECkQJaUtigkIQSLnwelggi8MudAQgECKBjZMnCJ2GKAGCQhOUACmQbXiEiZURR
+oxPiSDHoMKeAvD6BLhxaQG+AOnE1AmA6QGTUqQTRxOkpcgAGPGKkkGjooKJos2gFHGbLceDcgloM
+lDYRwAqO2RyIxB2Ie6TLxAqlvEFBEIqBnggKDLhDnaFlAQUK/P8UXHbKgKgdZDgkbTqA1IYPpCjB
+4GJk+KcsobpQyrC53t29+UaXQn5c59wU6hXUXGsvbSbGQgdVYIN297mwXEE57dTTTwyNEYNI2RlR
+xQMLMeUUVO6hNhAKOODwxUQrXDeAAUz0dxZrAG7kRBMZ7BGDEWFk8EJ3AyVARQxwkDfQC0OmoQBN
+UKogQxMv+MAHERDIMUIGX5BYkBN/NOGDClBCiUMGKDCJghQY0KQdBGH88YIGLygJwBFtFmBUAThU
+8IIUKKzBpAxgQNmSAV2k+QKJXxDxURVCcHEDGl4S9EcJGGBwRqUEOaFmF22WiYAMKDTRBKcN6RAC
+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
+36R+2NziLv7iMB7jLx4QADs=
+--=_related 00729CA385257E3F_=--
+
+--===============0748309587==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+acs-mh mailing list
+acs-mh@lists.msmc.edu
+http://lists.msmc.edu/mailman/listinfo/acs-mh
+
+--===============0748309587==--

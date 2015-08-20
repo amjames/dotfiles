@@ -1,0 +1,105 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1236711qgt;
+        Thu, 28 May 2015 12:30:26 -0700 (PDT)
+X-Received: by 10.140.132.17 with SMTP id 17mr5671974qhe.36.1432841426612;
+        Thu, 28 May 2015 12:30:26 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id o90si3360581qgd.117.2015.05.28.12.30.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 May 2015 12:30:26 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.181 as permitted sender) client-ip=209.85.223.181;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.181 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f181.google.com (mail-ie0-f181.google.com [209.85.223.181])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4SJUKFH023764
+	for <amjames2@vt.edu>; Thu, 28 May 2015 15:30:26 -0400
+Received: by iesa3 with SMTP id a3so46553273ies.2
+        for <amjames2@vt.edu>; Thu, 28 May 2015 12:30:20 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=kTgBTL6Die2teKl9zshkEZYrGlQ+fo4mlFt8MRVONN0=;
+        b=mGR70Nw0M1mp8E9Za+MXXjGBN9kWUasiKNmNvG6ZR0eYv/KGxyrZf52lo/3eMoq+C4
+         P6d0tU31dq8acKDLyqwBsDQayGrfMfyL6fZgdFT6oj6s0dbZwhiqotfvSY1SQGf8bqxT
+         JAbuwuJeYZ+twOoSCsaxsAmh+xwd04vqa1SfLe0iOvC2/saxdFpQ6tB4mSW/cl7zDERQ
+         XBWEiMSMn4EzBquPfXHR5+YmY47v81xfEOi/tEZUxO5hQnQMlfG2MHF7Efn5JFVbfHdl
+         UIBewUURF6iYiFk/lQWBldfSUWC4x0DtZ/0dFW1FbkedSDv3x3oNGWOZ+rXMqS9vYQYh
+         cgBg==
+X-Gm-Message-State: ALoCoQmrwoMZsOmLhTIBRn9TXEJvdf75tFRacGjEgCb5dD1826j2lFlRdXN2kseFdfPc2gy3N2JMyqocJpPH/Hz5TDJnH3ESyfnsV3xxI7PJQq8YzqetTi2JRt/SAlbfsAtXRB5WHrJjq+++F25dIM5ByOqpxdR/QA==
+X-Received: by 10.42.255.200 with SMTP id nj8mr11062616icb.18.1432841420853;
+        Thu, 28 May 2015 12:30:20 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.255.200 with SMTP id nj8mr11062601icb.18.1432841420625;
+ Thu, 28 May 2015 12:30:20 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Thu, 28 May 2015 12:30:20 -0700 (PDT)
+In-Reply-To: <D1BB65B1-B591-444B-9ABD-2B272C3A7BA8@vt.edu>
+References: <D1BB65B1-B591-444B-9ABD-2B272C3A7BA8@vt.edu>
+Date: Thu, 28 May 2015 15:30:20 -0400
+Message-ID: <CAH0V_1bczb66HAfKzoZ3gVcu1d8-jbu5wXfOCtqYw1TjtfApQQ@mail.gmail.com>
+Subject: Re: SSS new applicants
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=bcaec50fe70be56ba2051729636d
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec50fe70be56ba2051729636d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Please go ahead and accept Kaye into the SSS.  Do you know if her
+registration fee for the MRPSS was refunded?  Also, are we still at 25 paid
+registrants for the MRPSS?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, May 28, 2015 at 3:17 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello Dr. Crawford,
+>
+> I just looked at the new entries on the SSS application survey.  Kaye
+> Archer has applied and I attached her resume and research statement if yo=
+u
+> want to look at them.  However there were no other new applications at th=
+is
+> point I will check back tomorrow.
+>
+> =E2=80=94AJ
+
+--bcaec50fe70be56ba2051729636d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Please go ahead and accept Kaye into the SSS.=C2=A0 Do you=
+ know if her registration fee for the MRPSS was refunded?=C2=A0 Also, are w=
+e still at 25 paid registrants for the MRPSS?<div><br></div><div>-TDC</div>=
+</div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail=
+_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a h=
+ref=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></d=
+iv></div></div>
+<br><div class=3D"gmail_quote">On Thu, May 28, 2015 at 3:17 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">H=
+ello Dr. Crawford,<br>
+<br>
+I just looked at the new entries on the SSS application survey.=C2=A0 Kaye =
+Archer has applied and I attached her resume and research statement if you =
+want to look at them.=C2=A0 However there were no other new applications at=
+ this point I will check back tomorrow.<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+=E2=80=94AJ </font></span></blockquote></div><br></div>
+
+--bcaec50fe70be56ba2051729636d--

@@ -1,0 +1,133 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp154348qgt;
+        Fri, 5 Jun 2015 11:25:35 -0700 (PDT)
+X-Received: by 10.140.49.11 with SMTP id p11mr5632053qga.60.1433528735707;
+        Fri, 05 Jun 2015 11:25:35 -0700 (PDT)
+Return-Path: <em14j@my.fsu.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id gu9si8199604qcb.24.2015.06.05.11.25.35
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 11:25:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of em14j@my.fsu.edu designates 157.56.111.66 as permitted sender) client-ip=157.56.111.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of em14j@my.fsu.edu designates 157.56.111.66 as permitted sender) smtp.mail=em14j@my.fsu.edu
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0066.outbound.protection.outlook.com [157.56.111.66])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55IPSOZ013878
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 14:25:34 -0400
+Received: from BN3PR0501MB1428.namprd05.prod.outlook.com (25.160.117.15) by
+ BN3PR0501MB1426.namprd05.prod.outlook.com (25.160.117.148) with Microsoft
+ SMTP Server (TLS) id 15.1.184.17; Fri, 5 Jun 2015 18:25:27 +0000
+Received: from BN3PR0501MB1428.namprd05.prod.outlook.com ([25.160.117.15]) by
+ BN3PR0501MB1428.namprd05.prod.outlook.com ([25.160.117.15]) with mapi id
+ 15.01.0184.014; Fri, 5 Jun 2015 18:25:27 +0000
+From: "Maradzike, Elvis" <em14j@my.fsu.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Molecular Response Properties Travel Itinerary
+Thread-Topic: Molecular Response Properties Travel Itinerary
+Thread-Index: AQHQn7udIljt8IrF3UuiMjNLaAgDw52eOViN
+Date: Fri, 5 Jun 2015 18:25:27 +0000
+Message-ID: <BN3PR0501MB1428C179885EEE12EC4509C89DB20@BN3PR0501MB1428.namprd05.prod.outlook.com>
+References: <D4FC5DFC-5ED8-4C25-AFD6-677BE5C26433@vt.edu>
+ <BN3PR0501MB1428D99F06A1A0D2B4BB77B69DB20@BN3PR0501MB1428.namprd05.prod.outlook.com>,<B589545A-5C8F-4CBA-BCAC-9CA4A7A4A0EB@vt.edu>
+In-Reply-To: <B589545A-5C8F-4CBA-BCAC-9CA4A7A4A0EB@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: vt.edu; dkim=none (message not signed) header.d=none;
+x-originating-ip: [128.186.186.90]
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0501MB1426;
+x-microsoft-antispam-prvs: <BN3PR0501MB1426116F80E89A91EB78625C9DB20@BN3PR0501MB1426.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006)(520003)(3002001);SRVR:BN3PR0501MB1426;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0501MB1426;
+x-forefront-prvs: 05986C03E0
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(24454002)(51704005)(41924003)(377454003)(62966003)(77156002)(5001960100002)(107886002)(110136002)(450100001)(2171001)(189998001)(76576001)(46102003)(99286002)(74316001)(2950100001)(66066001)(102836002)(86362001)(19580395003)(40100003)(87936001)(75432002)(2656002)(50986999)(54356999)(76176999)(33656002)(89122001)(88552001)(5002640100001)(19580405001)(92566002)(122556002)(106116001)(89472002);DIR:OUT;SFP:1101;SCL:1;SRVR:BN3PR0501MB1426;H:BN3PR0501MB1428.namprd05.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: my.fsu.edu
+X-MS-Exchange-CrossTenant-originalarrivaltime: 05 Jun 2015 18:25:27.5808
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: dc046083-4ce8-437a-bd49-e995b65e4d11
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0501MB1426
+X-Spam-Status: No, score=0.0 required=5.0 tests=RCVD_IN_DNSWL_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Andrew,
+
+The other student (Daniel Nascimento) will be arriving at 3:40PM as we had =
+originally intended. I had to choose a flight that gets to ROA earlier beca=
+use there were no seats left on the other flight.
+
+Daniel will e-mail you his itinerary separately, but his flight is schedule=
+d to land at 3:40PM.
+
+Daniel and I are on the same itinerary on our return to Tallahassee.
+
+Thank you.
+
+Elvis
+
+
+
+________________________________________
+From: Andrew James <amjames2@vt.edu>
+Sent: Friday, June 5, 2015 2:15 PM
+To: Maradzike, Elvis
+Subject: Re: Molecular Response Properties Travel Itinerary
+
+Elvis,
+
+Thanks I got your itinerary, Could just tell me what the other student=92s =
+name is so I can mark down the time for both of you?
+
+Thanks!
+Andrew
+> On Jun 5, 2015, at 1:31 PM, Maradzike, Elvis <em14j@my.fsu.edu> wrote:
+>
+> Hello Andrew,
+>
+> I am writing on behalf of myself and another student. Both of us will boo=
+k the same flight that gets to Roanoke Airport at 3:40P.M. on June 28. I wi=
+ll send you out itinerary as soon as we have booked the tickets.
+>
+> Thank you,
+>
+> Elvis Maradzike
+>
+> Graduate Student
+>
+> Department of Chemistry and Biochemistry
+>
+> Florida State University.
+>
+> ________________________________________
+> From: Andrew James <amjames2@vt.edu>
+> Sent: Friday, June 5, 2015 11:49 AM
+> To: Holidays in United States
+> Subject: Molecular Response Properties Travel Itinerary
+>
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing=
+ in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your f=
+light itinerary so that I can make sure there is someone to meet you at the=
+ airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest=
+ parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+

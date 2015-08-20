@@ -1,0 +1,131 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp744987qgt;
+        Sat, 6 Jun 2015 11:54:15 -0700 (PDT)
+X-Received: by 10.55.33.99 with SMTP id h96mr17329463qkh.77.1433616854965;
+        Sat, 06 Jun 2015 11:54:14 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id h72si10721601qhc.105.2015.06.06.11.54.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 06 Jun 2015 11:54:14 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t56Is7C4013869
+	for <amjames2@vt.edu>; Sat, 6 Jun 2015 14:54:12 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=1DkK7T37L8xaN9NPR5r5ej8QDiQ=; b=I9Ogxce5RCarsz7l
+	7qXhTBYGSR2XFcV4kF5mw8DMBAK+R4kPMQZ17zH5ybzMIhmJK5WNiC3wvAR5NPHW
+	cnCLE7W1NJbXlFufVA8RVQDBkNtpO4acjfrXNlJaKEpO5HdUbxO/0YEp/OOgl0uz
+	tVJTqr2sGsAngZAFXNiDeCxOdqU=
+Received: by filter0346p1mdw1.sendgrid.net with SMTP id filter0346p1mdw1.31834.557341CA10
+        2015-06-06 18:54:05.851567072 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-042 (SG) with ESMTP id 14dca390bec.515e.84116
+	for <amjames2@vt.edu>; Sat, 06 Jun 2015 18:54:05 +0000 (UTC)
+Date: Sat, 06 Jun 2015 11:54:05 -0700
+From: fevangelista <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f64230750d6722c77a10551df3ba12534cfdd14cf00c92cf00000001118b03cd92a163ce00b04f14@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50/11554580@github.com>
+In-Reply-To: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50@github.com>
+References: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50@github.com>
+Subject: Re: [psi4] slight clean-up of setup: remove inconsistent =, remove
+ unused argument, rename build math, clarify explicit_libs role (972ee80)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_557341cdaa6c9_50293f7ed6e452c015835c0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: fevangelista
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f64230750d6722c77a10551df3ba12534cfdd14cf00c92cf00000001118b03cd92a163ce00b04f14@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64230750d6722c77a10551df3ba12534cfdd14cf00c92cf00000001118b03cd92a163ce00b04f14@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QghIeqC2xvyyuWQET3a2c48E-zBnks5oQzlNgaJpZM4E6fnT>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlBIWFqpaD6swHdQPwCUNN6X/GCwxbUfOvhOH
+ Fmd4M/MXE5gOCmQWrd3LNoIxp/CcrmPZG+9b6yHJRCGUaAi4OVwtFUIcabgmIV8qeDztHlDXQyYumO
+ 7N4NXpq6eBYGH+c=
+X-Spam-Status: No, score=-1.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD,URI_NOVOWEL autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_557341cdaa6c9_50293f7ed6e452c015835c0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I had some trouble compiling this commit.  I encountered two problems:
+
+1. In /src/bin/dmrg/dmrgscf.cc the compiler (gcc4.8.2) complained that it could not find <Irreps.h>.  Looking at the code I noticed that there were two versions of $include for the file Irrep.h.  I could work around this problem by using the #include statements that are currently commented in the repo file:
+
+#include "chemps2/Irreps.h"
+#include "chemps2/Problem.h"
+#include "chemps2/CASSCF.h"
+#include "chemps2/Initialize.h"
+#include "chemps2/EdmistonRuedenberg.h"
+//#include <Irreps.h>
+//#include <Problem.h>
+//#include <CASSCF.h>
+//#include <Initialize.h>
+//#include <EdmistonRuedenberg.h>
+
+I am not sure if this change should be committed, is any body else having the same problem?
+
+2. In my build the file /src/bin/psi4/gitversion.h was not created and so towards the end of the compilation I could not build bin/psi4.  I manually called /src/bin/psi4/gitversion.py to generate the gitversion.h file but that did not produce a working file because it did not contain a #define PSI_VERSION, on the contrary, it had the line "#undef PSI_VERSION".
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11554580
+----==_mimepart_557341cdaa6c9_50293f7ed6e452c015835c0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I had some trouble compiling this commit.  I encountered two problems:</p>
+
+<ol>
+<li>In /src/bin/dmrg/dmrgscf.cc the compiler (gcc4.8.2) complained that it could not find .  Looking at the code I noticed that there were two versions of $include for the file Irrep.h.  I could work around this problem by using the #include statements that are currently commented in the repo file:</li>
+</ol>
+
+<p>#include "chemps2/Irreps.h"<br>
+#include "chemps2/Problem.h"<br>
+#include "chemps2/CASSCF.h"<br>
+#include "chemps2/Initialize.h"<br>
+#include "chemps2/EdmistonRuedenberg.h"<br>
+//#include <br>
+//#include <br>
+//#include <br>
+//#include <br>
+//#include </p>
+
+<p>I am not sure if this change should be committed, is any body else having the same problem?</p>
+
+<ol>
+<li>In my build the file /src/bin/psi4/gitversion.h was not created and so towards the end of the compilation I could not build bin/psi4.  I manually called /src/bin/psi4/gitversion.py to generate the gitversion.h file but that did not produce a working file because it did not contain a #define PSI_VERSION, on the contrary, it had the line "#undef PSI_VERSION".</li>
+</ol>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11554580">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qr6e76O3SM9dArjGjvkZBIpe-qkJks5oQzlNgaJpZM4E6fnT.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11554580"></link>
+    <meta itemprop="name" content="View Commit"></meta>
+  </div>
+  <meta itemprop="description" content="View this Commit on GitHub"></meta>
+</div>
+
+----==_mimepart_557341cdaa6c9_50293f7ed6e452c015835c0--

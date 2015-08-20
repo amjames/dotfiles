@@ -1,0 +1,118 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2024537qgt;
+        Mon, 13 Jul 2015 18:17:10 -0700 (PDT)
+X-Received: by 10.140.149.141 with SMTP id 135mr56385914qhv.64.1436836630019;
+        Mon, 13 Jul 2015 18:17:10 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 36si22428999qkp.38.2015.07.13.18.17.09
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Jul 2015 18:17:09 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.182 as permitted sender) client-ip=209.85.223.182;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.182 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f182.google.com (mail-ie0-f182.google.com [209.85.223.182])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6E1H4NZ030105
+	for <amjames2@vt.edu>; Mon, 13 Jul 2015 21:17:09 -0400
+Received: by iebmu5 with SMTP id mu5so1541072ieb.1
+        for <amjames2@vt.edu>; Mon, 13 Jul 2015 18:17:04 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=Kbkj4ym3NhfFS7PTM6D1JqwoV4vycbDhl/GDtqYw3/E=;
+        b=aG6afDrPRZyzrU7vN8KrSHP1eeWr2aDS01fhxdgR9sdAX4hWAW7MvxtEtEmIoryPp9
+         koB/8GWJugAqDvr4bcFJZst/Ys3Zd2ohzpcgZfbRBYcNOgWBQ3kYt/fmr5MhAZeUB5DO
+         6PPFdIB4MOJ49j/yxX9vyPT5s5Hrhm92YZ1xYt3V7x4MLT+NbntNcv3bXEEM8wVptPEi
+         8v1zYgIoS31EOuCOKwCl2XDXAe8w/qNol6Wq8JZKB6G/10Y5Y9tx8cWoXhLBT1zphJWW
+         dXl3sqNhEB5scHaV2t+NcjzQpZuP6odYaTC5VToTyD0rcsTnhxSjMFq/1RNieOYhVPY7
+         Kzrg==
+X-Gm-Message-State: ALoCoQkfxpe6yLZZ1mtsDvCBwLpEFbQHd0Txe5rsTru4xnSkPLRMQQEdePlax3KMCvJFFI5c1P/oPqDnz3fqfdG3bzYc9YJhSjgDUPlOvThQheZaL4rYowapD0wsM6XF61wGltLraxYALq1AGtiIYQSMolSwj8gt/Q==
+X-Received: by 10.50.39.114 with SMTP id o18mr65162igk.75.1436836624199;
+        Mon, 13 Jul 2015 18:17:04 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.39.114 with SMTP id o18mr65155igk.75.1436836624115; Mon,
+ 13 Jul 2015 18:17:04 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Mon, 13 Jul 2015 18:17:04 -0700 (PDT)
+In-Reply-To: <401805BD-C7CB-4103-B993-4D91C145C609@vt.edu>
+References: <401805BD-C7CB-4103-B993-4D91C145C609@vt.edu>
+Date: Mon, 13 Jul 2015 21:17:04 -0400
+Message-ID: <CAH0V_1annvTu9fy9ibDLHgex9OwS5SkKVPf4k4aMLPjskKxVEA@mail.gmail.com>
+Subject: Re: Directory
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b33962194b8e1051acb984d
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 2191
+
+--047d7b33962194b8e1051acb984d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This is a strange calculation.  The first step clearly identifies a
+negative eigenvalue of the MO Hessian in the totally-symmetric space, so it
+should apply this to the MOs to shift the alpha and beta densities.
+However, when it re-runs the SCF it arrives at exactly the same MOs =E2=80=
+=93
+RHF-like.
+
+What if you add
+
+FOLLOW_STEP_SCALE 1.0
+
+to the input file?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jul 13, 2015 at 2:09 PM, Andrew James <amjames2@vt.edu> wrote:
+
+>
+> /home/amjames2/chem/polyradical/7/singlet-singlet-6-31GS-UHF-core
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+
+--047d7b33962194b8e1051acb984d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">This is a strange calculation.=C2=A0 The first step clearl=
+y identifies a negative eigenvalue of the MO Hessian in the totally-symmetr=
+ic space, so it should apply this to the MOs to shift the alpha and beta de=
+nsities.=C2=A0 However, when it re-runs the SCF it arrives at exactly the s=
+ame MOs =E2=80=93 RHF-like.<div><br></div><div>What if you add=C2=A0</div><=
+div><br></div><div>FOLLOW_STEP_SCALE 1.0<br></div><div><br></div><div>to th=
+e input file?</div><div><br></div><div>-TDC</div></div><div class=3D"gmail_=
+extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"lt=
+r">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.e=
+du" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 13, 2015 at 2:09 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+br>
+/home/amjames2/chem/polyradical/7/singlet-singlet-6-31GS-UHF-core<br>
+<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--047d7b33962194b8e1051acb984d--

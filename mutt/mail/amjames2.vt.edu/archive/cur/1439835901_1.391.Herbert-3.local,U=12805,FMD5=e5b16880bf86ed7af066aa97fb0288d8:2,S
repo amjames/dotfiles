@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1607757qgt;
+        Fri, 14 Aug 2015 07:56:19 -0700 (PDT)
+X-Received: by 10.140.100.181 with SMTP id s50mr13412672qge.71.1439564179732;
+        Fri, 14 Aug 2015 07:56:19 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 201si9870892qha.11.2015.08.14.07.56.19
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 07:56:19 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.114.176 as permitted sender) client-ip=192.254.114.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.114.176 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o1.sgmail.github.com (o1.sgmail.github.com [192.254.114.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EEuCOG021322
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 10:56:18 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=sJDYTfaJcwaOdtgRwMqsv1lT3tI=; b=R27NWykl3K6UokHt
+	AYKLPup3JikOR+Rc2230R01rdTNW2dvuHBplzRrpTiASXQWXwLS8TQn6NHQU8xUl
+	FxQhDYEVSow5Fgy7TzpImS7vA54tSU+22gXUYLOLAfzoSc39PBKoGad9HEMZ5UL8
+	tsU7rq3uAg/yYFtHUcno4YIpg3k=
+Received: by filter0654p1mdw1.sendgrid.net with SMTP id filter0654p1mdw1.21939.55CE018A2D
+        2015-08-14 14:56:10.903955883 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id mdy-J30VTbWT-KDBkFjvxQ
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 14:56:10 +0000 (UTC)
+Date: Fri, 14 Aug 2015 07:56:10 -0700
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6422611d489dcd21821682a63e102e95c93fe7a476592cf0000000111e5c38a92a169ce06052bf7@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/165/131136221@github.com>
+In-Reply-To: <psi4/psi4public/issues/165@github.com>
+References: <psi4/psi4public/issues/165@github.com>
+Subject: Re: [psi4public] ROHF-CCSD(T) using MP2 Natural orbitals (#165)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce018a9f91b_52e43fe1daccd2a0619545";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6422611d489dcd21821682a63e102e95c93fe7a476592cf0000000111e5c38a92a169ce06052bf7@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6422611d489dcd21821682a63e102e95c93fe7a476592cf0000000111e5c38a92a169ce06052bf7@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QkTamqpzlgx80YWbklWxnK7KBbGhks5onfkKgaJpZM4Fro3m>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlPqUQ4A649q7nVtZqsnvn1mI9f3uQ+V8ftFw
+ xNnycOZfcWXJHK4Kd/TV5ocLFy4kj3nZwRP8DDKR7NX2WFyMWVXoEPZzLSdOGEU/wAiA1P5Yjdwnuu
+ fILyLs/aR9DQgmc=
+X-Spam-Status: No, score=-1.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ce018a9f91b_52e43fe1daccd2a0619545
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Trying to jump-start the forum, and this topic seemed suitable. Moved to http://forum.psicode.org/t/rohf-ccsd-t-using-mp2-natural-orbitals/51
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/165#issuecomment-131136221
+----==_mimepart_55ce018a9f91b_52e43fe1daccd2a0619545
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Trying to jump-start the forum, and this topic seemed suitable. Moved to <a href="http://forum.psicode.org/t/rohf-ccsd-t-using-mp2-natural-orbitals/51">http://forum.psicode.org/t/rohf-ccsd-t-using-mp2-natural-orbitals/51</a></p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/165#issuecomment-131136221">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qs_4OMJMlyjMFRFHabGmlGMH8YNtks5onfkKgaJpZM4Fro3m.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/165#issuecomment-131136221"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ce018a9f91b_52e43fe1daccd2a0619545--

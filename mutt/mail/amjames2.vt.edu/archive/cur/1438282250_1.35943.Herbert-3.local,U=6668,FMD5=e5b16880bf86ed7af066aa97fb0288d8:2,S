@@ -1,0 +1,277 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp1667215qgf;
+        Mon, 13 Apr 2015 14:34:54 -0700 (PDT)
+X-Received: by 10.140.231.198 with SMTP id b189mr10036266qhc.98.1428960894648;
+        Mon, 13 Apr 2015 14:34:54 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id n7si12351614qce.20.2015.04.13.14.34.54
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 14:34:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.169 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3DLYmYu023321
+	for <amjames2@vt.edu>; Mon, 13 Apr 2015 17:34:53 -0400
+Received: by igbqf9 with SMTP id qf9so237916igb.1
+        for <amjames2@vt.edu>; Mon, 13 Apr 2015 14:34:48 -0700 (PDT)
+X-Received: by 10.107.150.198 with SMTP id y189mr19141386iod.21.1428960888602;
+        Mon, 13 Apr 2015 14:34:48 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.126.133 with SMTP id my5csp1500678ieb;
+        Mon, 13 Apr 2015 14:34:47 -0700 (PDT)
+X-Received: by 10.55.43.83 with SMTP id r80mr33996286qkh.80.1428960887604;
+        Mon, 13 Apr 2015 14:34:47 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id 134si8407278qhx.99.2015.04.13.14.34.47
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 14:34:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3DKmdld001937
+	for <andrew.m.james2@gmail.com>; Mon, 13 Apr 2015 16:48:39 -0400
+Received: from mail-ie0-f171.google.com (mail-ie0-f171.google.com [209.85.223.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3DKmXQY012392
+	for <andrew.m.james2@gmail.com>; Mon, 13 Apr 2015 16:48:38 -0400
+Received: by iebrs15 with SMTP id rs15so75585085ieb.3
+        for <andrew.m.james2@gmail.com>; Mon, 13 Apr 2015 13:48:33 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=lTwwy0GTPF09UBZu8B0VnpKCE4C+TdkOjhucqNky9BA=;
+        b=MaREi2d9Y+MmbG10ERD0C87NxL+qPiqgho0zmGvzDwBQ3yoF2HORmITbAoCa6DbItm
+         Tz1oGwKDQSxMdCdpbpzBqJPC3WQcLoK4Hb6Lhc/oc7zoDzndW/okNAdmuUuvBTgCLZ/C
+         OV965z1qQA6xqSsdboxWXyVjkMvfuOdXBFGE2t7ZwWrKQZQKK2Jk39E0LbF+RBT5yPPB
+         6LizjY3xh0LIQiC0ec+hkJ5FtkfwXXiNG05lBEG5y7XBGiRJsiepX5A/L6FvewvUY9zO
+         wV4SBH14Nso+uugxztOz3xY8jSJA9TO0qcr48h56HCOvwZ1veFm2dWcx7MxqzKhfeOx2
+         FSdQ==
+X-Gm-Message-State: ALoCoQneJEl1pJqCr8MWYig3NISWYbi5GrAwNyLOUMmb6q+Pe3nHZnohOwz5I4wofNGcQ6qZE2WMYRh7PD8VAkRuXCK0DBmKHNyopMmAA7HQ6R1Q48Glzywc5dxkMwfdnb+BeG7bsA1gdqQsHYj5C2eY5luV0gyxOg==
+X-Received: by 10.50.66.227 with SMTP id i3mr19142172igt.47.1428958113520;
+        Mon, 13 Apr 2015 13:48:33 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.66.227 with SMTP id i3mr19142163igt.47.1428958113417;
+ Mon, 13 Apr 2015 13:48:33 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Mon, 13 Apr 2015 13:48:33 -0700 (PDT)
+In-Reply-To: <104a4e44aa544edba44010fea06e03ec@GUTENBERG.cc.w2k.vt.edu>
+References: <D1517911.238%cllong@exchange.vt.edu>
+	<104a4e44aa544edba44010fea06e03ec@GUTENBERG.cc.w2k.vt.edu>
+Date: Mon, 13 Apr 2015 16:48:33 -0400
+Message-ID: <CAH0V_1b7BTKX5xcFe04mwQ3KnHQBp9O5DpP9DQBSBM5oATf0Dw@mail.gmail.com>
+Subject: Re: FW: Software Summer School 568171
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: "Good, Laurie" <laurieg@vt.edu>, Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7bdc157abffcca0513a13ce7
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bdc157abffcca0513a13ce7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Jessica,
+
+I think we should set the registration date to May 15th (for now) so that
+we have time to confirm the participants in advance.  We can move the
+deadline back if necessary.
+
+Also, can you give access to the Qualtrics survey to Andrew James, my
+student who is handling the organizational aspects on our end?  I've copied
+him on this note.
+
+Best regards,
+
+-Daniel
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Apr 13, 2015 at 1:58 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+wrote:
+
+>  Laurie and Dan,
+>
+>
+>
+> We have about 10 people who have now completed the Qualtrics application
+> for the Software Summer School.  You should have access to be able to go =
+in
+> and look at each applicant.  Once you have decided who you want, you can
+> send them the link below for them to be able to register.  This link is n=
+ot
+> available on our calendar, so people shouldn=E2=80=99t be able to get to =
+it unless
+> you give it to them.
+>
+>
+>
+> Let me know if you have any questions.
+>
+>
+>
+> Thanks!
+>
+>
+>
+> Jessica
+>
+>
+>
+>
+>
+>
+>
+> *From:* Long, Christina
+> *Sent:* Monday, April 13, 2015 1:46 PM
+> *To:* Brow, Jessica
+> *Cc:* Atwater, Lori
+> *Subject:* Software Summer School 568171
+>
+>
+>
+> Hi Jessica,
+>
+>
+>
+> I have made the change to the PDF (the fee and the refund policy) and it
+> is up here for review:
+>
+>
+>
+> http://www.cpe.vt.edu/reg/sss/
+>
+>
+>
+> Thanks,
+>
+> Christina
+>
+
+--047d7bdc157abffcca0513a13ce7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Jessica,<div><br></div><div>I think we should set the=
+ registration date to May 15th (for now) so that we have time to confirm th=
+e participants in advance.=C2=A0 We can move the deadline back if necessary=
+.</div><div><br></div><div>Also, can you give access to the Qualtrics surve=
+y to Andrew James, my student who is handling the organizational aspects on=
+ our end?=C2=A0 I&#39;ve copied him on this note.</div><div><br></div><div>=
+Best regards,</div><div><br></div><div>-Daniel</div><div><br></div></div><d=
+iv class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signatu=
+re"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div=
+></div>
+<br><div class=3D"gmail_quote">On Mon, Apr 13, 2015 at 1:58 PM, Brow, Jessi=
+ca <span dir=3D"ltr">&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D=
+"_blank">jbrow@exchange.vt.edu</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Laurie and Dan,<u></u><u></u></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">We have about 10 people who have now =
+completed the Qualtrics application for the Software Summer School.=C2=A0 Y=
+ou should have access to be able to go in and look
+ at each applicant.=C2=A0 Once you have decided who you want, you can send =
+them the link below for them to be able to register.=C2=A0 This link is not=
+ available on our calendar, so people shouldn=E2=80=99t be able to get to i=
+t unless you give it to them.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Let me know if you have any questions=
+.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Thanks!<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Jessica<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Long, Christina
+<br>
+<b>Sent:</b> Monday, April 13, 2015 1:46 PM<br>
+<b>To:</b> Brow, Jessica<br>
+<b>Cc:</b> Atwater, Lori<br>
+<b>Subject:</b> Software Summer School 568171<u></u><u></u></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Hi Jessica,<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">I have made the change to the PDF (the =
+fee and the refund policy) and it is up here for review:<u></u><u></u></spa=
+n></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><a href=3D"http://www.cpe.vt.edu/reg/ss=
+s" target=3D"_blank">http://www.cpe.vt.edu/reg/sss</a>/<u></u><u></u></span=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Thanks,<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Christina<u></u><u></u></span></p>
+</div>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+--047d7bdc157abffcca0513a13ce7--

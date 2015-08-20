@@ -1,0 +1,98 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp105169qgt;
+        Fri, 3 Jul 2015 11:04:52 -0700 (PDT)
+X-Received: by 10.140.238.214 with SMTP id j205mr54020018qhc.73.1435946692437;
+        Fri, 03 Jul 2015 11:04:52 -0700 (PDT)
+Return-Path: <bpeng@uw.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 80si11192336qhu.26.2015.07.03.11.04.52
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 11:04:52 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.213.170 is neither permitted nor denied by domain of bpeng@uw.edu) client-ip=209.85.213.170;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.213.170 is neither permitted nor denied by domain of bpeng@uw.edu) smtp.mail=bpeng@uw.edu
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com [209.85.213.170])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63I4k6a015796
+	for <amjames2@vt.edu>; Fri, 3 Jul 2015 14:04:51 -0400
+Received: by igrv9 with SMTP id v9so81445121igr.1
+        for <amjames2@vt.edu>; Fri, 03 Jul 2015 11:04:46 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=I5akhdHGnPrj996NNOXNFcx7LJP+Y+L93nEXu9IH+70=;
+        b=BulE4Hjp+0S04Inq2q4dGBK89Wo64y+OG8tCoC8TTdeCwafumft8prxCKYfemQgHph
+         BPMphX+b5s7JKIaHqqJ6g6Pm1Xzz0U+JjkvPwDyph1DV6qWPntYUwE/n9dRIBhvpE/p3
+         FgE2VFtcHDUfXtfFR6z24vjP8lKTiWXcuiLj2ExH7wvaADCRiHmc4zi63vlEa+k6Fe7S
+         Y8c/3NacOy02zhr9fh0pHVVOckf46bWJ3sUN5D9N4wkPDH4gaiXR1j5rwUxrg9wn0Xk+
+         dkm7VAAqQUkERHXO7qD8+CVZK/TjAq85g8DmNQe2sZPNO15QfPj5XF9DKnSFdjh2Q7lG
+         S/Ew==
+X-Gm-Message-State: ALoCoQnZoBxYXaU+iVcQ8FUV6Qy11ZFhcd1NgOVdYJIIoiqqRmiw07+ESy3FDK0Sw72cFZryuq9s
+MIME-Version: 1.0
+X-Received: by 10.50.78.199 with SMTP id d7mr24449622igx.18.1435946686337;
+ Fri, 03 Jul 2015 11:04:46 -0700 (PDT)
+Received: by 10.107.142.132 with HTTP; Fri, 3 Jul 2015 11:04:46 -0700 (PDT)
+In-Reply-To: <8BB44439-20E6-411D-AF97-588046322F20@vt.edu>
+References: <8BB44439-20E6-411D-AF97-588046322F20@vt.edu>
+Date: Fri, 3 Jul 2015 11:04:46 -0700
+Message-ID: <CABvLAcg35TP4fLBY0THHDRd0vhUN5HKXYA+WmEKO+qokXhV+7Q@mail.gmail.com>
+Subject: Re: Airport Drop-off Tomorrow
+From: Bo Peng <bpeng@uw.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e013c6ee427ef030519fc649b
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e013c6ee427ef030519fc649b
+Content-Type: text/plain; charset=UTF-8
+
+The info is correct. Thank you very much.
+
+Bo
+
+On Fri, Jul 3, 2015 at 9:24 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Bo,
+>
+> I have in my records that your light leaves tomorrow from Roanoke at 5:15
+> PM. If this is correct I will pick you up outside of the check-out building
+> at 3:15PM to make sure I can get you there at least an hour early.
+>
+> Thanks,
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+
+--089e013c6ee427ef030519fc649b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">The info is correct. Thank you very much.<div><br></div><d=
+iv>Bo</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">=
+On Fri, Jul 3, 2015 at 9:24 AM, Andrew James <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span=
+> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex">Dear Bo,<br>
+<br>
+I have in my records that your light leaves tomorrow from Roanoke at 5:15 P=
+M. If this is correct I will pick you up outside of the check-out building =
+at 3:15PM to make sure I can get you there at least an hour early.<br>
+<br>
+Thanks,<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--089e013c6ee427ef030519fc649b--

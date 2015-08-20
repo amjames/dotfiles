@@ -1,0 +1,226 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1144205qge;
+        Fri, 13 Mar 2015 14:03:55 -0700 (PDT)
+X-Received: by 10.140.32.52 with SMTP id g49mr61564378qgg.83.1426280635673;
+        Fri, 13 Mar 2015 14:03:55 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id n143si2988828qhb.104.2015.03.13.14.03.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 14:03:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.178 as permitted sender) client-ip=209.85.223.178;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.178 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f178.google.com (mail-ie0-f178.google.com [209.85.223.178])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL3nNU021140
+	for <amjames2@vt.edu>; Fri, 13 Mar 2015 17:03:54 -0400
+Received: by iegc3 with SMTP id c3so129796850ieg.3
+        for <amjames2@vt.edu>; Fri, 13 Mar 2015 14:03:49 -0700 (PDT)
+X-Received: by 10.42.210.148 with SMTP id gk20mr60968498icb.81.1426280629566;
+        Fri, 13 Mar 2015 14:03:49 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1075910ieb;
+        Fri, 13 Mar 2015 14:03:48 -0700 (PDT)
+X-Received: by 10.140.21.175 with SMTP id 44mr4176393qgl.78.1426280628089;
+        Fri, 13 Mar 2015 14:03:48 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id s20si2995403qge.73.2015.03.13.14.03.47
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 14:03:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr2.cc.vt.edu (mr2.cc.vt.edu [198.82.163.74] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL3lij032204
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 17:03:47 -0400
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DL3grV005406
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 17:03:47 -0400
+Received: by iegc3 with SMTP id c3so129790003ieg.3
+        for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 14:03:42 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=I3ww61p9eaUsM7aWBq7QgpelQItUIaPh+XCPIDpnXwU=;
+        b=AXoUuxKIBH1ozrgcGnR3sU8nru8VqE9V2h7y45tufiADufe/VKrTO6UUQJREnBaOT2
+         eDgdlDoDPnSwo3olWKmbSK6bdER7T+IYaByzFNcfzBvNKXUp9vkyHUS2L4rNRhxkZimV
+         Hn7fuPe5LQAb9DmUcgqriQl49zBRRWwW4IdmBiAGqZoi4Z3EPJ9C6HjphRp5148UNcu3
+         E2uvZVIXFsz1HEdztl9/9Z0ClqHoQupC9hW/FUu1KuwH5RFXiXYbobd7F/g86tVgDP0k
+         LYCwgF0thq5myjrAMqEbo6R8FkvPoDsorUhMf9T18nTMvyzlIDblq1+O6IYQREkjb2W+
+         +FVw==
+X-Gm-Message-State: ALoCoQlu8WjzJ82SsXaHvkBVj+aKPwYfu+NVNqBUUGWT3Bmb4csRtdJDWl7Wv+7oJi0QWvFkz1Y3z2Elgpkj7RPDvh8fetGeMHbWZc953EKpUJMg8ou69DpKpAzCofkMvmcNffgCvnbuTy9MfdqGfDqx1UUs3mJXNA==
+X-Received: by 10.50.142.99 with SMTP id rv3mr84128014igb.11.1426280621505;
+        Fri, 13 Mar 2015 14:03:41 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.142.99 with SMTP id rv3mr84127996igb.11.1426280621393;
+ Fri, 13 Mar 2015 14:03:41 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Fri, 13 Mar 2015 14:03:41 -0700 (PDT)
+In-Reply-To: <0186E964-F255-455B-B10A-E342EB17038F@gmail.com>
+References: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+	<0186E964-F255-455B-B10A-E342EB17038F@gmail.com>
+Date: Fri, 13 Mar 2015 17:03:41 -0400
+Message-ID: <CAH0V_1awwNxMOg0X+6MPU+YOipjRZauHZDwSfyVQT1rPPkxqtw@mail.gmail.com>
+Subject: Re: Molecular Response Property Summer School Website!
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Patrick Norman <johan.patrick.norman@gmail.com>
+Cc: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>,
+        Kenneth Ruud <kenneth.ruud@uit.no>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1130c3fac9d9fd051131d58f
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 5845
+
+--001a1130c3fac9d9fd051131d58f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'll communicate with VT conference services to make sure the registration
+number is capped at 40.
+
+I would also be grateful if you all could send me an outline to use for the
+"Agenda" section of the website prior to advertising.
+
+Thanks!
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Mar 13, 2015 at 5:01 PM, Patrick Norman <
+johan.patrick.norman@gmail.com> wrote:
+
+> Most impressive! Looks great!
+>
+> How will the registration close in practice. Should we decide on the
+> maximum number of students now? Let's say we put an upper limit at 40
+> participants and the homepage is open for credit card registration. Is
+> there some automatic check that we do not exceed this number? For the PDF
+> paper registration I see that it is easier to control by simply stop
+> billing new registrations, but the credit card option seems harder to
+> control.
+>
+> I will check this weekend how may students I would like to bring from the
+> CoTXS network. The number will be around 5, but I will nail it down more
+> precisely a.s.a.p. and get back to you on that.
+>
+> Best wishes,
+> Patrick.
+>
+> > On 13 Mar 2015, at 20:59, T. Daniel Crawford <crawdad@vt.edu> wrote:
+> >
+> > Dear Trond, Patrick, and Kenneth,
+> >
+> > Thanks to the efforts of my student, AJ, the website for the summer
+> school is up and running:
+> >
+> > http://www.theory.chem.vt.edu/response/index.html
+> >
+> > We still need to fill out the agenda and specific information for
+> students, but we'll have that ready by Monday when I would like to send o=
+ut
+> an advertisement.  Please take a look and let me know if you'd like chang=
+es.
+> >
+> > -Daniel
+> >
+> > P.S. Before you ask, yes, we used the same web template as the new
+> Dalton site. :)
+> >
+> > --
+> > Prof. T. Daniel Crawford
+> > crawdad@vt.edu
+>
+> --
+> ------------------------------------------------------------------------
+> Patrick Norman                  e-mail: johan.patrick.norman@gmail.com
+> Furubackav=C3=A4gen 4A               phone : +46-13 29 99 97
+> SE-586 63 Link=C3=B6ping, Sweden     mobile: +46-70 191 8541
+> ------------------------------------------------------------------------
+>
+>
+
+--001a1130c3fac9d9fd051131d58f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;ll communicate with VT conference services to make s=
+ure the registration number is capped at 40.<div><br></div><div>I would als=
+o be grateful if you all could send me an outline to use for the &quot;Agen=
+da&quot; section of the website prior to advertising.</div><div><br></div><=
+div>Thanks!<br><div><br></div><div>-TDC</div></div></div><div class=3D"gmai=
+l_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"=
+ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt=
+.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 5:01 PM, Patrick Nor=
+man <span dir=3D"ltr">&lt;<a href=3D"mailto:johan.patrick.norman@gmail.com"=
+ target=3D"_blank">johan.patrick.norman@gmail.com</a>&gt;</span> wrote:<br>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Most impressive! Looks great!<br>
+<br>
+How will the registration close in practice. Should we decide on the maximu=
+m number of students now? Let&#39;s say we put an upper limit at 40 partici=
+pants and the homepage is open for credit card registration. Is there some =
+automatic check that we do not exceed this number? For the PDF paper regist=
+ration I see that it is easier to control by simply stop billing new regist=
+rations, but the credit card option seems harder to control.<br>
+<br>
+I will check this weekend how may students I would like to bring from the C=
+oTXS network. The number will be around 5, but I will nail it down more pre=
+cisely a.s.a.p. and get back to you on that.<br>
+<br>
+Best wishes,<br>
+Patrick.<br>
+<div class=3D"HOEnZb"><div class=3D"h5"><br>
+&gt; On 13 Mar 2015, at 20:59, T. Daniel Crawford &lt;<a href=3D"mailto:cra=
+wdad@vt.edu">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; Dear Trond, Patrick, and Kenneth,<br>
+&gt;<br>
+&gt; Thanks to the efforts of my student, AJ, the website for the summer sc=
+hool is up and running:<br>
+&gt;<br>
+&gt; <a href=3D"http://www.theory.chem.vt.edu/response/index.html" target=
+=3D"_blank">http://www.theory.chem.vt.edu/response/index.html</a><br>
+&gt;<br>
+&gt; We still need to fill out the agenda and specific information for stud=
+ents, but we&#39;ll have that ready by Monday when I would like to send out=
+ an advertisement.=C2=A0 Please take a look and let me know if you&#39;d li=
+ke changes.<br>
+&gt;<br>
+&gt; -Daniel<br>
+&gt;<br>
+&gt; P.S. Before you ask, yes, we used the same web template as the new Dal=
+ton site. :)<br>
+&gt;<br>
+&gt; --<br>
+&gt; Prof. T. Daniel Crawford<br>
+&gt; <a href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a><br>
+<br>
+</div></div><span class=3D"HOEnZb"><font color=3D"#888888">--<br>
+------------------------------------------------------------------------<br=
+>
+Patrick Norman=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 e-mail: <a href=3D"mailto:johan.patrick.norman@gmail.com">johan.patrick=
+.norman@gmail.com</a><br>
+Furubackav=C3=A4gen 4A=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0phone : <a href=3D"tel:%2B46-13%2029%2099%2097" value=3D"+4613299997">+4=
+6-13 29 99 97</a><br>
+SE-586 63 Link=C3=B6ping, Sweden=C2=A0 =C2=A0 =C2=A0mobile: <a href=3D"tel:=
+%2B46-70%20191%208541" value=3D"+46701918541">+46-70 191 8541</a><br>
+------------------------------------------------------------------------<br=
+>
+<br>
+</font></span></blockquote></div><br></div>
+
+--001a1130c3fac9d9fd051131d58f--

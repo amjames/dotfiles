@@ -1,0 +1,199 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp715633ieb;
+        Wed, 1 Apr 2015 06:36:39 -0700 (PDT)
+X-Received: by 10.112.157.198 with SMTP id wo6mr9554953lbb.40.1427895398487;
+        Wed, 01 Apr 2015 06:36:38 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from mail-la0-x22a.google.com (mail-la0-x22a.google.com. [2a00:1450:4010:c03::22a])
+        by mx.google.com with ESMTPS id t5si1422320lbj.163.2015.04.01.06.36.37
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Apr 2015 06:36:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c03::22a as permitted sender) client-ip=2a00:1450:4010:c03::22a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c03::22a as permitted sender) smtp.mail=johan.patrick.norman@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-la0-x22a.google.com with SMTP id g8so35070693lag.1
+        for <andrew.m.james2@gmail.com>; Wed, 01 Apr 2015 06:36:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:mime-version:subject:in-reply-to:date:cc
+         :message-id:references:to;
+        bh=m/LpP1Yi0F1JF2IhiXFUJZsxRXYJgP+5aEKacdWptHE=;
+        b=QyVCUA9XlZvOoP087LPE8yo4xJvvd/qToBdPVeNNEtre4DG4CuBw2WzZSZ7VXbQwh5
+         zTYHNle6G/I3WEOksk9guNKYsEmi9vLTsHAoFnwdzhzmqEoFH9H+BiS3qdRthUiNQTfE
+         2S39gDbrEixAE34A9Pr7aHtV/g0GTmhC2VUePSwrjdyjlAIrTwLE2cj7iWYeSELtmFRv
+         0NQrpPUw4VEflOznvHfLTRtc1sAU3NjDd7uSltByZakV8Wo+5/Vxao+pV26ZflCAzflv
+         AsSRgY74BxlCrVC0n9AhTEUNUzbKReIptP5LpeoVvSIFCkKp/2uFY23J4W7pUjvVECY4
+         2Rww==
+X-Received: by 10.152.5.170 with SMTP id t10mr35574085lat.43.1427895397737;
+        Wed, 01 Apr 2015 06:36:37 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from c-213-160.eduroam.liu.se (c-213-160.eduroam.liu.se. [130.236.213.160])
+        by mx.google.com with ESMTPSA id ps2sm423653lbb.20.2015.04.01.06.36.36
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 01 Apr 2015 06:36:37 -0700 (PDT)
+From: Patrick Norman <johan.patrick.norman@gmail.com>
+X-Google-Original-From: Patrick Norman <panor@ifm.liu.se>
+Content-Type: multipart/signed; boundary="Apple-Mail=_CF3D578B-F127-4AC3-8403-177201C99D9E"; protocol="application/pkcs7-signature"; micalg=sha1
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: Poster sessions?
+In-Reply-To: <C8882758-3D09-4350-8448-F66BDA4A126E@uit.no>
+Date: Wed, 1 Apr 2015 15:36:44 +0200
+Cc: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>,
+ Kenneth Ruud <kenneth.ruud@uit.no>,
+ Andrew James <andrew.m.james2@gmail.com>
+Message-Id: <372CE287-8FF0-49A8-AF4A-005DCB1B00AF@ifm.liu.se>
+References: <CAH0V_1ZvG5FKCggfAqBeQyOkofOo-NbcSp-iQSH_E8f8OQR+Pg@mail.gmail.com> <C8882758-3D09-4350-8448-F66BDA4A126E@uit.no>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+
+--Apple-Mail=_CF3D578B-F127-4AC3-8403-177201C99D9E
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hi Daniel!
+
+Trond and I are also very positive to a poster session (but not short =
+talks) as an evening activity.
+
+By the way, have you sent out the official call for student registration =
+to the PIs that replied positively in the poll? If yes, have you =
+received any registrations so far?
+
+Best regards,
+Patrick.
+
+> On 01 Apr 2015, at 07:03, Ruud Kenneth <kenneth.ruud@uit.no> wrote:
+>=20
+> I believe we had a poster session last time, and I would be happy to =
+organize one as well. However, last time we had a day "off" for which =
+the evening was used for the poster session (I believe). Perhaps we =
+should look into the schedule with Daniel's lecture before giving a =
+clear yes or no. I am more hesitant about flash-poster =
+presentations......
+>=20
+>=20
+> Kenneth
+>=20
+> Kenneth Ruud
+> Prorector of Research, UiT - The Arctic University of Norway
+> Telephone: +47 77623101
+> http://www.ctcc.no/people/senior-scientists/ruud/index.html
+>=20
+> On Mar 31, 2015, at 11:41 PM, T. Daniel Crawford wrote:
+>=20
+>> Dear Patrick, Kenneth, and Trond,
+>>=20
+>> A potential student for the summer school has asked if there would be =
+an opportunity for students to give posters or short talks.  Can you =
+give me your opinion on this before we respond?
+>>=20
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>=20
+
+--=20
+-----------------------------------------------------------------------
+Patrick Norman                         e-mail: panor@ifm.liu.se
+Dept of Physics, Link=C3=B6ping University  phone : +46-13 28 16 88
+SE-581 83 Link=C3=B6ping                    fax   : +46-13 13 75 68
+Sweden                                 www   : people.ifm.liu.se/panor/
+-----------------------------------------------------------------------=20=
+
+
+
+--Apple-Mail=_CF3D578B-F127-4AC3-8403-177201C99D9E
+Content-Disposition: attachment;
+	filename=smime.p7s
+Content-Type: application/pkcs7-signature;
+	name=smime.p7s
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIO4TCCBNow
+ggPCoAMCAQICEF3/UOr+D1NGiJ+AQY/nQsgwDQYJKoZIhvcNAQEFBQAwga4xCzAJBgNVBAYTAlVT
+MQswCQYDVQQIEwJVVDEXMBUGA1UEBxMOU2FsdCBMYWtlIENpdHkxHjAcBgNVBAoTFVRoZSBVU0VS
+VFJVU1QgTmV0d29yazEhMB8GA1UECxMYaHR0cDovL3d3dy51c2VydHJ1c3QuY29tMTYwNAYDVQQD
+Ey1VVE4tVVNFUkZpcnN0LUNsaWVudCBBdXRoZW50aWNhdGlvbiBhbmQgRW1haWwwHhcNMDkwNTE4
+MDAwMDAwWhcNMjgxMjMxMjM1OTU5WjBEMQswCQYDVQQGEwJOTDEPMA0GA1UEChMGVEVSRU5BMSQw
+IgYDVQQDExtURVJFTkEgZVNjaWVuY2UgUGVyc29uYWwgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDEvCV9ze9ZBKt0Jym2Y4rvxDVwoUYIr25QmxtxeJcChcA1/5AYEWb6MzkUnqQS
+9z3uBSyB5/ctLjZ4Qw45tn96dMPLVT8vs8vDN2rhlQMjG7MimBODWDBfrDyRRdNtCy7L0ZFhsspx
++sKJDHsJ1pK/o4EXEVUg3zeBnx4mCR3SFxlDy4uZJXRBW+YyKtCnU9zSIY3Nkc97bPTJ/tDl0gZr
+GmFCG4CRB9wUSSc7Coqy4jtpCITLgZnXuhQf2H6SY732LTH6lU7NNg2Z7xG6rUr7qMR4uXxaPsj1
+CDLAqQXHjBoojzC6F6PxueIHp7j7Vb+fYlrVFA8ItBOZ0hJ5WvD9AgMBAAGjggFbMIIBVzAfBgNV
+HSMEGDAWgBSJgmd9xJ0mcABLtFBIfN49rgRufTAdBgNVHQ4EFgQUyIlzmaddURZTRVR8o8I5fMvX
+qoEwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQAwJgYDVR0gBB8wHTANBgsrBgEE
+AbIxAQICHTAMBgoqhkiG90wFAgIFMFgGA1UdHwRRME8wTaBLoEmGR2h0dHA6Ly9jcmwudXNlcnRy
+dXN0LmNvbS9VVE4tVVNFUkZpcnN0LUNsaWVudEF1dGhlbnRpY2F0aW9uYW5kRW1haWwuY3JsMG8G
+CCsGAQUFBwEBBGMwYTA4BggrBgEFBQcwAoYsaHR0cDovL2NydC51c2VydHJ1c3QuY29tL1VUTkFB
+QUNsaWVudF9DQS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJ
+KoZIhvcNAQEFBQADggEBAAgXpBz5FWuwGWFvoEjjeiTvQVWaoFBw2CPVU4ZKZ47o2lYWGCwbGCGJ
+upgk7lY04xeGJr0hWtQZk0rqYXRNtsSEjUfuyi5lbTaTmLHikmaI4k57dcdeRGkh3BJqMPxhgP4P
+8J3S3H6u5cJTTQtwg2FWRfs933L2AkJ164iKmFdg9Z+ickmxej5BZzXDVSsNBzXoxivVuod5gHTn
+kja9RoF6Liniar7hFxM1fBakJTMvYe7OyVLgQNvTvjlaz89MFOV/xUNXi025Wo7CDwZN3shJnYFz
+uuQ/mKWTPFlO25s13/5Nv1Wh6WTDRXysj3xH0TrxTnXZkGdA6LEvnhcvXDUwggTdMIIDxaADAgEC
+AhBxkvvmGV+sTRKFdHE0ohinMA0GCSqGSIb3DQEBBQUAMHsxCzAJBgNVBAYTAkdCMRswGQYDVQQI
+DBJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcMB1NhbGZvcmQxGjAYBgNVBAoMEUNvbW9kbyBD
+QSBMaW1pdGVkMSEwHwYDVQQDDBhBQUEgQ2VydGlmaWNhdGUgU2VydmljZXMwHhcNMDQwMTAxMDAw
+MDAwWhcNMjgxMjMxMjM1OTU5WjCBrjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAlVUMRcwFQYDVQQH
+Ew5TYWx0IExha2UgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMSEwHwYDVQQL
+ExhodHRwOi8vd3d3LnVzZXJ0cnVzdC5jb20xNjA0BgNVBAMTLVVUTi1VU0VSRmlyc3QtQ2xpZW50
+IEF1dGhlbnRpY2F0aW9uIGFuZCBFbWFpbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ALI5haTyfatBO2JGN67NwWB1vDll+UoaR6K5zEjMapjVTTUZuaRC5c5J4oovHnzSMQfHTrSDZJ0u
+KdWiZMSFvYVRNXmkTmiQexx6pJKoF/KYFfKTzMmkMpW7DE8wvZigC4vlbhuiRvp4vKJvq1lepS/P
+ytptqi/rrKGzaqq3Lmc1i3nhHmmI4uZGzaCl6r4LznY6eg6b6vzaJ1s9cx8i5khhxkzzabGoLhu2
+1DEgLLyCio6kDqXXiUP8FlqvHXHXEVnauocNr/rz4cLwpMVnjNbWVDreCqS6A3ezZcj9HtN0YqoY
+ymiTHqGFfvVHZcv4TVcodNI0/zC27vZiMBSMLOsCAwEAAaOCAScwggEjMB8GA1UdIwQYMBaAFKAR
+CiM+lvEH7OKvKe+CpX/QMKS0MB0GA1UdDgQWBBSJgmd9xJ0mcABLtFBIfN49rgRufTAOBgNVHQ8B
+Af8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw
+EQYDVR0gBAowCDAGBgRVHSAAMHsGA1UdHwR0MHIwOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2Eu
+Y29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDagNKAyhjBodHRwOi8vY3JsLmNvbW9kby5u
+ZXQvQUFBQ2VydGlmaWNhdGVTZXJ2aWNlcy5jcmwwEQYJYIZIAYb4QgEBBAQDAgEGMA0GCSqGSIb3
+DQEBBQUAA4IBAQCdlcs8uH6lCcQevwvCx3aOOTyUxhCqTwzJ4KuEXYlU4GU7820cfDcsJVRfliH8
+N4SRnRXcFE+Bz1Qda2xFYMct+ZdRTPlmyjyggoymyPDi6dRK+ew/VsnddozDggFPbADzHhphdARH
+A6nGQFeRvGUixSdnT1fbZFrZjR+6hi/0Bq6cae3p9M8pF9jgSp8aIC+XTFG7RgfEijdOIOMJMWjH
+nsSLneh+EbwyaBCWEZhE2CpRYE2I63Q630MGMsg5Vow6EVLTQaRDA/Tt7zMn2zngFE4mydj1OeKJ
+uJNdtykmQeqzm66D/Hd1yujKtf7iZUpjPkTE0MNeh3OpmByvfxV/MIIFHjCCBAagAwIBAgIRAJHk
+s8gisIGbgxY3ft4XydUwDQYJKoZIhvcNAQEFBQAwRDELMAkGA1UEBhMCTkwxDzANBgNVBAoTBlRF
+UkVOQTEkMCIGA1UEAxMbVEVSRU5BIGVTY2llbmNlIFBlcnNvbmFsIENBMB4XDTE0MDkyNjAwMDAw
+MFoXDTE1MTAyNjIzNTk1OVowgZgxEzARBgoJkiaJk/IsZAEZFgNvcmcxFjAUBgoJkiaJk/IsZAEZ
+FgZ0ZXJlbmExEzARBgoJkiaJk/IsZAEZFgN0Y3MxCzAJBgNVBAYTAlNFMR8wHQYDVQQKExZMaW5r
+b3BpbmdzIHVuaXZlcnNpdGV0MSYwJAYDVQQDFB1QYXRyaWNrIE5vcm1hbiBwYXRubzgxQGxpdS5z
+ZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKWuM/E4x6JRCEN1QtJMVDpE7/iKZqRl
+lVXQYK8bsa/2Ri1a/xmhZVSngvDHGUXZgUO5b5K8Y4PPEGkvQC6eD+oct7zQj6Ky49a7j5r+Tm0G
+lgxntlxSKYGKE9127LkeHveLp+uouRAuHcm0+WaFkVGlJ7yJKrHhUWQHFH+TepVgfpFS7K7TjSNG
+fm/znvkKy7c1kS4MlFutWCYtxnOndzR+py6a0T5EWfAYt4fDGMfxL6Djjvs5ta+dqZZOC1XltMpP
+lpKyB3ctzV6fV9P2oIsUVVJJHwM2M82KM2fKBAa2s0wumNMb2mrzHgcWOtgdCJ2wyOVyBsb8Tp/r
+5OobJaMCAwEAAaOCAbQwggGwMB8GA1UdIwQYMBaAFMiJc5mnXVEWU0VUfKPCOXzL16qBMB0GA1Ud
+DgQWBBSjQAJpfwuYsBCkk+Y6PC6WO1W0LTAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAd
+BgNVHSUEFjAUBggrBgEFBQcDBAYIKwYBBQUHAwIwJgYDVR0gBB8wHTANBgsrBgEEAbIxAQICHTAM
+BgoqhkiG90wFAgIFMEcGA1UdHwRAMD4wPKA6oDiGNmh0dHA6Ly9jcmwudGNzLnRlcmVuYS5vcmcv
+VEVSRU5BZVNjaWVuY2VQZXJzb25hbENBLmNybDB6BggrBgEFBQcBAQRuMGwwQgYIKwYBBQUHMAKG
+Nmh0dHA6Ly9jcnQudGNzLnRlcmVuYS5vcmcvVEVSRU5BZVNjaWVuY2VQZXJzb25hbENBLmNydDAm
+BggrBgEFBQcwAYYaaHR0cDovL29jc3AudGNzLnRlcmVuYS5vcmcwRAYDVR0RBD0wO4EQcGFub3JA
+aWZtLmxpdS5zZYEQcGFub3JAbnNjLmxpdS5zZYEVcGF0cmljay5ub3JtYW5AbGl1LnNlMA0GCSqG
+SIb3DQEBBQUAA4IBAQCgbNOGFZTNmEtf3b3WduCkEf3m40mSrtRcOnbKgfDRCaFGz7Jg4uNBdCWs
+gYqcZPKHXNs5q4BfLIt4riAyWYjM9npv3a2/d18Q0Gi/0qbqA8Q8UnsTPDi2BMKuAOzaVQCSUDgi
+TGJjDuc8D6kTZI1s1Yin3mHrCDiOqsD4HYtKnRQ+dfSDhnMzYyDo5HYtWqE049hoLEccsHDLJZO4
+FbX93LCXKHYy6TwYeGlVh4Rda7bc7mXYKwNZwTCzUGvIQSruQc8X9vJJcluyieYaJ9G+wNkRo/4+
+ut//5/Ze8TdvDr2qJVwuCUjv5FtYwTE9cmyHn79HEURKrX0yeATv6kkVMYICtzCCArMCAQEwWTBE
+MQswCQYDVQQGEwJOTDEPMA0GA1UEChMGVEVSRU5BMSQwIgYDVQQDExtURVJFTkEgZVNjaWVuY2Ug
+UGVyc29uYWwgQ0ECEQCR5LPIIrCBm4MWN37eF8nVMAkGBSsOAwIaBQCgggEzMBgGCSqGSIb3DQEJ
+AzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE1MDQwMTEzMzY0NVowIwYJKoZIhvcNAQkE
+MRYEFKfsd0Sb7/dVyRtJPd/tVX5XDJqtMGgGCSsGAQQBgjcQBDFbMFkwRDELMAkGA1UEBhMCTkwx
+DzANBgNVBAoTBlRFUkVOQTEkMCIGA1UEAxMbVEVSRU5BIGVTY2llbmNlIFBlcnNvbmFsIENBAhEA
+keSzyCKwgZuDFjd+3hfJ1TBqBgsqhkiG9w0BCRACCzFboFkwRDELMAkGA1UEBhMCTkwxDzANBgNV
+BAoTBlRFUkVOQTEkMCIGA1UEAxMbVEVSRU5BIGVTY2llbmNlIFBlcnNvbmFsIENBAhEAkeSzyCKw
+gZuDFjd+3hfJ1TANBgkqhkiG9w0BAQEFAASCAQCRlU9WMRUmtkNJ1uzGGJ5PMsZ8CCixqiBqoYsw
+nNWUPrYZq3YBqsHQjk1d9hsbMTk2OUcNtOzc2WJVqB6ozfEBvtrOE+xJ6JYqFfAMcOqvUTvLHnWN
+WJbAGOuCblVlqjhAuaD/W84jfvNZvZ0TZ1/mF1JJX+7zVJ5RDuRRAZW54UEqNCS3XLGQrOz24E2v
+qCmVS5taZDXfUX5dxayEvgiA0xFJgYhWSmMVgkrN5Kwny9V800Qkke/WPu0yDraQugWo/VT9Y/E+
+6lLspe0KMm4ciUA+htBiIEYo+Bp6k9i7JU3/qUM1ivHoN7aZk4jriSNsDoDCGrhC+/1m769RWpIV
+AAAAAAAA
+--Apple-Mail=_CF3D578B-F127-4AC3-8403-177201C99D9E--

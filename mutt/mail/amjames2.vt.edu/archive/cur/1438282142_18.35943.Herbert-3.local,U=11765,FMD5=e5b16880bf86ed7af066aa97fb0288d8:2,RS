@@ -1,0 +1,187 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp467625qgt;
+        Thu, 2 Jul 2015 06:22:24 -0700 (PDT)
+X-Received: by 10.140.232.3 with SMTP id d3mr44243625qhc.46.1435843344621;
+        Thu, 02 Jul 2015 06:22:24 -0700 (PDT)
+Return-Path: <mmikayla@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id b102si6293423qga.35.2015.07.02.06.22.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Jul 2015 06:22:24 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning mmikayla@vt.edu does not designate 209.85.215.51 as permitted sender) client-ip=209.85.215.51;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning mmikayla@vt.edu does not designate 209.85.215.51 as permitted sender) smtp.mail=mmikayla@vt.edu
+Received: from mail-la0-f51.google.com (mail-la0-f51.google.com [209.85.215.51])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t62DMIHP021352
+	for <amjames2@vt.edu>; Thu, 2 Jul 2015 09:22:23 -0400
+Received: by lagc2 with SMTP id c2so61062106lag.3
+        for <amjames2@vt.edu>; Thu, 02 Jul 2015 06:22:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=5dWN+BRyO+7ElCleLf34wJuejY17DFFfiGOdn5PMWtg=;
+        b=CMreJnuk3Gp75omiTltEb9Tl2NiJDBuWk0mxMG11RkVpCGlGgLF+pgWx3EF86FZYbd
+         w+qRbsZ/5jyopEPWdoPVBepZnDprbqAKl0OHffSp2JIJVuyMW6EdmgQboLGPKVGcWM8M
+         N8YlO+RzzBprZH7NA80/1YsmtqpQOdlJx/OvnPlS0005+4La//xx7MGJEEbs3jEsNzfs
+         /9gbADIlCtQ+nk2NVtkaez7+01HgD25EtLPXa2aERVuFWfkg2zzlUtnIF67BdkJHpSyv
+         Uo1jJTwb+hxDpBu07ABWSSBB7lr2g3ZHlF161N/d/Q+trEb7XrMsRDMFwrKAVG03r8yo
+         uVFA==
+X-Gm-Message-State: ALoCoQnA032JB1YPKhGSCQssa20fK3PhywXRNFjzVGnvu6w6gYIT0GC4kW7mOs9DyISSuJ/bi7B4eTCdBXusJZsKqKqkXB06+x0qy+LRqbrPwF0u2kQhj5t8NtRaSuzQqTIMqzfM7F0BgkLFxqyXl0iuT0n4CRfEpA==
+X-Received: by 10.152.20.106 with SMTP id m10mr1913522lae.7.1435843338379;
+        Thu, 02 Jul 2015 06:22:18 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.20.106 with SMTP id m10mr1913502lae.7.1435843338237;
+ Thu, 02 Jul 2015 06:22:18 -0700 (PDT)
+Received: by 10.152.105.76 with HTTP; Thu, 2 Jul 2015 06:22:18 -0700 (PDT)
+In-Reply-To: <a00ac984dc8243cab843f63d4e5ffb79@GUTENBERG.cc.w2k.vt.edu>
+References: <7B965447-00A9-438D-B121-2AF380318BC6@vt.edu>
+	<a00ac984dc8243cab843f63d4e5ffb79@GUTENBERG.cc.w2k.vt.edu>
+Date: Thu, 2 Jul 2015 09:22:18 -0400
+Message-ID: <CAGBC_PmLZtgOBu1iF79nQcdM4FSTg6qYWGRXUNuvRDgvgyb=gQ@mail.gmail.com>
+Subject: Re: Dining Hall Issues
+From: Mikayla Meyer <mmikayla@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: "James, Andrew" <amjames2@vt.edu>, "Crawford, Daniel" <crawdad@vt.edu>,
+        "Good, Laurie" <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0141aaac2109b90519e454cd
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0141aaac2109b90519e454cd
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hey all -
+The students should have come and gotten a new card for Property Summer
+School (Chemistry). If they did not, please have they go to the help desk
+in grab a new one, I will alert the desk attendant.
+Mikayla
+
+*Mikayla Meyer*
+Virginia Tech, Class of 2016
+Political Science
+Student Government Senate
+Gamma Phi Beta
+mmikayla@vt.edu
+
+On Thu, Jul 2, 2015 at 9:07 AM, Brow, Jessica <jbrow@exchange.vt.edu> wrote=
+:
+
+> Hi AJ,
+>
+> Were they the students who stayed on from the first Summer School?  If so=
+,
+> they should be able to get meal cards from the desk at New Hall West that
+> cover them through tomorrow afternoon.
+>
+> Mikayla,
+>
+> Can you make sure that there are meal cards available and that they are
+> usable through tomorrow afternoon?
+>
+> Thank  you!
+>
+> Jessica
+>
+>
+> -----Original Message-----
+> From: Andrew James [mailto:amjames2@vt.edu]
+> Sent: Wednesday, July 1, 2015 7:59 PM
+> To: Brow, Jessica
+> Cc: Crawford, Daniel; Good, Laurie
+> Subject: Dining Hall Issues
+>
+> Hello Jessica,
+>
+> It was just brought to my attention that all of the students from the
+> Software Development Summer School were turned away by the dining hall
+> staff at dinner today.  The cards say that they do not expire until
+> tomorrow.  The students flying out of Roanoke will be leaving all
+> throughout the day, and some may need 2 meals.  Please let me know if the=
+re
+> is someone I can talk to to fix this as soon as you can. I should be on
+> campus until about 10PM.
+>
+>
+> Thanks,
+>
+> =E2=80=94AJ
+>
+> Andrew M. James
+> amjames2@vt.edu
+>
+>
+>
+>
+
+--089e0141aaac2109b90519e454cd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hey all -=C2=A0<div>The students should have come and gott=
+en a new card for Property Summer School (Chemistry). If they did not, plea=
+se have they go to the help desk in grab a new one, I will alert the desk a=
+ttendant.</div><div>Mikayla</div></div><div class=3D"gmail_extra"><br clear=
+=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr"><b><font face=
+=3D"georgia, serif">Mikayla Meyer</font></b><div>Virginia Tech, Class of 20=
+16</div><div>Political Science</div><div>Student Government Senate</div><di=
+v>Gamma Phi Beta</div><div><a href=3D"mailto:mmikayla@vt.edu" target=3D"_bl=
+ank">mmikayla@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Jul 2, 2015 at 9:07 AM, Brow, Jessic=
+a <span dir=3D"ltr">&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"=
+_blank">jbrow@exchange.vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex">Hi AJ,<br>
+<br>
+Were they the students who stayed on from the first Summer School?=C2=A0 If=
+ so, they should be able to get meal cards from the desk at New Hall West t=
+hat cover them through tomorrow afternoon.<br>
+<br>
+Mikayla,<br>
+<br>
+Can you make sure that there are meal cards available and that they are usa=
+ble through tomorrow afternoon?<br>
+<br>
+Thank=C2=A0 you!<br>
+<br>
+Jessica<br>
+<br>
+<br>
+-----Original Message-----<br>
+From: Andrew James [mailto:<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.e=
+du</a>]<br>
+Sent: Wednesday, July 1, 2015 7:59 PM<br>
+To: Brow, Jessica<br>
+Cc: Crawford, Daniel; Good, Laurie<br>
+Subject: Dining Hall Issues<br>
+<br>
+Hello Jessica,<br>
+<br>
+It was just brought to my attention that all of the students from the Softw=
+are Development Summer School were turned away by the dining hall staff at =
+dinner today.=C2=A0 The cards say that they do not expire until tomorrow.=
+=C2=A0 The students flying out of Roanoke will be leaving all throughout th=
+e day, and some may need 2 meals.=C2=A0 Please let me know if there is some=
+one I can talk to to fix this as soon as you can. I should be on campus unt=
+il about 10PM.<br>
+<br>
+<br>
+Thanks,<br>
+<br>
+=E2=80=94AJ<br>
+<br>
+Andrew M. James<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--089e0141aaac2109b90519e454cd--

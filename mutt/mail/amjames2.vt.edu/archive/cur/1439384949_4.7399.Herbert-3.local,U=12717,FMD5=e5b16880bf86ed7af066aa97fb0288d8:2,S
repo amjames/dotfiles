@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2757919qgt;
+        Tue, 11 Aug 2015 17:03:36 -0700 (PDT)
+X-Received: by 10.55.25.167 with SMTP id 39mr28442441qkz.4.1439337815424;
+        Tue, 11 Aug 2015 17:03:35 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id e78si6775083qka.16.2015.08.11.17.03.35
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 17:03:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7C03TCE026111
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 20:03:34 -0400
+Date: Tue, 11 Aug 2015 16:55:30 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439337330;
+	bh=Jz2q01uDtGCkxgxSMF1CHbbgC8RtQgxRQ/YCQO5LM0w=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=tVqtnDNF3GXVbGa+hUmy/BcRV9jawEWG24t3QQMpgcMtVaqRdxUSP+uHupEltpG9X
+	 +/jrWWXlnkRKDMoFjx5YDA6HGMuvstJjtguYfIPB1oaCTbbuA/7uPX5SZDfJ8LWaHf
+	 mrj8EGfablyVltVu2pnBk3Ayv2ituewuK9x5bH7I=
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6423f28b1ce7aeab478b715faf0b8e516982801bb8b92cf0000000111e24d7292a169ce05fc8800@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/161/130114938@github.com>
+In-Reply-To: <psi4/psi4public/issues/161@github.com>
+References: <psi4/psi4public/issues/161@github.com>
+Subject: Re: [psi4public] Trouble getting files copied to CMAKE_INSTALL_PREFIX
+ (#161)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca8b727f73a_30ea3f886c6f52a01315f8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6423f28b1ce7aeab478b715faf0b8e516982801bb8b92cf0000000111e24d7292a169ce05fc8800@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6423f28b1ce7aeab478b715faf0b8e516982801bb8b92cf0000000111e24d7292a169ce05fc8800@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qk3IhCa6CsQBAynJMsHl3y4Qdmx9ks5omoLygaJpZM4Fp3am>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ca8b727f73a_30ea3f886c6f52a01315f8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Are you building with pcmsolver on? I think @robertodr will have to answer the why in your link. I think most people configure through the setup script, not with cmake directly. With cmake directly and without pcmsolver, https://github.com/psi4/psi4meta/blob/master/conda-recipies/psi4/build.sh has been working.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/161#issuecomment-130114938
+----==_mimepart_55ca8b727f73a_30ea3f886c6f52a01315f8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Are you building with pcmsolver on? I think <a href="https://github.com/robertodr" class="user-mention">@robertodr</a> will have to answer the why in your link. I think most people configure through the setup script, not with cmake directly. With cmake directly and without pcmsolver, <a href="https://github.com/psi4/psi4meta/blob/master/conda-recipies/psi4/build.sh">https://github.com/psi4/psi4meta/blob/master/conda-recipies/psi4/build.sh</a> has been working.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/161#issuecomment-130114938">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qh8n3WwXk_WLP2CIR30-Gkgd1K83ks5omoLygaJpZM4Fp3am.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/issues/161#issuecomment-130114938"></link>
+  <meta itemprop="name" content="View Issue"></meta>
+</div>
+<meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ca8b727f73a_30ea3f886c6f52a01315f8--

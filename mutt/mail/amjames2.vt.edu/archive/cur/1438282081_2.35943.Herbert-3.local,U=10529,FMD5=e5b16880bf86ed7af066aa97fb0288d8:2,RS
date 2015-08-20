@@ -1,0 +1,189 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1805110qgt;
+        Mon, 15 Jun 2015 09:39:25 -0700 (PDT)
+X-Received: by 10.140.94.247 with SMTP id g110mr36158042qge.63.1434386365162;
+        Mon, 15 Jun 2015 09:39:25 -0700 (PDT)
+Return-Path: <cheekong@mit.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 97si13283060qkv.121.2015.06.15.09.39.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Jun 2015 09:39:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of cheekong@mit.edu designates 18.7.68.37 as permitted sender) client-ip=18.7.68.37;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of cheekong@mit.edu designates 18.7.68.37 as permitted sender) smtp.mail=cheekong@mit.edu
+Received: from dmz-mailsec-scanner-8.mit.edu (dmz-mailsec-scanner-8.mit.edu [18.7.68.37])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5FGdISp008805
+	for <amjames2@vt.edu>; Mon, 15 Jun 2015 12:39:24 -0400
+X-AuditID: 12074425-f799a6d000007db3-34-557effb5cb29
+Received: from mailhub-auth-1.mit.edu ( [18.9.21.35])
+	(using TLS with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by dmz-mailsec-scanner-8.mit.edu (Symantec Messaging Gateway) with SMTP id 96.E4.32179.5BFFE755; Mon, 15 Jun 2015 12:39:17 -0400 (EDT)
+Received: from outgoing-exchange-1.mit.edu (outgoing-exchange-1.mit.edu [18.9.28.15])
+	by mailhub-auth-1.mit.edu (8.13.8/8.9.2) with ESMTP id t5FGdHvA009342
+	for <amjames2@vt.edu>; Mon, 15 Jun 2015 12:39:17 -0400
+Received: from OC11EXEDGE4.EXCHANGE.MIT.EDU (oc11exedge4.exchange.mit.edu [18.9.3.27])
+	by outgoing-exchange-1.mit.edu (8.13.8/8.12.4) with ESMTP id t5FGdGwF024169
+	for <amjames2@vt.edu>; Mon, 15 Jun 2015 12:39:17 -0400
+Received: from W92EXHUB16.exchange.mit.edu (18.7.73.27) by
+ OC11EXEDGE4.EXCHANGE.MIT.EDU (18.9.3.27) with Microsoft SMTP Server (TLS) id
+ 14.3.158.1; Mon, 15 Jun 2015 12:38:59 -0400
+Received: from OC11EXPO24.exchange.mit.edu ([169.254.1.35]) by
+ W92EXHUB16.exchange.mit.edu ([18.7.73.27]) with mapi id 14.03.0158.001; Mon,
+ 15 Jun 2015 12:39:15 -0400
+From: Chee Kong Lee <cheekong@mit.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Software Summer School: Travel Itinerary 
+Thread-Topic: Software Summer School: Travel Itinerary 
+Thread-Index: AQHQn5/qW7t0F2BWY0KdjivyMPDm7p2jRgSAgAAArQCAAAWYgIAKyyeA
+Date: Mon, 15 Jun 2015 16:39:16 +0000
+Message-ID: <143C3B78-9219-4732-88B6-69ED0ED9EC64@mit.edu>
+References: <83129211-5BF1-42B1-B96B-FF5C70DD67E5@vt.edu>
+ <51DB1056-E602-43DC-AA3A-D01A82F8D4A5@mit.edu>
+ <09623733-A632-4191-AE0B-FFABBB937BED@vt.edu>
+ <614BFAE9-512D-49F1-A583-29DCAE41D4CA@mit.edu>
+In-Reply-To: <614BFAE9-512D-49F1-A583-29DCAE41D4CA@mit.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [18.189.58.217]
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_4712DC7C-3CD1-4497-A7C7-49816CD58DC6";
+	protocol="application/pkcs7-signature"; micalg=sha1
+MIME-Version: 1.0
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFvrPKsWRmVeSWpSXmKPExsUixCmqrLv1f12oQe8VS4ttzRcYHRg9Dm1/
+	wxbAGMVlk5Kak1mWWqRvl8CVcezdGpaCBSoVM5/cYWlgvKrQxcjJISFgInG9ZwEzhC0mceHe
+	erYuRi4OIYHFTBJTl3cwQjjXGCXe3j0BlbnLKHFsQRsLhLOdUWL9hIdQZasYJX7tf8PUxcjB
+	wSagJnHvqhjIXBEBJYlv6/uYQGxhATOJjoM3mSHi5hK3up6xgZSLCLhJfL7iChJmEVCVuH9w
+	LSuIzStgJdG/9TjU+NOMEl27m8DmcApYS2y7eAGsiBHo7u+n1oDFmQXEJW49mc8E8Y+IxMOL
+	p9lgfvu36yGUrSixd8VDFoj6KYwSH/YwQSwTlDg58wnLBEbxWUhGzUJSNgtJGURcW2LZwtfM
+	s4BeYBbQkZi8kBEibCrx+uhHKNtaYsavg2wQtqLElO6H7AsYOVYxyqbkVunmJmbmFKcm6xYn
+	J+blpRbpWujlZpbopaaUbmIExS27i+oOxgmHlA4xCnAwKvHwbvhSGyrEmlhWXJl7iFGSg0lJ
+	lPfT17pQIb6k/JTKjMTijPii0pzU4kOMKkC7Hm1YfYFRiiUvPy9VSYTX9QhQHW9KYmVValE+
+	TJk0B4uSOO+mH3whQgLpiSWp2ampBalFMFkZDg4lCV6Of0CNgkWp6akVaZk5JQhpJg7OQ4wS
+	HDxAwx/8BRleXJCYW5yZDpE/xagoJc6rA9IsAJLIKM2D64Wl21eM4kBvCfOWg1TxAFM1XPcr
+	oMFMQINTGsEGlyQipKQaGCufsky6VSNovvIXsw/TotyOGaYayrmzrB/pir7dbn0s+aFo+ZxV
+	IYdbtTdx5Nlx5tb/Wcxt/IKzTJPZ43vxNtuDRdzJPlelGtMDhc5XbjlS1i86+f3X9FkBD5v6
+	3LSV3B1aJ9mcX7auJ9zS53+M07q6N92KHkvL/3Hcua5qviKo3vLa1u1SSizFGYmGWsxFxYkA
+	BdO/DZIDAAA=
+X-Spam-Status: No, score=-2.8 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_4712DC7C-3CD1-4497-A7C7-49816CD58DC6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Hi Andrew,
+
+I am wondering if the transportation from and to the airport will be =
+arranged be the organizers, or the participants are required to get =
+there on their own. Thanks. =20
+
+Regards,
+Chee Kong Lee
+
+
+> On Jun 8, 2015, at 3:49 PM, Chee Kong Lee <cheekong@mit.edu> wrote:
+>=20
+> Oh, it is US airways.
+>=20
+> Chee Kong Lee
+>=20
+>=20
+>> On Jun 8, 2015, at 3:29 PM, Andrew James <amjames2@vt.edu> wrote:
+>>=20
+>> Hello,=20
+>>=20
+>> Could you just let me know what airline you will be on?=20
+>>=20
+>> Thanks!=20
+>> Andrew=20
+>>=20
+>>> On Jun 8, 2015, at 3:27 PM, Chee Kong Lee <cheekong@mit.edu> wrote:
+>>>=20
+>>> Hi Andrew,=20
+>>>=20
+>>> Thank you for your email. My travel itinerary details are as =
+follows:
+>>>=20
+>>> Flight numbers: #4721(Arrival) and #3765(Departure)
+>>> Expected Dates & Times: 2.11pm June 21(Arrival) and 1.26am July 2 =
+(Departure)
+>>>=20
+>>> I look forward to attending the summer school. Thank you.=20
+>>>=20
+>>> Best Regards,
+>>> Chee Kong Lee
+>>>=20
+>>>> On Jun 5, 2015, at 10:55 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>>=20
+>>>> Hello,=20
+>>>>=20
+>>>> This is just a gentle reminder to please send me your travel =
+Itinerary.=20
+>>>> If you are flying please send me your:
+>>>> 	Arriving/Departing Flight number
+>>>> 	Expected Arrival/Departure Time=20
+>>>> 	Arrival/Departure Date
+>>>>=20
+>>>> If you are driving just let me know so I can get you a parking =
+pass. I will assume you are going to arrive on June 21st, and leave on =
+July 2nd unless you tell me other wise.=20
+>>>>=20
+>>>> Looking forward to meeting everyone!
+>>>>=20
+>>>> Andrew M James
+>>>> Summer School Coordinator
+>>>=20
+>>=20
+>=20
+
+
+--Apple-Mail=_4712DC7C-3CD1-4497-A7C7-49816CD58DC6
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIDwTCCA70w
+ggMmoAMCAQICEDl1ibIHvO+INRjSw0QghuQwDQYJKoZIhvcNAQEFBQAwbDELMAkGA1UEBhMCVVMx
+FjAUBgNVBAgTDU1hc3NhY2h1c2V0dHMxLjAsBgNVBAoTJU1hc3NhY2h1c2V0dHMgSW5zdGl0dXRl
+IG9mIFRlY2hub2xvZ3kxFTATBgNVBAsTDENsaWVudCBDQSB2MTAeFw0xNDEyMTYwMjQ1MzVaFw0x
+NTA3MzEwMjQ1MzVaMIGlMQswCQYDVQQGEwJVUzEWMBQGA1UECBMNTWFzc2FjaHVzZXR0czEuMCwG
+A1UEChMlTWFzc2FjaHVzZXR0cyBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neTEVMBMGA1UECxMMQ2xp
+ZW50IENBIHYxMRYwFAYDVQQDEw1DaGVlIEtvbmcgTGVlMR8wHQYJKoZIhvcNAQkBFhBjaGVla29u
+Z0BNSVQuRURVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA94n6xUTziep/hjVQlXG0
+szK019PaGqS2pLNGbx7E7ZZaXoTC+/VTbEqN22Bpu2p9bFMfF72PoAWPclsnp0kMYjHoPXwT1yUC
+tiPNLgqjp3RJLpFW/Q3wnn58Ka4TJzcpf3ZWXoenJGzUHnnhWmezdqUvJuZ8whYSfSS5f4rfdaKW
+OKtnSr//Eiw1ChzofAOF7VzfxgCWFjP/KHW90z+7gWevHNiA9p/glV11nQwF130xctP6ciqBnHFm
+ESCBuDiTHkfVK20Pg7o2HGIcD/v1ggtd7EW5hTVeaeDgD/05v3JZP4r2ZZfJPUtgojTzCB4cGRPw
+lQixDmMInkNX2PnPhQIDAQABo4GhMIGeMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgWgMB0G
+A1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjALBgNVHQ8EBAMCBeAwHQYDVR0OBBYEFOOWcYNS
+npYB2Y1WsjJeLT2fi+hqMDMGA1UdHwQsMCowKKAmoCSGImh0dHA6Ly9jYS5taXQuZWR1L2NhL21p
+dGNsaWVudC5jcmwwDQYJKoZIhvcNAQEFBQADgYEAQFomRTf5phVK/hU1QSSKcv1SxZa+oB3aEV5k
+PwYB0gwYhmomuzJxhgBnj2PtLncVmmWoTneZ/vELwQI60GN7pymqpvnSgMrQ+ANbWGpH0o16oIPJ
+wUfT6Oxob73ayvFA9TbGv3M7KQiQoWe2693xf03BaNzA9m7WDyNY3o+9lTcxggMzMIIDLwIBATCB
+gDBsMQswCQYDVQQGEwJVUzEWMBQGA1UECBMNTWFzc2FjaHVzZXR0czEuMCwGA1UEChMlTWFzc2Fj
+aHVzZXR0cyBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neTEVMBMGA1UECxMMQ2xpZW50IENBIHYxAhA5
+dYmyB7zviDUY0sNEIIbkMAkGBSsOAwIaBQCgggGHMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEw
+HAYJKoZIhvcNAQkFMQ8XDTE1MDYxNTE2MzkxNlowIwYJKoZIhvcNAQkEMRYEFOKk+f5NDj4lHbzU
+8XSyu4j8RJcrMIGRBgkrBgEEAYI3EAQxgYMwgYAwbDELMAkGA1UEBhMCVVMxFjAUBgNVBAgTDU1h
+c3NhY2h1c2V0dHMxLjAsBgNVBAoTJU1hc3NhY2h1c2V0dHMgSW5zdGl0dXRlIG9mIFRlY2hub2xv
+Z3kxFTATBgNVBAsTDENsaWVudCBDQSB2MQIQOXWJsge874g1GNLDRCCG5DCBkwYLKoZIhvcNAQkQ
+AgsxgYOggYAwbDELMAkGA1UEBhMCVVMxFjAUBgNVBAgTDU1hc3NhY2h1c2V0dHMxLjAsBgNVBAoT
+JU1hc3NhY2h1c2V0dHMgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kxFTATBgNVBAsTDENsaWVudCBD
+QSB2MQIQOXWJsge874g1GNLDRCCG5DANBgkqhkiG9w0BAQEFAASCAQDHoCNyE1hJ8gyHWTUP6U/s
+JyY2/yF1glsYq9BFS6GhdbWfjFprWnWe+sEROajpUAqYl8nNLQ0T8W+EY55v/0DgibTCOrLN0pni
+Uuy33z49+xlK2L2lDVj35zgp5RE9x2RHGuvcEqjyuzO238Tfi0S8EMjkoXRRemy2Aotw3Ykd/9Uc
+1woHDUU2YmX/hEde9DWUyvKt7vuvP6hKD2iml0cd2esmHlHqhV8mBm7n5/pKjLjKOYCFD5sUab27
+hedcZBUVkdaXrkV6YXCkcUcQ+4rvq1khst2rr2aCpPEmJcXIu4P+ofkxey8yNhroekC/zjleE6Ek
+KCIjtNS4jcfN8yBfAAAAAAAA
+
+--Apple-Mail=_4712DC7C-3CD1-4497-A7C7-49816CD58DC6--

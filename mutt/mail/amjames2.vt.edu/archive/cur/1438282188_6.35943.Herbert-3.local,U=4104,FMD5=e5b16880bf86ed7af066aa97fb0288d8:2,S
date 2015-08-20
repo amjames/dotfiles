@@ -1,0 +1,131 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.17] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id j11sm7927660qge.2.2015.01.25.12.05.38
+        for <crawdad@vt.edu>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 25 Jan 2015 12:05:38 -0800 (PST)
+From: Andrew James <amjames2@vt.edu>
+X-Google-Original-From: Andrew James <amjames@vt.edu>
+Date: Sun, 25 Jan 2015 15:05:38 -0500
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Message-ID: <DDB2E9DC9DC94BDD8571D97743BFBDAE@vt.edu>
+In-Reply-To: <CAH0V_1a8fWd2k5KNM3CbRnz6fpdSw56t8PAJT0vjK4pyVNPfZA@mail.gmail.com>
+References: <CAH0V_1a8fWd2k5KNM3CbRnz6fpdSw56t8PAJT0vjK4pyVNPfZA@mail.gmail.com>
+Subject: Re: Acene project
+X-Mailer: sparrow 1.6.3 (build 1173)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="54c54c92_649bb77c_f5ca"
+
+--54c54c92_649bb77c_f5ca
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Dear Dr. Crawford,
+
+So far I have not collected NO occupation numbers, T1, D1, or D2 diagnostics for any of the molecules.  I am having trouble getting the ccsd jobs to run. They appear to just stop in the middle with no error messages after only a few minutes.  I have gotten ccsd energy calculations to run for phenylalenyl, but not the density calculations.  These calculations are in cerebro under
+
+/cerebro/home/crawdad/ajay/projects/acene/sigma_freeze/phenylalenyl/ccsd/ 
+
+I am currently trying to do the density calculations giving them a little more time, but I am afraid they will be in the que for quite some time now.  I have some calculations waiting to be picked up since 1/14/2015 still.   
+
+-- 
+Andrew M. James
+Graduate Teaching Assistant 
+Virginia Tech 
+
+
+On Sunday, January 25, 2015 at 9:50 AM, T. Daniel Crawford wrote:
+
+> Dear AJ,
+> 
+> I looked back over the material Prof. Lischka sent.  Your calculations right now (correct me if I'm wrong) are focused primarily on obtaining natural orbital occupation numbers using CCSD.  (Note that soon we'll be able to obtain CCSD(T) densities as well, but I'll need some time to finish coding.)  One thing I hadn't realized before is that most of these systems have open-shell ground states, which complicates our calculations somewhat in that we must use both ROHF-CC and UHF-CC methods.  We have one-electron densities for both of these methods, though I don't know if we've tested the natural orbital calculations for ROHF references yet.  I compute both D1 and D2 diagnostics for ROHF references, but there exists nothing more than T1 diagnostics for UHF references.
+> 
+> I think the key quantities that Prof. Lischka wants (so far) are: natural orbital occupation numbers for the active space (non-frozen orbitals), T1, D1, and D2 diagnostics.   
+> 
+> What systems have you run computations for so far, and what data have you collected?  Please also send me the directory names where you're running the computations so I can look them over myself and offer suggestions, if necessary.
+> 
+> Thanks for taking this project on!
+> 
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu (mailto:crawdad@vt.edu)
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+
+
+
+--54c54c92_649bb77c_f5ca
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+
+                <div style=3D=22font-family: Helvetica; font-size: 13px;=22=
+>Dear Dr. Crawford,</div><div style=3D=22font-family: Helvetica; font-siz=
+e: 13px;=22><br></div><div style=3D=22font-family: Helvetica; font-size: =
+13px;=22>So far I have not collected NO occupation numbers, T1, D1, or D2=
+ diagnostics for any of the molecules. &nbsp;I am having trouble getting =
+the ccsd jobs to run. They appear to just stop in the middle with no erro=
+r messages after only a few minutes. &nbsp;I have gotten ccsd energy calc=
+ulations to run for phenylalenyl, but not the density calculations. &nbsp=
+;These calculations are in cerebro under</div><div style=3D=22font-family=
+: Helvetica; font-size: 13px;=22><br></div><div style=3D=22font-family: H=
+elvetica; font-size: 13px;=22>/cerebro/home/crawdad/ajay/projects/acene/s=
+igma=5Ffreeze/phenylalenyl/ccsd/&nbsp;</div><div style=3D=22font-family: =
+Helvetica; font-size: 13px;=22><br></div><div style=3D=22font-family: Hel=
+vetica; font-size: 13px;=22>I am currently trying to do the density calcu=
+lations giving them a little more time, but I am afraid they will be in t=
+he que for quite some time now. &nbsp;I have some calculations waiting to=
+ be picked up since 1/14/2015 still. &nbsp;</div>
+                <div><div><br></div><div>--&nbsp;</div><div>Andrew M. Jam=
+es</div><div>Graduate Teaching Assistant&nbsp;</div><div>Virginia Tech&nb=
+sp;</div><div><br></div></div>
+                =20
+                <p style=3D=22color: =23A0A0A8;=22>On Sunday, January 25,=
+ 2015 at 9:50 AM, T. Daniel Crawford wrote:</p>
+                <blockquote type=3D=22cite=22 style=3D=22border-left-styl=
+e:solid;border-width:1px;margin-left:0px;padding-left:10px;=22>
+                    <span><div><div><div dir=3D=22ltr=22>Dear AJ,<div><br=
+></div><div>I looked back over the material Prof. Lischka sent.&nbsp; You=
+r calculations right now (correct me if I'm wrong) are focused primarily =
+on obtaining natural orbital occupation numbers using CCSD. &nbsp;(Note t=
+hat soon we'll be able to obtain CCSD(T) densities as well, but I'll need=
+ some time to finish coding.) &nbsp;One thing I hadn't realized before is=
+ that most of these systems have open-shell ground states, which complica=
+tes our calculations somewhat in that we must use both ROH=46-CC and UH=46=
+-CC methods.&nbsp; We have one-electron densities for both of these metho=
+ds, though I don't know if we've tested the natural orbital calculations =
+for ROH=46 references yet.&nbsp; I compute both D1 and D2 diagnostics for=
+ ROH=46 references, but there exists nothing more than T1 diagnostics for=
+ UH=46 references.</div><div><br></div><div>I think the key quantities th=
+at Prof. Lischka wants (so far) are: natural orbital occupation numbers f=
+or the active space (non-frozen orbitals), T1, D1, and D2 diagnostics. &n=
+bsp;&nbsp;</div><div><br></div><div>What systems have you run computation=
+s for so far, and what data have you collected=3F&nbsp; Please also send =
+me the directory names where you're running the computations so I can loo=
+k them over myself and offer suggestions, if necessary.</div><div><br></d=
+iv><div>Thanks for taking this project on=21</div><div><br></div><div>-TD=
+C<br clear=3D=22all=22><div><div><div dir=3D=22ltr=22>--<div>Prof. T. Dan=
+iel Crawford</div><div><a href=3D=22mailto:crawdad=40vt.edu=22 target=3D=22=
+=5Fblank=22>crawdad=40vt.edu</a></div></div></div></div>
+</div></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            
+--54c54c92_649bb77c_f5ca--
+

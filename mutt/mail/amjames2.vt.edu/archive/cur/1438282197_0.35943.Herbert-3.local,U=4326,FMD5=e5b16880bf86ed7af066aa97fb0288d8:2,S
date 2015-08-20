@@ -1,0 +1,66 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp288290qgt;
+        Mon, 9 Feb 2015 08:35:45 -0800 (PST)
+X-Received: by 10.140.105.183 with SMTP id c52mr42164758qgf.54.1423499745079;
+        Mon, 09 Feb 2015 08:35:45 -0800 (PST)
+Return-Path: <khgillis@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id v10si14801631qgv.67.2015.02.09.08.35.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Feb 2015 08:35:45 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning khgillis@vt.edu does not designate 209.85.216.172 as permitted sender) client-ip=209.85.216.172;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning khgillis@vt.edu does not designate 209.85.216.172 as permitted sender) smtp.mail=khgillis@vt.edu
+Received: from mail-qc0-f172.google.com (mail-qc0-f172.google.com [209.85.216.172])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t19GZd7o026703
+	for <AMJames2@vt.edu>; Mon, 9 Feb 2015 11:35:44 -0500
+Received: by mail-qc0-f172.google.com with SMTP id x3so23440257qcv.3
+        for <AMJames2@vt.edu>; Mon, 09 Feb 2015 08:35:39 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-type:content-transfer-encoding
+         :subject:message-id:date:to:mime-version;
+        bh=OS5NqvLQuvnCJjPqya3zdpIMwrkt/KcUP/TMAK1Bmk0=;
+        b=AggnNQf0szI5vKtMjR6Cbwol8yjlEEA+jgygPl95CaiU0dfu2fcPy0PZiqD75wY+7j
+         k5md8C+2aCUGrddHmnBfUrJ6hZsxH8EUB5KuvjbGdLh582k8ulmCElio0D6cJOxhfnM3
+         f/klo5S40oa/Wy4/FlxWg/Wp4FeMuahXzjGcaH7outwn3XUpbSWVzYyWAW2Gzu5nSgZM
+         ZEWI/pgcQnP7ExFCVUSRDJK1oMDDU+AYh6ycA+HfiYxxEpUXivJWXRAnNOYZjgE+/AMv
+         28Qy4h2CjtJE1Tc0XtYX5GYBKZ44R8V5QGLJBOs+44g3DfzUNulEzXjrzyLLHIoEerkx
+         tbMw==
+X-Gm-Message-State: ALoCoQkG9wPJsSf25IVFiKy6iqnRA3lKwSzHYlQJ3oz/UTBq3eBWKzjW4VGZZqKxWSRT+NH0yrg4Q0egh2OuepDSPMwR4b9seDCs+0cRMnwq1NVVvOvjni4X1ZHvnflmjtUrRqN8nm4eGv5Ax8FkjAisMC6X1RQjhA0tnFjr3DbuI8/OuK4txUmLgi14/H1bwJuealD995CY
+X-Received: by 10.224.127.193 with SMTP id h1mr41679644qas.98.1423499739214;
+        Mon, 09 Feb 2015 08:35:39 -0800 (PST)
+X-Received: by 10.224.127.193 with SMTP id h1mr41679627qas.98.1423499739122;
+        Mon, 09 Feb 2015 08:35:39 -0800 (PST)
+Received: from [172.31.105.108] (nc6520605.cns.vt.edu. [198.82.6.5])
+        by mx.google.com with ESMTPSA id u91sm12298181qgd.29.2015.02.09.08.35.37
+        for <AMJames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 09 Feb 2015 08:35:38 -0800 (PST)
+From: Kiersten Gillis <khgillis@vt.edu>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Subject: CHEM 1046 Thursday 8am
+Message-Id: <545F29E6-98C5-460C-B85E-E6D88C78D3B3@vt.edu>
+Date: Mon, 9 Feb 2015 11:35:35 -0500
+To: AMJames2@vt.edu
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+X-Mailer: Apple Mail (2.1878.6)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear Andrew,
+
+I am doing the post lab for the second experiment and it asks for a =
+definition for sampling.  Can you tell me some acceptable sources for =
+finding definitions? Would dictionary.com or merriam-webster dictionary =
+work?
+
+Thank you,
+Kiersten Gillis=

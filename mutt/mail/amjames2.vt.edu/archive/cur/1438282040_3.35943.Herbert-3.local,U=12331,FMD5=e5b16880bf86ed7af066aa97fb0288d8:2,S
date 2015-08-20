@@ -1,0 +1,126 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1692969qgt;
+        Mon, 27 Jul 2015 13:54:41 -0700 (PDT)
+X-Received: by 10.140.201.79 with SMTP id w76mr42761070qha.65.1438030481833;
+        Mon, 27 Jul 2015 13:54:41 -0700 (PDT)
+Return-Path: <glc-programs-g+bncBDL33K45TYGRBCVV3KWQKGQEZG4LU2Y@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id h77si22395372qhc.61.2015.07.27.13.54.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 13:54:41 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning glc-programs-g+bncBDL33K45TYGRBCVV3KWQKGQEZG4LU2Y@vt.edu does not designate 209.85.214.180 as permitted sender) client-ip=209.85.214.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning glc-programs-g+bncBDL33K45TYGRBCVV3KWQKGQEZG4LU2Y@vt.edu does not designate 209.85.214.180 as permitted sender) smtp.mail=glc-programs-g+bncBDL33K45TYGRBCVV3KWQKGQEZG4LU2Y@vt.edu
+Received: from mail-ob0-f180.google.com (mail-ob0-f180.google.com [209.85.214.180])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6RKsY8H032177
+	for <amjames2@vt.edu>; Mon, 27 Jul 2015 16:54:40 -0400
+Received: by obdeg2 with SMTP id eg2sf69184090obd.0
+        for <amjames2@vt.edu>; Mon, 27 Jul 2015 13:54:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:to:subject:thread-topic:thread-index:date
+         :message-id:accept-language:content-language:content-type
+         :content-transfer-encoding:mime-version:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe;
+        bh=wNDiYZmSyWOaOpu0wnMZgK7J2HUNRwnbMcgWauN3Yqc=;
+        b=cHkewhq+wRfkz6CeNOHZe4q62MwL1GsIzWM7Mgo+Tjp7enwF5Y4A4ydeb4FmGkVN90
+         O9v9ymUbazbi8WBPkzrQXCCLvscKIBa71OZgYVQPcJ9X7HuMk4360+JSES9+Fh39bEGY
+         2QB7uQ/i0PgFW1IYHg68pgMfWHAlKIwrsqYiiD4O1QUGxg4TUrEC2P+JTQzJf5yyd4Oz
+         hFCGAllHaHqzeS7at/qeFNgwKWfLRVtiLXMkOEgZ9IIdY7ki3kxi0S/nO8ieHGNEw6lr
+         tgxgRyzb5sNv7TRrLDo0Hw3PMfz8B5ZnE0FCCMpHSEVFlSuYKtlPQEgMGdHPzbVVd9Qh
+         q7tA==
+X-Gm-Message-State: ALoCoQkMI+Bt5MqxFZ1/7Mo07qnSlvi4+nYlr1zIVpkG1XaxrYbYLOXvX7H9q2NHJmhfZ+R4U/mioy/GIjx7kicWWUKtczCP0jGE72naV0FgHf/Pi/0RHa96CTRU8EYGHCAbxHQ2YJ//Oy4C5Rk0kRVEH3RzydOaGg==
+X-Received: by 10.182.50.170 with SMTP id d10mr31110454obo.48.1438030474789;
+        Mon, 27 Jul 2015 13:54:34 -0700 (PDT)
+X-Received: by 10.182.50.170 with SMTP id d10mr31110435obo.48.1438030474735;
+        Mon, 27 Jul 2015 13:54:34 -0700 (PDT)
+X-BeenThere: glc-programs-g@vt.edu
+Received: by 10.140.105.226 with SMTP id c89ls2883867qgf.14.gmail; Mon, 27 Jul
+ 2015 13:54:34 -0700 (PDT)
+X-Received: by 10.140.237.70 with SMTP id i67mr45953184qhc.44.1438030473934;
+        Mon, 27 Jul 2015 13:54:33 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id n36si22475123qkh.11.2015.07.27.13.54.33
+        for <glc-programs-g@g.mail.vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 13:54:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gibsonm@vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6RKsXtF019042
+	for <glc-programs-g@g.mail.vt.edu>; Mon, 27 Jul 2015 16:54:33 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12] (may be forged))
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6RKsSuN023628
+	for <glc-programs-g@vt.edu>; Mon, 27 Jul 2015 16:54:33 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: GUTENBERG.cc.w2k.vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (2001:468:c80:2104:0:2ce:f173:7f15) by
+ GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:0:243:942e:ff76) with Microsoft
+ SMTP Server (TLS) id 15.0.1104.5; Mon, 27 Jul 2015 16:54:27 -0400
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+ MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+ 15.00.0995.032; Mon, 27 Jul 2015 16:54:27 -0400
+From: "Gibson, Monika" <gibsonm@vt.edu>
+To: "glc-programs-g@vt.edu" <glc-programs-g@vt.edu>
+Subject: Test message for glc-programs listserv
+Thread-Topic: Test message for glc-programs listserv
+Thread-Index: AdDIrkStcc01MH9+TC+pvYh0H2eFIw==
+Date: Mon, 27 Jul 2015 20:54:27 +0000
+Message-ID: <f4a4bf8f85934eb28bf9b0d09d114e15@MARCONI.cc.w2k.vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.148.192]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: GUTENBERG.cc.w2k.vt.edu
+X-Spam-Status: No, score=0.3 required=5.0 tests=RCVD_IN_DNSWL_LOW,
+	RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL,SPF_SOFTFAIL autolearn=disabled
+	version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Original-Sender: gibsonm@vt.edu
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of gibsonm@vt.edu designates 198.82.160.12 as permitted sender) smtp.mail=gibsonm@vt.edu
+Reply-To: gibsonm@vt.edu
+Precedence: list
+Mailing-list: list glc-programs-g@vt.edu; contact glc-programs-g+owners@vt.edu
+List-ID: <glc-programs-g.vt.edu>
+X-Spam-Checked-In-Group: glc-programs-g@vt.edu
+X-Google-Group-Id: 94722699490
+List-Post: <http://groups.google.com/a/vt.edu/group/glc-programs-g/post>, <mailto:glc-programs-g@vt.edu>
+List-Help: <http://support.google.com/a/vt.edu/bin/topic.py?topic=25838>, <mailto:glc-programs-g+help@vt.edu>
+List-Archive: <http://groups.google.com/a/vt.edu/group/glc-programs-g/>
+List-Subscribe: <http://groups.google.com/a/vt.edu/group/glc-programs-g/subscribe>,
+ <mailto:glc-programs-g+subscribe@vt.edu>
+List-Unsubscribe: <mailto:googlegroups-manage+94722699490+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/vt.edu/group/glc-programs-g/subscribe>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Welcome to the new VT Google Group glc-programs-g@vt.edu.  This group is re=
+placing the listserv list glc-programs@listserv@vt.edu that you have been s=
+ubscribed to based on your enrollment as a graduate student, or because you=
+ requested subscription.  Please start     changing any reference to glc-pr=
+ograms@listserv@vt.edu to glc-programs-g@vt.edu.=20
+
+Thanks,
+
+Monika
+
+Monika Gibson
+Director of Student Services
+Graduate School CMC 0325
+117 Graduate Life Center
+Virginia Tech
+Blacksburg, VA 24061
+Phone: 540.231.9564
+Fax: 540.231.3714
+http://www.graduateschool.vt.edu
+

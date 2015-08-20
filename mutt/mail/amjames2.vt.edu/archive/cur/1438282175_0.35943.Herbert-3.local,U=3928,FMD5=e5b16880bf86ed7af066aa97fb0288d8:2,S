@@ -1,0 +1,214 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.98.227 with SMTP id o90csp1328549qge;
+        Mon, 29 Dec 2014 20:12:23 -0800 (PST)
+X-Received: by 10.229.248.69 with SMTP id mf5mr97230558qcb.29.1419912742966;
+        Mon, 29 Dec 2014 20:12:22 -0800 (PST)
+Return-Path: <crawdad@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id l10si42513551qgf.74.2014.12.29.20.12.22
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 29 Dec 2014 20:12:22 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f179.google.com (mail-ie0-f179.google.com [209.85.223.179])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id sBU4CHLX010905
+	for <amjames2@vt.edu>; Mon, 29 Dec 2014 23:12:22 -0500
+Received: by mail-ie0-f179.google.com with SMTP id rp18so13103538iec.38
+        for <amjames2@vt.edu>; Mon, 29 Dec 2014 20:12:16 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=pXBwa4Q8RxYE56WsvhRvVEAEQCFXpRUUACgP5RBVYpI=;
+        b=ZMgqaEneDK3k9+ECOYx+syGhfRNQld9HE6vVT4kog4gxOHoIAaT7a+y68tog1feYge
+         U7Tjq1aVkQypnUmphZN5tdl4mbJSvzTHkNRg3wpwiP6NZW2Y0QX63tp1rG4CD91svUe8
+         +pht4GjfOBLx2svPg3aHZfFatY6b5a781mdewJVIV1dd6lonxeA06GCuS9rWdn3132C4
+         /mkF/Y/BQpDQNvXo5hm3AadLKXCLFnD9KdVXcF/zq32dLdSkdJAwPHSsd/RNUCSuLvUX
+         eVch67s+ZSjv3V1uElrsvemq8B2lzp/s1ufBnxo0VYw5T257Q9UPR0SZ/s7IOfNe+V9r
+         4l/w==
+X-Gm-Message-State: ALoCoQnbckpG7wGbOtT64y+PqoHIGW+svZ2KLPLip9dPbA1JwwnyVxZf1PSQKFuTY/HoRypKjRU0N39gnnJ6ghY35y2oJjUlDteTy/xabSnR3nO53JIoafBX+Dzybyem20rEFvdzW3NZjy+KzE9Y6E6klg6bxKv+Tw==
+X-Received: by 10.50.171.201 with SMTP id aw9mr19406702igc.2.1419912736976;
+        Mon, 29 Dec 2014 20:12:16 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.50.171.201 with SMTP id aw9mr19406694igc.2.1419912736743;
+ Mon, 29 Dec 2014 20:12:16 -0800 (PST)
+Received: by 10.107.170.145 with HTTP; Mon, 29 Dec 2014 20:12:16 -0800 (PST)
+In-Reply-To: <1419629248115.49bcd52e@Nodemailer>
+References: <1419629248115.49bcd52e@Nodemailer>
+Date: Mon, 29 Dec 2014 22:12:16 -0600
+Message-ID: <CAH0V_1Z0f6iSSF0tJE2YPZcJ5h0V78k9wCr0EPzqrnynrXaTtQ@mail.gmail.com>
+Subject: Re: Some updtates, and questions
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0111d42449382a050b6732ea
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0111d42449382a050b6732ea
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear AJ,
+
+Sorry to be slow to respond, but the holidays and some health issues have
+held me up.  Regarding your question about vibrationally averaged specific
+rotations for these molecules, there are papers on this, and below are some
+pointers.  We can discuss details either via email or after we're both back
+in Blacksburg, but hopefully the below will get you started with some
+interesting reading.
+
+Best regards and happy new year!
+
+-TDC
+
+(1) http://dx.doi.org/10.1080/00268970701598097
+
+(2) @article{Pedersen09:foxirane,
+Author =3D {T. B. Pedersen and J. Kongsted and T. D. Crawford and K. Ruud},
+Journal =3D {J. Chem. Phys.},
+Pages =3D {034310},
+Title =3D {On the importance of vibrational contributions to small-angle
+optical rotation: fluorooxirane in gas phase and solution},
+Volume =3D {130},
+Year =3D {2009}}
+
+(3)  @article{Ruud05,
+Author =3D {K. Ruud and R. Zanasi},
+Journal =3D {Angew. Chem. Int. Ed. Engl.},
+Number =3D 23,
+Pages =3D {3594-3596},
+Title =3D {The importance of molecular vibrations: The sign change of the
+optical rotation of methyloxirane},
+Volume =3D 44,
+Year =3D 2005}
+
+(4) @article{Kongsted05,
+Author =3D {J. Kongsted and T. B. Pedersen and M. Strange and A. Osted and
+{Aa.} E. Hansen and K. V. Mikkelsen and F. Pawlowski and P. J{\o}rgensen
+and C. H{\"a}ttig},
+Journal =3D {Chem. Phys. Lett.},
+Pages =3D {385-392},
+Title =3D {Coupled cluster calculations of the optical rotation of {\em
+S}-propylene oxide in gas phase and solution},
+Volume =3D 401,
+Year =3D 2005}
+
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Dec 26, 2014 at 3:27 PM, Andrew James <amjames2@vt.edu> wrote:
+
+>  Dear Dr. Crawford,
+>
+> I am starting to write up the results I have collected for those MD
+> simulations. I wanted to give you a quick update of where I am at, and al=
+so
+> ask you a few questions:
+> -I have solid results for methylthiirane and methyloxirane ( I believe we
+> already discussed this). I saved all of the results and output, and
+> resubmitted them because I had sightly different parameters for the MD
+> simulations. I don=E2=80=99t suspect the results will be very different, =
+but I
+> wanted to make sure all of the jobs were uniform.
+> I am still waiting on the results for norborenone, but based on my shorte=
+r
+> test simulations I don=E2=80=99t foresee anymore holdups.
+> I would like to put together some tables comparing the results from these
+> simulations to experiment and some other  computational studies.  I can
+> search the literature to find numbers for comparison, but I wanted to ask
+> if you had particular data that you would like me to compare to (i.e. dat=
+a
+> that you have compared to previously).
+>
+> I hope you had an enjoyable christmas.
+>  =E2=80=94AJ
+>
+
+--089e0111d42449382a050b6732ea
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear AJ,<div><br></div><div>Sorry to be slow to respond, b=
+ut the holidays and some health issues have held me up.=C2=A0 Regarding you=
+r question about vibrationally averaged specific rotations for these molecu=
+les, there are papers on this, and below are some pointers.=C2=A0 We can di=
+scuss details either via email or after we&#39;re both back in Blacksburg, =
+but hopefully the below will get you started with some interesting reading.=
+</div><div><br></div><div>Best regards and happy new year!</div><div><br></=
+div><div>-TDC</div><div><br></div><div>(1)=C2=A0<a href=3D"http://dx.doi.or=
+g/10.1080/00268970701598097">http://dx.doi.org/10.1080/00268970701598097</a=
+></div><div><br></div><div>(2) @article{Pedersen09:foxirane,</div><div><spa=
+n class=3D"" style=3D"white-space:pre">	</span>Author =3D {T. B. Pedersen a=
+nd J. Kongsted and T. D. Crawford and K. Ruud},</div><div><span class=3D"" =
+style=3D"white-space:pre">	</span>Journal =3D {J. Chem. Phys.},</div><div><=
+span class=3D"" style=3D"white-space:pre">	</span>Pages =3D {034310},</div>=
+<div><span class=3D"" style=3D"white-space:pre">	</span>Title =3D {On the i=
+mportance of vibrational contributions to small-angle optical rotation: flu=
+orooxirane in gas phase and solution},</div><div><span class=3D"" style=3D"=
+white-space:pre">	</span>Volume =3D {130},</div><div><span class=3D"" style=
+=3D"white-space:pre">	</span>Year =3D {2009}}</div><div><br></div><div>(3) =
+=C2=A0@article{Ruud05,</div><div><span class=3D"" style=3D"white-space:pre"=
+>	</span>Author =3D {K. Ruud and R. Zanasi},</div><div><span class=3D"" sty=
+le=3D"white-space:pre">	</span>Journal =3D {Angew. Chem. Int. Ed. Engl.},</=
+div><div><span class=3D"" style=3D"white-space:pre">	</span>Number =3D 23,<=
+/div><div><span class=3D"" style=3D"white-space:pre">	</span>Pages =3D {359=
+4-3596},</div><div><span class=3D"" style=3D"white-space:pre">	</span>Title=
+ =3D {The importance of molecular vibrations: The sign change of the optica=
+l rotation of methyloxirane},</div><div><span class=3D"" style=3D"white-spa=
+ce:pre">	</span>Volume =3D 44,</div><div><span class=3D"" style=3D"white-sp=
+ace:pre">	</span>Year =3D 2005}</div><div><br></div><div>(4) @article{Kongs=
+ted05,</div><div><span class=3D"" style=3D"white-space:pre">	</span>Author =
+=3D {J. Kongsted and T. B. Pedersen and M. Strange and A. Osted and {Aa.} E=
+. Hansen and K. V. Mikkelsen and F. Pawlowski and P. J{\o}rgensen and C. H{=
+\&quot;a}ttig},</div><div><span class=3D"" style=3D"white-space:pre">	</spa=
+n>Journal =3D {Chem. Phys. Lett.},</div><div><span class=3D"" style=3D"whit=
+e-space:pre">	</span>Pages =3D {385-392},</div><div><span class=3D"" style=
+=3D"white-space:pre">	</span>Title =3D {Coupled cluster calculations of the=
+ optical rotation of {\em S}-propylene oxide in gas phase and solution},</d=
+iv><div><span class=3D"" style=3D"white-space:pre">	</span>Volume =3D 401,<=
+/div><div><span class=3D"" style=3D"white-space:pre">	</span>Year =3D 2005}=
+</div><div><br></div><div><br></div></div><div class=3D"gmail_extra"><br cl=
+ear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Pro=
+f. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D=
+"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Dec 26, 2014 at 3:27 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+u></u>
+<div>
+<span><div>Dear Dr. Crawford,=C2=A0</div>
+<div><br></div>
+<div>I am starting to write up the results I have collected for those MD si=
+mulations. I wanted to give you a quick update of where I am at, and also a=
+sk you a few questions:</div>
+<div>-I have solid results for methylthiirane and methyloxirane ( I believe=
+ we already discussed this). I saved all of the results and output, and res=
+ubmitted them because I had sightly different parameters for the MD simulat=
+ions. I don=E2=80=99t suspect the results will be very different, but I wan=
+ted to make sure all of the jobs were uniform. =C2=A0</div>
+<div>I am still waiting on the results for norborenone, but based on my sho=
+rter test simulations I don=E2=80=99t foresee anymore holdups.=C2=A0</div>
+<div>I would like to put together some tables comparing the results from th=
+ese simulations to experiment and some other =C2=A0computational studies.=
+=C2=A0 I can search the literature to find numbers for comparison, but I wa=
+nted to ask if you had particular data that you would like me to compare to=
+ (i.e. data that you have compared to previously). =C2=A0</div>
+<div><br></div>
+<div>I hope you had an enjoyable christmas.=C2=A0</div><span class=3D"HOEnZ=
+b"><font color=3D"#888888">
+<div>=C2=A0=E2=80=94AJ=C2=A0</div></font></span></span><span></span>
+</div>
+</blockquote></div><br></div>
+
+--089e0111d42449382a050b6732ea--

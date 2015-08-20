@@ -1,0 +1,115 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp2297565qgf;
+        Sat, 4 Apr 2015 10:01:44 -0700 (PDT)
+X-Received: by 10.140.102.180 with SMTP id w49mr2426820qge.82.1428166904659;
+        Sat, 04 Apr 2015 10:01:44 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id o2si11420600qcr.33.2015.04.04.10.01.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 04 Apr 2015 10:01:44 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.173 as permitted sender) client-ip=209.85.213.173;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.173 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f173.google.com (mail-ig0-f173.google.com [209.85.213.173])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t34H1cT0010266
+	for <amjames2@vt.edu>; Sat, 4 Apr 2015 13:01:43 -0400
+Received: by igcau2 with SMTP id au2so80107111igc.1
+        for <amjames2@vt.edu>; Sat, 04 Apr 2015 10:01:38 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:subject:references:from:content-type:in-reply-to
+         :message-id:date:to:content-transfer-encoding:mime-version;
+        bh=LgUFjJM8QGsNl7zACFweDQ+ni/g9QSI+VKLs0k+df+g=;
+        b=YPXw6OmMWhUWsqw6YohAbUetEIpH/3Qq/S3ihGRgVeG5nLY8WwiBNPeGIdEfMl1EoQ
+         v8eYXU2PdPhS6l/8eqvE7ptMMfVjTLJhHO7+8pr044tQZ86QvXGx1HvLeKkIF8YVz554
+         RMmAKiugYnjhKaU4Ze2hfKryl4XduOIIcJarTQ2Whn+v49F1nEmCEIy/r9kodEwiVHeb
+         LZNUeHoBoZWJLZUYhAJFQuqkxoX3cmRURshAfOF7UL0KFtq6KOy26Q9GLYsIjr62z1mr
+         tD9cdwWeNqdtoqTg0dA2wU1zaslzBVIMJ6UgVAIxrrh6/bMU2HMYyQG+6AICXFQbbpCj
+         7mjw==
+X-Received: by 10.107.152.211 with SMTP id a202mr11171469ioe.59.1428166898672;
+        Sat, 04 Apr 2015 10:01:38 -0700 (PDT)
+X-Gm-Message-State: ALoCoQnxKXewfgf52RcNWnIcYffy80jCW7r7ZuKm431tMywjaIfzb9q1sRfBPLsWlQqdkwE2/OhEQPcCkk/gRY3rLd6YBcw3lX7nq8nrnFCXKAz9wFnKzhWhoERSiFty/WMmHT0COXTzkutFJPImKyCjl+8yoZSBep0M8HhCZ7OUiIkuV7kBkQxv+dupOdmaGIOdHNcAbQN9
+X-Received: by 10.107.152.211 with SMTP id a202mr11171454ioe.59.1428166898571;
+        Sat, 04 Apr 2015 10:01:38 -0700 (PDT)
+Received: from ?IPv6:2600:1003:b84b:249c:787e:7b99:e690:c18b? ([2600:1003:b84b:249c:787e:7b99:e690:c18b])
+        by mx.google.com with ESMTPSA id w17sm7892959iod.44.2015.04.04.10.01.37
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 04 Apr 2015 10:01:38 -0700 (PDT)
+Subject: Re: Natural orbitals
+References: <CAH0V_1byf=CF8vGAhc05iz1gVQ8conR_-f-bMhRdAxuu3bNaFw@mail.gmail.com> <CA+58rsDrkvQvOGyjXjA+n4xg1woh5ENSOtwSbxWzvRkXYkxfWQ@mail.gmail.com>
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-52127345-9741-4341-B788-DAC3E25D5A5D
+X-Mailer: iPhone Mail (12D508)
+In-Reply-To: <CA+58rsDrkvQvOGyjXjA+n4xg1woh5ENSOtwSbxWzvRkXYkxfWQ@mail.gmail.com>
+Message-Id: <E27DB792-A084-4D1F-8246-7F6D0B76C1B9@vt.edu>
+Date: Sat, 4 Apr 2015 13:01:35 -0400
+To: Andrew James <amjames2@vt.edu>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail-52127345-9741-4341-B788-DAC3E25D5A5D
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Can you send me an input file?
+
+TDC
+
+Sent from my iPhone
+
+> On Apr 4, 2015, at 12:56 PM, Andrew James <amjames2@vt.edu> wrote:
+>=20
+> Dr. Crawford,
+>=20
+> I think I will need some help moving forward. I am not quite sure what I n=
+eed to change at this point to get it working.
+>=20
+> --AJ
+>=20
+> Andrew James=20
+>=20
+> Graduate Teaching Assistant=20
+> Virginia Tech=20
+> Chemistry Department=20
+> amjames2@vt.edu
+>=20
+>> On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel Crawford <crawdad@vt.edu> wrot=
+e:
+>> Dear AJ,
+>>=20
+>> Prof. Lischka tells me that they are in the stage of preparing their manu=
+script on the aromatic systems, and they would like to have results from us a=
+s soon as possible.  Do you need help from me to move forward with the code a=
+nd testing?
+>>=20
+>> -TDC
+>>=20
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>=20
+
+--Apple-Mail-52127345-9741-4341-B788-DAC3E25D5A5D
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto"><div>Can you send me an input file?</div><div><br></div><div>TDC<br><br>Sent from my iPhone</div><div><br>On Apr 4, 2015, at 12:56 PM, Andrew James &lt;<a href="mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br><br></div><blockquote type="cite"><div><div dir="ltr">Dr. Crawford,<div><br></div><div>I think I will need some help moving forward. I am not quite sure what I need to change at this point to get it working.</div><div><br></div><div>--AJ</div></div><div class="gmail_extra"><br clear="all"><div><div class="gmail_signature"><div dir="ltr">Andrew James&nbsp;<div><br><div>Graduate Teaching Assistant&nbsp;<br><div>Virginia Tech&nbsp;</div></div><div>Chemistry Department&nbsp;</div></div><div><a href="mailto:amjames2@vt.edu" target="_blank">amjames2@vt.edu</a></div></div></div></div>
+<br><div class="gmail_quote">On Sat, Apr 4, 2015 at 10:04 AM, T. Daniel Crawford <span dir="ltr">&lt;<a href="mailto:crawdad@vt.edu" target="_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir="ltr">Dear AJ,<div><br></div><div>Prof. Lischka tells me that they are in the stage of preparing their manuscript on the aromatic systems, and they would like to have results from us as soon as possible.&nbsp; Do you need help from me to move forward with the code and testing?</div><div><br></div><div>-TDC</div><div><br clear="all"><div><div><div dir="ltr">--<div>Prof. T. Daniel Crawford</div><div><a href="mailto:crawdad@vt.edu" target="_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+</div></blockquote></body></html>
+--Apple-Mail-52127345-9741-4341-B788-DAC3E25D5A5D--

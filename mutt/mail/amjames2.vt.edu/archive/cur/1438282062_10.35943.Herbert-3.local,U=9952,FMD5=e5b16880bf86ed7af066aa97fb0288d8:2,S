@@ -1,0 +1,234 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1276877qgt;
+        Fri, 5 Jun 2015 06:11:32 -0700 (PDT)
+X-Received: by 10.55.15.87 with SMTP id z84mr6363680qkg.57.1433509892009;
+        Fri, 05 Jun 2015 06:11:32 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id w76si5741527qge.98.2015.06.05.06.11.31
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 06:11:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55DBPTT031118
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 09:11:31 -0400
+Received: by igbpi8 with SMTP id pi8so15146743igb.1
+        for <amjames2@vt.edu>; Fri, 05 Jun 2015 06:11:25 -0700 (PDT)
+X-Received: by 10.43.172.68 with SMTP id nx4mr10062988icc.48.1433509885215;
+        Fri, 05 Jun 2015 06:11:25 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp707982iec;
+        Fri, 5 Jun 2015 06:11:24 -0700 (PDT)
+X-Received: by 10.140.135.6 with SMTP id 6mr4021294qhh.101.1433509883686;
+        Fri, 05 Jun 2015 06:11:23 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id mi8si7440698qcb.41.2015.06.05.06.11.23
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 06:11:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr5.cc.vt.edu (mr5.cc.vt.edu [198.82.141.27] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55DBNQb028153
+	for <andrew.m.james2@gmail.com>; Fri, 5 Jun 2015 09:11:23 -0400
+Received: from mail-ig0-f174.google.com (mail-ig0-f174.google.com [209.85.213.174])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55DBHC3011656
+	for <andrew.m.james2@gmail.com>; Fri, 5 Jun 2015 09:11:22 -0400
+Received: by igbzc4 with SMTP id zc4so15223299igb.0
+        for <andrew.m.james2@gmail.com>; Fri, 05 Jun 2015 06:11:17 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=60tzVMri4vrlC26GiaaOHCGTgB4/m+L5YU9YK7M04T4=;
+        b=O5gTHr7Jxl+PiRbyVLdwbdmTLiyAb3cLHFtFMmjhqlreXHKwzJ5f+VmgE1fpsN+hte
+         YSincRv6MkuhZRPU47BvEwA+J+09jcoR5GkWeao8IsB7EU59SjkG7VDo/vg5BhPgic6F
+         EyLGjk8YWW10Xl2PkGcDAagX2K//ML0pkRkZxjdJgw826pW9GUA0RAzXmvV4PKsj6bPf
+         xsmRivwkPwBfQnxJ8Hqy+hIhdork3ee0eizihsuAfQd3Ozh8c436rRd2FHLuyHS7Adum
+         WPafA8Lz3HACE9lDIqRJfj0lFxnSAO3EqAXRODjIA3Vy7UWyeCuY1spshpa4PtLhbwEx
+         7UPQ==
+X-Gm-Message-State: ALoCoQk6fsf6ha9sPH+9gZ24HbIQ8/rt4zvo8D+hmkKDcw7ef8p1FSQJTeOReT2vFMplesUmQCmrHWxvlltOJUvkkaSaiWLtm6nRFOicyT8PKgC4kutSsCdkH0zdAxGnYUoREKOQ27mD8DuwYtzVJWjaS2d/U4zZ6Q==
+X-Received: by 10.107.128.30 with SMTP id b30mr4205580iod.84.1433509877710;
+        Fri, 05 Jun 2015 06:11:17 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.128.30 with SMTP id b30mr4205563iod.84.1433509877565;
+ Fri, 05 Jun 2015 06:11:17 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Fri, 5 Jun 2015 06:11:17 -0700 (PDT)
+In-Reply-To: <D197162C.7AC0F%laurieg@vt.edu>
+References: <D197162C.7AC0F%laurieg@vt.edu>
+Date: Fri, 5 Jun 2015 09:11:17 -0400
+Message-ID: <CAH0V_1b02N_qLkSb8apkkE_jNZCHxZ3MB1-xN7AjEGQF_JJhig@mail.gmail.com>
+Subject: Re: Estimated Break costs (Our Daily Bread) for SSS is attached
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Good, Laurie" <laurieg@vt.edu>
+Cc: "Brow, Jessica" <jbrow@exchange.vt.edu>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113f8b1208e3400517c5079a
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113f8b1208e3400517c5079a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Laurie,
+
+(1) Mid-morning delivery; not at the beginning preferred.  (They'll have
+had breakfast at D2.)
+
+(2) For the SSS:  15 breaks only (skip the mid-afternoon break on the last
+day).
+
+(3) For the MRPSS: 10 breaks (morning and afternoon all five days).
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Jun 5, 2015 at 9:08 AM, Good, Laurie <laurieg@vt.edu> wrote:
+
+>  Daniel and Jessica:  The attached assumes EIGHT instructional days.  Or
+> should it be just 7? Are they leaving on July 1?
+>
+>  If it IS 8 days (thus 16 breaks), the average seems to be in the $220
+> range per break =E2=80=94 based on my random choices/numbers (and feel fr=
+ee to
+> comment on that!)
+>
+>  We also need to decide if the food/coffee should be available from start
+> of day or delivered mid-morning/afternoon.
+>
+>
+>
+>   From: Daniel Crawford <crawdad@vt.edu>
+> Date: Friday, June 5, 2015 at 7:23 AM
+> To: Laurie Good <laurieg@vt.edu>
+> Subject: Re: didn't hurt to ask!
+>
+>   $500/break for the SSS and $400/break for the MRPSS seems like a lot to
+> me.  I recall the breaks at the 2013 SSS; the food was good, but there wa=
+s
+> a lot left over.  (Plus I remember secretaries from the ECE department
+> coming out and helping themselves...)
+>
+>  On the other hand, our other alternative is to put Harley and Ashutosh
+> on coffee break duty, and I'm not sure that's an appropriate use of their
+> time and effort.
+>
+>  What do you think?
+>
+>  -TDC
+>
+>  --
+>
+>
+
+--001a113f8b1208e3400517c5079a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Laurie,<div><br></div><div>(1) Mid-morning delivery; =
+not at the beginning preferred. =C2=A0(They&#39;ll have had breakfast at D2=
+.)</div><div><br></div><div>(2) For the SSS: =C2=A015 breaks only (skip the=
+ mid-afternoon break on the last day).</div><div><br></div><div>(3) For the=
+ MRPSS: 10 breaks (morning and afternoon all five days).</div><div><br></di=
+v><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><d=
+iv class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawfo=
+rd</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt=
+.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Jun 5, 2015 at 9:08 AM, Good, Laurie=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank">=
+laurieg@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>
+<div>Daniel and Jessica: =C2=A0The attached assumes EIGHT instructional day=
+s.=C2=A0 Or should it be just 7? Are they leaving on July 1?</div>
+<div><br>
+</div>
+<div>If it IS 8 days (thus 16 breaks), the average seems to be in the $220 =
+range per break =E2=80=94 based on my random choices/numbers (and feel free=
+ to comment on that!)</div>
+<div><br>
+</div>
+<div>We also need to decide if the food/coffee should be available from sta=
+rt of day or delivered mid-morning/afternoon.</div>
+<div><br>
+</div>
+<div>
+<div><br>
+</div>
+</div>
+</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Daniel Crawford &lt;<a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Friday, June 5, 2015 at 7:23 =
+AM<br>
+<span style=3D"font-weight:bold">To: </span>Laurie Good &lt;<a href=3D"mail=
+to:laurieg@vt.edu" target=3D"_blank">laurieg@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Re: didn&#39;t hurt to ask=
+!<br>
+</div>
+<div><br>
+</div>
+<blockquote style=3D"BORDER-LEFT:#b5c4df 5 solid;PADDING:0 0 0 5;MARGIN:0 0=
+ 0 5">
+<div>
+<div>
+<div dir=3D"ltr">$500/break for the SSS and $400/break for the MRPSS seems =
+like a lot to me.=C2=A0 I recall the breaks at the 2013 SSS; the food was g=
+ood, but there was a lot left over. =C2=A0(Plus I remember secretaries from=
+ the ECE department coming out and helping themselves...)
+<div><br>
+</div>
+<div>On the other hand, our other alternative is to put Harley and Ashutosh=
+ on coffee break duty, and I&#39;m not sure that&#39;s an appropriate use o=
+f their time and effort.</div>
+<div><br>
+</div>
+<div>What do you think?</div>
+<div><br>
+</div>
+<div>-TDC</div><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888">
+<div class=3D"gmail_extra"><br clear=3D"all">
+<div>
+<div>
+<div dir=3D"ltr">--
+<div><br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</font></span></div>
+</div>
+</blockquote>
+</span>
+</div>
+
+</blockquote></div><br></div>
+
+--001a113f8b1208e3400517c5079a--

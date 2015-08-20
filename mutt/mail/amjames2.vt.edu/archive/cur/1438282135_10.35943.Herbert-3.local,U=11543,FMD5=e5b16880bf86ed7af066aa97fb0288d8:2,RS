@@ -1,0 +1,62 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp711216qgt;
+        Sat, 27 Jun 2015 10:35:59 -0700 (PDT)
+X-Received: by 10.140.81.16 with SMTP id e16mr9589417qgd.75.1435426559164;
+        Sat, 27 Jun 2015 10:35:59 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id b69si10694064qgb.50.2015.06.27.10.35.58
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 27 Jun 2015 10:35:59 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.181 as permitted sender) client-ip=209.85.223.181;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.181 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-ie0-f181.google.com (mail-ie0-f181.google.com [209.85.223.181])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5RHZrx3014023
+	for <amjames2@vt.edu>; Sat, 27 Jun 2015 13:35:58 -0400
+Received: by iebmu5 with SMTP id mu5so92985059ieb.1
+        for <amjames2@vt.edu>; Sat, 27 Jun 2015 10:35:53 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=aPA2tz9iyp1niG13UnFayZ+oibJc+mN4qmn1z8yZ6G0=;
+        b=mIUzyjzeWAS7CqB9GrFI7yX4qqtIcY/OywfLTehFXCFA6bovyWWx2FjLDuEK5nBiM0
+         64MbzThZ4hIHN6CtSfJ4Ydrz/NEhTbpR8lROcpDRdQvQs0vPMcaWACbAWZCvDBn07CoQ
+         X5zv9AGZPSylqT+pyZ1evGxHXUTAmbbeMpO3Gph8VZc/C7ynZ0o/J/EkPPi+Qxeu2CyZ
+         GNL3ft9FzpMWMB1UyNmp2qasYfd/ghv+INEWi0GIDs6lIU3ur8LsMs50I7JPyR93ggLr
+         gGsKpdRqF0lP7HPDOL0dWQyzmCOB6vbqmJHYut17IA/HdOk50KrU81bn20vWccVy4kcu
+         fmtw==
+X-Gm-Message-State: ALoCoQkwsRrskhB9esKz5adhzSlBx01FmgCnQNBL6ItLX4DjJvg6wnLMBagZ5Kbs5dx6yWpYNe8v+GUuETgRn26I7r+/uQUMzX3Z/5IOw2mtyKj7Yzhb8oOkCrUnYRe1uGw3cQY6NQI++zMJDsonNjwg6miwTUSPRQ==
+X-Received: by 10.50.2.3 with SMTP id 3mr5170806igq.34.1435426553343;
+        Sat, 27 Jun 2015 10:35:53 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.2.3 with SMTP id 3mr5170801igq.34.1435426553248; Sat, 27
+ Jun 2015 10:35:53 -0700 (PDT)
+Received: by 10.36.192.67 with HTTP; Sat, 27 Jun 2015 10:35:53 -0700 (PDT)
+Date: Sat, 27 Jun 2015 13:35:53 -0400
+Message-ID: <CAECk6+6PZp+hTNafnQMpNYiu1Wx82VuYzvRkGZA8zXLLNijqZw@mail.gmail.com>
+Subject: Celia's party.
+From: Christine Duchane <cduchane@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0111b970cef87d0519834918
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0111b970cef87d0519834918
+Content-Type: text/plain; charset=UTF-8
+
+we forgot about it. And still no phone.
+
+--089e0111b970cef87d0519834918
+Content-Type: text/html; charset=UTF-8
+
+we forgot about it. And still no phone.
+
+--089e0111b970cef87d0519834918--

@@ -1,0 +1,124 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp2550721qga;
+        Tue, 24 Feb 2015 18:06:04 -0800 (PST)
+X-Received: by 10.229.64.67 with SMTP id d3mr2183976qci.9.1424829964483;
+        Tue, 24 Feb 2015 18:06:04 -0800 (PST)
+Return-Path: <lfmarcel@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id d79si32764632qhc.7.2015.02.24.18.06.04
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Feb 2015 18:06:04 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning lfmarcel@vt.edu does not designate 209.85.212.178 as permitted sender) client-ip=209.85.212.178;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning lfmarcel@vt.edu does not designate 209.85.212.178 as permitted sender) smtp.mail=lfmarcel@vt.edu
+Received: from mail-wi0-f178.google.com (mail-wi0-f178.google.com [209.85.212.178])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1P25wGo000871
+	for <amjames2@vt.edu>; Tue, 24 Feb 2015 21:06:03 -0500
+Received: by mail-wi0-f178.google.com with SMTP id em10so1660137wid.5
+        for <amjames2@vt.edu>; Tue, 24 Feb 2015 18:05:58 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=IHLzgaBlbfs/bQWvybtwN363XahBuFCGK6hin5qVx1o=;
+        b=d2+kzUJ7llrdS8Jakhr/H2OGNVsaVMKxmAyYX1B/byydcJRwtIPYUeydZDPQ5X2QAa
+         4itgPATFsBkeV/u+6+t/U8UZtQ+31mDBH/rMJ92ZQRC+QfFhgSr7dkRPCgtcdyXCW1Ef
+         dSkSZYU+tGtrJw5qlNUl3GyTBjMg8IKgJG8UyxI9onWoxH4wUp7Y5Nts9jQ4Qpr7DJ+R
+         bhMhOcKQ668Go1t4bmLKomBcnIO4PCWZ8QKj+0/zh6Vi4+MQjvP4QoTORvCxtBHOzqLx
+         ibNdl8/LqlBatjakyzil09NUSdiun2zKFGGKI9Aef71kgNEnJp/bMdEyM48XmCCgfk8x
+         ugBg==
+X-Gm-Message-State: ALoCoQknthAedwolRXMFqL+0N3BtZb0CkvuPIOA5Cdj+wdaTzxt97konZTtBHaVG+V9JegYECLmuT2YFwzZbbRvSJf1FYzzJ7TUR+bT7Y/Gly+m8r67SzOs5mIZsaQ6+vHHXuW5DC9aR8Jssodp3Fc2OesxMdaFo1g==
+X-Received: by 10.180.86.35 with SMTP id m3mr1879424wiz.83.1424829958611;
+        Tue, 24 Feb 2015 18:05:58 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.180.86.35 with SMTP id m3mr1879419wiz.83.1424829958550; Tue,
+ 24 Feb 2015 18:05:58 -0800 (PST)
+Received: by 10.27.85.144 with HTTP; Tue, 24 Feb 2015 18:05:58 -0800 (PST)
+Received: by 10.27.85.144 with HTTP; Tue, 24 Feb 2015 18:05:58 -0800 (PST)
+In-Reply-To: <C1973BC7-126B-43AF-9F7B-2EAF5856393C@vt.edu>
+References: <CAADbyihtx+Ufesfa-+X_QFGVPDhVrx+94vkXX2xMC1WdVaRSkQ@mail.gmail.com>
+	<C1973BC7-126B-43AF-9F7B-2EAF5856393C@vt.edu>
+Date: Tue, 24 Feb 2015 21:05:58 -0500
+Message-ID: <CAADbyijew3TZvFU3FhsfFa-VjGoTnqq49Ewo+fcuPxM71yRp7A@mail.gmail.com>
+Subject: Re: Doing the Graph
+From: Marcel Ferreiro <lfmarcel@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=f46d044283a68b8e78050fe0139e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d044283a68b8e78050fe0139e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Cool.
+On Feb 24, 2015 9:00 PM, "Andrew James" <amjames2@vt.edu> wrote:
+
+> Hello Marcel,
+>
+> I am sorry but I do not have any knowledge of the virtual exercises out
+> side of what is in the manual. I do not have access to the virtual lab.
+> There are TA=E2=80=99s availible for extra help hours in the CLC and onli=
+ne in the
+> scholar chat who will be able to help you. These TA=E2=80=99s have seen t=
+he virtual
+> lab and know it better than I would anyway. I am sure you can get the hel=
+p
+> you need using these resources.
+>
+> See you in class,
+>
+> =E2=80=94AMJ
+> > On Feb 24, 2015, at 8:37 PM, Marcel Ferreiro <lfmarcel@vt.edu> wrote:
+> >
+> > Hey Andrew, how's it going?
+> >
+> > I'm having some trouble with doing the graphs for the Virtlab.
+> >
+> > When looking in the textbook, it shows multiple measurements for the
+> temperatures. However, the Virtlab only had me use two. Was I doing it th=
+e
+> wrong way? If not, what should I do?
+>
+>
+
+--f46d044283a68b8e78050fe0139e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Cool.</p>
+<div class=3D"gmail_quote">On Feb 24, 2015 9:00 PM, &quot;Andrew James&quot=
+; &lt;<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br =
+type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"margin:0 0 =
+0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hello Marcel,<br>
+<br>
+I am sorry but I do not have any knowledge of the virtual exercises out sid=
+e of what is in the manual. I do not have access to the virtual lab. There =
+are TA=E2=80=99s availible for extra help hours in the CLC and online in th=
+e scholar chat who will be able to help you. These TA=E2=80=99s have seen t=
+he virtual lab and know it better than I would anyway. I am sure you can ge=
+t the help you need using these resources.<br>
+<br>
+See you in class,<br>
+<br>
+=E2=80=94AMJ<br>
+&gt; On Feb 24, 2015, at 8:37 PM, Marcel Ferreiro &lt;<a href=3D"mailto:lfm=
+arcel@vt.edu">lfmarcel@vt.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; Hey Andrew, how&#39;s it going?<br>
+&gt;<br>
+&gt; I&#39;m having some trouble with doing the graphs for the Virtlab.<br>
+&gt;<br>
+&gt; When looking in the textbook, it shows multiple measurements for the t=
+emperatures. However, the Virtlab only had me use two. Was I doing it the w=
+rong way? If not, what should I do?<br>
+<br>
+</blockquote></div>
+
+--f46d044283a68b8e78050fe0139e--

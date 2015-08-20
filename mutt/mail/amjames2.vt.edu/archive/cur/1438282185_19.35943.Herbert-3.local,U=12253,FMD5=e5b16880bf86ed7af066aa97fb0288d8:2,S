@@ -1,0 +1,65 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.8] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by smtp.gmail.com with ESMTPSA id q18sm2775755qkh.35.2015.07.23.11.19.39
+        for <arcsupport@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 23 Jul 2015 11:19:39 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: [ARC Support #8605] ARC Help Request: module scripts
+From: "Andrew M. James" <amjames2@vt.edu>
+In-Reply-To: <rt-3.8.13-2919-1437675211-954.8605-6-0@example.com>
+Date: Thu, 23 Jul 2015 14:19:39 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <B31CE709-1B60-445F-A63D-B7364A79A239@vt.edu>
+References: <RT-Ticket-8605@example.com> <20150723154332.B2276958@webhost11.hosting.vt.edu> <rt-3.8.13-2919-1437675211-954.8605-6-0@example.com>
+To: arcsupport@vt.edu
+X-Mailer: Apple Mail (2.2098)
+
+Thank you very much! This is super helpful
+
+=E2=80=94AJ
+
+Andrew M. James
+amjames2@vt.edu
+
+
+
+> On Jul 23, 2015, at 2:13 PM, Justin August Krometis via RT =
+<arcsupport@vt.edu> wrote:
+>=20
+> AJ,
+> Keep in mind that running a shell script starts its own shell, so any =
+modules
+> you load, environment variables you set, etc will be lost when the =
+shell exits
+> (and returns to your command prompt). If you want to just run the =
+commands in a
+> script without starting a new shell, you can use 'source' (e.g. source
+> test.sh).
+>=20
+> Also, I have attached a script that I put together after seeing Dr. =
+Crawford's
+> matrix multiplication example at the Software Summer School - it takes =
+an
+> architecture or list of architectures (e.g., "gcc_atlas") and loads =
+the
+> appropriate modules, then compiles. Example to run matrix multiply two =
+times
+> for 4000 rows/columns with 16 threads and three different combinations =
+of
+> compilers/BLAS:
+>=20
+> ./run_mm.sh -t 16 -i 2 -s 4000 -a "gcc_atlas gcc_openblas intel_mkl"
+>=20
+> You may be able to pull something from that for what you're trying to =
+do.
+> Anyway, since I had it handy, I thought I'd pass it along.
+>=20
+> --
+> Justin Krometis
+> Computational Scientist
+> Advanced Research Computing
+>=20
+> <run_mm.sh>
+

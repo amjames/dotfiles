@@ -1,0 +1,119 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2517203qgt;
+        Tue, 30 Jun 2015 07:03:42 -0700 (PDT)
+X-Received: by 10.140.149.208 with SMTP id 199mr27205513qhv.72.1435673022383;
+        Tue, 30 Jun 2015 07:03:42 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id g9si45180715qgf.41.2015.06.30.07.03.42
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Jun 2015 07:03:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) client-ip=209.85.213.179;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com [209.85.213.179])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5UE3afJ027319
+	for <amjames2@vt.edu>; Tue, 30 Jun 2015 10:03:41 -0400
+Received: by igblr2 with SMTP id lr2so75512065igb.0
+        for <amjames2@vt.edu>; Tue, 30 Jun 2015 07:03:36 -0700 (PDT)
+X-Received: by 10.107.9.150 with SMTP id 22mr11726940ioj.39.1435673015942;
+        Tue, 30 Jun 2015 07:03:35 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp2329004iee;
+        Tue, 30 Jun 2015 07:03:35 -0700 (PDT)
+X-Received: by 10.140.164.147 with SMTP id k141mr27973128qhk.62.1435673015020;
+        Tue, 30 Jun 2015 07:03:35 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id 73si12923592qkw.127.2015.06.30.07.03.34
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Jun 2015 07:03:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:250:3bcb:5b17])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5UE120k030056
+	for <andrew.m.james2@gmail.com>; Tue, 30 Jun 2015 10:03:34 -0400
+Received: from mail-ie0-f180.google.com (mail-ie0-f180.google.com [209.85.223.180])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5UDCSfo001979
+	for <andrew.m.james2@gmail.com>; Tue, 30 Jun 2015 09:12:33 -0400
+Received: by iecvh10 with SMTP id vh10so11741571iec.3
+        for <andrew.m.james2@gmail.com>; Tue, 30 Jun 2015 06:12:28 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=iu/Q9FYHsShDOt7wpq4RI1++vJSGT8wzoJmSNWR3V/s=;
+        b=hwBo2HNugEg2AMiOdmBP0VGAgAYFgSr33cgVSDGxvhj3FtTBsK+mwy5aPesVAMnMS6
+         yrIkOVov44qikdTBPmHuOTpOW/LaCX/2Z/+tRYqZVCb6s1YYgqD3o75xy44UgYKFTPYY
+         BlHvA55uors9TOtuEA0ryjDq3d2xFFgimuDOqP93BYkNz+SelQkHUK0IzEFJHEzPtuJG
+         wHpEtNPedSiE6wY0cNmFJRNOK0sDOasmhowujF1l1LFaAyHWktx3rqwjmrzNgiAFjXxw
+         wRDp1BWkYecjunpOlm0kRZ/C4WI/DjnCgVU9XgTUiN9lj7ZrubywNeMeY0r66zMAbkKB
+         FSyg==
+X-Gm-Message-State: ALoCoQmGZ57nOStUxzqH6QjDasjO2ocxLFmfnlsyPS7oTffI+Mtpv+2CllZa+wyTo7646aHV9ppuOeGHWGgPPXZ+FT0acZ1qf2PQAH0btjjLI30B0ga/EdvQWVri5WqvN4eQeKk6UxpDUErSZpKwqCzXeUbzSqarXw==
+X-Received: by 10.50.176.194 with SMTP id ck2mr23683166igc.2.1435669948264;
+        Tue, 30 Jun 2015 06:12:28 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.176.194 with SMTP id ck2mr23683144igc.2.1435669948098;
+ Tue, 30 Jun 2015 06:12:28 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Tue, 30 Jun 2015 06:12:28 -0700 (PDT)
+In-Reply-To: <CA+hCaPMR6GqRu4eJdk7e=F-HNG+9981GzFHZOq0TDVgJkSR54g@mail.gmail.com>
+References: <CA+hCaPMR6GqRu4eJdk7e=F-HNG+9981GzFHZOq0TDVgJkSR54g@mail.gmail.com>
+Date: Tue, 30 Jun 2015 09:12:28 -0400
+Message-ID: <CAH0V_1ZT0VOW9ZwaRCDTDsTsAEusM+bhh=CMTBZPcedydC89UA@mail.gmail.com>
+Subject: Re: white board markers
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Robert Harrison <rjharrison@gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e01183c92457e5e0519bbf58c
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 1176
+
+--089e01183c92457e5e0519bbf58c
+Content-Type: text/plain; charset=UTF-8
+
+I put a bunch in the other classroom yesterday.  AJ, can you bring him some?
+
+TDC
+
+On Tuesday, June 30, 2015, Robert Harrison <rjharrison@gmail.com> wrote:
+
+> The only one in the room is on its last legs
+>
+> --
+> Robert J. Harrison
+> tel:  865-272-9262
+>
+
+
+-- 
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--089e01183c92457e5e0519bbf58c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I put a bunch in the other classroom yesterday.=C2=A0 AJ, can you bring him=
+ some?<div><br></div><div>TDC<br><br>On Tuesday, June 30, 2015, Robert Harr=
+ison &lt;<a href=3D"mailto:rjharrison@gmail.com">rjharrison@gmail.com</a>&g=
+t; wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;b=
+order-left:1px #ccc solid;padding-left:1ex">The only one in the room is on =
+its last legs<br>
+<br>
+--<br>
+Robert J. Harrison<br>
+tel:=C2=A0 865-272-9262<br>
+</blockquote></div><br><br>-- <br><div dir=3D"ltr">--<div>Prof. T. Daniel C=
+rawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawd=
+ad@vt.edu</a></div></div><br>
+
+--089e01183c92457e5e0519bbf58c--

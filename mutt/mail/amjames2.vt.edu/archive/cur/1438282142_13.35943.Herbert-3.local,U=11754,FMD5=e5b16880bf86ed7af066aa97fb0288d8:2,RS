@@ -1,0 +1,327 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp129203qgt;
+        Wed, 1 Jul 2015 17:36:30 -0700 (PDT)
+X-Received: by 10.55.23.141 with SMTP id 13mr59140683qkx.94.1435797390794;
+        Wed, 01 Jul 2015 17:36:30 -0700 (PDT)
+Return-Path: <laurieg@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id h19si4459826qge.4.2015.07.01.17.36.30
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Jul 2015 17:36:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of laurieg@vt.edu designates 198.82.160.8 as permitted sender) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of laurieg@vt.edu designates 198.82.160.8 as permitted sender) smtp.mail=laurieg@vt.edu
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be forged))
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t620aNLV023259
+	for <amjames2@vt.edu>; Wed, 1 Jul 2015 20:36:28 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: BRAILLE.cc.w2k.vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (198.82.160.13) by BRAILLE.cc.w2k.vt.edu
+ (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Wed, 1 Jul
+ 2015 20:36:22 -0400
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+ MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+ 15.00.0995.032; Wed, 1 Jul 2015 20:36:22 -0400
+From: "Good, Laurie" <laurieg@vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: Re: Smartway Bus
+Thread-Topic: Smartway Bus
+Thread-Index: AQHQtFpYAMSgM/daWUesGWHQGAK8yJ3HVYgF
+Date: Thu, 2 Jul 2015 00:36:22 +0000
+Message-ID: <AB61DC1C-D0C5-4E7D-A012-104EBF5368C6@vt.edu>
+References: <BY1PR08MB130837A2B7FFF02BCA2167EEF5A80@BY1PR08MB1308.namprd08.prod.outlook.com>,<F387872E-C6CC-4971-9DBD-A4CAE083DEBD@vt.edu>
+In-Reply-To: <F387872E-C6CC-4971-9DBD-A4CAE083DEBD@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrJqsTGxXIsaAGvblv7lFCD/ycvNnJYfG0ydmAMYIhizcxLyq9IYM04+PM1W8Hi4IrLdy6yNTA+9Oli5OIQEtjAKDFh9mvWLkZOIGcXo8Th+/kgNrOAqcSVr40sELaixIV7DWA2m4CqxNXeQ2C2CJC9f/ktZhBbWEBSYu2dU0wQcSmJd693sEHYRhK7n21kB7FZBFQkls2eCFbPK2Ap0b1yNxvE3i5Gif/zdUFsTgEriYcT74PVMwqISXw/tYYJ4gZxiVtP5oPZEgICEkv2nGeGsJUkem+/g4o7S2zqecMCMV9Q4uTMJywQcTOJvQ+WANVwANl6EovOJkCEAyUmHD7PBhE2lbj6PhgibCuxZ8ZEqGpniXk36iHCNhLX+ndALdWW2P5qHyuErSOx6doqqEXyEv/v3YeyyyQe7eiEqp/LKNHxOwbCDpZ4d/sv6wRG1VlI4TwLKZxnIfl3FpJfFjCyrGIUdQpy9PTxcdVLTtYrN8rWKyvRS00p3cQISQEcOxiXf3M+xCjJwaQkyivTPCVUiC8pP6UyI7E4I76oNCe1+BCjBAePkgjvyVagHG9xQWJucWY6TEqGg0NJgle0DSglWJSanlqRlplTkloEkT7FqCglzmsHkhQA6csozYPLwRLgJUZZKWHemHqgGp6C1KLczBJU+VuMHFJQ5itGcQ5GJWHeMJCBPJl5JXB3vAI6kQnoxJf2k0BOLElESEk1MOp7pvdd7Pg8bZHV+hOVR9gfn9P+VsN/sfBtdYTO8fr2/izfqZ8zVwhsLZ9/QVNK1yVNXOPF6kePjk6cPFXk0Hfv1Hpr4YQApoU3zPqcHhY+jj1i/l3M52jdjX8Pzouv1L9Wu+9v5qsFAQsfTr0d+Xbagu2fTmS95XW0SJZVu5PpzCBxwSZN44oSS3FGoqEWc1FxIgCDjT5+fAMAAA==
+Content-Type: multipart/alternative;
+	boundary="_000_AB61DC1CD0C54E7DA012104EBF5368C6vtedu_"
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BRAILLE.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.9 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_MED,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_AB61DC1CD0C54E7DA012104EBF5368C6vtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Tell him to go to the bus stop in front of Litton Reaves. 5:30. Where that =
+enclosure is.
+
+Sent from my iPhone
+
+On Jul 1, 2015, at 8:02 PM, Andrew M. James <amjames2@vt.edu<mailto:amjames=
+2@vt.edu>> wrote:
+
+What does he have to do? I didn't know that the ride would cost him that mu=
+ch!
+
+
+-AJ
+
+Andrew M. James
+amjames2@vt.edu<mailto:amjames2@vt.edu>
+
+
+
+Begin forwarded message:
+
+From: Tanmoy Sanyal <tanmoy@umail.ucsb.edu<mailto:tanmoy@umail.ucsb.edu>>
+Subject: Re: Smartway Bus
+Date: July 1, 2015 at 4:10:34 PM EDT
+To: Andrew James <amjames2@vt.edu<mailto:amjames2@vt.edu>>
+
+
+Hi Andrew,
+
+
+I believe the taxi service that you told me was coming to pick me up was Ho=
+optie cabs ? So, when I called them up later in the evening, they said that=
+ there had been a phone conversation about a booking at 4.15 am today morni=
+ng, but that it had neither been confirmed, nor paid for. I confirmed my de=
+parture time, and paid the bill ($ 105) myself. I was wondering (because yo=
+u mentioned earlier that it would be paid for), if I could have it re-imbur=
+sed ? (by sending in a scan of the receipt, maybe). Please let me know.
+
+
+Also, my apologies for repeated concerns (including this mail) about transp=
+ort. You have been a very able and amazing organizer. I've had a great time=
+ at the workshop. Thanks !
+
+
+Best,
+Tanmoy
+
+
+Tanmoy Sanyal,
+Department of Chemical Engineering,
+University of California at Santa Barbara
+Phone: (+1) 805-637-0375
+
+
+________________________________
+From: Andrew James <amjames2@vt.edu<mailto:amjames2@vt.edu>>
+Sent: Wednesday, July 1, 2015 11:38 AM
+To: Ruslan Tazhigulov; jag20; Chee Kong Lee; Sreeganesh Balasubramani; Xian=
+ghai Sheng; Andrew Sonnenberger; Sam Stoneburner; pdu2@lsu.edu<mailto:pdu2@=
+lsu.edu>; Chang Liu; liu.3391@osu.edu<mailto:liu.3391@osu.edu>; Eric Allen =
+Alt; sadybeko@usc.edu<mailto:sadybeko@usc.edu>; Matthew Madsen Agee; Aharon=
+, Tal; takeshi1@illinois.edu<mailto:takeshi1@illinois.edu>; saswatar@uci.ed=
+u<mailto:saswatar@uci.edu>; Patrick Avery; Tanmoy Sanyal; mdutra@vols.utk.e=
+du<mailto:mdutra@vols.utk.edu>; Mojtaba Haghighatlari; Kevin Hannon; szl007=
+2@auburn.edu<mailto:szl0072@auburn.edu>; James Morgan; jbschri@emory.edu<ma=
+ilto:jbschri@emory.edu>; shafieialavim@vcu.edu<mailto:shafieialavim@vcu.edu=
+>; Smith,Justin S; tianyuan.zhang@emory.edu<mailto:tianyuan.zhang@emory.edu=
+>; ziwei.guo@emory.edu<mailto:ziwei.guo@emory.edu>; Yu, Qi; kusle009@umn.ed=
+u<mailto:kusle009@umn.edu>; Kaye Archer; sren@ku.edu<mailto:sren@ku.edu>; Y=
+i-Jung Tu; awalker@chem.wayne.edu<mailto:awalker@chem.wayne.edu>; Avery Wie=
+ns; Megha Anand; alocke5; sne86684@bethel.edu<mailto:sne86684@bethel.edu>; =
+Monika Kodrycka; ojaghloun@vcu.edu<mailto:ojaghloun@vcu.edu>; ybui@purdue.e=
+du<mailto:ybui@purdue.edu>
+Subject: Smartway Bus
+
+Hello everyone,
+
+I have placed a marker on the map with the location of the Smartway bus sto=
+p.  There is a link to the schedule in the info-box, and I have included it=
+ below.
+
+http://www.smartwaybus.com/schedule.htm
+
+
+Andrew M. James
+Graduate Research Assistant
+amjames2@vt.edu<mailto:amjames2@vt.edu>
+
+
+
+
+--_000_AB61DC1CD0C54E7DA012104EBF5368C6vtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body dir=3D"auto">
+<div>Tell him to go to the bus stop in front of Litton Reaves. 5:30. Where =
+that enclosure is.&nbsp;<br>
+<br>
+Sent from my iPhone</div>
+<div><br>
+On Jul 1, 2015, at 8:02 PM, Andrew M. James &lt;<a href=3D"mailto:amjames2@=
+vt.edu">amjames2@vt.edu</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>What does he have to do? I didn&#8217;t know that the ride would cost =
+him that much!&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D""><br class=3D"">
+<div apple-content-edited=3D"true" class=3D"">&#8212;AJ<br class=3D"">
+<br class=3D"">
+Andrew M. James<br class=3D"">
+<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br class=
+=3D"">
+<br class=3D"">
+<br class=3D"">
+</div>
+<div><br class=3D"">
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">Begin forwarded message:</div>
+<br class=3D"Apple-interchange-newline">
+<div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margi=
+n-left: 0px;" class=3D"">
+<span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica,=
+ sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">From:
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica Neue,=
+ Helvetica, sans-serif;" class=3D"">Tanmoy Sanyal &lt;<a href=3D"mailto:tan=
+moy@umail.ucsb.edu" class=3D"">tanmoy@umail.ucsb.edu</a>&gt;<br class=3D"">
+</span></div>
+<div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margi=
+n-left: 0px;" class=3D"">
+<span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica,=
+ sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Subject:
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica Neue,=
+ Helvetica, sans-serif;" class=3D""><b class=3D"">Re: Smartway Bus</b><br c=
+lass=3D"">
+</span></div>
+<div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margi=
+n-left: 0px;" class=3D"">
+<span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica,=
+ sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Date:
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica Neue,=
+ Helvetica, sans-serif;" class=3D"">July 1, 2015 at 4:10:34 PM EDT<br class=
+=3D"">
+</span></div>
+<div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margi=
+n-left: 0px;" class=3D"">
+<span style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica,=
+ sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">To:
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica Neue,=
+ Helvetica, sans-serif;" class=3D"">Andrew James &lt;<a href=3D"mailto:amja=
+mes2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt;<br class=3D"">
+</span></div>
+<br class=3D"">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; background-color=
+: rgb(255, 255, 255); font-family: Calibri, Arial, Helvetica, sans-serif;" =
+class=3D"">
+<p class=3D"">Hi Andrew,</p>
+<p class=3D""><br class=3D"">
+</p>
+<p class=3D"">I believe the taxi service that you told me was coming to pic=
+k me up was Hooptie cabs ? So, when I called them up later in the evening, =
+they said that there had been a phone conversation about a booking at 4.15 =
+am today morning, but that it had
+ neither been confirmed, nor paid for. I confirmed my departure time, and p=
+aid the bill ($ 105)&nbsp;myself. I was wondering (because you mentioned ea=
+rlier that it would be paid for), if I could have it re-imbursed ? (by send=
+ing in a scan of the receipt, maybe).
+ Please let me know.&nbsp;</p>
+<p class=3D""><br class=3D"">
+</p>
+<p class=3D"">Also, my apologies for repeated concerns (including this mail=
+) about transport. You have been a very able and amazing organizer. I've ha=
+d a great time at the workshop. Thanks !&nbsp;</p>
+<p class=3D""><br class=3D"">
+</p>
+<div id=3D"Signature" class=3D"">
+<div class=3D"BodyFragment"><font size=3D"2" class=3D""><span style=3D"font=
+-size:10pt;" class=3D"">
+<div class=3D"PlainText">Best,<br class=3D"">
+Tanmoy<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+Tanmoy Sanyal,<br class=3D"">
+Department of Chemical Engineering,<br class=3D"">
+University of California at Santa Barbara<br class=3D"">
+Phone: (&#43;1) 805-637-0375</div>
+</span></font></div>
+</div>
+<br class=3D"">
+<br class=3D"">
+<div style=3D"" class=3D"">
+<div class=3D"">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%" class=3D"">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr" class=3D""><font face=3D"Calibri, s=
+ans-serif" style=3D"font-size:11pt" class=3D""><b class=3D"">From:</b> Andr=
+ew James &lt;<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu<=
+/a>&gt;<br class=3D"">
+<b class=3D"">Sent:</b> Wednesday, July 1, 2015 11:38 AM<br class=3D"">
+<b class=3D"">To:</b> Ruslan Tazhigulov; jag20; Chee Kong Lee; Sreeganesh B=
+alasubramani; Xianghai Sheng; Andrew Sonnenberger; Sam Stoneburner;
+<a href=3D"mailto:pdu2@lsu.edu" class=3D"">pdu2@lsu.edu</a>; Chang Liu; <a =
+href=3D"mailto:liu.3391@osu.edu" class=3D"">
+liu.3391@osu.edu</a>; Eric Allen Alt; <a href=3D"mailto:sadybeko@usc.edu" c=
+lass=3D"">
+sadybeko@usc.edu</a>; Matthew Madsen Agee; Aharon, Tal; <a href=3D"mailto:t=
+akeshi1@illinois.edu" class=3D"">
+takeshi1@illinois.edu</a>; <a href=3D"mailto:saswatar@uci.edu" class=3D"">s=
+aswatar@uci.edu</a>; Patrick Avery; Tanmoy Sanyal;
+<a href=3D"mailto:mdutra@vols.utk.edu" class=3D"">mdutra@vols.utk.edu</a>; =
+Mojtaba Haghighatlari; Kevin Hannon;
+<a href=3D"mailto:szl0072@auburn.edu" class=3D"">szl0072@auburn.edu</a>; Ja=
+mes Morgan;
+<a href=3D"mailto:jbschri@emory.edu" class=3D"">jbschri@emory.edu</a>; <a h=
+ref=3D"mailto:shafieialavim@vcu.edu" class=3D"">
+shafieialavim@vcu.edu</a>; Smith,Justin S; <a href=3D"mailto:tianyuan.zhang=
+@emory.edu" class=3D"">
+tianyuan.zhang@emory.edu</a>; <a href=3D"mailto:ziwei.guo@emory.edu" class=
+=3D"">ziwei.guo@emory.edu</a>; Yu, Qi;
+<a href=3D"mailto:kusle009@umn.edu" class=3D"">kusle009@umn.edu</a>; Kaye A=
+rcher; <a href=3D"mailto:sren@ku.edu" class=3D"">
+sren@ku.edu</a>; Yi-Jung Tu; <a href=3D"mailto:awalker@chem.wayne.edu" clas=
+s=3D"">awalker@chem.wayne.edu</a>; Avery Wiens; Megha Anand; alocke5;
+<a href=3D"mailto:sne86684@bethel.edu" class=3D"">sne86684@bethel.edu</a>; =
+Monika Kodrycka;
+<a href=3D"mailto:ojaghloun@vcu.edu" class=3D"">ojaghloun@vcu.edu</a>; <a h=
+ref=3D"mailto:ybui@purdue.edu" class=3D"">
+ybui@purdue.edu</a><br class=3D"">
+<b class=3D"">Subject:</b> Smartway Bus</font>
+<div class=3D"">&nbsp;</div>
+</div>
+</div>
+<font size=3D"2" class=3D""><span style=3D"font-size:10pt;" class=3D"">
+<div class=3D"PlainText">Hello everyone, <br class=3D"">
+<br class=3D"">
+I have placed a marker on the map with the location of the Smartway bus sto=
+p.&nbsp; There is a link to the schedule in the info-box, and I have includ=
+ed it below.<br class=3D"">
+<br class=3D"">
+<a href=3D"http://www.smartwaybus.com/schedule.htm" class=3D"">http://www.s=
+martwaybus.com/schedule.htm</a><br class=3D"">
+<br class=3D"">
+<br class=3D"">
+Andrew M. James<br class=3D"">
+Graduate Research Assistant<br class=3D"">
+<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br class=
+=3D"">
+<br class=3D"">
+<br class=3D"">
+</div>
+</span></font></div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</blockquote>
+</body>
+</html>
+
+--_000_AB61DC1CD0C54E7DA012104EBF5368C6vtedu_--

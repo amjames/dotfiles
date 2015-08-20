@@ -1,0 +1,77 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2377914qgt;
+        Tue, 28 Apr 2015 18:03:47 -0700 (PDT)
+X-Received: by 10.140.39.164 with SMTP id v33mr14483396qgv.80.1430269427381;
+        Tue, 28 Apr 2015 18:03:47 -0700 (PDT)
+Return-Path: <mariej17@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id s3si13607294qcc.1.2015.04.28.18.03.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 18:03:47 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning mariej17@vt.edu does not designate 209.85.213.180 as permitted sender) client-ip=209.85.213.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning mariej17@vt.edu does not designate 209.85.213.180 as permitted sender) smtp.mail=mariej17@vt.edu
+Received: from mail-ig0-f180.google.com (mail-ig0-f180.google.com [209.85.213.180])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3T13fBw013383
+	for <AmJames2@vt.edu>; Tue, 28 Apr 2015 21:03:46 -0400
+Received: by igbyr2 with SMTP id yr2so106697712igb.0
+        for <AmJames2@vt.edu>; Tue, 28 Apr 2015 18:03:41 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=nIKl0g9eNjwoKA7D9Kw3ZzS1qCAAHiQKRklPol9qTeY=;
+        b=Tu/hZPrHpQq1qcc59WjY2poo4d4lFV3nE1Hym6USDaacgbCvyA+Pe86694CBWC7NPA
+         S/6CeHzSlIATlMwlZYI/M3vvtqxoM1X7tD/1wb+v8t4Pcs+qSuzGmg+1qz9hrZuUIbRb
+         SDfaWneZOqyWclJc3arLUfnHbp3HM4bgMsWlL3265Ry7xgSNOpWpjO4SMW83R6nco60Y
+         SPA/6T+zBydoxgK6HVwLtKjr/vJVxjs9gD312tO31z5WbF05mZPzcZmqCDwbBj1tHI0I
+         Dtn65iCIssadqgeerrkKxYkpjNWupwLW3qSR32MgHkdPFZiscYoZuEPjSC2l7JdeCheT
+         HWtQ==
+X-Gm-Message-State: ALoCoQmjX7UOuJLiTbmo8lVhC8soyy3D5vlFLb963x7owRuw4RZtgIaxR/a3VywyCOr5kSavQiMZix9afyodo01VD+pcGqAcqJJd4SqgUD3gmQLA6+9D9cnZkW9Q82UKkkC1FzH7jFQlG6NZFsgLktKGmkkUbZhBWg==
+X-Received: by 10.50.64.243 with SMTP id r19mr908984igs.5.1430269421649;
+        Tue, 28 Apr 2015 18:03:41 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.64.243 with SMTP id r19mr908973igs.5.1430269421578; Tue,
+ 28 Apr 2015 18:03:41 -0700 (PDT)
+Received: by 10.36.112.145 with HTTP; Tue, 28 Apr 2015 18:03:41 -0700 (PDT)
+Date: Tue, 28 Apr 2015 21:03:41 -0400
+Message-ID: <CAN15q=wUaW5T5iYedJ1tv6Oaj1+3_UNe-ecFvxpuMnhPWH41Rg@mail.gmail.com>
+Subject: Chem 1036 Lab (Thursday 8am)
+From: Marie Johnston <mariej17@vt.edu>
+To: AmJames2@vt.edu
+Content-Type: multipart/alternative; boundary=047d7bdc9d88ce85a20514d28ce4
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bdc9d88ce85a20514d28ce4
+Content-Type: text/plain; charset=UTF-8
+
+Hey Andrew,
+
+I know it is a super busy part of the year for everyone right now, which is
+why I was wondering if there was any chance you have graded the last few
+lab reports (so I can decide if I should do the last one)? I am missing
+Energy/Environment, GCMS, and Heavy Metals. I completely understand if you
+haven't gotten to them, just thought it would be worth asking. Thanks!
+
+Marie Johnston
+
+--047d7bdc9d88ce85a20514d28ce4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hey Andrew,<div><br></div><div>I know it is a super busy p=
+art of the year for everyone right now, which is why I was wondering if the=
+re was any chance you have graded the last few lab reports (so I can decide=
+ if I should do the last one)? I am missing Energy/Environment, GCMS, and H=
+eavy Metals. I completely understand if you haven&#39;t gotten to them, jus=
+t thought it would be worth asking. Thanks!</div><div><br></div><div>Marie =
+Johnston</div></div>
+
+--047d7bdc9d88ce85a20514d28ce4--

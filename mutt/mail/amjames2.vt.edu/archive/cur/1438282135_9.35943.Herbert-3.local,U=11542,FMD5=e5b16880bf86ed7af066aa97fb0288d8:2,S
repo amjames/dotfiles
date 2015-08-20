@@ -1,0 +1,172 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp660906qgt;
+        Sat, 27 Jun 2015 08:37:15 -0700 (PDT)
+X-Received: by 10.55.21.141 with SMTP id 13mr15271423qkv.101.1435419434999;
+        Sat, 27 Jun 2015 08:37:14 -0700 (PDT)
+Return-Path: <>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 81si35693783qkp.119.2015.06.27.08.37.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 27 Jun 2015 08:37:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of  designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of  designates 2001:468:c80:2105:0:2b8:b328:9234 as permitted sender) smtp.mail=
+Received: from omr2.cc.vt.edu (omr2.cc.vt.edu [172.28.52.10] (may be forged))
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5RFb0jb025220
+	for <amjames2@vt.edu>; Sat, 27 Jun 2015 11:37:05 -0400
+Received: from localhost (localhost)
+	by omr2.cc.vt.edu (8.14.4/8.14.4) id t5R1YWbA025974;
+	Sat, 27 Jun 2015 11:37:00 -0400
+Date: Sat, 27 Jun 2015 11:37:00 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@omr2.cc.vt.edu>
+Message-Id: <201506271537.t5R1YWbA025974@omr2.cc.vt.edu>
+To: <amjames2@vt.edu>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="t5R1YWbA025974.1435419420/omr2.cc.vt.edu"
+Subject: Warning: could not send message for past 1 day
+Auto-Submitted: auto-generated (warning-timeout)
+X-Spam-Status: No, score=-1.0 required=5.0 tests=ALL_TRUSTED,HTML_MESSAGE,
+	T_TVD_MIME_NO_HEADERS autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a MIME-encapsulated message
+
+--t5R1YWbA025974.1435419420/omr2.cc.vt.edu
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Fri, 26 Jun 2015 08:34:42 -0400
+from mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234]
+
+   ----- Transcript of session follows -----
+<kshrest@ncsu.edu>... Deferred: Connection refused by aspmx3.googlemail.com.
+Warning: message still undelivered after 1 day
+Will keep trying until message is 3 days old
+
+--t5R1YWbA025974.1435419420/omr2.cc.vt.edu
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; omr2.cc.vt.edu
+Arrival-Date: Fri, 26 Jun 2015 08:34:42 -0400
+
+Final-Recipient: RFC822; kshrest@ncsu.edu
+Action: delayed
+Status: 4.4.1
+Remote-MTA: DNS; aspmx3.googlemail.com
+Last-Attempt-Date: Sat, 27 Jun 2015 11:37:00 -0400
+Will-Retry-Until: Mon, 29 Jun 2015 08:34:42 -0400
+
+--t5R1YWbA025974.1435419420/omr2.cc.vt.edu
+Content-Type: message/rfc822
+
+Return-Path: <amjames2@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5QCYYmi016274
+	for <kshrest@ncsu.edu>; Fri, 26 Jun 2015 08:34:42 -0400
+Received: from mail-qg0-f51.google.com (mail-qg0-f51.google.com [209.85.192.51])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5QCYSUC024868
+	for <kshrest@ncsu.edu>; Fri, 26 Jun 2015 08:34:33 -0400
+Received: by qgeu36 with SMTP id u36so34526395qge.2
+        for <kshrest@ncsu.edu>; Fri, 26 Jun 2015 05:34:28 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-type:subject:message-id:date:to
+         :mime-version;
+        bh=mD0mWz0sO2PcSCErT21NlBczi47wdC6kbwVA4ZBwcuE=;
+        b=hFB81uHkFM9udFSr2GN0RbrZRrcBGFmZqgaWZWz05wV71u8ZBf0/3C+2PP++80+t27
+         OJqGphJ8Ja0Iq4Tc/cm5qpd/JbkQTTBpiQZPw3teVasJKcoyXQgeENzQAuJc05jc2x8d
+         ugKYC/sZ/R/zpJMz45ZN33E+nbPLtfIluwPBEEJh3R9NpY+QXzUU28/xCxxIlOYz9gJ9
+         ICxpIw6tdL2nQQZSmUZV6KWSiklLBe6hXzU5o/x+a9kTfLqkf0rnH+BVMD4TVjVr31r+
+         YU7uk0uMeY+HI2zvgpiGeWDlUUfOVaJpnZ9OIMYajknCX0/p8I+m5ufL69p/IWrbCL54
+         3F/Q==
+X-Gm-Message-State: ALoCoQmK45qL4uTKg2zmvTP9reZ6d3uwCSnnB8fVoR0KSTBn67fgw1xW3mi2P2sgVJZh0SQzBKh9oHVPNzkgdzcwRw79DeDcUU7ZECRJkTtN1/f4vqO8M7APlxckofPlj7HId2+ZaRJJ
+X-Received: by 10.55.25.217 with SMTP id 86mr2992985qkz.4.1435322068700;
+        Fri, 26 Jun 2015 05:34:28 -0700 (PDT)
+X-Received: by 10.55.25.217 with SMTP id 86mr2992963qkz.4.1435322068601;
+        Fri, 26 Jun 2015 05:34:28 -0700 (PDT)
+Received: from ?IPv6:2001:468:c80:4290:c4fa:e27d:73dc:8615? ([2001:468:c80:4290:c4fa:e27d:73dc:8615])
+        by mx.google.com with ESMTPSA id m13sm6738736qkh.26.2015.06.26.05.34.27
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 26 Jun 2015 05:34:28 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_23F91E90-A5BF-4B47-A32E-9A41DE532226"
+Subject: Molecular Response Properties Summer School New Info Posted
+Message-Id: <90571D88-C39B-4ED4-A6DD-C31C33A2CE4A@vt.edu>
+Date: Fri, 26 Jun 2015 08:34:27 -0400
+To: Matthew Madsen Agee <magee@uci.edu>,
+        Sreeganesh Balasubramani <sreeganb@uci.edu>,
+        Matthew Barclay <m775b097@ku.edu>, "erb74@pitt.edu" <erb74@pitt.edu>,
+        Javier Cerezo <j.cerezo@pi.iccom.cnr.it>, thomas.j.duignan@gmail.com,
+        Tobias Fahleson <tobfa@ifm.liu.se>,
+        Thomas Fransson <t.fransson.swe@gmail.com>,
+        jerome.gonthier@chemistry.gatech.edu, pgurunat@purdue.edu,
+        Ignat Harczuk <ignath@theochem.kth.se>, jshigh@ncsu.edu,
+        varuniitr@hotmail.com, Chang Liu <chang.liu@fysik.su.se>,
+        Elvis Maradzike <em14j@my.fsu.edu>, alexmarc@buffalo.edu,
+        moore0557@gmail.com, danielricardo.nascimento@gmail.com, bpeng@uw.edu,
+        Adam P <adamphil@buffalo.edu>, saswatar@uci.edu, shermanm@pitt.edu,
+        kshrest@ncsu.edu, Iurii Zhovtobriukh <iurii.zhovtobriukh@fysik.su.se>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+
+
+--Apple-Mail=_23F91E90-A5BF-4B47-A32E-9A41DE532226
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Hello Everyone,=20
+
+We are looking forward to meeting everyone on Monday.  The school =
+website
+http://www.theory.chem.vt.edu/response/index.html =
+<http://www.theory.chem.vt.edu/response/index.html> =20
+has been updated with some new information about the day-to-day schedule =
+and check-in procedures.  If you have any questions feel free to email =
+me, or call me. My cell phone number is below.=20
+
+
+Andrew M. James
+Graduate Research Assistant
+amjames2@vt.edu
+516-270-4809
+
+
+--Apple-Mail=_23F91E90-A5BF-4B47-A32E-9A41DE532226
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dus-ascii"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Hello Everyone,&nbsp;<div class=3D""><br class=3D""></div><div =
+class=3D"">We are looking forward to meeting everyone on Monday. =
+&nbsp;The school website</div><div class=3D""><a =
+href=3D"http://www.theory.chem.vt.edu/response/index.html" =
+class=3D"">http://www.theory.chem.vt.edu/response/index.html</a>&nbsp;&nbs=
+p;</div><div class=3D"">has been updated with some new information about =
+the day-to-day schedule and check-in procedures. &nbsp;If you have any =
+questions feel free to email me, or call me. My cell phone number is =
+below.&nbsp;</div><div class=3D""><br class=3D""></div><div class=3D""><br=
+ class=3D""><div apple-content-edited=3D"true" class=3D"">Andrew M. =
+James<br class=3D"">Graduate Research Assistant<br class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D"">516-270-4809</div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_23F91E90-A5BF-4B47-A32E-9A41DE532226--
+
+--t5R1YWbA025974.1435419420/omr2.cc.vt.edu--
+

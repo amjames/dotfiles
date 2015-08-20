@@ -1,0 +1,118 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [172.31.245.130] (nc6521db6.cns.vt.edu. [198.82.29.182])
+        by mx.google.com with ESMTPSA id a65sm2380336qkh.43.2015.06.17.09.19.31
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 17 Jun 2015 09:19:31 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_E617A3FE-99C5-44AC-9469-B1214B07BABF"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: BlueRidge access for the SSS
+From: Andrew James <amjames2@vt.edu>
+In-Reply-To: <DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+Date: Wed, 17 Jun 2015 12:19:31 -0400
+Cc: Tommy Guy <richardtguy84@gmail.com>,
+ Daniel Chen <dcheny@gmail.com>,
+ "Robert J. Harrison" <rjharrison@gmail.com>,
+ Eduard Valeyev <valeev76@vt.edu>,
+ Eugene DePrince <eugene.deprince@gmail.com>
+Message-Id: <C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com> <DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+
+--Apple-Mail=_E617A3FE-99C5-44AC-9469-B1214B07BABF
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+Dr. Crawford,=20
+=20
+The cerebro accounts are set up. The usernames are the same:
+dcheny
+dprince
+tguy
+rjharrison
+
+Passwords are the same as the usernames.  I also checked and the hpc =
+account passwords are still =93hokies14=94.
+
+=97AJ
+
+> On Jun 16, 2015, at 4:53 PM, Eugene DePrince =
+<eugene.deprince@gmail.com> wrote:
+>=20
+> Daniel,
+>=20
+> I can get into sirius, but I=92m having trouble seeing =
+blueridge1.arc.vt.edu <http://blueridge1.arc.vt.edu/> from there
+>=20
+> [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu =
+<http://blueridge1.arc.vt.edu/>=20
+> PING blueridge1.arc.vt.edu <http://blueridge1.arc.vt.edu/> =
+(198.82.161.171) 56(84) bytes of data.
+> =46rom sirius.chem.vt.edu <http://sirius.chem.vt.edu/> =
+(198.82.162.246) icmp_seq=3D1 Destination Host Unreachable
+>=20
+> Eugene
+>=20
+> On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu =
+<mailto:crawdad@vt.edu>> wrote:
+>=20
+>> hpc01
+>=20
+
+
+--Apple-Mail=_E617A3FE-99C5-44AC-9469-B1214B07BABF
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dwindows-1252"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Dr. Crawford,&nbsp;<div class=3D"">&nbsp;</div><div =
+class=3D"">The cerebro accounts are set up. The usernames are the =
+same:</div><div class=3D"">dcheny</div><div class=3D"">dprince</div><div =
+class=3D"">tguy</div><div class=3D"">rjharrison</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Passwords are the same as the =
+usernames. &nbsp;I also checked and the hpc account passwords are still =
+=93hokies14=94.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">=97AJ</div><div class=3D""><br class=3D""><div><blockquote =
+type=3D"cite" class=3D""><div class=3D"">On Jun 16, 2015, at 4:53 PM, =
+Eugene DePrince &lt;<a href=3D"mailto:eugene.deprince@gmail.com" =
+class=3D"">eugene.deprince@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html charset=3Dwindows-1252" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space;" class=3D"">Daniel,<div =
+class=3D""><br class=3D""></div><div class=3D"">I can get into sirius, =
+but I=92m having trouble seeing&nbsp;<a =
+href=3D"http://blueridge1.arc.vt.edu/" =
+class=3D"">blueridge1.arc.vt.edu</a>&nbsp;from there</div><div =
+class=3D""><br class=3D""></div><div class=3D""><div style=3D"margin: =
+0px; font-size: 11px; font-family: Menlo;" class=3D"">[dprince@sirius =
+~]$ ping&nbsp; <a href=3D"http://blueridge1.arc.vt.edu/" =
+class=3D"">blueridge1.arc.vt.edu</a>&nbsp;</div><div style=3D"margin: =
+0px; font-size: 11px; font-family: Menlo;" class=3D"">PING <a =
+href=3D"http://blueridge1.arc.vt.edu/" =
+class=3D"">blueridge1.arc.vt.edu</a> (198.82.161.171) 56(84) bytes of =
+data.</div><div style=3D"margin: 0px; font-size: 11px; font-family: =
+Menlo;" class=3D"">=46rom <a href=3D"http://sirius.chem.vt.edu/" =
+class=3D"">sirius.chem.vt.edu</a> (198.82.162.246) icmp_seq=3D1 =
+Destination Host Unreachable</div></div><div class=3D""><div =
+class=3D""><div class=3D""><br class=3D""></div><div =
+class=3D"">Eugene</div><div class=3D""><br class=3D""></div><div =
+class=3D"">On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford &lt;<a =
+href=3D"mailto:crawdad@vt.edu" class=3D"">crawdad@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite" class=3D""><span style=3D"font-family: Helvetica; =
+font-size: 12px; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; =
+float: none; display: inline !important;" =
+class=3D"">hpc01</span></blockquote></div><br =
+class=3D""></div></div></div></blockquote></div><br =
+class=3D""></div></body></html>=
+
+--Apple-Mail=_E617A3FE-99C5-44AC-9469-B1214B07BABF--

@@ -1,0 +1,51 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp543918qgt;
+        Wed, 12 Aug 2015 15:16:55 -0700 (PDT)
+X-Received: by 10.55.22.200 with SMTP id 69mr63072735qkw.29.1439417815097;
+        Wed, 12 Aug 2015 15:16:55 -0700 (PDT)
+Return-Path: <postmaster@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id v106si361876qgd.75.2015.08.12.15.16.54
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 15:16:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of postmaster@listserv.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of postmaster@listserv.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender) smtp.mailfrom=postmaster@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7CMGnx3015350
+	for <amjames2@VT.EDU>; Wed, 12 Aug 2015 18:16:54 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7CMFIh5018287
+	for <amjames2@VT.EDU>; Wed, 12 Aug 2015 18:16:49 -0400
+Message-Id: <201508122216.t7CMFIh5018287@listserv.vt.edu>
+Subject: Your list glc-programs is now being forwarded to Google Group glc-programs-g@vt.edu
+From: listmaster@vt.edu
+Reply-to: listmaster@vt.edu
+Date: Wed, 12 Aug 2015 17:30:45 -0400
+To: amjames2@VT.EDU
+X-Spam-Status: No, score=-0.0 required=5.0 tests=RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+You are receiving this note because you are a subscriber of the listserv
+list glc-programs@listserv.vt.edu and the Google Group glc-programs-g@vt.edu.
+
+As part of our migration of Listserv to Google Groups, forwarding has been
+turned on for this list, so that email sent to glc-programs@listserv.vt.edu
+will forwarded to the Google Group glc-programs-g@vt.edu. Forwarding for the
+listserv list will continue until July 1, 2016, at which time Listserv
+will be turned off.
+
+Please change any references (including on websites, in emails, or in
+printed brochures, etc.) from glc-programs@listserv.vt.edu to glc-programs-g@vt.edu.
+
+If you encounter difficulties with this arrangement, please submit a
+request for assistance via the web at 4help.vt.edu or, contact 4Help
+at 540-231-4357.
+
+

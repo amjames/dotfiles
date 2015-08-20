@@ -1,0 +1,264 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1578178ieb;
+        Thu, 2 Apr 2015 11:38:28 -0700 (PDT)
+X-Received: by 10.55.25.34 with SMTP id k34mr14360273qkh.12.1427999907970;
+        Thu, 02 Apr 2015 11:38:27 -0700 (PDT)
+Return-Path: <scholar@edtech.vt.edu>
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id l107si1702862qgf.74.2015.04.02.11.38.27
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Apr 2015 11:38:27 -0700 (PDT)
+Received-SPF: none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) smtp.mail=scholar@edtech.vt.edu
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t32IcP89026776;
+	Thu, 2 Apr 2015 14:38:25 -0400
+Received: from fajita (fajita.edtech.vt.edu [198.82.175.41])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t32IcJXY020510;
+	Thu, 2 Apr 2015 14:38:24 -0400
+Received: from localhost ([127.0.0.1] helo=fajita)
+	by fajita with esmtp (Exim 4.76)
+	(envelope-from <scholar@edtech.vt.edu>)
+	id 1Ydk0R-00089u-C2; Thu, 02 Apr 2015 14:38:19 -0400
+Message-ID: <CABit=J6rd_q4hWoU02bQeDwNPENJjWiym2Q82vaTwAZWPprbXA@mail.gmail.com>
+Subject: Fwd: Gil Strang colloquium: Tuesday April 21, 4pm
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9975_907641830.1427999899361"
+Received: from mr2.cc.vt.edu ([198.82.163.74])
+          by fajita (JAMES SMTP Server 2.3.2) with SMTP ID 531
+          for <theorychem@scholar.vt.edu>;
+          Thu, 2 Apr 2015 14:38:18 -0400 (EDT)
+Received: from mail-ie0-f172.google.com (mail-ie0-f172.google.com [209.85.223.172])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t32IcDD9004783
+	for <theorychem@scholar.vt.edu>; Thu, 2 Apr 2015 14:38:18 -0400
+Received: by iedfl3 with SMTP id fl3so85146347ied.1
+        for <theorychem@scholar.vt.edu>; Thu, 02 Apr 2015 11:38:13 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=We2N27liBDd45gDlM7a4dxMDuIr7EfdXGNBBYM14b9k=;
+        b=mzAJ2qq8w5iF4iMwTOIa6wn/0Dl8OVSlZvEXYbHwIle4oIVH3iXfLzpwsi6Ng+AbXi
+         HN9AogXkEmSxMMwoUqvPms5dOhVITs0NdplNMTLNztyoDq+NzyBhx8wOcfsSxTp8rGy5
+         XzjGmzIUTPkVCEnsVw22jaMHWWaaORgN9jNwp9DkEiB4g+ZHjotp5A43kElkPaBEIb7U
+         UehBxXkD8lwYxwB9At7SKKypeq2lNcBEFwhlB5IpDL5G6bw6kjUBipBkONKnmAzSUOUK
+         +OsnwrcMjbnAntDIzLsPS0t6BYCV6flgTeDhCTGO5kDZyvoSnDTSKrbRn2f+HdhJ4+2h
+         93vw==
+X-Gm-Message-State: ALoCoQmARkFtFRVTCPKOCdaDQmZLiqdj+Av2Svf9cuBHo/zs821t+HvYMpJhbKGtqAZaBxJOHNE8KbjUR82Yw0Ii4zOcDhmTbIvN/DH++YJv7qFnx1I/eLvBZNbJNG7vwrfL69K+iAfAL0EZmlfyMfBjqb4ySEfChQ==
+X-Received: by 10.42.82.199 with SMTP id e7mr81684598icl.18.1427999892964;
+        Thu, 02 Apr 2015 11:38:12 -0700 (PDT)
+X-Received: by 10.42.82.199 with SMTP id e7mr81684574icl.18.1427999892782;
+ Thu, 02 Apr 2015 11:38:12 -0700 (PDT)
+Received: by 10.50.140.106 with HTTP; Thu, 2 Apr 2015 11:38:12 -0700 (PDT)
+In-Reply-To: <6ad0-551d4b80-d-3363e5c0@220305>
+References: <6ad0-551d4b80-d-3363e5c0@220305>
+Date: Thu, 2 Apr 2015 14:38:12 -0400
+From: Eduard Valeyev <valeev76@vt.edu>
+To: theorychem@scholar.vt.edu
+X-Content-Type-Outer-Envelope: multipart/mixed; boundary=20cf3033465759c6760512c222fb
+X-Content-Type-Message-Body: text/plain; charset=UTF-8
+List-Id: <main.localhost>
+X-Spam-Status: No, score=-0.0 required=5.0 tests=FSL_HELO_NON_FQDN_1,
+	HTML_MESSAGE,MSGID_FROM_MTA_HEADER,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+
+------=_Part_9975_907641830.1427999899361
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+Dear Theorists,
+
+this might interest at least some of you.
+
+Ed.
+
+---------- Forwarded message ----------
+From: George Hagedorn <hagedorn@math.vt.edu>
+Date: Thu, Apr 2, 2015 at 10:01 AM
+Subject: Fwd: Gil Strang colloquium: Tuesday April 21, 4pm
+To: valeev76@vt.edu
+
+
+Thought this might interest you.  Gilbert Strang is a big shot in
+mathematical numerical analysis.
+
+George
+
+
+
+-------- Original Message --------
+Subject: Gil Strang colloquium: Tuesday April 21, 4pm
+Date: Thursday, April 2, 2015 09:51 EDT
+From: Mark Embree <embree@vt.edu>
+Reply-To: Mark Embree <embree@vt.edu>
+To: faculty <faculty@math.vt.edu>, grads@math.vt.edu
+
+
+Colleagues --
+
+Prof. Gilbert Strang from MIT will be visiting campus on Tuesday, April 21
+to deliver a seminar on "Tridiagonal Matrices and Applied Linear Algebra"
+as part of the Math Department colloquium and the CMDA Distinguished
+Lecture Series, from 4-5pm in Davidson 281.
+
+The talk will be suitable for a broad audience, so I encourage you to
+promote the lecture to your classes.  A text version of the abstract
+follows below; I have also attached a poster to this email.
+
+Gil, a past president of SIAM, has kindly agreed to meet with students for
+lunch before his talk.   That event is being organized by our local SIAM
+chapter; details will be forthcoming.
+
+best wishes,
+
+Mark
+
+----------------------------
+
+TRIDIAGONAL MATRICES AND APPLIED LINEAR ALGEBRA
+Gilbert Strang (MIT)
+Tuesday April 21, 4-5pm, Davidson 281
+
+My favorite matrix has three nonzero diagonals with -1's and 2's
+and -1's.  It is like a second derivative  (very useful).  This talk is
+about
+a much larger family of tridiagonal matrices in applied mathematics:
+
+   1.  How to replace the zeros to reach a full matrix (optimally)
+
+   2.  How to invert that full matrix
+
+   3.  How to find the eigenvalues
+
+   4.  How tridiagonal matrices and their inverses come up in applications.
+
+The ideas extend to other banded matrices but the presentation will turn to
+education (linear algebra, differential equations, and computational
+science).
+Do videos succeed ?  Does online homework succeed (for ideas and not just
+practice in repetition) ?  Do applications help or interfere ?  Hard
+questions.
+[see attachment: "strang_poster.pdf", size: 1105221 bytes]
+
+
+
+Attachments:
+
+strang_poster.pdf
+https://scholar.vt.edu/access/content/attachment/b71297c6-ce28-4f5a-8c7f-8fd15dead9b1/_anon_/16101f76-b984-457f-a082-0517a46700f8/strang_poster.pdf
+
+----------------------
+This automatic notification message was sent by Scholar (https://scholar.vt.edu/portal) from the VT Theoretical Chemistry site.
+You can modify how you receive notifications at My Workspace > Preferences.
+
+------=_Part_9975_907641830.1427999899361
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>  <head><title>Fwd: Gil Strang colloquium: Tuesday April 21, 4pm</tit=
+le></head>  <body><div dir=3D"ltr">Dear Theorists,<div><br></div><div>this =
+might interest at least some of you.</div><div><br></div><div>Ed.</div><div=
+><br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>=
+From: <b class=3D"gmail_sendername">George Hagedorn</b> <span dir=3D"ltr">&=
+lt;<a href=3D"mailto:hagedorn@math.vt.edu" target=3D"_blank">hagedorn@math.=
+vt.edu</a>&gt;</span><br>Date: Thu, Apr 2, 2015 at 10:01 AM<br>Subject: Fwd=
+: Gil Strang colloquium: Tuesday April 21, 4pm<br>To: <a href=3D"mailto:val=
+eev76@vt.edu" target=3D"_blank">valeev76@vt.edu</a><br><br><br>Thought this=
+ might interest you.=A0 Gilbert Strang is a big shot in mathematical numeri=
+cal analysis.<br>
+<br>
+George<br>
+<br>
+<br>
+<br>
+-------- Original Message --------<br>
+Subject: Gil Strang colloquium: Tuesday April 21, 4pm<br>
+Date: Thursday, April 2, 2015 09:51 EDT<br>
+From: Mark Embree &lt;<a href=3D"mailto:embree@vt.edu" target=3D"_blank">em=
+bree@vt.edu</a>&gt;<br>
+Reply-To: Mark Embree &lt;<a href=3D"mailto:embree@vt.edu" target=3D"_blank=
+">embree@vt.edu</a>&gt;<br>
+To: faculty &lt;<a href=3D"mailto:faculty@math.vt.edu" target=3D"_blank">fa=
+culty@math.vt.edu</a>&gt;, <a href=3D"mailto:grads@math.vt.edu" target=3D"_=
+blank">grads@math.vt.edu</a><br>
+<br>
+<br>
+Colleagues --<br>
+<br>
+Prof. Gilbert Strang from MIT will be visiting campus on Tuesday, April 21<=
+br>
+to deliver a seminar on &quot;Tridiagonal Matrices and Applied Linear Algeb=
+ra&quot;<br>
+as part of the Math Department colloquium and the CMDA Distinguished<br>
+Lecture Series, from 4-5pm in Davidson 281.<br>
+<br>
+The talk will be suitable for a broad audience, so I encourage you to<br>
+promote the lecture to your classes.=A0 A text version of the abstract<br>
+follows below; I have also attached a poster to this email.<br>
+<br>
+Gil, a past president of SIAM, has kindly agreed to meet with students for<=
+br>
+lunch before his talk.=A0 =A0That event is being organized by our local SIA=
+M<br>
+chapter; details will be forthcoming.<br>
+<br>
+best wishes,<br>
+<br>
+Mark<br>
+<br>
+----------------------------<br>
+<br>
+TRIDIAGONAL MATRICES AND APPLIED LINEAR ALGEBRA<br>
+Gilbert Strang (MIT)<br>
+Tuesday April 21, 4-5pm, Davidson 281<br>
+<br>
+My favorite matrix has three nonzero diagonals with -1&#39;s and 2&#39;s<br=
+>
+and -1&#39;s.=A0 It is like a second derivative=A0 (very useful).=A0 This t=
+alk is<br>
+about<br>
+a much larger family of tridiagonal matrices in applied mathematics:<br>
+<br>
+=A0 =A01.=A0 How to replace the zeros to reach a full matrix (optimally)<br=
+>
+<br>
+=A0 =A02.=A0 How to invert that full matrix<br>
+<br>
+=A0 =A03.=A0 How to find the eigenvalues<br>
+<br>
+=A0 =A04.=A0 How tridiagonal matrices and their inverses come up in applica=
+tions.<br>
+<br>
+The ideas extend to other banded matrices but the presentation will turn to=
+<br>
+education (linear algebra, differential equations, and computational<br>
+science).<br>
+Do videos succeed ?=A0 Does online homework succeed (for ideas and not just=
+<br>
+practice in repetition) ?=A0 Do applications help or interfere ?=A0 Hard<br=
+>
+questions.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div><br></div></div>
+<p>[see attachment: "strang_poster.pdf", size: 1105221 bytes]</p><br/>Attac=
+hments:<br/><br/><a href=3D"https://scholar.vt.edu/access/content/attachmen=
+t/b71297c6-ce28-4f5a-8c7f-8fd15dead9b1/_anon_/16101f76-b984-457f-a082-0517a=
+46700f8/strang_poster.pdf" >strang_poster.pdf</a><br/><br/><hr/><br/>This a=
+utomatic notification message was sent by Scholar (<a href=3D"https://schol=
+ar.vt.edu/portal" >https://scholar.vt.edu/portal<a/>) from the VT Theoretic=
+al Chemistry site.<br/>You can modify how you receive notifications at My W=
+orkspace > Preferences.<br/>  </body></html>
+
+------=_Part_9975_907641830.1427999899361--

@@ -1,0 +1,211 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp3046274qge;
+        Wed, 25 Mar 2015 07:14:43 -0700 (PDT)
+X-Received: by 10.52.37.50 with SMTP id v18mr9665695vdj.87.1427292883182;
+        Wed, 25 Mar 2015 07:14:43 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id jc6si3302596vdb.85.2015.03.25.07.14.12
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 25 Mar 2015 07:14:43 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.160.174;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2PEE51S027498;
+	Wed, 25 Mar 2015 10:14:11 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2PACGm4005465;
+	Wed, 25 Mar 2015 10:14:05 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98503282 for CHEM_GRAD@LISTSERV.VT.EDU; Wed, 25 Mar 2015 10:14:05
+          -0400
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b8:b328:9234]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2PEE4nO031643
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Wed, 25 Mar 2015 10:14:04 -0400
+Received: from mail-yk0-f174.google.com (mail-yk0-f174.google.com
+          [209.85.160.174]) by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2PEDwuR020918 for <CHEM_GRAD@listserv.vt.edu>; Wed, 25 Mar 2015
+          10:14:03 -0400
+Received: by ykfc206 with SMTP id c206so13044133ykf.1 for
+          <CHEM_GRAD@listserv.vt.edu>; Wed, 25 Mar 2015 07:13:58 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:references:to :message-id:mime-version;
+                         bh=C9Bx0Xn03F0cveeUV9zFWPaug0CgOZhPaTyC6djV2GQ=;
+                         b=emS0jV3+SEFE0dZppid4mF2N/nZgcTudFKopw8WjJP+H+XyeiAoeEdFBg9Y0vpu0Iq
+                         cqEXWbgt/OLwbldpfv0BjRxA4PBvltYfOI9Hgz+zzT/sxavqNIkLiROoRkGL5sk57GhV
+                         ndNXGRPi3gKKdgAzMKCZtvZ16UOTsY9Xi5IaUF9XEfzC7NvOem0WG/KLg3RjPbTwnxfA
+                         MJ/b339qNXMdVwT2pCvKPanDu0gciTJVZY7Vm8ywv1OJPMh9Rg9Vsc0isfcKeV7T0UNP
+                         sCrPmx9o/9T+VvjpuSnDAUzlrWw402xX8s2bQ1b4gi8Q5ryNPMJ8TgOXYKtTq0xs+/c+
+                         1EMQ==
+X-Gm-Message-State: ALoCoQl/boEuSlukzo6+cMUro3z2mQPEZF+dr7yTXUCykwYR5N/O8hU/Y6eFmsjZcN7NozRQA/0417R4jX0GGbBlLzQNynDDPraO22IWMVGbxl9utJavZJCdWJHUzegPj63d2HPyuLrH0k9kX7591czUiEjVZmwffe5FTOPbgC1rP6J15UTRdBUB17129+d/0g5Nom68hp3Y
+X-Received: by 10.52.243.170 with SMTP id wz10mr6975509vdc.25.1427292838683;
+            Wed, 25 Mar 2015 07:13:58 -0700 (PDT)
+X-Received: by 10.52.243.170 with SMTP id wz10mr6975493vdc.25.1427292838556;
+            Wed, 25 Mar 2015 07:13:58 -0700 (PDT)
+Received: from [10.0.1.5] (h80adb7b8.dhcp.vt.edu. [128.173.183.184]) by
+          mx.google.com with ESMTPSA id jr8sm1900433vdb.25.2015.03.25.07.13.57
+          for <CHEM_GRAD@listserv.vt.edu> (version=TLSv1 cipher=RC4-SHA
+          bits=128/128); Wed, 25 Mar 2015 07:13:58 -0700 (PDT)
+X-Google-Original-From: "John R. Morris" <morris@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_B0E1E1A3-2D6B-4E1C-AAB6-6F07E66DA808"
+References: <c1d95f916b6147348af974bffc80e6b4@BELL.cc.w2k.vt.edu>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <A7F021F5-1CDE-494E-B05D-D02AEBB59435@vt.edu>
+Date:         Wed, 25 Mar 2015 10:13:55 -0400
+Reply-To: "John R. Morris" <jrmorris@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "John R. Morris" <jrmorris@vt.edu>
+Subject: Fwd: EHS message concerning flammables in refrigerators
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_B0E1E1A3-2D6B-4E1C-AAB6-6F07E66DA808
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Please read the following notice from EHS:
+
+Begin forwarded message:
+
+> From: "Tissue, Brian" <tissue@vt.edu>
+> Subject: FW: EHS message concerning flammables in refrigerators
+> Date: March 25, 2015 9:44:22 AM EDT
+> To: CHEM_FACULTY@LISTSERV.VT.EDU
+> Reply-To: "Tissue, Brian" <tissue@vt.edu>
+>=20
+> Forwarded message from EHS:
+> =20
+> I was surprised to open a random non-flammable storage refrigerator =
+and see flammables stored on Davidson 4th floor.  Can you send an e-mail =
+requesting everyone to check their refrigerators and work with their lab =
+to make sure items are properly stored.  EHS is very concerned when we =
+see this as there have been some serious incidents on campus when the =
+fridges exploded. I will be looking at this as well but I thought if =
+they can correct it now the areas will be more safe.
+> =20
+
+-------
+John R. Morris
+Professor and Graduate Program Director
+Department of Chemistry
+Virginia Tech
+Blacksburg, VA 24061
+Ph. 540-231-2472
+http://www.chem.vt.edu/chem-dept/jmorris/
+
+
+
+--Apple-Mail=_B0E1E1A3-2D6B-4E1C-AAB6-6F07E66DA808
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><base href=3D"x-msg://233/"></head><body style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; ">Please read the following notice from =
+EHS:<br><div><br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>From: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">"Tissue, Brian" =
+&lt;<a =
+href=3D"mailto:tissue@vt.edu">tissue@vt.edu</a>&gt;<br></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>Subject: =
+</b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><b>FW: EHS message concerning flammables in =
+refrigerators</b><br></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Date: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">March 25, 2015 9:44:22 AM EDT<br></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>To: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;"><a =
+href=3D"mailto:CHEM_FACULTY@LISTSERV.VT.EDU">CHEM_FACULTY@LISTSERV.VT.EDU<=
+/a><br></span></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Reply-To: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">"Tissue, Brian" &lt;<a =
+href=3D"mailto:tissue@vt.edu">tissue@vt.edu</a>&gt;<br></span></div><br><s=
+pan class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div class=3D"WordSection1" =
+style=3D"page: WordSection1; "><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Forwarded message from EHS:<o:p></o:p></span></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; ">I was surprised to open a =
+random non-flammable storage refrigerator and see flammables stored on =
+Davidson 4<sup>th</sup><span =
+class=3D"Apple-converted-space">&nbsp;</span>floor.&nbsp; Can you send =
+an e-mail requesting everyone to check their refrigerators and work with =
+their lab to make sure items are properly stored.&nbsp; EHS is very =
+concerned when we see this as there have been some serious incidents on =
+campus when the fridges exploded. I will be looking at this as well but =
+I thought if they can correct it now the areas will be more =
+safe.<o:p></o:p></div><div style=3D"margin-top: 0in; margin-right: 0in; =
+margin-left: 0in; margin-bottom: 0.0001pt; font-size: 11pt; font-family: =
+Calibri, sans-serif; =
+"><o:p>&nbsp;</o:p></div></div></div></span></blockquote></div><br><div =
+apple-content-edited=3D"true">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: =
+normal; font-weight: normal; letter-spacing: normal; line-height: =
+normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">-------<br>John R. =
+Morris<br>Professor and Graduate Program Director<br>Department of =
+Chemistry<br>Virginia Tech<br>Blacksburg, VA 24061<br>Ph. =
+540-231-2472<br><a =
+href=3D"http://www.chem.vt.edu/chem-dept/jmorris/">http://www.chem.vt.edu/=
+chem-dept/jmorris/</a><br><br></div></span></span>
+</div>
+<br></body></html>=
+
+--Apple-Mail=_B0E1E1A3-2D6B-4E1C-AAB6-6F07E66DA808--

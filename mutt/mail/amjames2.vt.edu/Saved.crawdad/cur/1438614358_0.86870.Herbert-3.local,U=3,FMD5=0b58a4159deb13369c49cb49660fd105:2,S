@@ -1,0 +1,80 @@
+Return-Path: <amjames2@vt.edu>
+Received: from hedwig-17.prd.orcali.com (ec2-54-85-253-230.compute-1.amazonaws.com. [54.85.253.230])
+        by mx.google.com with ESMTPSA id b13sm16108442qaw.31.2014.12.26.13.27.28
+        for <crawdad@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 26 Dec 2014 13:27:28 -0800 (PST)
+Date: Fri, 26 Dec 2014 13:27:28 -0800 (PST)
+X-Google-Original-Date: Fri, 26 Dec 2014 21:27:28 GMT
+MIME-Version: 1.0
+X-Mailer: Nodemailer (0.5.0; +http://www.nodemailer.com/)
+Message-Id: <1419629248115.49bcd52e@Nodemailer>
+X-Orchestra-Oid: 98590866-7476-4239-8DC2-F530631703D0
+X-Orchestra-Sig: 5f6703119101034639dab85d18417884b3ea52c1
+X-Orchestra-Thrid: 614BF4CE-1B01-4671-8CC9-BBC0923628E2
+X-Orchestra-Thrid-Sig: 02c2782332fe6ecf36a77c31e04a98f329460338
+X-Orchestra-Account: f4c500778c547417ffc48c404b6e7db2e915b2df
+From: "Andrew James" <amjames2@vt.edu>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Subject: Some updtates, and questions
+Content-Type: multipart/alternative;
+ boundary="----Nodemailer-0.5.0-?=_1-1419629248448"
+Content-Length: 2871
+
+------Nodemailer-0.5.0-?=_1-1419629248448
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Dr. Crawford,=C2=A0
+
+
+I am starting to write up the results I have collected for those MD =
+simulations. I wanted to give you a quick update of where I am at, and also=
+ ask you a few questions:
+-I have solid results for methylthiirane and methyloxirane ( I believe we =
+already discussed this). I saved all of the results and output, and =
+resubmitted them because I had sightly different parameters for the MD =
+simulations. I don=E2=80=99t suspect the results will be very different, =
+but I wanted to make sure all of the jobs were uniform. =C2=A0
+I am still waiting on the results for norborenone, but based on my shorter =
+test simulations I don=E2=80=99t foresee anymore holdups.=C2=A0
+I would like to put together some tables comparing the results from these =
+simulations to experiment and some other =C2=A0computational studies. =
+=C2=A0I can search the literature to find numbers for comparison, but I =
+wanted to ask if you had particular data that you would like me to compare =
+to (i.e. data that you have compared to previously). =C2=A0
+
+
+I hope you had an enjoyable christmas.=C2=A0
+=C2=A0=E2=80=94AJ
+------Nodemailer-0.5.0-?=_1-1419629248448
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC =22-//W3C//DTD HTML 4.0 Transitional//EN=22 =
+=22http://www.w3.org/TR/REC-html40/loose.dtd=22>
+<html><body>
+<span id=3D=22mailbox-conversation=22><div>Dear Dr. Crawford,&nbsp;</div>
+<div><br></div>
+<div>I am starting to write up the results I have collected for those MD =
+simulations. I wanted to give you a quick update of where I am at, and also=
+ ask you a few questions:</div>
+<div>-I have solid results for methylthiirane and methyloxirane ( I believe=
+ we already discussed this). I saved all of the results and output, and =
+resubmitted them because I had sightly different parameters for the MD =
+simulations. I don&rsquo;t suspect the results will be very different, but =
+I wanted to make sure all of the jobs were uniform. &nbsp;</div>
+<div>I am still waiting on the results for norborenone, but based on my =
+shorter test simulations I don&rsquo;t foresee anymore holdups.=
+&nbsp;</div>
+<div>I would like to put together some tables comparing the results from =
+these simulations to experiment and some other &nbsp;computational studies.=
+ &nbsp;I can search the literature to find numbers for comparison, but I =
+wanted to ask if you had particular data that you would like me to compare =
+to (i.e. data that you have compared to previously). &nbsp;</div>
+<div><br></div>
+<div>I hope you had an enjoyable christmas.&nbsp;</div>
+<div>&nbsp;&mdash;AJ&nbsp;</div></span><span class=3D=22none=22></span>
+</body></html>
+
+------Nodemailer-0.5.0-?=_1-1419629248448--

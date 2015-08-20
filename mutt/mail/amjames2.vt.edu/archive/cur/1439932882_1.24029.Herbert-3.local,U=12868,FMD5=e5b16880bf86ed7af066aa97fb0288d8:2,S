@@ -1,0 +1,166 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp375039qgb;
+        Tue, 18 Aug 2015 14:20:04 -0700 (PDT)
+X-Received: by 10.140.94.42 with SMTP id f39mr16335105qge.29.1439932803953;
+        Tue, 18 Aug 2015 14:20:03 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id x15si33485062qkx.9.2015.08.18.14.20.03
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 18 Aug 2015 14:20:03 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 208.64.202.37 as permitted sender) client-ip=208.64.202.37;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 208.64.202.37 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@steampowered.com
+Received: from mail-io0-x22e.google.com (mail-io0-x22e.google.com [IPv6:2607:f8b0:4001:c06::22e])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7ILJv19013577
+	for <amjames2@vt.edu>; Tue, 18 Aug 2015 17:20:02 -0400
+Received: by iodv127 with SMTP id v127so189378494iod.3
+        for <amjames2@vt.edu>; Tue, 18 Aug 2015 14:19:57 -0700 (PDT)
+X-Received: by 10.107.47.34 with SMTP id j34mr9140223ioo.136.1439932797483;
+        Tue, 18 Aug 2015 14:19:57 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.62.209 with SMTP id a17csp1289812ies;
+        Tue, 18 Aug 2015 14:19:56 -0700 (PDT)
+X-Received: by 10.66.141.134 with SMTP id ro6mr17584165pab.16.1439932796091;
+        Tue, 18 Aug 2015 14:19:56 -0700 (PDT)
+Received: from smtp01.steampowered.com (smtp01.steampowered.com. [208.64.202.37])
+        by mx.google.com with ESMTPS id cj2si32415107pdb.187.2015.08.18.14.19.55
+        for <andrew.m.james2@gmail.com>
+        (version=TLS1_2 cipher=AES128-SHA256 bits=128/128);
+        Tue, 18 Aug 2015 14:19:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) client-ip=208.64.202.37;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=steampowered.com; s=smtp;
+	h=Date:Message-Id:Content-Type:Subject:MIME-Version:Reply-To:From:To; bh=E5pqrbpvROsw+go4CYJZO2G1ikijXu+ivW02RmAudGg=;
+	b=ne1HuxMknclrazjBsICH1YZZcZrky33cSjPo+w2h1nHAEBUK4ZP1u90fTek7NOoPC19EWPcH+c2MBD5Oj5wb2tEBEMjevEG1IAMvtVODHBiuDRy79B05qE5qweJmQ4k+ldv5jSgD/6SBGM1T7GVSIikHWIazH6I5Uuwon24dd1Q=;
+Received: from [10.3.9.22] (helo=valvesoftware.com)
+	by smtp01.steampowered.com with smtp (Exim 4.82)
+	(envelope-from <noreply@steampowered.com>)
+	id 1ZRoIV-00048K-Ne
+	for andrew.m.james2@gmail.com; Tue, 18 Aug 2015 14:19:55 -0700
+To: andrew.m.james2@gmail.com
+From: Steam Support <noreply@steampowered.com>
+Reply-To: <noreply@steampowered.com>
+X-Steam-Message-Type: Account Information Confirmation
+MIME-Version: 1.0
+Subject: Your Steam account: Access from new computer
+Content-Type: multipart/alternative;
+ boundary="------------060908020109090601040503"
+Message-Id: <E1ZRoIV-00048K-Ne@smtp01.steampowered.com>
+Date: Tue, 18 Aug 2015 14:19:55 -0700
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE,LOTS_OF_MONEY autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format.
+--------------060908020109090601040503
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+Dear slaphappyscientist, 
+
+Are you logging into the Steam client from a new computer? Here's the Steam Guard code you'll need to complete the process: 
+
+6PVFW
+
+If you haven’t recently tried to login to the Steam client from the computer located at 71.63.91.71 (US), someone else may be trying to access your account. You can view more info about this login attempt online.
+
+If you suspect someone else may be attempting to access your account, please either:
+
+- Change your password immediately or 
+- Lock your account online and then request Support assistance to Regain access to your account.
+
+Here are the links you'll need:
+
+View more info about this login attempt
+https://steamcommunity.com/actions/ReportSuspiciousLogin?stoken=d3018f7660781dcace034f1e47ca6d703cac04e439e877fa02128174a09e6497ef7a92bb87f754162030a7ae7e1b1e47
+
+Change your Steam password
+https://support.steampowered.com/kb_article.php?ref=8668-OSLM-5149 
+
+Request your account be locked
+https://steamcommunity.com/actions/RequestAccountLock?stoken=3f622be8562a1b741ea4ed2b68a68a13748e871cd8cadb72cd6b766a5f8e966366063778cc7431f1644dc58ee88a3491
+
+Request support to regain access to your locked account
+https://support.steampowered.com/newticket.php?category=11
+
+
+Thanks for helping us maintain the security of your account.
+
+
+The Steam Support Team
+https://help.steampowered.com
+
+
+
+==============
+This notification has been sent to the email address associated with your Steam account. 
+For information on Valve's privacy policy, visit http://www.valvesoftware.com/privacy.htm. 
+This email message was auto-generated. Please do not respond.
+
+© Valve Corporation. All rights reserved. All trademarks are property of their respective 
+owners in the US and other countries.
+
+
+--------------060908020109090601040503
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<html>
+	<head>
+	<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+	</head>
+		<body bgcolor="#ffffff" text="#000000" LINK="#517ba4" ALINK="#517ba4" VLINK="#517ba4">
+		
+		<span style="font-size: 10px; background: #000000; color: #999999; font-family: Trebuchet MS,Verdana,Arial,Helvetica,sans-serif; lang="x-western">
+		<img src="http://cdn.akamai.steamstatic.com/steam/email/STEAM_mail.jpg" alt="&nbsp;STEAM&nbsp;" width="430" height="48" border="0"><BR>
+		</span>
+
+			<div style="width: 430px; font-size: 11px; color: #333333; font-family: Trebuchet MS,Verdana,Arial,Helvetica,sans-serif;  lang="x-western">
+			<BR>
+			Dear slaphappyscientist, <br>
+			<br> 
+			Are you logging into the Steam client from a new computer? Here’s the Steam Guard code you’ll need to complete the process: <br>
+			<h2>6PVFW</h2>
+			<p><b>If you haven’t recently tried to login to the Steam client…</b> from the computer located at 71.63.91.71 (<b>US</b>), someone else may be trying to access your account. You can <a href="https://steamcommunity.com/actions/ReportSuspiciousLogin?stoken=d3018f7660781dcace034f1e47ca6d703cac04e439e877fa02128174a09e6497ef7a92bb87f754162030a7ae7e1b1e47">view more info about this login attempt</a> online.</p>
+			<p>If you suspect someone else may be attempting to access your account, please either:</p>
+			<ul>
+				<li><a href="https://support.steampowered.com/kb_article.php?ref=8668-OSLM-5149">Change your password immediately</a> or</li>		
+				<li><a href="https://steamcommunity.com/actions/RequestAccountLock?stoken=3f622be8562a1b741ea4ed2b68a68a13748e871cd8cadb72cd6b766a5f8e966366063778cc7431f1644dc58ee88a3491">Lock your account online</a> and then <a href="https://support.steampowered.com/newticket.php?category=11">request Support assistance</a> to regain access to your account.</li>
+			</ul>
+			<p>Thanks for helping us  maintain the  security of your account.<BR>
+			<p>The Steam Support Team<br>
+			<a href="https://help.steampowered.com">https://help.steampowered.com</a> <br>
+			<p></p>
+			<br>
+			<br>
+				<span style="color: #333333; font-size: 9px; font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;">This notification has been sent to the email address associated 	with your Steam account. <br>
+				For information on Valve's privacy policy, visit <a href="http://www.valvesoftware.com/privacy.htm">http://www.valvesoftware.com/privacy.htm</a>. <br>
+				This email message was auto-generated. Please do not respond.</span><br>
+			<hr color="#666666" align="left" width="420" size="1" noshade>	
+				<table width="420" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						 <td><span style="font-size: 10px; background: #FFFFFF; color: #333333; font-family: Trebuchet MS,Verdana,Arial,Helvetica,sans-serif; lang="x-western"><img src="http://cdn.akamai.steamstatic.com/steam/email/VALVE_mail.gif" alt="VALVE" width="91" height="25"></span></td>
+						 <td width="320"><span style="color: #333333; font-size: 9px; font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;">&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</span></td>
+					</tr>
+				</table>
+			</div>
+		</body>
+</html>
+
+
+--------------060908020109090601040503--
+
+

@@ -1,0 +1,160 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp142478qgt;
+        Wed, 4 Feb 2015 13:47:59 -0800 (PST)
+X-Received: by 10.140.105.4 with SMTP id b4mr923487qgf.1.1423086479111;
+        Wed, 04 Feb 2015 13:47:59 -0800 (PST)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id hd10si3600580qcb.6.2015.02.04.13.47.57
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Feb 2015 13:47:59 -0800 (PST)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.216.180;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t14LlpLB017407;
+	Wed, 4 Feb 2015 16:47:56 -0500
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t14Ibbo2031254;
+	Wed, 4 Feb 2015 16:47:51 -0500
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          97454644 for CHEM_GRAD@LISTSERV.VT.EDU; Wed, 4 Feb 2015 16:47:49 -0500
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t14LbmbD021347
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <chem_grad@listserv.vt.edu>; Wed, 4 Feb 2015 16:37:48 -0500
+Received: from mail-qc0-f180.google.com (mail-qc0-f180.google.com
+          [209.85.216.180]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t14Lbh4p007861 for <chem_grad@listserv.vt.edu>; Wed, 4 Feb 2015
+          16:37:48 -0500
+Received: by mail-qc0-f180.google.com with SMTP id r5so3557378qcx.11 for
+          <chem_grad@listserv.vt.edu>; Wed, 04 Feb 2015 13:37:43 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:date:message-id:cc:to :mime-version;
+                         bh=kYcM64lMGbZV6q0NDVxlkpvMtPKfAEA7m8lS/gV+J30=;
+                         b=lpbgbH3ii0kd9WY3K8DDgXWWn+l4x6eu1RLi2QLOx46aqz12J69EXPpHYTGxBYqd97
+                         zM7Z3vE5z7ZmAqi3v3HrJo8AeJQyKSaolEA/avoCEF8tHQCVP/9Cu+XxlbR0zcAL1G1I
+                         gGBic+cEcWHwvSqgFtMyLTDbsgw0zS1uWfHYCECVsDd89a/EGtAkkV2gYPhpVdsHWYWo
+                         l/0zHY2mSNSppM8yGdjrjmvY6duxL7iMd+jCARo6jof3PCqQB5NUL0JADySD7IxBv3RY
+                         AZ5vUv77A7HeoUR52DkpRYtuxWy4zakgfz2OLDDZMOU6yOao41hMaRLfRVtkoGmWxJBc
+                         Gz5g==
+X-Gm-Message-State: ALoCoQl4BJhVV2KlWPRyX41+IN6p9uGAtZ3WKbG82or6bPez3kr5TMe2o9Tp6GX18Bl9WefOzvuhi4PztkBNy9s3eZhv+vAOk17rT41LXEcQkW07hxgsUyKXLiSeFicSP8r9od5jNV7RqaEhqRhVC+/wLU5DEPbrkJGCU3iBOy4QysznlGjKWQl557AxyqGlxGwzG4uqmrLH
+X-Received: by 10.140.43.11 with SMTP id d11mr1003098qga.44.1423085863497; Wed,
+            04 Feb 2015 13:37:43 -0800 (PST)
+X-Received: by 10.140.43.11 with SMTP id d11mr1003085qga.44.1423085863408; Wed,
+            04 Feb 2015 13:37:43 -0800 (PST)
+Received: from ?IPv6:2001:468:c80:610a:149c:2f28:7223:f82b?
+          ([2001:468:c80:610a:149c:2f28:7223:f82b]) by mx.google.com with
+          ESMTPSA id i48sm2895886qge.34.2015.02.04.13.37.42 (version=TLSv1
+          cipher=ECDHE-RSA-RC4-SHA bits=128/128); Wed, 04 Feb 2015 13:37:43
+          -0800 (PST)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_669A55E0-46F1-4EE3-9AEE-018331CCDE73"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <240C841D-C2D1-4604-B65F-2A962A149575@vt.edu>
+Date:         Wed, 4 Feb 2015 16:37:42 -0500
+Reply-To: "J. M. Tanko" <jtanko@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "J. M. Tanko" <jtanko@vt.edu>
+Subject: Meeting after Highlands seminar this week
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_669A55E0-46F1-4EE3-9AEE-018331CCDE73
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Dear all,
+
+I invite all graduate students and postdocs in the chemistry department =
+to a meeting that will be held immediately after the Highlands seminar =
+this week=E2=80=A6
+
+3:30 PM in Davidson 281 (the new lecture room).
+
+The topic that =E2=80=9Cinspired=E2=80=9D this meeting is safety, and =
+the desire to improve our culture. However, this might also be a good =
+opportunity to talk about other topics of mutual interest pertaining to =
+you, the department, etc.
+
+Again, this meeting is specifically directed to grad students and =
+postdocs.
+
+If your schedule permits, I hope you will be there.
+
+best wishes,
+
+jmt
+
+J. M. Tanko, Professor & Chair
+Department of Chemistry
+900 West Campus Drive
+Virginia Polytechnic Institute and State University
+Blacksburg, VA 24061
+phone: (540) 231-6687
+e-mail: jtanko@vt.edu
+
+
+
+
+--Apple-Mail=_669A55E0-46F1-4EE3-9AEE-018331CCDE73
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Dear all,<div class=3D""><br class=3D""></div><div class=3D"">I=
+ invite all graduate students and postdocs in the chemistry department =
+to a meeting that will be held immediately after the Highlands seminar =
+this week=E2=80=A6</div><div class=3D""><br class=3D""></div><div =
+class=3D""><b class=3D"">3:30 PM in Davidson 28</b>1 (the new lecture =
+room).</div><div class=3D""><br class=3D""></div><div class=3D"">The =
+topic that =E2=80=9Cinspired=E2=80=9D this meeting is safety, and the =
+desire to improve our culture. However, this might also be a good =
+opportunity to talk about other topics of mutual interest pertaining to =
+you, the department, etc.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Again, this meeting is specifically directed to grad students =
+and postdocs.</div><div class=3D""><br class=3D""></div><div class=3D"">If=
+ your schedule permits, I hope you will be there.</div><div class=3D""><br=
+ class=3D""></div><div class=3D"">best wishes,</div><div class=3D""><br =
+class=3D""></div><div class=3D"">jmt</div><div class=3D""><br =
+class=3D""><div apple-content-edited=3D"true" class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-align: -webkit-auto; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">J. M. Tanko, Professor &amp; Chair<br =
+class=3D"">Department of Chemistry</div><div style=3D"color: rgb(0, 0, =
+0); font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">900 West Campus Drive<br class=3D"">Virginia Polytechnic =
+Institute and State&nbsp;University<br class=3D"">Blacksburg, VA =
+24061<br class=3D"">phone: (540) 231-6687<br class=3D"">e-mail: <a =
+href=3D"mailto:jtanko@vt.edu" class=3D"">jtanko@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D""></div>
+</div>
+<br class=3D""></div></body></html>=
+
+--Apple-Mail=_669A55E0-46F1-4EE3-9AEE-018331CCDE73--

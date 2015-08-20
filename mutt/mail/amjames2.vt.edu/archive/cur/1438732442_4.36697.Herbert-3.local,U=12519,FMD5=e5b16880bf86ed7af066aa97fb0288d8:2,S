@@ -1,0 +1,90 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp14062qgt;
+        Tue, 4 Aug 2015 12:57:47 -0700 (PDT)
+X-Received: by 10.140.152.141 with SMTP id 135mr10968099qhy.2.1438718267845;
+        Tue, 04 Aug 2015 12:57:47 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id j92si862357qgj.3.2015.08.04.12.57.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 12:57:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) client-ip=192.30.252.198;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext7.iad.github.net [192.30.252.198])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t74JvgYW009035
+	for <amjames2@vt.edu>; Tue, 4 Aug 2015 15:57:47 -0400
+Date: Tue, 04 Aug 2015 12:57:42 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1438718262;
+	bh=2QryxixPScIJ1SMdcxHwrq/zo+4sxlAhaEbTkznsPws=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=yTL52J38tYNPv5un/RG2jXmiBKHixJe5VwHLHVWsL0rHKAtrezqzbOQGaFXRkx+IB
+	 ld+fikFN2sjHi9GTf39iEKmRLwG/9kZLBCuceukjerSqG/b7jex3/841NIot+edJ0s
+	 JOhtoZBOpRGhRJcwHaOJF6X4cVDHobgtineFoGcg=
+From: jgonthier <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642e1424b99f8084fb52364bea973cf45680ed6354292cf0000000111d8db3692a163ce00bf1fad@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886/12525485@github.com>
+In-Reply-To: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886@github.com>
+References: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886@github.com>
+Subject: Re: [psi4public] Updating dfocc (040029c)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c119367c54_755a3f91677cf2bc1216614";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jgonthier
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642e1424b99f8084fb52364bea973cf45680ed6354292cf0000000111d8db3692a163ce00bf1fad@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642e1424b99f8084fb52364bea973cf45680ed6354292cf0000000111d8db3692a163ce00bf1fad@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QqeofykJJK9Yet9mBbnpmsdhXHWoks5okRC2gaJpZM4FllgF>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55c119367c54_755a3f91677cf2bc1216614
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Upon compilation with Intel 15 compilers, I get the following error:
+ccsd_W_intr.cc(1139): error: "single" region may not be closely nested inside a "parallel for" region
+       #pragma omp single
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525485
+----==_mimepart_55c119367c54_755a3f91677cf2bc1216614
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Upon compilation with Intel 15 compilers, I get the following error:<br>
+ccsd_W_intr.cc(1139): error: "single" region may not be closely nested inside a "parallel for" region<br>
+       #pragma omp single</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525485">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qtx7L3lSq9DDzdMg-WYBTWx_2k1Tks5okRC2gaJpZM4FllgF.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525485"></link>
+    <meta itemprop="name" content="View Commit"></meta>
+  </div>
+  <meta itemprop="description" content="View this Commit on GitHub"></meta>
+</div>
+
+----==_mimepart_55c119367c54_755a3f91677cf2bc1216614--

@@ -1,0 +1,889 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp710732qgt;
+        Fri, 31 Jul 2015 15:00:18 -0700 (PDT)
+X-Received: by 10.140.195.136 with SMTP id q130mr8802805qha.49.1438380018329;
+        Fri, 31 Jul 2015 15:00:18 -0700 (PDT)
+Return-Path: <bounce-mc.us5_11410371.82206-amjames2=vt.edu@mail71.us4.mcsv.net>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id e190si8084430qhc.14.2015.07.31.15.00.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 31 Jul 2015 15:00:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us5_11410371.82206-amjames2=vt.edu@mail71.us4.mcsv.net designates 205.201.128.71 as permitted sender) client-ip=205.201.128.71;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us5_11410371.82206-amjames2=vt.edu@mail71.us4.mcsv.net designates 205.201.128.71 as permitted sender) smtp.mail=bounce-mc.us5_11410371.82206-amjames2=vt.edu@mail71.us4.mcsv.net;
+       dkim=pass header.i=@mail71.us4.mcsv.net
+Received: from mail71.us4.mcsv.net (mail71.us4.mcsv.net [205.201.128.71])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6VM099D029734
+	for <amjames2@vt.edu>; Fri, 31 Jul 2015 18:00:16 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail71.us4.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=no-reply=3Dmendeley.com@mail71.us4.mcsv.net;
+ bh=uGEFnRVB7bCXQee8AtRDGb6TZLA=;
+ b=vl1KvAbW9dhaA0DXxkzVRse658hJYPP65toO8r7PEIv2R8Kea+UGq03murS0VD0L6IQFlc/iJK4l
+   ewSSygOzd3NpEUHTmD/gn9tMv49psSMzqCHzYKhlqf28YoVg4vEWiTWLMx4bkE13jqYvhYnZPOrx
+   mlAnYFh8DDsliybFs68=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail71.us4.mcsv.net;
+ b=ha8J06ZsXAYSTmoG6ZgUTZDiC8QpO+uXXx9CHiqnBKTvU6Ke/wiRDK/qWUSGvrzoCEYPWi9+rOi/
+   gaiRuX1yM/pcuL1/cb0Jt4aPjq/nAhYEUAmsKVz2b+3GQBi9EZXsPZfyCm7arVkyeB1tQ4h28PuW
+   jDzS7mSt1g/5J/gS+Sk=;
+Received: from (127.0.0.1) by mail71.us4.mcsv.net id hnfnv0174lg6 for <amjames2@vt.edu>; Fri, 31 Jul 2015 22:00:07 +0000 (envelope-from <bounce-mc.us5_11410371.82206-amjames2=vt.edu@mail71.us4.mcsv.net>)
+Subject: =?utf-8?Q?Mendeley=20July=20newsletter?=
+From: =?utf-8?Q?Mendeley?= <no-reply@mendeley.com>
+Reply-To: =?utf-8?Q?Mendeley?= <no-reply@mendeley.com>
+To: =?utf-8?Q?Andrew?= <amjames2@vt.edu>
+Date: Fri, 31 Jul 2015 22:00:07 +0000
+Message-ID: <5560fe5e9f52735e40444340ce4bb720723.20150731215854@mail71.us4.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID3a24d0db90e4bb720723**
+X-Campaign: mailchimp5560fe5e9f52735e40444340c.3a24d0db90
+X-campaignid: mailchimp5560fe5e9f52735e40444340c.3a24d0db90
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5560fe5e9f52735e40444340c&id=3a24d0db90&e=e4bb720723
+X-MC-User: 5560fe5e9f52735e40444340c
+X-Feedback-ID: 11410371:11410371.82206:us5:mc
+List-ID: 5560fe5e9f52735e40444340cmc list <5560fe5e9f52735e40444340c.42653.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us5_5560fe5e9f52735e40444340c.3a24d0db90-e4bb720723@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://mendeley.us5.list-manage1.com/unsubscribe?u=5560fe5e9f52735e40444340c&id=39847ff5c0&e=e4bb720723&c=3a24d0db90>
+Sender: "Mendeley" <no-reply=mendeley.com@mail71.us4.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_747540579"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.2 required=5.0 tests=DATE_IN_FUTURE_24_48,
+	DKIM_SIGNED,DKIM_VALID,HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE,
+	RP_MATCHES_RCVD autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_747540579
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Latest news from the Mendeley team
+------------------------------------------------------------
+Mendeley
+
+
+** Hi Andrew=2C
+------------------------------------------------------------
+
+Welcome to the July newsletter. This month read our series of blog posts a=
+bout NASA's New Horizons mission. Find out about the latest Android=2C iOS=
+ and Desktop releases=2C and say congratulations to Mohammed Mousa our Adv=
+isor of the Month from Egypt.
+
+
+
+** Mendeley at NASA HQ
+------------------------------------------------------------
+
+Earlier this month=2C Mendeley was at NASA HQ to witness NASA's New Horizo=
+ns mission reach its primary target =E2=80=94 Pluto. Read our series of bl=
+og posts (http://blog.mendeley.com?utm_source=3DMendeley+Newsletter+June5&=
+utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_new_users_6_17_20=
+15&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-31735265)=
+ about NASA's New Horizons mission and the report (https://www.mendeley.co=
+m/new-horizons.pdf?utm_source=3DMendeley+Newsletter+June5&utm_campaign=3D3=
+a24d0db90-201506_Android_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3D=
+email&utm_term=3D0_39847ff5c0-3a24d0db90-31735265) that our very ow=
+n Paul Tavner produced and presented at NASA HQ.
+Mendeley at NASA HQ
+
+
+Android app
+
+
+** Android app
+------------------------------------------------------------
+
+Android app is here and with the latest update (v1.2) we've enhanced the u=
+ser experience further with the addition of search by tag=2C and downloadi=
+ng files during sync functionality. Download the app (http://ad.apps.fm/YC=
+_WKrq1RLwZvK5yyBIoZF5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYfX8CxpiCxdTjf=
+i4OpH9y6n_6a7NIAM6PzYwhmjRxARMzQQFtvGmGm78YegHkNWCxf?utm_source=3DMendeley=
++Newsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau=
+_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90=
+-31735265) and give it a go.
+
+
+
+** Recently Read
+------------------------------------------------------------
+
+Have you discovered 'Recently Read' yet? One of our newest features (http:=
+//blog.mendeley.com/mobile-2/introducing-recently-read/?utm_source=3DMende=
+ley+Newsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_=
+nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0d=
+b90-31735265) =E2=80=94 it is available on iOS and Desktop now=2C w=
+ith Android and Web Library support coming soon. Check it out.
+Recently Read
+
+
+Tips and Tools
+
+
+** Tips and Tools =E2=80=94 Collaboration
+------------------------------------------------------------
+
+Mendeley groups make collaboration easy. Choose from over 100k public grou=
+ps (http://www.mendeley.com/groups/?utm_source=3DMendeley+Newsletter+June5=
+&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_new_users_6_17_2=
+015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-31735265)=
+ to join or follow online. You can also create groups and invite your coll=
+eagues to them. Check out Mendeley Minute (http://community.mendeley.com/g=
+uides/videos?utm_source=3DMendeley+Newsletter+June5&utm_campaign=3D3a24d0d=
+b90-201506_Android_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&=
+utm_term=3D0_39847ff5c0-3a24d0db90-31735265) on creating and using=
+ groups.
+
+
+
+** Advisor of the Month
+------------------------------------------------------------
+
+Congratulations to our July Advisor of the Month=2C Mohammed Mousa (https:=
+//www.mendeley.com/profiles/mohammed-mousa1/?utm_source=3DMendeley+Newslet=
+ter+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_new_use=
+rs_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-=
+31735265) . Mohammed is a final year medical student at Suez Canal Univers=
+ity (Ismailia=2C Egypt). After his graduation from medical school=2C he'll=
+ obtain the Bachelor of Medicine=2C Bachelor of Surgery (MBChB) degree. Re=
+ad the Q&A here (http://blog.mendeley.com/mendeley-advisors/advisor-of-the=
+-month/congratulations-july-advisor-of-the-month-mohammed-mousa/?utm_sourc=
+e=3DMendeley+Newsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Lau=
+nch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c=
+0-3a24d0db90-31735265) .
+Advisor of the Month
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+** Contact Us (http://www.mendeley.com/contact-us/?utm_source=3DMendeley+N=
+ewsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_n=
+ew_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-=
+31735265)
+| ** Support (http://support.mendeley.com/?utm_source=3DMendeley+Newslette=
+r+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_new_users=
+_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-=
+31735265)
+** Facebook (http://www.facebook.com/pages/Mendeley/42920143610?utm_source=
+=3DMendeley+Newsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Laun=
+ch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0=
+-3a24d0db90-31735265)
+** twitter (http://twitter.com/mendeley_com?utm_source=3DMendeley+Newslett=
+er+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND_nau_new_user=
+s_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0db90-=
+31735265)
+** YouTube (http://www.youtube.com/user/MendeleyResearch?utm_source=3DMend=
+eley+Newsletter+June5&utm_campaign=3D3a24d0db90-201506_Android_Launch_SEND=
+_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-3a24d0=
+db90-31735265)
+You are receiving this email because you have registered with Mendeley.com=
+ using the email address amjames2@vt.edu.
+To stop receiving marketing emails from us=2C please click ** here (http:/=
+/mendeley.us5.list-manage1.com/unsubscribe?u=3D5560fe5e9f52735e40444340c&i=
+d=3D39847ff5c0&e=3De4bb720723&c=3D3a24d0db90)
+=2E
+Copyright =C2=A9 2015 Mendeley Ltd.
+Mendeley=2C Ground Floor=2C White Bear Yard 144a Clerkenwell Road London=
+=2C EC1R 5DF UK.
+--_----------=_MCPart_747540579
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+=09<head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8">
+=09=09<title>*|SUBJECT|*</title>
+        =09=09
+=09=09
+    <style type=3D"text/css">
+=09=09h1{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h1.largecenter{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:center;
+=09=09}
+=09=09h2{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2.largecenter{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:normal;
+=09=09=09line-height:150%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:center;
+=09=09}
+=09=09h3{
+=09=09=09color:#666666 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:16px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:normal;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:14px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#bodyCell{
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateContainer{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2.largecenter{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#headerImage{
+=09=09=09height:auto !important;
+=09=09=09max-width:520px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.headerContent{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.bodyContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.templateColumnContainer{
+=09=09=09display:block !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.columnImage{
+=09=09=09height:auto !important;
+=09=09=09max-width:480px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.leftColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.centerColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.rightColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.footerContent{
+=09=09=09font-size:12px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.footerContent a{
+=09=09=09display:block !important;
+=09=09}
+
+}</style></head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;margin: 0;padding: 0;background-color: #F3F3F3;height: 100%;w=
+idth: 100%;">
+    =09<center>
+        =09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"-webkit=
+-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;margin: 0;padding: 0;background-color: #F3F3F3;border=
+-collapse: collapse;height: 100%;width: 100%;">
+            =09<tr>
+                =09<td align=3D"center" valign=3D"top" id=3D"bodyCell" sty=
+le=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0px 20px 20px 20px;he=
+ight: 100%;width: 100%;">
+                    =09<!-- BEGIN TEMPLATE // -->
+                    =09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" id=3D"templateContainer" style=3D"-webkit-text-size-adjust: 100%;-m=
+s-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width=
+: 580px;border-collapse: collapse;">
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN PREHEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templatePreheader" style=3D"-webki=
+t-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;background-color: #F3F3F3;border-collapse: collapse;=
+">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"pr=
+eheaderContent" style=3D"padding-top: 15px;padding-right: 20px;padding-bot=
+tom: 15px;padding-left: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;fo=
+nt-family: Arial;font-size: 10px;line-height: 125%;text-align: center;">La=
+test news from the Mendeley team</td>
+                                            <!--  -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN HEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templateHeader" style=3D"-webkit-t=
+ext-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;background-color: #FFFFFF;border-collapse: collapse;">
+                                        <tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;m=
+in-height: 25px;background-color: #AC1D28;-webkit-text-size-adjust: 100%;-=
+ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/left.gif" style=3D"width: 20px;height:=
+ 66px;display: block;-ms-interpolation-mode: bicubic;border: 0;line-height=
+: 100%;outline: none;text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09    </td>
+                                            <td valign=3D"top" class=3D"he=
+aderContent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #FFFFFF;font-fami=
+ly: Arial;font-size: 18px;font-weight: bold;line-height: 100%;padding-top:=
+ 0;padding-right: 0;padding-bottom: 0;padding-left: 0;text-align: left;ver=
+tical-align: middle;background-color: #AC1D28;background-image: url(http:/=
+/com.mendeley.static.www.live.s3.amazonaws.com/email/graphics/mails/all/bg=
+=2Epng);">
+                                            =09<img src=3D"http://d3fildg3=
+jlcvty.cloudfront.net/email/graphics/mails/all/Mendeley.png" alt=3D"Mendel=
+ey" border=3D"0" style=3D"margin: 0; padding: 0;width: 190px;height: 66px;=
+display: block;-ms-interpolation-mode: bicubic;border: 0;line-height: 100%=
+;outline: none;text-decoration: none;">
+                                            </td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/right.gif" style=3D"width: 20px;height=
+: 66px;display: block;-ms-interpolation-mode: bicubic;border: 0;line-heigh=
+t: 100%;outline: none;text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09    </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN INNER CONTENT // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templateBody" style=3D"-webkit-tex=
+t-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;background-color: #FFFFFF;border-top: 1px solid #FFFFFF;b=
+order-collapse: collapse;">
+                                    =09<tr>
+                                        =09<td valign=3D"top" class=3D"bod=
+yContent" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505=
+050;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;=
+border-collapse: collapse !important;-webkit-text-size-adjust: 100%;-ms-te=
+xt-size-adjust: 100%;padding-top: 20px;padding-right: 20px;padding-bottom:=
+ 20px;padding-left: 20px;">
+=09=09=09=09=09=09=09=09=09=09=09=09<div><table cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"540">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td><!-- // outer table starts above \\ --><!--// intro module st=
+arts here \\ -->
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; b=
+order-bottom:1px solid #E9E9E9;" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:0;">
+=09=09=09=09=09=09<h2 style=3D"font-size: 18px;font-weight: 600;margin: 0p=
+x;font-family: Arial=2C Helvetica;color: #333333;text-align: left;display:=
+ block;font-style: normal;line-height: 100%;letter-spacing: normal;margin-=
+top: 0;margin-right: 0;margin-bottom: 15px;margin-left: 0;">Hi =
+Andrew=2C</h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:20px 0 0 0;font-family=
+:Arial=2C Helvetica;color:#333;text-align:left;line-height:18px;">Welcome=
+ to the July newsletter. This month read our series of blog posts about NA=
+SA's New Horizons mission. Find out about the latest Android=2C iOS and De=
+sktop releases=2C and say congratulations to Mohammed Mousa our Advisor of=
+ the Month from Egypt. </p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<!--// intro module ends  here \\ -->
+
+ <!--// 1st body module starts here \\ -->
+
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; b=
+order-bottom:1px solid #E9E9E9;" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:0 70px 0 0;" valign=3D"top">
+=09=09=09=09=09=09<h2 style=3D"font-size: 14px;margin: 0px;font-family: Ar=
+ial=2C Helvetica;color: #000;padding-bottom: 10px;text-align: left;display=
+: block;font-style: normal;font-weight: bold;line-height: 100%;letter-spac=
+ing: normal;margin-top: 0;margin-right: 0;margin-bottom: 15px;margin-left:=
+ 0;">Mendeley at NASA HQ</h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:0px;font-family:Arial=
+=2C Helvetica;color:#333;text-align:left;line-height:18px;">
+Earlier this month=2C Mendeley was at NASA HQ to witness NASA's New Horizo=
+ns mission reach its primary target &mdash; Pluto. Read our series of <a h=
+ref=3D"http://mendeley.us5.list-manage1.com/track/click?u=3D5560fe5e9f5273=
+5e40444340c&id=3Db2004c94dc&e=3De4bb720723" style=3D"text-decoration:none=
+;color:#9d1c21" target=3D"_blank"><strong>blog posts</strong></a> about NA=
+SA's New Horizons mission and the <a href=3D"http://mendeley.us5.list-mana=
+ge1.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D1080285fa3&e=3D=
+e4bb720723" style=3D"text-decoration:none;color:#9d1c21" target=3D"_blank"><s=
+trong>report</strong></a> that our very own Paul Tavner produced and prese=
+nted at NASA HQ.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td><img alt=3D"Mendeley at NASA HQ" src=3D"https://gall=
+ery.mailchimp.com/5560fe5e9f52735e40444340c/images/daa8cd5d-12dd-4fd4-bcda=
+-6fc255f70fbd.png" style=3D"border:0px;" height=3D"151" width=3D"235"></td=
+>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<!--// 1st body module ends  here \\ -->
+
+
+            <!--// 2nd body module starts here \\ -->
+
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; b=
+order-bottom:1px solid #E9E9E9" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td><img alt=3D"Android app" src=3D"https://gallery.mail=
+chimp.com/5560fe5e9f52735e40444340c/images/f21e88c7-64ca-4ccc-a072-5f7da21=
+fcdf5.png" style=3D"border:0px;" height=3D"151" width=3D"235"></td>
+=09=09=09=09=09=09<td style=3D"padding:0 0 0 70px;" valign=3D"top">
+=09=09=09=09=09=09<h2 style=3D"font-size: 14px;margin: 0px;font-family: Ar=
+ial=2C Helvetica;color: #000;padding-bottom: 10px;text-align: left;display=
+: block;font-style: normal;font-weight: bold;line-height: 100%;letter-spac=
+ing: normal;margin-top: 0;margin-right: 0;margin-bottom: 15px;margin-left:=
+ 0;">Android app </h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:0px;font-family:Arial=
+=2C Helvetica;color:#333;text-align:left;line-height:18px;">Android app is=
+ here and with the latest update (v1.2) we've enhanced the user experience=
+ further with the addition of search by tag=2C and downloading files durin=
+g sync functionality. <a href=3D"http://mendeley.us5.list-manage.com/track=
+/click?u=3D5560fe5e9f52735e40444340c&id=3D71e13eac5e&e=3De4bb720723" styl=
+e=3D"text-decoration:none;color:#9d1c21" target=3D"_blank"><strong>Downloa=
+d the app</strong></a> and give it a go.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<!--// 2nd body module ends here \\ -->
+
+                            <!--// 3rd body module starts here \\ -->
+
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; b=
+order-bottom:1px solid #E9E9E9;" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:0 70px 0 0;" valign=3D"top">
+=09=09=09=09=09=09<h2 style=3D"font-size: 14px;margin: 0px;font-family: Ar=
+ial=2C Helvetica;color: #000;padding-bottom: 10px;text-align: left;display=
+: block;font-style: normal;font-weight: bold;line-height: 100%;letter-spac=
+ing: normal;margin-top: 0;margin-right: 0;margin-bottom: 15px;margin-left:=
+ 0;">Recently Read</h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:0px;font-family:Arial=
+=2C Helvetica;color:#333;text-align:left;line-height:18px;">
+Have you discovered 'Recently Read' yet? <a href=3D"http://mendeley.us5.li=
+st-manage.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D309e12d8f6&e=
+=3De4bb720723" style=3D"text-decoration:none;color:#9d1c21" target=3D"_bl=
+ank"><strong>One of our newest features</strong></a> &mdash; it is availab=
+le on iOS and Desktop now=2C with Android and Web Library support coming s=
+oon. Check it out.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td><img alt=3D"Recently Read" src=3D"https://gallery.ma=
+ilchimp.com/5560fe5e9f52735e40444340c/images/856057de-0bca-4370-b92c-91ec8=
+563b4b6.png" style=3D"border:0px;"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<!--// 3rd body module ends  here \\ -->
+
+            <!--// 4th body module starts here \\ -->
+
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; b=
+order-bottom:1px solid #E9E9E9;" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td><img alt=3D"Tips and Tools" src=3D"https://gallery.m=
+ailchimp.com/5560fe5e9f52735e40444340c/images/135c1390-718e-4ba9-9092-051c=
+9ab5fb5d.jpg" style=3D"border:0px;"></td>
+=09=09=09=09=09=09<td style=3D"padding:0 0 0 70px;" valign=3D"top">
+=09=09=09=09=09=09<h2 style=3D"font-size: 14px;margin: 0px;font-family: Ar=
+ial=2C Helvetica;color: #000;padding-bottom: 10px;text-align: left;display=
+: block;font-style: normal;font-weight: bold;line-height: 100%;letter-spac=
+ing: normal;margin-top: 0;margin-right: 0;margin-bottom: 15px;margin-left:=
+ 0;">Tips and Tools &mdash; Collaboration</h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:0px;font-family:Arial=
+=2C Helvetica;color:#333;text-align:left;margin:0 0 20px 0;line-height:18p=
+x;">Mendeley groups make collaboration easy. Choose from over 100k <a href=
+=3D"http://mendeley.us5.list-manage.com/track/click?u=3D5560fe5e9f52735e40=
+444340c&id=3D4a1c74d9c7&e=3De4bb720723" style=3D"text-decoration:none;col=
+or:#9d1c21" target=3D"_blank"><strong>public groups</strong></a> to join o=
+r follow online. You can also create groups and invite your colleagues to=
+ them. Check out <a href=3D"http://mendeley.us5.list-manage.com/track/clic=
+k?u=3D5560fe5e9f52735e40444340c&id=3D597baabd39&e=3De4bb720723" style=3D"=
+text-decoration:none;color:#9d1c21" target=3D"_blank"><strong>Mendeley Min=
+ute</strong></a> on creating and using groups.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+
+=09=09=09<!-- 4th body module ends here \\ -->
+
+                                        <!--// bottom module starts here \=
+\ -->
+
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%;"=
+ width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:0 70px 0 0;" valign=3D"top">
+=09=09=09=09=09=09<h2 style=3D"font-size: 14px;margin: 0px;font-family: Ar=
+ial=2C Helvetica;color: #000;padding-bottom: 10px;text-align: left;display=
+: block;font-style: normal;font-weight: bold;line-height: 100%;letter-spac=
+ing: normal;margin-top: 0;margin-right: 0;margin-bottom: 15px;margin-left:=
+ 0;">Advisor of the Month</h2>
+
+=09=09=09=09=09=09<p style=3D"font-size:12px;margin:0px;font-family:Arial=
+=2C Helvetica;color:#333;text-align:left;line-height:18px;">
+Congratulations to our July Advisor of the Month=2C <a href=3D"http://mend=
+eley.us5.list-manage.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3Df3=
+28cee335&e=3De4bb720723" style=3D"text-decoration:none;color:#9d1c21" tar=
+get=3D"_blank"><strong>Mohammed Mousa</strong></a>. Mohammed is a final ye=
+ar medical student at Suez Canal University (Ismailia=2C Egypt). After his=
+ graduation from medical school=2C he'll obtain the Bachelor of Medicine=
+=2C Bachelor of Surgery (MBChB) degree. Read the Q&amp;A <a href=3D"http:/=
+/mendeley.us5.list-manage1.com/track/click?u=3D5560fe5e9f52735e40444340c&i=
+d=3D0b65fb918d&e=3De4bb720723" style=3D"text-decoration:none;color:#9d1c2=
+1" target=3D"_blank"><strong>here</strong></a>. </p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td><img alt=3D"Advisor of the Month" src=3D"https://gal=
+lery.mailchimp.com/5560fe5e9f52735e40444340c/images/0b3e9a1e-9838-429c-b9e=
+5-7a8d0244202c.png" style=3D"border:0px;"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"2">&nbsp;</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<!--// bottom module ends here \\ -->
+
+
+
+=09=09=09
+=09=09=09
+
+            <!-- // outer table ends below \\ --></td>
+=09=09</tr>
+=09</tbody>
+</table>
+</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END INNER CONTENT -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN FOOTER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"PretemplateFooter" style=3D"-webki=
+t-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;background-color: #F3F3F3;border-top: 1px solid #FFF=
+FFF;*/: ;border-collapse: collapse;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/btm-left.gif" style=3D"width: 20px;hei=
+ght: 37px;display: block;background-color: #AC1D28;-ms-interpolation-mode:=
+ bicubic;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+>
+=09=09=09=09=09=09=09=09=09=09    </td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"middle" class=3D"PrefooterC=
+ontent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%=
+;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #FFFFFF;font-family: A=
+rial;font-size: 12px;font-weight: bold;line-height: 150%;text-align: cente=
+r;background-image: url(http://com.mendeley.static.www.live.s3.amazonaws.c=
+om/email/graphics/mails/all/bg.png);background-color: #AC1D28;"></td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/btm-right.gif" style=3D"width: 20px;he=
+ight: 37px;display: block;background-color: #AC1D28;-ms-interpolation-mode=
+: bicubic;border: 0;line-height: 100%;outline: none;text-decoration: none;=
+">
+=09=09=09=09=09=09=09=09=09=09    </td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" id=3D"templateFooter" style=3D"-webkit-text-size-a=
+djust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;background-color: #F3F3F3;border-collapse: collapse;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+                                            <td valign=3D"top" class=3D"fo=
+oterContent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-fami=
+ly: Arial;font-size: 10px;line-height: 150%;padding-top: 8px;padding-right=
+: 20px;padding-bottom: 8px;padding-left: 20px;text-align: center;"></td>
+                                        </tr>
+=09=09=09=09=09=09=09=09=09=09<tr>
+              =09=09=09=09=09=09=09=09<td valign=3D"top" class=3D"footerCo=
+ntent" style=3D"padding-top: 2px;-webkit-text-size-adjust: 100%;-ms-text-s=
+ize-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #99999=
+9;font-family: Arial;font-size: 10px;line-height: 150%;padding-right: 20px=
+;padding-bottom: 8px;padding-left: 20px;text-align: center;"><table cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td style=3D"padding: 0px 0px 5px; text-align: left; vertical-ali=
+gn: bottom;"><span style=3D"font-size:12px"><strong><a href=3D"http://mend=
+eley.us5.list-manage.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D3e=
+5c034f07&e=3De4bb720723" style=3D"text-decoration:none;color:#9d1c21;" ta=
+rget=3D"_blank" title=3D"Contact Us">Contact Us</a></strong></span> <span=
+ style=3D"font-size:14px"><strong>|</strong></span> <span style=3D"font-si=
+ze:12px"><strong><a href=3D"http://mendeley.us5.list-manage.com/track/clic=
+k?u=3D5560fe5e9f52735e40444340c&id=3D1a71fec18c&e=3De4bb720723" style=3D"=
+text-decoration:none;color:#9d1c21;" target=3D"_blank" title=3D"Support">S=
+upport</a></strong></span></td>
+=09=09=09<td style=3D"padding: 0px 0px 5px; text-align: right;"><a href=3D=
+"http://mendeley.us5.list-manage1.com/track/click?u=3D5560fe5e9f52735e4044=
+4340c&id=3D1e211c0373&e=3De4bb720723" style=3D"text-decoration:none;color=
+:#9d1c21;" target=3D"_blank" title=3D"Facebook"><img alt=3D"Facebook" src=
+=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340c/images/495a79a=
+5-f279-4852-a237-886efd17e798.png" style=3D"border:0px; padding:15px 0 0 0=
+;"></a> <a href=3D"http://mendeley.us5.list-manage1.com/track/click?u=3D55=
+60fe5e9f52735e40444340c&id=3Dd2c67eb557&e=3De4bb720723" style=3D"text-dec=
+oration:none;color:#9d1c21;" target=3D"_blank" title=3D"twitter"><img alt=
+=3D"twitter" src=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340=
+c/images/3f633618-0bae-4585-9c22-4ce313cfaf04.png" style=3D"border:0px; pa=
+dding:15px 0 0 0;"></a> <a href=3D"http://mendeley.us5.list-manage.com/tra=
+ck/click?u=3D5560fe5e9f52735e40444340c&id=3Df752e8fd8b&e=3De4bb720723" st=
+yle=3D"text-decoration:none;color:#9d1c21;" target=3D"_blank" title=3D"You=
+Tube"><img alt=3D"YouTube" src=3D"https://gallery.mailchimp.com/5560fe5e9f=
+52735e40444340c/images/fb984d7c-d46e-4b28-9218-1f336fed643d.png" style=3D"=
+border:0px; padding:15px 0 0 0;"> </a></td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 5px; text-align: left=
+;">You are receiving this email because you have registered with Mendeley.=
+com using the email address <strong>amjames2@vt.edu</strong>.</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 5px; text-align: left=
+;">To stop receiving marketing emails from us=2C please click <a href=3D"h=
+ttp://mendeley.us5.list-manage1.com/unsubscribe?u=3D5560fe5e9f52735e404443=
+40c&id=3D39847ff5c0&e=3De4bb720723&c=3D3a24d0db90" style=3D"text-decoration:=
+none;color:#9d1c21;" target=3D"_blank" title=3D"Unsubscribe">here</a>.</td=
+>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 10px; text-align: lef=
+t;">Copyright &copy; 2015 Mendeley Ltd.<br>
+=09=09=09Mendeley=2C Ground Floor=2C White Bear Yard 144a Clerkenwell Road=
+ London=2C EC1R 5DF UK.<br><br><br>
+
+</td>
+=09=09</tr>
+=09</tbody>
+</table>
+</td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        <!-- // END TEMPLATE -->
+                    </table></td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"http://mendeley.us5.list-manage.com/track/open.php?u=3D556=
+0fe5e9f52735e40444340c&id=3D3a24d0db90&e=3De4bb720723" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_747540579--

@@ -1,0 +1,127 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1641869qgt;
+        Fri, 14 Aug 2015 08:48:45 -0700 (PDT)
+X-Received: by 10.140.40.38 with SMTP id w35mr80715133qgw.96.1439567325123;
+        Fri, 14 Aug 2015 08:48:45 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id k191si10061917qhc.71.2015.08.14.08.48.45
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:48:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EFmd4K006779
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 11:48:44 -0400
+Date: Fri, 14 Aug 2015 08:48:34 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439567314;
+	bh=vCkgWENNjqF1k9JW4LV9UuF2e2BeSbe55pFgubN6mus=;
+	h=From:Reply-To:To:Subject:List-ID:List-Archive:List-Post:
+	 List-Unsubscribe:From;
+	b=1AR6Xd7emGni1/KGZQ1UT2/USM7qK5aG/kI40A2wAPs8JLQK6Q2a2247D02ZLAF9d
+	 C5CPyMKf2MEfRtcgjeVhfIZQ3oHfV5WevX7E+u2HVIHa8q3a3M8J1BFXH/cUD0RXXi
+	 GXnnlmQi/vOG4A4m1zx378MzfIZTeCS8whPIW+CE=
+From: "Robert T. McGibbon" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642c862d0b3163486b1be4fe23becb3378c745095b692cf0000000111e5cfd292a169ce0605becd@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/167@github.com>
+Subject: [psi4public] Oh, here too (#167)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce0dd2dd82e_2723fcee12432a016454b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: rmcgibbo
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642c862d0b3163486b1be4fe23becb3378c745095b692cf0000000111e5cfd292a169ce0605becd@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642c862d0b3163486b1be4fe23becb3378c745095b692cf0000000111e5cfd292a169ce0605becd@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QsYv-QXk5ejSmfFzFOiCsLZexgQjks5ongVSgaJpZM4Frwjb>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ce0dd2dd82e_2723fcee12432a016454b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Lol, I'm not very good at this.
+You can view, comment on, or merge this pull request online at:
+
+  https://github.com/psi4/psi4public/pull/167
+
+-- Commit Summary --
+
+  * Oh, here too
+
+-- File Changes --
+
+    M src/bin/psi4/CMakeLists.txt (2)
+
+-- Patch Links --
+
+https://github.com/psi4/psi4public/pull/167.patch
+https://github.com/psi4/psi4public/pull/167.diff
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/167
+
+----==_mimepart_55ce0dd2dd82e_2723fcee12432a016454b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Lol, I'm not very good at this.</p>
+
+<hr>
+
+<h4>You can view, comment on, or merge this pull request online at:</h4>
+<p>&nbsp;&nbsp;<a href='https://github.com/psi4/psi4public/pull/167'>https://github.com/psi4/psi4public/pull/167</a></p>
+
+<h4>Commit Summary</h4>
+<ul>
+  <li>Oh, here too</li>
+</ul>
+
+<h4>File Changes</h4>
+<ul>
+  <li>
+    <strong>M</strong>
+    <a href="https://github.com/psi4/psi4public/pull/167/files#diff-0">src/bin/psi4/CMakeLists.txt</a>
+    (2)
+  </li>
+</ul>
+
+<h4>Patch Links:</h4>
+<ul>
+  <li><a href='https://github.com/psi4/psi4public/pull/167.patch'>https://github.com/psi4/psi4public/pull/167.patch</a></li>
+  <li><a href='https://github.com/psi4/psi4public/pull/167.diff'>https://github.com/psi4/psi4public/pull/167.diff</a></li>
+</ul>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/167">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qnp1BhY_JGyA28z6SxC-CiB8NwmHks5ongVSgaJpZM4Frwjb.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/pull/167"></link>
+  <meta itemprop="name" content="View Pull Request"></meta>
+</div>
+<meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+
+----==_mimepart_55ce0dd2dd82e_2723fcee12432a016454b--

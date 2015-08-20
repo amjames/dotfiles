@@ -1,0 +1,221 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2114230qgt;
+        Tue, 28 Apr 2015 08:33:06 -0700 (PDT)
+X-Received: by 10.140.93.199 with SMTP id d65mr12412310qge.27.1430235186629;
+        Tue, 28 Apr 2015 08:33:06 -0700 (PDT)
+Return-Path: <bounce-md_30241709.553fa82c.v1-8fe0d38da34c47b585c5095347b333fa@mandrillapp.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id c63si18747913qgd.5.2015.04.28.08.33.06
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 08:33:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-md_30241709.553fa82c.v1-8fe0d38da34c47b585c5095347b333fa@mandrillapp.com designates 198.2.128.132 as permitted sender) client-ip=198.2.128.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-md_30241709.553fa82c.v1-8fe0d38da34c47b585c5095347b333fa@mandrillapp.com designates 198.2.128.132 as permitted sender) smtp.mail=bounce-md_30241709.553fa82c.v1-8fe0d38da34c47b585c5095347b333fa@mandrillapp.com;
+       dkim=pass header.i=@mail128-132.atl41.mandrillapp.com
+Received: from mail128-132.atl41.mandrillapp.com (mail128-132.atl41.mandrillapp.com [198.2.128.132])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SFX0pi017621
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 11:33:06 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=mail128-132.atl41.mandrillapp.com;
+ h=From:Sender:Subject:Reply-To:To:Message-Id:Date:MIME-Version:Content-Type; i=noreply@mail128-132.atl41.mandrillapp.com;
+ bh=mEiwrYlzdnoTVQ/lTJ6euYYZweA=;
+ b=fb1XN6RTSDKJopA4tFwwR1XRKb2WZ6AoiJzsKlSbmezeunplkIQHsFsZrS/VuExphMUkSbYGgemM
+   tCDGMSzH/bDHcMS04sO25jA59TET5MHtx9LLqRhY1mRETleonVrbZW3c0itW9D9pKEf1pz4SFG0T
+   F9Dt/iAss8qz/FBkftQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=mail128-132.atl41.mandrillapp.com;
+ b=aaIYUPX+QTq+9k1zbiZaunIlB8cjzM5thwU0//vGi3vCcRBDHGNEUYOpOAYwwtHPiU34AW4nOWLc
+   1jqoiGUgPq87QN3ntwu5I0dahcsYvE1r1Y+ZQXjWKztSpcBeAgVGRG1NIoREwN6gY9zGxod/aoD6
+   Ly3yiyQAo7BOwXD05gA=;
+Received: from pmta01.mandrill.prod.atl01.rsglab.com (127.0.0.1) by mail128-132.atl41.mandrillapp.com id h7uk341mquks for <amjames2@vt.edu>; Tue, 28 Apr 2015 15:33:00 +0000 (envelope-from <bounce-md_30241709.553fa82c.v1-8fe0d38da34c47b585c5095347b333fa@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1430235180; h=From : 
+ Sender : Subject : Reply-To : To : Message-Id : Date : MIME-Version : 
+ Content-Type : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=sDz4L7HkgL8H0Dtml5RYWsy0FaIUaw25VG/zpRyKtQ8=; 
+ b=J1KaoZQuGzRJsUyYoKA3iW34WItrJU0Km+Mi45p3xHzeiDFz9TJfWlrPDk4bz4vx4kf5Gz
+ O9Xn2BC/Ot0+I1c0BeVC4yXi/8LUISw7EqTUs6Bt96WwJ17mzULl8h1jZ/KaPm2pHvNfebCN
+ axyVUvnpXZO6vpULfOI0+JobJoUKI=
+From: Qualtrics <noreply@qualtrics.com>
+Sender: Qualtrics <noreply@mail128-132.atl41.mandrillapp.com>
+Subject: Verify your email address
+Reply-To: <noreply@qualtrics.com>
+To: Andrew James <amjames2@vt.edu>
+Received: from [50.19.3.29] by mandrillapp.com id 8fe0d38da34c47b585c5095347b333fa; Tue, 28 Apr 2015 15:33:00 +0000
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30241709.8fe0d38da34c47b585c5095347b333fa
+X-Mandrill-User: md_30241709
+Message-Id: <30241709.20150428153300.553fa82ca71626.03660052@mail128-132.atl41.mandrillapp.com>
+Date: Tue, 28 Apr 2015 15:33:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-lebdaY-u1K94Gujk-2RTJQ"
+X-Spam-Status: No, score=-0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,RCVD_IN_DNSWL_NONE,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_av-lebdaY-u1K94Gujk-2RTJQ
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Thanks for creating your free account with Qualtrics!
+Please verify that you used a real email address.  Copy and paste the URL below into your address bar.
+
+https://qtrial2015az1.az1.qualtrics.com/WRQualtricsControlPanel/Register.php?Activate&VerifyCode=VC_0dfN0LQBM0178sl&BrandID=qtrial2015az1&UserID=UR_1UlS6DRHg7rH05D
+--_av-lebdaY-u1K94Gujk-2RTJQ
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Verify Your Account | Qualtrics</title>
+</head>
+<body class=3D"outer-wrapper" bgcolor=3D"#FFFFFF" style=3D"margin:0; paddin=
+g:20px 0 0 0; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:=
+none; color:#444444; height:100%; width:100%!important; "><div><div class=
+=3D"mktEditable"><table class=3D"body-wrap" style=3D"margin: 0; padding: 0;=
+ width: 100%;" cellspacing=3D"0">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;"></td>
+<td style=3D"margin: 0; padding: 0;" align=3D"center">
+<table class=3D"main-body" style=3D"margin: 0; padding: 0; border: 1px soli=
+d #dddddd; border-radius: 3px;" cellspacing=3D"0">
+<!-- HEADER --> 
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td class=3D"header container" style=3D"margin: 0 auto!important; padding: =
+0; border-radius: 3px; clear: both!important; display: block!important; max=
+-width: 600px!important;" bgcolor=3D"#FFFFFF">
+<table style=3D"margin: 0px 0; padding: 0; width: 100%; max-width: 600px!im=
+portant;" cellspacing=3D"0" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td class=3D"logo" style=3D"margin: 0; padding: 0 0 15px 0;"><img style=3D"=
+margin: 0 30px; padding: 0; display: inline;" src=3D"https://www.qualtrics.=
+com/wp-content/themes/qualtrics/images/logo.png" alt=3D"Qualtrics" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- BODY --> 
+<tr style=3D"margin: 0; padding: 0;">
+<td class=3D"body container" style=3D"margin: 0 auto!important; padding: 0;=
+ border-radius: 3px; clear: both!important; display: block!important; max-w=
+idth: 600px!important;" bgcolor=3D"#FFFFFF">
+<div class=3D"content" style=3D"margin: 0 auto; padding: 0px 30px; display:=
+ block; max-width: 600px;">
+<table style=3D"margin: 0; padding: 20px 0; width: 100%; border-top: 1px so=
+lid #dddddd;" cellspacing=3D"0">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;">
+<table class=3D"body-intro" style=3D"margin: 0; padding: 0; width: 100%;" c=
+ellspacing=3D"0">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;">
+<p style=3D"margin: 25px 0px 10px; padding: 0px 20px; font-family: 'Helveti=
+ca Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 18px; font-we=
+ight: normal; line-height: 21px; text-align: center;">Thanks for creating y=
+our free account with Qualtrics!&nbsp;</p>
+<p style=3D"margin: 25px 0px 10px; padding: 0px 20px; font-family: 'Helveti=
+ca Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 18px; font-we=
+ight: normal; line-height: 21px; text-align: center;">Please verify that yo=
+u used a real email address.</p>
+</td>
+</tr>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 5px; text-align: center; font-family: 'Hel=
+vetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 28px; l=
+ine-height: 48px; font-weight: 500;"><a style=3D"display: block; width: 100=
+%; height: 100%; background-color: #6fb9c3; color: #fff; text-decoration: n=
+one; border-radius: 5px; margin: 20px 0;" href=3D"http://mandrillapp.com/tr=
+ack/click/30241709/qtrial2015az1.az1.qualtrics.com?p=3DeyJzIjoib1paMUZUSWJ6=
+ZmdmbFRhWW1oUzNIWGwwa2tFIiwidiI6MSwicCI6IntcInVcIjozMDI0MTcwOSxcInZcIjoxLFw=
+idXJsXCI6XCJodHRwczpcXFwvXFxcL3F0cmlhbDIwMTVhejEuYXoxLnF1YWx0cmljcy5jb21cXF=
+wvV1JRdWFsdHJpY3NDb250cm9sUGFuZWxcXFwvUmVnaXN0ZXIucGhwP0FjdGl2YXRlJlZlcmlme=
+UNvZGU9VkNfMGRmTjBMUUJNMDE3OHNsJkJyYW5kSUQ9cXRyaWFsMjAxNWF6MSZVc2VySUQ9VVJf=
+MVVsUzZEUkhnN3JIMDVEXCIsXCJpZFwiOlwiOGZlMGQzOGRhMzRjNDdiNTg1YzUwOTUzNDdiMzM=
+zZmFcIixcInVybF9pZHNcIjpbXCI1MzQ3NjdkZjgxOTcyNDMzZGUyMmRiYzM3NTIyNDJjMjRhNW=
+RhZDcxXCJdfSJ9">Verify My Account</a></td>
+</tr>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;">
+<p style=3D"margin: 10px 0px 10px; padding: 0px 20px; font-family: 'Helveti=
+ca Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 18px; font-we=
+ight: normal; line-height: 21px; text-align: center;">Or click this link: <=
+a href=3D"http://mandrillapp.com/track/click/30241709/qtrial2015az1.az1.qua=
+ltrics.com?p=3DeyJzIjoib1paMUZUSWJ6ZmdmbFRhWW1oUzNIWGwwa2tFIiwidiI6MSwicCI6=
+IntcInVcIjozMDI0MTcwOSxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3F0cmlhbDI=
+wMTVhejEuYXoxLnF1YWx0cmljcy5jb21cXFwvV1JRdWFsdHJpY3NDb250cm9sUGFuZWxcXFwvUm=
+VnaXN0ZXIucGhwP0FjdGl2YXRlJlZlcmlmeUNvZGU9VkNfMGRmTjBMUUJNMDE3OHNsJkJyYW5kS=
+UQ9cXRyaWFsMjAxNWF6MSZVc2VySUQ9VVJfMVVsUzZEUkhnN3JIMDVEXCIsXCJpZFwiOlwiOGZl=
+MGQzOGRhMzRjNDdiNTg1YzUwOTUzNDdiMzMzZmFcIixcInVybF9pZHNcIjpbXCI1MzQ3NjdkZjg=
+xOTcyNDMzZGUyMmRiYzM3NTIyNDJjMjRhNWRhZDcxXCJdfSJ9">https://qtrial2015az1.az=
+1.qualtrics.com/WRQualtricsControlPanel/Register.php?Activate&VerifyCode=3D=
+VC_0dfN0LQBM0178sl&BrandID=3Dqtrial2015az1&UserID=3DUR_1UlS6DRHg7rH05D</a><=
+/p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- /BODY --></td>
+<td style=3D"margin: 0; padding: 0;"></td>
+</tr>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;"></td>
+<td style=3D"margin: 0; padding: 0; text-align: center;"><br /> 
+<table class=3D"footer-wrap" style=3D"margin: 0; padding: 0; clear: both!im=
+portant; width: 100%;">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td class=3D"container" style=3D"margin: 0 auto!important; padding: 0; bord=
+er-radius: 3px; clear: both!important; display: block!important; max-width:=
+ 600px!important;"><!-- content -->
+<div class=3D"content" style=3D"margin: 0 auto; padding: 0px 30px; display:=
+ block; max-width: 600px;">
+<table style=3D"margin: 0; padding: 0; width: 100%;">
+<tbody>
+<tr style=3D"margin: 0; padding: 0;">
+<td style=3D"margin: 0; padding: 0;" align=3D"center">
+<p style=3D"margin: 0 0 10px 0; padding: 15px 0 30px; font-family: 'Helveti=
+ca Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 11px; font-=
+weight: normal; line-height: 21px; margin-bottom: 0px; color: #c3c3c3;">Qua=
+ltrics | 2250 N. University Pkwy, 48-C, Provo, UT 84604</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- /content --></td>
+</tr>
+</tbody>
+</table>
+<!-- /FOOTER --></td>
+<td style=3D"margin: 0; padding: 0;"></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<img src=3D"http://mandrillapp.com/track/open.php?u=3D30241709&id=3D8fe0d38=
+da34c47b585c5095347b333fa" height=3D"1" width=3D"1"></body>
+</html>
+
+--_av-lebdaY-u1K94Gujk-2RTJQ--
+

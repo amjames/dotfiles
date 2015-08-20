@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp699483qgt;
+        Thu, 30 Jul 2015 08:42:23 -0700 (PDT)
+X-Received: by 10.140.237.9 with SMTP id i9mr6810645qhc.18.1438270943726;
+        Thu, 30 Jul 2015 08:42:23 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 80si1716680qhf.25.2015.07.30.08.42.23
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 08:42:23 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UFgHIT019626
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 11:42:22 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=shXfTEXybrDYjFpEwTsigt8icEk=; b=t4q5rNbxva6QJ+7V
+	mMjF5PlhoRUUSz0mYpleUNlVdgeit757vcpEBlamES1cAEQaXGclayLh78kmZnWN
+	W92CqKOViHppPaLxWgFo2Pk4GrfAgLCWcTmWk6+Dxhq2xax1t95452oX1Vftvd1w
+	h+ZC1dfRBG9EnFZLVAQqmYlAR1w=
+Received: by filter0500p1mdw1.sendgrid.net with SMTP id filter0500p1mdw1.5071.55BA45D420
+        2015-07-30 15:42:12.546696537 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0006p1iad1.sendgrid.net (SG) with ESMTP id S0aOigaQRVawcZtDknnMvA
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 15:42:12 +0000 (UTC)
+Date: Thu, 30 Jul 2015 08:42:12 -0700
+From: Ryan Richard <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642190982b446e4193ff84e67a01cd559b68f71679e92cf0000000111d207d492a169ce05d09447@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/155/126374050@github.com>
+In-Reply-To: <psi4/psi4public/issues/155@github.com>
+References: <psi4/psi4public/issues/155@github.com>
+Subject: Re: [psi4public] Second-order convergence acceleration for SCF (#155)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ba45d475795_6bad3fc1a14f92bc3881a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ryanmrichard
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642190982b446e4193ff84e67a01cd559b68f71679e92cf0000000111d207d492a169ce05d09447@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642190982b446e4193ff84e67a01cd559b68f71679e92cf0000000111d207d492a169ce05d09447@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QsdR8SRDgHO0kl7x61gvPjUQUBzyks5oij1UgaJpZM4Fgutx>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5InIYhKpRlMnZS66V2dDdpaQFwiIdt37/jyiOf
+ TepzK90i1+o92X8ZSpNOwbSR3G1HL9gGgELUjD9YoPvcoUHppdwRdFfX0QymbHC1xSUkyX3IkAA6vs
+ gWuuQfYDjpm5MDA=
+X-Spam-Status: No, score=-2.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ba45d475795_6bad3fc1a14f92bc3881a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+@dgasmith I started a C++11 topic over on the forum, http://forum.psicode.org/t/c-11-is-it-time/43?u=ryanmrichard.  The C++11 topic keeps coming up in issues on GitHub and then lost, perhaps this will get it some attention.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/155#issuecomment-126374050
+----==_mimepart_55ba45d475795_6bad3fc1a14f92bc3881a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p><a href="https://github.com/dgasmith" class="user-mention">@dgasmith</a> I started a C++11 topic over on the forum, <a href="http://forum.psicode.org/t/c-11-is-it-time/43?u=ryanmrichard">http://forum.psicode.org/t/c-11-is-it-time/43?u=ryanmrichard</a>.  The C++11 topic keeps coming up in issues on GitHub and then lost, perhaps this will get it some attention.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/155#issuecomment-126374050">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QpSfLIR4pnGL2heNEdCajKNf_Pmgks5oij1UgaJpZM4Fgutx.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/155#issuecomment-126374050"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ba45d475795_6bad3fc1a14f92bc3881a--

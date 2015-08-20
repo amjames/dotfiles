@@ -1,0 +1,167 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp39266qge;
+        Mon, 16 Mar 2015 12:00:08 -0700 (PDT)
+X-Received: by 10.140.93.199 with SMTP id d65mr74607952qge.104.1426532408380;
+        Mon, 16 Mar 2015 12:00:08 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 199si10731460qht.110.2015.03.16.12.00.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Mar 2015 12:00:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.170 as permitted sender) client-ip=209.85.213.170;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.170 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com [209.85.213.170])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2GJ02Pf020065
+	for <amjames2@vt.edu>; Mon, 16 Mar 2015 15:00:07 -0400
+Received: by igbue6 with SMTP id ue6so50733148igb.1
+        for <amjames2@vt.edu>; Mon, 16 Mar 2015 12:00:02 -0700 (PDT)
+X-Received: by 10.42.66.76 with SMTP id o12mr6924399ici.48.1426532402253;
+        Mon, 16 Mar 2015 12:00:02 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp187652ieb;
+        Mon, 16 Mar 2015 12:00:01 -0700 (PDT)
+X-Received: by 10.140.144.147 with SMTP id 141mr78652637qhq.91.1426532401286;
+        Mon, 16 Mar 2015 12:00:01 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id f134si10755515qhc.20.2015.03.16.12.00.01
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Mar 2015 12:00:01 -0700 (PDT)
+Received-SPF: none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr6.cc.vt.edu (mr6.cc.vt.edu [198.82.141.20] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2GJ00oq003421
+	for <andrew.m.james2@gmail.com>; Mon, 16 Mar 2015 15:00:00 -0400
+Received: from tortilla (tortilla.edtech.vt.edu [198.82.175.46])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2GIxtv9024885;
+	Mon, 16 Mar 2015 15:00:00 -0400
+Received: from localhost ([127.0.0.1] helo=tortilla)
+	by tortilla with esmtp (Exim 4.76)
+	(envelope-from <scholar@edtech.vt.edu>)
+	id 1YXaF1-0001Sr-Ka; Mon, 16 Mar 2015 14:59:55 -0400
+Message-ID: <CAH0V_1Z9oD4mWioCsiSQtfumo_s69C98+yJxrEhPfaktYGAFQg@mail.gmail.com>
+Subject: Re: Seminar: Prof. Joachim Friedrich, Tuesday, March 17th @ 3:00pm
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2751_122960195.1426532395617"
+Received: from mr2.cc.vt.edu ([198.82.163.74])
+          by tortilla (JAMES SMTP Server 2.3.2) with SMTP ID 1015
+          for <theorychem@scholar.vt.edu>;
+          Mon, 16 Mar 2015 14:59:55 -0400 (EDT)
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2GIxorT031704
+	for <theorychem@scholar.vt.edu>; Mon, 16 Mar 2015 14:59:55 -0400
+Received: by igcau2 with SMTP id au2so13509415igc.0
+        for <theorychem@scholar.vt.edu>; Mon, 16 Mar 2015 11:59:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=aaOP7f7uotoWmthCz826gYiOowo9GLtmmSMp9SK/ssQ=;
+        b=XfeU3CDdOf+vWRvcRs3YyI83z/A6tQiNBNPNM1YazLO5Fmm/iKpWbs4Rj5BM4IcfDS
+         lZFHvk015buBf6OpfVH/LLYck6m55nbMk7Oqe3jw8A3ULcZglQJ6kX3ddsePuHfRC7x8
+         yI6onKvxG7lBnAXbOyzzcHiWzQwO0Sh6INsr+axifBO6Acp9V3n1/OzuNWZANZCd3F2f
+         c7yAAnha+JGCgYbmBkNwEg4Lot3tcpenLmDeTH+4Uv8qIjTKPMCfIVgdq9T+TpfoqdUM
+         BEYG0/hdB69Azx33Lxn9ZJTQykJQ/WMM96OZERtNBIPqZeWZygcaceS5WSxWzhhUPa5I
+         3yUQ==
+X-Gm-Message-State: ALoCoQkTfze7SuT8Eh9YNF5/+QChP4TtN2oIhxo8wEOfFht6zJOUA7LPhn/dy9COXMDwqR3yzYSV9yTAVDaIuo605GHKKrUmU8AOOYt6YNRwTudwXdJbOttvmPa583gGiyEUcl1s4iF+r4w5uydJtLj50fUumBFRrA==
+X-Received: by 10.50.142.99 with SMTP id rv3mr108464208igb.11.1426532389966;
+        Mon, 16 Mar 2015 11:59:49 -0700 (PDT)
+X-Received: by 10.50.142.99 with SMTP id rv3mr108464176igb.11.1426532389783;
+ Mon, 16 Mar 2015 11:59:49 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Mon, 16 Mar 2015 11:59:49 -0700 (PDT)
+In-Reply-To: <CAH0V_1ZaAzcGVJ3228-L11qN-stbVfJBCH3wF8n9CZsxMxJRLw@mail.gmail.com>
+References: <CAH0V_1ZaAzcGVJ3228-L11qN-stbVfJBCH3wF8n9CZsxMxJRLw@mail.gmail.com>
+Date: Mon, 16 Mar 2015 14:59:49 -0400
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: theorychem@scholar.vt.edu
+Cc: Joachim Friedrich <joachim.friedrich@chemie.tu-chemnitz.de>
+X-Content-Type-Outer-Envelope: multipart/alternative; boundary=001a1130c3fa5a97c305116c74ed
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MSGID_FROM_MTA_HEADER,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Content-Type-Message-Body: text/plain; charset=UTF-8
+List-Id: <main.localhost>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3321
+
+------=_Part_2751_122960195.1426532395617
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+Hi, all,
+
+This is both a reminder about tomorrow's seminar by Joachim Friedrich and
+an adjustment to the schedule.  I had forgotten about a class conflict that
+several of you have on Tuesday afternoons, so the seminar has been shifted
+to 4:00pm.  I encourage you all to attend!
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Mar 11, 2015 at 11:16 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Dear VT Theorists:
+>
+> I am pleased to announce a special seminar by Prof. Joachim Friedrich of
+> U. Chemnitz, "Method Development For Applications In Computational
+> Chemistry," at 3:00pm next Tuesday in the theory lab conference room.  I
+> encourage you all to attend if your schedule permits.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+
+----------------------
+This automatic notification message was sent by Scholar (https://scholar.vt.edu/portal) from the VT Theoretical Chemistry site.
+You can modify how you receive notifications at My Workspace > Preferences.
+
+------=_Part_2751_122960195.1426532395617
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>  <head><title>Re: Seminar: Prof. Joachim Friedrich, Tuesday, March 1=
+7th @ 3:00pm</title></head>  <body><div dir=3D"ltr">Hi, all,<div><br></div>=
+<div>This is both a reminder about tomorrow&#39;s seminar by Joachim Friedr=
+ich and an adjustment to the schedule.=A0 I had forgotten about a class con=
+flict that several of you have on Tuesday afternoons, so the seminar has be=
+en shifted to 4:00pm.=A0 I encourage you all to attend!</div><div><br></div=
+><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><di=
+v class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawfor=
+d</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.=
+edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Mar 11, 2015 at 11:16 PM, T. Daniel =
+Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"=
+_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_=
+quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1=
+ex"><div dir=3D"ltr">Dear VT Theorists:<div><br></div><div>I am pleased to =
+announce a special seminar by Prof. Joachim Friedrich of U. Chemnitz, &quot=
+;Method Development For Applications In Computational Chemistry,&quot; at 3=
+:00pm next Tuesday in the theory lab conference room.=A0 I encourage you al=
+l to attend if your schedule permits.</div><div><br></div><div>-TDC<br><div=
+><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D=
+"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></d=
+iv></div>
+</div></div>
+</blockquote></div><br></div>
+<br/><hr/><br/>This automatic notification message was sent by Scholar (<a =
+href=3D"https://scholar.vt.edu/portal" >https://scholar.vt.edu/portal<a/>) =
+from the VT Theoretical Chemistry site.<br/>You can modify how you receive =
+notifications at My Workspace > Preferences.<br/>  </body></html>
+
+------=_Part_2751_122960195.1426532395617--

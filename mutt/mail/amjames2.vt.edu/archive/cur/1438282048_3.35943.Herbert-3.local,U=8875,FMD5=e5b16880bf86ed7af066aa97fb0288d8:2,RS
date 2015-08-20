@@ -1,0 +1,216 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp14294qgt;
+        Wed, 20 May 2015 17:25:20 -0700 (PDT)
+X-Received: by 10.55.49.71 with SMTP id x68mr98285qkx.62.1432167920669;
+        Wed, 20 May 2015 17:25:20 -0700 (PDT)
+Return-Path: <tanmoy@umail.ucsb.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id y16si16540223qky.65.2015.05.20.17.25.20
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 20 May 2015 17:25:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of tanmoy@umail.ucsb.edu designates 157.56.111.85 as permitted sender) client-ip=157.56.111.85;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of tanmoy@umail.ucsb.edu designates 157.56.111.85 as permitted sender) smtp.mail=tanmoy@umail.ucsb.edu
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0085.outbound.protection.outlook.com [157.56.111.85])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4L0PDCQ014581
+	for <amjames2@vt.edu>; Wed, 20 May 2015 20:25:19 -0400
+Received: from BY1PR08MB1308.namprd08.prod.outlook.com (25.162.113.23) by
+ BY1PR08MB1306.namprd08.prod.outlook.com (25.162.113.21) with Microsoft SMTP
+ Server (TLS) id 15.1.166.22; Thu, 21 May 2015 00:25:11 +0000
+Received: from BY1PR08MB1308.namprd08.prod.outlook.com ([25.162.113.23]) by
+ BY1PR08MB1308.namprd08.prod.outlook.com ([25.162.113.23]) with mapi id
+ 15.01.0166.017; Thu, 21 May 2015 00:25:10 +0000
+From: Tanmoy Sanyal <tanmoy@umail.ucsb.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Software Summer School Application Status 
+Thread-Topic: Software Summer School Application Status 
+Thread-Index: AQHQkxF/DcGJMylMA0+9YH8bpUq+952FkfWu
+Date: Thu, 21 May 2015 00:25:09 +0000
+Message-ID: <1432167909162.43493@umail.ucsb.edu>
+References: <55FA856C-B40D-4402-B1D6-12FB51725951@vt.edu>
+In-Reply-To: <55FA856C-B40D-4402-B1D6-12FB51725951@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=tanmoy@umail.ucsb.edu; 
+x-originating-ip: [169.231.11.70]
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY1PR08MB1306;
+x-microsoft-antispam-prvs: <BY1PR08MB13061573430C5D783D94E702F5C10@BY1PR08MB1306.namprd08.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006)(3002001);SRVR:BY1PR08MB1306;BCL:0;PCL:0;RULEID:;SRVR:BY1PR08MB1306;
+x-forefront-prvs: 0583A86C08
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(377454003)(189002)(199003)(64706001)(87936001)(2656002)(66066001)(86362001)(2171001)(97736004)(46102003)(75432002)(2950100001)(2900100001)(68736005)(102836002)(15975445007)(19627405001)(105586002)(89122001)(99286002)(106356001)(117636001)(106116001)(19617315012)(16236675004)(40100003)(77156002)(450100001)(62966003)(19580405001)(4001540100001)(19580395003)(110136002)(81156007)(19625215002)(122556002)(92566002)(189998001)(50986999)(5001860100001)(5001830100001)(76176999)(101416001)(107886002)(88552001)(54356999)(5001960100002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY1PR08MB1306;H:BY1PR08MB1308.namprd08.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: umail.ucsb.edu does not designate
+ permitted sender hosts)
+Content-Type: multipart/alternative;
+	boundary="_000_143216790916243493umailucsbedu_"
+MIME-Version: 1.0
+X-OriginatorOrg: umail.ucsb.edu
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 May 2015 00:25:09.2296
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: b6b203fb-69dd-4c3e-8e6d-cfae4c637cc3
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR08MB1306
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_NONE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_143216790916243493umailucsbedu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Andrew,
+
+
+I am excited to hear of my acceptance to the summer school. Prior to making=
+ my travel arrangements, I wanted to ask if its probably OK to fly in to Ro=
+anoke a day earlier, i.e. on 21 June, 2015. Also, would the accommodation p=
+rovided to me, be on campus or outside ?
+
+
+Best,
+Tanmoy
+
+
+Tanmoy Sanyal,
+Department of Chemical Engineering,
+University of California at Santa Barbara
+Phone: (+1) 805-637-0375
+________________________________
+From: Andrew James <amjames2@vt.edu>
+Sent: Wednesday, May 20, 2015 8:27 AM
+To: Tanmoy Sanyal
+Subject: Software Summer School Application Status
+
+Dear Tanmoy,
+
+We are happy to announce that your application to the 2015 Software-Develop=
+ment Summer School for Computational Chemistry, Biomolecular Simulation, an=
+d Materials Modeling has been accepted!
+
+The next step is to secure your place in the program by going to this webpa=
+ge to formally register. http://www.cpe.vt.edu/reg/sss/
+The registration page mentions credit cards, so I want to remind you that t=
+here is no charge for participating in the Summer School. Clicking register=
+ will bring you to a page showing a total of $0.00 for registration.
+
+When you have made your travel arrangements I ask that you please send me a=
+n email (amjames2@vt.edu<mailto:amjames2@vt.edu>).
+If you will be flying I will need to know the flight number, airline and th=
+e scheduled arrival/departure time of your arriving and departing flights. =
+ We will use this information to arrange transportation to and from Roanoke=
+ airport.
+
+If you are driving to campus I will need to get you a temporary parking per=
+mit, and give you instructions on where you can park.
+
+If you have any questions please do not hesitate to contact me. Looking for=
+ward to meeting you in June!
+
+Sincerely,
+Andrew M. James
+Summer School Coordinator
+
+--_000_143216790916243493umailucsbedu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;back=
+ground-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p>Dear Andrew,<br>
+</p>
+<p><br>
+</p>
+<p>I am excited to hear of my acceptance to the summer school. Prior to mak=
+ing my travel arrangements, I wanted to ask if its probably OK to fly in to=
+ Roanoke a day earlier, i.e. on 21 June, 2015. Also, would the accommodatio=
+n provided to me, be on campus or
+ outside ?<br>
+</p>
+<p><br>
+</p>
+<div id=3D"Signature">
+<div class=3D"BodyFragment"><font size=3D"2"><span style=3D"font-size:10pt;=
+">
+<div class=3D"PlainText">Best,<br>
+Tanmoy<br>
+<br>
+<br>
+Tanmoy Sanyal,<br>
+Department of Chemical Engineering,<br>
+University of California at Santa Barbara<br>
+Phone: (&#43;1) 805-637-0375</div>
+</span></font></div>
+</div>
+<div style=3D"word-wrap: break-word; color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Andrew James &lt;amja=
+mes2@vt.edu&gt;<br>
+<b>Sent:</b> Wednesday, May 20, 2015 8:27 AM<br>
+<b>To:</b> Tanmoy Sanyal<br>
+<b>Subject:</b> Software Summer School Application Status </font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div class=3D"">Dear Tanmoy,</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">We are happy to announce that your application to the 2015 =
+Software-Development Summer School for Computational Chemistry, Biomolecula=
+r Simulation, and Materials Modeling has been accepted!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">The next step is to secure your place in the program by goi=
+ng to this webpage to formally register.&nbsp;<a href=3D"http://www.cpe.vt.=
+edu/reg/sss/" class=3D"">http://www.cpe.vt.edu/reg/sss/</a>&nbsp;</div>
+<div class=3D"">The registration page mentions credit cards, so I want to r=
+emind you that&nbsp;<span class=3D""><i class=3D"">there is no charge for p=
+articipating in the Summer School</i></span>. Clicking register will bring =
+you to a page showing a total of $0.00 for
+ registration. &nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">When you have made your travel arrangements I ask that you =
+please send me an email (<a href=3D"mailto:amjames2@vt.edu" class=3D"">amja=
+mes2@vt.edu</a>).</div>
+<div class=3D"">If you will be flying I will need to know the flight number=
+, airline and the scheduled arrival/departure time of your arriving and dep=
+arting flights. &nbsp;We will use this information to arrange transportatio=
+n to and from Roanoke airport.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">If you are driving to campus I will need to get you a tempo=
+rary parking permit, and give you instructions on where you can park.&nbsp;=
+</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">If you have any questions please do not hesitate to contact=
+ me. Looking forward to meeting you in June!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Sincerely,</div>
+<div class=3D"">Andrew M. James</div>
+<div class=3D"">Summer School Coordinator</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_143216790916243493umailucsbedu_--

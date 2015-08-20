@@ -1,0 +1,109 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp398233qgt;
+        Thu, 25 Jun 2015 01:53:47 -0700 (PDT)
+X-Received: by 10.55.48.209 with SMTP id w200mr96019576qkw.13.1435222427517;
+        Thu, 25 Jun 2015 01:53:47 -0700 (PDT)
+Return-Path: <rjharrison@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 134si28671957qhu.76.2015.06.25.01.53.46
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jun 2015 01:53:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of rjharrison@gmail.com designates 2001:468:c80:2105:0:277:40de:506c as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of rjharrison@gmail.com designates 2001:468:c80:2105:0:277:40de:506c as permitted sender) smtp.mail=rjharrison@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-ob0-x236.google.com (mail-ob0-x236.google.com [IPv6:2607:f8b0:4003:c01::236])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5P8rfZq028744;
+	Thu, 25 Jun 2015 04:53:46 -0400
+Received: by obbop1 with SMTP id op1so42885923obb.2;
+        Thu, 25 Jun 2015 01:53:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        bh=iw89Qo3vOFsAvE4kChffKBPhDknFXSMvJBaeua6/a54=;
+        b=aUhFWel/B2voYTe3iP47EMP3DN3vdcpkGlJ4V8pMMcnWkMxG642Ni5zRimpFzupysR
+         thsfyKUXbpRzEQcw92qgbssh+H8rom+/itkDYVJEeVFwv//gdXQZ4bLuzf5EBNeGygd1
+         L/UZEqQeH5SgeBSyEBEN0xBZzUCeS+Zka+g3nqQXx6YHitlXC8i5ji581vI/7zQ6i79y
+         /NhJ8aUfXGddyk2QoqnScys62hB0GjoBv9Vv9o7k3PkFxd+O6/PyXtRvqzIv4KU6R1ut
+         1VxD20euGiqwZC7dVVEVe4Aseywbou3sruseA3xsL175MIyOHrsCT6clS8AigWKfK7Bb
+         xfEg==
+MIME-Version: 1.0
+X-Received: by 10.60.157.41 with SMTP id wj9mr30356060oeb.72.1435222421338;
+ Thu, 25 Jun 2015 01:53:41 -0700 (PDT)
+Received: by 10.202.214.77 with HTTP; Thu, 25 Jun 2015 01:53:41 -0700 (PDT)
+In-Reply-To: <C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com>
+	<DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+	<C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+Date: Thu, 25 Jun 2015 04:53:41 -0400
+Message-ID: <CA+hCaPOtxoVXboGXm-6etY-=TdWJh4bO3eknTFE6XWnEiogo0w@mail.gmail.com>
+Subject: Re: BlueRidge access for the SSS
+From: Robert Harrison <rjharrison@gmail.com>
+To: Andrew James <amjames2@vt.edu>, "T. Daniel Crawford" <crawdad@vt.edu>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Daniel ... any chance of getting a version of MPI compatible with the
+Intel 15 compiler?   The present MPI seems to be set up for version
+13.  This is not crucial (so is not worth burning any favors for), but
+it would help in case people wanted to try mixing MPI+OpenMP and would
+also avoid people having to switch (version 15 has much better
+parallelization and vectorization)
+
+Best wishes
+
+Robert
+
+
+
+On Wed, Jun 17, 2015 at 12:19 PM, Andrew James <amjames2@vt.edu> wrote:
+> Dr. Crawford,
+>
+> The cerebro accounts are set up. The usernames are the same:
+> dcheny
+> dprince
+> tguy
+> rjharrison
+>
+> Passwords are the same as the usernames.  I also checked and the hpc acco=
+unt
+> passwords are still =E2=80=9Chokies14=E2=80=9D.
+>
+> =E2=80=94AJ
+>
+> On Jun 16, 2015, at 4:53 PM, Eugene DePrince <eugene.deprince@gmail.com>
+> wrote:
+>
+> Daniel,
+>
+> I can get into sirius, but I=E2=80=99m having trouble seeing blueridge1.a=
+rc.vt.edu
+> from there
+>
+> [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu
+> PING blueridge1.arc.vt.edu (198.82.161.171) 56(84) bytes of data.
+> From sirius.chem.vt.edu (198.82.162.246) icmp_seq=3D1 Destination Host
+> Unreachable
+>
+> Eugene
+>
+> On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> hpc01
+>
+>
+>
+
+
+
+--=20
+Robert J. Harrison
+tel:  865-272-9262

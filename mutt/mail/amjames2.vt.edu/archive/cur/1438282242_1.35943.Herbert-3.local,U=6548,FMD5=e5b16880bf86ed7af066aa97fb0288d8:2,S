@@ -1,0 +1,276 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp3584067qgf;
+        Tue, 7 Apr 2015 06:42:24 -0700 (PDT)
+X-Received: by 10.55.52.67 with SMTP id b64mr38209495qka.47.1428414143853;
+        Tue, 07 Apr 2015 06:42:23 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id q83si7287640qkq.126.2015.04.07.06.42.21
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Apr 2015 06:42:23 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t37DgFXI028944;
+	Tue, 7 Apr 2015 09:42:20 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t378HF5b013680;
+	Tue, 7 Apr 2015 09:42:14 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98782694 for CHEM_GRAD@LISTSERV.VT.EDU; Tue, 7 Apr 2015 09:42:14 -0400
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:250:3bcb:5b17]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t37DgDu0024256
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+          Tue, 7 Apr 2015 09:42:13 -0400
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be
+          forged)) by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t37Dg6Hp020145; Tue, 7 Apr 2015 09:42:11 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu (198.82.160.12) by BRAILLE.cc.w2k.vt.edu
+          (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Tue,
+          7 Apr 2015 09:42:06 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+          GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+          15.00.0995.032; Tue, 7 Apr 2015 09:42:06 -0400
+Thread-Topic: Highlands in Chemistry speaker for April 10 - Prof. Stephen Cheng
+Thread-Index: AdBxOIgAeVnUvsfoT+Wzo3We1dtFDQ==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.183.206]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFvrOqsTGxXIsaAGP7rp7yqEG15etW81u0TFlFZPFg/edLBb3Pm1jdGAOYIhizcxLyq9IYM04POUbU8HxzIor366yNTCeS+5i5OIQEtjEKPFpYw8LhHOAUeLBoetsXYycHMwCphJXvjayQNiKEhfuNYDZbAJGEodP3mIHaRAR6GWSaPh+kR0kISzgJXF34mswW0QgUOLjzHfMXYwcQLaexILLESBhFgEViaUbX4DN5xVwk5jZMJUJxGYUEJP4fmoNE8QucYlbT+aD2RICAhJL9pxnhrCVJHpvv4OKB0h8Wf2VEWKOoMTJmU9YIOJmEnsfLIGq0ZNoaN7GCGEHStz+cpkJ5BwJoL+uvg+GCNtK7JkxESrsLDHvRj1E2E5i8s1lUBO1Jba/2scKYetIbLq2CiouL/H/3n0o21li8dRtULayxLq1G5hhrtyx8RfUBRUSz19cYQOFmoTAfEaJhRM/M05gVJmFFNKzkEJ6FlJIzELy5QJGllWMok5Bjp4+Pq56ycl65UbZemUleqkppZsYIemBYwfj8m/OhxglOZiURHnv3VYOFeJLyk+pzEgszogvKs1JLT7EKMHBoyTCu+kuUI63uCAxtzgzHSYlw8GhJMG7FCQlWJSanlqRlplTkloEkT7FqCglzjsPJCkA0pdRmgeXgyXHS4yyUsK87heBangKUotyM0tQ5W8xckhBma8YxTkYlYR5N4MM5MnMK4G74xXQiUxAJ/I/UwI5sSQRISXVwGh2NrZatyfskDK/T4PtmuM7fvhVHb9qkhahrLDFuPqewYmuTZeO/KsJefkw+qDam9OH/vbtmsF80zj6WmUc50l75YCXln7fF+hcdG+5Jb1CjIlV0VTP+dFZp1LpLdrFe+41W0Sy1wv+WRM1K13l030W3xzOQ34RKf8tG17usOms6Smfa711vRJLcUaioRZzUXEiAOExbca!
+                      KAwAA
+Content-Type: multipart/alternative; boundary="_000_42f0a97334b640e586beb2ab119130ddGUTENBERGccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Message-ID:  <42f0a97334b640e586beb2ab119130dd@GUTENBERG.cc.w2k.vt.edu>
+Date:         Tue, 7 Apr 2015 13:42:05 +0000
+Reply-To: "Shephard, Emillie" <eloope@EXCHANGE.VT.EDU>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Shephard, Emillie" <eloope@EXCHANGE.VT.EDU>
+Subject: Highlands in Chemistry speaker for April 10 - Prof. Stephen Cheng
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_42f0a97334b640e586beb2ab119130ddGUTENBERGccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+HIGHLANDS IN CHEMISTRY SEMINAR
+
+Prof. Stephen Z. D. Cheng
+University of Akron
+
+"Giant Polyhedra and Giant Surfactants based on Nano-atoms: Tuning from Cry=
+stals, to Quasicrystals, to Frank-Kasper Phases - An Interconnection betwee=
+n Soft and Hard Matter."
+
+Friday, April 10
+2:30 p.m.
+Hahn Hall North 140
+Hosts: Guoliang Liu
+
+In order to create new functional materials for advanced technologies, both=
+ precise control over functionality and their hierarchical structures and o=
+rders are vital for obtaining the desired properties. Among all the giant m=
+olecules, giant polyhedra are a class of materials which are utilized by de=
+liberately placing precisely functionalized polyhedral oligomeric silsesqui=
+oxane (POSS) and fullerene (C60) molecular nano-particles (MNPs) (so-called=
+ "nano-atoms") at the vertices of a polyhedron. Giant surfactants are polym=
+er tail-tethered "nano-atoms" where the two components have drastic chemica=
+l differences to impart amphiphilicity. These giant polyhedra and giant sur=
+factants capture the essential structural features of their small-molecule =
+counterparts in many ways but possess much larger sizes, and therefore they=
+ are recognized as size-amplified versions of those counterparts. One of th=
+e most illustrating examples is a series of novel giant tetrahedral and gia=
+nt surfactants which possess precisely defined amphiphilic MNPs with differ=
+ent geometric combinations. When both geometrical and chemical symmetry are=
+ disrupted and these giant tetrahedra and surfactants are functionalized th=
+ey become building blocks for hierarchical ordered structures. A range of o=
+rdered super-lattice structures of this class of materials: crystals, quasi=
+crystals and Frank-Kasper phases have been investigated in the condensed bu=
+lk state and thin films, revealing the interconnections between soft matter=
+ and hard matter in sharing their common structures and fundamental behavio=
+rs.
+
+
+EMillie Shephard
+Department of Chemistry
+480 Davidson Hall, MC 0212
+Blacksburg, VA  24061
+Office: (540) 231-5966
+
+
+--_000_42f0a97334b640e586beb2ab119130ddGUTENBERGccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Brush Script MT";
+	panose-1:3 6 8 2 4 4 6 7 3 4;}
+@font-face
+	{font-family:"Footlight MT Light";
+	panose-1:2 4 6 2 6 3 10 2 3 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><a name=
+=3D"OLE_LINK2"></a><a name=3D"OLE_LINK3"></a><a name=3D"OLE_LINK4"></a><a n=
+ame=3D"OLE_LINK5"></a><a name=3D"OLE_LINK6"></a><a name=3D"OLE_LINK7"></a><=
+a name=3D"OLE_LINK8"></a><a name=3D"OLE_LINK9"></a><a name=3D"OLE_LINK1"></=
+a><b><span style=3D"font-size:20.0pt;color:black">HIGHLANDS
+ IN CHEMISTRY SEMINAR<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"color:black"><br>
+</span></b><b><span style=3D"font-size:28.0pt;color:black">Prof. Stephen Z.=
+ D. Cheng<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><i><spa=
+n style=3D"color:black">University of Akron</span></i><i><span style=3D"fon=
+t-size:12.0pt;color:black"><o:p></o:p></span></i></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><i><=
+span style=3D"layout-grid-mode:line"><o:p>&nbsp;</o:p></span></i></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;text-aut=
+ospace:none">
+<b><i><span style=3D"font-size:16.0pt">&#8220;Giant Polyhedra and Giant Sur=
+factants based on Nano-atoms: Tuning from Crystals, to Quasicrystals, to Fr=
+ank-Kasper Phases - An Interconnection between Soft and Hard Matter.&#8221;=
+<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-language=
+:KO"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:12.0pt;text-=
+align:center">
+<b><span style=3D"font-size:14.0pt;color:black">Friday, April 10</span></b>=
+<b><span style=3D"font-size:14.0pt;font-family:&quot;Times New Roman&quot;,=
+serif;color:black"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:12.0pt;text-=
+align:center">
+<b><span style=3D"font-size:14.0pt;color:black">2:30 p.m.</span></b><b><spa=
+n style=3D"font-size:12.0pt;color:black"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:14.0pt;text-=
+align:center">
+<b><span style=3D"font-size:14.0pt;color:black">Hahn Hall North 140<o:p></o=
+:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:14.0pt;color:black">Hosts:&nbsp;</span></b><b><span st=
+yle=3D"font-size:14.0pt;color:black">Guoliang Liu<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify"><b><span style=3D"font-=
+size:14.0pt;color:black"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-indent:.5in;line-he=
+ight:115%">
+In order to create new functional materials for advanced technologies, both=
+ precise control over functionality and their hierarchical structures and o=
+rders are vital for obtaining the desired properties. Among all the giant m=
+olecules, giant polyhedra are a
+ class of materials which are utilized by deliberately placing precisely fu=
+nctionalized polyhedral oligomeric silsesquioxane (POSS) and fullerene (C60=
+) molecular nano-particles (MNPs) (so-called &#8220;nano-atoms&#8221;) at t=
+he vertices of a polyhedron. Giant surfactants
+ are polymer tail-tethered &#8220;nano-atoms&#8221; where the two component=
+s have drastic chemical differences to impart amphiphilicity. These giant p=
+olyhedra and giant surfactants capture the essential structural features of=
+ their small-molecule counterparts in many ways
+ but possess much larger sizes, and therefore they are recognized as size-a=
+mplified versions of those counterparts. One of the most illustrating examp=
+les is a series of novel giant tetrahedral and giant surfactants which poss=
+ess precisely defined amphiphilic
+ MNPs with different geometric combinations. When both geometrical and chem=
+ical symmetry are disrupted and these giant tetrahedra and surfactants are =
+functionalized they become building blocks for hierarchical ordered structu=
+res. A range of ordered super-lattice
+ structures of this class of materials: crystals, quasicrystals and Frank-K=
+asper phases have been investigated in the condensed bulk state and thin fi=
+lms, revealing the interconnections between soft matter and hard matter in =
+sharing their common structures
+ and fundamental behaviors. &nbsp;<span style=3D"font-size:12.0pt;line-heig=
+ht:115%"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:18.0pt;font-family:&quot;Br=
+ush Script MT&quot;;color:teal">EMillie Shephard<br>
+</span><span style=3D"font-family:&quot;Footlight MT Light&quot;,serif">Dep=
+artment of Chemistry<br>
+480 Davidson Hall, MC 0212<br>
+Blacksburg, VA&nbsp; 24061<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Footlight MT Light&=
+quot;,serif">Office: (540) 231-5966</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_42f0a97334b640e586beb2ab119130ddGUTENBERGccw2kvtedu_--

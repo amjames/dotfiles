@@ -1,0 +1,46 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2179356qgt;
+        Mon, 10 Aug 2015 19:01:36 -0700 (PDT)
+X-Received: by 10.140.150.3 with SMTP id 3mr16918810qhw.94.1439258496263;
+        Mon, 10 Aug 2015 19:01:36 -0700 (PDT)
+Return-Path: <hrprod@robin.db.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id h67si384413qkh.97.2015.08.10.19.01.33
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 19:01:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrprod@robin.db.vt.edu designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrprod@robin.db.vt.edu designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mailfrom=hrprod@robin.db.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7B20PsP011691;
+	Mon, 10 Aug 2015 22:00:30 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7B1qFpH013577;
+	Mon, 10 Aug 2015 22:00:25 -0400
+Message-Id: <201508110200.t7B1qFpH013577@listserv.vt.edu>
+Date: Mon, 10 Aug 2015 22:00:19 -0400
+From: payroll@vt.edu
+Subject: Electronic Pay Stub
+To: Multiple recipients <LISTSERV@LISTSERV.VT.EDU>
+X-Spam-Status: No, score=-0.0 required=5.0 tests=RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+Your Earnings & Deductions statement is now available online for the upcoming pay cycle.
+
+Go to the Virginia Tech homepage and use the quick link to login to Hokie Spa. Select the Hokie Team tab to view pay stubs and related information.
+Employees can also view and update tax withholding status and direct deposit information and access current and prior year W-2s.
+
+Select the Hokie Plus tab to update current mailing addresses and phone numbers.
+
+Send any comments or questions to payroll@vt.edu
+
+***This is not a deposit receipt***
+ 
+ 
+

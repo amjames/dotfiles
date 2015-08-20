@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2070428qgt;
+        Tue, 21 Jul 2015 09:08:02 -0700 (PDT)
+X-Received: by 10.140.234.204 with SMTP id f195mr51269960qhc.40.1437494882587;
+        Tue, 21 Jul 2015 09:08:02 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id a74si28832601qgf.30.2015.07.21.09.08.02
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Jul 2015 09:08:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6LG7rMF010290
+	for <amjames2@vt.edu>; Tue, 21 Jul 2015 12:07:59 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=HRyyVaQCT9iVxbV3BcVdl6djSdA=; b=bYN1Gk7Z6QLokznx
+	X3/h3lTcgaSgHbTlLzIZ/xAmY7qqkdJARP3YrBb4DD7zVqYPY/1xaLE4Dgtx1g64
+	mrEcqPwA0bmxV4dEHCopUrk4sJUbvoiuPeQsO8CWA2tCCEx0Lpx0kCj0XXelOHtL
+	OzEDtxvt4MftrFAs6GrXU5IIogA=
+Received: by filter0621p1mdw1.sendgrid.net with SMTP id filter0621p1mdw1.29753.55AE6E532D
+        2015-07-21 16:07:48.013892612 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-035 (SG) with ESMTP id 14eb15ef882.1ae8.33211
+	for <amjames2@vt.edu>; Tue, 21 Jul 2015 16:07:48 +0000 (UTC)
+Date: Tue, 21 Jul 2015 09:07:47 -0700
+From: Eugene DePrince <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642f6503caddf01741f3d93e326f7cd286726b0391092cf0000000111c6305392a169ce05ace71a@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/120/123386691@github.com>
+In-Reply-To: <psi4/psi4public/issues/120@github.com>
+References: <psi4/psi4public/issues/120@github.com>
+Subject: Re: [psi4public] fix failing test case fnocc1 (#120)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ae6e53eedfc_1b2f3f8721b9f2c03287c8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: edeprince3
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642f6503caddf01741f3d93e326f7cd286726b0391092cf0000000111c6305392a169ce05ace71a@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642f6503caddf01741f3d93e326f7cd286726b0391092cf0000000111c6305392a169ce05ace71a@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qg66HsNcNlrGwzh3zJWqflUNo9sFks5ofmXTgaJpZM4FZJNu>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5ImjQJBGZtMDhAX/lL56INFsyOu+HIpma/0R+H
+ Wh4GpyzjjvOg71k1wLcOsDGynud/+1eJCNv1q7xwPcg55HuQOCWmCbkIqWiJv+Iy8UbZHVEYMg03Hw
+ G9Xwpe1bsATFKoE=
+X-Spam-Status: No, score=-2.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ae6e53eedfc_1b2f3f8721b9f2c03287c8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Can I see the errors from RHEL7 conda?  I can't reproduce this one.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/120#issuecomment-123386691
+----==_mimepart_55ae6e53eedfc_1b2f3f8721b9f2c03287c8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Can I see the errors from RHEL7 conda?  I can't reproduce this one.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/120#issuecomment-123386691">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QhoJMORKfDthVPIfCa24C0IczZ1Hks5ofmXTgaJpZM4FZJNu.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/120#issuecomment-123386691"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ae6e53eedfc_1b2f3f8721b9f2c03287c8--

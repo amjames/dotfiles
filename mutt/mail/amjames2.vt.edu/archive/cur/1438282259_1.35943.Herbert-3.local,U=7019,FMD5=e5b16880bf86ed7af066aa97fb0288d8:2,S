@@ -1,0 +1,184 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1548188qgt;
+        Mon, 4 May 2015 00:21:25 -0700 (PDT)
+X-Received: by 10.140.151.197 with SMTP id 188mr27144131qhx.18.1430724085450;
+        Mon, 04 May 2015 00:21:25 -0700 (PDT)
+Return-Path: <Iurii.Zhovtobriukh@fysik.su.se>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id j67si12145981qgf.109.2015.05.04.00.21.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 04 May 2015 00:21:24 -0700 (PDT)
+Received-SPF: neutral (google.com: 77.238.35.69 is neither permitted nor denied by domain of Iurii.Zhovtobriukh@fysik.su.se) client-ip=77.238.35.69;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 77.238.35.69 is neither permitted nor denied by domain of Iurii.Zhovtobriukh@fysik.su.se) smtp.mail=Iurii.Zhovtobriukh@fysik.su.se
+Received: from mail-prod-route03.it.su.se (mail-prod-route03.it.su.se [IPv6:2001:6b0:5:1213:250:56ff:fe94:7fa1])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t447LIRC005095
+	for <amjames2@vt.edu>; Mon, 4 May 2015 03:21:23 -0400
+Received: from e-mailfilter01.sunet.se (e-mailfilter01.sunet.se [IPv6:2001:6b0:8:2::201])
+	by mail-prod-route03.it.su.se (Postfix) with ESMTP id 3lgFwW2lrKzy19
+	for <amjames2@vt.edu>; Mon,  4 May 2015 09:21:15 +0200 (CEST)
+Received: from smtp.su.se (mail-prod-smtp02.it.su.se [77.238.35.69])
+	by e-mailfilter01.sunet.se (8.14.4/8.14.4/Debian-4) with ESMTP id t447LFkl022864
+	for <amjames2@vt.edu>; Mon, 4 May 2015 09:21:15 +0200
+Received: from EBOX-PROD-SRV02.win.su.se (ebox-prod-srv02.win.su.se [130.237.162.228])
+	by smtp.su.se (Postfix) with ESMTPS id 3lgFwW07Bkzw
+	for <amjames2@vt.edu>; Mon,  4 May 2015 09:21:14 +0200 (CEST)
+Received: from ebox-prod-srv05.win.su.se ([169.254.5.223]) by
+ EBOX-PROD-SRV02.win.su.se ([169.254.2.210]) with mapi id 14.03.0210.002; Mon,
+ 4 May 2015 09:21:14 +0200
+From: Iurii Zhovtobriukh <Iurii.Zhovtobriukh@fysik.su.se>
+To: Andrew James <amjames2@vt.edu>
+Subject: RE: Molecular Response Properties Summer School: Visa Applications 
+Thread-Topic: Molecular Response Properties Summer School: Visa Applications 
+Thread-Index: AQHQg2zDFD2I2zrbQUmbTW1E46h2n51rbkA4
+Date: Mon, 4 May 2015 07:21:14 +0000
+Message-ID: <8D55E1F82F8DD14396A4CB9B36BE2E834CA8F212@ebox-prod-srv05.win.su.se>
+References: <82482388-F148-4AAE-BE07-A3FBA4DA02C0@vt.edu>
+In-Reply-To: <82482388-F148-4AAE-BE07-A3FBA4DA02C0@vt.edu>
+Accept-Language: en-US, sv-SE
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [130.237.154.251]
+Content-Type: multipart/alternative;
+	boundary="_000_8D55E1F82F8DD14396A4CB9B36BE2E834CA8F212eboxprodsrv05wi_"
+MIME-Version: 1.0
+X-Bayes-Prob: 0.0001 (Score 0, tokens from: outbound, outbound-su-se:default, su-se:default, base:default, @@RPTN)
+X-Spam-Score: -0.10 () [Tag at 7.50] HTML_MESSAGE:0.001,T_RP_MATCHES_RCVD:-0.1
+X-CanIt-Geo: ip=130.237.162.228; country=SE; region=Stockholm; city=Stockholm; latitude=59.3333; longitude=18.0500; http://maps.google.com/maps?q=59.3333,18.0500&z=6
+X-CanItPRO-Stream: outbound-su-se:outbound (inherits from outbound-su-se:default,su-se:default,base:default)
+X-Canit-Stats-ID: 09OnHlfe9 - 643c85ae1f2b - 20150504
+X-CanIt-Archive-Cluster: PfMRe/vJWMiXwM2YIH5BVExnUnw
+Received-SPF: neutral (e-mailfilter01.sunet.se: 130.237.162.228 is neither permitted
+	nor denied by domain Iurii.Zhovtobriukh@fysik.su.se)
+	receiver=e-mailfilter01.sunet.se; client-ip=130.237.162.228;
+	envelope-from=<Iurii.Zhovtobriukh@fysik.su.se>; helo=smtp.su.se;
+	identity=mailfrom
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 192.36.171.201
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_8D55E1F82F8DD14396A4CB9B36BE2E834CA8F212eboxprodsrv05wi_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Andrew James,
+
+I went to USA last year in order to visit Gordon Research Conference. So no=
+w I have the USA B-1 visa which is valid till July 8, 2015.
+
+Sincerely yours Iurii Zhovtobriukh.
+________________________________
+From: Andrew James [amjames2@vt.edu]
+Sent: Thursday, April 30, 2015 7:40 PM
+To: Chang Liu; Thomas Fransson; Javier Cerezo; Ignat Harczuk; Tobias Fahles=
+on; Iurii Zhovtobriukh
+Subject: Molecular Response Properties Summer School: Visa Applications
+
+Hello!
+
+I am Andrew James, one of  Dr. Crawford=92s graduate students at Virginia T=
+ech, and the coordinator for the Response Properties School we are holding =
+this summer.  You are receiving this email because your institution is loca=
+ted outside the US, and as of yet have not reached out to me about your vis=
+a application.  Part of this application will require a letter from Virgini=
+a Tech, and in order to make sure you get those letters on time I will need=
+ each of you to send me a copy of your CV as soon as you can.  Please reply=
+ with your CV attached, and if you could please rename the file like so:
+
+First_last.pdf
+
+If you do not require a visa (i.e. you are a US citizen working abroad) you=
+ can let me know as well and I will remove you from the list. You can feel =
+free to email me with any other questions/concerns as well.  See you in Jun=
+e!
+
+Regards,
+=97Andrew
+
+Andrew M. James
+Graduate Teaching Assistant
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu<mailto:amjames2@vt.edu>
+
+--_000_8D55E1F82F8DD14396A4CB9B36BE2E834CA8F212eboxprodsrv05wi_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style id=3D"owaParaStyle" type=3D"text/css">P {margin-top:0;margin-bottom:=
+0;}</style>
+</head>
+<body ocsi=3D"0" fpstyle=3D"1" class=3D"" style=3D"word-wrap:break-word">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">Dear Andrew James,<br>
+<br>
+I went to USA last year in order to visit Gordon Research Conference. So no=
+w I have the USA B-1 visa which is valid till July 8, 2015.
+<br>
+<br>
+Sincerely yours Iurii Zhovtobriukh.<br>
+<div style=3D"font-family: Times New Roman; color: #000000; font-size: 16px=
+">
+<hr tabindex=3D"-1">
+<div style=3D"direction: ltr;" id=3D"divRpF484141"><font color=3D"#000000" =
+face=3D"Tahoma" size=3D"2"><b>From:</b> Andrew James [amjames2@vt.edu]<br>
+<b>Sent:</b> Thursday, April 30, 2015 7:40 PM<br>
+<b>To:</b> Chang Liu; Thomas Fransson; Javier Cerezo; Ignat Harczuk; Tobias=
+ Fahleson; Iurii Zhovtobriukh<br>
+<b>Subject:</b> Molecular Response Properties Summer School: Visa Applicati=
+ons <br>
+</font><br>
+</div>
+<div></div>
+<div>Hello!&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">I am Andrew James, one of &nbsp;Dr. Crawford=92s graduate s=
+tudents at Virginia Tech, and the coordinator for the Response Properties S=
+chool we are holding this summer. &nbsp;You are receiving this email becaus=
+e your institution is located outside the US,
+ and as of yet have not reached out to me about your visa application. &nbs=
+p;Part of this application will require a letter from Virginia Tech, and in=
+ order to make sure you get those letters on time I will need each of you t=
+o send me a copy of your CV as soon as
+ you can. &nbsp;Please reply with your CV attached, and if you could please=
+ rename the file like so:</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">First_last.pdf</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">If you do not require a visa (i.e. you are a US citizen wor=
+king abroad) you can let me know as well and I will remove you from the lis=
+t. You can feel free to email me with any other questions/concerns as well.=
+ &nbsp;See you in June!</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Regards,&nbsp;</div>
+<div class=3D"">=97Andrew&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Andrew M. James&nbsp;</div>
+<div class=3D"">Graduate Teaching Assistant&nbsp;</div>
+<div class=3D"">Virginia Tech</div>
+<div class=3D"">Chemistry Department</div>
+<div class=3D""><a href=3D"mailto:amjames2@vt.edu" class=3D"" target=3D"_bl=
+ank">amjames2@vt.edu</a>&nbsp;</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_8D55E1F82F8DD14396A4CB9B36BE2E834CA8F212eboxprodsrv05wi_--

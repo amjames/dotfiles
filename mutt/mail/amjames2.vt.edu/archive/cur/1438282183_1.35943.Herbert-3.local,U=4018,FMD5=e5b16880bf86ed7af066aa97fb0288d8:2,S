@@ -1,0 +1,108 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp776262qge;
+        Thu, 15 Jan 2015 07:59:52 -0800 (PST)
+X-Received: by 10.140.44.69 with SMTP id f63mr15977464qga.3.1421337592714;
+        Thu, 15 Jan 2015 07:59:52 -0800 (PST)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id h10si2310060qgh.119.2015.01.15.07.59.50
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 15 Jan 2015 07:59:52 -0800 (PST)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.216.182;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0FFxi3U009655;
+	Thu, 15 Jan 2015 10:59:49 -0500
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t0FDG0a8024172;
+	Thu, 15 Jan 2015 10:59:43 -0500
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          97064174 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 15 Jan 2015 10:59:43
+          -0500
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t0FFxhhm029053
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Thu, 15 Jan 2015 10:59:43 -0500
+Received: from mail-qc0-f182.google.com (mail-qc0-f182.google.com
+          [209.85.216.182]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t0FFxcTk031635 for <CHEM_GRAD@listserv.vt.edu>; Thu, 15 Jan 2015
+          10:59:43 -0500
+Received: by mail-qc0-f182.google.com with SMTP id l6so8745040qcy.13 for
+          <CHEM_GRAD@listserv.vt.edu>; Thu, 15 Jan 2015 07:59:38 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:message-id:date:from:user-agent:mime-version:to
+                         :subject:content-type:content-transfer-encoding;
+                         bh=r3yLUYdHIkfvDFv03zxb6v5x7LmIDKmSXDUB25aHkbc=;
+                         b=lqn4GoAl4uwvwttrHZNcRZvE2zAMkX59PCHOG/VTxMBOEoOei5/ePzTsbNYf+dcHmI
+                         8dEpPO3FDmCwi3rJRFfZRz7UOT/vxI7mgUN8sLzrG89NysYtZl8+spBxXDpgSpiFG6Kj
+                         ZajMkZfu/YnVOAxC/Jl0xer1AtvIxGUaN67f/zhB2fLYMuJAMjOyMxpSnQiGf7YHlFuj
+                         3PdG6DXqINJQZuQbBYj6ttRDiilMovYAQlj3O2l4cu7fm1p3nRbhdNYOs8Risxht9rPf
+                         gc0XyJ1/HQ62ELmtTYPOIwuwwZ2QSsncPFRDTuQKhTsKSqJ76+icU5IPQO4xyucyjz8x
+                         4Ihw==
+X-Gm-Message-State: ALoCoQktajeg7q4zouyRfnPkrkEyY7ahsFiAZtNgAWAjGoLrss74rdBSW7mvLNbisSNMyHo+BhTaMA8w22tSgivMpeEMMjJIC5NM298YyPoawz8tXGGrny2HN3zEz+f/ETj9fbAM3X5aWNAzpAqF1UIV7ohNR0Y8dw==
+X-Received: by 10.224.120.8 with SMTP id b8mr17614001qar.36.1421337578071; Thu,
+            15 Jan 2015 07:59:38 -0800 (PST)
+X-Received: by 10.224.120.8 with SMTP id b8mr17613984qar.36.1421337577962; Thu,
+            15 Jan 2015 07:59:37 -0800 (PST)
+Received: from ?IPv6:::1? ([2001:468:c80:610a:dc98:ac7d:41e5:446f]) by
+          mx.google.com with ESMTPSA id n18sm1623037qae.27.2015.01.15.07.59.36
+          (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+          Thu, 15 Jan 2015 07:59:36 -0800 (PST)
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101
+            Thunderbird/31.4.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-0.0 required=5.0 tests=T_RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <54B7E3E7.8090000@vt.edu>
+Date:         Thu, 15 Jan 2015 10:59:35 -0500
+Reply-To: Paul Deck <pdeck@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@LISTSERV.VT.EDU>
+From: Paul Deck <pdeck@vt.edu>
+Subject: About CHEM 6434
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear Students,
+
+Because of the holiday on Monday, CHEM 6434 Organometallic Chemistry 
+will start on Wed Jan 21 at 9:05 AM in HHN 402.  If you plan to take 
+this course, please register for it on Hokie Spa so that you can be 
+added to the Scholar site.  All further messages about the course will 
+be distributed from Scholar.
+
+The textbook will be "The Organometallic Chemistry of the Transition 
+Metals" by Robert Crabtree.  The book is in a new (sixth) edition as of 
+last year.  I will be compelled to buy myself a copy.  I am not aware 
+that the book is available at the campus bookstore, because I never 
+placed the order.  But you can easily buy it online (e.g., from 
+Amazon).  As usual, you can hunt around for an inexpensive previous 
+edition on the used market, but there is always a risk that there will 
+be information in the new edition that you'll miss.  My guess is that 
+the level of risk is relatively low with the fifth edition, but honestly 
+I haven't seen the sixth edition yet (I have to order it too!) so I 
+really don't know.  Furthermore, I intend to start the course with a 
+couple of lectures summarizing some of the most important fundamental 
+principles of inorganic chemistry that will be applied throughout the 
+course, and then I will spend a few lectures discussing main-group 
+organometallic chemistry.  Since Crabtree doesn't cover main-group 
+elements, that means you will not really need the textbook until well 
+into the second week of classes.
+
+Let me know if you have questions.  A syllabus will be posted in the 
+next day or so.
+
+PAD

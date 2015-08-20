@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp873208qgt;
+        Sun, 26 Jul 2015 00:40:26 -0700 (PDT)
+X-Received: by 10.140.38.21 with SMTP id s21mr17658391qgs.10.1437896426732;
+        Sun, 26 Jul 2015 00:40:26 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id c73si16619290qka.81.2015.07.26.00.40.26
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Jul 2015 00:40:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.192 as permitted sender) client-ip=192.30.252.192;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.192 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext1.iad.github.net [192.30.252.192])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6Q7eKPY006326
+	for <amjames2@vt.edu>; Sun, 26 Jul 2015 03:40:26 -0400
+Date: Sun, 26 Jul 2015 00:40:20 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1437896420;
+	bh=WUDwC+ZWQSe7FP3qdjfjGDHivo68FdgDcefZrhW83+I=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=Ix/DCUniKqY5IlDWoU0EztjNa5+qVfwgwY6XUzdjN2jTkpS4uiOY4i3mJ0R5Y4bzp
+	 PCb9v/tdnKPzSGcE4g48ypOEExPb7G+aGd75H/FLWuI29Gjp2dv2qa6Gt9yQ/464Hy
+	 JS/mAV6vzyL+S2HbEu+FCnkfzU+LWvg3WAozfpEM=
+From: Hassenky <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f64255c38d32c1fc19b29e4571f2a2947ef814c0e7ef92cf0000000111cc50e492a169ce05b4ab38@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/149/124953379@github.com>
+In-Reply-To: <psi4/psi4public/issues/149@github.com>
+References: <psi4/psi4public/issues/149@github.com>
+Subject: Re: [psi4public] snippets in manual that don't run (#149)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55b48ee4b4334_76403f9a86e792c06146f9";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: Hassenky
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f64255c38d32c1fc19b29e4571f2a2947ef814c0e7ef92cf0000000111cc50e492a169ce05b4ab38@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64255c38d32c1fc19b29e4571f2a2947ef814c0e7ef92cf0000000111cc50e492a169ce05b4ab38@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QmFe8dKRcqz8MxzmA43mv_-AZNueks5ohIZkgaJpZM4Fa6yr>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_08,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55b48ee4b4334_76403f9a86e792c06146f9
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I installed psi4 from miniconda. 
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/149#issuecomment-124953379
+----==_mimepart_55b48ee4b4334_76403f9a86e792c06146f9
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I installed psi4 from miniconda. </p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/149#issuecomment-124953379">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qm0A62jRv8ICGFCxRLx6gJzJDwqIks5ohIZkgaJpZM4Fa6yr.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/149#issuecomment-124953379"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55b48ee4b4334_76403f9a86e792c06146f9--

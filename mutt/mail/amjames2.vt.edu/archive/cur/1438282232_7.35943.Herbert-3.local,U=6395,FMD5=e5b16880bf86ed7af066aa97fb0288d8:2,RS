@@ -1,0 +1,435 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1342731qgt;
+        Wed, 22 Apr 2015 09:12:47 -0700 (PDT)
+X-Received: by 10.55.41.93 with SMTP id p90mr48802175qkh.98.1429719167156;
+        Wed, 22 Apr 2015 09:12:47 -0700 (PDT)
+Return-Path: <chemvarun@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id f53si5466775qge.68.2015.04.22.09.12.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 22 Apr 2015 09:12:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of chemvarun@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of chemvarun@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=chemvarun@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wi0-x230.google.com (mail-wi0-x230.google.com [IPv6:2a00:1450:400c:c05::230])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3MGCd9i012681
+	for <amjames2@vt.edu>; Wed, 22 Apr 2015 12:12:44 -0400
+Received: by wizk4 with SMTP id k4so184235237wiz.1
+        for <amjames2@vt.edu>; Wed, 22 Apr 2015 09:12:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=27P/EoPGaUhmEDqxPYpTubYun7YAxInZX+EDPuCqf6Y=;
+        b=qpMB/VybQV6uui+i17rUTRGCHoEoCEuyf7OwjawjZz/SmgytX+DeHb9xkNRpe+JoWO
+         wgEohO7bwi9iqqnf9NF4eB2stIti/W+GJ8fV9oniQeOfh0OPKcr7iO1BYdIZkCmjelEU
+         pLZFkAzCMXsv1Gv9oxp5B+lQf18b005CDyJ6KPyby816qaW6zhqajyNq4wafTkkMuo97
+         SL7peUMwosmya1duAazhP4xn53e9MiaI4zb/5NatxDSoIlskc947q2vOU1ZuwHxvKNuO
+         VDRrX/SupDOJ4BR+RP67n70+Sq1DMBmQUcoT0rQaluwtaEIiVne/gambmkGPVI4kcaYY
+         Cz4w==
+MIME-Version: 1.0
+X-Received: by 10.180.109.6 with SMTP id ho6mr7294054wib.58.1429719158776;
+ Wed, 22 Apr 2015 09:12:38 -0700 (PDT)
+Received: by 10.27.198.130 with HTTP; Wed, 22 Apr 2015 09:12:38 -0700 (PDT)
+In-Reply-To: <CA+58rsDSAcrMXAKsqX11aE+LXuyYCJ_RcTakRS_Tc1K7aPh02g@mail.gmail.com>
+References: <F22F255A-FE2D-408C-BB10-7616DA45BEB8@vt.edu>
+	<CAAtVcpYoCpkws7cCioTmPAhyRTE5PkCO-WRuX07pLmGp6qQ+pA@mail.gmail.com>
+	<CAAtVcpaAzeeokeBv5AiYT44xUzx5xhQy3BLp+WrnF7XK261ACg@mail.gmail.com>
+	<CE12A85D-C960-41E9-BC6B-3735BB587614@vt.edu>
+	<CAAtVcpaOfTo=1oHADEwAMKe-4P1cYdee22Ye_HC+g3BJTXKxkg@mail.gmail.com>
+	<CA+58rsAJP6yH__TTq-Whgp=Wq_gqPmQTip=06SscemiJ3WWzig@mail.gmail.com>
+	<CA+58rsDSAcrMXAKsqX11aE+LXuyYCJ_RcTakRS_Tc1K7aPh02g@mail.gmail.com>
+Date: Wed, 22 Apr 2015 21:42:38 +0530
+Message-ID: <CAAtVcpayP5Mr2biCxHv_HJWga6xGrj=wiLV2tQXmprTHzp3QoA@mail.gmail.com>
+Subject: Re: Molecular Response Properties Summer School -- Visa applciations
+From: Varun Kundi <chemvarun@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=e89a8f3ba5f39668f10514526e62
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--e89a8f3ba5f39668f10514526e62
+Content-Type: text/plain; charset=ISO-8859-1
+
+Actually You were talking about some second letter that I am about to
+receive soon. Will that not be necessary?
+
+On Wed, Apr 22, 2015 at 8:54 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Varun,
+>
+> You can go ahead and apply for your visa at any time.
+>
+> Thanks
+>
+> Andrew James
+>
+> Graduate Teaching Assistant
+> Virginia Tech
+> Chemistry Department
+> amjames2@vt.edu
+>
+> On Wed, Apr 22, 2015 at 11:23 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>>
+>>
+>> Andrew James
+>>
+>> Graduate Teaching Assistant
+>> Virginia Tech
+>> Chemistry Department
+>> amjames2@vt.edu
+>>
+>> On Wed, Apr 22, 2015 at 5:14 AM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>
+>>> When I am supposed to apply for VISA?
+>>>
+>>> On Wed, Apr 22, 2015 at 12:03 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>
+>>>> Varun,
+>>>>
+>>>> This is all I need for right now. I will let you know if that changes.
+>>>>
+>>>> Thanks
+>>>> --Andrew
+>>>> Andrew M. James
+>>>> Graduate Student
+>>>> Virginia Tech.
+>>>>
+>>>> On Apr 21, 2015, at 1:20 PM, Varun Kundi <chemvarun@gmail.com> wrote:
+>>>>
+>>>>
+>>>>
+>>>> On Tue, Apr 21, 2015 at 10:24 PM, Varun Kundi <chemvarun@gmail.com>
+>>>> wrote:
+>>>>
+>>>>> Yes Andrew I got the mail.
+>>>>>
+>>>>> On Tue, Apr 21, 2015 at 9:32 PM, Andrew James <amjames2@vt.edu> wrote:
+>>>>>
+>>>>>> Hello Varun, Erik, and Mohammad,
+>>>>>>
+>>>>>> I have joined these email threads because this information is
+>>>>>> pertinent to all of you.  In order for you to apply for a visa to come to
+>>>>>> the program we will have to fill out some forms here so that international
+>>>>>> affairs can  send the appropriate documentation to the state department to
+>>>>>> go with your visa application.  I will be filling that form out on behalf
+>>>>>> of Dr. Crawford who will be acting as the host faculty for your visit.
+>>>>>> When you complete the visa application you will be asked to give a contact
+>>>>>> person; Dr. Crawford should be that person.  Any information you need for
+>>>>>> him can be found at his personal webpage:
+>>>>>>
+>>>>>> www.crawford.chem.vt.edu/
+>>>>>>
+>>>>>> I will require a CV to go with the forms I need to submit.  This is
+>>>>>> not an application, as you have all been registered for the school already.
+>>>>>> I only need the CV as a formality, the international student services
+>>>>>> department is required by US law to have a CV/resume on file for academic
+>>>>>> visitors.  If any of this is unclear please let me know, and I will try to
+>>>>>> clear anything up. Thanks for bearing with me.
+>>>>>>
+>>>>>> Varun, If you could just reply to confirm you got this message since
+>>>>>> we had problems using this email address in the past.
+>>>>>>
+>>>>>> --Andrew
+>>>>>> Andrew M. James
+>>>>>> Graduate Student
+>>>>>> Virginia Tech.
+>>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>> --
+>>>>> With Regards
+>>>>>
+>>>>> *Varun Kundi* (Research Scholar)
+>>>>> Theoretical Chemistry Lab,
+>>>>> Department of Chemistry
+>>>>> *Indian Institute of Technology, Roorkee.*
+>>>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>>>> Phone- 01332-286228 (O), 09458113440(M)
+>>>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>>>
+>>>>
+>>>>
+>>>>
+>>>> --
+>>>> With Regards
+>>>>
+>>>> *Varun Kundi* (Research Scholar)
+>>>> Theoretical Chemistry Lab,
+>>>> Department of Chemistry
+>>>> *Indian Institute of Technology, Roorkee.*
+>>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>>> Phone- 01332-286228 (O), 09458113440(M)
+>>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>>  <Varun_Kundi_CV.doc>
+>>>>
+>>>>
+>>>>
+>>>
+>>>
+>>> --
+>>> With Regards
+>>>
+>>> *Varun Kundi* (Research Scholar)
+>>> Theoretical Chemistry Lab,
+>>> Department of Chemistry
+>>> *Indian Institute of Technology, Roorkee.*
+>>> Roorkee- 247 667 , UTTARAKHAND , INDIA
+>>> Phone- 01332-286228 (O), 09458113440(M)
+>>> Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+>>>
+>>
+>>
+>
+
+
+-- 
+With Regards
+
+*Varun Kundi* (Research Scholar)
+Theoretical Chemistry Lab,
+Department of Chemistry
+*Indian Institute of Technology, Roorkee.*
+Roorkee- 247 667 , UTTARAKHAND , INDIA
+Phone- 01332-286228 (O), 09458113440(M)
+Email- bmrvkdcy@iitr.ernet.in , chemvarun@gmail.com
+
+--e89a8f3ba5f39668f10514526e62
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Actually You were talking about some second letter that I =
+am about to receive soon. Will that not be necessary?</div><div class=3D"gm=
+ail_extra"><br><div class=3D"gmail_quote">On Wed, Apr 22, 2015 at 8:54 PM, =
+Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" targe=
+t=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex"><div dir=3D"ltr">Varun,&nbsp;<div><br></div><div>You can go ahead=
+ and apply for your visa at any time. &nbsp;</div><div><br></div><div>Thank=
+s</div></div><div class=3D"gmail_extra"><span class=3D""><br clear=3D"all">=
+<div><div><div dir=3D"ltr">Andrew James&nbsp;<div><br><div>Graduate Teachin=
+g Assistant&nbsp;<br><div>Virginia Tech&nbsp;</div></div><div>Chemistry Dep=
+artment&nbsp;</div></div><div><a href=3D"mailto:amjames2@vt.edu" target=3D"=
+_blank">amjames2@vt.edu</a></div></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Wed, Apr 22=
+, 2015 at 11:23 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:am=
+james2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex"><div dir=3D"ltr"><br></div><div class=3D"gmai=
+l_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">Andrew James&nbsp;<di=
+v><br><div>Graduate Teaching Assistant&nbsp;<br><div>Virginia Tech&nbsp;</d=
+iv></div><div>Chemistry Department&nbsp;</div></div><div><a href=3D"mailto:=
+amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a></div></div></div></d=
+iv><div><div>
+<br><div class=3D"gmail_quote">On Wed, Apr 22, 2015 at 5:14 AM, Varun Kundi=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:chemvarun@gmail.com" target=3D"_bl=
+ank">chemvarun@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmai=
+l_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left=
+:1ex"><div dir=3D"ltr">When I am supposed to apply for VISA?</div><div><div=
+><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Apr 22, =
+2015 at 12:03 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amja=
+mes2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><bl=
+ockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #=
+ccc solid;padding-left:1ex"><div style=3D"word-wrap:break-word">Varun,<div>=
+<br></div><div>This is all I need for right now. I will let you know if tha=
+t changes.&nbsp;</div><div><br></div><div>Thanks&nbsp;</div><span><div>&mda=
+sh;Andrew&nbsp;</div><div>Andrew M. James&nbsp;</div><div>Graduate Student<=
+/div></span><div>Virginia Tech.&nbsp;<br><div><blockquote type=3D"cite"><di=
+v><div><div>On Apr 21, 2015, at 1:20 PM, Varun Kundi &lt;<a href=3D"mailto:=
+chemvarun@gmail.com" target=3D"_blank">chemvarun@gmail.com</a>&gt; wrote:</=
+div><br></div></div><div><div><div><div dir=3D"ltr"><br></div><div class=3D=
+"gmail_extra"><br><div class=3D"gmail_quote">On Tue, Apr 21, 2015 at 10:24 =
+PM, Varun Kundi <span dir=3D"ltr">&lt;<a href=3D"mailto:chemvarun@gmail.com=
+" target=3D"_blank">chemvarun@gmail.com</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc sol=
+id;padding-left:1ex"><div dir=3D"ltr">Yes Andrew I got the mail.</div><div =
+class=3D"gmail_extra"><div><div><br><div class=3D"gmail_quote">On Tue, Apr =
+21, 2015 at 9:32 PM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:a=
+mjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div style=3D"word-wrap:break-word">Hello Va=
+run, Erik, and Mohammad, &nbsp;<div><br></div><div>I have joined these emai=
+l threads because this information is pertinent to all of you.&nbsp; In ord=
+er for you to apply for a visa to come to the program we will have to fill =
+out some forms here so that international affairs can &nbsp;send the approp=
+riate documentation to the state department to go with your visa applicatio=
+n.&nbsp; I will be filling that form out on behalf of Dr. Crawford who will=
+ be acting as the host faculty for your visit.&nbsp; When you complete the =
+visa application you will be asked to give a contact person; Dr. Crawford s=
+hould be that person.&nbsp; Any information you need for him can be found a=
+t his personal webpage:&nbsp;</div><div><br></div><div><a href=3D"http://ww=
+w.crawford.chem.vt.edu/" target=3D"_blank">www.crawford.chem.vt.edu/</a></d=
+iv><div><br></div><div>I will require a CV to go with the forms I need to s=
+ubmit.&nbsp; This is not an application, as you have all been registered fo=
+r the school already. I only need the CV as a formality, the international =
+student services department is required by US law to have a CV/resume on fi=
+le for academic visitors.&nbsp; If any of this is unclear please let me kno=
+w, and I will try to clear anything up. Thanks for bearing with me. &nbsp;<=
+/div><div><br></div><div>Varun, If you could just reply to confirm you got =
+this message since we had problems using this email address in the past. &n=
+bsp;</div><div><br></div><div>&mdash;Andrew</div><div>Andrew M. James&nbsp;=
+</div><div>Graduate Student&nbsp;</div><div>Virginia Tech.&nbsp;</div></div=
+></blockquote></div><br><br clear=3D"all"><div><br></div></div></div><span>=
+<font color=3D"#888888">-- <br><div><div dir=3D"ltr"><div style=3D"text-ali=
+gn:left"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fo=
+nt-size:13px;background-color:rgb(255,255,255)">With Regards</span></div><d=
+iv style=3D"text-align:left"><br style=3D"color:rgb(34,34,34);font-family:a=
+rial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span sty=
+le=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backg=
+round-color:rgb(255,255,255)"><b>Varun Kundi</b> (Research Scholar)</span><=
+br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px=
+;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+Theoretical Chemistry Lab,</span><br style=3D"color:rgb(34,34,34);font-fami=
+ly:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span=
+ style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;b=
+ackground-color:rgb(255,255,255)">Department of Chemistry</span><br style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><b>India=
+n Institute of Technology, Roorkee.</b></span><br style=3D"color:rgb(34,34,=
+34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,25=
+5,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fon=
+t-size:13px;background-color:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHA=
+ND , INDIA</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-se=
+rif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:=
+rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:=
+rgb(255,255,255)">Phone- 01332-286228 (O), 09458113440(M)</span><br style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">Email-&n=
+bsp;</span><a href=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,=
+85,204);font-family:arial,sans-serif;font-size:13px;background-color:rgb(25=
+5,255,255)" target=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D"colo=
+r:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-colo=
+r:rgb(255,255,255)">&nbsp;,&nbsp;</span><a href=3D"mailto:chemvarun@gmail.c=
+om" style=3D"color:rgb(17,85,204);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com=
+</a></div></div></div>
+</font></span></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div><div di=
+r=3D"ltr"><div style=3D"text-align:left"><span style=3D"color:rgb(34,34,34)=
+;font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,2=
+55)">With Regards</span></div><div style=3D"text-align:left"><br style=3D"c=
+olor:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-c=
+olor:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial=
+,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><b>Varun Kund=
+i</b> (Research Scholar)</span><br style=3D"color:rgb(34,34,34);font-family=
+:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span s=
+tyle=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;bac=
+kground-color:rgb(255,255,255)">Theoretical Chemistry Lab,</span><br style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">Departme=
+nt of Chemistry</span><br style=3D"color:rgb(34,34,34);font-family:arial,sa=
+ns-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"c=
+olor:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-c=
+olor:rgb(255,255,255)"><b>Indian Institute of Technology, Roorkee.</b></spa=
+n><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);f=
+ont-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255=
+)">Roorkee- 247 667 , UTTARAKHAND , INDIA</span><br style=3D"color:rgb(34,3=
+4,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,=
+255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;f=
+ont-size:13px;background-color:rgb(255,255,255)">Phone- 01332-286228 (O), 0=
+9458113440(M)</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans=
+-serif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"col=
+or:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-col=
+or:rgb(255,255,255)">Email-&nbsp;</span><a href=3D"mailto:bmrvkdcy@iitr.ern=
+et.in" style=3D"color:rgb(17,85,204);font-family:arial,sans-serif;font-size=
+:13px;background-color:rgb(255,255,255)" target=3D"_blank">bmrvkdcy@iitr.er=
+net.in</a><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;f=
+ont-size:13px;background-color:rgb(255,255,255)">&nbsp;,&nbsp;</span><a hre=
+f=3D"mailto:chemvarun@gmail.com" style=3D"color:rgb(17,85,204);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)" target=
+=3D"_blank">chemvarun@gmail.com</a></div></div></div>
+</div>
+</div></div><span>&lt;Varun_Kundi_CV.doc&gt;</span></div></blockquote></div=
+><br></div></div></blockquote></div><br><br clear=3D"all"><div><br></div>--=
+ <br><div><div dir=3D"ltr"><div style=3D"text-align:left"><span style=3D"co=
+lor:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-co=
+lor:rgb(255,255,255)">With Regards</span></div><div style=3D"text-align:lef=
+t"><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:=
+13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);=
+font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,25=
+5)"><b>Varun Kundi</b> (Research Scholar)</span><br style=3D"color:rgb(34,3=
+4,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,=
+255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;f=
+ont-size:13px;background-color:rgb(255,255,255)">Theoretical Chemistry Lab,=
+</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-s=
+ize:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,=
+34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,25=
+5,255)">Department of Chemistry</span><br style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+<span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)"><b>Indian Institute of Technology, R=
+oorkee.</b></span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-s=
+erif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color=
+:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color=
+:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHAND , INDIA</span><br style=
+=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backgro=
+und-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">Phone- 0=
+1332-286228 (O), 09458113440(M)</span><br style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+<span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)">Email-&nbsp;</span><a href=3D"mailto=
+:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,85,204);font-family:arial,sa=
+ns-serif;font-size:13px;background-color:rgb(255,255,255)" target=3D"_blank=
+">bmrvkdcy@iitr.ernet.in</a><span style=3D"color:rgb(34,34,34);font-family:=
+arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">&nbsp;,&=
+nbsp;</span><a href=3D"mailto:chemvarun@gmail.com" style=3D"color:rgb(17,85=
+,204);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,=
+255,255)" target=3D"_blank">chemvarun@gmail.com</a></div></div></div>
+</div>
+</div></div></blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div class=
+=3D"gmail_signature"><div dir=3D"ltr"><div style=3D"text-align:left"><span =
+style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;ba=
+ckground-color:rgb(255,255,255)">With Regards</span></div><div style=3D"tex=
+t-align:left"><br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif=
+;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color:rgb=
+(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb=
+(255,255,255)"><b>Varun Kundi</b> (Research Scholar)</span><br style=3D"col=
+or:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-col=
+or:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,s=
+ans-serif;font-size:13px;background-color:rgb(255,255,255)">Theoretical Che=
+mistry Lab,</span><br style=3D"color:rgb(34,34,34);font-family:arial,sans-s=
+erif;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"color=
+:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color=
+:rgb(255,255,255)">Department of Chemistry</span><br style=3D"color:rgb(34,=
+34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255=
+,255,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;=
+font-size:13px;background-color:rgb(255,255,255)"><b>Indian Institute of Te=
+chnology, Roorkee.</b></span><br style=3D"color:rgb(34,34,34);font-family:a=
+rial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"><span sty=
+le=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;backg=
+round-color:rgb(255,255,255)">Roorkee- 247 667 , UTTARAKHAND , INDIA</span>=
+<br style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13p=
+x;background-color:rgb(255,255,255)"><span style=3D"color:rgb(34,34,34);fon=
+t-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)"=
+>Phone- 01332-286228 (O), 09458113440(M)</span><br style=3D"color:rgb(34,34=
+,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(255,2=
+55,255)"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;fo=
+nt-size:13px;background-color:rgb(255,255,255)">Email-&nbsp;</span><a href=
+=3D"mailto:bmrvkdcy@iitr.ernet.in" style=3D"color:rgb(17,85,204);font-famil=
+y:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)" target=
+=3D"_blank">bmrvkdcy@iitr.ernet.in</a><span style=3D"color:rgb(34,34,34);fo=
+nt-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)=
+">&nbsp;,&nbsp;</span><a href=3D"mailto:chemvarun@gmail.com" style=3D"color=
+:rgb(17,85,204);font-family:arial,sans-serif;font-size:13px;background-colo=
+r:rgb(255,255,255)" target=3D"_blank">chemvarun@gmail.com</a></div></div></=
+div>
+</div>
+
+--e89a8f3ba5f39668f10514526e62--

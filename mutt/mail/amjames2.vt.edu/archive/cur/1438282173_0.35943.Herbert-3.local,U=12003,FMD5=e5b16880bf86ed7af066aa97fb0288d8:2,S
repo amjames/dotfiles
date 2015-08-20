@@ -1,0 +1,44 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2456292qgt;
+        Tue, 14 Jul 2015 09:03:35 -0700 (PDT)
+X-Received: by 10.140.46.67 with SMTP id j61mr33854710qga.17.1436889815364;
+        Tue, 14 Jul 2015 09:03:35 -0700 (PDT)
+Return-Path: <no-reply@blueridge.arc.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id o24si1613439qko.1.2015.07.14.09.03.35
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Jul 2015 09:03:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender) smtp.mail=no-reply@blueridge.arc.vt.edu
+Received: from aquifer.cc.vt.edu ([IPv6:2001:468:c80:2104:219:b9ff:feea:d908])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6EG3Taf031797
+	for <amjames2@vt.edu>; Tue, 14 Jul 2015 12:03:35 -0400
+Received: from bradmin1.arc.vt.edu.mgt (bradmin1.cluster [10.11.0.1])
+	by aquifer.cc.vt.edu (Postfix) with ESMTP id CFF713605A
+	for <amjames2@vt.edu>; Tue, 14 Jul 2015 12:03:29 -0400 (EDT)
+Received: by bradmin1.arc.vt.edu.mgt (Postfix, from userid 0)
+	id CEFB320BA0; Tue, 14 Jul 2015 12:03:29 -0400 (EDT)
+To: amjames2@vt.edu
+Subject: PBS JOB 166407.master.cluster
+Precedence: bulk
+Message-Id: <20150714160329.CEFB320BA0@bradmin1.arc.vt.edu.mgt>
+Date: Tue, 14 Jul 2015 12:03:29 -0400 (EDT)
+From: no-reply@blueridge.arc.vt.edu (root)
+X-Spam-Status: No, score=1.3 required=5.0 tests=RDNS_NONE,TVD_SPACE_RATIO
+	autolearn=disabled version=3.3.1
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+PBS Job Id: 166407.master.cluster
+Job Name:   cfourtests
+Exec host:  br044/0+br044/1+br044/2+br044/3+br044/4+br044/5+br044/6+br044/7+br044/8+br044/9+br044/10+br044/11+br044/12+br044/13+br044/14+br044/15
+Execution terminated
+Exit_status=0 resources_used.cput=00:00:00 resources_used.mem=0kb resources_used.vmem=0kb resources_used.walltime=00:00:02
+Error_Path: brlogin1.cluster:/home/amjames2/chem/acene/test/c4/cfourtests.e166407
+Output_Path: brlogin1.cluster:/home/amjames2/chem/acene/test/c4/cfourtests.o166407

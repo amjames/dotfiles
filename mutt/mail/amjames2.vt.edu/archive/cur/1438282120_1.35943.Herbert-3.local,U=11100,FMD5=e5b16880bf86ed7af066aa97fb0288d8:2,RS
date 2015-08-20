@@ -1,0 +1,889 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp58600qgt;
+        Sun, 21 Jun 2015 08:30:27 -0700 (PDT)
+X-Received: by 10.140.41.134 with SMTP id z6mr32105538qgz.40.1434900627454;
+        Sun, 21 Jun 2015 08:30:27 -0700 (PDT)
+Return-Path: <sstoneburner1701@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id kv4si1618369qcb.18.2015.06.21.08.30.27
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 08:30:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sstoneburner1701@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of sstoneburner1701@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender) smtp.mail=sstoneburner1701@gmail.com;
+       dkim=pass header.i=@umn.edu
+Received: from mail-wi0-x232.google.com (mail-wi0-x232.google.com [IPv6:2a00:1450:400c:c05::232])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LFULua016504
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 11:30:26 -0400
+Received: by wicnd19 with SMTP id nd19so56198100wic.1
+        for <amjames2@vt.edu>; Sun, 21 Jun 2015 08:30:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :from:to:content-type;
+        bh=7VlGBfpHAYstEF8zCRvK8dGo2Tg0PxmrgXmqB9kf3VI=;
+        b=YMnbWfL560NGz4S4g7wLKXDO8C/Dmbqy5aqADY4akkFwOEtF20+6xDgD6izvzUnh1b
+         Q4bjo7m3dmm+wrt/6keUrvwO/Sj6uoiDLfE1LNoHhmAerHN1pa8tAiw0NTOchwISmLJv
+         ROhZv78l2RndMZeFZm0959clnTVhe0824g4v1yP7qnypl+Fwmjt932cNdE2YceOcKvbN
+         jEaaGUqYwiMa9t1ieCcpx02x231zFbIB/nQ6yqCvnH4YhL/bBevXl1RrmDTVOqB96u8r
+         jKUct+2P516ZkirB64jOQWGAl18qfRQcAmCxpImppLAlJxEEl3Fq6WNTYgNfBXi2IDEn
+         u4JQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=umn.edu; s=google;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :from:to:content-type;
+        bh=7VlGBfpHAYstEF8zCRvK8dGo2Tg0PxmrgXmqB9kf3VI=;
+        b=KL9JHjeIj5lEPzpSpw1pxDGg/hqtyl3AUk7reJKQLlNqjV5SA59+H68kqSFT66TRM7
+         eDXDfWWfyE2eziRXbigvXpvCuB9L914lZ69yr/z7mUugL3n5mbretjMzgCooS3ftHlCV
+         Wo7ZCYy/rAaa48RvHosDqKnCxbldbpAXli3AM=
+MIME-Version: 1.0
+X-Received: by 10.194.77.97 with SMTP id r1mr44297088wjw.132.1434900621020;
+ Sun, 21 Jun 2015 08:30:21 -0700 (PDT)
+Sender: sstoneburner1701@gmail.com
+Received: by 10.28.184.85 with HTTP; Sun, 21 Jun 2015 08:30:20 -0700 (PDT)
+Received: by 10.28.184.85 with HTTP; Sun, 21 Jun 2015 08:30:20 -0700 (PDT)
+In-Reply-To: <31876332.1413657.1434898913994.JavaMail.mail01@den-app-sca01>
+References: <31876332.1413657.1434898913994.JavaMail.mail01@den-app-sca01>
+Date: Sun, 21 Jun 2015 10:30:20 -0500
+X-Google-Sender-Auth: MayqDj_LmP-rRFEZ2KZa4jc5m3Q
+Message-ID: <CAGpWmvvEgGOHp8d5zXgAs2apVoERWAJbvNZpdufhVdaUDQm5bA@mail.gmail.com>
+Subject: Fwd: Last Minute Information about Your Trip
+From: Sam Stoneburner <sstonebu@umn.edu>
+To: amjames2@vt.edu
+Content-Type: multipart/alternative; boundary=047d7bfcf2f6cdd583051908d5be
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE,
+	T_REMOTE_IMAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bfcf2f6cdd583051908d5be
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+The flight that Kari Kusler, Andy Sonnenberger, and I are coming in on has
+been delayed half an hour.
+---------- Forwarded message ----------
+From: "Delta Messenger" <DeltaMessenger@delta.com>
+Date: Jun 21, 2015 11:02 AM
+Subject: Last Minute Information about Your Trip
+To: <SSTONEBU@umn.edu>
+Cc:
+
+      *A time change has occurred for your Delta flight. Please see flight
+info.*     [image: Delta]
+<http://www.delta.com/home/index.jsp?MkCpgn=3DEM_TRNX_CN_0005_BE_NT_140314_=
+TCNOMIS_H0_EN>
+*Delta.com*
+<http://www.delta.com/index.jsp?MkCpgn=3DEM_TRNX_CN_0001_BE_NT_140207_TCNOM=
+IS_H0_EN>
+| *My Trips*
+<https://www.delta.com/mytrips/findPnr.action?confirmationNo=3DHW5TZX&first=
+Name=3DSamuel%20Joseph&lastName=3DStoneburner&MKCpgn=3DEM_TRNX_CN_0002_BE_N=
+T_140207_TCNOMIS_H0_EN>
+     *Samuel
+Joseph Stoneburner*        *The times for your flight(s) have changed.
+Please review*  *your updated flight information. *   *Delta Confirmation
+#HW5TZX*             *Dear Samuel Joseph Stoneburner,*   We are trying to
+contact you because the times have changed for your flight on June 21.
+We'll look in your reservation for a telephone number and try to reach you
+there too. Please review the information below for new flight numbers,
+departure and arrival times.      *Join SkyMiles*
+<https://www.delta.com/skymilesenrollment/landing.action?MkCpgn=3DEM_TRNX_C=
+N_0004_BE_NT_140207_TCNOMIS_B0_EN>
+*Flight
+Status*
+<https://www.delta.com/dlhome/index.jsp?widgetNavOpen=3D'status/?MKCpgn=3DE=
+M_TRNX_CN_0005_BE_NT_140207_TCNOMIS_P0_EN>
+*My
+Trips*
+<https://www.delta.com/mytrips/findPnr.action?confirmationNo=3DHW5TZX&first=
+Name=3DSamuel%20Joseph&lastName=3DStoneburner&MKCpgn=3DEM_TRNX_CN_0003_BE_N=
+T_140207_TCNOMIS_B0_EN>
+*UPDATE*            *Sunday, June 21* *DELTA 4927* *Operated by ExpressJet
+Airlines*      *Departs*12:46 pm Atlanta, Georgia12:12 pm*Arrives*2:06
+pm Roanoke, Virginia1:32 pm       *Seat 10C
+<https://www.delta.com/seat/RetrieveSeatMapAction?recordLocator=3DHW5TZX&fi=
+rstName=3DSamuel%20Joseph&lastName=3DStoneburner&segmentNumber=3D02&legId=
+=3D&triggerSourceId=3DMYTRIPS&MKCpgn=3DEM_TRNX_CN_0006_BE_NT_140207_TCNOMIS=
+_P0_EN>*
+         *Please
+see airport monitors for gate information.*    We apologize for this
+interruption in your travel plans. You can check-in online or at one of our
+self service kiosks. If you already have your boarding pass, just scan the
+bar code at one of our boarding scanners or kiosks to receive your updated
+travel document.     Thank you for choosing Delta.           *Email
+Subscription* You have received this e-mail because you elected to receive
+your Flight Itinerary sent to you via e-mail.  If you would like to take
+advantage of other Delta email programs featuring special fares, promotions
+and information, please visit *delta.com/emailprograms*
+<http://www.delta.com/planning_reservations/deals_offers/email_programs/ind=
+ex.jsp?MkCpgn=3DEM_TRNX_CN_0009_BE_NT_140207_TCNOMIS_F0_EN>
+.  =C2=A9 2015 Delta Air Lines, Inc.  All rights reserved. Delta Blvd. P.O.=
+ Box
+20706 Atlanta, GA 30320-6001
+
+--047d7bfcf2f6cdd583051908d5be
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">The flight that Kari Kusler, Andy Sonnenberger, and I are co=
+ming in on has been delayed half an hour.</p>
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>From:=
+ &quot;Delta Messenger&quot; &lt;<a href=3D"mailto:DeltaMessenger@delta.com=
+">DeltaMessenger@delta.com</a>&gt;<br>Date: Jun 21, 2015 11:02 AM<br>Subjec=
+t: Last Minute Information about Your Trip<br>To:  &lt;<a href=3D"mailto:SS=
+TONEBU@umn.edu">SSTONEBU@umn.edu</a>&gt;<br>Cc: <br><br type=3D"attribution=
+"><u></u>
+
+
+
+
+<div style=3D"OVERFLOW-Y:scroll" bgcolor=3D"#f9f9f9" background=3D"http://c=
+ontent.delta.com/content/dam/delta_messenger/dr0rf1_bg_gradient.gif">
+<center>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"680" bgcolor=3D"#ffffff=
+" border=3D"0">
+  <tbody>
+  <tr>
+    <td valign=3D"top" align=3D"left" width=3D"680" bgcolor=3D"#ececec" col=
+span=3D"3">
+      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"680" border=3D"0"=
+>
+        <tbody>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"680"><img style=3D"DISPLAY:block" height=3D"10" alt=3D"" src=3D"http://=
+content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"6=
+80" border=3D"0"></td></tr>
+                        <tr>
+                            <td width=3D"680" align=3D"center" valign=3D"to=
+p" style=3D"line-height:0.9em"><font style=3D"font-size:11px;line-height:16=
+px" face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D"#333333"><b>A t=
+ime change has occurred for your Delta flight.  Please see flight info.</b>=
+</font></td>
+                        </tr>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"680"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" src=3D"http://=
+content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"1=
+" border=3D"0"></td></tr></tbody></table></td></tr>
+  <tr>
+    <td valign=3D"top" align=3D"left" width=3D"680" colspan=3D"3">
+      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"680" border=3D"0"=
+>
+        <tbody>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"35"><img style=3D"DISPLAY:block" height=3D"55" alt=3D"" src=3D"http://c=
+ontent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"35=
+" border=3D"0"></td>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"middle" align=3D"left" wi=
+dth=3D"170"><a href=3D"http://www.delta.com/home/index.jsp?MkCpgn=3DEM_TRNX=
+_CN_0005_BE_NT_140314_TCNOMIS_H0_EN" target=3D"_blank"><img style=3D"DISPLA=
+Y:block" height=3D"24" alt=3D"Delta" src=3D"http://content.delta.com/conten=
+t/dam/delta_messenger/dr0rf1_logo.gif" width=3D"170" border=3D"0"></a></td>
+          <td valign=3D"top" align=3D"left" width=3D"440">
+            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"440" border=
+=3D"0">
+              <tbody>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"440"><img style=3D"DISPLAY:block" height=3D"10" alt=3D"" src=3D"h=
+ttp://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" widt=
+h=3D"440" border=3D"0"></td></tr>
+              <tr>
+                <td valign=3D"top" align=3D"left" width=3D"440">
+                  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"440" =
+border=3D"0">
+                    <tbody>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"right" width=3D"220"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"220" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"15"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"15" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"right" width=3D"5"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"5" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"10" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:.9em" valign=3D"top" align=
+=3D"left" width=3D"50"><font style=3D"FONT-SIZE:11px" face=3D"Tahoma, Verda=
+na" color=3D"#006699"><a href=3D"http://www.delta.com/index.jsp?MkCpgn=3DEM=
+_TRNX_CN_0001_BE_NT_140207_TCNOMIS_H0_EN" target=3D"_blank"><font color=3D"=
+#006699"><u>Delta.com</u></font></a></font></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"2"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"2" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"center" width=3D"8"><font style=3D"FONT-SIZE:11px" face=3D"Tahoma, Verd=
+ana" color=3D"#c01933">
+                        |</font></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"2"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"2" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"right" width=3D"50"><font style=3D"FONT-SIZE:11px" face=3D"Tahoma, Verd=
+ana" color=3D"#006699"><a href=3D"https://www.delta.com/mytrips/findPnr.act=
+ion?confirmationNo=3DHW5TZX&amp;firstName=3DSamuel%20Joseph&amp;lastName=3D=
+Stoneburner&amp;MKCpgn=3DEM_TRNX_CN_0002_BE_NT_140207_TCNOMIS_H0_EN" target=
+=3D"_blank"><font color=3D"#006699"><u>My Trips</u></font></a></font></td><=
+/tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"220"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"220" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"15"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"15" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"5" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"10" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"50"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"50" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"2"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"2" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"8"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"8" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"2"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"2" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"50"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=
+=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif"=
+ width=3D"50" border=3D"0"></td></tr></tbody></table></td>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=3D"rig=
+ht" width=3D"440"><font style=3D"FONT-SIZE:11px" face=3D"Tahoma, Verdana" c=
+olor=3D"#333333"><b>Samuel Joseph Stoneburner</b></font></td></tr>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"440"><img style=3D"DISPLAY:block" height=3D"10" alt=3D"" src=3D"h=
+ttp://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" widt=
+h=3D"440" border=3D"0"></td></tr></tr></tbody></table></td>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"35"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"http://co=
+ntent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"35"=
+ border=3D"0"></td></tr></tbody></table></td></tr>
+            <tr>
+                <td width=3D"680" align=3D"left" valign=3D"top" colspan=3D"=
+3" bgcolor=3D"#003366">
+                    <table width=3D"680" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0">
+                        <tr>
+                            <td width=3D"680" colspan=3D"4" align=3D"left" =
+valign=3D"top" style=3D"line-height:0px"><img src=3D"http://content.delta.c=
+om/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=3D"680" he=
+ight=3D"15" border=3D"0" style=3D"display:block"></td>
+                        </tr>
+                        <tr>
+                            <td width=3D"35" align=3D"left" valign=3D"top" =
+style=3D"line-height:0px"><img src=3D"http://content.delta.com/content/dam/=
+delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=3D"35" height=3D"1" borde=
+r=3D"0" style=3D"display:block"></td>
+                            <td width=3D"526" align=3D"left" valign=3D"top"=
+>
+                                <table width=3D"526" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+                                    <tr>
+                                        <td width=3D"526" align=3D"left" va=
+lign=3D"top" style=3D"line-height:0.9em"><font style=3D"font-size:15px;line=
+-height:20px" face=3D"Tahoma, Verdana" color=3D"#ffffff"><b>The times for y=
+our flight(s) have changed.  Please review</b></font></td>
+                                  </tr>
+                                    <tr>
+                                        <td width=3D"526" align=3D"left" va=
+lign=3D"top" style=3D"line-height:0.9em"><font style=3D"font-size:15px;line=
+-height:20px" face=3D"Tahoma, Verdana" color=3D"#ffffff"><b>your updated fl=
+ight information. </b></font></td>
+                                    </tr>
+                                    <tr>
+                                        <td width=3D"526" align=3D"left" va=
+lign=3D"top" style=3D"line-height:0px"><img src=3D"http://content.delta.com=
+/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=3D"526" heig=
+ht=3D"8" border=3D"0" style=3D"display:block"></td>
+                                    </tr>
+                                    <tr>
+                                        <td width=3D"526" align=3D"left" va=
+lign=3D"top" style=3D"line-height:0.9em"><font style=3D"font-size:11px;line=
+-height:16px" face=3D"Tahoma, Verdana" color=3D"#ffffff"><b>Delta Confirmat=
+ion #HW5TZX</b></font></td>
+                                    </tr>
+                                    <tr>
+                                        <td width=3D"526" align=3D"left" va=
+lign=3D"top" style=3D"line-height:0px"><img src=3D"http://content.delta.com=
+/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=3D"1" height=
+=3D"15" border=3D"0" style=3D"display:block"></td>
+                                    </tr>
+                                </table>
+                            </td>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"35"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"http://co=
+ntent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"35"=
+ border=3D"0"></td></tr></table></td></tr></tbody></table>
+  <table><tr>
+    <td style=3D"LINE-HEIGHT:0px;padding:0px" valign=3D"top" align=3D"left"=
+ width=3D"7" bgcolor=3D"#003366"><img style=3D"DISPLAY:block" height=3D"1" =
+alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1=
+_spacer.gif" width=3D"7" border=3D"0"></td>
+    <td valign=3D"top" align=3D"left" width=3D"666" style=3D"background-col=
+or:#fff">
+      <table cellspacing=3D"0" cellpadding=3D"0" width=3D"666" border=3D"0"=
+>
+        <tbody>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"666"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" src=3D"http://=
+content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"1=
+" border=3D"0"></td></tr>
+        <tr>
+          <td valign=3D"top" align=3D"left" width=3D"666">
+            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"666" border=
+=3D"0">
+              <tbody>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"28"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"28" border=3D"0"></td>
+                <td valign=3D"top" align=3D"left" width=3D"610">
+                  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"610px=
+" border=3D"0">
+                    <tbody>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"middle" ali=
+gn=3D"left" width=3D"605px"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:16px"=
+ face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D"#333333"><b>Dear S=
+amuel Joseph=C2=A0Stoneburner,</b></font></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"5px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"605px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" =
+src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.g=
+if" width=3D"605px" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"5px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"5px" border=3D"0"></td></tr>
+                                                <tr>
+                                                  <td width=3D"605px" align=
+=3D"left" valign=3D"middle" style=3D"line-height:0.9em"><font style=3D"font=
+-size:11px;line-height:16px" face=3D"Verdana, Arial, Helvetica, sans-serif"=
+ color=3D"#333333">We are trying to contact you because the times have chan=
+ged for your flight on June 21. We&#39;ll look in your reservation for a te=
+lephone number and try to reach you there too. Please review the informatio=
+n below for new flight numbers, departure and arrival times.</font></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=
+=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=3D"605px" ali=
+gn=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://con=
+tent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" widt=
+h=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=
+=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+                    <tr>
+                      <td valign=3D"top" align=3D"right" width=3D"610" cols=
+pan=3D"2">
+                        <table cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"610" border=3D"0">
+                          <tbody>
+                          <tr>
+                            <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" =
+align=3D"right" width=3D"425"><font style=3D"FONT-SIZE:11px" face=3D"Verdan=
+a, Arial, Helvetica, sans-serif" color=3D"#006699"><a href=3D"https://www.d=
+elta.com/skymilesenrollment/landing.action?MkCpgn=3DEM_TRNX_CN_0004_BE_NT_1=
+40207_TCNOMIS_B0_EN" target=3D"_blank"><font color=3D"#006699"><u>Join=20
+                              SkyMiles</u></font></a></font></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"=
+" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer=
+.gif" width=3D"10" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" =
+align=3D"center" width=3D"80"><font style=3D"FONT-SIZE:11px" face=3D"Verdan=
+a, Arial, Helvetica, sans-serif" color=3D"#006699"><a href=3D"https://www.d=
+elta.com/dlhome/index.jsp?widgetNavOpen=3D&#39;status/?MKCpgn=3DEM_TRNX_CN_=
+0005_BE_NT_140207_TCNOMIS_P0_EN" target=3D"_blank"><font color=3D"#006699">=
+<u>Flight Status</u></font>
+                            </a></font></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"=
+" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer=
+.gif" width=3D"10" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" =
+align=3D"left" width=3D"85"><font style=3D"FONT-SIZE:11px" face=3D"Verdana,=
+ Arial, Helvetica, sans-serif" color=3D"#006699"><a href=3D"https://www.del=
+ta.com/mytrips/findPnr.action?confirmationNo=3DHW5TZX&amp;firstName=3DSamue=
+l%20Joseph&amp;lastName=3DStoneburner&amp;MKCpgn=3DEM_TRNX_CN_0003_BE_NT_14=
+0207_TCNOMIS_B0_EN" target=3D"_blank"><font color=3D"#006699"><u>My Trips</=
+u></font>
+                          </a></font></td></tr>
+                          <tr>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"right" width=3D"425"><img style=3D"DISPLAY:block" height=3D"5" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"1" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"5" alt=3D"=
+" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer=
+.gif" width=3D"10" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"right" width=3D"80"><img style=3D"DISPLAY:block" height=3D"5" alt=3D=
+"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_space=
+r.gif" width=3D"1" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"10"><img style=3D"DISPLAY:block" height=3D"5" alt=3D"=
+" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer=
+.gif" width=3D"10" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"right" width=3D"85"><img style=3D"DISPLAY:block" height=3D"5" alt=3D=
+"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_space=
+r.gif" width=3D"80" border=3D"0"></td></tr></tbody></table></td></tr></tbod=
+y></table></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"28"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"28" border=3D"0"></td></tr></tbody></table></td></tr>
+        <tr>
+          <td valign=3D"top" align=3D"left" width=3D"666" bgcolor=3D"#f1f5f=
+8">
+            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"666" border=
+=3D"0">
+              <tbody>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"15" bgcolor=3D"#ffffff"><img style=3D"DISPLAY:block" height=3D"1"=
+ alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf=
+1_spacer.gif" width=3D"15" border=3D"0"></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"15"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"15" border=3D"0"></td>
+                <td valign=3D"top" align=3D"left" width=3D"606">
+                  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"606" =
+border=3D"0">
+                    <tbody>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"606"><img style=3D"DISPLAY:block" height=3D"10" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr>
+                    <tr>
+                      <td valign=3D"top" align=3D"left" width=3D"606">
+                        <table cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"606" border=3D"0">
+                          <tbody>
+                          <tr>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"175"><img style=3D"DISPLAY:block" height=3D"1" alt=3D=
+"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_space=
+r.gif" width=3D"175" border=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"265">
+                              <table cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"264" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"1" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5" bgcolor=3D"#003366"><img style=3D"DISPLAY:bloc=
+k" height=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_=
+messenger/dr0rf1_spacer.gif" width=3D"5" border=3D"0"></td>
+                                <td valign=3D"top" align=3D"left" width=3D"=
+65" bgcolor=3D"#003366">
+                                <table cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"65" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"65"><img style=3D"DISPLAY:block" height=3D"1" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"65" border=3D"0"></td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"t=
+op" align=3D"center" width=3D"65"><font style=3D"FONT-SIZE:10px" face=3D"Ta=
+homa, Verdana" color=3D"#ffffff"><b>UPDATE</b></font></td></tr></tbody></ta=
+ble></td>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5" bgcolor=3D"#003366"><img style=3D"DISPLAY:bloc=
+k" height=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_=
+messenger/dr0rf1_spacer.gif" width=3D"5" border=3D"0"></td>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"185"><img style=3D"DISPLAY:block" height=3D"1" al=
+t=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_s=
+pacer.gif" width=3D"185" border=3D"0"></td></tr></tbody></table></td>
+                            <td valign=3D"top" align=3D"left" width=3D"84">=
+<img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"http://content.de=
+lta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"84" border=
+=3D"0"></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"81"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"=
+" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer=
+.gif" width=3D"81" border=3D"0"></td></tr></tbody></table></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"606" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" heigh=
+t=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenge=
+r/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td></tr>                   =
+ <tr>
+                      <td valign=3D"top" align=3D"left" width=3D"606">
+                        <table cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"606" border=3D"0">
+                          <tbody>
+                          <tr>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"1" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" h=
+eight=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_mess=
+enger/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td>
+                            <td valign=3D"top" align=3D"left" width=3D"179"=
+ bgcolor=3D"#ffffff"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"17=
+9" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"48" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td>
+                                <td valign=3D"top" align=3D"left" width=3D"=
+143">
+                                <table cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"143" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"143"><img style=3D"DISPLAY:block" height=3D"5" al=
+t=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_s=
+pacer.gif" width=3D"143" border=3D"0"></td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"t=
+op" align=3D"left" width=3D"143"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:=
+12px" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><b>Sunday, June 21</b></fo=
+nt></td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"t=
+op" align=3D"left" width=3D"254"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:=
+12px" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><b>DELTA 4927</b></font></=
+td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"t=
+op" align=3D"left" width=3D"254"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:=
+12px" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><i>Operated by ExpressJet =
+Airlines</i></font></td></tr></tbody></table></td>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"1" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td></tr></tbody></table></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"1" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" h=
+eight=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_mess=
+enger/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td>                    =
+        <td valign=3D"top" align=3D"left" width=3D"290" bgcolor=3D"#ffffff"=
+><table cellspacing=3D"0" cellpadding=3D"0" width=3D"290" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"48" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td>
+                                <td valign=3D"top" align=3D"left" width=3D"=
+290px" bgcolor=3D"#ffffff"><table cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"279px" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td colspan=3D"2" style=3D"LINE-HEIGHT:0px"=
+ valign=3D"top" align=3D"left"><img style=3D"DISPLAY:block" height=3D"5" al=
+t=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_s=
+pacer.gif" border=3D"0"></td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em;width:45px" =
+valign=3D"top" align=3D"left"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:12p=
+x" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><b>Departs</b></font></td><td=
+ style=3D"LINE-HEIGHT:0.9em;padding-left:4px;width:234px" valign=3D"top" al=
+ign=3D"left"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:12px" face=3D"Tahoma=
+, Verdana" color=3D"#2b2b2c">12:46 pm Atlanta, Georgia</font></td></tr><tr>=
+<td></td><td style=3D"LINE-HEIGHT:0.9em;padding-left:4px" valign=3D"top" al=
+ign=3D"left"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:12px" face=3D"Tahoma=
+, Verdana" color=3D"#858282"><s>12:12 pm</s></font></td></tr><tr><td style=
+=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=3D"left"><font style=3D"FONT-SI=
+ZE:11px;LINE-HEIGHT:12px" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><b>Arr=
+ives</b></font></td><td style=3D"LINE-HEIGHT:0.9em;padding-left:4px" valign=
+=3D"top" align=3D"left"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:12px" fac=
+e=3D"Tahoma, Verdana" color=3D"#2b2b2c">2:06 pm=C2=A0Roanoke, Virginia</fon=
+t></td></tr><tr><td></td><td style=3D"LINE-HEIGHT:0.9em;padding-left:4px" v=
+align=3D"top" align=3D"left"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:12px=
+" face=3D"Tahoma, Verdana" color=3D"#858282"><s>1:32 pm</s></font></td></tr=
+><tr><td colspan=3D"2" style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"le=
+ft"><img style=3D"DISPLAY:block" height=3D"5" alt=3D"" src=3D"http://conten=
+t.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" border=3D"0"></t=
+d></tr></tbody></table></td>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"1" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td></tr></tbody></table></td>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"1" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" h=
+eight=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_mess=
+enger/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td>                    =
+        <td valign=3D"top" align=3D"left" width=3D"5px" bgcolor=3D"#ffffff"=
+><table cellspacing=3D"0" cellpadding=3D"0" width=3D"5px" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"5"><img style=3D"DISPLAY:block" height=3D"48" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"5" border=3D"0"></td>
+                                <td valign=3D"top" align=3D"left" width=3D"=
+94">
+                                <table cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"94" border=3D"0">
+                                <tbody>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0px" valign=3D"top=
+" align=3D"left" width=3D"94"><img style=3D"DISPLAY:block" height=3D"5" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"94" border=3D"0"></td></tr>
+                                <tr>
+                                <td style=3D"LINE-HEIGHT:0.9em" valign=3D"t=
+op" align=3D"left" width=3D"94"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:1=
+2px" face=3D"Tahoma, Verdana" color=3D"#2b2b2c"><b><a href=3D"https://www.d=
+elta.com/seat/RetrieveSeatMapAction?recordLocator=3DHW5TZX&amp;firstName=3D=
+Samuel%20Joseph&amp;lastName=3DStoneburner&amp;segmentNumber=3D02&amp;legId=
+=3D&amp;triggerSourceId=3DMYTRIPS&amp;MKCpgn=3DEM_TRNX_CN_0006_BE_NT_140207=
+_TCNOMIS_P0_EN" target=3D"_blank"><font color=3D"#006699"><u>Seat 10C</u></=
+font></a></b></font></td></tr></tbody></table></td></tr></tbody></table></t=
+d>
+                            <td style=3D"LINE-HEIGHT:0px" valign=3D"top" al=
+ign=3D"left" width=3D"1" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" h=
+eight=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_mess=
+enger/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td></tr></tbody></table=
+></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"606" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" heigh=
+t=3D"1" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenge=
+r/dr0rf1_spacer.gif" width=3D"1" border=3D"0"></td></tr>                   =
+ <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"606"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr></tbody></table></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"15"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"15" border=3D"0"></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"15" bgcolor=3D"#ffffff"><img style=3D"DISPLAY:block" height=3D"1"=
+ alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf=
+1_spacer.gif" width=3D"15" border=3D"0"></td></tr></tbody></table></td></tr=
+>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"666"><img style=3D"DISPLAY:block" height=3D"15" alt=3D"" src=3D"http://=
+content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=3D"1=
+" border=3D"0"></td></tr>
+        <tr>
+          <td valign=3D"top" align=3D"left" width=3D"666">
+            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"666" border=
+=3D"0">
+              <tbody>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"28"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"28" border=3D"0"></td>
+                <td valign=3D"top" align=3D"left" width=3D"610">
+                  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"610" =
+border=3D"0">
+                    <tbody>
+                                                <tr>
+                                                    <td width=3D"605px" ali=
+gn=3D"left" valign=3D"middle" style=3D"line-height:0.9em"><font style=3D"fo=
+nt-size:11px;line-height:16px" face=3D"Verdana, Arial, Helvetica, sans-seri=
+f" color=3D"#006699"><b>Please see airport monitors for gate information.</=
+b></font></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=
+=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=3D"605px" ali=
+gn=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://con=
+tent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" widt=
+h=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=
+=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=3D"605px" ali=
+gn=3D"left" valign=3D"middle" style=3D"line-height:0.9em"><font style=3D"fo=
+nt-size:11px;line-height:16px" face=3D"Verdana, Arial, Helvetica, sans-seri=
+f" color=3D"#333333">We apologize for this interruption in your travel plan=
+s. You can check-in online or at one of our self service kiosks. If you alr=
+eady have your boarding pass, just scan the bar code at one of our boarding=
+ scanners or kiosks to receive your updated travel document. </font></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" width=
+=3D"1" height=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=3D"605px" ali=
+gn=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://con=
+tent.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" heig=
+ht=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                    <td width=3D"5px" align=
+=3D"left" valign=3D"top" style=3D"line-height:0px"><img src=3D"http://conte=
+nt.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" alt=3D"" height=
+=3D"20" border=3D"0" style=3D"display:block"></td>
+                                                </tr>
+
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"middle" ali=
+gn=3D"left" width=3D"605px"><font style=3D"FONT-SIZE:11px;LINE-HEIGHT:16px"=
+ face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D"#333333">Thank you=
+ for choosing Delta.</font></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"5px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"605px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" =
+src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.g=
+if" width=3D"1" border=3D"0"></td>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"5px"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr>
+</tbody></table></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"28"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"28" border=3D"0"></td></tr></tbody></table></td></tr>
+        <tr>
+          <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=
+=3D"666" bgcolor=3D"#e2e2e2"><img style=3D"DISPLAY:block" height=3D"1" alt=
+=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_sp=
+acer.gif" width=3D"1" border=3D"0"></td></tr>
+        <tr>
+          <td valign=3D"top" align=3D"left" width=3D"666">
+            <table cellspacing=3D"0" cellpadding=3D"0" width=3D"666" border=
+=3D"0">
+              <tbody>
+              <tr>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"20"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"20" border=3D"0"></td>
+                <td valign=3D"top" align=3D"left" width=3D"626">
+                  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"626" =
+border=3D"0">
+                    <tbody>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"626"><img style=3D"DISPLAY:block" height=3D"12" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"626" border=3D"0"></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"left" width=3D"626"><font style=3D"FONT-SIZE:10px;LINE-HEIGHT:16px" fac=
+e=3D"Verdana, Arial, Helvetica, sans-serif" color=3D"#333333"><b>Email Subs=
+cription</b></font></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"left" width=3D"626"><font style=3D"FONT-SIZE:10px" face=3D"Tahoma, Verd=
+ana" color=3D"#333333">You have received=20
+                        this e-mail because you elected to receive your Fli=
+ght=20
+                        Itinerary sent to you via e-mail.=C2=A0=C2=A0If you=
+ would like to=20
+                        take advantage of other Delta email programs featur=
+ing=20
+                        special fares, promotions and information, please v=
+isit=20
+                        <a href=3D"http://www.delta.com/planning_reservatio=
+ns/deals_offers/email_programs/index.jsp?MkCpgn=3DEM_TRNX_CN_0009_BE_NT_140=
+207_TCNOMIS_F0_EN" target=3D"_blank"><font color=3D"#006699"><u>delta.com/e=
+mailprograms</u></font></a>.</font></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"626"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"left" width=3D"626"><font style=3D"FONT-SIZE:10px" face=3D"Tahoma, Verd=
+ana" color=3D"#333333">=C2=A9 2015 Delta Air=20
+                        Lines, Inc.=C2=A0=C2=A0All rights reserved.</font><=
+/td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0.9em" valign=3D"top" align=
+=3D"left" width=3D"626"><font style=3D"FONT-SIZE:10px" face=3D"Tahoma, Verd=
+ana" color=3D"#333333">Delta Blvd. P.O.=20
+                        Box 20706 Atlanta, GA 30320-6001</font></td></tr>
+                    <tr>
+                      <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D=
+"left" width=3D"626"><img style=3D"DISPLAY:block" height=3D"20" alt=3D"" sr=
+c=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif=
+" width=3D"1" border=3D"0"></td></tr></tbody></table></td>
+                <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left"=
+ width=3D"20"><img style=3D"DISPLAY:block" height=3D"1" alt=3D"" src=3D"htt=
+p://content.delta.com/content/dam/delta_messenger/dr0rf1_spacer.gif" width=
+=3D"20" border=3D"0"></td></tr></tbody></table></td></tr></tbody></table></=
+td>
+    <td style=3D"LINE-HEIGHT:0px;padding:0px" valign=3D"top" align=3D"left"=
+ width=3D"7" bgcolor=3D"#003366"><img style=3D"DISPLAY:block" height=3D"1" =
+alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr0rf1=
+_spacer.gif" width=3D"7" border=3D"0"></td></tr>
+  <tr>
+    <td style=3D"LINE-HEIGHT:0px" valign=3D"top" align=3D"left" width=3D"68=
+0" bgcolor=3D"#003366" colspan=3D"3"><img style=3D"DISPLAY:block" height=3D=
+"7" alt=3D"" src=3D"http://content.delta.com/content/dam/delta_messenger/dr=
+0rf1_spacer.gif" width=3D"1" border=3D"0"></td></tr></table></center></div>
+
+
+</div>
+
+--047d7bfcf2f6cdd583051908d5be--

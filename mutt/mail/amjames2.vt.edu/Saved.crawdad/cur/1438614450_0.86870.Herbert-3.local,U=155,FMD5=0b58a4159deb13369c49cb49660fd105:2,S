@@ -1,0 +1,186 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp333654qgt;
+        Fri, 29 May 2015 08:03:52 -0700 (PDT)
+X-Received: by 10.55.25.145 with SMTP id 17mr16767443qkz.46.1432911831993;
+        Fri, 29 May 2015 08:03:51 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 8si5786745qkz.123.2015.05.29.08.03.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 29 May 2015 08:03:51 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f179.google.com (mail-ie0-f179.google.com [209.85.223.179])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4TF3khM025610
+	for <amjames2@vt.edu>; Fri, 29 May 2015 11:03:51 -0400
+Received: by iepj10 with SMTP id j10so64606778iep.3
+        for <amjames2@vt.edu>; Fri, 29 May 2015 08:03:46 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=tmvGrJzY81CDCAH8qmR491gwexzN6emDoxLRss46bno=;
+        b=fJVRFHqp3iOec9W0FPsl/2JBO9EI9u98s4Flxd8ynfL2Xmf6+l621U/dAkGJiUWJgs
+         Iz4PBUWAoTt5Uk8Beo/ZOZc9OSI0GDMvo5n2/HveUrJLqkVDuHvMAjJTAYph2+hgLfUD
+         RwqvR+QpXt9UvUMr35sNZXV2wWw9CJkRTXN0SJpKS7T8uZrjskgE8aAwTBm2x1a6N3XB
+         UhcpuCH+yiyNM8tzoTzv2lGkeCLay+vHKjIOjMbQxOvZaH8zOXOWXK24n1wROnehQ28l
+         cwGgxWMBWq96RmdEhZav8/QtKgwFiC79s9ohPvV9bQOPgevvQ/uJce4KwEqyRZcBcwxa
+         Hzng==
+X-Gm-Message-State: ALoCoQmrtARx9TlvEWz1FOMKFyGYv5PIxUvys4h4FZGeFOkE6B3TIjSkctfX1WsmtEIGzYtQwhTp9stcLOu4eV9smSRkovdYjwsZ5Xh5Pn1Ne+X67t6XpX2OX2k8blwpBteI+O0/dFfqYvunBFZZ0mAWbVS3nO1uqw==
+X-Received: by 10.50.30.105 with SMTP id r9mr4596069igh.11.1432911826093;
+        Fri, 29 May 2015 08:03:46 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.30.105 with SMTP id r9mr4596054igh.11.1432911825991; Fri,
+ 29 May 2015 08:03:45 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Fri, 29 May 2015 08:03:45 -0700 (PDT)
+In-Reply-To: <CA261218-5F0A-442B-8CF0-20DACD2A5079@vt.edu>
+References: <D1BB65B1-B591-444B-9ABD-2B272C3A7BA8@vt.edu>
+	<CAH0V_1bczb66HAfKzoZ3gVcu1d8-jbu5wXfOCtqYw1TjtfApQQ@mail.gmail.com>
+	<CA261218-5F0A-442B-8CF0-20DACD2A5079@vt.edu>
+Date: Fri, 29 May 2015 11:03:45 -0400
+Message-ID: <CAH0V_1YjJr_KKWBCmCjhM8QVjz=BxR7Hi571fe=S4YcPkrk_uA@mail.gmail.com>
+Subject: Re: SSS new applicants
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=e89a8f64277a62057b051739c80e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 5449
+
+--e89a8f64277a62057b051739c80e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear AJ,
+
+I'm very sorry to hear about the loss of your friend.  I hope you're all
+right.
+
+Thank you for the update on the summer schools.  I'll need to write to the
+other instructors soon to encourage them to make travel arrangements.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, May 29, 2015 at 10:21 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dr. Crawford,
+>
+> I am sorry again for the delay. I am in the process of moving out of my
+> apartment, and I received word yesterday after lunch that one of my
+> childhood friends has passed away so I was away from the computer for the
+> rest of the night.
+>
+> I have sent an acceptance email to Kaye, and according to Jessica:
+>
+> She had paid, and should receive her refund, less the cancellation amount=
+,
+> shortly.
+>
+> Jessica said that on Tuesday, so I do not know if it went through yet.
+>
+> I also just received the updated registration list. I attached it. There
+> are 25 registered and paid with a 26th registered, but not paid. I am goi=
+ng
+> to send him an email shortly.
+>
+> =E2=80=94AJ
+>
+>
+>
+>
+> On May 28, 2015, at 3:30 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Please go ahead and accept Kaye into the SSS.  Do you know if her
+> registration fee for the MRPSS was refunded?  Also, are we still at 25 pa=
+id
+> registrants for the MRPSS?
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Thu, May 28, 2015 at 3:17 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Hello Dr. Crawford,
+>>
+>> I just looked at the new entries on the SSS application survey.  Kaye
+>> Archer has applied and I attached her resume and research statement if y=
+ou
+>> want to look at them.  However there were no other new applications at t=
+his
+>> point I will check back tomorrow.
+>>
+>> =E2=80=94AJ
+>
+>
+>
+>
+>
+
+--e89a8f64277a62057b051739c80e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear AJ,<div><br></div><div>I&#39;m very sorry to hear abo=
+ut the loss of your friend.=C2=A0 I hope you&#39;re all right.</div><div><b=
+r></div><div>Thank you for the update on the summer schools.=C2=A0 I&#39;ll=
+ need to write to the other instructors soon to encourage them to make trav=
+el arrangements.</div><div><br></div><div>-TDC</div></div><div class=3D"gma=
+il_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D=
+"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@v=
+t.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, May 29, 2015 at 10:21 AM, Andrew Jam=
+es <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blan=
+k">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+<div style=3D"word-wrap:break-word">Dr. Crawford,=C2=A0<div><br></div><div>=
+I am sorry again for the delay. I am in the process of moving out of my apa=
+rtment, and I received word yesterday after lunch that one of my childhood =
+friends has passed away so I was away from the computer for the rest of the=
+ night. =C2=A0</div><div><br></div><div>I have sent an acceptance email to =
+Kaye, and according to Jessica:</div><div><blockquote type=3D"cite"><div>Sh=
+e had paid, and should receive her refund, less the cancellation amount, sh=
+ortly.</div></blockquote>Jessica said that on Tuesday, so I do not know if =
+it went through yet.=C2=A0</div><div><br></div><div>I also just received th=
+e updated registration list. I attached it. There are 25 registered and pai=
+d with a 26th registered, but not paid. I am going to send him an email sho=
+rtly.=C2=A0</div><span class=3D"HOEnZb"><font color=3D"#888888"><div><br></=
+div><div>=E2=80=94AJ</div><div>=C2=A0</div></font></span></div><br><div sty=
+le=3D"word-wrap:break-word"><div></div><div><br></div><div><br><div><blockq=
+uote type=3D"cite"><div>On May 28, 2015, at 3:30 PM, T. Daniel Crawford &lt=
+;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;=
+ wrote:</div><br><div><div dir=3D"ltr">Please go ahead and accept Kaye into=
+ the SSS.=C2=A0 Do you know if her registration fee for the MRPSS was refun=
+ded?=C2=A0 Also, are we still at 25 paid registrants for the MRPSS?<div><br=
+></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><d=
+iv><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div>=
+</div></div>
+<br><div class=3D"gmail_quote">On Thu, May 28, 2015 at 3:17 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">H=
+ello Dr. Crawford,<br>
+<br>
+I just looked at the new entries on the SSS application survey.=C2=A0 Kaye =
+Archer has applied and I attached her resume and research statement if you =
+want to look at them.=C2=A0 However there were no other new applications at=
+ this point I will check back tomorrow.<br>
+<span><font color=3D"#888888"><br>
+=E2=80=94AJ </font></span></blockquote></div><br></div>
+</div></blockquote></div><br></div></div><br></blockquote></div><br></div>
+
+--e89a8f64277a62057b051739c80e--

@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2463062qgt;
+        Tue, 4 Aug 2015 06:39:12 -0700 (PDT)
+X-Received: by 10.140.89.100 with SMTP id u91mr6481438qgd.15.1438695552051;
+        Tue, 04 Aug 2015 06:39:12 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 20si1820499qhd.63.2015.08.04.06.39.10
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 06:39:11 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.215.51 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.215.51;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.215.51 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t74Dd3eJ006865;
+	Tue, 4 Aug 2015 09:39:08 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t74DI1YE005795;
+	Tue, 4 Aug 2015 09:39:03 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100769764 for CHEM_GRAD@LISTSERV.VT.EDU; Tue, 4 Aug 2015 09:39:03
+          -0400
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:250:3bcb:5b17]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t74DT09a007160 for
+          <chem_grad@listserv.vt.edu>; Tue, 4 Aug 2015 09:29:00 -0400
+Received: from mail-la0-f51.google.com (mail-la0-f51.google.com
+          [209.85.215.51]) by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t74DStsX026575 for <chem_grad@listserv.vt.edu>; Tue, 4 Aug 2015
+          09:29:00 -0400
+Received: by lady2 with SMTP id y2so3331885lad.0 for
+          <chem_grad@listserv.vt.edu>; Tue, 04 Aug 2015 06:28:54 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=53PIHmf7GQQKjrxgM++QpiMHoYiYbnJgVvcZkeFrJXU=;
+                         b=PpLMzs1W7ZoWODl+mx2ZUfE4ZmWl8Pbwr4s5neRiqYCpmup+DJl2kJFX768STVv/ag
+                         PQhbSuDa3HLkbv4tXn9B/siOqyDTkqjCgoZ57bWyqolYIHVjxUfbOly8vtIvoq9KxwwQ
+                         pVF4xOknh31G0KuLj0YvrTMn7hqEt+GFypfdzeQA5C7uBuZQUzCXw8RfZXVxKRX6cv+V
+                         zpedixxyUoQPbWgQUIJjAxhNgYxt7J0EmztjjlhmPVlD5KQaGIptj7pWUIOnTTT/2Biv
+                         Bb0eR9BtlwTEKYV5urJW9h3VFMpVzDwCDPGh+MbJwUW3LhEfChteZlRDSF5qFNyf+Gjj
+                         01vA==
+X-Gm-Message-State: ALoCoQl7Kvj+wno8ORB9IB++ruCSUuBjGpZjs2bjGgRW8iYX7tK+Fj8SnjFOs95A3Cqg4flcIYiFqoJVEKn8vXiwZN9krlY1icWvkm4xz9XgGofm5szvhk3BOa0EiHVpyDTUIPGOeV6XtJTf8CbfzJEsqFZM798MuA==
+X-Received: by 10.152.22.4 with SMTP id z4mr3475828lae.81.1438694934770; Tue,
+            04 Aug 2015 06:28:54 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.22.4 with SMTP id z4mr3475817lae.81.1438694934632; Tue,
+            04 Aug 2015 06:28:54 -0700 (PDT)
+Received: by 10.114.22.100 with HTTP; Tue, 4 Aug 2015 06:28:54 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=089e0158b8e284eb14051c7c449b
+X-Spam-Status: No, score=-0.1 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+Message-ID:  <CAFVnc+atrcf1ZDoHhgiTLrfc5VF+1c=Q8cacuxqdsBvNAEL=ag@mail.gmail.com>
+Date:         Tue, 4 Aug 2015 09:28:54 -0400
+Reply-To: Thomas Wertalik <wertalik@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Thomas Wertalik <wertalik@vt.edu>
+Subject: Important: Davidson AirHandler Shutdown
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0158b8e284eb14051c7c449b
+Content-Type: text/plain; charset=UTF-8
+
+The air handler servicing the laboratory section of Davidson Hall will be
+shutdown for maintenance and testing *today from 1:00pm until 9:00pm. *Please
+do not use the hoods during the shutdown.
+
+--089e0158b8e284eb14051c7c449b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">The air handler servicing the laboratory section of Davids=
+on Hall will be shutdown for maintenance and testing=C2=A0<b>today from 1:0=
+0pm until 9:00pm. </b>Please do not use the hoods during the shutdown.</div=
+>
+
+--089e0158b8e284eb14051c7c449b--

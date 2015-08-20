@@ -1,0 +1,52 @@
+MIME-Version: 1.0
+Received: by 10.140.94.117 with HTTP; Thu, 30 Apr 2015 06:17:16 -0700 (PDT)
+Date: Thu, 30 Apr 2015 09:17:16 -0400
+Delivered-To: amjames2@vt.edu
+Message-ID: <CA+58rsAA+wE1QxK-w0X_ittZT6J-XfAQ16k4ufHpp3bGMuW0UA@mail.gmail.com>
+Subject: Allocation empty?
+From: Andrew James <amjames2@vt.edu>
+To: James McClure <mcclurej@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113a68d81f5f140514f0eaac
+
+--001a113a68d81f5f140514f0eaac
+Content-Type: text/plain; charset=UTF-8
+
+Hi Dr. McClure,
+
+My job for assignment 10 has been sitting in que for a few days now, so I
+looked at the checkjob -v output.  I see this message at the bottom similar
+to before when the class allocation had run out.
+
+>Message[0] server rejected request with status code 740 - Insufficient
+funds: There >are no valid allocations against which to make the lien
+(Instance 144508)
+
+Could you take a look?
+
+Thanks,
+Andrew James
+
+Graduate Teaching Assistant
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu
+
+--001a113a68d81f5f140514f0eaac
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Dr. McClure,=C2=A0<div><br></div><div>My job for assign=
+ment 10 has been sitting in que for a few days now, so I looked at the chec=
+kjob -v output.=C2=A0 I see this message at the bottom similar to before wh=
+en the class allocation had run out.=C2=A0</div><div><br></div><div>&gt;Mes=
+sage[0] server rejected request with status code 740 - Insufficient funds: =
+There &gt;are no valid allocations against which to make the lien (Instance=
+ 144508)<br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"l=
+tr"><br></div><div>Could you take a look?=C2=A0</div><div><br></div><div>Th=
+anks,=C2=A0</div><div dir=3D"ltr">Andrew James=C2=A0<div><br><div>Graduate =
+Teaching Assistant=C2=A0<br><div>Virginia Tech=C2=A0</div></div><div>Chemis=
+try Department=C2=A0</div></div><div><a href=3D"mailto:amjames2@vt.edu" tar=
+get=3D"_blank">amjames2@vt.edu</a></div></div></div></div>
+</div></div>
+
+--001a113a68d81f5f140514f0eaac--

@@ -1,0 +1,216 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp558136qgp;
+        Tue, 17 Feb 2015 12:57:34 -0800 (PST)
+X-Received: by 10.140.235.23 with SMTP id g23mr586814qhc.37.1424206654685;
+        Tue, 17 Feb 2015 12:57:34 -0800 (PST)
+Return-Path: <bounce-62640_HTML-57767039-182872-6236091-0@bounce.communications.cas.org>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id u13si19073828qag.86.2015.02.17.12.57.34
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 17 Feb 2015 12:57:34 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-62640_HTML-57767039-182872-6236091-0@bounce.communications.cas.org designates 198.245.85.31 as permitted sender) client-ip=198.245.85.31;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-62640_HTML-57767039-182872-6236091-0@bounce.communications.cas.org designates 198.245.85.31 as permitted sender) smtp.mail=bounce-62640_HTML-57767039-182872-6236091-0@bounce.communications.cas.org;
+       dkim=pass header.i=@communications.cas.org
+Received: from mta.communications.cas.org (mta.communications.cas.org [198.245.85.31])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1HKvOA2022642
+	for <amjames2@vt.edu>; Tue, 17 Feb 2015 15:57:33 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=communications.cas.org;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type; i=email@communications.cas.org;
+ bh=yZmSqaPI8146RK5kuOWuluAIrRY=;
+ b=L+H9m/3rZEB+CnjqbKVWeKhbemmPxbgvTSXfxNsOGCJKMQb0BhSybtdtAIUbraNkffH+7AKG1GIx
+   hPplS7Quy1IcCcXmIIjSnukmwZw6pO7BhB7vIrr5vQA1/beZSF5qxW8hj/trUmTSAg8+mhSt+2j2
+   O58fw/DBwJRc/XCcvcw=
+Received: by mta.communications.cas.org id hseljq163hsm for <amjames2@vt.edu>; Tue, 17 Feb 2015 14:57:14 -0600 (envelope-from <bounce-62640_HTML-57767039-182872-6236091-0@bounce.communications.cas.org>)
+From: "SciFinder" <email@communications.cas.org>
+To: <amjames2@vt.edu>
+Subject: Apply for the 2015 SciFinder Future Leaders in Chemistry program
+Date: Tue, 17 Feb 2015 14:57:13 -0600
+List-Unsubscribe: <mailto:leave-fce91272736004122d502d29-fe5311777262037d761d-fec31578776c037f-fe9412727662047474-ffcf14@leave.communications.cas.org>
+MIME-Version: 1.0
+Reply-To: "scifinder" <reply-fec31578776c037f-62640_HTML-57767039-6236091-0@communications.cas.org>
+x-job: 6236091_182872
+Message-ID: <60ed69cc-9242-4358-ac08-c6139f64c9f3@xtinp2mta1147.xt.local>
+Content-Type: multipart/alternative;
+	boundary="MyOfewkTl5zQ=_?:"
+X-Spam-Status: No, score=0.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_RATIO_04,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format.
+
+--MyOfewkTl5zQ=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+To view this email as a web page, go to the link below, or copy and paste it into your browser's address window.
+http://click.communications.cas.org/?qs=a8edb082238082d24b3b4a4a6b524e010f90771c32cfd9b4dcfc7db5a35a95d1
+
+Take your research to the next level! The 
+http://click.communications.cas.org/?qs=a8edb082238082d27ee0a1ae161854ade7399425d3c80d0d6cfd7fcf497cc8d6 
+2015 SciFinder Future Leaders in Chemistry program  is your chance to get involved, get inspired and get connected to a global network of accomplished researchers. This August 10-20, a select group of international Ph.D. students and postdoctoral researchers will help shape the future of chemical information and experience the 250th ACS National Meeting & Exposition in Boston, MA.
+Apply by Sunday, April 5, 2015 at 
+http://click.communications.cas.org/?qs=a8edb082238082d27ee0a1ae161854ade7399425d3c80d0d6cfd7fcf497cc8d6 
+www.cas.org/futureleaders .  
+
+http://click.communications.cas.org/?qs=a8edb082238082d29f283fac673366dc0fc2e67878e97a9eb53a5e7858064e54 
+
+
+
+----------------------------------------
+	
+	This email was sent by:
+	SciFinder
+	2540 Olentangy River Rd
+	Columbus, OH, 43202, US
+	
+	We respect your right to privacy - visit the following URL to view our policy.
+	( http://click.communications.cas.org/?qs=a8edb082238082d2724b6b06db67004b619f46089f89bba439c243cb0d851866 )
+	
+	----------------------------------------
+	
+	Visit the following URL to manage your subscriptions.
+	( http://click.communications.cas.org/?qs=a8edb082238082d21a1ef188f11495eb3f4c941640a534239fb4f76510ead211 )
+	
+	Visit the following URL to update your profile.
+	( http://click.communications.cas.org/?qs=a8edb082238082d2fb14103b99efe126bb7483f55bd65aee03b3a29cee9f2f85 )
+	
+	Visit the following URL to unsubscribe.
+	( http://click.communications.cas.org/?qs=a8edb082238082d21a83099eb5c4e655b59b0afea5b92a977ad41733f9c9ee9d )
+	
+
+--MyOfewkTl5zQ=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+ReadMsgBody{ width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important; padding:0 !important;}
+p { margin: 1em 0;}
+table td { border-collapse: collapse;}
+img {outline:0;}
+a img {border:none;}
+p {margin: 1em 0;}
+@-ms-viewport{ width: device-width;}
+@media only screen and (max-width: 480px) {
+body[yahoo] .container { width:100% !important; }
+body[yahoo] .footer { width:auto !important; margin-left:0; }
+body[yahoo] .content-padding{ padding:4px !important; }
+body[yahoo] .mobile-hidden { display:none !important; }
+body[yahoo] .logo { display:block !important; padding:0 !important; }
+body[yahoo] img { width:auto !important; max-width:308px !important; height:auto !important; max-height:auto !important;}
+body[yahoo] .header img { width:auto !important; max-width:316px !important; height:auto !important; max-height:auto !important;}
+body[yahoo] .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+body[yahoo] .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+body[yahoo] .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+body[yahoo] .nav4, body[yahoo] .nav5, body[yahoo] .nav6 { display: none !important; }
+}
+@media only screen and (max-width: 640px) {
+body[yahoo] .container { width:100% !important; }
+body[yahoo] .mobile-hidden { display:none !important; }
+body[yahoo] .logo { display:block !important; padding:0 !important; }
+body[yahoo] .photo img { width:100% !important; height:auto !important;}
+body[yahoo] .nav5, body[yahoo] .nav6 { display: none !important;}
+}
+</style>
+</head>
+<body bgcolor="#ffffff" text="#000000" style="background-color: #FFFFFF; color: #000000; margin: 0px; padding:0px; -webkit-text-size-adjust:none;" yahoo="fix">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+            <td align="center" valign="top"><P><center><table width="600" cellpadding="0" cellspacing="0" border="0"> <tr>  <td width="100%" align="center">  <font face="verdana" size="1" color="#444444"> To view this email as a web page, go   <a href="http://click.communications.cas.org/?qs=a8edb082238082d2d43fd1a1302b0f0f7df366c5842e6e6ff5b2b4891f854ff2" > here.</a><br>  </font>  </td> </tr> </table> </center></P></td>
+        </tr>
+        <tr>
+            <td align="center">
+                <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+                    <tr>
+                        <td>
+                            <table cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" bgcolor="#ffffff" width="100%">
+                                <tr>
+                                    <td align="center" class="header" valign="top"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><p align="center" style="margin-top:0px; margin-bottom:0px;"></p><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p align="center" style="margin-top: 0px; margin-bottom: 0px;">
+<img id="image-placeholder" style="margin-bottom: 10px;" src="http://image.communications.cas.org/lib/fe9412727662047474/m/1/2015-SciFinder-FLIC-email_1.jpg" border="0" title="2015-SciFinder-FLIC-email" mdid="c09c185a-97db-4466-80c3-05110da3dc45" />
+</p>
+<p id="text-placeholder" style="margin-top: 0px; margin-bottom: 0px;">
+</td></tr></table></td></tr></table></td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="top"><table cellspacing="0" cellpadding="0" border="0" width="100%" align="left">
+	<tr>
+		<td class="content-padding" style="padding:10px;">
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr>
+					<td align="left" valign="top" class="drop">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div style="font-family: Arial; font-size: 13px;"><font face="Arial"><span style="font-size: 13px;">Take your research to the next level! The <a href="http://click.communications.cas.org/?qs=a8edb082238082d2bd2f0b569758e7d6a1c99fa82e271e6b3175256eb3269c53" title="2015 SciFinder Future Leaders in Chemistry program"  >2015 SciFinder Future Leaders in Chemistry program
+</a> is your chance to get involved, get inspired and get connected to a global network of accomplished researchers. This August 10-20, a select group of international Ph.D. students and postdoctoral researchers will help shape the future of chemical information and experience the 250th ACS National Meeting & Exposition in Boston, MA.</span></font></div><div style="font-family: Arial; font-size: 13px;"><font face="Arial"><span style="font-size: 13px;"><br />Apply by <b>Sunday, April 5, 2015</b> at&nbsp;<a href="http://click.communications.cas.org/?qs=a8edb082238082d2e94581fc4a052fa814048463ef3f964f9195ddcfe14d2cd5" title="www.cas.org/futureleaders"  >www.cas.org/futureleaders</a>. &nbsp;</span></font></div><div><font face="Arial"><font face="Arial"><br /><div style="text-align: center;">
+<a href="http://click.communications.cas.org/?qs=a8edb082238082d2aaf14dec0a7f0f8768ba6a7f04e00a4d6e73230aa1496fbc" title=""  ><img src="http://image.communications.cas.org/lib/fe9412727662047474/m/1/video.png" title="2014 FLIC Students" alt="2014 FLIC Students" border="0" hspace="0" vspace="0" thid="8fc2d45f-b760-4fd3-a94f-c9a4649bb599" width="550" height="336" style="width: 550px; height: 336px;" /></a></div></font><div style="font-family: Arial; font-size: 13px; text-align: center;">
+</div>
+</font></div></td></tr></table></td></tr></table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+        	<td valign="top">
+<table cellpadding="2" cellspacing="0" width="600" align="center">
+<tr>
+<td>
+<font face="verdana" size="1" color="#777777">
+This email was sent to: <b>amjames2@vt.edu</b><br><br>
+<table cellpadding="2" cellspacing="0" width="450" ID="Table1" Border=0>
+<tr>
+<td>
+<font face="verdana" size="1" color="#777777">
+This email was sent by: SciFinder<br>
+2540 Olentangy River Rd Columbus, OH 43202 US
+</font>
+</td>
+</tr>
+</table><br><br>
+We respect your right to privacy - <a href="http://click.communications.cas.org/?qs=a8edb082238082d2d367adea2dc3c94462690e930f6fe588cbce45c012bcd874"  style="color: #0000ff">view our policy</a>
+</font>
+</td>
+<td width=150>
+<a href="http://click.communications.cas.org/?qs=a8edb082238082d2b2709028a16747449808d7e362e3a57d539990515a0601b4"><img src="http://image.communications.cas.org/lib/fe9512727665047470/m/1/CASLogo.jpg" border="0"></a></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<font face="verdana" size="1" color="#777777">
+<br>
+<a href="http://click.communications.cas.org/?qs=a8edb082238082d255b78be5394950cf361b235286e8467bfb98d3e39ccb2340" >Manage Subscriptions</a> |
+<a href="http://click.communications.cas.org/?qs=a8edb082238082d27b0c30f62aae014dd71f96ad2023fc4c7e0dfdafaaa9a08b" >Update Profile</a> |
+<a href="http://click.communications.cas.org/?qs=a8edb082238082d2e2575552cd6172ebfd5df756741b8bf37da4616aeff9364e" >One-Click Unsubscribe</a>
+</font>
+</td>
+</tr>
+</table> </td>
+    	</tr>
+	</table>
+	<img src="http://click.communications.cas.org/open.aspx?ffcb10-fec31578776c037f-fe2a167274620c79711076-fe9412727662047474-fefd1272736004-fe5311777262037d761d-ffcf14" width="1" height="1">
+</body>
+</html>
+
+--MyOfewkTl5zQ=_?:--
+

@@ -1,0 +1,159 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp281378qge;
+        Thu, 22 Jan 2015 06:09:43 -0800 (PST)
+X-Received: by 10.140.83.163 with SMTP id j32mr2700024qgd.52.1421935783381;
+        Thu, 22 Jan 2015 06:09:43 -0800 (PST)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id v5si9039849qap.15.2015.01.22.06.09.39
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 22 Jan 2015 06:09:43 -0800 (PST)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0ME9XSb012053;
+	Thu, 22 Jan 2015 09:09:38 -0500
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t0MDTP4S027657;
+	Thu, 22 Jan 2015 09:09:33 -0500
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          97194838 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 22 Jan 2015 09:09:33
+          -0500
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t0ME9W1R003027
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Thu, 22 Jan 2015 09:09:32 -0500
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com
+          [209.85.223.174]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t0ME9RSo005102 for <CHEM_GRAD@listserv.vt.edu>; Thu, 22 Jan 2015
+          09:09:32 -0500
+Received: by mail-ie0-f174.google.com with SMTP id vy18so1481228iec.5 for
+          <CHEM_GRAD@listserv.vt.edu>; Thu, 22 Jan 2015 06:09:27 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=m94kLf80jGaZz7zM5cCROrrTxUSqFrkMhz/uylauaV0=;
+                         b=CWMM4USe/RvGhzbwNrrujEQ9QLLJs76bvhOcy2Fx6iQqnl75QnDR1gfZ22WbIj15Op
+                         LDriXoXepuFn2h6cTCghXr3omIRin5aZXOL+PoQzhwICOk/FtqWJD5M8SgJqNxhXn6hc
+                         dbevbD3e0DMywmm+lRfvZKGjhWiq4KWw0WXF2NZ+J1xE0Px9ZJqZLR/PD7i4d/iPDmVI
+                         hVr00daqdecb5HM4prpDaSryxAO+H5HTz0yx2CAHgiGEJZMWe8nMQ44NYmps7fKKJzOv
+                         DL4ULDftKdKFk15R7jeEbLmhOT/6Zi1EMJu6zPkD/OCff34mHXaMeDkiSfzeGlYxBDfL
+                         lauA==
+X-Gm-Message-State: ALoCoQnmrVtP//tjUmz1rGOKCLvPyKR+39QJwte4kRZ7RIqE3bC5h4fjcwb+JxQP0rjb/zTyoB8ACnObOJIBGkfF5g7ITHmjMwcNrvTuir5gZk6uUv8OJNuOPaF3jrkenVnw3YrZCRX1V+y5dsvphx9DDN2Wo3q8Vg==
+X-Received: by 10.50.143.38 with SMTP id sb6mr3819523igb.40.1421935767289; Thu,
+            22 Jan 2015 06:09:27 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.50.143.38 with SMTP id sb6mr3819497igb.40.1421935767142; Thu,
+            22 Jan 2015 06:09:27 -0800 (PST)
+Received: by 10.50.68.72 with HTTP; Thu, 22 Jan 2015 06:09:27 -0800 (PST)
+Content-Type: multipart/alternative; boundary=001a1135ffb84b55a3050d3e3899
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Message-ID:  <CAGNxyLP=1UpO2Kbvn8M0VsT5hcE15Oj3ZOCmGD_MZct4foLC1Q@mail.gmail.com>
+Date:         Thu, 22 Jan 2015 09:09:27 -0500
+Reply-To: Kristina Roth <kroth@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@LISTSERV.VT.EDU>
+From: Kristina Roth <kroth@vt.edu>
+Subject: Journal Club for the Physical Sciences Meeting
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1135ffb84b55a3050d3e3899
+Content-Type: text/plain; charset=UTF-8
+
+Hello Fellow Graduate Students,
+
+
+
+This email is to let everyone know about the Journal Club for the Physical
+Sciences, formerly called the Analytical and Physical Chemistry Journal
+Club.  This club is run and attended by graduate students and postdocs from
+our department and provides a great forum to discuss current published
+research.  It is great practice to talk science, explore research, learn
+techniques not directly in your field, and to discover something new.
+
+
+
+We are having our first meeting of the semester on January 30th at 3:45 in
+room HHN 200 and hope to see some new faces.  If you cannot make the first
+meeting but are still interested in attending a meeting, the journal
+articles being discussed will be posted on our Scholar site.  Please send
+me an email and I will add you to the site.
+
+
+
+Kristina Roth
+
+--001a1135ffb84b55a3050d3e3899
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal">Hello Fellow Graduate Students,</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">This email is to let everyone know about the Journal=
+ Club for
+the Physical Sciences, formerly called the Analytical and Physical Chemistr=
+y
+Journal Club.<span style>=C2=A0 </span>This club is run and
+attended by graduate students and postdocs from our department and provides=
+ a
+great forum to discuss current published research.<span style>=C2=A0 </span=
+>It is great practice to talk science, explore
+research, learn techniques not directly in your field, and to discover
+something new.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">We are having our first meeting of the semester on J=
+anuary
+30<sup>th</sup> at 3:45 in room HHN 200 and hope to see some new faces.<spa=
+n style>=C2=A0 </span>If you cannot make the first meeting but are
+still interested in attending a meeting, the journal articles being discuss=
+ed
+will be posted on our Scholar site.<span style>=C2=A0
+</span>Please send me an email and I will add you to the site.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Kristina Roth</p>
+
+
+
+
+
+</div>
+
+--001a1135ffb84b55a3050d3e3899--

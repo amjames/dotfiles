@@ -1,0 +1,274 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp538343qgf;
+        Thu, 9 Apr 2015 10:07:17 -0700 (PDT)
+X-Received: by 10.140.36.137 with SMTP id p9mr36408555qgp.16.1428599237284;
+        Thu, 09 Apr 2015 10:07:17 -0700 (PDT)
+Return-Path: <vilong@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id i91si14970950qgi.6.2015.04.09.10.07.16
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 09 Apr 2015 10:07:17 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.192.53 as permitted sender) client-ip=209.85.192.53;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.192.53 as permitted sender) smtp.mail=vilong@vt.edu
+Received: from mail-qg0-f53.google.com (mail-qg0-f53.google.com [209.85.192.53])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t39H79dv015275
+	for <amjames2@vt.edu>; Thu, 9 Apr 2015 13:07:14 -0400
+Received: by qgfi89 with SMTP id i89so36923125qgf.1
+        for <amjames2@vt.edu>; Thu, 09 Apr 2015 10:07:09 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:user-agent:date:subject:from:to:cc:message-id
+         :thread-topic:references:in-reply-to:mime-version:content-type;
+        bh=BsBeJYhB/ykVB3a+25c4B8o0gbC5ctLlZ9WGdPPm4zE=;
+        b=G5/IMXxyKfaNynljCA7aaHp/ZgOC7i1h4fWmh1Yx9c/+x2F0K55ISTexVOc8pw1aFt
+         lhtCJRpbmcK02ORxmWi3RJ76um5zSzy8fP/978W5yUWZ0B5XIks0YzWb11DsqEXA6n6c
+         vBY0J2uvq1srm3ARm47mO5dzxRZRpd0bk98fxJbl+ez1SnauYS3vGQMS1TQJexkqnnJi
+         ixxovN2fFdeeyxPozM88rJyrnv3jzUL1OSLPk8GNqbzRxeSEymJAtggFEFp8a9to9nFP
+         1xd+SzMiMixVFdH61pP1LZxWWw2hAWQmZOFgD7Ig4ZuKWlo9PPHVIvJJByoXmH9m5KDQ
+         p4cw==
+X-Gm-Message-State: ALoCoQkBSlMFs5U1bPn8lwboy7hPXD88/DMkoOiQ2YpYQqC23leCgH76k8eSmQKrfy3YLRRcCRd5RTR0ThEE3CAEtrb6Z8gxbffmQaz4R03xyMlomGNc0QpK5b2EBkXYIQiKFMwWbuXgUXK9jgJT+ZTVlseyFRLCNe/ZsZZm8GcMYVNobe0Zg11+Fpo5kff1EshDkF+zJdI3
+X-Received: by 10.140.98.208 with SMTP id o74mr35070572qge.66.1428599229589;
+        Thu, 09 Apr 2015 10:07:09 -0700 (PDT)
+X-Received: by 10.140.98.208 with SMTP id o74mr35070556qge.66.1428599229464;
+        Thu, 09 Apr 2015 10:07:09 -0700 (PDT)
+Received: from [172.31.241.247] (npc6521ffc.cns.vt.edu. [198.82.31.252])
+        by mx.google.com with ESMTPSA id j93sm10218120qkh.29.2015.04.09.10.07.06
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 09 Apr 2015 10:07:08 -0700 (PDT)
+User-Agent: Microsoft-MacOutlook/14.4.8.150116
+Date: Thu, 09 Apr 2015 13:07:01 -0400
+Subject: FW: Unable to attend today's Lab
+From: Victoria Long <vilong@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+CC: Victoria Long <vilong@vt.edu>
+Message-ID: <D14C2998.1403E%vilong@vt.edu>
+Thread-Topic: Unable to attend today's Lab
+References: <CACC8-5Vxpi2LLgOi138kyA9S8Qs7+q0u2++5M2yNrAeEYvPF2A@mail.gmail.com>
+ <D149D7AC.13EAC%vilong@vt.edu>
+ <5EF65F7B-943C-4275-976A-424D022B6779@vt.edu>
+ <D14B2450.13FED%vilong@vt.edu>
+ <C6F9B962-D975-46DB-B3F6-BA30589BE280@vt.edu>
+In-Reply-To: <C6F9B962-D975-46DB-B3F6-BA30589BE280@vt.edu>
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3511429626_500019"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3511429626_500019
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+Andrew =AD I met with Destiny today, and we are not going to make up the
+missed (and excused) lab. Rather, at the end of the semester we will averag=
+e
+her lab report grade on 10 reports rather than 11. SO please try to remind
+me and you at the end of the smelter to do this! Thanks, Victoria Long
+
+From:  Destiny Ayres <maltomania@gmail.com>
+Date:  Thursday, April 9, 2015 at 9:45 AM
+To:  Victoria Long <vilong@vt.edu>
+Subject:  Re: Unable to attend today's Lab
+
+Dear Ms. Long,
+
+I apologize for my untimely response as i=B9ve been doing a lot of studying
+for all the making up i=B9ve had to do from being ill. but i just attended
+this mornings lab and i have my lab manual already filled out with what i
+need for the lab I missed so I will see you in Hahn around 1!
+
+Thank you,
+
+Destiny Ayres=20
+
+> On Apr 8, 2015, at 6:31 PM, Victoria Long <vilong@vt.edu> wrote:
+>=20
+> Destiny =AD let=B9s plan to meet at 1:00=B9ish in HHN 205. Please bring your la=
+b
+> manual with you. Thanks, Victoria Long
+>=20
+> From:  Destiny Ayres <maltomania@gmail.com>
+> Date:  Wednesday, April 8, 2015 at 1:48 PM
+> To:  Victoria Long <vilong@vt.edu>
+> Subject:  Re: Unable to attend today's Lab
+>=20
+> Dear Professor Long,
+>=20
+> I was not able to make it to any of my classes on Thursday unfortunately =
+but I
+> am available to meet this week tomorrow between the hours of 12:30 and 2:=
+30,
+> and before 1:25 and after 2:15 on Friday. Please let me know when you are
+> available!
+>=20
+> Sincerely,
+>=20
+> Destiny Ayres=20
+>> On Apr 7, 2015, at 6:52 PM, Victoria Long <vilong@vt.edu> wrote:
+>>=20
+>> Destiny =AD please let me know if you attended lab. If not, then let me kn=
+ow
+>> about 3 times we could meet this week and I=B9ll respond with a confirmati=
+on of
+>> one based on my schedule. Thanks, Victoria Long
+>>=20
+>> From: Destiny Ayres <maltomania@gmail.com>
+>> Date: Thursday, April 2, 2015 at 6:11 AM
+>> To: Victoria Long <vilong@vt.edu>
+>> Cc: <amjames2@vt.edu>
+>> Subject: Unable to attend today's Lab
+>>=20
+>> Dear Professor Long,
+>>=20
+>> Last night and this morning marks the second time I've gotten ill from e=
+ating
+>> a pasta dish from downtown Blacksburg. Although I am picky and I do choo=
+se my
+>> food wisely, it seems that I have once again gotten food poising or some=
+ sort
+>> of bug from
+>> the pasta I ate yesterday for dinner. As much as it troubles me to not a=
+ttend
+>> this lab because I have missed a few already, I don't see it physically
+>> possible for me to make it to lab without being ill. In hopes of stoppin=
+g
+>> myself from getting dehydrated before it happens I've been trying to kee=
+p
+>> down all the fluids I can but if my symptoms continue past the morning I=
+ will
+>> be making an appointment at schiffert. I sincerely apologize for the
+>> inconvenience once more, let me know of my options for this lab.
+>>=20
+>> Thank you,
+>>=20
+>> Destiny Ayres=20
+>> xxxxx7173
+>=20
+
+
+
+
+--B_3511429626_500019
+Content-type: text/html;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div>Andrew &#8211; I met with Des=
+tiny today, and we are not going to make up the missed (and excused) lab. Ra=
+ther, at the end of the semester we will average her lab report grade on 10 =
+reports rather than 11. SO please try to remind me and you at the end of the=
+ smelter to do this! Thanks, Victoria Long</div><div><br></div><span id=3D"OLK=
+_SRC_BODY_SECTION"><div style=3D"font-family:Calibri; font-size:11pt; text-ali=
+gn:left; color:black; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: #b5c=
+4df 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 3pt"><span style=3D"fon=
+t-weight:bold">From: </span> Destiny Ayres &lt;<a href=3D"mailto:maltomania@gm=
+ail.com">maltomania@gmail.com</a>&gt;<br><span style=3D"font-weight:bold">Date=
+: </span> Thursday, April 9, 2015 at 9:45 AM<br><span style=3D"font-weight:bol=
+d">To: </span> Victoria Long &lt;<a href=3D"mailto:vilong@vt.edu">vilong@vt.ed=
+u</a>&gt;<br><span style=3D"font-weight:bold">Subject: </span> Re: Unable to a=
+ttend today's Lab<br></div><div><br></div><div><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html charset=3Dwindows-1252"><div style=3D"word-wrap: break-wor=
+d; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" class=3D"=
+">Dear Ms. Long,<div class=3D""><br class=3D""></div><div class=3D"">I apologize f=
+or my untimely response as i&#8217;ve been doing a lot of studying for all t=
+he making up i&#8217;ve had to do from being ill. but i just attended this m=
+ornings lab and i have my lab manual already filled out with what i need for=
+ the lab I missed so I will see you in Hahn around 1!&nbsp;</div><div class=3D=
+""><br class=3D""></div><div class=3D"">Thank you,</div><div class=3D""><br class=3D=
+""></div><div class=3D"">Destiny Ayres&nbsp;</div><div class=3D""><br class=3D""><=
+div><blockquote type=3D"cite" class=3D""><div class=3D"">On Apr 8, 2015, at 6:31 P=
+M, Victoria Long &lt;<a href=3D"mailto:vilong@vt.edu" class=3D"">vilong@vt.edu</=
+a>&gt; wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; font-size: 14px; font-family: Calibri, sans-serif;" class=
+=3D""><div class=3D"">Destiny &#8211; let&#8217;s plan to meet at 1:00&#8217;ish=
+ in HHN 205. Please bring your lab manual with you. Thanks, Victoria Long</d=
+iv><div class=3D""><br class=3D""></div><span id=3D"OLK_SRC_BODY_SECTION" class=3D""=
+><div style=3D"font-family: Calibri; font-size: 11pt; text-align: left; border=
+-width: 1pt medium medium; border-style: solid none none; padding: 3pt 0in 0=
+in; border-top-color: rgb(181, 196, 223);" class=3D""><span style=3D"font-weight=
+:bold" class=3D"">From: </span> Destiny Ayres &lt;<a href=3D"mailto:maltomania@g=
+mail.com" class=3D"">maltomania@gmail.com</a>&gt;<br class=3D""><span style=3D"fon=
+t-weight:bold" class=3D"">Date: </span> Wednesday, April 8, 2015 at 1:48 PM<br=
+ class=3D""><span style=3D"font-weight:bold" class=3D"">To: </span> Victoria Long =
+&lt;<a href=3D"mailto:vilong@vt.edu" class=3D"">vilong@vt.edu</a>&gt;<br class=3D"=
+"><span style=3D"font-weight:bold" class=3D"">Subject: </span> Re: Unable to att=
+end today's Lab<br class=3D""></div><div class=3D""><br class=3D""></div><div clas=
+s=3D""><meta http-equiv=3D"Content-Type" content=3D"text/html charset=3Dwindows-1252=
+" class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -web=
+kit-line-break: after-white-space;" class=3D"">Dear Professor Long,<div class=3D=
+""><br class=3D""></div><div class=3D"">I was not able to make it to any of my c=
+lasses on Thursday unfortunately but I am available to meet this week tomorr=
+ow between the hours of 12:30 and 2:30, and before 1:25 and after 2:15 on Fr=
+iday. Please let me know when you are available!</div><div class=3D""><br clas=
+s=3D""></div><div class=3D"">Sincerely,</div><div class=3D""><br class=3D""></div><d=
+iv class=3D"">Destiny Ayres&nbsp;</div><div class=3D""><div class=3D""><blockquote=
+ type=3D"cite" class=3D""><div class=3D"">On Apr 7, 2015, at 6:52 PM, Victoria Lon=
+g &lt;<a href=3D"mailto:vilong@vt.edu" class=3D"">vilong@vt.edu</a>&gt; wrote:</=
+div><br class=3D"Apple-interchange-newline"><div class=3D""><div style=3D"font-fam=
+ily: Calibri, sans-serif; font-size: 14px; font-style: normal; font-variant:=
+ normal; font-weight: normal; letter-spacing: normal; line-height: normal; o=
+rphans: auto; text-align: start; text-indent: 0px; text-transform: none; whi=
+te-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width=
+: 0px;" class=3D"">Destiny &#8211; please let me know if you attended lab. If =
+not, then let me know about 3 times we could meet this week and I&#8217;ll r=
+espond with a confirmation of one based on my schedule. Thanks, Victoria Lon=
+g</div><div style=3D"font-family: Calibri, sans-serif; font-size: 14px; font-s=
+tyle: normal; font-variant: normal; font-weight: normal; letter-spacing: nor=
+mal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px=
+; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px=
+; -webkit-text-stroke-width: 0px;" class=3D""><br class=3D""></div><span id=3D"OLK=
+_SRC_BODY_SECTION" style=3D"font-family: Calibri, sans-serif; font-size: 14px;=
+ font-style: normal; font-variant: normal; font-weight: normal; letter-spaci=
+ng: normal; line-height: normal; orphans: auto; text-align: start; text-inde=
+nt: 0px; text-transform: none; white-space: normal; widows: auto; word-spaci=
+ng: 0px; -webkit-text-stroke-width: 0px;" class=3D""><div style=3D"font-family: =
+Calibri; font-size: 11pt; text-align: left; border-width: 1pt medium medium;=
+ border-style: solid none none; padding: 3pt 0in 0in; border-top-color: rgb(=
+181, 196, 223);" class=3D""><span style=3D"font-weight: bold;" class=3D"">From:<sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span>Destiny Ayres &lt;<a hr=
+ef=3D"mailto:maltomania@gmail.com" class=3D"">maltomania@gmail.com</a>&gt;<br cl=
+ass=3D""><span style=3D"font-weight: bold;" class=3D"">Date:<span class=3D"Apple-con=
+verted-space">&nbsp;</span></span>Thursday, April 2, 2015 at 6:11 AM<br clas=
+s=3D""><span style=3D"font-weight: bold;" class=3D"">To:<span class=3D"Apple-convert=
+ed-space">&nbsp;</span></span>Victoria Long &lt;<a href=3D"mailto:vilong@vt.ed=
+u" class=3D"">vilong@vt.edu</a>&gt;<br class=3D""><span style=3D"font-weight: bold=
+;" class=3D"">Cc:<span class=3D"Apple-converted-space">&nbsp;</span></span>&lt;<=
+a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt;<br class=3D""=
+><span style=3D"font-weight: bold;" class=3D"">Subject:<span class=3D"Apple-conver=
+ted-space">&nbsp;</span></span>Unable to attend today's Lab<br class=3D""></di=
+v><div class=3D""><br class=3D""></div>Dear Professor Long,<div class=3D""><br cla=
+ss=3D""></div><div class=3D"">Last night and this morning marks the second time =
+I've gotten ill from eating a pasta dish from downtown Blacksburg. Although =
+I am picky and I do choose my food wisely, it seems that I have once again g=
+otten food poising or some sort of bug from</div><div class=3D"">the pasta I a=
+te yesterday for dinner. As much as it troubles me to not attend this lab be=
+cause I have missed a few already, I&nbsp;don't see it physically possible f=
+or me to make it to lab without being ill. In hopes of stopping myself from =
+getting dehydrated before it happens I've been trying to keep down all the f=
+luids I can but if my symptoms continue past the morning I will be making an=
+ appointment at schiffert. I sincerely apologize for the inconvenience once =
+more, let me know of my options for this lab.&nbsp;</div><div class=3D""><br c=
+lass=3D""></div><div class=3D"">Thank you,</div><div class=3D""><br class=3D""></div=
+><div class=3D"">Destiny Ayres&nbsp;<br class=3D""><div class=3D"">xxxxx7173</div>=
+</div></span></div></blockquote></div><br class=3D""></div></div></div></span>=
+</div></div></blockquote></div><br class=3D""></div></div></div></span></body>=
+</html>
+
+--B_3511429626_500019--
+
+

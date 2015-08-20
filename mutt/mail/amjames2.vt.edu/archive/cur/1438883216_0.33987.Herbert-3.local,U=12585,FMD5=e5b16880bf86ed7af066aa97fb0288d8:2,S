@@ -1,0 +1,154 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.28.59.9 with SMTP id i9csp12318wma;
+        Thu, 6 Aug 2015 10:27:38 -0700 (PDT)
+X-Received: by 10.140.195.136 with SMTP id q130mr5372040qha.49.1438882058092;
+        Thu, 06 Aug 2015 10:27:38 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id q17si12916746qha.132.2015.08.06.10.27.37
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 10:27:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-io0-f174.google.com (mail-io0-f174.google.com [209.85.223.174])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76HRVKU006256
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 13:27:37 -0400
+Received: by iodb91 with SMTP id b91so28216805iod.1
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 10:27:31 -0700 (PDT)
+X-Received: by 10.107.156.203 with SMTP id f194mr3712171ioe.164.1438882051696;
+        Thu, 06 Aug 2015 10:27:31 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1112356iee;
+        Thu, 6 Aug 2015 10:27:30 -0700 (PDT)
+X-Received: by 10.140.39.133 with SMTP id v5mr5186276qgv.34.1438882050910;
+        Thu, 06 Aug 2015 10:27:30 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id f200si2204221qka.96.2015.08.06.10.27.30
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 10:27:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:250:3bcb:5b17])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76HRUGn016354
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 13:27:30 -0400
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76HRP3M022766
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 13:27:30 -0400
+Received: by igbpg9 with SMTP id pg9so16084452igb.0
+        for <andrew.m.james2@gmail.com>; Thu, 06 Aug 2015 10:27:24 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=Denh8A0LBzB7NiVtKluZQgWbX5EsbKAHpNOTgTh519c=;
+        b=Eb6laeeYZcn/EUztUy+Jd1KqMcwXgaqVfGhZnY+Jq/EgsjFT1ds1bLEEy2/4oJMs4Z
+         3ugvMXxmEooHwNwwD2t4LWnDKDnMEU/9rZ5Ka0LP3HSJ5EhNLS2sQi1OB58W+qY07gjJ
+         juS/nFgUNp1vwDTcXaSR8VxP+pxx0J8bTW7t+oES5vJ6Kvf0vxgyEdDjfrJ9mgll6otx
+         gZL5A4p+cy6UApmW93Htdm6AapgeB/QBW4ucV/dCjDaOtx71EbYAjy3DC03GBIOwJmh2
+         vv3ZgCU4UxUFvFlTn3Yb8HaFJN4sTjugV5Sp/Jg6vbnZPYv0xuefMFfERldVHX6q3Hqb
+         L1Ww==
+X-Gm-Message-State: ALoCoQmvmf1dAaMFqu5ykPzwSnEhhRa9IhOsIt1MxqN2+X6/vS/eoIskbFm7LK38AHzbzK/XFkBukQak6/HnFbrCScrZH4EokOLRO9CtUN0A/zbZTq07p0U7Wh4y2fXdqQq2bTES89hlXvJyh8z+QaiV7RmxkeR09w==
+X-Received: by 10.50.8.39 with SMTP id o7mr5392042iga.23.1438882044800;
+        Thu, 06 Aug 2015 10:27:24 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.8.39 with SMTP id o7mr5392022iga.23.1438882044573; Thu,
+ 06 Aug 2015 10:27:24 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 10:27:24 -0700 (PDT)
+In-Reply-To: <CAH0V_1bgjCVJcr5KjGLML2PrHWnki0oDkd4P-6KhC0MD6Y1ZPg@mail.gmail.com>
+References: <CAH0V_1bgjCVJcr5KjGLML2PrHWnki0oDkd4P-6KhC0MD6Y1ZPg@mail.gmail.com>
+Date: Thu, 6 Aug 2015 11:27:24 -0600
+Message-ID: <CAH0V_1Ze7-5Ep8CL+4EwG_vhyouVid+w12rDSDzDPPpV4ao9tQ@mail.gmail.com>
+Subject: Re: UHF Stability Code Again
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Gonthier, Jerome F" <jerome.gonthier@chemistry.gatech.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e01184022247af4051ca7d558
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e01184022247af4051ca7d558
+Content-Type: text/plain; charset=UTF-8
+
+Hi, Jerome,
+
+I can get convergence if I set solver_n_root = 1 (since I really only want
+the lowest root anyway).  I wonder if such tight default convergence
+(10^-6) is necessary for most stability analyses?
+
+However, I have another question about UHF stability analysis when coupled
+to subsequent CC calculations.  Why does the stability code switch over to
+PK integrals in such cases?  The SCF code runs DF-UHF to get a good guess,
+then computes and stores the JK integrals to solve the UHF equations.  Then
+the stability code calls the PK integral algorithm (including
+transformation) to do its analysis.  Do correlated calculations following
+stability analysis require the PK-based stability algorithm?
+
+-TDC
+
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Aug 6, 2015 at 10:55 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Hi, Jerome,
+>
+> I thought that everything was working with the UHF stability code, but it
+> seems there are still convergence problems.  Can you take a look at the
+> attached test case and give me suggestions for parameters to get it to
+> converge on the second pass?
+>
+> Thanks!
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+
+--089e01184022247af4051ca7d558
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, Jerome,<div><br></div><div>I can get convergence if I =
+set solver_n_root =3D 1 (since I really only want the lowest root anyway).=
+=C2=A0 I wonder if such tight default convergence (10^-6) is necessary for =
+most stability analyses? =C2=A0</div><div><br></div><div>However, I have an=
+other question about UHF stability analysis when coupled to subsequent CC c=
+alculations.=C2=A0 Why does the stability code switch over to PK integrals =
+in such cases?=C2=A0 The SCF code runs DF-UHF to get a good guess, then com=
+putes and stores the JK integrals to solve the UHF equations.=C2=A0 Then th=
+e stability code calls the PK integral algorithm (including transformation)=
+ to do its analysis.=C2=A0 Do correlated calculations following stability a=
+nalysis require the PK-based stability algorithm?</div><div><br></div><div>=
+-TDC</div><div><br></div><div><br></div></div><div class=3D"gmail_extra"><b=
+r clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div=
+>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" targe=
+t=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 10:55 AM, T. Daniel C=
+rawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Hi, Jerome,<div><br></div><div>I thought that everythin=
+g was working with the UHF stability code, but it seems there are still con=
+vergence problems.=C2=A0 Can you take a look at the attached test case and =
+give me suggestions for parameters to get it to converge on the second pass=
+?</div><div><br></div><div>Thanks!</div><div><br></div><div>-TDC<br clear=
+=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><d=
+iv><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></=
+div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+
+--089e01184022247af4051ca7d558--

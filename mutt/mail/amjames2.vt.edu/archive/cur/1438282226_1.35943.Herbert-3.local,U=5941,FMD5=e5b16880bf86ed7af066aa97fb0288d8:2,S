@@ -1,0 +1,238 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp146145qgf;
+        Fri, 10 Apr 2015 13:30:54 -0700 (PDT)
+X-Received: by 10.140.95.85 with SMTP id h79mr4016347qge.68.1428697854859;
+        Fri, 10 Apr 2015 13:30:54 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id e6si2910348qcc.32.2015.04.10.13.30.54
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 10 Apr 2015 13:30:54 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3AKUnOF025979
+	for <amjames2@vt.edu>; Fri, 10 Apr 2015 16:30:54 -0400
+Received: by iedfl3 with SMTP id fl3so30048687ied.1
+        for <amjames2@vt.edu>; Fri, 10 Apr 2015 13:30:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=vvVsVUxSCYM6HhWGlDCENqNLtkBFMdUVv9T94CQKbpg=;
+        b=bzv3da+MidXXcpQSZNH1q56tycNBe/b8DoQxTBdQg7T6V1TLQIpj5UKbTHFuAXVVT2
+         WlW3nALrwlqyVCTXJ4puurcuJKQkJf6lTSY8jSZw4aFaFYPK4xwPWrlPl9dh9gfsI0Qn
+         WcquAHEVlsVTeUUeLEFYo1Gvvu2shLA6jnwMwTt7rlyMP80kVZUgjZouBkxP2TTE4FUu
+         3QFzEeLaARraFVr5iHGVHBrf5nsNBQTRDs64vgyh7ctFx3rQBINp5DkJqp4i/VBGtHZi
+         uliEcTaJkabgrh8BvCBKSQ4xA1HYytY6n/4dYqdUDjIjhXD1Kqu9Z91ag08U7af3cPGp
+         2Kmg==
+X-Gm-Message-State: ALoCoQlnF9smcRwX31aAsXYnbGahtazMAMj19JtPAZ3rk3kE2klFLLZqmeEOu0FIDWSCQWXIxWiuV9h3NbrBycionnv4inRuBQ6eNfgAViYWZJ+u4qEspAOedG0g2H1mpomrle6/hNyWnFCTmrhbjheKekxrwCVgSg==
+X-Received: by 10.43.89.133 with SMTP id be5mr6133415icc.2.1428697848989;
+        Fri, 10 Apr 2015 13:30:48 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.43.89.133 with SMTP id be5mr6133407icc.2.1428697848824; Fri,
+ 10 Apr 2015 13:30:48 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Fri, 10 Apr 2015 13:30:48 -0700 (PDT)
+In-Reply-To: <ED494727-E318-43E8-859B-6AC7BFC0B2AB@vt.edu>
+References: <b0472edd96f046c09b044ab04d542f0b@GUTENBERG.cc.w2k.vt.edu>
+	<ED494727-E318-43E8-859B-6AC7BFC0B2AB@vt.edu>
+Date: Fri, 10 Apr 2015 16:30:48 -0400
+Message-ID: <CAH0V_1Y+kY6YYERC68DTwypQ0b8xSbS42ac4Zu+cQ1rFrBqEWQ@mail.gmail.com>
+Subject: Re: MRPSS
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=bcaec5196a2dc553e2051364a334
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec5196a2dc553e2051364a334
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for keeping me updated, AJ.
+
+You should not be the contact person for VISA applications.  Jessica should
+provide information on how to handle those.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Apr 10, 2015 at 4:28 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dr. Crawford,
+>
+>
+> Some updates from the MRPSS.
+>
+> Jessica just forwarded me the attached list of those currently registered
+> for the MRPSS.  Quite a few of them (5/7) are coming from outside the US.=
+ I
+> am starting to get requests from some asking for a contact person that th=
+ey
+> can put on their visa applications.  I am fine giving them my name and
+> Address for their applications, but I have sent Jessica an email asking i=
+f
+> that would be appropriate, if I should give a university address. I also
+> looked at the visa application they are filling out and you can give an
+> organization rather than a person as the contact, so I am holding of on
+> answering these emails until I get more information.  Just wanted to keep
+> you in the loop.
+>
+> =E2=80=94AJ
+>
+> Begin forwarded message:
+>
+> *From: *"Brow, Jessica" <jbrow@exchange.vt.edu>
+> *To: *"James, Andrew" <amjames2@vt.edu>
+> *Subject: **FW: MRPSS *
+> *Date: *April 10, 2015 at 4:07:31 PM EDT
+>
+> Andrew,
+>
+> The registrant list is attached.  The two at the bottom have enrolled, bu=
+t
+> have not yet paid.
+>
+> Thanks!
+>
+> Jessica
+>
+> Jessica Brow
+> Project Manager
+> Continuing and Professional Education
+> Virginia Tech
+> 540-231-4140
+> jbrow@vt.edu
+>
+>
+>
+> *From:* copier@vt.edu [mailto:copier@vt.edu <copier@vt.edu>]
+> *Sent:* Friday, April 10, 2015 3:16 PM
+> *To:* Brow, Jessica
+> *Subject:* MRPSS
+>
+>
+>
+>
+>
+>
+>
+
+--bcaec5196a2dc553e2051364a334
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks for keeping me updated, AJ. =C2=A0<div><br></div><d=
+iv>You should not be the contact person for VISA applications.=C2=A0 Jessic=
+a should provide information on how to handle those.<div><br></div><div>-TD=
+C</div></div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div c=
+lass=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</=
+div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu=
+</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Apr 10, 2015 at 4:28 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+div style=3D"word-wrap:break-word">Dr. Crawford,=C2=A0<div><br></div><div><=
+br></div><div>Some updates from the MRPSS.</div><div><br></div><div>Jessica=
+ just forwarded me the attached list of those currently registered for the =
+MRPSS.=C2=A0 Quite a few of them (5/7) are coming from outside the US. I am=
+ starting to get requests from some asking for a contact person that they c=
+an put on their visa applications.=C2=A0 I am fine giving them my name and =
+Address for their applications, but I have sent Jessica an email asking if =
+that would be appropriate, if I should give a university address. I also lo=
+oked at the visa application they are filling out and you can give an organ=
+ization rather than a person as the contact, so I am holding of on answerin=
+g these emails until I get more information.=C2=A0 Just wanted to keep you =
+in the loop. =C2=A0</div><div><br></div><div>=E2=80=94AJ =C2=A0<br><div><br=
+><blockquote type=3D"cite"><div>Begin forwarded message:</div><br><div styl=
+e=3D"margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><sp=
+an style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,sans-s=
+erif;color:rgba(0,0,0,1.0)"><b>From: </b></span><span style=3D"font-family:=
+-webkit-system-font,Helvetica Neue,Helvetica,sans-serif">&quot;Brow, Jessic=
+a&quot; &lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbro=
+w@exchange.vt.edu</a>&gt;<br></span></div><div style=3D"margin-top:0px;marg=
+in-right:0px;margin-bottom:0px;margin-left:0px"><span style=3D"font-family:=
+-webkit-system-font,Helvetica Neue,Helvetica,sans-serif;color:rgba(0,0,0,1.=
+0)"><b>To: </b></span><span style=3D"font-family:-webkit-system-font,Helvet=
+ica Neue,Helvetica,sans-serif">&quot;James, Andrew&quot; &lt;<a href=3D"mai=
+lto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;<br></span></=
+div><div style=3D"margin-top:0px;margin-right:0px;margin-bottom:0px;margin-=
+left:0px"><span style=3D"font-family:-webkit-system-font,Helvetica Neue,Hel=
+vetica,sans-serif;color:rgba(0,0,0,1.0)"><b>Subject: </b></span><span style=
+=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,sans-serif"><b=
+>FW: MRPSS </b><br></span></div><div style=3D"margin-top:0px;margin-right:0=
+px;margin-bottom:0px;margin-left:0px"><span style=3D"font-family:-webkit-sy=
+stem-font,Helvetica Neue,Helvetica,sans-serif;color:rgba(0,0,0,1.0)"><b>Dat=
+e: </b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue=
+,Helvetica,sans-serif">April 10, 2015 at 4:07:31 PM EDT<br></span></div><br=
+><div><div style=3D"font-family:Helvetica;font-size:12px;font-style:normal;=
+font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:no=
+rmal;text-align:start;text-indent:0px;text-transform:none;white-space:norma=
+l;word-spacing:0px"><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;fo=
+nt-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)">Andrew,<=
+u></u><u></u></span></div><div style=3D"margin:0in 0in 0.0001pt;font-size:1=
+1pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)">=
+=C2=A0</span></div><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;fon=
+t-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)">The regis=
+trant list is attached.=C2=A0 The two at the bottom have enrolled, but have=
+ not yet paid.<u></u><u></u></span></div><div style=3D"margin:0in 0in 0.000=
+1pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb=
+(31,73,125)">=C2=A0</span></div><div style=3D"margin:0in 0in 0.0001pt;font-=
+size:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,12=
+5)">Thanks!<u></u><u></u></span></div><div style=3D"margin:0in 0in 0.0001pt=
+;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31=
+,73,125)">=C2=A0</span></div><div style=3D"margin:0in 0in 0.0001pt;font-siz=
+e:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)"=
+>Jessica<u></u><u></u></span></div><div style=3D"margin:0in 0in 0.0001pt;fo=
+nt-size:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73=
+,125)">=C2=A0</span></div><div style=3D"margin:0in 0in 0.0001pt;font-size:1=
+1pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)">Je=
+ssica Brow<u></u><u></u></span></div><div style=3D"margin:0in 0in 0.0001pt;=
+font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"color:rgb(31,=
+73,125)">Project Manager<u></u><u></u></span></div><div style=3D"margin:0in=
+ 0in 0.0001pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D=
+"color:rgb(31,73,125)"><a style=3D"color:rgb(149,79,114);text-decoration:un=
+derline">Continuing and Professional Education</a><u></u><u></u></span></di=
+v><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calibri,=
+sans-serif"><span style=3D"color:rgb(31,73,125)"><a style=3D"color:rgb(149,=
+79,114);text-decoration:underline">Virginia Tech</a><u></u><u></u></span></=
+div><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calibr=
+i,sans-serif"><span style=3D"color:rgb(31,73,125)"><a href=3D"tel:540-231-4=
+140" value=3D"+15402314140" target=3D"_blank">540-231-4140</a><u></u><u></u=
+></span></div><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-fam=
+ily:Calibri,sans-serif"><span style=3D"color:rgb(31,73,125)"><a href=3D"mai=
+lto:jbrow@vt.edu" style=3D"color:rgb(149,79,114);text-decoration:underline"=
+ target=3D"_blank">jbrow@vt.edu</a><u></u><u></u></span></div><div style=3D=
+"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calibri,sans-serif"><sp=
+an style=3D"color:rgb(31,73,125)">=C2=A0</span></div><div style=3D"margin:0=
+in 0in 0.0001pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"color:rgb(31,73,125)">=C2=A0</span></div><div style=3D"margin:0in 0in 0=
+.0001pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"color=
+:rgb(31,73,125)">=C2=A0</span></div><div style=3D"margin:0in 0in 0.0001pt;f=
+ont-size:11pt;font-family:Calibri,sans-serif"><b>From:</b><span>=C2=A0</spa=
+n><a href=3D"mailto:copier@vt.edu" style=3D"color:rgb(149,79,114);text-deco=
+ration:underline" target=3D"_blank">copier@vt.edu</a><span>=C2=A0</span>[<a=
+ href=3D"mailto:copier@vt.edu" style=3D"color:rgb(149,79,114);text-decorati=
+on:underline" target=3D"_blank">mailto:copier@vt.edu</a>]<span>=C2=A0</span=
+><br><b>Sent:</b><span>=C2=A0</span>Friday, April 10, 2015 3:16 PM<br><b>To=
+:</b><span>=C2=A0</span>Brow, Jessica<br><b>Subject:</b><span>=C2=A0</span>=
+MRPSS<span>=C2=A0</span><u></u><u></u></div><div style=3D"margin:0in 0in 0.=
+0001pt;font-size:11pt;font-family:Calibri,sans-serif"><u></u>=C2=A0<u></u><=
+/div><div style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calib=
+ri,sans-serif"><u></u>=C2=A0<u></u></div></div></div></blockquote></div></d=
+iv></div><br><div style=3D"word-wrap:break-word"><div><div><blockquote type=
+=3D"cite"><div></div></blockquote></div><br></div></div><br></blockquote></=
+div><br></div>
+
+--bcaec5196a2dc553e2051364a334--

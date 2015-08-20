@@ -1,0 +1,198 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp407442qgp;
+        Mon, 16 Feb 2015 17:37:28 -0800 (PST)
+X-Received: by 10.140.146.79 with SMTP id 76mr739167qhs.98.1424137048004;
+        Mon, 16 Feb 2015 17:37:28 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id u123si8072659qhd.31.2015.02.16.17.37.27
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Feb 2015 17:37:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1H1bMEb002520
+	for <amjames2@vt.edu>; Mon, 16 Feb 2015 20:37:27 -0500
+Received: by mail-ig0-f176.google.com with SMTP id hl2so26921971igb.3
+        for <amjames2@vt.edu>; Mon, 16 Feb 2015 17:37:22 -0800 (PST)
+X-Received: by 10.50.61.201 with SMTP id s9mr32913675igr.0.1424137042172;
+        Mon, 16 Feb 2015 17:37:22 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1816260ieb;
+        Mon, 16 Feb 2015 17:37:21 -0800 (PST)
+X-Received: by 10.140.149.4 with SMTP id 4mr615280qhv.38.1424137041158;
+        Mon, 16 Feb 2015 17:37:21 -0800 (PST)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id f7si16433213qai.31.2015.02.16.17.37.19
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Feb 2015 17:37:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr5.cc.vt.edu (mr5.cc.vt.edu [198.82.141.27] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1H1bHJT028195
+	for <andrew.m.james2@gmail.com>; Mon, 16 Feb 2015 20:37:17 -0500
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1H1bCHc006124
+	for <andrew.m.james2@gmail.com>; Mon, 16 Feb 2015 20:37:17 -0500
+Received: by mail-ig0-f169.google.com with SMTP id hl2so38196294igb.0
+        for <andrew.m.james2@gmail.com>; Mon, 16 Feb 2015 17:37:11 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=ikCD0MjctxeKNgEkBQJEbTH3j9Z9vlaxF94yVto7MhI=;
+        b=EZifbPSL7sAkmagq+jEv+/mLWVIbqkMy3IPMklNzEIZBjPXEgD0v6eZPBtO+xi5ePW
+         dOLIVADZsUO+B58nmrJ2g3cfXhUCWwJf4t5w9HHhar2HJlRy2HJmhH4TEhc+v2iekGiP
+         dgY0aEZIh0pfnwdvJEHV5yKxXs8ijZo+N/FKFrYxDXTVHlox3SskG1aFWPXTiQe10u5V
+         OhWfKWz2/1by+R1yt3LEcemwWzmNPCF+NXBSXmNzRPG/mTc/83SNz/3NZn202TC2qgzx
+         sIJ59yEEkrZto5Mi5blGzynq7BT9E71l+hQKRmTq2+C+SmWbHBxbrLtZguoY2xNuNCXk
+         k5PA==
+X-Gm-Message-State: ALoCoQmRB567rn4rnAGg67NSrbYYUjg35BRuwYAaTkxlVVlUyLLrVmv0+4NS+kxZNBlx5gkcRGtdUngYzMc41u7WrvqE48uKUbBNrhgIvacsPTOkIJoZSjGha2qDJxJXZ5Gqr9b5pC1Tc1IDK8q3z0+hgW25EZup9A==
+X-Received: by 10.50.142.38 with SMTP id rt6mr24932703igb.17.1424137031934;
+        Mon, 16 Feb 2015 17:37:11 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.50.142.38 with SMTP id rt6mr24932687igb.17.1424137031767;
+ Mon, 16 Feb 2015 17:37:11 -0800 (PST)
+Received: by 10.64.171.84 with HTTP; Mon, 16 Feb 2015 17:37:11 -0800 (PST)
+In-Reply-To: <20150217013442.4124593A@am.arc.vt.edu.hpc>
+References: <20150217013442.4124593A@am.arc.vt.edu.hpc>
+Date: Mon, 16 Feb 2015 20:37:11 -0500
+Message-ID: <CAH0V_1YUuw8VEaiy3d0PRRrnme7-4mhb+0o867q-KrLMjmnHNQ@mail.gmail.com>
+Subject: Fwd: ARC Allocation Decision
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Harley McAlexander <harleymc@vt.edu>, Ashutosh Kumar <akumar1@vt.edu>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c3a950e412c6050f3ebdcb
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c3a950e412c6050f3ebdcb
+Content-Type: text/plain; charset=UTF-8
+
+Good news!  We have another 1M hours of CPU time on blueridge.  :)
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: <hpcalloc@portal.arc.vt.edu>
+Date: Mon, Feb 16, 2015 at 8:34 PM
+Subject: ARC Allocation Decision
+To: crawdad@vt.edu
+
+
+Please do not reply to this email as the address is send-only.
+
+This email is to notify you that a decision has been made regarding your
+allocation request on ARC's resources:
+
+      Allocation Request ID: 166
+      Submitted: 2015-02-16 19:27:32.320525
+      Application Type: Renewal
+      Allocation Type: Research
+      Request Size (System Units): 1,000,000
+
+      Decision: Full Award
+      Award (System Units): 1,000,000
+      Reviewer Comments: Please see the BlueRidge user guide for system
+information including an overview of the compilers, software, module
+structure, hardware configuration and step-by-by step instructions for job
+submission and monitoring:
+
+http://www.arc.vt.edu/resources/hpc/blueridge.php
+
+Any Virginia Tech users associated with your allocation must first apply
+for an account on the system, which is accomplished using the following
+form:
+
+https://secure.hosting.vt.edu/www.arc.vt.edu/forms/account_request.php
+
+Once their account has been activated, you will be able to add users to any
+of the projects listed at your research page:
+
+https://portal.arc.vt.edu/am/research/my_research.php
+
+Best Regards,
+Advanced Research Computing
+      Decision Date: 2015-02-17 01:34:42.22998
+You may now go to the Project page to add users to this allocation:
+https://portal.arc.vt.edu/am/research/project.php?prID=8
+
+Regards,
+
+Advanced Research Computing at Virginia Tech
+
+--001a11c3a950e412c6050f3ebdcb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Good news!=C2=A0 We have another 1M hours of CPU time on b=
+lueridge. =C2=A0:)<div><br></div><div>-TDC<br clear=3D"all"><div><div class=
+=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div>=
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername"></b> <span dir=3D"ltr">&lt;<a href=3D"ma=
+ilto:hpcalloc@portal.arc.vt.edu">hpcalloc@portal.arc.vt.edu</a>&gt;</span><=
+br>Date: Mon, Feb 16, 2015 at 8:34 PM<br>Subject: ARC Allocation Decision<b=
+r>To: <a href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a><br><br><br>Pleas=
+e do not reply to this email as the address is send-only.<br>
+<br>
+This email is to notify you that a decision has been made regarding your al=
+location request on ARC&#39;s resources:<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 Allocation Request ID: 166<br>
+=C2=A0 =C2=A0 =C2=A0 Submitted: 2015-02-16 19:27:32.320525<br>
+=C2=A0 =C2=A0 =C2=A0 Application Type: Renewal<br>
+=C2=A0 =C2=A0 =C2=A0 Allocation Type: Research<br>
+=C2=A0 =C2=A0 =C2=A0 Request Size (System Units): 1,000,000<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 Decision: Full Award<br>
+=C2=A0 =C2=A0 =C2=A0 Award (System Units): 1,000,000<br>
+=C2=A0 =C2=A0 =C2=A0 Reviewer Comments: Please see the BlueRidge user guide=
+ for system information including an overview of the compilers, software, m=
+odule structure, hardware configuration and step-by-by step instructions fo=
+r job submission and monitoring:<br>
+<br>
+<a href=3D"http://www.arc.vt.edu/resources/hpc/blueridge.php" target=3D"_bl=
+ank">http://www.arc.vt.edu/resources/hpc/blueridge.php</a><br>
+<br>
+Any Virginia Tech users associated with your allocation must first apply fo=
+r an account on the system, which is accomplished using the following form:=
+<br>
+<br>
+<a href=3D"https://secure.hosting.vt.edu/www.arc.vt.edu/forms/account_reque=
+st.php" target=3D"_blank">https://secure.hosting.vt.edu/www.arc.vt.edu/form=
+s/account_request.php</a><br>
+<br>
+Once their account has been activated, you will be able to add users to any=
+ of the projects listed at your research page:<br>
+<br>
+<a href=3D"https://portal.arc.vt.edu/am/research/my_research.php" target=3D=
+"_blank">https://portal.arc.vt.edu/am/research/my_research.php</a><br>
+<br>
+Best Regards,<br>
+Advanced Research Computing<br>
+=C2=A0 =C2=A0 =C2=A0 Decision Date: 2015-02-17 01:34:42.22998<br>
+You may now go to the Project page to add users to this allocation: <a href=
+=3D"https://portal.arc.vt.edu/am/research/project.php?prID=3D8" target=3D"_=
+blank">https://portal.arc.vt.edu/am/research/project.php?prID=3D8</a><br>
+<br>
+Regards,<br>
+<br>
+Advanced Research Computing at Virginia Tech<br>
+<br>
+</div><br></div></div>
+
+--001a11c3a950e412c6050f3ebdcb--

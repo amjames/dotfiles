@@ -1,0 +1,142 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1699863qge;
+        Mon, 30 Mar 2015 11:47:46 -0700 (PDT)
+X-Received: by 10.140.235.216 with SMTP id g207mr5964389qhc.9.1427741265794;
+        Mon, 30 Mar 2015 11:47:45 -0700 (PDT)
+Return-Path: <rinsari@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id i9si11252726qkh.90.2015.03.30.11.47.45
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 30 Mar 2015 11:47:45 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning rinsari@vt.edu does not designate 209.85.212.171 as permitted sender) client-ip=209.85.212.171;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning rinsari@vt.edu does not designate 209.85.212.171 as permitted sender) smtp.mail=rinsari@vt.edu
+Received: from mail-wi0-f171.google.com (mail-wi0-f171.google.com [209.85.212.171])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2UIldfp006866
+	for <amjames2@vt.edu>; Mon, 30 Mar 2015 14:47:45 -0400
+Received: by wicne17 with SMTP id ne17so41997853wic.0
+        for <amjames2@vt.edu>; Mon, 30 Mar 2015 11:47:39 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=M3QZxumHuuR5ohd46AzUKDD+RkZLa3QzpaPlRn2UANs=;
+        b=l56qkDuJ5SEEZMPY3cB6k41ET5OoWCH1nyOCUNctowbxB7kgARz6tPv+VbbYuyK0tO
+         taw8KCtaeMH9Y7sW1zqcOYS4dQRpBDQTK4qirw++F/lFGU0/bwZZX8ue9jxdVouBaTXJ
+         O6Lolk02A7vGow/d2dgbP6zldR3dMvsszb6hYn4wK/P0g1kFFgkOtjRWdKsc082zTibi
+         DvPCQZiMGOep7F8OflzpCAUY9bUP4MtbMhbl6IXxY/Ohymy47vJBZVSTFw7A2C0m1fVa
+         bKMo40IDJoZqsyMEbyS0MNLRNHr7VQBUFz7jTVkNlku0i7oKzC8VI3IM47iccGoD3+G8
+         hOOQ==
+X-Gm-Message-State: ALoCoQkWOR/Skw3yzxVKOtcIMuFT9LaKYugUm1aiCEk5oueekDEPm6ahegtQgz6r8mZugr3k8GKQMM0skoumEt2YhojjVw2Qxl27Q9t+v5dxZsM3xN8ldV2TzLC/dSPrUTygPbXyXgKt3kKuyb6v7cWPvpP1K4x+gA==
+X-Received: by 10.194.192.65 with SMTP id he1mr67858340wjc.118.1427741259781;
+        Mon, 30 Mar 2015 11:47:39 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.194.192.65 with SMTP id he1mr67858326wjc.118.1427741259690;
+ Mon, 30 Mar 2015 11:47:39 -0700 (PDT)
+Received: by 10.28.188.133 with HTTP; Mon, 30 Mar 2015 11:47:39 -0700 (PDT)
+In-Reply-To: <CANkH22oCXx0ag5tAJxKorX2hYysoG6-9MTi4y1U2aRNfdgTs+g@mail.gmail.com>
+References: <D908A624-E3E7-4DD4-BCD8-F65066ED6F1A@vt.edu>
+	<CANkH22oCXx0ag5tAJxKorX2hYysoG6-9MTi4y1U2aRNfdgTs+g@mail.gmail.com>
+Date: Mon, 30 Mar 2015 14:47:39 -0400
+Message-ID: <CANkH22pp9gpBY0Cx3ayubqOkj0czesLfyssP5JpMUfJHMW14ww@mail.gmail.com>
+Subject: Re: Pre-Lab Quizzes
+From: Ramaan Insari <rinsari@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bae48c89d87b7051285ea1b
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bae48c89d87b7051285ea1b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Andrew,
+
+A police officer came to our apartment shortly after I sent you that last
+email and my roommate was admitted to a suicide prevention center for two
+days. I know calling the police was probably protocol, but I would have
+appreciated a response to my previous email. Would it be possible for me to
+makeup the second lab? Also, what lab is bench C doing this week?
+
+Thank you,
+
+Ramaan Insari
+
+On Wed, Mar 25, 2015 at 3:34 PM, Ramaan Insari <rinsari@vt.edu> wrote:
+
+> Andrew,
+>
+> Thank you for expressing your concern. My roommate is going through a lot
+> of personal turmoil right now and has been contemplating suicide, so this
+> week I've been putting him ahead of my classes. I'll try not to miss the
+> lab next week.
+>
+> Thank you,
+>
+> Ramaan Insari
+>
+> On Wed, Mar 25, 2015 at 11:52 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Dear Ramaan,
+>>
+>> I noticed that you haven=E2=80=99t completed the pre-lab quiz for this w=
+eek, and
+>> I wanted to check in to make sure everything is okay. Not completing tho=
+se
+>> quizzes is preventing you from participating in lab and this will start =
+to
+>> drag your grades down quick.  If there is something wrong please let us
+>> (Myself, Mrs. Long and Mrs. Dalton) know asap, and if not please get on =
+top
+>> of those quizzes!
+>>
+>> Take care,
+>> =E2=80=94Andrew
+>
+>
+>
+
+--047d7bae48c89d87b7051285ea1b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Andrew,<div><br></div><div>A police officer came to our ap=
+artment shortly after I sent you that last email and my roommate was admitt=
+ed to a suicide prevention center for two days. I know calling the police w=
+as probably protocol, but I would have appreciated a response to my previou=
+s email. Would it be possible for me to makeup the second lab? Also, what l=
+ab is bench C doing this week?</div><div><br></div><div>Thank you,</div><di=
+v><br></div><div>Ramaan Insari</div></div><div class=3D"gmail_extra"><br><d=
+iv class=3D"gmail_quote">On Wed, Mar 25, 2015 at 3:34 PM, Ramaan Insari <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:rinsari@vt.edu" target=3D"_blank">rins=
+ari@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=
+=3D"ltr">Andrew,<div><br></div><div>Thank you for expressing your concern. =
+My roommate is going through a lot of personal turmoil right now and has be=
+en contemplating suicide, so this week I&#39;ve been putting him ahead of m=
+y classes. I&#39;ll try not to miss the lab next week.</div><div><br></div>=
+<div>Thank you,</div><div><br></div><div>Ramaan Insari</div></div><div clas=
+s=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"><br><div class=3D=
+"gmail_quote">On Wed, Mar 25, 2015 at 11:52 AM, Andrew James <span dir=3D"l=
+tr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.ed=
+u</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margi=
+n:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Dear Ramaan,<br>
+<br>
+I noticed that you haven=E2=80=99t completed the pre-lab quiz for this week=
+, and I wanted to check in to make sure everything is okay. Not completing =
+those quizzes is preventing you from participating in lab and this will sta=
+rt to drag your grades down quick.=C2=A0 If there is something wrong please=
+ let us (Myself, Mrs. Long and Mrs. Dalton) know asap, and if not please ge=
+t on top of those quizzes!<br>
+<br>
+Take care,<br>
+=E2=80=94Andrew </blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+
+--047d7bae48c89d87b7051285ea1b--

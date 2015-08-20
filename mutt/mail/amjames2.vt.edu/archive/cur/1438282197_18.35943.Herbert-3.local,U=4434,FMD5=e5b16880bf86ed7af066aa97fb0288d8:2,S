@@ -1,0 +1,138 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp383104qgp;
+        Mon, 16 Feb 2015 13:36:47 -0800 (PST)
+X-Received: by 10.140.232.149 with SMTP id d143mr719491qhc.82.1424122607296;
+        Mon, 16 Feb 2015 13:36:47 -0800 (PST)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id f186si7365444qhe.32.2015.02.16.13.36.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Feb 2015 13:36:47 -0800 (PST)
+Received-SPF: none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1GLaekl011760
+	for <amjames2@vt.edu>; Mon, 16 Feb 2015 16:36:46 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=nOjKAScf0EJLFR4T1zMyPAYt5L8=; b=OuqrdZgOVXjL0oDN
+	hjOMwXiU3hjksij4fT62zv/7EWUnERWBrVplFBHv03EzBjKBVdfTKNB4BZVyRwcc
+	l4kCRhC+eNRiNGZOJvGUzC7ZGncvPqRF/TSwZGlbpn0nDz/OJD/R95JO9FOIZYma
+	xeIy75083QRaGYa5FQ0uvX58RN4=
+Received: by filter0032p1mdw1.sendgrid.net with SMTP id filter0032p1mdw1.30327.54E262E616
+        2015-02-16 21:36:39.556009564 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-005 (SG) with ESMTP id 14b94525850.6fb.2bbffa
+	for <amjames2@vt.edu>; Mon, 16 Feb 2015 21:36:39 +0000 (UTC)
+Date: Mon, 16 Feb 2015 13:36:39 -0800
+From: bwang2453 <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642d405fbc224c52d349842f4509c60cdd0854870f192cf0000000110fa24e792a169ce0372c7b9@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/pull/93@github.com>
+Subject: [psi4] minor fixes for CSX version 1 (#93)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54e262e75ced1_c8a3f84bac8d2b81063b1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: bwang2453
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642d405fbc224c52d349842f4509c60cdd0854870f192cf0000000110fa24e792a169ce0372c7b9@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642d405fbc224c52d349842f4509c60cdd0854870f192cf0000000110fa24e792a169ce0372c7b9@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QlZuhtdWXjYMk3rWTrKSbsqN9xAEks5nslpngaJpZM4DhL4y>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlXU6YlF9SCGRULgxuKVfY9sSFfx/yFcFKQpO
+ glLGbj/h2fEEw7ZzOWccBdEE/yHztokUc59yYDV3TQdMau4H89J5fx1dqFrD/OmtSA2IioqvlaRNjr
+ vbtSIW3UaCwn760=
+X-Spam-Status: No, score=-1.4 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_54e262e75ced1_c8a3f84bac8d2b81063b1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+You can view, comment on, or merge this pull request online at:
+
+  https://github.com/psi4/psi4/pull/93
+
+-- Commit Summary --
+
+  * minor fixes for CSX version 1
+
+-- File Changes --
+
+    M lib/python/csx1_api.py (11)
+    M lib/python/driver.py (156)
+
+-- Patch Links --
+
+https://github.com/psi4/psi4/pull/93.patch
+https://github.com/psi4/psi4/pull/93.diff
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/pull/93
+
+----==_mimepart_54e262e75ced1_c8a3f84bac8d2b81063b1
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+<hr>
+
+<h4>You can view, comment on, or merge this pull request online at:</h4>
+<p>&nbsp;&nbsp;<a href='https://github.com/psi4/psi4/pull/93'>https://github.com/psi4/psi4/pull/93</a></p>
+
+<h4>Commit Summary</h4>
+<ul>
+  <li>minor fixes for CSX version 1</li>
+</ul>
+
+<h4>File Changes</h4>
+<ul>
+  <li>
+    <strong>M</strong>
+    <a href="https://github.com/psi4/psi4/pull/93/files#diff-0">lib/python/csx1_api.py</a>
+    (11)
+  </li>
+  <li>
+    <strong>M</strong>
+    <a href="https://github.com/psi4/psi4/pull/93/files#diff-1">lib/python/driver.py</a>
+    (156)
+  </li>
+</ul>
+
+<h4>Patch Links:</h4>
+<ul>
+  <li><a href='https://github.com/psi4/psi4/pull/93.patch'>https://github.com/psi4/psi4/pull/93.patch</a></li>
+  <li><a href='https://github.com/psi4/psi4/pull/93.diff'>https://github.com/psi4/psi4/pull/93.diff</a></li>
+</ul>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/pull/93">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qi7moO31XTcaze-T2jBPKXSUgaZkks5nslpngaJpZM4DhL4y.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/pull/93"></link>
+    <meta itemprop="name" content="View Pull Request"></meta>
+  </div>
+  <meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+
+----==_mimepart_54e262e75ced1_c8a3f84bac8d2b81063b1--

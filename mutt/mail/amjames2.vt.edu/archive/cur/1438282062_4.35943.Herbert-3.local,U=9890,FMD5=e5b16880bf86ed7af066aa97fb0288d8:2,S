@@ -1,0 +1,31 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.8] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id k69sm2839153qkh.48.2015.06.04.11.57.03
+        for <j.cerezo@pi.iccom.cnr.it>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 04 Jun 2015 11:57:03 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Subject: Psi4 on cerebro
+Message-Id: <8EE76F88-7F25-488F-A002-700707116980@vt.edu>
+Date: Thu, 4 Jun 2015 14:57:04 -0400
+To: Javier Cerezo <j.cerezo@pi.iccom.cnr.it>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+
+Hi Javier,=20
+
+I got psi4 complied on cerebro and you should be able to access my =
+executable.  You can add it to your path it is in:
+/cerebro/home/crawdad/ajay/bin
+
+If you don=E2=80=99t already have one I stuck an example psi4 input in
+/cerebro/home/crawdad/ajay/people/javier
+
+Harley has quite a few more examples than that if you are looking for =
+them you should be able to find them in his home directory.=20
+If you still want to get a copy compiled on your laptop we can take a =
+swing at it sometime too. Just let me know if you need anything else!
+
+=E2=80=94AJ=20=

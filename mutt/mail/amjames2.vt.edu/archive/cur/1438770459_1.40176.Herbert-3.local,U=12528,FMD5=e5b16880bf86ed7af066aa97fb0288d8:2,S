@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp120825qgt;
+        Tue, 4 Aug 2015 18:03:06 -0700 (PDT)
+X-Received: by 10.55.19.98 with SMTP id d95mr9489806qkh.71.1438736586012;
+        Tue, 04 Aug 2015 18:03:06 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 42si2328812qkx.120.2015.08.04.18.03.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 18:03:06 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7512w8D012445
+	for <amjames2@vt.edu>; Tue, 4 Aug 2015 21:03:04 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=SJA9veXZ0L804sOuEDIPfv2em84=; b=ZT9dmB+S2EvQX2MM
+	1rTlXQNhwFZ0XbRQ3Qe9y8FZshGAVIuQv2784JdQMntvxe0BFVYrcPirl7gI6qYh
+	pkfGw0hYW2qBuprMOdomd4+La3GXJezz/Ei9h/qZVZ+xMCUBeiqkKMfi9D/2aH3Q
+	hxXZ3ejB17DHNCcE9QHSFlik8Zk=
+Received: by filter0606p1mdw1.sendgrid.net with SMTP id filter0606p1mdw1.1395.55C160C130
+        2015-08-05 01:02:57.698911836 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0004p1iad1.sendgrid.net (SG) with ESMTP id XmOjkw25Rvehei0t2iueeA
+	for <amjames2@vt.edu>; Wed, 05 Aug 2015 01:02:57 +0000 (UTC)
+Date: Tue, 04 Aug 2015 18:02:57 -0700
+From: Rollin King <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642b68b79625db93c6c3842efb7ae03c6734e9e4cb692cf0000000111d922c192a169ce05c9b3c1@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/153/127808983@github.com>
+In-Reply-To: <psi4/psi4public/issues/153@github.com>
+References: <psi4/psi4public/issues/153@github.com>
+Subject: Re: [psi4public] crash in Geometry Optimization (#153)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c160c16b73a_24203fdb145e32b8933e1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: psi-rking
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642b68b79625db93c6c3842efb7ae03c6734e9e4cb692cf0000000111d922c192a169ce05c9b3c1@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642b68b79625db93c6c3842efb7ae03c6734e9e4cb692cf0000000111d922c192a169ce05c9b3c1@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qli3num7uSXqBEizAQA_BM_h-Uzgks5okVhBgaJpZM4FfWYX>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5ImujkFQgG8EHPqdGH48WjptEJf4qNZ4wDXqEz
+ zvXPQZY5RwuFnP1w/mwHN+o4TBibA07bdjlVVLR3G7nTW/oV4MnS5qn4mIKHApW5KVYqX1eG1/V4pb
+ 6FI1s5CG7aw5LN8=
+X-Spam-Status: No, score=0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55c160c16b73a_24203fdb145e32b8933e1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+optking was aborting prematurely.  I just pushed the fix to the problem.  For this case I found consecutive_backsteps = 2 [or more], as well as dynamic_level = 1 to now be helpful.  (Don't use both at once as that is somewhat redundant.)  Sometime I will type up some tips on problematic optimizations.  But now optking will at least move you substantially closer to the minimum.  Though one may always have to restart an optimization, these options will minimize the manual effort necessary.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/153#issuecomment-127808983
+----==_mimepart_55c160c16b73a_24203fdb145e32b8933e1
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>optking was aborting prematurely.  I just pushed the fix to the problem.  For this case I found consecutive_backsteps = 2 [or more], as well as dynamic_level = 1 to now be helpful.  (Don't use both at once as that is somewhat redundant.)  Sometime I will type up some tips on problematic optimizations.  But now optking will at least move you substantially closer to the minimum.  Though one may always have to restart an optimization, these options will minimize the manual effort necessary.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/153#issuecomment-127808983">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qjayvp6368VxVP1K-k9BfP22qhk1ks5okVhBgaJpZM4FfWYX.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/153#issuecomment-127808983"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55c160c16b73a_24203fdb145e32b8933e1--

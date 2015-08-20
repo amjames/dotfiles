@@ -1,0 +1,149 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp129943qgt;
+        Fri, 24 Jul 2015 09:43:28 -0700 (PDT)
+X-Received: by 10.140.97.72 with SMTP id l66mr14101881qge.11.1437756202643;
+        Fri, 24 Jul 2015 09:43:22 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id p106si10723041qge.39.2015.07.24.09.43.18
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Jul 2015 09:43:22 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.179 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.220.179;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.179 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6OGhC92004002;
+	Fri, 24 Jul 2015 12:43:17 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t6ODPqq2002878;
+	Fri, 24 Jul 2015 12:43:11 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100620865 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 24 Jul 2015 12:43:11
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6OGXAWQ031587 for
+          <chem_grad@listserv.vt.edu>; Fri, 24 Jul 2015 12:33:10 -0400
+Received: from mail-qk0-f179.google.com (mail-qk0-f179.google.com
+          [209.85.220.179]) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t6OGX4o1006744 for <chem_grad@listserv.vt.edu>; Fri, 24 Jul 2015
+          12:33:10 -0400
+Received: by qkfc129 with SMTP id c129so17566814qkf.1 for
+          <chem_grad@listserv.vt.edu>; Fri, 24 Jul 2015 09:33:04 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:content-type:subject:message-id:date:to :mime-version;
+                         bh=qsZvURlgRUysOdzN4QoBDhS0UsU1+78ob5/OgobRNYw=;
+                         b=kaetx9gd832K85Kx8MMt4xhciRVLyBIGkQFxcYs2w8QXBLBX2B4Gzz1DXA73//Hl1x
+                         Mg5lNduDJzVBX4WiNFije867Nh1bfS/ihHRav+NNOR/iS3qK85GozJgOCcjTXMjg7hGr
+                         p2DB7Y9OsLOwiur/rjU9EVz3xIrNNzZqq44BtfJICDgahvX07bqenDWL5PEDQ5QdMjU0
+                         G+CvUs119E4D4VVd8yaJNOi6fXVD4q+mrjmuMQfroCbF/ZgZzqt72aW/cPQ/obgUIn6N
+                         LG6cVo/QnyzbNCN0jQxpFXlX0V1hhCKV97A08H0UB8vwG3Sm8NMgPz2UrJrcCWq4Hig8
+                         T+1w==
+X-Gm-Message-State: ALoCoQmCsgPydN3NVF7UzHytYab9PgDjdcPPvFtkrssfSLkEyiTH7kOepSl0qbr7sgnVapZz5zlZXWDUOHawltr2/hks4qzqj6hzY0qPDJNLZycR/xpFvmICDoCCrHoptNWU3rwzx66gg11WYai46RkKIhm9EUZd0Q==
+X-Received: by 10.140.17.139 with SMTP id 11mr21242671qgd.65.1437755584907;
+            Fri, 24 Jul 2015 09:33:04 -0700 (PDT)
+X-Received: by 10.140.17.139 with SMTP id 11mr21242660qgd.65.1437755584825;
+            Fri, 24 Jul 2015 09:33:04 -0700 (PDT)
+Received: from ?IPv6:2001:468:c80:610a:81c2:a000:5f62:7b2f?
+          ([2001:468:c80:610a:81c2:a000:5f62:7b2f]) by smtp.gmail.com with
+          ESMTPSA id 188sm4256573qhf.42.2015.07.24.09.33.03 (version=TLSv1
+          cipher=ECDHE-RSA-RC4-SHA bits=128/128); Fri, 24 Jul 2015 09:33:03
+          -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_C73ECD52-C42B-43B0-88CF-B96DEE4D7F1D"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2102\))
+X-Mailer: Apple Mail (2.2102)
+X-Spam-Status: No, score=-1.2 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+Message-ID:  <44193261-8928-45BE-AFE8-78D01E0A018F@vt.edu>
+Date:         Fri, 24 Jul 2015 12:33:01 -0400
+Reply-To: "J. M. Tanko" <jtanko@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "J. M. Tanko" <jtanko@vt.edu>
+Subject: Maintenance Requests - Pls. use the webpage!
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Apple-Mail=_C73ECD52-C42B-43B0-88CF-B96DEE4D7F1D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Dear Everyone,
+
+Save for emergencies, please remember that all maintenance requests =
+should be submitted online through the Department web page. By doing so, =
+the request is logged into the system, and several individuals monitor =
+these requests (and the request does not fall through the cracks.)
+
+Maintaining a =E2=80=9Cpaper trail=E2=80=9D is particularly important =
+for longer term problems, for example, the persistent roof leak in new =
+Davidson Hall.
+
+best,
+
+jim
+
+J. M. Tanko, Professor & Chair
+Department of Chemistry
+900 West Campus Drive
+Virginia Polytechnic Institute and State University
+Blacksburg, VA 24061
+phone: (540) 231-6687
+e-mail: jtanko@vt.edu
+
+
+
+
+--Apple-Mail=_C73ECD52-C42B-43B0-88CF-B96DEE4D7F1D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Dear Everyone,<div class=3D""><br class=3D""></div><div =
+class=3D"">Save for emergencies, please remember that all maintenance =
+requests should be submitted online through the Department web page. By =
+doing so, the request is logged into the system, and several individuals =
+monitor these requests (and the request does not fall through the =
+cracks.)</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Maintaining a =E2=80=9Cpaper trail=E2=80=9D is particularly =
+important for longer term problems, for example, the persistent roof =
+leak in new Davidson Hall.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">best,</div><div class=3D""><br class=3D""></div><div =
+class=3D"">jim</div><div class=3D""><br class=3D""><div =
+apple-content-edited=3D"true" class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-align: -webkit-auto; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">J. M. Tanko, Professor &amp; Chair<br =
+class=3D"">Department of Chemistry</div><div style=3D"color: rgb(0, 0, =
+0); font-family: Helvetica; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">900 West Campus Drive<br class=3D"">Virginia Polytechnic =
+Institute and State&nbsp;University<br class=3D"">Blacksburg, VA =
+24061<br class=3D"">phone: (540) 231-6687<br class=3D"">e-mail: <a =
+href=3D"mailto:jtanko@vt.edu" class=3D"">jtanko@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D""></div>
+</div>
+<br class=3D""></div></body></html>=
+
+--Apple-Mail=_C73ECD52-C42B-43B0-88CF-B96DEE4D7F1D--

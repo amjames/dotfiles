@@ -1,0 +1,98 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2203145qgt;
+        Mon, 3 Aug 2015 18:57:05 -0700 (PDT)
+X-Received: by 10.55.27.13 with SMTP id b13mr1918975qkb.93.1438653425323;
+        Mon, 03 Aug 2015 18:57:05 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 30si19492255qku.111.2015.08.03.18.57.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 03 Aug 2015 18:57:05 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) client-ip=192.254.112.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o3.sgmail.github.com (o3.sgmail.github.com [192.254.112.98])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t741uwPA004936
+	for <amjames2@vt.edu>; Mon, 3 Aug 2015 21:57:04 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=DmR53NlhrKJ6aQ0XPOgp4N8g0j8=; b=qpOF59AMtAaM8ODI
+	H5b0Q4lIzD1QBEF3QaUQR9xCihwm/3qU3ZnBkqtvdYiSKGBYRm3N/v+7NPIxLFdC
+	gAADe8R4KmWbnScw9j3Q/yDCeuO14NkST/Vai1xV0frjhaqYphc5N2unn9k/55Bt
+	mbtRyAUthps8D21TyDjNrwyHrQA=
+Received: by filter0858p1mdw1.sendgrid.net with SMTP id filter0858p1mdw1.12153.55C01BE92D
+        2015-08-04 01:56:57.985137682 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id CQpVH7rnTR6VeQqs7jgwOg
+	for <amjames2@vt.edu>; Tue, 04 Aug 2015 01:56:57 +0000 (UTC)
+Date: Mon, 03 Aug 2015 18:56:57 -0700
+From: Kevin Hannon <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6426c1c36baedcdd74168a10752cef04ca78ba7cbcb92cf0000000111d7dde992a169ce05e423f4@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/157/127454200@github.com>
+In-Reply-To: <psi4/psi4public/issues/157@github.com>
+References: <psi4/psi4public/issues/157@github.com>
+Subject: Re: [psi4public] Libthce seg faults on generation of DF integrals for
+ porphyrin radical calculation (#157)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c01be9b724f_465f3f8a55b452c01266e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: kannon92
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6426c1c36baedcdd74168a10752cef04ca78ba7cbcb92cf0000000111d7dde992a169ce05e423f4@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6426c1c36baedcdd74168a10752cef04ca78ba7cbcb92cf0000000111d7dde992a169ce05e423f4@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QkDFCi03FWHY9f2teyctVd6TM7qaks5okBNpgaJpZM4Fk3wA>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlHP1IDWBpvcD+YirU7DAElwEbev0CXbvwQ1f
+ ItB7DfFXJHxOh2DrmfvD0MDmAYf5xJwmrzgCng71HzdcdDM3P9Lg8JG2fR7NgTraM3aslR+0tp4Vl6
+ I1MivhSxufZmJyE=
+X-Spam-Status: No, score=-1.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55c01be9b724f_465f3f8a55b452c01266e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I will try running it with GDB.  
+
+These issues are not quite related.  I am calling DFERI in libthce, which is not used in the dfmp2 code.  The DFERI class is only called in fsapt in PSI4.   The algorithm in compute is very similar to the dfmp2 code.  
+
+ 
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/157#issuecomment-127454200
+----==_mimepart_55c01be9b724f_465f3f8a55b452c01266e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I will try running it with GDB.  </p>
+
+<p>These issues are not quite related.  I am calling DFERI in libthce, which is not used in the dfmp2 code.  The DFERI class is only called in fsapt in PSI4.   The algorithm in compute is very similar to the dfmp2 code.  </p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/157#issuecomment-127454200">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QiiJH9YEkulxOEwfxote-5o1kDMVks5okBNpgaJpZM4Fk3wA.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/157#issuecomment-127454200"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55c01be9b724f_465f3f8a55b452c01266e--

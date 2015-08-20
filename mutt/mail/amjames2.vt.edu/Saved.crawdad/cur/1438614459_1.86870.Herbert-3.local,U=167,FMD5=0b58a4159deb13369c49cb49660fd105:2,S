@@ -1,0 +1,135 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp206055qgt;
+        Fri, 5 Jun 2015 13:08:25 -0700 (PDT)
+X-Received: by 10.55.22.143 with SMTP id 15mr10102555qkw.85.1433534905514;
+        Fri, 05 Jun 2015 13:08:25 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 85si8394390qkw.127.2015.06.05.13.08.25
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 13:08:25 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.174 as permitted sender) client-ip=209.85.213.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.174 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f174.google.com (mail-ig0-f174.google.com [209.85.213.174])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55K8JgC022066
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 16:08:24 -0400
+Received: by igbsb11 with SMTP id sb11so22717932igb.0
+        for <amjames2@vt.edu>; Fri, 05 Jun 2015 13:08:19 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=5rV6QE22xemrOe/NnutuiLIoOOw+ZkyINxGRop2v/QM=;
+        b=mNwrPwJlBuc4Ovk27/811PghJ8iMRGH2gXBtdduakASRTSwKR8rQ+KSKhibgrRwS4G
+         oTqo2WDISZEIkC9XUl7+PmdmHRhnfpdCa+/y0CL5RvqdHppYWNVw24CB0CzWxQr/diU1
+         Hm4nZ/MN3FKyhsBkSNCUYYnU3r7CO884Y8FV/aSV2GO9v/Wpb5ILyAoFJvVNF/73ewK1
+         r4H7tTZWkRKZKCAcL2AhSHQHDws8g4ztKZG/GOUsIivBRobUsmAGDqwCY/iPBSwyEGyf
+         e2kwLEqb8dHiegLf4Yyijoj3gcjb5QVZR9VRWJXe6R8kVkPA7sgX2r+K/IYB+nXLgTqQ
+         mLeQ==
+X-Gm-Message-State: ALoCoQlgMwnLAQ7HzbIIDYwLzPkakt5Bm7cLDToUr5PJ2LzzV75qGzWsX4YaNZOmRF4buGBGzbyIbEdnrLpyR+X0OFm+KP5SjK9sExIDxI9vs2vg5GeeuTU9RdiqI1tI1qlTnvf/HmyNwW9s4R+09HcTn2J+XCFkRA==
+X-Received: by 10.107.159.77 with SMTP id i74mr6891211ioe.9.1433534898926;
+        Fri, 05 Jun 2015 13:08:18 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.159.77 with SMTP id i74mr6891195ioe.9.1433534898797;
+ Fri, 05 Jun 2015 13:08:18 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Fri, 5 Jun 2015 13:08:18 -0700 (PDT)
+In-Reply-To: <DEED8FB9-583C-4C69-919D-B6EBDA18968B@vt.edu>
+References: <89B5BF57-8EE8-4D1C-AE45-9C73336AF8B9@vt.edu>
+	<DEED8FB9-583C-4C69-919D-B6EBDA18968B@vt.edu>
+Date: Fri, 5 Jun 2015 16:08:18 -0400
+Message-ID: <CAH0V_1Zcd8foU8XQAYuaqxU56V6Hqx-+OyTtDYDuBXZFqEovSQ@mail.gmail.com>
+Subject: Re: Sree Ganesh Balasubramani MRPSS and SSS
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1140f4f86a8fbd0517cadaf7
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3140
+
+--001a1140f4f86a8fbd0517cadaf7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+It's no problem for them to participate in both, and presumably they're
+smart enough to realize they've registered for both.  I say leave it as is.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Jun 5, 2015 at 3:26 PM, Andrew James <amjames2@vt.edu> wrote:
+
+>  Another email just came in from Saswata Roy who is in the same situation=
+,
+> and checking the lists there is a third student Matthew Agee who is on bo=
+th
+> lists also. All three are from Prof. Filipp Furche=E2=80=99s group at UC =
+Irvine.
+>
+> =E2=80=94AJ
+> > On Jun 5, 2015, at 3:16 PM, Andrew James <Amjames2@vt.edu> wrote:
+> >
+> > Dr. Crawford,
+> >
+> > This student just sent me their travel plans and it looks like he is
+> registered for both summer schools.  I don=E2=80=99t know how I didn=E2=
+=80=99t notice
+> before, but what should I tell him. Since the SSS is funded can the stude=
+nt
+> participate in both? I recall that Kaye Archer wanted to do both also.  I=
+t
+> looks like they have already booked a flight to arrive on June 21st and
+> leave on July 4th.
+> >
+> > =E2=80=94AJ
+>
+>
+
+--001a1140f4f86a8fbd0517cadaf7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">It&#39;s no problem for them to participate in both, and p=
+resumably they&#39;re smart enough to realize they&#39;ve registered for bo=
+th.=C2=A0 I say leave it as is.<div><br></div><div>-TDC</div></div><div cla=
+ss=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><d=
+iv dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:=
+crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div=
+>
+<br><div class=3D"gmail_quote">On Fri, Jun 5, 2015 at 3:26 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+=C2=A0Another email just came in from Saswata Roy who is in the same situat=
+ion, and checking the lists there is a third student Matthew Agee who is on=
+ both lists also. All three are from Prof. Filipp Furche=E2=80=99s group at=
+ UC Irvine.<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+=E2=80=94AJ<br>
+</font></span><div class=3D"HOEnZb"><div class=3D"h5">&gt; On Jun 5, 2015, =
+at 3:16 PM, Andrew James &lt;<a href=3D"mailto:Amjames2@vt.edu">Amjames2@vt=
+.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; Dr. Crawford,<br>
+&gt;<br>
+&gt; This student just sent me their travel plans and it looks like he is r=
+egistered for both summer schools.=C2=A0 I don=E2=80=99t know how I didn=E2=
+=80=99t notice before, but what should I tell him. Since the SSS is funded =
+can the student participate in both? I recall that Kaye Archer wanted to do=
+ both also.=C2=A0 It looks like they have already booked a flight to arrive=
+ on June 21st and leave on July 4th.<br>
+&gt;<br>
+&gt; =E2=80=94AJ<br>
+<br>
+</div></div></blockquote></div><br></div>
+
+--001a1140f4f86a8fbd0517cadaf7--

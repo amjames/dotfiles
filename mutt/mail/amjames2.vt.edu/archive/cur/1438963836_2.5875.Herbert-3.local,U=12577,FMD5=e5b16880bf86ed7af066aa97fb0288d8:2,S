@@ -1,0 +1,193 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1039539qgt;
+        Thu, 6 Aug 2015 08:59:46 -0700 (PDT)
+X-Received: by 10.140.165.5 with SMTP id l5mr4481725qhl.85.1438876786573;
+        Thu, 06 Aug 2015 08:59:46 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id e196si12490284qka.126.2015.08.06.08.59.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 08:59:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t76FxeN3021857
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 11:59:45 -0400
+Received: by iggf3 with SMTP id f3so14418840igg.1
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 08:59:40 -0700 (PDT)
+X-Received: by 10.50.60.100 with SMTP id g4mr4497902igr.41.1438876780268;
+        Thu, 06 Aug 2015 08:59:40 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1067263iee;
+        Thu, 6 Aug 2015 08:59:39 -0700 (PDT)
+X-Received: by 10.140.41.169 with SMTP id z38mr4348373qgz.23.1438876779130;
+        Thu, 06 Aug 2015 08:59:39 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id z103si12563299qgz.67.2015.08.06.08.59.38
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 08:59:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:250:3bcb:5b17])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76FxcoO021327
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 11:59:38 -0400
+Received: from mail-io0-f177.google.com (mail-io0-f177.google.com [209.85.223.177])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76FxXcY022167
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 11:59:38 -0400
+Received: by ioeg141 with SMTP id g141so85571396ioe.3
+        for <andrew.m.james2@gmail.com>; Thu, 06 Aug 2015 08:59:33 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=tpOWYLwtUAX/x1Eo78Z8ohD2Kk9NfdSGKInLzsS4MiI=;
+        b=aOyZ03HW0q9nYXGhEH9yfL6bDEZ6be3Q3UvD8v0bF8qeDXpGkOhwfc1pwH+YgzsLPj
+         opKru8RH0ScDF8cgJrCGFgDOGOmAup3dPXOgUHqMoJKshN2YumJEfLYFfrwS7mNrgFqP
+         /eywiRbCDFxeP3RUHksvz0auhL6yFJZNoL98Le06pkkf4oVYMI3FPjboBxZWE/FLRQDG
+         JoQKelIVh1lIjiSVf0M9cB6VpZVnOPOyf2BYzUtg28j0Bo9peUMpDeOCdF18Fp0kjLnF
+         ZmqYmr78W6bwO7ezJd4gbId2Xz8fPNxxDzeVIkN2oS7IO+J/WyFlw+iRFlO67KQN7wvi
+         KfZA==
+X-Gm-Message-State: ALoCoQlbD11GwyezyRZhBHtZkuejcnvfL31KmvdqfIlba1ipKfkqwb1DABXOkOddvjW3gPzUEiJ7bRSMda8QfHVrRdiJhNpJJVkOm7n6xnNJ/1bK+MZN+PLK6RI+4lOhOH9vKzv/q2x498izRg7k9K1LD4rDxqD1oQ==
+X-Received: by 10.107.149.11 with SMTP id x11mr3039749iod.141.1438876773118;
+        Thu, 06 Aug 2015 08:59:33 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.149.11 with SMTP id x11mr3039728iod.141.1438876772950;
+ Thu, 06 Aug 2015 08:59:32 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 08:59:32 -0700 (PDT)
+In-Reply-To: <FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+	<FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+Date: Thu, 6 Aug 2015 09:59:32 -0600
+Message-ID: <CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+Subject: Re: UHF NOs
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew Simmonett <andy.simmonett@gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1140f8a8ed7cf1051ca69a54
+X-Spam-Status: No, score=0.0 required=5.0 tests=HEADER_FROM_DIFFERENT_DOMAINS,
+	HTML_MESSAGE autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1140f8a8ed7cf1051ca69a54
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yes, I agree.  Right now all the NO computation is carried out within
+OEProp, but perhaps all that should be moved up to Wavefunction at some
+point, with derived classes handling their own special cases (like UHF).
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Aug 6, 2015 at 9:57 AM, Andrew Simmonett <andy.simmonett@gmail.com>
+wrote:
+
+> Daniel (and A.J.),
+>
+> I agree with your sentiment that code repetition is not an issue, so
+> there=E2=80=99s not much motivation to put it in OEProp.  I think NO form=
+ation
+> should be handled by Wavefunction, because then the NOs can be easily
+> handed off to a CAS code, without needing a property calculation in
+> between.  I like the idea of being able to run a CC/CI/MP2 calculation wi=
+th
+> a "compute_nos true=E2=80=9D flag, and knowing on exit that the wavefunct=
+ion object
+> will automagically contain the NOs.  If your printing machinery were adde=
+d
+> to Wavefunction itself, that would simplify the process of making sure
+> computing and printing correlated NOs is consistent.
+>
+> Andy.
+>
+> On Aug 6, 2015, at 9:24 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Hi, Andy,
+>
+> I need to ask your input on the best place to include the computation of
+> UHF NOs within the UHF class.  I added them to the finalize() function wi=
+th
+> no problems, and the code works cleanly, but I'm wondering if I should tr=
+y
+> to be more elegant about this and insert them into the OEProp class.  The
+> problem with OEProp is that the approach we have to use to compute the NO=
+s
+> really applies only to the UHF wave function, so perhaps I should keep th=
+e
+> code limited to the UHF class only.  Now, some of what this calculation
+> requires is already computed in the compute_wiberg_lowdin_indices() code,
+> namely the formation of S^(1/2) D S^(1/2), but this is so trivial that I
+> guess it doesn't matter if I repeat it.  The only thing the
+> compute_no_occupations() code offers is the nasty sorting and printing of
+> the NOONs.
+>
+> Opinions?
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a1140f8a8ed7cf1051ca69a54
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Yes, I agree.=C2=A0 Right now all the NO computation is ca=
+rried out within OEProp, but perhaps all that should be moved up to Wavefun=
+ction at some point, with derived classes handling their own special cases =
+(like UHF).<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><=
+br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<di=
+v>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" targ=
+et=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 9:57 AM, Andrew Simmo=
+nett <span dir=3D"ltr">&lt;<a href=3D"mailto:andy.simmonett@gmail.com" targ=
+et=3D"_blank">andy.simmonett@gmail.com</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div style=3D"word-wrap:break-word">Daniel (and A.J.),<=
+div><br></div><div>I agree with your sentiment that code repetition is not =
+an issue, so there=E2=80=99s not much motivation to put it in OEProp.=C2=A0=
+ I think NO formation should be handled by Wavefunction, because then the N=
+Os can be easily handed off to a CAS code, without needing a property calcu=
+lation in between.=C2=A0 I like the idea of being able to run a CC/CI/MP2 c=
+alculation with a &quot;compute_nos true=E2=80=9D flag, and knowing on exit=
+ that the wavefunction object will automagically contain the NOs.=C2=A0 If =
+your printing machinery were added to Wavefunction itself, that would simpl=
+ify the process of making sure computing and printing correlated NOs is con=
+sistent.</div><div><br></div><div>Andy.</div><div><div class=3D"h5"><div><b=
+r><div><blockquote type=3D"cite"><div>On Aug 6, 2015, at 9:24 AM, T. Daniel=
+ Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@v=
+t.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">Hi, Andy,<div><br></div=
+><div>I need to ask your input on the best place to include the computation=
+ of UHF NOs within the UHF class.=C2=A0 I added them to the finalize() func=
+tion with no problems, and the code works cleanly, but I&#39;m wondering if=
+ I should try to be more elegant about this and insert them into the OEProp=
+ class.=C2=A0 The problem with OEProp is that the approach we have to use t=
+o compute the NOs really applies only to the UHF wave function, so perhaps =
+I should keep the code limited to the UHF class only.=C2=A0 Now, some of wh=
+at this calculation requires is already computed in the compute_wiberg_lowd=
+in_indices() code, namely the formation of S^(1/2) D S^(1/2), but this is s=
+o trivial that I guess it doesn&#39;t matter if I repeat it.=C2=A0 The only=
+ thing the compute_no_occupations() code offers is the nasty sorting and pr=
+inting of the NOONs.</div><div><br></div><div>Opinions?</div><div><br></div=
+><div>-TDC<br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Dani=
+el Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">c=
+rawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a1140f8a8ed7cf1051ca69a54--

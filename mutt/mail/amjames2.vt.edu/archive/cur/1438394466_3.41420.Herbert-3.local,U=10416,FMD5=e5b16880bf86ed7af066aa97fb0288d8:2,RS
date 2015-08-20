@@ -1,0 +1,205 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3407727qgt;
+        Wed, 10 Jun 2015 11:16:06 -0700 (PDT)
+X-Received: by 10.140.109.199 with SMTP id l65mr5684823qgf.91.1433960166059;
+        Wed, 10 Jun 2015 11:16:06 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id p30si9459714qga.128.2015.06.10.11.16.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 11:16:06 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.180 as permitted sender) client-ip=209.85.213.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.180 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f180.google.com (mail-ig0-f180.google.com [209.85.213.180])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5AIG0ZC003074
+	for <amjames2@vt.edu>; Wed, 10 Jun 2015 14:16:05 -0400
+Received: by igbzc4 with SMTP id zc4so42046956igb.0
+        for <amjames2@vt.edu>; Wed, 10 Jun 2015 11:16:00 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=fay8OdNpf9LaNjHL+Q+PLtOB3v6rTVOskLGuuUiMqQI=;
+        b=cJCvvGmiNwodp3dcH/j7OK3uYrXmV+Ux9mrLuMScLJiKbYD8h8G7fCGlqQAVr1HHfb
+         tSW08aEWMd97fXRjZ/kPzh6Mijm7zrAKvOKsBdbK49rsbuN7mGXTb0iDylgDAL6aaEMD
+         tIDstHg05KRu2OT298YpmrZqJkXwkTgxiL601n/VzoCcXA1lr+01hDRlqMUp5aVZ2M56
+         0pUOspNrm0FhbKkELusDuqFujBeFaYE1pT5pU03e0viwyEMhIeepbXBaX94RZk5DW/Iq
+         5PhsjCnplLmU+y3jAzEX8v7CSKLGtf3dp28KiFDQgXj5CkWswYDwdO+yKpyEzwcYMK/f
+         Qwpw==
+X-Gm-Message-State: ALoCoQkInKZbphkvizeqgaNvSQgv5LWeWUCO9lXZ18B6volhyNnSAW8W1ZsquwQKyFk66Bt8UlmqTpAr3/6SRzBA2RyKswG1x4FTUK2c/XAJD75wkD7PaGcGS/DZuRuQluso0H2clErvAeqBAvuGX83Cns8AuLV9sQ==
+X-Received: by 10.107.166.203 with SMTP id p194mr6121936ioe.30.1433960160178;
+        Wed, 10 Jun 2015 11:16:00 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.203 with SMTP id p194mr6121920ioe.30.1433960160043;
+ Wed, 10 Jun 2015 11:16:00 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Wed, 10 Jun 2015 11:15:59 -0700 (PDT)
+In-Reply-To: <A2407732-F9D0-48F6-A1E5-466993DCFCAF@vt.edu>
+References: <CAH0V_1aQcF-Lo4QPcEXWyn1VbQC7gnts9bOzFEEJ+djNMX7XjQ@mail.gmail.com>
+	<85A24563-330E-42CE-BA62-11F1201FD7E2@vt.edu>
+	<CAH0V_1YNTrk7QabUgMTFse4J7zJ_FGgbOujWnNnc-cxdUTnY0g@mail.gmail.com>
+	<2852F202-527F-4804-AF02-3488824659FB@vt.edu>
+	<A2407732-F9D0-48F6-A1E5-466993DCFCAF@vt.edu>
+Date: Wed, 10 Jun 2015 14:15:59 -0400
+Message-ID: <CAH0V_1ZBHRz+=oy3w80Hab2iCcSMSC9sXv93xgs7jd5+Pb46Xw@mail.gmail.com>
+Subject: Re: Polyradical data
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11414af4f6637c05182dddf2
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11414af4f6637c05182dddf2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'm ready at any time, so come on up.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Jun 10, 2015 at 2:15 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> I am ready is 2:30 still ok?
+>
+> =E2=80=94AJ
+>
+> On Jun 10, 2015, at 9:11 AM, Andrew James <Amjames2@vt.edu> wrote:
+>
+> I will let you know when I have made all of the figures, and prepared my
+> list of questions. I can come down at any point after, whenever works bes=
+t
+> for you.
+>
+> Thanks!
+>
+> On Jun 10, 2015, at 9:09 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Yes, this afternoon would be good.  I've put it on my calendar for 2:30,
+> but we may need to be a bit flexible.
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Wed, Jun 10, 2015 at 8:59 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Dr. Crawford,
+>>
+>> I think I have enough data for us to look at it soon.  Would you like to
+>> meet this afternoon so I can make up figures, say 2-3PM?
+>>
+>> Here is an update on my progress:
+>>
+>>    - I have a script to plot the NOONs (NO occupation numbers), although
+>>    they are not publication ready figures they should do for looking at =
+the
+>>    results.
+>>    - I finished a script to make tables of the NOONs with irrep labels
+>>    last night ( Like in Table 3S)
+>>    - I have a script that will let me get the singlet-triplet energy
+>>    comparisons for 4-8 but I only have both states complete for 7
+>>
+>>
+>> I would like to talk with you about some of the other analysis they have
+>> done before I move forward. I am confused about what they are actually
+>> doing in some places, and in others I am not sure what I should do for
+>> comparison.
+>>
+>> Thanks,
+>> =E2=80=94AJ
+>>
+>>
+>> On Jun 9, 2015, at 10:22 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> Hi, AJ,
+>>
+>> Any update on the polyradical project?  Will you be ready tomorrow to ge=
+t
+>> together to go over the data so we can send it to Prof. Lischka?
+>>
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>>
+>>
+>
+>
+>
+
+--001a11414af4f6637c05182dddf2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;m ready at any time, so come on up.<div><br></div><d=
+iv>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div c=
+lass=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</=
+div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu=
+</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jun 10, 2015 at 2:15 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+div style=3D"word-wrap:break-word">I am ready is 2:30 still ok?=C2=A0<span =
+class=3D"HOEnZb"><font color=3D"#888888"><div><br></div></font></span><div>=
+<span class=3D"HOEnZb"><font color=3D"#888888">=E2=80=94AJ</font></span><di=
+v><div class=3D"h5"><br><div><blockquote type=3D"cite"><div>On Jun 10, 2015=
+, at 9:11 AM, Andrew James &lt;<a href=3D"mailto:Amjames2@vt.edu" target=3D=
+"_blank">Amjames2@vt.edu</a>&gt; wrote:</div><br><div><div style=3D"word-wr=
+ap:break-word">I will let you know when I have made all of the figures, and=
+ prepared my list of questions. I can come down at any point after, wheneve=
+r works best for you.=C2=A0<div><br></div><div>Thanks!=C2=A0<br><div><block=
+quote type=3D"cite"><div>On Jun 10, 2015, at 9:09 AM, T. Daniel Crawford &l=
+t;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt=
+; wrote:</div><br><div><div dir=3D"ltr">Yes, this afternoon would be good.=
+=C2=A0 I&#39;ve put it on my calendar for 2:30, but we may need to be a bit=
+ flexible.<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><b=
+r clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford<=
+/div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.ed=
+u</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jun 10, 2015 at 8:59 AM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><=
+div style=3D"word-wrap:break-word">Dr. Crawford,<div><br></div><div>I think=
+ I have enough data for us to look at it soon.=C2=A0 Would you like to meet=
+ this afternoon so I can make up figures, say 2-3PM?=C2=A0</div><div><br></=
+div><div>Here is an update on my progress:=C2=A0</div><div><ul><li>I have a=
+ script to plot the NOONs (NO occupation numbers), although they are not pu=
+blication ready figures they should do for looking at the results.</li><li>=
+I finished a script to make tables of the NOONs with irrep labels last nigh=
+t ( Like in Table 3S)=C2=A0</li><li>I have a script that will let me get th=
+e singlet-triplet energy comparisons for 4-8 but I only have both states co=
+mplete for 7=C2=A0</li></ul></div><div><br></div><div>I would like to talk =
+with you about some of the other analysis they have done before I move forw=
+ard. I am confused about what they are actually doing in some places, and i=
+n others I am not sure what I should do for comparison. =C2=A0</div><div><b=
+r></div><div>Thanks,</div><div>=E2=80=94AJ</div><div><div><div><br></div><d=
+iv><br></div><div><div><blockquote type=3D"cite"><div>On Jun 9, 2015, at 10=
+:22 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"=
+_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">Hi, AJ=
+,<div><br></div><div>Any update on the polyradical project?=C2=A0 Will you =
+be ready tomorrow to get together to go over the data so we can send it to =
+Prof. Lischka?</div><div><br></div><div>-TDC<br clear=3D"all"><div><div><di=
+v dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></blockquote></div><br></div=
+></div></div></div></blockquote></div><br></div>
+
+--001a11414af4f6637c05182dddf2--

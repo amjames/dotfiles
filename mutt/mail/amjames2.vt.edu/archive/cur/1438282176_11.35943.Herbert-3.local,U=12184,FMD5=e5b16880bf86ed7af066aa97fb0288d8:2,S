@@ -1,0 +1,164 @@
+Return-Path: <amjames2@vt.edu>
+Received: from ?IPv6:2001:468:c80:4292:31a7:6038:b241:a174? ([2001:468:c80:4292:31a7:6038:b241:a174])
+        by smtp.gmail.com with ESMTPSA id 76sm12943502qhg.49.2015.07.21.09.57.21
+        for <lori.burns@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 21 Jul 2015 09:57:21 -0700 (PDT)
+From: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_B4F96168-53D9-4B3C-8954-5F4488A14E05"
+Message-Id: <1AC50583-466F-40BF-B16A-5DE013E68EFD@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: psi4 issue # 117
+Date: Tue, 21 Jul 2015 12:57:20 -0400
+References: <B2615959-D8E1-4612-8037-34094BC68241@vt.edu> <4C802AC2-4229-4FEF-8F33-372D5EEB8B44@gmail.com>
+To: Lori Burns <lori.burns@gmail.com>
+In-Reply-To: <4C802AC2-4229-4FEF-8F33-372D5EEB8B44@gmail.com>
+X-Mailer: Apple Mail (2.2098)
+
+
+--Apple-Mail=_B4F96168-53D9-4B3C-8954-5F4488A14E05
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Right now my code is on a local branch in a clone of the private repo, =
+and I have been merging in the latest changes on the private master =
+every few hours.  The last merge I made locally was at about 11:00 AM I =
+am in the process of re-running the tests after that merge to make sure =
+everything still runs fine. =20
+
+
+Thanks!
+=E2=80=94AJ
+
+Andrew M. James
+amjames2@vt.edu
+
+
+
+> On Jul 21, 2015, at 12:51 PM, Lori Burns <lori.burns@gmail.com> wrote:
+>=20
+> Hi Andrew,
+>=20
+> GitHub has nice Fork and PullRequest features =
+https://github.com/psi4/psi4public/wiki/1_Obtaining#contribute-back-3 =
+<https://github.com/psi4/psi4public/wiki/1_Obtaining#contribute-back-3> =
+that are the best way to get your code reviewed before actually merging =
+it into the repo.
+>=20
+> But, if you didn=E2=80=99t set it up that way, it=E2=80=99s fine. =
+Assuming you=E2=80=99re on private, go ahead and pull changes, =
+recompile, run a good fraction of tests (ctest -L quicktests), and push =
+to private, according to =
+https://github.com/psi4/psi4public/wiki/1_Obtaining#clone-from-private-mir=
+ror-github-repository =
+<https://github.com/psi4/psi4public/wiki/1_Obtaining#clone-from-private-mi=
+rror-github-repository> .
+>=20
+> Maybe you=E2=80=99d better tell me where your code is now: clone or =
+fork, public or private.
+>=20
+> No need to catch r/u/ro specially. They can throw the same as if you =
+did energy(=E2=80=98elephant=E2=80=99).
+>=20
+> Thanks,
+> Lori
+>=20
+>=20
+>> On Jul 21, 2015, at 12:22 PM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>=20
+>> Hi Lori,=20
+>>=20
+>> I am just about finished with #117 and I wanted to ask what I should =
+do to add the code.  I use github for my own personal stuff a lot but I =
+have never made a commit to a repo that has other people contributing to =
+it and I don=E2=80=99t want to make a mess :)
+>>=20
+>> I also had one question about the handling of the old r/u/ro hf/scf =
+calls. Would you like these to be caught specially or just handled as if =
+any invalid argument had been given to energy/gradient/property (i.e. =
+did you mean =E2=80=A6 ?)=20
+>>=20
+>> Thanks for the help!
+>>=20
+>> Andrew M. James
+>> Graduate Research Assistant
+>> amjames2@vt.edu <mailto:amjames2@vt.edu>
+>>=20
+>>=20
+>=20
+
+
+--Apple-Mail=_B4F96168-53D9-4B3C-8954-5F4488A14E05
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Right now my code is on a local branch in a clone of the =
+private repo, and I have been merging in the latest changes on the =
+private master every few hours. &nbsp;The last merge I made locally was =
+at about 11:00 AM I am in the process of re-running the tests after that =
+merge to make sure everything still runs fine. &nbsp;<div class=3D""><br =
+class=3D""></div><div class=3D""><div class=3D""><br class=3D""></div><div=
+ class=3D"">Thanks!<br class=3D""><div apple-content-edited=3D"true" =
+class=3D"">
+=E2=80=94AJ<br class=3D""><br class=3D"">Andrew M. James<br class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D"">
+</div>
+
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jul 21, 2015, at 12:51 PM, Lori Burns &lt;<a =
+href=3D"mailto:lori.burns@gmail.com" =
+class=3D"">lori.burns@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space;" class=3D"">Hi Andrew,<div =
+class=3D""><br class=3D""></div><div class=3D"">GitHub has nice Fork and =
+PullRequest features&nbsp;<a =
+href=3D"https://github.com/psi4/psi4public/wiki/1_Obtaining#contribute-bac=
+k-3" =
+class=3D"">https://github.com/psi4/psi4public/wiki/1_Obtaining#contribute-=
+back-3</a>&nbsp;that are the best way to get your code reviewed before =
+actually merging it into the repo.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">But, if you didn=E2=80=99t set it up =
+that way, it=E2=80=99s fine. Assuming you=E2=80=99re on private, go =
+ahead and pull changes, recompile, run a good fraction of tests (ctest =
+-L quicktests), and push to private, according to&nbsp;<a =
+href=3D"https://github.com/psi4/psi4public/wiki/1_Obtaining#clone-from-pri=
+vate-mirror-github-repository" =
+class=3D"">https://github.com/psi4/psi4public/wiki/1_Obtaining#clone-from-=
+private-mirror-github-repository</a>&nbsp;.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Maybe you=E2=80=99d better tell me =
+where your code is now: clone or fork, public or private.</div><div =
+class=3D""><br class=3D""></div><div class=3D"">No need to catch r/u/ro =
+specially. They can throw the same as if you did =
+energy(=E2=80=98elephant=E2=80=99).</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Thanks,</div><div =
+class=3D"">Lori</div><div class=3D""><br class=3D""></div><div =
+class=3D""><br class=3D""><div class=3D""><blockquote type=3D"cite" =
+class=3D""><div class=3D"">On Jul 21, 2015, at 12:22 PM, Andrew James =
+&lt;<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D"">Hi =
+Lori, <br class=3D""><br class=3D"">I am just about finished with #117 =
+and I wanted to ask what I should do to add the code. &nbsp;I use github =
+for my own personal stuff a lot but I have never made a commit to a repo =
+that has other people contributing to it and I don=E2=80=99t want to =
+make a mess :)<br class=3D""><br class=3D""> I also had one question =
+about the handling of the old r/u/ro hf/scf calls. Would you like these =
+to be caught specially or just handled as if any invalid argument had =
+been given to energy/gradient/property (i.e. did you mean =E2=80=A6 ?) =
+<br class=3D""><br class=3D"">Thanks for the help!<br class=3D""><br =
+class=3D"">Andrew M. James<br class=3D"">Graduate Research Assistant<br =
+class=3D""><a href=3D"mailto:amjames2@vt.edu" =
+class=3D"">amjames2@vt.edu</a><br class=3D""><br class=3D""><br =
+class=3D""></div></blockquote></div><br =
+class=3D""></div></div></div></blockquote></div><br =
+class=3D""></div></div></body></html>=
+
+--Apple-Mail=_B4F96168-53D9-4B3C-8954-5F4488A14E05--

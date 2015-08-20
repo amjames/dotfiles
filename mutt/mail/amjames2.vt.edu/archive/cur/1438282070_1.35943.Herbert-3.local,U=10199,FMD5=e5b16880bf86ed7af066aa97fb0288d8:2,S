@@ -1,0 +1,89 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp835380qgt;
+        Sat, 6 Jun 2015 16:30:39 -0700 (PDT)
+X-Received: by 10.55.40.7 with SMTP id o7mr19432647qkh.81.1433633439498;
+        Sat, 06 Jun 2015 16:30:39 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id p90si11222097qge.15.2015.06.06.16.30.39
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 06 Jun 2015 16:30:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t56NUXhI021313
+	for <amjames2@vt.edu>; Sat, 6 Jun 2015 19:30:38 -0400
+Date: Sat, 06 Jun 2015 16:30:33 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1433633433;
+	bh=sVifKB3dZ8V/IpRaXQJxp7c00KJnoMLd4MQUfnqv388=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=E13ra7u7RCHlVNxij9vvGGeJ8VLI2D0xbaiFLPPBf1uMO7ncOBHSzVmM+7o6lAHrt
+	 KrKNCIIEmMfXXsDld/p4vaVQtyntQBVee6mOXgVMARh2ig5usRmiDE7qTuf+mvgm8F
+	 /NA1BO86FVQyzgqtm6nRyaQ4GLdnCEOxfzkWV2n8=
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642f920aeb7a5cb819d76a094e9c71d55045814c6ff92cf00000001118b449992a163ce00b05210@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50/11555344@github.com>
+In-Reply-To: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50@github.com>
+References: <psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50@github.com>
+Subject: Re: [psi4] slight clean-up of setup: remove inconsistent =, remove
+ unused argument, rename build math, clarify explicit_libs role (972ee80)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5573829953e65_77763ff1696352a09659c8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642f920aeb7a5cb819d76a094e9c71d55045814c6ff92cf00000001118b449992a163ce00b05210@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642f920aeb7a5cb819d76a094e9c71d55045814c6ff92cf00000001118b449992a163ce00b05210@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QiPusuAhT8xsiOwnW41eQ28x2-FBks5oQ3oZgaJpZM4E6fnT>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_5573829953e65_77763ff1696352a09659c8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Ok, psi4private now has tags synced. I've added some tag notes to page https://github.com/psi4/psi4public/wiki/zArchive_GitPublicAndPrivate#synchronizing-the-repositories 
+I think @jturney, @andysim, and I are the only double-pull-double-push practitioners at present. tags need to stay fairly synchronized since versions are computed from them and we don't want 0.1.190 == 0.2.2
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11555344
+----==_mimepart_5573829953e65_77763ff1696352a09659c8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Ok, psi4private now has tags synced. I've added some tag notes to page <a href="https://github.com/psi4/psi4public/wiki/zArchive_GitPublicAndPrivate#synchronizing-the-repositories">https://github.com/psi4/psi4public/wiki/zArchive_GitPublicAndPrivate#synchronizing-the-repositories</a> <br>
+I think <a href="https://github.com/jturney" class="user-mention">@jturney</a>, <a href="https://github.com/andysim" class="user-mention">@andysim</a>, and I are the only double-pull-double-push practitioners at present. tags need to stay fairly synchronized since versions are computed from them and we don't want 0.1.190 == 0.2.2</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11555344">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qklb1dmhGYYDsIIer02HYMMUpeodks5oQ3oZgaJpZM4E6fnT.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/commit/972ee80b6fa62eaea51339bd734be234032aaf50#commitcomment-11555344"></link>
+    <meta itemprop="name" content="View Commit"></meta>
+  </div>
+  <meta itemprop="description" content="View this Commit on GitHub"></meta>
+</div>
+
+----==_mimepart_5573829953e65_77763ff1696352a09659c8--

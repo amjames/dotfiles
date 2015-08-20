@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp77335qgt;
+        Thu, 6 Aug 2015 13:03:42 -0700 (PDT)
+X-Received: by 10.140.134.71 with SMTP id 68mr6829200qhg.24.1438891422925;
+        Thu, 06 Aug 2015 13:03:42 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 78si13819529qhr.33.2015.08.06.13.03.42
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 13:03:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) client-ip=192.30.252.194;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.194 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext3.iad.github.net [192.30.252.194])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t76K3bpq025634
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 16:03:42 -0400
+Date: Thu, 06 Aug 2015 13:03:29 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1438891409;
+	bh=84ifxOewETurQzx1+32izCzAO1KzL0UZyeFcGCHNa04=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=LrC7rl+c27K+jNL2Xq87H26UtI9zpi8YTIhx//VOZjbcbDRmA6jRnaplNDicgDwIw
+	 xDqyKXnwDNwS7Nu1IvB+zv9Z/PVFXaRTUpBZmMHYcrNtGobm051wWn0QrV5DWnURLL
+	 mgLg33giwBY9Cvxe+53JUdaPxU8t7ocdTxnyxdoM=
+From: Kevin Hannon <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642af828ca15f9b0702165b5143f79844c24446cd3592cf0000000111db7f9192a169ce05e423f4@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/157/128487955@github.com>
+In-Reply-To: <psi4/psi4public/issues/157@github.com>
+References: <psi4/psi4public/issues/157@github.com>
+Subject: Re: [psi4public] Libthce seg faults on generation of DF integrals for
+ porphyrin radical calculation (#157)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c3bd913b099_6ca03fe1d36a32a0102772";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: kannon92
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642af828ca15f9b0702165b5143f79844c24446cd3592cf0000000111db7f9192a169ce05e423f4@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642af828ca15f9b0702165b5143f79844c24446cd3592cf0000000111db7f9192a169ce05e423f4@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qs1zQTSO200PdL9sSFrTJkLl_Ssrks5ok7URgaJpZM4Fk3wA>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=1.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE autolearn=disabled version=3.4.0
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55c3bd913b099_6ca03fe1d36a32a0102772
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+So, no look running it with GDB.  
+I did find that there seems to be a problem with fread for this system.  If fread is successful, it should return the size of the type that is read, but it is returning a value of 0.   
+The error is happening on the loop that is started on line 720 of lreri.cc.    
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/157#issuecomment-128487955
+----==_mimepart_55c3bd913b099_6ca03fe1d36a32a0102772
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>So, no look running it with GDB.<br><br>
+I did find that there seems to be a problem with fread for this system.  If fread is successful, it should return the size of the type that is read, but it is returning a value of 0.<br><br>
+The error is happening on the loop that is started on line 720 of lreri.cc.    </p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/157#issuecomment-128487955">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QkUOzCnXc1pFxWSlRx2y4ZiU5GA8ks5ok7URgaJpZM4Fk3wA.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/157#issuecomment-128487955"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55c3bd913b099_6ca03fe1d36a32a0102772--

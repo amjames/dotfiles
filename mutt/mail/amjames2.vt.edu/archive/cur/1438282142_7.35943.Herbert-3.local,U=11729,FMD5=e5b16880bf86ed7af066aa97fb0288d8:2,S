@@ -1,0 +1,217 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp815734qgt;
+        Wed, 1 Jul 2015 11:59:16 -0700 (PDT)
+X-Received: by 10.55.42.1 with SMTP id q1mr58204409qkh.3.1435777156609;
+        Wed, 01 Jul 2015 11:59:16 -0700 (PDT)
+Return-Path: <jrmorris@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id f94si3357695qkf.121.2015.07.01.11.59.16
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Jul 2015 11:59:16 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning jrmorris@vt.edu does not designate 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning jrmorris@vt.edu does not designate 209.85.213.169 as permitted sender) smtp.mail=jrmorris@vt.edu
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t61Ix7O7019650
+	for <amjames2@vt.edu>; Wed, 1 Jul 2015 14:59:12 -0400
+Received: by igcsj18 with SMTP id sj18so142673453igc.1
+        for <amjames2@vt.edu>; Wed, 01 Jul 2015 11:59:07 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:subject:references:from:content-type:in-reply-to
+         :message-id:date:to:content-transfer-encoding:mime-version;
+        bh=8LCtpXn9p4IL3oXJY5QltgZ7vcKenKHJnN1/rjbc0cU=;
+        b=BdsR65ta4OeLZhdhDR0rFlQB9klPPP29IoSxTC/kDx+X2Kx1RBBdGj3t3lnIBNgY3M
+         u6EWXe0pe30KQAlVv+KYFlocm5AHl6F5u6LM1Oc/RTCfH17hJZQklF55yiArsp8PSjDM
+         OxyNGXKZsuOG3AYDx+ZQ5Pyy6rAvtK9NXwrBgTYi1wKIw3BDWDLDPwCF9AIxmZsWtlPl
+         YyrdQH3Yg1TLyMNoZhCOxqXWzJkWoyAQz1nPQixeZQCqLYqeN0aUfeaxddLerg0DlS5t
+         bDQ109hohwRrFHSqtiCwvQGLYCz1Da86932XAbFvUYBaNPqKtIRbn6XjvGrbAVHM1p56
+         zI9A==
+X-Gm-Message-State: ALoCoQkklyxHTFXhvIo5U+PTe/5gdE2PuV+TgbUz2cyTU6xjB/psfvjo3xRG5P9HOo0HJD3SSZAKQdFB/mCC6b2ItL3LeY6OERuMDq6/LTvg9stVl3sVlvTk0rNK0KpMxmSkKY1krr72OQKTAGFtPzNWEbYH2q13GvcMoSg/EaJOjEwHq8/Z9WyFAnN3ubxiFrgogUJWI/AE
+X-Received: by 10.107.28.202 with SMTP id c193mr41005619ioc.90.1435777147016;
+        Wed, 01 Jul 2015 11:59:07 -0700 (PDT)
+X-Received: by 10.107.28.202 with SMTP id c193mr41005603ioc.90.1435777146877;
+        Wed, 01 Jul 2015 11:59:06 -0700 (PDT)
+Received: from [10.234.221.76] (25.sub-174-236-194.myvzw.com. [174.236.194.25])
+        by mx.google.com with ESMTPSA id 191sm2006305iof.18.2015.07.01.11.59.05
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 01 Jul 2015 11:59:06 -0700 (PDT)
+Subject: Re: Second Year Student Meeting - July 1st (TODAY)
+References: <33E60AAA-932F-42CB-ACFE-1403F0B7BA11@vt.edu> <0F2F244D-36B4-403E-87CD-3F0D7F2A5B4C@vt.edu>
+From: "John R. Morris" <jrmorris@vt.edu>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-94D4CA8D-6436-407F-82B3-323D78575371
+X-Mailer: iPhone Mail (11D257)
+In-Reply-To: <0F2F244D-36B4-403E-87CD-3F0D7F2A5B4C@vt.edu>
+Message-Id: <BB792366-F9D9-4D31-AA71-C9202101876A@vt.edu>
+Date: Wed, 1 Jul 2015 14:59:02 -0400
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail-94D4CA8D-6436-407F-82B3-323D78575371
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+No worries!
+John
+
+
+> On Jul 1, 2015, at 2:44 PM, "Andrew M. James" <amjames2@vt.edu> wrote:
+>=20
+> Professor Morris,
+>=20
+> I am sorry, but I will not be able to attend the meeting this afternoon.  P=
+rofessor Crawford is hosting two summer schools this week; one for software d=
+evelopment, and a second on Molecular Response theory.  I am attending both s=
+chools as well as coordinating them for Professor Crawford.  I am sorry that=
+ this email is reaching you so late, but I have been in class all day.  Plea=
+se let me know if I need to do anything to make up for my absence.=20
+>=20
+> Thank you,=20
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>=20
+>=20
+>> On Jul 1, 2015, at 8:49 AM, John R. Morris <jrmorris@vt.edu> wrote:
+>>=20
+>> MEETING REMINDER (sent originally by Joli on 6/18/15)
+>>=20
+>> Hello Students,
+>> =20
+>> Prof. John Morris would like to schedule a meeting with all rising second=
+-year students for Wednesday, July 1st in 281 Davidson from 2:00 =E2=80=93 3=
+:00 p.m. He will address the expectations for CHEM 5914 Literature Review an=
+d additional chemistry graduate requirements, and answer any questions that y=
+ou may have. While this meeting is not required, it is strongly encouraged t=
+hat you attend.
+>> =20
+>> Thanks
+>> =20
+>> Joli Huynh
+>> Graduate Coordinator
+>> Department of Chemistry
+>> 306 Hahn Hall North
+>> Mail Code 0212
+>> Blacksburg, VA 24061
+>> =20
+>> 540-231-8225
+>=20
+
+--Apple-Mail-94D4CA8D-6436-407F-82B3-323D78575371
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>No worries!</div><div>John</div><div><=
+br></div><div><br>On Jul 1, 2015, at 2:44 PM, "Andrew M. James" &lt;<a href=3D=
+"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br><br></div><blockq=
+uote type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml charset=3Dwindows-1252">Professor Morris,<div class=3D""><br class=3D""><=
+/div><div class=3D"">I am sorry, but I will not be able to attend the meetin=
+g this afternoon. &nbsp;Professor Crawford is hosting two summer schools thi=
+s week; one for software development, and a second on Molecular Response the=
+ory. &nbsp;I am attending both schools as well as coordinating them for Prof=
+essor Crawford. &nbsp;I am sorry that this email is reaching you so late, bu=
+t I have been in class all day. &nbsp;Please let me know if I need to do any=
+thing to make up for my absence.&nbsp;</div><div class=3D""><br class=3D""><=
+/div><div class=3D"">Thank you,&nbsp;<br class=3D""><div apple-content-edite=
+d=3D"true" class=3D"">
+Andrew M. James<br class=3D"">Graduate Research Assistant<br class=3D""><a h=
+ref=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br class=3D"">=
+<br class=3D"">
+
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div class=3D"">On J=
+ul 1, 2015, at 8:49 AM, John R. Morris &lt;<a href=3D"mailto:jrmorris@vt.edu=
+" class=3D"">jrmorris@vt.edu</a>&gt; wrote:</div><br class=3D"Apple-intercha=
+nge-newline"><div class=3D"">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii" c=
+lass=3D"">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)" cla=
+ss=3D"">
+<style class=3D""><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+<div lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap: b=
+reak-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "=
+ class=3D"">
+<div class=3D"WordSection1"><p class=3D"MsoNormal">MEETING REMINDER (sent or=
+iginally by Joli on 6/18/15)</p><p class=3D"MsoNormal"><br class=3D""></p><p=
+ class=3D"MsoNormal">Hello Students,<o:p class=3D""></o:p></p><p class=3D"Ms=
+oNormal"><o:p class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">Prof. John M=
+orris would like to schedule a meeting with all rising second-year students f=
+or <b class=3D""><u class=3D"">Wednesday, July 1st in 281 Davidson from 2:00=
+ =E2=80=93 3:00 p.m.</u></b> He will address the expectations for CHEM 5914 L=
+iterature Review and additional chemistry
+ graduate requirements, and answer any questions that you may have. While th=
+is meeting is not required, it is strongly encouraged that you attend.<o:p c=
+lass=3D""></o:p></p><p class=3D"MsoNormal"><o:p class=3D"">&nbsp;</o:p></p><=
+p class=3D"MsoNormal">Thanks<o:p class=3D""></o:p></p><p class=3D"MsoNormal"=
+><o:p class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">Joli Huynh<o:p class=
+=3D""></o:p></p><p class=3D"MsoNormal">Graduate Coordinator<o:p class=3D""><=
+/o:p></p><p class=3D"MsoNormal">Department of Chemistry<o:p class=3D""></o:p=
+></p><p class=3D"MsoNormal">306 Hahn Hall North<o:p class=3D""></o:p></p><p c=
+lass=3D"MsoNormal">Mail Code 0212<o:p class=3D""></o:p></p><p class=3D"MsoNo=
+rmal">Blacksburg, VA 24061<o:p class=3D""></o:p></p><p class=3D"MsoNormal"><=
+o:p class=3D"">&nbsp;</o:p></p><p class=3D"MsoNormal">540-231-8225<o:p class=
+=3D""></o:p></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-=
+family:&quot;Arial&quot;,sans-serif" class=3D"">&nbsp;</span><o:p class=3D""=
+></o:p></p><p class=3D"MsoNormal"><o:p class=3D"">&nbsp;</o:p></p>
+</div>
+
+
+</div></div></blockquote></div><br class=3D""></div></div></blockquote></bod=
+y></html>=
+
+--Apple-Mail-94D4CA8D-6436-407F-82B3-323D78575371--

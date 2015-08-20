@@ -1,0 +1,149 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2410433qgt;
+        Tue, 7 Jul 2015 07:17:03 -0700 (PDT)
+X-Received: by 10.55.42.1 with SMTP id q1mr7088606qkh.3.1436278623732;
+        Tue, 07 Jul 2015 07:17:03 -0700 (PDT)
+Return-Path: <verpprefix-amjames2=40vt.edu-UTKAY-BWGRM-bounces@congressplus.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id i65si25061902qkh.58.2015.07.07.07.17.03
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 07:17:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of verpprefix-amjames2=40vt.edu-UTKAY-BWGRM-bounces@congressplus.com designates 66.231.180.207 as permitted sender) client-ip=66.231.180.207;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of verpprefix-amjames2=40vt.edu-UTKAY-BWGRM-bounces@congressplus.com designates 66.231.180.207 as permitted sender) smtp.mail=verpprefix-amjames2=40vt.edu-UTKAY-BWGRM-bounces@congressplus.com;
+       dkim=pass header.i=@congressplus.com
+Received: from mail.congressplus.com (mail.congressplus.com [66.231.180.207])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67EGvL4022759
+	for <amjames2@vt.edu>; Tue, 7 Jul 2015 10:17:02 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=tse; d=congressplus.com;
+	i=bounces@congressplus.com;
+	h=list-unsubscribe:content-type:mime-version:subject:message-id:to:reply-to:from:date;
+	bh=4ycNOPzmrOD1HOfFaSK+AJ2M+ls=;
+	b=IlvEmNdHR0n1tzoL8gxspBNu0o5skrzdVKkH1h3JJ5OXOJW6//N9bUt92BSC/Zn7USRd6qgbXeeS5WVYbknfSo5VHFVfIgnNRFLya2xwZdEdAX1kqDmoxqKh1Z2zhgzdnmNx8jWzkDpuDXjyDU5cmwinnmPFNdNPcygSNMvzXkM=;
+Received: from [192.168.2.221] ([192.168.2.221])
+	by mail.congressplus.com (XM Server 3.1.1)
+	for <amjames2@vt.edu>;
+	Tue, 7 Jul 2015 08:34:46 -0400
+Date: Tue, 7 Jul 2015 10:16:57 -0400 (EDT)
+From: Katelynn Eckert <k_eckert@acs.org>
+Reply-To: k_eckert@acs.org
+To: amjames2@vt.edu
+Message-ID: <183701884.2974321.1436278617507.JavaMail.Administrator@mail.congressplus.com>
+Subject: Support STEM Education before the Senate
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2974320_1412926630.1436278617507"
+X-Mailer: ColdFusion 10 Application Server
+X-CID: UTKAY
+X-EID: BWGRM
+List-Unsubscribe: <http://t.congressweb.com/u/?UTKAYBWGRM>, <mailto:unsubscribe@thesoftedge.com?subject=unsubscribe-UTKAYBWGRM>
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_2974320_1412926630.1436278617507
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+If you are having trouble viewing this message, go here: http://t.congressweb.com/w/?UTKAYBWGRM
+		
+Dear Act4Chemistry Member:
+
+ 
+
+In late April, we sent an update one some of our top legislative priorities. One of those issues is moving before the Senate &ndash; and we need your help.
+
+ 
+
+This week, the U.S. Senate will be taking up legislation to reauthorize the Elementary and Secondary Education Act, otherwise known as No Child Left Behind.
+
+ 
+
+The new Senate bill-- the Every Child Achieves Act (S.1177)--is a comprehensive and bipartisan bill that includes a significant focus on improving learning in the critical science, technology, engineering, and mathematics (STEM) subjects.Specifically, the bill includes a hard-won provision, adopted by a close vote during committee consideration,that would provide every state with dedicated funding to support a wide range of STEM education activities, including professional development and hands on learning.
+
+ 
+
+All Senators need to hear from you about the importance of STEM education as a national priority, so that the final bill passed by the Senate retains this important focus.Click here to support STEM education and help us get this important message heard! (http://t.congressweb.com/t/?UTKAYBWGRMFVCLK&publicGRRecID=73306192-E4E6-8218-57E9FD1BE615F44F) 
+
+Forward to a Friend:
+http://t.congressweb.com/f/?UTKAYBWGRM
+Unsubscribe:
+http://t.congressweb.com/u/?UTKAYBWGRM
+
+------=_Part_2974320_1412926630.1436278617507
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<div style="font-size: 12px; text-align: center">
+				Are you having trouble viewing this message?
+				<a href="http://t.congressweb.com/w/?UTKAYBWGRM">Click here</a>
+			</div>
+			<div>&nbsp;</div>
+			<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+	<tbody>
+		<tr>
+			<td bgcolor="#ffce34" height="60">
+				<span style="font-family: Arial;">&nbsp;</span></td>
+			<td>
+				<span style="font-family: Arial;">&nbsp;</span></td>
+			<td height="120" rowspan="2" width="328">
+				<span style="font-family: Arial;"><img alt="" height="64" src="https://www.congressplus.com/userfiles/268/image/ACS_Chemistry_for_Life_2_Color_Logo(2).jpg" width="184" /></span></td>
+			<td align="right" rowspan="2" style="font-size: 12px; color: rgb(0, 57, 166); font-family: Arial,Helvetica,sans-serif;" width="375">
+				&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#0035a6" rowspan="4" width="39">
+				<span style="font-family: Arial;">&nbsp;</span></td>
+			<td height="60" width="32">
+				<span style="font-family: Arial;">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td>
+				<span style="font-family: Arial;">&nbsp;</span></td>
+			<td colspan="2" rowspan="2">
+				Dear Act4Chemistry Member:<br />
+&nbsp;<br />
+In late April, we sent an update one some of our top legislative priorities. One of those issues is moving before the Senate &ndash; and we need your help.<br />
+&nbsp;<br />
+This week, the U.S. Senate will be taking up legislation to reauthorize the Elementary and Secondary Education Act, otherwise known as No Child Left Behind.<br />
+&nbsp;<br />
+The new Senate bill-- the Every Child Achieves Act (S.1177)--is a comprehensive and bipartisan bill that includes a significant focus on improving learning in the critical science, technology, engineering, and mathematics (STEM) subjects.&nbsp; <em>Specifically, the bill includes a hard-won provision, adopted by a close vote during committee consideration,&nbsp; that would provide every state with dedicated funding to support a wide range of STEM education activities, including professional development and hands on learning.</em><br />
+&nbsp;<br />
+All Senators need to hear from you about the importance of STEM education as a national priority, so that the final bill passed by the Senate retains this important focus. &nbsp;<a href="http://t.congressweb.com/l/?UTKAYBWGRMYLTXT&RecipientTID=BWGRM&publicGRRecID=73306192-E4E6-8218-57E9FD1BE615F44F">Click here to support STEM education and help us get this important message heard!</a></td>
+		</tr>
+		<tr>
+			<td>
+				<span style="font-family: Arial;">&nbsp;</span></td>
+		</tr>
+		<tr valign="baseline">
+			<td>
+				<span style="font-family: Arial;">&nbsp;</span></td>
+			<td colspan="2" style="font-size: 12px; color: rgb(0, 57, 166); font-family: Arial,Helvetica,sans-serif;">
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<img src="http://t.congressweb.com/i/?UTKAYBWGRM" width="1" height="1">
+			<table width="100%" bgcolor="#FFFFFF">	
+				<tr>	
+					<td>	
+						<div>&nbsp;</div>
+						<div style="font-family:arial;font-size:11px">
+							<div>
+								<a href="http://t.congressweb.com/f/?UTKAYBWGRM">Forward to a Friend</a>
+							</div>
+							<div>&nbsp;</div>
+							<a href="http://t.congressweb.com/u/?UTKAYBWGRM">Unsubscribe</a>  
+						</div>
+					</td>	
+				</tr>	
+			</table>
+
+------=_Part_2974320_1412926630.1436278617507--

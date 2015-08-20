@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp478693qgt;
+        Wed, 5 Aug 2015 09:04:28 -0700 (PDT)
+X-Received: by 10.55.18.37 with SMTP id c37mr10558570qkh.16.1438790668371;
+        Wed, 05 Aug 2015 09:04:28 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id f188si6030201qhe.92.2015.08.05.09.04.28
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 09:04:28 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.173 as permitted sender) client-ip=209.85.213.173;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.173 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-ig0-f173.google.com (mail-ig0-f173.google.com [209.85.213.173])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t75G4Mhi008973
+	for <amjames2@vt.edu>; Wed, 5 Aug 2015 12:04:27 -0400
+Received: by igr7 with SMTP id 7so98256465igr.0
+        for <amjames2@vt.edu>; Wed, 05 Aug 2015 09:04:22 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=hXECTykNQD02Eo5Mygr+Kul2r3f6S3iOWNeC0O+X76c=;
+        b=eK2DUfJbKGnxECgg74O2/qZ6ixfrA28o9oHxx25eIGyn64qOYNOxxG0UngiUrf6+4J
+         RjCJm2rQxFbI5fM8XyzLD+SbyTgHq7usvv7+BOWDlcIYYNAR752vV8rjduX3IrE/gSD+
+         kuWBEhekbzOBkx+b76Sj202DafPi09aTTTT9J+nAxrmg1MTCXlRPutA2N9iaUrhr5xan
+         ikCW7R+e1bW+QkNcmfWb9cTiG2dysAgfmBRVslzru5BGgkndoxjWCtZZEo9HfnqqSq1p
+         +zCU1N5siDyrqZuD9+m5gG2r1SGu0fIXRU6WXq7DcvB+a8dJ3o2I5Y/0VaTglPvD3uS4
+         O1kQ==
+X-Gm-Message-State: ALoCoQm8miJ6zmyplpsz23dgaIRKGfyoN2/jCVC0X32wDeeL2H9brX1QwfvtHFb40m2d2gwkVf+xFzCtC/ib7kJ1VuFiS99TI9/1IrwmhsaGtFzFvvGnASmanifhHYG1uaM3vA+MlLCLaRxGKALDfDyzLi/Zx4f6jA==
+X-Received: by 10.50.41.67 with SMTP id d3mr6430554igl.57.1438790662344;
+        Wed, 05 Aug 2015 09:04:22 -0700 (PDT)
+X-Received: by 10.50.41.67 with SMTP id d3mr6430512igl.57.1438790661907; Wed,
+ 05 Aug 2015 09:04:21 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Wed, 5 Aug 2015 09:04:02 -0700 (PDT)
+In-Reply-To: <20150805151238.GB45495@Herbert-3.local>
+References: <CAECk6+6N2StT_hb8u8n1u8fDkovNyC6vW0Vn5dooBqWbBLjinQ@mail.gmail.com>
+ <20150805151238.GB45495@Herbert-3.local>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Wed, 5 Aug 2015 12:04:02 -0400
+Message-ID: <CAECk6+5fRewxcDRfCnqS=kq6V_aZZmFrqFZqakPqgxEa9MLvxQ@mail.gmail.com>
+Subject: Re: Lunch plans
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0112d0544f3b25051c928e53
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0112d0544f3b25051c928e53
+Content-Type: text/plain; charset=UTF-8
+
+I'll come down in a few
+
+On Wed, Aug 5, 2015 at 11:12 AM, Andrew M James <amjames2@vt.edu> wrote:
+
+> Either is fine dear,
+>
+> If you want to eat before your meeting then come on down, if not we can
+> after =)
+>
+> --AJ
+>
+
+--089e0112d0544f3b25051c928e53
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;ll come down in a few</div><div class=3D"gmail_extra=
+"><br><div class=3D"gmail_quote">On Wed, Aug 5, 2015 at 11:12 AM, Andrew M =
+James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_b=
+lank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x">Either is fine dear,<br>
+<br>
+If you want to eat before your meeting then come on down, if not we can<br>
+after =3D)<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+--AJ<br>
+</font></span></blockquote></div><br></div>
+
+--089e0112d0544f3b25051c928e53--

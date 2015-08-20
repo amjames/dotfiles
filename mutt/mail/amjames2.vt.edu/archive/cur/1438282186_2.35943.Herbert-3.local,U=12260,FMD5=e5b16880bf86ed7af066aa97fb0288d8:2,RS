@@ -1,0 +1,250 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp563532qgt;
+        Thu, 23 Jul 2015 11:42:04 -0700 (PDT)
+X-Received: by 10.140.30.226 with SMTP id d89mr14112672qgd.27.1437676924223;
+        Thu, 23 Jul 2015 11:42:04 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id j201si6876426qhc.130.2015.07.23.11.42.04
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 11:42:04 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.218.49 as permitted sender) client-ip=209.85.218.49;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.218.49 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-oi0-f49.google.com (mail-oi0-f49.google.com [209.85.218.49])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6NIfwfZ025793
+	for <amjames2@vt.edu>; Thu, 23 Jul 2015 14:42:03 -0400
+Received: by oihq81 with SMTP id q81so1227062oih.2
+        for <amjames2@vt.edu>; Thu, 23 Jul 2015 11:41:58 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=lQ/o+Jguc0rybm5cgWShOWXTNMansdRBbWSQpnKMg1w=;
+        b=HUldudBNsiB5zj2fW/u/SuAqAOnl4oxYE9fyNZ9MGjb3eeSkzQCn2h4KzoLKxLlqMz
+         b/fM9hxfcRlvJliyBgILGD5b5ae5KOoVftrB0CxslPG2taQ25TMzghIpmMGEQGiQ4wgj
+         BItuWwN+C/xIJPA5bpX0dBk+zSecmVWTGFggDzQvKwVEjx6XENt2K2UtpMUqfc7Zvg4R
+         oZAy8Md9Y7rhPAHnyCT8U9Zti10OI7BDbw+s7UY+vAEyIkWhNwhqexanRWn5VrdKsEH0
+         TZNLB/V7Gyg3viCQTey3rRmukg+G8fyRlsob9/NLsJqVUd/W8+pq0eMTEe+gq5ImP05x
+         f7gA==
+X-Gm-Message-State: ALoCoQl8rR0OFwylwGtCV0HQC5svYLWe4VxV84LpkoY3BMArfZFfNJSlHzTb9CwYaqNJ72vHXO6Bhi68URlOcjwPGzr9FIWustTjp4zVy5Vxn9ZejsvfyiXThgwP2NB/ufJwPnoC+63TslQZIltN76xOpBQ7S2e1tA==
+X-Received: by 10.182.144.194 with SMTP id so2mr10376378obb.51.1437676918370;
+        Thu, 23 Jul 2015 11:41:58 -0700 (PDT)
+X-Received: by 10.182.144.194 with SMTP id so2mr10376353obb.51.1437676918229;
+ Thu, 23 Jul 2015 11:41:58 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.155.137 with HTTP; Thu, 23 Jul 2015 11:41:38 -0700 (PDT)
+In-Reply-To: <EF6FC183-A6B8-48C9-81EC-DD68B965FAE1@vt.edu>
+References: <DE5CFCE7-21AE-4FF3-9E68-2DE287BE7485@vt.edu> <CAECk6+4BmNJc1XxmnXuAcgJPE0ASu5CdeX1Qtx3=cwLV26qMrQ@mail.gmail.com>
+ <CD1A87ED-533C-446B-8BDE-DB6DA2DC4FE1@vt.edu> <CAECk6+4bBEh9vrvAbW0fXLrn1uDi4pKHg0xCCVZbQRZX7zSWBQ@mail.gmail.com>
+ <16DDD868-B889-4A75-8BDF-3716A56562C8@vt.edu> <CAECk6+53xdpXgiut=GbH6Go31HjUCKxdpN3bFaeE4OPEbqZhUg@mail.gmail.com>
+ <F31C3AE2-EC87-4013-89F3-16B3AE093930@vt.edu> <CAECk6+4SZ4dY3FEWfaW413Vqi8yR9kTGOA-WnRibGcyJfTHUqw@mail.gmail.com>
+ <EF6FC183-A6B8-48C9-81EC-DD68B965FAE1@vt.edu>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Thu, 23 Jul 2015 14:41:38 -0400
+Message-ID: <CAECk6+5=KrjTjmi1ty_dF66jrPtCUeydyciTALvH=Bx-uUQkdw@mail.gmail.com>
+Subject: Re: the light at the end of the tunnel
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0158ab960366c1051b8f3e98
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0158ab960366c1051b8f3e98
+Content-Type: text/plain; charset=UTF-8
+
+Something just came up...315?
+
+On Thu, Jul 23, 2015 at 2:34 PM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> so 3 ?
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+> On Jul 23, 2015, at 2:29 PM, Christine Duchane <cduchane@vt.edu> wrote:
+>
+> Sounds good. I need to read at home tonight too. like actually, not just
+> say I will.
+>
+> =)
+>
+> On Thu, Jul 23, 2015 at 2:20 PM, Andrew M. James <amjames2@vt.edu> wrote:
+>
+>> fam! ~*dam_autocorrect.jpg*~
+>>
+>> I can leave whenever then uh if you want to go now and come back for me
+>> at five thats cool, but Id also be down to leave at like 3 and maybe read a
+>> little at home tn
+>> Andrew M. James
+>> Graduate Research Assistant
+>> amjames2@vt.edu
+>>
+>>
+>> On Jul 23, 2015, at 2:11 PM, Christine Duchane <cduchane@vt.edu> wrote:
+>>
+>> hahahahaha had to go pick up his farm from the airport. I just got a good
+>> chuckle out of that  =)
+>>
+>> Okay, so then let me know when you have an idea of your preferred leaving
+>> time; I'm definitely thinking like 5 at the latest.
+>>
+>>
+>> On Thu, Jul 23, 2015 at 2:08 PM, Andrew M. James <amjames2@vt.edu> wrote:
+>>
+>>> I got your email :P
+>>>
+>>> Also, Group meeting canceled crawdad had to go pick up his farm from the
+>>> airport
+>>>
+>>> Andrew M. James
+>>> Graduate Research Assistant
+>>> amjames2@vt.edu
+>>>
+>>>
+>>> On Jul 23, 2015, at 12:26 PM, Christine Duchane <cduchane@vt.edu> wrote:
+>>>
+>>> WE'RE READY NOW!!!!!!!!!
+>>>
+>>> On Thu, Jul 23, 2015 at 11:50 AM, Andrew M. James <amjames2@vt.edu>
+>>> wrote:
+>>>
+>>>> AWW THAT WOULD BE RAD!
+>>>>
+>>>> email me when your ready and I will meet you outside where hann faces
+>>>> davidson?
+>>>>
+>>>> Andrew M. James
+>>>> Graduate Research Assistant
+>>>> amjames2@vt.edu
+>>>>
+>>>>
+>>>> On Jul 23, 2015, at 11:46 AM, Christine Duchane <cduchane@vt.edu>
+>>>> wrote:
+>>>>
+>>>> Loren wants to go to bdubs. The kids are all rotovaping and I'm trying
+>>>> to rush them along a bit. I'm hoping they'll all be done enough that we can
+>>>> leave by 12:30.
+>>>>
+>>>> On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>>
+>>>>> Im done email me about lunch. Phone is almost dead, and I have no
+>>>>> service in here lately :( its showing as working online now
+>>>>>
+>>>>> Andrew M. James
+>>>>> Graduate Research Assistant
+>>>>> amjames2@vt.edu
+>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+--089e0158ab960366c1051b8f3e98
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Something just came up...315?</div><div class=3D"gmail_ext=
+ra"><br><div class=3D"gmail_quote">On Thu, Jul 23, 2015 at 2:34 PM, Andrew =
+M. James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D=
+"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmai=
+l_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left=
+:1ex"><div style=3D"word-wrap:break-word">so 3 ?=C2=A0<div><span class=3D""=
+><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div class=3D"h5"><div><blockquote type=3D"cite"><div>On Ju=
+l 23, 2015, at 2:29 PM, Christine Duchane &lt;<a href=3D"mailto:cduchane@vt=
+.edu" target=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div d=
+ir=3D"ltr">Sounds good. I need to read at home tonight too. like actually, =
+not just say I will.<div><br></div><div>=3D)</div></div><div class=3D"gmail=
+_extra"><br><div class=3D"gmail_quote">On Thu, Jul 23, 2015 at 2:20 PM, And=
+rew M. James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" targe=
+t=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex"><div style=3D"word-wrap:break-word">fam! ~*dam_autocorrect.jpg*~=
+=C2=A0<div><br></div><div>I can leave whenever then uh if you want to go no=
+w and come back for me at five thats cool, but Id also be down to leave at =
+like 3 and maybe read a little at home tn=C2=A0<span><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div><div><blockquote type=3D"cite"><div>On Jul 23, 2015, a=
+t 2:11 PM, Christine Duchane &lt;<a href=3D"mailto:cduchane@vt.edu" target=
+=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr"><=
+div>hahahahaha had to go pick up his farm from the airport. I just got a go=
+od chuckle out of that =C2=A0=3D)<br></div><div><br></div><div>Okay, so the=
+n let me know when you have an idea of your preferred leaving time; I&#39;m=
+ definitely thinking like 5 at the latest.</div><div><br></div></div><div c=
+lass=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Jul 23, 2015 at=
+ 2:08 PM, Andrew M. James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@=
+vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockqu=
+ote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc s=
+olid;padding-left:1ex"><div style=3D"word-wrap:break-word">I got your email=
+ :P<div><br></div><div>Also, Group meeting canceled crawdad had to go pick =
+up his farm from the airport</div><div><span><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div><div><blockquote type=3D"cite"><div>On Jul 23, 2015, a=
+t 12:26 PM, Christine Duchane &lt;<a href=3D"mailto:cduchane@vt.edu" target=
+=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">W=
+E&#39;RE READY NOW!!!!!!!!!</div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Thu, Jul 23, 2015 at 11:50 AM, Andrew M. James <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2=
+@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D=
+"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=
+=3D"word-wrap:break-word">AWW THAT WOULD BE RAD!<div>=C2=A0</div><div>email=
+ me when your ready and I will meet you outside where hann faces davidson?=
+=C2=A0</div><div><span><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div><div><blockquote type=3D"cite"><div>On Jul 23, 2015, a=
+t 11:46 AM, Christine Duchane &lt;<a href=3D"mailto:cduchane@vt.edu" target=
+=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">L=
+oren wants to go to bdubs. The kids are all rotovaping and I&#39;m trying t=
+o rush them along a bit. I&#39;m hoping they&#39;ll all be done enough that=
+ we can leave by 12:30.</div><div class=3D"gmail_extra"><br><div class=3D"g=
+mail_quote">On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <span dir=3D"ltr=
+">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu<=
+/a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Im done email me ab=
+out lunch. Phone is almost dead, and I have no service in here lately :( it=
+s showing as working online now<br>
+<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<br>
+<br>
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--089e0158ab960366c1051b8f3e98--

@@ -1,0 +1,170 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1339636qgt;
+        Tue, 23 Jun 2015 06:29:55 -0700 (PDT)
+X-Received: by 10.140.150.11 with SMTP id 11mr45845745qhw.53.1435066195257;
+        Tue, 23 Jun 2015 06:29:55 -0700 (PDT)
+Return-Path: <thosbell@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id x104si22140724qgx.59.2015.06.23.06.29.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 06:29:55 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning thosbell@vt.edu does not designate 209.85.220.173 as permitted sender) client-ip=209.85.220.173;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning thosbell@vt.edu does not designate 209.85.220.173 as permitted sender) smtp.mail=thosbell@vt.edu
+Received: from mail-qk0-f173.google.com (mail-qk0-f173.google.com [209.85.220.173])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NDTnbW028347
+	for <amjames2@vt.edu>; Tue, 23 Jun 2015 09:29:54 -0400
+Received: by qkbp125 with SMTP id p125so4628276qkb.2
+        for <amjames2@vt.edu>; Tue, 23 Jun 2015 06:29:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:to:date:mime-version:subject:cc:message-id
+         :priority:in-reply-to:references:content-type;
+        bh=SxMub/myaCQ1nwr8nuGjZM20sCYqbFNMYLbNdd2RUew=;
+        b=IVCKC1+p/nmaZOeIcZqYaiIrzjArNuipB9n73/MsW27HeiEqR3f/4vWSmqscCuw5gq
+         6TI4bpTNbH9rGJZBHwh3cktxZS9NYIeI38g8EKKsfXmHF3xv3WQUaoYBcQNIGugxistS
+         Mx5aYU9mNxxBu5aYZh0lo/QA46jR5hgJKrcl4q2D6RrAs7Hc9HYVSRMZLzS/b1IS6h7z
+         fGkoDA3pjZWy/Pp+0IL4dw0DEVSoEaYfjPJiVlUBm2Gbqm7Id/ViVVyQOPC9nf3NdULH
+         xJtCbQzyjuW8jpuOB4aTf2MFOBw1TutzYA+tODMergfXnmSX2561rthA/9KwQUdxCa7V
+         GXYg==
+X-Gm-Message-State: ALoCoQmL+NZq1ijqDp9oHo/E5v4x17SAIoBElRcaYK6y7aVgYlpzE6lSxFer37NC+kf0p1YV4YzozOVsu4yEHPGUnQ92KE7deas6/Q/ZixMqQcc7h88VcvNGPsg7zDejBT/UoA16VbEqxCmv9K/sNI7Q8dp2EyhbGXmtIq5uo8rGu0qj3lbUba8uNxryRj6at6oZPEizFtfx
+X-Received: by 10.55.18.82 with SMTP id c79mr15222802qkh.18.1435066189464;
+        Tue, 23 Jun 2015 06:29:49 -0700 (PDT)
+X-Received: by 10.55.18.82 with SMTP id c79mr15222765qkh.18.1435066189292;
+        Tue, 23 Jun 2015 06:29:49 -0700 (PDT)
+Received: from [128.173.183.213] (h80adb7d5.dhcp.vt.edu. [128.173.183.213])
+        by mx.google.com with ESMTPSA id 7sm1448553qky.29.2015.06.23.06.29.47
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 06:29:47 -0700 (PDT)
+From: "Thomas E. Bell" <thosbell@vt.edu>
+X-Google-Original-From: "Thomas E. Bell" <tbell@vt.edu>
+To: amjames2@vt.edu, laurieg@vt.edu, fs@vt.edu
+Date: Tue, 23 Jun 2015 09:30:04 -0400
+MIME-Version: 1.0
+Subject: Re: Virginia Tech Fleet Services - New Request (Request ID: R066922)
+CC: rgilbert@vt.edu, krcox1@vt.edu
+Message-ID: <55895F5C.28870.372164F@tbell.vt.edu>
+Priority: normal
+In-reply-to: <296ADBB06B504B67BB2266B58E2539D1@vpas.vt.edu>
+References: <296ADBB06B504B67BB2266B58E2539D1@vpas.vt.edu>
+X-mailer: Pegasus Mail for Windows (4.70)
+Content-type: Multipart/Alternative; boundary="Alt-Boundary-29089.57808463"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Alt-Boundary-29089.57808463
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+APPROVED  --   Tom Bell 
+
+On 22 Jun 2015 at 10:38, fs@vt.edu wrote:
+> Hello,
+> 
+> The requestor/driver has identified you as their fund manager, also
+> the fund manager has been carbon copied and the requestor/driver have
+> recieved a copy.
+> 
+> Fleet Services has received this request for a vehicle under the
+> organization and fund number listed below.
+> 
+> If you (fund manager) approve the travel and expenditure of funds
+> please REPLY TO ALL with the wording "approved".  If not please reply
+> with "rejected".
+> 
+> Fleet Services will process the request when approval is received.
+> If a vehicle is available the requestor/driver will receive a reservation number.
+> If a vehicle is not available the requestor/driver will receive a declined notice.
+> 
+>            Requestor: Good, Laurie
+>               Driver: James, Andrew
+>    Request date/time: 06/22/2015 10:38:30 am
+>              Pick-up: 6/30/2015 4:00:00 PM
+>               Return: 7/1/2015 9:00:00 AM
+>         Destination : Franks CineBowl
+>    Organization Name: Chemistry 004200
+>           Usage Type: Vehicle Rental
+>            Account #: 478831
+>           Request ID: R066922
+>   Reservation Number: RES#
+>             Comments: 
+> 
+> Please pick up the vehicle at the Pick-up date and time indicated above.
+> Your schedule can be viewed on-line at:
+> https://www.fs.vt.edu/fleetcommander//_MyScheduleBrowse.asp?Requests=Current
+> Thank you,
+> Fleet Services Staff
+    --
+Tom Bell, MA, MSM, Assistant Chair
+480 Davidson, Chemistry (0212)
+Phone: 1-8226, Fax: 1-3255, tbell@vt.edu
+
+
+--Alt-Boundary-29089.57808463
+Content-type: text/html; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">APPROVED&#160; --&#160;&#160; Tom Bell </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">On 22 Jun 2015 at 10:38, fs@vt.edu wrote:</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Hello,</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; The requestor/driver has identified you as their fund manager, also</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; the fund manager has been carbon copied and the requestor/driver have</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; recieved a copy.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Fleet Services has received this request for a vehicle under the</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; organization and fund number listed below.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; If you (fund manager) approve the travel and expenditure of funds</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; please REPLY TO ALL with the wording &quot;approved&quot;.&#160; If not please reply</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; with &quot;rejected&quot;.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Fleet Services will process the request when approval is received.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; If a vehicle is available the requestor/driver will receive a reservation number.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; If a vehicle is not available the requestor/driver will receive a declined notice.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Requestor: Good, Laurie</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Driver: James, Andrew</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160; Request date/time: 06/22/2015 10:38:30 am</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Pick-up: 6/30/2015 4:00:00 PM</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Return: 7/1/2015 9:00:00 AM</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Destination : Franks CineBowl</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160; Organization Name: Chemistry 004200</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Usage Type: Vehicle Rental</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Account #: 478831</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Request ID: R066922</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160; Reservation Number: RES#</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Comments: </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; </span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Please pick up the vehicle at the Pick-up date and time indicated above.</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Your schedule can be viewed on-line at:</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; https://www.fs.vt.edu/fleetcommander//_MyScheduleBrowse.asp?Requests=Current</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Thank you,</span></font></div>
+<div align="left"><font face="Arial" color="#0000ff" size="2"><span style=" font-size:10pt">&gt; Fleet Services Staff</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">&#160;&#160;&#160; --</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Tom Bell, MA, MSM, Assistant Chair</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">480 Davidson, Chemistry (0212)</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Phone: 1-8226, Fax: 1-3255, tbell@vt.edu</span></font></div>
+<div align="left">&nbsp;&nbsp;</div>
+</body>
+</html>
+
+--Alt-Boundary-29089.57808463--

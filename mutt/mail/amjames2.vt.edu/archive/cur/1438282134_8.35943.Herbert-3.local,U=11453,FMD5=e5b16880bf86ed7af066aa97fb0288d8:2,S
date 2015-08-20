@@ -1,0 +1,248 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp96635qgt;
+        Fri, 26 Jun 2015 09:31:05 -0700 (PDT)
+X-Received: by 10.55.15.232 with SMTP id 101mr5660148qkp.69.1435336265070;
+        Fri, 26 Jun 2015 09:31:05 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id i8si33460948qgf.23.2015.06.26.09.30.34
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Jun 2015 09:31:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.8 as permitted sender) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.8 as permitted sender) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5QGURVo026642;
+	Fri, 26 Jun 2015 12:30:33 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t5QBq7pG023280;
+	Fri, 26 Jun 2015 12:30:27 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100203666 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 26 Jun 2015 12:30:27
+          -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5QFGZMx021886; Fri, 26 Jun
+          2015 12:30:26 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100203658 for CHEM_EVERYONE@LISTSERV.VT.EDU; Fri, 26 Jun 2015
+          12:30:26 -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5QGUQJ2002135 for
+          <chem_everyone@listserv.vt.edu>; Fri, 26 Jun 2015 12:30:26 -0400
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be
+          forged)) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t5QGUKpL000706 for <chem_everyone@listserv.vt.edu>; Fri, 26 Jun 2015
+          12:30:25 -0400
+Received: from MARCONI.cc.w2k.vt.edu (198.82.160.13) by BRAILLE.cc.w2k.vt.edu
+          (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Fri,
+          26 Jun 2015 12:30:20 -0400
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+          MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+          15.00.0995.032; Fri, 26 Jun 2015 12:30:20 -0400
+Thread-Topic: MSDS and Facilities Maintenance Request Sites have Moved --
+              Please Update your Bookmarks
+Thread-Index: AdCwKVwIWnd7j5xBRT+PtRi2/8TK3Q==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [198.82.190.213]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrNqsTGxXIsaAGvrkxdb6jBvCX3lrJZdExZxeTAGMAQxZqZl5RfkcCaMWNuO3vB4rCKGx92sjUwngnqYuTiEBLYyCjxb3MHaxcjJ5Czm1Hi58QaEJtZwFTiytdGFghbUeLCvQYgm4ODTUBV4kyXEUhYRMBZ4uvWs2CtwgLJEj2P57NDxDMk+jqmM0LYehK3px8Bq2EBau1b/g3M5hVwkVjQeROsnlFATOL7qTVMEKvEJW49mQ9mSwgISCzZc54ZwlaS6L39DiruJzH/1wlmiDmCEidnPmGBiJtJ7H2wBKpGT+LQlOlQvYESCz5+YgM5XwLoravvgyHCthJ7Zkxkggg7S8y7UQ8RtpG41r8DqlNbYvurfawQto7EpmuroDbJS/y/dx/KdpI4cgImriQxY+YKKNtf4tHR1VBzyiQ6nu5iBoW4hMBcRomtE2axTWBUmYUU0LOQAnoWUkjMQvLlAkaWVYyiTkGOnj4+rnrJyXrlRtl6ZSV6qSmlmxghaYBjB+Pyb86HGCU5mJREeRfU9IYK8SXlp1RmJBZnxBeV5qQWH2KU4OBREuF9BJLjLS5IzC3OTIdJyXBwKEnwHgRJCRalpqdWpGXmlKQWQaRPMSpKifMuAkkKgPRllObB5WBJ8BKjrJQwbzRIDU9BalFuZgmq/C1GDiko8xWjOAejkjDvX7DizLwSuDteAZ3IBHTi2/gukBNLEhFSUg2MWTadEg9PmSdsz/64S/xk5ZfKhTM12jebzRCMFvjs65769cyp9XuaZP2aT4aJ+iRsqpz3v7Y05wOLcMrV8qV/bERU1mqJqxjdP/FH5NqhJZL/tz1Ny/Bb5epwJfRAk5FC6YP+/o1vt/Wwa4SYdnSwcv88+/XIwreh4d8muRuHHnd+M5/fW2y/EktxRqKhFnNRcSIA5jnIxH4DAAA=
+Content-Type: multipart/alternative; boundary="_000_b97d003b9b6f431ca6e0b028a298c648MARCONIccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-1.4 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+Precedence: list
+Message-ID:  <b97d003b9b6f431ca6e0b028a298c648@MARCONI.cc.w2k.vt.edu>
+Date:         Fri, 26 Jun 2015 16:30:19 +0000
+Reply-To: "Neel, Donald" <dneel83@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Neel, Donald" <dneel83@vt.edu>
+Subject: MSDS and Facilities Maintenance Request Sites have Moved -- Please Update your Bookmarks
+To: CHEM_GRAD@LISTSERV.VT.EDU
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_b97d003b9b6f431ca6e0b028a298c648MARCONIccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+Greetings all,
+The MSDS and Facilities Maintenance Request sites have moved:
+
+The MSDS site is now located at: http://www.chem.vt.edu/chem-dept/msds
+
+The Facilities Maintenance Request is now located at: http://www.chem.vt.ed=
+u/chem-dept/maint
+
+Please update your bookmarks and any links on your documentation, syllabi, =
+group websites, etc.
+
+Note that both still require VT PID credentials to login.
+
+The entire old www.files.chem.vt.edu subdomain has had all of its contents =
+moved elsewhere and has been shut down.  If you see "files." Anywhere in a =
+Chemistry link, it is outdated and you can contact me for the new URL.
+
+Donnie
+
+
+
+
+--_000_b97d003b9b6f431ca6e0b028a298c648MARCONIccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body bgcolor=3D"#F3F1ED" lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72"=
+>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.1in;ma=
+rgin-bottom:0in;margin-left:.1in;margin-bottom:.0001pt;line-height:150%">
+<span style=3D"font-size:20.0pt;line-height:150%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">Greetings all,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">The MSDS and Facilities Maintenance Req=
+uest sites have moved:
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">The MSDS site is now located at:
+<a href=3D"http://www.chem.vt.edu/chem-dept/msds">http://www.chem.vt.edu/ch=
+em-dept/msds</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">The Facilities Maintenance Request is n=
+ow located at:
+<a href=3D"http://www.chem.vt.edu/chem-dept/maint">http://www.chem.vt.edu/c=
+hem-dept/maint</a></span><span style=3D"font-size:13.0pt;line-height:115%;f=
+ont-family:&quot;Calibri Light&quot;,sans-serif;color:black"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">Please update your bookmarks and any li=
+nks on your documentation, syllabi, group websites, etc.<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">Note that both still require VT PID cre=
+dentials to login.&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.3in;ma=
+rgin-bottom:0in;margin-left:.3in;margin-bottom:.0001pt;line-height:115%">
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">The entire old www.files.chem.vt.edu su=
+bdomain has had all of its contents moved elsewhere and has been shut down.=
+&nbsp; If you see &#8220;files.&#8221; Anywhere in a Chemistry
+ link, it is outdated and you can contact me for the new URL.&nbsp; </span>=
+<span style=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.1in;ma=
+rgin-bottom:0in;margin-left:.1in;margin-bottom:.0001pt;line-height:175%">
+<span style=3D"font-size:12.0pt;line-height:175%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.1in;ma=
+rgin-bottom:0in;margin-left:.1in;margin-bottom:.0001pt;line-height:150%">
+<span style=3D"font-size:15.0pt;line-height:150%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black">Donnie<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0in;margin-right:.1in;ma=
+rgin-bottom:0in;margin-left:.1in;margin-bottom:.0001pt;line-height:150%">
+<span style=3D"font-size:14.0pt;line-height:150%;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-right:.1in;line-height:150%"><span s=
+tyle=3D"font-size:14.0pt;line-height:150%;font-family:&quot;Calibri Light&q=
+uot;,sans-serif;color:black"><br>
+<br>
+<o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_b97d003b9b6f431ca6e0b028a298c648MARCONIccw2kvtedu_--

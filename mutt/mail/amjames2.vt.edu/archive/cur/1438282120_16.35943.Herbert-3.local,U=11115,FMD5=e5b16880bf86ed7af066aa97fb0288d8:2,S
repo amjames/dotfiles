@@ -1,0 +1,110 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp612624qgt;
+        Mon, 22 Jun 2015 06:03:20 -0700 (PDT)
+X-Received: by 10.140.218.5 with SMTP id o5mr39496233qhb.13.1434978200300;
+        Mon, 22 Jun 2015 06:03:20 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 194si18955225qhw.1.2015.06.22.06.03.20
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 06:03:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MD3Ea4012245
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 09:03:19 -0400
+Date: Mon, 22 Jun 2015 06:03:14 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1434978194;
+	bh=Qhn9lugREen0cEk8VCu2YL1ZFnixCwSmBxrdCRpoO5A=;
+	h=From:Reply-To:To:Subject:List-ID:List-Archive:List-Post:
+	 List-Unsubscribe:From;
+	b=I/bRk/g+nBKnxala9NkpUMB1BqpEB2U5gX7CzI50Q+zhjua7phSiMgO09G8QUOz6S
+	 GUg4j2mrmcZB2CiC365JwaQmZSVJ2w7nM11A1DaAVBRZrpvh2oKQhgTmvMkITAc3wy
+	 sK/MPII6L5zRO4y8YyFCI8v4d51WXd3UqrL9nN1U=
+From: Ugur Bozkaya <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642bbe8ab88f17008219c3eb2f0d088f6f8ba2ce42192cf00000001119fc99292a169ce055eb413@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/97@github.com>
+Subject: [psi4] driver.py yields an error (#97)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55880792385fd_32ef3f9bc37712a031993fd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: bozkaya
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642bbe8ab88f17008219c3eb2f0d088f6f8ba2ce42192cf00000001119fc99292a169ce055eb413@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642bbe8ab88f17008219c3eb2f0d088f6f8ba2ce42192cf00000001119fc99292a169ce055eb413@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qg3tbSW_shI17RpMCkAlUUbcTSn9ks5oV_8SgaJpZM4FI5Ri>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55880792385fd_32ef3f9bc37712a031993fd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+When I try to run psi4 I got the following error:
+
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "/Users/ugur/psi4/lib/python/aliases.py", line 38, in <module>
+    from wrappers import *
+  File "/Users/ugur/psi4/lib/python/wrappers.py", line 38, in <module>
+    from driver import *
+  File "/Users/ugur/psi4/lib/python/driver.py", line 261
+    hooks = {k1: {k2: [] for k2 in ['pre', 'post']} for k1 in ['energy', 'optimize', 'frequency']}
+                           ^
+SyntaxError: invalid syntax
+
+@loriab 
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/97
+----==_mimepart_55880792385fd_32ef3f9bc37712a031993fd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>When I try to run psi4 I got the following error:</p>
+
+<p>Traceback (most recent call last):<br>
+  File "", line 5, in <br>
+  File "/Users/ugur/psi4/lib/python/aliases.py", line 38, in <br>
+    from wrappers import *<br>
+  File "/Users/ugur/psi4/lib/python/wrappers.py", line 38, in <br>
+    from driver import *<br>
+  File "/Users/ugur/psi4/lib/python/driver.py", line 261<br>
+    hooks = {k1: {k2: [] for k2 in ['pre', 'post']} for k1 in ['energy', 'optimize', 'frequency']}<br>
+                           ^<br>
+SyntaxError: invalid syntax</p>
+
+<p><a href="https://github.com/loriab" class="user-mention">@loriab</a> </p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/97">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QkiPJv4XyM1TEe3nn8iwWeXqLTqUks5oV_8SgaJpZM4FI5Ri.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/97"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55880792385fd_32ef3f9bc37712a031993fd--

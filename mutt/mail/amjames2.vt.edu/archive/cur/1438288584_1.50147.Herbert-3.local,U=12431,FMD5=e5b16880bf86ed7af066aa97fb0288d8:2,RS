@@ -1,0 +1,501 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp119458qgt;
+        Thu, 30 Jul 2015 13:35:19 -0700 (PDT)
+X-Received: by 10.55.43.95 with SMTP id r92mr72241567qkh.67.1438288519377;
+        Thu, 30 Jul 2015 13:35:19 -0700 (PDT)
+Return-Path: <lener@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id p71si2828815qkp.16.2015.07.30.13.35.19
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 13:35:19 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning lener@vt.edu does not designate 209.85.220.170 as permitted sender) client-ip=209.85.220.170;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning lener@vt.edu does not designate 209.85.220.170 as permitted sender) smtp.mail=lener@vt.edu
+Received: from mail-qk0-f170.google.com (mail-qk0-f170.google.com [209.85.220.170])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UKZDf2032344
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 16:35:18 -0400
+Received: by qkdg63 with SMTP id g63so22443431qkd.0
+        for <amjames2@vt.edu>; Thu, 30 Jul 2015 13:35:13 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=6dajmOX2lpMHvSqR0i6YK7zB44XeAr6Y3tzZHZ6qUqY=;
+        b=HT8oE1Hwpkd0VDZgUM3WEFVCkI5UjUzNWLVA52jIB1d36Xj4lqUQTcDQnQMC4sZLwP
+         HYttJh9zR6hEdSQuA+tG7tawjsIG9je37eppR+d1nt683xJa7WUxX5FrPRNg/Aa0muQp
+         PO9FIJp/VmK/p8RAFGTJpufUperpNFVidWaYifDENtl4KZ2ITe4FgF5sFOLYb/o9/xk9
+         KTqljeaDp42W5+32D+2eizJSD9JVpBTDPOq200r7VJ8bL6TjZ0LZ3btj1kEFo/FfSkU5
+         75lKqYdTKbN1hxPopj9A5rmbA9oVq0MtTfK+MByVpD6my+QtagzNTeQppR2QBeyAJe0J
+         xHyg==
+X-Gm-Message-State: ALoCoQkVdM0L/qnuevniYwy6BVEUbiLZUGmi8Cn52YEQxwYplo3+C7bHhODN1CKxvpBpTU29ZwqEa7Dliv4FzLZ/cvrDDupWlHyJXP/cD9ITIxCKlpb/4qZ3LjZSiU7A3ueSWB0pEaSbx7qnK2pKoBNQt5g94JU1uw==
+X-Received: by 10.55.51.149 with SMTP id z143mr1964797qkz.34.1438288513276;
+        Thu, 30 Jul 2015 13:35:13 -0700 (PDT)
+X-Received: by 10.55.51.149 with SMTP id z143mr1964778qkz.34.1438288513111;
+ Thu, 30 Jul 2015 13:35:13 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.140.29.137 with HTTP; Thu, 30 Jul 2015 13:34:33 -0700 (PDT)
+In-Reply-To: <95ACF0A6-A99D-4426-87EF-B7DE4DF4004C@vt.edu>
+References: <19926455.145.1438180313217.JavaMail.wolapp@olprodfe02>
+ <CADT4YobCtL726Eq+rUWv-j=hj8-EYS1SUTxM25EOKsCObJtprQ@mail.gmail.com> <95ACF0A6-A99D-4426-87EF-B7DE4DF4004C@vt.edu>
+From: Edward Lener <lener@vt.edu>
+Date: Thu, 30 Jul 2015 16:34:33 -0400
+Message-ID: <CADT4YoZJzMWGC2Sf9J-DaE5MYBWigPByRQDw5DoGS2_kPM9oiw@mail.gmail.com>
+Subject: Re: Recommendation for Library: International Journal of Quantum Chemistry
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11490d7ee8b044051c1da3eb
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW,T_REMOTE_IMAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11490d7ee8b044051c1da3eb
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ah, I see the problem. Our online access starts in 1996 and this article is
+from 1987.  We add more journal archives every year but don't have this one
+online yet.  We do have the original print volumes though.
+
+http://addison.vt.edu.ezproxy.lib.vt.edu/record=3Db2990960~S1
+Click the green request icon
+Log in with your name and Hokie Id card number
+select the volume needed (#32)
+It will be brought back to the circulation desk in Newman
+
+On Thu, Jul 30, 2015 at 11:30 AM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> Hi,
+>
+>
+> I am hitting a pay-wall when I try to download the article after followin=
+g
+> that link to the one I need.
+>
+> http://onlinelibrary.wiley.com/doi/10.1002/qua.560320752/abstract
+>
+> I am on campus and there is even a little VT Library logo in the corner o=
+f
+> the screen but they want me to pay for the pdf.
+>
+> Thanks!
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+> On Jul 30, 2015, at 9:12 AM, Edward Lener <lener@vt.edu> wrote:
+>
+> We already have access to this journal on the Wiley platform.  It should
+> come up as the first link here:
+>
+> http://su8bj7jh4j.search.serialssolutions.com/?V=3D1.0&N=3D100&L=3DSU8BJ7=
+JH4J&SS_searchTypeJournal=3Dyes&S=3DAC_T_B&C=3Dinternational+journal+of+qua=
+ntum+chemistry
+>
+> On Wed, Jul 29, 2015 at 10:31 AM, <amjames2@vt.edu> wrote:
+>
+>> [image: Site logo] <http://onlinelibrary.wiley.com/> Dear Librarian,
+>>
+>> The sender of this email Andrew James (amjames2@vt.edu
+>> <//amjames2@vt.edu>) would like to recommend that your library purchase
+>> the following publication:
+>> [image: Cover image for Vol. 115 Issue 18]
+>>
+>> International Journal of Quantum Chemistry
+>>
+>> Online ISSN: 1097-461X
+>>
+>> Associated Title(s): Journal of Computational Chemistry
+>> <http://doi/10.1002/(ISSN)1096-987X/home>
+>>
+>> =C2=A9 Wiley Periodicals, Inc.
+>> They have provided the following reason for their recommendation:
+>>
+>>    - I will refer to this publication(s) frequently for new research
+>>    articles related to my work.
+>>    - My assessment of this publication's content and direction is very
+>>    high. Its acquisition will add to the library's success in fulfilling
+>>    department, faculty and student needs.
+>>
+>> More information about this title, including pricing, is available on th=
+e Wiley
+>> Online Library
+>> <http://ordering.onlinelibrary.wiley.com/subs.asp?ref=3D1097-461X&doi=3D=
+10.1002/(ISSN)1097-461X>
+>> website. If you would like more information about licensing online
+>> access to journals, books or reference works from Wiley-Blackwell, pleas=
+e
+>> visit: Resources For Librarians
+>> <http://olabout.wiley.com/WileyCDA/Section/id-404513.html> *Wiley Online
+>> Library Bookstore* As an account administrator for your institution or
+>> library, you can now easily add this title to your institutions account,=
+ by
+>> visiting the Wiley Online Library Bookstore. The Bookstore caters to
+>> orders for online books, e-MRWs and journal backfiles on Wiley Online
+>> Library via perpetual access. Designed to handle orders that your
+>> institution needs quickly - the new online bookstore can handle your
+>> institution's needs simply and efficiently. Why not get started today - =
+simply
+>> click the Bookstore link <https://wolbookstore.wiley.com/> here and
+>> log-in to your account using your administrator details. This email has
+>> been sent to you by the following individual via the Wiley Online Librar=
+y
+>> website: Name: Andrew James Position: Employee Department: Chemistry
+>> Institution: Virgina Tech Email: amjames2@vt.edu <//amjames2@vt.edu> Lib=
+rarian
+>> Details: Name: Ed. Lerner Email: lener@vt.edu <//lener@vt.edu>
+>> Country/Location: UNITED STATES Kind Regards,
+>> John Wiley & Sons, Inc This message was sent via the Wiley Online
+>> Library recommendation function by Andrew James (amjames2@vt.edu
+>> <//amjames2@vt.edu>) and does not necessarily reflect the views or
+>> position of John Wiley & Sons.
+>>
+>
+>
+>
+
+--001a11490d7ee8b044051c1da3eb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Ah, I see the problem. Our online access starts in 1996 an=
+d this article is from 1987.=C2=A0 We add more journal archives every year =
+but don&#39;t have this one online yet.=C2=A0 We do have the original print=
+ volumes though.<div><br></div><div><a href=3D"http://addison.vt.edu.ezprox=
+y.lib.vt.edu/record=3Db2990960~S1">http://addison.vt.edu.ezproxy.lib.vt.edu=
+/record=3Db2990960~S1</a><br></div><div>Click the green request icon</div><=
+div>Log in with your name and Hokie Id card number</div><div>select the vol=
+ume needed (#32)</div><div>It will be brought back to the circulation desk =
+in Newman</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quo=
+te">On Thu, Jul 30, 2015 at 11:30 AM, Andrew M. James <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&g=
+t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:=
+break-word">Hi,=C2=A0<div>=C2=A0</div><div><br></div><div>I am hitting a pa=
+y-wall when I try to download the article after following that link to the =
+one I need. =C2=A0</div><div><br></div><div><a href=3D"http://onlinelibrary=
+.wiley.com/doi/10.1002/qua.560320752/abstract" target=3D"_blank">http://onl=
+inelibrary.wiley.com/doi/10.1002/qua.560320752/abstract</a></div><div><br><=
+/div><div>I am on campus and there is even a little VT Library logo in the =
+corner of the screen but they want me to pay for the pdf.</div><div><br></d=
+iv><div>Thanks!</div><div><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br><div><blockquote type=3D"cite"><div>On Jul 30, 2015, at 9:12 AM, Edward=
+ Lener &lt;<a href=3D"mailto:lener@vt.edu" target=3D"_blank">lener@vt.edu</=
+a>&gt; wrote:</div><br><div><div dir=3D"ltr">We already have access to this=
+ journal on the Wiley platform.=C2=A0 It should come up as the first link h=
+ere:<div><a href=3D"http://su8bj7jh4j.search.serialssolutions.com/?V=3D1.0&=
+amp;N=3D100&amp;L=3DSU8BJ7JH4J&amp;SS_searchTypeJournal=3Dyes&amp;S=3DAC_T_=
+B&amp;C=3Dinternational+journal+of+quantum+chemistry" target=3D"_blank">htt=
+p://su8bj7jh4j.search.serialssolutions.com/?V=3D1.0&amp;N=3D100&amp;L=3DSU8=
+BJ7JH4J&amp;SS_searchTypeJournal=3Dyes&amp;S=3DAC_T_B&amp;C=3Dinternational=
++journal+of+quantum+chemistry</a><br></div></div><div class=3D"gmail_extra"=
+><br><div class=3D"gmail_quote">On Wed, Jul 29, 2015 at 10:31 AM,  <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2=
+@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D=
+"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><u></u>
+
+   =20
+       =20
+       =20
+
+
+       =20
+
+   =20
+
+    <div>
+        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D=
+"0" style=3D"font-family:Arial;text-align:left;color:#5d5d5d">
+            <tbody>
+                <tr>
+                    <td align=3D"center">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"700px" border=3D"0">
+                            <tbody>
+                                <tr>
+                                    <td>
+
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" border=3D"0">
+                                            <tbody><tr>
+                                                <td style=3D"padding-bottom=
+:8px;text-align:left;font-family:Arial">
+                                                <a href=3D"http://onlinelib=
+rary.wiley.com/" title=3D"Link to Online Library" target=3D"_blank">
+                                                    <img alt=3D"Site logo" =
+style=3D"border:none">
+                                                </a>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" border=3D"0">
+                                            <tbody><tr>
+                                                <td style=3D"padding-bottom=
+:8px;font-size:12px;text-align:left;font-family:Arial">
+                                                    Dear Librarian,
+                                                    <br><br>
+                                                    The sender of this emai=
+l Andrew James (<a style=3D"color:#007e8b" href=3D"mailto://amjames2@vt.edu=
+" target=3D"_blank">amjames2@vt.edu</a>) would like to recommend that your =
+library purchase the following publication:
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+
+                                       =20
+                                        <div><table cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" border=3D"0" style=3D"padding-bottom:8px"><tbod=
+y><tr><td width=3D"110px" valign=3D"top" style=3D"padding-right:10px"><img =
+alt=3D"Cover image for Vol. 115 Issue 18" title=3D"Cover image for Vol. 115=
+ Issue 18"></td><td width=3D"100%" valign=3D"top" style=3D"text-align:left;=
+font-family:Arial;font-size:12px"><div><br></div><h1 style=3D"color:#5d5d5d=
+;font-size:15px;font-weight:bold;margin:1px;padding:0">International Journa=
+l of Quantum Chemistry</h1><div><br></div>Online ISSN: 1097-461X<p>Associat=
+ed Title(s): <a href=3D"http://doi/10.1002/(ISSN)1096-987X/home" target=3D"=
+_blank">Journal of Computational Chemistry</a></p><p>=C2=A9 Wiley Periodica=
+ls, Inc.</p></td></tr></tbody></table></div>
+
+                                       =20
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" border=3D"0" style=3D"padding-bottom:8px">
+                                            <tbody>
+                                                <tr>
+                                                    <td style=3D"padding-bo=
+ttom:8px;font-size:12px;text-align:left;font-family:Arial">
+                                                       They have provided t=
+he following reason for their recommendation:
+                                                       <br>
+                                                       <ul>
+                                                         <li style=3D"font-=
+family:Arial">
+                                                            I will refer to=
+ this publication(s) frequently for new research articles related to my wor=
+k.
+                                                         </li>
+                                                         <li style=3D"font-=
+family:Arial">
+                                                            My assessment o=
+f this publication&#39;s content and direction is very high. Its acquisitio=
+n will add to the library&#39;s success in fulfilling department, faculty a=
+nd student needs.
+                                                         </li>
+                                                       </ul>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                       More information abo=
+ut this title, including pricing, is available on the <a style=3D"color:#00=
+7e8b" href=3D"http://ordering.onlinelibrary.wiley.com/subs.asp?ref=3D1097-4=
+61X&amp;doi=3D10.1002/(ISSN)1097-461X" target=3D"_blank">Wiley Online Libra=
+ry</a> website.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                       If you would like mo=
+re information about licensing online access to journals, books or referenc=
+e works from Wiley-Blackwell, please visit: <a style=3D"color:#007e8b" href=
+=3D"http://olabout.wiley.com/WileyCDA/Section/id-404513.html" target=3D"_bl=
+ank">Resources For Librarians</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                        <b>Wiley Online Lib=
+rary Bookstore</b>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                        As an account admin=
+istrator for your institution or library, you can now easily add this title=
+ to your institutions account, by visiting the Wiley Online Library Booksto=
+re.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                        The Bookstore cater=
+s to orders for online books, e-MRWs and journal backfiles on Wiley Online =
+Library via perpetual access. Designed to handle orders that your instituti=
+on needs quickly - the new online bookstore can handle your institution&#39=
+;s needs simply and efficiently.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                        Why not get started=
+ today - <a style=3D"color:#007e8b" href=3D"https://wolbookstore.wiley.com/=
+" target=3D"_blank">simply click the Bookstore link</a> here and log-in to =
+your account using your administrator details.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                       This email has been =
+sent to you by the following individual via the Wiley Online Library websit=
+e:
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"padding-bo=
+ttom:10px">
+                                                       <table cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0" style=3D"padding-botto=
+m:8px">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Name:</td=
+>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">Andrew James</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Position:=
+</td>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">Employee</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Departmen=
+t:</td>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">Chemistry</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Instituti=
+on:</td>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">Virgina Tech</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Email:</t=
+d>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px"><a style=3D"color:#=
+007e8b" href=3D"mailto://amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu=
+</a></td>
+                                                                </tr>
+                                                            </tbody>
+                                                       </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;text-align:left;font-family:Arial">
+                                                       Librarian Details:
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+12px;padding-bottom:10px;font-family:Arial">
+                                                       <table cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0" style=3D"padding-botto=
+m:8px">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Name:</td=
+>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">Ed. Lerner</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Email:</t=
+d>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px"><a style=3D"color:#=
+007e8b" href=3D"mailto://lener@vt.edu" target=3D"_blank">lener@vt.edu</a></=
+td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td sty=
+le=3D"width:15%;text-align:left;font-family:Arial;font-size:12px">Country/L=
+ocation:</td>
+                                                                    <td sty=
+le=3D"text-align:left;font-family:Arial;font-size:12px">UNITED STATES </td>
+                                                                </tr>
+                                                            </tbody>
+                                                       </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=3D"text-align=
+:left;font-family:Arial;font-size:12px">
+                                                       Kind Regards,
+                                                       <br>
+                                                        John Wiley &amp; So=
+ns, Inc
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" border=3D"0" style=3D"border-top:2px solid #e1e9eb;p=
+adding-top:8px;padding-bottom:8px">
+                                            <tbody>
+                                                <tr>
+                                                    <td style=3D"font-size:=
+11px;text-align:left;font-family:Arial">
+                                                        This message was se=
+nt via the Wiley Online Library recommendation function by Andrew James (<a=
+ style=3D"color:#007e8b" href=3D"mailto://amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>) and does not necessarily reflect the views or positi=
+on of John Wiley &amp; Sons.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></blockquote></div><br></div>
+
+--001a11490d7ee8b044051c1da3eb--

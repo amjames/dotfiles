@@ -1,0 +1,123 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp742414qgt;
+        Thu, 4 Jun 2015 10:36:57 -0700 (PDT)
+X-Received: by 10.55.41.17 with SMTP id p17mr72668991qkh.86.1433439417063;
+        Thu, 04 Jun 2015 10:36:57 -0700 (PDT)
+Return-Path: <awalker@chem.wayne.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 32si4764355qkt.128.2015.06.04.10.36.56
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Jun 2015 10:36:56 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of awalker@chem.wayne.edu designates 141.217.26.2 as permitted sender) client-ip=141.217.26.2;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of awalker@chem.wayne.edu designates 141.217.26.2 as permitted sender) smtp.mail=awalker@chem.wayne.edu
+Received: from gordon.chem.wayne.edu (gordon.chem.wayne.edu [141.217.26.2])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t54HapV3015595
+	for <amjames2@vt.edu>; Thu, 4 Jun 2015 13:36:56 -0400
+Received: from chem.wayne.edu ([192.168.0.2] helo=gordon.chem.wayne.edu)
+	by gordon.chem.wayne.edu with esmtp (Exim 4.71)
+	(envelope-from <awalker@chem.wayne.edu>)
+	id 1Z0Z1Z-0004hF-Oh
+	for amjames2@vt.edu; Thu, 04 Jun 2015 13:33:49 -0400
+Received: from c-68-32-14-141.hsd1.mi.comcast.net
+ (c-68-32-14-141.hsd1.mi.comcast.net [68.32.14.141]) by chem.wayne.edu
+ (Horde Framework) with HTTP; Thu, 04 Jun 2015 13:33:49 -0400
+Message-ID: <20150604133349.19585ps0niehisxp@chem.wayne.edu>
+Date: Thu, 04 Jun 2015 13:33:49 -0400
+From: awalker@chem.wayne.edu
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Software summer school travel arrangements
+References: <0D47935B-DAAC-43C0-B5C5-07ADF7EF3F7C@vt.edu>
+ <20150603202530.13236f7v0cpozq4a@chem.wayne.edu>
+ <4EBA313F-1A1B-4887-8B2A-A68081BE4F48@vt.edu>
+In-Reply-To: <4EBA313F-1A1B-4887-8B2A-A68081BE4F48@vt.edu>
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.3.7)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Oh of course! Sorry for not thinking of it.
+
+We are arriving June 21 and departing July 2.
+
+Quoting Andrew James <amjames2@vt.edu>:
+
+> Dear Alice,
+>
+> Thanks for your itinerary! Could you just let me know your arrival  
+> and departure dates?
+>
+> Thanks,
+> Andrew M James
+> Summer School Coordinator
+>
+>> On Jun 3, 2015, at 8:25 PM, awalker@chem.wayne.edu wrote:
+>>
+>> Hello,
+>>
+>> Both Yi-Jung Tu and I will be on the same flights. They are:
+>>
+>> Arriving:
+>> Delta Flight 2607
+>> Scheduled arrival time: 11:41 pm
+>>
+>> Departing:
+>> Delta Flight 5143
+>> Scheduled departure time: 11:00 am
+>>
+>> Thank you very much, we're very excited about the opportunity!
+>>
+>> -Alice
+>>
+>> Quoting Andrew James <amjames2@vt.edu>:
+>>
+>>> Dear Alice,
+>>>
+>>> We are happy to announce that your application to the 2015  
+>>> Software-Development Summer School for Computational Chemistry,  
+>>> Biomolecular Simulation, and Materials Modeling has been accepted!
+>>>
+>>> The next step is to secure your place in the program by going to  
+>>> this webpage to formally register. http://www.cpe.vt.edu/reg/sss/  
+>>> <http://www.cpe.vt.edu/reg/sss/>
+>>> The registration page mentions credit cards, so I want to remind  
+>>> you that there is no charge for participating in the Summer  
+>>> School. Clicking register will bring you to a page showing a total  
+>>> of $0.00 for registration.
+>>>
+>>> When you have made your travel arrangements I ask that you please  
+>>> send me an email (amjames2@vt.edu <mailto:amjames2@vt.edu>).
+>>> If you will be flying I will need to know the flight number,  
+>>> airline and the scheduled arrival/departure time of your arriving  
+>>> and departing flights.  We will use this information to arrange  
+>>> transportation to and from Roanoke airport.
+>>>
+>>> If you are driving to campus I will need to get you a temporary  
+>>> parking permit, and give you instructions on where you can park.
+>>>
+>>> If you have any questions please do not hesitate to contact me.  
+>>> Looking forward to meeting you in June!
+>>>
+>>> Sincerely,
+>>> Andrew M. James
+>>> Summer School Coordinator
+>>
+>>
+>>
+>
+>
+
+
+

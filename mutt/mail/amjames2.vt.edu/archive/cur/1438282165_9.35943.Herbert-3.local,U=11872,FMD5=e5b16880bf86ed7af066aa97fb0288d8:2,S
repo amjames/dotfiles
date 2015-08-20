@@ -1,0 +1,179 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2096045qgt;
+        Mon, 6 Jul 2015 20:38:44 -0700 (PDT)
+X-Received: by 10.140.33.21 with SMTP id i21mr3592427qgi.4.1436240324806;
+        Mon, 06 Jul 2015 20:38:44 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 70si23443469qgf.38.2015.07.06.20.38.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 06 Jul 2015 20:38:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.178 as permitted sender) client-ip=209.85.223.178;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.178 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f178.google.com (mail-ie0-f178.google.com [209.85.223.178])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t673ccJT030330
+	for <amjames2@vt.edu>; Mon, 6 Jul 2015 23:38:44 -0400
+Received: by ieqy10 with SMTP id y10so126762578ieq.0
+        for <amjames2@vt.edu>; Mon, 06 Jul 2015 20:38:38 -0700 (PDT)
+X-Received: by 10.107.10.17 with SMTP id u17mr3176431ioi.16.1436239927433;
+        Mon, 06 Jul 2015 20:32:07 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp2006591iee;
+        Mon, 6 Jul 2015 20:32:06 -0700 (PDT)
+X-Received: by 10.140.232.6 with SMTP id d6mr3780510qhc.19.1436239926485;
+        Mon, 06 Jul 2015 20:32:06 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id r93si23447793qgr.8.2015.07.06.20.32.05
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 06 Jul 2015 20:32:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t673W5bf031931
+	for <andrew.m.james2@gmail.com>; Mon, 6 Jul 2015 23:32:05 -0400
+Received: from mail-ie0-f172.google.com (mail-ie0-f172.google.com [209.85.223.172])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t673W0qM018260
+	for <andrew.m.james2@gmail.com>; Mon, 6 Jul 2015 23:32:05 -0400
+Received: by iebmu5 with SMTP id mu5so126100890ieb.1
+        for <andrew.m.james2@gmail.com>; Mon, 06 Jul 2015 20:32:00 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=c6R4xB1mbHo+Ct3O96NPUleo+QHn4hSIRn0RnDNljAs=;
+        b=UDhPjakBAaf6PzHLrSWCh/12sDO/yMyFDkSatmH6jCC+YFmNZYJPTY4ORebL9WV6de
+         IaEz/X0Y9qktN+MXk8Udr2UUE7cAKeVYJxV+roAQLvHdQaKtQkomUNvDCknm7VjhvryX
+         RkNkZYSct4VhW0EJ/FkBuFuj3FwtEFDerkRSL85LIS46yOrGE9S2eWpl1pnq+w2SDfPJ
+         7FXvMaRSXezKX7QCqVJTYYpxCDI0unCP3bPgxNCaRcDT/KcKm+dHvOFo2Uy6K0auFDOU
+         I02k9VqkIWF16gaEuYEn7Ce4AkkYcRMCUxe2XTdUJAB35Jgd67AS5C1moIy2z72ptONG
+         pvBg==
+X-Gm-Message-State: ALoCoQkksyfexDUg5vfiL33fL+5sa3sqes1NKGHw441mwb+zs8lBNVZKUjuZZkyBHOSqcVno675gyTDfPBDEEq6syW9lM+azCrbvQ3WPVISOl3xSEAA5aJe8KMXuXevxcH6+YmynlrcJQsEDoVUOaSpJFigp/Jgnuw==
+X-Received: by 10.42.120.201 with SMTP id g9mr18328545icr.23.1436239920034;
+        Mon, 06 Jul 2015 20:32:00 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.120.201 with SMTP id g9mr18328538icr.23.1436239919918;
+ Mon, 06 Jul 2015 20:31:59 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Mon, 6 Jul 2015 20:31:59 -0700 (PDT)
+In-Reply-To: <CAKwnH+0fNG6Qhv0+xOd3rtcd=T3yGZe6VU3mUfKa5uMqUU34jQ@mail.gmail.com>
+References: <CAKwnH+0fNG6Qhv0+xOd3rtcd=T3yGZe6VU3mUfKa5uMqUU34jQ@mail.gmail.com>
+Date: Mon, 6 Jul 2015 23:31:59 -0400
+Message-ID: <CAH0V_1YSPhB+n-tbMFiDHdyQuvFneoT8-YygSreuTK+i+7p2YQ@mail.gmail.com>
+Subject: Fwd: Psi4 fixes July 13-24 followed by next release
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Ashutosh Kumar <akumar1@vt.edu>, Harley McAlexander <harleymc@vt.edu>,
+        Andrew James <andrew.m.james2@gmail.com>, Javier Cerezo <jcb1@um.es>
+Content-Type: multipart/alternative; boundary=f46d041037713d495a051a40aae5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d041037713d495a051a40aae5
+Content-Type: text/plain; charset=UTF-8
+
+FYI, guys.
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: David Sherrill <prof.david.sherrill@gmail.com>
+Date: Mon, Jul 6, 2015 at 10:56 PM
+Subject: Psi4 fixes July 13-24 followed by next release
+To: Justin Turney <justin.turney@gmail.com>, Francesco Evangelista <
+francesco.evangelista@emory.edu>, "T. Daniel Crawford" <crawdad@vt.edu>,
+Daniel Smith <dsmith2447@gmail.com>, Andy Simmonett <
+andy.simmonett@gmail.com>, Ugur Bozkaya <ugrbzky@gmail.com>, Rollin King <
+rking@bethel.edu>, Eugene DePrince <deprince@chem.fsu.edu>, Ed Hohenstein <
+ehohenstein@ccny.cuny.edu>, Rob Parrish <robparrish@gmail.com>, Group <
+chem-dsgroup@lists.gatech.edu>
+
+
+Hi all,
+
+   There is general agreement with the plan of doing minor fixes and
+upgrades to Psi4 during the July 13-24 timeframe (a bit later if
+necessary) followed by the next release, which will be the 4.0 release
+(no more beta tags).
+
+   I have to travel July 22-24, so I'm hoping any coordinated efforts
+can be done next week.  Could we have an in-person meeting next week
+for the Georgia folks (other interested parties can join by Google
+Hangouts) to make some plans and discuss who is going to do what?
+Monday is pretty busy for me, but Tues-Fri would be fine.
+
+   Primarily, I am hoping we can fix failing test cases (I think it's
+down to about 6-8 of the 200-some-odd test cases), add in some
+nearly-completed work, and make sure the documentation is up to date.
+
+Best regards,
+David
+
+P.S. Thanks to everyone who has already been working the past week or
+two on some bugs, documentation upgrades, etc!  The github feed has
+been pretty busy.
+
+--f46d041037713d495a051a40aae5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">FYI, guys. =C2=A0<br clear=3D"all"><div><div class=3D"gmai=
+l_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></=
+div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">David Sherrill</b> <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:prof.david.sherrill@gmail.com">prof.david.sherrill@gmail=
+.com</a>&gt;</span><br>Date: Mon, Jul 6, 2015 at 10:56 PM<br>Subject: Psi4 =
+fixes July 13-24 followed by next release<br>To: Justin Turney &lt;<a href=
+=3D"mailto:justin.turney@gmail.com">justin.turney@gmail.com</a>&gt;, France=
+sco Evangelista &lt;<a href=3D"mailto:francesco.evangelista@emory.edu">fran=
+cesco.evangelista@emory.edu</a>&gt;, &quot;T. Daniel Crawford&quot; &lt;<a =
+href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a>&gt;, Daniel Smith &lt;<a =
+href=3D"mailto:dsmith2447@gmail.com">dsmith2447@gmail.com</a>&gt;, Andy Sim=
+monett &lt;<a href=3D"mailto:andy.simmonett@gmail.com">andy.simmonett@gmail=
+.com</a>&gt;, Ugur Bozkaya &lt;<a href=3D"mailto:ugrbzky@gmail.com">ugrbzky=
+@gmail.com</a>&gt;, Rollin King &lt;<a href=3D"mailto:rking@bethel.edu">rki=
+ng@bethel.edu</a>&gt;, Eugene DePrince &lt;<a href=3D"mailto:deprince@chem.=
+fsu.edu">deprince@chem.fsu.edu</a>&gt;, Ed Hohenstein &lt;<a href=3D"mailto=
+:ehohenstein@ccny.cuny.edu">ehohenstein@ccny.cuny.edu</a>&gt;, Rob Parrish =
+&lt;<a href=3D"mailto:robparrish@gmail.com">robparrish@gmail.com</a>&gt;, G=
+roup &lt;<a href=3D"mailto:chem-dsgroup@lists.gatech.edu">chem-dsgroup@list=
+s.gatech.edu</a>&gt;<br><br><br>Hi all,<br>
+<br>
+=C2=A0 =C2=A0There is general agreement with the plan of doing minor fixes =
+and<br>
+upgrades to Psi4 during the July 13-24 timeframe (a bit later if<br>
+necessary) followed by the next release, which will be the 4.0 release<br>
+(no more beta tags).<br>
+<br>
+=C2=A0 =C2=A0I have to travel July 22-24, so I&#39;m hoping any coordinated=
+ efforts<br>
+can be done next week.=C2=A0 Could we have an in-person meeting next week<b=
+r>
+for the Georgia folks (other interested parties can join by Google<br>
+Hangouts) to make some plans and discuss who is going to do what?<br>
+Monday is pretty busy for me, but Tues-Fri would be fine.<br>
+<br>
+=C2=A0 =C2=A0Primarily, I am hoping we can fix failing test cases (I think =
+it&#39;s<br>
+down to about 6-8 of the 200-some-odd test cases), add in some<br>
+nearly-completed work, and make sure the documentation is up to date.<br>
+<br>
+Best regards,<br>
+David<br>
+<br>
+P.S. Thanks to everyone who has already been working the past week or<br>
+two on some bugs, documentation upgrades, etc!=C2=A0 The github feed has<br=
+>
+been pretty busy.<br>
+</div><br></div>
+
+--f46d041037713d495a051a40aae5--

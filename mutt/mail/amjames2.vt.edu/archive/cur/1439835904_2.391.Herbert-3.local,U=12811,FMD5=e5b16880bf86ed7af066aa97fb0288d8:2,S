@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1634800qgt;
+        Fri, 14 Aug 2015 08:36:50 -0700 (PDT)
+X-Received: by 10.170.158.87 with SMTP id z84mr45502598ykc.30.1439566610466;
+        Fri, 14 Aug 2015 08:36:50 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 19si10016074qgf.106.2015.08.14.08.36.50
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:36:50 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7EFahRH010690
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 11:36:49 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=yWLmxUjKDYWpp3HRnwX8DSuRbCw=; b=Zz2AQDZhfZzbDKQX
+	s0mNCWTXIz+uZ6vTFnw5eMw2o9zkCMGP5CClEAlNR81SsO4g5ljJH9sVgmlAC9hs
+	o/rAtkr9Gu8OjLhxxQ/dwDHJUYXgJDuOoPDnAuopdcAjL3HnCBHQTi9C0YK+KD6O
+	cyfnnUpDRAFocn9NwVbcdMv64S4=
+Received: by filter0537p1mdw1.sendgrid.net with SMTP id filter0537p1mdw1.17848.55CE0B0931
+        2015-08-14 15:36:41.803601483 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd0004p1iad1.sendgrid.net (SG) with ESMTP id eM4LNZtZQeqERldpWQNMTg
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 15:36:41 +0000 (UTC)
+Date: Fri, 14 Aug 2015 08:36:36 -0700
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f64285a12760cde3e643c7fccb0cf449d501f288471b92cf0000000111e5cd0492a169ce0603ca40@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/164/c131152671@github.com>
+In-Reply-To: <psi4/psi4public/pull/164@github.com>
+References: <psi4/psi4public/pull/164@github.com>
+Subject: Re: [psi4public] Fix CMake finding proper python (#164)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce0b0451648_52b73fe8f39d32a08071f6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f64285a12760cde3e643c7fccb0cf449d501f288471b92cf0000000111e5cd0492a169ce0603ca40@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64285a12760cde3e643c7fccb0cf449d501f288471b92cf0000000111e5cd0492a169ce0603ca40@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QuZuwJ7vGs0FggWBxrngUNYq7XoUks5ongKEgaJpZM4FrZfz>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5ImjoeWfSdRk7dgtoVEzitd2UnrfH50pNB4Owb
+ +DDZYN769fWRoSiU8w30xlry2deEuPA2RRewXHUjUxa220i74SsRNWIzDJfBgL+osOEtPvF0+LDsI7
+ 5NM3vuqKeE1rQQ4=
+X-Spam-Status: No, score=0.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ce0b0451648_52b73fe8f39d32a08071f6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I've found that in ConfigPython.cmake PYTHON_LIBRARY is being used but in the link in src/bin/psi4 PYTHON_LIBRARIES is being used. Once I made the change in src/bin/psi4 I was able to link.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/164#issuecomment-131152671
+----==_mimepart_55ce0b0451648_52b73fe8f39d32a08071f6
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I've found that in ConfigPython.cmake PYTHON_LIBRARY is being used but in the link in src/bin/psi4 PYTHON_LIBRARIES is being used. Once I made the change in src/bin/psi4 I was able to link.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/164#issuecomment-131152671">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QlIkJgXt9FJ3w3GYkZCMbd4oTQyEks5ongKEgaJpZM4FrZfz.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/pull/164#issuecomment-131152671"></link>
+  <meta itemprop="name" content="View Pull Request"></meta>
+</div>
+<meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+----==_mimepart_55ce0b0451648_52b73fe8f39d32a08071f6--

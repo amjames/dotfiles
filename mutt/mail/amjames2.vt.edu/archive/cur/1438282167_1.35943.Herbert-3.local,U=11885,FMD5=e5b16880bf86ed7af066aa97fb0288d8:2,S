@@ -1,0 +1,180 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2632940qgt;
+        Tue, 7 Jul 2015 13:21:59 -0700 (PDT)
+X-Received: by 10.140.32.38 with SMTP id g35mr9848470qgg.74.1436300519469;
+        Tue, 07 Jul 2015 13:21:59 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id r76si26284599qha.128.2015.07.07.13.21.58
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 13:21:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-chem_grad@listserv.vt.edu designates 198.82.160.12 as permitted sender) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67KLppR020861;
+	Tue, 7 Jul 2015 16:21:56 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t67K6nPR005789;
+	Tue, 7 Jul 2015 16:21:51 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100375858 for CHEM_GRAD@LISTSERV.VT.EDU; Tue, 7 Jul 2015 16:21:51
+          -0400
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b8:b328:9234]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t67KLplP008718 for
+          <CHEM_GRAD@listserv.vt.edu>; Tue, 7 Jul 2015 16:21:51 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12]
+          (may be forged)) by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t67KLjY8000487 for <CHEM_GRAD@listserv.vt.edu>; Tue, 7 Jul 2015
+          16:21:50 -0400
+Received: from BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) by
+          GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:7d91:9712:35fa:54f5) with
+          Microsoft SMTP Server (TLS) id 15.0.995.29; Tue, 7 Jul 2015 16:21:48
+          -0400
+Received: from BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109]) by
+          BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109%12]) with mapi id
+          15.00.0995.032; Tue, 7 Jul 2015 16:21:48 -0400
+Thread-Topic: Third Year Student Meeting - July 8th
+Thread-Index: AdC48ojQ7t/53h+QSP+tEX5zzMuNJA==
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.173.159.237]
+Content-Type: multipart/alternative; boundary="_000_5f685ef75acf48cea6995f63f6d25013BELLccw2kvtedu_"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.8 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+Message-ID:  <5f685ef75acf48cea6995f63f6d25013@BELL.cc.w2k.vt.edu>
+Date:         Tue, 7 Jul 2015 20:21:47 +0000
+Reply-To: "Huynh, Joli" <jolih@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Huynh, Joli" <jolih@vt.edu>
+Subject: Third Year Student Meeting - July 8th
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_5f685ef75acf48cea6995f63f6d25013BELLccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+MEETING REMINDER (originally sent 6/18/15)
+
+Hello Students
+
+Prof. John Morris would like to schedule a meeting with all rising third-ye=
+ar students for Wednesday, July 8th in 140 HHN from 2:00 - 3:00 p.m. He wil=
+l address the expectations for CHEM 6904, CHEM 6914, and additional chemist=
+ry graduate requirements, and answer any questions that you may have. While=
+ this meeting is not required, it is strongly encouraged that you will atte=
+nd.
+
+Thanks
+
+Joli Huynh
+Graduate Coordinator
+Department of Chemistry
+306 Hahn Hall North
+Mail Code 0212
+Blacksburg, VA 24061
+
+540-231-8225
+
+
+
+--_000_5f685ef75acf48cea6995f63f6d25013BELLccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">MEETING REMINDER (originally sent 6/18/15)<o:p></o:p=
+></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hello Students<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Prof. John Morris would like to schedule a meeting w=
+ith all rising third-year students for Wednesday, July 8<sup>th</sup> in 14=
+0 HHN from 2:00 &#8211; 3:00 p.m. He will address the expectations for CHEM=
+ 6904, CHEM 6914, and additional chemistry
+ graduate requirements, and answer any questions that you may have. While t=
+his meeting is not required, it is strongly encouraged that you will attend=
+.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thanks<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Joli Huynh<o:p></o:p></p>
+<p class=3D"MsoNormal">Graduate Coordinator<o:p></o:p></p>
+<p class=3D"MsoNormal">Department of Chemistry<o:p></o:p></p>
+<p class=3D"MsoNormal">306 Hahn Hall North<o:p></o:p></p>
+<p class=3D"MsoNormal">Mail Code 0212<o:p></o:p></p>
+<p class=3D"MsoNormal">Blacksburg, VA 24061<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">540-231-8225<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_5f685ef75acf48cea6995f63f6d25013BELLccw2kvtedu_--

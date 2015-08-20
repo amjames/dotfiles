@@ -1,0 +1,113 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp84844qge;
+        Fri, 27 Mar 2015 16:55:37 -0700 (PDT)
+X-Received: by 10.140.149.150 with SMTP id 144mr27924460qhv.16.1427500537168;
+        Fri, 27 Mar 2015 16:55:37 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id bk6si3476006qcb.14.2015.03.27.16.55.35
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Mar 2015 16:55:37 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.218.47;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2RNtThB017372;
+	Fri, 27 Mar 2015 19:55:34 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2RN8lPP024772;
+	Fri, 27 Mar 2015 19:55:29 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98572779 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 27 Mar 2015 19:55:29
+          -0400
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2RNtSCU030679
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015 19:55:28 -0400
+Received: from mail-oi0-f47.google.com (mail-oi0-f47.google.com
+          [209.85.218.47]) by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2RNtNJH000582 for <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015
+          19:55:28 -0400
+Received: by oifl3 with SMTP id l3so89094502oif.0 for
+          <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015 16:55:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:content-type;
+                         bh=99nl2SQfXYmRG+Fp8xow4GBXTkOFD53kaX2OYWYkiOQ=;
+                         b=QMMqO3v75s5vRmDuYM0cHHcqADC/Elt48grtlBV8tOSY/yJgMmqOQm1k5qb/u9wcSi
+                         +R9/nU03tP1zIw6nydseIxyNFqU/DPic5JICevfDXAr+KrISonvMW7UnQ1u3X3xaLQLI
+                         9hwsQNy0/91lRHY473/eDJrk29qAQN8+qGk935NHz9xEKApsaBDPSV0DGBefOZ7xNePU
+                         UcbNQoxGL09HvlcU6bK9FRreRhuQbW/6YrYccArdvzQT0o8wxtXO3Ydojw9YoEktdvFS
+                         e5tX3UXonXzGnqsDp5iYRh1ToGTHortq3zVsvz7Zj51MQSFG7RQAh1AGZ7wpd1CiJ8LO
+                         cs/Q==
+X-Gm-Message-State: ALoCoQn30fcCfAQ+L6yGQ9uRXlg64KdkWPDF8rWV9asTGA8mIWwqeQ5op8Cq72kO/L66JE3Cf4HAgGzeocYBEfznIQ4sxXKLESNIhGi9FZkX82wCltX8njhiaWIUuTriL1UTyxeY/RHJK+xMovBldVn6CbFt8b3SBA==
+X-Received: by 10.60.160.236 with SMTP id xn12mr18163889oeb.53.1427500523224;
+            Fri, 27 Mar 2015 16:55:23 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.160.236 with SMTP id xn12mr18163886oeb.53.1427500523155;
+            Fri, 27 Mar 2015 16:55:23 -0700 (PDT)
+Received: by 10.182.135.232 with HTTP; Fri, 27 Mar 2015 16:55:23 -0700 (PDT)
+References: <CA+8D1qnE9Mn9Q1bDK3yM4JJC-E7U1c2ypxoDGrDFFxMRtOt-6Q@mail.gmail.com>
+Content-Type: multipart/alternative; boundary=089e011603e4998a0f05124ddd9d
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Message-ID:  <CA+8D1qnLokSh4Su7+5n4PTx8ac94us2w60BETrXwQRC-2Mo=Ug@mail.gmail.com>
+Date:         Fri, 27 Mar 2015 19:55:23 -0400
+Reply-To: Shreya Roy Choudhury <shreyarc@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Shreya Roy Choudhury <shreyarc@vt.edu>
+Subject: Re: Acryloyl chloride
+To: CHEM_GRAD@LISTSERV.VT.EDU
+In-Reply-To:  <CA+8D1qnE9Mn9Q1bDK3yM4JJC-E7U1c2ypxoDGrDFFxMRtOt-6Q@mail.gmail.com>
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e011603e4998a0f05124ddd9d
+Content-Type: text/plain; charset=UTF-8
+
+I got it. Thanks a lot!
+
+Shreya
+
+On Fri, Mar 27, 2015 at 6:17 PM, Shreya Roy Choudhury <shreyarc@vt.edu>
+wrote:
+
+> Hello all,
+>
+> Does anyone have ~5 mL of Acryloyl chloride (preferably from a new bottle)
+> that I could use? Thank you!
+>
+> Regards,
+> Shreya
+>
+
+--089e011603e4998a0f05124ddd9d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I got it. Thanks a lot!=C2=A0</div><div class=3D"gmail_ext=
+ra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">=
+<font face=3D"arial, helvetica, sans-serif">Shreya</font></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 27, 2015 at 6:17 PM, Shreya Roy =
+Choudhury <span dir=3D"ltr">&lt;<a href=3D"mailto:shreyarc@vt.edu" target=
+=3D"_blank">shreyarc@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div dir=3D"ltr">Hello all,<div><br></div><div>Does anyone have ~5=
+ mL of Acryloyl chloride (preferably from a new bottle) that I could use? T=
+hank you!</div><div><br></div><div>Regards,<br clear=3D"all"><div><div><div=
+ dir=3D"ltr"><font face=3D"arial, helvetica, sans-serif">Shreya</font></div=
+></div></div>
+</div></div>
+</blockquote></div><br></div>
+
+--089e011603e4998a0f05124ddd9d--

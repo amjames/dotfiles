@@ -1,0 +1,126 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp24252qgt;
+        Thu, 6 Aug 2015 10:57:43 -0700 (PDT)
+X-Received: by 10.55.54.65 with SMTP id d62mr5381844qka.59.1438883863155;
+        Thu, 06 Aug 2015 10:57:43 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id a82si13259282qkh.0.2015.08.06.10.57.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 10:57:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-io0-f179.google.com (mail-io0-f179.google.com [209.85.223.179])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76HvbZ4019879
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 13:57:42 -0400
+Received: by ioii16 with SMTP id i16so89106004ioi.0
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 10:57:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=v+2xn78d0mjTQQq1PpaBGBxJF+tIuDk6wuPE9fNswW4=;
+        b=e+32NQbIg8gU19rvo9WLPNaLqoA2/XE99W2WBoh0jB+m9IV1PccbWniw2RPietOIoX
+         F3VNi4+ZIl6Z5we0vaiXwRNYBDA00aMhFJyaIz56atkE1I3Ek2p6hrCDsKGNWy/Wa8Gg
+         NLbkrXo3yC5Hptt1I/16wXRaeZAHeNNdg44LwJ+8e0gtwLfprkWjaawjcZ60VrhUMrvf
+         hLd8vuYGOb79u3N1+F9vn5by415xmMEpPc3p0RRKwyOEPUBSXyBN8S01CeOKTCe+oHOV
+         B4j9bvwpgsfi/89NmiLwH0DXH2Xvn/UFXsyG+z+OKWJb4k4R6Bx95RuDZPqZh8Tnb2ag
+         lahw==
+X-Gm-Message-State: ALoCoQnV8os0yv708+ATwTytSnkiEBTSOUsT3wk+kISZy38sNvfnLNmWuWLisfJTa1EY+yFQDwioswA2wn4GcFd9Q9lNPrj5i8QvNrQJzXx9Uj30KEMtrKp5DaqJm9KT4s5D8PZaf5aXFLxkVLCqRCVzak4JXkH1ug==
+X-Received: by 10.107.149.11 with SMTP id x11mr3809418iod.141.1438883856932;
+        Thu, 06 Aug 2015 10:57:36 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.149.11 with SMTP id x11mr3809405iod.141.1438883856730;
+ Thu, 06 Aug 2015 10:57:36 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 10:57:36 -0700 (PDT)
+In-Reply-To: <20150806171857.GC28128@Herbert-3.local>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+	<FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+	<CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+	<00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+	<CAH0V_1bU3Q+i0vc7h0uAzH7anyU0YF8B7qS5QAXnfi96eVRgpw@mail.gmail.com>
+	<20150806171857.GC28128@Herbert-3.local>
+Date: Thu, 6 Aug 2015 11:57:36 -0600
+Message-ID: <CAH0V_1bypieAXp5YHGcgevFg5NZLz8LM2X7wJMjn34C+dqDMKA@mail.gmail.com>
+Subject: Re: UHF NOs
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1140f8a827b73e051ca84169
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1140f8a827b73e051ca84169
+Content-Type: text/plain; charset=UTF-8
+
+Hi, AJ,
+
+I did something similar out of concern about the code's interaction with
+the UHF stability code (hence my email to Jerome).  I don't think that the
+code works at present, so you should hold off.  I'm close to fixing the
+debugging, however, and I'll let you know what I find.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Aug 6, 2015 at 11:18 AM, Andrew M James <amjames2@vt.edu> wrote:
+
+> Dr. Crawford,
+>     I stuck your compute_nos() function in the UHF class and added the
+>     call to it in UHF::finalize().  It built fine and I got the same
+>     Occupation numbers for the NO radical, so I am going to go ahead and
+>     run this on (4) in Cs symmetry.
+>
+>     Did you want me to make the changed you discussed with Andy?
+>
+>     Thanks!
+>     --AJ
+>
+>
+>
+
+--001a1140f8a827b73e051ca84169
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, AJ,<div><br></div><div>I did something similar out of =
+concern about the code&#39;s interaction with the UHF stability code (hence=
+ my email to Jerome).=C2=A0 I don&#39;t think that the code works at presen=
+t, so you should hold off.=C2=A0 I&#39;m close to fixing the debugging, how=
+ever, and I&#39;ll let you know what I find.</div><div><br></div><div>-TDC<=
+/div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"=
+gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div=
+><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></di=
+v></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 11:18 AM, Andrew M Ja=
+mes <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_bla=
+nk">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+>Dr. Crawford,<br>
+=C2=A0 =C2=A0 I stuck your compute_nos() function in the UHF class and adde=
+d the<br>
+=C2=A0 =C2=A0 call to it in UHF::finalize().=C2=A0 It built fine and I got =
+the same<br>
+=C2=A0 =C2=A0 Occupation numbers for the NO radical, so I am going to go ah=
+ead and<br>
+=C2=A0 =C2=A0 run this on (4) in Cs symmetry.<br>
+<br>
+=C2=A0 =C2=A0 Did you want me to make the changed you discussed with Andy?<=
+br>
+<br>
+=C2=A0 =C2=A0 Thanks!<br>
+<span class=3D"HOEnZb"><font color=3D"#888888">=C2=A0 =C2=A0 --AJ<br>
+<br>
+<br>
+</font></span></blockquote></div><br></div>
+
+--001a1140f8a827b73e051ca84169--

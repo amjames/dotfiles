@@ -1,0 +1,102 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.8] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by smtp.gmail.com with ESMTPSA id 74sm2764908qkx.4.2015.07.23.11.01.54
+        for <arcsupport@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 23 Jul 2015 11:01:54 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: [ARC Support #8605] ARC Help Request: module scripts
+From: "Andrew M. James" <amjames2@vt.edu>
+In-Reply-To: <rt-3.8.13-2915-1437670564-1176.8605-6-0@example.com>
+Date: Thu, 23 Jul 2015 14:01:50 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <B27C67DC-C6D3-4C5D-9474-19FE9606BB87@vt.edu>
+References: <RT-Ticket-8605@example.com> <20150723154332.B2276958@webhost11.hosting.vt.edu> <rt-3.8.13-2915-1437670564-1176.8605-6-0@example.com>
+To: arcsupport@vt.edu
+X-Mailer: Apple Mail (2.2098)
+
+Thank you for your help. It seems that all I had to do was source my =
+script instead of trying to execute it like ./script.sh. =20
+Appreciate the quick response!=20
+
+
+=E2=80=94AJ
+
+Andrew M. James
+amjames2@vt.edu
+
+
+
+> On Jul 23, 2015, at 12:56 PM, Di Zhang via RT <arcsupport@vt.edu> =
+wrote:
+>=20
+> Hi Andrew,
+>=20
+> I log in your account and created test.sh with exactly those 4 lines =
+in your home directory, the module swapping seems working fine
+>=20
+> Regards,
+> Di
+>=20
+>=20
+> On Thu Jul 23 11:43:33 2015, amjames2@vt.edu wrote:
+>> Requestor Name: Andrew Moulton James
+>> Requestor Email: amjames2@vt.edu
+>>=20
+>> I am requesting help using:
+>>    BlueRidge
+>>=20
+>> Problem Description:
+>> I often swap out modules for different builds of software. To
+>>   debug/check portability ect. I would like to write a script that I
+>>   can run that just purges my modules and loads the ones I need to
+>>   quickly set up my environment.  I tried doing this but it looks
+>>   like those changes are only applied to the shell instance that is
+>>   spawned for my script for example say I have the intel module
+>>   loaded and I execute this script:
+>>=20
+>>> #! /bin/bash
+>>=20
+>>> module purge
+>>> module load gcc
+>>> module list
+>>=20
+>> will print
+>>=20
+>> Currently Loaded Modules:
+>> 1)gcc/4.7.2
+>>=20
+>> But if I get the prompt back and run:
+>>=20
+>> $module list
+>>=20
+>> I will still see
+>> Currently Loaded Modules:
+>> 1) intel/13.1
+>>=20
+>>=20
+>> No one else in my lab has to swap back and forth so often, so I have
+>>   no help here, but I figure someone there in the arc office might
+>>   have something like this worked out?
+>>=20
+>> If someone does and I could get an example script I would be in your
+>>   debt.
+>>=20
+>> Thanks!
+>> --AJ
+>>=20
+>>=20
+>>=20
+>> Received from:
+>>   =
+https://secure.hosting.vt.edu/www.arc.vt.edu/forms/support_request.php
+>> Referred to by:
+>>   =
+https://secure.hosting.vt.edu/www.arc.vt.edu/forms/login.php?redir=3D/www.=
+arc.vt.edu/forms/support_request.php
+>>=20
+>> End of Message
+>=20
+>=20
+

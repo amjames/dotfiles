@@ -1,0 +1,78 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3538369qgt;
+        Thu, 30 Apr 2015 13:30:39 -0700 (PDT)
+X-Received: by 10.140.152.209 with SMTP id 200mr7019528qhy.34.1430425839714;
+        Thu, 30 Apr 2015 13:30:39 -0700 (PDT)
+Return-Path: <snick2@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id m92si2720761qkh.76.2015.04.30.13.30.39
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 13:30:39 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning snick2@vt.edu does not designate 209.85.223.180 as permitted sender) client-ip=209.85.223.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning snick2@vt.edu does not designate 209.85.223.180 as permitted sender) smtp.mail=snick2@vt.edu
+Received: from mail-ie0-f180.google.com (mail-ie0-f180.google.com [209.85.223.180])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UKUYK5019394
+	for <Amjames2@vt.edu>; Thu, 30 Apr 2015 16:30:39 -0400
+Received: by iejt8 with SMTP id t8so76953368iej.2
+        for <Amjames2@vt.edu>; Thu, 30 Apr 2015 13:30:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=jej7kD0QOgXt+QY9yEeLIf8iuAaBwmBxewZIhVS0csE=;
+        b=i5pqePZOhh65S+/WTRX7JnWJXmHNW71UVMcF0c0ngI18TYOA4narovcH9Ks/EskkvV
+         QrtWnwW+MWE1e+SF77iUf2g8N+QoeRur9dfPxLSncdPYPHl1kbP+T975d/S3Y/ahQ+LN
+         UOA0YWfx1RHgTOLSl+kYL6ur0SfeFwRywF2PNw3l1szupOpsP9UHE6wenvESWAR6YBzv
+         7cgrCiKR0wnmfTUpJVZiHSZ8l+S25IeQnzooSbMfzW6xIKdreJALPkazo2lwx/BjpV5g
+         UK+NVTMcZep/zb5PmKC18crcv3IdzZ6fRO44UBZIH4jyvNmWtHA0LweYhBNRGNz1Ak2X
+         KFZw==
+X-Gm-Message-State: ALoCoQkqWPFKsUWSNKWuW1EmSXKpNguZ464T8EdR3z2H271pv3+6gMRpYuToA7kaQD6Pr6zRa8M85oVjdPnne/rQiqjUzaBjq7/43Ykk1NSMlUriKuDH0445voG5NFOzH/Iv8/PKG8r4soHq9IDfCoglW0Y7mX8X0w==
+X-Received: by 10.50.79.130 with SMTP id j2mr6056714igx.17.1430425833985;
+        Thu, 30 Apr 2015 13:30:33 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.79.130 with SMTP id j2mr6056704igx.17.1430425833907; Thu,
+ 30 Apr 2015 13:30:33 -0700 (PDT)
+Received: by 10.107.180.65 with HTTP; Thu, 30 Apr 2015 13:30:33 -0700 (PDT)
+Date: Thu, 30 Apr 2015 16:30:33 -0400
+Message-ID: <CAKn3d5fYpfhTxMSSB_5u7d78xwD9xi_XZRC17MynrBm3_d1uUQ@mail.gmail.com>
+Subject: Lab Grades
+From: Nick Snodgrass <snick2@vt.edu>
+To: Andrew James <Amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0112d074b540490514f6f78a
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0112d074b540490514f6f78a
+Content-Type: text/plain; charset=UTF-8
+
+Mr. James,
+First off I would like to say thank you for everything you've done this
+semester. Second, I believe my lab grades for experiment 4 and 9 are
+incorrect. Lab 4 I got a 38/50, which should be an 88 on scholar, it is an
+84. For lab 9 I got a 41/50, which should be a 91, but scholar says it is
+an 88. Please look at this for me, if you want me to show you the graded
+reports that were given back to me I will gladly do so.
+Thanks and have a good summer!
+-Nick Snodgrass
+
+--089e0112d074b540490514f6f78a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Mr. James,=C2=A0<div>First off I would like to say thank y=
+ou for everything you&#39;ve done this semester. Second, I believe my lab g=
+rades for experiment 4 and 9 are incorrect. Lab 4 I got a 38/50, which shou=
+ld be an 88 on scholar, it is an 84. For lab 9 I got a 41/50, which should =
+be a 91, but scholar says it is an 88. Please look at this for me, if you w=
+ant me to show you the graded reports that were given back to me I will gla=
+dly do so.=C2=A0</div><div>Thanks and have a good summer!</div><div>-Nick S=
+nodgrass</div></div>
+
+--089e0112d074b540490514f6f78a--

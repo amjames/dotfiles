@@ -1,0 +1,95 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp742552qgp;
+        Wed, 18 Feb 2015 11:56:48 -0800 (PST)
+X-Received: by 10.140.92.161 with SMTP id b30mr3346111qge.59.1424289408404;
+        Wed, 18 Feb 2015 11:56:48 -0800 (PST)
+Return-Path: <scholar@edtech.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 142si8852780qhr.25.2015.02.18.11.56.21
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Feb 2015 11:56:48 -0800 (PST)
+Received-SPF: none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) client-ip=198.82.175.43;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: scholar@edtech.vt.edu does not designate permitted sender hosts) smtp.mail=scholar@edtech.vt.edu
+Received: from tamale (tamale.edtech.vt.edu [198.82.175.43])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1IJuE8J003945;
+	Wed, 18 Feb 2015 14:56:19 -0500
+Received: from localhost ([127.0.0.1] helo=tamale)
+	by tamale with esmtp (Exim 4.76)
+	(envelope-from <scholar@edtech.vt.edu>)
+	id 1YOAjG-0007eo-Mt; Wed, 18 Feb 2015 14:56:14 -0500
+Date: Wed, 18 Feb 2015 14:56:14 -0500 (EST)
+Message-ID: <1892760223.6848.1424289374489.JavaMail.sakai@tamale>
+Subject: [ S15_CHEM_1046 -  Announcement ] Virtlab Questions
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6847_593491213.1424289374487"
+From: "S15_CHEM_1046" <no-reply@scholar.vt.edu>
+To: "S15_CHEM_1046"<no-reply@scholar.vt.edu>
+X-Spam-Status: No, score=-0.0 required=5.0 tests=FSL_HELO_NON_FQDN_1,
+	HTML_MESSAGE,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_6847_593491213.1424289374487
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+An announcement has been added in the "S15_CHEM_1046" site at Scholar (http=
+s://scholar.vt.edu/portal)
+
+
+
+Subject: Virtlab Questions
+
+
+Group: Site
+
+
+Message:=20
+
+
+Good afternoon all - I'm getting many students say that the virtlab is not =
+opening exp. 3.2 for this weeks lab. Please make sure you re-register using=
+ the new activation code: VTS524. This is a different code than used last s=
+emester. I think you can also click on the link =93Upgrade to Full Virtlab=
+=94 and then go through a few screens and then use the new code. In all cas=
+es this has fixed the problem. Thanks, Victoria Long
+
+Please see the checklist I sent last week with more detailed directions to =
+register for virtlab if needed.
+
+
+----------------------=20
+ This automatic notification message was sent by Scholar (https://scholar.v=
+t.edu/portal) from the S15_CHEM_1046 site.
+ You can modify how you receive notifications at My Workspace > Preferences=
+.
+
+------=_Part_6847_593491213.1424289374487
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>  <head><title>[ S15_CHEM_1046 -  Announcement ] Virtlab Questions</title></head>  <body>An announcement has been added in the "S15_CHEM_1046" site at Scholar (<a href="https://scholar.vt.edu/portal/site/03afc72a-44fe-415e-811e-aba8302c57c6">https://scholar.vt.edu/portal/site/03afc72a-44fe-415e-811e-aba8302c57c6</a>)<br />
+<br />
+<br />
+Subject: Virtlab Questions<br />
+<br />
+Group: Site<br />
+<br />
+Message: <br />
+<br />
+Good afternoon all - I&#39;m getting many students say that the virtlab is not opening exp. 3.2 for this weeks lab. Please make sure you re-register using the new activation code: <strong>VTS524</strong>. This is a different code than used last semester. I think you can also click on the link &ldquo;Upgrade to Full Virtlab&rdquo; and then go through a few screens and then use the new code. In all cases this has fixed the problem. Thanks, Victoria Long<br/>
+<br/>
+Please see the checklist I sent last week with more detailed directions to register for virtlab if needed.<br />
+<br />
+<hr/><br/>This automatic notification message was sent by Scholar (<a href="https://scholar.vt.edu/portal">https://scholar.vt.edu/portal</a>) from the S15_CHEM_1046 site.<br/> You can modify how you receive notifications at My Workspace > Preferences.<br/>  </body></html>
+
+------=_Part_6847_593491213.1424289374487--

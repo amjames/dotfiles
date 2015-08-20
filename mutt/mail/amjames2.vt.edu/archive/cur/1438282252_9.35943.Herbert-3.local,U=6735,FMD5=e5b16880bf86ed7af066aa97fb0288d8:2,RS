@@ -1,0 +1,82 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1555634qgt;
+        Mon, 27 Apr 2015 10:33:24 -0700 (PDT)
+X-Received: by 10.170.54.203 with SMTP id 194mr1656001ykw.105.1430156004606;
+        Mon, 27 Apr 2015 10:33:24 -0700 (PDT)
+Return-Path: <jbrow@exchange.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id j42si11967423yhb.194.2015.04.27.10.33.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Apr 2015 10:33:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.8 as permitted sender) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.8 as permitted sender) smtp.mail=jbrow@exchange.vt.edu
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be forged))
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3RHXIDd016612
+	for <amjames2@vt.edu>; Mon, 27 Apr 2015 13:33:23 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: BRAILLE.cc.w2k.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (198.82.160.12) by
+ BRAILLE.cc.w2k.vt.edu (198.82.160.8) with Microsoft SMTP Server (TLS) id
+ 15.0.995.29; Mon, 27 Apr 2015 13:33:20 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+ GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+ 15.00.0995.032; Mon, 27 Apr 2015 13:33:20 -0400
+From: "Brow, Jessica" <jbrow@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: RE: MRPSS Status on Matthew Barclay the
+Thread-Topic: MRPSS Status on Matthew Barclay the
+Thread-Index: AQHQgQ2Y+rjxjlr410m6qaWsCqz7EZ1hHV7A
+Date: Mon, 27 Apr 2015 17:33:20 +0000
+Message-ID: <602853449ef44c718f16a09da2b05667@GUTENBERG.cc.w2k.vt.edu>
+References: <9C6F96B1-41A9-4202-AB20-7E48C3A1AD6A@vt.edu>
+In-Reply-To: <9C6F96B1-41A9-4202-AB20-7E48C3A1AD6A@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [198.82.173.211]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrFqsTGxXIsaAGP7oMiu1CD2y/O/mey+Npk7MAYwBDFmpmXlF+RwJox/eYJ5oLtphU/9+9gb2CcatTFyMUhJLCZUaK59wYLhHOQUeLm1/VMXYycHMwCphJXvjayQNiKEhfuNYDZbAK6ErtenWEFsUUEVCX2L7/FDGILCxhInLrfxQYRN5S423IbyjaSeNR+jR3EZgGqf3hwHlgvr4CbxN0HC8F6hQQsJfb13wGbzylgJfFg3VawGkYBMYnvp9ZA3SMucevJfDBbQkBAYsme88wQtpJE7+13QHEOIDtA4tj5WIjxghInZz5hgSgxk9j7YAlUq67E1s03oOxAif6W5ywQraYSV98HQ4RtJfbMmAg10Vli3o16iLCdxOSby6Amaktsf7WPFcLWkdh0bRVUXF7i/737ULaTxOWDd5lgjrx3ZwuUHSCxY+MvxgmMarOQwnkWUjjPQvLvLCTPLGBkWcUo6hTk6Onj46qXnKxXbpStV1ail5pSuokRkgQ4djAu/+Z8iFGSg0lJlFcz3S5UiC8pP6UyI7E4I76oNCe1+BCjBAePkgjv30KgHG9xQWJucWY6TEqGg0NJglcKmIqEBItS01Mr0jJzSlKLINKnGBWlxHnvg/QJgPRllObB5WAp8BKjrJQwby7IXp6C1KLczBJU+VuMHFJQ5itGcQ5GJWFefpBtPJl5JXB3vAI6kQnoxMqZNiAnliQipKQaGNuWdnnf8NFOadO8FCpTH9L4+QMbW5t6xZLTab/scooe6GjY/ZZbWVizk/3W1vpdny8ekN+y70FpxrL7R344RvZVHZ7Ip7v1Kw9LpfrMojVeN70XMz16uTewKFJqn3I0n9afpCkWTHf+7XdhP8xpFydzNLkmocJP5HaeVbnZnezZp6tbrRvMlViKMxINtZiLihMB9tyCG30DAAA=
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BRAILLE.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Hi AJ,
+
+Matthew did register, but did not pay.  The PI needs to call the registrar =
+for this program in order to pay for him.  He needs to speak to Teresa McCo=
+y at 54-231-8220.
+
+Sorry for the inconvenience.  Our registration system does not let you go b=
+ack in to pay online once the registration has been started. =20
+
+Thanks!
+
+Jessica
+
+
+
+-----Original Message-----
+From: Andrew James [mailto:amjames2@vt.edu]=20
+Sent: Monday, April 27, 2015 1:14 PM
+To: Brow, Jessica
+Subject: MRPSS Status on Matthew Barclay the
+
+Hello,=20
+
+Could you tell me if this student Matthew Barclay is registered, and if he =
+is has he paid? His PI just emailed me that he tried to pay  for him but it=
+ would not let him because the student was already registered. If the stude=
+nt did accidentally pay, can we issue a refund and let his boss pay the fee=
+?=20
+
+Thanks,
+AJ=20

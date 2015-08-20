@@ -1,0 +1,328 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp39904qgt;
+        Thu, 6 Aug 2015 11:32:18 -0700 (PDT)
+X-Received: by 10.140.98.202 with SMTP id o68mr5618423qge.70.1438885937959;
+        Thu, 06 Aug 2015 11:32:17 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 143si13349022qht.50.2015.08.06.11.32.17
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 11:32:17 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 205.201.135.165 as permitted sender) client-ip=205.201.135.165;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 205.201.135.165 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@mail165.atl61.mcsv.net;
+       dkim=pass header.i=@gmail.mcsv.net
+Received: from mail-ig0-x22a.google.com (mail-ig0-x22a.google.com [IPv6:2607:f8b0:4001:c05::22a])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76IWBil003592
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 14:32:17 -0400
+Received: by igbpg9 with SMTP id pg9so17377966igb.0
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 11:32:11 -0700 (PDT)
+X-Received: by 10.50.138.70 with SMTP id qo6mr1144819igb.15.1438885931633;
+        Thu, 06 Aug 2015 11:32:11 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1144051iee;
+        Thu, 6 Aug 2015 11:32:10 -0700 (PDT)
+X-Received: by 10.13.250.198 with SMTP id k189mr3726877ywf.46.1438885930565;
+        Thu, 06 Aug 2015 11:32:10 -0700 (PDT)
+Received: from mail165.atl61.mcsv.net (mail165.atl61.mcsv.net. [205.201.135.165])
+        by mx.google.com with ESMTP id n126si4719137ywf.151.2015.08.06.11.32.10
+        for <andrew.m.james2@gmail.com>;
+        Thu, 06 Aug 2015 11:32:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us5_12661891.158189-andrew.m.james2=gmail.com@mail165.atl61.mcsv.net designates 205.201.135.165 as permitted sender) client-ip=205.201.135.165;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail165.atl61.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=noreply=3Dwillyousurvive.com@mail165.atl61.mcsv.net;
+ bh=jTvy4YA8g2i3+eLQ8+b7fzAjQrk=;
+ b=cvGFELqhGMmvkay+CCvHtuAScwIG3ClBHCaDElfD4sOky+nXtJDnqgPr09aUyLz9/TC5oLTNTLTB
+   1Nm7IFo23k5OntwQSW5mbfbhDkCv9EgWCJE5m0TpsFl8LXS3Jpfh7+K6vkoLwxO6TfVOheLS59sr
+   0xyJhbRdKyk6KYg/I+o=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=gmail.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:X-Feedback-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version;
+ bh=jTvy4YA8g2i3+eLQ8+b7fzAjQrk=;
+ b=Hpw2lVV8uf8ZSejdmq5gonaCHVZ0KPwkuK19yOvsDiMVjsA3v2evBVu/BszqT31XY35O5qipUTuV
+   ilRycLZY2ovuH0KMQrkK0TAVxoO1NR53wss3w8Mi6K0G9FbaioGsVJZCQKq3hcw7rMVaeenmtZcy
+   dER+Z3Z6NQHWz1aqLDs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail165.atl61.mcsv.net;
+ b=yHUuTFv3GJMRbnfJ7P73Ov4h4pV3c53/mbQKEL0txC+RQyKuPYinWOf1BqJCsuBUU1V5KQLB+SAV
+   nHrxFzwsDywj2jChfSKINhIq89WvqRle6jSH7Jm2xaXJxGiCBjg/achhtG6vceDOGMn6aSYX5Bzi
+   u3svzgqieGCwUKQhYJ8=;
+Received: from (127.0.0.1) by mail165.atl61.mcsv.net id hoek2k174ac1 for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 17:35:54 +0000 (envelope-from <bounce-mc.us5_12661891.158189-andrew.m.james2=gmail.com@mail165.atl61.mcsv.net>)
+Subject: =?utf-8?Q?Burstfire=20PVP=20discount=20for=20Infestation=20players?=
+From: =?utf-8?Q?Infestation=20Survivor=20Stories?= <noreply@willyousurvive.com>
+Reply-To: =?utf-8?Q?Infestation=20Survivor=20Stories?= <noreply@willyousurvive.com>
+To: =?utf-8?Q??= <andrew.m.james2@gmail.com>
+Date: Thu, 6 Aug 2015 17:35:54 +0000
+Message-ID: <a6640f0aeeba79bf5fc5fd434f3fa371dc4.20150806173502@mail165.atl61.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID74245fdc70f3fa371dc4**
+X-Campaign: mailchimpa6640f0aeeba79bf5fc5fd434.74245fdc70
+X-campaignid: mailchimpa6640f0aeeba79bf5fc5fd434.74245fdc70
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=a6640f0aeeba79bf5fc5fd434&id=74245fdc70&e=f3fa371dc4
+X-MC-User: a6640f0aeeba79bf5fc5fd434
+X-Feedback-ID: 12661891:12661891.158189:us5:mc
+List-ID: a6640f0aeeba79bf5fc5fd434mc list <a6640f0aeeba79bf5fc5fd434.76149.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us5_a6640f0aeeba79bf5fc5fd434.74245fdc70-f3fa371dc4@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://thewarz.us5.list-manage.com/unsubscribe?u=a6640f0aeeba79bf5fc5fd434&id=62a85f3949&e=f3fa371dc4&c=74245fdc70>
+Sender: "Infestation Survivor Stories" <noreply=willyousurvive.com@mail165.atl61.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1896548712"
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_IMAGE_RATIO_08,HTML_MESSAGE,MIME_QP_LONG_LINE autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1896548712
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+http://thewarz.us5.list-manage.com/track/click?u=3Da6640f0aeeba79bf5fc5fd4=
+34&id=3D4c99ca341c&e=3Df3fa371dc4
+------------------------------------------------------------
+
+Greetings Survivor=2C
+
+We would like to thank you for your support in Infestation Survivor Storie=
+s. We would like to take this opportunity to invite you to try out latest=
+ title that have been developed by Nacho Games - Burstfire.
+
+Burstfire is a 5v5 competitive first-person shooter that rewards tactical=
+ thinking=2C intelligent combat and cohesive team play. This tactical shoo=
+ter keeps a slow paced combat style yet creates a highly intense experienc=
+e. You may find more information about Burstfire here (http://thewarz.us5.=
+list-manage.com/track/click?u=3Da6640f0aeeba79bf5fc5fd434&id=3Dbf730b7009&=
+e=3Df3fa371dc4) .
+
+Burstfire is available on Steam Early Access TODAY. Everyone will be able=
+ to get "Early Access" for Burstfire at a discounted rate=2C but as a toke=
+n of our appreciation for your previous involvement=2C we would like to of=
+fer you a much greater discount.
+
+Please use the provided Discount Code when purchasing Burstfire from the O=
+fficial Website (http://thewarz.us5.list-manage2.com/track/click?u=3Da6640=
+f0aeeba79bf5fc5fd434&id=3Db2da07284a&e=3Df3fa371dc4) to receive your=
+ special discount!
+
+DISCOUNT CODE:
+ALPHABIRD
+------------------------------------------------------------
+
+
+http://thewarz.us5.list-manage.com/track/click?u=3Da6640f0aeeba79bf5fc5fd4=
+34&id=3D476e86da49&e=3Df3fa371dc4    http://thewarz.us5.list-manage.=
+com/track/click?u=3Da6640f0aeeba79bf5fc5fd434&id=3D09370373c5&e=3D=
+f3fa371dc4    http://thewarz.us5.list-manage.com/track/click?u=3Da6640f0aeeb=
+a79bf5fc5fd434&id=3De4b6026af9&e=3Df3fa371dc4    http://thewarz.us5.=
+list-manage.com/track/click?u=3Da6640f0aeeba79bf5fc5fd434&id=3D09a4cc1baf&=
+e=3Df3fa371dc4
+
+=C2=A92015 Free Reign Entertainment LLC. All Rights Reserved. | Privacy Po=
+licy (http://thewarz.us5.list-manage1.com/track/click?u=3Da6640f0aeeba79bf=
+5fc5fd434&id=3Dfa9fa76277&e=3Df3fa371dc4)
+
+This email was sent to andrew.m.james2@gmail.com (mailto:andrew.m.james2@gmail.com)
+why did I get this? (http://thewarz.us5.list-manage.com/about?u=3Da6640f0a=
+eeba79bf5fc5fd434&id=3D62a85f3949&e=3Df3fa371dc4&c=3D74245fdc70)     unsubsc=
+ribe from this list (http://thewarz.us5.list-manage.com/unsubscribe?u=3Da6=
+640f0aeeba79bf5fc5fd434&id=3D62a85f3949&e=3Df3fa371dc4&c=3D74245fdc70)     u=
+pdate subscription preferences (http://thewarz.us5.list-manage.com/profile=
+?u=3Da6640f0aeeba79bf5fc5fd434&id=3D62a85f3949&e=3Df3fa371dc4)
+Free Reign East LLC . 16192 Coastal Highway . Lewes=2C DE 19958 . USA
+--_----------=_MCPart_1896548712
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head lang=3D"en">
+=09<title></title>
+</head>
+<body style=3D"margin:0; padding:0;">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 72=
+4px;  font-family: arial=2C helvetica=2C sans-serif; margin:0; padding:0;"=
+>
+=09<tr>
+=09=09<td style=3D"height: 144px; text-align: center; vertical-align: midd=
+le; padding:0; margin:0;">
+=09=09=09<a href=3D"http://thewarz.us5.list-manage1.com/track/click?u=3Da6=
+640f0aeeba79bf5fc5fd434&id=3D4840de95df&e=3Df3fa371dc4" style=3D"display:=
+ block; text-decoration: none;">
+=09=09=09=09<img src=3D"http://burstfiregame.com/img_email/header.jpg" alt=
+=3D"Burstfire" width=3D"724" height=3D"144" style=3D"border:none; display:=
+ block; font-size: 50px; line-height: 144px; color: #fff; background: #000=
+000" border=3D"0">
+=09=09=09</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td style=3D"background: #5d5f63">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+width: 724px;  font-family: arial=2C helvetica=2C sans-serif; margin:0; pa=
+dding:0; background: #5d5f63">
+=09=09=09=09<tr>
+=09=09=09=09=09<td style=3D"text-align: justify; vertical-align: top; line=
+-height: 1.5; padding: 20px 29px;">
+=09=09=09=09=09=09<hr>
+=09=09=09=09=09=09<p style=3D"font-size: 15px; color: #ffffff; line-height=
+: 1.2;">
+=09=09=09=09=09=09Greetings Survivor=2C
+=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09We would like to thank you for your support in Infestati=
+on Survivor Stories. We would like to take this opportunity to invite you=
+ to try out latest title that have been developed by Nacho Games - Burstfi=
+re.
+=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09Burstfire is a 5v5 competitive first-person shooter that=
+ rewards tactical thinking=2C intelligent combat and cohesive team play. T=
+his tactical shooter keeps a slow paced combat style yet creates a highly=
+ intense experience. You may find more information about Burstfire <a href=
+=3D"http://thewarz.us5.list-manage.com/track/click?u=3Da6640f0aeeba79bf5fc=
+5fd434&id=3D9555efbf06&e=3Df3fa371dc4" style=3D"color: #ffcc00;">here</a>=
+=2E
+=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09Burstfire is available on Steam Early Access <font style=
+=3D"color: #ffcc00">TODAY</font>. Everyone will be able to get "Early Acce=
+ss" for Burstfire at a discounted rate=2C but as a token of our appreciati=
+on for your previous involvement=2C we would like to offer you a much grea=
+ter discount.
+=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09Please use the provided Discount Code when purchasing Bu=
+rstfire from the <a href=3D"http://thewarz.us5.list-manage.com/track/click=
+?u=3Da6640f0aeeba79bf5fc5fd434&id=3D0974038eaa&e=3Df3fa371dc4" style=3D"c=
+olor: #ffcc00;">Official Website</a> to receive your special discount!
+=09=09=09=09=09=09</p>
+=09=09=09=09=09=09<br>
+=09=09=09=09=09=09<p style=3D"text-align: center; font-size: 16px; color:=
+ #ffcc00; margin-bottom: 2px;">
+=09=09=09=09=09=09DISCOUNT CODE:<br>
+=09=09=09=09=09=09<font style=3D"text-align: center; font-size: 30px; font=
+-weight: bold; color: #000000; line-height: 1.2;">
+=09=09=09=09=09=09ALPHABIRD
+=09=09=09=09=09=09</font>
+=09=09=09=09=09=09</p>
+=09=09=09=09=09=09<hr>
+=09=09=09=09=09=09<p style=3D"text-align: center; padding-top: 7px; paddin=
+g-bottom: 20px;">
+=09=09=09=09=09=09=09<img src=3D"http://burstfiregame.com/img_email/logo.j=
+pg" width=3D"163" height=3D"71" border=3D"0">
+=09=09=09=09=09=09=09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=09=09=09=09=09=09=09<img src=3D"http://burstfiregame.com/img_email/logo_f=
+r.jpg" width=3D"110" height=3D"81" border=3D"0">
+=09=09=09=09=09=09</p>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td style=3D"height: 113px;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+width: 724px; height: 113px; font-family: arial=2C helvetica=2C sans-serif=
+; margin:0; padding:0;" bgcolor=3D"#191b1d">
+=09=09=09=09<tr>
+=09=09=09=09=09<td style=3D"text-align: center;  height: 119px;">
+=09=09=09=09=09=09<p style=3D"text-align: center">
+=09=09=09=09=09=09=09<a href=3D"http://thewarz.us5.list-manage.com/track/c=
+lick?u=3Da6640f0aeeba79bf5fc5fd434&id=3D2891247809&e=3Df3fa371dc4"><img s=
+rc=3D"http://burstfiregame.com/img_email/s1.jpg" width=3D"28" height=3D"28=
+" border=3D"0"></a>
+=09=09=09=09=09=09=09&nbsp;&nbsp;
+=09=09=09=09=09=09=09<a href=3D"http://thewarz.us5.list-manage1.com/track/=
+click?u=3Da6640f0aeeba79bf5fc5fd434&id=3D38f5cc7368&e=3Df3fa371dc4"><img=
+ src=3D"http://burstfiregame.com/img_email/s2.jpg" width=3D"28" height=3D"=
+28" border=3D"0"></a>
+=09=09=09=09=09=09=09&nbsp;&nbsp;
+=09=09=09=09=09=09=09<a href=3D"http://thewarz.us5.list-manage.com/track/c=
+lick?u=3Da6640f0aeeba79bf5fc5fd434&id=3D0c5ea8e4bd&e=3Df3fa371dc4"><img s=
+rc=3D"http://burstfiregame.com/img_email/s3.jpg" width=3D"28" height=3D"28=
+" border=3D"0"></a>
+=09=09=09=09=09=09=09&nbsp;&nbsp;
+=09=09=09=09=09=09=09<a href=3D"http://thewarz.us5.list-manage2.com/track/=
+click?u=3Da6640f0aeeba79bf5fc5fd434&id=3D3762f382fa&e=3Df3fa371dc4"><img=
+ src=3D"http://burstfiregame.com/img_email/s4.jpg" width=3D"28" height=3D"=
+28" border=3D"0"></a>
+=09=09=09=09=09=09</p>
+=09=09=09=09=09=09<p style=3D"color: #dfddd7; font-size: 10px;">
+=09=09=09=09=09=09=C2=A92015 Free Reign Entertainment LLC. All Rights Rese=
+rved. |
+=09=09=09=09=09=09<a href=3D"http://thewarz.us5.list-manage.com/track/clic=
+k?u=3Da6640f0aeeba79bf5fc5fd434&id=3Da9dd92db1b&e=3Df3fa371dc4" style=3D"=
+color: #ffcc00">Privacy Policy</a>
+=09=09=09=09=09=09</p>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table>
+
+
+
+            <center>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:andrew.m.james2@gmail.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">andrew.m.james2@gmail.com</a>
+                                        <br />
+                                        <a href=3D"http://thewarz.us5.list=
+-manage.com/about?u=3Da6640f0aeeba79bf5fc5fd434&id=3D62a85f3949&e=3D=
+f3fa371dc4&c=3D74245fdc70" target=3D"_blank" style=3D"color:#404040 !important;"><=
+em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://t=
+hewarz.us5.list-manage.com/unsubscribe?u=3Da6640f0aeeba79bf5fc5fd434&id=3D=
+62a85f3949&e=3Df3fa371dc4&c=3D74245fdc70" style=3D"color:#404040 !important;=
+">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://=
+thewarz.us5.list-manage.com/profile?u=3Da6640f0aeeba79bf5fc5fd434&id=3D62a=
+85f3949&e=3Df3fa371dc4" style=3D"color:#404040 !important;">update subscript=
+ion preferences</a>
+                                        <br />
+                                        Free Reign East LLC &middot; 16192=
+ Coastal Highway &middot; Lewes=2C DE 19958 &middot; USA
+                                        <br />
+                                        <br />
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table[id=3D"canspamBar"] td{font-size:14px !impor=
+tant;}
+                        table[id=3D"canspamBar"] td a{display:block !impo=
+rtant; margin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"http://thewarz.us5.list-manage.com/track/=
+open.php?u=3Da6640f0aeeba79bf5fc5fd434&id=3D74245fdc70&e=3Df3fa371dc4" he=
+ight=3D"1" width=3D"1"></body>
+</html>
+--_----------=_MCPart_1896548712--

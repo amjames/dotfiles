@@ -1,0 +1,87 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2083018qgt;
+        Tue, 21 Jul 2015 09:30:45 -0700 (PDT)
+X-Received: by 10.140.85.208 with SMTP id n74mr54817321qgd.67.1437496244986;
+        Tue, 21 Jul 2015 09:30:44 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id w104si28928455qgd.2.2015.07.21.09.30.42
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Jul 2015 09:30:44 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.212.170 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.212.170;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.212.170 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6LGUZWO028681;
+	Tue, 21 Jul 2015 12:30:40 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t6LC5hSV027149;
+	Tue, 21 Jul 2015 12:30:34 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100566385 for CHEM_GRAD@LISTSERV.VT.EDU; Tue, 21 Jul 2015 12:30:34
+          -0400
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:2b8:b328:9234]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6LGUXxB013121 for
+          <CHEM_GRAD@listserv.vt.edu>; Tue, 21 Jul 2015 12:30:33 -0400
+Received: from mail-wi0-f170.google.com (mail-wi0-f170.google.com
+          [209.85.212.170]) by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t6LGUROD007266 for <CHEM_GRAD@listserv.vt.edu>; Tue, 21 Jul 2015
+          12:30:33 -0400
+Received: by wicgb10 with SMTP id gb10so61173965wic.1 for
+          <CHEM_GRAD@listserv.vt.edu>; Tue, 21 Jul 2015 09:30:27 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=/J62g9OJ72wtpozi/A0HP+M77Lj1aFViiEEXRWIrwu4=;
+                         b=IdjvNkeSLVfTgX8/p3A+iq8LxLgFd7wPfcjCzjORZatc7yAwx6S88y2u0unqvcrEJ2
+                         psBGKuQqQ8Jvtob4lUUp2oykKcMeUMofIpXFvCT/87CcUuye+TA/VkkmhkucItenKmuV
+                         z6R/Otj80Czpc7XPiNLZXaXGfplcrKAxXmuYR11TKPUvLH/t0j1BvgFs6VUHhzs/hg4H
+                         N/hdV3dsHbuMwK6PWCNMZa7JVa6haqufhpx1oELdi2LyoeNJJe37Cfbze4bQzSX2PVMc
+                         oCGl5lqIK8ukOYuXpIIVK5uvvxUDLMdu74c+ndIITEYLQZisxxARhd2lR5pj21oHvhG5
+                         zYGg==
+X-Gm-Message-State: ALoCoQmFEvucWA9vZAVr4UJd/cL/zG6oVtK5PH17nhmfYASxBJyoI/MulK7TDLrMcwY6f8yWpOhs0DK5JA0NNn1SoAxC4Yybg0WZc4Un4MFOv8xKV7ZWOEIiqbv3Na08dDnMAyuiIbqwi3ZWLqtY6dGLguWaxUH49Q==
+X-Received: by 10.180.89.104 with SMTP id bn8mr33734412wib.6.1437496227720;
+            Tue, 21 Jul 2015 09:30:27 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.89.104 with SMTP id bn8mr33734373wib.6.1437496227394;
+            Tue, 21 Jul 2015 09:30:27 -0700 (PDT)
+Received: by 10.28.51.212 with HTTP; Tue, 21 Jul 2015 09:30:27 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=f46d0444ea05003d2e051b652c2a
+X-Spam-Status: No, score=-1.2 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+Message-ID:  <CAPcAuMj0wdLeeKNFo3vE4WuxOX3Pw4avrQMrrGHRMjg7QVENAA@mail.gmail.com>
+Date:         Tue, 21 Jul 2015 12:30:27 -0400
+Reply-To: Kevin Kaurich <kkaurich@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Kevin Kaurich <kkaurich@vt.edu>
+Subject: 2-Bromoethanol
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0444ea05003d2e051b652c2a
+Content-Type: text/plain; charset=UTF-8
+
+Does anyone have any 2-bromoethanol that I can borrow for an experiment?  I
+need about 1 gram for something I want to try.  Thanks.
+
+-Kevin Kaurich (Deck Group)
+
+--f46d0444ea05003d2e051b652c2a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Does anyone have any 2-bromoethanol that I can borrow for =
+an experiment?=C2=A0 I need about 1 gram for something I want to try.=C2=A0=
+ Thanks.<div><br></div><div>-Kevin Kaurich (Deck Group)</div></div>
+
+--f46d0444ea05003d2e051b652c2a--

@@ -1,0 +1,120 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp306880qge;
+        Thu, 22 Jan 2015 08:51:38 -0800 (PST)
+X-Received: by 10.229.125.133 with SMTP id y5mr4404961qcr.17.1421945498814;
+        Thu, 22 Jan 2015 08:51:38 -0800 (PST)
+Return-Path: <vilong@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id i6si9537651qan.53.2015.01.22.08.51.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 22 Jan 2015 08:51:38 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.192.41 as permitted sender) client-ip=209.85.192.41;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.192.41 as permitted sender) smtp.mail=vilong@vt.edu
+Received: from mail-qg0-f41.google.com (mail-qg0-f41.google.com [209.85.192.41])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0MGpWeE014792
+	for <amjames2@vt.edu>; Thu, 22 Jan 2015 11:51:37 -0500
+Received: by mail-qg0-f41.google.com with SMTP id q108so2096070qgd.0
+        for <amjames2@vt.edu>; Thu, 22 Jan 2015 08:51:32 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:user-agent:date:subject:from:to:cc:message-id
+         :thread-topic:mime-version:content-type;
+        bh=4IvAQFPTmEJSIqiUiFqoPK2FhLSykqljX0/083aAnCU=;
+        b=Fnk0xab2cuqGk/JrXMKPFQdBIpQJI9uTZCQt+XJU5/97bbFoe0Zej65XuNa6SS1/zD
+         BF00f3N0OYeKq6o2wEjag5yetv9BZM0aX9kH7U312nZqwP7QkM0Jamf+hKvOgGg1Ul1Z
+         NcjZ9GRddOQYvngbopye8A6dn4y1CP/ziYWrH1OOPFXpgl8ia1eeX7BkBnpOg8q/TgLo
+         Qa5KEl3knQzcrkSNnDiC+1TwmD8w6IuVtWbIMHZpPw1rOozjvp4spvaAHM9vQBd+dDyt
+         3mqjqEbYZ9GX1iVu6AM77hkTNnod1A0aT27xcR25U/gi/Nj1HH3A5ikAC5pzR9/cm1Aa
+         kEgw==
+X-Received: by 10.140.22.99 with SMTP id 90mr4153612qgm.72.1421945492327;
+        Thu, 22 Jan 2015 08:51:32 -0800 (PST)
+X-Gm-Message-State: ALoCoQn7qBkTDC6nWsGXWEX+Tw/s0fzqdamKDsoVM3TeovdIkjJHzhLUNGd4jLctXtIOntcm+58uZbS4AagmOw3rdhCH7RJTdxsWZpgVKu3Id3oYkXPN2IcGbDSM7krPyKiGaxz5iP9F1ON0zO5cJOpvkf6pSBDsTx8e8o/QWS/P8Metzuf/PILkQFrfuA8RqpIAdx7PaKwd
+X-Received: by 10.140.22.99 with SMTP id 90mr4153558qgm.72.1421945492106;
+        Thu, 22 Jan 2015 08:51:32 -0800 (PST)
+Received: from [10.0.0.7] (c-73-171-122-255.hsd1.va.comcast.net. [73.171.122.255])
+        by mx.google.com with ESMTPSA id k91sm3656430qgf.48.2015.01.22.08.51.25
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 22 Jan 2015 08:51:30 -0800 (PST)
+User-Agent: Microsoft-MacOutlook/14.4.7.141117
+Date: Thu, 22 Jan 2015 11:51:22 -0500
+Subject: Reminder - TA Meeting Today at 4:30
+From: Victoria Long <vilong@vt.edu>
+To: <amjames2@vt.edu>, <kchris1@vt.edu>, <jpmccord@vt.edu>, <nacarter@vt.edu>,
+        <yunhuali@vt.edu>, <yunnan91@vt.edu>, <sarika@vt.edu>,
+        <asadkhan@vt.edu>, <clayps@vt.edu>, <evanmarg@vt.edu>, <lix@vt.edu>,
+        <huang89@vt.edu>, <cbmurr@vt.edu>, <mattvin@vt.edu>, <rahzel05@vt.edu>,
+        <echarity@vt.edu>, <zjie12@vt.edu>, <jgodward@vt.edu>, <cpaula@vt.edu>,
+        <shaoyang@vt.edu>, <hemanthi@vt.edu>, <kjeetk7@vt.edu>, <mka3@vt.edu>,
+        <heliot@vt.edu>, <jshroads@vt.edu>, <tab26@vt.edu>, <wying102@vt.edu>,
+        <zyafen85@vt.edu>, <chengzhe@vt.edu>, <joyann.a.marks@vt.edu>,
+        <mingw@vt.edu>, <drewkoro@vt.edu>, <mc7@vt.edu>,
+        Charles Carfagna <carfagna@vt.edu>
+CC: Victoria Long <vilong@vt.edu>, "Dalton, Michelle" <mdalton1@vt.edu>
+Message-ID: <D0E694BA.106FA%vilong@vt.edu>
+Thread-Topic: Reminder - TA Meeting Today at 4:30
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3504772290_1689541"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3504772290_1689541
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+Good morning all =AD just a quick reminder of the TA meeting (all Tas =AD 1045
+and 1046) this afternoon 4:30 to 6:00. We will take attendance, and please
+note this is a mandatory meeting. I know a few are coming from class, but
+please arrive as quickly as possible. We have a lot to cover so please be
+prompt. Also, please bring your GTA handbook from last Fall if you have one=
+.
+I am in the process of assigning TAs to specific CRNS in scholar, so you
+should have access to your classes soon. Also, for those haven=B9t heard, I
+did manage to fracture my knee (think large golden retrieve plowing you ove=
+r
+in her excitement to go for a run)! I will be out until most likely Mon Feb
+2, but will have access to email during that time. So please email question=
+s
+or concerns! Also, experienced TAs if you could help with any additional
+guidance and comments during the meeting this evening, I=B9d appreciate it.
+Thanks, and we=B9ll (meaning Ms. Dalton) see you this afternoon! Vicki Long
+
+
+
+--B_3504772290_1689541
+Content-type: text/html;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div>Good morning all &#8211; just=
+ a quick reminder of the TA meeting (all Tas &#8211; 1045 and 1046) this aft=
+ernoon 4:30 to 6:00. We will take attendance, and please note this is a mand=
+atory meeting. I know a few are coming from class, but please arrive as quic=
+kly as possible. We have a lot to cover so please be prompt. Also, please br=
+ing your GTA handbook from last Fall if you have one. I am in the process of=
+ assigning TAs to specific CRNS in scholar, so you should have access to you=
+r classes soon. Also, for those haven&#8217;t heard, I did manage to fractur=
+e my knee (think large golden retrieve plowing you over in her excitement to=
+ go for a run)! I will be out until most likely Mon Feb 2, but will have acc=
+ess to email during that time. So please email questions or concerns! Also, =
+experienced TAs if you could help with any additional guidance and comments =
+during the meeting this evening, I&#8217;d appreciate it. &nbsp;Thanks, and =
+we&#8217;ll (meaning Ms. Dalton) see you this afternoon! Vicki Long</div></b=
+ody></html>
+
+--B_3504772290_1689541--
+
+

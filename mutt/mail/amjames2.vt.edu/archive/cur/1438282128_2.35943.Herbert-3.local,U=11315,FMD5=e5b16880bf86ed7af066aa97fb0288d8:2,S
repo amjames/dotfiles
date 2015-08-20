@@ -1,0 +1,373 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2209191qgt;
+        Wed, 24 Jun 2015 09:31:55 -0700 (PDT)
+X-Received: by 10.140.237.136 with SMTP id i130mr56552012qhc.87.1435163515771;
+        Wed, 24 Jun 2015 09:31:55 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id f92si26305387qge.71.2015.06.24.09.31.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 24 Jun 2015 09:31:55 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5OGVnsd019521
+	for <amjames2@vt.edu>; Wed, 24 Jun 2015 12:31:54 -0400
+Received: by iebmu5 with SMTP id mu5so36814942ieb.1
+        for <amjames2@vt.edu>; Wed, 24 Jun 2015 09:31:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=DXIk9CNnIKhJ1oNj/8qTKGLM7wjiniqgiqrCxIq7v4E=;
+        b=WOitcnsUEKk9rNJSrR6G01tyIRgQh1xdLLtbzNMv1VzpRofuZDw95OQxcsLwJ2Lsud
+         G63v5kBLSu5f3SRjpo8H7UD9L6S5F/H2L95r/NeZ7kyMTbO5BsoStsTel30CdWD8R7he
+         r7VLK/nK9EXNzuZaZH7Aq3vxSI5esGkiyM6EqCI8cM7gLBk0/MEFYsc2ufVuntcISmvR
+         Oq04u2Cex6kS32EI+DE8xV5Xa5p5FoF0xvsOHL3VoRfcJNqn6TBPehl7NuVtO1t6Svac
+         EIl7Rn8MnW+zalmUA/bW5/XD+OCdlzIwPM8tpoRMLjwwUAU5hy/zZ6Z3GFEEJJxu2n/n
+         rqBA==
+X-Gm-Message-State: ALoCoQl/lAdNN7+dQsBgiR6ymwednLZIsZ3y7NBUyAhBIf2XWYnZT0+GvoS7TP08+q/ZdwAUqu5rr2QtiIiRR2iuyVnw6reVL9aCHJs6TxFutjVl6ZvBOIbQ8q2FKNDtsPePMfpmBL85vl8KjmH36KQZ4UwQuCF9dQ==
+X-Received: by 10.107.128.72 with SMTP id b69mr36721791iod.84.1435163509721;
+        Wed, 24 Jun 2015 09:31:49 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.128.72 with SMTP id b69mr36721781iod.84.1435163509608;
+ Wed, 24 Jun 2015 09:31:49 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Wed, 24 Jun 2015 09:31:49 -0700 (PDT)
+In-Reply-To: <CAH0V_1Y_=P1Ce6gVDhtu4V_J-uw2NSg=_=SvXVdm1=bMAGWKpA@mail.gmail.com>
+References: <CAH0V_1YxLguCuPOZaSaJBorgCVf5H=uucp=EHuimUxm+ZUoEUg@mail.gmail.com>
+	<65cb9e64280c4514a943c67a03724af6@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1Y_=P1Ce6gVDhtu4V_J-uw2NSg=_=SvXVdm1=bMAGWKpA@mail.gmail.com>
+Date: Wed, 24 Jun 2015 12:31:49 -0400
+Message-ID: <CAH0V_1Y4u+SGOJreF5MkqU1d1pb7141FpOUWXudM9Vs7o66w2g@mail.gmail.com>
+Subject: Re: FW: Molecular Properties Summer School question
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: CSEP1 <csep1@vt.edu>, Andrew James <amjames2@vt.edu>,
+        "Good, Laurie" <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113f96d02f6efe0519460b2f
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113f96d02f6efe0519460b2f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi, Jessica and Melanie,
+
+I just wanted to make sure my email was lost in the cyberabyss, so please
+forgive me if you already saw this inquiry once and for pestering you.
+
+While we currently have Torgersen 1060 reserved for our Molecular
+Properties Summer School June 29 - July 3 (next week), I would like to know
+if we can switch to Goodwin 125 (next door to the classroom we're using for
+the Software Summer School now).  The Goodwin Hall classrooms provide a
+wonderful environment, and it would be convenient for me to have the two
+schools so close to each other.  If Goodwin 125 is not available, is there
+a similar classroom in the same building?  Also, can we get the classroom
+not only during the day, but until 10pm each night?
+
+Thanks for your help with these last-minute requests!
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jun 23, 2015 at 3:37 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Dear Jessica,
+>
+> We only need the extension for the Torgersen 1060 classroom, June 29 -
+> July 3.
+>
+> Actually, I wonder if we could find out if a classroom in Goodwin Hall is
+> available for the June 29 - July 3 Summer School.  We're finding that
+> Goodwin 135 is such a fantastic space that I'd love it if we could get a
+> similar classroom for the school next week.  (And the time frame of 8:30a=
+m
+> to 10:00pm would be ideal, if possible.)
+>
+> -TDC
+>
+> P.S. The labels on the schools are backwards, though I don't know if it
+> matters.  Perhaps it might clear up some confusion.
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Tue, Jun 23, 2015 at 3:31 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+> wrote:
+>
+>>  Melanie,
+>>
+>>
+>>
+>> Dr. Crawford is requesting the class room space he is using be extended
+>> until 10 pm each night so that they can do study sessions.  The rooms ar=
+e:
+>>
+>>
+>>
+>> 1.     June 22nd =E2=80=93 27th 8:30am =E2=80=93 5:00pm =E2=80=93 Proper=
+ty Summer School
+>>
+>> Goodwin 135 *no rooms in Torgersen were available but this room is
+>> equipped with whiteboards, tables, and outlets for every student to plug=
+ in
+>> laptops
+>>
+>>
+>>
+>> 2.     June 29th =E2=80=93 July 1st 8:30am =E2=80=93 5:00pm =E2=80=93 Pr=
+operty Summer School
+>>
+>> Goodwin 135
+>>
+>>
+>>
+>> 3.     June 29th =E2=80=93 July 3rd 8:30am =E2=80=93 5:00pm =E2=80=93 So=
+ftware Summer School
+>>
+>> Torgersen 1060
+>>
+>>
+>>
+>> Please let me know if this is a possibility.
+>>
+>>
+>>
+>> Thanks!
+>>
+>>
+>>
+>> Jessica
+>>
+>>
+>>
+>>
+>>
+>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+>> *Sent:* Tuesday, June 23, 2015 11:19 AM
+>> *To:* Brow, Jessica
+>> *Cc:* Andrew James; Good, Laurie
+>> *Subject:* Molecular Properties Summer School question
+>>
+>>
+>>
+>> Dear Jessica,
+>>
+>>
+>>
+>> I have a quick question regarding use of the classroom for next week's
+>> MRPSS.  We would like to be able to meet with the students in the classr=
+oom
+>> after dinner to work collectively on exercises/problem sets.  Can we als=
+o
+>> keep the room reserved until about 9 or 10pm Monday through Thursday of
+>> next week?
+>>
+>>
+>>
+>> Thanks for your help!
+>>
+>>
+>>
+>> -TDC
+>>
+>> --
+>>
+>> Prof. T. Daniel Crawford
+>>
+>> crawdad@vt.edu
+>>
+>
+>
+
+--001a113f96d02f6efe0519460b2f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, Jessica and Melanie,<div><br></div><div>I just wanted =
+to make sure my email was lost in the cyberabyss, so please forgive me if y=
+ou already saw this inquiry once and for pestering you.</div><div><br></div=
+><div>While we currently have Torgersen 1060 reserved for our Molecular Pro=
+perties Summer School June 29 - July 3 (next week), I would like to know if=
+ we can switch to Goodwin 125 (next door to the classroom we&#39;re using f=
+or the Software Summer School now).=C2=A0 The Goodwin Hall classrooms provi=
+de a wonderful environment, and it would be convenient for me to have the t=
+wo schools so close to each other.=C2=A0 If Goodwin 125 is not available, i=
+s there a similar classroom in the same building?=C2=A0 Also, can we get th=
+e classroom not only during the day, but until 10pm each night?</div><div><=
+br></div><div>Thanks for your help with these last-minute requests!</div><d=
+iv><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"a=
+ll"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Da=
+niel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank"=
+>crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Jun 23, 2015 at 3:37 PM, T. Daniel C=
+rawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Dear Jessica,<div><br></div><div>We only need the exten=
+sion for the Torgersen 1060 classroom, June 29 - July 3.</div><div><br></di=
+v><div>Actually, I wonder if we could find out if a classroom in Goodwin Ha=
+ll is available for the June 29 - July 3 Summer School.=C2=A0 We&#39;re fin=
+ding that Goodwin 135 is such a fantastic space that I&#39;d love it if we =
+could get a similar classroom for the school next week. =C2=A0(And the time=
+ frame of 8:30am to 10:00pm would be ideal, if possible.)</div><span class=
+=3D"HOEnZb"><font color=3D"#888888"><div><br></div><div>-TDC</div></font></=
+span><div><br></div><div>P.S. The labels on the schools are backwards, thou=
+gh I don&#39;t know if it matters.=C2=A0 Perhaps it might clear up some con=
+fusion.</div></div><div class=3D"gmail_extra"><span class=3D""><br clear=3D=
+"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div>=
+<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div=
+></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Tue, Jun 23=
+, 2015 at 3:31 PM, Brow, Jessica <span dir=3D"ltr">&lt;<a href=3D"mailto:jb=
+row@exchange.vt.edu" target=3D"_blank">jbrow@exchange.vt.edu</a>&gt;</span>=
+ wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bor=
+der-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Melanie,<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Dr. Crawford is requesting the class =
+room space he is using be extended until 10 pm each night so that they can =
+do study sessions.=C2=A0 The rooms are:<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p><u></u><span style=3D"font-size:14.0pt;font-family:&quot;Baskerville Old=
+ Face&quot;,serif;color:#1f497d"><span>1.<span style=3D"font:7.0pt &quot;Ti=
+mes New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><u></u><span style=3D"font-size:14.0pt;font-family:&qu=
+ot;Baskerville Old Face&quot;,serif;color:#1f497d">June 22<sup>nd</sup> =E2=
+=80=93 27<sup>th</sup> 8:30am =E2=80=93 5:00pm =E2=80=93 Property Summer Sc=
+hool<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"text-indent:.5in"><span style=3D"font-size:=
+14.0pt;font-family:&quot;Baskerville Old Face&quot;,serif;color:#1f497d">Go=
+odwin 135 *no rooms in Torgersen were available but this room is equipped w=
+ith whiteboards, tables, and outlets for every student
+ to plug in laptops<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d"><u></u>=C2=A0<u></u></span></=
+p>
+<p><u></u><span style=3D"font-size:14.0pt;font-family:&quot;Baskerville Old=
+ Face&quot;,serif;color:#1f497d"><span>2.<span style=3D"font:7.0pt &quot;Ti=
+mes New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><u></u><span style=3D"font-size:14.0pt;font-family:&qu=
+ot;Baskerville Old Face&quot;,serif;color:#1f497d">June 29<sup>th</sup> =E2=
+=80=93 July 1<sup>st</sup> 8:30am =E2=80=93 5:00pm =E2=80=93 Property Summe=
+r School<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"text-indent:.5in"><span style=3D"font-size:=
+14.0pt;font-family:&quot;Baskerville Old Face&quot;,serif;color:#1f497d">Go=
+odwin 135<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"text-indent:.5in"><span style=3D"font-size:=
+14.0pt;font-family:&quot;Baskerville Old Face&quot;,serif;color:#1f497d"><u=
+></u>=C2=A0<u></u></span></p>
+<p><u></u><span style=3D"font-size:14.0pt;font-family:&quot;Baskerville Old=
+ Face&quot;,serif;color:#1f497d"><span>3.<span style=3D"font:7.0pt &quot;Ti=
+mes New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><u></u><span style=3D"font-size:14.0pt;font-family:&qu=
+ot;Baskerville Old Face&quot;,serif;color:#1f497d">June 29<sup>th</sup> =E2=
+=80=93 July 3<sup>rd</sup> 8:30am =E2=80=93 5:00pm =E2=80=93 Software Summe=
+r School<u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"text-indent:.5in"><span style=3D"font-size:=
+14.0pt;font-family:&quot;Baskerville Old Face&quot;,serif;color:#1f497d">To=
+rgersen 1060<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d"><u></u>=C2=A0<u></u></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d">Please let me know if this is=
+ a possibility.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d"><u></u>=C2=A0<u></u></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d">Thanks!<u></u><u></u></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d"><u></u>=C2=A0<u></u></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif;color:#1f497d">Jessica<u></u><u></u></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Crawford [mailto:<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Tuesday, June 23, 2015 11:19 AM<br>
+<b>To:</b> Brow, Jessica<br>
+<b>Cc:</b> Andrew James; Good, Laurie<br>
+<b>Subject:</b> Molecular Properties Summer School question<u></u><u></u></=
+span></p><div><div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">Dear Jessica,<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">I have a quick question regarding use of the classro=
+om for next week&#39;s MRPSS.=C2=A0 We would like to be able to meet with t=
+he students in the classroom after dinner to work collectively on exercises=
+/problem sets.=C2=A0 Can we also keep the room reserved
+ until about 9 or 10pm Monday through Thursday of next week?<u></u><u></u><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks for your help!<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-TDC<br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">--<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div>
+
+--001a113f96d02f6efe0519460b2f--

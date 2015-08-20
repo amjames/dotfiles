@@ -1,0 +1,153 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp57953qgt;
+        Wed, 8 Jul 2015 12:30:32 -0700 (PDT)
+X-Received: by 10.140.98.238 with SMTP id o101mr18703176qge.12.1436383832395;
+        Wed, 08 Jul 2015 12:30:32 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 189si3911148qhh.85.2015.07.08.12.30.32
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jul 2015 12:30:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t68JUQuF016764
+	for <amjames2@vt.edu>; Wed, 8 Jul 2015 15:30:31 -0400
+Received: by igrv9 with SMTP id v9so207731227igr.1
+        for <amjames2@vt.edu>; Wed, 08 Jul 2015 12:30:26 -0700 (PDT)
+X-Received: by 10.107.136.153 with SMTP id s25mr20976869ioi.65.1436383826711;
+        Wed, 08 Jul 2015 12:30:26 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp224173iee;
+        Wed, 8 Jul 2015 12:30:25 -0700 (PDT)
+X-Received: by 10.140.149.76 with SMTP id 73mr19952027qhv.94.1436383825006;
+        Wed, 08 Jul 2015 12:30:25 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 141si3947028qht.25.2015.07.08.12.30.23
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jul 2015 12:30:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:277:40de:506c])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t68JUKXU008222
+	for <andrew.m.james2@gmail.com>; Wed, 8 Jul 2015 15:30:20 -0400
+Received: from mail-ig0-f173.google.com (mail-ig0-f173.google.com [209.85.213.173])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t68JUF47028081
+	for <andrew.m.james2@gmail.com>; Wed, 8 Jul 2015 15:30:20 -0400
+Received: by igrv9 with SMTP id v9so207727299igr.1
+        for <andrew.m.james2@gmail.com>; Wed, 08 Jul 2015 12:30:15 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=3T9U5RG9wrd2FMxrs30Q648H3jcKoFyVGdttpv47lyc=;
+        b=LIuRUohjTecPzE1n8OEQyds1C6PIj5tdI2CA3IoSYKDk0PvA4ruf3D8Aw9r/NFGKpJ
+         JUWZVD+2NOiS4Rj9O1B1/0aVVij2P/iFTMd0QtkRvr5WMLAyReyRhF2dQB39pp6cjAiu
+         x7bJ8KYED7DBrDkY0pCz9RRZpqm3YFEe80arKotlpa83Pua8DgdD+KxgNm267tp99jTV
+         8n5LUa2oJWyHERmcDavUZjOHDvFZajpEp/VUAPqzllZ261cgp0kmzsrWCkPKerzYURk2
+         PSFu8wqbHSUXIrjNfWX/Vvf/7HlvG4t9rCJBkJhAoskedx8WVoqBDhdvlow+nOJjW+g9
+         kpQw==
+X-Gm-Message-State: ALoCoQnVlMku8bYiNyKw8GnOA7D8Q5ImFdQoehl+JzogFQeb+7+SYSoWI+QQIf9nr5tRS//BuOVUioDaynSxTW11V1jUSHAjbDdrc743n7PEq01cPv3Tx+0KUEZA6oh5z5IvAfd9RD22s5/93fXZUIfLvbN8vE4J9Q==
+X-Received: by 10.50.225.65 with SMTP id ri1mr61754591igc.47.1436383813953;
+        Wed, 08 Jul 2015 12:30:13 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.225.65 with SMTP id ri1mr61754522igc.47.1436383813371;
+ Wed, 08 Jul 2015 12:30:13 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Wed, 8 Jul 2015 12:30:13 -0700 (PDT)
+In-Reply-To: <985AACA0-EEE1-4D53-A3A7-493758300D0E@gmail.com>
+References: <CAH0V_1YB9p6uxjLZzha5D2TBpgD-W0yFePopFMD6j9-gD++FUg@mail.gmail.com>
+	<985AACA0-EEE1-4D53-A3A7-493758300D0E@gmail.com>
+Date: Wed, 8 Jul 2015 15:30:13 -0400
+Message-ID: <CAH0V_1aCBqf8oPHB=SVf6RemgDqp_JZsR020PqZt4J1e32yiLw@mail.gmail.com>
+Subject: Re: polyradicals
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1132f24ef511b2051a622a39
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 2881
+
+--001a1132f24ef511b2051a622a39
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Where is it running?  I'd like to take a look.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Wed, Jul 8, 2015 at 3:28 PM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Hi, Dr. Crawford,
+>
+> The job failed the first time I ran it and the error message told me to
+> try increase =E2=80=9CFOLLOW_STEP_SCALE=E2=80=9D.  The manual said the de=
+fault was 0.5 so I
+> increased it to 0.75 and re-submitted.  The job has past the stability
+> analysis now and it on the second CC iteration.
+>
+>
+> =E2=80=94AJ
+>
+> On Jul 8, 2015, at 3:06 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Hi, AJ,
+>
+> How did you UHF-CC calculations for structure 4 turn out?
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a1132f24ef511b2051a622a39
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Where is it running?=C2=A0 I&#39;d like to take a look.<di=
+v><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"al=
+l"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Dan=
+iel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 8, 2015 at 3:28 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Hi, Dr. Crawford,=C2=
+=A0<div><br></div><div>The job failed the first time I ran it and the error=
+ message told me to try increase =E2=80=9CFOLLOW_STEP_SCALE=E2=80=9D.=C2=A0=
+ The manual said the default was 0.5 so I increased it to 0.75 and re-submi=
+tted.=C2=A0 The job has past the stability analysis now and it on the secon=
+d CC iteration. =C2=A0</div><span class=3D"HOEnZb"><font color=3D"#888888">=
+<div><br></div></font></span><div><span class=3D"HOEnZb"><font color=3D"#88=
+8888"><br><div>
+<div>=E2=80=94AJ</div>
+</div></font></span><div><div class=3D"h5">
+<br><div><blockquote type=3D"cite"><div>On Jul 8, 2015, at 3:06 PM, T. Dani=
+el Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad=
+@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">Hi, AJ,<div><br></div=
+><div>How did you UHF-CC calculations for structure 4 turn out?</div><div><=
+br></div><div>-TDC<br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof.=
+ T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a1132f24ef511b2051a622a39--

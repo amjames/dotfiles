@@ -1,0 +1,65 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1912256qgt;
+        Mon, 15 Jun 2015 12:24:44 -0700 (PDT)
+X-Received: by 10.55.22.130 with SMTP id 2mr63441240qkw.45.1434396284698;
+        Mon, 15 Jun 2015 12:24:44 -0700 (PDT)
+Return-Path: <bursar@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id e144si11718981qhc.127.2015.06.15.12.24.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Jun 2015 12:24:44 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bursar@vt.edu does not designate 216.69.106.22 as permitted sender) client-ip=216.69.106.22;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning bursar@vt.edu does not designate 216.69.106.22 as permitted sender) smtp.mail=bursar@vt.edu
+Received: from mail.quikpayasp.com (servicer.quikpayasp.com [216.69.106.22])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5FJOTsK027648
+	for <amjames2@vt.edu>; Mon, 15 Jun 2015 15:24:44 -0400
+Received: from qpapp202.quikpayasp.com (qpapp202.quikpayasp.com [10.185.0.151])
+	by mail.quikpayasp.com (Postfix) with ESMTP id 5072C6CD03
+	for <amjames2@vt.edu>; Mon, 15 Jun 2015 14:24:37 -0500 (CDT)
+From: bursar@vt.edu
+To: amjames2@vt.edu
+Message-ID: <1000289172.20923.1434396277324.JavaMail.quikpay@qpapp202>
+Subject: Current Virginia Tech e-bill is now available.
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_20922_1465873308.1434396277324"
+Date: Mon, 15 Jun 2015 14:24:37 -0500 (CDT)
+X-Spam-Status: No, score=0.0 required=5.0 tests=RCVD_IN_DNSWL_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_20922_1465873308.1434396277324
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=utf-8
+
+Dear Student,
+
+Your Virginia Tech electronic statement dated June 15, 2015 is now available.
+
+This e-bill notification has been sent to you because new charges, payments, or credits have posted to your account in this billing cycle, or you have an outstanding balance due.  It is possible there has been activity on your account and your account balance is zero.
+
+If you have past due charges, a registration hold has been placed on your account.
+
+For security reasons, please do not click directly on any urls listed in this email message.  Instead, copy and paste them into your web browser.
+
+You may view your monthly statement under the University Account Information menu on Hokie Spa, www.hokiespa.vt.edu.  Click on the link:  View and Pay your e-bill.  This links you to the QuikPAY e-commerce system.
+
+Any outstanding balances may be paid electronically by e-check or credit card. If you wish for another party to view and pay on your behalf, you must establish them in the QuikPAY e-commerce system as an authorized payer. For more information on this, please go to the University Bursar website: http://www.bursar.vt.edu/billing_payment/authorized_payers.php
+
+Paying Electronically: Two electronic payment options are offered for your convenience:
+
+E-Check: An electronic debit to your checking account or savings account. There is no charge for this service.
+Credit Card: MasterCard and American Express are accepted by our service provider. A 2.75% service fee is charged to the payer for credit card payments.
+
+In addition to these options, Budget Tuition Plan (BTP) is a convenient method for paying your student account.  To enroll in this interest-free plan, login to www.hokiespa.vt.edu, choose 'University Account Information' menu, then select 'Apply for Budget Tuition Plan'.
+
+If you wish to pay by mail and paper check, you may print a pdf copy of your statement and mail it along with your check to the address listed on the statement. Please allow sufficient time for mailing and processing.
+
+Virginia Tech's policy is to bill all students, faculty, and staff electronically.  If you have questions, please email us at bursar@vt.edu, or call 540-231-6277.
+------=_Part_20922_1465873308.1434396277324--

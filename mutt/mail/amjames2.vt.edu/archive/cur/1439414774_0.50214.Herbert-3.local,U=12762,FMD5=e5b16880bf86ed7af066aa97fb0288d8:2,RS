@@ -1,0 +1,78 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp524258qgt;
+        Wed, 12 Aug 2015 14:24:55 -0700 (PDT)
+X-Received: by 10.140.232.209 with SMTP id d200mr55595340qhc.68.1439414695576;
+        Wed, 12 Aug 2015 14:24:55 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id a74si141325qgf.94.2015.08.12.14.24.55
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 14:24:55 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.176 as permitted sender) smtp.mailfrom=cduchane@vt.edu
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7CLOows003807
+	for <amjames2@vt.edu>; Wed, 12 Aug 2015 17:24:55 -0400
+Received: by igbpg9 with SMTP id pg9so121062172igb.0
+        for <amjames2@vt.edu>; Wed, 12 Aug 2015 14:24:49 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :content-type;
+        bh=PKd5kCH3iskwME3htIe+EJNHtoz84Dl2IBBiFS9oe6o=;
+        b=hYiMeQ4uTwhc4TcuFO5WXOsDinKcDDoz48YtUya0KR/C3I0S00IuySVvfrL1Io4eU2
+         9eUJNkHxZtpdOeVfjrxabPoXrtdw2f/wCDVDwxyBS79INyL7Ls2oz4XNpYeDsxYmUVwB
+         KgcZqcUxWHU3tT/SBQcg8JOZhJmGZFcrvZP8pwnfliaWazVo0mvdpqDw+48zMaBaMxFl
+         qLeRjWhbheW56GDq6U4y2ZfChyVNMA2phKqY37Wa9huqWufyLACGt15Kvo4RHGsPa7q6
+         Jj/Y8tQWKidHvoHs1KlKpBMFTNqybwuLfVSPioXZTyIPCVB/HidgR+M9Xr35RxOQ00Tn
+         OY4w==
+X-Gm-Message-State: ALoCoQk2HN2p0hbuhMa/fPnaraMujUIDjfykkZWWAihugmjePwSF33pPZ9CWjVvdLdkhCG6p3dodjvsF6kh/gAS02SajWgFzxGuSfzbZfbXO3BRYDwAJWx2SgN2wNbRPUJld/wdTvE/0gVAqzyU01C7OQS/OZGPa4g==
+X-Received: by 10.50.66.197 with SMTP id h5mr26077239igt.81.1439414689881;
+        Wed, 12 Aug 2015 14:24:49 -0700 (PDT)
+X-Received: by 10.50.66.197 with SMTP id h5mr26077236igt.81.1439414689776;
+ Wed, 12 Aug 2015 14:24:49 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Wed, 12 Aug 2015 14:24:30 -0700 (PDT)
+From: Christine Duchane <cduchane@vt.edu>
+Date: Wed, 12 Aug 2015 17:24:30 -0400
+Message-ID: <CAECk6+7C0sDhevpYndqy8jOJChvrJtkOM8qG68uFOWfSeVmqPQ@mail.gmail.com>
+Subject: Science
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bd6be0e44e0a0051d23d9f9
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bd6be0e44e0a0051d23d9f9
+Content-Type: text/plain; charset=UTF-8
+
+Hello darling,
+Just thought I'd check in to see how my favorite theorist is doing today. I
+actually had a rather productive day today - I've still got lots to do but
+I feel bad leaving Carson alone for so much time this week. Should I have
+her come pick me up? If you think you'll be at a logical stopping point
+soonish then I'll just stick around and catch a ride with you, but
+otherwise I'll have her come get me soon. You still want to go climbing
+tonight?
+=)
+
+--047d7bd6be0e44e0a0051d23d9f9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello darling,<div>Just thought I&#39;d check in to see ho=
+w my favorite theorist is doing today. I actually had a rather productive d=
+ay today - I&#39;ve still got lots to do but I feel bad leaving Carson alon=
+e for so much time this week. Should I have her come pick me up? If you thi=
+nk you&#39;ll be at a logical stopping point soonish then I&#39;ll just sti=
+ck around and catch a ride with you, but otherwise I&#39;ll have her come g=
+et me soon. You still want to go climbing tonight?</div><div>=3D)</div></di=
+v>
+
+--047d7bd6be0e44e0a0051d23d9f9--

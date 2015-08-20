@@ -1,0 +1,277 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.17] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id a6sm3863989qgf.13.2015.01.26.12.41.10
+        for <crawdad@vt.edu>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 26 Jan 2015 12:41:10 -0800 (PST)
+From: Andrew James <amjames2@vt.edu>
+X-Google-Original-From: Andrew James <amjames@vt.edu>
+Date: Mon, 26 Jan 2015 15:41:09 -0500
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Message-ID: <AAB8696FC08C4BA2AE78F3F63DDC9637@vt.edu>
+In-Reply-To: <CAH0V_1bo826TtpOytbBkxB-QOwiEF596iH6JWkyeUuaFiaZJoQ@mail.gmail.com>
+References: <CAH0V_1bfry3cFx=ZOjg0Bw44DaL1aC9Gjv=Ub6+nWmH25dWqJA@mail.gmail.com>
+ <D9B0DA7D15F84F549FA7DFE7627BBAE1@vt.edu>
+ <CAH0V_1Zd-XdFNNQpA=Mas4WrucEEVR4DSTdCCHXK4qSOYS-PNA@mail.gmail.com>
+ <463A35F2EA6C49F69AF1DA39ECA9CCE1@vt.edu>
+ <CAH0V_1Z=H7SVGcatUwMB4wHjvT880tKy=iY7+OupgDgJ1bodyQ@mail.gmail.com>
+ <D8E303A2A9094E1F99F807E583216A93@vt.edu>
+ <CAH0V_1bo826TtpOytbBkxB-QOwiEF596iH6JWkyeUuaFiaZJoQ@mail.gmail.com>
+Subject: Re: PSI4 on blueridge
+X-Mailer: sparrow 1.6.3 (build 1173)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="54c6a665_746f2e30_f5ca"
+
+--54c6a665_746f2e30_f5ca
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+On blue-ridge in: =20
+
+/home/amjames2/chem/acene/sigma=5Ffreeze/phenylalenyl/ccsd
+
+-- =20
+Andrew M. James
+Graduate Teaching Assistant =20
+Virginia Tech =20
+Sent with Sparrow (http://www.sparrowmailapp.com/=3Fsig)
+
+
+On Monday, January 26, 2015 at 3:39 PM, T. Daniel Crawford wrote:
+
+> Where did the job run=3F
+> =20
+> --
+> Prof. T. Daniel Crawford
+> crawdad=40vt.edu (mailto:crawdad=40vt.edu)
+> =20
+> =20
+> =20
+> =20
+> On Mon, Jan 26, 2015 at 3:39 PM, Andrew James <amjames2=40vt.edu (mailt=
+o:amjames2=40vt.edu)> wrote:
+> > So the same job (phenalenyl) died during the ccdensity program again.=
+  This time the error file told me there was a segmentation-fault. I am r=
+an the same calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this=
+ is an issue with phenalenyl being open shell, but its quite a bit bigger=
+ and may take a while for that to run. =20
+> > =20
+> > -- =20
+> > Andrew M. James
+> > Graduate Teaching Assistant =20
+> > Virginia Tech =20
+> > Sent with Sparrow (http://www.sparrowmailapp.com/=3Fsig)
+> > =20
+> > =20
+> > On Monday, January 26, 2015 at 2:48 PM, T. Daniel Crawford wrote:
+> > =20
+> > > OK, try it now.
+> > > =20
+> > > --
+> > > Prof. T. Daniel Crawford
+> > > crawdad=40vt.edu (mailto:crawdad=40vt.edu)
+> > > =20
+> > > =20
+> > > =20
+> > > =20
+> > > On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <amjames2=40vt.edu (m=
+ailto:amjames2=40vt.edu)> wrote:
+> > > > I can=E2=80=99t cd into it or ls it =20
+> > > > =20
+> > > > -- =20
+> > > > Andrew M. James
+> > > > Graduate Teaching Assistant =20
+> > > > Virginia Tech =20
+> > > > Sent with Sparrow (http://www.sparrowmailapp.com/=3Fsig)
+> > > > =20
+> > > > =20
+> > > > On Monday, January 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:=
+
+> > > > =20
+> > > > > If you =22cd=22 into that directory, can you run =22ls=22=3F
+> > > > > =20
+> > > > > -TDC
+> > > > > =20
+> > > > > --
+> > > > > Prof. T. Daniel Crawford
+> > > > > crawdad=40vt.edu (mailto:crawdad=40vt.edu)
+> > > > > =20
+> > > > > =20
+> > > > > =20
+> > > > > =20
+> > > > > On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <amjames2=40vt.ed=
+u (mailto:amjames2=40vt.edu)> wrote:
+> > > > > > I just tried to submit a job using that path and I got a =E2=80=
+=9CPermission denied=E2=80=9D error for that path.  =20
+> > > > > > =20
+> > > > > > I also so far have not been able to make any progress on cere=
+bro.  The jobs still fail in the same place just after the CCDensity() pr=
+ogram starts.  =20
+> > > > > > =20
+> > > > > > -- =20
+> > > > > > Andrew M. James
+> > > > > > Graduate Teaching Assistant =20
+> > > > > > Virginia Tech =20
+> > > > > > Sent with Sparrow (http://www.sparrowmailapp.com/=3Fsig)
+> > > > > > =20
+> > > > > > =20
+> > > > > > On Monday, January 26, 2015 at 2:19 PM, T. Daniel Crawford wr=
+ote:
+> > > > > > =20
+> > > > > > > AJ,
+> > > > > > > =20
+> > > > > > > I've installed PSI4 in =7Ecrawdad/psi4.  See if you can acc=
+ess it from your account.
+> > > > > > > =20
+> > > > > > > -TDC
+> > > > > > > --
+> > > > > > > Prof. T. Daniel Crawford
+> > > > > > > crawdad=40vt.edu (mailto:crawdad=40vt.edu)
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > > =20
+> > > > > > =20
+> > > > > > =20
+> > > > > =20
+> > > > =20
+> > > =20
+> > =20
+> =20
+
+
+--54c6a665_746f2e30_f5ca
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+
+                <div style=3D=22font-family: Helvetica; font-size: 13px;=22=
+><div>On blue-ridge in:&nbsp;</div><div><br></div>/home/amjames2/chem/ace=
+ne/sigma=5Ffreeze/phenylalenyl/ccsd<br></div>
+                <div><div><br></div><div>--&nbsp;</div><div>Andrew M. Jam=
+es</div><div>Graduate Teaching Assistant&nbsp;</div><div>Virginia Tech&nb=
+sp;</div><div>Sent with <a href=3D=22http://www.sparrowmailapp.com/=3Fsig=
+=22>Sparrow</a></div><div><br></div></div>
+                =20
+                <p style=3D=22color: =23A0A0A8;=22>On Monday, January 26,=
+ 2015 at 3:39 PM, T. Daniel Crawford wrote:</p>
+                <blockquote type=3D=22cite=22 style=3D=22border-left-styl=
+e:solid;border-width:1px;margin-left:0px;padding-left:10px;=22>
+                    <span><div><div><div dir=3D=22ltr=22>Where did the jo=
+b run=3F</div><div><br clear=3D=22all=22><div><div><div dir=3D=22ltr=22>-=
+-<div>Prof. T. Daniel Crawford</div><div><a href=3D=22mailto:crawdad=40vt=
+.edu=22 target=3D=22=5Fblank=22>crawdad=40vt.edu</a></div></div></div></d=
+iv>
+<br><div>On Mon, Jan 26, 2015 at 3:39 PM, Andrew James <span dir=3D=22ltr=
+=22>&lt;<a href=3D=22mailto:amjames2=40vt.edu=22 target=3D=22=5Fblank=22>=
+amjames2=40vt.edu</a>&gt;</span> wrote:<br><blockquote type=3D=22cite=22>=
+<div>
+                <div style=3D=22font-family:Helvetica;font-size:13px=22>S=
+o the same job (phenalenyl) died during the ccdensity program again.&nbsp=
+; This time the error file told me there was a segmentation-fault. I am r=
+an the same calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this=
+ is an issue with phenalenyl being open shell, but its quite a bit bigger=
+ and may take a while for that to run.&nbsp;<br></div><span>
+                <div><div><br></div><div>--&nbsp;</div><div>Andrew M. Jam=
+es</div><div>Graduate Teaching Assistant&nbsp;</div><div>Virginia Tech&nb=
+sp;</div><div>Sent with <a href=3D=22http://www.sparrowmailapp.com/=3Fsig=
+=22 target=3D=22=5Fblank=22>Sparrow</a></div><div><br></div></div>
+                 =20
+                </span><div><div><p style=3D=22color:=23a0a0a8=22>On Mond=
+ay, January 26, 2015 at 2:48 PM, T. Daniel Crawford wrote:</p><blockquote=
+ type=3D=22cite=22><div>
+                    <span><div><div><div dir=3D=22ltr=22>OK, try it now.<=
+/div><div><br clear=3D=22all=22><div><div><div dir=3D=22ltr=22>--<div>Pro=
+f. T. Daniel Crawford</div><div><a href=3D=22mailto:crawdad=40vt.edu=22 t=
+arget=3D=22=5Fblank=22>crawdad=40vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <span dir=3D=22ltr=
+=22>&lt;<a href=3D=22mailto:amjames2=40vt.edu=22 target=3D=22=5Fblank=22>=
+amjames2=40vt.edu</a>&gt;</span> wrote:<br><blockquote type=3D=22cite=22>=
+<div>
+                <div style=3D=22font-family:Helvetica;font-size:13px=22>I=
+ can=E2=80=99t cd into it or ls it&nbsp;<br></div><span>
+                <div><div><br></div><div>--&nbsp;</div><div>Andrew M. Jam=
+es</div><div>Graduate Teaching Assistant&nbsp;</div><div>Virginia Tech&nb=
+sp;</div><div>Sent with <a href=3D=22http://www.sparrowmailapp.com/=3Fsig=
+=22 target=3D=22=5Fblank=22>Sparrow</a></div><div><br></div></div>
+                  =20
+                </span><div><div><p style=3D=22color:=23a0a0a8=22>On Mond=
+ay, January 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:</p><blockquote=
+ type=3D=22cite=22><div>
+                    <span><div><div><div dir=3D=22ltr=22>If you =22cd=22 =
+into that directory, can you run =22ls=22=3F<div><br></div><div>-TDC</div=
+></div><div><br clear=3D=22all=22><div><div><div dir=3D=22ltr=22>--<div>P=
+rof. T. Daniel Crawford</div><div><a href=3D=22mailto:crawdad=40vt.edu=22=
+ target=3D=22=5Fblank=22>crawdad=40vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <span dir=3D=22ltr=
+=22>&lt;<a href=3D=22mailto:amjames2=40vt.edu=22 target=3D=22=5Fblank=22>=
+amjames2=40vt.edu</a>&gt;</span> wrote:<br><blockquote type=3D=22cite=22>=
+<div>
+                <div style=3D=22font-family:Helvetica;font-size:13px=22>I=
+ just tried to submit a job using that path and I got a =E2=80=9CPermissi=
+on denied=E2=80=9D error for that path. &nbsp;<div><br></div><div>I also =
+so far have not been able to make any progress on cerebro.&nbsp; The jobs=
+ still fail in the same place just after the CCDensity() program starts.&=
+nbsp;</div></div><span><font color=3D=22=23888888=22>
+                <div><div><br></div><div>--&nbsp;</div><div>Andrew M. Jam=
+es</div><div>Graduate Teaching Assistant&nbsp;</div><div>Virginia Tech&nb=
+sp;</div><div>Sent with <a href=3D=22http://www.sparrowmailapp.com/=3Fsig=
+=22 target=3D=22=5Fblank=22>Sparrow</a></div><div><br></div></div></font>=
+</span><div><div>
+                   =20
+                <p style=3D=22color:=23a0a0a8=22>On Monday, January 26, 2=
+015 at 2:19 PM, T. Daniel Crawford wrote:</p><blockquote type=3D=22cite=22=
+><div>
+                    <span><div><div><div dir=3D=22ltr=22>AJ,<div><br></di=
+v><div>I've installed PSI4 in =7Ecrawdad/psi4.&nbsp; See if you can acces=
+s it from your account.</div><div><br></div><div>-TDC<br clear=3D=22all=22=
+><div><div><div dir=3D=22ltr=22>--<div>Prof. T. Daniel Crawford</div><div=
+><a href=3D=22mailto:crawdad=40vt.edu=22 target=3D=22=5Fblank=22>crawdad=40=
+vt.edu</a></div></div></div></div>
+</div></div>
+</div></div></span>
+                   =20
+                   =20
+                   =20
+                   =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                  =20
+                  =20
+                  =20
+                  =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                 =20
+                 =20
+                 =20
+                 =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            
+--54c6a665_746f2e30_f5ca--
+

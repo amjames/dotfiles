@@ -1,0 +1,1081 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1113932qge;
+        Fri, 13 Mar 2015 13:02:39 -0700 (PDT)
+X-Received: by 10.55.55.141 with SMTP id e135mr50397351qka.78.1426276959849;
+        Fri, 13 Mar 2015 13:02:39 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id c60si2873236qga.8.2015.03.13.13.02.39
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 13:02:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.176 as permitted sender) client-ip=209.85.223.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f176.google.com (mail-ie0-f176.google.com [209.85.223.176])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DK2XsZ029014
+	for <amjames2@vt.edu>; Fri, 13 Mar 2015 16:02:38 -0400
+Received: by iecsl2 with SMTP id sl2so123007467iec.1
+        for <amjames2@vt.edu>; Fri, 13 Mar 2015 13:02:33 -0700 (PDT)
+X-Received: by 10.51.17.40 with SMTP id gb8mr87038846igd.44.1426276935962;
+        Fri, 13 Mar 2015 13:02:15 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1047813ieb;
+        Fri, 13 Mar 2015 13:02:15 -0700 (PDT)
+X-Received: by 10.55.26.2 with SMTP id a2mr82033238qka.100.1426276934759;
+        Fri, 13 Mar 2015 13:02:14 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id 2si2848420qku.103.2015.03.13.13.02.14
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 13:02:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr3.cc.vt.edu (mr3.cc.vt.edu [198.82.141.68] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DK2EEa017404
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 16:02:14 -0400
+Received: from mail-ie0-f172.google.com (mail-ie0-f172.google.com [209.85.223.172])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2DK23uI016271
+	for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 16:02:11 -0400
+Received: by iecvj10 with SMTP id vj10so119607025iec.0
+        for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 13:02:02 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=ep06oxYfw2NmI4xXs9TF5ZBJ7G6t/Tl465fvoVQH0OI=;
+        b=l4LuWR5aw25bbYGj1pA1NeUIUMeNRTiB/AlmHRqanhZBVRWsTOyjwX23tM5jddW1aU
+         nyNEeGTvmY4crvodmHMw5E/+vViaRZ+DC1cpRZ1vnRY+T7+MF1zD8nJpwhMop6RgtorU
+         efZsEfvlJKseQTLS8Umc9FrHWuAHAUtqt9KF/z/+OBEIdT9PCyRDcHQJt17CVFIhm/FZ
+         4XbNyekxxFFkqrUfI4L9l6cnc6ppoyLmXAq2JZQ8k0HmzYfzjTldo6eCZ9GYPcxbc5Ys
+         tUphKF0NQSE4EiQ+LETR17JFm8Av5YZXN+D9e7rNBezjoCBbw/W19HwEOzdvyL7MAC0U
+         Ot1g==
+X-Gm-Message-State: ALoCoQlKXWbBE+LIwF0eyjadT9og9oe+MJvX95AxPEltcJLaI4oOXwy3UxW8YLBMzoaWAQJ4sVBKQ03Wzd0akKuJkbZwLCA2zsdIegeEeUJnKwYAmwNeIFocLRwvmWKMOcTvZpgUQ2I7aQJVp+yCqrYEOZXhKN1oHg==
+X-Received: by 10.42.247.68 with SMTP id mb4mr59882700icb.2.1426276906420;
+        Fri, 13 Mar 2015 13:01:46 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.247.68 with SMTP id mb4mr59882679icb.2.1426276906276;
+ Fri, 13 Mar 2015 13:01:46 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Fri, 13 Mar 2015 13:01:46 -0700 (PDT)
+In-Reply-To: <B7CC5DB4-8E85-4684-BEA9-7A7B6369F2B5@gmail.com>
+References: <CAH0V_1bVu4=cYrCqL1Wyk5WEk9tpr0=1i+3OugNL8PkD27ZQeg@mail.gmail.com>
+	<b9ac0bed37fd4a59961639662f0f5186@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1bJrDOMFKZJuyeDbRb=QG7wb_6DsBbw6BbpSBw+t=tjFg@mail.gmail.com>
+	<70f88686fa864492a2fd256f9790fccc@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1a9ND7enzN5Xgyq7YoQqg-u9FdZN-KUx7qyP1=L1KXVxA@mail.gmail.com>
+	<5c8997220e444245bc6b00c0cd0f430b@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1ZmZ-gann829V3cxCqj-z=Ne8jyYb7ShBAArE8nrC+s8w@mail.gmail.com>
+	<28942de4f4d442e0a4021bd3d77c7dca@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1aOFi73HXZ6AALfDmBLQ9EGBiew_kPxyHQcqGrVgHUtGg@mail.gmail.com>
+	<da8c1d714fb34810b7a84b4afe91f16f@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1bBDqND80Z=8K2a_cyY2o78ys3Gmsiz_dkPme+AUO9SUw@mail.gmail.com>
+	<DA2EF14F-F036-430D-8D92-7536E0F3B30A@gmail.com>
+	<CAH0V_1breffgmaGhdDETmP+UOP5-ho5f2Ay+d7i+_bqUJXm-1A@mail.gmail.com>
+	<B7CC5DB4-8E85-4684-BEA9-7A7B6369F2B5@gmail.com>
+Date: Fri, 13 Mar 2015 16:01:46 -0400
+Message-ID: <CAH0V_1Z7k5NShJmNt+XjzXn2EQxp82zwE+MKoM13LbsZW0cjow@mail.gmail.com>
+Subject: Re: Survey: Try again
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=90e6ba1ef2ea59c460051130f89d
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 37137
+
+--90e6ba1ef2ea59c460051130f89d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'm hoping the other instructors will help me put that information together
+this weekend.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Fri, Mar 13, 2015 at 4:01 PM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> It was a a lot of fun to set up, and I am glad you like how they came out=
+.
+>
+> I should point out that the agenda page is still not up for that site yet
+> (properties school). When you get an idea of a schedule you can pass it o=
+n
+> to me and I will put it right in the rest of the changes have been made t=
+o
+> that page (logos and the title).
+>
+> =E2=80=94AJ
+>
+> On Mar 13, 2015, at 3:56 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Well done!  The page looks awesome, by the way, so I'm going to send the
+> link to the other instructors (with due credit to you!).
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Fri, Mar 13, 2015 at 3:54 PM, Andrew James <andrew.m.james2@gmail.com>
+> wrote:
+>
+>> Dr. Crawford,
+>>
+>> Thanks for copying me in on this. I put the link in place already on the
+>> properties page.
+>>
+>> =E2=80=94AJ
+>>
+>>
+>> On Mar 13, 2015, at 3:51 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> Excellent!  Thanks, Jessica!
+>>
+>> -TDC
+>>
+>> P.S. AJ, please insert this link into the web page.  I'd like to send th=
+e
+>> email blasts out on Monday, if possible.
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Fri, Mar 13, 2015 at 3:50 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+>> wrote:
+>>
+>>>  Daniel,
+>>>
+>>>
+>>>
+>>> The registration link for the Molecular Property summer school is:
+>>> http://www.cpe.vt.edu/reg/pss/
+>>>
+>>>
+>>>
+>>> Hopefully Christina has the link for the other summer school live by th=
+e
+>>> end of today.
+>>>
+>>>
+>>>
+>>> Thanks!
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+>>> *Sent:* Friday, March 13, 2015 11:39 AM
+>>>
+>>> *To:* Brow, Jessica
+>>> *Cc:* Good, Laurie; Andrew James
+>>> *Subject:* Re: Survey: Try again
+>>>
+>>>
+>>>
+>>> Dear Jessica,
+>>>
+>>>
+>>>
+>>> I want to go with the $550 fee so that we have a larger cushion.  I do
+>>> not believe the $40 difference will deter any potential students.  Let =
+move
+>>> forward as quickly as possible to set up the registration link.
+>>>
+>>>
+>>>
+>>> Thanks for your help!
+>>>
+>>>
+>>>
+>>> -TDC
+>>>
+>>>
+>>>   --
+>>>
+>>> Prof. T. Daniel Crawford
+>>>
+>>> crawdad@vt.edu
+>>>
+>>>
+>>>
+>>> On Fri, Mar 13, 2015 at 11:24 AM, Brow, Jessica <jbrow@exchange.vt.edu>
+>>> wrote:
+>>>
+>>>  Okay,
+>>>
+>>>
+>>>
+>>> The current slated cost for the Response Property Summer School is $510
+>>> for 40 students.
+>>>
+>>>
+>>>
+>>> If we increased it to $525, you would need 35 students to break even.
+>>>
+>>>
+>>>
+>>> If we increased to $550, you would need 30 students to break even.
+>>>
+>>>
+>>>
+>>> Just as a note, the fixed costs are the speaker payments and housing,
+>>> and the CPE fee.  The costs that vary are student housing and food base=
+d on
+>>> the number of students attending.
+>>>
+>>>
+>>>
+>>> I know you are not running this program to make money, but generally
+>>> when there is a surplus, it is split 80/20 between the department and C=
+PE
+>>> (we get the 20%).
+>>>
+>>>
+>>>
+>>> This is a decision we need to make before registration goes live, as we
+>>> cannot have people registering at different rates and then refunding th=
+e
+>>> difference.
+>>>
+>>>
+>>>
+>>> Let me know what you would like to do.
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Jessica Brow
+>>>
+>>> Project Manager
+>>>
+>>> Continuing and Professional Education <http://cpt.vt.edu/>
+>>>
+>>> Virginia Tech <http://vt.edu/>
+>>>
+>>> 540-231-4140
+>>>
+>>> jbrow@vt.edu
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* Brow, Jessica
+>>> *Sent:* Friday, March 13, 2015 11:09 AM
+>>> *To:* 'T. Daniel Crawford'
+>>> *Cc:* Good, Laurie; Andrew James
+>>> *Subject:* RE: Survey: Try again
+>>>
+>>>
+>>>
+>>> Daniel,
+>>>
+>>>
+>>>
+>>> I have submitted requests for the registration for both, but our
+>>> marketing department has been slammed this week.  If you are okay with =
+the
+>>> Qualtrics survey, I can make it live so that you can send it out for
+>>> distribution (unless you want us to help with that=E2=80=94we can but w=
+e would need
+>>> a contact list).
+>>>
+>>>
+>>>
+>>> I am working on the budget for the Molecular Response Property Summer
+>>> School to figure out what the minimum we would need for it would be.
+>>>
+>>>
+>>>
+>>> I will be in touch soon.
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Jessica Brow
+>>>
+>>> Project Manager
+>>>
+>>> Continuing and Professional Education <http://cpt.vt.edu/>
+>>>
+>>> Virginia Tech <http://vt.edu/>
+>>>
+>>> 540-231-4140
+>>>
+>>> jbrow@vt.edu
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu <crawdad@vt.edu>]
+>>> *Sent:* Friday, March 13, 2015 9:50 AM
+>>> *To:* Brow, Jessica
+>>> *Cc:* Good, Laurie; Andrew James
+>>>
+>>> *Subject:* Re: Survey: Try again
+>>>
+>>>
+>>>
+>>> Sounds good.  Any word on the registration links for the two summer
+>>> schools?
+>>>
+>>>
+>>>
+>>> -TDC
+>>>
+>>>
+>>>   --
+>>>
+>>> Prof. T. Daniel Crawford
+>>>
+>>> crawdad@vt.edu
+>>>
+>>>
+>>>
+>>> On Thu, Mar 12, 2015 at 12:18 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+>>> wrote:
+>>>
+>>>  Hi Daniel,
+>>>
+>>>
+>>>
+>>> I changed the upload for the letter of recommendation to your email
+>>> address.
+>>>
+>>>
+>>>
+>>> I have taken the survey myself, and was able to upload a Word file (and
+>>> read through the Qualtrics FAQs that you can upload just about any kind=
+ of
+>>> file) but I have not yet figured out how they are later downloaded.  Th=
+ere
+>>> is someone in our office who uses Qualtrics all the time, so when he is
+>>> back from lunch I will pick his brain about this.
+>>>
+>>>
+>>>
+>>> Thanks,
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+>>> *Sent:* Wednesday, March 11, 2015 5:31 PM
+>>>
+>>>
+>>> *To:* Brow, Jessica
+>>> *Subject:* Re: Survey: Try again
+>>>
+>>>
+>>>
+>>> The survey looks good, Jessica.  I think we should drop the entry
+>>> requiring upload of the adviser's letter and just indicate at the end t=
+hat
+>>> a letter should be sent via email to crawdad@vt.edu.  (Most advisers
+>>> will prefer to keep their letters confidential.)
+>>>
+>>>
+>>>
+>>> I haven't completely tested the file uploads, but are you able to uploa=
+d
+>>> a PDF file as a resume as a test?  Also, can you restrict the filetype =
+for
+>>> the resume specifically to PDF?
+>>>
+>>>
+>>>
+>>> Thanks!
+>>>
+>>>
+>>>
+>>> -Daniel
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>   --
+>>>
+>>> Prof. T. Daniel Crawford
+>>>
+>>> crawdad@vt.edu
+>>>
+>>>
+>>>
+>>> On Wed, Mar 11, 2015 at 5:06 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+>>> wrote:
+>>>
+>>>  Yes, you should have.
+>>>
+>>>
+>>>
+>>> If you log in to Qualtrics (you can do that at
+>>> https://auth.vt.edu/login?service=3Dhttps%3A%2F%2Fvirginiatech.qualtric=
+s.com%2FControlPanel%2F
+>>> )let me know if you can see it then.  It should be listed as =E2=80=9CS=
+hared=E2=80=9D in
+>>> your drop-down of all surveys.
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+>>> *Sent:* Wednesday, March 11, 2015 4:53 PM
+>>> *To:* Brow, Jessica
+>>> *Subject:* Re: Survey: Try again
+>>>
+>>>
+>>>
+>>> Hmmm...I haven't received it yet.  Should I have?
+>>>
+>>>
+>>>
+>>> -TDC
+>>>
+>>>
+>>>   --
+>>>
+>>> Prof. T. Daniel Crawford
+>>>
+>>> crawdad@vt.edu
+>>>
+>>>
+>>>
+>>> On Wed, Mar 11, 2015 at 3:03 PM, Brow, Jessica <jbrow@exchange.vt.edu>
+>>> wrote:
+>>>
+>>>  Hi Daniel,
+>>>
+>>>
+>>>
+>>> I sent it again and I think gave you access to edit and distribute it.
+>>> Let me know if it works.
+>>>
+>>>
+>>>
+>>> Thanks!
+>>>
+>>>
+>>>
+>>> Jessica
+>>>
+>>>
+>>>
+>>> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+>>> *Sent:* Wednesday, March 11, 2015 2:59 PM
+>>> *To:* Brow, Jessica
+>>> *Subject:* Survey: Try again
+>>>
+>>>
+>>>
+>>> Hi, Jessica,
+>>>
+>>>
+>>>
+>>> Could you try to share the survey with me again.  I'm trying to use my
+>>> Qualtrix account through VT, and it didn't show me the survey after I
+>>> accepted.
+>>>
+>>>
+>>>
+>>> Thanks!
+>>>
+>>>
+>>>
+>>> -TDC
+>>>
+>>> --
+>>>
+>>> Prof. T. Daniel Crawford
+>>>
+>>> crawdad@vt.edu
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>
+>>
+>>
+>
+>
+
+--90e6ba1ef2ea59c460051130f89d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;m hoping the other instructors will help me put that=
+ information together this weekend.<div><br></div><div>-TDC</div></div><div=
+ class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature=
+"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div><=
+/div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 4:01 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">It was a a lot of fu=
+n to set up, and I am glad you like how they came out.=C2=A0<div><br></div>=
+<div>I should point out that the agenda page is still not up for that site =
+yet (properties school). When you get an idea of a schedule you can pass it=
+ on to me and I will put it right in the rest of the changes have been made=
+ to that page (logos and the title).=C2=A0<span class=3D"HOEnZb"><font colo=
+r=3D"#888888"><div><br></div></font></span><div><span class=3D"HOEnZb"><fon=
+t color=3D"#888888">=E2=80=94AJ=C2=A0</font></span><div><div class=3D"h5"><=
+br><div><blockquote type=3D"cite"><div>On Mar 13, 2015, at 3:56 PM, T. Dani=
+el Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad=
+@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">Well done!=C2=A0 The =
+page looks awesome, by the way, so I&#39;m going to send the link to the ot=
+her instructors (with due credit to you!).<div><br></div><div>-TDC</div></d=
+iv><div class=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">=
+--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu"=
+ target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 3:54 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Dr. Crawford,=C2=A0<=
+div><br></div><div>Thanks for copying me in on this. I put the link in plac=
+e already on the properties page.=C2=A0</div><span><font color=3D"#888888">=
+<div><br></div><div>=E2=80=94AJ=C2=A0</div></font></span><div><div><div><br=
+></div><div><br><div><blockquote type=3D"cite"><div>On Mar 13, 2015, at 3:5=
+1 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_b=
+lank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">Excellen=
+t!=C2=A0 Thanks, Jessica!<div><br></div><div>-TDC</div><div><br></div><div>=
+P.S. AJ, please insert this link into the web page.=C2=A0 I&#39;d like to s=
+end the email blasts out on Monday, if possible.</div></div><div class=3D"g=
+mail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Da=
+niel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank"=
+>crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Fri, Mar 13, 2015 at 3:50 PM, Brow, Jessi=
+ca <span dir=3D"ltr">&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D=
+"_blank">jbrow@exchange.vt.edu</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Daniel,<u></u><u></u></span></p>=
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p><p cla=
+ss=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&=
+quot;,sans-serif;color:#1f497d">The registration link for the Molecular Pro=
+perty summer school is:
+</span><a href=3D"http://www.cpe.vt.edu/reg/pss/" target=3D"_blank">http://=
+www.cpe.vt.edu/reg/pss/</a><u></u><u></u></p><p class=3D"MsoNormal"><u></u>=
+=C2=A0<u></u></p><p class=3D"MsoNormal">Hopefully Christina has the link fo=
+r the other summer school live by the end of today.<u></u><u></u></p><p cla=
+ss=3D"MsoNormal"><u></u>=C2=A0<u></u></p><p class=3D"MsoNormal">Thanks!<u><=
+/u><u></u></p><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p><p class=3D"Ms=
+oNormal">Jessica<u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"fon=
+t-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"><u>=
+</u>=C2=A0<u></u></span></p><p class=3D"MsoNormal"><span style=3D"font-size=
+:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"><u></u>=
+=C2=A0<u></u></span></p><p class=3D"MsoNormal"><b><span style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> T. Dan=
+iel Crawford [mailto:<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">cr=
+awdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Friday, March 13, 2015 11:39 AM</span></p><div><div><br>
+<b>To:</b> Brow, Jessica<br>
+<b>Cc:</b> Good, Laurie; Andrew James<br>
+<b>Subject:</b> Re: Survey: Try again<u></u><u></u></div></div><div><br></d=
+iv><div><div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div><p class=3D"MsoNormal">Dear Jessica,<u></u><u></u></p>
+<div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div><p class=3D"MsoNormal">I want to go with the $550 fee so that we have =
+a larger cushion.=C2=A0 I do not believe the $40 difference will deter any =
+potential students.=C2=A0 Let move forward as quickly as possible to set up=
+ the registration link.<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div><p class=3D"MsoNormal">Thanks for your help!<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div><p class=3D"MsoNormal">-TDC<u></u><u></u></p>
+</div>
+</div>
+<div><p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div><p class=3D"MsoNormal">--<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div><p class=3D"MsoNormal">On Fri, Mar 13, 2015 at 11:24 AM, Brow, Jessica=
+ &lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@excha=
+nge.vt.edu</a>&gt; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Okay,</span><u></u><u></u></p><p=
+ class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:#1f497d">The current slated cost for the Response Prop=
+erty Summer School is $510 for 40 students.</span><u></u><u></u></p><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&q=
+uot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"M=
+soNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,s=
+ans-serif;color:#1f497d">If we increased it to $525, you would need 35 stud=
+ents to break even.</span><u></u><u></u></p><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1=
+f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"=
+>If we increased to $550, you would need 30 students to break even.</span><=
+u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u>=
+<u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif;color:#1f497d">Just as a note, the fixed =
+costs are the speaker payments and housing, and the CPE fee.=C2=A0 The cost=
+s that
+ vary are student housing and food based on the number of students attendin=
+g.</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</sp=
+an><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">I know you are n=
+ot running this program to make money, but generally when there is a surplu=
+s, it is
+ split 80/20 between the department and CPE (we get the 20%).</span><u></u>=
+<u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u=
+></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">This is a decision we need to ma=
+ke before registration goes live, as we cannot have people registering
+ at different rates and then refunding the difference.</span><u></u><u></u>=
+</p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p=
+ class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#1f497d">Let me know what you would like to do.<=
+/span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span>=
+<u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Jessica</span><u></=
+u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u><=
+/u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:#1f497d">Jessica Brow</span><u></u><u></u></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:#1f497d">Project Manager</span><u></u><u></u>=
+</p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:#1f497d"><a href=3D"http://cpt.vt.edu/" ta=
+rget=3D"_blank"><span style=3D"color:#0563c1">Continuing and Professional
+ Education</span></a></span><u></u><u></u></p><p class=3D"MsoNormal"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:=
+#1f497d"><a href=3D"http://vt.edu/" target=3D"_blank"><span style=3D"color:=
+#0563c1">Virginia Tech</span></a></span><u></u><u></u></p><p class=3D"MsoNo=
+rmal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-=
+serif;color:#1f497d"><a href=3D"tel:540-231-4140" target=3D"_blank">540-231=
+-4140</a></span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"fon=
+t-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"><a =
+href=3D"mailto:jbrow@vt.edu" target=3D"_blank">jbrow@vt.edu</a></span><u></=
+u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u><=
+/u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in =
+0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-siz=
+e:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> Brow, Jessica
+<br>
+<b>Sent:</b> Friday, March 13, 2015 11:09 AM<br>
+<b>To:</b> &#39;T. Daniel Crawford&#39;<br>
+<b>Cc:</b> Good, Laurie; Andrew James<br>
+<b>Subject:</b> RE: Survey: Try again</span><u></u><u></u></p>
+</div>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p><p class=3D"MsoNormal"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif=
+;color:#1f497d">Daniel,</span><u></u><u></u></p><p class=3D"MsoNormal"><spa=
+n style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;colo=
+r:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNormal"><span styl=
+e=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4=
+97d">I have submitted requests for the registration for both, but our marke=
+ting department has been slammed
+ this week.=C2=A0 If you are okay with the Qualtrics survey, I can make it =
+live so that you can send it out for distribution (unless you want us to he=
+lp with that=E2=80=94we can but we would need a contact list).</span><u></u=
+><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&q=
+uot;Calibri&quot;,sans-serif;color:#1f497d">I am working on the budget for =
+the Molecular Response Property Summer School to figure out what the
+ minimum we would need for it would be. </span><u></u><u></u></p><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"Ms=
+oNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif;color:#1f497d">I will be in touch soon.</span><u></u><u></u></p><p=
+ class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:#1f497d">Jessica</span><u></u><u></u></p><p class=3D"M=
+soNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,s=
+ans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNorm=
+al"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-se=
+rif">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"f=
+ont-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">Jessica Brow</s=
+pan><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Calibri&quot;,sans-serif">Project Manager</span><u></u>=
+<u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif"><a href=3D"http://cpt.vt.edu/" target=3D=
+"_blank"><span style=3D"color:#0563c1">Continuing and Professional Educatio=
+n</span></a></span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"><a href=3D"htt=
+p://vt.edu/" target=3D"_blank"><span style=3D"color:#0563c1">Virginia Tech<=
+/span></a></span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"fo=
+nt-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"><a href=3D"tel:5=
+40-231-4140" target=3D"_blank">540-231-4140</a></span><u></u><u></u></p><p =
+class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,sans-serif"><a href=3D"mailto:jbrow@vt.edu" target=3D"_blank">jbro=
+w@vt.edu</a></span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">=C2=A0</span><=
+u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u>=
+<u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u=
+></p><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:=
+&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11=
+.0pt;font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Crawford [<a hr=
+ef=3D"mailto:crawdad@vt.edu" target=3D"_blank">mailto:crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Friday, March 13, 2015 9:50 AM<br>
+<b>To:</b> Brow, Jessica<br>
+<b>Cc:</b> Good, Laurie; Andrew James</span><u></u><u></u></p>
+<div>
+<div><p class=3D"MsoNormal"><b>Subject:</b> Re: Survey: Try again<u></u><u>=
+</u></p>
+</div>
+</div>
+<div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Sounds good.=C2=A0 Any word on the registration=
+ links for the two summer schools? =C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">-TDC<u></u><u></u></p>
+</div>
+</div>
+<div><p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div><p class=3D"MsoNormal">--<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">On Thu, Mar 12, 2015 at 12:18 PM, Brow, Jessica=
+ &lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@excha=
+nge.vt.edu</a>&gt; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-=
+bottom:5.0pt">
+<div>
+<div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Hi Daniel,</span><u></u><u></u><=
+/p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p =
+class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,sans-serif;color:#1f497d">I changed the upload for the letter of r=
+ecommendation to your email address.</span><u></u><u></u></p><p class=3D"Ms=
+oNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if;color:#1f497d">I have taken the survey myself, and was able to upload a =
+Word file (and read through the Qualtrics
+ FAQs that you can upload just about any kind of file) but I have not yet f=
+igured out how they are later downloaded.=C2=A0 There is someone in our off=
+ice who uses Qualtrics all the time, so when he is back from lunch I will p=
+ick his brain about this.</span><u></u><u></u></p><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;co=
+lor:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1=
+f497d">Thanks,</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f49=
+7d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"fo=
+nt-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Je=
+ssica</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-si=
+ze:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0<=
+/span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span>=
+<u></u><u></u></p><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Cr=
+awford [mailto:<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@=
+vt.edu</a>]
+<br>
+<b>Sent:</b> Wednesday, March 11, 2015 5:31 PM</span><u></u><u></u></p>
+<div>
+<div><p class=3D"MsoNormal"><br>
+<b>To:</b> Brow, Jessica<br>
+<b>Subject:</b> Re: Survey: Try again<u></u><u></u></p>
+</div>
+</div>
+<div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">The survey looks good, Jessica.=C2=A0 I think w=
+e should drop the entry requiring upload of the adviser&#39;s letter and ju=
+st indicate at the end that a letter should be sent via email to
+<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>. =C2=
+=A0(Most advisers will prefer to keep their letters confidential.)<u></u><u=
+></u></p>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">I haven&#39;t completely tested the file upload=
+s, but are you able to upload a PDF file as a resume as a test?=C2=A0 Also,=
+ can you restrict the filetype for the resume specifically to PDF?<u></u><u=
+></u></p>
+</div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">Thanks!<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">-Daniel<u></u><u></u></p>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<div><p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div><p class=3D"MsoNormal">--<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">On Wed, Mar 11, 2015 at 5:06 PM, Brow, Jessica =
+&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@exchan=
+ge.vt.edu</a>&gt; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-=
+bottom:5.0pt">
+<div>
+<div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Yes, you should have.
+</span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11=
+.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span=
+><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;f=
+ont-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">If you log in to Q=
+ualtrics (you can do that at
+<a href=3D"https://auth.vt.edu/login?service=3Dhttps%3A%2F%2Fvirginiatech.q=
+ualtrics.com%2FControlPanel%2F" target=3D"_blank">
+https://auth.vt.edu/login?service=3Dhttps%3A%2F%2Fvirginiatech.qualtrics.co=
+m%2FControlPanel%2F</a> )let me know if you can see it then.=C2=A0 It shoul=
+d be listed as =E2=80=9CShared=E2=80=9D in your drop-down of all surveys.</=
+span><u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><=
+u></u><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Jessica</span><u></u=
+><u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></=
+u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&q=
+uot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p>=
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Crawford [mailto:<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Wednesday, March 11, 2015 4:53 PM<br>
+<b>To:</b> Brow, Jessica<br>
+<b>Subject:</b> Re: Survey: Try again</span><u></u><u></u></p>
+<div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Hmmm...I haven&#39;t received it yet.=C2=A0 Sho=
+uld I have?<u></u><u></u></p>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">-TDC<u></u><u></u></p>
+</div>
+</div>
+<div><p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div><p class=3D"MsoNormal">--<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">On Wed, Mar 11, 2015 at 3:03 PM, Brow, Jessica =
+&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@exchan=
+ge.vt.edu</a>&gt; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-=
+bottom:5.0pt">
+<div>
+<div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Hi Daniel,</span><u></u><u></u><=
+/p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p =
+class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,sans-serif;color:#1f497d">I sent it again and I think gave you acc=
+ess to edit and distribute it.=C2=A0 Let me know if it works.</span><u></u>=
+<u></u></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u=
+></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif;color:#1f497d">Thanks!</span><u></u><u></u></p>=
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p cla=
+ss=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&=
+quot;,sans-serif;color:#1f497d">Jessica</span><u></u><u></u></p><p class=3D=
+"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;=
+,sans-serif;color:#1f497d">=C2=A0</span><u></u><u></u></p><p class=3D"MsoNo=
+rmal"><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif">From:</span></b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif"> T. Daniel Crawford [mailto:<a href=3D"mailto:cr=
+awdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Wednesday, March 11, 2015 2:59 PM<br>
+<b>To:</b> Brow, Jessica<br>
+<b>Subject:</b> Survey: Try again</span><u></u><u></u></p>
+<div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Hi, Jessica,<u></u><u></u></p>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">Could you try to share the survey with me again=
+.=C2=A0 I&#39;m trying to use my Qualtrix account through VT, and it didn&#=
+39;t show me the survey after I accepted.<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">Thanks!<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal">-TDC<br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div><p class=3D"MsoNormal">--<u></u><u></u></p>
+<div><p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div><p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div><p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></blockquote></div><br></div></div></div></div></div></blockquote></d=
+iv><br></div>
+
+--90e6ba1ef2ea59c460051130f89d--

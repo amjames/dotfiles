@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp470241qgt;
+        Fri, 1 May 2015 12:57:52 -0700 (PDT)
+X-Received: by 10.140.151.197 with SMTP id 188mr14328921qhx.18.1430510272132;
+        Fri, 01 May 2015 12:57:52 -0700 (PDT)
+Return-Path: <jbrow@exchange.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id u125si4988647qhd.75.2015.05.01.12.57.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 May 2015 12:57:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.8 as permitted sender) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.8 as permitted sender) smtp.mail=jbrow@exchange.vt.edu
+Received: from BRAILLE.cc.w2k.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be forged))
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t41JvkG0012678
+	for <amjames2@vt.edu>; Fri, 1 May 2015 15:57:51 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: BRAILLE.cc.w2k.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (198.82.160.12) by
+ BRAILLE.cc.w2k.vt.edu (198.82.160.8) with Microsoft SMTP Server (TLS) id
+ 15.0.995.29; Fri, 1 May 2015 15:57:46 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+ GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+ 15.00.0995.032; Fri, 1 May 2015 15:57:46 -0400
+From: "Brow, Jessica" <jbrow@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: RE: SSS/MRPSS local Students
+Thread-Topic: SSS/MRPSS local Students
+Thread-Index: AQHQhDVL7l4oWZl0jky1c+TofYRqSp1niXoA
+Date: Fri, 1 May 2015 19:57:45 +0000
+Message-ID: <bfbbddfe1ffc47f1953b3483cca9ab45@GUTENBERG.cc.w2k.vt.edu>
+References: <0F61EF95-EF92-488B-83B0-1FCDC2C2FF3F@vt.edu>
+In-Reply-To: <0F61EF95-EF92-488B-83B0-1FCDC2C2FF3F@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [198.82.173.211]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrJqsTGxXIsaAGP7q5bzqEGq44eWcFi8bXJ2IExgCGKNTMvKb8igTXjT8cJpoLPBhUrWyawNDD263UxcnEICWxilNhx+y5LFyMnkHOAUeLBRH4Qm1nAVOLK10YWCFtR4sK9BjCbTUBXYterM6wgtoiAqsT+5beYQWxhIPvX5bvMEHE1iTlzWhghbCOJC9N3sYHYLAIqEjc/LwSyOTh4Bdwkzr9PgVhrKfHzfifYeE4BK4lFax+CtTIKiEl8P7WGCeIEcYlbT+aD2RICAhJL9pxnhrCVJHpvv4OKB0g0fngPtopXQFDi5MwnLBBxM4m9D5ZA1ehK9Kw/CNUbKPHvzx8mkHMkgN69+j4YImwrsWfGRKiws8S8G/UQYTuJyTeXQU3Ultj+ah8rhK0jsenaKqi4vMT/e/ehbCeJywfvMsFcee/OFrgrd2z8xTiBUW0WUjjPQgrnWUgenoXkmQWMLKsYRZ2CHD19fFz1kpP1yo2y9cpK9FJTSjcxQlIAxw7G5d+cDzFKcjApifLKXXYOFeJLyk+pzEgszogvKs1JLT7EKMHBoyTCq34TKMdbXJCYW5yZDpOS4eBQkuC1AEkJFqWmp1akZeaUpBZBpE8xKkqJ8x67AZQUAOnLKM2Dy8ES4CVGWSlhXobzQDU8BalFuZklqPK3GDmkoMxXjOIcjErCvJ4g23gy80rg7ngFdCIT0InnbzmAnFiSiJCSamDcsDv7XO9OOa4kb5dLX4U2zn7I6lplXtRntk+Ys+X/j3XWAgyq3Z0fA/5lT3TbY/uyb4+o67JNPf3OT2dVbGBnnuY4YQtrplPSia8ZwnIM7e86Rc9VX+1inBEdzHf/aQlLqK3PpfelVtxpVf6cfNkaH/5nzyidN6E25tiiGTP532XIP1KZcl2JpTgj0VCLuag4EQBCqh8NfAMAAA==
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BRAILLE.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Andrew,
+
+Could you call me so we can talk about it?  I would need to go through the =
+budget to figure out what costs can be excluded.
+
+I will be back in the office Monday morning.
+
+Thanks!
+
+Jessica
+
+
+Jessica Brow
+Project Manager
+Continuing and Professional Education
+Virginia Tech
+540-231-4140
+jbrow@vt.edu
+
+
+
+-----Original Message-----
+From: Andrew James [mailto:amjames2@vt.edu]=20
+Sent: Friday, May 1, 2015 1:36 PM
+To: Brow, Jessica
+Subject: SSS/MRPSS local Students
+
+Hello, =20
+
+How would we deal with a local student who does not need a room on campus, =
+and would possibly not need meals in D2 either?=20
+
+Thanks,=20
+Andrew=20
+

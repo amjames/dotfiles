@@ -1,0 +1,403 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp956126qgb;
+        Thu, 20 Aug 2015 06:16:43 -0700 (PDT)
+X-Received: by 10.140.135.197 with SMTP id 188mr5760157qhh.89.1440076603469;
+        Thu, 20 Aug 2015 06:16:43 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 5si7344681qks.2.2015.08.20.06.16.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 20 Aug 2015 06:16:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 54.240.13.40 as permitted sender) client-ip=54.240.13.40;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 54.240.13.40 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@amazonses.com;
+       dkim=pass header.i=@amazon.com
+Received: from mail-io0-x22a.google.com (mail-io0-x22a.google.com [IPv6:2607:f8b0:4001:c06::22a])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7KDGbuq001383
+	for <amjames2@vt.edu>; Thu, 20 Aug 2015 09:16:42 -0400
+Received: by iodt126 with SMTP id t126so45369089iod.2
+        for <amjames2@vt.edu>; Thu, 20 Aug 2015 06:16:37 -0700 (PDT)
+X-Received: by 10.107.128.83 with SMTP id b80mr2507176iod.84.1440076597498;
+        Thu, 20 Aug 2015 06:16:37 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.62.209 with SMTP id a17csp921874ies;
+        Thu, 20 Aug 2015 06:16:36 -0700 (PDT)
+X-Received: by 10.170.191.82 with SMTP id i79mr3219993yke.93.1440076596514;
+        Thu, 20 Aug 2015 06:16:36 -0700 (PDT)
+Received: from a13-40.smtp-out.amazonses.com (a13-40.smtp-out.amazonses.com. [54.240.13.40])
+        by mx.google.com with ESMTPS id j5si7307104qga.57.2015.08.20.06.16.36
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 20 Aug 2015 06:16:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 20150820131635df9db3a3d3344207b2b4dcb1a84d45da@bounces.amazon.com designates 54.240.13.40 as permitted sender) client-ip=54.240.13.40;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1440076595;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=FPgAeJ1hNxtUupvw3gDwcma3Jac8C4cgW3FaXbwbX1w=;
+	b=MKAxEz5Cg8hWBczYvONLltUNwTw8r36NJvAwRD5U0Xmmt0mFsPjp/mYogVCnn4Jo
+	p7kCEwZH9bKjzST/FjnQs9zdsGevZDIggxBRFk7OqnY7dtSwj8sA6Ss7Bfk2/LXlwvj
+	jJN93ORVkeb6OyOZkAWM2L0b9bXOMvacXp2kJ8hk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yg4mwqurec7fkhzutopddd3ytuaqrvuz; d=amazon.com; t=1440076595;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=FPgAeJ1hNxtUupvw3gDwcma3Jac8C4cgW3FaXbwbX1w=;
+	b=l9T7emj8cbSVsY6126C8+pHsp2x0vIMcMpXkWfKB5HqGzZOEHbBfHb9PZFn2tvWG
+	l+N0ISCZixk7wgEguDlVyr15Kwxa74TH1Cv0mgJYUUyK/yx6hVfn2exR2ABZuIXp6Wi
+	H0nVGw0BjxQXF8xc6CQt1qUIRtm9fB6/p4AJRrGk=
+Date: Thu, 20 Aug 2015 13:16:35 +0000
+From: Amazon Answers <answers@amazon.com>
+To: Andrew James <andrew.m.james2@gmail.com>
+Message-ID: <0000014f4b4101f7-b48522a6-c94d-4a0a-9ffd-7af8c5fdd715-000000@email.amazonses.com>
+Subject: You received an answer from a seller to your question, "does this
+ company sell just the laptop arm on its own (without the vertical pole)? I
+ already have thier single monitor mount with the same vertical"
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3845993_1910674982.1440076595656"
+X-AMAZON-RTE-VERSION: 2.0
+X-AMAZON-METADATA: CU=A38OULC9F6Y4J0
+Bounces-to: 20150820131635df9db3a3d3344207b2b4dcb1a84d45da@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-Original-MessageID: <urn.rtn.msg.20150820131635df9db3a3d3344207b2b4dcb1a84d45da@1440076595658.rte-svc-1a-m3-i-451ba7a9.us-east-1.amazon.com>
+X-SES-Outgoing: 2015.08.20-54.240.13.40
+Feedback-ID: 1.us-east-1.ZHcGJK6s+x+i9lRHKog4RW3tECwWIf1xzTYCZyUaiec=:AmazonSES
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------=_Part_3845993_1910674982.1440076595656
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3845994_1367977728.1440076595656"
+
+------=_Part_3845994_1367977728.1440076595656
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Greetings from Amazon.com Customer Discussions,
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A seller answered your question, "does this company sell just the laptop arm on its own (without the vertical pole)? I already have thier single monitor mount with the same vertical" about VIVO Single Laptop / Notebook Desk Mount /....
+
+Drew K. answered:
+
+"Thank you for your interest! We do not have listings for these parts as they are extras, however we may have the part available you need. Please email us for further details."
+
+Comment on this answer:
+http://www.amazon.com/gp/cd/c/FxX80LER3T3DBJ/-/TxQ6C13WDJA177/1/MxRPFJ7IR45FW7?ie=UTF8&cdSort=oldest
+
+Stop following this question
+http://www.amazon.com/gp/cd/u/FxX80LER3T3DBJ/-/TxQ6C13WDJA177/1/ddbc9636-8091-494c-aead-0330ada95b41?ie=UTF8&cdSort=oldest
+-----------------------------------------------------------------------------------------------
+If you have feedback or additional questions, please email us at amazon-answers-feedback@amazon.com.
+
+(C) 2015 Amazon.com. All rights reserved. Amazon.com is a registered trademark of Amazon.com, Inc.
+
+Amazon.com, 410 Terry Avenue N., Seattle, WA 98109-5210.
+
+
+This message was sent to the following e-mail address: andrew.m.james2@gmail.com
+------=_Part_3845994_1367977728.1440076595656
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<title>You received an answer from a seller to your question, "does this company sell just the laptop arm on its own (without the vertical pole)? I already have thier single monitor mount with the same vertical"</title>
+<style type="text/css">
+
+.ReadMsgBody {width: 100%; background-color: #e3e3e3;}
+.ExternalClass {width: 100%; background-color: #e3e3e3;}
+body     {width: 100%; background-color: #e3e3e3; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+html {width: 100%; }
+table {border-collapse: collapse;}
+.btn {width:80%; text-align: center!important; font-family:Arial,sans-serif;}
+span.mainmessage {font-size:40px;text-decoration:none;font-family:Arial,sans-serif;line-height:38px; color:#FF9900; font-weight:500}
+span.mainmessagesupport {font-size:16px;}
+
+@media only screen and (max-width: 640px)  {
+body[yahoo] .deviceWidth {width:480px!important}
+body[yahoo] .imageWidth {width:460px!important; text-align:center!important}    
+body[yahoo] .center {text-align: center!important;}  
+body[yahoo] .footerLinks {width:32%; margin-bottom:40px}
+body[yahoo] .btn {width:60%; text-align: center!important; font-family:Arial,sans-serif;}
+body[yahoo] span.mainmessage {font-size:40px;text-decoration:none;font-family:Arial,sans-serif;line-height:36px; color:#FF9900; font-weight:500}
+body[yahoo] span.mainmessagesupport {font-size:16px;}
+}
+
+@media only screen and (max-width: 479px) {
+body[yahoo] .deviceWidth {width:320px!important}
+body[yahoo] .imageWidth {width:300px!important; text-align:center!important}    
+body[yahoo] .center {text-align: center!important;}  
+body[yahoo] .footerLinks { width:32%; margin-bottom:40px}
+body[yahoo] .btn {width:94%; text-align: center!important; font-family:Arial,sans-serif;}
+body[yahoo] span.mainmessage {font-size:40px;text-decoration:none;font-family:Arial,sans-serif;line-height:32px; color:#FF9900; font-weight:500}
+body[yahoo] span.mainmessagesupport {font-size:16px;}
+}
+</style>
+</head>
+<body>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td width="100%" valign="top" style="padding-top:20px;" align="center" bgcolor="#e3e3e3">
+      <table width="640" height="6" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FF9900" class="deviceWidth">
+        <tr>
+          <td width="640" height="6"></td>
+        </tr>
+      </table>
+      <table width="640" height="5" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth">
+        <tr>
+          <td width="640" valign="middle" bgcolor="#ffffff">
+            <table border="0" cellpadding="6" cellspacing="0" align="left" class="deviceWidth">
+              <tr>
+                <td class="center" align="right" style="padding:15px">
+                  <a href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dpe_623860_70668520&A=OR8LUBBHHE1W11MPUJCG7XLJ5NEA&H=FLWZ9VQMPOPP3KPYVYHYPH3JHIKA&ref_=pe_623860_70668520" style="font-family:Arial, sans-serif; font-size:33px; font-weight:700; color:#FF9900"> 
+                    <img src="http://g-ecx.images-amazon.com/images/G/01/x-locale/communities/discussion_boards/amazonanswers._V380627340_.png" width="165" alt="Amazon.com" height="25" border="0" />         
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="640" class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td align="center">
+      <img src="http://g-ecx.images-amazon.com/images/G/01/template/section-div_640x8._V402266248_.jpg" width="640" align="middle" alt="" style="bicubic; max-width:640px; max-height:8px; color:#CCCCCC; line-height:1px" class="deviceWidth" height="8" border="0" />
+    </td>
+  </tr>
+</table>
+<table width="640" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td style="font-size: 14px; color: #333; font-weight: normal; text-align: left; font-family: Arial, sans-serif; line-height: 22px; vertical-align: top; padding:14px 20px">
+      A seller answered your question, "does this company sell just the laptop arm on its own (without the vertical pole)? I already have thier single monitor mount with the same vertical" about <a style="text-decoration:none; color: #124C90;" href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB00CM9NG1W%3Fref_%3Dpe_623860_70668520&A=44Z6ST2NMKLX3BOV2QLJUHIOHE0A&H=4UT5VW2BFFV6IAAESM7QJ3MEYKQA&ref_=pe_623860_70668520">VIVO Single Laptop / Notebook Desk Mount /...</a>.
+    </td>
+  </tr>
+</table>
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#FFFFFF">
+  <tr>
+    <td>  
+      <table width="49%" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" border="0" class="deviceWidth" style="float: left; margin-bottom: 20px;">
+        <tr>
+          <td style="font-size: 14px; color: #333; font-weight: normal; text-align: left; font-family: Arial, sans-serif; line-height: 22px; vertical-align: top; padding:6px 15px">
+            <div style="text-decoration: none; color: #333333; font-size: 18px; font-weight: bold;" >
+              Drew K. answered:
+            </div>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="5">
+                </td>
+              </tr>
+            </table>
+            <div style="min-height: 57px; text-align: justify;">
+              "Thank you for your interest! We do not have listings for these parts as they are extras, however we may have the part available you need. Please email us for further details."
+            </div>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="12">
+                </td>
+              </tr>
+            </table>
+
+            <center>
+              <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td style="display:block" height="42">
+                    <img src="http://g-ecx.images-amazon.com/images/G/01/e-mail/buttons/bl_left._V402115650_.gif" width="10" align="right" alt="" height="42" border="0" />
+                  </td>
+                  <td>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="btn" height="42" bgcolor="#FFC435" background="http://g-ecx.images-amazon.com/images/G/01/e-mail/buttons/bl_bg._V402115651_.gif" valign="middle" nowrap="nowrap" style="font-family:Arial, Helvetica, sans-serif; font-size: 12px; padding: 0 5px;">
+                          <a rel="nofollow" href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fcompany-without-vertical-already-monitor%2Fforum%2FFxX80LER3T3DBJ%2FTxQ6C13WDJA177%2F1%3F_encoding%3DUTF8%26asin%3DB00CM9NG1W%26cdEmailView%3DA38OULC9F6Y4J0%26cdShowComment%3DMxRPFJ7IR45FW7%26cdSort%3Doldest%26cdThank%3D1%26forceSignin%3D1%26ref_%3Dpe_623860_70668520%23MxRPFJ7IR45FW7&A=1DPCAWJXM7MGDBJQ7YXADEM01J8A&H=XKWROPPHD2I4XPIZFY6AQISNRW4A&ref_=pe_623860_70668520" style="font-family: Arial,Helvetica,sans-serif; font-weight: bold; color:#303942; text-decoration: none; font-size: 14px;">Thank the seller</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="display:block" height="42">
+                    <img src="http://g-ecx.images-amazon.com/images/G/01/e-mail/buttons/bl_right._V402115651_.gif" width="10" align="left" alt="" height="42" border="0" />   
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="12"></td>
+                </tr>
+              </table>
+              <a href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fcd%2Fc%2FFxX80LER3T3DBJ%2F-%2FTxQ6C13WDJA177%2F1%2FMxRPFJ7IR45FW7%3Fie%3DUTF8%26cdSort%3Doldest%26ref_%3Dpe_623860_70668520&A=0QOTD3FD08UL4J837W4CGO5NDR0A&H=3NNQUIIFD2SYQZHC4M8J3UN4BAIA&ref_=pe_623860_70668520" style="text-decoration:none; color: #124C90;">Comment on this answer</a>
+            </center>
+          </td>
+        </tr>
+      </table>                                                        
+      <table width="49%" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" border="0" class="deviceWidth" style="float: right; margin-bottom: 20px;">
+        <tr>
+          <td align="center" class="center" style="font-size: 14px; color: #333333; font-weight: normal; text-align: center; font-family: Arial, sans-serif; line-height: 22px; vertical-align: top; padding:6px 6px 2px 12px">
+            <div>
+              <a href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2FVIVO-Notebook-Adjustable-Extension-STAND-V001L%2Fdp%2FB00CM9NG1W%3Fref_%3Dpe_623860_70668520&A=JZSOBWDFCVJGSXNULAKOUAWGNZEA&H=ACXAV4Z0D3LLFYZDJOLGYEPYVOIA&ref_=pe_623860_70668520"><img src="http://ecx.images-amazon.com/images/I/41jzhMDmzdL._SL500_SS150_.jpg" width="150" alt="VIVO Single Laptop / Notebook Desk Mount / Stand Fully Adjustable Extension with Clamp by (STAND-V001L)" height="150" border="0" /></a>
+            </div>
+            <a href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB00CM9NG1W%3Fref_%3Dpe_623860_70668520&A=44Z6ST2NMKLX3BOV2QLJUHIOHE0A&H=4UT5VW2BFFV6IAAESM7QJ3MEYKQA&ref_=pe_623860_70668520" style="text-decoration:none; color: #124C90;">
+              VIVO Single Laptop / Notebook Desk Mount /...
+            </a>
+          </td>
+        </tr>
+      </table> 
+    </td>
+</tr>
+    <tr>
+      <td style="font-size: 14px; color: #333; font-weight: normal; text-align: left; font-family: Arial, sans-serif; line-height: 22px; vertical-align: top; padding:0 0 14px 20px;">
+        To stop receiving answers on this question, <a style="text-decoration:none; color: #124C90;" href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fcd%2Fu%2FFxX80LER3T3DBJ%2F-%2FTxQ6C13WDJA177%2F1%2Fddbc9636-8091-494c-aead-0330ada95b41%3Fie%3DUTF8%26cdSort%3Doldest%26ref_%3Dpe_623860_70668520&A=JDUS7K7NDNUKMAOHGLVUDSNS9PUA&H=HWAOMRSIYLPJA7OMAEFPIRIKELAA&ref_=pe_623860_70668520">click here.</a>
+      </td>
+    </tr>
+</table>
+<table width="640" height="3" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#666666" class="deviceWidth">
+  <tr>
+    <td width="640" height="3"></td>
+  </tr>
+</table>
+
+<table class="deviceWidth" style="font-family:arial,sans-serif;font-size:10px;color:#999;line-height:16px; -webkit-text-size-adjust: none" border="0" cellpadding="10" cellspacing="0" width="640" align="center">
+  <tr>
+    <td align="left" valign="top">
+      <div style="font-size: 12px; margin-top: 10px; width: 100%; font-family: Arial,Helvetica,verdana,sans-serif; font-style: normal;">
+        <p>&copy; 2015 Amazon.com. All rights reserved. Amazon.com is a registered trademark of Amazon.com, Inc.</p>
+        <p><a href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dpe_623860_70668520&A=OR8LUBBHHE1W11MPUJCG7XLJ5NEA&H=FLWZ9VQMPOPP3KPYVYHYPH3JHIKA&ref_=pe_623860_70668520">Amazon.com</a>, 410 Terry Avenue N., Seattle, WA 98109-5210.
+</p>
+        <p>To stop receiving answers on this question, <a style="text-decoration:none; color: #124C90;" href="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fcd%2Fu%2FFxX80LER3T3DBJ%2F-%2FTxQ6C13WDJA177%2F1%2Fddbc9636-8091-494c-aead-0330ada95b41%3Fie%3DUTF8%26cdSort%3Doldest%26ref_%3Dpe_623860_70668520&A=JDUS7K7NDNUKMAOHGLVUDSNS9PUA&H=HWAOMRSIYLPJA7OMAEFPIRIKELAA&ref_=pe_623860_70668520">click here.</a></p>
+        <p>If you have feedback or additional questions, please email us at <a style="text-decoration:none; color: #124C90;" href="mailto:amazon-answers-feedback@amazon.com?subject=Answers Feedback">amazon-answers-feedback@amazon.com</a>.</p>
+        <p>This message was sent to the following e-mail address: <span style="text-decoration:none; color: #124C90;">andrew.m.james2@gmail.com </span></p>
+      </div>
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+<img width="1" height="1" src="https://www.amazon.com/gp/r.html?C=308E7DQYDUISH&K=A38OULC9F6Y4J0&R=29QB4K9C1DU2Q&T=E&U=http%3A%2F%2Fimages.amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&A=4DMIHGLYEA8Q36MMIAUVVTIN8WGA&H=JACWW25Y6YPAIYDSAU7X4NY87OWA" /></body>
+</body>
+</html>
+------=_Part_3845994_1367977728.1440076595656--
+
+------=_Part_3845993_1910674982.1440076595656--

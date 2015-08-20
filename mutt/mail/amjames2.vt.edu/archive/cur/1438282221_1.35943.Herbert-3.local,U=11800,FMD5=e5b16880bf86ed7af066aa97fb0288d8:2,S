@@ -1,0 +1,93 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1107771qgt;
+        Fri, 3 Jul 2015 04:13:43 -0700 (PDT)
+X-Received: by 10.140.101.140 with SMTP id u12mr49180862qge.48.1435922023713;
+        Fri, 03 Jul 2015 04:13:43 -0700 (PDT)
+Return-Path: <erik.kallman@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 92si9967454qgy.31.2015.07.03.04.13.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 04:13:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender) smtp.mail=erik.kallman@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wg0-x22b.google.com (mail-wg0-x22b.google.com [IPv6:2a00:1450:400c:c00::22b])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63BDbkY014729
+	for <amjames2@vt.edu>; Fri, 3 Jul 2015 07:13:42 -0400
+Received: by wguu7 with SMTP id u7so85745766wgu.3
+        for <amjames2@vt.edu>; Fri, 03 Jul 2015 04:13:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=doqCqQxpucQLfgWum1rMc3114Q61ICLkmEwMX1kpxGU=;
+        b=K23DWVC/+lmQf80wVKv+nvDRhsL9UuKiu5IrGHOTIUk6yQfZHDPoD687ZZ9rhk8/Mz
+         sjMWzB7s296NL6PYz4ovJ9ZZWa1morr9cvkZ9CUUrzvcP42SZbj5VCRd1B1o/h+/aCq8
+         ee2qowFpkGgfzzHWPruk5r89AQQiC0j3F5iNUvs6E6UDV43Jj8ePSq+M97dPSRj2IM2U
+         yJWqO8so8n0fjo3+/B9q2ld7N91m/g3NLSA2/NxW3GkcpzeMR5Ewl74pIw2uyRQqRlY4
+         ijrkMr6iyssrJWOKFKvNvgzabR6rWqsfWg9BY8NgeSfjVV4py11oyKUjmGodMDBZ6xfF
+         EPGA==
+MIME-Version: 1.0
+X-Received: by 10.180.20.12 with SMTP id j12mr63252063wie.4.1435922017581;
+ Fri, 03 Jul 2015 04:13:37 -0700 (PDT)
+Received: by 10.28.8.205 with HTTP; Fri, 3 Jul 2015 04:13:37 -0700 (PDT)
+In-Reply-To: <2A660AEF-45E2-4D09-8E22-023B3A02547D@vt.edu>
+References: <2A660AEF-45E2-4D09-8E22-023B3A02547D@vt.edu>
+Date: Fri, 3 Jul 2015 07:13:37 -0400
+Message-ID: <CAPK4g-mAoXJdKVFgeExCmxKR-sPz0Rs7BfuvNUHHV3GH0x9Ojw@mail.gmail.com>
+Subject: Re: Airport pickup
+From: =?UTF-8?Q?erik_k=C3=A4llman?= <erik.kallman@gmail.com>
+To: Vtech <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=bcaec53d5b51c880040519f6a551
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--bcaec53d5b51c880040519f6a551
+Content-Type: text/plain; charset=UTF-8
+
+Hey,
+
+Thanks a lot for arranging it all. I really appreciate it!
+
+Erik
+
+On Thu, Jul 2, 2015 at 11:49 PM, Vtech <amjames2@vt.edu> wrote:
+
+> Erik,
+>
+> Laurie will pick you up outside of new hall west at 11:00 am. You can drop
+> off your card and room key at the same desk you got them and look for the
+> red car in the small lot.
+>
+> Thanks and have a safe trip home.
+>
+> Andrew M James
+
+--bcaec53d5b51c880040519f6a551
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div>Hey,<br><br></div>Thanks a lot for arranging it =
+all. I really appreciate it!<br><br></div>Erik<br></div><div class=3D"gmail=
+_extra"><br><div class=3D"gmail_quote">On Thu, Jul 2, 2015 at 11:49 PM, Vte=
+ch <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blan=
+k">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+Erik,<br>
+<br>
+Laurie will pick you up outside of new hall west at 11:00 am. You can drop =
+off your card and room key at the same desk you got them and look for the r=
+ed car in the small lot.<br>
+<br>
+Thanks and have a safe trip home.<br>
+<br>
+Andrew M James </blockquote></div><br></div>
+
+--bcaec53d5b51c880040519f6a551--

@@ -1,0 +1,42 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp8845qgt;
+        Fri, 3 Jul 2015 08:08:17 -0700 (PDT)
+X-Received: by 10.140.85.208 with SMTP id n74mr51117807qgd.67.1435936097950;
+        Fri, 03 Jul 2015 08:08:17 -0700 (PDT)
+Return-Path: <varuniitr@hotmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id m76si10630917qkh.92.2015.07.03.08.08.17
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jul 2015 08:08:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of varuniitr@hotmail.com designates 65.55.90.235 as permitted sender) client-ip=65.55.90.235;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of varuniitr@hotmail.com designates 65.55.90.235 as permitted sender) smtp.mail=varuniitr@hotmail.com
+Received: from SNT004-OMC4S32.hotmail.com (snt004-omc4s32.hotmail.com [65.55.90.235])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t63F8CFZ013085
+	for <amjames2@vt.edu>; Fri, 3 Jul 2015 11:08:17 -0400
+Received: from SNT405-EAS167 ([65.55.90.200]) by SNT004-OMC4S32.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Fri, 3 Jul 2015 08:08:11 -0700
+X-TMN: [EhKw+bI1kiOBUFIkCchZ9ZsczkYBuTQJ]
+X-Originating-Email: [varuniitr@hotmail.com]
+Message-ID: <SNT405-EAS16730F3A517DE3DB90B7479B7960@phx.gbl>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Subject: MRPSS
+From: Varun Kundi <varuniitr@hotmail.com>
+Date: Fri, 3 Jul 2015 11:08:09 -0400
+To: Andrew James <amjames2@vt.edu>
+MIME-Version: 1.0 (1.0)
+X-OriginalArrivalTime: 03 Jul 2015 15:08:11.0238 (UTC) FILETIME=[13A0D060:01D0B5A2]
+X-Spam-Status: No, score=-0.6 required=5.0 tests=FREEMAIL_FROM,
+	RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Hey Andrew,
+  Please remind Dr. Crawford to send me that certificate.
+
+Sent from my iPhone

@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp755096qgt;
+        Mon, 22 Jun 2015 09:43:27 -0700 (PDT)
+X-Received: by 10.140.129.65 with SMTP id 62mr40526784qhb.102.1434991407941;
+        Mon, 22 Jun 2015 09:43:27 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id d11si19568678qhc.108.2015.06.22.09.43.27
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 09:43:27 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MGhLqr015728
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 12:43:27 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=gr9gVnhkxPzd1YRLh9gLc6DW2KA=; b=k9mQAzPdDAjaA6lp
+	d3dtPUKmb2lp0xMXu1bQ5lPkzr9kPNPXqUHWTTJEdLOIULWCpVMbLezCgLpNFHIf
+	SinaDovMPWnvM/JvMgtfWM4jlUDBMtqhVR0SZcGZXkVxK/uhAHErQMBhnmZ4ZGVg
+	Xxi1YGdvk1EWlCvIRS5c1LqviBo=
+Received: by filter0444p1mdw1.sendgrid.net with SMTP id filter0444p1mdw1.29234.55883B261D
+        2015-06-22 16:43:19.715877669 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-020 (SG) with ESMTP id 14e1c2712e0.6732.413b4d
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 16:43:19 +0000 (UTC)
+Date: Mon, 22 Jun 2015 09:43:19 -0700
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6424cea3250d168fdb1e2c5a3fa601d60cd68ae459a92cf00000001119ffd2792a169ce055eb413@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issue/97/issue_event/336908062@github.com>
+In-Reply-To: <psi4/psi4/issues/97@github.com>
+References: <psi4/psi4/issues/97@github.com>
+Subject: Re: [psi4] driver.py yields an error (#97)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55883b277ebf4_5023fa8a032f2c011587a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6424cea3250d168fdb1e2c5a3fa601d60cd68ae459a92cf00000001119ffd2792a169ce055eb413@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6424cea3250d168fdb1e2c5a3fa601d60cd68ae459a92cf00000001119ffd2792a169ce055eb413@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QpANbn-k8OioIXz7gGvxvbZu6TBlks5oWDKngaJpZM4FI5Ri>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IlVBISQ+d4I42PCv2Z0ZC42Rfpn8lO/+GGrtb
+ vHNTRBTzstdibY0J9J/ytwmxaosG6tKZt53xbCnwESoZT3Q666BiIq5UwvCRTGBuylz84c6IHZu6qy
+ Y8Frr/bdx+nS01s=
+X-Spam-Status: No, score=-2.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55883b277ebf4_5023fa8a032f2c011587a8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Closed #97 via ddcd5ba6ebc17579a6156a361753c0542a07f44f.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/97#event-336908062
+----==_mimepart_55883b277ebf4_5023fa8a032f2c011587a8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Closed <a href="https://github.com/psi4/psi4/issues/97" class="issue-link" title="driver.py yields an error">#97</a> via <a href="https://github.com/psi4/psi4/commit/ddcd5ba6ebc17579a6156a361753c0542a07f44f" class="commit-link"><tt>ddcd5ba</tt></a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/97#event-336908062">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qv_N-pjsJMDwAwb_A-6ipNX8pcnpks5oWDKngaJpZM4FI5Ri.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/97#event-336908062"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55883b277ebf4_5023fa8a032f2c011587a8--

@@ -1,0 +1,54 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp693388qgt;
+        Wed, 13 May 2015 12:24:02 -0700 (PDT)
+X-Received: by 10.140.150.78 with SMTP id 75mr695838qhw.88.1431545042242;
+        Wed, 13 May 2015 12:24:02 -0700 (PDT)
+Return-Path: <noreply@easychair.org>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id c7si9849239qcf.43.2015.05.13.12.24.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 13 May 2015 12:24:02 -0700 (PDT)
+Received-SPF: none (google.com: noreply@easychair.org does not designate permitted sender hosts) client-ip=213.136.76.235;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: noreply@easychair.org does not designate permitted sender hosts) smtp.mail=noreply@easychair.org
+Received: from easychair.org (easychair.org [213.136.76.235])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4DJNtnn011588
+	for <amjames2@vt.edu>; Wed, 13 May 2015 15:24:01 -0400
+Received: from localhost.localdomain (m2635.contabo.net [213.136.76.235])
+	by easychair.org (8.14.4/8.14.4/Debian-4.1ubuntu1) with ESMTP id t4DJNsGE001127
+	for <amjames2@vt.edu>; Wed, 13 May 2015 21:23:54 +0200
+Message-Id: <201505131923.t4DJNsGE001127@easychair.org>
+Content-Disposition: inline
+Content-Transfer-Encoding: binary
+Content-Type: text/plain; charset="UTF-8"
+MIME-Version: 1.0
+X-Mailer: MIME::Lite 3.030 (F2.84; A2.14; B3.15; Q3.13)
+Date: Wed, 13 May 2015 21:23:54 +0200
+From: EasyChair <noreply@easychair.org>
+To:  <amjames2@vt.edu>
+Subject: EasyChair account confirmation
+X-Spam-Status: No, score=-0.0 required=5.0 tests=T_RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+Dear Andrew James,
+
+We received a request to create an EasyChair account
+for you. To create an EasyChair account, please click
+this link:
+
+  https://easychair.org/account/create.cgi?code=0W59FufYbuAtYtXuganO
+
+Best regards,
+EasyChair.
+
+__________________________________________________
+Please do not reply to this email. This email
+address is used only for sending email so you
+will not receive a response.

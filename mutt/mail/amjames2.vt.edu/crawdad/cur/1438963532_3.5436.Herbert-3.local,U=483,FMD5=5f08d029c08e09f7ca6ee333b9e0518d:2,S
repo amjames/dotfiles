@@ -1,0 +1,168 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp124573qgt;
+        Thu, 6 Aug 2015 14:57:02 -0700 (PDT)
+X-Received: by 10.140.96.80 with SMTP id j74mr7260721qge.43.1438898221972;
+        Thu, 06 Aug 2015 14:57:01 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id s74si14268617qgd.55.2015.08.06.14.57.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 14:57:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.182 as permitted sender) client-ip=209.85.213.182;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.182 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76LuuhG022355
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 17:57:01 -0400
+Received: by igk11 with SMTP id 11so20546514igk.1
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 14:56:56 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=f883uBH1LVDmzDZEFOE99bHdYxERupkVO85yDQw+LbY=;
+        b=WarUxXwYrEf7ue4B6IVTx2/f1YpZ0VgrkeRwbmeJScoPJBR8tF83//swP6tC3WnRPK
+         HXMPWgo6vjD9qhojOXrLHIPkyXI7b+r4Aroe8edRfvqjEQA3U8MjnDdpXv38CBPBDyZD
+         5FU7oeLreGOVDhXeaUbwXG445Dge0gZYJH8WCg9rdwChckwWiPFzSAhp5xtaMA2Rc1kC
+         EeRA5rGE3zTQJmA/X43Wi8Pwc7bqATwsTvrdnHpOjSd1qk6HeuWX75ChsysRQ/+N9zRg
+         2hRSRcvVUt85pufGf1EiGQr93mxs1N8TJVE4jCjnIdaRG9eJdVDdijRpw3MoxeOb+W56
+         Gweg==
+X-Gm-Message-State: ALoCoQnmkeM7CFNsANdTUZiIDhaGa4o59pCreTtEhkDIlywB1DTy4dxFuuoWNFeXX8DS1yNHEzOBoPs8P492F2Zc8UsF2MThSCCzSPxJi9eOtXqueBC4XZXxEOp+UO/l86e8wiC453NRiKydUoz03xE3jQtybu+3VQ==
+X-Received: by 10.50.112.73 with SMTP id io9mr96646igb.18.1438898216095;
+        Thu, 06 Aug 2015 14:56:56 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.112.73 with SMTP id io9mr96635igb.18.1438898215889; Thu,
+ 06 Aug 2015 14:56:55 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 14:56:55 -0700 (PDT)
+In-Reply-To: <CAH0V_1bypieAXp5YHGcgevFg5NZLz8LM2X7wJMjn34C+dqDMKA@mail.gmail.com>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+	<FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+	<CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+	<00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+	<CAH0V_1bU3Q+i0vc7h0uAzH7anyU0YF8B7qS5QAXnfi96eVRgpw@mail.gmail.com>
+	<20150806171857.GC28128@Herbert-3.local>
+	<CAH0V_1bypieAXp5YHGcgevFg5NZLz8LM2X7wJMjn34C+dqDMKA@mail.gmail.com>
+Date: Thu, 6 Aug 2015 15:56:55 -0600
+Message-ID: <CAH0V_1buKD8wWpJpR7TVZGXnuUt5Ug8xs6Chp1pMr_2amJyyiA@mail.gmail.com>
+Subject: Re: UHF NOs
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b3a9c1206c80c051cab9984
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 4458
+
+--047d7b3a9c1206c80c051cab9984
+Content-Type: text/plain; charset=UTF-8
+
+AJ,
+
+I just pushed new code for computing the UHF NOs and printing them.  See if
+you can recompile and test on our nitric oxide example before you try the
+big CC test case on structure 4.
+
+FYI, you can control the number of NOONs printed using the uhf_noons
+keyword.  If you set it to an integer, it will print the number of values
+above and below the Fermi level you've requested.  Alternatively, if you set
+
+uhf_noons all
+
+it will print all the NOONS.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Aug 6, 2015 at 11:57 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Hi, AJ,
+>
+> I did something similar out of concern about the code's interaction with
+> the UHF stability code (hence my email to Jerome).  I don't think that the
+> code works at present, so you should hold off.  I'm close to fixing the
+> debugging, however, and I'll let you know what I find.
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Thu, Aug 6, 2015 at 11:18 AM, Andrew M James <amjames2@vt.edu> wrote:
+>
+>> Dr. Crawford,
+>>     I stuck your compute_nos() function in the UHF class and added the
+>>     call to it in UHF::finalize().  It built fine and I got the same
+>>     Occupation numbers for the NO radical, so I am going to go ahead and
+>>     run this on (4) in Cs symmetry.
+>>
+>>     Did you want me to make the changed you discussed with Andy?
+>>
+>>     Thanks!
+>>     --AJ
+>>
+>>
+>>
+>
+
+--047d7b3a9c1206c80c051cab9984
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">AJ,=C2=A0<div><br></div><div>I just pushed new code for co=
+mputing the UHF NOs and printing them.=C2=A0 See if you can recompile and t=
+est on our nitric oxide example before you try the big CC test case on stru=
+cture 4. =C2=A0</div><div><br></div><div>FYI, you can control the number of=
+ NOONs printed using the uhf_noons keyword.=C2=A0 If you set it to an integ=
+er, it will print the number of values above and below the Fermi level you&=
+#39;ve requested.=C2=A0 Alternatively, if you set</div><div><br></div><div>=
+uhf_noons all</div><div><br></div><div>it will print all the NOONS.</div><d=
+iv><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"a=
+ll"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Da=
+niel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank"=
+>crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 11:57 AM, T. Daniel C=
+rawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Hi, AJ,<div><br></div><div>I did something similar out =
+of concern about the code&#39;s interaction with the UHF stability code (he=
+nce my email to Jerome).=C2=A0 I don&#39;t think that the code works at pre=
+sent, so you should hold off.=C2=A0 I&#39;m close to fixing the debugging, =
+however, and I&#39;ll let you know what I find.</div><span class=3D"HOEnZb"=
+><font color=3D"#888888"><div><br></div><div>-TDC</div></font></span></div>=
+<div class=3D"gmail_extra"><span class=3D""><br clear=3D"all"><div><div><di=
+v dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Thu, Aug 6,=
+ 2015 at 11:18 AM, Andrew M James <span dir=3D"ltr">&lt;<a href=3D"mailto:a=
+mjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Dr. Crawford,<br>
+=C2=A0 =C2=A0 I stuck your compute_nos() function in the UHF class and adde=
+d the<br>
+=C2=A0 =C2=A0 call to it in UHF::finalize().=C2=A0 It built fine and I got =
+the same<br>
+=C2=A0 =C2=A0 Occupation numbers for the NO radical, so I am going to go ah=
+ead and<br>
+=C2=A0 =C2=A0 run this on (4) in Cs symmetry.<br>
+<br>
+=C2=A0 =C2=A0 Did you want me to make the changed you discussed with Andy?<=
+br>
+<br>
+=C2=A0 =C2=A0 Thanks!<br>
+<span><font color=3D"#888888">=C2=A0 =C2=A0 --AJ<br>
+<br>
+<br>
+</font></span></blockquote></div><br></div></div></div>
+</blockquote></div><br></div>
+
+--047d7b3a9c1206c80c051cab9984--

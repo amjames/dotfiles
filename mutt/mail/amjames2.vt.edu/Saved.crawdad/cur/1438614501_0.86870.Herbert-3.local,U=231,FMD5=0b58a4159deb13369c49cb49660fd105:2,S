@@ -1,0 +1,150 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1341037qgt;
+        Sat, 20 Jun 2015 12:32:33 -0700 (PDT)
+X-Received: by 10.55.16.83 with SMTP id a80mr29321736qkh.63.1434828753290;
+        Sat, 20 Jun 2015 12:32:33 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id b9si5082634qkh.16.2015.06.20.12.32.33
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 20 Jun 2015 12:32:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5KJWR3o014002
+	for <amjames2@vt.edu>; Sat, 20 Jun 2015 15:32:32 -0400
+Received: by igbiq7 with SMTP id iq7so33386617igb.1
+        for <amjames2@vt.edu>; Sat, 20 Jun 2015 12:32:27 -0700 (PDT)
+X-Received: by 10.107.156.140 with SMTP id f134mr28957952ioe.34.1434828747415;
+        Sat, 20 Jun 2015 12:32:27 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp1132466iec;
+        Sat, 20 Jun 2015 12:32:26 -0700 (PDT)
+X-Received: by 10.55.43.75 with SMTP id r72mr44545550qkh.80.1434828746235;
+        Sat, 20 Jun 2015 12:32:26 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id f36si12493031qki.120.2015.06.20.12.32.25
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 20 Jun 2015 12:32:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:277:40de:506c])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5KJWPUi017275
+	for <andrew.m.james2@gmail.com>; Sat, 20 Jun 2015 15:32:25 -0400
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5KJWKfQ007761
+	for <andrew.m.james2@gmail.com>; Sat, 20 Jun 2015 15:32:25 -0400
+Received: by iefd2 with SMTP id d2so36954341ief.2
+        for <andrew.m.james2@gmail.com>; Sat, 20 Jun 2015 12:32:19 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=UI0Bha8XlhMT5VgxdSi31iNerbD7s4FlyI38SCU8KRI=;
+        b=EOTNJc0BNmUeI9WkrjBAeeC384U5PxCA8PCSR8mgPJGBeoP9Cg3WlJ2tlTCf1jC6vR
+         kN55md8HWaEBEqpjuq5xbjzSKSpV1VZCQLD+8UWLojVv2ovgnjpQA6zKeie5bWGUzV6v
+         zZMZ3J277VXuESeiXA5Okm2m99AdprTp1rGSR+ftn/MWI3ylZG3OM4SrZznnn397uvkv
+         m1AcDTUtJrSTAO4PIqd3kVxOaKZxHb8xbxWh86P+ppK14LlfDOmgthpMDc5TtAcQVpxX
+         C7QzEZHrAdhGpPMGOLN3JcIJKtl4+FgJlFN6xgpr50e9T5G5Q+ReMqAgW84JR4mY4bx9
+         7Bdg==
+X-Gm-Message-State: ALoCoQnHrouM+c6Nyk/4DCftHaL4T0f+krrbvYm12JH2LjGeHQVjFFSi2SlNzxOkA26OroNtU6OekTNIjmQ81fffWNC1VrBCf5DacDSiJOAC07BZMCfl+sdlpohC7V9iOJsn0VEiA8xyDwbLIprAwSBBB0ZBPPu7wQ==
+X-Received: by 10.42.255.200 with SMTP id nj8mr18051502icb.18.1434828739898;
+        Sat, 20 Jun 2015 12:32:19 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.42.255.200 with SMTP id nj8mr18051492icb.18.1434828739744;
+ Sat, 20 Jun 2015 12:32:19 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Sat, 20 Jun 2015 12:32:19 -0700 (PDT)
+In-Reply-To: <CAD0XtKSnnb3G+oQ6B8WM-7fwmXr5+Ne96BFpgv9FAt+efMTG9g@mail.gmail.com>
+References: <CAD0XtKSnnb3G+oQ6B8WM-7fwmXr5+Ne96BFpgv9FAt+efMTG9g@mail.gmail.com>
+Date: Sat, 20 Jun 2015 15:32:19 -0400
+Message-ID: <CAH0V_1ZTGoYT+8uuGmnDdhmEiOMLXXZs_usJtbt2CqLGgwSSrw@mail.gmail.com>
+Subject: Re: Chemistry Summer School help
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Brian Marshall <mimarsh2@vt.edu>
+Cc: "vijaykag@vt.edu" <vijaykag@vt.edu>, Justin Krometis <jkrometi@vt.edu>,
+        James McClure <mcclurej@vt.edu>, "Yarlanki, Srinivas" <sriniy@vt.edu>,
+        Andrew James <andrew.m.james2@gmail.com>,
+        Tommy Guy <richardtguy84@gmail.com>, Daniel Chen <dcheny@gmail.com>
+Content-Type: multipart/alternative; boundary=bcaec50fe70b58b4b10518f819b1
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 2903
+
+--bcaec50fe70b58b4b10518f819b1
+Content-Type: text/plain; charset=UTF-8
+
+Hi, Brian,
+
+I think one or two GRAs would be a big help, especially as we try to get
+things off the ground Monday morning.  There will inevitably be technical
+issues to handle, especially the first day.  We had two GRAs helping when
+we put the school together two years ago, but they didn't have much to do
+after things were running smoothly, and I don't want to waste anyone's
+time.  If we need them beyond the first day, I'll let you know.
+
+We'll be getting started at 9:00am on Monday in Goodwin Hall 135.
+
+Thanks!
+
+-TDC
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sat, Jun 20, 2015 at 12:30 PM, Brian Marshall <mimarsh2@vt.edu> wrote:
+
+> Dr Crawford,
+>
+> A few weeks ago, ARC offered the assistance of our helpdesk GRAs for
+> initial log in and system usage  during the Chemistry Summer School.  2 of
+> our GRAs are available.
+>
+> If you would still like help, please let us know when and where to be on
+> Monday.
+>
+> Best,
+> Brian Marshall
+> ARC
+>
+
+--bcaec50fe70b58b4b10518f819b1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, Brian,<div><br></div><div>I think one or two GRAs woul=
+d be a big help, especially as we try to get things off the ground Monday m=
+orning.=C2=A0 There will inevitably be technical issues to handle, especial=
+ly the first day.=C2=A0 We had two GRAs helping when we put the school toge=
+ther two years ago, but they didn&#39;t have much to do after things were r=
+unning smoothly, and I don&#39;t want to waste anyone&#39;s time.=C2=A0 If =
+we need them beyond the first day, I&#39;ll let you know.</div><div><br></d=
+iv><div>We&#39;ll be getting started at 9:00am on Monday in Goodwin Hall 13=
+5. =C2=A0</div><div><br></div><div>Thanks!</div><div><br></div><div>-TDC</d=
+iv><div><br></div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><=
+div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawf=
+ord</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@v=
+t.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Jun 20, 2015 at 12:30 PM, Brian Mars=
+hall <span dir=3D"ltr">&lt;<a href=3D"mailto:mimarsh2@vt.edu" target=3D"_bl=
+ank">mimarsh2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"ltr">Dr Crawford,<div><br></div><div>A few weeks ago, ARC off=
+ered the assistance of our helpdesk GRAs for initial log in and system usag=
+e =C2=A0during the Chemistry Summer School. =C2=A02 of our GRAs are availab=
+le.</div><div><br></div><div>If you would still like help, please let us kn=
+ow when and where to be on Monday.</div><div><br></div><div>Best,</div><div=
+>Brian Marshall</div><div>ARC</div></div>
+</blockquote></div><br></div>
+
+--bcaec50fe70b58b4b10518f819b1--

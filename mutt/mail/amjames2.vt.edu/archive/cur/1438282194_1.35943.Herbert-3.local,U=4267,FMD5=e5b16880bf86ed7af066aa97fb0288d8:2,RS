@@ -1,0 +1,166 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp613872qge;
+        Mon, 2 Feb 2015 12:42:30 -0800 (PST)
+X-Received: by 10.229.68.202 with SMTP id w10mr2135750qci.13.1422909750243;
+        Mon, 02 Feb 2015 12:42:30 -0800 (PST)
+Return-Path: <jolih@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id e37si26392753qgd.75.2015.02.02.12.42.29
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Feb 2015 12:42:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of jolih@vt.edu designates 198.82.160.7 as permitted sender) client-ip=198.82.160.7;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jolih@vt.edu designates 198.82.160.7 as permitted sender) smtp.mail=jolih@vt.edu
+Received: from exchange.vt.edu (bell.cc.vt.edu [198.82.160.7] (may be forged))
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t12KgMqN021942
+	for <amjames2@vt.edu>; Mon, 2 Feb 2015 15:42:29 -0500
+X-CrossPremisesHeadersFilteredBySendConnector: BELL.cc.w2k.vt.edu
+Received: from BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) by
+ BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) with Microsoft SMTP
+ Server (TLS) id 15.0.995.29; Mon, 2 Feb 2015 15:42:27 -0500
+Received: from BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109]) by
+ BELL.cc.w2k.vt.edu ([fe80::b858:b785:2085:e109%12]) with mapi id
+ 15.00.0995.032; Mon, 2 Feb 2015 15:42:27 -0500
+From: "Huynh, Joli" <jolih@vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: Enrollment Purge Inquiry
+Thread-Topic: Enrollment Purge Inquiry
+Thread-Index: AdA/KK9uPjj1KXijSgCyn09ESL81+A==
+Importance: high
+X-Priority: 1
+Date: Mon, 2 Feb 2015 20:42:27 +0000
+Message-ID: <d107001b482b480bb216e2449e0ba298@BELL.cc.w2k.vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [128.173.159.237]
+Content-Type: multipart/alternative;
+	boundary="_000_d107001b482b480bb216e2449e0ba298BELLccw2kvtedu_"
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BELL.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_MED,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_d107001b482b480bb216e2449e0ba298BELLccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Andrew,
+
+I've received notification that your registration is going to be purged due=
+ to outstanding balance to the university (these charges are likely your un=
+paid student fees). If you have made arrangements to pay these fees, please=
+ respond to this email letting me know. If you haven't made arrangements, p=
+lease do so immediately and then respond to this email.
+
+We want to prevent from having your registration purged as this can have ne=
+gative effects on your classes and assistantship.
+
+If you have any questions, please let me know.
+
+Joli Huynh
+Graduate Coordinator
+Department of Chemistry
+306 Hahn Hall North
+Mail Code 0212
+Blacksburg, VA 24061
+
+540-231-8225
+
+
+
+--_000_d107001b482b480bb216e2449e0ba298BELLccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi Andrew,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">I&#8217;ve received notification that your registrat=
+ion is going to be purged due to outstanding balance to the university (the=
+se charges are likely your unpaid student fees). If you have made arrangeme=
+nts to pay these fees, please respond to
+ this email letting me know. If you haven&#8217;t made arrangements, please=
+ do so immediately and then respond to this email.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">We want to prevent from having your registration pur=
+ged as this can have negative effects on your classes and assistantship.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">If you have any questions, please let me know. <o:p>=
+</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Joli Huynh<o:p></o:p></p>
+<p class=3D"MsoNormal">Graduate Coordinator<o:p></o:p></p>
+<p class=3D"MsoNormal">Department of Chemistry<o:p></o:p></p>
+<p class=3D"MsoNormal">306 Hahn Hall North<o:p></o:p></p>
+<p class=3D"MsoNormal">Mail Code 0212<o:p></o:p></p>
+<p class=3D"MsoNormal">Blacksburg, VA 24061<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">540-231-8225<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_d107001b482b480bb216e2449e0ba298BELLccw2kvtedu_--

@@ -1,0 +1,267 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2607019qgt;
+        Tue, 14 Jul 2015 13:52:01 -0700 (PDT)
+X-Received: by 10.55.51.79 with SMTP id z76mr1265381qkz.32.1436907121689;
+        Tue, 14 Jul 2015 13:52:01 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id b4si2613842qkb.125.2015.07.14.13.52.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Jul 2015 13:52:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) client-ip=209.85.213.179;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.179 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com [209.85.213.179])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6EKptov018367
+	for <amjames2@vt.edu>; Tue, 14 Jul 2015 16:52:00 -0400
+Received: by igbpg9 with SMTP id pg9so21643878igb.0
+        for <amjames2@vt.edu>; Tue, 14 Jul 2015 13:51:55 -0700 (PDT)
+X-Received: by 10.107.19.193 with SMTP id 62mr838004iot.26.1436907115405;
+        Tue, 14 Jul 2015 13:51:55 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp2515414iee;
+        Tue, 14 Jul 2015 13:51:54 -0700 (PDT)
+X-Received: by 10.55.24.219 with SMTP id 88mr1245239qky.54.1436907114087;
+        Tue, 14 Jul 2015 13:51:54 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 93si2641973qgm.66.2015.07.14.13.51.53
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Jul 2015 13:51:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6EKprOY019388
+	for <andrew.m.james2@gmail.com>; Tue, 14 Jul 2015 16:51:53 -0400
+Received: from mail-ie0-f170.google.com (mail-ie0-f170.google.com [209.85.223.170])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6EKplQb017181
+	for <andrew.m.james2@gmail.com>; Tue, 14 Jul 2015 16:51:52 -0400
+Received: by ieik3 with SMTP id k3so20156965iei.3
+        for <andrew.m.james2@gmail.com>; Tue, 14 Jul 2015 13:51:47 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=vHIWJVnBsA/JoEeVD3i2KwWKvA/mkAn2VbJ1yvUuDWc=;
+        b=B/xmJo5T2dbQySPADVK7zYBEX1uU1YurbgbkbZ1ejrGE0c72Me8Z/1HKWjwmrLva2r
+         /V7xLRwZOyAiXf0Sp9heZVIqGKihajQ1Z4Yqkk0LoC/efpvbtId2oPFcbugCDsJ8wyG+
+         zH3kCwLvJnnwlbxtJ8I7R0KBFoOfDqn3d8ixE5ccibUq4FOiN7zWnyWuPCmGe93CrXUQ
+         I6uhnE1ExQ/g5n5H8L806FSWrugp9UNWEESgZ+ipkQYBpyaOlBbr9qy6l7KTqbcLGqER
+         RxMD41uxb1rtg67zzvQstxDK4EQKKgtv5K9G4GSU9F6VCj61QAXHJRDV9zso4liRz5In
+         FNJA==
+X-Gm-Message-State: ALoCoQmJYa+eYLzq7Aoe5xnKBABRFU1hP9q+UevHK6cec4q1fzgP+1r2mFb+TFqQRYyvE2xYLxn6tvulCfSfyj7CtPqD3P1UusUdc0RalPUpWlOcNss3yfyTgGMQJPCTo2nUxFz2nzAd9qDoxVR/Sg3X9i0xDMlHqw==
+X-Received: by 10.50.39.114 with SMTP id o18mr5588125igk.75.1436907107507;
+        Tue, 14 Jul 2015 13:51:47 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.39.114 with SMTP id o18mr5588117igk.75.1436907107398;
+ Tue, 14 Jul 2015 13:51:47 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Tue, 14 Jul 2015 13:51:47 -0700 (PDT)
+In-Reply-To: <B5868BD9-DFEF-4A11-A8D6-F40B102B6AEB@gmail.com>
+References: <CAKwnH+2=tPPyRBtB0peiMpNhiAWY3ZyHMXGM5JJiGTQBoFFUrQ@mail.gmail.com>
+	<CAH0V_1bxp_LMv99nFoBqsdP6aixidqY0wkXphsU2o__pf1F+9A@mail.gmail.com>
+	<B5868BD9-DFEF-4A11-A8D6-F40B102B6AEB@gmail.com>
+Date: Tue, 14 Jul 2015 16:51:47 -0400
+Message-ID: <CAH0V_1Y+11LUuXqy+kg-Hn3fmaez-gACPQtL2-qMvADf_vKZVA@mail.gmail.com>
+Subject: Re: Psi4 Release Preparation - Google Hangout Call Weds 10:30am Eastern
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b339621b64997051adc01c5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 8369
+
+--047d7b339621b64997051adc01c5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Let Prof. Sherrill know.  If I'm on and I don't see you, I'll invite you,
+as well.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jul 14, 2015 at 3:51 PM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Dr. Crawford,
+>
+> I would love to join in on the call tomorrow morning, and see if there is
+> I would be able to help with.   Should I send my gmail to Dr. Sherrill or
+> can you invite me to the call?
+>
+> Thank,
+>
+> =E2=80=94AJ
+>
+> On Jul 14, 2015, at 1:49 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> See below if you want to be involved in this.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> ---------- Forwarded message ----------
+> From: David Sherrill <prof.david.sherrill@gmail.com>
+> Date: Tue, Jul 14, 2015 at 1:19 PM
+> Subject: Psi4 Release Preparation - Google Hangout Call Weds 10:30am
+> Eastern
+> To: Francesco Evangelista <francesco.evangelista@emory.edu>, Justin
+> Turney <justin.turney@gmail.com>, "T. Daniel Crawford" <crawdad@vt.edu>,
+> Daniel Smith <dsmith2447@gmail.com>, Eugene DePrince <
+> deprince@chem.fsu.edu>, Andy Simmonett <andy.simmonett@gmail.com>, Ed
+> Hohenstein <ehohenstein@ccny.cuny.edu>, Rob Parrish <robparrish@gmail.com=
+>,
+> Rollin King <rking@bethel.edu>, Ugur Bozkaya <ugrbzky@gmail.com>, Group <
+> chem-dsgroup@lists.gatech.edu>
+>
+>
+> Hi everyone,
+>
+>    Francesco and his group are planning to visit Georgia Tech tomorrow
+> to work with us to polish up Psi4 prior to the next release.  Daniel
+> Smith from Auburn is planning to visit us as well.  I have conference
+> room MoSE 4202A reserved. Daniel Crawford and Jet are planning to
+> participate via Google Hangouts.
+>
+>    For those of you who may be available, I'd like to invite you and
+> your interested students/postdocs to join a Google Hangout tomorrow at
+> 10:30am as we discuss our to-do list and coordinate who is doing what.
+>
+>   * Please let me know if you would like to join the call, so we can
+> be sure to send you an invitation when the call starts.*  To add you,
+> I will need your Google+ account name or gmail address if I don't
+> already have it.  (You are also welcome to try to join the call on
+> your end, although I don't know how/if that works; you can find me at
+> prof.david.sherrill@gmail.com).
+>
+>   We are planning to assign tasks via the Github Issues mechanism.
+> The draft to-do list is available at
+>
+>    https://github.com/psi4/psi4public/wiki/TODO
+>
+>    You'll notice I've separated the tasks into three broad areas.  I'm
+> imagining that we might form three teams to tackle these (of course
+> everyone is welcome to work with more than one team).
+>
+>    If you are not available for the Hangout but have comments or
+> suggestions, they are welcome.  Feel free to email me or Lori, or post
+> directly to the GitHub Issues or the to-do list.
+>
+> Best regards,
+> David
+>
+>
+>
+
+--047d7b339621b64997051adc01c5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Let Prof. Sherrill know.=C2=A0 If I&#39;m on and I don&#39=
+;t see you, I&#39;ll invite you, as well.<div><br></div><div>-TDC</div></di=
+v><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_sig=
+nature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div>=
+</div></div>
+<br><div class=3D"gmail_quote">On Tue, Jul 14, 2015 at 3:51 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word"><div><div>Dr. Crawfo=
+rd,=C2=A0</div><div><br></div><div>I would love to join in on the call tomo=
+rrow morning, and see if there is I would be able to help with. =C2=A0 Shou=
+ld I send my gmail to Dr. Sherrill or can you invite me to the call?=C2=A0<=
+/div><div><br></div><div>Thank,</div><div><br></div><div>=E2=80=94AJ</div>
+</div><div><div class=3D"h5">
+<br><div><blockquote type=3D"cite"><div>On Jul 14, 2015, at 1:49 PM, T. Dan=
+iel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawda=
+d@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">See below if you wan=
+t to be involved in this.<div><br></div><div>-TDC<br clear=3D"all"><div><di=
+v><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div><=
+/div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">David Sherrill</b> <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:prof.david.sherrill@gmail.com" target=3D"_blank">prof.da=
+vid.sherrill@gmail.com</a>&gt;</span><br>Date: Tue, Jul 14, 2015 at 1:19 PM=
+<br>Subject: Psi4 Release Preparation - Google Hangout Call Weds 10:30am Ea=
+stern<br>To: Francesco Evangelista &lt;<a href=3D"mailto:francesco.evangeli=
+sta@emory.edu" target=3D"_blank">francesco.evangelista@emory.edu</a>&gt;, J=
+ustin Turney &lt;<a href=3D"mailto:justin.turney@gmail.com" target=3D"_blan=
+k">justin.turney@gmail.com</a>&gt;, &quot;T. Daniel Crawford&quot; &lt;<a h=
+ref=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;, Dan=
+iel Smith &lt;<a href=3D"mailto:dsmith2447@gmail.com" target=3D"_blank">dsm=
+ith2447@gmail.com</a>&gt;, Eugene DePrince &lt;<a href=3D"mailto:deprince@c=
+hem.fsu.edu" target=3D"_blank">deprince@chem.fsu.edu</a>&gt;, Andy Simmonet=
+t &lt;<a href=3D"mailto:andy.simmonett@gmail.com" target=3D"_blank">andy.si=
+mmonett@gmail.com</a>&gt;, Ed Hohenstein &lt;<a href=3D"mailto:ehohenstein@=
+ccny.cuny.edu" target=3D"_blank">ehohenstein@ccny.cuny.edu</a>&gt;, Rob Par=
+rish &lt;<a href=3D"mailto:robparrish@gmail.com" target=3D"_blank">robparri=
+sh@gmail.com</a>&gt;, Rollin King &lt;<a href=3D"mailto:rking@bethel.edu" t=
+arget=3D"_blank">rking@bethel.edu</a>&gt;, Ugur Bozkaya &lt;<a href=3D"mail=
+to:ugrbzky@gmail.com" target=3D"_blank">ugrbzky@gmail.com</a>&gt;, Group &l=
+t;<a href=3D"mailto:chem-dsgroup@lists.gatech.edu" target=3D"_blank">chem-d=
+sgroup@lists.gatech.edu</a>&gt;<br><br><br>Hi everyone,<br>
+<br>
+=C2=A0 =C2=A0Francesco and his group are planning to visit Georgia Tech tom=
+orrow<br>
+to work with us to polish up Psi4 prior to the next release.=C2=A0 Daniel<b=
+r>
+Smith from Auburn is planning to visit us as well.=C2=A0 I have conference<=
+br>
+room MoSE 4202A reserved. Daniel Crawford and Jet are planning to<br>
+participate via Google Hangouts.<br>
+<br>
+=C2=A0 =C2=A0For those of you who may be available, I&#39;d like to invite =
+you and<br>
+your interested students/postdocs to join a Google Hangout tomorrow at<br>
+10:30am as we discuss our to-do list and coordinate who is doing what.<br>
+<br>
+=C2=A0 * Please let me know if you would like to join the call, so we can<b=
+r>
+be sure to send you an invitation when the call starts.*=C2=A0 To add you,<=
+br>
+I will need your Google+ account name or gmail address if I don&#39;t<br>
+already have it.=C2=A0 (You are also welcome to try to join the call on<br>
+your end, although I don&#39;t know how/if that works; you can find me at<b=
+r>
+<a href=3D"mailto:prof.david.sherrill@gmail.com" target=3D"_blank">prof.dav=
+id.sherrill@gmail.com</a>).<br>
+<br>
+=C2=A0 We are planning to assign tasks via the Github Issues mechanism.<br>
+The draft to-do list is available at<br>
+<br>
+=C2=A0 =C2=A0<a href=3D"https://github.com/psi4/psi4public/wiki/TODO" rel=
+=3D"noreferrer" target=3D"_blank">https://github.com/psi4/psi4public/wiki/T=
+ODO</a><br>
+<br>
+=C2=A0 =C2=A0You&#39;ll notice I&#39;ve separated the tasks into three broa=
+d areas.=C2=A0 I&#39;m<br>
+imagining that we might form three teams to tackle these (of course<br>
+everyone is welcome to work with more than one team).<br>
+<br>
+=C2=A0 =C2=A0If you are not available for the Hangout but have comments or<=
+br>
+suggestions, they are welcome.=C2=A0 Feel free to email me or Lori, or post=
+<br>
+directly to the GitHub Issues or the to-do list.<br>
+<br>
+Best regards,<br>
+David<br>
+</div><br></div></div>
+</div></blockquote></div><br></div></div></div></blockquote></div><br></div=
+>
+
+--047d7b339621b64997051adc01c5--

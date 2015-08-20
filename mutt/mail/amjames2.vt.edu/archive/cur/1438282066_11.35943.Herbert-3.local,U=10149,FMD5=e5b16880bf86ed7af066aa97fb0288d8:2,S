@@ -1,0 +1,139 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp216709qgt;
+        Fri, 5 Jun 2015 13:29:07 -0700 (PDT)
+X-Received: by 10.140.149.2 with SMTP id 2mr6400246qhv.72.1433536147882;
+        Fri, 05 Jun 2015 13:29:07 -0700 (PDT)
+Return-Path: <shermanm@pitt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id f9si7315079qka.100.2015.06.05.13.29.07
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 13:29:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of shermanm@pitt.edu designates 65.55.169.72 as permitted sender) client-ip=65.55.169.72;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of shermanm@pitt.edu designates 65.55.169.72 as permitted sender) smtp.mail=shermanm@pitt.edu
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0072.outbound.protection.outlook.com [65.55.169.72])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55KT1DR012634
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 16:29:07 -0400
+Received: from BN3PR0401MB1544.namprd04.prod.outlook.com (25.163.38.153) by
+ BN3PR0401MB1574.namprd04.prod.outlook.com (25.163.38.17) with Microsoft SMTP
+ Server (TLS) id 15.1.184.17; Fri, 5 Jun 2015 20:29:00 +0000
+Received: from CO2PR04CA040.namprd04.prod.outlook.com (10.141.240.168) by
+ BN3PR0401MB1544.namprd04.prod.outlook.com (25.163.38.153) with Microsoft SMTP
+ Server (TLS) id 15.1.184.17; Fri, 5 Jun 2015 20:29:00 +0000
+Received: from BN1BFFO11FD044.protection.gbl (2a01:111:f400:7c10::1:121) by
+ CO2PR04CA040.outlook.office365.com (2a01:111:e400:1428::40) with Microsoft
+ SMTP Server (TLS) id 15.1.184.17 via Frontend Transport; Fri, 5 Jun 2015
+ 20:28:59 +0000
+Authentication-Results: spf=pass (sender IP is 136.142.11.141)
+ smtp.mailfrom=pitt.edu; vt.edu; dkim=none (message not signed) header.d=none;
+Received-SPF: Pass (protection.outlook.com: domain of pitt.edu designates
+ 136.142.11.141 as permitted sender) receiver=protection.outlook.com;
+ client-ip=136.142.11.141; helo=mb1i1.ns.pitt.edu;
+Received: from mb1i1.ns.pitt.edu (136.142.11.141) by
+ BN1BFFO11FD044.mail.protection.outlook.com (10.58.144.107) with Microsoft
+ SMTP Server (TLS) id 15.1.184.11 via Frontend Transport; Fri, 5 Jun 2015
+ 20:28:59 +0000
+Received: from mail-ie0-f176.google.com
+ (mail-ie0-f176.google.com [209.85.223.176])
+ by smtp.pitt.edu (PMDF V6.5-x7 #31901)
+ with ESMTPSA id <0NPH00B5QNKAJL@mb1i1.ns.pitt.edu> for amjames2@vt.edu; Fri,
+ 05 Jun 2015 16:28:58 -0400 (EDT)
+Received: by iebmu5 with SMTP id mu5so30430990ieb.1        for
+ <amjames2@vt.edu>; Fri, 05 Jun 2015 13:28:57 -0700 (PDT)
+Received: by 10.50.185.202 with HTTP; Fri, 05 Jun 2015 13:28:57 -0700 (PDT)
+X-Received: by 10.107.18.92 with SMTP id a89mr5296646ioj.14.1433536137939; Fri,
+ 05 Jun 2015 13:28:57 -0700 (PDT)
+Date: Fri, 5 Jun 2015 16:28:57 -0400
+From: Mary Sherman <shermanm@pitt.edu>
+Subject: Re: Molecular Response Properties Travel Itinerary
+In-Reply-To: <72473dfddbb54e5fae893b304600969c@pitt-prodx-05.univ.pitt.edu>
+To: Andrew James <amjames2@vt.edu>
+Message-ID: <CAMFOLxa1GUui90UT06gSa12iUn5+5m77u_f7-EEZ+ZFSDp5DcQ@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="001a113ed40c46656a0517cb2407"
+X-Gm-Message-State: ALoCoQlGv8HHN7psUyv3le1k72gj2Ty4uOUrla+EUSTnu0U3n5SttnQycnewvPLcam2fJH8KEWie
+References: <72473dfddbb54e5fae893b304600969c@pitt-prodx-05.univ.pitt.edu>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD044;1:3Un5AykWbkwFSqwmFAEr/YgHh2a+3SO9ka2E6Yb/5NFvHnjmzzfjdYYknAkF85X7kAT/16U+xjevoWd9aVPehPI8o4ZLjbC9M24HtIJLIqMkLuwHY//cPy22P22MdCxwxx+jV11MRCdMxOnH54uug37/YvMwXShvr2fb2HoG5SrrJbK9HPnCb5gmtoN22MdGqQMSSscmg5fdjXp47oYvM+vqQReVO6HbpMhIHShdJAXRq2AmWHXRwMFOnIQ51WEVyV1HYz1VEF8HA7eede1yuUGsxc/HYhXFY9eSHsGRLds=
+X-Forefront-Antispam-Report: CIP:136.142.11.141;CTRY:US;IPV:CAL;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(438002)(377454003)(51704005)(24454002)(41924003)(199003)(189002)(59536001)(19580395003)(42186005)(90282001)(2171001)(19580405001)(6806004)(84326002)(512874002)(76176999)(54356999)(63696999)(87936001)(107886002)(86362001)(110136002)(5001970100001)(61266001)(88552001)(189998001)(50986999)(46102003)(2950100001)(61726006)(62966003)(450100001)(89122001)(77156002)(55446002)(92566002)(106466001)(75432002)(55456009);DIR:OUT;SFP:1101;SCL:1;SRVR:BN3PR0401MB1544;H:mb1i1.ns.pitt.edu;FPR:;SPF:Pass;MLV:sfv;A:1;MX:1;LANG:en;
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0401MB1544;UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0401MB1574;
+X-Microsoft-Antispam-PRVS: <BN3PR0401MB1544549AAB0CF12BF3CF47B6BAB20@BN3PR0401MB1544.namprd04.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(601004)(520003)(5005006)(3002001);SRVR:BN3PR0401MB1544;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0401MB1544;
+X-Forefront-PRVS: 05986C03E0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Jun 2015 20:28:59.3860
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 9ef9f489-e0a0-4eeb-87cc-3a526112fd0d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=9ef9f489-e0a0-4eeb-87cc-3a526112fd0d;Ip=[136.142.11.141];Helo=[mb1i1.ns.pitt.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0401MB1544
+X-OriginatorOrg: pitt.edu
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_NONE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113ed40c46656a0517cb2407
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+I'm planning to drive in on Sunday.
+See you then!
+
+Mary
+
+
+
+On Fri, Jun 5, 2015 at 11:49 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello,
+>
+> With the start of the Molecular Response Properties Summer School closing
+> in it is time for us to prepare for your arrival in Blacksburg!
+>
+> If you are going to be flying into Roanoke Airport, please send me your
+> flight itinerary so that I can make sure there is someone to meet you at
+> the airport, and bring you there for your flight home.
+>
+> If you are going to be driving just let me know, so I can get you a guest
+> parking pass.
+>
+> Looking forward to meeting everyone!
+>
+> Andrew M James
+> Summer School Coordinator
+
+--001a113ed40c46656a0517cb2407
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello,<div><br></div><div>I&#39;m planning to drive in on =
+Sunday.=C2=A0</div><div>See you then!</div><div><br></div><div>Mary</div><d=
+iv><br></div><div><br></div></div><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Fri, Jun 5, 2015 at 11:49 AM, Andrew James <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.=
+edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"mar=
+gin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hello,<br>
+<br>
+With the start of the Molecular Response Properties Summer School closing i=
+n it is time for us to prepare for your arrival in Blacksburg!<br>
+<br>
+If you are going to be flying into Roanoke Airport, please send me your fli=
+ght itinerary so that I can make sure there is someone to meet you at the a=
+irport, and bring you there for your flight home.<br>
+<br>
+If you are going to be driving just let me know, so I can get you a guest p=
+arking pass.<br>
+<br>
+Looking forward to meeting everyone!<br>
+<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--001a113ed40c46656a0517cb2407--

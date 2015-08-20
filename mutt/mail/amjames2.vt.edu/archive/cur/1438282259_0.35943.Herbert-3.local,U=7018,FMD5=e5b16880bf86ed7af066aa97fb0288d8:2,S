@@ -1,0 +1,140 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1467825qgt;
+        Sun, 3 May 2015 20:05:20 -0700 (PDT)
+X-Received: by 10.140.48.37 with SMTP id n34mr24230652qga.8.1430708719761;
+        Sun, 03 May 2015 20:05:19 -0700 (PDT)
+Return-Path: <owner-arc_ithaca_users@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 70si11768849qgb.16.2015.05.03.20.05.18
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 03 May 2015 20:05:19 -0700 (PDT)
+Received-SPF: none (google.com: owner-arc_ithaca_users@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.214.177;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-arc_ithaca_users@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-arc_ithaca_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4435Cbs015510;
+	Sun, 3 May 2015 23:05:17 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t4427POg031484;
+	Sun, 3 May 2015 23:05:12 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          99339520 for ARC_ITHACA_USERS@LISTSERV.VT.EDU; Sun, 3 May 2015
+          23:05:11 -0400
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t4435BRh009490
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <ARC_ITHACA_USERS@LISTSERV.VT.EDU>; Sun, 3 May 2015 23:05:11 -0400
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com
+          [209.85.214.177]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t44355XG003144 for <ARC_ITHACA_USERS@LISTSERV.VT.EDU>; Sun, 3 May
+          2015 23:05:11 -0400
+Received: by obblk2 with SMTP id lk2so58932229obb.0 for
+          <ARC_ITHACA_USERS@LISTSERV.VT.EDU>; Sun, 03 May 2015 20:05:05 -0700
+          (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc :content-type;
+                         bh=Zw5/aNizAl0oGZS6VsLaNkYE4Oe2OmaslN1U48eRoSw=;
+                         b=hxxqvNv0tlH/7chUqL4lDQQOjUNZL7aUy7bni9yVFyl9VVfrB/f0h6tccSAxSM1TLv
+                         u1PQ+LTyYC+q5nls4RhdQ4HPmvfYiBxJ5DKhq9JTf3ClEp5ldbmAlxXqmotz2jWi6e9/
+                         lNT2uLEl+/qWfcenjX+VmMFNFo7AcqBt7uUM8VX07OU22OLRk+kI6T5XyFq3Ec/zxdeS
+                         7UplVpwQDilZu4Sr5JezJ874BpejD8VCdlYE7mrV1tlE2S5RVWXvL/n9Cckqh3Ve/AUV
+                         PsUK0Be7pEJTzfvycjAgTSf7NS579NoxuSTQ8VBx3QyCEHm3qgkWG7115MawgEVNBbaa
+                         GpDQ==
+X-Gm-Message-State: ALoCoQnTRp6yQxawDm3NXRlBzJy0gZ0HUIBMYuYuvpQvLtjKbDT6e3bZ/ZtSBUanqnq9PUoJO6PpupK7z5vkO3y2D/wDCgjNt4Pd9Khbpzb1ktlH6N5/aGuwNLFQ2MNGoDt1FF96c9+moOnYkcmQVysX3ZO4gSzGiXgCY4YwS5dMu88x0oZd7gY=
+X-Received: by 10.202.59.213 with SMTP id i204mr15641554oia.120.1430708705871;
+            Sun, 03 May 2015 20:05:05 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.202.59.213 with SMTP id i204mr15641549oia.120.1430708705787;
+            Sun, 03 May 2015 20:05:05 -0700 (PDT)
+Received: by 10.76.166.6 with HTTP; Sun, 3 May 2015 20:05:05 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=001a113cf46a2f9987051538d41b
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Message-ID:  <CAMouxS5=JOW_4U=KOiyWLZWTdP8o7LDP+PKJn1CGoR00+ZZLrQ@mail.gmail.com>
+Date:         Sun, 3 May 2015 23:05:05 -0400
+Reply-To: arc@vt.edu
+Sender: ARC_ithaca_USERS Discussion List <ARC_ITHACA_USERS@listserv.vt.edu>
+From: James Tibbs <jtibbs@vt.edu>
+Subject: itlogin1: disruption in service.
+To: ARC_ITHACA_USERS@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_ITHACA_USERS>
+List-Unsubscribe: <mailto:ARC_ITHACA_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_ITHACA_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_ITHACA_USERS-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113cf46a2f9987051538d41b
+Content-Type: text/plain; charset=UTF-8
+
+To All ithaca Account Holders:
+
+At approximately 8:30 PM this evening ithaca1 became unresponsive. The login
+node is now back up and operating normally. Jobs should not have been
+impacted but please check your jobs to verify.
+
+itlogin2 remained up during this period.
+
+Sorry for any inconvenience.
+
+ARC Support Team
+
+-- 
+*Jim Tibbs*
+Systems Engineer
+Virginia Tech
+NI&S Systems Support
+Office: (540) 200-8325
+Email: jtibbs@vt.edu
+http://it.vt.edu
+
+
+Please send any questions or concerns to arc@vt.edu.
+
+Thank you.
+
+http://www.arc.vt.edu
+
+--001a113cf46a2f9987051538d41b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To All ithaca Account Holders:
+<div dir=3D"ltr"><div><div><div>At approximately 8:30 PM this evening ithac=
+a1 became unresponsive. The <span tabindex=3D"-1" id=3D":2go.1" style class=
+=3D"">login</span> node is now back up and operating normally. Jobs should =
+not have been impacted but please check your jobs to verify.<br><br></div>i=
+tlogin2 remained up during this period.<br><br></div>Sorry for any inconven=
+ience.<br><br></div>ARC Support Team<br clear=3D"all"><div><div><div><div><=
+div><br>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><font color=
+=3D"#660000"><b>Jim <span tabindex=3D"-1" id=3D":2go.3" style class=3D"">Ti=
+bbs</span></b></font><br>
+    <font color=3D"#660000">Systems Engineer<br>
+      Virginia Tech<br>
+      NI&amp;S Systems Support<br>
+      Office: (540) 200-8325</font><br>
+    <font color=3D"#660000">Email:</font> <font color=3D"#000099"><a href=
+=3D"mailto:jtibbs@vt.edu" target=3D"_blank"><span tabindex=3D"-1" id=3D":2g=
+o.4" style class=3D"">jtibbs</span>@<span tabindex=3D"-1" id=3D":2go.5" sty=
+le class=3D"">vt</span>.<span tabindex=3D"-1" id=3D":2go.6" style class=3D"=
+">edu</span></a></font><br>
+    <font color=3D"#000099"><a href=3D"http://it.vt.edu" target=3D"_blank">=
+http://it.<span tabindex=3D"-1" id=3D":2go.7" style class=3D"">vt</span>.<s=
+pan tabindex=3D"-1" id=3D":2go.8" style class=3D"">edu</span></a></font><br=
+>
+    </div></div>
+</div></div></div></div></div></div>
+<p>
+Please send any questions or concerns to <a href=3D"mailto:arc@vt.edu">arc@vt.edu</a>.
+</p><p>
+Thank you.
+</p><p>
+<a href=3D"http://www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.edu</a>
+
+--001a113cf46a2f9987051538d41b--

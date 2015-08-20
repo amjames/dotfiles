@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1624759qgt;
+        Mon, 20 Jul 2015 16:53:18 -0700 (PDT)
+X-Received: by 10.55.40.230 with SMTP id o99mr21071250qko.28.1437436398440;
+        Mon, 20 Jul 2015 16:53:18 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id f51si18824494qge.76.2015.07.20.16.53.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Jul 2015 16:53:18 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.114.176 as permitted sender) client-ip=192.254.114.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.114.176 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o1.sgmail.github.com (o1.sgmail.github.com [192.254.114.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6KNrB4p026295
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 19:53:17 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=6ZyRuurRrrbULqg59Wyb5UTUTl4=; b=MreXO+A/ykzuLnIn
+	pVJF/FU0I/CMpPK4wMV5CKsDTpxQ/j2nJ0LUQf3NUiyk+o/FWuc3ChOKLudkDOjn
+	a6yKQ0rRJQVS25kSNbs92JUDEIWI2e9lQDVDYG02iidIKYhRLYSwH3ogIB2h9g4V
+	y4t/DGnWyEuL4G4kcZMF0TcBDTY=
+Received: by filter0539p1mdw1.sendgrid.net with SMTP id filter0539p1mdw1.26727.55AD89E61B
+        2015-07-20 23:53:10.821665622 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-051 (SG) with ESMTP id 14eade2adb4.705d.230660
+	for <amjames2@vt.edu>; Mon, 20 Jul 2015 23:53:10 +0000 (UTC)
+Date: Mon, 20 Jul 2015 16:53:10 -0700
+From: Ryan Richard <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6428294bd1652c28e20c642525052a6870c2361325692cf0000000111c54be692a169ce05bbab63@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/152/issue_event/360618032@github.com>
+In-Reply-To: <psi4/psi4public/pull/152@github.com>
+References: <psi4/psi4public/pull/152@github.com>
+Subject: Re: [psi4public] Exception Formatting (#152)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ad89e6aff4d_560d3f81f2d512a055b7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ryanmrichard
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6428294bd1652c28e20c642525052a6870c2361325692cf0000000111c54be692a169ce05bbab63@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6428294bd1652c28e20c642525052a6870c2361325692cf0000000111c54be692a169ce05bbab63@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QhknONp-xNSk1bOZkYTN2xJNUeYPks5ofYFmgaJpZM4FcWaT>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5ImGfOygesy+/+kiX883FUHLY9bmAW11wyTqis
+ K8I3ETc6GMTBlRXLagU/+7MgrK+Alx6ZalyN0vJCoaofRlLCrgm4nkYpc8ieMOe+1EbK29nT6MENmd
+ DzfuU3tMa5ziM6E=
+X-Spam-Status: No, score=-2.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ad89e6aff4d_560d3f81f2d512a055b7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Reopened #152.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/152#event-360618032
+----==_mimepart_55ad89e6aff4d_560d3f81f2d512a055b7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Reopened <a href="https://github.com/psi4/psi4public/pull/152" class="issue-link" title="Exception Formatting">#152</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/152#event-360618032">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qm5hJZx-j8tU6VBi-yiqo0w_W5clks5ofYFmgaJpZM4FcWaT.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/pull/152#event-360618032"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55ad89e6aff4d_560d3f81f2d512a055b7--

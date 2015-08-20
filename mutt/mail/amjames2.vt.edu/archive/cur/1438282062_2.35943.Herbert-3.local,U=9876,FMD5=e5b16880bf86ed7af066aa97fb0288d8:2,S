@@ -1,0 +1,177 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp749691qgt;
+        Thu, 4 Jun 2015 10:51:14 -0700 (PDT)
+X-Received: by 10.140.148.67 with SMTP id 64mr29080903qhu.74.1433440274292;
+        Thu, 04 Jun 2015 10:51:14 -0700 (PDT)
+Return-Path: <magee@uci.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id m70si4806654qhb.89.2015.06.04.10.51.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Jun 2015 10:51:14 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.217.180 is neither permitted nor denied by best guess record for domain of magee@uci.edu) client-ip=209.85.217.180;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.217.180 is neither permitted nor denied by best guess record for domain of magee@uci.edu) smtp.mail=magee@uci.edu
+Received: from mail-lb0-f180.google.com (mail-lb0-f180.google.com [209.85.217.180])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t54Hp8TR024697
+	for <amjames2@vt.edu>; Thu, 4 Jun 2015 13:51:13 -0400
+Received: by lbbtu8 with SMTP id tu8so15923915lbb.2
+        for <amjames2@vt.edu>; Thu, 04 Jun 2015 10:51:07 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=UGy4Sonrtjb7Cm1pCW/n/o0UkUmpcGHxKl7I+G+oLgU=;
+        b=Hs3nfZGmx/aFTvpcnvMz1RVUCQWmBHDsrsC2i1X90cn9kNMX007El0IJFm7ACCqWcF
+         VWKF5rE6LrPyshCQq/eA65Psyx7f9IGmvyWA/JbO3xat5o4ZznLuWto87fCVhBI7pypz
+         nFMwGyBABWk1uG8f+pvzUpcYZBTbJ3CfnQf6VWbhVYeeHg0ki7/0FBmAtxC0JPEMT1Yv
+         +xtqiwTQrs7nCCVjgxQjDKM6Eo5eIespiKMw7dEGV+SWn3YdvGHWaJmabxB1wRp9VNuO
+         56bQ1Mo8Rirt/9/45dhQ1nM/ZYDnB4Kb265Xt7Sm4i4YL7CfxPcX22Etam9bB0JOpF6q
+         gtpg==
+X-Gm-Message-State: ALoCoQl0ux8Os9Oaf0sTs3ol5uuxqj5o4XBmgNnwjlQO3u1sI+WaijJHvS34MuzbTvXOfnflmmNb
+MIME-Version: 1.0
+X-Received: by 10.112.125.166 with SMTP id mr6mr38085780lbb.83.1433440267819;
+ Thu, 04 Jun 2015 10:51:07 -0700 (PDT)
+Received: by 10.25.37.207 with HTTP; Thu, 4 Jun 2015 10:51:07 -0700 (PDT)
+In-Reply-To: <CAMzvrF9auDhSWs-35aTApkT+ccf8zL7J8XejALcnYQeUjNjszw@mail.gmail.com>
+References: <00F2B29A-1CFC-469C-90E6-06C080BB14E3@vt.edu>
+	<CAMzvrF9auDhSWs-35aTApkT+ccf8zL7J8XejALcnYQeUjNjszw@mail.gmail.com>
+Date: Thu, 4 Jun 2015 10:51:07 -0700
+Message-ID: <CAMzvrF-ABRvoj-9mNxqFpXh8X3=ZzdbjzAZc8Zv3XUx4X5QfWA@mail.gmail.com>
+Subject: Re: Software Summer School Application Status
+From: Matthew Madsen Agee <magee@uci.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0122aecaf867b30517b4d179
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0122aecaf867b30517b4d179
+Content-Type: text/plain; charset=UTF-8
+
+I just realized I should probably clarify.
+
+The arrival flight is the usual day, June 21.
+
+But the departure day is July 4.
+
+I'll also be attending the molecular response summer school while I'm at
+Virginia Tech. It's fine if you can't organize a ride back because of that.
+
+Matt
+
+On Thu, Jun 4, 2015 at 10:36 AM, Matthew Madsen Agee <magee@uci.edu> wrote:
+
+> Hello Andrew,
+>
+> Here is my arriving and departing flight information:
+>
+> Arrival:
+>
+> Flight # - 4842
+> Airline - Piedmont Airlines dba US Airways Expres
+> Arrival Time - 4:47 PM
+>
+>
+> Departure:
+>
+> Flight # - 4879
+> Airline - Piedmont Airlines dba US Airways Express
+> Departure Time - 12:55 PM
+>
+>
+> Thanks,
+>
+> Matt Agee
+>
+>
+> On Tue, May 19, 2015 at 11:04 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Dear Matthew,
+>>
+>> We are happy to announce that your application to the 2015
+>> Software-Development Summer School for Computational Chemistry,
+>> Biomolecular Simulation, and Materials Modeling has been accepted!
+>>
+>> The next step is to secure your place in the program by going to this
+>> webpage to formally register. http://www.cpe.vt.edu/reg/sss/
+>> The registration page mentions credit cards, so I want to remind you that *there
+>> is no charge for participating in the Summer School*. Clicking register
+>> will bring you to a page showing a total of $0.00 for registration.
+>>
+>> When you have made your travel arrangements I ask that you please send me
+>> an email (amjames2@vt.edu).
+>> If you will be flying I will need to know the flight number, airline and
+>> the scheduled arrival/departure time of your arriving and departing
+>> flights.  We will use this information to arrange transportation to and
+>> from Roanoke airport.
+>>
+>> If you are driving to campus I will need to get you a temporary parking
+>> permit, and give you instructions on where you can park.
+>>
+>> If you have any questions please do not hesitate to contact me. Looking
+>> forward to meeting you in June!
+>>
+>> Sincerely,
+>> Andrew M. James
+>> Summer School Coordinator
+>>
+>
+>
+
+--089e0122aecaf867b30517b4d179
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>I just realized I should probably clarify. =
+<br><br></div>The arrival flight is the usual day, June 21. <br><br></div>B=
+ut the departure day is July 4. <br><br>I&#39;ll also be attending the mole=
+cular response summer school while I&#39;m at Virginia Tech. It&#39;s fine =
+if you can&#39;t organize a ride back because of that.<br><br></div>Matt <b=
+r></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, J=
+un 4, 2015 at 10:36 AM, Matthew Madsen Agee <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:magee@uci.edu" target=3D"_blank">magee@uci.edu</a>&gt;</span> wr=
+ote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border=
+-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div><div><div><div=
+><div><div>Hello Andrew, <br><br></div>Here is my arriving and departing fl=
+ight information:<br><br></div>Arrival:<br><br></div><div>Flight # - 4842<b=
+r></div><div>Airline - Piedmont Airlines dba US Airways Expres<br></div><di=
+v>Arrival Time - 4:47 PM<br></div><div><br><br></div>Departure:<br><br></di=
+v>Flight # - 4879<br></div>Airline - Piedmont Airlines dba US Airways Expre=
+ss
+</div>Departure Time - 12:55 PM<br><div><div><div><div><div><br><br></div><=
+div>Thanks, <br><br></div><div>Matt Agee<br></div><div><br></div></div></di=
+v></div></div></div><div class=3D"HOEnZb"><div class=3D"h5"><div class=3D"g=
+mail_extra"><br><div class=3D"gmail_quote">On Tue, May 19, 2015 at 11:04 AM=
+, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" tar=
+get=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex"><div style=3D"word-wrap:break-word"><div>Dear Matthew,</div><=
+div><br></div><div>We are happy to announce that your application to the 20=
+15 Software-Development Summer School for Computational Chemistry, Biomolec=
+ular Simulation, and Materials Modeling has been accepted!</div><div><br></=
+div><div>The next step is to secure your place in the program by going to t=
+his webpage to formally register.=C2=A0<a href=3D"http://www.cpe.vt.edu/reg=
+/sss/" target=3D"_blank">http://www.cpe.vt.edu/reg/sss/</a>=C2=A0</div><div=
+>The registration page mentions credit cards, so I want to remind you that=
+=C2=A0<b><i>there is no charge for participating in the Summer School</i></=
+b>. Clicking register will bring you to a page showing a total of $0.00 for=
+ registration. =C2=A0</div><div><br></div><div>When you have made your trav=
+el arrangements I ask that you please send me an email (<a href=3D"mailto:a=
+mjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>).</div><div>If you wi=
+ll be flying I will need to know the flight number, airline and the schedul=
+ed arrival/departure time of your arriving and departing flights.=C2=A0 We =
+will use this information to arrange transportation to and from Roanoke air=
+port.=C2=A0</div><div><br></div><div>If you are driving to campus I will ne=
+ed to get you a temporary parking permit, and give you instructions on wher=
+e you can park.=C2=A0</div><div><br></div><div>If you have any questions pl=
+ease do not hesitate to contact me. Looking forward to meeting you in June!=
+</div><div><br></div><div>Sincerely,</div><div>Andrew M. James</div><div>Su=
+mmer School Coordinator</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+
+--089e0122aecaf867b30517b4d179--

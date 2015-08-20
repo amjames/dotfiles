@@ -1,0 +1,481 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp404548qgt;
+        Fri, 1 May 2015 10:25:58 -0700 (PDT)
+X-Received: by 10.140.233.146 with SMTP id e140mr13608064qhc.26.1430501158052;
+        Fri, 01 May 2015 10:25:58 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id v6si5974374qhd.4.2015.05.01.10.25.57
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 May 2015 10:25:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.170 as permitted sender) client-ip=209.85.223.170;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.170 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f170.google.com (mail-ie0-f170.google.com [209.85.223.170])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t41HPpA7002788
+	for <amjames2@vt.edu>; Fri, 1 May 2015 13:25:57 -0400
+Received: by iedfl3 with SMTP id fl3so105235585ied.1
+        for <amjames2@vt.edu>; Fri, 01 May 2015 10:25:51 -0700 (PDT)
+X-Received: by 10.50.41.8 with SMTP id b8mr6083452igl.38.1430501151795;
+        Fri, 01 May 2015 10:25:51 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.162 with SMTP id lt2csp498379ieb;
+        Fri, 1 May 2015 10:25:50 -0700 (PDT)
+X-Received: by 10.55.20.139 with SMTP id 11mr20663315qku.28.1430501150182;
+        Fri, 01 May 2015 10:25:50 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id 72si11970817qht.103.2015.05.01.10.25.49
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 May 2015 10:25:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t41HPnUT008859
+	for <andrew.m.james2@gmail.com>; Fri, 1 May 2015 13:25:49 -0400
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t41HPhSd016848
+	for <andrew.m.james2@gmail.com>; Fri, 1 May 2015 13:25:48 -0400
+Received: by iedfl3 with SMTP id fl3so105232771ied.1
+        for <andrew.m.james2@gmail.com>; Fri, 01 May 2015 10:25:43 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=lJ9LAg7FVGjGzv4i9uqWxeDQL9WxGaDhiaxyp00kgUQ=;
+        b=YR1/TzeySU9vD8dOiLPYXk2au3400DUjZ8jDfYSEP/33+FqUEPsq1Vg6IaGYhM1ikh
+         p7SyI0W8sBrT8JQv5PxBJx9PcNPXQ1VdL0htxlDG4CZT+QtoBuK+nuXr8LQj8aoqRIVx
+         kebY749OH+kauZu47qDvj5pK2yh5K9eBZ4M6RkLlnbZqCR1aAYT08ZK5AW4p9qeftJo/
+         EYa82b3BXaLA7XZaE4bH3Jh9pPGi50QeWt/SEbrJr7CZbU9ZHwEt03u2lbgc19zlrl6x
+         oYqm/4W036pd0uM549Qjiovoa45JDfpwgdJuhy6pJ/RJzSVSInzDPpvSA8wcIKo8kNc8
+         KpTQ==
+X-Gm-Message-State: ALoCoQmIIxk7iA1LtzTiBb8+YL3Wzg9IUDzU4VSpNBCPnLm3KlXXZy/qMp7VbEoQahOPxyvkC3Uj/lKmiQVdk/IyUMK+9X7/sGd0KbmqytE1DwdW3n5NjakjsX9YDX3TJZAfYbFQnko40uF7Dud/r/krOaP1K0qH/Q==
+X-Received: by 10.107.166.203 with SMTP id p194mr13612439ioe.30.1430501143309;
+        Fri, 01 May 2015 10:25:43 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.203 with SMTP id p194mr13612426ioe.30.1430501143130;
+ Fri, 01 May 2015 10:25:43 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Fri, 1 May 2015 10:25:43 -0700 (PDT)
+In-Reply-To: <D1692788.78795%laurieg@vt.edu>
+References: <0.0.1.97B.1D0837C7120ADD5.148A1@mail60.magnetmail.net>
+	<CABit=J6cgiN+4nefOGR1A_FGvdPkmztKD1YnZrSHssS62phCkQ@mail.gmail.com>
+	<D1692788.78795%laurieg@vt.edu>
+Date: Fri, 1 May 2015 13:25:43 -0400
+Message-ID: <CAH0V_1bmaYYsNUg=6zVnyV80KUeX-YFaJxPyQL0uxSmfG+9hgQ@mail.gmail.com>
+Subject: Fwd: FW: Application Deadline Extended for two Theoretical Chemistry
+ Summer Schools!
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Eduard Valeyev <valeev76@vt.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>, "Good, Laurie" <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11414af47ccdc605150880d5
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11414af47ccdc605150880d5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'm honestly not sure if she needs to register or not.  CPE is putting
+together the accommodations, dining plans, and teaching spaces, so they at
+least need to know the numbers to make sure the room is large enough.  I'm
+copying this to AJ (who is organizing for us) to inquire.
+
+AJ, please ask Jessica about how we should deal with local students who
+don't need accommodations (and possibly not dining plans =E2=80=93 though w=
+e might
+give them food anyway to allow them to interact with the other students).
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: Good, Laurie <laurieg@vt.edu>
+Date: Fri, May 1, 2015 at 12:52 PM
+Subject: FW: Application Deadline Extended for two Theoretical Chemistry
+Summer Schools!
+To: "Crawford, Daniel" <crawdad@vt.edu>
+
+
+
+
+
+  From: Edward Valeyev <valeev76@vt.edu>
+Date: Thursday, April 30, 2015 at 6:33 PM
+To: Laurie Good <acspchem@vt.edu>
+Subject: Re: Application Deadline Extended for two Theoretical Chemistry
+Summer Schools!
+
+  Daniel, I want Jessi to attend, does she need to apply or can we just
+handle her offline? She obviously won't need any support other than a seat
+in the room.
+On Apr 30, 2015 9:32 PM, <acspchem@vt.edu> wrote:
+
+>                   [image: ACS]
+> <http://www.mmsend73.com/link.cfm?r=3D1537850733&sid=3D74084837&m=3D10004=
+558&u=3DACS1_D&j=3D27450899&s=3Dhttp://www.acs.org>
+> Theory Subdivision, ACS Division of Physical Chemistry
+>           Dear Fellow Theoretical Chemists:
+>
+> Consider this a quick reminder of the two Summer Schools to be held here
+> at Virginia Tech in less than two months. *We've extended the
+> registration deadline to May 31st to give all interested students a chanc=
+e
+> to take part.*
+>
+> *Molecular Response Properties Summer School, June 29-July 3*: Much of
+> our understanding of molecules and materials is derived from their
+> responses to electromagnetic fields =E2=80=93 from high-resolution spectr=
+oscopic
+> analyses for the identification of molecules in interstellar space, to
+> magnetic resonance imaging used in medical diagnostics, to non-linear fib=
+er
+> optics employed in telecommunications. This school will focus on the
+> quantum mechanical theories underlying both weak- and strong-field
+> responses, in absorption, emission, and scattering, at a level appropriat=
+e
+> for graduate students and postdoctoral researchers.
+>
+> http://www.theory.chem.vt.edu/response/
+> <http://www.mmsend73.com/link.cfm?r=3D1537850733&sid=3D74084838&m=3D10004=
+558&u=3DACS1_D&j=3D27450899&s=3Dhttp://www.theory.chem.vt.edu/response/>
+>
+> The School will be taught by Profs. Patrick Norman (Link=C3=B6ping U., Sw=
+eden),
+> Trond Saue (U. Toulouse), Kenneth Ruud (Arctic University of Norway), and
+> Daniel Crawford (Virginia Tech). Interested participants may register at
+> the above website (no application process is otherwise required). *The
+> $550 registration fee includes room, board, and instructional expenses, b=
+ut
+> not transportation costs*.
+>
+>
+> *************************************************************************=
+******************************
+>
+> *Third Annual Software Summer School, June 22-July 1:* This NSF-sponsored
+> Summer School targets first- and second-year graduate students whose Ph.D=
+.
+> research requires significant programming skills. The School, which is pa=
+rt
+> of the sustainable software initiative led by the SICM2 Project, will cov=
+er
+> a range of software design and optimization, including programming
+> fundamentals, numerical libraries, parallel computing, and GPU/accelerato=
+r
+> algorithms.
+>
+> http://s2i2.org/school_2015/
+> <http://www.mmsend73.com/link.cfm?r=3D1537850733&sid=3D74084839&m=3D10004=
+558&u=3DACS1_D&j=3D27450899&s=3Dhttp://s2i2.org/school_2015/>
+>
+> Interested students should submit an application consisting of a CV,
+> letter of support, and a brief description of their research and how it
+> would benefit from the advanced programming skills offered by the School.
+> Students accepted to the program will need only provide their own
+> transportation to the Virginia Tech campus; all other expenses, including
+> room, board, and instructional costs will be covered by the School. (Note
+> that only student at U.S. institutions are eligible for participation in
+> this year's Software Summer School.)
+>
+>
+> Again, the deadline for registration is now May 31. Please help us spread
+> the word about these great (and inexpensive!) opportunities for advanced
+> training in two important areas!
+>
+>
+> Best regards,
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+> <crawdad@vt.edu?subject=3DSummer%20Schools%20at%20Virginia%20Tech>
+>
+>
+> American Chemical Society | 1155 Sixteenth Street, NW | Washington, DC
+> 20036
+> Copyright =C2=A9 2014 American Chemical Society
+> <http://www.mmsend73.com/link.cfm?r=3D1537850733&sid=3D74084840&m=3D10004=
+558&u=3DACS1_D&j=3D27450899&s=3Dhttp://www.acs.org>
+> All rights reserved.
+>
+> You are receiving this email because you opted-in to receive it or due to
+> your relationship with an ACS Technical Division.
+>
+>
+
+--001a11414af47ccdc605150880d5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;m honestly not sure if she needs to register or not.=
+=C2=A0 CPE is putting together the accommodations, dining plans, and teachi=
+ng spaces, so they at least need to know the numbers to make sure the room =
+is large enough.=C2=A0 I&#39;m copying this to AJ (who is organizing for us=
+) to inquire.<div><br></div><div>AJ, please ask Jessica about how we should=
+ deal with local students who don&#39;t need accommodations (and possibly n=
+ot dining plans =E2=80=93 though we might give them food anyway to allow th=
+em to interact with the other students).<br><div><br></div><div>-TDC<br cle=
+ar=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof=
+. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"=
+_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">Good, Laurie</b> <span dir=3D"ltr">&lt;<=
+a href=3D"mailto:laurieg@vt.edu">laurieg@vt.edu</a>&gt;</span><br>Date: Fri=
+, May 1, 2015 at 12:52 PM<br>Subject: FW: Application Deadline Extended for=
+ two Theoretical Chemistry Summer Schools!<br>To: &quot;Crawford, Daniel&qu=
+ot; &lt;<a href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a>&gt;<br><br><br=
+>
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>
+<div><br>
+</div>
+<div>
+<div><br>
+</div>
+</div>
+</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Edward Valeyev &lt;<a href=3D=
+"mailto:valeev76@vt.edu" target=3D"_blank">valeev76@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Thursday, April 30, 2015 at 6=
+:33 PM<br>
+<span style=3D"font-weight:bold">To: </span>Laurie Good &lt;<a href=3D"mail=
+to:acspchem@vt.edu" target=3D"_blank">acspchem@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Re: Application Deadline E=
+xtended for two Theoretical Chemistry Summer Schools!<br>
+</div>
+<div><br>
+</div>
+<blockquote style=3D"BORDER-LEFT:#b5c4df 5 solid;PADDING:0 0 0 5;MARGIN:0 0=
+ 0 5">
+<div>
+<div>
+<p dir=3D"ltr">Daniel, I want Jessi to attend, does she need to apply or ca=
+n we just handle her offline? She obviously won&#39;t need any support othe=
+r than a seat in the room.</p>
+<div class=3D"gmail_quote">On Apr 30, 2015 9:32 PM, &lt;<a href=3D"mailto:a=
+cspchem@vt.edu" target=3D"_blank">acspchem@vt.edu</a>&gt; wrote:<br type=3D=
+"attribution">
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div style=3D"background-color:#fff;margin:0;padding:0">
+<div align=3D"center">
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"margin:0;padding:0">
+<tbody>
+<tr>
+<td valign=3D"top" width=3D"30%" style=3D"background-color:#fbce4f;margin:0=
+;padding:0">
+<img src=3D"http://images.magnetmail.net/images/template/spacer.gif" height=
+=3D"10"> </td>
+<td valign=3D"top" width=3D"70%" style=3D"background-color:#6084c2;margin:0=
+;padding:0">
+<img src=3D"http://images.magnetmail.net/images/template/spacer.gif" height=
+=3D"10"> </td>
+</tr>
+</tbody>
+</table>
+<span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"background-color:#fff">
+<span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"border-bottom:1px solid #b4b4b4">
+<table width=3D"630" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"630">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" width=3D"223"><a href=3D"http://www.mmsend73.com/link.cf=
+m?r=3D1537850733&amp;sid=3D74084837&amp;m=3D10004558&amp;u=3DACS1_D&amp;j=
+=3D27450899&amp;s=3Dhttp://www.acs.org" target=3D"_blank"><img src=3D"http:=
+//images.magnetmail.net/images/template/ACS1/acs/ACS.gif" border=3D"0" widt=
+h=3D"223" height=3D"70" alt=3D"ACS"></a></td>
+<td style=3D"font:14px Arial,Helvetica,sans-serif" align=3D"right" width=3D=
+"407">
+<div>Theory Subdivision, ACS Division of Physical Chemistry</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-bottom:1px solid #b4b4b4;padding:5px 0=
+">
+<span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><table width=3D"630" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"630" style=3D"padding:10px 0;font:12px Arial,Helvetica,sans-se=
+rif" valign=3D"top" align=3D"left">
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Dea=
+r Fellow Theoretical Chemists:</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Con=
+sider this a quick reminder of the two Summer Schools to be held here at Vi=
+rginia Tech in less than two months.
+</span><strong><span style=3D"font-family:Calibri">We&#39;ve extended the r=
+egistration deadline to May 31st to give all interested students a chance t=
+o take part.</span></strong></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"color:rgb(0,0,128)"><strong><span style=3D"font-size:12=
+pt"><span style=3D"font-family:Calibri">Molecular Response Properties Summe=
+r School, June 29-July 3</span></span></strong></span><span style=3D"font-s=
+ize:12pt"><span style=3D"font-family:Calibri">:
+ Much of our understanding of molecules and materials is derived from their=
+ responses to electromagnetic fields =E2=80=93 from high-resolution spectro=
+scopic analyses for the identification of molecules in interstellar space, =
+to magnetic resonance imaging used in medical
+ diagnostics, to non-linear fiber optics employed in telecommunications. Th=
+is school will focus on the quantum mechanical theories underlying both wea=
+k- and strong-field responses, in absorption, emission, and scattering, at =
+a level appropriate for graduate
+ students and postdoctoral researchers.</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri"><a =
+href=3D"http://www.mmsend73.com/link.cfm?r=3D1537850733&amp;sid=3D74084838&=
+amp;m=3D10004558&amp;u=3DACS1_D&amp;j=3D27450899&amp;s=3Dhttp://www.theory.=
+chem.vt.edu/response/" target=3D"_blank">http://www.theory.chem.vt.edu/resp=
+onse/</a></span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">The=
+ School will be taught by Profs. Patrick Norman (Link=C3=B6ping U., Sweden)=
+, Trond Saue (U. Toulouse), Kenneth Ruud (Arctic University of Norway), and=
+ Daniel Crawford (Virginia Tech). Interested
+ participants may register at the above website (no application process is =
+otherwise required).
+<u>The $550 registration fee includes room, board, and instructional expens=
+es, but not transportation costs</u>.
+</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div>**********************************************************************=
+*********************************</div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"color:rgb(128,0,0)"><strong><span style=3D"font-size:12=
+pt"><span style=3D"font-family:Calibri">Third Annual Software Summer School=
+, June 22-July 1:</span></span></strong></span><span style=3D"font-size:12p=
+t"><span style=3D"font-family:Calibri"> This
+ NSF-sponsored Summer School targets first- and second-year graduate studen=
+ts whose Ph.D. research requires significant programming skills. The School=
+, which is part of the sustainable software initiative led by the SICM2 Pro=
+ject, will cover a range of software
+ design and optimization, including programming fundamentals, numerical lib=
+raries, parallel computing, and GPU/accelerator algorithms.</span></span></=
+div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri"><a =
+href=3D"http://www.mmsend73.com/link.cfm?r=3D1537850733&amp;sid=3D74084839&=
+amp;m=3D10004558&amp;u=3DACS1_D&amp;j=3D27450899&amp;s=3Dhttp://s2i2.org/sc=
+hool_2015/" target=3D"_blank">http://s2i2.org/school_2015/</a></span></span=
+></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Int=
+erested students should submit an application consisting of a CV, letter of=
+ support, and a brief description of their research and how it would benefi=
+t from the advanced programming skills
+ offered by the School. Students accepted to the program will need only pro=
+vide their own transportation to the Virginia Tech campus; all other expens=
+es, including room, board, and instructional costs will be covered by the S=
+chool. (Note that only student at
+ U.S. institutions are eligible for participation in this year&#39;s Softwa=
+re Summer School.)</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Aga=
+in, the deadline for registration is now May 31. Please help us spread the =
+word about these great (and inexpensive!) opportunities for advanced traini=
+ng in two important areas!</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">=C2=
+=A0</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Bes=
+t regards,</span></span></div><span class=3D"HOEnZb"><font color=3D"#888888=
+">
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">--<=
+/span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri">Pro=
+f. T. Daniel Crawford</span></span></div>
+<div><span style=3D"font-size:12pt"><span style=3D"font-family:Calibri"><a =
+href=3D"mailto:crawdad@vt.edu?subject=3DSummer%20Schools%20at%20Virginia%20=
+Tech" target=3D"_blank">crawdad@vt.edu</a></span></span></div>
+<div>=C2=A0</div>
+</font></span></td></tr></tbody></table><span class=3D"HOEnZb"><font color=
+=3D"#888888">
+</font></span></td></tr><tr>
+<td align=3D"center" style=3D"font:12px Arial,Helvetica,sans-serif;padding:=
+10px">
+<p>American Chemical Society | 1155 Sixteenth Street, NW | Washington, DC 2=
+0036 <br>
+Copyright =C2=A9 2014 <a href=3D"http://www.mmsend73.com/link.cfm?r=3D15378=
+50733&amp;sid=3D74084840&amp;m=3D10004558&amp;u=3DACS1_D&amp;j=3D27450899&a=
+mp;s=3Dhttp://www.acs.org" target=3D"_blank">
+American Chemical Society</a> All rights reserved.</p>
+<p>You are receiving this email because you opted-in to receive it or due t=
+o your relationship with an ACS Technical Division.
+</p>
+</td>
+</tr>
+</tbody></table><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span></td></tr></tbody></table><span class=3D"HOEnZb"><font color=
+=3D"#888888">
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888">
+<br>
+<img src=3D"http://www.mmsend73.com/spacer.cfm?tracking_id=3D25791481641&am=
+p;jid=3D27450899"></font></span></div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</span>
+</div>
+
+</div><br></div></div></div>
+
+--001a11414af47ccdc605150880d5--

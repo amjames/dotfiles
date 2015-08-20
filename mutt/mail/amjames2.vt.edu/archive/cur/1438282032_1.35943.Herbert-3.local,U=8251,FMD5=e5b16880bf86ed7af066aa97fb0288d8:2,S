@@ -1,0 +1,73 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp96522qgt;
+        Tue, 12 May 2015 12:44:10 -0700 (PDT)
+X-Received: by 10.55.51.129 with SMTP id z123mr35940893qkz.102.1431459850719;
+        Tue, 12 May 2015 12:44:10 -0700 (PDT)
+Return-Path: <uas@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 23si17168249qhc.26.2015.05.12.12.44.10
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 May 2015 12:44:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of uas@vt.edu designates 2001:468:c80:2105:0:277:40de:506c as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of uas@vt.edu designates 2001:468:c80:2105:0:277:40de:506c as permitted sender) smtp.mail=uas@vt.edu
+Received: from aquifer.cc.vt.edu ([IPv6:2001:468:c80:2104:219:b9ff:feea:d908])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4CJi5a5013545
+	for <amjames2@vt.edu>; Tue, 12 May 2015 15:44:10 -0400
+Received: from bradmin1.arc.vt.edu.mgt (bradmin1.cluster [10.11.0.1])
+	by aquifer.cc.vt.edu (Postfix) with ESMTP id 52F8736022
+	for <amjames2@vt.edu>; Tue, 12 May 2015 15:44:05 -0400 (EDT)
+Received: by bradmin1.arc.vt.edu.mgt (Postfix, from userid 0)
+	id 4FD2520C44; Tue, 12 May 2015 15:44:05 -0400 (EDT)
+To: amjames2@vt.edu
+From: moabadmin@bradmin1.arc.vt.edu.mgt
+Subject: Moab job '150585' was canceled
+Message-Id: <20150512194405.4FD2520C44@bradmin1.arc.vt.edu.mgt>
+Date: Tue, 12 May 2015 15:44:05 -0400 (EDT)
+X-Spam-Status: No, score=2.1 required=5.0 tests=DKIM_ADSP_NXDOMAIN,RDNS_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Level: **
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Moab job '150585' was canceled
+
+========== output of checkjob ==========
+
+job 150585
+
+AName: submit
+State: Removed 
+Completion Code: 255  Time: Tue May 12 15:43:40
+Creds:  user:amjames2  group:blueridge  account:AOE5984  class:normal_q  qos:medium_priority_qos
+WallTime:   00:01:22 of 4:00:00
+BecameEligible: Tue May 12 15:37:47
+SubmitTime: Tue May 12 15:37:29
+  (Time Queued  Total: 00:04:49  Eligible: 00:04:49)
+
+TemplateSets:  DEFAULT
+NodeMatchPolicy: EXACTNODE
+Total Requested Tasks: 64
+
+Req[0]  TaskCount: 64  Partition: NORMAL
+Opsys: ---  Arch: ---  Features: standard
+
+Allocated Nodes:
+[br125:16][br095:16][br080:16][br085:16]
+
+
+SystemID:   blueridge
+SystemJID:  150585
+Notification Events: JobEnd,JobFail  Notification Address: amjames2@vt.edu
+
+StartCount:     1
+Execution Partition:  NORMAL
+Flags:          BACKFILL,RESTARTABLE
+Attr:           BACKFILL,checkpoint
+StartPriority:  305
+Reservation '150585' (-00:01:46 -> 3:58:14  Duration: 4:00:00)
+BLOCK MSG: non-idle state 'Running' (recorded at last scheduling iteration)

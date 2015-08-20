@@ -1,0 +1,89 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp88933qgt;
+        Sat, 7 Feb 2015 18:29:02 -0800 (PST)
+X-Received: by 10.224.151.140 with SMTP id c12mr3186030qaw.67.1423362542025;
+        Sat, 07 Feb 2015 18:29:02 -0800 (PST)
+Return-Path: <pamateis@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id l4si8815731qay.75.2015.02.07.18.29.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 07 Feb 2015 18:29:02 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning pamateis@vt.edu does not designate 209.85.216.48 as permitted sender) client-ip=209.85.216.48;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning pamateis@vt.edu does not designate 209.85.216.48 as permitted sender) smtp.mail=pamateis@vt.edu
+Received: from mail-qa0-f48.google.com (mail-qa0-f48.google.com [209.85.216.48])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t182SuE1024435
+	for <amjames2@vt.edu>; Sat, 7 Feb 2015 21:29:01 -0500
+Received: by mail-qa0-f48.google.com with SMTP id v8so16437299qal.7
+        for <amjames2@vt.edu>; Sat, 07 Feb 2015 18:28:56 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=GMZfLZlKupAeHyYHUZPA/lRivVjvpJn9T6/gDBNI/KU=;
+        b=SgwQTyLhvO9QV+587j93GQ/VqnL1CbcCTjltYyVRC0ZPdXLSyrajCdUjFQQn/9+mag
+         Ekq27XNE9cc/akj5dpPUtkjHy9RunMW0o8eGHlvaGKFGvH4chBVlODrypZD0cQ4meUUq
+         lp1Hi070cAks8bI/6YSvVQf8zC6VDwE+fV+T7PfAT7oCVSNhPYhkIQxEqIAe9ALay7ZC
+         oHxetUyXp2hqyEOxPD33JKhugl6dyJeriCxW3D+3x3WIDbhq4D7WyzHDzatEcBRWhNjs
+         B/CQ70J8ebSapDUPhCxDqPOpxV26IO5dgaEuLMP28f/Ra5vg3xDqfddy3Q+Jz91eSSpe
+         taFw==
+X-Received: by 10.140.82.234 with SMTP id h97mr13900890qgd.75.1423362536074;
+        Sat, 07 Feb 2015 18:28:56 -0800 (PST)
+X-Gm-Message-State: ALoCoQlu0Y8rk+3wo9ZMz9rArUZhk6BzLtFr20DqCcAag7tdR1TBE4zwSczbk0oyqo1sWbOxqzu00f/QfB+jeNldfDL+cLLKCCgVNqnBsyySRtm3cOm8yyZgBuX34FqzqTP09IargYGaZ2Lsnm93BC45O4+VMt0kLw==
+MIME-Version: 1.0
+X-Received: by 10.140.82.234 with SMTP id h97mr13900874qgd.75.1423362536006;
+ Sat, 07 Feb 2015 18:28:56 -0800 (PST)
+Received: by 10.229.167.68 with HTTP; Sat, 7 Feb 2015 18:28:55 -0800 (PST)
+Date: Sat, 7 Feb 2015 21:28:55 -0500
+Message-ID: <CAAhL4CZLsYEzo=NFxBKTtTJCBW-32Ewa-rtugx8ohh8rLi-P0Q@mail.gmail.com>
+Subject: General Chemistry test proctoring
+From: Patricia Amateis <pamateis@vt.edu>
+To: "Abdel Latif, Marwa" <mka3@vt.edu>, amjames2@vt.edu, asadkhan@vt.edu,
+        "Bumbarger, Tiffany" <tab26@vt.edu>, "Chen, Mingtao" <mc7@vt.edu>,
+        chengzhe@vt.edu, clayps@vt.edu, "Clements, Joseph" <josephc4@vt.edu>,
+        cpaula@vt.edu, darrend1@vt.edu, "Devi, Sarika" <sarika@vt.edu>,
+        drewkoro@vt.edu, "Edling, Hans" <heliot@vt.edu>,
+        "Epley, Charity" <echarity@vt.edu>,
+        "Godward, Dennis" <jgodward@vt.edu>, hemanthi@vt.edu,
+        "Huang, Yongzheng" <huang89@vt.edu>, "Hudson, Amanda" <aneighb@vt.edu>,
+        jpmccord@vt.edu, jshroads@vt.edu, "Karpin, George" <rahzel05@vt.edu>,
+        "Kaur, Kuljeet" <kjeetk7@vt.edu>, kchris1@vt.edu,
+        "Li, Xiuli" <lix@vt.edu>, "Lin, Shaoyang" <shaoyang@vt.edu>,
+        "Marks, Joyann" <joyannam@vt.edu>, nacarter@vt.edu, parker06@vt.edu,
+        "Vincent, Matthew" <mattvin@vt.edu>, "Wang, Ming" <mingw@vt.edu>,
+        "Wang, Ying" <wying102@vt.edu>, "Xu, Yunnan" <yunnan91@vt.edu>,
+        yunhuali@vt.edu, "Zheng, Xueyan" <xyzheng@vt.edu>, zyafen85@vt.edu
+Content-Type: multipart/alternative; boundary=001a11c135d858756c050e8a6a36
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c135d858756c050e8a6a36
+Content-Type: text/plain; charset=UTF-8
+
+Dear General Chemistry Test Proctors,
+
+I wanted to let you know that the first General Chemistry (Chem 1035/1036)
+test will be Tuesday February 17 at 7:00-8:30 pm.  I will let you know soon
+the location of the classroom in which you will be proctoring.
+
+Patricia Amateis
+Director of General Chemistry
+
+--001a11c135d858756c050e8a6a36
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear General Chemistry Test Proctors,</div><div><br><=
+/div><div>I wanted to let you know that the first General Chemistry (Chem 1=
+035/1036) test will be Tuesday February 17 at 7:00-8:30 pm.=C2=A0 I will le=
+t you know soon the location of the classroom in which you will be proctori=
+ng.</div><div><br></div><div>Patricia Amateis</div><div>Director of General=
+ Chemistry</div></div>
+
+--001a11c135d858756c050e8a6a36--

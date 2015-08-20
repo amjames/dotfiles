@@ -1,0 +1,893 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp43359qgp;
+        Thu, 19 Feb 2015 19:39:47 -0800 (PST)
+X-Received: by 10.140.39.84 with SMTP id u78mr18403762qgu.63.1424403587142;
+        Thu, 19 Feb 2015 19:39:47 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id o140si15746699qhb.71.2015.02.19.19.39.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 19 Feb 2015 19:39:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.173 as permitted sender) client-ip=209.85.223.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.173 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f173.google.com (mail-ie0-f173.google.com [209.85.223.173])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1K3deJ2017372
+	for <amjames2@vt.edu>; Thu, 19 Feb 2015 22:39:45 -0500
+Received: by iebtr6 with SMTP id tr6so5010171ieb.10
+        for <amjames2@vt.edu>; Thu, 19 Feb 2015 19:39:40 -0800 (PST)
+X-Received: by 10.43.78.132 with SMTP id zm4mr9951199icb.81.1424403579968;
+        Thu, 19 Feb 2015 19:39:39 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp913144ieb;
+        Thu, 19 Feb 2015 19:39:39 -0800 (PST)
+X-Received: by 10.140.49.5 with SMTP id p5mr2534758qga.15.1424403578845;
+        Thu, 19 Feb 2015 19:39:38 -0800 (PST)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id p12si27018378qar.85.2015.02.19.19.39.38
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 19 Feb 2015 19:39:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr1.cc.vt.edu (mr1.cc.vt.edu [198.82.141.12] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1K3dcXV018904
+	for <andrew.m.james2@gmail.com>; Thu, 19 Feb 2015 22:39:38 -0500
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com [209.85.213.170])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1K3dVpu012364
+	for <andrew.m.james2@gmail.com>; Thu, 19 Feb 2015 22:39:37 -0500
+Received: by mail-ig0-f170.google.com with SMTP id l13so4703604iga.1
+        for <andrew.m.james2@gmail.com>; Thu, 19 Feb 2015 19:39:31 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=5qM7OLUchZ+FQ4rmNVOZ86/Y9uIo2atIxprL3hMUP38=;
+        b=iX2IoIeJnaf4E0vYZVS2BDJqCsYs58EUpHQo4Dl3WTNosZt3YUgmPzobE11c1E5Dik
+         Uw1dU4RrUeMmKfAerNCMgU9QBNt1eD3DkIxJ9eUgaxRNx47ZdLt9T0cKV8V4Tz4c5KKy
+         ZIas8M8uNHni039B632OQBWzYDnVfqCbHAkbqFF+hatcXGCf30RHDxNMUe814RCJtPzO
+         ZRfPhKhancO46oCF4N9Xs3BqR2/zocAIkXJWfCq9qkNhfgzPfbpGmj4D6HhL5UqqfYxF
+         RLyJIoZZ1aUJxJ6Un1htKYZvcYEr3unbXHnTA7FhP6a2XHCG21aZEEFvhCu8vpK47sG0
+         fdRg==
+X-Gm-Message-State: ALoCoQm4VhgwOhteeHBp+Zes1Yz+bj+V8hxAEWCi5j/bUTJww1AwYU6VV5nPjF3voQNpiU7HL9/RHbWQcgN2YT17oxVGg0+dnz/k5JVrSIIAet32C3k6ba0qIL2EVfJJuyNklc89XeT8N7dTJzWM8h6MoyUMZGvOsQ==
+X-Received: by 10.107.17.203 with SMTP id 72mr10957927ior.42.1424403571836;
+        Thu, 19 Feb 2015 19:39:31 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.17.203 with SMTP id 72mr10957912ior.42.1424403571640;
+ Thu, 19 Feb 2015 19:39:31 -0800 (PST)
+Received: by 10.64.171.84 with HTTP; Thu, 19 Feb 2015 19:39:31 -0800 (PST)
+In-Reply-To: <4E4EF586-604D-41BE-A27B-0E13A51DB72C@rosswalker.co.uk>
+References: <3ws8s52lcwkcf6bkg2ydvvk6.1424375000704@email.android.com>
+	<CAH0V_1Z07T+uXsTCARAhjov8ZiYeFCayuLLaS3D6U9ro+mCYKA@mail.gmail.com>
+	<CC3FEFE9-5DC7-49D5-B128-FD06F3529A38@vt.edu>
+	<4E4EF586-604D-41BE-A27B-0E13A51DB72C@rosswalker.co.uk>
+Date: Thu, 19 Feb 2015 22:39:31 -0500
+Message-ID: <CAH0V_1a+8Tt-zH=NOy=JgU4hAWoEO7nDSfvq1Xfx8ke=+LtpWA@mail.gmail.com>
+Subject: Re: S2I2 website access
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Ross Walker <ross@rosswalker.co.uk>
+Cc: Ashutosh Kumar <akumar1@vt.edu>, Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113e74e4e7dacc050f7ccc77
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 33231
+
+--001a113e74e4e7dacc050f7ccc77
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks, Ross!
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Feb 19, 2015 at 10:38 PM, Ross Walker <ross@rosswalker.co.uk> wrote=
+:
+
+> Hi Ashutosh,
+>
+> Ok, I removed this IP address from the restricted list. Please try again
+> and let me know if you encounter any problems.
+>
+> All the best
+> Ross
+>
+> On Feb 19, 2015, at 2:03 PM, Ashutosh Kumar <akumar1@vt.edu> wrote:
+>
+> Dear Dr. Walker,
+>
+> Here is the IP address of the router in our lab : 128.173.183.211
+>
+> Thanks for your help !!
+>
+>
+> Sincerely,
+> Ashutosh.
+>
+> On Feb 19, 2015, at 2:44 PM, "T. Daniel Crawford" <crawdad@vt.edu> wrote:
+>
+> Good question.  Guys, what is the IP address of the router in the lab?
+> Please let Dr. Walker know.
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Thu, Feb 19, 2015 at 2:43 PM, Ross Walker <rosscwalker@gmail.com>
+> wrote:
+>
+>> Yes they probably got blocked for incorrect logins. What are their ip
+>> addresses so I can reenable them?
+>>
+>> -------- Original message --------
+>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>> Date:02/19/2015 09:52 (GMT-08:00)
+>> To: Ross Walker <ross@rosswalker.co.uk>
+>> Cc: Ashutosh Kumar <akumar1@vt.edu>, Andrew James <
+>> andrew.m.james2@gmail.com>
+>> Subject: Re: S2I2 website access
+>>
+>> Dear Ross,
+>>
+>> I'm trying to give two of my students access to the S2I2 website so they
+>> can prepare announcements for the next software summer school.  However,
+>> their connections are being killed =E2=80=93 I suspect because of too ma=
+ny
+>> incorrect login attempts, like last time with one of Anna's students.  C=
+an
+>> you clear the IP entries that are causing the problem so they can try
+>> again, or else give us some guidance as to the real source of the proble=
+m?
+>>
+>> THanks!
+>>
+>> -Daniel
+>>
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Mon, May 6, 2013 at 9:42 PM, Ross Walker <ross@rosswalker.co.uk>
+>> wrote:
+>>
+>>> Oh Deny Hosts locked you out for too many incorrect login attempts. ;-)
+>>>
+>>> I'll fix it now. Give me 5 minutes.
+>>>
+>>>
+>>>
+>>>
+>>> On 5/6/13 6:39 PM, "Anastasia Gunina" <gunina@usc.edu> wrote:
+>>>
+>>> >Here it is:
+>>> >
+>>> >nastya@ssc409-desktop:~$ ssh -v crawdad@login.wmd-lab.org
+>>> >OpenSSH_5.9p1 Debian-5ubuntu1.1, OpenSSL 1.0.1 14 Mar 2012
+>>> >debug1: Reading configuration data /etc/ssh/ssh_config
+>>> >debug1: /etc/ssh/ssh_config line 19: Applying options for *
+>>> >debug1: Connecting to login.wmd-lab.org [192.31.21.190] port 22.
+>>> >debug1: Connection established.
+>>> >debug1: identity file /home/nastya/.ssh/id_rsa type 1
+>>> >debug1: Checking blacklist file /usr/share/ssh/blacklist.RSA-2048
+>>> >debug1: Checking blacklist file /etc/ssh/blacklist.RSA-2048
+>>> >debug1: identity file /home/nastya/.ssh/id_rsa-cert type -1
+>>> >debug1: identity file /home/nastya/.ssh/id_dsa type -1
+>>> >debug1: identity file /home/nastya/.ssh/id_dsa-cert type -1
+>>> >debug1: identity file /home/nastya/.ssh/id_ecdsa type -1
+>>> >debug1: identity file /home/nastya/.ssh/id_ecdsa-cert type -1
+>>> >ssh_exchange_identification: Connection closed by remote host
+>>> >
+>>> >And answers for some earlier asked questions as well:
+>>> >
+>>> >> (1) Have you ever used the ssh private/public key pair approach to
+>>> >> gaining access to a remote server before?
+>>> >
+>>> >I have never used keys before, this one is newly-generated.
+>>> >
+>>> >> (2) Is anyone in your lab aware of any problems with ssh there to
+>>> >> do this on other systems?
+>>> >
+>>> >Nobody, whom I was able to ask, had such problems, but most probably
+>>> >because of no experience with keys (we utilize password authentificati=
+on
+>>> >system for our servers).
+>>> >
+>>> >Anastasia
+>>> >
+>>> >----- Original Message -----
+>>> >From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >Date: Monday, May 6, 2013 6:32 pm
+>>> >Subject: Re: S2I2 website access
+>>> >To: Anastasia Gunina <gunina@usc.edu>
+>>> >Cc: Ross Walker <ross@rosswalker.co.uk>
+>>> >
+>>> >> Anastasia, can you send me the full output from your "ssh -v
+>>> >> crawdad@login.wmd-lab.org" command?
+>>> >>
+>>> >> Ross, can you make anything out of this?
+>>> >>
+>>> >> -TDC
+>>> >>
+>>> >> On May 6, 2013, at 9:27 PM, Anastasia Gunina <gunina@usc.edu> wrote:
+>>> >>
+>>> >> > I have tried it already, but it does not work yet. It says
+>>> >> "connection closed by remote host". ssh -v shows strange thing:
+>>> >> "id_rsa type 1" is mentioned. I asked for RSA, which, as I
+>>> >> understand, means RSA version 2. Maybe, this is a problem?
+>>> >> >
+>>> >> > Anastasia
+>>> >> >
+>>> >> > ----- Original Message -----
+>>> >> > From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >> > Date: Monday, May 6, 2013 1:47 pm
+>>> >> > Subject: Re: S2I2 website access
+>>> >> > To: Ross Walker <ross@rosswalker.co.uk>
+>>> >> > Cc: Anastasia Gunina <gunina@usc.edu>
+>>> >> >
+>>> >> >> Oh, yes, that's almost certainly it.   I'd forgotten that this
+>>> >> was
+>>> >> >> user account, as I normally do this with git repositories.
+>>> >> >>
+>>> >> >> Anastasia, please try "ssh crawdad@login.wmd-lab.org".
+>>> >> >>
+>>> >> >> -TDC
+>>> >> >>
+>>> >> >> On May 6, 2013, at 4:41 PM, Ross Walker <ross@rosswalker.co.uk>
+>>> >> wrote:>>
+>>> >> >>> Hi Daniel,
+>>> >> >>>
+>>> >> >>> You are adding these keys to the authorized keys in your own
+>>> >> user
+>>> >> >> directory yes? - In which case they need to do 'ssh
+>>> >> >> crawdad@login.wmd-lab.org'  - in other words they need to make
+>>> >> sure
+>>> >> >> they connect using your username.
+>>> >> >>>
+>>> >> >>> I suspect that is what the problem is here.
+>>> >> >>>
+>>> >> >>> Also it would be much preferred if people did not use
+>>> >> passphrase
+>>> >> >> less keys. I.e. they should ALWAYS create a passphrase when
+>>> >> >> creating a key pair otherwise it opens a massive security hole
+>>> >> so
+>>> >> >> please request that they create a phrase when creating their key.
+>>> >> >>>
+>>> >> >>> So please try again with the crawdad username
+>>> >> >>>
+>>> >> >>> All the best
+>>> >> >>> Ross
+>>> >> >>>
+>>> >> >>>
+>>> >> >>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >> >>> Date: Monday, May 6, 2013 1:30 PM
+>>> >> >>> To: Anastasia Gunina <gunina@usc.edu>
+>>> >> >>> Cc: Ross Walker <ross@rosswalker.co.uk>
+>>> >> >>> Subject: Re: S2I2 website access
+>>> >> >>>
+>>> >> >>> Dear Anastasia,
+>>> >> >>>
+>>> >> >>> We encountered the same problem attempting to give Prof. Krylov
+>>> >> >> access to the system, but all others have been fine.  Here are a
+>>> >> >> couple of questions:
+>>> >> >>>
+>>> >> >>> (1) Have you ever used the ssh private/public key pair approach
+>>> >> >> to gaining access to a remote server before?
+>>> >> >>>
+>>> >> >>> (2) Is anyone in your lab aware of any problems with ssh there
+>>> >> to
+>>> >> >> do this on other systems?
+>>> >> >>>
+>>> >> >>> I am copying this message to Prof. Ross Walker who controls the
+>>> >> >> server directly in the hopes that he may be able to see
+>>> >> something
+>>> >> >> in the access logs that can give us a clue as to what's going on.
+>>> >> >>>
+>>> >> >>> -TDC
+>>> >> >>>
+>>> >> >>>
+>>> >> >>> On May 6, 2013, at 3:49 PM, Anastasia Gunina <gunina@usc.edu>
+>>> >> wrote:>>>
+>>> >> >>>> I did not. And I guess that request "nastya@login.wmd-
+>>> >> lab.org's
+>>> >> >> password" is not related to RSA key?
+>>> >> >>>> Anastasia
+>>> >> >>>>
+>>> >> >>>> ----- Original Message -----
+>>> >> >>>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >> >>>> Date: Monday, May 6, 2013 12:43 pm
+>>> >> >>>> Subject: Re: S2I2 website access
+>>> >> >>>> To: Anastasia Gunina <gunina@usc.edu>
+>>> >> >>>>
+>>> >> >>>>> When you ran "ssh-keygen" to create your private/public key
+>>> >> >> pair,
+>>> >> >>>>> did you give a password?
+>>> >> >>>>>
+>>> >> >>>>> -TDC
+>>> >> >>>>>
+>>> >> >>>>>
+>>> >> >>>>> On May 6, 2013, at 3:21 PM, Anastasia Gunina <gunina@usc.edu>
+>>> >> >> wrote:>>>
+>>> >> >>>>>> Sorry, the server wants not only a key, but also a password
+>>> >> >> for
+>>> >> >>>>> access, and no password does not work.
+>>> >> >>>>>>
+>>> >> >>>>>> Anastasia
+>>> >> >>>>>>
+>>> >> >>>>>> ----- Original Message -----
+>>> >> >>>>>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >> >>>>>> Date: Monday, May 6, 2013 12:12 pm
+>>> >> >>>>>> Subject: Re: S2I2 website access
+>>> >> >>>>>> To: Anastasia Gunina <gunina@usc.edu>
+>>> >> >>>>>>
+>>> >> >>>>>>> Dear Anastasia,
+>>> >> >>>>>>>
+>>> >> >>>>>>> I've entered your key, so you should have access with the
+>>> >> >>>>> command
+>>> >> >>>>>>> "ssh login.wmd-lab.org".
+>>> >> >>>>>>>
+>>> >> >>>>>>> Please try to limit your edits to the "s2i2/tensor.php"
+>>> >> file.
+>>> >> >>
+>>> >> >>>>> If
+>>> >> >>>>>>> you need to adjust other files, let me know beforehand.
+>>> >> >>>>>>>
+>>> >> >>>>>>> Thanks!
+>>> >> >>>>>>>
+>>> >> >>>>>>> -TDC
+>>> >> >>>>>>>
+>>> >> >>>>>>>
+>>> >> >>>>>>> On May 6, 2013, at 2:50 PM, Anastasia Gunina
+>>> >> <gunina@usc.edu>
+>>> >> >>>>> wrote:>>
+>>> >> >>>>>>>> Dear prof. Crawford,
+>>> >> >>>>>>>>
+>>> >> >>>>>>>> The file with public RSA key is attached.
+>>> >> >>>>>>>>
+>>> >> >>>>>>>> Anastasia
+>>> >> >>>>>>>>
+>>> >> >>>>>>>> ----- Original Message -----
+>>> >> >>>>>>>> From: "T. Daniel Crawford" <crawdad@vt.edu>
+>>> >> >>>>>>>> Date: Friday, May 3, 2013 5:28 pm
+>>> >> >>>>>>>> Subject: Re: S2I2 website access
+>>> >> >>>>>>>> To: Anastasia Gunina <gunina@usc.edu>
+>>> >> >>>>>>>>
+>>> >> >>>>>>>>> Dear Anastasia,
+>>> >> >>>>>>>>>
+>>> >> >>>>>>>>> We should be able to give you access is you can send the
+>>> >> >> your
+>>> >> >>>>>>>>> public RSA key from your .ssh directory on whatever
+>>> >> >> computers
+>>> >> >>>>>>> you
+>>> >> >>>>>>>>> use.  If you do not have such a key, you should be able
+>>> >> to
+>>> >> >>>>>>> generate
+>>> >> >>>>>>>>> it using ssh-keygen.  If you send me the file, I drop it
+>>> >> >> onto
+>>> >> >>>>>>> the
+>>> >> >>>>>>>>> server, and then you can try using ssh to get into the
+>>> >> system.>>>>>>>>>
+>>> >> >>>>>>>>> -TDC
+>>> >> >>>>>>>>>
+>>> >> >>>>>>>>> On May 3, 2013, at 4:50 PM, Anastasia Gunina
+>>> >> >> <gunina@usc.edu>
+>>> >> >>>>>>> wrote:>>
+>>> >> >>>>>>>>>> Dear prof. Crawford,
+>>> >> >>>>>>>>>>
+>>> >> >>>>>>>>>> Could you please provide me an access to the S2I2
+>>> >> website
+>>> >> >> for
+>>> >> >>>>>>>>> making changes in the tensor group section?
+>>> >> >>>>>>>>>>
+>>> >> >>>>>>>>>> Thank you in advance,
+>>> >> >>>>>>>>>>
+>>> >> >>>>>>>>>> Anastasia Gunina
+>>> >> >>>>>>>>>>
+>>> >> >>>>>>>>>> Graduate Student,
+>>> >> >>>>>>>>>> University of Southern California,
+>>> >> >>>>>>>>>> Department of Chemistry
+>>> >> >>>>>>>>>> prof. Krylov's group
+>>> >> >>>>>>>>>
+>>> >> >>>>>>>>> --
+>>> >> >>>>>>>>> Prof. T. Daniel Crawford
+>>> >> >>>>>>>>> crawdad@vt.edu
+>>> >> >>>>>>>>> 540-231-7760
+>>> >> >>>>>>>>>
+>>> >> >>>>>>>>>
+>>> >> >>>>>>>> <id_rsa.pub>
+>>> >> >>>>>>>
+>>> >> >>>>>>> --
+>>> >> >>>>>>> Prof. T. Daniel Crawford
+>>> >> >>>>>>> crawdad@vt.edu
+>>> >> >>>>>>> 540-231-7760
+>>> >> >>>>>>>
+>>> >> >>>>>>>
+>>> >> >>>>>>>
+>>> >> >>>>>
+>>> >> >>>>> --
+>>> >> >>>>> Prof. T. Daniel Crawford
+>>> >> >>>>> crawdad@vt.edu
+>>> >> >>>>> 540-231-7760
+>>> >> >>>>>
+>>> >> >>>>>
+>>> >> >>>>>
+>>> >> >>>
+>>> >> >>> --
+>>> >> >>> Prof. T. Daniel Crawford
+>>> >> >>> crawdad@vt.edu
+>>> >> >>> 540-231-7760
+>>> >> >>>
+>>> >> >>>
+>>> >> >>
+>>> >> >> --
+>>> >> >> Prof. T. Daniel Crawford
+>>> >> >> crawdad@vt.edu
+>>> >> >> 540-231-7760
+>>> >> >>
+>>> >> >>
+>>> >> >>
+>>> >>
+>>> >> --
+>>> >> Prof. T. Daniel Crawford
+>>> >> crawdad@vt.edu
+>>> >> 540-231-7760
+>>> >>
+>>> >>
+>>>
+>>>
+>>>
+>>
+>
+>
+>
+
+--001a113e74e4e7dacc050f7ccc77
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks, Ross!</div><div class=3D"gmail_extra"><br clear=3D=
+"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. =
+Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blan=
+k">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Feb 19, 2015 at 10:38 PM, Ross Walke=
+r <span dir=3D"ltr">&lt;<a href=3D"mailto:ross@rosswalker.co.uk" target=3D"=
+_blank">ross@rosswalker.co.uk</a>&gt;</span> wrote:<br><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex"><div style=3D"word-wrap:break-word">Hi Ashutosh,<div><br></div><=
+div>Ok, I removed this IP address from the restricted list. Please try agai=
+n and let me know if you encounter any problems.</div><div><br></div><div>A=
+ll the best</div><span class=3D"HOEnZb"><font color=3D"#888888"><div>Ross</=
+div></font></span><div><div class=3D"h5"><div><br><div><blockquote type=3D"=
+cite"><div>On Feb 19, 2015, at 2:03 PM, Ashutosh Kumar &lt;<a href=3D"mailt=
+o:akumar1@vt.edu" target=3D"_blank">akumar1@vt.edu</a>&gt; wrote:</div><br>=
+<div><div style=3D"word-wrap:break-word"><div>Dear Dr. Walker,</div><div><b=
+r></div><div>Here is the IP address of the router in our lab : 128.173.183.=
+211</div><div><br></div><div>Thanks for your help !!</div><div><br></div><d=
+iv><br></div><div>Sincerely,</div><div>Ashutosh.</div><div><br></div><div>O=
+n Feb 19, 2015, at 2:44 PM, &quot;T. Daniel Crawford&quot; &lt;<a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div>=
+<div><br><blockquote type=3D"cite"><div dir=3D"ltr">Good question.=C2=A0 Gu=
+ys, what is the IP address of the router in the lab?=C2=A0 Please let Dr. W=
+alker know.<div><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><=
+br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford=
+</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.e=
+du</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Feb 19, 2015 at 2:43 PM, Ross Walker=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:rosscwalker@gmail.com" target=3D"_=
+blank">rosscwalker@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex">Yes they probably got blocked for incorrect logins. What are thei=
+r ip addresses so I can reenable them?<span><br><br><div>-------- Original =
+message --------</div><div>From: &quot;T. Daniel Crawford&quot; &lt;<a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; </div><=
+/span><span><div>Date:02/19/2015  09:52  (GMT-08:00) </div><div>To: Ross Wa=
+lker &lt;<a href=3D"mailto:ross@rosswalker.co.uk" target=3D"_blank">ross@ro=
+sswalker.co.uk</a>&gt; </div></span><div><div><div>Cc: Ashutosh Kumar &lt;<=
+a href=3D"mailto:akumar1@vt.edu" target=3D"_blank">akumar1@vt.edu</a>&gt;, =
+Andrew James &lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=3D"_bl=
+ank">andrew.m.james2@gmail.com</a>&gt; </div><div>Subject: Re: S2I2 website=
+ access </div><div><br></div><div dir=3D"ltr">Dear Ross,<div><br></div><div=
+>I&#39;m trying to give two of my students access to the S2I2 website so th=
+ey can prepare announcements for the next software summer school.=C2=A0 How=
+ever, their connections are being killed =E2=80=93 I suspect because of too=
+ many incorrect login attempts, like last time with one of Anna&#39;s stude=
+nts.=C2=A0 Can you clear the IP entries that are causing the problem so the=
+y can try again, or else give us some guidance as to the real source of the=
+ problem?</div><div><br></div><div>THanks!</div><div><br></div><div>-Daniel=
+</div></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div dir=3D"l=
+tr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.=
+edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, May 6, 2013 at 9:42 PM, Ross Walker =
+<span dir=3D"ltr">&lt;<a href=3D"mailto:ross@rosswalker.co.uk" target=3D"_b=
+lank">ross@rosswalker.co.uk</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex">Oh Deny Hosts locked you out for too many incorrect login attempts=
+. ;-)<br>
+<br>
+I&#39;ll fix it now. Give me 5 minutes.<br>
+<div><br>
+<br>
+<br>
+<br>
+On 5/6/13 6:39 PM, &quot;Anastasia Gunina&quot; &lt;<a href=3D"mailto:gunin=
+a@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt; wrote:<br>
+<br>
+&gt;Here it is:<br>
+&gt;<br>
+&gt;nastya@ssc409-desktop:~$ ssh -v <a href=3D"mailto:crawdad@login.wmd-lab=
+.org" target=3D"_blank">crawdad@login.wmd-lab.org</a><br>
+&gt;OpenSSH_5.9p1 Debian-5ubuntu1.1, OpenSSL 1.0.1 14 Mar 2012<br>
+&gt;debug1: Reading configuration data /etc/ssh/ssh_config<br>
+&gt;debug1: /etc/ssh/ssh_config line 19: Applying options for *<br>
+&gt;debug1: Connecting to <a href=3D"http://login.wmd-lab.org/" target=3D"_=
+blank">login.wmd-lab.org</a> [192.31.21.190] port 22.<br>
+&gt;debug1: Connection established.<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_rsa type 1<br>
+&gt;debug1: Checking blacklist file /usr/share/ssh/blacklist.RSA-2048<br>
+&gt;debug1: Checking blacklist file /etc/ssh/blacklist.RSA-2048<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_rsa-cert type -1<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_dsa type -1<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_dsa-cert type -1<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_ecdsa type -1<br>
+&gt;debug1: identity file /home/nastya/.ssh/id_ecdsa-cert type -1<br>
+&gt;ssh_exchange_identification: Connection closed by remote host<br>
+&gt;<br>
+&gt;And answers for some earlier asked questions as well:<br>
+&gt;<br>
+&gt;&gt; (1) Have you ever used the ssh private/public key pair approach to=
+<br>
+&gt;&gt; gaining access to a remote server before?<br>
+&gt;<br>
+&gt;I have never used keys before, this one is newly-generated.<br>
+&gt;<br>
+&gt;&gt; (2) Is anyone in your lab aware of any problems with ssh there to<=
+br>
+&gt;&gt; do this on other systems?<br>
+&gt;<br>
+&gt;Nobody, whom I was able to ask, had such problems, but most probably<br=
+>
+&gt;because of no experience with keys (we utilize password authentificatio=
+n<br>
+&gt;system for our servers).<br>
+&gt;<br>
+&gt;Anastasia<br>
+&gt;<br>
+&gt;----- Original Message -----<br>
+&gt;From: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mailto:crawdad@vt.e=
+du" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+&gt;Date: Monday, May 6, 2013 6:32 pm<br>
+&gt;Subject: Re: S2I2 website access<br>
+&gt;To: Anastasia Gunina &lt;<a href=3D"mailto:gunina@usc.edu" target=3D"_b=
+lank">gunina@usc.edu</a>&gt;<br>
+&gt;Cc: Ross Walker &lt;<a href=3D"mailto:ross@rosswalker.co.uk" target=3D"=
+_blank">ross@rosswalker.co.uk</a>&gt;<br>
+&gt;<br>
+&gt;&gt; Anastasia, can you send me the full output from your &quot;ssh -v<=
+br>
+&gt;&gt; <a href=3D"mailto:crawdad@login.wmd-lab.org" target=3D"_blank">cra=
+wdad@login.wmd-lab.org</a>&quot; command?<br>
+&gt;&gt;<br>
+&gt;&gt; Ross, can you make anything out of this?<br>
+&gt;&gt;<br>
+&gt;&gt; -TDC<br>
+&gt;&gt;<br>
+&gt;&gt; On May 6, 2013, at 9:27 PM, Anastasia Gunina &lt;<a href=3D"mailto=
+:gunina@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt; wrote:<br>
+&gt;&gt;<br>
+&gt;&gt; &gt; I have tried it already, but it does not work yet. It says<br=
+>
+&gt;&gt; &quot;connection closed by remote host&quot;. ssh -v shows strange=
+ thing:<br>
+&gt;&gt; &quot;id_rsa type 1&quot; is mentioned. I asked for RSA, which, as=
+ I<br>
+&gt;&gt; understand, means RSA version 2. Maybe, this is a problem?<br>
+&gt;&gt; &gt;<br>
+&gt;&gt; &gt; Anastasia<br>
+&gt;&gt; &gt;<br>
+&gt;&gt; &gt; ----- Original Message -----<br>
+&gt;&gt; &gt; From: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mailto:cr=
+awdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+&gt;&gt; &gt; Date: Monday, May 6, 2013 1:47 pm<br>
+&gt;&gt; &gt; Subject: Re: S2I2 website access<br>
+&gt;&gt; &gt; To: Ross Walker &lt;<a href=3D"mailto:ross@rosswalker.co.uk" =
+target=3D"_blank">ross@rosswalker.co.uk</a>&gt;<br>
+&gt;&gt; &gt; Cc: Anastasia Gunina &lt;<a href=3D"mailto:gunina@usc.edu" ta=
+rget=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;<br>
+&gt;&gt; &gt;&gt; Oh, yes, that&#39;s almost certainly it.=C2=A0 =C2=A0I&#3=
+9;d forgotten that this<br>
+&gt;&gt; was<br>
+&gt;&gt; &gt;&gt; user account, as I normally do this with git repositories=
+.<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt; Anastasia, please try &quot;ssh <a href=3D"mailto:crawdad=
+@login.wmd-lab.org" target=3D"_blank">crawdad@login.wmd-lab.org</a>&quot;.<=
+br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt; -TDC<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt; On May 6, 2013, at 4:41 PM, Ross Walker &lt;<a href=3D"ma=
+ilto:ross@rosswalker.co.uk" target=3D"_blank">ross@rosswalker.co.uk</a>&gt;=
+<br>
+&gt;&gt; wrote:&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Hi Daniel,<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; You are adding these keys to the authorized keys in y=
+our own<br>
+&gt;&gt; user<br>
+&gt;&gt; &gt;&gt; directory yes? - In which case they need to do &#39;ssh<b=
+r>
+&gt;&gt; &gt;&gt; <a href=3D"mailto:crawdad@login.wmd-lab.org" target=3D"_b=
+lank">crawdad@login.wmd-lab.org</a>&#39;=C2=A0 - in other words they need t=
+o make<br>
+&gt;&gt; sure<br>
+&gt;&gt; &gt;&gt; they connect using your username.<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; I suspect that is what the problem is here.<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Also it would be much preferred if people did not use=
+<br>
+&gt;&gt; passphrase<br>
+&gt;&gt; &gt;&gt; less keys. I.e. they should ALWAYS create a passphrase wh=
+en<br>
+&gt;&gt; &gt;&gt; creating a key pair otherwise it opens a massive security=
+ hole<br>
+&gt;&gt; so<br>
+&gt;&gt; &gt;&gt; please request that they create a phrase when creating th=
+eir key.<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; So please try again with the crawdad username<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; All the best<br>
+&gt;&gt; &gt;&gt;&gt; Ross<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; From: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Date: Monday, May 6, 2013 1:30 PM<br>
+&gt;&gt; &gt;&gt;&gt; To: Anastasia Gunina &lt;<a href=3D"mailto:gunina@usc=
+.edu" target=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Cc: Ross Walker &lt;<a href=3D"mailto:ross@rosswalker=
+.co.uk" target=3D"_blank">ross@rosswalker.co.uk</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Subject: Re: S2I2 website access<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; Dear Anastasia,<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; We encountered the same problem attempting to give Pr=
+of. Krylov<br>
+&gt;&gt; &gt;&gt; access to the system, but all others have been fine.=C2=
+=A0 Here are a<br>
+&gt;&gt; &gt;&gt; couple of questions:<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; (1) Have you ever used the ssh private/public key pai=
+r approach<br>
+&gt;&gt; &gt;&gt; to gaining access to a remote server before?<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; (2) Is anyone in your lab aware of any problems with =
+ssh there<br>
+&gt;&gt; to<br>
+&gt;&gt; &gt;&gt; do this on other systems?<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; I am copying this message to Prof. Ross Walker who co=
+ntrols the<br>
+&gt;&gt; &gt;&gt; server directly in the hopes that he may be able to see<b=
+r>
+&gt;&gt; something<br>
+&gt;&gt; &gt;&gt; in the access logs that can give us a clue as to what&#39=
+;s going on.<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; -TDC<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; On May 6, 2013, at 3:49 PM, Anastasia Gunina &lt;<a h=
+ref=3D"mailto:gunina@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; wrote:&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt; I did not. And I guess that request &quot;<a href=
+=3D"mailto:nastya@login.wmd" target=3D"_blank">nastya@login.wmd</a>-<br>
+&gt;&gt; <a href=3D"http://lab.org/" target=3D"_blank">lab.org</a>&#39;s<br=
+>
+&gt;&gt; &gt;&gt; password&quot; is not related to RSA key?<br>
+&gt;&gt; &gt;&gt;&gt;&gt; Anastasia<br>
+&gt;&gt; &gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt; ----- Original Message -----<br>
+&gt;&gt; &gt;&gt;&gt;&gt; From: &quot;T. Daniel Crawford&quot; &lt;<a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt; Date: Monday, May 6, 2013 12:43 pm<br>
+&gt;&gt; &gt;&gt;&gt;&gt; Subject: Re: S2I2 website access<br>
+&gt;&gt; &gt;&gt;&gt;&gt; To: Anastasia Gunina &lt;<a href=3D"mailto:gunina=
+@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; When you ran &quot;ssh-keygen&quot; to create=
+ your private/public key<br>
+&gt;&gt; &gt;&gt; pair,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; did you give a password?<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; -TDC<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; On May 6, 2013, at 3:21 PM, Anastasia Gunina =
+&lt;<a href=3D"mailto:gunina@usc.edu" target=3D"_blank">gunina@usc.edu</a>&=
+gt;<br>
+&gt;&gt; &gt;&gt; wrote:&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; Sorry, the server wants not only a key, b=
+ut also a password<br>
+&gt;&gt; &gt;&gt; for<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; access, and no password does not work.<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; Anastasia<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; ----- Original Message -----<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; From: &quot;T. Daniel Crawford&quot; &lt;=
+<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<=
+br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; Date: Monday, May 6, 2013 12:12 pm<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; Subject: Re: S2I2 website access<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt; To: Anastasia Gunina &lt;<a href=3D"mailt=
+o:gunina@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; Dear Anastasia,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; I&#39;ve entered your key, so you sho=
+uld have access with the<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; command<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; &quot;ssh <a href=3D"http://login.wmd=
+-lab.org/" target=3D"_blank">login.wmd-lab.org</a>&quot;.<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; Please try to limit your edits to the=
+ &quot;s2i2/tensor.php&quot;<br>
+&gt;&gt; file.<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; If<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; you need to adjust other files, let m=
+e know beforehand.<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; Thanks!<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; -TDC<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; On May 6, 2013, at 2:50 PM, Anastasia=
+ Gunina<br>
+&gt;&gt; &lt;<a href=3D"mailto:gunina@usc.edu" target=3D"_blank">gunina@usc=
+.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; wrote:&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Dear prof. Crawford,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; The file with public RSA key is a=
+ttached.<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Anastasia<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; ----- Original Message -----<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; From: &quot;T. Daniel Crawford&qu=
+ot; &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu<=
+/a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Date: Friday, May 3, 2013 5:28 pm=
+<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Subject: Re: S2I2 website access<=
+br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; To: Anastasia Gunina &lt;<a href=
+=3D"mailto:gunina@usc.edu" target=3D"_blank">gunina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Dear Anastasia,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; We should be able to give you=
+ access is you can send the<br>
+&gt;&gt; &gt;&gt; your<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; public RSA key from your .ssh=
+ directory on whatever<br>
+&gt;&gt; &gt;&gt; computers<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; you<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; use.=C2=A0 If you do not have=
+ such a key, you should be able<br>
+&gt;&gt; to<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; generate<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; it using ssh-keygen.=C2=A0 If=
+ you send me the file, I drop it<br>
+&gt;&gt; &gt;&gt; onto<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; the<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; server, and then you can try =
+using ssh to get into the<br>
+&gt;&gt; system.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; -TDC<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; On May 3, 2013, at 4:50 PM, A=
+nastasia Gunina<br>
+&gt;&gt; &gt;&gt; &lt;<a href=3D"mailto:gunina@usc.edu" target=3D"_blank">g=
+unina@usc.edu</a>&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; wrote:&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Dear prof. Crawford,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Could you please provide =
+me an access to the S2I2<br>
+&gt;&gt; website<br>
+&gt;&gt; &gt;&gt; for<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; making changes in the tensor =
+group section?<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Thank you in advance,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Anastasia Gunina<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Graduate Student,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; University of Southern Ca=
+lifornia,<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Department of Chemistry<b=
+r>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; prof. Krylov&#39;s group<=
+br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; --<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; <a href=3D"mailto:crawdad@vt.=
+edu" target=3D"_blank">crawdad@vt.edu</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; <a href=3D"tel:540-231-7760" =
+value=3D"+15402317760" target=3D"_blank">540-231-7760</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; &lt;id_rsa.pub&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; --<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; <a href=3D"mailto:crawdad@vt.edu" tar=
+get=3D"_blank">crawdad@vt.edu</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt; <a href=3D"tel:540-231-7760" value=3D=
+"+15402317760" target=3D"_blank">540-231-7760</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; --<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; <a href=3D"mailto:crawdad@vt.edu" target=3D"_=
+blank">crawdad@vt.edu</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt; <a href=3D"tel:540-231-7760" value=3D"+154023=
+17760" target=3D"_blank">540-231-7760</a><br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt; --<br>
+&gt;&gt; &gt;&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; &gt;&gt;&gt; <a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">c=
+rawdad@vt.edu</a><br>
+&gt;&gt; &gt;&gt;&gt; <a href=3D"tel:540-231-7760" value=3D"+15402317760" t=
+arget=3D"_blank">540-231-7760</a><br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;&gt;<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt; --<br>
+&gt;&gt; &gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; &gt;&gt; <a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawd=
+ad@vt.edu</a><br>
+&gt;&gt; &gt;&gt; <a href=3D"tel:540-231-7760" value=3D"+15402317760" targe=
+t=3D"_blank">540-231-7760</a><br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt; &gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; --<br>
+&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; <a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu=
+</a><br>
+&gt;&gt; <a href=3D"tel:540-231-7760" value=3D"+15402317760" target=3D"_bla=
+nk">540-231-7760</a><br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+<br>
+<br>
+</div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</blockquote></div><br></div></div></blockquote></div><br></div></div></div=
+></div></blockquote></div><br></div>
+
+--001a113e74e4e7dacc050f7ccc77--

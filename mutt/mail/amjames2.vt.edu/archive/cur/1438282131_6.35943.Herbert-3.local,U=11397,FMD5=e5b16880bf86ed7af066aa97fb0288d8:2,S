@@ -1,0 +1,370 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp591417qgt;
+        Thu, 25 Jun 2015 07:20:37 -0700 (PDT)
+X-Received: by 10.55.27.11 with SMTP id b11mr72892473qkb.105.1435242037450;
+        Thu, 25 Jun 2015 07:20:37 -0700 (PDT)
+Return-Path: <jkrometi@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 19si29416335qhg.115.2015.06.25.07.20.37
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jun 2015 07:20:37 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning jkrometi@vt.edu does not designate 209.85.217.180 as permitted sender) client-ip=209.85.217.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning jkrometi@vt.edu does not designate 209.85.217.180 as permitted sender) smtp.mail=jkrometi@vt.edu
+Received: from mail-lb0-f180.google.com (mail-lb0-f180.google.com [209.85.217.180])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5PEKVRJ032429
+	for <amjames2@vt.edu>; Thu, 25 Jun 2015 10:20:36 -0400
+Received: by lbnk3 with SMTP id k3so46558735lbn.1
+        for <amjames2@vt.edu>; Thu, 25 Jun 2015 07:20:30 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=GlD+EdcFmovAh+YjvpBMs6/KWGLWa+ZFHueFlycNsI4=;
+        b=eHkcfnGO+G5H5inUtC1+Uv4n5Pm60QcVwIm3Uq9n5940RaZ+TxJgyqyBBFim7xqne+
+         O1TUwrnBGwNdywp5XQO9Qtr4+KRSdmDaKjLYoGxVcOSDo5jawBVZjhaxHrjcueJ6nfxP
+         osCW79b84LhfhbLq8J7bq8qG596HJ0o/TnFGlOArv0rh9A576ba/C51/O4mWoj88A6pO
+         TebtNhBuFlp4yzjxwusBdsEXxUx0GQnlxeITPsFNTA5ghTM7CPXEHPjOUnoplT9rymkU
+         6tJpiRdMSg8rA/rSi0ERhiywnUKrCU0ATbsQ7g3i40TRP3aePb0Sy5VT1EZ1mzMr3k8i
+         O9+Q==
+X-Gm-Message-State: ALoCoQmmUNmm4P7EAhGrgDCJAp8I78tbIduyofofa3kLrD+6kcZC5lhoHCh26cL2uBjrj75MX63jW89E4lSXgdo9I1tx8p7i8W1yYJ5Dnc7gGjDwtE3u2gGakZ/uYqC09a6hF42fND7qeQv59mYeiQtX9GArznN+CQ==
+X-Received: by 10.152.42.134 with SMTP id o6mr39817843lal.14.1435242030879;
+        Thu, 25 Jun 2015 07:20:30 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.42.134 with SMTP id o6mr39817833lal.14.1435242030764;
+ Thu, 25 Jun 2015 07:20:30 -0700 (PDT)
+Received: by 10.152.201.103 with HTTP; Thu, 25 Jun 2015 07:20:30 -0700 (PDT)
+In-Reply-To: <CA+hCaPNYZrYf-FiJiRcR79LoLhxz-gBaSU7vXk0qFgJd+BiyLA@mail.gmail.com>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com>
+	<DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+	<C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+	<CA+hCaPOtxoVXboGXm-6etY-=TdWJh4bO3eknTFE6XWnEiogo0w@mail.gmail.com>
+	<CAH0V_1Z5cKgjkkrLmjpFRNb+Eu0-Zh-H-2MuRr6WPV_kNSMpRA@mail.gmail.com>
+	<CALt-oT+LsZ27Gv99SaYkJLx8cHRKP4L+6oNvuAR_cNjhE=gjMg@mail.gmail.com>
+	<CA+hCaPNYZrYf-FiJiRcR79LoLhxz-gBaSU7vXk0qFgJd+BiyLA@mail.gmail.com>
+Date: Thu, 25 Jun 2015 10:20:30 -0400
+Message-ID: <CALt-oTLemX+XRWdyjWTAO52hf=YMH7JXv_kPq-jD2fx7oq-OWw@mail.gmail.com>
+Subject: Re: BlueRidge access for the SSS
+From: Justin Krometis <jkrometi@vt.edu>
+To: Robert Harrison <rjharrison@gmail.com>
+Cc: Daniel Crawford <crawdad@vt.edu>, Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c35158692c7c05195853e9
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c35158692c7c05195853e9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Robert,
+You beat me to it - I just got back to my computer and saw that I'd made a
+typo previously. Intel 15 is version 15.3; we also have OpenMPI built
+against it. So you can use:
+
+module purge; module load intel/15.3 openmpi
+
+
+Then the system knows where mpicxx is:
+
+[jkrometi@brlogin2 ~]$ which mpicxx
+/opt/apps/intel15_3/openmpi/1.8.4/bin/mpicxx
+
+
+Let me know if you have other questions. I will see if I can also get
+mvapich2 and Intel MPI modules added as options under Intel 15.3.
+
+Thanks,
+Justin
+
+jkrometi@brlogin2 ~]$ module purge; module load intel/15.3 openmpi
+[jkrometi@brlogin2 ~]$ module list
+Currently Loaded Modules:
+  1) intel/15.3    2) openmpi/1.8.4
+[jkrometi@brlogin2 ~]$ which mpicxx
+/opt/apps/intel15_3/openmpi/1.8.4/bin/mpicxx
+
+
+
+
+Justin Krometis
+Advanced Research Computing
+http://www.arc.vt.edu
+jkrometis@vt.edu
+
+On Thu, Jun 25, 2015 at 10:09 AM, Robert Harrison <rjharrison@gmail.com>
+wrote:
+
+> The compilers are there and they work.
+>
+> But the mpi stack seems to be absent.  E.g., loading the Intel15
+> module results in mpicxx not being found.
+>
+> On Thu, Jun 25, 2015 at 9:01 AM, Justin Krometis <jkrometi@vt.edu> wrote:
+> > Version 15 of the Intel compilers should be on BlueRidge and loadable
+> with
+> > module load intel/15.1
+> > If they're not installed (or if we don't have an MPI Stack built agains=
+t
+> > them), that is an oversight that we can fix, probably this afternoon.
+> >
+> > Thanks,
+> > Justin
+> >
+> > On Jun 25, 2015 8:43 AM, "T. Daniel Crawford" <crawdad@vt.edu> wrote:
+> >>
+> >> Justin,
+> >>
+> >> Please see Robert's inquiry below.  What do you think?
+> >>
+> >> -TDC
+> >>
+> >> --
+> >> Prof. T. Daniel Crawford
+> >> crawdad@vt.edu
+> >>
+> >> On Thu, Jun 25, 2015 at 4:53 AM, Robert Harrison <rjharrison@gmail.com=
+>
+> >> wrote:
+> >>>
+> >>> Daniel ... any chance of getting a version of MPI compatible with the
+> >>> Intel 15 compiler?   The present MPI seems to be set up for version
+> >>> 13.  This is not crucial (so is not worth burning any favors for), bu=
+t
+> >>> it would help in case people wanted to try mixing MPI+OpenMP and woul=
+d
+> >>> also avoid people having to switch (version 15 has much better
+> >>> parallelization and vectorization)
+> >>>
+> >>> Best wishes
+> >>>
+> >>> Robert
+> >>>
+> >>>
+> >>>
+> >>> On Wed, Jun 17, 2015 at 12:19 PM, Andrew James <amjames2@vt.edu>
+> wrote:
+> >>> > Dr. Crawford,
+> >>> >
+> >>> > The cerebro accounts are set up. The usernames are the same:
+> >>> > dcheny
+> >>> > dprince
+> >>> > tguy
+> >>> > rjharrison
+> >>> >
+> >>> > Passwords are the same as the usernames.  I also checked and the hp=
+c
+> >>> > account
+> >>> > passwords are still =E2=80=9Chokies14=E2=80=9D.
+> >>> >
+> >>> > =E2=80=94AJ
+> >>> >
+> >>> > On Jun 16, 2015, at 4:53 PM, Eugene DePrince
+> >>> > <eugene.deprince@gmail.com>
+> >>> > wrote:
+> >>> >
+> >>> > Daniel,
+> >>> >
+> >>> > I can get into sirius, but I=E2=80=99m having trouble seeing
+> >>> > blueridge1.arc.vt.edu
+> >>> > from there
+> >>> >
+> >>> > [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu
+> >>> > PING blueridge1.arc.vt.edu (198.82.161.171) 56(84) bytes of data.
+> >>> > From sirius.chem.vt.edu (198.82.162.246) icmp_seq=3D1 Destination H=
+ost
+> >>> > Unreachable
+> >>> >
+> >>> > Eugene
+> >>> >
+> >>> > On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+> >>> >
+> >>> > hpc01
+> >>> >
+> >>> >
+> >>> >
+> >>>
+> >>>
+> >>>
+> >>> --
+> >>> Robert J. Harrison
+> >>> tel:  865-272-9262
+> >>
+> >>
+> >
+>
+>
+>
+> --
+> Robert J. Harrison
+> tel:  865-272-9262
+>
+
+--001a11c35158692c7c05195853e9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Robert,<div>You beat me to it - I just got back to my comp=
+uter and saw that I&#39;d made a typo previously. Intel 15 is version 15.3;=
+ we also have OpenMPI built against it. So you can use:</div><div><br></div=
+><blockquote style=3D"margin:0px 0px 0px 40px;border:none;padding:0px"><div=
+><font face=3D"monospace, monospace">module purge; module load intel/15.3 o=
+penmpi</font></div></blockquote><div><br></div><div>Then the system knows w=
+here mpicxx is:</div><div><br></div><blockquote style=3D"margin:0px 0px 0px=
+ 40px;border:none;padding:0px"><div><span style=3D"font-family:monospace,mo=
+nospace">[jkrometi@brlogin2 ~]$ which mpicxx</span><span style=3D"font-fami=
+ly:monospace,monospace"><br></span></div><div><span style=3D"font-family:mo=
+nospace,monospace">/opt/apps/intel15_3/openmpi/1.8.4/bin/mpicxx</span></div=
+></blockquote><div><br></div><div>Let me know if you have other questions. =
+I will see if I can also get mvapich2 and Intel MPI modules added as option=
+s under Intel 15.3.</div><div><br></div><div>Thanks,</div><div>Justin</div>=
+<div><br></div><blockquote style=3D"margin:0px 0px 0px 40px;border:none;pad=
+ding:0px"><div><div><font face=3D"monospace, monospace">jkrometi@brlogin2 ~=
+]$ module purge; module load intel/15.3 openmpi</font></div></div><div><div=
+><font face=3D"monospace, monospace">[jkrometi@brlogin2 ~]$ module list</fo=
+nt></div></div><div><div><font face=3D"monospace, monospace">Currently Load=
+ed Modules:</font></div></div><div><div><font face=3D"monospace, monospace"=
+>=C2=A0 1) intel/15.3 =C2=A0 =C2=A02) openmpi/1.8.4</font></div></div><div>=
+<div><font face=3D"monospace, monospace">[jkrometi@brlogin2 ~]$ which mpicx=
+x</font></div></div><div><div><font face=3D"monospace, monospace">/opt/apps=
+/intel15_3/openmpi/1.8.4/bin/mpicxx</font></div></div></blockquote><div><br=
+></div><div><br></div></div><div class=3D"gmail_extra"><br clear=3D"all"><d=
+iv><div class=3D"gmail_signature"><div dir=3D"ltr">Justin Krometis<div>Adva=
+nced Research Computing</div><div><a href=3D"http://www.arc.vt.edu" target=
+=3D"_blank">http://www.arc.vt.edu</a></div><div><a href=3D"mailto:jkrometis=
+@vt.edu" target=3D"_blank">jkrometis@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Jun 25, 2015 at 10:09 AM, Robert Har=
+rison <span dir=3D"ltr">&lt;<a href=3D"mailto:rjharrison@gmail.com" target=
+=3D"_blank">rjharrison@gmail.com</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">The compilers are there and they work.<br>
+<br>
+But the mpi stack seems to be absent.=C2=A0 E.g., loading the Intel15<br>
+module results in mpicxx not being found.<br>
+<div class=3D"HOEnZb"><div class=3D"h5"><br>
+On Thu, Jun 25, 2015 at 9:01 AM, Justin Krometis &lt;<a href=3D"mailto:jkro=
+meti@vt.edu">jkrometi@vt.edu</a>&gt; wrote:<br>
+&gt; Version 15 of the Intel compilers should be on BlueRidge and loadable =
+with<br>
+&gt; module load intel/15.1<br>
+&gt; If they&#39;re not installed (or if we don&#39;t have an MPI Stack bui=
+lt against<br>
+&gt; them), that is an oversight that we can fix, probably this afternoon.<=
+br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Justin<br>
+&gt;<br>
+&gt; On Jun 25, 2015 8:43 AM, &quot;T. Daniel Crawford&quot; &lt;<a href=3D=
+"mailto:crawdad@vt.edu">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;&gt;<br>
+&gt;&gt; Justin,<br>
+&gt;&gt;<br>
+&gt;&gt; Please see Robert&#39;s inquiry below.=C2=A0 What do you think?<br=
+>
+&gt;&gt;<br>
+&gt;&gt; -TDC<br>
+&gt;&gt;<br>
+&gt;&gt; --<br>
+&gt;&gt; Prof. T. Daniel Crawford<br>
+&gt;&gt; <a href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a><br>
+&gt;&gt;<br>
+&gt;&gt; On Thu, Jun 25, 2015 at 4:53 AM, Robert Harrison &lt;<a href=3D"ma=
+ilto:rjharrison@gmail.com">rjharrison@gmail.com</a>&gt;<br>
+&gt;&gt; wrote:<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt; Daniel ... any chance of getting a version of MPI compatible w=
+ith the<br>
+&gt;&gt;&gt; Intel 15 compiler?=C2=A0 =C2=A0The present MPI seems to be set=
+ up for version<br>
+&gt;&gt;&gt; 13.=C2=A0 This is not crucial (so is not worth burning any fav=
+ors for), but<br>
+&gt;&gt;&gt; it would help in case people wanted to try mixing MPI+OpenMP a=
+nd would<br>
+&gt;&gt;&gt; also avoid people having to switch (version 15 has much better=
+<br>
+&gt;&gt;&gt; parallelization and vectorization)<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt; Best wishes<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt; Robert<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt; On Wed, Jun 17, 2015 at 12:19 PM, Andrew James &lt;<a href=3D"=
+mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br>
+&gt;&gt;&gt; &gt; Dr. Crawford,<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; The cerebro accounts are set up. The usernames are the sa=
+me:<br>
+&gt;&gt;&gt; &gt; dcheny<br>
+&gt;&gt;&gt; &gt; dprince<br>
+&gt;&gt;&gt; &gt; tguy<br>
+&gt;&gt;&gt; &gt; rjharrison<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; Passwords are the same as the usernames.=C2=A0 I also che=
+cked and the hpc<br>
+&gt;&gt;&gt; &gt; account<br>
+&gt;&gt;&gt; &gt; passwords are still =E2=80=9Chokies14=E2=80=9D.<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; =E2=80=94AJ<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; On Jun 16, 2015, at 4:53 PM, Eugene DePrince<br>
+&gt;&gt;&gt; &gt; &lt;<a href=3D"mailto:eugene.deprince@gmail.com">eugene.d=
+eprince@gmail.com</a>&gt;<br>
+&gt;&gt;&gt; &gt; wrote:<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; Daniel,<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; I can get into sirius, but I=E2=80=99m having trouble see=
+ing<br>
+&gt;&gt;&gt; &gt; <a href=3D"http://blueridge1.arc.vt.edu" rel=3D"noreferre=
+r" target=3D"_blank">blueridge1.arc.vt.edu</a><br>
+&gt;&gt;&gt; &gt; from there<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; [dprince@sirius ~]$ ping=C2=A0 <a href=3D"http://blueridg=
+e1.arc.vt.edu" rel=3D"noreferrer" target=3D"_blank">blueridge1.arc.vt.edu</=
+a><br>
+&gt;&gt;&gt; &gt; PING <a href=3D"http://blueridge1.arc.vt.edu" rel=3D"nore=
+ferrer" target=3D"_blank">blueridge1.arc.vt.edu</a> (198.82.161.171) 56(84)=
+ bytes of data.<br>
+&gt;&gt;&gt; &gt; From <a href=3D"http://sirius.chem.vt.edu" rel=3D"norefer=
+rer" target=3D"_blank">sirius.chem.vt.edu</a> (198.82.162.246) icmp_seq=3D1=
+ Destination Host<br>
+&gt;&gt;&gt; &gt; Unreachable<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; Eugene<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford &lt;<a hr=
+ef=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt; hpc01<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt; &gt;<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt;<br>
+&gt;&gt;&gt; --<br>
+&gt;&gt;&gt; Robert J. Harrison<br>
+&gt;&gt;&gt; tel:=C2=A0 <a href=3D"tel:865-272-9262" value=3D"+18652729262"=
+>865-272-9262</a><br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;<br>
+<br>
+<br>
+<br>
+--<br>
+Robert J. Harrison<br>
+tel:=C2=A0 <a href=3D"tel:865-272-9262" value=3D"+18652729262">865-272-9262=
+</a><br>
+</div></div></blockquote></div><br></div>
+
+--001a11c35158692c7c05195853e9--

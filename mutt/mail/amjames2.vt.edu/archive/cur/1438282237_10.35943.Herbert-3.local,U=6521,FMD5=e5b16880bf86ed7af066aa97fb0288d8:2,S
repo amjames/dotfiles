@@ -1,0 +1,135 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp774509qge;
+        Thu, 26 Mar 2015 09:03:45 -0700 (PDT)
+X-Received: by 10.52.26.17 with SMTP id h17mr17446562vdg.27.1427385825042;
+        Thu, 26 Mar 2015 09:03:45 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id w10si7586031vdw.96.2015.03.26.09.03.43
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Mar 2015 09:03:44 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.160.171;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2QG3adA015695;
+	Thu, 26 Mar 2015 12:03:41 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2QEbQHb007463;
+	Thu, 26 Mar 2015 12:03:35 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98541991 for CHEM_GRAD@LISTSERV.VT.EDU; Thu, 26 Mar 2015 12:03:34
+          -0400
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2QFrXKL016654
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <chem_grad@listserv.vt.edu>; Thu, 26 Mar 2015 11:53:33 -0400
+Received: from mail-yk0-f171.google.com (mail-yk0-f171.google.com
+          [209.85.160.171]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2QFrRuj000662 for <chem_grad@listserv.vt.edu>; Thu, 26 Mar 2015
+          11:53:32 -0400
+Received: by ykek76 with SMTP id k76so30030661yke.0 for
+          <chem_grad@listserv.vt.edu>; Thu, 26 Mar 2015 08:53:27 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:from:to:date:mime-version:subject:message-id :priority:content-type;
+                         bh=It91BKgEIyz3XxC/Ax38a6hVXWHBgbmKFmQxmm+H8uo=;
+                         b=HOe7DchYkEtC1u2ZtYk57OGhMnaLWt9JSWELhTlIOBJnR9wYeBiDDnQXQDnZym9jTV
+                         6jKQpUeAfQU/zTDEN0yCPlTj9fA+duSCh3EQdnnHrnU4EUe+A2bhbxyWMWWx1UYHYx9X
+                         Wy5n/3lynBMvTiP2JvTeHfAq3ZuY1jG7v/ZJHCmzL/1HRRd8pVre7WoacbXJhTaWlGS8
+                         xQabfPyNqpE6bLOodo2hJOYUg62JLPZJZIMwC5ueC9X//7yPe/gM0SB7i3CbVZ69zT+a
+                         p2q7Y9OGP8nphZVnkwtvXEl14VQVfCXfV7TIqKNxYDkoTtkvEa8YsARQA/xrtDZ7yDBn
+                         kLaQ==
+X-Gm-Message-State: ALoCoQlZGQmchyY347UhjXH4k9qEiLObS+3+zkVqsNjPcuNQEbRUDy4ZyODgZo6m2mCYu9Le/i+oHV0unzh7O0UyvLrNjFURCMmuAGOkm8fEaQJzFM4oKJQrBZePuVMd81EtWHh1tVYWeCI9yim+C0sbrrUMjEg9pw==
+X-Received: by 10.52.7.228 with SMTP id m4mr18256380vda.31.1427385207763; Thu,
+            26 Mar 2015 08:53:27 -0700 (PDT)
+X-Received: by 10.52.7.228 with SMTP id m4mr18256369vda.31.1427385207662; Thu,
+            26 Mar 2015 08:53:27 -0700 (PDT)
+Received: from [128.173.183.213] (h80adb7d5.dhcp.vt.edu. [128.173.183.213]) by
+          mx.google.com with ESMTPSA id de8sm4388425vdc.28.2015.03.26.08.53.26
+          (version=TLSv1 cipher=RC4-SHA bits=128/128); Thu, 26 Mar 2015
+          08:53:26 -0700 (PDT)
+X-Google-Original-From: "Thomas E. Bell" <tbell@vt.edu>
+MIME-Version: 1.0
+Priority: normal
+X-mailer: Pegasus Mail for Windows (4.63)
+Content-type: Multipart/Alternative; boundary="Alt-Boundary-23362.97835449"
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <55142B7D.24568.5D4D9B9@tbell.vt.edu>
+Date:         Thu, 26 Mar 2015 11:53:33 -0400
+Reply-To: "Thomas E. Bell" <thosbell@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: "Thomas E. Bell" <thosbell@vt.edu>
+Subject: URGENT: Please report use of or spill of thiols or similarly odoriferous compounds between 9:30AM today and now
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--Alt-Boundary-23362.97835449
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+Addressess: 
+An odor being detected upwind from Chemistry's buildings has prompted concern about leak in the natural gas supply 
+system.  Due to not being able to find a leak, we have been asked whether we are using material that our fume hoods 
+could be exhausting into the air that is carried to the other buildings.  This seems fairly unlikely, but perhaps someone 
+has had enough material in a hood that a noticeable odor could be detected outside.  
+
+Please advise Brian Tissue (1-3786, tissue@vt.edu) of any use of materials this morning that may provide the odor. It 
+will help ascertain whether EHS needs to keep searching for other sources. 
+              Thank you, 
+                Tom 
+      --
+    Tom Bell, MA, MSM, Assistant Chair
+    480 Davidson, Chemistry (0212)
+    Phone: 1-8226, Fax: 1-3255, tbell@vt.edu
+
+
+--Alt-Boundary-23362.97835449
+Content-type: text/html; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Addressess: </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">An odor being detected upwind from Chemistry's buildings has prompted concern about leak in the natural gas supply 
+system.&#160; Due to not being able to find a leak, we have been asked whether we are using material that our fume hoods 
+could be exhausting into the air that is carried to the other buildings.&#160; This seems fairly unlikely, but perhaps someone 
+has had enough material in a hood that a noticeable odor could be detected outside.&#160; </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Please advise Brian Tissue (1-3786, tissue@vt.edu) of any use of materials this morning that may provide the odor. It 
+will help ascertain whether EHS needs to keep searching for other sources. </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Thank you, </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Tom </span></font></div>
+<div align="left" style="margin-left:12mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;"><font face="Arial" size="2">
+<span style=" font-size:10pt">&#160; --</span></font></div>
+<div align="left" style="margin-left:12mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;"><font face="Arial" size="2">
+<span style=" font-size:10pt">Tom Bell, MA, MSM, Assistant Chair</span></font></div>
+<div align="left" style="margin-left:12mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;"><font face="Arial" size="2">
+<span style=" font-size:10pt">480 Davidson, Chemistry (0212)</span></font></div>
+<div align="left" style="margin-left:12mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;"><font face="Arial" size="2">
+<span style=" font-size:10pt">Phone: 1-8226, Fax: 1-3255, tbell@vt.edu</span></font></div>
+<div align="left" style="margin-left:12mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;">&nbsp;&nbsp;</div>
+</body>
+</html>
+
+--Alt-Boundary-23362.97835449--

@@ -1,0 +1,136 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2714493qgt;
+        Tue, 11 Aug 2015 15:10:48 -0700 (PDT)
+X-Received: by 10.55.53.193 with SMTP id c184mr51420345qka.62.1439331048364;
+        Tue, 11 Aug 2015 15:10:48 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id x75si6088309qha.126.2015.08.11.15.10.48
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 15:10:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) client-ip=192.30.252.199;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.199 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext8.iad.github.net [192.30.252.199])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BM8fmA003601
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 18:08:46 -0400
+Date: Tue, 11 Aug 2015 15:08:40 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439330920;
+	bh=17ykogRMYhCYkyVgH3d2VNRpGy22HDZycVTUTF627Qg=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=ICyqTgq4qi/6MmPDy+AlU64d1kOP+6+b0lFVGCPyg/upC2u3+Hsflh4dQ5G3wAJ1H
+	 E+8LKLNJWT8PBVQiLnwZlTWYii3cf4BC4vYbEfXPgZG1VQhjjOHiOZajgPat9t8LQT
+	 /KjLt53xdj4Vrypal6olGGDKmm1JD3V7EuhnSCNA=
+From: "T. Daniel Crawford" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6425338f51ecc5c3fa252435177dd40b155dff413ec92cf0000000111e2346892a163ce00c10f11@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dcdcd9c8/12652305@github.com>
+In-Reply-To: <psi4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dcdcd9c8@github.com>
+References: <psi4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dcdcd9c8@github.com>
+Subject: Re: [psi4] Added the ability to save the UHF NOs.  Need to document
+ the keyword 'SAVE_UHF_NOS' (21f4505)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca7268d7a28_5a9d3fc4a76672bc6704e3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: lothian
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6425338f51ecc5c3fa252435177dd40b155dff413ec92cf0000000111e2346892a163ce00c10f11@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6425338f51ecc5c3fa252435177dd40b155dff413ec92cf0000000111e2346892a163ce00c10f11@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qgjg4Uk-A8qwJCYtgOS_wnmuRhU6ks5ommnogaJpZM4FpBSI>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55ca7268d7a28_5a9d3fc4a76672bc6704e3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sounds good.  Is the code checked in?
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Aug 10, 2015 at 4:36 PM, fevangelista <notifications@github.com>
+wrote:
+
+> @lothian <https://github.com/lothian>: I refactored some of your code t=
+o
+> use Matrix->power() and Matrix->transform().
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dc=
+dcd9c8#commitcomment-12624662>
+> .
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dcdcd=
+9c8#commitcomment-12652305=
+
+----==_mimepart_55ca7268d7a28_5a9d3fc4a76672bc6704e3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sounds good.  Is the code checked in?<br>
+<br>
+--<br>
+Prof. T. Daniel Crawford<br>
+crawdad@vt.edu<br>
+<br>
+On Mon, Aug 10, 2015 at 4:36 PM, fevangelista &lt;notifications@github.co=
+m&gt;<br>
+wrote:<br>
+<br>
+&gt; @lothian &lt;https://github.com/lothian&gt;: I refactored some of yo=
+ur code to<br>
+&gt; use Matrix-&gt;power() and Matrix-&gt;transform().<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4/commit/21f45057e7602b46d1ae0e5015b8=
+9ee2dcdcd9c8#commitcomment-12624662&gt;<br>
+&gt; .<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br>Reply to this email directly or <a href=3D"https://github.com/ps=
+i4/psi4/commit/21f45057e7602b46d1ae0e5015b89ee2dcdcd9c8#commitcomment-126=
+52305">view it on GitHub</a>.<img alt=3D"" height=3D"1" src=3D"https://gi=
+thub.com/notifications/beacon/AIn2QuUyURBWBuDaBnC364uNKW4aE38Eks5ommnogaJ=
+pZM4FpBSI.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+<div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewActi=
+on">
+  <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4/commit/21f4=
+5057e7602b46d1ae0e5015b89ee2dcdcd9c8#commitcomment-12652305"></link>
+  <meta itemprop=3D"name" content=3D"View Commit"></meta>
+</div>
+<meta itemprop=3D"description" content=3D"View this Commit on GitHub"></m=
+eta>
+</div>
+
+----==_mimepart_55ca7268d7a28_5a9d3fc4a76672bc6704e3--

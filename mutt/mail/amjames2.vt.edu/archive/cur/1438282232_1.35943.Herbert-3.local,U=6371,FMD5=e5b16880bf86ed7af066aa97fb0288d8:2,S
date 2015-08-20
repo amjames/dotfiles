@@ -1,0 +1,147 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp816072qgt;
+        Tue, 21 Apr 2015 13:16:11 -0700 (PDT)
+X-Received: by 10.140.233.203 with SMTP id e194mr26508865qhc.90.1429647371032;
+        Tue, 21 Apr 2015 13:16:11 -0700 (PDT)
+Return-Path: <valeev76@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 13si2974252qhv.54.2015.04.21.13.16.10
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Apr 2015 13:16:11 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning valeev76@vt.edu does not designate 209.85.213.174 as permitted sender) client-ip=209.85.213.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning valeev76@vt.edu does not designate 209.85.213.174 as permitted sender) smtp.mail=valeev76@vt.edu
+Received: from mail-ig0-f174.google.com (mail-ig0-f174.google.com [209.85.213.174])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3LKG5uF017618
+	for <amjames2@vt.edu>; Tue, 21 Apr 2015 16:16:10 -0400
+Received: by igblo3 with SMTP id lo3so25184194igb.0
+        for <amjames2@vt.edu>; Tue, 21 Apr 2015 13:16:04 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=YFSN0Xi7mim6a40+IFmPZuG1muLDdhyB3vYorS09nlM=;
+        b=UkCg2GDrw8ZaQ1NYV6yQn6tnH0eu0kNrwKFXrIvRj4z29pQjcJ9tKg6BhQqyOkg+Ej
+         7rxAFPIJb9s0CGUR+9Pk124ZAVfpM2I+VrB7SrImqO6ASZjiOFbpSCEMum+J4RsgwTgS
+         AoEdFbyqS/xrYEQE9DjX56EIWqvSvPBItwJE+KFDk5mRVE9shgSt1si1+DJMc26h8SMi
+         qG+JZvcPbvdWMoF9VzDo7EWxioNzl1YdxUxsRr08C5EQg9Wp5MoLlk4eANT53ljsk601
+         CWcn3FedzxIH/DcMriXiznbC0JPsIKXh4ZZL+XYR/QLXSy5vgC05OvLSmEe+L6VBucbq
+         TKPQ==
+X-Gm-Message-State: ALoCoQnIxEOKZlxkHll46XAPpT5mxSdyCcugSeeaDCnvkftL9BvU8+A9dOhIIMrTj4EHUVGlZmNx/tXehcj5Txbrq0ugUSPx3SQnzkbd2fLdRtqnj0bjvvtxxiUHNdGaIt5XYGjj1hmkz6FuhtRmaeNsPsAa9mkBFg==
+X-Received: by 10.50.43.163 with SMTP id x3mr6603026igl.6.1429647364248;
+        Tue, 21 Apr 2015 13:16:04 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.43.163 with SMTP id x3mr6603009igl.6.1429647364062; Tue,
+ 21 Apr 2015 13:16:04 -0700 (PDT)
+Received: by 10.50.190.232 with HTTP; Tue, 21 Apr 2015 13:16:03 -0700 (PDT)
+Received: by 10.50.190.232 with HTTP; Tue, 21 Apr 2015 13:16:03 -0700 (PDT)
+In-Reply-To: <A43F6CC7-403C-46A4-B202-AFC1EA7FFD6A@vt.edu>
+References: <A316BB30-801A-430B-8961-C823C39145E9@vt.edu>
+	<CABit=J5AOYSwk6wOMO31bvcZsC7OYH7R_r56b7fS4-XqpzXJJQ@mail.gmail.com>
+	<A43F6CC7-403C-46A4-B202-AFC1EA7FFD6A@vt.edu>
+Date: Tue, 21 Apr 2015 16:16:03 -0400
+Message-ID: <CABit=J6jzG3jRv0VkNhFFTGeOmJdRop2a9qFZCdAezc6A=iAyw@mail.gmail.com>
+Subject: Re: Electronic Structure Theory Class, and Advisory Committee
+From: Eduard Valeyev <valeev76@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bfea1564a1c6b051441b7d9
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bfea1564a1c6b051441b7d9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+AJ I will find you on Thursday in the lab.
+On Apr 21, 2015 3:28 PM, "Andrew James" <amjames2@vt.edu> wrote:
+
+> Dr. Valeev,
+>
+> Great, here is my plan of study, and just let me know when the best time
+> for you to sign it is and I will come by.
+>
+> Thanks,
+> =E2=80=94AJ
+>
+>
+> On Apr 21, 2015, at 1:00 PM, Eduard Valeyev <valeev76@vt.edu> wrote:
+>
+> AJ,
+>
+> it will be a special topics class, CHEM6664.
+>
+> sure, I'll be on your committee.
+>
+> Dr.V.
+>
+>
+> On Tue, Apr 21, 2015 at 12:31 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Hello Dr. Valeev,
+>>
+>> Drew and Chong mentioned that you may be teaching and electronic
+>> structure theory course next fall, but I could not find it in the course
+>> listings yet.  I am trying to fill out my plan of study, and I was
+>> wondering if you know what it would be listed as so I can put a course
+>> number on there. If you are still planning to teach it.  I also hope you
+>> would be willing to be a member of my advisory committee.  If you are
+>> please let me know and I will send you my Plan of study so you can look =
+it
+>> over, and if you are okay with everything maybe you can sign my copy whe=
+n
+>> you are in the lab on Friday or any other time that works for you.
+>>
+>> Thanks
+>> =E2=80=94AJ
+>
+>
+>
+>
+>
+
+--047d7bfea1564a1c6b051441b7d9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">AJ I will find you on Thursday in the lab.</p>
+<div class=3D"gmail_quote">On Apr 21, 2015 3:28 PM, &quot;Andrew James&quot=
+; &lt;<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br =
+type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"margin:0 0 =
+0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap=
+:break-word">Dr. Valeev,=C2=A0<div><br></div><div>Great, here is my plan of=
+ study, and just let me know when the best time for you to sign it is and I=
+ will come by. =C2=A0</div><div><br></div><div>Thanks,=C2=A0</div><div>=E2=
+=80=94AJ</div></div><br><div style=3D"word-wrap:break-word"><div><br><div><=
+blockquote type=3D"cite"><div>On Apr 21, 2015, at 1:00 PM, Eduard Valeyev &=
+lt;<a href=3D"mailto:valeev76@vt.edu" target=3D"_blank">valeev76@vt.edu</a>=
+&gt; wrote:</div><br><div><div dir=3D"ltr">AJ,<div><br></div><div>it will b=
+e a special topics class, CHEM6664.</div><div><br></div><div>sure, I&#39;ll=
+ be on your committee.</div><div><br></div><div>Dr.V.</div><div><br></div><=
+/div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, Apr =
+21, 2015 at 12:31 PM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:=
+amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br=
+><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex">Hello Dr. Valeev,<br>
+<br>
+Drew and Chong mentioned that you may be teaching and electronic structure =
+theory course next fall, but I could not find it in the course listings yet=
+.=C2=A0 I am trying to fill out my plan of study, and I was wondering if yo=
+u know what it would be listed as so I can put a course number on there. If=
+ you are still planning to teach it.=C2=A0 I also hope you would be willing=
+ to be a member of my advisory committee.=C2=A0 If you are please let me kn=
+ow and I will send you my Plan of study so you can look it over, and if you=
+ are okay with everything maybe you can sign my copy when you are in the la=
+b on Friday or any other time that works for you.<br>
+<br>
+Thanks<br>
+<span><font color=3D"#888888">=E2=80=94AJ</font></span></blockquote></div><=
+br></div>
+</div></blockquote></div><br></div></div><br></blockquote></div>
+
+--047d7bfea1564a1c6b051441b7d9--

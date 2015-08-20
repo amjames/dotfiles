@@ -1,0 +1,225 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1040614qgt;
+        Thu, 6 Aug 2015 09:01:38 -0700 (PDT)
+X-Received: by 10.140.97.72 with SMTP id l66mr4295843qge.11.1438876898234;
+        Thu, 06 Aug 2015 09:01:38 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id z186si12485109qhd.114.2015.08.06.09.01.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 09:01:38 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 192.92.207.222 as permitted sender) client-ip=192.92.207.222;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 192.92.207.222 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-ig0-x231.google.com (mail-ig0-x231.google.com [IPv6:2607:f8b0:4001:c05::231])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t76G1Wqo027397
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 12:01:37 -0400
+Received: by igr7 with SMTP id 7so14094459igr.0
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 09:01:31 -0700 (PDT)
+X-Received: by 10.50.30.196 with SMTP id u4mr5067018igh.11.1438876891794;
+        Thu, 06 Aug 2015 09:01:31 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1068374iee;
+        Thu, 6 Aug 2015 09:01:31 -0700 (PDT)
+X-Received: by 10.50.108.100 with SMTP id hj4mr2325622igb.65.1438876891172;
+        Thu, 06 Aug 2015 09:01:31 -0700 (PDT)
+Received: from mail-pa0-x234.google.com (mail-pa0-x234.google.com. [2607:f8b0:400e:c03::234])
+        by mx.google.com with ESMTPS id n6si12250803pdr.195.2015.08.06.09.01.30
+        for <andrew.m.james2@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 09:01:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andy.simmonett@gmail.com designates 2607:f8b0:400e:c03::234 as permitted sender) client-ip=2607:f8b0:400e:c03::234;
+Received: by mail-pa0-x234.google.com with SMTP id rr5so30469410pac.3
+        for <andrew.m.james2@gmail.com>; Thu, 06 Aug 2015 09:01:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:from:in-reply-to:date:cc
+         :message-id:references:to;
+        bh=kPgvBpGgcfdd047bmOXH02d9h+00BaxlNrIKHcgRCoM=;
+        b=zZMHFRB/9meaJye8Z2ykOJWlcHniL8sszCH/LK/U9i1YkTon0DP/E3hO7MZ7/R0BgY
+         NTrxSlKoAt8NOCiGV16bcj3u5bLVeDPvs+U1g+0db69PUBP6Hu1vbWo0U/z3WAibx2vc
+         GxBi8XAPlPywtrorHVyxKPBoLXUMpXbdEzYr0X+cO/L2pOw0JxYnA7cgqiSp2035o6Lx
+         jwSjF2rjQ0LF0Qz85apuOEnrV/4Crk+W5Gb11dOKf9evuTKNjsl9l82YLajPpt3l4SFy
+         pnkK63lgK/MpRqkDB1xHT6UfDHVxVs7HNmEJhzpiarz4ALO3bTMRuqqBFqTFfSqZU70Q
+         yO2g==
+X-Received: by 10.66.230.201 with SMTP id ta9mr4677373pac.95.1438876890816;
+        Thu, 06 Aug 2015 09:01:30 -0700 (PDT)
+Received: from [10.0.1.6] ([192.92.207.222])
+        by smtp.gmail.com with ESMTPSA id zb2sm6994951pbb.46.2015.08.06.09.01.30
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 06 Aug 2015 09:01:30 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_69B2305C-5241-4CDA-A6E7-A2972372FD7D"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2102\))
+Subject: Re: UHF NOs
+From: Andrew Simmonett <andy.simmonett@gmail.com>
+In-Reply-To: <CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+Date: Thu, 6 Aug 2015 10:01:29 -0600
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Message-Id: <00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com> <FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com> <CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+X-Mailer: Apple Mail (2.2102)
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail=_69B2305C-5241-4CDA-A6E7-A2972372FD7D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Daniel,
+
+I agree with that strategy.  I think the way we normally do that is to =
+provide a default implementation in Wavefunction that simply throws a =
+=E2=80=9Cnot implemented=E2=80=9D error.  Then, derived classes override =
+that function with the correct implementation.
+
+cheers,
+
+Andy.
+
+
+> On Aug 6, 2015, at 9:59 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>=20
+> Yes, I agree.  Right now all the NO computation is carried out within =
+OEProp, but perhaps all that should be moved up to Wavefunction at some =
+point, with derived classes handling their own special cases (like UHF).
+>=20
+> -TDC
+>=20
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu <mailto:crawdad@vt.edu>
+> On Thu, Aug 6, 2015 at 9:57 AM, Andrew Simmonett =
+<andy.simmonett@gmail.com <mailto:andy.simmonett@gmail.com>> wrote:
+> Daniel (and A.J.),
+>=20
+> I agree with your sentiment that code repetition is not an issue, so =
+there=E2=80=99s not much motivation to put it in OEProp.  I think NO =
+formation should be handled by Wavefunction, because then the NOs can be =
+easily handed off to a CAS code, without needing a property calculation =
+in between.  I like the idea of being able to run a CC/CI/MP2 =
+calculation with a "compute_nos true=E2=80=9D flag, and knowing on exit =
+that the wavefunction object will automagically contain the NOs.  If =
+your printing machinery were added to Wavefunction itself, that would =
+simplify the process of making sure computing and printing correlated =
+NOs is consistent.
+>=20
+> Andy.
+>=20
+>> On Aug 6, 2015, at 9:24 AM, T. Daniel Crawford <crawdad@vt.edu =
+<mailto:crawdad@vt.edu>> wrote:
+>>=20
+>> Hi, Andy,
+>>=20
+>> I need to ask your input on the best place to include the computation =
+of UHF NOs within the UHF class.  I added them to the finalize() =
+function with no problems, and the code works cleanly, but I'm wondering =
+if I should try to be more elegant about this and insert them into the =
+OEProp class.  The problem with OEProp is that the approach we have to =
+use to compute the NOs really applies only to the UHF wave function, so =
+perhaps I should keep the code limited to the UHF class only.  Now, some =
+of what this calculation requires is already computed in the =
+compute_wiberg_lowdin_indices() code, namely the formation of S^(1/2) D =
+S^(1/2), but this is so trivial that I guess it doesn't matter if I =
+repeat it.  The only thing the compute_no_occupations() code offers is =
+the nasty sorting and printing of the NOONs.
+>>=20
+>> Opinions?
+>>=20
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu <mailto:crawdad@vt.edu>
+>=20
+
+
+--Apple-Mail=_69B2305C-5241-4CDA-A6E7-A2972372FD7D
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Daniel,<div class=3D""><br class=3D""></div><div class=3D"">I =
+agree with that strategy. &nbsp;I think the way we normally do that is =
+to provide a default implementation in Wavefunction that simply throws a =
+=E2=80=9Cnot implemented=E2=80=9D error. &nbsp;Then, derived classes =
+override that function with the correct implementation.</div><div =
+class=3D""><br class=3D""></div><div class=3D"">cheers,</div><div =
+class=3D""><br class=3D""></div><div class=3D"">Andy.</div><div =
+class=3D""><br class=3D""></div><div class=3D""><br class=3D""></div><div =
+class=3D""><div><blockquote type=3D"cite" class=3D""><div class=3D"">On =
+Aug 6, 2015, at 9:59 AM, T. Daniel Crawford &lt;<a =
+href=3D"mailto:crawdad@vt.edu" class=3D"">crawdad@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><div =
+dir=3D"ltr" class=3D"">Yes, I agree.&nbsp; Right now all the NO =
+computation is carried out within OEProp, but perhaps all that should be =
+moved up to Wavefunction at some point, with derived classes handling =
+their own special cases (like UHF).<div class=3D""><br =
+class=3D""></div><div class=3D"">-TDC</div></div><div =
+class=3D"gmail_extra"><br clear=3D"all" class=3D""><div class=3D""><div =
+class=3D"gmail_signature"><div dir=3D"ltr" class=3D"">--<div =
+class=3D"">Prof. T. Daniel Crawford</div><div class=3D""><a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank" =
+class=3D"">crawdad@vt.edu</a></div></div></div></div>
+<br class=3D""><div class=3D"gmail_quote">On Thu, Aug 6, 2015 at 9:57 =
+AM, Andrew Simmonett <span dir=3D"ltr" class=3D"">&lt;<a =
+href=3D"mailto:andy.simmonett@gmail.com" target=3D"_blank" =
+class=3D"">andy.simmonett@gmail.com</a>&gt;</span> wrote:<br =
+class=3D""><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 =
+.8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+style=3D"word-wrap:break-word" class=3D"">Daniel (and A.J.),<div =
+class=3D""><br class=3D""></div><div class=3D"">I agree with your =
+sentiment that code repetition is not an issue, so there=E2=80=99s not =
+much motivation to put it in OEProp.&nbsp; I think NO formation should =
+be handled by Wavefunction, because then the NOs can be easily handed =
+off to a CAS code, without needing a property calculation in =
+between.&nbsp; I like the idea of being able to run a CC/CI/MP2 =
+calculation with a "compute_nos true=E2=80=9D flag, and knowing on exit =
+that the wavefunction object will automagically contain the NOs.&nbsp; =
+If your printing machinery were added to Wavefunction itself, that would =
+simplify the process of making sure computing and printing correlated =
+NOs is consistent.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Andy.</div><div class=3D""><div class=3D"h5"><div =
+class=3D""><br class=3D""><div class=3D""><blockquote type=3D"cite" =
+class=3D""><div class=3D"">On Aug 6, 2015, at 9:24 AM, T. Daniel =
+Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank" =
+class=3D"">crawdad@vt.edu</a>&gt; wrote:</div><br class=3D""><div =
+class=3D""><div dir=3D"ltr" class=3D"">Hi, Andy,<div class=3D""><br =
+class=3D""></div><div class=3D"">I need to ask your input on the best =
+place to include the computation of UHF NOs within the UHF class.&nbsp; =
+I added them to the finalize() function with no problems, and the code =
+works cleanly, but I'm wondering if I should try to be more elegant =
+about this and insert them into the OEProp class.&nbsp; The problem with =
+OEProp is that the approach we have to use to compute the NOs really =
+applies only to the UHF wave function, so perhaps I should keep the code =
+limited to the UHF class only.&nbsp; Now, some of what this calculation =
+requires is already computed in the compute_wiberg_lowdin_indices() =
+code, namely the formation of S^(1/2) D S^(1/2), but this is so trivial =
+that I guess it doesn't matter if I repeat it.&nbsp; The only thing the =
+compute_no_occupations() code offers is the nasty sorting and printing =
+of the NOONs.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Opinions?</div><div class=3D""><br class=3D""></div><div =
+class=3D"">-TDC<br clear=3D"all" class=3D""><div class=3D""><div =
+class=3D""><div dir=3D"ltr" class=3D"">--<div class=3D"">Prof. T. Daniel =
+Crawford</div><div class=3D""><a href=3D"mailto:crawdad@vt.edu" =
+target=3D"_blank" class=3D"">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br =
+class=3D""></div></div></div></div></blockquote></div><br =
+class=3D""></div>
+</div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_69B2305C-5241-4CDA-A6E7-A2972372FD7D--

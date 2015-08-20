@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp16109qgt;
+        Tue, 4 Aug 2015 13:02:51 -0700 (PDT)
+X-Received: by 10.55.19.133 with SMTP id 5mr9662154qkt.37.1438718571828;
+        Tue, 04 Aug 2015 13:02:51 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 140si774419qhh.107.2015.08.04.13.02.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 13:02:51 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.10 as permitted sender) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t74K2j7p032332
+	for <amjames2@vt.edu>; Tue, 4 Aug 2015 16:02:51 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=1dRcFAs8FW7R9sUA6JVwhvZEB1c=; b=cO/GdKLo/Kp5O5VA
+	/xH7ZoM0dhXoiG683QjRH2T4vMkuN7a72/N7N9swozubafxj51OIhfoClBl/4efj
+	zet+p7EwE/yUPtdCheZa5ijqq/B2TkxuREFbDbPsNCnx33gMbZacQE/y/IUy7keU
+	NQtYIAOJTm7ud6cQh3QzAdBVVss=
+Received: by filter0480p1mdw1.sendgrid.net with SMTP id filter0480p1mdw1.5745.55C11A6315
+        2015-08-04 20:02:43.349171673 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0003p1iad1.sendgrid.net (SG) with ESMTP id BR0hQNG_SB-jkQ9zHFMZYA
+	for <amjames2@vt.edu>; Tue, 04 Aug 2015 20:02:43 +0000 (UTC)
+Date: Tue, 04 Aug 2015 13:02:43 -0700
+From: jgonthier <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6421785e1e0516bd86e619af1867ad69a7ac0ea556c92cf0000000111d8dc6392a163ce00bf2020@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886/12525600@github.com>
+In-Reply-To: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886@github.com>
+References: <psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886@github.com>
+Subject: Re: [psi4public] Updating dfocc (040029c)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c11a6314a09_5c5f3fe5a66952a081343a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jgonthier
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6421785e1e0516bd86e619af1867ad69a7ac0ea556c92cf0000000111d8dc6392a163ce00bf2020@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6421785e1e0516bd86e619af1867ad69a7ac0ea556c92cf0000000111d8dc6392a163ce00bf2020@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qt8dtGVlVjP4ft_i0ypcxeh7bnZhks5okRHjgaJpZM4FllgF>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5ImnUkAAgR+OVs4X6HvC7SozFufuojvoZLqSk7
+ +SYfq2R06X7vTwqtuBDF5Y4boUs8VYINCxpYVM/5APyF7qQuw7N5EzzeZst3eVdRgBQU4FGTAYDFlG
+ QIr0FXcNDjg0Pc0=
+X-Spam-Status: No, score=-0.9 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55c11a6314a09_5c5f3fe5a66952a081343a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I got rid of the problem by hard resetting to a previous commit :D But I guess your solution is smarter.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525600
+----==_mimepart_55c11a6314a09_5c5f3fe5a66952a081343a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I got rid of the problem by hard resetting to a previous commit :D But I guess your solution is smarter.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525600">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QjHCXazwDP_jNxYVVwGKv-VEYPmrks5okRHjgaJpZM4FllgF.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/commit/040029cdf1e60ed737a686f3da71025fabd2c886#commitcomment-12525600"></link>
+    <meta itemprop="name" content="View Commit"></meta>
+  </div>
+  <meta itemprop="description" content="View this Commit on GitHub"></meta>
+</div>
+
+----==_mimepart_55c11a6314a09_5c5f3fe5a66952a081343a--

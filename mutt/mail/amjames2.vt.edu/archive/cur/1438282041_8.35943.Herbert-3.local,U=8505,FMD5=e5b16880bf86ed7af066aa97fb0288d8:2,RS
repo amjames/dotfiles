@@ -1,0 +1,52 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp323410qgt;
+        Mon, 18 May 2015 15:26:57 -0700 (PDT)
+X-Received: by 10.140.108.201 with SMTP id j67mr31469659qgf.79.1431988017906;
+        Mon, 18 May 2015 15:26:57 -0700 (PDT)
+Return-Path: <fj9636@wayne.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id kp6si4892280qcb.26.2015.05.18.15.26.57
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 18 May 2015 15:26:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of fj9636@wayne.edu designates 198.109.104.136 as permitted sender) client-ip=198.109.104.136;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of fj9636@wayne.edu designates 198.109.104.136 as permitted sender) smtp.mail=fj9636@wayne.edu
+Received: from wsu-ip03.merit.edu (wsu-out5.merit.edu [198.109.104.136])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4IMQpCl021756
+	for <amjames2@vt.edu>; Mon, 18 May 2015 18:26:57 -0400
+X-Merit-ExtLoop1: 1
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AtACACpmWlXGbWjLkWdsb2JhbABcDoQ6gxivWwaZSQkCgThMAQEBAQEBEgEBAQEUEiEuhCYDI1A7Ag0ZAlkziBIEpTOPV59rAYQ9AQoBAQEegSGEdYl1OxaCUoFFBZJjinyBJ4NokX2DXVqCGIEBAQEB
+X-IronPort-AV: E=Sophos;i="5.13,455,1427774400"; 
+   d="scan'208";a="218030549"
+Received: from wsu-ms02.merit.edu ([198.109.104.203])
+  by wsu-ip03-out.merit.edu with ESMTP; 18 May 2015 18:26:50 -0400
+Date: Mon, 18 May 2015 18:26:50 -0400 (EDT)
+From: Yi-Jung Tu <fj9636@wayne.edu>
+To: amjames2@vt.edu
+Message-ID: <1579180588.82315432.1431988010455.JavaMail.root@wayne.edu>
+In-Reply-To: <9457312.82314051.1431987184073.JavaMail.root@wayne.edu>
+Subject: questions about Software-Development Summer School
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [141.217.27.149]
+X-Mailer: Zimbra 7.2.5_GA_2906 (ZimbraWebClient - GC42 (Win)/7.2.5_GA_2906)
+X-Authenticated-User: fj9636@wayne.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear Mr. James,
+
+I applied the third annual Software-Development Summer School one month ago. I haven't had any news from this program since I submitted my application. Could you please let me know if I get the opportunity to participate in this program? I would appreciate if I know the results as soon as possible, so I can have early plan for this summer. Thank you very much.
+
+Sincerely,
+Yi-Jung Tu
+Graduate Student
+Wayne state university

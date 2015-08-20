@@ -1,0 +1,44 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1849312qgt;
+        Fri, 14 Aug 2015 15:43:03 -0700 (PDT)
+X-Received: by 10.140.128.2 with SMTP id 2mr23503622qha.8.1439592183307;
+        Fri, 14 Aug 2015 15:43:03 -0700 (PDT)
+Return-Path: <no-reply@blueridge.arc.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 85si11963926qkv.68.2015.08.14.15.43.03
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 15:43:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:277:40de:506c as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of no-reply@blueridge.arc.vt.edu designates 2001:468:c80:2105:0:277:40de:506c as permitted sender) smtp.mailfrom=no-reply@blueridge.arc.vt.edu
+Received: from aquifer.cc.vt.edu ([IPv6:2001:468:c80:2104:219:b9ff:feea:d908])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7EMgvRI020508
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 18:43:02 -0400
+Received: from bradmin1.arc.vt.edu.mgt (bradmin1.cluster [10.11.0.1])
+	by aquifer.cc.vt.edu (Postfix) with ESMTP id DA1F136022
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 18:42:57 -0400 (EDT)
+Received: by bradmin1.arc.vt.edu.mgt (Postfix, from userid 0)
+	id C5966209B4; Fri, 14 Aug 2015 18:42:57 -0400 (EDT)
+To: amjames2@vt.edu
+Subject: PBS JOB 173394.master.cluster
+Precedence: bulk
+Message-Id: <20150814224257.C5966209B4@bradmin1.arc.vt.edu.mgt>
+Date: Fri, 14 Aug 2015 18:42:57 -0400 (EDT)
+From: no-reply@blueridge.arc.vt.edu (root)
+X-Spam-Status: No, score=1.3 required=5.0 tests=RDNS_NONE,TVD_SPACE_RATIO
+	autolearn=disabled version=3.4.0
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+PBS Job Id: 173394.master.cluster
+Job Name:   follow1
+Exec host:  br099/0+br099/1+br099/2+br099/3+br099/4+br099/5+br099/6+br099/7+br099/8+br099/9+br099/10+br099/11+br099/12+br099/13+br099/14+br099/15
+Aborted by PBS Server 
+Job exceeded its walltime limit. Job was aborted
+See Administrator for help
+Exit_status=-11 resources_used.cput=191:03:49 resources_used.mem=63493852kb resources_used.vmem=64806748kb resources_used.walltime=100:00:17

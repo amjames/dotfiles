@@ -1,0 +1,50 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.22] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id d36sm7796055qkh.45.2015.04.08.09.41.47
+        for <snick2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 08 Apr 2015 09:41:47 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: Lab 9 post lab questions
+From: Andrew James <amjames2@vt.edu>
+In-Reply-To: <CAKn3d5dOx+ndtovxtMYTYktoHgY-thS_FgXQ_YpkoytwxLAJ4Q@mail.gmail.com>
+Date: Wed, 8 Apr 2015 12:41:47 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <7B280B97-41B5-4B3C-9794-A8A5818B7518@vt.edu>
+References: <CAKn3d5dOx+ndtovxtMYTYktoHgY-thS_FgXQ_YpkoytwxLAJ4Q@mail.gmail.com>
+To: Nick Snodgrass <snick2@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+Nick,=20
+First,
+I think you may be confusing the entropic arguments for crystalline =
+structures to that of portions clathrates are crystalline molecules that =
+have free molecules of another species regularly distributed throughout =
+the lattice. Portions suffer from an entropic conundrum. The folding of =
+a portion into a compact form violates the 2nd law of thermodynamics (at =
+first glance). Therefore the enthalpic benefits of a protein folding =
+must outweigh its entropic cost. =20
+
+Second,=20
+The change in enthalpy is related to the intermolecular forces that hold =
+the protein in its active (folded conformation).  If something you add =
+is able to stabilize those IMF=E2=80=99s then it will stabilize the =
+protein ( a negative enthalpy  change). If those molecules are for some =
+reason interrupting these IMFs then the change in enthalpy will be =
+positive as some of the stabilizing forces have been lost.=20
+
+I hope this helps,=20
+
+--Andrew
+> On Apr 8, 2015, at 12:34 PM, Nick Snodgrass <snick2@vt.edu> wrote:
+>=20
+> Mr. James,=20
+> I am confused on question #1 on the post lab for experiment 9. I =
+understand that the change in entropy for a folded protein is positive =
+because of the release of the clathrates. I am confused on the enthalpy =
+part. Is the enthalpy always positive (unfavorable) for a folded =
+protein? The lab manual doesn't clarify this very well.=20
+> Thanks,=20
+> Nick Snodgrass
+

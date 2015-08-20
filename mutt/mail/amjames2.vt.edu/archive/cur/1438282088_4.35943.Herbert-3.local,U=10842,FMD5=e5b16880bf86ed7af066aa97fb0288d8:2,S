@@ -1,0 +1,264 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp910650qgt;
+        Wed, 17 Jun 2015 18:43:20 -0700 (PDT)
+X-Received: by 10.140.18.141 with SMTP id 13mr11653785qgf.96.1434591800181;
+        Wed, 17 Jun 2015 18:43:20 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 8si6342613qgl.61.2015.06.17.18.43.19
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 18:43:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.174 as permitted sender) client-ip=209.85.213.174;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.174 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f174.google.com (mail-ig0-f174.google.com [209.85.213.174])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5I1hEMB011862
+	for <amjames2@vt.edu>; Wed, 17 Jun 2015 21:43:19 -0400
+Received: by igbzc4 with SMTP id zc4so116801282igb.0
+        for <amjames2@vt.edu>; Wed, 17 Jun 2015 18:43:14 -0700 (PDT)
+X-Received: by 10.107.39.209 with SMTP id n200mr11928497ion.59.1434591793967;
+        Wed, 17 Jun 2015 18:43:13 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp844855iec;
+        Wed, 17 Jun 2015 18:43:12 -0700 (PDT)
+X-Received: by 10.140.237.147 with SMTP id i141mr12378880qhc.25.1434591792581;
+        Wed, 17 Jun 2015 18:43:12 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id q131si6340238qha.53.2015.06.17.18.43.12
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 18:43:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr6.cc.vt.edu (mr6.cc.vt.edu [198.82.141.20] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5HMpwld001180
+	for <andrew.m.james2@gmail.com>; Wed, 17 Jun 2015 18:51:58 -0400
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5HMprvm017760
+	for <andrew.m.james2@gmail.com>; Wed, 17 Jun 2015 18:51:58 -0400
+Received: by iecrd14 with SMTP id rd14so43901225iec.3
+        for <andrew.m.james2@gmail.com>; Wed, 17 Jun 2015 15:51:53 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=NWpji51PD/kh06jRZSG25WfLO/xx3QRNMemHKP3CEVs=;
+        b=dqgQfhs3Xv2wSKOYRT0dLMh42iKL8/LHg4FmwKyeh6p85BTtY5M1YIBgHR9ZZehSGa
+         Jx69x3JsJ6nDee/5HxS+Gu/KBDQxhFzivOH7HqyGzRQNRNfMZ0M2tfYN9Az4jPs4e1a7
+         nP9fDBP7hvIonfhIKEzatKmiRl7s1oxT9BGj1rnL41dBw7YgFnDuavyWrhjcCaX6fTB/
+         3C91nv0jyYZ7ZB6UOUWN3AtJLxjofGVuxLLVQ9J+9+PN+wIkeE6yKRVbt9c5rKV5ptYT
+         0oHGYp/J1SO2l5t2jT3cUbrzKV9bPGQwOdDOh8FWBqG2xMxPwXKEcSGIFKkWTJ4X8Mch
+         cnLg==
+X-Gm-Message-State: ALoCoQnwtYSZRzWhwHgc37bkQlSxaU98Mu7oxNaLNNDDWe6VoT+UKNYqQP6X0zWkiKSBdzpQzml3N5XwGLb2SHfljV/WFaBA0ug/5HPX+fMOT77H3UdPYbytXXGobjkbPLDoFqT6aaPdMKbqsxMCqv9e6yXJFrowAA==
+X-Received: by 10.107.166.203 with SMTP id p194mr11446154ioe.30.1434581513305;
+        Wed, 17 Jun 2015 15:51:53 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.203 with SMTP id p194mr11446141ioe.30.1434581513189;
+ Wed, 17 Jun 2015 15:51:53 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Wed, 17 Jun 2015 15:51:53 -0700 (PDT)
+In-Reply-To: <CAL+5PjwBE0Qy67h4_wx0kXe3v3LqL-RM2DZFyS-7t8rVTKaESQ@mail.gmail.com>
+References: <CAH0V_1ao4z2K9M62ycRMMBSuV4mifYpwH0+QeE33CVK561eMNQ@mail.gmail.com>
+	<DC278662-F8CF-4CF2-BD41-19B1A6B2B585@gmail.com>
+	<C15A9FF1-F75A-4C2F-A7CB-F03EE99CE07A@vt.edu>
+	<CAL+5Pjw5ruHVtaQoLnmu5OGtKzCrK9U_8MU-P+G35R8c5Ufa8Q@mail.gmail.com>
+	<CAH0V_1bkiiauNqQbXX0+f1gFoyCkP+JciohO9T7SXL8WqxBnng@mail.gmail.com>
+	<CAL+5PjwBE0Qy67h4_wx0kXe3v3LqL-RM2DZFyS-7t8rVTKaESQ@mail.gmail.com>
+Date: Wed, 17 Jun 2015 17:51:53 -0500
+Message-ID: <CAH0V_1Z4xMCF2uMa0Fa7yuA_8XC2-NB5RirY6-4Qs=wFVjizbg@mail.gmail.com>
+Subject: Fwd: BlueRidge access for the SSS
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11414af47ece680518be8973
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11414af47ece680518be8973
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+See Tommy's note below, AJ.  If you could send them the note tomorrow with
+the additional information, that would be ideal.
+
+I'm still trying to see the changes to the website, but my Internet
+connection is too poor to clone the repo.
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: Tommy Guy <richardtguy84@gmail.com>
+Date: Wed, Jun 17, 2015 at 5:47 PM
+Subject: Re: BlueRidge access for the SSS
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+
+
+I think that tomorrow is the best time. This gives them time to finish
+setup (which isn't hard) but it's not so early that they put it off and
+forget.
+
+TG
+
+On Wed, Jun 17, 2015 at 3:31 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> AJ, can you make this information available to the SSS participants?  I
+> don't know if we should just include it as part of the intro materials
+> you're putting together and send out a separate message.
+>
+> Tommy, how early do you think the students should get this link?
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Wed, Jun 17, 2015 at 12:06 PM, Tommy Guy <richardtguy84@gmail.com>
+> wrote:
+>
+>> Thanks, Daniel.
+>>
+>> There are specific setup instructions for Software Carpentry which are
+>> available here:
+>> http://guyrt.github.io/2015-06-21-s2i2/
+>>
+>> While they can do the shell portion on the clusters if they want, it's
+>> best if they use their local computer for python and git. Can you send a
+>> link to that page to the participants?
+>>
+>> Tommy
+>>
+>> On Wed, Jun 17, 2015 at 9:19 AM, Andrew James <amjames2@vt.edu> wrote:
+>>
+>>> Dr. Crawford,
+>>>
+>>> The cerebro accounts are set up. The usernames are the same:
+>>> dcheny
+>>> dprince
+>>> tguy
+>>> rjharrison
+>>>
+>>> Passwords are the same as the usernames.  I also checked and the hpc
+>>> account passwords are still =E2=80=9Chokies14=E2=80=9D.
+>>>
+>>> =E2=80=94AJ
+>>>
+>>> On Jun 16, 2015, at 4:53 PM, Eugene DePrince <eugene.deprince@gmail.com=
+>
+>>> wrote:
+>>>
+>>> Daniel,
+>>>
+>>> I can get into sirius, but I=E2=80=99m having trouble seeing
+>>> blueridge1.arc.vt.edu from there
+>>>
+>>> [dprince@sirius ~]$ ping  blueridge1.arc.vt.edu
+>>> PING blueridge1.arc.vt.edu (198.82.161.171) 56(84) bytes of data.
+>>> From sirius.chem.vt.edu (198.82.162.246) icmp_seq=3D1 Destination Host
+>>> Unreachable
+>>>
+>>> Eugene
+>>>
+>>> On Jun 16, 2015, at 4:45 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>>
+>>> hpc01
+>>>
+>>>
+>>>
+>>>
+>>
+>
+
+--001a11414af47ece680518be8973
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">See Tommy&#39;s note below, AJ.=C2=A0 If you could send th=
+em the note tomorrow with the additional information, that would be ideal.<=
+div><br></div><div>I&#39;m still trying to see the changes to the website, =
+but my Internet connection is too poor to clone the repo.</div><div><br></d=
+iv><div>-TDC<br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=
+=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">Tommy Guy</b> <span dir=3D"ltr">&lt;<a h=
+ref=3D"mailto:richardtguy84@gmail.com">richardtguy84@gmail.com</a>&gt;</spa=
+n><br>Date: Wed, Jun 17, 2015 at 5:47 PM<br>Subject: Re: BlueRidge access f=
+or the SSS<br>To: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mailto:craw=
+dad@vt.edu">crawdad@vt.edu</a>&gt;<br><br><br><div dir=3D"ltr"><div>I think=
+ that=C2=A0tomorrow is the best time. This gives them time to finish setup =
+(which isn&#39;t hard) but it&#39;s not so early that they put it off and f=
+orget.</div><span class=3D"HOEnZb"><font color=3D"#888888"><div><br></div><=
+div>TG</div></font></span></div><div class=3D"HOEnZb"><div class=3D"h5"><di=
+v class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Jun 17, 2015=
+ at 3:31 PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blo=
+ckquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #c=
+cc solid;padding-left:1ex"><div dir=3D"ltr">AJ, can you make this informati=
+on available to the SSS participants?=C2=A0 I don&#39;t know if we should j=
+ust include it as part of the intro materials you&#39;re putting together a=
+nd send out a separate message. =C2=A0<div><br></div><div>Tommy, how early =
+do you think the students should get this link?</div><span><font color=3D"#=
+888888"><div><br></div><div>-TDC</div></font></span></div><div class=3D"gma=
+il_extra"><span><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T=
+. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_bl=
+ank">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div><div class=3D"gmail_quote">On Wed, Jun 17, 2015 at 12:=
+06 PM, Tommy Guy <span dir=3D"ltr">&lt;<a href=3D"mailto:richardtguy84@gmai=
+l.com" target=3D"_blank">richardtguy84@gmail.com</a>&gt;</span> wrote:<br><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div><div><div>Thanks, Danie=
+l.<br><br></div>There are specific setup instructions for Software Carpentr=
+y which are available here:<br><a href=3D"http://guyrt.github.io/2015-06-21=
+-s2i2/" target=3D"_blank">http://guyrt.github.io/2015-06-21-s2i2/</a><br><b=
+r></div>While they can do the shell portion on the clusters if they want, i=
+t&#39;s best if they use their local computer for python and git. Can you s=
+end a link to that page to the participants?<span><font color=3D"#888888"><=
+br><br></font></span></div><span><font color=3D"#888888">Tommy<br></font></=
+span></div><div><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quo=
+te">On Wed, Jun 17, 2015 at 9:19 AM, Andrew James <span dir=3D"ltr">&lt;<a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</=
+span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8e=
+x;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:brea=
+k-word">Dr. Crawford,=C2=A0<div>=C2=A0</div><div>The cerebro accounts are s=
+et up. The usernames are the same:</div><div>dcheny</div><div>dprince</div>=
+<div>tguy</div><div>rjharrison</div><div><br></div><div>Passwords are the s=
+ame as the usernames.=C2=A0 I also checked and the hpc account passwords ar=
+e still =E2=80=9Chokies14=E2=80=9D.</div><span><font color=3D"#888888"><div=
+><br></div><div>=E2=80=94AJ</div></font></span><div><div><div><br><div><blo=
+ckquote type=3D"cite"><div>On Jun 16, 2015, at 4:53 PM, Eugene DePrince &lt=
+;<a href=3D"mailto:eugene.deprince@gmail.com" target=3D"_blank">eugene.depr=
+ince@gmail.com</a>&gt; wrote:</div><br><div><div style=3D"word-wrap:break-w=
+ord">Daniel,<div><br></div><div>I can get into sirius, but I=E2=80=99m havi=
+ng trouble seeing=C2=A0<a href=3D"http://blueridge1.arc.vt.edu/" target=3D"=
+_blank">blueridge1.arc.vt.edu</a>=C2=A0from there</div><div><br></div><div>=
+<div style=3D"margin:0px;font-size:11px;font-family:Menlo">[dprince@sirius =
+~]$ ping=C2=A0 <a href=3D"http://blueridge1.arc.vt.edu/" target=3D"_blank">=
+blueridge1.arc.vt.edu</a>=C2=A0</div><div style=3D"margin:0px;font-size:11p=
+x;font-family:Menlo">PING <a href=3D"http://blueridge1.arc.vt.edu/" target=
+=3D"_blank">blueridge1.arc.vt.edu</a> (198.82.161.171) 56(84) bytes of data=
+.</div><div style=3D"margin:0px;font-size:11px;font-family:Menlo">From <a h=
+ref=3D"http://sirius.chem.vt.edu/" target=3D"_blank">sirius.chem.vt.edu</a>=
+ (198.82.162.246) icmp_seq=3D1 Destination Host Unreachable</div></div><div=
+><div><div><br></div><div>Eugene</div><div><br></div><div>On Jun 16, 2015, =
+at 4:45 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><blockquote type=3D"cite=
+"><span style=3D"font-family:Helvetica;font-size:12px;font-style:normal;fon=
+t-variant:normal;font-weight:normal;letter-spacing:normal;line-height:norma=
+l;text-align:start;text-indent:0px;text-transform:none;white-space:normal;w=
+ord-spacing:0px;float:none;display:inline!important">hpc01</span></blockquo=
+te></div><br></div></div></div></blockquote></div><br></div></div></div></d=
+iv></blockquote></div><br></div>
+</div></div></blockquote></div><br></div></div></div>
+</blockquote></div><br></div>
+</div></div></div><br></div></div>
+
+--001a11414af47ece680518be8973--

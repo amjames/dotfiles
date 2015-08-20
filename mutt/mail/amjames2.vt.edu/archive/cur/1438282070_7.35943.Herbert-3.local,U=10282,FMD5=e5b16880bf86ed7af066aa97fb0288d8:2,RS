@@ -1,0 +1,129 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1657735qgt;
+        Mon, 8 Jun 2015 05:06:21 -0700 (PDT)
+X-Received: by 10.140.152.130 with SMTP id 124mr19802305qhy.65.1433765181631;
+        Mon, 08 Jun 2015 05:06:21 -0700 (PDT)
+Return-Path: <grsmith3@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id f46si2322133qgd.11.2015.06.08.05.06.21
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2015 05:06:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of grsmith3@vt.edu designates 198.82.160.13 as permitted sender) client-ip=198.82.160.13;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of grsmith3@vt.edu designates 198.82.160.13 as permitted sender) smtp.mail=grsmith3@vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (marconi.cc.vt.edu [198.82.160.13] (may be forged))
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t58C6F2Z027248
+	for <amjames2@vt.edu>; Mon, 8 Jun 2015 08:06:20 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: MARCONI.cc.w2k.vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (2001:468:c80:2104:0:2ce:f173:7f15) by
+ MARCONI.cc.w2k.vt.edu (2001:468:c80:2104:0:2ce:f173:7f15) with Microsoft SMTP
+ Server (TLS) id 15.0.995.29; Mon, 8 Jun 2015 08:06:15 -0400
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+ MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+ 15.00.0995.032; Mon, 8 Jun 2015 08:06:15 -0400
+From: "Smith, Graham" <grsmith3@vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+CC: "Sarver, Sharon" <slogans@vt.edu>,
+        "Battleson, Stephanie"
+	<stephb14@exchange.vt.edu>
+Subject: RE: Software Summer School Visitor Parking 
+Thread-Topic: Software Summer School Visitor Parking 
+Thread-Index: AQHQl/K874ik5pGJXUOLdF7g8wmvnZ2etmIAgAPffFA=
+Date: Mon, 8 Jun 2015 12:06:15 +0000
+Message-ID: <05e0c34158944428b7261fba2230accc@MARCONI.cc.w2k.vt.edu>
+References: <80BA6471-49CB-48A0-8BBF-2A26A6244095@vt.edu>
+ <63d2ab055b0242a499e5a92a1fb0f3c9@BELL.cc.w2k.vt.edu>
+ <dbc08de69d0645e482dfdf8edc8aba5a@MARCONI.cc.w2k.vt.edu>
+ <39B43E26-F6D4-4749-8953-5E9284833A79@vt.edu>
+ <3dc4a207d0e74b4ea2a8efe8321c4804@MARCONI.cc.w2k.vt.edu>
+ <EFAB079A-06B1-4D45-8E44-89213830AC2F@vt.edu>
+ <0946F9E3-CB16-40C3-B4ED-9D25A657392B@vt.edu>
+In-Reply-To: <0946F9E3-CB16-40C3-B4ED-9D25A657392B@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [198.82.172.212]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: MARCONI.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+QW5kcmV3LCBUaGV5IGNhbiBwYXJrIGluIHRoZSBQZXJyeSBTdCBHYXJhZ2UuDQpUaGFua3MsDQoN
+CkdyYWhhbSBTbWl0aA0KDQpPZmZpY2Ugb2YgUGFya2luZyBhbmQgVHJhbnNwb3J0YXRpb24NClZp
+cmdpbmlhIFBvbHl0ZWNobmljIEluc3RpdHV0ZSBhbmQgU3RhdGUgVW5pdmVyc2l0eQ0KNjA1IFJl
+c2VhcmNoIENlbnRlciBEcml2ZSAoMDU0MCkNCkJsYWNrc2J1cmcsIFZpcmdpbmlhIDI0MDYxDQpQ
+aG9uZTogNTQwLTIzMS03NjMzDQpGYXg6IDU0MC0yMzEtMzAyNw0KDQotLS0tLU9yaWdpbmFsIE1l
+c3NhZ2UtLS0tLQ0KRnJvbTogQW5kcmV3IEphbWVzIFttYWlsdG86YW1qYW1lczJAdnQuZWR1XSAN
+ClNlbnQ6IEZyaWRheSwgSnVuZSAwNSwgMjAxNSA0OjUzIFBNDQpUbzogU21pdGgsIEdyYWhhbQ0K
+U3ViamVjdDogUmU6IFNvZnR3YXJlIFN1bW1lciBTY2hvb2wgVmlzaXRvciBQYXJraW5nIA0KDQpI
+ZWxsbywgDQoNCkRvIHlvdSBrbm93IHdoZXJlIHRoZSBzdHVkZW50cyB3aWxsIGJlIGFsbG93ZWQg
+dG8gcGFyayB5ZXQ/IEkgYW0gaW4gdGhlIHByb2Nlc3Mgb2YgbWFraW5nIHBhbXBobGV0cyBmb3Ig
+ZWFjaCBzY2hvb2wgYW5kIHdvdWxkIGxpa2UgdG8gbWFyayB0aGUgYXBwcm9wcmlhdGUgbG90cyBv
+biB0aGUgcGhhbXBobGV0IG1hcCBmb3IgdGhlbS4gIA0KDQpUaGFua3MNCkFuZHJldyANCj4gT24g
+TWF5IDI2LCAyMDE1LCBhdCA0OjI5IFBNLCBBbmRyZXcgSmFtZXMgPEFtamFtZXMyQHZ0LmVkdT4g
+d3JvdGU6DQo+IA0KPiBJIGRvIG5vdCBoYXZlIGEgZmluYWwgY291bnQgeWV0LCBidXQgc28gZmFy
+IEkgaGF2ZSBjb25maXJtYXRpb24gdGhhdCAyIHN0dWRlbnRzIHdpbGwgYmUgZHJpdmluZyB0byB0
+aGUgU29mdHdhcmUgU3VtbWVyIFNjaG9vbC4gSSB3aWxsIGJlIGFibGUgdG8gZ2l2ZSB5b3UgYSBm
+aW5hbCBjb3VudCBieSBuZXh0IHdlZWsgaWYgdGhhdCBpcyBub3QgdG9vIGxhdGUuIEkgYW0gc3Rp
+bGwgd2FpdGluZyBvbiBtYW55IG9mIHRoZSBzdHVkZW50cyB0byBzZW5kIG1lIHRoZWlyIHRyYXZl
+bCBwbGFucy4gIA0KPiANCj4gVGhhbmtzDQo+IOKAlEFuZHJldw0KPj4gT24gTWF5IDI2LCAyMDE1
+LCBhdCAzOjQ2IFBNLCBTbWl0aCwgR3JhaGFtIDxncnNtaXRoM0B2dC5lZHU+IHdyb3RlOg0KPj4g
+DQo+PiBUaGFuayB5b3UgZm9yIHRoZSBpbmZvcm1hdGlvbi4gSG93IG1hbnkgcGFya2luZyBwZXJt
+aXRzIHdvdWxkIHlvdSBsaWtlIHRvIGhhdmUgZm9yIHRoZSBhdHRlbmRlZXMgb2YgZWFjaCBzY2hv
+b2w/DQo+PiANCj4+IEdyYWhhbSBTbWl0aA0KPj4gDQo+PiBPZmZpY2Ugb2YgUGFya2luZyBhbmQg
+VHJhbnNwb3J0YXRpb24NCj4+IFZpcmdpbmlhIFBvbHl0ZWNobmljIEluc3RpdHV0ZSBhbmQgU3Rh
+dGUgVW5pdmVyc2l0eQ0KPj4gNjA1IFJlc2VhcmNoIENlbnRlciBEcml2ZSAoMDU0MCkNCj4+IEJs
+YWNrc2J1cmcsIFZpcmdpbmlhIDI0MDYxDQo+PiBQaG9uZTogNTQwLTIzMS03NjMzDQo+PiBGYXg6
+IDU0MC0yMzEtMzAyNw0KPj4gDQo+PiAtLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLQ0KPj4gRnJv
+bTogQW5kcmV3IEphbWVzIFttYWlsdG86YW1qYW1lczJAdnQuZWR1XQ0KPj4gU2VudDogVHVlc2Rh
+eSwgTWF5IDI2LCAyMDE1IDI6MjQgUE0NCj4+IFRvOiBTbWl0aCwgR3JhaGFtDQo+PiBTdWJqZWN0
+OiBSZTogU29mdHdhcmUgU3VtbWVyIFNjaG9vbCBWaXNpdG9yIFBhcmtpbmcNCj4+IA0KPj4gVGhl
+cmUgYXJlIHR3byBzZXBhcmF0ZSBzY2hvb2xzLCBib3RoIG9mIHdoaWNoIGFyZSBnb2luZyB0byBi
+ZSBhdHRlbmRlZCBieSB2aXNpdG9ycyBub3QgVlQgc3R1ZGVudHMuICANCj4+IA0KPj4gVGhlIFNv
+ZnR3YXJlIERldmVsb3BtZW50IFN1bWVtciBTY2hvb2wgSnVuZSAyMm5kIC0gSnVseSAxOg0KPj4g
+VGhlIGxlY3R1cmVzIGFyZSBnb2luZyB0byBiZSBoZWxkIGluIEdvb2R3aW4gaGFsbCwgYW5kIHRo
+ZSBzdHVkZW50cyANCj4+IHdpbGwgYmUgc3RheWluZyBpbiB1bmRlcmdyYWR1YXRlIGRvcm1pdG9y
+aWVzLiAgSSBkbyBub3Qga25vdyB3aGljaCANCj4+IGJ1aWxkaW5ncyB0aGV5IHdpbGwgYmUgc3Rh
+eWluZyBpbiBzcGVjaWZpY2FsbHkgeWV0LiBTb21lIHN0dWRlbnRzIA0KPj4gd2lsbCBiZSBhcnJp
+dmluZyBhdCBuaWdodCBvbiBKdWx5IDIxc3QNCj4+IA0KPj4gVGhlIE1vbGVjdWxhciBSZXNwb25z
+ZSBQcm9wZXJ0aWVzIFN1bW1lciBTY2hvb2wgKEp1bmUgMjktSnVseSAzKToNCj4+IFRoZSBsZWN0
+dXJlcyB3aWxsIGJlIGluIFRvcmdlc2VuIGhhbGwsIGFuZCB0aGUgU3R1ZGVudHMgd2lsbCBiZSBz
+dGF5aW5nIGluIHVuZGVyZ3JhZHVhdGUgZG9ybXMuIEkgZG8gbm90IGtub3cgd2hpY2ggYnVpbGRp
+bmdzIHRoZXkgd2lsbCBiZSBzdGF5aW5nIGluIHNwZWNpZmljYWxseSB5ZXQuIFNvbWUgc3R1ZGVu
+dHMgd2lsbCBiZSBhcnJpdmluZyBhdCBuaWdodCBvbiBKdWx5IDIxc3QuIA0KPj4gDQo+PiDigJRB
+bmRyZXcNCj4+PiBPbiBNYXkgMjYsIDIwMTUsIGF0IDI6MTggUE0sIFNtaXRoLCBHcmFoYW0gPGdy
+c21pdGgzQHZ0LmVkdT4gd3JvdGU6DQo+Pj4gDQo+Pj4gQW5kcmV3LA0KPj4+IFRoZXNlIHN0dWRl
+bnRzIGFyZSBub3QgVmlyZ2luaWEgVGVjaCBzdHVkZW50czogdGhleSBhcmUgdmlzaXRvcnMtLWNv
+cnJlY3Q/DQo+Pj4gV2hpY2ggYnVpbGRpbmcocykgd2lsbCBiZSB1c2VkIGZvciB0aGlzIGV2ZW50
+Pw0KPj4+IFRoYW5rcywNCj4+PiANCj4+PiBHcmFoYW0gU21pdGgNCj4+PiANCj4+PiBPZmZpY2Ug
+b2YgUGFya2luZyBhbmQgVHJhbnNwb3J0YXRpb24gVmlyZ2luaWEgUG9seXRlY2huaWMgSW5zdGl0
+dXRlIA0KPj4+IGFuZCBTdGF0ZSBVbml2ZXJzaXR5DQo+Pj4gNjA1IFJlc2VhcmNoIENlbnRlciBE
+cml2ZSAoMDU0MCkNCj4+PiBCbGFja3NidXJnLCBWaXJnaW5pYSAyNDA2MQ0KPj4+IFBob25lOiA1
+NDAtMjMxLTc2MzMNCj4+PiBGYXg6IDU0MC0yMzEtMzAyNw0KPj4+IA0KPj4+IC0tLS0tT3JpZ2lu
+YWwgTWVzc2FnZS0tLS0tDQo+Pj4gRnJvbTogUGFya2luZyBTZXJ2aWNlcw0KPj4+IFNlbnQ6IFR1
+ZXNkYXksIE1heSAxOSwgMjAxNSAyOjUzIFBNDQo+Pj4gVG86IFNtaXRoLCBHcmFoYW0NCj4+PiBT
+dWJqZWN0OiBGVzogU29mdHdhcmUgU3VtbWVyIFNjaG9vbCBWaXNpdG9yIFBhcmtpbmcNCj4+PiAN
+Cj4+PiANCj4+PiAtLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLQ0KPj4+IEZyb206IEFuZHJldyBK
+YW1lcyBbbWFpbHRvOmFtamFtZXMyQHZ0LmVkdV0NCj4+PiBTZW50OiBUdWVzZGF5LCBNYXkgMTks
+IDIwMTUgMjo0MSBQTQ0KPj4+IFRvOiBQYXJraW5nIFNlcnZpY2VzDQo+Pj4gU3ViamVjdDogU29m
+dHdhcmUgU3VtbWVyIFNjaG9vbCBWaXNpdG9yIFBhcmtpbmcNCj4+PiANCj4+PiBUbyB3aG9tIGl0
+IG1heSBjb25jZXJuLA0KPj4+IA0KPj4+IEkgYW0gdGhlIGNvb3JkaW5hdG9yIGZvciB0aGUgMjAx
+NSBTdW1tZXIgU2Nob29sIGZvciBTb2Z0d2FyZSBEZXZlbG9wbWVudCBpbiBDb21wdXRhdGlvbmFs
+IENoZW1pc3RyeSwgQmltb2xlY3VsYXIgU2ltdWxhdGlvbiBhbmQgTWF0ZXJpYWxzIE1vZGVsaW5n
+LCB3aGljaCB3aWxsIGJlIGhlbGQgYXQgVmlyZ2luaWEgVGVjaCBKdW5lIDIyIC0gSnVseSAxc3Qg
+b2YgdGhpcyB5ZWFyLiAgV2hpbGUgdGhlIG1ham9yaXR5IG9mIGludml0ZWQgc3R1ZGVudHMgd2ls
+bCBiZSBhcnJpdmluZyBieSBwbGFuZSB3ZSBleHBlY3Qgc29tZSAoPDIwKSB0byBkcml2ZSB0byBj
+YW1wdXMuICBXaGF0IHdpbGwgSSBuZWVkIHRvIGRvIHRvIG1ha2Ugc3VyZSB0aGF0IHRoZXNlIHN0
+dWRlbnRzIGhhdmUgc29tZXdoZXJlIHRvIHBhcms/IEhvdyBkbyBJIGdvIGFib3V0IGdldHRpbmcg
+dGhlbSBwZXJtaXRzIGluIGFkdmFuY2Ugb2YgdGhlaXIgYXJyaXZhbD8NCj4+PiANCj4+PiBUaGFu
+ayB5b3UsDQo+Pj4gQW5kcmV3IE0gSmFtZXMNCj4+PiBTdW1tZXIgU2Nob29sIENvb3JkaW5hdG9y
+DQo+PiANCj4gDQoNCg==

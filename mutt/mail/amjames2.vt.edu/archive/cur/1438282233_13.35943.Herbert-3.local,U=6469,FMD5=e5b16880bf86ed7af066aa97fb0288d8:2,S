@@ -1,0 +1,58 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp982079qgt;
+        Fri, 24 Apr 2015 03:28:36 -0700 (PDT)
+X-Received: by 10.55.20.30 with SMTP id e30mr9965428qkh.45.1429871316587;
+        Fri, 24 Apr 2015 03:28:36 -0700 (PDT)
+Return-Path: <spot@edtech.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id e139si10933369qhc.122.2015.04.24.03.28.36
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Apr 2015 03:28:36 -0700 (PDT)
+Received-SPF: none (google.com: spot@edtech.vt.edu does not designate permitted sender hosts) client-ip=198.82.175.52;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: spot@edtech.vt.edu does not designate permitted sender hosts) smtp.mail=spot@edtech.vt.edu
+Received: from parmesan (parmesan.edtech.vt.edu [198.82.175.52])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3OASVTj002373
+	for <amjames2@vt.edu>; Fri, 24 Apr 2015 06:28:36 -0400
+Received: from localhost ([127.0.0.1] helo=parmesan)
+	by parmesan with esmtp (Exim 4.76)
+	(envelope-from <spot@edtech.vt.edu>)
+	id 1YlaqU-0005we-Uf
+	for amjames2@vt.edu; Fri, 24 Apr 2015 06:28:30 -0400
+Date: Fri, 24 Apr 2015 06:28:30 -0400 (EDT)
+From: ocs@vt.edu
+Reply-To: ocs@vt.edu
+To: ocs@vt.edu
+Message-ID: <1383690111.20939.1429871310948.JavaMail.sakai@parmesan>
+Subject: =?windows-1252?Q?VT_Student_Perceptions_of_Teaching?=
+ =?windows-1252?Q?_(SPOT)_=96_Your_Feedback_Is_Needed!?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+Precedence: bulk
+X-Spam-Status: No, score=-0.0 required=5.0 tests=FSL_HELO_NON_FQDN_1,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear VT Student: 
+
+The quality of teaching is important at Virginia Tech, which is why we strive to enhance your learning experience while recognizing good teaching and providing constructive suggestions for instructors.  We cannot accomplish this without your feedback. The Student Perceptions of Teaching (SPOT) survey takes only minutes to complete, but it provides instructors and department chairs with important information to improve teaching and course content.  
+
+You can now complete the SPOT survey on your smart phone! 
+
+Login here:  https://spot.tlos.vt.edu/portal
+
+The survey closes Thursday, May 7, 2015 at midnight. 
+
+Results will be shared with instructors after grades are submitted. Instructors will not be able identify which response belongs to which student.
+
+Thanks for participating in this important Hokie to Hokie feedback.
+
+------------------------------------------------------------
+Troubleshooting:  https://tlos.vt.edu/SPOT/troubleshooting-tips/
+To get help: https://vt4help.service-now.com/ess/

@@ -1,0 +1,99 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1074953ieb;
+        Fri, 13 Mar 2015 14:01:52 -0700 (PDT)
+X-Received: by 10.152.116.43 with SMTP id jt11mr43929194lab.30.1426280512011;
+        Fri, 13 Mar 2015 14:01:52 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from mail-la0-x22a.google.com (mail-la0-x22a.google.com. [2a00:1450:4010:c03::22a])
+        by mx.google.com with ESMTPS id o10si1644431laj.121.2015.03.13.14.01.51
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 14:01:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c03::22a as permitted sender) client-ip=2a00:1450:4010:c03::22a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of johan.patrick.norman@gmail.com designates 2a00:1450:4010:c03::22a as permitted sender) smtp.mail=johan.patrick.norman@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-la0-x22a.google.com with SMTP id s18so23571490lam.2
+        for <andrew.m.james2@gmail.com>; Fri, 13 Mar 2015 14:01:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=ptxhdn3y5D7ydWjVSGHKvQpNO1NeRyK3fqLR2zLzMpw=;
+        b=xvii6sJIy4r2eU0QEnLO5EV2+rCOOLM5U4YCvhePngr0uacAYxl9cFb0xDJz+BXpi3
+         GxV3W0PPp9zVIH2nnyCI2wQIXE7EIjs1uA/9jBLl/HkYwGK7KV3RW/LauQpVcDWvkJtD
+         N7F4lPm4S4uZdJTjiFR2FuKJNB/jxpC7MNYt90dMbjDemk/DxlCqyCWm4/HSnAmvD4CH
+         AvKZWMdA4DwtnQ8aOT/NChjkN8uUozY7B+LX0CJRwl9zfzpcealBd4FeJZZTfgPMzbP1
+         62qsPWXgYnjCBK6ZAvIP/lSLQ2beTKMCLKdVCVIojedFQ1ijt0Q92lYhq4Xa4tXhc82k
+         8ksg==
+X-Received: by 10.152.170.199 with SMTP id ao7mr44148587lac.27.1426280511059;
+        Fri, 13 Mar 2015 14:01:51 -0700 (PDT)
+Return-Path: <johan.patrick.norman@gmail.com>
+Received: from [192.168.1.185] (h85-8-23-118.static.se.alltele.net. [85.8.23.118])
+        by mx.google.com with ESMTPSA id p11sm616821lbs.13.2015.03.13.14.01.50
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 13 Mar 2015 14:01:50 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: Molecular Response Property Summer School Website!
+From: Patrick Norman <johan.patrick.norman@gmail.com>
+In-Reply-To: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+Date: Fri, 13 Mar 2015 22:01:49 +0100
+Cc: Trond SAUE <trond.saue@irsamc.ups-tlse.fr>,
+ Kenneth Ruud <kenneth.ruud@uit.no>,
+ Andrew James <andrew.m.james2@gmail.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <0186E964-F255-455B-B10A-E342EB17038F@gmail.com>
+References: <CAH0V_1YkPesbJWv62tSnK==0nc51Ly4s5vEb8dyN+Zzs8EsFEQ@mail.gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+X-Mailer: Apple Mail (2.2070.6)
+
+Most impressive! Looks great!
+
+How will the registration close in practice. Should we decide on the =
+maximum number of students now? Let's say we put an upper limit at 40 =
+participants and the homepage is open for credit card registration. Is =
+there some automatic check that we do not exceed this number? For the =
+PDF paper registration I see that it is easier to control by simply stop =
+billing new registrations, but the credit card option seems harder to =
+control.
+
+I will check this weekend how may students I would like to bring from =
+the CoTXS network. The number will be around 5, but I will nail it down =
+more precisely a.s.a.p. and get back to you on that.=20
+
+Best wishes,
+Patrick.
+
+> On 13 Mar 2015, at 20:59, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>=20
+> Dear Trond, Patrick, and Kenneth,
+>=20
+> Thanks to the efforts of my student, AJ, the website for the summer =
+school is up and running:
+>=20
+> http://www.theory.chem.vt.edu/response/index.html
+>=20
+> We still need to fill out the agenda and specific information for =
+students, but we'll have that ready by Monday when I would like to send =
+out an advertisement.  Please take a look and let me know if you'd like =
+changes.
+>=20
+> -Daniel
+>=20
+> P.S. Before you ask, yes, we used the same web template as the new =
+Dalton site. :)
+>=20
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+
+--=20
+------------------------------------------------------------------------
+Patrick Norman                  e-mail: johan.patrick.norman@gmail.com
+Furubackav=C3=A4gen 4A               phone : +46-13 29 99 97
+SE-586 63 Link=C3=B6ping, Sweden     mobile: +46-70 191 8541
+------------------------------------------------------------------------=20=
+
+

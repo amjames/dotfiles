@@ -1,0 +1,183 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp102601qgt;
+        Fri, 5 Jun 2015 09:50:34 -0700 (PDT)
+X-Received: by 10.55.18.104 with SMTP id c101mr8465151qkh.25.1433523034684;
+        Fri, 05 Jun 2015 09:50:34 -0700 (PDT)
+Return-Path: <jag20@rice.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id f17si7960453qkh.48.2015.06.05.09.50.34
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 09:50:34 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.100 as permitted sender) client-ip=128.42.201.100;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of jag20@rice.edu designates 128.42.201.100 as permitted sender) smtp.mail=jag20@rice.edu
+Received: from pp1.rice.edu (proofpoint1.mail.rice.edu [128.42.201.100])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55GoSkJ013602
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 12:50:33 -0400
+Received: from pps.filterd (pp1.rice.edu [127.0.0.1])
+	by pp1.rice.edu (8.14.5/8.14.5) with SMTP id t55GkjKr013815
+	for <amjames2@vt.edu>; Fri, 5 Jun 2015 11:50:28 -0500
+Received: from mh2.mail.rice.edu (mh2.mail.rice.edu [128.42.201.21])
+	by pp1.rice.edu with ESMTP id 1ut839s1mp-1
+	for <amjames2@vt.edu>; Fri, 05 Jun 2015 11:50:27 -0500
+X-Virus-Scanned: by amavis-2.7.0 at mh2.mail.rice.edu, auth channel
+Received: from webmail-n1.rice.edu (webmail-n1.rice.edu [10.128.81.181])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: jag20)
+	by mh2.mail.rice.edu (Postfix) with ESMTPSA id 74331500128
+	for <amjames2@vt.edu>; Fri,  5 Jun 2015 11:50:27 -0500 (CDT)
+Received: from netscaler3.rice.edu (netscaler3.rice.edu [128.42.204.5]) by
+ webmail.rice.edu (Horde Framework) with HTTP; Fri, 05 Jun 2015 11:50:27
+ -0500
+Date: Fri, 05 Jun 2015 11:50:27 -0500
+Message-ID: <20150605115027.Horde.msjGDsj5pslOU7r0KtfKMw1@webmail.rice.edu>
+From: jag20 <jag20@rice.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Software Summer School Travel
+References: <20150522111256.Horde.4cssap7KgFfTydx-LdHRXA1@webmail.rice.edu>
+ <AA2DD92E-A503-4A09-AE3D-4D7D880D284A@vt.edu>
+ <20150604175938.Horde.oeRMdehc7IhR4dtneNoVRA1@webmail.rice.edu>
+ <AEDFDEDF-59C4-425A-B386-2BC1965C924B@vt.edu>
+ <20150605091147.Horde.YAaCDjwoz_T2TTYdpb1BNg1@webmail.rice.edu>
+ <38AB1BAE-57C0-4BFA-887B-328954B555DB@vt.edu>
+In-Reply-To: <38AB1BAE-57C0-4BFA-887B-328954B555DB@vt.edu>
+User-Agent: Internet Messaging Program (IMP) H5 (6.1.7)
+Content-Type: text/plain; charset=UTF-8; format=flowed; DelSp=Yes
+MIME-Version: 1.0
+Content-Disposition: inline
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0
+ kscore.is_bulkscore=5.93054494402168e-11 kscore.compositescore=0
+ circleOfTrustscore=0 compositescore=0.999611446316673 suspectscore=0
+ recipient_domain_to_sender_totalscore=0 phishscore=0 bulkscore=0
+ kscore.is_spamscore=0 rbsscore=0.999611446316673
+ recipient_to_sender_totalscore=0
+ recipient_domain_to_sender_domain_totalscore=0 spamscore=0
+ recipient_to_sender_domain_totalscore=0 urlsuspectscore=0.999611446316673
+ adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=7.0.1-1402240000 definitions=main-1506050215
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Hi Andrew,
+
+I made my original travel plans based on the information I received  
+that the last day of the summer school would end early. But also, the  
+confirmation email I received from confreg@vt.edu stated that lodging  
+checkout would be July 1, so leaving July 2 did not even seem like an  
+option.
+
+I am very interested in DePrince's GPU lectures, so I have changed my  
+flight. I will now depart Roanoke on Thursday July 2 at 5:45 AM on US  
+Airways Flight 4776.
+
+I have incurred a $291.00 fee to change my flight due to the  
+misinformation. Is there any possibility that this could be reimbursed  
+by the summer school?
+
+Thank you,
+
+John
+
+
+Quoting Andrew James <amjames2@vt.edu>:
+
+> John,
+>
+> Students will be able to stay the night of July 1st and many have  
+> chosen flights that leave the next day. The lecture will end by 6PM  
+> so leaving enough time to get you to the airport a flight leaving  
+> after 8 PM that night would make sure you can stay for the whole  
+> lecture.  We are also planning a farewell dinner that may be the  
+> last night of the program, but since many students are leaving that  
+> day we might have that the night before so everyone can attend.
+>
+> If you are able to change your flight just let me know of the  
+> changes so I can make the appropriate arguments.
+>
+> Sorry again for my mistake,
+> Andrew
+>> On Jun 5, 2015, at 10:11 AM, jag20 <jag20@rice.edu> wrote:
+>>
+>> Hi Andrew,
+>>
+>> Thanks for the updated information. I may look into changing my  
+>> flight. Can you tell me when a better time to leave would be so as  
+>> not to miss any of Prof. DePrince's lecture?
+>>
+>> Thanks,
+>>
+>> John
+>>
+>> Quoting Andrew James <amjames2@vt.edu>:
+>>
+>>> Dear John,
+>>>
+>>> Thanks.
+>>> I also have to apologize, but I was mistaken when I told you  
+>>> earlier that the school would end at lunch time on Wednesday July  
+>>> 1st.  We are hosting two school here this summer and the other  
+>>> program has only a morning session on the last day, not the  
+>>> software school.
+>>> Prof. Eugene DePrince will be speaking about GPU/accellerator  
+>>> architectures for the whole day on July 1st.  I am very sorry for  
+>>> this mixup.  We will of course still be able to provide  
+>>> transportation to the airport for your return flight.
+>>>
+>>> Regards,
+>>> Andrew M James
+>>> Summer School Coordinator
+>>>
+>>>> On Jun 4, 2015, at 6:59 PM, jag20 <jag20@rice.edu> wrote:
+>>>>
+>>>> Hi Andrew,
+>>>>
+>>>> Sorry about that. I arrive June 21, and leave July 1.
+>>>>
+>>>> Thanks,
+>>>>
+>>>> John
+>>>>
+>>>> Quoting Andrew James <amjames2@vt.edu>:
+>>>>
+>>>>> Dear John,
+>>>>>
+>>>>> Could you let me know the dates of your flights?
+>>>>>
+>>>>> Thanks,
+>>>>> Andrew
+>>>>>> On May 22, 2015, at 12:12 PM, jag20 <jag20@rice.edu> wrote:
+>>>>>>
+>>>>>> Dear Andrew,
+>>>>>>
+>>>>>> Please find below my travel information to/from the Software  
+>>>>>> Development Summer School at VT. Please let me know if you need  
+>>>>>> any further information.
+>>>>>>
+>>>>>> Thanks,
+>>>>>>
+>>>>>> John
+>>>>>>
+>>>>>> Arrive at ROA at 3:40 pm via US Airways 4829 from CLT
+>>>>>> Depart ROA 4:10 pm via US Airways 4829 to CLT.
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>
+>>>>
+>>>>
+>>
+>>
+>>
+
+
+

@@ -1,0 +1,162 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp2698759qgf;
+        Wed, 15 Apr 2015 05:11:46 -0700 (PDT)
+X-Received: by 10.229.26.135 with SMTP id e7mr31960651qcc.5.1429099906561;
+        Wed, 15 Apr 2015 05:11:46 -0700 (PDT)
+Return-Path: <vilong@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id g65si4384791qkh.108.2015.04.15.05.11.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Apr 2015 05:11:46 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.220.175 as permitted sender) client-ip=209.85.220.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.220.175 as permitted sender) smtp.mail=vilong@vt.edu
+Received: from mail-qk0-f175.google.com (mail-qk0-f175.google.com [209.85.220.175])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3FCBeex030992
+	for <amjames2@vt.edu>; Wed, 15 Apr 2015 08:11:45 -0400
+Received: by qkgx75 with SMTP id x75so74252861qkg.1
+        for <amjames2@vt.edu>; Wed, 15 Apr 2015 05:11:40 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:user-agent:date:subject:from:to:cc:message-id
+         :thread-topic:references:in-reply-to:mime-version:content-type;
+        bh=NMvGwRFpDRrehVO91qQbE5cLmahxvijA6SJi1nuZjZI=;
+        b=JytuRh2kzTbyWVsgn9LP5pxQfupewQGb6rWBCUXes97oKdL/76JzVPMOBeh+t1z1NQ
+         IW+UtiBShRI2BdtlmYeZvAtJ3oUURPHSZmoBMnYZQa2JZmB6ObN9u1WzpX7tJtqlZzlb
+         zrzRlAiwqs0wYUbs2WizVNOCeNL4n+y/SGaUDly96hd9+5EreUcoyJyuJ7Utz0qzlDL8
+         RaH1mQULaQlPMaaWKuyeYXN9HOLsF5rRpvSCEhv6H/882Uxcis3cmzAVU1QKjNzoSHMb
+         yjshoVVnYAYfRCS7pIMTEgOdnnlAGs2UmUI6AOVkVIarur5xdJidyZD6wifQV9JIhv1K
+         oZ2A==
+X-Gm-Message-State: ALoCoQkYXJD+np1IxyRyAJXjIYFnVo2OG5B2B08Zdg3HQ/PrVKgXC883aMvFXgdnIDm3t6z6p3pIjwCXYU0DWn5WjIxSDK8aZXjYZPORuH3I53eN1Co3tXXPPoYcK8ZRArB9JD4GG4A56FPmOsTRgv9SMNRr7NJL0Q==
+X-Received: by 10.55.40.10 with SMTP id o10mr49658703qkh.55.1429099880404;
+        Wed, 15 Apr 2015 05:11:20 -0700 (PDT)
+X-Received: by 10.55.40.10 with SMTP id o10mr49658684qkh.55.1429099880329;
+        Wed, 15 Apr 2015 05:11:20 -0700 (PDT)
+Received: from [172.31.240.214] (nc6521896.cns.vt.edu. [198.82.24.150])
+        by mx.google.com with ESMTPSA id o189sm2995851qhb.25.2015.04.15.05.11.17
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 15 Apr 2015 05:11:19 -0700 (PDT)
+User-Agent: Microsoft-MacOutlook/14.4.8.150116
+Date: Wed, 15 Apr 2015 08:11:14 -0400
+Subject: Re: Lab 4/14
+From: Victoria Long <vilong@vt.edu>
+To: Lizzie Banasiak <lizzieb@vt.edu>
+CC: Andrew James <amjames2@vt.edu>, <ingrid6@vt.edu>
+Message-ID: <D153CC18.14488%vilong@vt.edu>
+Thread-Topic: Lab 4/14
+References: <CAC+bUUV_QnMawhGc_O=dhyx_z1=yJFpvpVKv=Xqj2oykx54Qrw@mail.gmail.com>
+ <D1533440.1446F%vilong@vt.edu>
+ <CAC+bUUWEwFrxNchOC+PRmN0TSyKLyYoMuEfVMuN-A=WB-vCD6g@mail.gmail.com>
+In-Reply-To: <CAC+bUUWEwFrxNchOC+PRmN0TSyKLyYoMuEfVMuN-A=WB-vCD6g@mail.gmail.com>
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3511930278_65044"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3511930278_65044
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+Great =AD please attend the lab in room 201 with Andrew. When you=B9re finished
+please bring the postlab due and yellow pages to HHN 205 so we can get them
+to Kuljeet. Thanks, Victoria Long
+
+From:  Lizzie Banasiak <lizzieb@vt.edu>
+Date:  Tuesday, April 14, 2015 at 10:51 PM
+To:  Victoria Long <vilong@vt.edu>
+Subject:  Re: Lab 4/14
+
+Dear Ms. long,
+I can come in at two to make up my lab.
+Thank you,
+Lizzie Banasiak
+
+On Tue, Apr 14, 2015 at 9:19 PM, Victoria Long <vilong@vt.edu> wrote:
+> Lizzie =AD hope you=B9re feeling better. You can make up the lab on Th at 8, =
+10,
+> 12, or 2. Please let me know which lab works best. Also, please complete =
+the
+> prelab quiz and prepare your notebook. When you=B9re finished, please bring=
+ your
+> postlab due and yellow pages to HHN 205 and we=B9ll get them to Kuljeet for
+> grading. Thanks, Victoria Long
+>=20
+> From:  Lizzie Banasiak <lizzieb@vt.edu>
+> Date:  Tuesday, April 14, 2015 at 12:34 PM
+> To:  Victoria Long <vilong@vt.edu>, Kuljeet Kaur <kjeetk7@vt.edu>
+> Subject:  Lab 4/14
+>=20
+> PID: xxxx-91002
+> Dear Ms. Long,
+> You should have received and email from my doctor about my asthma. I was
+> wondering when I could make up the lab this week. I am available thursday
+> anytime before four o'clock.
+> Thank you,
+> Elizabeth Banasiak
+
+
+
+
+--B_3511930278_65044
+Content-type: text/html;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div>Great &#8211; please attend t=
+he lab in room 201 with Andrew. When you&#8217;re finished please bring the =
+postlab due and yellow pages to HHN 205 so we can get them to Kuljeet. Thank=
+s, Victoria Long</div><div><br></div><span id=3D"OLK_SRC_BODY_SECTION"><div st=
+yle=3D"font-family:Calibri; font-size:11pt; text-align:left; color:black; BORD=
+ER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDI=
+NG-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: #b5c4df 1pt solid; BORDER-RIGH=
+T: medium none; PADDING-TOP: 3pt"><span style=3D"font-weight:bold">From: </spa=
+n> Lizzie Banasiak &lt;<a href=3D"mailto:lizzieb@vt.edu">lizzieb@vt.edu</a>&gt=
+;<br><span style=3D"font-weight:bold">Date: </span> Tuesday, April 14, 2015 at=
+ 10:51 PM<br><span style=3D"font-weight:bold">To: </span> Victoria Long &lt;<a=
+ href=3D"mailto:vilong@vt.edu">vilong@vt.edu</a>&gt;<br><span style=3D"font-weig=
+ht:bold">Subject: </span> Re: Lab 4/14<br></div><div><br></div><div dir=3D"ltr=
+">Dear Ms. long,<div>I can come in at two to make up my lab.&nbsp;</div><div=
+>Thank you,</div><div>Lizzie Banasiak</div></div><div class=3D"gmail_extra"><b=
+r><div class=3D"gmail_quote">On Tue, Apr 14, 2015 at 9:19 PM, Victoria Long <s=
+pan dir=3D"ltr">&lt;<a href=3D"mailto:vilong@vt.edu" target=3D"_blank">vilong@vt.e=
+du</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 =
+0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:=
+break-word;color:rgb(0,0,0);font-size:14px;font-family:Calibri,sans-serif"><=
+div>Lizzie &#8211; hope you&#8217;re feeling better. You can make up the lab=
+ on Th at 8, 10, 12, or 2. Please let me know which lab works best. Also, pl=
+ease complete the prelab quiz and prepare your notebook. When you&#8217;re f=
+inished, please bring your postlab due and yellow pages to HHN 205 and we&#8=
+217;ll get them to Kuljeet for grading. Thanks, Victoria Long</div><div><br>=
+</div><span><div style=3D"font-family:Calibri;font-size:11pt;text-align:left;c=
+olor:black;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:=
+0in;PADDING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-R=
+IGHT:medium none;PADDING-TOP:3pt"><span style=3D"font-weight:bold">From: </spa=
+n> Lizzie Banasiak &lt;<a href=3D"mailto:lizzieb@vt.edu" target=3D"_blank">lizzi=
+eb@vt.edu</a>&gt;<br><span style=3D"font-weight:bold">Date: </span> Tuesday, A=
+pril 14, 2015 at 12:34 PM<br><span style=3D"font-weight:bold">To: </span> Vict=
+oria Long &lt;<a href=3D"mailto:vilong@vt.edu" target=3D"_blank">vilong@vt.edu</=
+a>&gt;, Kuljeet Kaur &lt;<a href=3D"mailto:kjeetk7@vt.edu" target=3D"_blank">kje=
+etk7@vt.edu</a>&gt;<br><span style=3D"font-weight:bold">Subject: </span> Lab 4=
+/14<br></div><div><br></div><div dir=3D"ltr">PID: xxxx-91002<div><div class=3D"h=
+5"><div>Dear Ms. Long,</div><div>You should have received and email from my =
+doctor about my asthma. I was wondering when I could make up the lab this we=
+ek. I am available thursday anytime before four o'clock.&nbsp;</div><div>Tha=
+nk you,</div><div>Elizabeth Banasiak</div></div></div></div></span></div></b=
+lockquote></div><br></div></span></body></html>
+
+--B_3511930278_65044--
+
+

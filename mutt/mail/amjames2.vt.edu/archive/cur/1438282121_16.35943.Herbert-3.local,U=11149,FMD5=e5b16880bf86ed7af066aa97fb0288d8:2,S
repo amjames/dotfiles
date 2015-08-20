@@ -1,0 +1,123 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp855251qgt;
+        Mon, 22 Jun 2015 12:47:13 -0700 (PDT)
+X-Received: by 10.55.15.232 with SMTP id 101mr65894333qkp.69.1435002433675;
+        Mon, 22 Jun 2015 12:47:13 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id n63si20021026qga.13.2015.06.22.12.47.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 12:47:13 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) client-ip=209.85.223.179;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.179 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f179.google.com (mail-ie0-f179.google.com [209.85.223.179])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5MJl8Pq031795
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 15:47:13 -0400
+Received: by iebmu5 with SMTP id mu5so122486568ieb.1
+        for <amjames2@vt.edu>; Mon, 22 Jun 2015 12:47:08 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=A/KZksMnKu1AW/+FOj9ewhhfalo2xb3qJwjGZZJtQiE=;
+        b=DDaJT3YEahOBlpenLR7zf9Ppbn4lOD6I9WctV0LBRn+aa9PLl9HPRdRyzcQ09ozcxc
+         L792tgXSQgK3Tnc4BeaCwmZC3u+0hT/IWTiuZifWuQMDLcjEv99vc62tzPO9vByJvuMY
+         Z2bHAdcDO/rVR+A1Of9Z1bM6INHb2pKvi4ZkNtOLylzl+milGVT9VOLU4rNIkZCb4/Uy
+         4uZiAyrqJqddeK0lm4IE8s1kYm+T/M/a9ClJC1lucBOQ55COtJvv284Gg3G/u1D+dVK3
+         nuysRNIyJpBx4E7cfnwwIV90DIOSnHyMbZoyaXSBFkZcaFuccI0UCud/Ar+MwP3rMfOk
+         Xcow==
+X-Gm-Message-State: ALoCoQlikAep5fP00c1Gg3srkclbXQXQNwV1sn01La2RCLZYy9F11HfsUXPIpBNBfH0eKsvQfk43YQvYuq9qg9LGj3n6wLOLi81dOrzrmuy2CL2kQoCmh/7+MLM28GoEpP9Kf92aquBvePRBfxv3Bh4N2Mqd03f5Bg==
+X-Received: by 10.107.168.150 with SMTP id e22mr36793261ioj.9.1435002427951;
+        Mon, 22 Jun 2015 12:47:07 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.168.150 with SMTP id e22mr36793248ioj.9.1435002427848;
+ Mon, 22 Jun 2015 12:47:07 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Mon, 22 Jun 2015 12:47:07 -0700 (PDT)
+In-Reply-To: <2B048ECD-C867-42E7-BF54-03D95CA42DE1@vt.edu>
+References: <CAH0V_1a3hBUJcvG2gJ-NQa7n82A6z4Y8Sf5y-022yg4D4BWk3g@mail.gmail.com>
+	<2B048ECD-C867-42E7-BF54-03D95CA42DE1@vt.edu>
+Date: Mon, 22 Jun 2015 15:47:07 -0400
+Message-ID: <CAH0V_1YsY=bd37KUUXTq+mvhW6sbd=__3hP58GUkV7LtS0aAhQ@mail.gmail.com>
+Subject: Re: Luggage
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11426eaef6d18705192089b0
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11426eaef6d18705192089b0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'm here.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jun 22, 2015 at 3:44 PM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> I can come by anytime, does now work?
+> =E2=80=94AJ
+>
+> Andrew M. James
+> amjames2@vt.edu
+>
+>
+>
+> On Jun 22, 2015, at 3:43 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> AJ,
+>
+> I have the student's luggage in my office.  Let me know when you'll be
+> able to retrieve it, and I'll make sure I can be there.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a11426eaef6d18705192089b0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I&#39;m here.<div><br></div><div>-TDC</div></div><div clas=
+s=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><di=
+v dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jun 22, 2015 at 3:44 PM, Andrew M. J=
+ames <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_bl=
+ank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div style=3D"word-wrap:break-word">I can come by anytime, does now work?=
+=C2=A0<br><div>
+=E2=80=94AJ<span class=3D"HOEnZb"><font color=3D"#888888"><br><br>Andrew M.=
+ James<br><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.=
+edu</a><br><br><br>
+</font></span></div><div><div class=3D"h5">
+
+<br><div><blockquote type=3D"cite"><div>On Jun 22, 2015, at 3:43 PM, T. Dan=
+iel Crawford &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawda=
+d@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">AJ,<div><br></div><d=
+iv>I have the student&#39;s luggage in my office.=C2=A0 Let me know when yo=
+u&#39;ll be able to retrieve it, and I&#39;ll make sure I can be there.</di=
+v><div><br></div><div>-TDC<br clear=3D"all"><div><div><div dir=3D"ltr">--<d=
+iv>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" tar=
+get=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></blockquote></div><br></div=
+>
+
+--001a11426eaef6d18705192089b0--

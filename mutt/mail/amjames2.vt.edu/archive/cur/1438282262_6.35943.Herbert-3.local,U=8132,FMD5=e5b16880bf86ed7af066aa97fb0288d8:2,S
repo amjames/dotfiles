@@ -1,0 +1,404 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1457335qgt;
+        Mon, 11 May 2015 06:00:02 -0700 (PDT)
+X-Received: by 10.140.231.210 with SMTP id b201mr13781692qhc.82.1431349201779;
+        Mon, 11 May 2015 06:00:01 -0700 (PDT)
+Return-Path: <mimarsh2@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id h1si12889068qhc.6.2015.05.11.06.00.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 11 May 2015 06:00:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning mimarsh2@vt.edu does not designate 209.85.218.43 as permitted sender) client-ip=209.85.218.43;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning mimarsh2@vt.edu does not designate 209.85.218.43 as permitted sender) smtp.mail=mimarsh2@vt.edu
+Received: from mail-oi0-f43.google.com (mail-oi0-f43.google.com [209.85.218.43])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4BCxtnI031115
+	for <amjames2@vt.edu>; Mon, 11 May 2015 09:00:00 -0400
+Received: by oiko83 with SMTP id o83so103436702oik.1
+        for <amjames2@vt.edu>; Mon, 11 May 2015 05:59:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=R2vd56USCRiqbZa9tmIE+rpgzeh4XoxHSjZJROnAqQs=;
+        b=Fe0RJJA5acDzawM4VHCKSTUrkBSly4BUfnH2ATT9Y27Jchzawdv++ggBcTZU428fQh
+         HXtnPi/sN1HvHFwvUKlrmWq7oFKojKbFFJSto+bfknE+A1SFazK6ORPTdtjRVibbOGNM
+         5Ho66lHsibVPAnfpsbHsNCEhWwcdXGbkqc+b7+8tDTYJWjSP4qD8+Uk6KA2otvEoXgsT
+         Y2PlbweKsJOkYCQ2aRiV1XAO+SBhzkUz14fUUMAItBEm/gIiQcnkExKX8qd8vIjOkU1f
+         vgMwYjIzlH0RdG+kg4jPnFaK6OXfOnRHOu1LOemNbElY/QmpAREvGXQXdOjYZHRUbGKH
+         d9jw==
+X-Gm-Message-State: ALoCoQkmt/Mmk+sdc1YFLEp1KTJfEokywv2ro28DYCP+IKGLmuATvezBhiF8rGnXoS0tIXBDD3Iod86gMq3SpIU17hsTAndLQwqbG8fmuzotwb73xZUG3U/C6uF82Efx2JLRrmcP8Jpp4gTRW34b6WUXpKF8OdeQ2g==
+X-Received: by 10.182.87.228 with SMTP id bb4mr7900426obb.27.1431349195113;
+        Mon, 11 May 2015 05:59:55 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.182.87.228 with SMTP id bb4mr7900423obb.27.1431349195022;
+ Mon, 11 May 2015 05:59:55 -0700 (PDT)
+Received: by 10.202.79.200 with HTTP; Mon, 11 May 2015 05:59:54 -0700 (PDT)
+In-Reply-To: <CAD0XtKTVoE38Ly50N64zg0cuULrHopxXM+8J5VJO4LDVFuRBZg@mail.gmail.com>
+References: <CAH3Y6M+8rKXbEXH7KbE1JXZcjFY0jqz26L-8-RS9Y4bB_tV8_A@mail.gmail.com>
+	<CAD0XtKR60Pf07qaoQqZabZ9GdR7ySJ0ikHwsLmkYNAkq17bYnQ@mail.gmail.com>
+	<DB4DD015-91A3-4AFF-B266-3C33F1140B1E@vt.edu>
+	<CAD0XtKTLbDohSMC-YvUyx_6jAQoFxWXvH3S+zTzgO8owsCzM4g@mail.gmail.com>
+	<CAD0XtKSf2gVWySuP7Rmc4mh5kCFWWej=0Bj-NFyHV8vCdz8cxA@mail.gmail.com>
+	<CA+58rsBgct95ZcBzyMOLhr80NgMoJKbpq+9Z5Lfub6jCvSTDHQ@mail.gmail.com>
+	<CAD0XtKSoy1yU82Get=6uowoJknR3MWbRoTGAXNjshudk7Gx4jg@mail.gmail.com>
+	<CA+58rsACmrqWpDxP8ek5hztr13PobhqViqFqB0MksWt-OPvKuw@mail.gmail.com>
+	<CAD0XtKTDHJRBrtn=OSqq-T1x379quR6tMW+YvbyiyDBccukXpA@mail.gmail.com>
+	<CAD0XtKQ8Dc0buKgkv2UmSUWf+52yFwaSLxRam62m9T7hZfp1MA@mail.gmail.com>
+	<4A5461C1-A632-455E-B11D-1F80EBDE9229@vt.edu>
+	<CAD0XtKTVoE38Ly50N64zg0cuULrHopxXM+8J5VJO4LDVFuRBZg@mail.gmail.com>
+Date: Mon, 11 May 2015 08:59:54 -0400
+Message-ID: <CAD0XtKRVdLNC9ygc0oiL9xP-hQ_+9LaGt0OimmOO_vceobFS+g@mail.gmail.com>
+Subject: Re: ARC GRA position
+From: Brian Marshall <mimarsh2@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0111bd9c51b2610515cdf43e
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,LOTS_OF_MONEY,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0111bd9c51b2610515cdf43e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Andrew,
+
+
+Thank you for your interest in the ARC GRA position.  This message is to
+inform you that we have selected another candidate for the position.
+
+We appreciate you taking the time to apply with our group and wish you the
+best of luck in your future endeavors. You were one of our very top
+candidates. There was some last minute number crunching to see if we could
+get funding for more than 1 position, but we were unsuccessful there. I am
+going to keep your resume on file in the event another position or funding
+becomes available.
+
+Best regards,
+
+Brian Marshall
+
+ARC
+
+On Fri, May 8, 2015 at 12:25 PM, Brian Marshall <mimarsh2@vt.edu> wrote:
+
+> Andrew,
+>
+> That is what I needed.   The GTA/GRA contracts are pretty standard.  Ther=
+e
+> is a bit of difference when a person is near graduation and done with
+> class(different tuition/status can apply).
+>
+> Thank you,
+> Brian
+>
+> On Fri, May 8, 2015 at 12:15 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Mr. Marshall,
+>>
+>> I do still have classes to take; actually our program milestones like th=
+e
+>> defense/prelim/etc are considered courses, so I have tuition to pay the
+>> whole time I am here.
+>>
+>> I looked at the contract I signed for my GTA back in august and right no=
+w
+>> I have tuition paid, and a stipend of $11,200. I pay my student fees out=
+ of
+>> the stipend my GTA does not cover it.
+>>
+>> Does that help? I sort of naively assumed that there was a standard
+>> GTA/GRA contract and only the duties changed from one department/role to
+>> another.
+>>
+>> =E2=80=94Andrew
+>> On May 8, 2015, at 11:54 AM, Brian Marshall <mimarsh2@vt.edu> wrote:
+>>
+>>
+>> Andrew,
+>>
+>> Quick question:  Are you all done with coursework in your PhD studies?  =
+I
+>> think the answer is no.  i.e. I assume you are looking very heavily on
+>> tuition coverage.
+>>
+>> Thank you,
+>> Brian Marshall
+>>
+>> On Fri, May 1, 2015 at 12:48 PM, Brian Marshall <mimarsh2@vt.edu> wrote:
+>>
+>>> Unofficial is all I need.  I'll see you Tuesday at 11 AM
+>>>
+>>> Thank you,
+>>> Brian
+>>>
+>>> On Fri, May 1, 2015 at 11:49 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>
+>>>> Hi,
+>>>>
+>>>> Here are my unofficial transcripts for both undergrad, and tech.  I
+>>>> forgot to write it down, but you did say that you only needed my unoff=
+icial
+>>>> transcripts correct? If you need official ones I can get them it just =
+might
+>>>> take a while for my undergrad (they only process requests by mail).
+>>>>
+>>>> Thanks,
+>>>>
+>>>> Andrew James
+>>>>
+>>>> Graduate Teaching Assistant
+>>>> Virginia Tech
+>>>> Chemistry Department
+>>>> amjames2@vt.edu
+>>>>
+>>>> On Fri, May 1, 2015 at 9:00 AM, Brian Marshall <mimarsh2@vt.edu> wrote=
+:
+>>>>
+>>>>> That's perfect.
+>>>>>
+>>>>> Thank you,
+>>>>> Brian
+>>>>>
+>>>>> On Fri, May 1, 2015 at 8:52 AM, Andrew James <amjames2@vt.edu> wrote:
+>>>>>
+>>>>>> Mr. Marshall,
+>>>>>>
+>>>>>> Could I come by at 10?
+>>>>>>
+>>>>>> --Andrew
+>>>>>>
+>>>>>> Andrew James
+>>>>>>
+>>>>>> Graduate Student
+>>>>>> Virginia Tech
+>>>>>> Chemistry Department
+>>>>>> amjames2@vt.edu
+>>>>>>
+>>>>>> On Fri, May 1, 2015 at 8:44 AM, Brian Marshall <mimarsh2@vt.edu>
+>>>>>> wrote:
+>>>>>>
+>>>>>>> Andrew,
+>>>>>>>
+>>>>>>> My schedule changed a bit, and I will also be around Torgersen from
+>>>>>>> 9am - 11am
+>>>>>>>
+>>>>>>> On Thu, Apr 30, 2015 at 5:29 PM, Brian Marshall <mimarsh2@vt.edu>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> Andrew,
+>>>>>>>>
+>>>>>>>> I am headed for the door.  I'll be in Torgersen tomorrow
+>>>>>>>> afternoon.  Shoot me an email with a meeting time.
+>>>>>>>>
+>>>>>>>> Best,
+>>>>>>>> Brian
+>>>>>>>>
+>>>>>>>> On Thu, Apr 30, 2015 at 5:24 PM, Andrew James <amjames2@vt.edu>
+>>>>>>>> wrote:
+>>>>>>>>
+>>>>>>>>> Mr. Marshall,
+>>>>>>>>>
+>>>>>>>>> I have attached my CV so you can look it over.  I think that this
+>>>>>>>>> would be an awesome opportunity for me, but I will have to talk i=
+t over
+>>>>>>>>> with my PI before formally applying.  If you are still around and=
+ I could
+>>>>>>>>> come by to ask some questions about the responsibilities/duties o=
+f someone
+>>>>>>>>> in this position that would be great.
+>>>>>>>>>
+>>>>>>>>> Thanks,
+>>>>>>>>> Andrew
+>>>>>>>>>
+>>>>>>>>> On Apr 30, 2015, at 3:01 PM, Brian Marshall <mimarsh2@vt.edu>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>> That sounds good.  Also feel free to stop by this afternoon or
+>>>>>>>>> tomorrow.  I should be around most of the day.
+>>>>>>>>>
+>>>>>>>>> Brian
+>>>>>>>>>
+>>>>>>>>> On Thu, Apr 30, 2015 at 2:41 PM, James McClure <mcclurej@vt.edu>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>>> Hi Brian,
+>>>>>>>>>>
+>>>>>>>>>> Andrew is a student in my class and has some questions about the
+>>>>>>>>>> ARC GRA position.  He may send you a CV if he decides the positi=
+on could
+>>>>>>>>>> work for his schedule.
+>>>>>>>>>>
+>>>>>>>>>> Regards,
+>>>>>>>>>> James
+>>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>>
+>
+
+--089e0111bd9c51b2610515cdf43e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:=
+0pt"><span style=3D"font-size:13px;font-family:Arial;vertical-align:baselin=
+e;white-space:pre-wrap">Andrew,</span></p><p dir=3D"ltr" style=3D"line-heig=
+ht:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:13px;fon=
+t-family:Arial;vertical-align:baseline;white-space:pre-wrap"><br></span></p=
+><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"=
+><span style=3D"font-size:13px;font-family:Arial;vertical-align:baseline;wh=
+ite-space:pre-wrap">Thank you for your interest in the ARC GRA position. =
+=C2=A0</span><span style=3D"font-size:13px;font-family:Arial;color:rgb(51,5=
+1,51);vertical-align:baseline;white-space:pre-wrap">This message is to info=
+rm you that we have selected another candidate for the position.</span></p>=
+<p dir=3D"ltr" style=3D"line-height:1.62;margin-top:15pt;margin-bottom:15pt=
+"><span style=3D"font-size:13px;font-family:Arial;color:rgb(51,51,51);verti=
+cal-align:baseline;white-space:pre-wrap">We appreciate you taking the time =
+to apply with our group and wish you the best of luck in your future endeav=
+ors.  You were one of our very top candidates.  There was some last minute =
+number crunching to see if we could get funding for more than 1 position, b=
+ut we were unsuccessful there.  I am going to keep your resume on file in t=
+he event another position or funding becomes available.</span></p><p dir=3D=
+"ltr" style=3D"line-height:1.62;margin-top:15pt;margin-bottom:15pt"><span s=
+tyle=3D"font-size:13px;font-family:Arial;color:rgb(51,51,51);vertical-align=
+:baseline;white-space:pre-wrap">Best regards,</span></p><p style=3D"line-he=
+ight:1.62;margin-top:15pt;margin-bottom:15pt"><span style=3D"font-size:13px=
+;font-family:Arial;color:rgb(51,51,51);vertical-align:baseline;white-space:=
+pre-wrap">Brian Marshall</span></p><p style=3D"line-height:1.62;margin-top:=
+15pt;margin-bottom:15pt"><span style=3D"font-size:13px;font-family:Arial;co=
+lor:rgb(51,51,51);vertical-align:baseline;white-space:pre-wrap">ARC</span><=
+/p></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, =
+May 8, 2015 at 12:25 PM, Brian Marshall <span dir=3D"ltr">&lt;<a href=3D"ma=
+ilto:mimarsh2@vt.edu" target=3D"_blank">mimarsh2@vt.edu</a>&gt;</span> wrot=
+e:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Andrew,<div><br></div=
+><div>That is what I needed. =C2=A0 The GTA/GRA contracts are pretty standa=
+rd.=C2=A0 There is a bit of difference when a person is near graduation and=
+ done with class(different tuition/status can apply).</div><div><br></div><=
+div>Thank you,</div><div>Brian</div></div><div class=3D"HOEnZb"><div class=
+=3D"h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, M=
+ay 8, 2015 at 12:15 PM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<=
+br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:break-word">Mr. M=
+arshall,<div><br></div><div>I do still have classes to take; actually our p=
+rogram milestones like the defense/prelim/etc are considered courses, so I =
+have tuition to pay the whole time I am here. =C2=A0</div><div><br></div><d=
+iv>I looked at the contract I signed for my GTA back in august and right no=
+w I have tuition paid, and a stipend of $11,200. I pay my student fees out =
+of the stipend my GTA does not cover it. =C2=A0</div><div><br></div><div>Do=
+es that help? I sort of naively assumed that there was a standard GTA/GRA c=
+ontract and only the duties changed from one department/role to another.=C2=
+=A0</div><span><font color=3D"#888888"><div><br></div><div>=E2=80=94Andrew=
+=C2=A0</div></font></span><div><div><div>On May 8, 2015, at 11:54 AM, Brian=
+ Marshall &lt;<a href=3D"mailto:mimarsh2@vt.edu" target=3D"_blank">mimarsh2=
+@vt.edu</a>&gt; wrote:<div><blockquote type=3D"cite"><br><div><div dir=3D"l=
+tr">Andrew,<div><br></div><div>Quick question: =C2=A0Are you all done with =
+coursework in your PhD studies?=C2=A0 I think the answer is no. =C2=A0i.e. =
+I assume you are looking very heavily on tuition coverage.</div><div><br></=
+div><div>Thank you,</div><div>Brian Marshall</div></div><div class=3D"gmail=
+_extra"><br><div class=3D"gmail_quote">On Fri, May 1, 2015 at 12:48 PM, Bri=
+an Marshall <span dir=3D"ltr">&lt;<a href=3D"mailto:mimarsh2@vt.edu" target=
+=3D"_blank">mimarsh2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div dir=3D"ltr">Unofficial is all I need.=C2=A0 I&#39;ll see you =
+Tuesday at 11 AM<div><br></div><div>Thank you,</div><div>Brian</div></div><=
+div><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, =
+May 1, 2015 at 11:49 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mail=
+to:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:=
+<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Hi,=C2=A0<div><br></div=
+><div>Here are my unofficial transcripts for both undergrad, and tech.=C2=
+=A0 I forgot to write it down, but you did say that you only needed my unof=
+ficial transcripts correct? If you need official ones I can get them it jus=
+t might take a while for my undergrad (they only process requests by mail).=
+ =C2=A0=C2=A0</div><div><br></div><div>Thanks,=C2=A0</div><div class=3D"gma=
+il_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">Andrew James=C2=A0<d=
+iv><br><div>Graduate Teaching Assistant=C2=A0<br><div>Virginia Tech=C2=A0</=
+div></div><div>Chemistry Department=C2=A0</div></div><div><a href=3D"mailto=
+:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a></div></div></div></=
+div><div><div>
+<br><div class=3D"gmail_quote">On Fri, May 1, 2015 at 9:00 AM, Brian Marsha=
+ll <span dir=3D"ltr">&lt;<a href=3D"mailto:mimarsh2@vt.edu" target=3D"_blan=
+k">mimarsh2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+<div dir=3D"ltr">That&#39;s perfect.<div><br></div><div>Thank you,</div><di=
+v>Brian</div></div><div><div><div class=3D"gmail_extra"><br><div class=3D"g=
+mail_quote">On Fri, May 1, 2015 at 8:52 AM, Andrew James <span dir=3D"ltr">=
+&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a=
+>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 =
+0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Mr. =
+Marshall,<div><br></div><div>Could I come by at 10?=C2=A0</div><div><br></d=
+iv><div>--Andrew</div><div class=3D"gmail_extra"><br clear=3D"all"><div><di=
+v><div dir=3D"ltr">Andrew James=C2=A0<div><br><div>Graduate Student<br><div=
+>Virginia Tech=C2=A0</div></div><div>Chemistry Department=C2=A0</div></div>=
+<div><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</=
+a></div></div></div></div><div><div>
+<br><div class=3D"gmail_quote">On Fri, May 1, 2015 at 8:44 AM, Brian Marsha=
+ll <span dir=3D"ltr">&lt;<a href=3D"mailto:mimarsh2@vt.edu" target=3D"_blan=
+k">mimarsh2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+<div dir=3D"ltr">Andrew,<div><br></div><div>My schedule changed a bit, and =
+I will also be around Torgersen from 9am - 11am</div></div><div><div><div c=
+lass=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Apr 30, 2015 at=
+ 5:29 PM, Brian Marshall <span dir=3D"ltr">&lt;<a href=3D"mailto:mimarsh2@v=
+t.edu" target=3D"_blank">mimarsh2@vt.edu</a>&gt;</span> wrote:<br><blockquo=
+te class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc so=
+lid;padding-left:1ex"><div dir=3D"ltr">Andrew,<div><br></div><div>I am head=
+ed for the door.=C2=A0 I&#39;ll be in Torgersen tomorrow afternoon.=C2=A0 S=
+hoot me an email with a meeting time.</div><div><br></div><div>Best,</div><=
+div>Brian</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quo=
+te"><div><div>On Thu, Apr 30, 2015 at 5:24 PM, Andrew James <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu=
+</a>&gt;</span> wrote:<br></div></div><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div><=
+div><div style=3D"word-wrap:break-word">Mr. Marshall,=C2=A0<div><br></div><=
+div>I have attached my CV so you can look it over.=C2=A0 I think that this =
+would be an awesome opportunity for me, but I will have to talk it over wit=
+h my PI before formally applying.=C2=A0 If you are still around and I could=
+ come by to ask some questions about the responsibilities/duties of someone=
+ in this position that would be great. =C2=A0</div><div><br></div><div>Than=
+ks,=C2=A0</div><span><font color=3D"#888888"><div>Andrew=C2=A0</div></font>=
+</span></div><br></div></div><div><div><div style=3D"word-wrap:break-word">=
+<div></div><div><div><blockquote type=3D"cite"><div>On Apr 30, 2015, at 3:0=
+1 PM, Brian Marshall &lt;<a href=3D"mailto:mimarsh2@vt.edu" target=3D"_blan=
+k">mimarsh2@vt.edu</a>&gt; wrote:</div><br><div><div dir=3D"ltr">That sound=
+s good.=C2=A0 Also feel free to stop by this afternoon or tomorrow.=C2=A0 I=
+ should be around most of the day.<div><br></div><div>Brian</div></div><div=
+ class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Apr 30, 2015 =
+at 2:41 PM, James McClure <span dir=3D"ltr">&lt;<a href=3D"mailto:mcclurej@=
+vt.edu" target=3D"_blank">mcclurej@vt.edu</a>&gt;</span> wrote:<br><blockqu=
+ote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc s=
+olid;padding-left:1ex"><div dir=3D"ltr">Hi Brian,<div><br></div><div>Andrew=
+ is a student in my class and has some questions about the ARC GRA position=
+.=C2=A0 He may send you a CV if he decides the position could work for his =
+schedule.</div><div><br>Regards,</div><div>James</div></div>
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div><br></div></div></blockquote></div=
+><br></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div></div></div></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div></div></div></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+</div></div></blockquote></div><br></div>
+
+--089e0111bd9c51b2610515cdf43e--

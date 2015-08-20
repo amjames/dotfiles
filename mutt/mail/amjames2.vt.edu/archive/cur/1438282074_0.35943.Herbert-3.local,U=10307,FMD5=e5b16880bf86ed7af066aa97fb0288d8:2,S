@@ -1,0 +1,130 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp1310016iec;
+        Mon, 8 Jun 2015 21:39:28 -0700 (PDT)
+X-Received: by 10.194.61.129 with SMTP id p1mr38825873wjr.92.1433824768530;
+        Mon, 08 Jun 2015 21:39:28 -0700 (PDT)
+Return-Path: <richardtguy84@gmail.com>
+Received: from mail-wi0-x230.google.com (mail-wi0-x230.google.com. [2a00:1450:400c:c05::230])
+        by mx.google.com with ESMTPS id uj1si8555886wjc.177.2015.06.08.21.39.27
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2015 21:39:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of richardtguy84@gmail.com designates 2a00:1450:400c:c05::230 as permitted sender) client-ip=2a00:1450:400c:c05::230;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of richardtguy84@gmail.com designates 2a00:1450:400c:c05::230 as permitted sender) smtp.mail=richardtguy84@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wi0-x230.google.com with SMTP id dq8so2071626wib.1;
+        Mon, 08 Jun 2015 21:39:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=S0hEcoi2B7Mcp0BNLvi+F0ItTlNGx8nFqKUtZzLgMWY=;
+        b=e/dF4hW+6dJ+TO0JRXA/QtujIWY3UQ1ajG0JZQqBKlmv0V+yyNSq1iA/JkYFahsHxR
+         q4IZmEQv+ILV+biBmql6rSNMwKO+xQhtXf/8MPiLGPTQFXY4uCdMAid4m+W6xheBUpln
+         3ydpKd2mXVQLuui4DlBepRa+HI7LPayAcq4KNXqBZ4Tly+sP7A74rodcnfV1keme/8Wy
+         SaU2olllZUfkOjkO9dQi91XwMi/qKs8CzezOLE9Hz0dHS+mhKlXmYn19gekjLuXtcb0z
+         yLoIrpb8IaVT3NGhoIvQNsO/Q56lspYRgmg6E64skIy7HjFVHOJqXgZ8M5X21e4zkT/+
+         UVug==
+MIME-Version: 1.0
+X-Received: by 10.180.96.167 with SMTP id dt7mr27527131wib.80.1433824766962;
+ Mon, 08 Jun 2015 21:39:26 -0700 (PDT)
+Received: by 10.194.139.225 with HTTP; Mon, 8 Jun 2015 21:39:26 -0700 (PDT)
+In-Reply-To: <CAH0V_1Yyj86NdZsEt-ib0zSs=X1jOVJCF0y=yFpJz9LNzGcbzA@mail.gmail.com>
+References: <CAH0V_1Yyj86NdZsEt-ib0zSs=X1jOVJCF0y=yFpJz9LNzGcbzA@mail.gmail.com>
+Date: Mon, 8 Jun 2015 21:39:26 -0700
+Message-ID: <CAL+5Pjwq8-8ZDS0ESSJt=SgEUGMVfzEHHRFHXUwUCquRp=EpuA@mail.gmail.com>
+Subject: Re: S2I2 Software Summer School Update
+From: Tommy Guy <richardtguy84@gmail.com>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>, Eugene DePrince <deprince@chem.fsu.edu>, 
+	Eduard Valeyev <valeev76@vt.edu>, "Robert J. Harrison" <rjharrison@gmail.com>, Daniel Chen <dcheny@gmail.com>
+Content-Type: multipart/alternative; boundary=f46d043c0700e7b30505180e57ea
+
+
+--f46d043c0700e7b30505180e57ea
+Content-Type: text/plain;
+	charset=UTF-8
+
+Hey Daniel,
+
+We'll have our own github url for SWC but we can link it from your main
+repo. Other than that, we'll be ready.
+
+TG
+
+On Mon, Jun 8, 2015 at 6:25 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Hi, all,
+>
+> We are down to just under two weeks before the start of the third annual
+> Software Summer School (SSS), so we need to be preparing our curriculum.
+> The github repo from last year's school (which I'd like to use again) is
+> here:  https://github.com/lothian/S2I2
+>
+> The schedule is pretty close to that from the past two years:
+>
+> Week 1:
+>
+> Sunday night: mixer/icebreaker reception
+> Monday & Tuesday:  Software Carpentry
+> Wednesday & 1/2 Thursday: BLAS/LAPACK, interactive debugging, example SCF
+> algorithm (TDC)
+> 1/2 Thursday & Friday: Computer architecture and algorithm optimization
+> (EFV)
+>
+> Weekend: Hiking, Saturday night party, Sunday off
+>
+> Week 2:
+>
+> Monday & Tuesday: Parallel architectures (RJH)
+> Wednesday: GPUs (AED)
+> Wednesday night: Closing get-together
+>
+> Do we need a Google Hangout before the school to get organized, or do we
+> have enough to get off the ground already?
+>
+> Best regards,
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+
+--f46d043c0700e7b30505180e57ea
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=UTF-8
+
+<div dir=3D"ltr"><div><div>Hey Daniel,<br><br></div>We&#39;ll have our own =
+github url for SWC but we can link it from your main repo. Other than that,=
+ we&#39;ll be ready.<br><br></div>TG<br></div><div class=3D"gmail_extra"><b=
+r><div class=3D"gmail_quote">On Mon, Jun 8, 2015 at 6:25 PM, T. Daniel Craw=
+ford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_bla=
+nk">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+<div dir=3D"ltr">Hi, all,<div><br></div><div>We are down to just under two =
+weeks before the start of the third annual Software Summer School (SSS), so=
+ we need to be preparing our curriculum.=C2=A0 The github repo from last ye=
+ar&#39;s school (which I&#39;d like to use again) is here: =C2=A0<a href=3D=
+"https://github.com/lothian/S2I2" target=3D"_blank">https://github.com/loth=
+ian/S2I2</a></div><div><br></div><div>The schedule is pretty close to that =
+from the past two years:</div><div><br></div><div>Week 1:=C2=A0</div><div><=
+br></div><div>Sunday night: mixer/icebreaker reception</div><div>Monday &am=
+p; Tuesday: =C2=A0Software Carpentry</div><div>Wednesday &amp; 1/2 Thursday=
+: BLAS/LAPACK, interactive debugging, example SCF algorithm (TDC)</div><div=
+>1/2 Thursday &amp; Friday: Computer architecture and algorithm optimizatio=
+n (EFV)</div><div><br></div><div>Weekend: Hiking, Saturday night party, Sun=
+day off</div><div><br></div><div>Week 2:</div><div><br></div><div>Monday &a=
+mp; Tuesday: Parallel architectures (RJH)</div><div>Wednesday: GPUs (AED)</=
+div><div>Wednesday night: Closing get-together</div><div><br></div><div>Do =
+we need a Google Hangout before the school to get organized, or do we have =
+enough to get off the ground already?</div><div><br></div><div>Best regards=
+,</div><div><br></div><div>-TDC</div><div><div><div><div dir=3D"ltr">--<div=
+>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" targe=
+t=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+
+--f46d043c0700e7b30505180e57ea--

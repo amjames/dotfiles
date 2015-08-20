@@ -1,0 +1,146 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1071577qgt;
+        Sun, 26 Jul 2015 10:31:28 -0700 (PDT)
+X-Received: by 10.140.234.142 with SMTP id f136mr35896658qhc.16.1437931888790;
+        Sun, 26 Jul 2015 10:31:28 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 68si17882398qkz.103.2015.07.26.10.31.28
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Jul 2015 10:31:28 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.175 as permitted sender) client-ip=209.85.213.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.213.175 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ig0-f175.google.com (mail-ig0-f175.google.com [209.85.213.175])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6QHVM12011202
+	for <amjames2@vt.edu>; Sun, 26 Jul 2015 13:31:28 -0400
+Received: by igr7 with SMTP id 7so46939669igr.0
+        for <amjames2@vt.edu>; Sun, 26 Jul 2015 10:31:22 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=ri78zM/gH4BkNo/A1tvbLhV+Xz4lxdWVq69QGKoBbHs=;
+        b=Nrr3NuveHBDwv0gXzmoEe9MkoSAg9Y3lP/ySmDJVViLXV3Im89dljjNMIB2tKo0+rp
+         L++1Z6eLeoPzwI253BHB/9/BAoK/dPSBHic0arUPDMjQfZ+ldzjf8WzahlKuOjE/EmpX
+         tQUs7L9XXSitKTnZO7klFN8Rszpob3wcdLlb68skM996b1fUyVwJDh+oJWv+bWh2zuLx
+         UdxZCAtYTD5OuzHtlMLWVySV1IWvMCX3vto+Lp3AY/WyNAepqefCT2MqBX0v5AvxmdP5
+         oKToYr/BVcFHVwuzKbIqfAV2kwMenOuUEQ03sSTcuV1B93RGYJANSZqbWZ7CZxI4Sl7S
+         bbOA==
+X-Gm-Message-State: ALoCoQmZvmKyryhQIgwUqw5GQCFLqfRZK94/qIZqFemVOUAlFbJFbUrloPGzUQvxcjdUlXaSqhOF14dk2kE+ql9X1nr4gvIO9UoyUK8Hat3QuYRmrJCmKw0xWe9AnmzunlNG8YvwkoZo0fDwAQoy0oC8D7N0263NnQ==
+X-Received: by 10.50.59.242 with SMTP id c18mr11329378igr.66.1437931882828;
+        Sun, 26 Jul 2015 10:31:22 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.59.242 with SMTP id c18mr11329369igr.66.1437931882715;
+ Sun, 26 Jul 2015 10:31:22 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Sun, 26 Jul 2015 10:31:22 -0700 (PDT)
+In-Reply-To: <63B7E725-00D6-4BF2-AA67-9DA54059D9D7@vt.edu>
+References: <63B7E725-00D6-4BF2-AA67-9DA54059D9D7@vt.edu>
+Date: Sun, 26 Jul 2015 13:31:22 -0400
+Message-ID: <CAH0V_1ZTnogM0fViK+YyqHCRpuYNTWuLu2dXcz4U3G8My2FF5Q@mail.gmail.com>
+Subject: Re: New Polyradicals data
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7bea423e14b446051bca9bdd
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 3106
+
+--047d7bea423e14b446051bca9bdd
+Content-Type: text/plain; charset=UTF-8
+
+AJ,
+
+I'd like to go ahead and send your data to Prof. Lischka.  However, the
+state label is wrong in the captions in your document.  Can you correct it
+to 1 ^1A_g ?  (They're both spin singlets, not doublets.)
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jul 20, 2015 at 3:44 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Dr. Crawford,
+>
+> Here are my latest results.  The directories for the new calculations if
+> you would like to look at the output are
+>
+> 4:
+> /home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1
+> 7:
+> /home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-0.7
+>
+> And for the original data:
+> 4
+> home/amjames2/polyradical/4/singlet-singlet-6-31GS-ROHF-core-nofollow
+> 7
+> /home/amjames2/polyradical/7/singlet-singlet-6-31GS-UHF-core-nofollow
+>
+> I noticed that 7 still had negative hessian eigenvalues after the
+> rotation, but since they are not in the totally symmetric irrep no
+> additional rotation is performed. Is that something to be concerned about?
+>
+>
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+>
+
+--047d7bea423e14b446051bca9bdd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">AJ,<div><br></div><div>I&#39;d like to go ahead and send y=
+our data to Prof. Lischka.=C2=A0 However, the state label is wrong in the c=
+aptions in your document.=C2=A0 Can you correct it to 1 ^1A_g ? =C2=A0(They=
+&#39;re both spin singlets, not doublets.)</div><div><br></div><div>-TDC</d=
+iv></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gm=
+ail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><=
+a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div>=
+</div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 20, 2015 at 3:44 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">D=
+ear Dr. Crawford,<br>
+<br>
+Here are my latest results.=C2=A0 The directories for the new calculations =
+if you would like to look at the output are<br>
+<br>
+4:<br>
+/home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-1<br>
+7:<br>
+/home/amjames2/polyradical/4/singlet-singlet-6-31GS-UHF-core-follow-0.7<br>
+<br>
+And for the original data:<br>
+4<br>
+home/amjames2/polyradical/4/singlet-singlet-6-31GS-ROHF-core-nofollow<br>
+7<br>
+/home/amjames2/polyradical/7/singlet-singlet-6-31GS-UHF-core-nofollow<br>
+<br>
+I noticed that 7 still had negative hessian eigenvalues after the rotation,=
+ but since they are not in the totally symmetric irrep no additional rotati=
+on is performed. Is that something to be concerned about?<br>
+<br>
+<br><br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a><br>
+<br>
+<br>
+<br></blockquote></div><br></div>
+
+--047d7bea423e14b446051bca9bdd--

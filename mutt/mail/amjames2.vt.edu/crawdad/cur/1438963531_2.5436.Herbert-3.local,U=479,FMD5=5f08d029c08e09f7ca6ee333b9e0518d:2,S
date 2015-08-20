@@ -1,0 +1,51 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.28.59.9 with SMTP id i9csp8185wma;
+        Thu, 6 Aug 2015 10:18:59 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        bh=W7f6K4a/V2339AWPBXRa4FK1RNH8Q5Z3MgaH/HzkLQ8=;
+        b=YA/aRFixYEanGZygbX0cB7H0oo3J97FJbfOAf8z65d4iLCe8CY8e2//rMbLXPWtzgo
+         WFUVvwO4XaoBO1voTwIkCGGEonNUMXZx8/gkufFT1iFpCdkbfzlnmCv6gAtVhVEI2lQq
+         UqpKTudq33KIdaAL5w2oUdrAbBhHBEy5F1lGSiR1zkFqqtNRc2k9zgoh+6TjdL3f3kN2
+         h8Igb4bD6nkT+h2tn+l9TcipFKZe+0GNf9UTU7SydxoErJ+wyHWJIOZGF90bV3c11VHD
+         idgOr+JN7vPg2bOQpK/OfMX3bHAANJwXaULxh9clZpd5OXK8uHcrfUSYoCdCs02ZVKkt
+         UYWg==
+X-Received: by 10.55.16.209 with SMTP id 78mr4889568qkq.81.1438881538245;
+        Thu, 06 Aug 2015 10:18:58 -0700 (PDT)
+Return-Path: <amjames2@vt.edu>
+Received: from localhost ([2001:468:c80:4292:9d82:1bab:bbfa:760a])
+        by smtp.gmail.com with ESMTPSA id p69sm1068727qkh.10.2015.08.06.10.18.58
+        for <crawdad@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 10:18:58 -0700 (PDT)
+Date: Thu, 6 Aug 2015 13:18:57 -0400
+From: Andrew M James <amjames2@vt.edu>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Subject: Re: UHF NOs
+Message-ID: <20150806171857.GC28128@Herbert-3.local>
+References: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+ <FB9E0FA0-59FF-44D9-8CA9-8D52404973D2@gmail.com>
+ <CAH0V_1YwTdZzfLm+C84ijGNnPKFfpqRcZV1yWzvPU5bROqJx9w@mail.gmail.com>
+ <00E49074-28CE-4284-8EE7-3BA3106D4DAB@gmail.com>
+ <CAH0V_1bU3Q+i0vc7h0uAzH7anyU0YF8B7qS5QAXnfi96eVRgpw@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <CAH0V_1bU3Q+i0vc7h0uAzH7anyU0YF8B7qS5QAXnfi96eVRgpw@mail.gmail.com>
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Content-Length: 360
+
+Dr. Crawford,
+    I stuck your compute_nos() function in the UHF class and added the
+    call to it in UHF::finalize().  It built fine and I got the same
+    Occupation numbers for the NO radical, so I am going to go ahead and
+    run this on (4) in Cs symmetry.
+
+    Did you want me to make the changed you discussed with Andy? 
+
+    Thanks! 
+    --AJ 
+
+    

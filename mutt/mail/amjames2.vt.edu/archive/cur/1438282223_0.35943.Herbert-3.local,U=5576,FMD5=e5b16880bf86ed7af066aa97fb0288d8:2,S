@@ -1,0 +1,197 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp473587ieb;
+        Tue, 31 Mar 2015 22:04:06 -0700 (PDT)
+X-Received: by 10.112.63.165 with SMTP id h5mr33370864lbs.16.1427864645678;
+        Tue, 31 Mar 2015 22:04:05 -0700 (PDT)
+Return-Path: <prvs=15330841dd=kenneth.ruud@uit.no>
+Received: from mat.uit.no (mix5.uit.no. [129.242.4.113])
+        by mx.google.com with ESMTPS id zm10si599871lbb.48.2015.03.31.22.04.04
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 31 Mar 2015 22:04:05 -0700 (PDT)
+Received-SPF: none (google.com: prvs=15330841dd=kenneth.ruud@uit.no does not designate permitted sender hosts) client-ip=129.242.4.113;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: prvs=15330841dd=kenneth.ruud@uit.no does not designate permitted sender hosts) smtp.mail=prvs=15330841dd=kenneth.ruud@uit.no
+Received: from ex07.ad.uit.no (ex07.ad.uit.no [129.242.11.135])
+	by mat.uit.no  with ESMTP id t315445L025587-t315445N025587
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA bits=256 verify=CAFAIL);
+	Wed, 1 Apr 2015 07:04:04 +0200
+Received: from ex08.ad.uit.no (129.242.11.137) by ex07.ad.uit.no
+ (129.242.11.135) with Microsoft SMTP Server (TLS) id 15.0.1076.9; Wed, 1 Apr
+ 2015 07:04:03 +0200
+Received: from ex08.ad.uit.no ([fe80::3420:ccd0:3fd8:733b]) by ex08.ad.uit.no
+ ([fe80::3420:ccd0:3fd8:733b%21]) with mapi id 15.00.1076.000; Wed, 1 Apr 2015
+ 07:03:42 +0200
+From: Ruud Kenneth <kenneth.ruud@uit.no>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+CC: Patrick Norman <panor@ifm.liu.se>,
+        Trond Saue
+	<trond.saue@irsamc.ups-tlse.fr>,
+        Andrew James <andrew.m.james2@gmail.com>
+Subject: Re: Poster sessions?
+Thread-Topic: Poster sessions?
+Thread-Index: AQHQa/t9hKKMX40S70eN6iCJ9UYCl503ePWA
+Date: Wed, 1 Apr 2015 05:03:41 +0000
+Message-ID: <C8882758-3D09-4350-8448-F66BDA4A126E@uit.no>
+References: <CAH0V_1ZvG5FKCggfAqBeQyOkofOo-NbcSp-iQSH_E8f8OQR+Pg@mail.gmail.com>
+In-Reply-To: <CAH0V_1ZvG5FKCggfAqBeQyOkofOo-NbcSp-iQSH_E8f8OQR+Pg@mail.gmail.com>
+Accept-Language: en-GB, nb-NO, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-mailer: Apple Mail (2.1283)
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [129.242.11.190]
+Content-Type: multipart/alternative;
+	boundary="_000_C88827583D0943508448F66BDA4A126Euitno_"
+MIME-Version: 1.0
+X-FEAS-SYSTEM-WL: 129.242.11.135
+
+--_000_C88827583D0943508448F66BDA4A126Euitno_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I believe we had a poster session last time, and I would be happy to organi=
+ze one as well. However, last time we had a day "off" for which the evening=
+ was used for the poster session (I believe). Perhaps we should look into t=
+he schedule with Daniel's lecture before giving a clear yes or no. I am mor=
+e hesitant about flash-poster presentations......
+
+
+Kenneth
+
+Kenneth Ruud
+Prorector of Research, UiT - The Arctic University of Norway
+Telephone: +47 77623101
+http://www.ctcc.no/people/senior-scientists/ruud/index.html
+
+On Mar 31, 2015, at 11:41 PM, T. Daniel Crawford wrote:
+
+Dear Patrick, Kenneth, and Trond,
+
+A potential student for the summer school has asked if there would be an op=
+portunity for students to give posters or short talks.  Can you give me you=
+r opinion on this before we respond?
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu<mailto:crawdad@vt.edu>
+
+
+--_000_C88827583D0943508448F66BDA4A126Euitno_
+Content-Type: text/html; charset="us-ascii"
+Content-ID: <3331E791F757234099934A77EDF96E98@asp.uit.no>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-lin=
+e-break: after-white-space; ">
+I believe we had a poster session last time, and I would be happy to organi=
+ze one as well. However, last time we had a day &quot;off&quot; for which t=
+he evening was used for the poster session (I believe). Perhaps we should l=
+ook into the schedule with Daniel's lecture
+ before giving a clear yes or no. I am more hesitant about flash-poster pre=
+sentations......
+<div><br>
+</div>
+<div><br>
+</div>
+<div>Kenneth</div>
+<div><br>
+<div apple-content-edited=3D"true"><span class=3D"Apple-style-span" style=
+=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica;=
+ font-style: normal; font-variant: normal; font-weight: normal; letter-spac=
+ing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; tex=
+t-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-s=
+pacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertica=
+l-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size=
+-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span c=
+lass=3D"Apple-style-span" style=3D"border-collapse: separate; color: rgb(0,=
+ 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; f=
+ont-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2=
+; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-s=
+pace: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spaci=
+ng: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-=
+effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0p=
+x; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; ">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line=
+-break: after-white-space; ">
+<div>Kenneth Ruud<br>
+Prorector of Research, UiT - The Arctic University of Norway<br>
+Telephone: &#43;47 77623101<br>
+<a href=3D"http://www.ctcc.no/people/senior-scientists/ruud/index.html">htt=
+p://www.ctcc.no/people/senior-scientists/ruud/index.html</a><br>
+</div>
+</div>
+</span></div>
+</span></div>
+</span></div>
+</span></span></div>
+<br>
+<div>
+<div>On Mar 31, 2015, at 11:41 PM, T. Daniel Crawford wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<blockquote type=3D"cite">
+<div dir=3D"ltr">Dear Patrick, Kenneth, and Trond,
+<div><br>
+</div>
+<div>A potential student for the summer school has asked if there would be =
+an opportunity for students to give posters or short talks.&nbsp; Can you g=
+ive me your opinion on this before we respond?</div>
+<div><br>
+</div>
+<div>-TDC<br clear=3D"all">
+<div>
+<div>
+<div dir=3D"ltr">--
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_C88827583D0943508448F66BDA4A126Euitno_--

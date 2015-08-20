@@ -1,0 +1,296 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2246351qgt;
+        Tue, 28 Apr 2015 12:20:41 -0700 (PDT)
+X-Received: by 10.229.96.199 with SMTP id i7mr14053497qcn.6.1430248841282;
+        Tue, 28 Apr 2015 12:20:41 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id j47si19149712qge.110.2015.04.28.12.20.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 12:20:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) client-ip=209.85.213.182;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SJKZ8Z030774
+	for <amjames2@vt.edu>; Tue, 28 Apr 2015 15:20:40 -0400
+Received: by igblo3 with SMTP id lo3so98648135igb.1
+        for <amjames2@vt.edu>; Tue, 28 Apr 2015 12:20:34 -0700 (PDT)
+X-Received: by 10.50.110.104 with SMTP id hz8mr22448541igb.38.1430248834158;
+        Tue, 28 Apr 2015 12:20:34 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.162 with SMTP id lt2csp2107076ieb;
+        Tue, 28 Apr 2015 12:20:33 -0700 (PDT)
+X-Received: by 10.140.22.147 with SMTP id 19mr13257348qgn.52.1430248831941;
+        Tue, 28 Apr 2015 12:20:31 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id i60si19185657qgf.41.2015.04.28.12.20.31
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 12:20:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:232:8670:19fe])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SJKVLk020299
+	for <andrew.m.james2@gmail.com>; Tue, 28 Apr 2015 15:20:31 -0400
+Received: from mail-ig0-f177.google.com (mail-ig0-f177.google.com [209.85.213.177])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3SJKPth024692
+	for <andrew.m.james2@gmail.com>; Tue, 28 Apr 2015 15:20:30 -0400
+Received: by igblo3 with SMTP id lo3so98644781igb.1
+        for <andrew.m.james2@gmail.com>; Tue, 28 Apr 2015 12:20:24 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=tCinO7EOAEOAJrhDNbWpKF8SdvM1YVBh2MCZ4LcgXTI=;
+        b=Nn5UDk3Bq3BunV0Pdw01dF9EYitkCJwSlNm3jg9UK42FGX3hXDpPhoJg1etqg9Qyty
+         awNpO5MV1FJze3wVejGztNHeZIdLwKzjDMmu/vVE3RSKfNv6T7ULBEw1WkkV/glJdq24
+         adDAAiXVN5If3yaAj61yam581uNGh7lqJhF4RB9ZKgCk3fiS43dnX3oRX1sYxDEORC48
+         pNICWlnlZaSchT7ocALF0VFo0FcI47vVBf/s+benrWuqitVwCUWRv1nwV0Bhg4OZ0Byh
+         SHLEeC86eRKe4A9ypDO+4nppvfhY04YuScIuoBdNQ3BuS9XXfxWjyl1Ni4qIxeCGs5rM
+         chPQ==
+X-Gm-Message-State: ALoCoQmmIyw7Yky30aK6AR6T/hql3vtzsm1RdCAVyvgLIO8yVa6x8BFJibbQpVcBX31oQq1rKAtfsL+5H77/xo9OtqZCpzZYzPzwXXyZLDI1AbQqDR5u5DOkiV9s/npIoS9LA8p1XgFeWtOLAZqEO3jtMOBqc8GfjA==
+X-Received: by 10.107.135.216 with SMTP id r85mr19645430ioi.84.1430248824551;
+        Tue, 28 Apr 2015 12:20:24 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.135.216 with SMTP id r85mr19645408ioi.84.1430248824376;
+ Tue, 28 Apr 2015 12:20:24 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Tue, 28 Apr 2015 12:20:24 -0700 (PDT)
+In-Reply-To: <0CDA4829-117F-47CF-88E8-880BF7154539@gmail.com>
+References: <1A17BBBC-CAA5-4C0A-A8B1-E2DED81CBDB2@vt.edu>
+	<d98af91029b84b2ea7f1f137242a1788@GUTENBERG.cc.w2k.vt.edu>
+	<CAH0V_1YkRLf78fuNMrqWO=B5B7eLNxh++Ja+_TS4iOtjT+4Hng@mail.gmail.com>
+	<CF0269BB-0B49-4ABE-8D0D-1B795EBD4DB0@gmail.com>
+	<CAH0V_1ZzvTcAFsL3Wq0oJSS=JJXNgJW6RgukkxHOkLuUbTN2vw@mail.gmail.com>
+	<0CDA4829-117F-47CF-88E8-880BF7154539@gmail.com>
+Date: Tue, 28 Apr 2015 15:20:24 -0400
+Message-ID: <CAH0V_1YzSjFxaDUZMCsi6quM6R8aaWfsuSmEMz9fyS2iH6ZG_Q@mail.gmail.com>
+Subject: Re: Summer Schools: registration update and deadline extension
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113fc1ec1e200d0514cdc185
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113fc1ec1e200d0514cdc185
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks, AJ!
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Apr 28, 2015 at 1:39 PM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Both of the websites have been updated, and there is a total of 24
+> applicants for the SSS.
+>
+> =E2=80=94AJ
+>
+> On Apr 28, 2015, at 1:09 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Yes, carefully remove any invalid entries.  Thanks!
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Tue, Apr 28, 2015 at 1:05 PM, Andrew James <andrew.m.james2@gmail.com>
+> wrote:
+>
+>> Hi,
+>> I will update the websites now, and get back to you with a number for th=
+e
+>> SSS. There is a lot of blank responses in that list so I need to open ea=
+ch
+>> to see if it is filled out. Would you mind If I cleaned it up a little
+>> (i.e. delete the empty surveys).
+>>
+>> Thanks,
+>> =E2=80=94AJ
+>>
+>> On Apr 28, 2015, at 11:44 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> This makes me feel slightly better about our MRPSS enrollment, though I
+>> should send an email out tomorrow indicating the extension in the
+>> deadline.  Also, AJ, please update the websites for both schools to
+>> indicate the new deadline.  Let me know the number of applicants for the
+>> SSS when you get a chance.
+>>
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> ---------- Forwarded message ----------
+>> From: Brow, Jessica <jbrow@exchange.vt.edu>
+>> Date: Tue, Apr 28, 2015 at 11:34 AM
+>> Subject: RE: Summer Schools: registration update and deadline extension
+>> To: "James, Andrew" <amjames2@vt.edu>
+>> Cc: "Good, Laurie" <laurieg@vt.edu>, "Crawford, Daniel" <crawdad@vt.edu>
+>>
+>>
+>> Hi Andrew,
+>>
+>> 1) I have attached the registration list for Property.  It does not
+>> include Matthew Barclay and Eric Kallman who are registered but have not
+>> paid.  They will need to call a registrar here at CPE to pay (they can d=
+o
+>> that at 540-231-5182)
+>> 2) I have changed the online deadline to May 31.  It may take a day or
+>> two to get the registration page and pdf updated, as I don't have access=
+ to
+>> those directly.
+>> 3) You had access to the Software Summer School with a different email
+>> address, but I have given it to you with this address now, too.  You sho=
+uld
+>> be receiving an email shortly that should have a link to the survey.
+>> Incidentally, there has been quite a tick up in the applicants in the pa=
+st
+>> week, which is definitely a good thing.
+>>
+>> Let me know if you need anything else!
+>>
+>> Jessica
+>>
+>>
+>>
+>> -----Original Message-----
+>> From: Andrew James [mailto:amjames2@vt.edu]
+>> Sent: Tuesday, April 28, 2015 10:23 AM
+>> To: Brow, Jessica
+>> Cc: Good, Laurie; Crawford, Daniel
+>> Subject: Summer Schools: registration update and deadline extension
+>>
+>> Hello Jessica,
+>>
+>> I have a few questions about the two schools this summer.
+>>
+>> 1) Could you let me know how many folks are registered for each program?
+>> 2) We would like to push the deadline back to May 31st ASAP, so that no
+>> one will be locked out of registering.
+>> 3) Could you give me access to the application survey for the Software
+>> Summer School?
+>>
+>> Thanks,
+>> Andrew
+>>
+>> <Property Summer School Participants 4-28.pdf>
+>>
+>>
+>>
+>
+>
+
+--001a113fc1ec1e200d0514cdc185
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks, AJ!</div><div class=3D"gmail_extra"><br clear=3D"a=
+ll"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Da=
+niel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank"=
+>crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Apr 28, 2015 at 1:39 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Both of the websites=
+ have been updated, and there is a total of 24 applicants for the SSS. =C2=
+=A0<span class=3D"HOEnZb"><font color=3D"#888888"><div><br></div></font></s=
+pan><div><span class=3D"HOEnZb"><font color=3D"#888888">=E2=80=94AJ</font><=
+/span><div><div class=3D"h5"><br><div><blockquote type=3D"cite"><div>On Apr=
+ 28, 2015, at 1:09 PM, T. Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.=
+edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br><div><div dir=
+=3D"ltr">Yes, carefully remove any invalid entries.=C2=A0 Thanks!</div><div=
+ class=3D"gmail_extra"><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>=
+Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Apr 28, 2015 at 1:05 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word"><div>Hi,=C2=A0</div>=
+<div>I will update the websites now, and get back to you with a number for =
+the SSS. There is a lot of blank responses in that list so I need to open e=
+ach to see if it is filled out. Would you mind If I cleaned it up a little =
+(i.e. delete the empty surveys). =C2=A0</div><div><br></div><div>Thanks,=C2=
+=A0</div><div>=E2=80=94AJ</div><div><br></div><div><blockquote type=3D"cite=
+"><div><div><div>On Apr 28, 2015, at 11:44 AM, T. Daniel Crawford &lt;<a hr=
+ef=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote=
+:</div><br></div></div><div><div><div><div dir=3D"ltr">This makes me feel s=
+lightly better about our MRPSS enrollment, though I should send an email ou=
+t tomorrow indicating the extension in the deadline.=C2=A0 Also, AJ, please=
+ update the websites for both schools to indicate the new deadline.=C2=A0 L=
+et me know the number of applicants for the SSS when you get a chance.<div>=
+<br></div><div>-TDC<br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof=
+. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"=
+_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">Brow, Jessica</b> <span dir=3D"ltr">&lt;=
+<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@exchange.v=
+t.edu</a>&gt;</span><br>Date: Tue, Apr 28, 2015 at 11:34 AM<br>Subject: RE:=
+ Summer Schools: registration update and deadline extension<br>To: &quot;Ja=
+mes, Andrew&quot; &lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">=
+amjames2@vt.edu</a>&gt;<br>Cc: &quot;Good, Laurie&quot; &lt;<a href=3D"mail=
+to:laurieg@vt.edu" target=3D"_blank">laurieg@vt.edu</a>&gt;, &quot;Crawford=
+, Daniel&quot; &lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">craw=
+dad@vt.edu</a>&gt;<br><br><br>Hi Andrew,<br>
+<br>
+1) I have attached the registration list for Property.=C2=A0 It does not in=
+clude Matthew Barclay and Eric Kallman who are registered but have not paid=
+.=C2=A0 They will need to call a registrar here at CPE to pay (they can do =
+that at <a href=3D"tel:540-231-5182" value=3D"+15402315182" target=3D"_blan=
+k">540-231-5182</a>)<br>
+2) I have changed the online deadline to May 31.=C2=A0 It may take a day or=
+ two to get the registration page and pdf updated, as I don&#39;t have acce=
+ss to those directly.<br>
+3) You had access to the Software Summer School with a different email addr=
+ess, but I have given it to you with this address now, too.=C2=A0 You shoul=
+d be receiving an email shortly that should have a link to the survey.=C2=
+=A0 Incidentally, there has been quite a tick up in the applicants in the p=
+ast week, which is definitely a good thing.<br>
+<br>
+Let me know if you need anything else!<br>
+<span><font color=3D"#888888"><br>
+Jessica<br>
+</font></span><div><div><br>
+<br>
+<br>
+-----Original Message-----<br>
+From: Andrew James [mailto:<a href=3D"mailto:amjames2@vt.edu" target=3D"_bl=
+ank">amjames2@vt.edu</a>]<br>
+Sent: Tuesday, April 28, 2015 10:23 AM<br>
+To: Brow, Jessica<br>
+Cc: Good, Laurie; Crawford, Daniel<br>
+Subject: Summer Schools: registration update and deadline extension<br>
+<br>
+Hello Jessica,<br>
+<br>
+I have a few questions about the two schools this summer.<br>
+<br>
+1) Could you let me know how many folks are registered for each program?<br=
+>
+2) We would like to push the deadline back to May 31st ASAP, so that no one=
+ will be locked out of registering.<br>
+3) Could you give me access to the application survey for the Software Summ=
+er School?<br>
+<br>
+Thanks,<br>
+Andrew<br>
+</div></div></div><br></div></div>
+</div></div><span>&lt;Property Summer School Participants 4-28.pdf&gt;</spa=
+n></div></blockquote></div><br></div></blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a113fc1ec1e200d0514cdc185--

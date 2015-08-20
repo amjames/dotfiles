@@ -1,0 +1,303 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1033535qgt;
+        Thu, 6 Aug 2015 08:47:13 -0700 (PDT)
+X-Received: by 10.140.131.9 with SMTP id 9mr4521774qhd.44.1438876033841;
+        Thu, 06 Aug 2015 08:47:13 -0700 (PDT)
+Return-Path: <bounce-md_30691229.55c3817b.v1-14a3eaf1a6ac4e1b8eb8fc2e2260dc57@mandrillapp.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 35si12425990qkw.127.2015.08.06.08.47.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 08:47:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-md_30691229.55c3817b.v1-14a3eaf1a6ac4e1b8eb8fc2e2260dc57@mandrillapp.com designates 198.2.136.5 as permitted sender) client-ip=198.2.136.5;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-md_30691229.55c3817b.v1-14a3eaf1a6ac4e1b8eb8fc2e2260dc57@mandrillapp.com designates 198.2.136.5 as permitted sender) smtp.mail=bounce-md_30691229.55c3817b.v1-14a3eaf1a6ac4e1b8eb8fc2e2260dc57@mandrillapp.com;
+       dkim=pass header.i=@mail136-5.atl41.mandrillapp.com;
+       dkim=pass header.i=@mandrillapp.com
+Received: from mail136-5.atl41.mandrillapp.com (mail136-5.atl41.mandrillapp.com [198.2.136.5])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t76Fl7Q9022488
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 11:47:12 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=mail136-5.atl41.mandrillapp.com;
+ h=From:Sender:Subject:Reply-To:Message-Id:To:Date:MIME-Version:Content-Type; i=noreply@mail136-5.atl41.mandrillapp.com;
+ bh=aoWTAoARmMxDDEiDObqQEEbpLoI=;
+ b=mhc2zhdF3SQNnrFCVBOqg63VTCWB31L7F1zq1qHE++pxaA8ch/4RUnoohtcoGS3vBLZqslP7pCgf
+   l9Yrq+d7tHUgqE3iue45I11MYlqipXCrz9NDXhHshtB+yoQuXv66lkCVE/7OygrqESK1yzsxw8VQ
+   GQUszzMSvcHUB4EPA4Q=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=mail136-5.atl41.mandrillapp.com;
+ b=YB3XhH4yoUe1HX2lxpZuGk1a5cvHpsrls0mrAN3TO7mbkRqpSBSetkHJaKAyL+1LNKBV0u2yD7k/
+   H9IvmRjEKlTQ4i9AMXaPN/IChpL7qw5EWoZziRic9juTDTzntix5gWZnI0/nUixllrk2cw0G5l7J
+   FiE7dzrnfLwlRZno9jI=;
+Received: from pmta04.mandrill.prod.atl01.rsglab.com (127.0.0.1) by mail136-5.atl41.mandrillapp.com id hoe0o01sb1ks for <amjames2@vt.edu>; Thu, 6 Aug 2015 15:47:07 +0000 (envelope-from <bounce-md_30691229.55c3817b.v1-14a3eaf1a6ac4e1b8eb8fc2e2260dc57@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1438876027; h=From : 
+ Sender : Subject : Reply-To : Message-Id : To : Date : MIME-Version : 
+ Content-Type : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=JQmzUwvSrhWvgE1hb12EO/SR7Vnus1ILvjNw9tBYsr4=; 
+ b=nzP2HzWOk5oZT5qyODE+KM2EAkYTYR67gejKKrwhU95XPhXceaCrbLzZ/k2V+Hw359KPU3
+ VbPM0fzx7MsPMkjWH7cmWXXFnR6UULeTL06htYWSLc9R3c0Dhn6r70zRc0/RExM6FPX/Qh+A
+ 1pSuCqRzWJG1DGW4UFM3PgQMwTIok=
+From: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@forum.psicode.org>
+Sender: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@mail136-5.atl41.mandrillapp.com>
+Subject: =?utf-8?Q?[Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry]=20Digest?=
+Received: from [45.55.166.255] by mandrillapp.com id 14a3eaf1a6ac4e1b8eb8fc2e2260dc57; Thu, 06 Aug 2015 15:47:07 +0000
+Reply-To: =?utf-8?Q?Psi4=20=E2=80=93=20Open-Source=20Quantum=20Chemistry=20digest?= <noreply@forum.psicode.org>
+Message-Id: <02d64366-564a-4e78-9918-a3deabeb08d0@forum.psicode.org>
+Auto-Submitted: auto-generated
+To: <amjames2@vt.edu>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30691229.14a3eaf1a6ac4e1b8eb8fc2e2260dc57
+X-Mandrill-User: md_30691229
+Date: Thu, 06 Aug 2015 15:47:07 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-8o9uDszqRMwbPHOJlzg5jQ"
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE,RP_MATCHES_RCVD,
+	T_KAM_HTML_FONT_INVALID autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_av-8o9uDszqRMwbPHOJlzg5jQ
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+A brief summary of [Psi4 =E2=80=93 Open-Source Quantum Chemistry][1] since =
+your last visit on 07-30-2015
+
+### Popular posts
+
+[C++11: Is it time?][2]
+
+ This keeps coming up and is in my opinion the current "elephant in the roo=
+m"; are we requiring C++11 now?  I figured I'd open a topic here so the iss=
+ue doesn't get lost in GitHub issues... 
+
+Best I can tell, this limits us to the following compilers: 
+
+
+Intel15 for full compliance (or Intel13 for about 90% compliance). 
+GCC 4.8 for full compliance. GCC 4.4 gives us about 90%
+Clang 3.3 for full compliance. Clang 2.9 is 90% There is a caveat of them n=
+ot having to provide support for two features on their site...  
+
+
+
+As a slight aside, there also seem to be issues discovered by @loriab and @=
+jturney  suggesting that GCC 5+ breaks boost so we can't go too new.  Did I=
+ get that correct? 
+
+The newness of the compilers is my main concern.  Stampede just updated to =
+Intel 15 relatively recently, and still hasn't recompiled all of their modu=
+les with it.  So full support of C++11 would break our compatibility with a=
+t least that supercomputer.  I anticipate that most supercomputers are on a=
+ similar...
+---------------------------------------------------------------------------=
+-----
+
+
+[Restarting a frequency calculation][3]
+
+ Is there a possibility of restarting an interrupted frequency calculation?=
+  Is it possible to utilise the previously calculated points in a finite di=
+fference hessian calculation (using  file 32 perhaps) ? 
+
+Fred Bennett
+---------------------------------------------------------------------------=
+-----
+
+
+[Conda psi4 bad shared object names][4]
+
+ Sometimes psi4 (installed from conda) looks for .so's named differently th=
+an what exists on the machine: 
+
+psi4: error while loading shared libraries: libhdf5.so.10: cannot open shar=
+ed object file: No such file or directory 
+
+I can fix this with a symbolic link, but that is annoying, and I don't know=
+ enough to know if this will ever cause problems.  Any ideas?
+---------------------------------------------------------------------------=
+-----
+
+
+
+
+
+
+[1]: http://forum.psicode.org/
+[2]: http://forum.psicode.org/t/c-11-is-it-time/43
+[3]: http://forum.psicode.org/t/restarting-a-frequency-calculation/48
+[4]: http://forum.psicode.org/t/conda-psi4-bad-shared-object-names/42
+
+
+This digest is sent from [Psi4 =E2=80=93 Open-Source Quantum Chemistry][1] =
+when we haven't seen you in a while. To unsubscribe [click here][5].
+
+[5]: http://forum.psicode.org/email/unsubscribe/d47f1ef0d01aaec7272eeb56537=
+634d6d79157a8beb2b401ee80017d03ab55d6
+
+
+
+
+--_av-8o9uDszqRMwbPHOJlzg5jQ
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table style=3D"border: 20px solid #eee;" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tr>
+  <td style=3D"padding: 10px 10px; background-color: #4B6BA9;">
+    <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psicode.or=
+g?p=3DeyJzIjoieWV5MzRNYVlpajE2VEZITnJnNnk2bWxSVXlFIiwidiI6MSwicCI6IntcInVcI=
+jozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY29kZS5v=
+cmdcIixcImlkXCI6XCIxNGEzZWFmMWE2YWM0ZTFiOGViOGZjMmUyMjYwZGM1N1wiLFwidXJsX2l=
+kc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWVmYWY3Njc0YzBcIl19In0" s=
+tyle=3D"text-decoration: none; font-weight: bold; color: #006699;">
+      <img src=3D"http://forum.psicode.org/uploads/default/original/1X/e05a=
+51e34886e7798e4276539293318dccca6c9f.png" style=3D"max-height: 35px; min-he=
+ight: 35px; height: 35px;"></a>
+  </td>
+</tr>
+<tr>
+  <td style=3D"background-color: #fff; padding: 10px 10px; font-family: Ari=
+al, Helvetica, sans-serif; font-size: 14px;">
+    A brief summary of <a href=3D"http://mandrillapp.com/track/click/306912=
+29/forum.psicode.org?p=3DeyJzIjoieWV5MzRNYVlpajE2VEZITnJnNnk2bWxSVXlFIiwidi=
+I6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZ=
+m9ydW0ucHNpY29kZS5vcmdcIixcImlkXCI6XCIxNGEzZWFmMWE2YWM0ZTFiOGViOGZjMmUyMjYw=
+ZGM1N1wiLFwidXJsX2lkc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWVmYWY=
+3Njc0YzBcIl19In0" style=3D"text-decoration: none; font-weight: bold; color:=
+ #006699;">Psi4 =E2=80=93 Open-Source Quantum Chemistry</a> since your last=
+ visit on 07-30-2015
+
+      <hr style=3D"background-color: #ddd; height: 1px; border: 1px;">
+      <h3 style=3D"margin: 15px 0 20px 0;">Popular posts</h3>
+
+
+        <div>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoiOW9MV3F6RDdEZ0E2MnNfX2hKUXVrN1lvTFNRIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvdFxcXC9jLTExLWlzLWl0LXRpbWVcXFwvNDNcIixcImlkXCI6XCIxNGEzZWFmM=
+WE2YWM0ZTFiOGViOGZjMmUyMjYwZGM1N1wiLFwidXJsX2lkc1wiOltcImM2YWYwNjYwOWQ3MjE0=
+YmQ1NTEzODYyNWE4NTIyMjQ3MWFhNGYyM2FcIl19In0" style=3D"text-decoration: none=
+; font-weight: bold; color: #006699; line-height:1.5em;; text-decoration: n=
+one; font-weight: bold; color: #006699;">C++11: Is it time?</a>
+          <br>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoibzNoVmtldEhneHMzZmpISHZKaFRXOG5XWlJRIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvY1xcXC9mdXR1cmUtZGlyZWN0aW9uXCIsXCJpZFwiOlwiMTRhM2VhZjFhNmFjN=
+GUxYjhlYjhmYzJlMjI2MGRjNTdcIixcInVybF9pZHNcIjpbXCI3OWRlNDhmY2FmZmIwZTBhYzcz=
+ZjZkZTk2YzdkYjc1OTNjMjRhMDNlXCJdfSJ9" style=3D"text-decoration: none; font-=
+weight: bold; color: #006699; line-height:1.5em;; text-decoration: none; fo=
+nt-weight: bold; color: #006699;; font-size: 0.857em; white-space: nowrap; =
+display: inline-block; position: relative; line-height: 1; margin-right: 10=
+px;"><span style=3D"background-color: #25AAE2;display: inline-block; width:=
+ 10px; height: 10px;">=C2=A0</span><span style=3D"color: #FFFFFF;color: #22=
+2222 !important; vertical-align: text-top; line-height: 1; margin-left: 4px=
+; padding-left: 2px; display: inline;max-width: 150px; overflow: hidden; te=
+xt-overflow: ellipsis;" data-drop-close=3D"true">future-direction</span></a=
+>
+        </div>
+
+          <div style=3D"margin-left: 15px; margin-top: -5px; max-width: 694=
+px;">
+            <p>This keeps coming up and is in my opinion the current "eleph=
+ant in the room"; are we requiring C++11 now?  I figured I'd open a topic h=
+ere so the issue doesn't get lost in GitHub issues...</p>
+          </div>
+
+        
+
+        <div>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoiNGZfVEJBem1iRjNuWFJlMzZZVkg5WW83WWVRIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvdFxcXC9yZXN0YXJ0aW5nLWEtZnJlcXVlbmN5LWNhbGN1bGF0aW9uXFxcLzQ4X=
+CIsXCJpZFwiOlwiMTRhM2VhZjFhNmFjNGUxYjhlYjhmYzJlMjI2MGRjNTdcIixcInVybF9pZHNc=
+IjpbXCI2MDg4NDBiY2U5YzYwMjYwYjZlNjZiZGIzNmFkNDlhYjVmMGQ5ODkxXCJdfSJ9" style=
+=3D"text-decoration: none; font-weight: bold; color: #006699; line-height:1=
+.5em;; text-decoration: none; font-weight: bold; color: #006699;">Restartin=
+g a frequency calculation</a>
+          <br>
+          
+        </div>
+
+          <div style=3D"margin-left: 15px; margin-top: -5px; max-width: 694=
+px;">
+            <p>Is there a possibility of restarting an interrupted frequenc=
+y calculation?  Is it possible to utilise the previously calculated points =
+in a finite difference hessian calculation (using  file 32 perhaps) ?</p>
+          </div>
+
+        
+
+        <div>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoieXh5N283X2gzRDFVX3gzVTlmYVBuN0JwUVRJIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvdFxcXC9jb25kYS1wc2k0LWJhZC1zaGFyZWQtb2JqZWN0LW5hbWVzXFxcLzQyX=
+CIsXCJpZFwiOlwiMTRhM2VhZjFhNmFjNGUxYjhlYjhmYzJlMjI2MGRjNTdcIixcInVybF9pZHNc=
+IjpbXCI2MzcxNjY5OWNmM2FlNmU1ZDIyOTY1YTIwZjE2OTIxNDUxYTU5OWY1XCJdfSJ9" style=
+=3D"text-decoration: none; font-weight: bold; color: #006699; line-height:1=
+.5em;; text-decoration: none; font-weight: bold; color: #006699;">Conda psi=
+4 bad shared object names</a>
+          <br>
+          <a href=3D"http://mandrillapp.com/track/click/30691229/forum.psic=
+ode.org?p=3DeyJzIjoiNkN4R0JWQWRmWUVEbTk3ejZOVmY5c2Zsd2hrIiwidiI6MSwicCI6Int=
+cInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvZm9ydW0ucHNpY2=
+9kZS5vcmdcXFwvY1xcXC9idWlsZFwiLFwiaWRcIjpcIjE0YTNlYWYxYTZhYzRlMWI4ZWI4ZmMyZ=
+TIyNjBkYzU3XCIsXCJ1cmxfaWRzXCI6W1wiMjRhNGNkOTk4ZjcwOGNjMDMyYjdkMzZiYTcxZTUx=
+MWU0ZDVjMWI5OFwiXX0ifQ" style=3D"text-decoration: none; font-weight: bold; =
+color: #006699; line-height:1.5em;; text-decoration: none; font-weight: bol=
+d; color: #006699;; font-size: 0.857em; white-space: nowrap; display: inlin=
+e-block; position: relative; line-height: 1; margin-right: 10px;"><span sty=
+le=3D"background-color: #F1592A;display: inline-block; width: 10px; height:=
+ 10px;">=C2=A0</span><span style=3D"color: #FFFFFF;color: #222222 !importan=
+t; vertical-align: text-top; line-height: 1; margin-left: 4px; padding-left=
+: 2px; display: inline;max-width: 150px; overflow: hidden; text-overflow: e=
+llipsis;" data-drop-close=3D"true">build</span></a>
+        </div>
+
+          <div style=3D"margin-left: 15px; margin-top: -5px; max-width: 694=
+px;">
+            <p>Sometimes psi4 (installed from conda) looks for .so's named =
+differently than what exists on the machine:</p>
+          </div>
+
+        
+
+
+
+  </td>
+</tr>
+</table>
+
+<div style=3D"color:#666; font-size:95%; text-align:center; padding-top:15p=
+x;">
+  This digest is sent from <a href=3D"http://mandrillapp.com/track/click/30=
+691229/forum.psicode.org?p=3DeyJzIjoieWV5MzRNYVlpajE2VEZITnJnNnk2bWxSVXlFIi=
+widiI6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cX=
+FwvZm9ydW0ucHNpY29kZS5vcmdcIixcImlkXCI6XCIxNGEzZWFmMWE2YWM0ZTFiOGViOGZjMmUy=
+MjYwZGM1N1wiLFwidXJsX2lkc1wiOltcIjFhZWMzNDVmYWUzMDYyMDlmMmRhMGJlMmI1Zjc1NWV=
+mYWY3Njc0YzBcIl19In0" style=3D"text-decoration: none; font-weight: bold; co=
+lor: #006699;">Psi4 =E2=80=93 Open-Source Quantum Chemistry</a> when we hav=
+en't seen you in a while. To unsubscribe <a href=3D"http://mandrillapp.com/=
+track/click/30691229/forum.psicode.org?p=3DeyJzIjoieHpTcndKeW90MXBpLWdTYWx5=
+dXFydUVyV0Y0IiwidiI6MSwicCI6IntcInVcIjozMDY5MTIyOSxcInZcIjoxLFwidXJsXCI6XCJ=
+odHRwOlxcXC9cXFwvZm9ydW0ucHNpY29kZS5vcmdcXFwvZW1haWxcXFwvdW5zdWJzY3JpYmVcXF=
+wvZDQ3ZjFlZjBkMDFhYWVjNzI3MmVlYjU2NTM3NjM0ZDZkNzkxNTdhOGJlYjJiNDAxZWU4MDAxN=
+2QwM2FiNTVkNlwiLFwiaWRcIjpcIjE0YTNlYWYxYTZhYzRlMWI4ZWI4ZmMyZTIyNjBkYzU3XCIs=
+XCJ1cmxfaWRzXCI6W1wiNzFlYjhlZDU5Y2UwZjc5NjQ2MTg5NjQ4ODk1MjhkZjFiZWQ2ZjExZFw=
+iXX0ifQ" style=3D"text-decoration: none; font-weight: bold; color: #006699;=
+">click here</a>.
+</div>
+
+<img src=3D"http://mandrillapp.com/track/open.php?u=3D30691229&id=3D14a3eaf=
+1a6ac4e1b8eb8fc2e2260dc57" height=3D"1" width=3D"1">
+
+--_av-8o9uDszqRMwbPHOJlzg5jQ--
+

@@ -1,0 +1,754 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp664624qgt;
+        Thu, 2 Jul 2015 11:39:45 -0700 (PDT)
+X-Received: by 10.55.26.133 with SMTP id l5mr66241085qkh.40.1435862385788;
+        Thu, 02 Jul 2015 11:39:45 -0700 (PDT)
+Return-Path: <mmikayla@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id i77si7316944qkh.107.2015.07.02.11.39.45
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Jul 2015 11:39:45 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning mmikayla@vt.edu does not designate 209.85.217.177 as permitted sender) client-ip=209.85.217.177;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning mmikayla@vt.edu does not designate 209.85.217.177 as permitted sender) smtp.mail=mmikayla@vt.edu
+Received: from mail-lb0-f177.google.com (mail-lb0-f177.google.com [209.85.217.177])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t62IddMN012048
+	for <amjames2@vt.edu>; Thu, 2 Jul 2015 14:39:44 -0400
+Received: by lbcpe5 with SMTP id pe5so37257314lbc.2
+        for <amjames2@vt.edu>; Thu, 02 Jul 2015 11:39:39 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=E8IDTISZ1K/m/UINuvszQWCPXG0qJ20X7LlsLMbBXZU=;
+        b=lUR0tR4sc9w3/Z5sDV7c30epqR8YSv7jx3x9kJuif+uMK/MHuqLgHI7GqdZ7Q6DL+O
+         oBms21aQ7NGq4vWWvrLd12hdpoX6whiN6kOXwbPcBwHphrYMAvk/1ZAIJPt9D7HZ1oWG
+         OFRV81GEye+q5KBwZJUdbSUa7aw7aLf7V5rcCl5JwPadrjaPrvrEa2FW6ti4JIIemlZU
+         yyMnPZuFq6BOjvHuS5THKHE7wvfK2YfI2FNEU7olY3KkQnRVxiK1bmGA1L32p1tc2mEG
+         Fc2Ua8FJ7aWJ9apdTMgaQJTnYiqlcdu8DNZFpLSZzaCCdp/eni0P0vhHg73IOHkwo9Bp
+         S+Rg==
+X-Gm-Message-State: ALoCoQnCLQLDP7EjOsElvMKV8cJ8AUq5caTsPkhPkcbhOCfv3JkaRktEUqoSJl7PhQJzmUnZLCgio/G+PYIJvr3UOfO2hOuBPtEqRlJMZLMQLN7ySe6vfBGMuxFV+OpWpwYtS08LjjRpdT+hDCBTV7iBtZKOWM0stA==
+X-Received: by 10.152.22.129 with SMTP id d1mr32248639laf.13.1435862379008;
+        Thu, 02 Jul 2015 11:39:39 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.22.129 with SMTP id d1mr32248626laf.13.1435862378893;
+ Thu, 02 Jul 2015 11:39:38 -0700 (PDT)
+Received: by 10.152.105.76 with HTTP; Thu, 2 Jul 2015 11:39:38 -0700 (PDT)
+In-Reply-To: <b508a2ec8aef4ddfb0153d8ab69a5c10@GUTENBERG.cc.w2k.vt.edu>
+References: <7B965447-00A9-438D-B121-2AF380318BC6@vt.edu>
+	<a00ac984dc8243cab843f63d4e5ffb79@GUTENBERG.cc.w2k.vt.edu>
+	<CAGBC_PmLZtgOBu1iF79nQcdM4FSTg6qYWGRXUNuvRDgvgyb=gQ@mail.gmail.com>
+	<8504BE89-1948-40A7-B5B6-E0DE8A517724@vt.edu>
+	<CAGBC_Pn-n2S8tOz65QDapfxQpXytR0VtqkwdGLzyBMew2O4kbA@mail.gmail.com>
+	<C0BC063A-BF53-4084-9800-2DCFDC3E3C7E@vt.edu>
+	<CAGBC_Pnv4mzMtpXUnE_kE3juPEy6m+XgGRSXJxdq84hGXMu2ww@mail.gmail.com>
+	<CAH0V_1ab2TTBhDEjqpBwh19=un13bVN82KHjr+94swOHs1sh2w@mail.gmail.com>
+	<CAGBC_Pn-W261EmgHUWdbkTQ2+8TV8+XCMMt7ROdV3Q6gEoykTA@mail.gmail.com>
+	<b508a2ec8aef4ddfb0153d8ab69a5c10@GUTENBERG.cc.w2k.vt.edu>
+Date: Thu, 2 Jul 2015 14:39:38 -0400
+Message-ID: <CAGBC_Pn88P15PN5jAWDBEthw9+6ee=zUMn_NJTmZUvfycs9YWg@mail.gmail.com>
+Subject: Re: Dining Hall Issues
+From: Mikayla Meyer <mmikayla@vt.edu>
+To: "Brow, Jessica" <jbrow@exchange.vt.edu>
+Cc: "Crawford, Daniel" <crawdad@vt.edu>, "James, Andrew" <amjames2@vt.edu>,
+        "Good, Laurie" <laurieg@vt.edu>, "Amos, Johni" <amosj@exchange.vt.edu>
+Content-Type: multipart/alternative; boundary=089e0158ab6a0a60620519e8c356
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0158ab6a0a60620519e8c356
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+The Property Summer School (Chemistry) cards have been fixed for more meals
+and access to East AJ. Please make sure the students have the correct
+access cards. Thanks!
+Mikayla
+
+*Mikayla Meyer*
+Virginia Tech, Class of 2016
+Political Science
+Student Government Senate
+Gamma Phi Beta
+mmikayla@vt.edu
+
+On Thu, Jul 2, 2015 at 10:14 AM, Brow, Jessica <jbrow@exchange.vt.edu>
+wrote:
+
+>  Thank you, Mikayla!  Sorry about the mix-up.  This was a
+> misunderstanding on my part about when the group would be leaving.
+>
+>
+>
+> Jessica
+>
+>
+>
+>
+>
+> *From:* Mikayla Meyer [mailto:mmikayla@vt.edu]
+> *Sent:* Thursday, July 2, 2015 10:08 AM
+> *To:* Crawford, Daniel
+> *Cc:* James, Andrew; Brow, Jessica; Good, Laurie; Amos, Johni
+> *Subject:* Re: Dining Hall Issues
+>
+>
+>
+> The only information that I got indicated that meals were only needed at
+> that time. I have emailed Hokie Passport about the extension in meals and
+> will update you when that gets cleared.
+>
+>
+>
+>
+>   *Mikayla Meyer*
+>
+> Virginia Tech, Class of 2016
+>
+> Political Science
+>
+> Student Government Senate
+>
+> Gamma Phi Beta
+>
+> mmikayla@vt.edu
+>
+>
+>
+> On Thu, Jul 2, 2015 at 9:59 AM, T. Daniel Crawford <crawdad@vt.edu> wrote=
+:
+>
+>  This is incorrect.  The property summer school runs all day on Friday,
+> and most participants will be departing on Saturday morning.  Thus, their
+> meals should be extended through breakfast on Saturday.  Please confirm.
+>
+>
+>
+> -TDC
+>
+>
+>   --
+>
+> Prof. T. Daniel Crawford
+>
+> crawdad@vt.edu
+>
+>
+>
+> On Thu, Jul 2, 2015 at 9:57 AM, Mikayla Meyer <mmikayla@vt.edu> wrote:
+>
+>  When Jessica Brow filled out our info sheet for Property Summer
+> (Chemistry) she listed the last meal available as lunch on Friday. Howeve=
+r
+> if this needs to be changed I can call Hokie Passport and see if that's
+> possible - the camp will be charged for the extra meals. Let me know!
+>
+> Mikayla
+>
+>
+>   *Mikayla Meyer*
+>
+> Virginia Tech, Class of 2016
+>
+> Political Science
+>
+> Student Government Senate
+>
+> Gamma Phi Beta
+>
+> mmikayla@vt.edu
+>
+>
+>
+> On Thu, Jul 2, 2015 at 9:38 AM, Andrew M. James <amjames2@vt.edu> wrote:
+>
+>  Thanks I will let them know.
+>
+> The checkout for the bulk of the program was this morning, only a small
+> minority of the students left yesterday, and I indicated that on the
+> housing sheet that I had to fill out.
+>
+>
+>
+> Will the property summer school students have problems getting dinner on
+> Friday or breakfast on Saturday? Most of them are leaving Saturday mornin=
+g.
+>
+>
+>
+>
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+>  On Jul 2, 2015, at 9:28 AM, Mikayla Meyer <mmikayla@vt.edu> wrote:
+>
+>
+>
+> I have no knowledge of the Software School dining plan since I was not th=
+e
+> conference aide for that group. Usually however, the cards expire the day
+> that check is supposed to occur and check out for the rest of their progr=
+am
+> was yesterday.
+>
+> If they come get a new card there should be no issues with dining.
+>
+>
+>
+>
+>   *Mikayla Meyer*
+>
+> Virginia Tech, Class of 2016
+>
+> Political Science
+>
+> Student Government Senate
+>
+> Gamma Phi Beta
+>
+> mmikayla@vt.edu
+>
+>
+>
+> On Thu, Jul 2, 2015 at 9:26 AM, Andrew M. James <amjames2@vt.edu> wrote:
+>
+>  They  did, but the students that were *only* here for the Software
+> School were turned away from the dining hall before the end of the progra=
+m.
+>
+>
+>
+>
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+>
+>  On Jul 2, 2015, at 9:22 AM, Mikayla Meyer <mmikayla@vt.edu> wrote:
+>
+>
+>
+> Hey all -
+>
+> The students should have come and gotten a new card for Property Summer
+> School (Chemistry). If they did not, please have they go to the help desk
+> in grab a new one, I will alert the desk attendant.
+>
+> Mikayla
+>
+>
+>   *Mikayla Meyer*
+>
+> Virginia Tech, Class of 2016
+>
+> Political Science
+>
+> Student Government Senate
+>
+> Gamma Phi Beta
+>
+> mmikayla@vt.edu
+>
+>
+>
+> On Thu, Jul 2, 2015 at 9:07 AM, Brow, Jessica <jbrow@exchange.vt.edu>
+> wrote:
+>
+> Hi AJ,
+>
+> Were they the students who stayed on from the first Summer School?  If so=
+,
+> they should be able to get meal cards from the desk at New Hall West that
+> cover them through tomorrow afternoon.
+>
+> Mikayla,
+>
+> Can you make sure that there are meal cards available and that they are
+> usable through tomorrow afternoon?
+>
+> Thank  you!
+>
+> Jessica
+>
+>
+> -----Original Message-----
+> From: Andrew James [mailto:amjames2@vt.edu]
+> Sent: Wednesday, July 1, 2015 7:59 PM
+> To: Brow, Jessica
+> Cc: Crawford, Daniel; Good, Laurie
+> Subject: Dining Hall Issues
+>
+> Hello Jessica,
+>
+> It was just brought to my attention that all of the students from the
+> Software Development Summer School were turned away by the dining hall
+> staff at dinner today.  The cards say that they do not expire until
+> tomorrow.  The students flying out of Roanoke will be leaving all
+> throughout the day, and some may need 2 meals.  Please let me know if the=
+re
+> is someone I can talk to to fix this as soon as you can. I should be on
+> campus until about 10PM.
+>
+>
+> Thanks,
+>
+> =E2=80=94AJ
+>
+> Andrew M. James
+> amjames2@vt.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+--089e0158ab6a0a60620519e8c356
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">The Property Summer School (Chemistry) cards have been fix=
+ed for more meals and access to East AJ. Please make sure the students have=
+ the correct access cards. Thanks!<div>Mikayla</div></div><div class=3D"gma=
+il_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D=
+"ltr"><b><font face=3D"georgia, serif">Mikayla Meyer</font></b><div>Virgini=
+a Tech, Class of 2016</div><div>Political Science</div><div>Student Governm=
+ent Senate</div><div>Gamma Phi Beta</div><div><a href=3D"mailto:mmikayla@vt=
+.edu" target=3D"_blank">mmikayla@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Thu, Jul 2, 2015 at 10:14 AM, Brow, Jessi=
+ca <span dir=3D"ltr">&lt;<a href=3D"mailto:jbrow@exchange.vt.edu" target=3D=
+"_blank">jbrow@exchange.vt.edu</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Thank you, Mikayla!=C2=A0 Sorry about=
+ the mix-up.=C2=A0 This was a misunderstanding on my part about when the gr=
+oup would be leaving.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Jessica<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> Mikayla Meyer [mailto:<a href=
+=3D"mailto:mmikayla@vt.edu" target=3D"_blank">mmikayla@vt.edu</a>]
+<br>
+<b>Sent:</b> Thursday, July 2, 2015 10:08 AM<br>
+<b>To:</b> Crawford, Daniel<br>
+<b>Cc:</b> James, Andrew; Brow, Jessica; Good, Laurie; Amos, Johni<br>
+<b>Subject:</b> Re: Dining Hall Issues<u></u><u></u></span></p><div><div cl=
+ass=3D"h5">
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">The only information that I got indicated that meals=
+ were only needed at that time. I have emailed Hokie Passport about the ext=
+ension in meals and will update you when that gets cleared.<u></u><u></u></=
+p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Georgia&quot;,se=
+rif">Mikayla Meyer</span></b><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Virginia Tech, Class of 2016<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Political Science<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Student Government Senate<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Gamma Phi Beta<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:mmikayla@vt.edu" target=3D"_blank"=
+>mmikayla@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">On Thu, Jul 2, 2015 at 9:59 AM, T. Daniel Crawford &=
+lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&g=
+t; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">This is incorrect.=C2=A0 The property summer school =
+runs all day on Friday, and most participants will be departing on Saturday=
+ morning.=C2=A0 Thus, their meals should be extended through breakfast on S=
+aturday.=C2=A0 Please confirm.<span><span style=3D"color:#888888"><u></u><u=
+></u></span></span></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:#888888">-TDC<u></u><u></u></sp=
+an></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">--<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">On Thu, Jul 2, 2015 at 9:57 AM, Mikayla Meyer &lt;<a=
+ href=3D"mailto:mmikayla@vt.edu" target=3D"_blank">mmikayla@vt.edu</a>&gt; =
+wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">When Jessica Brow filled out our info sheet for Prop=
+erty Summer (Chemistry) she listed the last meal available as lunch on Frid=
+ay. However if this needs to be changed I can call Hokie Passport and see i=
+f that&#39;s possible - the camp will
+ be charged for the extra meals. Let me know!<span style=3D"color:#888888">=
+<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:#888888">Mikayla<u></u><u></u><=
+/span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Georgia&quot;,se=
+rif">Mikayla Meyer</span></b><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Virginia Tech, Class of 2016<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Political Science<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Student Government Senate<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Gamma Phi Beta<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:mmikayla@vt.edu" target=3D"_blank"=
+>mmikayla@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">On Thu, Jul 2, 2015 at 9:38 AM, Andrew M. James &lt;=
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt=
+; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">Thanks I will let them know.=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">The checkout for the bulk of the program was this mo=
+rning, only a small minority of the students left yesterday, and I indicate=
+d that on the housing sheet that I had to fill out.=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Will the property summer school students have proble=
+ms getting dinner on Friday or breakfast on Saturday? Most of them are leav=
+ing Saturday morning.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><u>=
+</u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">On Jul 2, 2015, at 9:28 AM, Mikayla Meyer &lt;<a hre=
+f=3D"mailto:mmikayla@vt.edu" target=3D"_blank">mmikayla@vt.edu</a>&gt; wrot=
+e:<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">I have no knowledge of the Software School dining pl=
+an since I was not the conference aide for that group. Usually however, the=
+ cards expire the day that check is supposed to occur and check out for the=
+ rest of their program was yesterday.<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">If they come get a new card there should be no issue=
+s with dining.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Georgia&quot;,se=
+rif">Mikayla Meyer</span></b><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Virginia Tech, Class of 2016<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Political Science<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Student Government Senate<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Gamma Phi Beta<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:mmikayla@vt.edu" target=3D"_blank"=
+>mmikayla@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">On Thu, Jul 2, 2015 at 9:26 AM, Andrew M. James &lt;=
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt=
+; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">They =C2=A0did, but the students that were <i>only</=
+i>=C2=A0here for the Software School were turned away from the dining hall =
+before the end of the program.=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><u>=
+</u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">On Jul 2, 2015, at 9:22 AM, Mikayla Meyer &lt;<a hre=
+f=3D"mailto:mmikayla@vt.edu" target=3D"_blank">mmikayla@vt.edu</a>&gt; wrot=
+e:<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Hey all -=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">The students should have come and gotten a new card =
+for Property Summer School (Chemistry). If they did not, please have they g=
+o to the help desk in grab a new one, I will alert the desk attendant.<u></=
+u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Mikayla<u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Georgia&quot;,se=
+rif">Mikayla Meyer</span></b><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Virginia Tech, Class of 2016<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Political Science<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Student Government Senate<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Gamma Phi Beta<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:mmikayla@vt.edu" target=3D"_blank"=
+>mmikayla@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">On Thu, Jul 2, 2015 at 9:07 AM, Brow, Jessica &lt;<a=
+ href=3D"mailto:jbrow@exchange.vt.edu" target=3D"_blank">jbrow@exchange.vt.=
+edu</a>&gt; wrote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">Hi AJ,<br>
+<br>
+Were they the students who stayed on from the first Summer School?=C2=A0 If=
+ so, they should be able to get meal cards from the desk at New Hall West t=
+hat cover them through tomorrow afternoon.<br>
+<br>
+Mikayla,<br>
+<br>
+Can you make sure that there are meal cards available and that they are usa=
+ble through tomorrow afternoon?<br>
+<br>
+Thank=C2=A0 you!<br>
+<br>
+Jessica<br>
+<br>
+<br>
+-----Original Message-----<br>
+From: Andrew James [mailto:<a href=3D"mailto:amjames2@vt.edu" target=3D"_bl=
+ank">amjames2@vt.edu</a>]<br>
+Sent: Wednesday, July 1, 2015 7:59 PM<br>
+To: Brow, Jessica<br>
+Cc: Crawford, Daniel; Good, Laurie<br>
+Subject: Dining Hall Issues<br>
+<br>
+Hello Jessica,<br>
+<br>
+It was just brought to my attention that all of the students from the Softw=
+are Development Summer School were turned away by the dining hall staff at =
+dinner today.=C2=A0 The cards say that they do not expire until tomorrow.=
+=C2=A0 The students flying out of Roanoke will
+ be leaving all throughout the day, and some may need 2 meals.=C2=A0 Please=
+ let me know if there is someone I can talk to to fix this as soon as you c=
+an. I should be on campus until about 10PM.<br>
+<br>
+<br>
+Thanks,<br>
+<br>
+=E2=80=94AJ<br>
+<br>
+Andrew M. James<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<br>
+<br>
+<u></u><u></u></p>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div>
+
+--089e0158ab6a0a60620519e8c356--

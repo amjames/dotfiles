@@ -1,0 +1,188 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3453742qgt;
+        Thu, 30 Apr 2015 10:40:39 -0700 (PDT)
+X-Received: by 10.55.50.201 with SMTP id y192mr9697044qky.10.1430415639276;
+        Thu, 30 Apr 2015 10:40:39 -0700 (PDT)
+Return-Path: <>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id e2si24115668qhc.45.2015.04.30.10.40.39
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 10:40:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of  designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of  designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=
+Received: from omr2.cc.vt.edu (omr2.cc.vt.edu [172.28.52.10] (may be forged))
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHeX6p032129
+	for <amjames2@vt.edu>; Thu, 30 Apr 2015 13:40:38 -0400
+Received: from localhost (localhost)
+	by omr2.cc.vt.edu (8.14.4/8.14.4) id t3UHeXwU032010;
+	Thu, 30 Apr 2015 13:40:33 -0400
+Date: Thu, 30 Apr 2015 13:40:33 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@omr2.cc.vt.edu>
+Message-Id: <201504301740.t3UHeXwU032010@omr2.cc.vt.edu>
+To: <amjames2@vt.edu>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="t3UHeXwU032010.1430415633/omr2.cc.vt.edu"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+X-Spam-Status: No, score=-1.0 required=5.0 tests=ALL_TRUSTED,HTML_MESSAGE,
+	T_TVD_MIME_NO_HEADERS autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a MIME-encapsulated message
+
+--t3UHeXwU032010.1430415633/omr2.cc.vt.edu
+
+The original message was received at Thu, 30 Apr 2015 13:40:31 -0400
+from mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234]
+
+   ----- The following addresses had permanent fatal errors -----
+<gnath@theochem.kth.se>
+    (reason: 550 5.1.1 <gnath@theochem.kth.se>: Recipient address rejected: Mailbox does not exist)
+
+   ----- Transcript of session follows -----
+... while talking to mx.kth.se.:
+>>> DATA
+<<< 550 5.1.1 <gnath@theochem.kth.se>: Recipient address rejected: Mailbox does not exist
+550 5.1.1 <gnath@theochem.kth.se>... User unknown
+<<< 554 5.5.1 Error: no valid recipients
+
+--t3UHeXwU032010.1430415633/omr2.cc.vt.edu
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; omr2.cc.vt.edu
+Received-From-MTA: DNS; mr5.cc.ipv6.vt.edu
+Arrival-Date: Thu, 30 Apr 2015 13:40:31 -0400
+
+Final-Recipient: RFC822; gnath@theochem.kth.se
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; mx.kth.se
+Diagnostic-Code: SMTP; 550 5.1.1 <gnath@theochem.kth.se>: Recipient address rejected: Mailbox does not exist
+Last-Attempt-Date: Thu, 30 Apr 2015 13:40:33 -0400
+
+--t3UHeXwU032010.1430415633/omr2.cc.vt.edu
+Content-Type: message/rfc822
+
+Return-Path: <amjames2@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b8:b328:9234])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHeUwU032006
+	for <gnath@theochem.kth.se>; Thu, 30 Apr 2015 13:40:31 -0400
+Received: from mail-qk0-f172.google.com (mail-qk0-f172.google.com [209.85.220.172])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3UHePfu011838
+	for <gnath@theochem.kth.se>; Thu, 30 Apr 2015 13:40:30 -0400
+Received: by qku63 with SMTP id 63so37442925qku.3
+        for <gnath@theochem.kth.se>; Thu, 30 Apr 2015 10:40:25 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-type:subject:message-id:date:to
+         :mime-version;
+        bh=drsDGHcVVp4oOBgHdfS9w5NKqtLp4azwk+c11DvGGTE=;
+        b=VHnkIRe3g4kRS+LTfEXBl+HQlMDDTYQWLGAZpmsXbgr9DKLeTRSEDHZ07z/6E4FwpA
+         XMsfgMk4vSLBPyjihngXtgU3k1WM7MCtEZjSekqMgyiTvgOY/2r5mwMiLXksRTTugykR
+         PoR489XUi6mts1Dk4bKJzZRsVAZ4xhu7KDpaQZod+p2uJL7eCq+kvPTcMytsJP1mQnsa
+         YAyBDS5/aIG7shJWNu9hLNgaI5MF/LxLcvu4oMOkEtcr3TzX+vnxnY5ercE5Uiy4cp5u
+         tzOuJfMRXkQ4V6qSU8ymZS5ate7bcpHGTelZcuMpcz9HbPMUA+w6rASJLjsgqpa11D/u
+         ZL0Q==
+X-Gm-Message-State: ALoCoQnLhjRnKxtnoBuje/z1Ul8N/ERwe9DgsGcRos8Gm29SMabJqzPlMlDxHYTPlUmeVSz9U0dWptsw38AVy36u58/U+7zrabSgn+29PlruRaUqYhWdMLHyjSpPRStLrIhTBLtFFwhwiDRquRPChK4fdSZqemKZuw==
+X-Received: by 10.55.51.141 with SMTP id z135mr9732214qkz.84.1430415625562;
+        Thu, 30 Apr 2015 10:40:25 -0700 (PDT)
+X-Received: by 10.55.51.141 with SMTP id z135mr9732188qkz.84.1430415625412;
+        Thu, 30 Apr 2015 10:40:25 -0700 (PDT)
+Received: from [10.0.1.54] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id 187sm16651612qhc.39.2015.04.30.10.40.24
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 30 Apr 2015 10:40:24 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_4DAC9880-1DE8-40D0-A7DE-208C8B56F14B"
+Subject: Molecular Response Properties Summer School: Visa Applications 
+Message-Id: <82482388-F148-4AAE-BE07-A3FBA4DA02C0@vt.edu>
+Date: Thu, 30 Apr 2015 13:40:23 -0400
+To: Chang Liu <chang.liu@fysik.su.se>,
+        Thomas Fransson <t.fransson.swe@gmail.com>,
+        Javier Cerezo <j.cerezo@pi.iccom.cnr.it>,
+        Ignat Harczuk <gnath@theochem.kth.se>,
+        Tobias Fahleson <tobfa@ifm.liu.se>,
+        Iurii Zhovtobriukh <iurii.zhovtobriukh@fysik.su.se>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+
+
+--Apple-Mail=_4DAC9880-1DE8-40D0-A7DE-208C8B56F14B
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hello!=20
+
+I am Andrew James, one of  Dr. Crawford=E2=80=99s graduate students at =
+Virginia Tech, and the coordinator for the Response Properties School we =
+are holding this summer.  You are receiving this email because your =
+institution is located outside the US, and as of yet have not reached =
+out to me about your visa application.  Part of this application will =
+require a letter from Virginia Tech, and in order to make sure you get =
+those letters on time I will need each of you to send me a copy of your =
+CV as soon as you can.  Please reply with your CV attached, and if you =
+could please rename the file like so:
+
+First_last.pdf
+
+If you do not require a visa (i.e. you are a US citizen working abroad) =
+you can let me know as well and I will remove you from the list. You can =
+feel free to email me with any other questions/concerns as well.  See =
+you in June!
+
+Regards,=20
+=E2=80=94Andrew=20
+
+Andrew M. James=20
+Graduate Teaching Assistant=20
+Virginia Tech
+Chemistry Department
+amjames2@vt.edu <mailto:amjames2@vt.edu>=20=
+
+--Apple-Mail=_4DAC9880-1DE8-40D0-A7DE-208C8B56F14B
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Hello!&nbsp;<div class=3D""><br class=3D""></div><div =
+class=3D"">I am Andrew James, one of &nbsp;Dr. Crawford=E2=80=99s =
+graduate students at Virginia Tech, and the coordinator for the Response =
+Properties School we are holding this summer. &nbsp;You are receiving =
+this email because your institution is located outside the US, and as of =
+yet have not reached out to me about your visa application. &nbsp;Part =
+of this application will require a letter from Virginia Tech, and in =
+order to make sure you get those letters on time I will need each of you =
+to send me a copy of your CV as soon as you can. &nbsp;Please reply with =
+your CV attached, and if you could please rename the file like =
+so:</div><div class=3D""><br class=3D""></div><div =
+class=3D"">First_last.pdf</div><div class=3D""><br class=3D""></div><div =
+class=3D"">If you do not require a visa (i.e. you are a US citizen =
+working abroad) you can let me know as well and I will remove you from =
+the list. You can feel free to email me with any other =
+questions/concerns as well. &nbsp;See you in June!</div><div =
+class=3D""><br class=3D""></div><div class=3D"">Regards,&nbsp;</div><div =
+class=3D"">=E2=80=94Andrew&nbsp;</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Andrew M. James&nbsp;</div><div =
+class=3D"">Graduate Teaching Assistant&nbsp;</div><div class=3D"">Virginia=
+ Tech</div><div class=3D"">Chemistry Department</div><div class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" =
+class=3D"">amjames2@vt.edu</a>&nbsp;</div></body></html>=
+
+--Apple-Mail=_4DAC9880-1DE8-40D0-A7DE-208C8B56F14B--
+
+--t3UHeXwU032010.1430415633/omr2.cc.vt.edu--
+

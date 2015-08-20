@@ -1,0 +1,249 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp490712qge;
+        Mon, 26 Jan 2015 12:39:47 -0800 (PST)
+X-Received: by 10.140.91.74 with SMTP id y68mr589671qgd.90.1422304787832;
+        Mon, 26 Jan 2015 12:39:47 -0800 (PST)
+Return-Path: <crawdad@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id o11si14615248qga.118.2015.01.26.12.39.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 26 Jan 2015 12:39:47 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.174 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0QKdgG2009703
+	for <amjames2@vt.edu>; Mon, 26 Jan 2015 15:39:47 -0500
+Received: by mail-ie0-f174.google.com with SMTP id vy18so11179268iec.5
+        for <amjames2@vt.edu>; Mon, 26 Jan 2015 12:39:42 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=fk9ZSeS1YKIhRL1tp4u7NkocEg5m0PGe+IVG990z7Gs=;
+        b=SHgVU8CJb2pvU44Sag9pKx+rMH2TsOCDZHG/EQvVOG6iPL6Cuv2eRM7RR2Aw3tVN/1
+         /V4LEIKq43bTqyWQbhGCi9aVQvMxdf39Opr3abwi6g9b8VujAX5vFq5siOFQLpYRxsf3
+         9toypdMXps8Z1UToc9swXyHOW3ViJplO+cfTh41Q1gCpdfmW7PExsfyPCtzvGZ6tyruU
+         7AUdqxNfhafhk/wA4pWtF3hfAD/D0Vsa6iw78NHeR7Ao0spTpT66b5B3Y2HqYlsd3d1u
+         6v6JeDSArnJib1dVPmX97R77GAtdvUgUhi8Loju2U8Evc0XlbiOLVv24kdijCJHULT5c
+         wZaw==
+X-Gm-Message-State: ALoCoQkpoeybP21owK1XYA2EsilnA6BdOjUA3s+eRda7XgGveR6t3jdzd/qguIPMOzccJHNCbZRApJGovOTdkFkC5PynUalZv1WT9T9dmiz9RjMpLV7yWIYWmEqZJqm+he0PqVPQU63S7og5RFhYCjoGwVrKU7CzyQ==
+X-Received: by 10.50.142.38 with SMTP id rt6mr18385015igb.17.1422304781987;
+        Mon, 26 Jan 2015 12:39:41 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.50.142.38 with SMTP id rt6mr18384571igb.17.1422304776561;
+ Mon, 26 Jan 2015 12:39:36 -0800 (PST)
+Received: by 10.64.128.100 with HTTP; Mon, 26 Jan 2015 12:39:36 -0800 (PST)
+In-Reply-To: <D8E303A2A9094E1F99F807E583216A93@vt.edu>
+References: <CAH0V_1bfry3cFx=ZOjg0Bw44DaL1aC9Gjv=Ub6+nWmH25dWqJA@mail.gmail.com>
+	<D9B0DA7D15F84F549FA7DFE7627BBAE1@vt.edu>
+	<CAH0V_1Zd-XdFNNQpA=Mas4WrucEEVR4DSTdCCHXK4qSOYS-PNA@mail.gmail.com>
+	<463A35F2EA6C49F69AF1DA39ECA9CCE1@vt.edu>
+	<CAH0V_1Z=H7SVGcatUwMB4wHjvT880tKy=iY7+OupgDgJ1bodyQ@mail.gmail.com>
+	<D8E303A2A9094E1F99F807E583216A93@vt.edu>
+Date: Mon, 26 Jan 2015 15:39:36 -0500
+Message-ID: <CAH0V_1bo826TtpOytbBkxB-QOwiEF596iH6JWkyeUuaFiaZJoQ@mail.gmail.com>
+Subject: Re: PSI4 on blueridge
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c3a950f84c7b050d942206
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c3a950f84c7b050d942206
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Where did the job run?
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jan 26, 2015 at 3:39 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> So the same job (phenalenyl) died during the ccdensity program again.
+> This time the error file told me there was a segmentation-fault. I am ran
+> the same calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this is
+> an issue with phenalenyl being open shell, but its quite a bit bigger and
+> may take a while for that to run.
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:48 PM, T. Daniel Crawford wrote:
+>
+> OK, try it now.
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> I can=E2=80=99t cd into it or ls it
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:
+>
+> If you "cd" into that directory, can you run "ls"?
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> I just tried to submit a job using that path and I got a =E2=80=9CPermiss=
+ion
+> denied=E2=80=9D error for that path.
+>
+> I also so far have not been able to make any progress on cerebro.  The
+> jobs still fail in the same place just after the CCDensity() program
+> starts.
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:19 PM, T. Daniel Crawford wrote:
+>
+> AJ,
+>
+> I've installed PSI4 in ~crawdad/psi4.  See if you can access it from your
+> account.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+>
+>
+>
+>
+
+--001a11c3a950f84c7b050d942206
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Where did the job run?</div><div class=3D"gmail_extra"><br=
+ clear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>=
+Prof. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jan 26, 2015 at 3:39 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                <div style=3D"font-family:Helvetica;font-size:13px">So the =
+same job (phenalenyl) died during the ccdensity program again.=C2=A0 This t=
+ime the error file told me there was a segmentation-fault. I am ran the sam=
+e calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this is an issue=
+ with phenalenyl being open shell, but its quite a bit bigger and may take =
+a while for that to run.=C2=A0<br></div><span class=3D"im HOEnZb">
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                =20
+                </span><div class=3D"HOEnZb"><div class=3D"h5"><p style=3D"=
+color:#a0a0a8">On Monday, January 26, 2015 at 2:48 PM, T. Daniel Crawford w=
+rote:</p>
+                <blockquote type=3D"cite" style=3D"border-left-style:solid;=
+border-width:1px;margin-left:0px;padding-left:10px">
+                    <span><div><div><div dir=3D"ltr">OK, try it now.</div><=
+div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Cra=
+wford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad=
+@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">I can=
+=E2=80=99t cd into it or ls it=C2=A0<br></div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                 =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">If you &quot;cd&quot; =
+into that directory, can you run &quot;ls&quot;?<div><br></div><div>-TDC</d=
+iv></div><div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. =
+Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blan=
+k">crawdad@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">I just =
+tried to submit a job using that path and I got a =E2=80=9CPermission denie=
+d=E2=80=9D error for that path. =C2=A0<div><br></div><div>I also so far hav=
+e not been able to make any progress on cerebro.=C2=A0 The jobs still fail =
+in the same place just after the CCDensity() program starts.=C2=A0</div></d=
+iv><span><font color=3D"#888888">
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div></font></span><div><div>
+                  =20
+                <p style=3D"color:#a0a0a8">On Monday, January 26, 2015 at 2=
+:19 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"cite"><div>
+                    <span><div><div><div dir=3D"ltr">AJ,<div><br></div><div=
+>I&#39;ve installed PSI4 in ~crawdad/psi4.=C2=A0 See if you can access it f=
+rom your account.</div><div><br></div><div>-TDC<br clear=3D"all"><div><div>=
+<div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailt=
+o:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></d=
+iv>
+</div></div>
+</div></div></span>
+                  =20
+                  =20
+                  =20
+                  =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                 =20
+                 =20
+                 =20
+                 =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            </div></div></blockquote></div><br></div>
+
+--001a11c3a950f84c7b050d942206--

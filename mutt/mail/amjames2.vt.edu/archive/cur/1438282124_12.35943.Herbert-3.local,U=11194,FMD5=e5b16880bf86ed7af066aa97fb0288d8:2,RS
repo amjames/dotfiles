@@ -1,0 +1,729 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1484095qgt;
+        Tue, 23 Jun 2015 10:03:09 -0700 (PDT)
+X-Received: by 10.55.43.75 with SMTP id r72mr72090131qkh.80.1435078989715;
+        Tue, 23 Jun 2015 10:03:09 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id g1si22856683qcf.19.2015.06.23.10.03.09
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 10:03:09 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.180 as permitted sender) client-ip=209.85.223.180;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.180 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f180.google.com (mail-ie0-f180.google.com [209.85.223.180])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NH33hA028167
+	for <amjames2@vt.edu>; Tue, 23 Jun 2015 13:03:08 -0400
+Received: by iebrt9 with SMTP id rt9so16087222ieb.2
+        for <amjames2@vt.edu>; Tue, 23 Jun 2015 10:03:03 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=hEsUT2SXW9DkfCIeKrNHzIjPvTfLfe/rTeDjr3w6nlU=;
+        b=MpGeFyixTcodLmIGC1bRQcNH1KtJ+DWBdNvJeamjXYvSJOUP0NMsW84ksxgq6r+oEG
+         VjwsGpaEwKLsO6JWQyiknQrI/laDLA07JEL4WP74tbyTFkVhizSVrXvBUdA7oCvYgtFC
+         rPMTJCF2/tcym6laovxzFiophFjOpMmp9z1Mvb3SqfchUJbEsMZl60k1lTGr0tChbFvQ
+         hQPg5Hjcx8aLEKafMG1P68Lv30fPcH+aMSGQlJ0QMdYf7fp1PkI0D+wxbJk7tGDmX6/Q
+         ZlIWqq3nL1INI6iiRlgb0Go5XmfF6XNjl5qQwz4FqhURXczFuHt0MuKp7fozQseK4Ywz
+         tBuQ==
+X-Gm-Message-State: ALoCoQnkGsPONeOOzZlNGyDALtNjf+9ydXnURr4Eh7z1e3jiUMRS7wuAc/LgbnEzZqgiEdWJ0tHI9WJvdxy9ALE5ZT6xa9UpCHIw1Vw/zFApz0v7VzgILGgXNLiVrUq1M+P5xr9XJ0UJrwN5g9sgF0zKDMz4qnsmhA==
+X-Received: by 10.50.4.67 with SMTP id i3mr3474009igi.47.1435078983556;
+        Tue, 23 Jun 2015 10:03:03 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.4.67 with SMTP id i3mr3473985igi.47.1435078983388; Tue,
+ 23 Jun 2015 10:03:03 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Tue, 23 Jun 2015 10:03:03 -0700 (PDT)
+In-Reply-To: <6ea30e5dc22d41ccb7d9846efffa1f83@MARCONI.cc.w2k.vt.edu>
+References: <712F95F8-26BB-4254-9F7B-BF1D37592884@ifm.liu.se>
+	<CAH0V_1a1L6GS1DRBGX49asggbmqzWy-32KsTMZ5Aizt8zdcVNQ@mail.gmail.com>
+	<8FF39EFD-03B0-4861-B3CE-5FB4B8D0E784@gmail.com>
+	<CAH0V_1ZgFu25MHMtimGUUuTQSuvM=vmtxjdimNFswub=TX7qDg@mail.gmail.com>
+	<D1AF03A6.7BF2B%laurieg@vt.edu>
+	<CAH0V_1YGtc7NOZEOLFKeoKVxp7PPfuFtjkGnf-P-Etk+RZ_FYw@mail.gmail.com>
+	<D1AF0445.7BF2E%laurieg@vt.edu>
+	<CAH0V_1bofz5k54xOSGvsQvxFtMRLS8nWe4L8e2X9yvJKewT3aQ@mail.gmail.com>
+	<6ea30e5dc22d41ccb7d9846efffa1f83@MARCONI.cc.w2k.vt.edu>
+Date: Tue, 23 Jun 2015 13:03:03 -0400
+Message-ID: <CAH0V_1bjg9m-9A__zrPG_fG=GA4aXHJLTwi2q1S_4Jpj=w6pgg@mail.gmail.com>
+Subject: Re: Program schedule
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Good, Laurie" <laurieg@vt.edu>
+Cc: "James, Andrew" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11c2a13e07aee30519325dc8
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c2a13e07aee30519325dc8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yes, I think one more van.  AJ can correct us if it shouldn't be in his
+name.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jun 23, 2015 at 12:58 PM, Good, Laurie <laurieg@vt.edu> wrote:
+
+>  So just get one more van in AJ=E2=80=99s name?  I could always drive to =
+ROA in a
+> pinch for late departures=E2=80=A6
+>
+>
+>
+>
+>
+> *From:* T. Daniel Crawford [mailto:crawdad@vt.edu]
+> *Sent:* Tuesday, June 23, 2015 12:46 PM
+> *To:* Good, Laurie
+> *Cc:* Andrew James
+> *Subject:* Re: Program schedule
+>
+>
+>
+> Yes, but I think AJ and I decided we'd probably use the vans (we need two=
+)
+> to take people hiking and let the SSS folks take the SmartWay Bus.  Sound
+> reasonable?
+>
+>
+>
+> -TDC
+>
+>
+>   --
+>
+> Prof. T. Daniel Crawford
+>
+> crawdad@vt.edu
+>
+>
+>
+> On Tue, Jun 23, 2015 at 12:42 PM, Good, Laurie <laurieg@vt.edu> wrote:
+>
+>   We=E2=80=99ve already got this reservation on the books for returning S=
+SS folks
+> to the airport:
+>
+> 05/2015
+> 11:46:51 am
+>
+> Pick-up: *07/01/2015*@*08:00 AM*
+> Return: *07/01/2015*@*05:00 PM*
+> Duration:*9** hours*
+>
+> [image: Approved] Request was approved
+> [image: Requestor] You are the requestor
+> Driver: Harley McAlexan... <harleymc@vt.edu>
+>
+> *161339
+> <https://www.fs.vt.edu/fleetcommander/ReservationDetails.asp?Action=3DVie=
+w&Site=3D1&Record=3D66531>*
+>
+> *Confirmation number*
+>
+> Vehicle: *097 ( 2011 TAN GMC 12 PASS VAN)*
+> Location: *Fleet Services*
+> Type: *Large Van-driver+11*
+>
+>
+>
+> So who will be picking up the two vans:  AJ and ????
+>
+>
+>
+> *From: *Daniel Crawford <crawdad@vt.edu>
+> *Date: *Tuesday, June 23, 2015 at 12:39 PM
+> *To: *Laurie Good <laurieg@vt.edu>
+> *Cc: *Andrew James <andrew.m.james2@gmail.com>
+> *Subject: *Re: Program schedule
+>
+>
+>
+>   Yes, I think so.  Does that sound reasonable, AJ?
+>
+>
+>
+> -TDC
+>
+>
+>   --
+>
+> Prof. T. Daniel Crawford
+>
+> crawdad@vt.edu
+>
+>
+>
+> On Tue, Jun 23, 2015 at 12:38 PM, Good, Laurie <laurieg@vt.edu> wrote:
+>
+>   So pick up the vans late morning on the 1st and return that evening?
+>
+>
+>
+>
+>
+> *From: *Daniel Crawford <crawdad@vt.edu>
+> *Date: *Tuesday, June 23, 2015 at 12:21 PM
+> *To: *Andrew James <andrew.m.james2@gmail.com>, Laurie Good <
+> laurieg@vt.edu>
+> *Subject: *Fwd: Program schedule
+>
+>
+>
+>   AJ, here's the current detailed schedule for the MRPSS for next week.
+> Could you update the website with this information, much as you did for t=
+he
+> SSS?
+>
+>
+>
+> Laurie, we will need vans for the Cascades hike on Wednesday afternoon.  =
+I
+> don't know, at this point, how many people will go, but let's assume all
+> 25, plus the four instructors.  Let reserve two vans (if you haven't
+> already).
+>
+>
+>
+> Thanks!
+>
+>
+>
+> -TDC
+>
+> --
+>
+> Prof. T. Daniel Crawford
+>
+> crawdad@vt.edu
+>
+>
+>
+> ---------- Forwarded message ----------
+> From: *Patrick Norman* <johan.patrick.norman@gmail.com>
+> Date: Tue, Jun 23, 2015 at 11:45 AM
+> Subject: Re: Program schedule
+> To: "T. Daniel Crawford" <crawdad@vt.edu>, Kenneth Ruud <
+> Kenneth.Ruud@uit.no>, Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+>
+>
+> Hi Everyone,
+>
+> I have had a brief phone meeting with Daniel and made adjustments in the
+> programme in line with what we came up with:
+>
+> 1. Daniel had a tentative arrangement for a hike, I figured it sounded
+> great and decided to officially put it into the program.
+>
+> 2. We decided to skip the poster session since it is late and only one
+> student asked for it.
+>
+> 3. Daniel agreed to contribute another hour of CC theory and I gladly
+> added it to the Wednesday program.
+>
+> 4. Otherwise times are slightly shifted by 30 minutes and I added coffee
+> breaks that Daniel has booked two per day.
+>
+> I think that covers the changes I've made and I think we are close to
+> finalizing the program now.
+>
+> The only other thing we talked about was to go out for dinner (the four o=
+f
+> us) on Sunday evening after we arrive to Blacksburg. So that is now also =
+on
+> our agenda.
+>
+> That's it.
+>
+> Best,
+> Patrick.
+>
+> > On 23 Jun 2015, at 04:06, T. Daniel Crawford <crawdad@vt.edu> wrote:
+> >
+> > Dear Patrick,
+> >
+> > My apologies for the delay in my response, but my Software Summer Schoo=
+l
+> started today, and it occupied most of my day.
+> >
+> > Tomorrow I'll have time to talk about the MRPSS.  What about 11:00am?
+> If that works, you can reach me at 540-449-3365.
+> >
+> > I look forward to talking to you!
+> >
+> > Best regards,
+> >
+> > -Daniel
+>
+> --
+>
+> ------------------------------------------------------------------------
+> Patrick Norman                  e-mail: johan.patrick.norman@gmail.com
+> Furubackav=C3=A4gen 4A               phone : +46-13 29 99 97
+> SE-586 63 Link=C3=B6ping, Sweden     mobile: +46-70 191 8541
+> ------------------------------------------------------------------------
+>
+>
+>
+>
+>
+>
+>
+
+--001a11c2a13e07aee30519325dc8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Yes, I think one more van.=C2=A0 AJ can correct us if it s=
+houldn&#39;t be in his name.<div><br></div><div>-TDC</div></div><div class=
+=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature"><div=
+ dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:cr=
+awdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Jun 23, 2015 at 12:58 PM, Good, Laur=
+ie <span dir=3D"ltr">&lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank=
+">laurieg@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ga=
+dugi&quot;,sans-serif;color:black">So just get one more van in AJ=E2=80=99s=
+ name?=C2=A0 I could always drive to ROA in a pinch for late departures=E2=
+=80=A6<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ga=
+dugi&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ga=
+dugi&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> T. Daniel Crawford [mailto:<a =
+href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>]
+<br>
+<b>Sent:</b> Tuesday, June 23, 2015 12:46 PM<br>
+<b>To:</b> Good, Laurie<br>
+<b>Cc:</b> Andrew James<br>
+<b>Subject:</b> Re: Program schedule<u></u><u></u></span></p><div><div clas=
+s=3D"h5">
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">Yes, but I think AJ and I decided we&#39;d probably =
+use the vans (we need two) to take people hiking and let the SSS folks take=
+ the SmartWay Bus.=C2=A0 Sound reasonable?<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-TDC<u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<u></u><u></u></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">--<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Prof. T. Daniel Crawford<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<p class=3D"MsoNormal">On Tue, Jun 23, 2015 at 12:42 PM, Good, Laurie &lt;<=
+a href=3D"mailto:laurieg@vt.edu" target=3D"_blank">laurieg@vt.edu</a>&gt; w=
+rote:<u></u><u></u></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">We=E2=80=99ve already got this reservat=
+ion on the books for returning SSS folks to the airport:<u></u><u></u></spa=
+n></p>
+</div>
+</div>
+</div>
+<div>
+<table border=3D"1" cellspacing=3D"0" cellpadding=3D"0" width=3D"1246" styl=
+e=3D"width:747.5pt;background:white;border:inset #336699 1.0pt">
+<tbody>
+<tr>
+<td nowrap style=3D"background:#e6f6ff;padding:1.2pt 1.2pt 1.2pt 1.2pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black">05/2015<br>
+11:46:51 am<u></u><u></u></span></p>
+</td>
+<td nowrap style=3D"background:#e6f6ff;padding:1.2pt 1.2pt 1.2pt 1.2pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black">Pick-up:=C2=A0<b>07/01/2015</b></span><s=
+pan style=3D"font-size:8.5pt;font-family:&quot;Verdana&quot;,sans-serif;col=
+or:#cc9900">@</span><b><span style=3D"font-size:8.5pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black">08:00
+ AM</span></b><span style=3D"font-size:8.5pt;font-family:&quot;Verdana&quot=
+;,sans-serif;color:black"><br>
+Return:=C2=A0<b>07/01/2015</b></span><span style=3D"font-size:8.5pt;font-fa=
+mily:&quot;Verdana&quot;,sans-serif;color:#cc9900">@</span><b><span style=
+=3D"font-size:8.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:black"=
+>05:00 PM</span></b><span style=3D"font-size:8.5pt;font-family:&quot;Verdan=
+a&quot;,sans-serif;color:black"><br>
+Duration:<b>9</b><i>=C2=A0hours</i><u></u><u></u></span></p>
+</td>
+<td nowrap style=3D"background:#e6f6ff;padding:1.2pt 1.2pt 1.2pt 1.2pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black"><img border=3D"0" width=3D"13" height=3D=
+"13" src=3D"https://www.fs.vt.edu/fleetcommander/Images/review_approved.gif=
+" alt=3D"Approved">=C2=A0Request was approved<br>
+<img border=3D"0" width=3D"11" height=3D"11" src=3D"https://www.fs.vt.edu/f=
+leetcommander/Images/user_requestor.gif" alt=3D"Requestor">=C2=A0You are th=
+e requestor<br>
+Driver:=C2=A0<a href=3D"mailto:harleymc@vt.edu" target=3D"_blank">Harley Mc=
+Alexan...</a><u></u><u></u></span></p>
+</td>
+<td nowrap style=3D"background:#e6f6ff;padding:1.2pt 1.2pt 1.2pt 1.2pt">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"3" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:8.0pt"><a href=3D"https://www.fs.vt.edu/fleetcommander=
+/ReservationDetails.asp?Action=3DView&amp;Site=3D1&amp;Record=3D66531" targ=
+et=3D"_blank">161339</a></span></b><span style=3D"font-size:8.0pt"><u></u><=
+u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><i><=
+span style=3D"font-size:8.5pt;font-family:&quot;Verdana&quot;,sans-serif;co=
+lor:black">Confirmation number</span></i></b><span style=3D"font-size:8.5pt=
+;font-family:&quot;Verdana&quot;,sans-serif;color:black"><u></u><u></u></sp=
+an></p>
+</td>
+<td style=3D"background:#e6f6ff;padding:1.2pt 1.2pt 1.2pt 1.2pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:black">Vehicle:=C2=A0<b>097 ( 2011 TAN GMC 12 P=
+ASS VAN)</b><br>
+Location:=C2=A0<b>Fleet Services</b><br>
+Type:=C2=A0<b>Large Van-driver+11</b><u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">So who will be picking up the two vans:=
+ =C2=A0AJ and ????<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:black">From:
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+sans-serif;color:black">Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.ed=
+u" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+<b>Date: </b>Tuesday, June 23, 2015 at 12:39 PM<br>
+<b>To: </b>Laurie Good &lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_bla=
+nk">laurieg@vt.edu</a>&gt;<br>
+<b>Cc: </b>Andrew James &lt;<a href=3D"mailto:andrew.m.james2@gmail.com" ta=
+rget=3D"_blank">andrew.m.james2@gmail.com</a>&gt;<br>
+<b>Subject: </b>Re: Program schedule<u></u><u></u></span></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #b5c4df 4.5pt;padding:0i=
+n 0in 0in 4.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Yes, I think so.=C2=A0 Does that sound =
+reasonable, AJ?
+<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">-TDC<u></u><u></u></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><br clear=3D"all">
+<u></u><u></u></span></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">--
+<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Prof. T. Daniel Crawford<u></u><u></u><=
+/span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><a href=3D"mailto:crawdad@vt.edu" targe=
+t=3D"_blank">crawdad@vt.edu</a><u></u><u></u></span></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">On Tue, Jun 23, 2015 at 12:38 PM, Good,=
+ Laurie &lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank">laurieg@vt.=
+edu</a>&gt; wrote:<u></u><u></u></span></p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">So pick up the vans late morning on the=
+ 1st and return that evening?<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:black">From:
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+sans-serif;color:black">Daniel Crawford &lt;<a href=3D"mailto:crawdad@vt.ed=
+u" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+<b>Date: </b>Tuesday, June 23, 2015 at 12:21 PM<br>
+<b>To: </b>Andrew James &lt;<a href=3D"mailto:andrew.m.james2@gmail.com" ta=
+rget=3D"_blank">andrew.m.james2@gmail.com</a>&gt;, Laurie Good &lt;<a href=
+=3D"mailto:laurieg@vt.edu" target=3D"_blank">laurieg@vt.edu</a>&gt;<br>
+<b>Subject: </b>Fwd: Program schedule<u></u><u></u></span></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #b5c4df 4.5pt;padding:0i=
+n 0in 0in 4.0pt;margin-left:3.75pt;margin-right:0in">
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">AJ, here&#39;s the current detailed sch=
+edule for the MRPSS for next week.=C2=A0 Could you update the website with =
+this information, much as you did for the SSS?
+<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Laurie, we will need vans for the Casca=
+des hike on Wednesday afternoon.=C2=A0 I don&#39;t know, at this point, how=
+ many people will go, but let&#39;s assume all 25, plus the
+ four instructors.=C2=A0 Let reserve two vans (if you haven&#39;t already).=
+ =C2=A0<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Thanks!<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">-TDC<br clear=3D"all">
+<u></u><u></u></span></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">--
+<u></u><u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">Prof. T. Daniel Crawford<u></u><u></u><=
+/span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><a href=3D"mailto:crawdad@vt.edu" targe=
+t=3D"_blank">crawdad@vt.edu</a><u></u><u></u></span></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">---------- Forwarded message ----------=
+<br>
+From: <b>Patrick Norman</b> &lt;<a href=3D"mailto:johan.patrick.norman@gmai=
+l.com" target=3D"_blank">johan.patrick.norman@gmail.com</a>&gt;<br>
+Date: Tue, Jun 23, 2015 at 11:45 AM<br>
+Subject: Re: Program schedule<br>
+To: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mailto:crawdad@vt.edu" ta=
+rget=3D"_blank">crawdad@vt.edu</a>&gt;, Kenneth Ruud &lt;<a href=3D"mailto:=
+Kenneth.Ruud@uit.no" target=3D"_blank">Kenneth.Ruud@uit.no</a>&gt;, Trond S=
+AUE &lt;<a href=3D"mailto:trond.saue@irsamc.ups-tlse.fr" target=3D"_blank">=
+trond.saue@irsamc.ups-tlse.fr</a>&gt;<br>
+<br>
+<br>
+Hi Everyone,<br>
+<br>
+I have had a brief phone meeting with Daniel and made adjustments in the pr=
+ogramme in line with what we came up with:<br>
+<br>
+1. Daniel had a tentative arrangement for a hike, I figured it sounded grea=
+t and decided to officially put it into the program.<br>
+<br>
+2. We decided to skip the poster session since it is late and only one stud=
+ent asked for it.<br>
+<br>
+3. Daniel agreed to contribute another hour of CC theory and I gladly added=
+ it to the Wednesday program.<br>
+<br>
+4. Otherwise times are slightly shifted by 30 minutes and I added coffee br=
+eaks that Daniel has booked two per day.<br>
+<br>
+I think that covers the changes I&#39;ve made and I think we are close to f=
+inalizing the program now.<br>
+<br>
+The only other thing we talked about was to go out for dinner (the four of =
+us) on Sunday evening after we arrive to Blacksburg. So that is now also on=
+ our agenda.<br>
+<br>
+That&#39;s it.<br>
+<br>
+Best,<br>
+Patrick.<br>
+<br>
+&gt; On 23 Jun 2015, at 04:06, T. Daniel Crawford &lt;<a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; Dear Patrick,<br>
+&gt;<br>
+&gt; My apologies for the delay in my response, but my Software Summer Scho=
+ol started today, and it occupied most of my day.<br>
+&gt;<br>
+&gt; Tomorrow I&#39;ll have time to talk about the MRPSS.=C2=A0 What about =
+11:00am?=C2=A0 If that works, you can reach me at
+<a href=3D"tel:540-449-3365" target=3D"_blank">540-449-3365</a>.<br>
+&gt;<br>
+&gt; I look forward to talking to you!<br>
+&gt;<br>
+&gt; Best regards,<br>
+&gt;<br>
+&gt; -Daniel<br>
+<br>
+--<u></u><u></u></span></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black">---------------------------------------=
+---------------------------------<br>
+Patrick Norman=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 e-mail: <a href=3D"mailto:johan.patrick.norman@gmail.com" target=3D"_bl=
+ank">
+johan.patrick.norman@gmail.com</a><br>
+Furubackav=C3=A4gen 4A=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0phone : <a href=3D"tel:%2B46-13%2029%2099%2097" target=3D"_blank">
++46-13 29 99 97</a><br>
+SE-586 63 Link=C3=B6ping, Sweden=C2=A0 =C2=A0 =C2=A0mobile: <a href=3D"tel:=
+%2B46-70%20191%208541" target=3D"_blank">
++46-70 191 8541</a><br>
+------------------------------------------------------------------------<u>=
+</u><u></u></span></p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:black"><u></u>=C2=A0<u></u></span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+</div></div></div>
+</div>
+
+</blockquote></div><br></div>
+
+--001a11c2a13e07aee30519325dc8--

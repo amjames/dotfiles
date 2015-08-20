@@ -1,0 +1,127 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1617139qgt;
+        Fri, 14 Aug 2015 08:09:48 -0700 (PDT)
+X-Received: by 10.140.47.44 with SMTP id l41mr33044246qga.5.1439564988083;
+        Fri, 14 Aug 2015 08:09:48 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id j2si9911097qgj.0.2015.08.14.08.09.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:09:48 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) client-ip=192.254.112.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.98 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o3.sgmail.github.com (o3.sgmail.github.com [192.254.112.98])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EF9fj2029874
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 11:09:46 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=IQDL8zUORE7UQvYNO2h9c2wUhSk=; b=fP7uB3LxQPn0mp2p
+	1Hips4eY1JT4SWbnT60HUI9tEu7WUoDfmnZ1HrXBOfY+8Xmq83y/Gcm8G4jGwuEW
+	bjIwVRRnLpTvIlO4VHRNe6rM5YdTyhgk771F3ZjopUsgvE+Rl0ZQgzw3c+YFLAyo
+	FgjqMYnP0RX4jXfF+ffRl+FrwGs=
+Received: by filter0796p1mdw1.sendgrid.net with SMTP id filter0796p1mdw1.16874.55CE04B31
+        2015-08-14 15:09:39.082455578 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0004p1iad1.sendgrid.net (SG) with ESMTP id 6QPCM52QQGGhMiQxoN8dMQ
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 15:09:38 +0000 (UTC)
+Date: Fri, 14 Aug 2015 08:09:38 -0700
+From: Eugene DePrince <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642c970f50813b2134fbc01144a59ce200be59b395092cf0000000111e5c6b292a169ce0603ca40@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/164/c131141242@github.com>
+In-Reply-To: <psi4/psi4public/pull/164@github.com>
+References: <psi4/psi4public/pull/164@github.com>
+Subject: Re: [psi4public] Fix CMake finding proper python (#164)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ce04b293a33_dc93fcee12432a01261da";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: edeprince3
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642c970f50813b2134fbc01144a59ce200be59b395092cf0000000111e5c6b292a169ce0603ca40@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642c970f50813b2134fbc01144a59ce200be59b395092cf0000000111e5c6b292a169ce0603ca40@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qrce5Ig4x_uJojNt9uq0p-xTpxVzks5onfwygaJpZM4FrZfz>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Ik5v5/LeluQDcF4HH7qWp9kVKTwzsX5VqZlG+
+ ejlcndzIgF+vVWeKYRqNBrl7P+d5DxU3Uo0DGcaWZatRYp6yKRNDck6BF4+kYaLo69Gr3j/RfZC979
+ V4sq9n1BZCE+04Y=
+X-Spam-Status: No, score=-2.4 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ce04b293a33_dc93fcee12432a01261da
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yes, this breaks psi on my macbook.
+
+On Aug 14, 2015, at 8:24 AM, Justin Turney <notifications@github.com> wrote:
+
+> Okay, I might've jumped the gun on this. It's not working on my Mac box. =
+It might just be my box and not others. Could someone else test on their sy=
+stem? The issue I'm seeing is my system Python 2 libraries are not being ad=
+ded to the link command. Will test against my homebrew version.
+>=20
+> =E2=80=94
+> Reply to this email directly or view it on GitHub.
+>=20
+
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/164#issuecomment-131141242=
+
+----==_mimepart_55ce04b293a33_dc93fcee12432a01261da
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yes, this breaks psi on my macbook.<br>
+<br>
+On Aug 14, 2015, at 8:24 AM, Justin Turney &lt;notifications@github.com&gt;=
+ wrote:<br>
+<br>
+&gt; Okay, I might&#39;ve jumped the gun on this. It&#39;s not working on m=
+y Mac box. It might just be my box and not others. Could someone else test =
+on their system? The issue I&#39;m seeing is my system Python 2 libraries a=
+re not being added to the link command. Will test against my homebrew versi=
+on.<br>
+&gt; <br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub.<br>
+&gt; <br>
+<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&mda=
+sh;<br>Reply to this email directly or <a href=3D"https://github.com/psi4/p=
+si4public/pull/164#issuecomment-131141242">view it on GitHub</a>.<img alt=
+=3D"" height=3D"1" src=3D"https://github.com/notifications/beacon/AIn2QkK7F=
+Bq5fS9WtLbruYELwmhywN9fks5onfwygaJpZM4FrZfz.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+<div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAction=
+">
+  <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4public/pull/16=
+4#issuecomment-131141242"></link>
+  <meta itemprop=3D"name" content=3D"View Pull Request"></meta>
+</div>
+<meta itemprop=3D"description" content=3D"View this Pull Request on GitHub"=
+></meta>
+</div>
+
+----==_mimepart_55ce04b293a33_dc93fcee12432a01261da--

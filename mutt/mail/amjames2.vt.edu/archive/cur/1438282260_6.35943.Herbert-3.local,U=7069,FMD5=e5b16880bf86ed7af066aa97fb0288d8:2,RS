@@ -1,0 +1,77 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3067276qgt;
+        Wed, 6 May 2015 09:11:12 -0700 (PDT)
+X-Received: by 10.140.195.73 with SMTP id q70mr44181811qha.70.1430928671681;
+        Wed, 06 May 2015 09:11:11 -0700 (PDT)
+Return-Path: <vppatel7@vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id v69si2089298qge.71.2015.05.06.09.11.11
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 06 May 2015 09:11:11 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vppatel7@vt.edu does not designate 209.85.220.174 as permitted sender) client-ip=209.85.220.174;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vppatel7@vt.edu does not designate 209.85.220.174 as permitted sender) smtp.mail=vppatel7@vt.edu
+Received: from mail-qk0-f174.google.com (mail-qk0-f174.google.com [209.85.220.174])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t46GB5U3015309
+	for <amjames2@vt.edu>; Wed, 6 May 2015 12:11:10 -0400
+Received: by qkx62 with SMTP id 62so9216810qkx.0
+        for <amjames2@vt.edu>; Wed, 06 May 2015 09:11:05 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=qRNAogt/s1liJ0KT8Mu0p0tf+nLucv99zJYE8Fu/ih4=;
+        b=LC9v+Q0U8EKR0bnIaa4T7Ijcvw5tSKdpCVIyNA9N1Ma9kv5L/lfgmjRvZ5RT6Q/6XM
+         QwVuenV/FdoJxwsN/jLOTHrme4eTBVINcQ/hukBkPaNucsfuJW71WKB1UyMtxR/Q2tjr
+         ltVR5BF4Mqd+eRSXpYkvMUEypI0xJpvuwHDdILa2oa7KvBC1Q3bTkh1hM+vM1fO8hmYD
+         l2uEeRgRd4JhDn6rpwm83bNjOttJGYRtnaNuV5cFo5fCo17p4K2FfmD2tUuxg7gW/yGX
+         4F7wtR989sEYWeWtd1D94doh+TjsRL59O3JG0BSC/JIoTgp24sSkdN14FoisxGys1HxQ
+         JUAg==
+X-Gm-Message-State: ALoCoQmQQ0VSTFqtc+iTHB+a5HXj6yfU6+1F/lvFjUYFzVeryeF7x3Sys52MeUhPhawEv8I2PHuFO7UAotdDbEHZeTe3jkCgfSKIqT/pbsGaFHa295YwgfOd60nzd/Vlp1DQ9LZyKYwpGMRZlMJWKHDf8xJwyJ7R1w==
+X-Received: by 10.55.21.166 with SMTP id 38mr11094377qkv.88.1430928665219;
+        Wed, 06 May 2015 09:11:05 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.55.21.166 with SMTP id 38mr11094360qkv.88.1430928665132;
+ Wed, 06 May 2015 09:11:05 -0700 (PDT)
+Received: by 10.140.238.193 with HTTP; Wed, 6 May 2015 09:11:05 -0700 (PDT)
+Date: Wed, 6 May 2015 12:11:05 -0400
+Message-ID: <CAAHHLtWpYTiA-mrJvW_n9Fcx3HG0fASN=sxyHwNGhOpeTqp06Q@mail.gmail.com>
+Subject: Chem Lab Grades
+From: Vidhi Patel <vppatel7@vt.edu>
+To: amjames2@vt.edu
+Content-Type: multipart/alternative; boundary=001a1147efcec8d3d205156c0a19
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1147efcec8d3d205156c0a19
+Content-Type: text/plain; charset=UTF-8
+
+Andrew,
+
+I just checked my grades for chem lab after you sent out the email that all
+of the grades were in. I was just wondering why I still have a 0 for lab
+12. I did the report and I know I turned it in. I also know that my lowest
+report gets dropped but I just wanted to know the reason for why there is
+no grade at all.
+
+Thanks,
+VIdhi Patel
+
+--001a1147efcec8d3d205156c0a19
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>Andrew,<br><br></div>I just checked my grad=
+es for chem lab after you sent out the email that all of the grades were in=
+. I was just wondering why I still have a 0 for lab 12. I did the report an=
+d I know I turned it in. I also know that my lowest report gets dropped but=
+ I just wanted to know the reason for why there is no grade at all.<br><br>=
+</div>Thanks,<br></div>VIdhi Patel<br></div>
+
+--001a1147efcec8d3d205156c0a19--

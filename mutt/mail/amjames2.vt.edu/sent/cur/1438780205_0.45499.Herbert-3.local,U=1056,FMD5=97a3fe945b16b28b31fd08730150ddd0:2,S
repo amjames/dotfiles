@@ -1,0 +1,43 @@
+Return-Path: <amjames2@vt.edu>
+Received: from localhost ([2601:5c0:c000:360:ad:20a6:b973:1399])
+        by smtp.gmail.com with ESMTPSA id c88sm1211952qge.40.2015.08.05.04.32.10
+        for <crawdad@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 04:32:10 -0700 (PDT)
+Date: Wed, 5 Aug 2015 07:32:09 -0400
+From: Andrew M James <amjames2@vt.edu>
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+Subject: Re: Polyradicals
+Message-ID: <20150805113209.GA42426@Herbert-3.local>
+References: <CAH0V_1YdG=91KpY2n-6r3ioFHBp8-P-4agm7YVLJBm=KnV3SUw@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <CAH0V_1YdG=91KpY2n-6r3ioFHBp8-P-4agm7YVLJBm=KnV3SUw@mail.gmail.com>
+User-Agent: Mutt/1.5.23 (2014-03-12)
+
+Hi Dr. Crawford, 
+    
+    I don't mind at all! I am very grateful for all of help, and I agree
+    identifying these issues would have went much slower had you not
+    stepped in.
+
+    I have been trying to compute the UHF NOONs as described in the paper.  
+    I thought we were still interested in those results, but if Prof. Lischka 
+    and you don't think it will be necessary I will give that up.  If that is 
+    something we need to look at I would need some help figuring out what 
+    I am doing incorrectly. I have so far not been able to reproduce 
+    their results (I am getting occupation numbers greater than two).
+
+    I have continued with the computations of (4), but I was not forcing
+    Cs symmetry. I can not actually get the stability analysis to converge
+    in C2h (DLU solver keeps hitting the iteration limit even after I
+    double the maximum). I don't know if this is concerning or not, but I have
+    changed the input to run in Cs symmetry.
+
+    Thanks,
+    --AJ
+
+
+
+    

@@ -1,0 +1,2297 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2672295qgt;
+        Tue, 11 Aug 2015 13:29:11 -0700 (PDT)
+X-Received: by 10.55.40.162 with SMTP id o34mr26841405qko.106.1439324951743;
+        Tue, 11 Aug 2015 13:29:11 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id l62si5518034qge.55.2015.08.11.13.29.11
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 13:29:11 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 209.18.70.122 as permitted sender) client-ip=209.18.70.122;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 209.18.70.122 as permitted sender) smtp.mailfrom=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@rmsend.com
+Received: from mail-ig0-x22a.google.com (mail-ig0-x22a.google.com [IPv6:2607:f8b0:4001:c05::22a])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BKSsRP013786
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 16:28:59 -0400
+Received: by igfj19 with SMTP id j19so80588301igf.1
+        for <amjames2@vt.edu>; Tue, 11 Aug 2015 13:28:54 -0700 (PDT)
+X-Received: by 10.50.109.233 with SMTP id hv9mr20903254igb.92.1439324934081;
+        Tue, 11 Aug 2015 13:28:54 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp2734135iee;
+        Tue, 11 Aug 2015 13:28:51 -0700 (PDT)
+X-Received: by 10.140.145.16 with SMTP id 16mr54565922qhr.34.1439324931346;
+        Tue, 11 Aug 2015 13:28:51 -0700 (PDT)
+Received: from mail122.magnetmail.net (mail122.magnetmail.net. [209.18.70.122])
+        by mx.google.com with ESMTP id 44si5520568qgj.54.2015.08.11.13.28.50
+        for <andrew.m.james2@gmail.com>;
+        Tue, 11 Aug 2015 13:28:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of acs@mmsend73.com designates 209.18.70.122 as permitted sender) client-ip=209.18.70.122;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=fbl; d=rmsend.com;
+ h=Date:From:To:Subject:Feedback-ID:MIME-Version:Content-Type:Message-ID;
+ bh=OPcFsgvDalzGKqWLTx6KdgaGUXg=;
+ b=Hcyjfi1M+ny6A20J43K1AWg6JhhRaHGumFQyE4HNgT3boBvpF2KG5NcNJEClvVZqRaJ20X7oPGga
+   e0Eg/xrY8OKiUKwxn15PIRqf42Cw4t31Dx/HOZg93GD6twu1wq91PTPS1AAR8yupiSB7lZd5io18
+   4LfjFmM3QNlk1k290GY=
+Received: from RMPMTA01 (172.16.122.1) by mail122.magnetmail.net id hp9dg615hf88 for <andrew.m.james2@gmail.com>; Tue, 11 Aug 2015 16:28:44 -0400 (envelope-from <acs@mmsend73.com>)
+Date: Tue, 11 Aug 2015 16:28:42 -0400
+From: "American Chemical Society" <ACSNewsletterEditor@acs.org>
+To: <andrew.m.james2@gmail.com>
+Subject: ACS Weekly Newsletter for August 11, 2015
+X-TokenInfo-NoToken:
+Feedback-ID: 8957:8957_757673:8957_29197017:realmagnet
+x-jobid: 29197017
+X-Bps1: 27101717690
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_NextPart_000_10722060_2015811_162842239"
+Message-ID: <0.0.0.98.1D0D47451C9927F.324CC@mail122.magnetmail.net>
+X-Spam-Status: No, score=0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,LOTS_OF_MONEY,MIME_QP_LONG_LINE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_NextPart_000_10722060_2015811_162842239
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Please copy and paste the link into your web browser:
+https://www.magnetmail.net/actions/email_web_version.cfm?recipient_id=3D=
+861332476&message_id=3D10722060&user_id=3DACS1&VERSION=3DTEXT&group_=
+id=3D757673&jobid=3D29197017=0A=0D"ACS MATTERS" NEWSLETTER
+
+AUGUST 11, 2015
+
+*************************************************************
+ACS MATTERS LINKS
+
+To join ACS, visit https://www.join.acs.org/oma?sc=3D15NEWSAD1od
+
+To update your ACS ID profile, log in at http://www.acs.org/content/acs/en/=
+help/change-your-contact-information.html
+
+To send feedback about "ACS Matters," please e-mail ACSNewsletterEditor@acs=
+.org, with "Feedback" in the subject line
+
+For information about advertising in "ACS Matters," please e-mail ACSNewsle=
+tterEditor@acs.org, with "Advertising inquiry" in the subject line
+
+To read archived editions of "ACS Matters," visit http://www.acs.org/conten=
+t/acs/en/membership-and-networks/acsmatters.html
+=20
+To prevent this newsletter from being rejected by your SPAM filters or rout=
+ed to your junk mail folder, please add our address (ACSNewsletterEditor@ac=
+s.org) to your address book, safe list, or white list.
+
+
+*************************************************************
+IN THIS ISSUE...
+
+- Feature: The ACS Strategic Plan for 2015 and Beyond
+- My ACS Story: Adrian Dingle - I CONNECT with My ACS
+- Advance Yourself & Your Science: Compound Interest, Chemistry Infographic=
+ Creator on ACS Webinars=AE
+- ACS Career Navigator[tm]: Don't Miss Your Opportunity to Network with To=
+p Employers at the ACS Career Fair
+- ACS News
+- pHun & Games
+
+Thank you for reading this email newsletter - we're trying to do our part t=
+o care for the environment by keeping you up-to-date while using as little =
+paper as possible!
+
+
+*************************************************************
+FEATURE
+
+The ACS Strategic Plan for 2015 and Beyond (http://strategy.acs.org/)
+
+The ACS Strategic Plan for 2015 and Beyond (http://strategy.acs.org/) refle=
+cts the Society's vision of "Improving people's lives through the transform=
+ing power of chemistry." Developed by the ACS Board of Directors with input=
+ from our members, the 2015 plan marks a new set of strategic objectives th=
+at address the challenges that chemists and chemistry face. The plan is our=
+ blueprint for how the Society continues to support members and provides va=
+lue to the chemistry enterprise.=A0
+
+The Plan's Foundation
+In addition to the ACS Vision, our Mission to "Advance the broader chemistr=
+y enterprise and its practitioners for the benefit of Earth and its people,=
+" is part of the plan's foundation. As we pursue the ACS Goals, we systemat=
+ically apply the Core Values of passion for chemistry in the broadest sense=
+, focus on members, professionalism, and diversity and inclusion.=A0
+
+2015 and Beyond
+Our priorities for 2015 and beyond are reflected in four goals that have be=
+en developed to best achieve the Society's vision. The ACS will marshal our=
+ unique resources to:
+
+- Provide Information---be the most authoritative, comprehensive, and indis=
+pensable provider of chemistry-related information.
+
+- Advance Member Careers---empower an inclusive community of members with n=
+etworks, opportunities, resources, and skills to thrive in the global econo=
+my.
+
+- Improve Education---foster the development of the most innovative, releva=
+nt, and effective chemistry education in the world.
+
+- Communicate Chemistry's Value---communicate chemistry's vital role in add=
+ressing the world's challenges to the public and policymakers.
+
+Get Involved!
+Visit strategy.acs.org (http://strategy.acs.org/) to learn more about how t=
+he Society provides valuable support, and explore the ways you can "Get Inv=
+olved" on a grassroots level to direct the path of your Society. Under each=
+ goal is a list of activities informed by challenges and opportunities to m=
+ake meaningful change. Share your thoughts on this plan and the direction f=
+or the future at strategicplan@acs.org (mailto:strategicplan@acs.org).
+
+
+*************************************************************
+MY ACS STORY
+
+Adrian Dingle: I CONNECT with My ACS (http://www.my.acs.org/home/index/261?=
+cid=3Demail_myacs_acsmatters_08_11_15)
+
+Read how ACS and Chemical & Engineering News help educator and author Adria=
+n Dingle stay current (http://www.my.acs.org/home/index/261?cid=3Demail_mya=
+cs_acsmatters_08_11_15) on new developments in the chemical sciences.=A0
+
+While you're at the My ACS Story (http://www.my.acs.org/?cid=3Demail_myacs_=
+acsmatters_08_11_15) website, you can read stories from other members and s=
+ee how they are taking advantage of their membership. If you submit your ow=
+n story (http://www.my.acs.org/?cid=3Demail_myacs_acsmatters_tuys_08_11_15)=
+ to us and we publish it, we'll send you a free My ACS t-shirt as our way o=
+f saying thank you!
+
+Tell Us Your Story: http://www.my.acs.org/?cid=3Demail_myacs_acsmatters_tuy=
+s_08_11_15
+
+Learn More About ACS Membership: http://www.acs.org/content/acs/en/membersh=
+ip-and-networks/acs/join/benefits-of-my-acs-membership.html?cid=3Demail_mya=
+cs_acsmatters_learnmore_08_11_15
+
+Visit ACS.org: http://www.acs.org/content/acs/en.html?cid=3Demail_myacs_acs=
+matters_visitacs_08_11_15
+
+
+*************************************************************
+ADVANCE YOURSELF & YOUR SCIENCE
+=A0
+Compound Interest, Chemistry Infographic Creator on ACS Webinars=AE (http:/=
+/www.acs.org/content/acs/en/acs-webinars/professional-development/visual-ch=
+emistry.html)
+
+The use of "infographics" is becoming more prevalent as a way to easily sha=
+re information visually, and ACS=A0Webinars=AE will explore this trend with=
+ a special event,=A0"Science Communication Today: Chemistry by Design," (ht=
+tp://www.acs.org/content/acs/en/acs-webinars/professional-development/visua=
+l-chemistry.html) on Thursday, August 13, 2015, 2:00-3:00 PM ET. Join Andy =
+Brunning, creator of Compound Interest (http://www.compoundchem.com/), and =
+Adam Dylewski, manager of the ACS Reactions (https://www.youtube.com/user/A=
+CSReactions/videos) video series, as they examine how images and design can=
+ be harnessed to communicate chemistry effectively. Brunning will share how=
+ and why he created Compound Interest, discuss his most popular chemistry i=
+nfographics, and explore how to present chemical information for a lay audi=
+ence.=A0
+
+Recordings of previous ACS Webinars=AE are available as a benefit to curren=
+t ACS members. Live weekly ACS Webinars=AE (http://acswebinars.org/) contin=
+ue to be available to the general public.
+
+ -------------------------------------------------------------=A0
+
+From C&EN, Must-See Presenters at the Boston National Meeting (http://cenm.=
+ag/bost)
+
+In search of worthwhile speakers to fill your schedule for the upcoming 250=
+th ACS=A0National Meeting & Exposition (http://www.acs.org/boston2015) in B=
+oston? Yearning to learn how lobster shells can be converted into bioplasti=
+cs? Or how scientists analyze GMO crops? C&EN's Boston Meeting Mania! (http=
+://cenm.ag/bost) list has got you covered.=A0
+
+To find presentation times and locations, as well as things to do around Be=
+antown, visit C&EN's guide to all the best of the Boston meeting (http://ce=
+nm.ag/bost)!
+
+ -------------------------------------------------------------=A0
+
+Review Agenda and Register Today for 3rd Annual ACS=A0Entrepreneurial Summi=
+t (http://www.acs.org/content/acs/en/careers/career-services/resourcecenter=
+/events/2015-acs-entrepreneurial-summit.html)=20
+
+The agenda has been finalized for the 3rd Annual ACS Entrepreneurial Summit=
+ (http://www.acs.org/content/acs/en/careers/career-services/resourcecenter/=
+events/2015-acs-entrepreneurial-summit.html), Sept. 17-18, 2015 in Washingt=
+on, DC.This year's theme, "Spotlighting the Efforts of Large & Small Chemis=
+try-Based Innovators," highlights the importance of innovative entrepreneur=
+s, industry leaders, investors, policy makers, and academic scientists in r=
+esearch processes to further the transforming power of chemistry.=A0
+
+The event features Corporate Spotlights from nine industry innovators, a mo=
+rning keynote by entrepreneurialism expert and professor Rita Gunther McGra=
+th, opening remarks by ACS President Diane Grob Schmidt, and an afternoon k=
+eynote speech by ACS Executive Director and CEO Thomas M. Connelly, Jr. Reg=
+ister today! (https://www.eventbrite.com/e/3rd-annual-acs-entrepreneurial-s=
+ummit-tickets-14965728898)
+
+
+*************************************************************
+ACS CAREER NAVIGATOR[tm]
+=20
+Don't Miss Your Opportunity to Network with Top Employers at the ACS Career=
+ Fair (http://www.acs.org/content/acs/en/careers/career-services/careerfair=
+.html?cid=3Dnews_cpa_careerfairreg_acsmttrs_8_11_15)
+
+The member-only ACS Career Fair (http://www.acs.org/content/acs/en/careers/=
+career-services/careerfair.html?cid=3Dnews_cpa_careerfairreg_acsmttrs_8_11_=
+15) at the ACS National Meeting in Boston (http://www.acs.org/content/acs/e=
+n/meetings/fall-2015.html?cid=3Dnews_cpa_natlmtg_acsmttrs_8_11_15) is your =
+chance to gain a competitive edge in your career. Once you've registered fo=
+r the National Meeting make sure to upload your resume and create a job see=
+ker profile in order to have the chance to meet with top employers in the c=
+hemical field. Also, you will be able to get a professional headshot taken =
+on site so that you can put your best foot forward on your social media pro=
+files. Additionally, ensure that you have a top-notch resume and perfect yo=
+ur interview skills by setting an appointment with our ACS Career Consultan=
+ts (http://www.acs.org/content/acs/en/careers/career-services/ccp.html?cid=
+=3Dnews_cpa_careerconsult_acsmttrs_8_11_15). =0ADon't miss out, register to=
+day (http://www.acs.org/content/acs/en/careers/career-services/careerfair.h=
+tml?cid=3Dnews_cpa_careerfairreg_acsmttrs_8_11_15)!
+
+ -------------------------------------------------------------=A0
+
+ACS is Your Resource for Training in Analytical Chemistry (http://www.proed=
+.acs.org/?utm_source=3Dacsmatters&utm_medium=3Dnewsletter&utm_term=3Danly&u=
+tm_content=3Dproedhome&utm_campaign=3Dbestsellers)
+
+If you're involved with analytical chemistry, it's important to stay on top=
+ of current trends and new technology. That's why ACS Professional Educatio=
+n (http://proed.acs.org/?utm_source=3Dacsmatters&utm_medium=3Dnewsletter&ut=
+m_term=3Danly&utm_content=3Dproedhome&utm_campaign=3Dbestsellers) is commit=
+ted to bringing you the most up-to-date training taught by top-notch instru=
+ctors in the field. Learn to quickly and accurately interpret data from mas=
+s spec analysis in Analysis and Interpretation of Mass Spectral Data (http:=
+//proed.acs.org/course-catalog/courses/analysis-and-interpretation-of-mass-=
+spectral-data/?utm_source=3Dacsmatters&utm_medium=3Dnewsletter&utm_term=3Da=
+nly&utm_content=3Daims&utm_campaign=3Dbestsellers), or gain an understandin=
+g of how to develop a method from scratch and how to reduce your analysis t=
+ime by 50 to 90 percent in Practical and Applied Gas Chromatography (http:/=
+/proed.acs.org/course-catalog/courses/practical-and-applied-gas-chromatogra=
+phy/?utm_source=3Dacsmatters&utm_medium=3Dnewsletter&utm_term=3Danly&utm_co=
+ntent=3Dpagc&utm_campaign=3Dbestsellers). =0AFor more information and to re=
+gister, visit www.ProEd.acs.org (http://www.proed.acs.org/?utm_source=3Dacs=
+matters&utm_medium=3Dnewsletter&utm_term=3Danly&utm_content=3Dproedhome&utm=
+_campaign=3Dbestsellers).
+
+ -------------------------------------------------------------=A0
+
+What is the ACS Insight Lab, and Why is it Important to Me? (https://www.ac=
+sinsightlab.com/R.aspx?a=3D84)
+
+ACS has a new community of online advisors, the ACS Insight Lab (https://ww=
+w.acsinsightlab.com/R.aspx?a=3D84), that serves as a forum for ACS members =
+to share feedback on how we can better serve our members and the broader ch=
+emistry community. When you join the ACS Insight Lab, you will be able to o=
+ffer insights and experience to help shape the future of ACS as a scientifi=
+c society.=A0
+
+As an ACS member, we would like to invite you to join the ACS Insight Lab (=
+https://www.acsinsightlab.com/R.aspx?a=3D84) between August 4 and August 14=
+ to be entered into a raffle for a $100 gift card.=A0Have questions about t=
+he ACS Insight Lab? Please contact us at support@ACSInsightLab.com (mailto:=
+support@ACSInsightLab.com).
+
+
+*************************************************************
+ACS NEWS
+
+Medals for USA Team at the 47th International Chem Olympiad (http://www.acs=
+.org/content/acs/en/education/students/highschool/olympiad.html)
+
+The U.S. National Chemistry Olympiad Program proudly announce the success o=
+f the Alpha Theta Team at the 47th International Chemistry Olympiad (http:/=
+/www.acs.org/content/acs/en/education/students/highschool/olympiad.html) co=
+mpetition, which concluded July 29, 2015, in Baku, Azerbaijan.=A0David Wang=
+ (Monta Vista High School, CA) won the seventh-highest-ranking gold medal a=
+s well as the highest score in the lab practical examination. Soorajnath Bo=
+ominathan (Oklahoma School of Science and Mathematics), Bryce Cai (Barringt=
+on High School, IL), and Janice Ong (Thomas Jefferson High School for Scien=
+ce and Technology, VA) each earned a silver medal.=A0The USA Team competed =
+against 286 students from 74 countries. Congratulations Team USA for this g=
+reat achievement!
+
+ -------------------------------------------------------------=A0
+
+Abstract and Exhibitor Deadlines Approaching for 2015 Western Regional Meet=
+ing (http://www.acswrm.org/)
+
+Two important deadlines for the 45th ACS=A0Western Regional Meeting (http:/=
+/www.acswrm.org/) (WRM) are approaching. August 15 is the deadline for Exhi=
+bitors to get the early rate on space, and August 26 is the deadline for po=
+ster and presentations abstracts. Two poster sessions and mixers are schedu=
+led, so "test drive" your presentation for the 2016 ACS National Meeting in=
+ San Diego by joining us at WRM 2015 this November! Contact us at WRM2015Ch=
+air@gmail.com (mailto:WRM2015Chair@gmail.com), or visit us at www.acswrm.or=
+g (http://www.acswrm.org) for links to abstract submittal and other meeting=
+ information.
+
+ -------------------------------------------------------------=A0
+
+Pharma Roundtable Offers Three $50,000 Grants, Deadline August 28th (http:/=
+/www.acs.org/content/dam/acsorg/greenchemistry/industriainnovation/roundtab=
+le/2015-acs-gcipr-flow-chemistry-rfp.pdf)=20
+
+The ACS Green Chemistry Institute (GCI) Pharmaceutical Roundtable (http://w=
+ww.acs.org/content/acs/en/greenchemistry/industry-business/pharmaceutical.h=
+tml) is seeking to fund a one- to two-year R&D program to address the Round=
+table's initiatives in flow chemistry. Areas of interest include, but are n=
+ot limited to, photo redox chemistry, photochemistry, and biocatalysis in f=
+low. Proposals will be accepted from public and private institutions of hig=
+her education worldwide. Up to three grants are to be awarded. Each grant i=
+s limited to $50,000 for a grant period of 12 to 24 months. Submissions mus=
+t be a single pdf file submitted via email to gcipr@acs.org.=A0Click here f=
+or more information and to download the RFP (http://www.acs.org/content/dam=
+/acsorg/greenchemistry/industriainnovation/roundtable/2015-acs-gcipr-flow-c=
+hemistry-rfp.pdf). Deadline for receipt of proposals is August 28, 2015, at=
+ 5:00 =0APM ET. For additional grant opportunities, please visit the GCI Re=
+search Grants & Awards (http://www.acs.org/content/acs/en/greenchemistry/re=
+search-innovation/research-grants-and-awards.html) page.
+
+ -------------------------------------------------------------=A0
+
+Up to $1000 Travel Award to Attend ACS Meeting (http://www.acs.org/content/=
+acs/en/funding-and-awards/awards/other/travel/wcctravelaward.html)=20
+
+Deadlines are rapidly approaching for the ACS Women Chemists Committee (WCC=
+)/Eli Lilly Travel Award (http://www.acs.org/content/acs/en/funding-and-awa=
+rds/awards/other/travel/wcctravelaward.html). This award is for undergradua=
+te/graduate women who would like to present at the ACS National Meeting in =
+San Diego in March 2016. Eligible candidates will receive up $1000 to prese=
+nt at that meeting. For more information and to apply, please visit the WCC=
+/Eli Lilly Travel Award web page (http://www.acs.org/content/acs/en/funding=
+-and-awards/awards/other/travel/wcctravelaward.html); the deadline for appl=
+ications is September 15, 2015.
+
+ -------------------------------------------------------------=A0
+
+Outstanding Accomplishments and Service: Meet the New Class of ACS Fellows =
+(http://www.acs.org/fellows)
+
+At the upcoming ACS National Meeting in Boston, 78 ACS Members will be cele=
+brated as new ACS Fellows (http://www.acs.org/fellows), in a ceremony hoste=
+d by ACS Immediate Past-President Thomas J. Barton. In announcing the 2015 =
+class of ACS Fellows (http://www.acs.org/content/acs/en/funding-and-awards/=
+fellows/list-of-2015-acs-fellows.html), ACS President Diane Grob Schmidt sa=
+id, "I would like to thank the 2015 ACS Fellows for their service to the So=
+ciety and to chemistry. Their dedication has strengthened our field as well=
+ as our Society, and their enthusiasm serves as an inspiration to other ACS=
+ members." The 2015 class of Fellows represents 25 National Committees, 31 =
+Divisions, and 48 Local Sections of the ACS. Additional information about t=
+he program, including a list of fellows named in earlier years, is at www.a=
+cs.org/fellows (http://www.acs.org/fellows).
+
+ -------------------------------------------------------------=A0
+
+ACS=A0Scholars Anniversary Symposia in Boston (http://www.acs.org/content/a=
+cs/en/funding-and-awards/scholarships/acsscholars.html)
+
+This year marks the 20th anniversary of the ACS Scholars Program. To celebr=
+ate this milestone, two symposia will take place at the upcoming ACS Nation=
+al Meeting in Boston, on Monday, August 17, 2015: ACS Scholars: Rising Star=
+s in Academe (8:30-11:30 AM) and ACS Scholars: Rising Stars in Industry (1:=
+45-4:45 PM), both in the Sheraton Boston Hotel, Back Bay Ballroom A. The pa=
+nels will each consist of a moderator and five ACS Scholars Program graduat=
+es, each of whom will tell the story of their own educational trajectory. P=
+lease plan to join this celebration of the ACS=A0Scholars Program (http://w=
+ww.acs.org/content/acs/en/funding-and-awards/scholarships/acsscholars.html)!
+
+ -------------------------------------------------------------=A0
+
+Spanish Webinar Recordings Now Available
+
+Calling all Spanish-speaking chemists! Have you heard of the new collaborat=
+ion between ACS=A0and the Sociedad Qu=EDmica de M=E9xico (SQM) to produce f=
+our chemistry themed webinars in Spanish this year? The first two recording=
+s are available to be viewed and shared at your convenience: "Panorama Nano=
+tecnol=F3gico: Desarrollo de Sistemas Biol=F3gicos y la Nanomedicina," (htt=
+p://www.acs.org/content/acs/en/acs-webinars/spanish/panorama-nanotecnologic=
+o.html) and "Panorama Energ=E9tico en la Era de la Sostenibilidad: Energ=ED=
+as Renovables y Dispositivos Emergentes." (http://www.acs.org/content/acs/e=
+n/acs-webinars/spanish/energetico-sustentable.html) We would like to extend=
+ a special thanks to Dr. Thomas Barton, the ACS Immediate Past President, f=
+or creating this opportunity to bring these two chemical societies together=
+ as well as the great support of Dr. Ingrid Montes of ACS and Dr. Lena Ruiz=
+ Azuara of SQM =0Afor the curation and organization of the series. Join us =
+on Wednesday, September 23rd, for the next installment.
+
+ -------------------------------------------------------------=A0
+
+NCTA: Call for Nominations (http://www.acs.org/ncta)=20
+
+The call for nominations for the 2016 National Chemical Technician Award (N=
+CTA) (http://www.acs.org/ncta) is now open. Nominees must be currently empl=
+oyed as chemical technicians and must have worked in that role for a minimu=
+m of five years. Nominees do not need to be ACS members. The award will con=
+sist of a trip for the winner to the Spring 2016 ACS=A0National Meeting in =
+San Diego. Additionally, the awardee will receive a $1000.00 honorarium tha=
+t will be presented at the National Meeting. Nomination packets must be rec=
+eived by the Committee on Technician Affairs (CTA), no later than September=
+ 30, 2015. Visit www.acs.org/ncta (http://www.acs.org/ncta) for nomination =
+criteria and other details, or to download the nomination or re-nomination =
+form. Send questions to cta@acs.org (mailto:cta@acs.org).
+
+ -------------------------------------------------------------=A0
+
+Can I Throw This Away? (http://www.gftpln.org/Article.do?orgId=3D5393&artic=
+leId=3D28104)=20
+
+Discover when it's okay to finally get rid of those files on the ACS Legacy=
+ Planning website (http://www.gftpln.org/Article.do?orgId=3D5393&articleId=
+=3D28104). While there, download a free copy of Your Guide to Locating Impo=
+rtant Documents.
+
+ -------------------------------------------------------------=A0
+
+ACS=A0Industry Voices: New Homes Mean Jobs for Chemists (https://communitie=
+s.acs.org/community/society/industry-voices/blog/2015/08/06/buy-new-homes-c=
+hemists-need-jobs)=20
+
+ACS Industry Member Programs brings you the Industry Voices (https://commun=
+ities.acs.org/community/society/industry-voices) blog, with weekly posts th=
+at share stories, lessons, advice, and general musings from around the chem=
+ical technology field. In the latest entry, "Buy New Homes: Chemists Need J=
+obs!," (https://communities.acs.org/community/society/industry-voices/blog/=
+2015/08/06/buy-new-homes-chemists-need-jobs) Paul Hodges talks about the im=
+pact of the housing market on chemical industry companies.
+
+ -------------------------------------------------------------=A0
+
+Back-to-School Savings from Lenovo! (http://www.lenovo.com/americanchemical=
+society)=20
+
+Lenovo is providing back-to-school savings for ACS members in August! Take =
+advantage of instant savings of up to 38% on Lenovo laptops, tablets, deskt=
+ops, and more, plus free shipping on all orders placed online. To check out=
+ the latest technology offerings from Lenovo, visit www.lenovo.com/american=
+chemicalsociety (http://www.lenovo.com/americanchemicalsociety) or call 1-8=
+00-426-7235, ext. 3881.
+
+
+*************************************************************
+C&EN JOBS - LATEST POSTINGS (http://chemistryjobs.acs.org/jobs)=20
+
+Assistant / Associate / Full Professor, Medicinal Chemistry | Concordia Uni=
+versity Wisconsin | Mequon, WI (http://chemistryjobs.acs.org/jobs/7407192/a=
+ssistant-associate-full-professor-medicinal-chemistry)
+
+Assistant Professor | The University of Louisiana at Lafayette | Lafayette,=
+ LA (http://chemistryjobs.acs.org/jobs/7400864/assistant-professor)
+
+Assistant Professor of Inorganic Chemistry | Washington State University | =
+Pullman, WA (http://chemistryjobs.acs.org/jobs/7403859/assistant-professor-=
+of-inorganic-chemistry)
+
+Assistant or Associate Professor | Harvard Medical School | Boston, MA (htt=
+p://chemistryjobs.acs.org/jobs/7395877/assistant-or-associate-professor)
+
+Chemist | Sonneborn | Petrolia, PA (http://chemistryjobs.acs.org/jobs/73913=
+52/chemist)
+
+
+************************************************************* =A0
+ACS EDITORS' CHOICE - LATEST ARTICLE SELECTIONS (http://pubs.acs.org/editor=
+schoice/)=A0
+
+Active Sites of Au and Ag Nanoparticle Catalysts for CO2 Electroreduction t=
+o CO (http://pubs.acs.org/doi/full/10.1021/acscatal.5b00462)=A0
+
+Playing Tic-Tac-Toe with a Sugar-Based Molecular Computer (http://pubs.acs.=
+org/doi/full/10.1021/acs.jcim.5b00324)=A0
+
+Thin-Film Preparation and Characterization of Cs3Sb2I9: A Lead-Free Layered=
+ Perovskite Semiconductor (http://pubs.acs.org/doi/full/10.1021/acs.chemmat=
+er.5b01989)=A0
+
+Multifaceted Regioregular Oligo(thieno[3,4-b]thiophene)s Enabled by Tunabl=
+e Quinoidization and Reduced Energy Band Gap (http://pubs.acs.org/doi/full/=
+10.1021/jacs.5b05940)=A0
+
+View more open access articles at pubs.acs.org/editorschoice (http://pubs.a=
+cs.org/editorschoice).
+
+
+************************************************************* =A0
+C&EN - THIS WEEK'S NEWS ITEMS (http://cen.acs.org/)
+=20
+Modern Circuits From An Ultrathin Material (http://cen.acs.org/articles/93/=
+web/2015/08/Modern-Circuits-Ultrathin-Material.html)
+
+Studies Model The Effects Of Carbon Removal On Climate Change (http://cen.a=
+cs.org/articles/93/web/2015/08/Studies-Model-Effects-Carbon-Removal.html)
+
+More Protective Worker Exposure Limit For Beryllium Proposed (http://cen.ac=
+s.org/articles/93/web/2015/08/Protective-Worker-Exposure-Limit-Beryllium.ht=
+ml)
+
+PBS Docudrama Brings Discovery Of The Chemical Elements To Life (http://cen=
+.acs.org/articles/93/web/2015/08/PBS-Docudrama-Brings-Discovery-Chemical.ht=
+ml)
+
+Chemours Targets More Cutbacks (http://cen.acs.org/articles/93/web/2015/08/=
+Chemours-Targets-Cutbacks.html)
+
+One Mystery Of How Mussels Stick To Rocks, Boats Solved (http://cen.acs.org=
+/articles/93/web/2015/08/One-Mystery-Mussels-Stick-Rocks.html)
+
+Feed Additive Curbs Methane Emissions From Dairy Cows (http://cen.acs.org/a=
+rticles/93/web/2015/08/Feed-Additive-Curbs-Methane-Emissions.html)
+
+U.S. Food & Drug Administration Approves First 3-D Printed Drug (http://cen=
+.acs.org/articles/93/web/2015/08/US-Food-Drug-Administration-Approves.html)
+
+Shire Goes After Baxalta (http://cen.acs.org/articles/93/web/2015/08/Shire-=
+Goes-Baxalta.html)=A0=A0
+
+You can read C&EN online (http://cen.acs.org/) each week, and stay up to da=
+te with the latest news posted to C&EN on your smart phone using the free C=
+&EN=A0Mobile app (http://cenmobile.org/), or by subscribing to one of the C=
+&EN RSS feeds (http://cen.acs.org/static/about/rss_feeds.html).
+
+
+*************************************************************
+PHUN & GAMES
+
+Strawberry Fields, Maybe Not Forever (https://www.youtube.com/watch?v=3Dnoa=
+ec9-BmwU)=A0
+
+The "linchpin" pesticide used by strawberry growers in the U.S. will soon b=
+e completely phased out. Could this be the end of the delicious berries? Wa=
+tch the latest episode (https://www.youtube.com/watch?v=3Dnoaec9-BmwU) of C=
+&EN's Speaking of Chemistry to find out.=A0
+
+
+*************************************************************
+COPYRIGHT =A9 2015 AMERICAN CHEMICAL SOCIETY
+http://www.acs.org
+All rights reserved.
+
+"ACS Matters" is published by the American Chemical Society, Division of Me=
+mbership & Scientific Advancement, 1155 Sixteenth Street, NW, Washington, D=
+C 20036. =20
+=20
+This edition of "ACS Matters" was sent to all ACS members.=20
+
+To ensure that you continue to receive our emails, please add us to your ad=
+dress book or safe list.=20
+
+Unsubscribe from this e-mail newsletter and manage your other ACS e-mail pr=
+eferences at: https://www.emailpref.acs.org/=20
+
+
+--_NextPart_000_10722060_2015811_162842239
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html =0Axmlns=3D"http://www.w3.org/1999/xhtml"><head>
+   =0A <title>ACS Weekly Newsletter</title>
+    <meta =0Ahttp-equiv=3D"Content-Type" content=3D"text/html; charset=3DUT=
+F-8">
+    <style =0Atype=3D"text/css">
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	color: #006699;
+	text-decoration: underline;
+}
+</style>
+  </head>
+  <body =0Abgcolor=3D"#6699ff" text=3D"#000000">=0A<p>Trouble viewing this =
+message or on a mobile device <a =0Atarget=3D"_blank" href=3D"http://www.mm=
+send73.com/link.cfm?r=3D861332476&amp;sid=3D79711610&amp;m=3D1072=
+2060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://www.magnetmail.net/actio=
+ns/email_web_version.cfm?recipient_id=3D861332476&amp;message_id=
+=3D10722060&amp;user_id=3DACS1&amp;group_id=3D757673&amp;jobid=3D29197017">=
+click here</a></p>
+    <div =0Aalign=3D"center">
+      <table =0Acellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=
+=3D"#6699ff" style=3D"background-color:#6699ff">
+       =0A <tbody><tr>
+          <td =0Avalign=3D"top" align=3D"center">
+            <table =0Awidth=3D"750" cellpadding=3D"0" cellspacing=3D"0">
+             =0A <tbody><tr>
+                <td =0Astyle=3D"background-color:#fff;">
+                  <table =0Acellspacing=3D"0" cellpadding=3D"0" width=3D"75=
+0" style=3D"background-color:#fff;">
+                   =0A <tbody><tr>
+                      <td =0Avalign=3D"middle" width=3D"226" align=3D"left"=
+ style=3D"border-bottom: #01328f 0px solid; background-color: #ffffff; bord=
+er-top: #333333 0px solid">
+                        =0A<p =0Astyle=3D"font-family: Verdana,Arial,Helvet=
+ica,sans-serif; font-size: 11px">
+                          <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711611&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://portal.acs.org/portal/acs/corg/content">
+                           =0A =0A<br>
+                          </a>
+                          <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711612&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://portal.acs.org/portal/acs/corg/content">
+                            <img =0Aborder=3D"0" alt=3D"ACS logo" width=3D"=
+226" height=3D"76" src=3D"http://images.magnetmail.net/images/template/ACS1=
+/MattersTemplate/acs-logo.gif">
+                          </a>
+                        </p>
+                      </td>
+                      <td =0Avalign=3D"middle" width=3D"472" align=3D"left"=
+ style=3D"border-bottom: #01328f 0px solid; background-color: #ffffff; bord=
+er-top: 0px solid">=0A<p =0Aalign=3D"center" style=3D"font-family: Verdana,=
+Arial,Helvetica,sans-serif; font-size: 11px"><span =0Astyle=3D"line-height:=
+ 42px; font-style: oblique; font-family: Arial,Helvetica,sans-serif; color:=
+ #346a98; font-size: 42px; font-weight: bold">ACS Matters</span>           =
+                   =0A =0A<br>                              =0A <em>Your So=
+urce for the Latest News &amp; Events from the American Chemical Society</e=
+m></p>=0A<p =0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helveti=
+ca,sans-serif; font-size: 11px"><span =0Astyle=3D"font-family: Verdana,Aria=
+l,Helvetica,sans-serif; font-size: 11px">August 11, 2015</span></p></td>
+                    </tr>
+                   =0A <tr>
+                      <td =0Avalign=3D"middle" colspan=3D"2" align=3D"cente=
+r" style=3D"border-bottom: 0px; background-color: #ffffff; border-top: #333=
+333 0px solid">=0A<p =0Aalign=3D"center" style=3D"font-family: Verdana,Aria=
+l,Helvetica,sans-serif; font-size: 10px"><a =0Ahref=3D"http://www.mmsend73.=
+com/link.cfm?r=3D861332476&amp;sid=3D79711613&amp;m=3D10722060&am=
+p;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://www.join.acs.org/oma?sc=3D15NEW=
+SAD1od">join ACS</a>                               |                       =
+        <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711614&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=
+=3Dhttp://www.acs.org/content/acs/en/help/change-your-contact-information.h=
+tml">update profile</a>                               |                    =
+           <a =0Ahref=3D"mailto:ACSNewsletterEditor@acs.org?subject=3DFeedb=
+ack%20about%20ACS%20Newsletter">send feedback</a>                          =
+     |                               <a =0Ahref=3D"mailto:ACSNewsletterEdit=
+or@acs.org?subject=3DAdvertising%20in%20ACS%20Newsletter">advertise</a>    =
+                           |                               <a =0Ahref=3D"ht=
+tp://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711615&a=
+mp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/co=
+ntent/acs/en/membership-and-networks/acsmatters.html">archive</a></p> =0A  =
+                            =0A<p =0Astyle=3D"padding-bottom: 5px; padding-=
+left: 5px; padding-right: 5px; font-family: Verdana,Arial,Helvetica,sans-se=
+rif; color: #999999; font-size: 9px; padding-top: 5px">To prevent this news=
+letter from being rejected by your SPAM filters or routed to your junk mail=
+ folder, please add our address (<a =0Ahref=3D"mailto:ACSNewsletterEditor@a=
+cs.org">ACSNewsletterEditor@acs.org</a>) to your address book, safe list, o=
+r white list.</p></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+             =0A <tr>
+                <td =0Aalign=3D"center" style=3D"background-color:#fff;">
+                  <table =0Acellspacing=3D"0" cellpadding=3D"0" style=3D"pa=
+dding:" width=3D"715" bgcolor=3D"#ffffff">
+                   =0A <tbody><tr>
+                      <td =0Avalign=3D"top" width=3D"408" style=3D"text-ali=
+gn: left; background-color: #ffffff; border-right: #cccccc 1px dashed; font=
+:11px Verdana, Geneva, sans-serif; padding-right:10px;">
+                        <table =0Awidth=3D"408" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+                         =0A <tbody><tr>
+                            <td =0Astyle=3D"padding:10px 0 5px 0;"><h2 style=
+=3D"border-bottom: #666666 2px solid; font-weight:bold; font-family: Verdan=
+a,Arial,Helvetica,sans-serif; color: #666666; font-size: 11px"><a =0Aname=
+=3D"1"></a>Feature</h2></td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentLeftSet" group=3D=
+"mainGroup">
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"125" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"115" align=
+=3D"left" title=3D"The ACS Strategic Plan for 2015 and Beyond" alt=3D"The A=
+CS Strategic Plan for 2015 and Beyond" src=3D"http://images.magnetmail.net/=
+images/clients/ACS1/ACS/Membership/ACSMatters/Various_DynamicChemistry.jpg"=
+ style=3D"padding:0px 5px 5px 0;"><a =0Ahref=3D"http://www.mmsend73.com/lin=
+k.cfm?r=3D861332476&amp;sid=3D79711616&amp;m=3D10722060&amp;u=3DA=
+CS1&amp;j=3D29197017&amp;s=3Dhttp://strategy.acs.org/">The ACS Strategic Pl=
+an for 2015 and Beyond</a>=0A<br></strong></p><div>The <a =0Ahref=3D"http:/=
+/www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711617&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://strategy.acs.org/"=
+><em>ACS Strategic Plan for 2015 and Beyond</em></a> reflects the Society's=
+ vision of "Improving people's lives through the transforming power of chem=
+istry."  Developed by the ACS Board of Directors with input from our member=
+s, the 2015 plan marks a new set of strategic objectives that address the c=
+hallenges that chemists and chemistry face. The plan is our blueprint for h=
+ow the Society continues to support members and provides value to the chemi=
+stry enterprise.</div><div>&nbsp;</div><div><strong>The Plan's Foundation</=
+strong></div><div>In addition to the ACS Vision, our Mission to "Advance th=
+e broader chemistry enterprise and its practitioners for the benefit of Ear=
+th and its people," is part of the plan's foundation. As we pursue the ACS =
+Goals, we systematically apply the Core Values of passion for chemistry in =
+the broadest sense, focus on members, professionalism, and diversity and in=
+clusion.</div><div>&nbsp;</div><div><strong>2015 and Beyond</strong></div><=
+div>Our priorities for 2015 and beyond are reflected in four goals that hav=
+e been developed to best achieve the Society's vision. The ACS will marshal=
+ our unique resources to:</div><ul><li>Provide Information&mdash;be the mos=
+t authoritative, comprehensive, and indispensable provider of chemistry-rel=
+ated information.</li><li>Advance Member Careers&mdash;empower an inclusive=
+ community of members with networks, opportunities, resources, and skills t=
+o thrive in the global economy.</li><li>Improve Education&mdash;foster the =
+development of the most innovative, relevant, and effective chemistry educa=
+tion in the world.</li><li>Communicate Chemistry's Value&mdash;communicate =
+chemistry's vital role in addressing the world's challenges to the public a=
+nd policymakers.</li></ul><div><strong>Get Involved! </strong></div><div>Vi=
+sit <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&=
+amp;sid=3D79711618&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dh=
+ttp://strategy.acs.org/">strategy.acs.org</a> to learn more about how the S=
+ociety provides valuable support, and explore the ways you can "Get Involve=
+d" on a grassroots level to direct the path of your Society. Under each goa=
+l is a list of activities informed by challenges and opportunities to make =
+meaningful change. Share your thoughts on this plan and the direction for t=
+he future at <a =0Ahref=3D"mailto:strategicplan@acs.org">strategicplan@acs.=
+org</a>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentRightSet" group=
+=3D"mainGroup"></div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <table =0Awidth=3D"408" cellpadding=3D"0" cel=
+lspacing=3D"0">
+                               =0A <tbody><tr>
+                                  <td =0Astyle=3D"padding:10px 0 5px 0;"><h=
+2 style=3D"border-bottom: #666666 2px solid; font-weight:bold; font-family:=
+ Verdana,Arial,Helvetica,sans-serif; color: #666666; font-size: 11px"><a =
+=0Aname=3D"2"></a>My ACS&nbsp;Story</h2></td>
+                                </tr>
+                               =0A <tr>
+                                 =0A <td>
+                                    <div =0Aid=3D"articleContentLeft2Set" g=
+roup=3D"mainGroup">
+                                      <div =0Aname=3D"articleContentLeftSet=
+" class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                        <table =0Awidth=3D"408" cellpadding=
+=3D"0" cellspacing=3D"0">
+                                         =0A <tbody><tr>
+                                            <td =0Astyle=3D"font:11px Verda=
+na, Geneva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"f=
+ont-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><i=
+mg =0Awidth=3D"81" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"90" ali=
+gn=3D"right" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Me=
+mbership/ACSMatters/MyACSStory_AdrianDingle.jpg" style=3D"padding:0px 5px 5=
+px 0;" alt=3D"Adrian Dingle: I CONNECT with My ACS" title=3D"Adrian Dingle:=
+ I CONNECT with My ACS"></strong><strong><a =0Ahref=3D"http://www.mmsend73.=
+com/link.cfm?r=3D861332476&amp;sid=3D79711619&amp;m=3D10722060&am=
+p;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.my.acs.org/home/index/261?cid=
+=3Demail_myacs_acsmatters_08_11_15">Adrian Dingle: I CONNECT with My ACS</a>=
+=0A<br></strong></p><div>Read how <a =0Ahref=3D"http://www.mmsend73.com/lin=
+k.cfm?r=3D861332476&amp;sid=3D79791084&amp;m=3D10722060&amp;u=3DA=
+CS1&amp;j=3D29197017&amp;s=3Dhttp://www.my.acs.org/home/index/261?cid=3Dema=
+il_myacs_acsmatters_08_11_15">ACS and=0A <em>Chemical &amp; Engineering New=
+s</em> =0Ahelp educator and author Adrian Dingle stay current</a> on new de=
+velopments in the chemical sciences.</div><div>&nbsp;</div><div>While you'r=
+e at the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711621&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=
+=3Dhttp://www.my.acs.org/?cid=3Demail_myacs_acsmatters_08_11_15">My ACS Sto=
+ry</a> website, you can read stories from other members and see how they ar=
+e taking advantage of their membership. If you <a =0Ahref=3D"http://www.mms=
+end73.com/link.cfm?r=3D861332476&amp;sid=3D79711622&amp;m=3D10722=
+060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.my.acs.org/?cid=3Demai=
+l_myacs_acsmatters_tuys_08_11_15">submit your own story</a> to us and we pu=
+blish it, we'll send you a free My ACS t-shirt as our way of saying thank y=
+ou!</div></td>
+                                          </tr>
+                                        </tbody></table>
+                                      </div>
+                                      <div =0Aname=3D"articleContentLeftSet=
+" class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                        <table =0Awidth=3D"408" cellpadding=
+=3D"0" cellspacing=3D"0">
+                                         =0A <tbody><tr>
+                                            <td =0Astyle=3D"font:11px Verda=
+na, Geneva, sans-serif; padding:10px 0;" align=3D"left"><div =0Astyle=3D"te=
+xt-align: center;"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711623&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D291=
+97017&amp;s=3Dhttp://www.my.acs.org/?cid=3Demail_myacs_acsmatters_tuys_08_1=
+1_15"><img =0Awidth=3D"116" border=3D"0" height=3D"62" title=3D"Tell Us You=
+r ACS Story" alt=3D"Tell Us Your ACS Story" src=3D"http://images.magnetmail=
+.net/images/clients/ACS1/ACS/Membership/ACSMatters/MyACSStory_button_TellUs=
+.png"></a>&nbsp; <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711624&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197=
+017&amp;s=3Dhttp://www.acs.org/content/acs/en/membership-and-networks/acs/j=
+oin/benefits-of-my-acs-membership.html?cid=3Demail_myacs_acsmatters_learnmo=
+re_08_11_15"><img =0Awidth=3D"132" border=3D"0" height=3D"62" title=3D"Lear=
+n More About ACS Membership" alt=3D"Learn More About ACS Membership" src=3D=
+"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters=
+/MyACSStory_button_LearnMore.png"></a>&nbsp; <a =0Ahref=3D"http://www.mmsen=
+d73.com/link.cfm?r=3D861332476&amp;sid=3D79711625&amp;m=3D1072206=
+0&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en.h=
+tml?cid=3Demail_myacs_acsmatters_visitacs_08_11_15"><img =0Awidth=3D"132" b=
+order=3D"0" height=3D"62" title=3D"Visit ACS.org" alt=3D"Visit ACS.org" src=
+=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatt=
+ers/MyACSStory_button_VisitACSorg.png"></a></div></td>
+                                          </tr>
+                                        </tbody></table>
+                                      </div>
+                                      <div =0Aname=3D"backToTopSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                        <table =0Awidth=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0">
+                                         =0A <tbody><tr>
+                                           =0A <td>=0A<p =0Astyle=3D"font-f=
+amily: Verdana,Arial,Helvetica,sans-serif; font-size: 10px; color:#000;"><a =
+=0Ahref=3D"#top">&gt; Back to Top</a></p>=0A<p =0Astyle=3D"font-family: Ver=
+dana,Arial,Helvetica,sans-serif; font-size: 10px; color:#000;">&nbsp;</p></=
+td>
+                                          </tr>
+                                        </tbody></table>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td></td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"backToTopSet" group=3D"mainGrou=
+p"></div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                            <td =0Astyle=3D"padding:10px 0 5px 0;"><h2 style=
+=3D"border-bottom: #666666 2px solid; font-weight:bold; font-family: Verdan=
+a,Arial,Helvetica,sans-serif; color: #666666; font-size: 11px"><a =0Aname=
+=3D"3"></a>Advance Yourself &amp; Your Science</h2></td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentRight2Set" group=
+=3D"mainGroup">
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"95" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"95" align=3D"=
+left" style=3D"padding:0px 5px 5px 0;" src=3D"http://images.magnetmail.net/=
+images/clients/ACS1/ACS/Membership/ACSMatters/Webinars_CompoundInterest_log=
+o.jpg" alt=3D"Compound Interest, Chemistry Infographic Creator on ACS Webin=
+ars=AE" title=3D"Compound Interest, Chemistry Infographic Creator on ACS We=
+binars=AE"></strong><strong><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711626&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/acs-webinars/profes=
+sional-development/visual-chemistry.html">Compound Interest, Chemistry Info=
+graphic Creator on ACS Webinars=AE</a>=0A<br></strong></p><div>The use of "=
+infographics" is becoming more prevalent as a way to easily share informati=
+on visually, and ACS&nbsp;Webinars=AE will explore this trend with a specia=
+l event,&nbsp;<a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711627&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017=
+&amp;s=3Dhttp://www.acs.org/content/acs/en/acs-webinars/professional-develo=
+pment/visual-chemistry.html">"Science Communication Today: Chemistry by Des=
+ign,"</a> on Thursday, August 13, 2015, 2:00-3:00 PM ET. Join Andy Brunning=
+, creator of <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711628&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&=
+amp;s=3Dhttp://www.compoundchem.com/">Compound Interest</a>, and Adam Dylew=
+ski, manager of the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711629&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29=
+197017&amp;s=3Dhttps://www.youtube.com/user/ACSReactions/videos">ACS Reacti=
+ons</a> video series, as they examine how images and design can be harnesse=
+d to communicate chemistry effectively. Brunning will share how and why he =
+created Compound Interest, discuss his most popular chemistry infographics,=
+ and explore how to present chemical information for a lay audience.</div><=
+div>&nbsp;</div><div><em>Recordings of previous ACS Webinars=AE are availab=
+le as a benefit to current ACS members. <a =0Ahref=3D"http://www.mmsend73.c=
+om/link.cfm?r=3D861332476&amp;sid=3D79711631&amp;m=3D10722060&amp=
+;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://acswebinars.org/">Live weekly ACS=
+ Webinars=AE</a> continue to be available to the general public.</em></div>=
+</td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDividerSet" class=3D=
+"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"175" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"130" align=
+=3D"right" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Memb=
+ership/ACSMatters/CEN_BostonNatlMtgMania.jpg" title=3D"Must-See Presenters =
+at the Boston National Meeting" alt=3D"Must-See Presenters at the Boston Na=
+tional Meeting" style=3D"padding:0px 5px 5px 0;"></strong><strong><a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1632&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cenm.ag/=
+bost">From=0A <em>C&amp;EN</em>, =0AMust-See Presenters at the Boston Natio=
+nal Meeting</a>=0A<br></strong></p><div>In search of worthwhile speakers to=
+ fill your schedule for the upcoming <a =0Ahref=3D"http://www.mmsend73.com/=
+link.cfm?r=3D861332476&amp;sid=3D79711633&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/boston2015">250th ACS&n=
+bsp;National Meeting &amp; Exposition</a> in Boston? Yearning to learn how =
+lobster shells can be converted into bioplastics? Or how scientists analyze=
+ GMO crops?=0A <em>C&amp;EN</em>'s <a =0Ahref=3D"http://www.mmsend73.com/li=
+nk.cfm?r=3D861332476&amp;sid=3D79711634&amp;m=3D10722060&amp;u=3D=
+ACS1&amp;j=3D29197017&amp;s=3Dhttp://cenm.ag/bost">Boston Meeting Mania!</a=
+> list has got you covered.</div><div>&nbsp;</div><div>To find presentation=
+ times and locations, as well as things to do around Beantown, visit <a =0A=
+href=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D=
+79711635&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cenm=
+.ag/bost"><em>C&amp;EN</em>'s guide to all the best of the Boston meeting</=
+a>!</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDividerSet" class=3D=
+"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"105" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"102" align=
+=3D"left" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membe=
+rship/ACSMatters/Careers_ERC_3rdEntrepSummit_square.png" style=3D"padding:0=
+px 5px 5px 0;" alt=3D"Review Agenda and Register Today for 3rd Annual ACS E=
+ntrepreneurial Summit" title=3D"Review Agenda and Register Today for 3rd An=
+nual ACS Entrepreneurial Summit"></strong><strong><a =0Ahref=3D"http://www.=
+mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711636&amp;m=3D10=
+722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs=
+/en/careers/career-services/resourcecenter/events/2015-acs-entrepreneurial-=
+summit.html">Review Agenda and Register Today for 3<sup>rd</sup> =0AAnnual =
+ACS&nbsp;Entrepreneurial Summit</a>=0A =0A<br></strong></p><div>The agenda =
+has been finalized for the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711637&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/careers/career-serv=
+ices/resourcecenter/events/2015-acs-entrepreneurial-summit.html">3<sup>rd</=
+sup> =0AAnnual ACS Entrepreneurial Summit</a>, Sept. 17-18, 2015 in Washing=
+ton, DC.This year's theme, "Spotlighting the Efforts of Large &amp; Small C=
+hemistry-Based Innovators," highlights the importance of innovative entrepr=
+eneurs, industry leaders, investors, policy makers, and academic scientists=
+ in research processes to further the transforming power of chemistry.</div=
+><div>&nbsp;</div><div>The event features Corporate Spotlights from nine in=
+dustry innovators, a morning keynote by entrepreneurialism expert and profe=
+ssor Rita Gunther McGrath, opening remarks by ACS President Diane Grob Schm=
+idt, and an afternoon keynote speech by ACS Executive Director and CEO Thom=
+as M. Connelly, Jr. <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711638&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29=
+197017&amp;s=3Dhttps://www.eventbrite.com/e/3rd-annual-acs-entrepreneurial-=
+summit-tickets-14965728898">Register today!</a></div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleDividerSet" group=3D"mai=
+nGroup">
+                                <div =0Aname=3D"backToTopSet" class=3D"rm_s=
+ectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                     =0A <td>=0A<p =0Astyle=3D"font-family:=
+ Verdana,Arial,Helvetica,sans-serif; font-size: 10px; color:#000;"><a =0Ahr=
+ef=3D"#top">&gt; Back to Top</a></p>=0A<p =0Astyle=3D"font-family: Verdana,=
+Arial,Helvetica,sans-serif; font-size: 10px; color:#000;">&nbsp;</p></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentLeft3Set" group=
+=3D"mainGroup"></div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                            <td =0Astyle=3D"padding:10px 0 5px 0;"><h2 style=
+=3D"border-bottom: #666666 2px solid; font-family: Verdana,Arial,Helvetica,=
+sans-serif; font-weight:bold; color: #666666; font-size: 11px"><a =0Aname=
+=3D"4"></a>ACS&nbsp;Career Navigator&trade;</h2></td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentRight3Set" group=
+=3D"mainGroup">
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"120" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"80" align=3D=
+"right" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Members=
+hip/ACSMatters/CareerFairHandshake.jpg" style=3D"padding:0px 5px 5px 0;" alt=
+=3D"Don't Miss Your Opportunity to Network with Top Employers at the ACS Ca=
+reer Fair" title=3D"Don't Miss Your Opportunity to Network with Top Employe=
+rs at the ACS Career Fair"></strong><strong><a =0Ahref=3D"http://www.mmsend=
+73.com/link.cfm?r=3D861332476&amp;sid=3D79711639&amp;m=3D10722060=
+&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/ca=
+reers/career-services/careerfair.html?cid=3Dnews_cpa_careerfairreg_acsmttrs=
+_8_11_15">Don't Miss Your Opportunity to Network with Top Employers at the =
+ACS Career Fair</a>=0A<br></strong></p><div>The member-only <a =0Ahref=3D"h=
+ttp://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711640&=
+amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/c=
+ontent/acs/en/careers/career-services/careerfair.html?cid=3Dnews_cpa_career=
+fairreg_acsmttrs_8_11_15">ACS Career Fair</a> at the <a =0Ahref=3D"http://w=
+ww.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711641&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/conten=
+t/acs/en/meetings/fall-2015.html?cid=3Dnews_cpa_natlmtg_acsmttrs_8_11_15">A=
+CS National Meeting in Boston</a> is your chance to gain a competitive edge=
+ in your career. Once you've registered for the National Meeting make sure =
+to upload your resume and create a job seeker profile in order to have the =
+chance to meet with top employers in the chemical field. Also, you will be =
+able to get a professional headshot taken on site so that you can put your =
+best foot forward on your social media profiles.  Additionally, ensure that=
+ you have a top-notch resume and perfect your interview skills by setting a=
+n appointment =0Awith our <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711642&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/careers/career-serv=
+ices/ccp.html?cid=3Dnews_cpa_careerconsult_acsmttrs_8_11_15">ACS Career Con=
+sultants</a>. Don't miss out, <a =0Ahref=3D"http://www.mmsend73.com/link.cf=
+m?r=3D861332476&amp;sid=3D79711643&amp;m=3D10722060&amp;u=3DACS1&=
+amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/careers/career-s=
+ervices/careerfair.html?cid=3Dnews_cpa_careerfairreg_acsmttrs_8_11_15">regi=
+ster today</a>!</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDividerSet" class=3D=
+"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"113" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"80" align=3D=
+"left" style=3D"padding:0px 5px 5px 0;" alt=3D"ACS is Your Resource for Tra=
+ining in Analytical Chemistry" title=3D"ACS is Your Resource for Training i=
+n Analytical Chemistry" src=3D"http://images.magnetmail.net/images/clients/=
+ACS1/ACS/Membership/ACSMatters/ProfEdu_Analytical.jpg"></strong><strong><a =
+=0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=
+=3D79711644&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://w=
+ww.proed.acs.org/?utm_source=3Dacsmatters&amp;utm_medium=3Dnewsletter&amp;u=
+tm_term=3Danly&amp;utm_content=3Dproedhome&amp;utm_campaign=3Dbestsellers">=
+ACS is Your Resource for Training in Analytical Chemistry</a>=0A<br></stron=
+g></p><div>If you're involved with analytical chemistry, it's important to =
+stay on top of current trends and new technology. That's why <a =0Ahref=3D"=
+http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711645=
+&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://proed.acs.or=
+g/?utm_source=3Dacsmatters&amp;utm_medium=3Dnewsletter&amp;utm_term=3Danly&=
+amp;utm_content=3Dproedhome&amp;utm_campaign=3Dbestsellers">ACS Professiona=
+l Education</a> is committed to bringing you the most up-to-date training t=
+aught by top-notch instructors in the field. Learn to quickly and accuratel=
+y interpret data from mass spec analysis in <a =0Ahref=3D"http://www.mmsend=
+73.com/link.cfm?r=3D861332476&amp;sid=3D79711646&amp;m=3D10722060=
+&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://proed.acs.org/course-catalog/=
+courses/analysis-and-interpretation-of-mass-spectral-data/?utm_source=3Dacs=
+matters&amp;utm_medium=3Dnewsletter&amp;utm_term=3Danly&amp;utm_content=3Da=
+ims&amp;utm_campaign=3Dbestsellers">Analysis and Interpretation of Mass Spe=
+ctral Data</a>, or gain an understanding of how to develop a method from sc=
+ratch and how to reduce your analysis time by 50 to 90 percent in <a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1647&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://proed.ac=
+s.org/course-catalog/courses/practical-and-applied-gas-chromatography/?utm_=
+source=3Dacsmatters&amp;utm_medium=3Dnewsletter&amp;utm_term=3Danly&amp;utm=
+_content=3Dpagc&amp;utm_campaign=3Dbestsellers">Practical and Applied Gas C=
+hromatography</a>. For more information and to register, visit <a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1648&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.proe=
+d.acs.org/?utm_source=3Dacsmatters&amp;utm_medium=3Dnewsletter&amp;utm_term=
+=3Danly&amp;utm_content=3Dproedhome&amp;utm_campaign=3Dbestsellers">www.Pro=
+Ed.acs.org</a>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDividerSet" class=3D=
+"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left">=0A<p =0Astyle=3D"font-fa=
+mily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><strong><img =0A=
+width=3D"144" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"80" align=3D=
+"right" style=3D"padding:0px 5px 5px 0;" src=3D"http://images.magnetmail.ne=
+t/images/clients/ACS1/ACS/Membership/ACSMatters/Careers_InsightLab_logo200x=
+.jpg" alt=3D"What is the ACS Insight Lab, and Why is It Important to Me?" t=
+itle=3D"What is the ACS Insight Lab, and Why is It Important to Me?"></stro=
+ng><strong><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711649&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&am=
+p;s=3Dhttps://www.acsinsightlab.com/R.aspx?a=3D84">What is the ACS Insight =
+Lab, and Why is it Important to Me?</a>=0A<br></strong></p><div>ACS has a n=
+ew community of online advisors, the <a =0Ahref=3D"http://www.mmsend73.com/=
+link.cfm?r=3D861332476&amp;sid=3D79711650&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://www.acsinsightlab.com/R.aspx?a=3D8=
+4">ACS Insight Lab</a>, that serves as a forum for ACS members to share fee=
+dback on how we can better serve our members and the broader chemistry comm=
+unity.  When you join the ACS Insight Lab, you will be able to offer insigh=
+ts and experience to help shape the future of ACS as a scientific society.<=
+/div><div>&nbsp;<strong>=0A<br></strong></div><div>As an ACS member, we wou=
+ld like to invite you to join the <a =0Ahref=3D"http://www.mmsend73.com/lin=
+k.cfm?r=3D861332476&amp;sid=3D79711650&amp;m=3D10722060&amp;u=3DA=
+CS1&amp;j=3D29197017&amp;s=3Dhttps://www.acsinsightlab.com/R.aspx?a=3D84">A=
+CS Insight Lab</a> between August 4 and August 14 to be entered into a raff=
+le for a $100 gift card.&nbsp;Have questions about the ACS Insight Lab? Ple=
+ase contact us at <a =0Ahref=3D"mailto:support@ACSInsightLab.com">support@A=
+CSInsightLab.com</a>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleDivider2Set" group=3D"ma=
+inGroup">
+                                <div =0Aname=3D"backToTopSet" class=3D"rm_s=
+ectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                     =0A <td>=0A<p =0Astyle=3D"font-family:=
+ Verdana,Arial,Helvetica,sans-serif; font-size: 10px; color:#000;"><a =0Ahr=
+ef=3D"#top">&gt; Back to Top</a></p>=0A<p =0Astyle=3D"font-family: Verdana,=
+Arial,Helvetica,sans-serif; font-size: 10px; color:#000;">&nbsp;</p></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentLeft4Set" group=
+=3D"mainGroup"></div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                            <td =0Astyle=3D"padding:10px 0 5px 0;"><h2 style=
+=3D"border-bottom: #666666 2px solid; font-weight:bold; font-family: Verdan=
+a,Arial,Helvetica,sans-serif; color: #666666; font-size: 11px"><a =0Aname=
+=3D"5"></a>ACS News</h2></td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentRight4Set" group=
+=3D"mainGroup">
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"160" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"89" align=3D"righ=
+t" title=3D"Medals for USA Team at the 47th International Chem Olympiad" alt=
+=3D"Medals for USA Team at the 47th International Chem Olympiad" src=3D"htt=
+p://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/Edu=
+c_ChemOlympiad_2015Team_medals.jpg"><a =0Ahref=3D"http://www.mmsend73.com/l=
+ink.cfm?r=3D861332476&amp;sid=3D79711651&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/educatio=
+n/students/highschool/olympiad.html">Medals for USA Team at the 47<sup>th</=
+sup> =0AInternational Chem Olympiad</a></strong></div><div>The U.S. Nationa=
+l Chemistry Olympiad Program proudly announces the <a =0Ahref=3D"http://www=
+.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711652&amp;m=3D1=
+0722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/ac=
+s/en/education/students/highschool/olympiad.html">success of the Alpha Thet=
+a Team at the 47<sup>th</sup> =0AInternational Chemistry Olympiad</a> compe=
+tition, which concluded July 29, 2015, in Baku, Azerbaijan.&nbsp;David Wang=
+ (Monta Vista High School, CA) won the seventh-highest-ranking gold medal a=
+s well as the highest score in the lab practical examination. Soorajnath Bo=
+ominathan (Oklahoma School of Science and Mathematics), Bryce Cai (Barringt=
+on High School, IL), and Janice Ong (Thomas Jefferson High School for Scien=
+ce and Technology, VA) each earned a silver medal.&nbsp;The USA Team compet=
+ed against 286 students from 74 countries. Congratulations =0ATeam USA for =
+this great achievement!=0A <em>(Pictured left to right: B. Cai, J. Ong, D. =
+Wang, and S. Boominathan; </em><em>photo by Kelli Slunt.)</em></div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"90" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"90" align=3D"left"=
+ title=3D"Chemistry's New Frontiers: 2015 Western Regional Meeting" alt=3D"=
+Chemistry's New Frontiers: 2015 Western Regional Meeting" src=3D"http://ima=
+ges.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/MtgsRegl_2=
+015WRM_logo.png"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711653&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197=
+017&amp;s=3Dhttp://www.acswrm.org/">Abstract and Exhibitor Deadlines Approa=
+ching for 2015 Western Regional Meeting</a>=0A<br></strong></div><div>Two i=
+mportant deadlines for the  <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711654&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://www.acswrm.org/">45<sup>th</sup> =0AACS&nbsp;W=
+estern Regional Meeting</a> (WRM) are approaching. August 15 is the deadlin=
+e for Exhibitors to get the early rate on space, and August 26 is the deadl=
+ine for poster and presentations abstracts. Two poster sessions and mixers =
+are scheduled, so "test drive" your presentation for the 2016 ACS National =
+Meeting in San Diego by joining us at WRM 2015 this November! Contact us at=
+ <a =0Ahref=3D"mailto:WRM2015Chair@gmail.com">WRM2015Chair@gmail.com</a>, o=
+r visit us at <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711655&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017=
+&amp;s=3Dhttp://www.acswrm.org">www.acswrm.org</a> for links to abstract su=
+bmittal and other meeting information.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"98" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"85" align=3D"right=
+" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/AC=
+SMatters/GreenChemPharmaRndtbl.jpg" alt=3D"Pharma Roundtable Offers Three $=
+50,000 Grants, Deadline August 28th" title=3D"Pharma Roundtable Offers Thre=
+e $50,000 Grants, Deadline August 28th"><a =0Ahref=3D"http://www.mmsend73.c=
+om/link.cfm?r=3D861332476&amp;sid=3D79711656&amp;m=3D10722060&amp=
+;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/dam/acsorg/gr=
+eenchemistry/industriainnovation/roundtable/2015-acs-gcipr-flow-chemistry-r=
+fp.pdf">Pharma Roundtable Offers Three $50,000 Grants, Deadline August 28<s=
+up>th</sup></a></strong></div><div><strong> </strong></div><div>The <a =0Ah=
+ref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7=
+9711657&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.a=
+cs.org/content/acs/en/greenchemistry/industry-business/pharmaceutical.html"=
+>ACS Green Chemistry Institute (GCI) Pharmaceutical Roundtable</a> is seeki=
+ng to fund a one- to two-year R&amp;D program to address the Roundtable's i=
+nitiatives in flow chemistry.  Areas of interest include, but are not limit=
+ed to, photo redox chemistry, photochemistry, and biocatalysis in flow. Pro=
+posals will be accepted from public and private institutions of higher educ=
+ation worldwide. Up to three grants are to be awarded. Each grant is limite=
+d to $50,000 for a grant period of 12 to 24 months. Submissions must be a s=
+ingle pdf file submitted via email to gcipr@acs.org.&nbsp;<a =0Ahref=3D"htt=
+p://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711658&am=
+p;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/con=
+tent/dam/acsorg/greenchemistry/industriainnovation/roundtable/2015-acs-gcip=
+r-flow-chemistry-rfp.pdf">Click here for more information and to download t=
+he RFP</a>. Deadline for receipt of proposals is August 28, 2015, at 5:00 P=
+M ET. For additional grant opportunities, please visit the GCI <a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1659&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.=
+org/content/acs/en/greenchemistry/research-innovation/research-grants-and-a=
+wards.html">Research Grants &amp; Awards</a> page.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"85" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"85" align=3D"left"=
+ src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACS=
+Matters/WomenChemsCttelogo.gif" alt=3D"Up to $1000 Travel Award to Attend A=
+CS Meeting" title=3D"Up to $1000 Travel Award to Attend ACS Meeting"><a =0A=
+href=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D=
+79711660&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.=
+acs.org/content/acs/en/funding-and-awards/awards/other/travel/wcctravelawar=
+d.html">Up to $1000 Travel Award to Attend ACS Meeting</a></strong></div><d=
+iv><strong> </strong></div><div>Deadlines are rapidly approaching for the <=
+a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;s=
+id=3D79711661&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp:/=
+/www.acs.org/content/acs/en/funding-and-awards/awards/other/travel/wcctrave=
+laward.html">ACS Women Chemists Committee (WCC)/Eli Lilly Travel Award</a>.=
+  This award is for undergraduate/graduate women who would like to present =
+at the ACS National Meeting in San Diego in March 2016.  Eligible candidate=
+s will receive up $1000 to present at that meeting.  For more information a=
+nd to apply, please <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711662&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29=
+197017&amp;s=3Dhttp://www.acs.org/content/acs/en/funding-and-awards/awards/=
+other/travel/wcctravelaward.html">visit the WCC/Eli Lilly Travel Award web =
+page</a>; the deadline for applications is September 15, 2015.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"71" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"85" align=3D"right=
+" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/AC=
+SMatters/Fellows_logowithshadow.jpg" alt=3D"Outstanding Accomplishments and=
+ Service: Meet the New Class of ACS Fellows" title=3D"Outstanding Accomplis=
+hments and Service: Meet the New Class of ACS Fellows"><a =0Ahref=3D"http:/=
+/www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711663&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/fellow=
+s">Outstanding Accomplishments and Service: Meet the New Class of ACS Fello=
+ws</a></strong></div><div>At the upcoming ACS National Meeting in Boston, 7=
+8 ACS Members will be celebrated as new <a =0Ahref=3D"http://www.mmsend73.c=
+om/link.cfm?r=3D861332476&amp;sid=3D79711664&amp;m=3D10722060&amp=
+;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/fellows">ACS Fellows<=
+/a>, in a ceremony hosted by ACS Immediate Past-President Thomas J. Barton.=
+ In announcing the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711665&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D291=
+97017&amp;s=3Dhttp://www.acs.org/content/acs/en/funding-and-awards/fellows/=
+list-of-2015-acs-fellows.html">2015 class of ACS Fellows</a>, ACS President=
+ Diane Grob Schmidt said, "I would like to thank the 2015 ACS Fellows for t=
+heir service to the Society and to chemistry. Their dedication has strength=
+ened our field as well as our Society, and their enthusiasm serves as an in=
+spiration to other ACS members." The 2015 class of Fellows represents 25 Na=
+tional Committees, 31 Divisions, and 48 Local Sections of the ACS. Addition=
+al information about the program, including a list of fellows named in earl=
+ier years, is at <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711666&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197=
+017&amp;s=3Dhttp://www.acs.org/fellows">www.acs.org/fellows</a>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"85" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"89" align=3D"left"=
+ alt=3D"ACS Scholars Anniversary Symposium at Boston National Meeting" title=
+=3D"ACS Scholars Anniversary Symposium at Boston National Meeting" src=3D"h=
+ttp://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/D=
+iversity_Scholars20thAnniv_logo.jpg"><a =0Ahref=3D"http://www.mmsend73.com/=
+link.cfm?r=3D861332476&amp;sid=3D79711667&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/funding-=
+and-awards/scholarships/acsscholars.html">ACS&nbsp;Scholars Anniversary Sym=
+posia in Boston</a></strong></div><div>This year marks the 20<sup>th</sup> =
+=0Aanniversary of the ACS Scholars Program. To celebrate this milestone, tw=
+o symposia will take place at the upcoming ACS National Meeting in Boston, =
+on Monday, August 17, 2015: ACS Scholars: Rising Stars in Academe (8:30-11:=
+30 AM) and ACS Scholars: Rising Stars in Industry (1:45-4:45 PM), both in t=
+he Sheraton Boston Hotel, Back Bay Ballroom A.  The panels will each consis=
+t of a moderator and five ACS Scholars Program graduates, each of whom will=
+ tell the story of their own educational trajectory. Please =0Aplan to join=
+ this celebration of the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711668&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/acs/en/funding-and-awards/=
+scholarships/acsscholars.html">ACS&nbsp;Scholars Program</a>!</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"100" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"75" align=3D"righ=
+t" title=3D"Spanish Webinar Recordings Now Available" alt=3D"Spanish Webina=
+r Recordings Now Available" src=3D"http://images.magnetmail.net/images/clie=
+nts/ACS1/ACS/Membership/ACSMatters/Webinars_PanoramaEnergetico_smaller.jpg"=
+>Spanish Webinar Recordings Now Available</strong></div><div>Calling all Sp=
+anish-speaking chemists! Have you heard of the new collaboration between AC=
+S&nbsp;and the Sociedad Qu=EDmica de M=E9xico (SQM) to produce four chemist=
+ry themed webinars in Spanish this year?  The first two recordings are avai=
+lable to be viewed and shared at your convenience: <a =0Ahref=3D"http://www=
+.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711669&amp;m=3D1=
+0722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/content/ac=
+s/en/acs-webinars/spanish/panorama-nanotecnologico.html">"Panorama Nanotecn=
+ol=F3gico: Desarrollo de Sistemas Biol=F3gicos y la Nanomedicina,"</a> and =
+<a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;=
+sid=3D79711670&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp:=
+//www.acs.org/content/acs/en/acs-webinars/spanish/energetico-sustentable.ht=
+ml">"Panorama Energ=E9tico en la Era de la Sostenibilidad: Energ=EDas Renov=
+ables y Dispositivos Emergentes."</a> We would like to extend a special tha=
+nks to Dr. Thomas Barton, the ACS Immediate Past President, for creating th=
+is opportunity to bring these two chemical societies together as well as th=
+e great support of Dr. Ingrid Montes of ACS and Dr. Lena Ruiz Azuara of SQM=
+ for the curation and organization of the series. Join us on Wednesday, Sep=
+tember 23<sup>rd</sup>, =0Afor the next installment.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"112" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"75" align=3D"left=
+" title=3D"NCTA: Call for Nominations" alt=3D"NCTA: Call for Nominations" s=
+rc=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMa=
+tters/Technician_testtuberack.jpg"><a =0Ahref=3D"http://www.mmsend73.com/li=
+nk.cfm?r=3D861332476&amp;sid=3D79711671&amp;m=3D10722060&amp;u=3D=
+ACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/ncta">NCTA: Call for Nomin=
+ations</a> </strong></div><div>The call for nominations for the 2016 <a =0A=
+href=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D=
+79711672&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.=
+acs.org/ncta">National Chemical Technician Award (NCTA)</a> is now open.  N=
+ominees must be currently employed as chemical technicians and must have wo=
+rked in that role for a minimum of five years.  Nominees do not need to be =
+ACS members. The award will consist of a trip for the winner to the Spring =
+2016 ACS&nbsp;National Meeting in San Diego.  Additionally, the awardee wil=
+l receive a $1000.00 honorarium that will be presented at the National Meet=
+ing.    Nomination packets must be received by the Committee on Technician =
+Affairs (CTA), no later than September =0A30, 2015. Visit <a =0Ahref=3D"htt=
+p://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711673&am=
+p;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.acs.org/nct=
+a">www.acs.org/ncta</a> for nomination criteria and other details, or to do=
+wnload the nomination or re-nomination form. Send questions to <a =0Ahref=
+=3D"mailto:cta@acs.org">cta@acs.org</a>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"60" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"75" align=3D"right=
+" alt=3D"Can I Throw This Away?" title=3D"Can I Throw This Away?" src=3D"ht=
+tp://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/Dv=
+lpmnt_CanIThrowThisAway.gif"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm=
+?r=3D861332476&amp;sid=3D79711674&amp;m=3D10722060&amp;u=3DACS1&a=
+mp;j=3D29197017&amp;s=3Dhttp://www.gftpln.org/Article.do?orgId=3D5393&amp;a=
+rticleId=3D28104">Can I Throw This Away?</a></strong></div><div><strong>  <=
+/strong></div><div>Discover when it's okay to finally get rid of those file=
+s on the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711675&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=
+=3Dhttp://www.gftpln.org/Article.do?orgId=3D5393&amp;articleId=3D28104">ACS=
+ Legacy Planning website</a>. While there, download a free copy of=0A <em>Y=
+our Guide to Locating Important Documents</em>.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"80" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"67" align=3D"left"=
+ alt=3D"ACS Industry Voices: New Homes Mean Jobs for Chemists" title=3D"ACS=
+ Industry Voices: New Homes Mean Jobs for Chemists" src=3D"http://images.ma=
+gnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/Careers_InVoBlog=
+_logo.gif"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711676&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&am=
+p;s=3Dhttps://communities.acs.org/community/society/industry-voices/blog/20=
+15/08/06/buy-new-homes-chemists-need-jobs">ACS&nbsp;Industry Voices: New Ho=
+mes Mean Jobs for Chemists</a></strong></div><div><strong>  </strong></div>=
+<div>ACS Industry Member Programs brings you the <a =0Ahref=3D"http://www.m=
+msend73.com/link.cfm?r=3D861332476&amp;sid=3D79711677&amp;m=3D107=
+22060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://communities.acs.org/com=
+munity/society/industry-voices">Industry Voices</a> blog, with weekly posts=
+ that share stories, lessons, advice, and general musings from around the c=
+hemical technology field. In the latest entry, <a =0Ahref=3D"http://www.mms=
+end73.com/link.cfm?r=3D861332476&amp;sid=3D79711678&amp;m=3D10722=
+060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://communities.acs.org/commu=
+nity/society/industry-voices/blog/2015/08/06/buy-new-homes-chemists-need-jo=
+bs">"Buy New Homes: Chemists Need Jobs!,"</a> Paul Hodges talks about the i=
+mpact of the housing market on chemical industry companies.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleDivider3Set" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"padding:10px 0;"><div =
+=0Aalign=3D"center" style=3D"font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #6699ff; font-size: 11px">---------------------------------------=
+----------------------&nbsp;</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"articleContentLeftSet" class=
+=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"408" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                      <td =0Astyle=3D"font:11px Verdana, Ge=
+neva, sans-serif; padding:10px 0;" align=3D"left"><div><strong><img =0Awidth=
+=3D"152" vspace=3D"5" border=3D"0" hspace=3D"5" height=3D"50" align=3D"righ=
+t" title=3D"Back-to-School Savings from Lenovo!" alt=3D"Back-to-School Savi=
+ngs from Lenovo!" src=3D"http://images.magnetmail.net/images/clients/ACS1/A=
+CS/Membership/ACSMatters/Mbrshp_Affin_Lenovo_red.png"><a =0Ahref=3D"http://=
+www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711679&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.lenovo.com/ame=
+ricanchemicalsociety">Back-to-School Savings from Lenovo!</a></strong></div=
+><div><strong> </strong></div><div>Lenovo is providing back-to-school savin=
+gs for ACS members in August! Take advantage of instant savings of up to 38=
+% on Lenovo laptops, tablets, desktops, and more, plus free shipping on all=
+ orders placed online. To check out the latest technology offerings from Le=
+novo, visit <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711680&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&a=
+mp;s=3Dhttp://www.lenovo.com/americanchemicalsociety">www.lenovo.com/americ=
+anchemicalsociety</a> or call 1-800-426-7235, ext. 3881.</div></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                                <div =0Aname=3D"backToTopSet" class=3D"rm_s=
+ectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                  <table =0Awidth=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0">
+                                   =0A <tbody><tr>
+                                     =0A <td>=0A<p =0Astyle=3D"font-family:=
+ Verdana,Arial,Helvetica,sans-serif; font-size: 10px; color:#000;"><a =0Ahr=
+ef=3D"#top">=0A<br>
+                  &gt; Back to Top</a> </p></td>
+                                    </tr>
+                                  </tbody></table>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <table =0Awidth=3D"408" cellpadding=3D"0" cel=
+lspacing=3D"0">
+                               =0A <tbody><tr>
+                                  <td =0Astyle=3D"padding:10px 0;">
+                                    <div =0Aid=3D"articleDivider3Set" group=
+=3D"mainGroup"></div>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aid=3D"articleContentLeft5Set" group=
+=3D"mainGroup"></div>
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                      <td =0Avalign=3D"top" width=3D"257">
+                        <table =0Awidth=3D"257" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+                         =0A <tbody><tr>
+                           =0A <td>
+                              <div =0Aalign=3D"center">
+                                <table =0Acellpadding=3D"10">
+                                 =0A <tbody><tr>
+                                    <td =0Abgcolor=3D"#cbdcff" valign=3D"to=
+p" width=3D"200" style=3D"font: 10px verdana,arial,helvetica,sans-serif; pa=
+dding:10px;" align=3D"left">=0A<p =0Astyle=3D"font-family: Verdana,Arial,He=
+lvetica,sans-serif; font-size: 10px"><strong><a =0Aname=3D"top"></a>In This=
+ Issue</strong>...</p> =0A                                            <ul =
+=0Astyle=3D"list-style-type: square; padding-left: 0.1em; font-family: Verd=
+ana,Arial,Helvetica,sans-serif; margin-bottom: -0.5em; margin-left: 1em; fo=
+nt-size: 10px">                                            =0A <li><a =0Ahr=
+ef=3D"#1">Feature: The ACS Strategic Plan for 2015 and Beyond  </a></li> =
+=0A                                           =0A <li><a =0Ahref=3D"#2">My =
+ACS&nbsp;Story: Adrian Dingle - I&nbsp;CONNECT with My ACS </a></li> =0A   =
+                                        =0A <li><a =0Ahref=3D"#3">Advance Y=
+ourself &amp; Your Science: Compound Interest, Chemistry Infographic Creato=
+r on ACS Webinars=AE=0A<br></a></li> =0A                                   =
+        =0A <li><a =0Ahref=3D"#4">ACS&nbsp;Career Navigator&trade;: Don't M=
+iss Your Opportunity to Network with Top Employers at the ACS Career Fair=
+=0A =0A<br></a></li><li><a =0Ahref=3D"#5">ACS News</a></li> =0A            =
+                                                                            =
+=0A <li><a =0Ahref=3D"#9">pHun &amp; Games</a></li> =0A                    =
+                        </ul> =0A                                           =
+=0A =0A<p><em>Thank you for reading this email newsletter &ndash; we're try=
+ing to do our part to care for the environment by keeping you up-to-date wh=
+ile using as little paper as possible!</em></p></td>
+                                  </tr>
+                                </tbody></table>
+                              </div>
+                            </td>
+                          </tr>
+                         =0A <tr>
+                           =0A <td>
+                              <div =0Aalign=3D"center">
+                                <table =0Aborder=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"10">
+                                 =0A <tbody><tr>
+                                    <td =0Abgcolor=3D"#ffffff" width=3D"226=
+">
+                                      <div =0Aid=3D"advertisementSet" group=
+=3D"mainGroup">
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711681&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+http://www.renew.acs.org/renew/login/?cid=3Dad_omr_acsmters_8_11_2015_BEAPA=
+RTOFITALL"><img =0Awidth=3D"180" border=3D"0" height=3D"255" style=3D"paddi=
+ng:5px;" alt=3D"Be a Part of It All - Renew Your ACS Membership Today!" tit=
+le=3D"Be a Part of It All - Renew Your ACS Membership Today!" src=3D"http:/=
+/images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/Mbrshp=
+_RenewBeaPartofItAll.png"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79766091&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+http://www.cas.org/news/tradeshows/250th-acs"><img =0Awidth=3D"180" border=
+=3D"0" height=3D"225" src=3D"http://images.magnetmail.net/images/clients/AC=
+S1/ACS/Membership/ACSMatters/CAS_SciFinder_SuperAd_Fall2015.jpg" title=3D"S=
+ciFinder - The Super Power for Science Heroes" alt=3D"SciFinder - The Super=
+ Power for Science Heroes" style=3D"padding:5px;"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                 =0A <tr>
+                                   =0A <td>
+                                      <table =0Awidth=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0">
+                                       =0A <tbody><tr>
+                                         =0A <td>
+                                            <div =0Aalign=3D"center">
+                                              <table =0Acellspacing=3D"2" c=
+ellpadding=3D"10" width=3D"100%" bgcolor=3D"#afcae6">
+                                               =0A <tbody><tr>
+                                                  <td =0Abgcolor=3D"#ffffff=
+" style=3D"font:11px Verdana, Geneva, sans-serif; color:#000; padding:10px;=
+"><div =0Aalign=3D"center"><h2 style=3D"border-bottom: #666666 2px solid; t=
+ext-align: left; font-family: Verdana,Arial,Helvetica,sans-serif; color: #6=
+66666; font-size: 11px"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711683&amp;m=3D10722060&amp;u=3DACS1&amp;j=
+=3D29197017&amp;s=3Dhttp://chemistryjobs.acs.org/jobs"><strong><img =0Awidth=
+=3D"150" border=3D"0" height=3D"37" title=3D"C&amp;EN Jobs" alt=3D"C&amp;EN=
+ Jobs" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membersh=
+ip/ACSMatters/Careers_CENjobs_logo.jpg"></strong></a><strong>&nbsp;&nbsp; &=
+nbsp;&nbsp; <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711684&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&a=
+mp;s=3Dhttp://chemistryjobs.acs.org/jobs">Latest Postings</a></strong></h2> =
+=0A                                                          <ul =0Astyle=
+=3D"list-style-type: square; padding-left: 0.1em; font-family: Verdana,Aria=
+l,Helvetica,sans-serif; margin-left: 1em; font-size: 11px"><li =0Astyle=3D"=
+text-align: left;"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711685&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D291=
+97017&amp;s=3Dhttp://chemistryjobs.acs.org/jobs/7407192/assistant-associate=
+-full-professor-medicinal-chemistry">Assistant / Associate / Full Professor=
+, Medicinal Chemistry | Concordia University Wisconsin | Mequon, WI</a></li=
+><li =0Astyle=3D"text-align: left;"><a =0Ahref=3D"http://www.mmsend73.com/l=
+ink.cfm?r=3D861332476&amp;sid=3D79711686&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://chemistryjobs.acs.org/jobs/7400864/=
+assistant-professor">Assistant Professor | The University of Louisiana at L=
+afayette | Lafayette, LA</a></li><li =0Astyle=3D"text-align: left;"><a =0Ah=
+ref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7=
+9711687&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://chemi=
+stryjobs.acs.org/jobs/7403859/assistant-professor-of-inorganic-chemistry">A=
+ssistant Professor of Inorganic Chemistry | Washington State University | P=
+ullman, WA</a></li><li =0Astyle=3D"text-align: left;"><a =0Ahref=3D"http://=
+www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711688&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://chemistryjobs.acs.=
+org/jobs/7395877/assistant-or-associate-professor">Assistant or Associate P=
+rofessor | Harvard Medical School | Boston, MA</a></li><li =0Astyle=3D"text=
+-align: left;"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711689&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D2919701=
+7&amp;s=3Dhttp://chemistryjobs.acs.org/jobs/7391352/chemist">Chemist | Sonn=
+eborn | Petrolia, PA</a></li></ul></div></td>
+                                                </tr>
+                                              </tbody></table>
+                                              &nbsp;</div>
+                                          </td>
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                 =0A <tr>
+                                    <td =0Abgcolor=3D"#ffffff" width=3D"226=
+">
+                                      <div =0Aid=3D"advertisement2Set" group=
+=3D"mainGroup">
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711690&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+https://www.join.acs.org/eweb/ACSMGMTemplate.aspx?site=3DACS_MGM&amp;WebCode=
+=3DDashboard&amp;sc=3D15MGMrevereod"><img =0Awidth=3D"180" border=3D"0" hei=
+ght=3D"270" style=3D"padding:5px;" alt=3D"Recruit a Member! Get a Blanket!"=
+ title=3D"Recruit a Member! Get a Blanket!" src=3D"http://images.magnetmail=
+.net/images/clients/ACS1/ACS/Membership/ACSMatters/Mbrshp_MGM201506_Revere4=
+.jpg"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711691&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+http://www.congressweb.com/signup/index.cfm?id=3D6A6DEAFF-A0F0-745F-AB47BAC=
+6D225A12E"><img =0Awidth=3D"180" border=3D"0" height=3D"234" style=3D"paddi=
+ng:5px;" alt=3D"Share Chemistry - Start a Reaction!" title=3D"Share Chemist=
+ry - Start a Reaction!" src=3D"http://images.magnetmail.net/images/clients/=
+ACS1/ACS/Membership/ACSMatters/ChemAmbassadorsSignup.jpg"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Astyle=3D"tex=
+t-align: left;"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711692&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D291970=
+17&amp;s=3Dhttp://pubs.acs.org/editorschoice/"><img =0Awidth=3D"175" border=
+=3D"0" height=3D"69" src=3D"http://images.magnetmail.net/images/clients/ACS=
+1/ACS/Membership/ACSMatters/Pubs_EditorsChoice_adheader.png" title=3D"ACS E=
+ditors' Choice" alt=3D"ACS Editors' Choice" style=3D"padding:5px;"></a></di=
+v><div><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711693&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=
+=3Dhttp://pubs.acs.org/editorschoice/"><strong>Latest Article Selections</s=
+trong></a></div><div>&nbsp;</div><div><a =0Ahref=3D"http://www.mmsend73.com=
+/link.cfm?r=3D861332476&amp;sid=3D79711694&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://pubs.acs.org/doi/full/10.1021/acsca=
+tal.5b00462">Active Sites of Au and Ag Nanoparticle Catalysts for CO<sub>2<=
+/sub> =0AElectroreduction to CO</a></div><div>&nbsp;</div><div><a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1695&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://pubs.acs=
+.org/doi/full/10.1021/acs.jcim.5b00324">Playing Tic-Tac-Toe with a Sugar-Ba=
+sed Molecular Computer</a></div><div>&nbsp;</div><div><a =0Ahref=3D"http://=
+www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711696&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://pubs.acs.org/doi/f=
+ull/10.1021/acs.chemmater.5b01989">Thin-Film Preparation and Characterizati=
+on of Cs<sub>3</sub>Sb<sub>2</sub>I<sub>9</sub>: =0AA Lead-Free Layered Per=
+ovskite Semiconductor</a></div><div>&nbsp;</div><div><a =0Ahref=3D"http://w=
+ww.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711697&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://pubs.acs.org/doi/f=
+ull/10.1021/jacs.5b05940">Multifaceted Regioregular Oligo(thieno[3,4-<em>b=
+</em>]thiophene)s Enabled by Tunable Quinoidization and Reduced Energy Band=
+ Gap</a></div><div>&nbsp;</div><div><em>View more open access articles at <=
+a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;s=
+id=3D79711698&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp:/=
+/pubs.acs.org/editorschoice">pubs.acs.org/editorschoice</a>.</em></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711699&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+http://www.presentations.acs.org/"><img =0Awidth=3D"180" border=3D"0" height=
+=3D"265" style=3D"padding:5px;" alt=3D"When You Can't Be There! ACS Present=
+ations on Demand" title=3D"When You Can't Be There! ACS Presentations on De=
+mand" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membershi=
+p/ACSMatters/PresOnDemand_4_There_blue.png"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711700&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+http://www.acs.org/content/acs/en/about/makedonation/thank-you.html?cid=3De=
+m_donate_acsmatters_8_2015"><img =0Awidth=3D"180" border=3D"0" height=3D"18=
+0" src=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/A=
+CSMatters/Dvlpmnt_NoteToDonors_ad.jpg" title=3D"To ACS Donors - Thank You!"=
+ alt=3D"To ACS Donors - Thank You!" style=3D"padding:5px;"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                        <div =0Aname=3D"advertisement2Set" =
+class=3D"rm_sectionwrap mainGroup" group=3D"mainGroup" xmlns=3D"">
+                                          <table =0Awidth=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                                           =0A <tbody><tr>
+                                             =0A <td>
+                                                <div =0Astyle=3D"text-align=
+: center">&nbsp;
+              <table =0Acellspacing=3D"2" cellpadding=3D"10" width=3D"100%"=
+ bgcolor=3D"#afcae6">
+                                                   =0A <tbody><tr>
+                                                      <td =0Abgcolor=3D"#ff=
+ffff" style=3D"font:11px Verdana, Geneva, sans-serif;"><div =0Aalign=3D"cen=
+ter"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711701&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3D=
+https://www.partnership.com/micro_site/Index/65acs"><img =0Awidth=3D"180" b=
+order=3D"0" height=3D"270" style=3D"padding:5px;" alt=3D"ACS Members Save o=
+n Shipping with FedEx" title=3D"ACS Members Save on Shipping with FedEx" src=
+=3D"http://images.magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatt=
+ers/Mbrshp_Affin_PartnerShip_ad.gif"></a></div></td>
+                                                    </tr>
+                                                  </tbody></table>
+              &nbsp;</div>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                 =0A <tr>
+                                   =0A <td>
+                                      <table =0Awidth=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0">
+                                       =0A <tbody><tr>
+                                         =0A <td>=0A<p =0Aalign=3D"left" st=
+yle=3D"font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px"><i=
+mg =0Awidth=3D"119" border=3D"0" height=3D"40" alt=3D"Chemical &amp; Engine=
+ering News" title=3D"Chemical &amp; Engineering News" src=3D"http://images.=
+magnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/Pubs_CEN_logo.=
+jpeg"></p>=0A<p =0Aalign=3D"left" style=3D"font-family: Verdana,Arial,Helve=
+tica,sans-serif; font-size: 11px"><a =0Atarget=3D"_blank" href=3D"http://ww=
+w.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711702&amp;m=3D=
+10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/"><strong=
+>This Week's New Items</strong></a></p> =0A                                =
+                  <ul =0Astyle=3D"list-style-type: square; padding-left: 0.=
+1em; font-family: Verdana,Arial,Helvetica,sans-serif; margin-bottom: -0.5em=
+; margin-left: 1em; font-size: 11px" align=3D"left"><li><a =0Ahref=3D"http:=
+//www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711703&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articl=
+es/93/web/2015/08/Modern-Circuits-Ultrathin-Material.html">Modern Circuits =
+From An Ultrathin Material</a></li><li><a =0Ahref=3D"http://www.mmsend73.co=
+m/link.cfm?r=3D861332476&amp;sid=3D79711704&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articles/93/web/2015/08=
+/Studies-Model-Effects-Carbon-Removal.html">Studies Model The Effects Of Ca=
+rbon Removal On Climate Change</a></li><li><a =0Ahref=3D"http://www.mmsend7=
+3.com/link.cfm?r=3D861332476&amp;sid=3D79711705&amp;m=3D10722060&=
+amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articles/93/web/20=
+15/08/Protective-Worker-Exposure-Limit-Beryllium.html">More Protective Work=
+er Exposure Limit For Beryllium Proposed</a></li><li><a =0Ahref=3D"http://w=
+ww.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711706&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articl=
+es/93/web/2015/08/PBS-Docudrama-Brings-Discovery-Chemical.html">PBS Docudra=
+ma Brings Discovery Of The Chemical Elements To Life</a></li><li><a =0Ahref=
+=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D7971=
+1707&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.=
+org/articles/93/web/2015/08/Chemours-Targets-Cutbacks.html">Chemours Target=
+s More Cutbacks</a></li><li><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=
+=3D861332476&amp;sid=3D79711708&amp;m=3D10722060&amp;u=3DACS1&amp=
+;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articles/93/web/2015/08/One-Myster=
+y-Mussels-Stick-Rocks.html">One Mystery Of How Mussels Stick To Rocks, Boat=
+s Solved</a></li><li><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711709&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D2=
+9197017&amp;s=3Dhttp://cen.acs.org/articles/93/web/2015/08/Feed-Additive-Cu=
+rbs-Methane-Emissions.html">Feed Additive Curbs Methane Emissions From Dair=
+y Cows</a></li><li><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711710&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D291=
+97017&amp;s=3Dhttp://cen.acs.org/articles/93/web/2015/08/US-Food-Drug-Admin=
+istration-Approves.html">U.S. Food &amp; Drug Administration Approves First=
+ 3-D Printed Drug</a></li><li><a =0Ahref=3D"http://www.mmsend73.com/link.cf=
+m?r=3D861332476&amp;sid=3D79711711&amp;m=3D10722060&amp;u=3DACS1&=
+amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/articles/93/web/2015/08/Shire-G=
+oes-Baxalta.html">Shire Goes After Baxalta</a>&nbsp;</li></ul><div>&nbsp;</=
+div><div><span =0Astyle=3D"font-size: 8pt;"><span =0Astyle=3D"font-family: =
+Verdana;"><em>You can read </em></span></span><span =0Astyle=3D"font-size: =
+8pt;"><a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711712&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=
+=3Dhttp://cen.acs.org/"><span =0Astyle=3D"font-family: Verdana;"><em>C&amp;=
+EN online</em></span></a><span =0Astyle=3D"font-family: Verdana;"><em> each=
+ week, and stay up to date with the latest news posted to C&amp;EN on your =
+smart phone using the <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711713&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D=
+29197017&amp;s=3Dhttp://cenmobile.org/">free C&amp;EN&nbsp;Mobile app</a>, =
+or by </em></span></span><span =0Astyle=3D"font-size: 8pt;"><a =0Ahref=3D"h=
+ttp://www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711714&=
+amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://cen.acs.org/s=
+tatic/about/rss_feeds.html"><span =0Astyle=3D"font-family: Verdana;"><em>su=
+bscribing to one of the C&amp;EN RSS feeds</em></span></a><span =0Astyle=3D=
+"font-family: Verdana;">.</span></span></div></td>
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                 =0A <tr>
+                                   =0A <td>
+                                      =0A<p =0Astyle=3D"font-family: Verdan=
+a,Arial,Helvetica,sans-serif; font-size: 11px">
+                                        <a =0Aname=3D"9"></a>
+                                       =0A <strong>pHun &amp; Games</strong>
+                                      </p>
+                                    </td>
+                                  </tr>
+                                 =0A <tr>
+                                    <td =0Astyle=3D"font-family: Verdana,Ar=
+ial,Helvetica,sans-serif; font-size: 11px" align=3D"left"><div><img =0Awidth=
+=3D"200" border=3D"1" height=3D"110" align=3D"left" src=3D"http://images.ma=
+gnetmail.net/images/clients/ACS1/ACS/Membership/ACSMatters/pHun_CEN_Strawbe=
+rry2.jpg" title=3D"Strawberry Fields, Maybe Not Forever" alt=3D"Strawberry =
+Fields, Maybe Not Forever"></div><div>&nbsp;</div><div>&nbsp;</div><div>&nb=
+sp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</di=
+v><div>&nbsp;&nbsp;</div><div>&nbsp;</div><div><a =0Ahref=3D"http://www.mms=
+end73.com/link.cfm?r=3D861332476&amp;sid=3D79711715&amp;m=3D10722=
+060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttps://www.youtube.com/watch?v=
+=3Dnoaec9-BmwU"><strong>Strawberry Fields, Maybe Not Forever</strong></a></=
+div><div>&nbsp;</div><div>The "linchpin" pesticide used by strawberry growe=
+rs in the U.S. will soon be completely phased out. Could this be the end of=
+ the delicious berries? <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D=
+861332476&amp;sid=3D79711716&amp;m=3D10722060&amp;u=3DACS1&amp;j=
+=3D29197017&amp;s=3Dhttps://www.youtube.com/watch?v=3Dnoaec9-BmwU">Watch th=
+e latest episode</a> of=0A <em>C&amp;EN</em>'s Speaking of Chemistry to fin=
+d out.</div><div>&nbsp;</div></td>
+                                  </tr>
+                                 =0A <tr>
+                                    <td =0Avalign=3D"top" style=3D"font-fam=
+ily: Verdana,Arial,Helvetica,sans-serif; font-size: 11px">=0A<p =0Aalign=3D=
+"left" style=3D"font-family: Verdana,Arial,Helvetica,sans-serif; font-size:=
+ 11px"><strong>Contact Us=0A =0A<br>                                       =
+  <a =0Ahref=3D"mailto:ACSNewsletterEditor@acs.org?subject=3DACS%20Newslett=
+er%20feedback">Newsletter Editor</a>=0A =0A<br>                            =
+             <a =0Ahref=3D"mailto:service@acs.org?subject=3DAssistance%20re=
+quest%20(via%20ACS%20Matters%20newsletter)">ACS Customer Service</a> </stro=
+ng></p> =0A                                      =0A<p =0Aalign=3D"left" st=
+yle=3D"font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px">AC=
+S Matters is published by the American Chemical Society=0A =0A<br>         =
+                                Division of Membership &amp; Scientific Adv=
+ancement.=0A =0A<br>                                         &nbsp;</p> =0A=
+                                      =0A<p =0Astyle=3D"font-family: Verdan=
+a,Arial,Helvetica,sans-serif; font-size: 11px"><strong> <a =0Ahref=3D"http:=
+//www.mmsend73.com/link.cfm?r=3D861332476&amp;sid=3D79711717&amp;m=
+=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://pubs.acs.org/cen/e=
+mail/alerts.html"> <img =0Aborder=3D"0" src=3D"http://acswebcontent.acs.org=
+/newsletter/images/RSS.gif" alt=3D"RSS" title=3D"RSS"> </a> </strong></p></=
+td>
+                                  </tr>
+                                </tbody></table>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+      <table =0Awidth=3D"726" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+padding: 0px; margin: 0px; ">
+       =0A <tbody><tr>
+          <td =0Avalign=3D"top" align=3D"center" style=3D"font: normal 10px=
+ Arial, Helvetica, sans-serif; padding: 10px; color:#666;">=0A<p>American C=
+hemical Society | 1155 Sixteenth Street, NW | Washington, DC 20036         =
+         =0A =0A<br>                   Copyright =A9 2015                  =
+ <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&amp=
+;sid=3D79711718&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhttp=
+://www.acs.org">American Chemical Society</a>                   All rights =
+reserved.</p> =0A                 =0A =0A<p>This edition of "ACS&nbsp;Matte=
+rs" was sent to all ACS members.                  =0A =0A<br>              =
+     To ensure that you continue to receive our emails, please add us to yo=
+ur address book or safe list.                  =0A =0A<br>                 =
+  <a =0Ahref=3D"http://www.mmsend73.com/link.cfm?r=3D861332476&am=
+p;sid=3D79711719&amp;m=3D10722060&amp;u=3DACS1&amp;j=3D29197017&amp;s=3Dhtt=
+ps://www.emailpref.acs.org"><strong>Manage your ACS e-mail subscriptions</s=
+trong></a> &nbsp;   | &nbsp;&nbsp;  <a =0Ahref=3D"http://www.mmsend73.com/l=
+ink.cfm?r=3D861332476&amp;sid=3D79711720&amp;m=3D10722060&amp;u=
+=3DACS1&amp;j=3D29197017&amp;s=3Dhttp://www.emailpref.acs.org/?email=3D=
+andrew.m.james2@gmail.com&amp;message_id=3D2104431&amp;user_id=3DACS1&amp;recipient_id=3D=
+861332476&amp;group_id=3DACSMattersMonthly"><strong>Unsubscribe from=
+ this e-mail newsletter</strong></a></p></td>
+        </tr>
+      </tbody></table>
+    </div>
+ =20
+=0A<br><img =0Asrc=3D"http://www.mmsend73.com/spacer.cfm?tracking_id=3D=
+27101717690&amp;jid=3D29197017"></body></html>
+
+--_NextPart_000_10722060_2015811_162842239--

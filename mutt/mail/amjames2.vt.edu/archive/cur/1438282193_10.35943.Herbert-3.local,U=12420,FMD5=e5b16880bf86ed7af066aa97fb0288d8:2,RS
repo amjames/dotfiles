@@ -1,0 +1,62 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp32125qgt;
+        Thu, 30 Jul 2015 10:08:39 -0700 (PDT)
+X-Received: by 10.140.235.10 with SMTP id g10mr7488410qhc.39.1438276119291;
+        Thu, 30 Jul 2015 10:08:39 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 76si2078929qgh.27.2015.07.30.10.08.38
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 10:08:39 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.169 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6UH8XFx016623
+	for <amjames2@vt.edu>; Thu, 30 Jul 2015 13:08:38 -0400
+Received: by igk11 with SMTP id 11so15332318igk.1
+        for <amjames2@vt.edu>; Thu, 30 Jul 2015 10:08:33 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :content-type;
+        bh=G7Eg31Z9cKcIhUzOL6l6ulZnw/MOLStv+a9ZZNf9RAo=;
+        b=Sp/sYg1bjw6RmpxmcvDFUE8ls59nJtnDX+e7kyVrbeVuHCP5CBbHjydlvFEMTuA3e8
+         b4zYPT4pvqXGJ+yzFrHrfXszPF6oTYTSchdIIhL9DSsNbPoD3KdjWc3BcPh+yPlkGD3G
+         6HqAdz1yEh2soYqb14zRxZIjTd7H8w4IN2UoYqKPeAiwf+N0AeV0jBv2Ht1hYrAZm1tf
+         HM87T4j+SE90ZCjT7e0Vkqr8P5DljeTvQju3mtdrpdPxSEZ2YHuNBhO+BFbfSOx0UJaC
+         7mwXQXDBEXrq4FKerinEvJ0N8dLYnY/bhrNJmsq0LiS1uYzv3jBFeNNFPRmovkNCBIYH
+         qrWQ==
+X-Gm-Message-State: ALoCoQkvJ7dnNShYYLHDQgh1gxHCsu735hKCPj231R/w6+JketP5EHO2quu3MQZ3YGJY6ekPczXnh0s1vqZLQ8KlieQv7B3fjPgCrivJyTK/qywYVF4RH7zUzdaRMNRNExdc4HZ+NWUuWHSDzcaFH6Z4bpjBRlIijQ==
+X-Received: by 10.50.122.40 with SMTP id lp8mr7007741igb.49.1438276113449;
+        Thu, 30 Jul 2015 10:08:33 -0700 (PDT)
+X-Received: by 10.50.122.40 with SMTP id lp8mr7007726igb.49.1438276113355;
+ Thu, 30 Jul 2015 10:08:33 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Thu, 30 Jul 2015 10:08:13 -0700 (PDT)
+From: Christine Duchane <cduchane@vt.edu>
+Date: Thu, 30 Jul 2015 13:08:13 -0400
+Message-ID: <CAECk6+4+NfTEwu=sR7ofyC02HZWWH_n=x-PbFoZbmG8ooHXEww@mail.gmail.com>
+Subject: Lunch?
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e01538358d3726d051c1ac000
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e01538358d3726d051c1ac000
+Content-Type: text/plain; charset=UTF-8
+
+Hey boo. How's your morning going? Wanna eat lunch soon?
+
+--089e01538358d3726d051c1ac000
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">Hey boo. How&#39;s your morning going? Wanna eat lunch soon?</div>
+
+--089e01538358d3726d051c1ac000--

@@ -1,0 +1,137 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp688933qgt;
+        Thu, 21 May 2015 17:30:36 -0700 (PDT)
+X-Received: by 10.50.132.3 with SMTP id oq3mr1890468igb.21.1432254636683;
+        Thu, 21 May 2015 17:30:36 -0700 (PDT)
+Return-Path: <whitneyjmorgan@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id z5si468045igg.2.2015.05.21.17.30.36
+        for <amjames2@vt.edu>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 21 May 2015 17:30:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of whitneyjmorgan@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of whitneyjmorgan@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=whitneyjmorgan@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-qk0-x22f.google.com (mail-qk0-x22f.google.com [IPv6:2607:f8b0:400d:c09::22f])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4M0UUZq019987
+	for <amjames2@vt.edu>; Thu, 21 May 2015 20:30:35 -0400
+Received: by qkgx75 with SMTP id x75so2352886qkg.1
+        for <amjames2@vt.edu>; Thu, 21 May 2015 17:30:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=CFvI5IvNrBTIZNHCocG6OoIZhh/jQkCgcep0vE1cU4Y=;
+        b=slTyOCEN7f5MLgrlxtKB3feOVY9NH/pEeQX7iIjLixCfSYWtYj+wTdztco7yqiOkZa
+         Ckk0TS6aiPKF9Nhvy42jpDC9SaUdZTn+TqvUdqUQMZ3D+ISsuiDJG3xNAndyF5xWI8X7
+         zab3Wko8vBweDefs2uEXicGnxjyKInXzRUgJbTRlXzE+YiUoOcqz4254ZugQjuWOZqFc
+         bRkYPUQ2Z0KcGUaJ5PeXC9bCltfmt7TCmfaRVdwq9F87ANMPxuZvBQKbSf+TWTroX0oK
+         EZl1h2RPkSP3Jgg0S7N0vCFRZ7vSf7O47B2yB80VjD+8ys0sNIZWkNEWzOHPD6V6TN7B
+         wo5w==
+MIME-Version: 1.0
+X-Received: by 10.55.41.24 with SMTP id p24mr12181060qkh.55.1432254630421;
+ Thu, 21 May 2015 17:30:30 -0700 (PDT)
+Received: by 10.140.221.80 with HTTP; Thu, 21 May 2015 17:30:30 -0700 (PDT)
+In-Reply-To: <77F24CAD-B8DD-4CD3-92DC-2A02CF342DCE@vt.edu>
+References: <77F24CAD-B8DD-4CD3-92DC-2A02CF342DCE@vt.edu>
+Date: Thu, 21 May 2015 20:30:30 -0400
+Message-ID: <CANPkSZ0Y90e6rapb9m1TJUej7mhsknS3eniEaE5ZyVwA9Jr_gQ@mail.gmail.com>
+Subject: Re: Software Summer School Application Status
+From: James Morgan <whitneyjmorgan@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11406c54796be00516a0c487
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11406c54796be00516a0c487
+Content-Type: text/plain; charset=UTF-8
+
+Andrew,
+
+Awesome! Thank you for this notification. I confirmed my attendance at the
+provided link and will be driving to VT. It is a 7.5 hr drive from my
+current residence so will dormitories be available the night of the 21st?
+Let me know what needs to be done for the permit when parking gets back to
+you. Thanks, again.
+
+Respectfully,
+W. James Morgan
+
+On Tue, May 19, 2015 at 1:56 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Whitney,
+>
+> We are happy to announce that your application to the 2015
+> Software-Development Summer School for Computational Chemistry,
+> Biomolecular Simulation, and Materials Modeling has been accepted!
+>
+> The next step is to secure your place in the program by going to this
+> webpage to formally register. http://www.cpe.vt.edu/reg/sss/
+> The registration page mentions credit cards, so I want to remind you that *there
+> is no charge for participating in the Summer School*. Clicking register
+> will bring you to a page showing a total of $0.00 for registration.
+>
+> When you have made your travel arrangements I ask that you please send me
+> an email (amjames2@vt.edu).
+> If you will be flying I will need to know the flight number, airline and
+> the scheduled arrival/departure time of your arriving and departing
+> flights.  We will use this information to arrange transportation to and
+> from Roanoke airport.
+>
+> If you are driving to campus I will need to get you a temporary parking
+> permit, and give you instructions on where you can park. *(parking services
+> has not gotten back to me yet about this).
+>
+> If you have any questions please do not hesitate to contact me. Looking
+> forward to meeting you in June!
+>
+> Sincerely,
+> Andrew M. James
+> Summer School Coordinator
+>
+
+--001a11406c54796be00516a0c487
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Andrew,<div><br></div><div>Awesome! Thank you for this not=
+ification. I confirmed my attendance at the provided link and will be drivi=
+ng to VT. It is a 7.5 hr drive from my current residence so will dormitorie=
+s be available the night of the 21st? Let me know what needs to be done for=
+ the permit when parking gets back to you. Thanks, again.</div><div><br></d=
+iv><div>Respectfully,</div><div>W. James Morgan</div></div><div class=3D"gm=
+ail_extra"><br><div class=3D"gmail_quote">On Tue, May 19, 2015 at 1:56 PM, =
+Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" targe=
+t=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex"><div style=3D"word-wrap:break-word"><div>Dear Whitney,</div><div>=
+<br></div><div>We are happy to announce that your application to the 2015 S=
+oftware-Development Summer School for Computational Chemistry, Biomolecular=
+ Simulation, and Materials Modeling has been accepted!</div><div><br></div>=
+<div>The next step is to secure your place in the program by going to this =
+webpage to formally register.=C2=A0<a href=3D"http://www.cpe.vt.edu/reg/sss=
+/" target=3D"_blank">http://www.cpe.vt.edu/reg/sss/</a>=C2=A0</div><div>The=
+ registration page mentions credit cards, so I want to remind you that=C2=
+=A0<b><i>there is no charge for participating in the Summer School</i></b>.=
+ Clicking register will bring you to a page showing a total of $0.00 for re=
+gistration. =C2=A0</div><div><br></div><div>When you have made your travel =
+arrangements I ask that you please send me an email (<a href=3D"mailto:amja=
+mes2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>).</div><div>If you will =
+be flying I will need to know the flight number, airline and the scheduled =
+arrival/departure time of your arriving and departing flights.=C2=A0 We wil=
+l use this information to arrange transportation to and from Roanoke airpor=
+t.=C2=A0</div><div><br></div><div>If you are driving to campus I will need =
+to get you a temporary parking permit, and give you instructions on where y=
+ou can park. *(parking services has not gotten back to me yet about this).<=
+/div><div><br></div><div>If you have any questions please do not hesitate t=
+o contact me. Looking forward to meeting you in June!</div><div><br></div><=
+div>Sincerely,</div><div>Andrew M. James</div><div>Summer School Coordinato=
+r</div></div></blockquote></div><br></div>
+
+--001a11406c54796be00516a0c487--

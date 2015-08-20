@@ -1,0 +1,272 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1785480qgt;
+        Mon, 11 May 2015 18:09:09 -0700 (PDT)
+X-Received: by 10.55.24.215 with SMTP id 84mr28083228qky.8.1431392949112;
+        Mon, 11 May 2015 18:09:09 -0700 (PDT)
+Return-Path: <vilong@vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id e35si14630589qgd.116.2015.05.11.18.09.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 11 May 2015 18:09:09 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.216.176 as permitted sender) client-ip=209.85.216.176;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vilong@vt.edu does not designate 209.85.216.176 as permitted sender) smtp.mail=vilong@vt.edu
+Received: from mail-qc0-f176.google.com (mail-qc0-f176.google.com [209.85.216.176])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4C191W7001368
+	for <amjames2@vt.edu>; Mon, 11 May 2015 21:09:06 -0400
+Received: by qcbgy10 with SMTP id gy10so78498626qcb.3
+        for <amjames2@vt.edu>; Mon, 11 May 2015 18:09:01 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:user-agent:date:subject:from:to:message-id
+         :thread-topic:references:in-reply-to:mime-version:content-type;
+        bh=XyVScer8pKE5k232uBn2SDjsUoh+eegkIyZ/mdXuOV0=;
+        b=Xy60z6lb4pT1pR93vsBWRjMbRwNcIvZZCV8f/BzWu7iXwLYBtHu7sKiQTN99eRu03j
+         9YVOTotKq7N3GQX2WT3rhiOOcOZtFZiGJ3QEOGd50BIczlYGOARTgx48rzopXFoHWHfL
+         xfBNtsw6kWAEsR0+Dp76gfLdaaEGMKj2lqWucwUbOTq49EcPv76vcCfW73Md3VAGnSIr
+         Hg98Cg7L1nHkCDntWttMFKGyk6RHo1OGpnaiTkjxrQ6afJE272fL+QCig9qr+hI2yiVv
+         DM4AbRGtignxfU3XkzNiOOnbjWZqWq5h31byj6G5ekLlbw1go+EA9c0kgJrJ9+reR9bJ
+         8tNQ==
+X-Gm-Message-State: ALoCoQkkVcBoU0ztEE785qka5/F+WsKhY5mKjf406x5X86G5h0bGw/ks1k1AV5ybziC6S5VSLMrJDX/wH63JkgHyBbg9I+RFUfCOCPNndSA1dUoUBGgJ3FB6ECo9jygn1Icb0mt1nnM3wCDkKS0mRPZbLL7qt1yg8jpeJTQ1y4JjeU9iIeojEv2tdNfvbM8gHTPpsAPx3WcA
+X-Received: by 10.140.238.19 with SMTP id j19mr17932883qhc.87.1431392941758;
+        Mon, 11 May 2015 18:09:01 -0700 (PDT)
+X-Received: by 10.140.238.19 with SMTP id j19mr17932867qhc.87.1431392941628;
+        Mon, 11 May 2015 18:09:01 -0700 (PDT)
+Received: from [10.0.0.7] (c-73-171-122-255.hsd1.va.comcast.net. [73.171.122.255])
+        by mx.google.com with ESMTPSA id b7sm11963510qkb.33.2015.05.11.18.08.58
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 11 May 2015 18:09:00 -0700 (PDT)
+User-Agent: Microsoft-MacOutlook/14.4.8.150116
+Date: Mon, 11 May 2015 21:08:56 -0400
+Subject: Re: Submitting Grades
+From: Victoria Long <vilong@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Message-ID: <D176CA4D.1746E%vilong@vt.edu>
+Thread-Topic: Submitting Grades
+References: <1548026040.2330.1431376843571.JavaMail.sakai@nacho>
+ <847D0F47-3717-4478-A749-4FAFADD0729D@vt.edu>
+ <D1768D76.1743D%vilong@vt.edu>
+ <0D02082F-FF12-46E0-8C73-08C760D8040B@vt.edu>
+In-Reply-To: <0D02082F-FF12-46E0-8C73-08C760D8040B@vt.edu>
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3514223339_713957"
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3514223339_713957
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+If the student had a 56 it appears they at least attended lab. So that is
+okay. The student that has six 50=B9s receives an F. Thanks for checking,
+Vicki
+
+From:  Andrew James <amjames2@vt.edu>
+Date:  Monday, May 11, 2015 at 4:54 PM
+To:  Victoria Long <vilong@vt.edu>
+Subject:  Re: Submitting Grades
+
+I misunderstood the first email, thanks I have got it now.
+
+I have one more question though.  One student in this section has 4 50=B9s an=
+d
+a 56 he handed in a pre-lab for the ideal gas law, or part of one rather an=
+d
+then missed a few weeks and never handed in the post lab for that lab.  Doe=
+s
+that 56 save him or does it count as a 50? There is another student who has
+6 50=B9s so she will be changed to an F, but I want to make sure I do the
+right thing here for this other student.
+
+Thanks,=20
+--AJ
+> On May 11, 2015, at 4:48 PM, Victoria Long <vilong@vt.edu> wrote:
+>=20
+> No, the easiest way is to upload the grades, and then in HokieSpa change =
+the
+> students grade from what is most likely a C to an F using the pull down b=
+ox in
+> HokieSpa. Let me know if this isn=B9t clear =AD thanks, Vicki
+>=20
+> (Scholar will not let you change a grade manually)
+>=20
+> From:  Andrew James <amjames2@vt.edu>
+> Date:  Monday, May 11, 2015 at 4:46 PM
+> To:  Victoria Long <vilong@vt.edu>
+> Subject:  Re: Submitting Grades
+>=20
+> Mrs. Long,=20
+>=20
+> Just a bit confused on your instructions here.
+>=20
+> If I have a section on the list am I supposed to upload the grades into
+> hokiespa after I manually change the grade to an F? I will hold off on
+> uploading my section on the list until you say so.
+>=20
+> Thanks
+> =8BAJ
+>> On May 11, 2015, at 4:40 PM, vilong@vt.edu wrote:
+>>=20
+>> To: Chem 1046 TA Group; Dalton, Michelle (mdalton1); Long, Victoria (vil=
+ong)
+>> From: Victoria Long
+>> 1046 TAs - please go ahead and upload the grades into HokieSpa with a fe=
+w
+>> exceptions provided below (assuming your grades are complete):
+>>=20
+>> If you have one of these CRNs please go in and manually change a grade t=
+o an
+>> F for a student who missed 5 or more labs - you DO HAVE a student who mi=
+ssed
+>> at least 5 labs)
+>>=20
+>> 11941
+>> 11904
+>> 11920
+>> 11909
+>> 11916
+>> 11894
+>> 11908
+>> 11930
+>> 11899
+>> 11894
+>> 11913
+>>=20
+>> Also, all students should get a grade. There are no INCs this semester, =
+and I
+>> believe there are 2 students who can get a NG - these students NEVER ATT=
+ENDED
+>> any lab.
+>>=20
+>> The directions on how to do this are in the GTA handbook. Most of you di=
+d
+>> this last semester so assume you're comfortable doing this. If you have =
+any
+>> questions please email me. Thanks much for a great semester!
+>> Regards, Victoria Long
+>> ----------------------
+>> This forwarded message was sent via Scholar Messages from the  "Gen Chem=
+ TA
+>> Site S15" site. To reply to this message click this link to access Messa=
+ges
+>> for this site: Gen Chem TA Site S15
+>> <https://scholar.vt.edu/portal/site/9c0ae9a6-7755-4737-96a7-79b1122ccc35=
+/page
+>> /3540c2aa-6eb9-4502-8ddb-94e80a2753fc> .
+>=20
+
+
+
+
+--B_3514223339_713957
+Content-type: text/html;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div>If the student had a 56 it ap=
+pears they at least attended lab. So that is okay. The student that has six =
+50&#8217;s receives an F. Thanks for checking, Vicki</div><div><br></div><sp=
+an id=3D"OLK_SRC_BODY_SECTION"><div style=3D"font-family:Calibri; font-size:11pt=
+; text-align:left; color:black; BORDER-BOTTOM: medium none; BORDER-LEFT: med=
+ium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER=
+-TOP: #b5c4df 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 3pt"><span =
+style=3D"font-weight:bold">From: </span> Andrew James &lt;<a href=3D"mailto:amja=
+mes2@vt.edu">amjames2@vt.edu</a>&gt;<br><span style=3D"font-weight:bold">Date:=
+ </span> Monday, May 11, 2015 at 4:54 PM<br><span style=3D"font-weight:bold">T=
+o: </span> Victoria Long &lt;<a href=3D"mailto:vilong@vt.edu">vilong@vt.edu</a=
+>&gt;<br><span style=3D"font-weight:bold">Subject: </span> Re: Submitting Grad=
+es<br></div><div><br></div><div><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html charset=3Dwindows-1252"><div style=3D"word-wrap: break-word; -webkit-nbsp=
+-mode: space; -webkit-line-break: after-white-space;" class=3D"">I misundersto=
+od the first email, thanks I have got it now.&nbsp;<div class=3D""><br class=3D"=
+"></div><div class=3D"">I have one more question though. &nbsp;One student in =
+this section has 4 50&#8217;s and a 56 he handed in a pre-lab for the ideal =
+gas law, or part of one rather and then missed a few weeks and never handed =
+in the post lab for that lab. &nbsp;Does that 56 save him or does it count a=
+s a 50? There is another student who has 6 50&#8217;s so she will be changed=
+ to an F, but I want to make sure I do the right thing here for this other s=
+tudent. &nbsp;<div class=3D""><br class=3D""></div><div class=3D"">Thanks,&nbsp;</=
+div><div class=3D"">--AJ<br class=3D""><div><blockquote type=3D"cite" class=3D""><di=
+v class=3D"">On May 11, 2015, at 4:48 PM, Victoria Long &lt;<a href=3D"mailto:vi=
+long@vt.edu" class=3D"">vilong@vt.edu</a>&gt; wrote:</div><br class=3D"Apple-int=
+erchange-newline"><div class=3D""><div style=3D"word-wrap: break-word; -webkit-n=
+bsp-mode: space; -webkit-line-break: after-white-space; font-size: 14px; fon=
+t-family: Calibri, sans-serif;" class=3D""><div class=3D"">No, the easiest way i=
+s to upload the grades, and then in HokieSpa change the students grade from =
+what is most likely a C to an F using the pull down box in HokieSpa. Let me =
+know if this isn&#8217;t clear &#8211; thanks, Vicki</div><div class=3D""><br =
+class=3D""></div><div class=3D"">(Scholar will not let you change a grade manual=
+ly)</div><div class=3D""><br class=3D""></div><span id=3D"OLK_SRC_BODY_SECTION" cl=
+ass=3D""><div style=3D"font-family: Calibri; font-size: 11pt; text-align: left; =
+border-width: 1pt medium medium; border-style: solid none none; padding: 3pt=
+ 0in 0in; border-top-color: rgb(181, 196, 223);" class=3D""><span style=3D"font-=
+weight:bold" class=3D"">From: </span> Andrew James &lt;<a href=3D"mailto:amjames=
+2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt;<br class=3D""><span style=3D"font-wei=
+ght:bold" class=3D"">Date: </span> Monday, May 11, 2015 at 4:46 PM<br class=3D""=
+><span style=3D"font-weight:bold" class=3D"">To: </span> Victoria Long &lt;<a hr=
+ef=3D"mailto:vilong@vt.edu" class=3D"">vilong@vt.edu</a>&gt;<br class=3D""><span s=
+tyle=3D"font-weight:bold" class=3D"">Subject: </span> Re: Submitting Grades<br c=
+lass=3D""></div><div class=3D""><br class=3D""></div><div class=3D""><meta http-equi=
+v=3D"Content-Type" content=3D"text/html charset=3Dwindows-1252" class=3D""><div styl=
+e=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: afte=
+r-white-space;" class=3D"">Mrs. Long,&nbsp;<div class=3D""><br class=3D""></div><d=
+iv class=3D"">Just a bit confused on your instructions here.&nbsp;</div><div c=
+lass=3D""><br class=3D""></div><div class=3D"">If I have a section on the list am =
+I supposed to upload the grades into hokiespa after I manually change the gr=
+ade to an F? I will hold off on uploading my section on the list until you s=
+ay so.&nbsp;</div><div class=3D""><br class=3D""></div><div class=3D"">Thanks</div=
+><div class=3D"">&#8212;AJ<br class=3D""><div class=3D""><blockquote type=3D"cite" c=
+lass=3D""><div class=3D"">On May 11, 2015, at 4:40 PM, <a href=3D"mailto:vilong@vt=
+.edu" class=3D"">vilong@vt.edu</a> wrote:</div><br class=3D"Apple-interchange-ne=
+wline"><div class=3D"">To: Chem 1046 TA Group; Dalton, Michelle (mdalton1); Lo=
+ng, Victoria (vilong)<div class=3D"">From: Victoria Long</div><div class=3D""><b=
+ class=3D"">1046 TAs - please go ahead and upload the grades into HokieSpa wit=
+h a few exceptions provided below (assuming your grades are complete):</b><b=
+r class=3D""><br class=3D"">
+If you have one of these CRNs please go in and manually change a grade to a=
+n F for a student who missed 5 or more labs - you DO HAVE a student who miss=
+ed at least 5 labs)<br class=3D""><br class=3D"">
+11941<br class=3D"">
+11904<br class=3D"">
+11920<br class=3D"">
+11909<br class=3D"">
+11916<br class=3D"">
+11894<br class=3D"">
+11908<br class=3D"">
+11930<br class=3D"">
+11899<br class=3D"">
+11894<br class=3D"">
+11913<br class=3D""><br class=3D"">
+Also, all students should get a grade. There are no INCs this semester, and=
+ I believe there are 2 students who can get a NG - these students NEVER ATTE=
+NDED any lab.<br class=3D""><br class=3D"">
+The directions on how to do this are in the GTA handbook. Most of you did t=
+his last semester so assume you're comfortable doing this. If you have any q=
+uestions please email me. Thanks much for a great semester!<br class=3D"">
+Regards, Victoria Long </div><div class=3D"">----------------------<br class=3D=
+"">This forwarded message was sent via Scholar Messages from the  "Gen Chem =
+TA Site S15" site.
+To reply to this message click this link to access Messages for this site: =
+<a href=3D"https://scholar.vt.edu/portal/site/9c0ae9a6-7755-4737-96a7-79b1122c=
+cc35/page/3540c2aa-6eb9-4502-8ddb-94e80a2753fc" class=3D"">Gen Chem TA Site S1=
+5</a>.</div></div></blockquote></div><br class=3D""></div></div></div></span><=
+/div></div></blockquote></div><br class=3D""></div></div></div></div></span></=
+body></html>
+
+--B_3514223339_713957--
+
+

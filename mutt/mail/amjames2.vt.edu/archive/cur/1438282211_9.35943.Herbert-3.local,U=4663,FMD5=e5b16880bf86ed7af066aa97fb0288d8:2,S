@@ -1,0 +1,257 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp4290320qga;
+        Fri, 27 Feb 2015 03:10:02 -0800 (PST)
+X-Received: by 10.140.165.198 with SMTP id l189mr28022021qhl.93.1425035402188;
+        Fri, 27 Feb 2015 03:10:02 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id r10si3751663qai.32.2015.02.27.03.10.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Feb 2015 03:10:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.181 as permitted sender) client-ip=209.85.223.181;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.181 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f181.google.com (mail-ie0-f181.google.com [209.85.223.181])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1RB9uP5014349
+	for <amjames2@vt.edu>; Fri, 27 Feb 2015 06:10:01 -0500
+Received: by iecvy18 with SMTP id vy18so29302217iec.6
+        for <amjames2@vt.edu>; Fri, 27 Feb 2015 03:09:56 -0800 (PST)
+X-Received: by 10.42.159.129 with SMTP id l1mr14812942icx.15.1425035395891;
+        Fri, 27 Feb 2015 03:09:55 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp3900166ieb;
+        Fri, 27 Feb 2015 03:09:54 -0800 (PST)
+X-Received: by 10.140.22.234 with SMTP id 97mr26553506qgn.52.1425035393999;
+        Fri, 27 Feb 2015 03:09:53 -0800 (PST)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id w9si3705817qha.81.2015.02.27.03.09.53
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Feb 2015 03:09:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr3.cc.vt.edu (mr3.cc.vt.edu [198.82.141.68] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1RB9rSk009123
+	for <andrew.m.james2@gmail.com>; Fri, 27 Feb 2015 06:09:53 -0500
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1RB9lXi016322
+	for <andrew.m.james2@gmail.com>; Fri, 27 Feb 2015 06:09:52 -0500
+Received: by iecar1 with SMTP id ar1so29296741iec.11
+        for <andrew.m.james2@gmail.com>; Fri, 27 Feb 2015 03:09:47 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=fXahACeK8fnHGp6dq3+2GdywkwRlJjd13PKO46pOl7Q=;
+        b=goaOrFFPdAzXSzhnTcSP5rLbpfjMfT/VtEmflF6al0oUb34XJEsuwa85636tECOBwh
+         uGdRliG/d7mUTmAv0UlBjBcVoqI4sLNYZbhQlyRww0zQlUVnHaKQHAFF9RlfqI7/CfUr
+         XcJYnYPbA3a+p9l3IOyZSJ5leL5omNDRRofp02EFgG3H9VD9RghJ0n2lsvuuiMsDGVQo
+         SIDgYRHRj+sNxm/jrHohGSkmoub+q8mP/ucxAS/0S8pX+h18XNHiiH7KZ844OX3ibFo8
+         fb9/f/j0RJJRVQr/BE9m60zjuzKE+ogA0zdIpahw0CEbzVFNEAcl/OrEqGt55hoDl2G/
+         sn+Q==
+X-Gm-Message-State: ALoCoQneiM3mFYgJEh2QiuiL+Q65s2FURaqlOx8ouqqRIHYf6QU9eX1g2g41XWgkMNztafHttg9GEnHpe/sndqzXR6ENYlgQzEj83/8goT4Yrxx8zspefdP7AtYhmgdNF8kOuN4coq3Pd0feDMDqEC1fRjHFWBH4LQ==
+X-Received: by 10.107.132.220 with SMTP id o89mr18138803ioi.9.1425035387736;
+        Fri, 27 Feb 2015 03:09:47 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.132.220 with SMTP id o89mr18138785ioi.9.1425035387482;
+ Fri, 27 Feb 2015 03:09:47 -0800 (PST)
+Received: by 10.107.135.36 with HTTP; Fri, 27 Feb 2015 03:09:47 -0800 (PST)
+In-Reply-To: <09E7B442-7761-4750-A074-45DBBD47B1EC@gmail.com>
+References: <CAH0V_1b4i3mDRu6NmmGX+TLZ8gK4AgyMN6fp9_3EGz5DP7GZAQ@mail.gmail.com>
+	<09E7B442-7761-4750-A074-45DBBD47B1EC@gmail.com>
+Date: Fri, 27 Feb 2015 12:09:47 +0100
+Message-ID: <CAH0V_1bBMo89uPa2F9tswA-AocssrtZY15sTTGAJ+Lq5N-7CrA@mail.gmail.com>
+Subject: Re: Summer School Website
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113ff964104df205100fe888
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113ff964104df205100fe888
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Great start, AJ!  Here are a few comments/suggestions:
+
+(1) I think we'll have to find either a different photo for the main splash
+page or a higher-resolution image than the one you have.  In addition, the
+white font becomes unreadable in front of the snowy roof.  Also, I think a
+springtime image would be better for attracting potential students. :)
+
+(2) Can you shift the SICM2 logo a bit so that it's top-to-bottom centered
+in the header?   Similarly, the header menu items (Home, Institute,
+Agenda...) need to shift down just a bit.
+
+(3) I'll provide you with additional information on the instructors,
+agenda, etc. soon.
+
+-TDC
+
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Thu, Feb 26, 2015 at 3:24 AM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Hi Dr. Crawford and Ashutosh,
+>
+> I have moved the website to the server where s2i2.org is hosted. It is
+> not anywhere near finished but If you want to take a look at the layout I
+> am going for you can find it at this link.
+>
+> http://s2i2.org/school_2015/index.html
+>
+> Keep in mind a few things when looking at the material that is there.
+>
+> The picture on the homepage is just a place-holder until I can find one
+> that is good quality I wanted to be sure I knew how to change it so I
+> pulled an image off of google and stuck it in. I also see that the writin=
+g
+> over the image can=E2=80=99t be read, but I don=E2=80=99t want to change =
+the colors until
+> the final image is in that spot.
+>
+> The information on presenters Is just a list of people from your old
+> website with  "will present on <the title of the slides you have on your
+> page>=E2=80=9D. I wanted to see how the side-by-side columns would look.
+>
+> The agenda page does not have anything on it yet, but tomorrow I will
+> start playing with the format there and just filling in nonsense to get a
+> feel for how will be arranged. The navigation menu on the side will jump =
+to
+> each of the events once they are filled with information that should help
+> someone get right to what they want to read.
+>
+> The contact.html page is in the directory but not linked to the main page=
+.
+> I am using that as a playground. I have been messing with the google maps
+> api and I would like to have  the map show up with markers on roanoke
+> airport and  tech showing the distance (I imagine some people will be
+> flying in?) I can=E2=80=99t figure out how to get the markers to show up =
+though I
+> have to read into the documentation a little deeper.
+>
+> The footer of each page shows the funding information that was on your
+> page, If any of that information is outdated such as the grant numbers le=
+t
+> me know and I will change those asap
+>
+>
+> I also put made a remote git repo on my github to move it from my laptop
+> to the server. If either of you want to pull it:
+>
+> ssh
+> git@github.com:amjames/School_website.git
+>
+> https
+> https://github.com/amjames/School_website.git
+>
+> If you want to pass along any details as they finalized I will start
+> filling that in as I am refining the layout. Any comments would be
+> appreciated I have never done anything like this before.
+>
+> =E2=80=94AJ
+>
+> On Feb 25, 2015, at 10:14 AM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+> Hi, AJ and Ashutosh,
+>
+> Any progress to report on the development of the website for the Software
+> Summer School?
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+
+--001a113ff964104df205100fe888
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Great start, AJ!=C2=A0 Here are a few comments/suggestions=
+:<div><br></div><div>(1) I think we&#39;ll have to find either a different =
+photo for the main splash page or a higher-resolution image than the one yo=
+u have.=C2=A0 In addition, the white font becomes unreadable in front of th=
+e snowy roof.=C2=A0 Also, I think a springtime image would be better for at=
+tracting potential students. :)</div><div><br></div><div>(2) Can you shift =
+the SICM2 logo a bit so that it&#39;s top-to-bottom centered in the header?=
+ =C2=A0 Similarly, the header menu items (Home, Institute, Agenda...) need =
+to shift down just a bit.</div><div><br></div><div>(3) I&#39;ll provide you=
+ with additional information on the instructors, agenda, etc. soon. =C2=A0<=
+/div><div><br></div><div>-TDC</div><div><br></div><div><br></div></div><div=
+ class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature=
+"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div><=
+/div>
+<br><div class=3D"gmail_quote">On Thu, Feb 26, 2015 at 3:24 AM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word">Hi Dr. Crawford and =
+Ashutosh,=C2=A0<div><br></div><div>I have moved the website to the server w=
+here <a href=3D"http://s2i2.org" target=3D"_blank">s2i2.org</a>=C2=A0is hos=
+ted. It is not anywhere near finished but If you want to take a look at the=
+ layout I am going for you can find it at this link.=C2=A0</div><div><br></=
+div><div><a href=3D"http://s2i2.org/school_2015/index.html" target=3D"_blan=
+k">http://s2i2.org/school_2015/index.html</a></div><div><br></div><div>Keep=
+ in mind a few things when looking at the material that is there.=C2=A0</di=
+v><div><br></div><div>The picture on the homepage is just a place-holder un=
+til I can find one that is good quality I wanted to be sure I knew how to c=
+hange it so I pulled an image off of google and stuck it in. I also see tha=
+t the writing over the image can=E2=80=99t be read, but I don=E2=80=99t wan=
+t to change the colors until the final image is in that spot.</div><div><br=
+></div><div>The information on presenters Is just a list of people from you=
+r old website with =C2=A0&quot;will present on &lt;the title of the slides =
+you have on your page&gt;=E2=80=9D. I wanted to see how the side-by-side co=
+lumns would look.=C2=A0</div><div><br></div><div>The agenda page does not h=
+ave anything on it yet, but tomorrow I will start playing with the format t=
+here and just filling in nonsense to get a feel for how will be arranged. T=
+he navigation menu on the side will jump to each of the events once they ar=
+e filled with information that should help someone get right to what they w=
+ant to read.=C2=A0</div><div><br></div><div>The contact.html page is in the=
+ directory but not linked to the main page. I am using that as a playground=
+. I have been messing with the google maps api and I would like to have =C2=
+=A0the map show up with markers on roanoke airport and =C2=A0tech showing t=
+he distance (I imagine some people will be flying in?) I can=E2=80=99t figu=
+re out how to get the markers to show up though I have to read into the doc=
+umentation a little deeper.=C2=A0</div><div><br></div><div>The footer of ea=
+ch page shows the funding information that was on your page, If any of that=
+ information is outdated such as the grant numbers let me know and I will c=
+hange those asap</div><div><br></div><div><br></div><div>I also put made a =
+remote git repo on my github to move it from my laptop to the server. If ei=
+ther of you want to pull it:</div><div><br></div><div>ssh</div><div>git@git=
+hub.com:amjames/School_website.git</div><div><br></div><div>https=C2=A0</di=
+v><div><a href=3D"https://github.com/amjames/School_website.git" target=3D"=
+_blank">https://github.com/amjames/School_website.git</a></div><div><br></d=
+iv><div>If you want to pass along any details as they finalized I will star=
+t filling that in as I am refining the layout. Any comments would be apprec=
+iated I have never done anything like this before.</div><span class=3D"HOEn=
+Zb"><font color=3D"#888888"><div><br></div><div>=E2=80=94AJ =C2=A0</div></f=
+ont></span><div><br><div><blockquote type=3D"cite"><span class=3D""><div>On=
+ Feb 25, 2015, at 10:14 AM, T. Daniel Crawford &lt;<a href=3D"mailto:crawda=
+d@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:</div><br></span><=
+div><div class=3D"h5"><div><div dir=3D"ltr">Hi, AJ and Ashutosh,<div><br></=
+div><div>Any progress to report on the development of the website for the S=
+oftware Summer School?</div><div><br></div><div>-TDC<br clear=3D"all"><div>=
+<div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"=
+mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></di=
+v></div>
+</div></div>
+</div></div></div></blockquote></div><br></div></div></blockquote></div><br=
+></div>
+
+--001a113ff964104df205100fe888--

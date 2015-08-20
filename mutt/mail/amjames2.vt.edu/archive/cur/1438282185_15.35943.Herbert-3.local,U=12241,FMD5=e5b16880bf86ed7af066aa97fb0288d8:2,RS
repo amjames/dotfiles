@@ -1,0 +1,131 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp548143qgt;
+        Thu, 23 Jul 2015 11:07:08 -0700 (PDT)
+X-Received: by 10.55.23.33 with SMTP id i33mr13711586qkh.89.1437674364915;
+        Thu, 23 Jul 2015 10:59:24 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id d14si6766274qhc.99.2015.07.23.10.59.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 10:59:24 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.177 as permitted sender) client-ip=209.85.223.177;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.177 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-ie0-f177.google.com (mail-ie0-f177.google.com [209.85.223.177])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6NHxI6m016624
+	for <amjames2@vt.edu>; Thu, 23 Jul 2015 13:59:24 -0400
+Received: by ietj16 with SMTP id j16so1928177iet.0
+        for <amjames2@vt.edu>; Thu, 23 Jul 2015 10:59:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=3HOIIoic+oUSbmYDvYTKTwIlDRBgxRKv3BgTctw4KUw=;
+        b=H5r2776lcHZasK3WdtJjndVzfJSWZKZB3jJa+DnFPtGlWXYjjDX1euF3y8knVqjo0U
+         BVwTw7KKSIbF2ec+URR7kvW0Q1UJ/M9I3EFM4LIuyi4XvqsS9sTK6nuetFe1Yru6EhyG
+         87jaT9C2b62NlvWGaK35Jf0nbMWmpZj/lcGIK/ihjEp9qTMFUM6zhoRxLzs08R+o+71n
+         aSgYQ5hyXMhMMaSAcSuIx/AC04D2ybepyZiyXjtXKU+30Wx1nDmsunMzA08dfD5jrmiG
+         HfIaZ+8k9RmieHZ9htUcb3pwMqV8f4l/ZyNQTpkt9Jn9X/HkoqvSVx+cXSz88maAkeSO
+         WCmg==
+X-Gm-Message-State: ALoCoQkpzxVPIUR2U7JTBW4pbYtkLg8Moxs2ktTpx9VnHJ/CFdG32836BSTN6fIdn2codAmwgskFrqSE76SQHVWNJXc1GCuU+6nhR6sajWL2jzWumkjTFOYe4pwsmMPkAVxgme6kNqQIn6YBspu6knSw6sVrp3d9Yw==
+X-Received: by 10.107.129.101 with SMTP id c98mr15722535iod.96.1437674327179;
+        Thu, 23 Jul 2015 10:58:47 -0700 (PDT)
+X-Received: by 10.107.129.101 with SMTP id c98mr15373774iod.96.1437668787188;
+ Thu, 23 Jul 2015 09:26:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.155.137 with HTTP; Thu, 23 Jul 2015 09:26:07 -0700 (PDT)
+In-Reply-To: <CD1A87ED-533C-446B-8BDE-DB6DA2DC4FE1@vt.edu>
+References: <DE5CFCE7-21AE-4FF3-9E68-2DE287BE7485@vt.edu> <CAECk6+4BmNJc1XxmnXuAcgJPE0ASu5CdeX1Qtx3=cwLV26qMrQ@mail.gmail.com>
+ <CD1A87ED-533C-446B-8BDE-DB6DA2DC4FE1@vt.edu>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Thu, 23 Jul 2015 12:26:07 -0400
+Message-ID: <CAECk6+4bBEh9vrvAbW0fXLrn1uDi4pKHg0xCCVZbQRZX7zSWBQ@mail.gmail.com>
+Subject: Re: the light at the end of the tunnel
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113ecad05d901f051b8d5923
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113ecad05d901f051b8d5923
+Content-Type: text/plain; charset=UTF-8
+
+WE'RE READY NOW!!!!!!!!!
+
+On Thu, Jul 23, 2015 at 11:50 AM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> AWW THAT WOULD BE RAD!
+>
+> email me when your ready and I will meet you outside where hann faces
+> davidson?
+>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>
+>
+> On Jul 23, 2015, at 11:46 AM, Christine Duchane <cduchane@vt.edu> wrote:
+>
+> Loren wants to go to bdubs. The kids are all rotovaping and I'm trying to
+> rush them along a bit. I'm hoping they'll all be done enough that we can
+> leave by 12:30.
+>
+> On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <amjames2@vt.edu> wrote:
+>
+>> Im done email me about lunch. Phone is almost dead, and I have no service
+>> in here lately :( its showing as working online now
+>>
+>> Andrew M. James
+>> Graduate Research Assistant
+>> amjames2@vt.edu
+>>
+>>
+>>
+>
+>
+
+--001a113ecad05d901f051b8d5923
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">WE&#39;RE READY NOW!!!!!!!!!</div><div class=3D"gmail_extr=
+a"><br><div class=3D"gmail_quote">On Thu, Jul 23, 2015 at 11:50 AM, Andrew =
+M. James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D=
+"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmai=
+l_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left=
+:1ex"><div style=3D"word-wrap:break-word">AWW THAT WOULD BE RAD!<div>=C2=A0=
+</div><div>email me when your ready and I will meet you outside where hann =
+faces davidson?=C2=A0</div><div><span class=3D""><br><div>
+Andrew M. James<br>Graduate Research Assistant<br><a href=3D"mailto:amjames=
+2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br><br>
+
+</div>
+<br></span><div><div class=3D"h5"><div><blockquote type=3D"cite"><div>On Ju=
+l 23, 2015, at 11:46 AM, Christine Duchane &lt;<a href=3D"mailto:cduchane@v=
+t.edu" target=3D"_blank">cduchane@vt.edu</a>&gt; wrote:</div><br><div><div =
+dir=3D"ltr">Loren wants to go to bdubs. The kids are all rotovaping and I&#=
+39;m trying to rush them along a bit. I&#39;m hoping they&#39;ll all be don=
+e enough that we can leave by 12:30.</div><div class=3D"gmail_extra"><br><d=
+iv class=3D"gmail_quote">On Thu, Jul 23, 2015 at 11:10 AM, Andrew James <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amj=
+ames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Im don=
+e email me about lunch. Phone is almost dead, and I have no service in here=
+ lately :( its showing as working online now<br>
+<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<br>
+<br>
+</blockquote></div><br></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div>
+
+--001a113ecad05d901f051b8d5923--

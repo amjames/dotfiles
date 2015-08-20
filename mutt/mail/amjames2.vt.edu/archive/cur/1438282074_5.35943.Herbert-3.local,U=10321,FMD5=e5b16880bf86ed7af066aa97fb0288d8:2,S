@@ -1,0 +1,119 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2591757qgt;
+        Tue, 9 Jun 2015 10:09:02 -0700 (PDT)
+X-Received: by 10.140.92.165 with SMTP id b34mr26635395qge.13.1433869742526;
+        Tue, 09 Jun 2015 10:09:02 -0700 (PDT)
+Return-Path: <sne86684@bethel.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id r8si5978207qha.73.2015.06.09.10.09.02
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 10:09:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sne86684@bethel.edu designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of sne86684@bethel.edu designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=sne86684@bethel.edu;
+       dkim=pass header.i=@bethel.edu
+Received: from mail-wi0-x22f.google.com (mail-wi0-x22f.google.com [IPv6:2a00:1450:400c:c05::22f])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t59H8uHc025612
+	for <amjames2@vt.edu>; Tue, 9 Jun 2015 13:09:01 -0400
+Received: by wibut5 with SMTP id ut5so24847885wib.1
+        for <amjames2@vt.edu>; Tue, 09 Jun 2015 10:08:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bethel.edu; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=mF6g/KbdormWGLZ31R2wQ/aXNHlcrWDYus2GZnQwwcI=;
+        b=O1HkjRCHjwnE8IfUQrYkfrUIyo7rIdfx/o95X9GWFf6yBCTM1iszEWPCpSex+eCzdI
+         F+PA7rd2QFTcutaZ4B1gUZYPt8c+o9XZ6auwlRkhNNgbRkpaQwlpy6Il2JWTqkboRM+L
+         521JUjRCkIXW5eHnXVy1v/cev6+BzyY7+E++Q=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=mF6g/KbdormWGLZ31R2wQ/aXNHlcrWDYus2GZnQwwcI=;
+        b=frYQkHSF+2PLv6q23elHd8zyzEjjlRJha6EazpD1EPp5qZYwIdCezKfK01b3CMDiUU
+         yOz8yrfbiWEL7iOwoInSZhuVRV7QHtuiwqSKBOYNmLzQSPHrJoDdrA7rC0jGT/9rGgk1
+         DnYvZqXJV+t0TNrf9d+WcrXsbCxUnpUEilMw+Uv3SNB8trqhbYr7/sL29Ehm0ft13nNL
+         QrM1//bWXPhYhlM73Sqsgye1ALxwbOtCyLNQmFgGX+6BBuOqIlCfuy2jDWcdqE6hD969
+         p1KOv4otJpcyc9XwqIJOe5HKGeS489UrUGLFZgOYoLMNNZIEU3Yees1o629A2MN58ztm
+         W8fQ==
+X-Gm-Message-State: ALoCoQl6xv2ozIyNQRkpKhoeDzGq50zuqymcEZyw05SpX0jMjKMOp787qLRnv15T3fIMO29EkdJt
+MIME-Version: 1.0
+X-Received: by 10.180.94.35 with SMTP id cz3mr34644365wib.85.1433869736253;
+ Tue, 09 Jun 2015 10:08:56 -0700 (PDT)
+Received: by 10.27.60.78 with HTTP; Tue, 9 Jun 2015 10:08:56 -0700 (PDT)
+In-Reply-To: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+References: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+Date: Tue, 9 Jun 2015 12:08:56 -0500
+Message-ID: <CAOJf0gOJ0K1MpasAauB7nJMrMmwhMo4FgEz2c326+0MpLrfMTQ@mail.gmail.com>
+Subject: Re: Reminder 2: Travel Itinerary Software Summer School
+From: Sarah Elliott <sne86684@bethel.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=f46d0442724e48b312051818d022
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0442724e48b312051818d022
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+
+I will be driving up on the 21st.  I know Megha Anand and possibly Jonathan
+Vandezande will be coming with me in my car.
+
+Thanks,
+Sarah
+
+On Tue, Jun 9, 2015 at 9:20 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello everyone,
+>
+> Just another reminder to send me your travel Itinerary. If you are flying
+> we will arrange your transportation from the airport, and if you are
+> driving we will make sure you have a parking pass when you get here.
+>
+> Thanks,
+> Andrew M James
+> Summer School Coordinator
+
+
+
+
+-- 
+*Sarah N. Elliott*
+*Bethel University*
+Tel: (319)541-7688
+Email: sne86684@bethel.edu
+
+--f46d0442724e48b312051818d022
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello Andrew,=C2=A0<div><br></div><div>I will be driving u=
+p on the 21st.=C2=A0 I know Megha Anand and possibly Jonathan Vandezande wi=
+ll be coming with me in my car.=C2=A0</div><div><br></div><div>Thanks,</div=
+><div>Sarah</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On Tue, Jun 9, 2015 at 9:20 AM, Andrew James <span dir=3D"ltr">&lt;<a=
+ href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;<=
+/span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8=
+ex;border-left:1px #ccc solid;padding-left:1ex">Hello everyone,<br>
+<br>
+Just another reminder to send me your travel Itinerary. If you are flying w=
+e will arrange your transportation from the airport, and if you are driving=
+ we will make sure you have a parking pass when you get here.<br>
+<br>
+Thanks,<br>
+Andrew M James<br>
+Summer School Coordinator </blockquote></div><br><br clear=3D"all"><div><br=
+></div>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><b>Sarah N. E=
+lliott</b><div><i>Bethel University</i></div><div>Tel: (319)541-7688</div><=
+div>Email: <a href=3D"mailto:sne86684@bethel.edu" target=3D"_blank">sne8668=
+4@bethel.edu</a></div></div></div>
+</div>
+
+--f46d0442724e48b312051818d022--

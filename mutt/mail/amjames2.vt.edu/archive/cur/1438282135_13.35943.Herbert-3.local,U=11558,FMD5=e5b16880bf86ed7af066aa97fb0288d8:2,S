@@ -1,0 +1,116 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1024336qgt;
+        Sun, 28 Jun 2015 02:25:04 -0700 (PDT)
+X-Received: by 10.140.148.67 with SMTP id 64mr13436958qhu.74.1435483504725;
+        Sun, 28 Jun 2015 02:25:04 -0700 (PDT)
+Return-Path: <>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 87si22465344qkq.112.2015.06.28.02.25.04
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 28 Jun 2015 02:25:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of  designates 2001:468:c80:2105:0:277:40de:506c as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of  designates 2001:468:c80:2105:0:277:40de:506c as permitted sender) smtp.mail=
+Received: from localhost (localhost)
+	by mr1.cc.vt.edu (8.14.4/8.14.4) id t5RM117T023561;
+	Sat, 27 Jun 2015 18:04:09 -0400
+Date: Sat, 27 Jun 2015 18:04:09 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@vt.edu>
+Message-Id: <201506272204.t5RM117T023561@mr1.cc.vt.edu>
+To: <amjames2@vt.edu>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="t5RM117T023561.1435442649/mr1.cc.vt.edu"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a MIME-encapsulated message
+
+--t5RM117T023561.1435442649/mr1.cc.vt.edu
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Sat, 27 Jun 2015 13:39:27 -0400
+from mail-qk0-f176.google.com [209.85.220.176]
+
+   ----- Transcript of session follows -----
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--t5RM117T023561.1435442649/mr1.cc.vt.edu
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mr1.cc.vt.edu
+Arrival-Date: Sat, 27 Jun 2015 13:39:27 -0400
+
+Final-Recipient: RFC822; cduchane@vt.edu
+X-Actual-Recipient: RFC822; cduchane@mr1.cc.vt.edu
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Sat, 27 Jun 2015 18:04:09 -0400
+Will-Retry-Until: Thu, 2 Jul 2015 13:39:27 -0400
+
+--t5RM117T023561.1435442649/mr1.cc.vt.edu
+Content-Type: message/rfc822
+
+Return-Path: <amjames2@vt.edu>
+Received: from mail-qk0-f176.google.com (mail-qk0-f176.google.com [209.85.220.176])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5RHdMGe014520
+	for <cduchane@vt.edu>; Sat, 27 Jun 2015 13:39:27 -0400
+Received: by qkeo142 with SMTP id o142so72165425qke.1
+        for <cduchane@vt.edu>; Sat, 27 Jun 2015 10:39:22 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-type:content-transfer-encoding
+         :mime-version:subject:message-id:date:references:in-reply-to:to;
+        bh=aOtzsffosGjlrzGXWVfjsKE3/7tWr5DtR5Qs4dfM2+Y=;
+        b=iOvr54QRP3Abn9gqy2n2MRMCB1No/4pVxE4Ttq3axBsaM6ZYZZHoBh22nXxMySOcNR
+         BObcVNz4MDgtVQm9Vtxs53qzI0bIhx6J6E5u319NSKlZvLFcKuafB65Whq43jwIeL0xG
+         aAE+GvVYB3M+cIEBpOs0A/iUx8SICTiBQBladlq/wEJB6/8we5Pw3oLYOpk6WEj0GhO0
+         Y9AtWsRJSYjCkkcTFSdK3Ib/IyCmyZ6d8sdkeW2vh4KDqZdYajId0PMMKe4sVGaXiYtU
+         ZAly1IHWxq/U+z5z2ba6SGsiGv020oHpnnPO6K7d640HguEC4XS5+T5QfYbTZpVKTvQa
+         JZqw==
+X-Gm-Message-State: ALoCoQngFPUJ6L6Pehe8oR8g/N7ULkxPI/+LsB981hhZIeWWNy+2fToZaG87hEWm/kzIAWECLWEcYu/DVgwrkHOL4S+8ASGRyJMzbTkNxGd8y9NsEsam2mw/5/Qn+zH+OZWtEFVjlxpsH0N5Q6sl9xv9vS4vP0jcAUaL1bqp7LkllrNYaTlHE98mlYJWUXQacrMoGZotZ4mm
+X-Received: by 10.140.194.72 with SMTP id p69mr10438205qha.1.1435426762049;
+        Sat, 27 Jun 2015 10:39:22 -0700 (PDT)
+X-Received: by 10.140.194.72 with SMTP id p69mr10438197qha.1.1435426761955;
+        Sat, 27 Jun 2015 10:39:21 -0700 (PDT)
+Received: from ?IPv6:2607:b400:24:8006:6045:6e80:826f:bb5a? ([2607:b400:24:8006:6045:6e80:826f:bb5a])
+        by mx.google.com with ESMTPSA id 143sm8825645qhw.21.2015.06.27.10.39.21
+        for <cduchane@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 27 Jun 2015 10:39:21 -0700 (PDT)
+From: Andrew M James <amjames2@vt.edu>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Celia's party.
+Message-Id: <29FD34E6-ABD3-4E43-83AD-132035496B6F@vt.edu>
+Date: Sat, 27 Jun 2015 13:39:20 -0400
+References: <CAECk6+6PZp+hTNafnQMpNYiu1Wx82VuYzvRkGZA8zXLLNijqZw@mail.gmail.com>
+In-Reply-To: <CAECk6+6PZp+hTNafnQMpNYiu1Wx82VuYzvRkGZA8zXLLNijqZw@mail.gmail.com>
+To: Christine Duchane <cduchane@vt.edu>
+X-Mailer: iPhone Mail (12B440)
+X-Spam-Status: No, score=-0.3 required=5.0 tests=NO_DNS_FOR_FROM,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+
+Oh phuck and fuck
+
+Sent from my iPhone
+
+> On Jun 27, 2015, at 1:35 PM, Christine Duchane <cduchane@vt.edu> wrote:
+> 
+> we forgot about it. And still no phone.
+
+--t5RM117T023561.1435442649/mr1.cc.vt.edu--
+

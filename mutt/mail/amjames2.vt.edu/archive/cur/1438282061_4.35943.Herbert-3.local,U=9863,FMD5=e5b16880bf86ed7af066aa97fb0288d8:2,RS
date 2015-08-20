@@ -1,0 +1,70 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp713026qgt;
+        Thu, 4 Jun 2015 09:47:51 -0700 (PDT)
+X-Received: by 10.55.40.218 with SMTP id o87mr70734852qko.82.1433436471755;
+        Thu, 04 Jun 2015 09:47:51 -0700 (PDT)
+Return-Path: <jbrow@exchange.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id j78si1546245qhc.65.2015.06.04.09.47.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Jun 2015 09:47:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.13 as permitted sender) client-ip=198.82.160.13;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.13 as permitted sender) smtp.mail=jbrow@exchange.vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (marconi.cc.vt.edu [198.82.160.13] (may be forged))
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t54GljKt007760
+	for <amjames2@vt.edu>; Thu, 4 Jun 2015 12:47:51 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: MARCONI.cc.w2k.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:0:243:942e:ff76) by
+ MARCONI.cc.w2k.vt.edu (2001:468:c80:2104:a822:9a0:814d:5e06) with Microsoft
+ SMTP Server (TLS) id 15.0.995.29; Thu, 4 Jun 2015 12:47:45 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+ GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+ 15.00.0995.032; Thu, 4 Jun 2015 12:47:45 -0400
+From: "Brow, Jessica" <jbrow@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: RE: Software SS
+Thread-Topic: Software SS
+Thread-Index: AQHQnuQoUn+2rPnnFU2q0sKAtfhDnJ2cip8wgABFDQD//72y0A==
+Date: Thu, 4 Jun 2015 16:47:44 +0000
+Message-ID: <b749d78cf5b94202a916b73c7237c906@GUTENBERG.cc.w2k.vt.edu>
+References: <201506041633.t54GWvre006920@mr5.cc.vt.edu>
+ <0edf43656a6149d99f855df2067e537d@GUTENBERG.cc.w2k.vt.edu>
+ <F86D7F3A-C60C-42B9-85C5-DCF0037AEE75@vt.edu>
+In-Reply-To: <F86D7F3A-C60C-42B9-85C5-DCF0037AEE75@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [198.82.173.211]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: MARCONI.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.3 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+QW5kcmV3LA0KDQpUaGV5IGNhbiBzdGlsbCByZWdpc3RlciBvbmxpbmUuICBJIGFtIG5vdCBzdXJl
+IHdoYXQgaXQgc2F5cyBpcyB0aGUgZGVhZGxpbmUsIGJ1dCBJIGhhdmUgZXh0ZW5kZWQgaXQgdG8g
+SnVuZSAxNSBpbiBvdXIgZGF0YWJhc2UuDQoNCkkgbmVlZCB0byBnZXQgYSByb29tIGNvdW50IHRv
+IEhvdXNpbmcgU2VydmljZXMgZm9yIHRoaXMgcHJvZ3JhbSBvbiB0aGlzIGNvbWluZyBNb25kYXks
+IHNvIGlmIHlvdSBjb3VsZCBjb25maXJtIHdoZXRoZXIgdGhlIGxhc3QgdHdvIGFyZSBjb21pbmcs
+IEkgd291bGQgYXBwcmVjaWF0ZSBpdCENCg0KQWxzbywgd2VyZSB0aGUgdHdvIHN0dWRlbnRzIHdo
+byB3ZXJlIGxvY2FsIGF0dGVuZGluZyB0aGlzIHByb2dyYW0gb3IgdGhlIE1SUFNTPw0KDQpUaGFu
+a3MhDQoNCi0tLS0tT3JpZ2luYWwgTWVzc2FnZS0tLS0tDQpGcm9tOiBBbmRyZXcgSmFtZXMgW21h
+aWx0bzphbWphbWVzMkB2dC5lZHVdIA0KU2VudDogVGh1cnNkYXksIEp1bmUgNCwgMjAxNSAxMjo0
+MSBQTQ0KVG86IEJyb3csIEplc3NpY2ENClN1YmplY3Q6IFJlOiBTb2Z0d2FyZSBTUw0KDQpUaGFu
+a3MgSmVzc2ljYSwgDQoNCkkgYW0gZ29pbmcgc2VuZCBhbiBlbWFpbCB0byB0aGUgbGFzdCAyIHN0
+dWRlbnRzIHdobyBoYXZlIGJlZW4gYWNjZXB0ZWQsIGJ1dCBub3QgcmVnaXN0ZXJlZCB5ZXQuIFdp
+bGwgdGhleSBzdGlsbCBiZSBhYmxlIHRvIGRvIHNvIG9ubGluZT8gDQoNCkkgYW0gYWxzbyBzZW5k
+aW5nIGEgbWVzc2FnZSByZW1pbmRpbmcgdGhlbSBJIG5lZWQgdGhlaXIgdHJhdmVsIHBsYW5zIHNv
+b24sIHNvIEkgc2hvdWxkIGhhdmUgYW4gYXJyaXZhbC9kZXBhcnR1cmUgbGlzdCBmb3IgeW91IHNv
+b24NCg0K4oCUQUoNCj4gT24gSnVuIDQsIDIwMTUsIGF0IDEyOjM0IFBNLCBCcm93LCBKZXNzaWNh
+IDxqYnJvd0BleGNoYW5nZS52dC5lZHU+IHdyb3RlOg0KPiANCj4gPFtVbnRpdGxlZF0ucGRmPg0K
+DQo=

@@ -1,0 +1,243 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2429739qgt;
+        Tue, 11 Aug 2015 05:55:48 -0700 (PDT)
+X-Received: by 10.140.134.147 with SMTP id 141mr49758138qhg.41.1439297748573;
+        Tue, 11 Aug 2015 05:55:48 -0700 (PDT)
+Return-Path: <bursar-resc@exchange.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id 17si3157551qhy.83.2015.08.11.05.55.48
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 05:55:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bursar-resc@exchange.vt.edu designates 198.82.160.7 as permitted sender) client-ip=198.82.160.7;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bursar-resc@exchange.vt.edu designates 198.82.160.7 as permitted sender) smtp.mailfrom=bursar-resc@exchange.vt.edu
+Received: from BELL.cc.w2k.vt.edu (bell.cc.vt.edu [198.82.160.7] (may be forged))
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BCtfQJ016930
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 08:55:47 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: BELL.cc.w2k.vt.edu
+Received: from PASCAL.cc.w2k.vt.edu (2001:468:c80:2104:0:26d:cc73:13ee) by
+ BELL.cc.w2k.vt.edu (2001:468:c80:2104:0:271:24e9:3ff6) with Microsoft SMTP
+ Server (TLS) id 15.0.995.29; Tue, 11 Aug 2015 08:55:44 -0400
+Received: from BRAILLE.cc.w2k.vt.edu (198.82.160.8) by PASCAL.cc.w2k.vt.edu
+ (198.82.160.25) with Microsoft SMTP Server (TLS) id 15.0.1104.5; Tue, 11 Aug
+ 2015 08:55:44 -0400
+Received: from BRAILLE.cc.w2k.vt.edu ([127.0.0.1]) by BRAILLE.cc.w2k.vt.edu
+ ([198.82.160.8]) with Microsoft SMTP Server id 15.00.0995.032; Tue, 11 Aug
+ 2015 08:55:44 -0400
+From: University Bursar <bursar-resc@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: AUTO-REPLY:  BURSAR EMAIL
+Thread-Topic: AUTO-REPLY:  BURSAR EMAIL
+Thread-Index: AQHQ1DUJCqrsSPgjgE2W2ov1QD8X2Q==
+Date: Tue, 11 Aug 2015 12:55:44 +0000
+Message-ID: <7facb263e137448f82f8710d82cf263e@BRAILLE.cc.w2k.vt.edu>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: bursar-resc@exchange.vt.edu
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id: <20150811125539.GB48942@Herbert-3.local>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrGqsTGxXIsaAGH7oUPJ0MNTj2dsorF4muTsQNjAEMUa2ZeUn5FAmvGuien2AqW2lf0zZzC0sB42bqLkYtDSGADo8Tiyy3MEM46RokT+w4COZwczAKmEle+NrJA2IoSF+41gNlsQPFLU+6C1YgIqErsX34LzBYWUJJY/WohI0RcXWLTu3NMELaexL8Vc8HiEgICEkv2nGeGsGUl3syfxwphK0n03n7HBGFbS7S/74WqsZJomXUVzOYVEJQ4OfMJ2A0sQHt3XjjEAlFjJrH3wRKoXl2JttsLoHoDJf783gUU5wCyTSWuvg+GCNtK7JkxESrsLDHvRj1E2EZi++0Z7BC2tsT2V/ugLtOReL3oBSOMPeHzDBaIa1wk1u05AFUfLPG4swfKlpf4f+8+1GUeEl/fP2SFWOUpsWiyOUiYUUBO4sexx0wTGNVnIYXzLKRwnoXk3wWMzKsYRQIcg50dffSSk/XKjbL1ykr0UlNKNzFCYl1yB2PzbPdDjJIcTEqivEEvT4YK8SXlp1RmJBZnxBeV5qQWH2KU4OBREuHd8g4ox1tckJhbnJkOk5Lh4FCS4J0HkhIsSk1PrUjLzClJLYJIn2JUlBLnfQ6SFADpyyjNg8vBEt0lRlkpYd4GkL08BalFuZklqPK3GAU5HjAJseTl56VKQcVeMYpzMCoJ83K9B+nKzCuBO+gV0K1MQLfaBZ4AubUkESEl1cA4nS/Z/ezMiYz1/rMUj11Nbbx/aekceeldUjILTN03/uZTeOdbzj5pqUlbsueuIBFtRtYd2rZJDpNuuawM43zPsi5Y9kbK4p9JsitXSq4tnL3Nx7m14J9f96NlR2zsxRnnv43vTG98m6nmlHvReINCnf9NNkev+tkhd5TDP0Yu2POx4ofn3i1KLMUZiYZazEXFiQCarXa2eQMAAA==
+Content-Type: multipart/alternative;
+	boundary="_000_7facb263e137448f82f8710d82cf263eBRAILLEccw2kvtedu_"
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BELL.cc.w2k.vt.edu
+X-Spam-Status: No, score=-0.9 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_MED,RP_MATCHES_RCVD,SUBJ_ALL_CAPS autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_7facb263e137448f82f8710d82cf263eBRAILLEccw2kvtedu_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+This is an AUTO REPLY from the Office of the University Bursar (OUB).
+
+Thank you for your email.
+
+If you are e-mailing on behalf of the student, ensure that your FERPA<http:=
+//www.registrar.vt.edu/records/ferpa.php> passcode is included.  If you do =
+not have a FERPA passcode, please contact your student.
+
+Students and parents may review 'account status' or make a payment by loggi=
+ng into www.hokiespa.vt.edu<http://www.hokiespa.vt.edu> or the Authorized P=
+ayer link,  https://quikpayasp.com/vt/tuition/a'horized.do<https://quikpaya=
+sp.com/vt/tuition/a'horized.do>.
+
+  =3D> Choose 'University Account Information' Menu
+  =3D> Choose 'View and Pay e-bill'
+  =3D> Choose 'View Accounts' or Choose 'Make Payment'
+
+If you wish to view further OUB options such as Direct Deposit, The Budget =
+Tuition Plan, 1098-T Tax Form, Video Demos, FERPA Disclosure or Authorized =
+Payer Enrollment, please visit our webpage at, www.bursar.vt.edu<http://www=
+.bursar.vt.edu> .
+
+
+*********************************
+Office of the University Bursar
+Tel: 540.231.6277, Fax: 540.231.3238
+Web: www.bursar.vt.edu<http://www.bursar.vt.edu/>
+*********************************
+Academic Record Disclosure: You are receiving this information as determine=
+d by the educational right to know disclosure guidelines of the Family Educ=
+ational Rights and Privacy Act (FERPA). If you are not the intended recipie=
+nt, please do not disclose, copy or distribute this information. Please not=
+ify the sender immediately by return e-mail or by telephone at 540-231-6277=
+. Thank you.
+
+
+
+
+
+
+--_000_7facb263e137448f82f8710d82cf263eBRAILLEccw2kvtedu_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.EmailStyle18
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">This is an =
+AUTO REPLY from the Office of the University Bursar (OUB).<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Thank you f=
+or your email.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">If you are =
+e-mailing on behalf of the student, ensure that your
+<a href=3D"http://www.registrar.vt.edu/records/ferpa.php">FERPA</a> passcod=
+e is included.&nbsp; If you do not have a FERPA passcode, please contact yo=
+ur student.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot;,&=
+quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Students an=
+d parents may review &#8216;account status&#8217; or make a payment by logg=
+ing into
+<a href=3D"http://www.hokiespa.vt.edu">www.hokiespa.vt.edu</a> or the Autho=
+rized Payer link, &nbsp;<a href=3D"https://quikpayasp.com/vt/tuition/a'hori=
+zed.do">https://quikpayasp.com/vt/tuition/a&#8217;horized.do</a>.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;<o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.5in;text-autospace:none"><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;">&nbsp; =3D&gt; Choose &#8216;University Account Information&#8217; Me=
+nu
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.5in;text-autospace:none"><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;">&nbsp;&nbsp;=3D&gt; Choose &#8216;View and Pay e-bill&#8217;<o:p></o:=
+p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.5in;text-autospace:none"><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;">&nbsp; =3D&gt; Choose &#8216;View Accounts&#8217; or Choose &#8216;Ma=
+ke Payment&#8217;<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">If you wish=
+ to view further OUB options such as Direct Deposit, The Budget Tuition Pla=
+n, 1098-T Tax Form, Video Demos, FERPA Disclosure or Authorized
+ Payer Enrollment, please visit our webpage at, <a href=3D"http://www.bursa=
+r.vt.edu">
+www.bursar.vt.edu</a> . <o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">*********************************<o:p></o:p></p>
+<p class=3D"MsoNormal">Office of the University Bursar<o:p></o:p></p>
+<p class=3D"MsoNormal">Tel: 540.231.6277, Fax: 540.231.3238<o:p></o:p></p>
+<p class=3D"MsoNormal">Web: <a href=3D"http://www.bursar.vt.edu/">www.bursa=
+r.vt.edu</a><o:p></o:p></p>
+<p class=3D"MsoNormal">*********************************<o:p></o:p></p>
+<p class=3D"MsoNormal">Academic Record Disclosure: You are receiving this i=
+nformation as determined by the educational right to know disclosure guidel=
+ines of the Family Educational Rights and Privacy Act (FERPA). If you are n=
+ot the intended recipient, please
+ do not disclose, copy or distribute this information. Please notify the se=
+nder immediately by return e-mail or by telephone at 540-231-6277. Thank yo=
+u.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_7facb263e137448f82f8710d82cf263eBRAILLEccw2kvtedu_--

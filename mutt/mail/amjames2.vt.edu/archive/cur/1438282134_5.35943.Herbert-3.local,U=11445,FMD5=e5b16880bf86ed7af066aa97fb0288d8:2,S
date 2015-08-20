@@ -1,0 +1,68 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp7597qgt;
+        Fri, 26 Jun 2015 07:14:24 -0700 (PDT)
+X-Received: by 10.140.105.69 with SMTP id b63mr2534730qgf.66.1435328064478;
+        Fri, 26 Jun 2015 07:14:24 -0700 (PDT)
+Return-Path: <uas@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id x104si33014349qgx.59.2015.06.26.07.14.24
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Jun 2015 07:14:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of uas@vt.edu designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of uas@vt.edu designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=uas@vt.edu
+Received: from aquifer.cc.vt.edu ([IPv6:2001:468:c80:2104:219:b9ff:feea:d908])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5QEEIlU029180
+	for <amjames2@vt.edu>; Fri, 26 Jun 2015 10:14:23 -0400
+Received: from bradmin1.arc.vt.edu.mgt (bradmin1.cluster [10.11.0.1])
+	by aquifer.cc.vt.edu (Postfix) with ESMTP id AD42636022
+	for <amjames2@vt.edu>; Fri, 26 Jun 2015 10:14:18 -0400 (EDT)
+Received: by bradmin1.arc.vt.edu.mgt (Postfix, from userid 0)
+	id A181720C94; Fri, 26 Jun 2015 10:14:18 -0400 (EDT)
+To: amjames2@vt.edu
+From: moabadmin@bradmin1.arc.vt.edu.mgt
+Subject: Moab job '162923' was canceled
+Message-Id: <20150626141418.A181720C94@bradmin1.arc.vt.edu.mgt>
+Date: Fri, 26 Jun 2015 10:14:18 -0400 (EDT)
+X-Spam-Status: No, score=2.1 required=5.0 tests=DKIM_ADSP_NXDOMAIN,RDNS_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Level: **
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Moab job '162923' was canceled
+
+========== output of checkjob ==========
+
+job 162923
+
+AName: phenNOcode
+State: Removed 
+Completion Code: 0  Time: Wed Dec 31 19:00:00
+Creds:  user:amjames2  group:blueridge  account:crawdad  class:normal_q  qos:medium_priority_qos
+WallTime:   00:00:00 of 1:00:00
+BecameEligible: Fri Jun 26 09:29:29
+SubmitTime: Fri Jun 26 09:29:00
+  (Time Queued  Total: 00:45:18  Eligible: 00:45:04)
+
+TemplateSets:  DEFAULT
+NodeMatchPolicy: EXACTNODE
+Total Requested Tasks: 16
+
+Req[0]  TaskCount: 16  Partition: ALL
+Opsys: ---  Arch: ---  Features: standard
+
+
+SystemID:   blueridge
+SystemJID:  162923
+Notification Events: JobStart,JobEnd,JobFail  Notification Address: amjames2@vt.edu
+
+BypassCount:    1
+Execution Partition:  ALL
+Flags:          INTERACTIVE
+Attr:           INTERACTIVE,checkpoint
+StartPriority:  419

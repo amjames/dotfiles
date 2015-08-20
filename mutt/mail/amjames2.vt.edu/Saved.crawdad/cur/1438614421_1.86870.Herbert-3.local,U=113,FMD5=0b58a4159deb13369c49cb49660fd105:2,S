@@ -1,0 +1,106 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp151021qgf;
+        Tue, 31 Mar 2015 14:41:31 -0700 (PDT)
+X-Received: by 10.55.31.32 with SMTP id f32mr83598818qkf.41.1427838091001;
+        Tue, 31 Mar 2015 14:41:31 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id i205si6281518qhc.58.2015.03.31.14.41.30
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 31 Mar 2015 14:41:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) client-ip=209.85.213.171;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.171 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2VLfPa4010326
+	for <amjames2@vt.edu>; Tue, 31 Mar 2015 17:41:30 -0400
+Received: by igbud6 with SMTP id ud6so31541333igb.1
+        for <amjames2@vt.edu>; Tue, 31 Mar 2015 14:41:25 -0700 (PDT)
+X-Received: by 10.43.65.210 with SMTP id xn18mr70041989icb.79.1427838085414;
+        Tue, 31 Mar 2015 14:41:25 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp313821ieb;
+        Tue, 31 Mar 2015 14:41:24 -0700 (PDT)
+X-Received: by 10.140.21.75 with SMTP id 69mr48870907qgk.13.1427838084337;
+        Tue, 31 Mar 2015 14:41:24 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id 83si14996020qhx.64.2015.03.31.14.41.24
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 31 Mar 2015 14:41:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2VLfN0E014234
+	for <andrew.m.james2@gmail.com>; Tue, 31 Mar 2015 17:41:23 -0400
+Received: from mail-ig0-f177.google.com (mail-ig0-f177.google.com [209.85.213.177])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2VLfIZN010004
+	for <andrew.m.james2@gmail.com>; Tue, 31 Mar 2015 17:41:23 -0400
+Received: by igcau2 with SMTP id au2so31501514igc.0
+        for <andrew.m.james2@gmail.com>; Tue, 31 Mar 2015 14:41:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=vB6oGJVe5Re60kSJIhoezXziiqS9CJfwlJFaYMJiyzk=;
+        b=WPUrLj2xHBlxK7tGproz//d9Tr9eNCzdDJG5p3dRy6f2F51aipGx+/WSFnbdSf68mP
+         VaF/Kck6dwS0iaEuVvuGVyc2LoFzDJ+MIDtNWQVLO9b463+0B8V4QVRyhM9+Eb9QkkTJ
+         B9vFvmg3epYd7nrigCXMmzG0e8v5xITeMUVkTwd8rQVE0F7e1BPAkNa+1R5bTTeSLpOu
+         QEyo1iQAHlqR8awuCYcHJ4IA6Z66j/Lcp10hQVSVt/6IT/uvYpmnlcVJitPiXNZrbljy
+         3+mCjo9d/xpKY1KupRa0jxXddLxCEhgTKAG95gbaYz1v3fe8YS483PPk05qfimn7DutR
+         XT6Q==
+X-Gm-Message-State: ALoCoQkVgYPUmsRNmNVfdYALA7ipS77vfosmQXWdHPqzYRl9dWYPRSQwZxNwdqmN6CysjFyZ1p/ocu3KcdfVSd8tdCCY8Nu4np0q24KeeYh+cNEzxswFFFynf4CEomDGGsZQqmCzTuYfXinxjpRLoSQ3/0DSzFEhxA==
+X-Received: by 10.107.132.196 with SMTP id o65mr13557231ioi.9.1427838078547;
+        Tue, 31 Mar 2015 14:41:18 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.132.196 with SMTP id o65mr13557216ioi.9.1427838078413;
+ Tue, 31 Mar 2015 14:41:18 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Tue, 31 Mar 2015 14:41:18 -0700 (PDT)
+Date: Tue, 31 Mar 2015 17:41:18 -0400
+Message-ID: <CAH0V_1ZvG5FKCggfAqBeQyOkofOo-NbcSp-iQSH_E8f8OQR+Pg@mail.gmail.com>
+Subject: Poster sessions?
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Patrick Norman <johan.patrick.norman@gmail.com>,
+        Kenneth Ruud <kenneth.ruud@uit.no>,
+        Trond Saue <trond.saue@irsamc.ups-tlse.fr>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113ff8427627a705129c75ce
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 991
+
+--001a113ff8427627a705129c75ce
+Content-Type: text/plain; charset=UTF-8
+
+Dear Patrick, Kenneth, and Trond,
+
+A potential student for the summer school has asked if there would be an
+opportunity for students to give posters or short talks.  Can you give me
+your opinion on this before we respond?
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--001a113ff8427627a705129c75ce
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Patrick, Kenneth, and Trond,<div><br></div><div>A pot=
+ential student for the summer school has asked if there would be an opportu=
+nity for students to give posters or short talks.=C2=A0 Can you give me you=
+r opinion on this before we respond?</div><div><br></div><div>-TDC<br clear=
+=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><d=
+iv><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></=
+div></div></div></div>
+</div></div>
+
+--001a113ff8427627a705129c75ce--

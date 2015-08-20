@@ -1,0 +1,238 @@
+Return-Path: <amjames2@vt.edu>
+Received: from ?IPv6:2601:5c0:c000:360:6d52:5dd:6483:515? ([2601:5c0:c000:360:6d52:5dd:6483:515])
+        by smtp.gmail.com with ESMTPSA id h2sm1238086qge.35.2015.08.19.16.14.25
+        for <logsorr@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 19 Aug 2015 16:14:25 -0700 (PDT)
+From: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-7715F003-50B5-4F08-AC98-AC330E8B189F
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Fibonacci Script
+Message-Id: <3AC315BD-6F0E-40EA-8F06-EC588D2EFE99@vt.edu>
+Date: Wed, 19 Aug 2015 19:14:24 -0400
+References: <CAKfgpTR7d6CiAK=0jpJ0n=n5bRmSgUAjZ2Fhr839-gFEXaA9QQ@mail.gmail.com> <CA+58rsDLCNAiaejNZZ_O8MiUUHY-v5ccboQ2tb-C-wUhbRARTA@mail.gmail.com> <CAKfgpTSb-0_BWtOPPX=ny=6+OeAeKJeo+HbU=HjuUVHzfPGsWQ@mail.gmail.com> <9DAE984B-74BF-485F-8A0E-6156664AC6A2@vt.edu> <CAKfgpTQTfpA-qbmHRSgaLG1Qik2ATh8ALB8kCdPg5HqNG91xYg@mail.gmail.com>
+In-Reply-To: <CAKfgpTQTfpA-qbmHRSgaLG1Qik2ATh8ALB8kCdPg5HqNG91xYg@mail.gmail.com>
+To: Logan Sorrentino <logsorr@gmail.com>
+X-Mailer: iPhone Mail (12B440)
+
+
+--Apple-Mail-7715F003-50B5-4F08-AC98-AC330E8B189F
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Eh I'm trying to dual book windows 10 and my arch install right. Now but the=
+ new windows boot loader does not play well with grub=20
+
+Sent from my iPhone
+
+> On Aug 19, 2015, at 6:49 PM, Logan Sorrentino <logsorr@gmail.com> wrote:
+>=20
+> Haha no worries.  Interesting.  I'll have to make use of that in the futur=
+e. =20
+>=20
+> What are you working on these days?
+>=20
+> Logan
+>=20
+>> On Wed, Aug 19, 2015 at 6:32 PM, Andrew M James <amjames2@vt.edu> wrote:
+>> I did a shell redirect. The conversion from int to char would muck up the=
+ numbers because Python will mangle the long ints with the type cast. So by r=
+unning my script like this from the terminal
+>>=20
+>> Python genfib.py=20
+>>=20
+>> It would print to the screen so instead I do =20
+>>=20
+>> Python genfib.py > fibfile.txt=20
+>>=20
+>> The > redirects stdout to the target file. The script opens the file hand=
+le but never does anything with it. I replaced the file prints with regular p=
+rint to terminal but never removed the opening of the file (whoops)=20
+>>=20
+>> Sent from my iPhone
+>>=20
+>>> On Aug 19, 2015, at 6:23 PM, Logan Sorrentino <logsorr@gmail.com> wrote:=
+
+>>>=20
+>>> Dude, this is incredible thank you.  I'm submitting the fibfile as part o=
+f an interview question, so would you just mind telling me how you got from a=
+jfibfile.txt to fibfile.txt? Did you just rename it or did something else ha=
+ppen?
+>>>=20
+>>> Thanks a million dude
+>>> Logarino
+>>>=20
+>>>> On Wed, Aug 19, 2015 at 5:34 PM, Andrew James <amjames2@vt.edu> wrote:
+>>>> now if you try to get python to print to a file it will complain at you=
+ because the file print function take a char buffer not an int type. The typ=
+e-casting would muck up the values so you can run the script as follows ( I b=
+elieve this will work in windows powershell if you are still an ass backword=
+s twit (windows user)
+>>>>=20
+>>>> <prompt>: python genfib.py > fibfile.txt=20
+>>>>=20
+>>>>=20
+>>>>=20
+>>>> Andrew James=20
+>>>>=20
+>>>> Graduate Teaching Assistant=20
+>>>> Virginia Tech=20
+>>>> Chemistry Department=20
+>>>> amjames2@vt.edu
+>>>>=20
+>>>>> On Wed, Aug 19, 2015 at 4:40 PM, Logan Sorrentino <logsorr@gmail.com> w=
+rote:
+>>>>>=20
+>>>>>=20
+>>>>> --=20
+>>>>> Logan Sorrentino
+>>>>> Co-founder of Champio
+>>>>>=20
+>>>>> M: +1 (516) 510-1592
+>>>>> O: +1 (314) 272-2642
+>>>>> logan@champio.com
+>>>>>=20
+>>>>> 4240 Duncan Ave
+>>>>> Suite #200
+>>>>> St. Louis, MO 63110
+>>>>=20
+>>>=20
+>>>=20
+>>>=20
+>>> --=20
+>>> Logan Sorrentino
+>>> Co-founder of Champio
+>>>=20
+>>> M: +1 (516) 510-1592
+>>> O: +1 (314) 272-2642
+>>> logan@champio.com
+>>>=20
+>>> 4240 Duncan Ave
+>>> Suite #200
+>>> St. Louis, MO 63110
+>=20
+>=20
+>=20
+> --=20
+> Logan Sorrentino
+> Co-founder of Champio
+>=20
+> M: +1 (516) 510-1592
+> O: +1 (314) 272-2642
+> logan@champio.com
+>=20
+> 4240 Duncan Ave
+> Suite #200
+> St. Louis, MO 63110
+
+--Apple-Mail-7715F003-50B5-4F08-AC98-AC330E8B189F
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>Eh I'm trying to dual book windows 10 a=
+nd my arch install right. Now but the new windows boot loader does not play w=
+ell with grub&nbsp;<br><br>Sent from my iPhone</div><div><br>On Aug 19, 2015=
+, at 6:49 PM, Logan Sorrentino &lt;<a href=3D"mailto:logsorr@gmail.com">logs=
+orr@gmail.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><di=
+v dir=3D"ltr">Haha no worries.&nbsp; Interesting.&nbsp; I'll have to make us=
+e of that in the future. &nbsp;<br><div><br></div><div>What are you working o=
+n these days?</div><div><br></div><div>Logan</div></div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Wed, Aug 19, 2015 at 6:32 PM, Andre=
+w M James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D=
+"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1=
+ex"><div dir=3D"auto"><div>I did a shell redirect. The conversion from int t=
+o char would muck up the numbers because Python will mangle the long ints wi=
+th the type cast. So by running my script like this from the terminal</div><=
+div><br></div><div>Python genfib.py&nbsp;</div><div><br></div><div>It would p=
+rint to the screen so instead I do &nbsp;</div><div><br></div><div>Python ge=
+nfib.py &gt; fibfile.txt&nbsp;</div><div><br></div><div>The &gt; redirects s=
+tdout to the target file. The script opens the file handle but never does an=
+ything with it. I replaced the file prints with regular print to terminal bu=
+t never removed the opening of the file (whoops)&nbsp;</div><div><br>Sent fr=
+om my iPhone</div><div><div class=3D"h5"><div><br>On Aug 19, 2015, at 6:23 P=
+M, Logan Sorrentino &lt;<a href=3D"mailto:logsorr@gmail.com" target=3D"_blan=
+k">logsorr@gmail.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><=
+div><div dir=3D"ltr">Dude, this is incredible thank you.&nbsp; I'm submittin=
+g the fibfile as part of an interview question, so would you just mind telli=
+ng me how you got from ajfibfile.txt to fibfile.txt? Did you just rename it o=
+r did something else happen?<div><br></div><div>Thanks a million dude</div><=
+div>Logarino</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On Wed, Aug 19, 2015 at 5:34 PM, Andrew James <span dir=3D"ltr">&lt;<a=
+ href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</=
+span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex=
+;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>now if y=
+ou try to get python to print to a file it will complain at you because the f=
+ile print function take a char buffer not an int type. The type-casting woul=
+d muck up the values so you can run the script as follows ( I believe this w=
+ill work in windows powershell if you are still an ass backwords twit (windo=
+ws user)<br><br></div>&lt;prompt&gt;: python genfib.py &gt; fibfile.txt <br>=
+<br><br></div><div class=3D"gmail_extra"><br clear=3D"all"><div><div><div di=
+r=3D"ltr">Andrew James&nbsp;<div><br><div>Graduate Teaching Assistant&nbsp;<=
+br><div>Virginia Tech&nbsp;</div></div><div>Chemistry Department&nbsp;</div>=
+</div><div><a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.=
+edu</a></div></div></div></div><div><div>
+<br><div class=3D"gmail_quote">On Wed, Aug 19, 2015 at 4:40 PM, Logan Sorren=
+tino <span dir=3D"ltr">&lt;<a href=3D"mailto:logsorr@gmail.com" target=3D"_b=
+lank">logsorr@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_=
+quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><span><font color=3D"#888888"><div dir=3D"ltr"><br clear=3D"all"><div><br=
+></div>-- <br><div><div dir=3D"ltr"><b style=3D"font-size:12.8000001907349px=
+">Logan Sorrentino</b><div style=3D"font-size:12.8000001907349px"><i>Co-foun=
+der of&nbsp;<a href=3D"http://bit.ly/1FTfjfF" target=3D"_blank">Champio</a><=
+/i></div><div style=3D"font-size:12.8000001907349px"><br></div><div style=3D=
+"font-size:12.8000001907349px"><font size=3D"1">M: <a href=3D"tel:%2B1%20%28=
+516%29%20510-1592" value=3D"+15165101592" target=3D"_blank">+1 (516) 510-159=
+2</a></font></div><div style=3D"font-size:12.8000001907349px"><font size=3D"=
+1">O: <a href=3D"tel:%2B1%20%28314%29%20272-2642" value=3D"+13142722642" tar=
+get=3D"_blank">+1 (314) 272-2642</a></font></div><div style=3D"font-size:12.=
+8000001907349px"><font size=3D"1"><a href=3D"mailto:logan@champio.com" targe=
+t=3D"_blank">logan@champio.com</a><br></font></div><div style=3D"font-size:1=
+2.8000001907349px"><font size=3D"1"><br></font></div><div style=3D"font-size=
+:12.8000001907349px"><font size=3D"1">4240 Duncan Ave</font></div><div style=
+=3D"font-size:12.8000001907349px"><font size=3D"1">Suite #200</font></div><d=
+iv style=3D"font-size:12.8000001907349px"><font size=3D"1">St. Louis, MO 631=
+10</font></div></div></div>
+</div>
+</font></span></blockquote></div><br></div></div></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div><div dir=
+=3D"ltr"><b style=3D"font-size:12.8000001907349px">Logan Sorrentino</b><div s=
+tyle=3D"font-size:12.8000001907349px"><i>Co-founder of&nbsp;<a href=3D"http:=
+//bit.ly/1FTfjfF" target=3D"_blank">Champio</a></i></div><div style=3D"font-=
+size:12.8000001907349px"><br></div><div style=3D"font-size:12.8000001907349p=
+x"><font size=3D"1">M: <a href=3D"tel:%2B1%20%28516%29%20510-1592" value=3D"=
++15165101592" target=3D"_blank">+1 (516) 510-1592</a></font></div><div style=
+=3D"font-size:12.8000001907349px"><font size=3D"1">O: <a href=3D"tel:%2B1%20=
+%28314%29%20272-2642" value=3D"+13142722642" target=3D"_blank">+1 (314) 272-=
+2642</a></font></div><div style=3D"font-size:12.8000001907349px"><font size=3D=
+"1"><a href=3D"mailto:logan@champio.com" target=3D"_blank">logan@champio.com=
+</a><br></font></div><div style=3D"font-size:12.8000001907349px"><font size=3D=
+"1"><br></font></div><div style=3D"font-size:12.8000001907349px"><font size=3D=
+"1">4240 Duncan Ave</font></div><div style=3D"font-size:12.8000001907349px">=
+<font size=3D"1">Suite #200</font></div><div style=3D"font-size:12.800000190=
+7349px"><font size=3D"1">St. Louis, MO 63110</font></div></div></div>
+</div>
+</div></blockquote></div></div></div></blockquote></div><br><br clear=3D"all=
+"><div><br></div>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><b s=
+tyle=3D"font-size:12.8000001907349px">Logan Sorrentino</b><div style=3D"font=
+-size:12.8000001907349px"><i>Co-founder of&nbsp;<a href=3D"http://bit.ly/1FT=
+fjfF" target=3D"_blank">Champio</a></i></div><div style=3D"font-size:12.8000=
+001907349px"><br></div><div style=3D"font-size:12.8000001907349px"><font siz=
+e=3D"1">M: +1 (516) 510-1592</font></div><div style=3D"font-size:12.80000019=
+07349px"><font size=3D"1">O: +1 (314) 272-2642</font></div><div style=3D"fon=
+t-size:12.8000001907349px"><font size=3D"1"><a href=3D"mailto:logan@champio.=
+com" target=3D"_blank">logan@champio.com</a><br></font></div><div style=3D"f=
+ont-size:12.8000001907349px"><font size=3D"1"><br></font></div><div style=3D=
+"font-size:12.8000001907349px"><font size=3D"1">4240 Duncan Ave</font></div>=
+<div style=3D"font-size:12.8000001907349px"><font size=3D"1">Suite #200</fon=
+t></div><div style=3D"font-size:12.8000001907349px"><font size=3D"1">St. Lou=
+is, MO 63110</font></div></div></div>
+</div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-7715F003-50B5-4F08-AC98-AC330E8B189F--

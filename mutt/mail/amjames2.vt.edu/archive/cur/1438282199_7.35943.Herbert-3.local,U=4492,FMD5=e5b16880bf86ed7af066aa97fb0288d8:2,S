@@ -1,0 +1,51 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.36.210 with SMTP id p76csp758048qgp;
+        Wed, 18 Feb 2015 13:46:32 -0800 (PST)
+X-Received: by 10.229.248.138 with SMTP id mg10mr5462097qcb.29.1424295991876;
+        Wed, 18 Feb 2015 13:46:31 -0800 (PST)
+Return-Path: <ltw@cs.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id b4si22726440qcf.20.2015.02.18.13.46.31
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Feb 2015 13:46:31 -0800 (PST)
+Received-SPF: none (google.com: ltw@cs.vt.edu does not designate permitted sender hosts) client-ip=128.173.54.3;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: ltw@cs.vt.edu does not designate permitted sender hosts) smtp.mail=ltw@cs.vt.edu
+Received: from hopi.cs.vt.edu (hopi.cs.vt.edu [128.173.54.3])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1ILkQF4029669
+	for <amjames2@vt.edu>; Wed, 18 Feb 2015 16:46:31 -0500
+Received: by hopi.cs.vt.edu (Postfix, from userid 501)
+	id 3AB591ABB65B; Wed, 18 Feb 2015 16:46:26 -0500 (EST)
+Received: from localhost (localhost [127.0.0.1])
+	by hopi.cs.vt.edu (Postfix) with ESMTP id 34E631ABB656
+	for <amjames2@vt.edu>; Wed, 18 Feb 2015 16:46:26 -0500 (EST)
+Date: Wed, 18 Feb 2015 16:46:26 -0500 (EST)
+From: "Layne T. Watson" <ltw@cs.vt.edu>
+Reply-To: ltwatson@computer.org
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: 5486
+In-Reply-To: <CA+58rsBRp2PYvY-wULiLUMUVCrsvwA0mDa6t_iuzFJTZYGtcGw@mail.gmail.com>
+Message-ID: <Pine.OSX.4.58.1502181643360.57984@hopi.cs.vt.edu>
+References: <Pine.OSX.4.58.1502160750180.15191@hopi.cs.vt.edu>
+ <CA+58rsBRp2PYvY-wULiLUMUVCrsvwA0mDa6t_iuzFJTZYGtcGw@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Spam-Status: No, score=-0.0 required=5.0 tests=T_RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+That's too bad---you could have switched to Audit, which wouldn't have
+taken much time from you.  Thanks, anyway, for your interest.
+
+=====
+Layne T. Watson
+Departments of Computer Science, Mathematics, and
+     Aerospace and Ocean Engineering
+Mail Code 0106
+Virginia Polytechnic Institute & State University
+Blacksburg, VA 24061 USA   540-231-7540  ltw@cs.vt.edu

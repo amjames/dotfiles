@@ -1,0 +1,120 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2634712qgt;
+        Tue, 7 Jul 2015 13:25:45 -0700 (PDT)
+X-Received: by 10.140.40.168 with SMTP id x37mr10024904qgx.24.1436300745269;
+        Tue, 07 Jul 2015 13:25:45 -0700 (PDT)
+Return-Path: <owner-arc_ithaca_users@listserv.vt.edu>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 11si26334696qhq.44.2015.07.07.13.25.43
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 13:25:45 -0700 (PDT)
+Received-SPF: neutral (google.com: 74.125.82.51 is neither permitted nor denied by best guess record for domain of owner-arc_ithaca_users@listserv.vt.edu) client-ip=74.125.82.51;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 74.125.82.51 is neither permitted nor denied by best guess record for domain of owner-arc_ithaca_users@listserv.vt.edu) smtp.mail=owner-arc_ithaca_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67KPZxV029505;
+	Tue, 7 Jul 2015 16:25:40 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t67E95VG031764;
+	Tue, 7 Jul 2015 16:25:35 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100375900 for ARC_ITHACA_USERS@LISTSERV.VT.EDU; Tue, 7 Jul 2015
+          16:25:34 -0400
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t67KPYFW009229 for
+          <ARC_ITHACA_USERS@listserv.vt.edu>; Tue, 7 Jul 2015 16:25:34 -0400
+Received: from mail-wg0-f51.google.com (mail-wg0-f51.google.com [74.125.82.51])
+          by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67KPSMs032315 for
+          <ARC_ITHACA_USERS@listserv.vt.edu>; Tue, 7 Jul 2015 16:25:33 -0400
+Received: by wgck11 with SMTP id k11so178046785wgc.0 for
+          <ARC_ITHACA_USERS@listserv.vt.edu>; Tue, 07 Jul 2015 13:25:28 -0700
+          (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=EwRcIpqFRtK4riI/uz0dcELa9pB3hYmEEbl7mCFM6Hs=;
+                         b=krEWYur9qxRS2HlaolOpP9TJGtfMQ/lxa9iP65d6To/kLlZUULfC21cO1FQkNJwfqZ
+                         5t43BMJ4w64/ceNFy7bd6qytcNa6cxOu4q2eBY4hygsU01nQdr6kE3g29KKcqNdRFnao
+                         ZQjJlOACLrDRAGLaPtvqMCah+aelIOu5fEqhoVQ//dgawv/GRXpo+4pj6eFSgKjnym74
+                         hn5hUfGprcFHQ09QzUodFDNOaq6kBV/zKofQVCfnFNDyLh9OrOmRenu18GqL8QRyYAlN
+                         oEhf4GkiI1SUu5eViX2/rtY6eAZqBOOQeKSZM/P4DpmwjbIAlrc8uHaE2ym7H97Xm+MZ
+                         0EtA==
+X-Gm-Message-State: ALoCoQl2egBXOH3LW3sdb1frqttjbta4xHxY36HO8GWdnc9coHj7iO/nmIyPP7zFFgNY5TbpkryZ2WNcsMaprXBnWEQU8cx2rPqIMfanJPw59JM93+0lK5F13g0okLkfjWxrTEghGdCmwFrAHhfvTRY1/OEgB36W1KugBE79uCgkB4wP4l70ox8=
+X-Received: by 10.194.78.84 with SMTP id z20mr12461675wjw.141.1436300728424;
+            Tue, 07 Jul 2015 13:25:28 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.194.78.84 with SMTP id z20mr12461665wjw.141.1436300728351;
+            Tue, 07 Jul 2015 13:25:28 -0700 (PDT)
+Received: by 10.194.5.170 with HTTP; Tue, 7 Jul 2015 13:25:28 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=047d7bf0c59cb4557f051a4ed24f
+X-Spam-Status: No, score=-0.8 required=5.0 tests=HTML_MESSAGE,
+	MIME_QP_LONG_LINE,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+Message-ID:  <CAFMLoiaJadrL2JsYPqMHssBajGm1V1SqhtdxPxFozJ-xCbuVPw@mail.gmail.com>
+Date:         Tue, 7 Jul 2015 16:25:28 -0400
+Reply-To: arc@vt.edu
+Sender: ARC_ithaca_USERS Discussion List <ARC_ITHACA_USERS@listserv.vt.edu>
+From: Brandon Sawyers <bsawyers@vt.edu>
+Subject: Trouble with /work and logging into the clusters
+To: ARC_ITHACA_USERS@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_ITHACA_USERS>
+List-Unsubscribe: <mailto:ARC_ITHACA_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_ITHACA_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_ITHACA_USERS-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7bf0c59cb4557f051a4ed24f
+Content-Type: text/plain; charset=UTF-8
+
+To All ithaca Account Holders:
+
+Hello everyone:
+
+We're currently experiencing issues mounting /work on the login nodes of
+the Ithaca and Hokiespeed.
+
+This is also preventing some users from logging into the login nodes.
+
+The nodes (and presumably jobs) do not appear to be having the same issue.
+
+The storage team is looking into the issue and we will update as soon as we
+have more info.
+
+We apologize for any inconvenience this may cause.
+
+Thanks.
+
+
+Please send any questions or concerns to arc@vt.edu.
+
+Thank you.
+
+http://www.arc.vt.edu
+
+--047d7bf0c59cb4557f051a4ed24f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To All ithaca Account Holders:
+<div dir=3D"ltr">Hello everyone:<div><br></div><div>We&#39;re currently exp=
+eriencing issues mounting /work on the login nodes of the Ithaca and Hokies=
+peed.=C2=A0</div><div><br></div><div>This is also preventing some users fro=
+m logging into the login nodes.</div><div><br></div><div>The nodes (and pre=
+sumably jobs) do not appear to be having the same issue.</div><div><br></di=
+v><div>The storage team is looking into the issue and we will update as soo=
+n as we have more info.<br clear=3D"all"><div><br></div><div>We apologize f=
+or any inconvenience this may cause.</div><div><br></div><div>Thanks.</div>
+</div></div>
+<p>
+Please send any questions or concerns to <a href=3D"mailto:arc@vt.edu">arc@vt.edu</a>.
+</p><p>
+Thank you.
+</p><p>
+<a href=3D"http://www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.edu</a>
+
+--047d7bf0c59cb4557f051a4ed24f--

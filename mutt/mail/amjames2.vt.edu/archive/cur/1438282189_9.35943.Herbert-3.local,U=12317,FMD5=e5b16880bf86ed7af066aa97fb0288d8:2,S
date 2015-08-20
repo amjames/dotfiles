@@ -1,0 +1,129 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1187634qgt;
+        Sun, 26 Jul 2015 17:20:51 -0700 (PDT)
+X-Received: by 10.55.16.104 with SMTP id a101mr36571131qkh.40.1437956451577;
+        Sun, 26 Jul 2015 17:20:51 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id f46si19045741qgd.11.2015.07.26.17.20.51
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Jul 2015 17:20:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) client-ip=192.30.252.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext5.iad.github.net [192.30.252.196])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6R0Kjm1016769
+	for <amjames2@vt.edu>; Sun, 26 Jul 2015 20:20:50 -0400
+Date: Sun, 26 Jul 2015 17:20:45 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1437956445;
+	bh=jtovtZth9pLZG+0iY1aY7Y2T/Te5iG+2mmZeziWWnRk=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=xsjH/6S7ax/NIjwPMMYWD0pZZCAi90NrmLM3Mw8cJT48xQuxKLro4kj4OK6sWWoPP
+	 czE/xzi2BaDHtnrNCnK4ExjEf5SKAugV/0s6DGQnxzFZ15SNjwrLS6/bS2qNCqDB17
+	 ROe36j/EzsUBLipwqebhaeTO5P1PZ2o44BgqGjUQ=
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f6422abefda45d57b15058d607980944326a995e3af292cf0000000111cd3b5d92a169ce05b4ab38@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/149/125051387@github.com>
+In-Reply-To: <psi4/psi4public/issues/149@github.com>
+References: <psi4/psi4public/issues/149@github.com>
+Subject: Re: [psi4public] snippets in manual that don't run (#149)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55b5795d5e830_641b3f9a86e792c094195";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f6422abefda45d57b15058d607980944326a995e3af292cf0000000111cd3b5d92a169ce05b4ab38@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6422abefda45d57b15058d607980944326a995e3af292cf0000000111cd3b5d92a169ce05b4ab38@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QnKYol1QuWy_6X6VfKf2sYSFJXlzks5ohXDdgaJpZM4Fa6yr>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55b5795d5e830_641b3f9a86e792c094195
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+If you supply a fortran compiler and pass -D enable_fortran (caps) that w=
+ill probably give you workable dkh. Otherwise, wait a couple days until I=
+'m back in town, and I'll add it to the miniconda distro. =
+
+
+Sent from my iPhone
+
+> On Jul 26, 2015, at 8:26 AM, Hassenky <notifications@github.com> wrote:=
+
+> =
+
+> What will happen if I compile PSI4 from the source code? Can I use dkh?=
+
+> =
+
+> =E2=80=94
+> Reply to this email directly or view it on GitHub.
+> =
+
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/149#issuecomment-125051387=
+
+----==_mimepart_55b5795d5e830_641b3f9a86e792c094195
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+If you supply a fortran compiler and pass -D enable_fortran (caps) that w=
+ill probably give you workable dkh. Otherwise, wait a couple days until I=
+&#39;m back in town, and I&#39;ll add it to the miniconda distro. <br>
+<br>
+Sent from my iPhone<br>
+<br>
+&gt; On Jul 26, 2015, at 8:26 AM, Hassenky &lt;notifications@github.com&g=
+t; wrote:<br>
+&gt; <br>
+&gt; What will happen if I compile PSI4 from the source code? Can I use d=
+kh?<br>
+&gt; <br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub.<br>
+&gt; <br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br>Reply to this email directly or <a href=3D"https://github.com/ps=
+i4/psi4public/issues/149#issuecomment-125051387">view it on GitHub</a>.<i=
+mg alt=3D"" height=3D"1" src=3D"https://github.com/notifications/beacon/A=
+In2Qk9ZPMRh2MPGrXJSXH8jNZVoQxRCks5ohXDdgaJpZM4Fa6yr.gif" width=3D"1" /></=
+p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAc=
+tion">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4public/iss=
+ues/149#issuecomment-125051387"></link>
+    <meta itemprop=3D"name" content=3D"View Issue"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Issue on GitHub"></=
+meta>
+</div>
+
+----==_mimepart_55b5795d5e830_641b3f9a86e792c094195--

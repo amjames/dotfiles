@@ -1,0 +1,102 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp663652qgt;
+        Wed, 5 Aug 2015 16:50:03 -0700 (PDT)
+X-Received: by 10.140.82.18 with SMTP id g18mr21375539qgd.41.1438818603741;
+        Wed, 05 Aug 2015 16:50:03 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id i199si8482878qhc.24.2015.08.05.16.50.03
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 16:50:03 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.169 as permitted sender) client-ip=209.85.223.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.223.169 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-io0-f169.google.com (mail-io0-f169.google.com [209.85.223.169])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t75Nnv6k028867
+	for <amjames2@vt.edu>; Wed, 5 Aug 2015 19:50:02 -0400
+Received: by ioeg141 with SMTP id g141so65450682ioe.3
+        for <amjames2@vt.edu>; Wed, 05 Aug 2015 16:49:57 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=JYkh/ICobXVoN49YBLoPVULRgPJJVeAPl8nEkw33IHg=;
+        b=ksZBPd4qL5bYn4xGiwJEd58j5bRUia09PjpYKH2ygLwVCt0rt5IYIUlS/XPp6+cnCS
+         SH4sqdNyAEq02729t/fncHZnqza5dKoyEeVIBSU6YU49waHZO99yF4Aaii5KL7Alh9w9
+         azJMrO2YzIeP7CT1rVGxRS7qKHtiCuOZSPMoDvMbX+Ep8ipq3r43dEJYArdBVmzWFuvr
+         C9N5j1gPrebhT5epIoSEdV6b/2oQrJlqgAtOpv2soP2lCsOm43HWQsKD8DJu4wQJyzX+
+         csuw9nyrOElIuefgU4CBoOMUMVBBDGZs5AmImJUlOjKR9k2Nvca+K2u2ZR2Rm1jhWpTQ
+         Puog==
+X-Gm-Message-State: ALoCoQldlPR9/lSUc5jbFD9Y97gtZYdEvVddx2MPUmu3B8ig34srQAzJIX1nWxRHzy/0EsDK/9cD+K01pa4NX7Og5nM6Ruqkt30EoAo3G/V5g7+DTlutYMH0mXR9ISRhRE4Km6XFt4qIvQtgE351B9d0C1C6tdahKg==
+X-Received: by 10.107.41.67 with SMTP id p64mr12692037iop.58.1438818597618;
+        Wed, 05 Aug 2015 16:49:57 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.41.67 with SMTP id p64mr12692028iop.58.1438818597481;
+ Wed, 05 Aug 2015 16:49:57 -0700 (PDT)
+Received: by 10.36.119.5 with HTTP; Wed, 5 Aug 2015 16:49:57 -0700 (PDT)
+Received: by 10.36.119.5 with HTTP; Wed, 5 Aug 2015 16:49:57 -0700 (PDT)
+In-Reply-To: <CAECk6+4G0BwRLU3G8Ae6=C3FBxwa+BP6DwnqP_SWJ42fDz26kA@mail.gmail.com>
+References: <CAECk6+4Dz-b71_KEPvORQ7BXVu7-ojaE-9wU-Q6M8tkVMN=Q_g@mail.gmail.com>
+	<20150805211027.GA83186@Herbert-3.local>
+	<CAECk6+4G0BwRLU3G8Ae6=C3FBxwa+BP6DwnqP_SWJ42fDz26kA@mail.gmail.com>
+Date: Wed, 5 Aug 2015 19:49:57 -0400
+Message-ID: <CAECk6+4td6esMzXXTkA6qnZft3gArnLC+Fvp8rjaAyeVLbUC3Q@mail.gmail.com>
+Subject: Re: Homeward bound
+From: Christine Duchane <cduchane@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1141f966664156051c990fa4
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141f966664156051c990fa4
+Content-Type: text/plain; charset=UTF-8
+
+I'll probably leave within 5'', if that works for you
+On Aug 5, 2015 5:34 PM, "Christine Duchane" <cduchane@vt.edu> wrote:
+
+> Okay darling. Text me if you change your mind about anything, otherwise
+> I'll email you when I leave the house. Good luck!!
+>
+> On Wed, Aug 5, 2015 at 5:10 PM, Andrew M James <amjames2@vt.edu> wrote:
+>
+>> If you are going somehwere for any reason let me know and I will come
+>> home then. If not about 8 agian I dont know how much longer that that I
+>> can go, but I haven't figured this out yet =(
+>>
+>> --AJ
+>>
+>
+>
+
+--001a1141f966664156051c990fa4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">I&#39;ll probably leave within 5&#39;&#39;, if that works fo=
+r you</p>
+<div class=3D"gmail_quote">On Aug 5, 2015 5:34 PM, &quot;Christine Duchane&=
+quot; &lt;<a href=3D"mailto:cduchane@vt.edu">cduchane@vt.edu</a>&gt; wrote:=
+<br type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Ok=
+ay darling. Text me if you change your mind about anything, otherwise I&#39=
+;ll email you when I leave the house. Good luck!!</div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Wed, Aug 5, 2015 at 5:10 PM, Andre=
+w M James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=
+=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex">If you are going somehwere for any reason let me know and I will c=
+ome<br>
+home then. If not about 8 agian I dont know how much longer that that I<br>
+can go, but I haven&#39;t figured this out yet =3D(<br>
+<span><font color=3D"#888888"><br>
+--AJ<br>
+</font></span></blockquote></div><br></div>
+</blockquote></div>
+
+--001a1141f966664156051c990fa4--

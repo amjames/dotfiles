@@ -1,0 +1,132 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp54116qga;
+        Fri, 20 Feb 2015 07:56:19 -0800 (PST)
+X-Received: by 10.236.209.68 with SMTP id r44mr7220600yho.156.1424447778723;
+        Fri, 20 Feb 2015 07:56:18 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id f7si28430874qai.31.2015.02.20.07.56.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 20 Feb 2015 07:56:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) client-ip=209.85.213.178;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.178 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f178.google.com (mail-ig0-f178.google.com [209.85.213.178])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1KFuC5t007720
+	for <amjames2@vt.edu>; Fri, 20 Feb 2015 10:56:17 -0500
+Received: by mail-ig0-f178.google.com with SMTP id hl2so4016828igb.5
+        for <amjames2@vt.edu>; Fri, 20 Feb 2015 07:56:12 -0800 (PST)
+X-Received: by 10.42.111.5 with SMTP id s5mr12597898icp.79.1424447772582;
+        Fri, 20 Feb 2015 07:56:12 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp19380ieb;
+        Fri, 20 Feb 2015 07:56:12 -0800 (PST)
+X-Received: by 10.140.147.66 with SMTP id 63mr24503538qht.35.1424447771474;
+        Fri, 20 Feb 2015 07:56:11 -0800 (PST)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id q6si28336599qca.29.2015.02.20.07.56.11
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 20 Feb 2015 07:56:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr5.cc.vt.edu (mr5.cc.vt.edu [198.82.141.27] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1KFuAJl001686
+	for <andrew.m.james2@gmail.com>; Fri, 20 Feb 2015 10:56:10 -0500
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1KFu5QC025395
+	for <andrew.m.james2@gmail.com>; Fri, 20 Feb 2015 10:56:10 -0500
+Received: by mail-ig0-f169.google.com with SMTP id hl2so7925552igb.0
+        for <andrew.m.james2@gmail.com>; Fri, 20 Feb 2015 07:56:05 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=qCMmcjqsLXQtrMl8xQBPDnxX8+doCGoQjFIOV+QIbFw=;
+        b=gWkBPZcE67jC8OA53lMhy4yVawLmECFYsyTTyel6Wb6XU1UayeV27jlHRvvWAM+tum
+         XZrPj9zSKXNQD0OKbshp/m7JFhS9lo8QDmhW1xX/bKgb2xPyF0+yMoHwFK8Q1WpTLlDY
+         c6zqrjoboV+P3Jsxn5NxZyjWrBzhbJZuF2ql+lPm9bz/8IeQd8wAOhunISE40V1XrBhf
+         MUc0sN5vyeizthCSbBa1vcR9FPWVkQRnZ4hhAABgjAWSAPab4eINgcYFRDvbzNJ/l7rD
+         X6Kili4GjeWcOGIDRYrGapt4CwE+nzJ4G0M6XzzV6IhqNnVHlg7Wj0CtTa1xNvDCzzbm
+         iTxw==
+X-Gm-Message-State: ALoCoQmL0nms679oUzNAmNFWzxWvXLmIPanw4r8T72Jg4F424IZKQUYAHDROhn774/6ex0o4Xh1EWlKPmD862Wvx6AdDPMmlGLn9mV4FknlSab0FtYWr+7EPx+EvMI1S69yTvCZx4uwx6NPiK0S+iisomLcEaxM0rA==
+X-Received: by 10.50.78.9 with SMTP id x9mr12318059igw.44.1424447765156;
+        Fri, 20 Feb 2015 07:56:05 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.50.78.9 with SMTP id x9mr12318038igw.44.1424447765011; Fri,
+ 20 Feb 2015 07:56:05 -0800 (PST)
+Received: by 10.64.171.84 with HTTP; Fri, 20 Feb 2015 07:56:04 -0800 (PST)
+Date: Fri, 20 Feb 2015 10:56:04 -0500
+Message-ID: <CAH0V_1YjMEd1zLjiWho82D=5w1=_FphOcD9CDeXK-0K2+SRauQ@mail.gmail.com>
+Subject: Software Summer School III
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Tommy Guy <richardtguy84@gmail.com>,
+        Greg Wilson <gvwilson@software-carpentry.org>
+Cc: "Good, Laurie" <laurieg@vt.edu>,
+        "Robert J. Harrison" <rjharrison@gmail.com>,
+        Eduard Valeyev <valeev76@vt.edu>,
+        Eugene Deprince <eugene.deprince@gmail.com>,
+        Ashutosh Kumar <akumar1@vt.edu>,
+        Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e0115f63808f771050f8717b8
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 2177
+
+--089e0115f63808f771050f8717b8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Greg and Tommy,
+
+Once again, we are planning to hold a Software Summer School for
+computational chemistry.  This year's school will be held at Virginia Tech,
+June 2-July 1, and so I am writing to invite the Software Carpentry team to
+participate for a third year in a row.  The response from the students the
+last two years =E2=80=93 at Virginia Tech in 2013 and at Stony Brook U. las=
+t year =E2=80=93
+has been very positive, and we hope you'll be willing to give it another
+whirl.  If you're able and interested, we would be happy to cover your
+travel expenses, just as before.  Please let me know if you might be able
+to participate.
+
+I hope to hear from you soon!
+
+Best regards,
+
+-Daniel
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--089e0115f63808f771050f8717b8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Greg and Tommy,<div><br></div><div><div>Once again, w=
+e are planning to hold a Software Summer School for computational chemistry=
+.=C2=A0 This year&#39;s school will be held at Virginia Tech, June 2-July 1=
+, and so I am writing to invite the Software Carpentry team to participate =
+for a third year in a row.=C2=A0 The response from the students the last tw=
+o years =E2=80=93 at Virginia Tech in 2013 and at Stony Brook U. last year =
+=E2=80=93 has been very positive, and we hope you&#39;ll be willing to give=
+ it another whirl.=C2=A0 If you&#39;re able and interested, we would be hap=
+py to cover your travel expenses, just as before.=C2=A0 Please let me know =
+if you might be able to participate.</div><div><br></div><div>I hope to hea=
+r from you soon!</div><div><br></div><div>Best regards,</div><div><br></div=
+><div><span style=3D"font-size:13px">-Daniel</span><br style=3D"font-size:1=
+3px"></div></div><div><br></div><div><div><div class=3D"gmail_signature"><d=
+iv dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:=
+crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div=
+>
+</div></div>
+
+--089e0115f63808f771050f8717b8--

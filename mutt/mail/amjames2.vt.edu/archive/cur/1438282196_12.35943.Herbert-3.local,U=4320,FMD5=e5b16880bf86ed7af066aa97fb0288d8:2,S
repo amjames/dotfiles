@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp256544qgt;
+        Fri, 6 Feb 2015 16:31:44 -0800 (PST)
+X-Received: by 10.224.135.200 with SMTP id o8mr1775266qat.1.1423269104047;
+        Fri, 06 Feb 2015 16:31:44 -0800 (PST)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id m3si4812394qcg.46.2015.02.06.16.31.43
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 06 Feb 2015 16:31:44 -0800 (PST)
+Received-SPF: none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) client-ip=192.254.113.10;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com does not designate permitted sender hosts) smtp.mail=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o5.sgmail.github.com (o5.sgmail.github.com [192.254.113.10])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t170Vb73022969
+	for <amjames2@vt.edu>; Fri, 6 Feb 2015 19:31:43 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=/3d7lvv6GLrcpPV7lgtbpOPCS7M=; b=lzSks3DMfyPejMZw
+	W1AmJJN0ARMvm6bcSdgvJRB1U1YxwsAGQBp+OfwQke5DFSeNJ9cFb39yIZe1ovjy
+	O89MhTi5fLc5emvMTkmxWdQeftaliFsgQ6ove1PqUdH6C8le2zBc9izt9+6di++3
+	7QJY7N66x6qV8gNUegYnM8eywpQ=
+Received: by filter0182p1mdw1.sendgrid.net with SMTP id filter0182p1mdw1.18261.54D55CE7F
+        2015-02-07 00:31:35.908055331 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd-003 (SG) with ESMTP id 14b6172e9a9.74df.166c89
+	for <amjames2@vt.edu>; Sat, 07 Feb 2015 00:31:35 +0000 (UTC)
+Date: Fri, 06 Feb 2015 16:31:35 -0800
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f64282710097d3e985c5566cf3aa0e056e53afc50f3892cf0000000110ed1ee792a169ce03515d81@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/pull/91/issue_event/231856231@github.com>
+In-Reply-To: <psi4/psi4/pull/91@github.com>
+References: <psi4/psi4/pull/91@github.com>
+Subject: Re: [psi4] support for CSX version 1 (#91)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54d55ce7afcde_2f313fb360c0b2c01408fd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f64282710097d3e985c5566cf3aa0e056e53afc50f3892cf0000000110ed1ee792a169ce03515d81@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64282710097d3e985c5566cf3aa0e056e53afc50f3892cf0000000110ed1ee792a169ce03515d81@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QmUcrkdVJUFQbexzomFUJFGHhEfyks5npVRngaJpZM4DX8mT>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5IkJfFjzG5006+16ZMtJ+z3LKrdStBY5IUgfI0
+ VqPnNoHv6M4J3YHPbHhnmkGer9sspKxNJE1a8m2abCvD/TbEUqUWOJA8KjzhB0I+8eQ5E1sznDILOY
+ JJF/3q+g9qPFg0U=
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_54d55ce7afcde_2f313fb360c0b2c01408fd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Merged #91.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/pull/91#event-231856231
+----==_mimepart_54d55ce7afcde_2f313fb360c0b2c01408fd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Merged <a href="https://github.com/psi4/psi4/pull/91" class="issue-link" title="support for CSX version 1">#91</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/pull/91#event-231856231">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QudmVpkGRb9HnnTUTKGquP1Xj8LTks5npVRngaJpZM4DX8mT.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/pull/91#event-231856231"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_54d55ce7afcde_2f313fb360c0b2c01408fd--

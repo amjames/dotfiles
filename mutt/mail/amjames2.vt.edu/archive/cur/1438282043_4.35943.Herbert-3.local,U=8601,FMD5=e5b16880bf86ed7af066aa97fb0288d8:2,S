@@ -1,0 +1,107 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp801402qgt;
+        Tue, 19 May 2015 08:40:49 -0700 (PDT)
+X-Received: by 10.140.28.163 with SMTP id 32mr37247625qgz.5.1432050049002;
+        Tue, 19 May 2015 08:40:49 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id e130si14223054qhc.7.2015.05.19.08.40.48
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 19 May 2015 08:40:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) client-ip=192.30.252.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext5.iad.github.net [192.30.252.196])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4JFecxH013193
+	for <amjames2@vt.edu>; Tue, 19 May 2015 11:40:43 -0400
+Date: Tue, 19 May 2015 08:40:38 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1432050038;
+	bh=9pXb5CWFL3iDwYNVlKo7RZ4wGtIe6zqWHyHHMh5isl8=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=Uo/bpf9G74QG2LQOD8dn9O/PtJrSlX2plEt5li/i2tBRXAOu9NvnTtycDV+J1zG6+
+	 yLYcU/mfNewUx+nvvfQP1qFhcS0HZ2pzzY0HIuCNVHY7LaBGx12eq3hSHyC20GRZgw
+	 3Gti+RQOHIskfFIszaHn8Ew/LkNxMu9WbCHtISW0=
+From: Eugene DePrince <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6423523c8a46db40d500a57c77e7593ac29640669cf92cf0000000111731b7692a169ce03619e18@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/92/103557635@github.com>
+In-Reply-To: <psi4/psi4/issues/92@github.com>
+References: <psi4/psi4/issues/92@github.com>
+Subject: Re: [psi4] MP2 and CISD NOs (#92)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_555b5976604db_d673fa73e13d2b83842f6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: edeprince3
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6423523c8a46db40d500a57c77e7593ac29640669cf92cf0000000111731b7692a169ce03619e18@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6423523c8a46db40d500a57c77e7593ac29640669cf92cf0000000111731b7692a169ce03619e18@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QuZDAq4r93BBqbdKbBVlxlaN2EA0ks5oK1D2gaJpZM4Dcb1C>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_555b5976604db_d673fa73e13d2b83842f6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I added FNOs to MRCC a long time ago (although, I'm pretty sure MRCC currently supports FNOs natively).  If you look in psi4/src/bin/mrcc/mrcc.cc, there is some code that might help:
+
+    boost::shared_ptr<Wavefunction> wave;
+    //   freeze MP2 natural virtual orbitals?
+    if ( options.get_bool("NAT_ORBS") ) {
+        boost::shared_ptr<psi::fnocc::FrozenNO> fno(new psi::fnocc::FrozenNO(Process::environment.wavefunction(),options));
+        fno->ComputeNaturalOrbitals();
+        wave = (boost::shared_ptr<Wavefunction>)fno;
+    }else {
+        wave = Process::environment.wavefunction();
+    }
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/92#issuecomment-103557635
+----==_mimepart_555b5976604db_d673fa73e13d2b83842f6
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I added FNOs to MRCC a long time ago (although, I'm pretty sure MRCC currently supports FNOs natively).  If you look in psi4/src/bin/mrcc/mrcc.cc, there is some code that might help:</p>
+
+<pre><code>boost::shared_ptr&lt;Wavefunction&gt; wave;
+//   freeze MP2 natural virtual orbitals?
+if ( options.get_bool("NAT_ORBS") ) {
+    boost::shared_ptr&lt;psi::fnocc::FrozenNO&gt; fno(new psi::fnocc::FrozenNO(Process::environment.wavefunction(),options));
+    fno-&gt;ComputeNaturalOrbitals();
+    wave = (boost::shared_ptr&lt;Wavefunction&gt;)fno;
+}else {
+    wave = Process::environment.wavefunction();
+}
+</code></pre>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/92#issuecomment-103557635">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QsgU2Bhh0Ko516Ri5S5lYNAk714-ks5oK1D2gaJpZM4Dcb1C.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/92#issuecomment-103557635"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_555b5976604db_d673fa73e13d2b83842f6--

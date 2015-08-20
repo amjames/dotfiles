@@ -1,0 +1,140 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1320190qgt;
+        Sun, 28 Jun 2015 14:29:13 -0700 (PDT)
+X-Received: by 10.140.91.246 with SMTP id z109mr15397601qgd.39.1435526953220;
+        Sun, 28 Jun 2015 14:29:13 -0700 (PDT)
+Return-Path: <erik.kallman@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id x2si39971751qcs.3.2015.06.28.14.29.13
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 28 Jun 2015 14:29:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:232:8670:19fe as permitted sender) smtp.mail=erik.kallman@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wg0-x236.google.com (mail-wg0-x236.google.com [IPv6:2a00:1450:400c:c00::236])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5SLT7wC011697
+	for <amjames2@vt.edu>; Sun, 28 Jun 2015 17:29:12 -0400
+Received: by wgjx7 with SMTP id x7so53068090wgj.2
+        for <amjames2@vt.edu>; Sun, 28 Jun 2015 14:29:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :content-type;
+        bh=hY93RkfytJVL+etG87lie/SOWVKyvhWAr1nXsiZnRqU=;
+        b=v8CYp+Vl9M1Oej5FqNpnNkz58LKRf46Yj/0jSWggCLJbbtqmYJmtCTQ+Dct1LfhcTZ
+         NvtmJELu9ATBuG2LMZ4ILnWjTK8O38szvAyt9AFAd2wOIfxLO3n03zA+GD+GLhhrU0O7
+         cXi8qWfHqmOuGBA4Dj4e1NYalro643kN5eUEGxioWhjgIrGy3bE5tbREDjXFE6DDlXC/
+         XzWH4IPQNcSBqzLSEw8ZK1uCexu5kDAbdz9El/h0QlmmrzCjjSQWWGGuzPli54d6A5Ih
+         ElB8uunw5zsZq+dH+xndC9MDsubHUdzvxcciV8IghjyCsUClXcyOPQpMcTD7rAqU0rZR
+         DQgg==
+X-Received: by 10.180.87.199 with SMTP id ba7mr17153033wib.81.1435526946154;
+ Sun, 28 Jun 2015 14:29:06 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAPK4g-kyZza9tx_=JAg9n5GUs_zXmzF+8_AnJXXp0KQ=zq_adg@mail.gmail.com>
+ <CAC47B4F-6B9D-4AAA-B4F1-541BFD60688B@vt.edu> <CAPK4g-mT1ye0L9+ppgm0T=A0G+aqUbxfRSfD6SgxkGijuXL2Mg@mail.gmail.com>
+In-Reply-To: <CAPK4g-mT1ye0L9+ppgm0T=A0G+aqUbxfRSfD6SgxkGijuXL2Mg@mail.gmail.com>
+From: =?UTF-8?Q?erik_k=C3=A4llman?= <erik.kallman@gmail.com>
+Date: Sun, 28 Jun 2015 21:28:56 +0000
+Message-ID: <CAPK4g-kVv1XJexSAT-hq8WE9Nd092D5WCJg9zk2Yf3gtN30w+w@mail.gmail.com>
+Subject: Re: Summer School: Arrival at airport
+To: "Andrew M. James" <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=f46d0444e939b0ec8a05199aa973
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0444e939b0ec8a05199aa973
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello again, I just wanted to tell you that my flight is on time. /erik
+On Fri 26 Jun 2015 at 15:53 erik k=C3=A4llman <erik.kallman@gmail.com> wrot=
+e:
+
+> Thank you very, very much for that!
+>
+> /Erik
+>
+> On Fri, Jun 26, 2015 at 8:33 PM, Andrew M. James <amjames2@vt.edu> wrote:
+>
+>> Erik,
+>> No worries I will be there to collect you. It is no trouble at all I wil=
+l
+>> have some kind of sign so you can spot me
+>>
+>> Take care,
+>> Andrew M. James
+>> Graduate Research Assistant
+>> amjames2@vt.edu
+>>
+>>
+>> > On Jun 26, 2015, at 1:03 PM, erik k=C3=A4llman <erik.kallman@gmail.com=
+>
+>> wrote:
+>> >
+>> > Andrew,
+>> >
+>> > I recently checked the webpage for the Virginia Tech Summer School, an=
+d
+>> saw that you offered help with transport from the airport.
+>> >
+>> > I will arrive at the Roanoke airport 23:09 on Sunday. Are you availabl=
+e
+>> at that time? If not, i completely understand. Its quite late.
+>> >
+>> > Cheers!
+>> > /Erik K=C3=A4llman
+>>
+>>
+>
+
+--f46d0444e939b0ec8a05199aa973
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello again, I just wanted to tell you that my flight is on time. /erik<br>=
+<div class=3D"gmail_quote"><div dir=3D"ltr">On Fri 26 Jun 2015 at 15:53 eri=
+k k=C3=A4llman &lt;<a href=3D"mailto:erik.kallman@gmail.com">erik.kallman@g=
+mail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D=
+"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D=
+"ltr"><div>Thank you very, very much for that!<br><br></div></div><div dir=
+=3D"ltr"><div>/Erik<br></div></div><div class=3D"gmail_extra"><br><div clas=
+s=3D"gmail_quote">On Fri, Jun 26, 2015 at 8:33 PM, Andrew M. James <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2=
+@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D=
+"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Erik,<br>
+No worries I will be there to collect you. It is no trouble at all I will h=
+ave some kind of sign so you can spot me<br>
+<br>
+Take care,<br>
+Andrew M. James<br>
+Graduate Research Assistant<br>
+<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a><br=
+>
+<div><div><br>
+<br>
+&gt; On Jun 26, 2015, at 1:03 PM, erik k=C3=A4llman &lt;<a href=3D"mailto:e=
+rik.kallman@gmail.com" target=3D"_blank">erik.kallman@gmail.com</a>&gt; wro=
+te:<br>
+&gt;<br>
+&gt; Andrew,<br>
+&gt;<br>
+&gt; I recently checked the webpage for the Virginia Tech Summer School, an=
+d saw that you offered help with transport from the airport.<br>
+&gt;<br>
+&gt; I will arrive at the Roanoke airport 23:09 on Sunday. Are you availabl=
+e at that time? If not, i completely understand. Its quite late.<br>
+&gt;<br>
+&gt; Cheers!<br>
+&gt; /Erik K=C3=A4llman<br>
+<br>
+</div></div></blockquote></div><br></div>
+</blockquote></div>
+
+--f46d0444e939b0ec8a05199aa973--

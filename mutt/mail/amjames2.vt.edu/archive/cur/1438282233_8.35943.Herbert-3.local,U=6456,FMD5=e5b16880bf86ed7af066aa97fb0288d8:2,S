@@ -1,0 +1,161 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp560337qgt;
+        Thu, 23 Apr 2015 09:52:12 -0700 (PDT)
+X-Received: by 10.140.151.75 with SMTP id 72mr4439125qhx.89.1429807932703;
+        Thu, 23 Apr 2015 09:52:12 -0700 (PDT)
+Return-Path: <nmayhall@gmail.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id 190si8633507qha.31.2015.04.23.09.52.12
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Apr 2015 09:52:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of nmayhall@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of nmayhall@gmail.com designates 2001:468:c80:2105:0:212:7ed0:359e as permitted sender) smtp.mail=nmayhall@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wi0-x22d.google.com (mail-wi0-x22d.google.com [IPv6:2a00:1450:400c:c05::22d])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3NGq6jE022863;
+	Thu, 23 Apr 2015 12:52:11 -0400
+Received: by wizk4 with SMTP id k4so223375166wiz.1;
+        Thu, 23 Apr 2015 09:52:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to:cc:content-type;
+        bh=sXo2DyTnwPXvP/PHPPjT53rLbfV0ua3rzG+0slgrXJs=;
+        b=QbjkfZYuWNaNkrZ2CUL21RUrtwVvvIQY3D35lCLcbHT3buIfaZDvVas2iXBbn7AcCw
+         PiFJ2wA4Fmbjuf5URjpuFQPLyA0sF3RsHUSD0G3QEzzLph6g60BZvDrSl0vIUPYi5C5j
+         X1jd3OnrOX5Z/MkL5z+/JGjBSSHez1NUHnaXUdPTncn+a8gmu+1EkBNhxoQ2VAG81vuU
+         Hl+c+D1+fg4A3VVuh4innKUskZDYWYVgwkP8qVykHKgd4q78qBQDuI29gdDMT8wmg6Dn
+         ykLfgV/i/Sc/vs3L4ghaqsQZIv9q1yH8gpwgdEcBVxHu+ZsQvBMfEzeNiD5CS4JHHNBz
+         TjSA==
+X-Received: by 10.181.11.137 with SMTP id ei9mr7379416wid.48.1429807926025;
+ Thu, 23 Apr 2015 09:52:06 -0700 (PDT)
+MIME-Version: 1.0
+Sender: nmayhall@gmail.com
+Received: by 10.194.48.75 with HTTP; Thu, 23 Apr 2015 09:51:45 -0700 (PDT)
+In-Reply-To: <8DD8AF7C-D5B0-4011-842E-65702B368383@vt.edu>
+References: <8DD8AF7C-D5B0-4011-842E-65702B368383@vt.edu>
+From: Nicholas Mayhall <nmayhall@berkeley.edu>
+Date: Thu, 23 Apr 2015 09:51:45 -0700
+X-Google-Sender-Auth: 4I6MCAqJYJHIYfOrNXUOPOzRhh0
+Message-ID: <CACueY1q5shMor8USLV3YXhfLtDpCS_D55602GECMy=M0dhOCTQ@mail.gmail.com>
+Subject: Fwd: PhD Advisory Committee
+To: jrmorris@vt.edu
+Cc: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=f46d043892d78721650514671969
+X-Spam-Status: No, score=0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d043892d78721650514671969
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi John,
+
+This email is meant to act as a signature to indicate that I agree to
+Andrew's "Plan of Study".
+
+Please let me know if anything else is needed.
+
+Thanks!
+Nick
+
+
+---------- Forwarded message ----------
+From: Andrew James <amjames2@vt.edu>
+Date: Wed, Apr 15, 2015 at 1:53 PM
+Subject: PhD Advisory Committee
+To: nmayhall@berkeley.edu
+
+
+Hello Dr. Mayhall,
+
+I am Andrew James (AJ) a first year student in Dr. Crawford=E2=80=99s Group=
+ at
+Virginia Tech, we got to meet during recruitment weekend.  I am writing to
+ask if you would be a member of my PhD advisory committee.
+
+During the second semester of the first year I am supposed to select 3
+faculty members to make up my advisory committee along with Dr. Crawford.
+The committee members responsibilities include grading my programatic
+assessments such as the Literature Review, Prelim exam, original research
+proposal, and finally the defense.  There is also a requirement that we
+have an assessment meeting once a year, however, in many cases one of those
+assessments I have already listed will count for that meeting.
+
+There is a form that the committee members normally sign to show they agree
+to be a committee member.  This form is my =E2=80=9Cplan of study=E2=80=9D;=
+ it states when
+I plan on completing all of the requirements of the degree, and the
+additional courses I plan to take.  Dr. Morris has said they would accept
+an email from you in place of a physical signature.  I can send you that
+document so you can look it over once I have all of my committee members
+confirmed.  Please let me know if you are able to be on my committee.
+
+Regards,
+AJ
+
+Andrew M. James
+Crawford Group
+Chemistry Department
+Virginia Tech.
+
+--f46d043892d78721650514671969
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Hi =
+John,</div><div class=3D"gmail_default" style=3D"font-size:small"><br></div=
+><div class=3D"gmail_default" style=3D"font-size:small">This email is meant=
+ to act as a signature to indicate that I agree to Andrew&#39;s &quot;Plan =
+of Study&quot;.</div><div class=3D"gmail_default" style=3D"font-size:small"=
+><br></div><div class=3D"gmail_default" style=3D"font-size:small">Please le=
+t me know if anything else is needed.</div><div class=3D"gmail_default" sty=
+le=3D"font-size:small"><br></div><div class=3D"gmail_default" style=3D"font=
+-size:small">Thanks!</div><div class=3D"gmail_default" style=3D"font-size:s=
+mall">Nick</div><div class=3D"gmail_default" style=3D"font-size:small"><br>=
+</div><div class=3D"gmail_default" style=3D"font-size:small"><br></div><div=
+ class=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b =
+class=3D"gmail_sendername">Andrew James</b> <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt;</span><br>Date: Wed, Ap=
+r 15, 2015 at 1:53 PM<br>Subject: PhD Advisory Committee<br>To: <a href=3D"=
+mailto:nmayhall@berkeley.edu">nmayhall@berkeley.edu</a><br><br><br>Hello Dr=
+. Mayhall,<br>
+<br>
+I am Andrew James (AJ) a first year student in Dr. Crawford=E2=80=99s Group=
+ at Virginia Tech, we got to meet during recruitment weekend.=C2=A0 I am wr=
+iting to ask if you would be a member of my PhD advisory committee.<br>
+<br>
+During the second semester of the first year I am supposed to select 3 facu=
+lty members to make up my advisory committee along with Dr. Crawford. The c=
+ommittee members responsibilities include grading my programatic assessment=
+s such as the Literature Review, Prelim exam, original research proposal, a=
+nd finally the defense.=C2=A0 There is also a requirement that we have an a=
+ssessment meeting once a year, however, in many cases one of those assessme=
+nts I have already listed will count for that meeting.<br>
+<br>
+There is a form that the committee members normally sign to show they agree=
+ to be a committee member.=C2=A0 This form is my =E2=80=9Cplan of study=E2=
+=80=9D; it states when I plan on completing all of the requirements of the =
+degree, and the additional courses I plan to take.=C2=A0 Dr. Morris has sai=
+d they would accept an email from you in place of a physical signature.=C2=
+=A0 I can send you that document so you can look it over once I have all of=
+ my committee members confirmed.=C2=A0 Please let me know if you are able t=
+o be on my committee.<br>
+<br>
+Regards,<br>
+AJ<br>
+<br>
+Andrew M. James<br>
+Crawford Group<br>
+Chemistry Department<br>
+Virginia Tech.<br>
+<br>
+</div><br></div>
+
+--f46d043892d78721650514671969--

@@ -1,0 +1,92 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2543314qgt;
+        Tue, 7 Jul 2015 10:33:01 -0700 (PDT)
+X-Received: by 10.140.99.65 with SMTP id p59mr8810914qge.46.1436290381814;
+        Tue, 07 Jul 2015 10:33:01 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 128si25699422qhs.23.2015.07.07.10.33.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 10:33:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.169 as permitted sender) smtp.mail=cduchane@vt.edu
+Received: from mail-ig0-f169.google.com (mail-ig0-f169.google.com [209.85.213.169])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t67HWuM6007431
+	for <amjames2@vt.edu>; Tue, 7 Jul 2015 13:33:01 -0400
+Received: by igcqs7 with SMTP id qs7so37954739igc.0
+        for <amjames2@vt.edu>; Tue, 07 Jul 2015 10:32:56 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :content-type;
+        bh=6NijWXnXZbgfl7j+CJ6VwipbNVz1bdDWoHTidWwpYls=;
+        b=L7oZJuhsBzqFURyfxAe0hnhzL3mxV/93tG+pzdiXJ1BXII+RIf26XDQTrVFLI6Lcs2
+         VHD0jC9A8x9FpEq7rr/C7Z5gDz1/qOgSmpe9ort9WUCwN3Y6lIeXtErNcWdWI1EvoxbO
+         qumoSJfKx9ggFFmOeLdTtA2N/A6RxHnpmpS2PR0Pf1ZfFTUl5/deVlbShJgxzjgPQeKl
+         p5d8JBj6cBL4A66cbtiKRRggb3/scXZEKxKcLf09rL4Ap3BsPrQoCRZUrnwxOLzZ25yz
+         7Wda+jkOFBde9qPPNM8B6UrSQPfQjFjo1alymbnLrnhDLKLunpPPSVxELDEoRX9gM971
+         GggQ==
+X-Gm-Message-State: ALoCoQn8uIe8/edJg1/jojQlQ7cLy2yaT1mima+MpV3us0K3iarV553wBiozVhKzDUFQ5qdtRmPn2KlW9SOu6YvKFk3ITZsSO9SaL9lOXHBn40xJlfB0IS0wm8R3csVmNEhb+f3SdhNnsRWs0eJ6sLdIKmCmKJlogw==
+X-Received: by 10.107.133.234 with SMTP id p103mr8641503ioi.85.1436290375992;
+        Tue, 07 Jul 2015 10:32:55 -0700 (PDT)
+X-Received: by 10.107.133.234 with SMTP id p103mr8641489ioi.85.1436290375867;
+ Tue, 07 Jul 2015 10:32:55 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.192.67 with HTTP; Tue, 7 Jul 2015 10:32:36 -0700 (PDT)
+From: Christine Duchane <cduchane@vt.edu>
+Date: Tue, 7 Jul 2015 13:32:36 -0400
+Message-ID: <CAECk6+6B+u6Xj1HD9z74VV5uET+zp2mnCPW9f4jgtTJ7GdxZWA@mail.gmail.com>
+Subject: Townside
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113ea500a5fe87051a4c6964
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113ea500a5fe87051a4c6964
+Content-Type: text/plain; charset=UTF-8
+
+Alright so I talked to Townside...
+
+We owe them the following monies, payable online or in person.
+
+Rent through 8/01: $469
+
+Deposit:                  $970
+
+Pet deposit:           * $300 *
+Total:                     $1739
+
+We have to bring proof of renter's insurance.
+
+We can pick up the keys at 8:30 am on Friday 7/17.
+
+We'll discuss later  =)
+
+Enjoy your class!
+
+--001a113ea500a5fe87051a4c6964
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Alright so I talked to Townside...<div><div><br></div><div=
+>We owe them the following monies, payable online or in person.<br><blockqu=
+ote style=3D"margin:0 0 0 40px;border:none;padding:0px"><div><div>Rent thro=
+ugh 8/01: $469</div></div></blockquote><blockquote style=3D"margin:0 0 0 40=
+px;border:none;padding:0px"><div>Deposit: =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0$970</div></blockquote><blockquote style=3D"=
+margin:0 0 0 40px;border:none;padding:0px">Pet deposit: =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 <u>=C2=A0$300=C2=A0</u><br>Total: =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 $1739<br><br></blockquote>=
+We have to bring proof of renter&#39;s insurance.</div><div><br></div><div>=
+We can pick up the keys at 8:30 am on Friday 7/17.</div><div><br></div><div=
+>We&#39;ll discuss later =C2=A0=3D)</div></div><div><br></div><div>Enjoy yo=
+ur class!</div></div>
+
+--001a113ea500a5fe87051a4c6964--

@@ -1,0 +1,607 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1547731qgt;
+        Mon, 27 Jul 2015 08:39:08 -0700 (PDT)
+X-Received: by 10.140.106.197 with SMTP id e63mr14082776qgf.106.1438011548151;
+        Mon, 27 Jul 2015 08:39:08 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id c17si21317258qkh.114.2015.07.27.08.39.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 08:39:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) client-ip=209.85.213.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t6RFd1WA015740
+	for <amjames2@vt.edu>; Mon, 27 Jul 2015 11:39:06 -0400
+Received: by iggf3 with SMTP id f3so81927598igg.1
+        for <amjames2@vt.edu>; Mon, 27 Jul 2015 08:39:01 -0700 (PDT)
+X-Received: by 10.107.47.224 with SMTP id v93mr43117556iov.86.1438011541622;
+        Mon, 27 Jul 2015 08:39:01 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1668261iee;
+        Mon, 27 Jul 2015 08:39:00 -0700 (PDT)
+X-Received: by 10.140.92.238 with SMTP id b101mr34411524qge.50.1438011540385;
+        Mon, 27 Jul 2015 08:39:00 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id p78si21358798qge.15.2015.07.27.08.39.00
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 08:39:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:2b9:e1ff:8be3])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6RFcxih025313
+	for <andrew.m.james2@gmail.com>; Mon, 27 Jul 2015 11:39:00 -0400
+Received: from mail-ig0-f171.google.com (mail-ig0-f171.google.com [209.85.213.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6RFcsI2032636
+	for <andrew.m.james2@gmail.com>; Mon, 27 Jul 2015 11:38:59 -0400
+Received: by igbpg9 with SMTP id pg9so97212341igb.0
+        for <andrew.m.james2@gmail.com>; Mon, 27 Jul 2015 08:38:53 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=lEnLeNjiKfyylIMwRxwi5PLQsj40UhGYN/MR7MKAtR0=;
+        b=HgItEqVK3nBw4xNSehrTVZJ3T2vO1LZSiN02eE/npeySAVpYhLDne1FkDcezV95Ki/
+         fJ4Tx4qNP2HCl2c2qX2feUM66/nueVHC9ZzCLxluw5Pp9cX+c5sIn1coc56W0mO79416
+         AQzCfy93ZEZIxd7+ze55ubIoHP90IuWrwzEzWCzhEmrA3Jw8X+Muqzfmaf2FseIRnaOj
+         4edFZ31NwCXcR+f4ATIn7nHSPm4M5mJXw+RXnD2/16KkwQq3LE7qRpiz1uFBZCz5EemQ
+         oxTz6+bHGhsriOB5M2M+58w52DK4Fk0FRn/L8zty7bYlYmq+msukDgqIAlA8EjbkP/xa
+         SNqw==
+X-Gm-Message-State: ALoCoQnAIdAANEHv07aYcyBU9e27dFHEWi7MTqQUedufaFibQd2z729+B3RymYjpIr2SXp35A40OptOtxeDv6eA6i5VEeYJCiq4P1OaWFRs/8wj8tPPTIMozfzbToWGV5bdHhczK1cO2fSK00oNj9zVLfa10Jt7xtQ==
+X-Received: by 10.107.25.18 with SMTP id 18mr44944834ioz.39.1438011533614;
+        Mon, 27 Jul 2015 08:38:53 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.25.18 with SMTP id 18mr44944802ioz.39.1438011533413;
+ Mon, 27 Jul 2015 08:38:53 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Mon, 27 Jul 2015 08:38:53 -0700 (PDT)
+In-Reply-To: <55B5EE49.9080107@univie.ac.at>
+References: <55736B10.9020807@univie.ac.at>
+	<CAH0V_1ZT05jN7hpMHYn2L5sa1BRF82c1+SZTiyGf4DsUO+pRYA@mail.gmail.com>
+	<557CDE08.5010507@univie.ac.at>
+	<CAH0V_1bZ5xXucZxkMGtY7-182su2Bk9n1Ns_dVkfs4UUFrALBQ@mail.gmail.com>
+	<559050BC.7040805@univie.ac.at>
+	<CAH0V_1bzAw+V_ywB40_GucSdMb7X5yF3NuLGmBoChQpiYeaNvg@mail.gmail.com>
+	<55B5EE49.9080107@univie.ac.at>
+Date: Mon, 27 Jul 2015 11:38:53 -0400
+Message-ID: <CAH0V_1a2X8pskCm_KQ1bxNCUgdgrkrMKnQJs5dUK29SQGQ27xg@mail.gmail.com>
+Subject: Re: polyradical paper
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Hans Lischka <hans.lischka@univie.ac.at>
+Cc: Andrew James <andrew.m.james2@gmail.com>,
+        Anita Das <anitadas.chem@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113ff1e8a1ea8a051bdd261c
+X-Spam-Status: No, score=0.0 required=5.0 tests=HEADER_FROM_DIFFERENT_DOMAINS,
+	HTML_MESSAGE autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+Content-Length: 22775
+
+--001a113ff1e8a1ea8a051bdd261c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Hans,
+
+Yes, I agree that we should carefully compare our UHF wave functions.
+Regarding the instability indices, the initial UHF determinant (which is
+really RHF), we find the following negative MO Hessian indices:
+
+Bu -0.103572       Ag -0.052371       Bu -0.016712       Ag -0.007614
+
+We follow the Ag eigenvector and re-compute the SCF to obtain a new UHF
+wave function with the following lowest MO Hessian indices:
+
+Bu 0.032601        Ag 0.050644        Ag 0.097847        Bu 0.111535
+
+For this wave function, the alpha/beta HOMOs have energies
+-0.216068/-0.282375 E_h, and the alpha/beta LUMOs are at 0.092356/0.033109
+E_h.
+
+We don't have natural orbitals for the UHF wave function.  Actually, I have
+to admit that I'm not sure what you mean by UHF natural orbitals since the
+MOs all have integer occupations.  Do you define those as the eigenvectors
+of the sum of the alpha and beta densities?
+
+Best regards,
+
+-Daniel
+
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jul 27, 2015 at 4:39 AM, Hans Lischka <hans.lischka@univie.ac.at>
+wrote:
+
+>  Dear Daniel,
+>
+> Thank you for your results. Your calculations based on the RHF and UHF
+> give  very similar NO occupations. We should compare the results in more
+> detail. In our Table 5 we give the NO occupations of the UHF density. The=
+y
+> are close to single occupation (4: HONO 1.234, LUNO 0.766). This should b=
+e
+> the starting occupations for your CCSD calculations. Could you please
+> compare this with your UHF results? Also, we should compare the character
+> of the instability, for which orbitals does it occur. We should also
+> compare the total SCF energies (restricted and unrestricted).
+> Anita, could you please collect our results in more detail?
+>
+> Best regards, Hans
+>
+> On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+>
+> Dear Hans,
+>
+>  We do agree that structure 4 is a strong example. AJ has recomputed the
+> CCSD natural orbitals for both 4 and 7, including following the totally
+> symmetric UHF orbital instabilities to the spin-polarized orbitals.
+> However, the occupation numbers still do not reveal substantial polyradic=
+al
+> character.  See the attached report from AJ for some details.
+>
+>  -TDC
+>
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Sun, Jun 28, 2015 at 3:53 PM, Hans Lischka <
+> <hans.lischka@univie.ac.at>hans.lischka@univie.ac.at> wrote:
+>
+>>  Dear Daniel,
+>>
+>> Thank you very much for your e-mail. We are looking forward to your
+>> results. The most important question from my point of view is whether th=
+e
+>> restricted or the unrestricted approach is the appropriate one (see my
+>> previous e-mail). I think we should concentrate on that question first o=
+f
+>> all, taking the heptazethrene (str. 4) as example. According to your
+>> restricted calculations one gets a closed shell state, but our
+>> multireference calculations and also the UHF density shows the opposite.
+>> What do you think?
+>>
+>> Best regards, Hans
+>>
+>>
+>> On 6/26/2015 10:42 PM, T. Daniel Crawford wrote:
+>>
+>> Dear Hans,
+>>
+>>  I want to apologize for the delay in our response.  AJ and I have been
+>> dealing with a pair of summer schools =E2=80=93 one focused on computati=
+onal
+>> chemistry software development, the other on molecular response properti=
+es
+>> =E2=80=93 that started this past week and will continue through next wee=
+k.  I'm the
+>> host and an instructor in both schools, and AJ has been invaluable as th=
+e
+>> primary organizer.  Unfortunately, the schools have pulled us both away
+>> from dealing with the polyradical project.  AJ has continued his
+>> computations, but we haven't been able to get together to go through his
+>> results and provide you with a proper response.  I promise that we will =
+get
+>> back to you and Anita as soon as possible.
+>>
+>>  Thanks for your patience!
+>>
+>>  Best regards,
+>>
+>>  -Daniel
+>>
+>>  --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>> On Sat, Jun 13, 2015 at 9:51 PM, Hans Lischka <
+>> <hans.lischka@univie.ac.at>hans.lischka@univie.ac.at> wrote:
+>>
+>>>  Dear Daniel, dear Andrew,
+>>>
+>>> Thank you for your e-mail and the data.
+>>> Concerning geometry differences: these are very small and come from the
+>>> fact that Anita used Gaussian and Turbomole to verify the consistency o=
+f
+>>> the results. She sent you the Gaussian optimized geometries but then
+>>> followed up with Turbomole calculations. Finally, we decided to base al=
+l
+>>> results on Turbomole and she changed the coordinates in the Supp. Mat. =
+I am
+>>> attaching her comments. You can see there that differences are negligib=
+le
+>>> and you need not redo the calculations.
+>>> Concerning the question of the symmetry in the UDFT geometry
+>>> optimizations for structures 4-8. These were performed for the singlet
+>>> ground states. The closed shell high-symmetry DFT solution is unstable.=
+ The
+>>> spin unrestricted (U)DFT wavefunction is symmetry broken and has only C=
+s
+>>> symmetry. You can see the orbitals  in Figs. 9S-13S of the Supp. Mat. T=
+he
+>>> C2h in Fig. 10S should also read as Cs. Thus, the MOs have Cs symmetry,=
+ but
+>>> alpha and beta orbitals are equivalent so that the structural symmetry =
+is
+>>> higher, C2h and D2h, respectively. Thus, the formulations should be
+>>> correct. However, we will explain this in the text. See also Anita's
+>>> comments attached.
+>>> I am also attaching a paper on oligoacenes where you see the same
+>>> effect, the symmetry broken orbitals (Figure 2) and the higher symmetry=
+ of
+>>> the geometry.
+>>>
+>>> Do you agree?
+>>>
+>>> Please see my follow-up e-mail on the symmetry breaking.
+>>>
+>>> Best regards, Hans
+>>>
+>>>
+>>> On 6/12/2015 1:35 PM, T. Daniel Crawford wrote:
+>>>
+>>> Dear Hans,
+>>>
+>>>  Attached is a brief summary of the data that AJ has collected so far.
+>>> There is some confusion about the geometries for structures 1-3, as wel=
+l as
+>>> symmetries of 4-8.  If you and Anita could clarify these, we would be
+>>> grateful.  Also, the data provided here are for frozen-core only, but A=
+J
+>>> also has carried out calculations using reduced active spaces, as well.
+>>>
+>>>  Best regards,
+>>>
+>>>  -Daniel
+>>>
+>>>  --
+>>> Prof. T. Daniel Crawford
+>>>  <crawdad@vt.edu>crawdad@vt.edu
+>>>
+>>> On Sat, Jun 6, 2015 at 5:50 PM, Hans Lischka <
+>>> <hans.lischka@univie.ac.at>hans.lischka@univie.ac.at> wrote:
+>>>
+>>>> Dear Daniel,
+>>>>
+>>>> I am sending you our next version of our data. We included now also
+>>>> pi+sigma correlated calculations. Comparison with pi-only shows good
+>>>> agreement. If not other aspects show up we regards the calculations
+>>>> finished and Anita will concentrate on writing the text. Please have a=
+ look
+>>>> at our results and we might discuss how and what you can fit in with y=
+our
+>>>> coupled cluster calculations. I am looking forward to a comparison.
+>>>>
+>>>> Best regards, Hans
+>>>>
+>>>
+>>>
+>>>
+>>
+>>
+>
+>
+
+--001a113ff1e8a1ea8a051bdd261c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Hans,<div><br></div><div>Yes, I agree that we should =
+carefully compare our UHF wave functions.=C2=A0 Regarding the instability i=
+ndices, the initial UHF determinant (which is really RHF), we find the foll=
+owing negative MO Hessian indices:<div><br></div><div>Bu -0.103572 =C2=A0 =
+=C2=A0 =C2=A0 Ag -0.052371 =C2=A0 =C2=A0 =C2=A0 Bu -0.016712 =C2=A0 =C2=A0 =
+=C2=A0 Ag -0.007614<br></div><div><br></div><div>We follow the Ag eigenvect=
+or and re-compute the SCF to obtain a new UHF wave function with the follow=
+ing lowest MO Hessian indices:</div><div><br></div><div>Bu 0.032601 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0Ag 0.050644 =C2=A0 =C2=A0 =C2=A0 =C2=A0Ag 0.097847 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0Bu 0.111535<br></div><div><br></div><div>For this w=
+ave function, the alpha/beta HOMOs have energies -0.216068/-0.282375 E_h, a=
+nd the alpha/beta LUMOs are at 0.092356/0.033109 E_h.</div><div><br></div><=
+div>We don&#39;t have natural orbitals for the UHF wave function.=C2=A0 Act=
+ually, I have to admit that I&#39;m not sure what you mean by UHF natural o=
+rbitals since the MOs all have integer occupations.=C2=A0 Do you define tho=
+se as the eigenvectors of the sum of the alpha and beta densities?</div><di=
+v><br></div><div>Best regards,</div><div><br></div><div>-Daniel</div><div><=
+br></div><div><br></div></div></div><div class=3D"gmail_extra"><br clear=3D=
+"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. =
+Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blan=
+k">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Mon, Jul 27, 2015 at 4:39 AM, Hans Lischk=
+a <span dir=3D"ltr">&lt;<a href=3D"mailto:hans.lischka@univie.ac.at" target=
+=3D"_blank">hans.lischka@univie.ac.at</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex">
+ =20
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF" text=3D"#000000">
+    Dear Daniel,<br>
+    <br>
+    Thank you for your results. Your calculations based on the RHF and
+    UHF give=C2=A0 very similar NO occupations. We should compare the resul=
+ts
+    in more detail. In our Table 5 we give the NO occupations of the UHF
+    density. They are close to single occupation (4: HONO 1.234, LUNO
+   =20
+    0.766). This should be the starting occupations for your CCSD
+    calculations. Could you please compare this with your UHF results?
+    Also, we should compare the character of the instability, for which
+    orbitals does it occur. We should also compare the total SCF
+    energies (restricted and unrestricted).<br>
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+    Anita, could you please collect our results in more detail?<br>
+    <br>
+    Best regards, Hans<span class=3D""><br>
+    <br>
+    On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+    </span><blockquote type=3D"cite">
+      <div dir=3D"ltr">Dear Hans,
+        <div><br>
+        </div><span class=3D"">
+        <div>We do agree that structure 4 is a strong example. AJ has
+          recomputed the CCSD natural orbitals for both 4 and 7,
+          including following the totally symmetric UHF orbital
+          instabilities to the spin-polarized orbitals.=C2=A0 However, the
+          occupation numbers still do not reveal substantial polyradical
+          character.=C2=A0 See the attached report from AJ for some details=
+.
+          =C2=A0</div>
+        <div><br>
+        </div>
+        <div>-TDC</div>
+      </span></div>
+      <div class=3D"gmail_extra"><span class=3D""><br clear=3D"all">
+        <div>
+          <div>
+            <div dir=3D"ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">craw=
+dad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        </span><div class=3D"gmail_quote"><span class=3D"">On Sun, Jun 28, =
+2015 at 3:53 PM, Hans
+          Lischka <span dir=3D"ltr">&lt;<a href=3D"mailto:hans.lischka@univ=
+ie.ac.at" target=3D"_blank"></a><a href=3D"mailto:hans.lischka@univie.ac.at=
+" target=3D"_blank">hans.lischka@univie.ac.at</a>&gt;</span>
+          wrote:<br>
+          </span><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8=
+ex;border-left:1px #ccc solid;padding-left:1ex">
+            <div bgcolor=3D"#FFFFFF" text=3D"#000000"><span class=3D""> Dea=
+r Daniel,<br>
+              <br>
+              Thank you very much for your e-mail. We are looking
+              forward to your results. The most important question from
+              my point of view is whether the restricted or the
+              unrestricted approach is the appropriate one (see my
+              previous e-mail). I think we should concentrate on that
+              question first of all, taking the heptazethrene (str. 4)
+              as example. According to your restricted calculations one
+              gets a closed shell state, but our multireference
+              calculations and also the UHF density shows the opposite.
+              What do you think?<br>
+              <br>
+              Best regards, Hans
+              </span><div>
+                <div><span class=3D""><br>
+                  <br>
+                  On 6/26/2015 10:42 PM, T. Daniel Crawford wrote:
+                  </span><blockquote type=3D"cite"><span class=3D"">
+                    <div dir=3D"ltr">Dear Hans,
+                      <div><br>
+                      </div>
+                      <div>I want to apologize for the delay in our
+                        response.=C2=A0 AJ and I have been dealing with a
+                        pair of summer schools =E2=80=93 one focused on
+                        computational chemistry software development,
+                        the other on molecular response properties =E2=80=
+=93
+                        that started this past week and will continue
+                        through next week.=C2=A0 I&#39;m the host and an
+                        instructor in both schools, and AJ has been
+                        invaluable as the primary organizer.=C2=A0
+                        Unfortunately, the schools have pulled us both
+                        away from dealing with the polyradical project.=C2=
+=A0
+                        AJ has continued his computations, but we
+                        haven&#39;t been able to get together to go through
+                        his results and provide you with a proper
+                        response.=C2=A0 I promise that we will get back to
+                        you and Anita as soon as possible.</div>
+                      <div><br>
+                      </div>
+                      <div>Thanks for your patience!</div>
+                      <div><br>
+                      </div>
+                      <div>Best regards,</div>
+                      <div><br>
+                      </div>
+                      <div>-Daniel</div>
+                    </div>
+                    </span><div class=3D"gmail_extra"><span class=3D""><br =
+clear=3D"all">
+                      <div>
+                        <div>
+                          <div dir=3D"ltr">--
+                            <div>Prof. T. Daniel Crawford</div>
+                            <div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      </span><div class=3D"gmail_quote"><span class=3D"">On=
+ Sat, Jun 13, 2015 at
+                        9:51 PM, Hans Lischka <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:hans.lischka@univie.ac.at" target=3D"_blank"></a><a href=3D"mail=
+to:hans.lischka@univie.ac.at" target=3D"_blank">hans.lischka@univie.ac.at</=
+a>&gt;</span>
+                        wrote:<br>
+                        </span><blockquote class=3D"gmail_quote" style=3D"m=
+argin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                          <div bgcolor=3D"#FFFFFF" text=3D"#000000"><span c=
+lass=3D""> Dear
+                            Daniel, dear Andrew,<br>
+                            <br>
+                            Thank you for your e-mail and the data.<br>
+                            Concerning geometry differences: these are
+                            very small and come from the fact that Anita
+                            used Gaussian and Turbomole to verify the
+                            consistency of the results. She sent you the
+                            Gaussian optimized geometries but then
+                            followed up with Turbomole calculations.
+                            Finally, we decided to base all results on
+                            Turbomole and she changed the coordinates in
+                            the Supp. Mat. I am attaching her comments.
+                            You can see there that differences are
+                            negligible and you need not redo the
+                            calculations.<br>
+                            Concerning the question of the symmetry in
+                            the UDFT geometry optimizations for
+                            structures 4-8. These were performed for the
+                            singlet ground states. The closed shell
+                            high-symmetry DFT solution is unstable. The
+                            spin unrestricted (U)DFT wavefunction is
+                            symmetry broken and has only Cs symmetry.
+                            You can see the orbitals=C2=A0 in Figs. 9S-13S =
+of
+                            the Supp. Mat. The C2h in Fig. 10S should
+                            also read as Cs. Thus, the MOs have Cs
+                            symmetry, but alpha and beta orbitals are
+                            equivalent so that the structural symmetry
+                            is higher, C2h and D2h, respectively. Thus,
+                            the formulations should be correct. However,
+                            we will explain this in the text. See also
+                            Anita&#39;s comments attached.<br>
+                            I am also attaching a paper on oligoacenes
+                            where you see the same effect, the symmetry
+                            broken orbitals (Figure 2) and the higher
+                            symmetry of the geometry.<br>
+                            <br>
+                            Do you agree?<br>
+                            <br>
+                            Please see my follow-up e-mail on the
+                            symmetry breaking.<br>
+                            <br>
+                            Best regards, Hans
+                            </span><div>
+                              <div><span class=3D""><br>
+                                <br>
+                                On 6/12/2015 1:35 PM, T. Daniel Crawford
+                                wrote:
+                                </span><blockquote type=3D"cite"><span clas=
+s=3D"">
+                                  <div dir=3D"ltr">Dear Hans,
+                                    <div><br>
+                                    </div>
+                                    <div>Attached is a brief summary of
+                                      the data that AJ has collected so
+                                      far.=C2=A0 There is some confusion
+                                      about the geometries for
+                                      structures 1-3, as well as
+                                      symmetries of 4-8.=C2=A0 If you and
+                                      Anita could clarify these, we
+                                      would be grateful.=C2=A0 Also, the da=
+ta
+                                      provided here are for frozen-core
+                                      only, but AJ also has carried out
+                                      calculations using reduced active
+                                      spaces, as well.=C2=A0</div>
+                                    <div><br>
+                                    </div>
+                                    <div>Best regards,</div>
+                                    <div><br>
+                                    </div>
+                                    <div>-Daniel</div>
+                                  </div>
+                                  </span><div class=3D"gmail_extra"><br cle=
+ar=3D"all">
+                                    <div>
+                                      <div>
+                                        <div dir=3D"ltr"><span class=3D"">-=
+-
+                                          <div>Prof. T. Daniel Crawford</di=
+v>
+                                          </span><div><a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank"></a><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div>
+                                        </div>
+                                      </div>
+                                    </div><span class=3D"">
+                                    <br>
+                                    <div class=3D"gmail_quote">On Sat, Jun
+                                      6, 2015 at 5:50 PM, Hans Lischka <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:hans.lischka@univie.ac.at" target=3D"_b=
+lank"></a><a href=3D"mailto:hans.lischka@univie.ac.at" target=3D"_blank">ha=
+ns.lischka@univie.ac.at</a>&gt;</span>
+                                      wrote:<br>
+                                      <blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Dear
+                                        Daniel,<br>
+                                        <br>
+                                        I am sending you our next
+                                        version of our data. We included
+                                        now also pi+sigma correlated
+                                        calculations. Comparison with
+                                        pi-only shows good agreement. If
+                                        not other aspects show up we
+                                        regards the calculations
+                                        finished and Anita will
+                                        concentrate on writing the text.
+                                        Please have a look at our
+                                        results and we might discuss how
+                                        and what you can fit in with
+                                        your coupled cluster
+                                        calculations. I am looking
+                                        forward to a comparison.<br>
+                                        <br>
+                                        Best regards, Hans<br>
+                                      </blockquote>
+                                    </div>
+                                    <br>
+                                  </span></div>
+                                </blockquote>
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <br>
+                    </div>
+                  </blockquote>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </div>
+
+</blockquote></div><br></div>
+
+--001a113ff1e8a1ea8a051bdd261c--

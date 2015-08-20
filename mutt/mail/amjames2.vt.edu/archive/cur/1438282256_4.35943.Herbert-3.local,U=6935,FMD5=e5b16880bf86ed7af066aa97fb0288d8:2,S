@@ -1,0 +1,103 @@
+Return-Path: <amjames2@vt.edu>
+Received: from [10.0.1.54] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id t33sm1519528qge.19.2015.04.30.10.29.30
+        for <mcclurej@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 30 Apr 2015 10:29:30 -0700 (PDT)
+From: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_7B98D94E-963E-45DB-AE71-072E0058C035"
+Message-Id: <69530341-D752-44FF-BA97-2ADD9CE9A84E@vt.edu>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+Subject: Re: Allocation empty?
+Date: Thu, 30 Apr 2015 13:29:23 -0400
+References: <CA+58rsAA+wE1QxK-w0X_ittZT6J-XfAQ16k4ufHpp3bGMuW0UA@mail.gmail.com> <CAH3Y6MLZECKvSFCR18E4KTwhXh5+WYOxaN+7L2k2Ozm3O3HBpA@mail.gmail.com>
+To: James McClure <mcclurej@vt.edu>
+In-Reply-To: <CAH3Y6MLZECKvSFCR18E4KTwhXh5+WYOxaN+7L2k2Ozm3O3HBpA@mail.gmail.com>
+X-Mailer: Apple Mail (2.2070.6)
+
+
+--Apple-Mail=_7B98D94E-963E-45DB-AE71-072E0058C035
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Thanks! I didn=E2=80=99t realize that the allocation name was case =
+sensitive.=20
+
+=E2=80=94Andrew=20
+> On Apr 30, 2015, at 10:10 AM, James McClure <mcclurej@vt.edu> wrote:
+>=20
+> I should have been more specific --- I think you specified 'aoe5984' =
+instead of 'AOE5984'.  It is case sensitive.
+>=20
+> James
+>=20
+> On Thu, Apr 30, 2015 at 9:17 AM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+> Hi Dr. McClure,=20
+>=20
+> My job for assignment 10 has been sitting in que for a few days now, =
+so I looked at the checkjob -v output.  I see this message at the bottom =
+similar to before when the class allocation had run out.=20
+>=20
+> >Message[0] server rejected request with status code 740 - =
+Insufficient funds: There >are no valid allocations against which to =
+make the lien (Instance 144508)
+>=20
+> Could you take a look?=20
+>=20
+> Thanks,=20
+> Andrew James=20
+>=20
+> Graduate Teaching Assistant=20
+> Virginia Tech=20
+> Chemistry Department=20
+> amjames2@vt.edu <mailto:amjames2@vt.edu>
+
+
+--Apple-Mail=_7B98D94E-963E-45DB-AE71-072E0058C035
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">Thanks! I didn=E2=80=99t realize that the allocation name was =
+case sensitive.&nbsp;<div class=3D""><br class=3D""></div><div =
+class=3D"">=E2=80=94Andrew&nbsp;<br class=3D""><div><blockquote =
+type=3D"cite" class=3D""><div class=3D"">On Apr 30, 2015, at 10:10 AM, =
+James McClure &lt;<a href=3D"mailto:mcclurej@vt.edu" =
+class=3D"">mcclurej@vt.edu</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><div dir=3D"ltr" =
+class=3D"">I should have been more specific --- I think you specified =
+'aoe5984' instead of 'AOE5984'.&nbsp; It is case sensitive.<div =
+class=3D""><br class=3D""></div><div class=3D"">James</div></div><div =
+class=3D"gmail_extra"><br class=3D""><div class=3D"gmail_quote">On Thu, =
+Apr 30, 2015 at 9:17 AM, Andrew James <span dir=3D"ltr" class=3D"">&lt;<a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank" =
+class=3D"">amjames2@vt.edu</a>&gt;</span> wrote:<br class=3D""><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex"><div dir=3D"ltr" class=3D"">Hi Dr. =
+McClure,&nbsp;<div class=3D""><br class=3D""></div><div class=3D"">My =
+job for assignment 10 has been sitting in que for a few days now, so I =
+looked at the checkjob -v output.&nbsp; I see this message at the bottom =
+similar to before when the class allocation had run out.&nbsp;</div><div =
+class=3D""><br class=3D""></div><div class=3D"">&gt;Message[0] server =
+rejected request with status code 740 - Insufficient funds: There =
+&gt;are no valid allocations against which to make the lien (Instance =
+144508)<br clear=3D"all" class=3D""><div class=3D""><div class=3D""><div =
+dir=3D"ltr" class=3D""><br class=3D""></div><div class=3D"">Could you =
+take a look?&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Thanks,&nbsp;</div><div dir=3D"ltr" class=3D"">Andrew =
+James&nbsp;<div class=3D""><br class=3D""><div class=3D"">Graduate =
+Teaching Assistant&nbsp;<br class=3D""><div class=3D"">Virginia =
+Tech&nbsp;</div></div><div class=3D"">Chemistry =
+Department&nbsp;</div></div><div class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" target=3D"_blank" =
+class=3D"">amjames2@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br class=3D""></div>
+</div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_7B98D94E-963E-45DB-AE71-072E0058C035--

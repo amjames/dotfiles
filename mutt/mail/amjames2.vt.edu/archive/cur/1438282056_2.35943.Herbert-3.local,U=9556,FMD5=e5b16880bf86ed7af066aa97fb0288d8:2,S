@@ -1,0 +1,105 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1911083qgt;
+        Mon, 1 Jun 2015 05:06:21 -0700 (PDT)
+X-Received: by 10.229.183.5 with SMTP id ce5mr24108643qcb.28.1433160381022;
+        Mon, 01 Jun 2015 05:06:21 -0700 (PDT)
+Return-Path: <erik.kallman@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 13si4737992qkz.56.2015.06.01.05.06.20
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 01 Jun 2015 05:06:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of erik.kallman@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=erik.kallman@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wi0-x22a.google.com (mail-wi0-x22a.google.com [IPv6:2a00:1450:400c:c05::22a])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t51C6ENa031066
+	for <amjames2@vt.edu>; Mon, 1 Jun 2015 08:06:19 -0400
+Received: by wicmx19 with SMTP id mx19so73275823wic.0
+        for <amjames2@vt.edu>; Mon, 01 Jun 2015 05:06:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=9cW+jLZhbe96MbdnOC/I2foJXFw7N7E+2d+PWWN0m7c=;
+        b=FbWGysjsG5QNOBMdGJQfFxaTbMyjmCvGSbfE8dATJRkcdIPrcylwDU9oqfzbnQy7LS
+         psJdCG5FwEAogNOX+yqbcfSMqdwKEuXQOMu/Mwtq+40n07KHmJNL6EVPU4wLYmVB5iKj
+         JI+bFEJSVyanMYxItMoN7t+ZnuEp6Lj083zby9JvP2yl0G4XooJM34xd4i1Enx5hRSXM
+         0jEOxOEYRg7tlw+tpL3+V2X+Xi0fzslR+gzwUPQ66l9iLDZxrNMV3oLu995XmJXvprW1
+         yaeulFZcmCb7/YSIvwcDU7YwQS8JX8pN+geKdlauYgSx8sRu4q5K1lE09uFur1fe1Ptw
+         AS/w==
+MIME-Version: 1.0
+X-Received: by 10.194.24.70 with SMTP id s6mr41112222wjf.25.1433160374417;
+ Mon, 01 Jun 2015 05:06:14 -0700 (PDT)
+Received: by 10.28.9.67 with HTTP; Mon, 1 Jun 2015 05:06:14 -0700 (PDT)
+In-Reply-To: <633D9C93-0A4E-46B7-A5F9-6A057C3D142F@vt.edu>
+References: <633D9C93-0A4E-46B7-A5F9-6A057C3D142F@vt.edu>
+Date: Mon, 1 Jun 2015 14:06:14 +0200
+Message-ID: <CAPK4g-k6ANJ5+vGF2DC+-ag9VZArSsbqQJnWQCTL88bYzKFnnw@mail.gmail.com>
+Subject: Re: Molecular Response Properties Summer School
+From: =?UTF-8?Q?erik_k=C3=A4llman?= <erik.kallman@gmail.com>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b4724d806001a051773a7fa
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7b4724d806001a051773a7fa
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+There seems to have been a misunderstanding between me and the consortium
+that fund my registration.
+
+I will attend, and to clear this out i have contacted Uppsala University to
+sort out the payment details. I will get back to you later this week or as
+soon as i have solved this issue.
+
+Sorry for any inconvenience. Have a great day!
+/Erik K=C3=A4llman
+
+On Fri, May 29, 2015 at 4:26 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Erik,
+>
+> Our registration system shows that you registered for the MRPSS this
+> summer at Virginia Tech, but as of yet have not paid the registration fee=
+.
+> We hope you still plan to join us this July.  If still plan on attending
+> please let me know.
+>
+> Regards,
+> Andrew M. James
+> Summer School Coordinator
+
+--047d7b4724d806001a051773a7fa
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>There seems to have been a misunderstanding=
+ between me and the consortium that fund my registration.<br><br></div>I wi=
+ll attend, and to clear this out i have contacted Uppsala University to sor=
+t out the payment details. I will get back to you later this week or as soo=
+n as i have solved this issue.<br><br></div>Sorry for any inconvenience. Ha=
+ve a great day!<br></div>/Erik K=C3=A4llman<br></div><div class=3D"gmail_ex=
+tra"><br><div class=3D"gmail_quote">On Fri, May 29, 2015 at 4:26 PM, Andrew=
+ James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_=
+blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_=
+quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1=
+ex">Dear Erik,<br>
+<br>
+Our registration system shows that you registered for the MRPSS this summer=
+ at Virginia Tech, but as of yet have not paid the registration fee.=C2=A0 =
+We hope you still plan to join us this July.=C2=A0 If still plan on attendi=
+ng please let me know.<br>
+<br>
+Regards,<br>
+Andrew M. James<br>
+Summer School Coordinator </blockquote></div><br></div>
+
+--047d7b4724d806001a051773a7fa--

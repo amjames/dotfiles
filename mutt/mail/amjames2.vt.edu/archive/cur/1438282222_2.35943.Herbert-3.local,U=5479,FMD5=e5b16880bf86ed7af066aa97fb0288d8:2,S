@@ -1,0 +1,111 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp195778qge;
+        Wed, 25 Mar 2015 12:34:19 -0700 (PDT)
+X-Received: by 10.52.175.6 with SMTP id bw6mr11352418vdc.91.1427312058832;
+        Wed, 25 Mar 2015 12:34:18 -0700 (PDT)
+Return-Path: <rinsari@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id t11si4393360vdf.86.2015.03.25.12.34.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 25 Mar 2015 12:34:18 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning rinsari@vt.edu does not designate 74.125.82.54 as permitted sender) client-ip=74.125.82.54;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning rinsari@vt.edu does not designate 74.125.82.54 as permitted sender) smtp.mail=rinsari@vt.edu
+Received: from mail-wg0-f54.google.com (mail-wg0-f54.google.com [74.125.82.54])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2PJYCPk031395
+	for <amjames2@vt.edu>; Wed, 25 Mar 2015 15:34:17 -0400
+Received: by wgs2 with SMTP id 2so39801680wgs.1
+        for <amjames2@vt.edu>; Wed, 25 Mar 2015 12:34:12 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=FQIQmMan2rYxIcSrwWnhdGHNwIfatICUWfslYO9O1/Y=;
+        b=OEHaLiAbt3N32j7ILUJTtI3uN2uHq1mticWbZBp0Y/JQyto2hSnO3FqhDqPqDiPpp7
+         hPLjOHN1CNeshM8k0e58SboJENll/SBhjgh5qVRR4h+EVObjYlBg7f34IIaZrg94+/Vt
+         Pz/LYTjoOSzxn8DWILt09q0p9Keg6v49Cx8CgcTEOj8Q3NWPfNarMsXFiWtr+ZqfvIeq
+         FKBZbhJAdcVPY8jRXGAEyfAMsrx/1U0HVJIcVnJC17KCNad5mYIxfUgRRiJsPaPsw+0Q
+         ViJ4yKBNajfPjwNHLjKtLZkSKGClgkJgesgwCK1DbAtMTSXH9pi3HoG3clEd6z+E6ZDh
+         BDQQ==
+X-Gm-Message-State: ALoCoQna2fFsvs15O5tPmJ41XDEmrhDm6oqAOjckFNc8Pqfb3w2qg9sWOWognK4hk9xHjm3xyA9BTm5D2o5NgOrWKlqPqEtbRZfeAN2NTW2977tuihFhcHCo7YORZoodx5b4jXKZK22u0e+AgqjyzaY9guSaO17jHA==
+X-Received: by 10.180.104.33 with SMTP id gb1mr40471651wib.33.1427312052424;
+        Wed, 25 Mar 2015 12:34:12 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.104.33 with SMTP id gb1mr40471637wib.33.1427312052346;
+ Wed, 25 Mar 2015 12:34:12 -0700 (PDT)
+Received: by 10.28.158.198 with HTTP; Wed, 25 Mar 2015 12:34:12 -0700 (PDT)
+In-Reply-To: <D908A624-E3E7-4DD4-BCD8-F65066ED6F1A@vt.edu>
+References: <D908A624-E3E7-4DD4-BCD8-F65066ED6F1A@vt.edu>
+Date: Wed, 25 Mar 2015 15:34:12 -0400
+Message-ID: <CANkH22oCXx0ag5tAJxKorX2hYysoG6-9MTi4y1U2aRNfdgTs+g@mail.gmail.com>
+Subject: Re: Pre-Lab Quizzes
+From: Ramaan Insari <rinsari@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=f46d0442678edd2e8f051221fbb3
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--f46d0442678edd2e8f051221fbb3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Andrew,
+
+Thank you for expressing your concern. My roommate is going through a lot
+of personal turmoil right now and has been contemplating suicide, so this
+week I've been putting him ahead of my classes. I'll try not to miss the
+lab next week.
+
+Thank you,
+
+Ramaan Insari
+
+On Wed, Mar 25, 2015 at 11:52 AM, Andrew James <amjames2@vt.edu> wrote:
+
+> Dear Ramaan,
+>
+> I noticed that you haven=E2=80=99t completed the pre-lab quiz for this we=
+ek, and I
+> wanted to check in to make sure everything is okay. Not completing those
+> quizzes is preventing you from participating in lab and this will start t=
+o
+> drag your grades down quick.  If there is something wrong please let us
+> (Myself, Mrs. Long and Mrs. Dalton) know asap, and if not please get on t=
+op
+> of those quizzes!
+>
+> Take care,
+> =E2=80=94Andrew
+
+--f46d0442678edd2e8f051221fbb3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Andrew,<div><br></div><div>Thank you for expressing your c=
+oncern. My roommate is going through a lot of personal turmoil right now an=
+d has been contemplating suicide, so this week I&#39;ve been putting him ah=
+ead of my classes. I&#39;ll try not to miss the lab next week.</div><div><b=
+r></div><div>Thank you,</div><div><br></div><div>Ramaan Insari</div></div><=
+div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Mar 25, 20=
+15 at 11:52 AM, Andrew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjame=
+s2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">Dear Ramaan,<br>
+<br>
+I noticed that you haven=E2=80=99t completed the pre-lab quiz for this week=
+, and I wanted to check in to make sure everything is okay. Not completing =
+those quizzes is preventing you from participating in lab and this will sta=
+rt to drag your grades down quick.=C2=A0 If there is something wrong please=
+ let us (Myself, Mrs. Long and Mrs. Dalton) know asap, and if not please ge=
+t on top of those quizzes!<br>
+<br>
+Take care,<br>
+=E2=80=94Andrew </blockquote></div><br></div>
+
+--f46d0442678edd2e8f051221fbb3--

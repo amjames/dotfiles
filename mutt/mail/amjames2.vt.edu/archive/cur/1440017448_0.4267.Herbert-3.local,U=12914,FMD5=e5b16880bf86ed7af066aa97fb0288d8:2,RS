@@ -1,0 +1,106 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp547723qgb;
+        Wed, 19 Aug 2015 13:40:47 -0700 (PDT)
+X-Received: by 10.55.27.199 with SMTP id m68mr14387523qkh.18.1440016847414;
+        Wed, 19 Aug 2015 13:40:47 -0700 (PDT)
+Return-Path: <logsorr@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id o66si3253385qhb.117.2015.08.19.13.40.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 13:40:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of logsorr@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of logsorr@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mailfrom=logsorr@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-la0-x229.google.com (mail-la0-x229.google.com [IPv6:2a00:1450:4010:c03::229])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7JKefj9019499
+	for <amjames2@vt.edu>; Wed, 19 Aug 2015 16:40:46 -0400
+Received: by lagz9 with SMTP id z9so10480632lag.3
+        for <amjames2@vt.edu>; Wed, 19 Aug 2015 13:40:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=/FxGrH4A3U0rQF6VIkf/xKIHQMNlCO3s0Sg72EywJAE=;
+        b=AbbTwlImMVG+JRFKbnN2dp83/hKPnz53zaC10EUkIawCkmNYW51+MAw17l6qlrxBpz
+         4XAMbdT6mTG7nhD6rC6VQymbDRXGELTS6H3+UHMCOrw0oXZQJ9uVwCgKMRlS1Cw9iagV
+         Til6b7zXvpYg8YmnJmeFs1Ouw9lVHfWbuXY8NAdw9Xp8yqSX52LNe+KB4s2lUVqobpPf
+         8hzJvfR5Pt7Du4MLjFYeTmvkMAI0ODW0pQubYiOoQaprXqtXljvWEUq3D2kR9n90b2RO
+         hCFXsM5d8w/5AlUbawcPnFNInzqhmSnT2HBQwaSTSF137s8JptXfTfG+mQznIWRve2ea
+         oINg==
+MIME-Version: 1.0
+X-Received: by 10.112.171.68 with SMTP id as4mr13512664lbc.64.1440016841076;
+ Wed, 19 Aug 2015 13:40:41 -0700 (PDT)
+Received: by 10.114.181.132 with HTTP; Wed, 19 Aug 2015 13:40:40 -0700 (PDT)
+Date: Wed, 19 Aug 2015 16:40:40 -0400
+Message-ID: <CAKfgpTR7d6CiAK=0jpJ0n=n5bRmSgUAjZ2Fhr839-gFEXaA9QQ@mail.gmail.com>
+Subject: Fibonacci Script
+From: Logan Sorrentino <logsorr@gmail.com>
+To: Andrew James <Andrew.m.james2@gmail.com>, Andrew James <amjames2@vt.edu>
+Content-Type: multipart/mixed; boundary=001a11c38d1a48ab6c051db00cc2
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,URIBL_DBL_ABUSE_REDIR
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c38d1a48ab6c051db00cc2
+Content-Type: multipart/alternative; boundary=001a11c38d1a48ab66051db00cc0
+
+--001a11c38d1a48ab66051db00cc0
+Content-Type: text/plain; charset=UTF-8
+
+-- 
+*Logan Sorrentino*
+*Co-founder of Champio <http://bit.ly/1FTfjfF>*
+
+M: +1 (516) 510-1592
+O: +1 (314) 272-2642
+logan@champio.com
+
+4240 Duncan Ave
+Suite #200
+St. Louis, MO 63110
+
+--001a11c38d1a48ab66051db00cc0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmai=
+l_signature"><div dir=3D"ltr"><b style=3D"font-size:12.8000001907349px">Log=
+an Sorrentino</b><div style=3D"font-size:12.8000001907349px"><i>Co-founder =
+of=C2=A0<a href=3D"http://bit.ly/1FTfjfF" target=3D"_blank">Champio</a></i>=
+</div><div style=3D"font-size:12.8000001907349px"><br></div><div style=3D"f=
+ont-size:12.8000001907349px"><font size=3D"1">M: +1 (516) 510-1592</font></=
+div><div style=3D"font-size:12.8000001907349px"><font size=3D"1">O: +1 (314=
+) 272-2642</font></div><div style=3D"font-size:12.8000001907349px"><font si=
+ze=3D"1"><a href=3D"mailto:logan@champio.com" target=3D"_blank">logan@champ=
+io.com</a><br></font></div><div style=3D"font-size:12.8000001907349px"><fon=
+t size=3D"1"><br></font></div><div style=3D"font-size:12.8000001907349px"><=
+font size=3D"1">4240 Duncan Ave</font></div><div style=3D"font-size:12.8000=
+001907349px"><font size=3D"1">Suite #200</font></div><div style=3D"font-siz=
+e:12.8000001907349px"><font size=3D"1">St. Louis, MO 63110</font></div></di=
+v></div>
+</div>
+
+--001a11c38d1a48ab66051db00cc0--
+--001a11c38d1a48ab6c051db00cc2
+Content-Type: application/x-httpd-php; name="genFibFile.php"
+Content-Disposition: attachment; filename="genFibFile.php"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_idj8ueq50
+
+PD9waHAKJG15ZmlsZSA9IGZvcGVuKCJmaWJvbmFjY2lfbnVtYmVycy50eHQiLCAidyIpIG9yIGRp
+ZSgiVW5hYmxlIHRvIG9wZW4gZmlsZSEiKTsKJGZpYl9hcnJheSA9IGFycmF5KCk7CmZvcigkaSA9
+MDsgJGkgPD0gNTAwMDsgJGkrKyl7CiAgaWYoJGk9PTApewogICAgYXJyYXlfcHVzaCgkZmliX2Fy
+cmF5LDApOwogICAgZndyaXRlKCRteWZpbGUsIDApOwogICAgZndyaXRlKCRteWZpbGUsICJcclxu
+Iik7CiAgfQogIGVsc2VpZigkaT09MSl7CiAgICBhcnJheV9wdXNoKCRmaWJfYXJyYXksMSk7CiAg
+ICBmd3JpdGUoJG15ZmlsZSwgMSk7CiAgICBmd3JpdGUoJG15ZmlsZSwgIlxyXG4iKTsKICB9CiAg
+ZWxzZXsKICAgICRmaWJfaSA9ICRmaWJfYXJyYXlbJGktMV0gKyAkZmliX2FycmF5WyRpLTJdOwog
+ICAgYXJyYXlfcHVzaCgkZmliX2FycmF5LCAkZmliX2kpOwogICAgZndyaXRlKCRteWZpbGUsICRm
+aWJfaSk7CiAgICBmd3JpdGUoJG15ZmlsZSwgIlxyXG4iKTsKICB9Cn0KZmNsb3NlKCRteWZpbGUp
+OwoK
+--001a11c38d1a48ab6c051db00cc2--

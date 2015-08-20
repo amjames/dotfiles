@@ -1,0 +1,109 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp511842qgb;
+        Wed, 19 Aug 2015 12:20:59 -0700 (PDT)
+X-Received: by 10.55.52.12 with SMTP id b12mr26251643qka.21.1440012059421;
+        Wed, 19 Aug 2015 12:20:59 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 64si2779042qkz.106.2015.08.19.12.20.54
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 12:20:59 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.192.52 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.192.52;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.192.52 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mailfrom=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7JJKmow007758;
+	Wed, 19 Aug 2015 15:20:53 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7JI41Zh013241;
+	Wed, 19 Aug 2015 15:20:48 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101294945 for CHEM_GRAD@LISTSERV.VT.EDU; Wed, 19 Aug 2015 15:20:48
+          -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7JI41Zb013241; Wed, 19 Aug
+          2015 15:20:46 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101294842 for CHEM_EVERYONE@LISTSERV.VT.EDU; Wed, 19 Aug 2015
+          15:20:46 -0400
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:212:7ed0:359e]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7JJAj5V015238 for
+          <chem_everyone@listserv.vt.edu>; Wed, 19 Aug 2015 15:10:45 -0400
+Received: from mail-qg0-f52.google.com (mail-qg0-f52.google.com
+          [209.85.192.52]) by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t7JJAeZf025296 for <chem_everyone@listserv.vt.edu>; Wed, 19 Aug 2015
+          15:10:45 -0400
+Received: by qgeb6 with SMTP id b6so11972530qge.3 for
+          <chem_everyone@listserv.vt.edu>; Wed, 19 Aug 2015 12:10:40 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:message-id:date:from:reply-to:organization
+                         :user-agent:mime-version:to:subject:content-type
+                         :content-transfer-encoding;
+                         bh=p+gq9DO5T3yizgxkT7d6LaxZL/krmkZlzMEbIIUDTtw=;
+                         b=GltP4uuq4JSuE/ZLZDalENfr9RzxLGmFeZNcb4hRqyFVJIkQFo4lMe14+HN2UbOPh6
+                         fyzo7agvQ7EDLH97yCRklmjGGIh+lb3dlQakqswJM1SW40ZV8yFalVoab8UZ0xAVcaum
+                         vhLrpFx48lOM3scQc68dlaDPmQAv46wz1ito9QLmUfaEQ3Ccmz82p1e25ZBy1cGXwbGY
+                         3Q+iHl8xxaOhogjC+tOfsktw9dtIIhgcn1QZCtkyk6iaaDK0oyp/sFf0q0n5EA3lyvTo
+                         JoOehxct9TPhmiRRql36H5xMqZqi4AN5+BTT+OVd0KFFMgBa5sc8ICq9Y7N35qG2V8ia
+                         nPXg==
+X-Gm-Message-State: ALoCoQledLbUHqEdOWZbCnNo3VBvwVv9GSwv2CxN034H3zp0tZkrR/NrhGwG8fhnRzWMJ4ck4P26enCs2bb67QjrPqndGzikiBjwI+KQvATX0zyvpmoPIlVwe9yBtCiXBZ87yUDYKRFdNzhmPkmI8Qn5s2uLfvPVHRZcVScOLt1HwZ3PM3M6maBqCNSm4NQYXpvj9A5FPJQWtSb53aZRMbgruIKToqVPIQ==
+X-Received: by 10.140.30.118 with SMTP id c109mr26196556qgc.37.1440011440014;
+            Wed, 19 Aug 2015 12:10:40 -0700 (PDT)
+X-Received: by 10.140.30.118 with SMTP id c109mr26196539qgc.37.1440011439866;
+            Wed, 19 Aug 2015 12:10:39 -0700 (PDT)
+Received: from ?IPv6:::1? ([2001:468:c80:610a:a99b:7b32:2148:91d6]) by
+          smtp.gmail.com with ESMTPSA id d203sm815500qhc.32.2015.08.19.12.10.38
+          for <chem_everyone@listserv.vt.edu> (version=TLSv1
+          cipher=ECDHE-RSA-RC4-SHA bits=128/128); Wed, 19 Aug 2015 12:10:39
+          -0700 (PDT)
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9)
+            Gecko/20100722 Eudora/3.0.4
+MIME-Version: 1.0
+X-Priority: 1 (Highest)
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-0.6 required=5.0 tests=RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+Precedence: list
+Message-ID:  <55D4D4B8.5080204@vt.edu>
+Date:         Wed, 19 Aug 2015 15:10:48 -0400
+Reply-To: sunfire@vt.edu
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Wanda Hensley <sunfire@vt.edu>
+Organization: Virginia Tech - Chemistry
+Subject: New Employees to the Chemistry Department
+To: CHEM_GRAD@LISTSERV.VT.EDU
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear All,
+
+Please join me in welcoming the following to our Department.
+
+Dr. Nicholas Mayhall  -  new Faculty Member
+VT Email Address:  nmayhall@vt.edu
+
+and
+
+Maruti Hegde - new Postdoctoral Associate working with Dr. Tim Long
+VT Email Address:  mhegde@vt.edu
+
+
+Take care,
+
+Wanda
+
+-- 
+Wanda Hensley
+480D Davidson Hall
+540-231-3574
+sunfire@vt.edu

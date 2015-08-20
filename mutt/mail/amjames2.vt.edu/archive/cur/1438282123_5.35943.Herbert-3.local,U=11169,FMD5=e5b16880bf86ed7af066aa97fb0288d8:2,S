@@ -1,0 +1,149 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1026781qgt;
+        Mon, 22 Jun 2015 19:28:15 -0700 (PDT)
+X-Received: by 10.55.24.166 with SMTP id 38mr68568566qky.70.1435026495320;
+        Mon, 22 Jun 2015 19:28:15 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id g17si20826522qhc.64.2015.06.22.19.28.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 19:28:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) client-ip=192.30.252.198;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext7.iad.github.net [192.30.252.198])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5N2S9AU001022
+	for <amjames2@vt.edu>; Mon, 22 Jun 2015 22:28:14 -0400
+Date: Mon, 22 Jun 2015 19:28:09 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1435026489;
+	bh=Ai8K7pqE1aAlZAg/Dx0h/UnAM0yH2ot44tOCVKSrXmA=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=z/9ycg4FOqDFFAjkOw5UVDBXxZUoBOldZEsVURMmaXyt/0TGxpM3eFE55vrIOgwo8
+	 PFOjl3ogEY7wz7JYLYijmDUFpqwDAnocK3jTSlurQks7VGxczvARWLxmDsHs3+y11P
+	 HQrJcNhrOghBhNWv1w5gN8wRcFi8y7zcrsUOT0Uw=
+From: jgonthier <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642c283a6a7b1b41c622e78dcd566f1f27e35a188a892cf0000000111a0863992a169ce05609d78@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/98/114331818@github.com>
+In-Reply-To: <psi4/psi4/issues/98@github.com>
+References: <psi4/psi4/issues/98@github.com>
+Subject: Re: [psi4] Psi4 compilation error (#98)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5588c439c4a4_1cb63fe950bc329c7979c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jgonthier
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642c283a6a7b1b41c622e78dcd566f1f27e35a188a892cf0000000111a0863992a169ce05609d78@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642c283a6a7b1b41c622e78dcd566f1f27e35a188a892cf0000000111a0863992a169ce05609d78@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QvAFyQ56cN2hK3JJtkthEuNaZHP3ks5oWLu5gaJpZM4FJUyO>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.4 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_5588c439c4a4_1cb63fe950bc329c7979c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+There is actually a "--chemps2 off" option to the setup, so if you use:
+
+./setup --type release --prefix=3D/usr/local/programs/psi4intel --cc=3Dic=
+c
+--cxx=3Dicpc --plugins on --max-am-eri=3D6 --mkl=3Dparallel --chemps2 off=
+
+
+it should also work, I think.
+
+Maybe --chemps2 off should be the default ? I also had to use it to avoid=
+
+the error mentioned by Ugur.
+
+2015-06-22 17:53 GMT-04:00 Ryan Richard <notifications@github.com>:
+
+> Literally just tack it onto the end:
+>
+> ./setup --type release --prefix=3D/usr/local/programs/psi4intel --cc=3D=
+icc
+> --cxx=3Dicpc --plugins on --max-am-eri=3D6 --mkl=3Dparallel -DENABLE_CH=
+EMPS2=3DOFF
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4/issues/98#issuecomment-114275673>.
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/98#issuecomment-114331818=
+
+----==_mimepart_5588c439c4a4_1cb63fe950bc329c7979c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+There is actually a &quot;--chemps2 off&quot; option to the setup, so if =
+you use:<br>
+<br>
+./setup --type release --prefix=3D/usr/local/programs/psi4intel --cc=3Dic=
+c<br>
+--cxx=3Dicpc --plugins on --max-am-eri=3D6 --mkl=3Dparallel --chemps2 off=
+<br>
+<br>
+it should also work, I think.<br>
+<br>
+Maybe --chemps2 off should be the default ? I also had to use it to avoid=
+<br>
+the error mentioned by Ugur.<br>
+<br>
+2015-06-22 17:53 GMT-04:00 Ryan Richard &lt;notifications@github.com&gt;:=
+<br>
+<br>
+&gt; Literally just tack it onto the end:<br>
+&gt;<br>
+&gt; ./setup --type release --prefix=3D/usr/local/programs/psi4intel --cc=
+=3Dicc<br>
+&gt; --cxx=3Dicpc --plugins on --max-am-eri=3D6 --mkl=3Dparallel -DENABLE=
+_CHEMPS2=3DOFF<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4/issues/98#issuecomment-114275673&gt=
+;.<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&m=
+dash;<br>Reply to this email directly or <a href=3D"https://github.com/ps=
+i4/psi4/issues/98#issuecomment-114331818">view it on GitHub</a>.<img alt=3D=
+"" height=3D"1" src=3D"https://github.com/notifications/beacon/AIn2QpuJe5=
+WbTMtZkLRsg2gy3JuTGeA5ks5oWLu5gaJpZM4FJUyO.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAc=
+tion">
+    <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4/issues/98=
+#issuecomment-114331818"></link>
+    <meta itemprop=3D"name" content=3D"View Issue"></meta>
+  </div>
+  <meta itemprop=3D"description" content=3D"View this Issue on GitHub"></=
+meta>
+</div>
+
+----==_mimepart_5588c439c4a4_1cb63fe950bc329c7979c--

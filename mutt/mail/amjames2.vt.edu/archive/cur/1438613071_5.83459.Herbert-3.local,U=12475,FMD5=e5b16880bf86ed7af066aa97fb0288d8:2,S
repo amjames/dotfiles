@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp832112qgt;
+        Fri, 31 Jul 2015 21:52:08 -0700 (PDT)
+X-Received: by 10.140.92.238 with SMTP id b101mr10383264qge.50.1438404728073;
+        Fri, 31 Jul 2015 21:52:08 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id 9si9467847qhf.82.2015.07.31.21.52.07
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 31 Jul 2015 21:52:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) client-ip=192.30.252.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.196 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext5.iad.github.net [192.30.252.196])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t714q27s015143
+	for <amjames2@vt.edu>; Sat, 1 Aug 2015 00:52:07 -0400
+Date: Fri, 31 Jul 2015 21:52:01 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1438404722;
+	bh=oT2ofX7QUjTFON848PjMWPhH1YH4IZ+oN54/PYN8uWk=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=KO7MKwsMF9Y/RmJNeDG6NIV2JU9D6HtdHjO23Tocr3HH64C+89IpWzlAmC5ECOf+w
+	 2IdegtmZdEFxdKKMlS06QSDOiA5atq2R+R73n5R4C0/9iKhgekLYWKi4bneyk+ub53
+	 3Q3fdYXo5tJ59TiluPXY+IhA3hV0ucGWwusFPLJY=
+From: "Lori A. Burns" <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642f61d2e7f7b75238281d80cba341bc840de6646ca92cf0000000111d4127192a169ce05cd2505@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/154/126863294@github.com>
+In-Reply-To: <psi4/psi4public/issues/154@github.com>
+References: <psi4/psi4public/issues/154@github.com>
+Subject: Re: [psi4public] Lacking of library after updating PSI4 from
+ Miniconda (#154)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55bc5071e90f3_67633fa78043729c6840b8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: loriab
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642f61d2e7f7b75238281d80cba341bc840de6646ca92cf0000000111d4127192a169ce05cd2505@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642f61d2e7f7b75238281d80cba341bc840de6646ca92cf0000000111d4127192a169ce05cd2505@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QiAm2b8dmd3UdSoyNEzWRaNM8YO3ks5ojEfxgaJpZM4Ff-fj>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-4.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_16,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55bc5071e90f3_67633fa78043729c6840b8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+As of 0.2.287, conda binary is building chemps2 and properly downloading dependency hdf5 from defaults and gsl from copy of asmeurer's into psi4 channel.
+
+As of 0.2.291 (42175a9cc2a2ba082c33a676c0bc518125f5f445), conda binary is building dkh and properly linking *static* Fortran libraries so no user PATH manipulations necessary. Checked, but please report if ever otherwise.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/154#issuecomment-126863294
+----==_mimepart_55bc5071e90f3_67633fa78043729c6840b8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>As of 0.2.287, conda binary is building chemps2 and properly downloading dependency hdf5 from defaults and gsl from copy of asmeurer's into psi4 channel.</p>
+
+<p>As of 0.2.291 (<a href="https://github.com/psi4/psi4public/commit/42175a9cc2a2ba082c33a676c0bc518125f5f445" class="commit-link"><tt>42175a9</tt></a>), conda binary is building dkh and properly linking <em>static</em> Fortran libraries so no user PATH manipulations necessary. Checked, but please report if ever otherwise.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/154#issuecomment-126863294">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QtjDBst60KyynWJChrbx5vCc0YbHks5ojEfxgaJpZM4Ff-fj.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/154#issuecomment-126863294"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55bc5071e90f3_67633fa78043729c6840b8--

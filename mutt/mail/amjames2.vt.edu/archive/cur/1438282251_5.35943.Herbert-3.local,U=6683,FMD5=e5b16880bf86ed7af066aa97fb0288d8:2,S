@@ -1,0 +1,112 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp540308qgf;
+        Wed, 1 Apr 2015 06:57:44 -0700 (PDT)
+X-Received: by 10.55.55.148 with SMTP id e142mr37427939qka.42.1427896664132;
+        Wed, 01 Apr 2015 06:57:44 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id k65si1855933qhc.106.2015.04.01.06.57.44
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Apr 2015 06:57:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) client-ip=209.85.213.182;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t31DvcQA017788
+	for <amjames2@vt.edu>; Wed, 1 Apr 2015 09:57:43 -0400
+Received: by igcxg11 with SMTP id xg11so46518206igc.0
+        for <amjames2@vt.edu>; Wed, 01 Apr 2015 06:57:38 -0700 (PDT)
+X-Received: by 10.50.60.72 with SMTP id f8mr12459698igr.31.1427896658281;
+        Wed, 01 Apr 2015 06:57:38 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp727460ieb;
+        Wed, 1 Apr 2015 06:57:37 -0700 (PDT)
+X-Received: by 10.55.17.209 with SMTP id 78mr10631889qkr.18.1427896657136;
+        Wed, 01 Apr 2015 06:57:37 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 84si1845600qhx.130.2015.04.01.06.57.36
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Apr 2015 06:57:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:232:8670:19fe])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t31Dvaj6019704
+	for <andrew.m.james2@gmail.com>; Wed, 1 Apr 2015 09:57:36 -0400
+Received: from mail-ie0-f171.google.com (mail-ie0-f171.google.com [209.85.223.171])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t31DvUap029317
+	for <andrew.m.james2@gmail.com>; Wed, 1 Apr 2015 09:57:36 -0400
+Received: by iebmp1 with SMTP id mp1so36246056ieb.0
+        for <andrew.m.james2@gmail.com>; Wed, 01 Apr 2015 06:57:30 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=sAYvtQyHbLcEEbhQyQIqIK37AdDCNvfAbhmGfdPaWL4=;
+        b=IUmYK/yGWNrSQAKgPHzCA0QsLLEA+yf8QhM0zr8Ul6jp2n3QZQMRK7780QP2IGUhxk
+         Yu1RL7CHzUXKHsDmApZ+EIUI9MJ2/v167CXTmvHSppgSDrUGpxfwjI7vyEhgYCPF1u5k
+         Lg1e8cQnUf6+uXUhooUTxxzlGDYiDP8o4nwjhoBbPtFB7lGyB1NjYU9hz0+Ecidb0Peb
+         NnKsd+JByfy1aoOvfdF/+3Jg+904T/FWCkMjJBtSvXhEl83O9uAjm84F/DsoVNtR3xsv
+         1hHH/c5iTsjoCOdpLPJ+P+oIEc3a8hgc2dwt9OlQOtNMy7Um7pjnGQeWZJAY5HXVxhFW
+         kujQ==
+X-Gm-Message-State: ALoCoQlOZCNwJ2vA5W+6xG0DGvizgVErHXkdHVOiQcE4YCQtsmzTLgsIRRNMD2q9tVupuXejmW+BDb0bYbU9tbAG8B2HWIpoxQCpM0DPtqdqQBlouSJI6VRToVL7dD6DNBEYFDY9IZjWy/GvP/EWQauRWq/mD91URA==
+X-Received: by 10.107.19.2 with SMTP id b2mr3107692ioj.9.1427896650875;
+        Wed, 01 Apr 2015 06:57:30 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.19.2 with SMTP id b2mr3107678ioj.9.1427896650773; Wed,
+ 01 Apr 2015 06:57:30 -0700 (PDT)
+Received: by 10.107.9.4 with HTTP; Wed, 1 Apr 2015 06:57:30 -0700 (PDT)
+Date: Wed, 1 Apr 2015 09:57:30 -0400
+Message-ID: <CAH0V_1Z5TSo-VOA6u4-dwBLJ1P5+Xr9Y0DOKDOb=zau2gFM1Nw@mail.gmail.com>
+Subject: Registrations for Molecular Response Properties Summer School
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Good, Laurie" <laurieg@vt.edu>, Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113f2af6a553650512aa18a7
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113f2af6a553650512aa18a7
+Content-Type: text/plain; charset=UTF-8
+
+Laurie,
+
+Can you help me to find out two (really three) things:
+
+(1) How many (if any!) registrations have we received for the Molecular
+Response Properties Summer School (which I will abbreviate MRPSS from now
+on to avoid typing all that).  Also, can you find out if a Varun Kundi from
+India has registered?
+
+(2) It appears we may have participants at the MRPSS that need a VISA to
+travel to the U.S.  Can VT Conference Services help us to obtain those?
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--001a113f2af6a553650512aa18a7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Laurie,<div><br></div><div>Can you help me to find out two=
+ (really three) things:</div><div><br></div><div>(1) How many (if any!) reg=
+istrations have we received for the Molecular Response Properties Summer Sc=
+hool (which I will abbreviate MRPSS from now on to avoid typing all that).=
+=C2=A0 Also, can you find out if a Varun Kundi from India has registered?</=
+div><div><br></div><div>(2) It appears we may have participants at the MRPS=
+S that need a VISA to travel to the U.S.=C2=A0 Can VT Conference Services h=
+elp us to obtain those?</div><div><br></div><div>-TDC</div><div><div><div><=
+div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto=
+:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></di=
+v>
+</div></div>
+
+--001a113f2af6a553650512aa18a7--

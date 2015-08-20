@@ -1,0 +1,236 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2515957qgt;
+        Tue, 11 Aug 2015 08:16:41 -0700 (PDT)
+X-Received: by 10.140.145.16 with SMTP id 16mr51814324qhr.34.1439306201797;
+        Tue, 11 Aug 2015 08:16:41 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id n71si3842661qhb.10.2015.08.11.08.16.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 08:16:41 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.175 as permitted sender) client-ip=209.85.213.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.175 as permitted sender) smtp.mailfrom=cduchane@vt.edu
+Received: from mail-ig0-f175.google.com (mail-ig0-f175.google.com [209.85.213.175])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7BFGZ3F032366
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 11:16:40 -0400
+Received: by igbpg9 with SMTP id pg9so92985952igb.0
+        for <amjames2@vt.edu>; Tue, 11 Aug 2015 08:16:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=/MN2inH7ITcT2AjY9oEO/Tw202/SozYYaLrJIum1QFg=;
+        b=aOOqyV0LMdvnFRa2TIzYcKld8uuuxEYMHDMiXDT1fosBr2hekCMOHlQnnb5VolBTYG
+         +KQCtglJpohuF5U6eLcpjULkQRGbPYf7rD1sQ8s2vZymmdmh4jPoMcW1cLTuhIv9wKvr
+         /8KRA2xS4NPn0Qgbycciy+YY5yIat5+UXQ3b6kBgKZv2nxtAr1dtuhirx1RQZWwP3uXa
+         es10KuOQC/Hh8E+Wd6N0e4go6QRXWFWIi8Gd+2Ke4EuayTAN4Kct+76g3bGhw+f0XOer
+         QhQa5aePlfz1eOko+kMe5EIus19Jte6f7I+J/BxIxCFexMYzwQpZA+F8XA2yMzGDDsNw
+         RHOA==
+X-Gm-Message-State: ALoCoQmvv7nNIoHxxB8ZD3HeXi3pV+QetAxb9Je72CA4jNycXWF2FmDy4r2pfXPSXW7HVj1P+K3MQ5RFzD8fPlpXA9eI/FW+s0SN21GdgkYNGj49kBvW2zx1bONZHLRRz2ypBgYL+MPDKDJzWTfUSzm5+FGO00hu/Q==
+X-Received: by 10.50.28.101 with SMTP id a5mr12278853igh.57.1439306195677;
+        Tue, 11 Aug 2015 08:16:35 -0700 (PDT)
+X-Received: by 10.50.28.101 with SMTP id a5mr12278828igh.57.1439306195502;
+ Tue, 11 Aug 2015 08:16:35 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Tue, 11 Aug 2015 08:16:16 -0700 (PDT)
+In-Reply-To: <20150811133822.GA58740@Herbert-3.local>
+References: <CAECk6+7kGXv53UzRCdbtTXh7MGTGR1_HYyC99n4to0w0HYac3Q@mail.gmail.com>
+ <20150811125605.GC48942@Herbert-3.local> <CAECk6+4_ET-pbSEVwrZu1K1xyXN3P4UQaW+W0cQ_2F_NnnRdkw@mail.gmail.com>
+ <20150811130932.GE48942@Herbert-3.local> <CAECk6+7t-t=D-D_FymibrUMfe9AUg05+w5n2pLg27qQK0YaZtQ@mail.gmail.com>
+ <20150811133822.GA58740@Herbert-3.local>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Tue, 11 Aug 2015 11:16:16 -0400
+Message-ID: <CAECk6+7TbnYrWt-d1WMEqnKyJE1PY7X6axiRN9B+9LT3H86yKQ@mail.gmail.com>
+Subject: Re: Shall we begin our journey home?
+To: Andrew M James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e0158aa2c81a953051d0a96f4
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0158aa2c81a953051d0a96f4
+Content-Type: text/plain; charset=UTF-8
+
+That's absolutely ridiculous. Did you talk to someone that's actually in
+charge or just some student worker? On the online pay website [linked]
+<https://pay.parking.vt.edu/cit/index.aspx> you can enter your student ID
+to check for unpaid tickets - have you tried that? If it's linked to your
+account (as in if it shows as a hold on your academic account through
+HokieSPA) then it only makes sense that you should be able to pull it up
+that way.
+
+Also I would be way lonely if you left. And then I could arguably be
+considered a crazy cat lady.
+
+On Tue, Aug 11, 2015 at 9:38 AM, Andrew M James <amjames2@vt.edu> wrote:
+
+> ...That was the cutest thing anyone has ever done for me.  I love you
+> :-)
+>
+> Here is my sitch, and we can talk more about it later:
+>
+> I got a parking ticket on the mazda back in june. I didnt think they
+> could link it to my account but they did so whatever. I treid to go in a
+> pay it but its not on there under the mazda's liscence plate, the jeep's
+> liscence plate or the new mazda liscene palte (I tried that one for
+> shits and gigles) The parking people say well there is nothing we can do
+> you just have to go online and pay it. I told them I can't find it by
+> the plate number and I dont have the citation number becasue I never got
+> the ticket ( I threw it away) They said that I could pay it it outright
+> in the office when the late fees got it up over $400. Unitll then they
+> can't help me. it would take about 2 years for it to get that high its a
+> $35 ticket and they add 10$ a month... I can't register for anything
+> untill  its clear. So I am leaving the school. FUCK THEM ILL GO
+> SOMEWHERE ELSE
+>
+> On 08/11||09:30, Christine Duchane wrote:
+> > Oh stop being a raincloud, darling.
+> > I'm sorry I've been grumpy, I've just felt really overwhelmed and
+> worthless
+> > lately but it doesn't have anything to do with you and I'm sorry if I let
+> > my problems affect our relationship. I like being with you; it isn't your
+> > job to "keep me happy" and I appreciate you being patient with me in the
+> > mornings - I'll start being better.
+> >
+> > We can figure something out with the parking issue. If you want to vent
+> > about it feel free to bitch out all the details but if you need to start
+> > doing something else, then let's talk about it later. Worst case
+> scenario -
+> > we'll start parking at University City Mall and take the bus to campus or
+> > walk over, no big deal.
+> >
+> > Cheer up, buttercup. I love you but we're too young to get married to fix
+> > our problems. (that was a joke, smile).
+> >
+> > (There's a comic strip attached below - you maybe can't see it in your
+> > email program so I wanted to mention it.)
+> >
+> >
+> >
+> > On Tue, Aug 11, 2015 at 9:09 AM, Andrew M James <amjames2@vt.edu> wrote:
+> >
+> > > I mean that parking services wont let me. And I have to pay them 400
+> > > dollars or I can't register. So I guess I am moving out and going back
+> > > to new york, so there you dont have to worry about me pissing you off
+> > > anymore.
+> > >
+> > > On 08/11||08:58, Christine Duchane wrote:
+> > > > What do you mean?
+> > > >
+> > > > On Tue, Aug 11, 2015 at 8:56 AM, Andrew M James <amjames2@vt.edu>
+> wrote:
+> > > >
+> > > > > I cant get a parking permit
+> > > > >
+> > > > >
+> > > > >
+> > >
+>
+
+--089e0158aa2c81a953051d0a96f4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">That&#39;s absolutely ridiculous. Did you talk to someone =
+that&#39;s actually in charge or just some student worker? On the <a href=
+=3D"https://pay.parking.vt.edu/cit/index.aspx">online pay website [linked]<=
+/a>=C2=A0you can enter your student ID to check for unpaid tickets - have y=
+ou tried that? If it&#39;s linked to your account (as in if it shows as a h=
+old on your academic account through HokieSPA) then it only makes sense tha=
+t you should be able to pull it up that way.<div><br></div><div>Also I woul=
+d be way lonely if you left. And then I could arguably be considered a craz=
+y cat lady.</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On Tue, Aug 11, 2015 at 9:38 AM, Andrew M James <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&g=
+t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex">...That was the cutest t=
+hing anyone has ever done for me.=C2=A0 I love you<br>
+:-)<br>
+<br>
+Here is my sitch, and we can talk more about it later:<br>
+<br>
+I got a parking ticket on the mazda back in june. I didnt think they<br>
+could link it to my account but they did so whatever. I treid to go in a<br=
+>
+pay it but its not on there under the mazda&#39;s liscence plate, the jeep&=
+#39;s<br>
+liscence plate or the new mazda liscene palte (I tried that one for<br>
+shits and gigles) The parking people say well there is nothing we can do<br=
+>
+you just have to go online and pay it. I told them I can&#39;t find it by<b=
+r>
+the plate number and I dont have the citation number becasue I never got<br=
+>
+the ticket ( I threw it away) They said that I could pay it it outright<br>
+in the office when the late fees got it up over $400. Unitll then they<br>
+can&#39;t help me. it would take about 2 years for it to get that high its =
+a<br>
+$35 ticket and they add 10$ a month... I can&#39;t register for anything<br=
+>
+untill=C2=A0 its clear. So I am leaving the school. FUCK THEM ILL GO<br>
+SOMEWHERE ELSE<br>
+<span class=3D"im HOEnZb"><br>
+On 08/11||09:30, Christine Duchane wrote:<br>
+&gt; Oh stop being a raincloud, darling.<br>
+&gt; I&#39;m sorry I&#39;ve been grumpy, I&#39;ve just felt really overwhel=
+med and worthless<br>
+&gt; lately but it doesn&#39;t have anything to do with you and I&#39;m sor=
+ry if I let<br>
+&gt; my problems affect our relationship. I like being with you; it isn&#39=
+;t your<br>
+&gt; job to &quot;keep me happy&quot; and I appreciate you being patient wi=
+th me in the<br>
+&gt; mornings - I&#39;ll start being better.<br>
+&gt;<br>
+&gt; We can figure something out with the parking issue. If you want to ven=
+t<br>
+&gt; about it feel free to bitch out all the details but if you need to sta=
+rt<br>
+&gt; doing something else, then let&#39;s talk about it later. Worst case s=
+cenario -<br>
+&gt; we&#39;ll start parking at University City Mall and take the bus to ca=
+mpus or<br>
+&gt; walk over, no big deal.<br>
+&gt;<br>
+&gt; Cheer up, buttercup. I love you but we&#39;re too young to get married=
+ to fix<br>
+&gt; our problems. (that was a joke, smile).<br>
+&gt;<br>
+&gt; (There&#39;s a comic strip attached below - you maybe can&#39;t see it=
+ in your<br>
+&gt; email program so I wanted to mention it.)<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+</span><div class=3D"HOEnZb"><div class=3D"h5">&gt; On Tue, Aug 11, 2015 at=
+ 9:09 AM, Andrew M James &lt;<a href=3D"mailto:amjames2@vt.edu">amjames2@vt=
+.edu</a>&gt; wrote:<br>
+&gt;<br>
+&gt; &gt; I mean that parking services wont let me. And I have to pay them =
+400<br>
+&gt; &gt; dollars or I can&#39;t register. So I guess I am moving out and g=
+oing back<br>
+&gt; &gt; to new york, so there you dont have to worry about me pissing you=
+ off<br>
+&gt; &gt; anymore.<br>
+&gt; &gt;<br>
+&gt; &gt; On 08/11||08:58, Christine Duchane wrote:<br>
+&gt; &gt; &gt; What do you mean?<br>
+&gt; &gt; &gt;<br>
+&gt; &gt; &gt; On Tue, Aug 11, 2015 at 8:56 AM, Andrew M James &lt;<a href=
+=3D"mailto:amjames2@vt.edu">amjames2@vt.edu</a>&gt; wrote:<br>
+&gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt; I cant get a parking permit<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt;<br>
+</div></div></blockquote></div><br></div>
+
+--089e0158aa2c81a953051d0a96f4--

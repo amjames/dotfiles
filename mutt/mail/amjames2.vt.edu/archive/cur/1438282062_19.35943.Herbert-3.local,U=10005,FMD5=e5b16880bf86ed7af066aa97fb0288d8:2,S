@@ -1,0 +1,66 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp58755qgt;
+        Fri, 5 Jun 2015 08:37:56 -0700 (PDT)
+X-Received: by 10.55.17.133 with SMTP id 5mr8121027qkr.18.1433518676168;
+        Fri, 05 Jun 2015 08:37:56 -0700 (PDT)
+Return-Path: <fs@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id g6si7793913qce.39.2015.06.05.08.37.55
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 08:37:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of fs@vt.edu designates 198.82.142.209 as permitted sender) client-ip=198.82.142.209;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of fs@vt.edu designates 198.82.142.209 as permitted sender) smtp.mail=fs@vt.edu
+Received: from dornier (dornier.vpas.vt.edu [198.82.142.209])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t55Fbo4S018503;
+	Fri, 5 Jun 2015 11:37:55 -0400
+thread-index: AdCfpZRUmiFa7INtRiiiATOkBMi5uQ==
+Thread-Topic: Virginia Tech Fleet Services - Requestor change request (Request ID: R066529)
+From: <fs@vt.edu>
+To: <amjames2@vt.edu>, <laurieg@vt.edu>
+Subject: Virginia Tech Fleet Services - Requestor change request (Request ID: R066529)
+Date: Fri, 5 Jun 2015 11:37:50 -0400
+Message-ID: <D8805B407AF9457BAC03C20908F5CF0B@vpas.vt.edu>
+MIME-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft CDO for Windows 2000
+Content-Class: urn:content-classes:message
+Importance: normal
+Priority: normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.4913
+X-Spam-Status: No, score=-0.0 required=5.0 tests=FSL_HELO_NON_FQDN_1,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Your change request has been received by the Fleet Services staff and will be processed as soon as possible.
+
+Your schedule can be viewed on-line at:
+https://www.fs.vt.edu/fleetcommander//_MyScheduleBrowse.asp?Requests=Current
+
+If the link above spans more than one line you may need to copy and paste.
+
+           Requestor: Good, Laurie
+              Driver: James, Andrew
+   Request date/time: 06/05/2015 11:36:22 am
+             Pick-up: 6/26/2015 4:00:00 PM
+              Return: 6/29/2015 5:00:00 PM
+            Duration: 3 days 1 hour 
+          Request ID: R066529
+  Reservation Number: RES#
+          Usage Type: Vehicle Rental
+                Site: Virginia Tech Fleet Services
+            Location: Fleet Services 
+
+                                 Organization Name: Chemistry 004200
+                                Banner Charge Fund: 478831
+                                       Destination: local transportation
+
+
+Comments:   Return time on this reservation will be 9:00 AM on the morning of the 29th
+
+

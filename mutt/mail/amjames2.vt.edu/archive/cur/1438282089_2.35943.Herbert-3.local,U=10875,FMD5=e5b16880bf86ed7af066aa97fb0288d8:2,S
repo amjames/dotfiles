@@ -1,0 +1,76 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1257495qgt;
+        Thu, 18 Jun 2015 06:38:09 -0700 (PDT)
+X-Received: by 10.55.33.38 with SMTP id h38mr23724358qkh.44.1434634689046;
+        Thu, 18 Jun 2015 06:38:09 -0700 (PDT)
+Return-Path: <jbrow@exchange.vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id v7si7726905qcv.34.2015.06.18.06.38.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 18 Jun 2015 06:38:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.12 as permitted sender) client-ip=198.82.160.12;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jbrow@exchange.vt.edu designates 198.82.160.12 as permitted sender) smtp.mail=jbrow@exchange.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (gutenberg.cc.vt.edu [198.82.160.12] (may be forged))
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5IDc3mB008069
+	for <amjames2@vt.edu>; Thu, 18 Jun 2015 09:38:08 -0400
+X-CrossPremisesHeadersFilteredBySendConnector: GUTENBERG.cc.w2k.vt.edu
+Received: from GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:7d91:9712:35fa:54f5)
+ by GUTENBERG.cc.w2k.vt.edu (2001:468:c80:2104:7d91:9712:35fa:54f5) with
+ Microsoft SMTP Server (TLS) id 15.0.995.29; Thu, 18 Jun 2015 09:38:03 -0400
+Received: from GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5]) by
+ GUTENBERG.cc.w2k.vt.edu ([fe80::7d91:9712:35fa:54f5%13]) with mapi id
+ 15.00.0995.032; Thu, 18 Jun 2015 09:38:03 -0400
+From: "Brow, Jessica" <jbrow@exchange.vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>, "Good, Laurie" <laurieg@vt.edu>
+Subject: RE: Saturday / Monday Arrivals Software Summer School
+Thread-Topic: Saturday / Monday Arrivals Software Summer School
+Thread-Index: AQHQqctVt+x12yX9I0ewlkM5T+QlKJ2yQ7Fg
+Date: Thu, 18 Jun 2015 13:38:02 +0000
+Message-ID: <114f782847e549fda53bce5df97fab4a@GUTENBERG.cc.w2k.vt.edu>
+References: <4832F96E-6254-4660-BCE1-52C49A7FDCA5@vt.edu>
+In-Reply-To: <4832F96E-6254-4660-BCE1-52C49A7FDCA5@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [12.176.75.130]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: GUTENBERG.cc.w2k.vt.edu
+X-Spam-Status: No, score=-2.6 required=5.0 tests=RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+QW5kcmV3LA0KDQpUaGUgQ29uZmVyZW5jZSBEZXNrIGF0IE5ldyBIYWxsIFdlc3QgaXMgb3BlbiAy
+NC83LCBzbyBldmVuIGlmIHRoZSBzdHVkZW50IGlzIGNvbWluZyBpbiBpbiB0aGUgbWlkZGxlIG9m
+IHRoZSBuaWdodCB0aGV5IHNob3VsZCBiZSBhYmxlIHRvIHBpY2sgdXAgdGhlaXIga2V5cy4gIFRo
+ZSBmb2xrcyBhdCB0aGUgZGVzayBzaG91bGQgYWxzbyBiZSBhYmxlIHRvIGRpcmVjdCB0aGVtIHRv
+IEFtYmxlciBKb2huc29uLg0KDQpJIGhvcGUgdGhpcyBoZWxwcyEhDQoNCkplc3NpY2ENCg0KDQot
+LS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLQ0KRnJvbTogQW5kcmV3IEphbWVzIFttYWlsdG86YW1q
+YW1lczJAdnQuZWR1XSANClNlbnQ6IFRodXJzZGF5LCBKdW5lIDE4LCAyMDE1IDk6MzMgQU0NClRv
+OiBHb29kLCBMYXVyaWUNCkNjOiBCcm93LCBKZXNzaWNhDQpTdWJqZWN0OiBTYXR1cmRheSAvIE1v
+bmRheSBBcnJpdmFscyBTb2Z0d2FyZSBTdW1tZXIgU2Nob29sDQoNCkhpLCANCg0KVGhlcmUgYXJl
+IHR3byBzdHVkZW50cywgRXJpYyBBbHQgYW5kIFRhbm1veSBTYW55YWwsIHdobyBhcmUgbm90IGFy
+cml2aW5nIG9uIFN1bmRheS4gIA0KDQpMYXVyaWUsDQpFcmljIGlzIGZseWluZyBpbiBvbiBNb25k
+YXkgYWZ0ZXJub29uICggMjoxMSBQTSkuIFRoZXJlIGlzIGEgc21hcnR3YXkgYnVzIHRoYXQgbGVh
+dmVzIHRoZSBhaXJwb3J0IGF0IDI6MzUgUE0sIHNvIEkgdGhpbmsgaGUgY291bGQgdGFrZSB0aGF0
+IGJ1cyBpZiBuby1vbmUgd2FzIGFibGUgdG8gZHJpdmUgb3V0IHRvIGdldCBoaW0uIEkgYW0gbm90
+IHZlcnkgY29uY2VybmVkIHdpdGggdGhlIGZpcnN0IGRheSBvZiBsZWN0dXJlcyBzbyBJIHdvdWxk
+IGJlIGZpbmUgd2l0aCBnb2luZyB0byBwaWNrIGhpbSB1cCBhcyB3ZWxsLiBUYW5tb3kgaXMgZ2V0
+dGluZyBpbiBhdCAxMTowMCBQTSBvbiBTYXR1cmRheSBuaWdodC4gSSB3YXMgcGxhbmluZyB0byBn
+byBvdXQgdG8gdGhlIGFpcnBvcnQgYW5kIGdldCBoaW0gc2luY2UgdGhlIGJ1cyBkb2VzbuKAmXQg
+cnVuIHRoYXQgbGF0ZS4NCg0KSmVzc2ljYSwgDQpXaGF0IHNob3VsZCBJIGRvIHdpdGggdGhlc2Ug
+dHdvPyBUYW5tb3kgaXMgZmx5aW5nIGluIGF0IDExOjAwIFBNIG9uIFNhdHVyZGF5LCBzbyBJIGxp
+a2VseSB3b27igJl0IGhhdmUgaGltIGJhY2sgdG8gY2FtcHVzIHVudGlsIGNsb3NlIHRvIG1pZG5p
+Z2h0LiAgRXJpYyBpcyBnZXR0aW5nIGhlcmUgaW4gdGhlIG1pZGRsZSBvZiB0aGUgZGF5IG9uIE1v
+bmRheSwgc28gSSBkb27igJl0IHRoaW5rIHRoYXQgc2hvdWxkIGJlIHRvbyBiaWcgb2YgYW4gaXNz
+dWUuIENhbiBJIGdldCB0aGVpciByb29tIGtleXMgYW5kIGp1c3QgZHJvcCB0aGVtIG9mZiBhdCB0
+aGUgZG9ybXM/IE9yIHdpbGwgc29tZW9uZSBuZWVkIHRvIG1lZXQgdXMgdGhhdCBsYXRlIGF0IG5p
+Z2h0Pw0KDQpUaGFua3MsDQrigJRBSiAgDQo=

@@ -1,0 +1,312 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp560419qgt;
+        Thu, 25 Jun 2015 06:38:27 -0700 (PDT)
+X-Received: by 10.140.86.239 with SMTP id p102mr60081041qgd.49.1435239507553;
+        Thu, 25 Jun 2015 06:38:27 -0700 (PDT)
+Return-Path: <avery.wiens@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id e83si16167392qkh.47.2015.06.25.06.38.27
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jun 2015 06:38:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of avery.wiens@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of avery.wiens@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=avery.wiens@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-qk0-x22f.google.com (mail-qk0-x22f.google.com [IPv6:2607:f8b0:400d:c09::22f])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5PDcLSC030237
+	for <amjames2@vt.edu>; Thu, 25 Jun 2015 09:38:26 -0400
+Received: by qkhu186 with SMTP id u186so38503302qkh.0
+        for <amjames2@vt.edu>; Thu, 25 Jun 2015 06:38:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:message-id:mime-version:subject:date:references
+         :to:in-reply-to;
+        bh=IIUqZywTopfXVY7adwzIdjxbmaxTl8m1mLPwBm+AX2U=;
+        b=ouHLn+FfRlrv8CVcP9FE2LujssKavU85lj3Jhbmbs79JHhsF51AVEXvakUYMw0jPeZ
+         PjBD9wKW2PGGoZT8LhfjypT76h4pDmO3wCo1lF8uy/wVuey2tWQx3I7L4Xu5Xbn3UQxM
+         zuMeBfGbPCcnP/6fXKqM9sqNppeM8AInj8uaf8+ZMvOn6H2YvZDSOBw9QIyiGZuC9+Ku
+         Y4IL3rxlzWNND2MG2ejOfLoZlbrXRm0v6uLvAlgv/aGOqdoE2R2hFWZlFITJS5oASwiD
+         bjyDrGCF8M3nLHJqfWgjzLKrsLAaazoosgzd72bGWmeYAK5ffDC2aoMkFN2cXpoDVvPV
+         44Aw==
+X-Received: by 10.55.16.161 with SMTP id 33mr35359500qkq.53.1435239501650;
+        Thu, 25 Jun 2015 06:38:21 -0700 (PDT)
+Received: from ?IPv6:2001:468:c80:4220:f4b3:b373:7854:ce99? ([2001:468:c80:4220:f4b3:b373:7854:ce99])
+        by mx.google.com with ESMTPSA id n132sm4947423qhb.12.2015.06.25.06.38.21
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 25 Jun 2015 06:38:21 -0700 (PDT)
+From: Avery Wiens <avery.wiens@gmail.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_8E6C38C2-B8B0-4D1A-961B-E368341A0CD9"
+Message-Id: <1CE596D0-1169-4DE3-85F2-298A9D0012C6@gmail.com>
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: Preparing for the 2015 Software-Development Summer School
+Date: Thu, 25 Jun 2015 09:38:19 -0400
+References: <F0FC6AFA-B3E5-4959-A528-3901BBECD645@vt.edu> <AB6A0625-5871-4131-8F75-EABD0AAB8A2C@gmail.com> <9121CE0E-F090-4F34-BA86-D1265311EE10@vt.edu> <5B1FE09A-9F2D-4F90-90FE-CCADFD7D6E96@gmail.com> <516E702A-84E0-4F3E-9865-EB85EDA4B627@vt.edu> <BEC0FAA7-7E88-46C3-A2A4-9D71A3B1A5CB@gmail.com> <379D66FC-1DC7-45FF-9582-35F605CD6F37@vt.edu>
+To: "Andrew M. James" <amjames2@vt.edu>
+In-Reply-To: <379D66FC-1DC7-45FF-9582-35F605CD6F37@vt.edu>
+X-Mailer: Apple Mail (2.2098)
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+--Apple-Mail=_8E6C38C2-B8B0-4D1A-961B-E368341A0CD9
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Oh good I will go there during lunch! Thank you so much again for =
+helping me with this.
+
+
+> On Jun 25, 2015, at 9:37 AM, Andrew M. James <amjames2@vt.edu> wrote:
+>=20
+> Avery,=20
+>=20
+> Just so you know, there is a post office on main street. Turn right at =
+Sharkey=E2=80=99s and go down about 1.5 blocks it is on your left. =20
+>=20
+>=20
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu <mailto:amjames2@vt.edu>
+>=20
+>=20
+>> On Jun 25, 2015, at 8:29 AM, Avery Wiens <avery.wiens@gmail.com =
+<mailto:avery.wiens@gmail.com>> wrote:
+>>=20
+>> Hey!=20
+>> I had the package sent to you thanks again. Could you let me know =
+when it comes? I'll want to drive my car to class that day so that I can =
+sign it and drive it to the post office during lunch or something. See =
+you later!=20
+>>=20
+>> Sent from my iPhone
+>>=20
+>> On Jun 22, 2015, at 8:02 PM, Andrew M. James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>=20
+>>> Perfectly Fine! Actually the easiest for me.=20
+>>>=20
+>>> here my address:=20
+>>>=20
+>>> 820 Meerkat Ln.=20
+>>> Christiansburg, VA 24073=20
+>>>=20
+>>>=20
+>>> =E2=80=94AJ
+>>>=20
+>>> Andrew M. James
+>>> amjames2@vt.edu <mailto:amjames2@vt.edu>
+>>>=20
+>>>=20
+>>>=20
+>>>> On Jun 22, 2015, at 7:55 PM, Avery Wiens <avery.wiens@gmail.com =
+<mailto:avery.wiens@gmail.com>> wrote:
+>>>>=20
+>>>> Im sorry if it causes you trouble but I don't mind having it sent =
+to you! as long as you're comfortable with that.=20
+>>>>=20
+>>>> Sent from my iPhone
+>>>>=20
+>>>> On Jun 22, 2015, at 7:47 PM, Andrew M. James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>>>=20
+>>>>>=20
+>>>>> Hi Avery,=20
+>>>>>=20
+>>>>> I could give you my address and just bring it in to you if you =
+want.  If not then I can ask tomorrow if Dr. Crawford's Assistant Laurie =
+is able to get it sent to her mailing address. I don=E2=80=99t think =
+they have a way for you to get mail on campus directly. =20
+>>>>>=20
+>>>>> =E2=80=94AJ
+>>>>>=20
+>>>>>=20
+>>>>>> On Jun 22, 2015, at 6:26 PM, Avery Wiens <avery.wiens@gmail.com =
+<mailto:avery.wiens@gmail.com>> wrote:
+>>>>>>=20
+>>>>>> Hi Andrew,
+>>>>>>=20
+>>>>>> Sorry to be a bother but I just found out that I need to sign a =
+lease this week so I am trying to get it Fed Ex-ed to me up here. Would =
+it be possible for me to get mail sent to me somewhere on campus? It =
+seems like it might be possible but I just didn't know whom to ask about =
+it. Just let me know if you think there's someone else I should talk to! =
+Thanks!
+>>>>>> Avery=20
+>>>>>>=20
+>>>>>> Sent from my iPhone
+>>>>>>=20
+>>>>>> On Jun 17, 2015, at 8:27 PM, Andrew James <amjames2@vt.edu =
+<mailto:amjames2@vt.edu>> wrote:
+>>>>>>=20
+>>>>>>>=20
+>>>>>>> Hello,
+>>>>>>>=20
+>>>>>>> The Software-Development Summer School is only a few days away, =
+and as you get ready to come to Blacksburg we want to share a few =
+details with you. =20
+>>>>>>>=20
+>>>>>>> Check-in and Wireless access:
+>>>>>>> Arrival and check-in information has been added to the school =
+website <http://www.s2i2.org/school_2015/index.html> under =
+=E2=80=9CStudents=E2=80=9D.  There is also instructions for setting up a =
+guest wireless account which should be completed ASAP. Please remember =
+that the course will involve hands-on examples, so everyone will need a =
+laptop, charger, and internet connection!
+>>>>>>>=20
+>>>>>>> School Resources:
+>>>>>>> We have also added some materials for the School itself under =
+=E2=80=9CResources=E2=80=9D.  In particular Software Carpentry has =
+prepared specific setup instructions =
+<http://guyrt.github.io/2015-06-21-s2i2/> that are available here. They =
+can also be found under the =E2=80=9CResources" tab.=20
+>>>>>>>=20
+>>>>>>> If you have any questions you can send me an email.
+>>>>>>> We are looking forward to your arrival!
+>>>>>>>=20
+>>>>>>> Regards,
+>>>>>>> Andrew M. James=20
+>>>>>>> Summer School Coordinator
+>>>>>=20
+>>>=20
+>=20
+
+
+--Apple-Mail=_8E6C38C2-B8B0-4D1A-961B-E368341A0CD9
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D"">Oh good I will go there during lunch! Thank =
+you so much again for helping me with this.</div><div class=3D""><br =
+class=3D""></div><br class=3D""><div><blockquote type=3D"cite" =
+class=3D""><div class=3D"">On Jun 25, 2015, at 9:37 AM, Andrew M. James =
+&lt;<a href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space;" class=3D"">Avery,&nbsp;<div=
+ class=3D""><br class=3D""></div><div class=3D"">Just so you know, there =
+is a post office on main street. Turn right at Sharkey=E2=80=99s and go =
+down about 1.5 blocks it is on your left. &nbsp;</div><div class=3D""><br =
+class=3D""></div><div class=3D""><br class=3D""><div =
+apple-content-edited=3D"true" class=3D"">
+Andrew M. James<br class=3D"">Graduate Research Assistant<br class=3D""><a=
+ href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D""><br class=3D"">
+
+</div>
+<br class=3D""><div class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jun 25, 2015, at 8:29 AM, Avery Wiens &lt;<a =
+href=3D"mailto:avery.wiens@gmail.com" =
+class=3D"">avery.wiens@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div dir=3D"auto" class=3D""><div =
+class=3D"">Hey!&nbsp;</div><div class=3D"">I had the package sent to you =
+thanks again. Could you let me know when it comes? I'll want to drive my =
+car to class that day so that I can sign it and drive it to the post =
+office during lunch or something. See you later!&nbsp;</div><div =
+class=3D""><br class=3D"">Sent from my iPhone</div><div class=3D""><br =
+class=3D"">On Jun 22, 2015, at 8:02 PM, Andrew M. James &lt;<a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a>&gt; =
+wrote:<br class=3D""><br class=3D""></div><blockquote type=3D"cite" =
+class=3D""><div class=3D""><meta http-equiv=3D"Content-Type" =
+content=3D"text/html charset=3Dutf-8" class=3D"">Perfectly Fine! =
+Actually the easiest for me.&nbsp;<div class=3D""><br =
+class=3D""></div><div class=3D"">here my address:&nbsp;</div><div =
+class=3D""><br class=3D""></div><div class=3D"">820 Meerkat =
+Ln.&nbsp;</div><div class=3D"">Christiansburg, VA 24073&nbsp;</div><div =
+class=3D""><br class=3D""></div><div class=3D""><br class=3D""><div =
+apple-content-edited=3D"true" class=3D"">
+=E2=80=94AJ<br class=3D""><br class=3D"">Andrew M. James<br class=3D""><a =
+href=3D"mailto:amjames2@vt.edu" class=3D"">amjames2@vt.edu</a><br =
+class=3D""><br class=3D""><br class=3D"">
+</div>
+
+<br class=3D""><div class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jun 22, 2015, at 7:55 PM, Avery Wiens &lt;<a =
+href=3D"mailto:avery.wiens@gmail.com" =
+class=3D"">avery.wiens@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div dir=3D"auto" class=3D""><div class=3D"">Im sorry if it =
+causes you trouble but I don't mind having it sent to you! as long as =
+you're comfortable with that.&nbsp;<br class=3D""><br class=3D"">Sent =
+from my iPhone</div><div class=3D""><br class=3D"">On Jun 22, 2015, at =
+7:47 PM, Andrew M. James &lt;<a href=3D"mailto:amjames2@vt.edu" =
+class=3D"">amjames2@vt.edu</a>&gt; wrote:<br class=3D""><br =
+class=3D""></div><blockquote type=3D"cite" class=3D""><div =
+class=3D""><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8" class=3D""><div class=3D""><br class=3D""></div><div =
+class=3D"">Hi Avery,&nbsp;</div><div class=3D""><br class=3D""></div>I =
+could give you my address and just bring it in to you if you want. =
+&nbsp;If not then I can ask tomorrow if Dr. Crawford's Assistant Laurie =
+is able to get it sent to her mailing address. I don=E2=80=99t think =
+they have a way for you to get mail on campus directly. &nbsp;<br =
+class=3D""><div apple-content-edited=3D"true" class=3D""><br =
+class=3D""></div><div apple-content-edited=3D"true" class=3D"">=E2=80=94AJ=
+<br class=3D""><br class=3D"">
+
+</div>
+<br class=3D""><div class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jun 22, 2015, at 6:26 PM, Avery Wiens &lt;<a =
+href=3D"mailto:avery.wiens@gmail.com" =
+class=3D"">avery.wiens@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div dir=3D"auto" class=3D""><div class=3D"">Hi =
+Andrew,</div><div class=3D""><br class=3D""></div><div class=3D"">Sorry =
+to be a bother but I just found out that I need to sign a lease this =
+week so I am trying to get it Fed Ex-ed to me up here. Would it be =
+possible for me to get mail sent to me somewhere on campus? It seems =
+like it might be possible but I just didn't know whom to ask about it. =
+Just let me know if you think there's someone else I should talk to! =
+Thanks!</div><div class=3D"">Avery&nbsp;<br class=3D""><br class=3D"">Sent=
+ from my iPhone</div><div class=3D""><br class=3D"">On Jun 17, 2015, at =
+8:27 PM, Andrew James &lt;<a href=3D"mailto:amjames2@vt.edu" =
+class=3D"">amjames2@vt.edu</a>&gt; wrote:<br class=3D""><br =
+class=3D""></div><blockquote type=3D"cite" class=3D""><div =
+class=3D""><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8" class=3D""><div class=3D""><br class=3D""></div><div =
+class=3D""><div class=3D"">Hello,</div><div class=3D""><br =
+class=3D""></div><div class=3D"">The Software-Development Summer School =
+is only a few days away, and as you get ready to come to Blacksburg we =
+want to share a few details with you. &nbsp;</div><div class=3D""><br =
+class=3D""></div><div class=3D""><b class=3D""><u class=3D"">Check-in =
+and Wireless access:</u></b></div><div class=3D"">Arrival and check-in =
+information has been added to the&nbsp;<a =
+href=3D"http://www.s2i2.org/school_2015/index.html" class=3D"">school =
+website</a>&nbsp;under =E2=80=9CStudents=E2=80=9D. &nbsp;There is also =
+instructions for setting up a guest wireless account which should be =
+completed ASAP. Please remember that the course will involve hands-on =
+examples, so everyone will need a laptop, charger, and internet =
+connection!</div><div class=3D""><br class=3D""></div><div class=3D""><b =
+class=3D""><u class=3D"">School Resources:</u></b></div><div class=3D"">We=
+ have also added some materials for the School itself under =
+=E2=80=9CResources=E2=80=9D. &nbsp;In particular Software Carpentry has =
+prepared specific&nbsp;<a href=3D"http://guyrt.github.io/2015-06-21-s2i2/"=
+ class=3D"">setup instructions</a>&nbsp;that are available here. They =
+can also be found under the =E2=80=9CResources" tab.&nbsp;</div><div =
+class=3D""><br class=3D""></div><div class=3D"">If you have any =
+questions you can send me an email.</div><div class=3D"">We are looking =
+forward to your arrival!</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Regards,</div><div class=3D"">Andrew M. James&nbsp;</div><div =
+class=3D"">Summer School =
+Coordinator</div></div></div></blockquote></div></div></blockquote></div><=
+br class=3D""></div></blockquote></div></div></blockquote></div><br =
+class=3D""></div></div></blockquote></div></div></blockquote></div><br =
+class=3D""></div></div></div></blockquote></div><br =
+class=3D""></body></html>=
+
+--Apple-Mail=_8E6C38C2-B8B0-4D1A-961B-E368341A0CD9--

@@ -1,0 +1,152 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.109.137 with SMTP id l9csp3053644qgf;
+        Wed, 15 Apr 2015 16:03:04 -0700 (PDT)
+X-Received: by 10.55.31.5 with SMTP id f5mr55916490qkf.42.1429138984483;
+        Wed, 15 Apr 2015 16:03:04 -0700 (PDT)
+Return-Path: <nmayhall@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id r22si6319162qkh.86.2015.04.15.16.03.04
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Apr 2015 16:03:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of nmayhall@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of nmayhall@gmail.com designates 2001:468:c80:2105:0:250:3bcb:5b17 as permitted sender) smtp.mail=nmayhall@gmail.com;
+       dkim=pass header.i=@gmail.com
+Received: from mail-wg0-x22e.google.com (mail-wg0-x22e.google.com [IPv6:2a00:1450:400c:c00::22e])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t3FN2wI9011882
+	for <amjames2@vt.edu>; Wed, 15 Apr 2015 19:03:03 -0400
+Received: by wgin8 with SMTP id n8so62494815wgi.0
+        for <amjames2@vt.edu>; Wed, 15 Apr 2015 16:02:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to:content-type;
+        bh=wtE+PqMf+TPjBi/HBiU/9fHhvh/lT7/6C4ldJiiJt6w=;
+        b=t5Oy4q34DNATZJRgbwbV+MR6S/YfsL7QvrDmary2Zoor2xptaaCk0yS7SFR0E3oGYj
+         N6pOQd4SvmPgkBxfDy821Gi8VToN1m1GRaCKqfPpYcnFljHY28/ZD4nG13Y0KFGKYagn
+         654QXylcnC00ZTkeSlfSU+3ZpCIyV/CNwd10aWBR/O3bcMpmQ8veJoDpXdzXXyxrm4ke
+         GkOg0TrCxUXPmIpIa0DaHo4eAoWqDb2cr8IH+ISbsGGoiBWF+aaB3WqYd2VTpVMtrfv4
+         VSMlPK5WPuq1E7XrxkiGaDTGA96V36tqTg4FuSBGaVOH3pFpxz0CBAPZsZpvJzc3dXMP
+         1csw==
+X-Received: by 10.180.109.79 with SMTP id hq15mr2104295wib.93.1429138978157;
+ Wed, 15 Apr 2015 16:02:58 -0700 (PDT)
+MIME-Version: 1.0
+Sender: nmayhall@gmail.com
+Received: by 10.194.48.75 with HTTP; Wed, 15 Apr 2015 16:02:37 -0700 (PDT)
+In-Reply-To: <8DD8AF7C-D5B0-4011-842E-65702B368383@vt.edu>
+References: <8DD8AF7C-D5B0-4011-842E-65702B368383@vt.edu>
+From: Nicholas Mayhall <nmayhall@berkeley.edu>
+Date: Wed, 15 Apr 2015 16:02:37 -0700
+X-Google-Sender-Auth: A9K4sXxhKCvEM8wLQZO0T6Bq0LI
+Message-ID: <CACueY1qU1Mtk2TpZTkTASy60vRS2OdSxCy0M_AyHqVXpPmNuRg@mail.gmail.com>
+Subject: Re: PhD Advisory Committee
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=e89a8f3ba34920bb680513cb5961
+X-Spam-Status: No, score=0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	FREEMAIL_FROM,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--e89a8f3ba34920bb680513cb5961
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Andrew,
+
+I would be happy to serve on your committee. Feel free to send the
+necessary documents!
+
+Cheers,
+Nick
+
+On Wed, Apr 15, 2015 at 1:53 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hello Dr. Mayhall,
+>
+> I am Andrew James (AJ) a first year student in Dr. Crawford=E2=80=99s Gro=
+up at
+> Virginia Tech, we got to meet during recruitment weekend.  I am writing t=
+o
+> ask if you would be a member of my PhD advisory committee.
+>
+> During the second semester of the first year I am supposed to select 3
+> faculty members to make up my advisory committee along with Dr. Crawford.
+> The committee members responsibilities include grading my programatic
+> assessments such as the Literature Review, Prelim exam, original research
+> proposal, and finally the defense.  There is also a requirement that we
+> have an assessment meeting once a year, however, in many cases one of tho=
+se
+> assessments I have already listed will count for that meeting.
+>
+> There is a form that the committee members normally sign to show they
+> agree to be a committee member.  This form is my =E2=80=9Cplan of study=
+=E2=80=9D; it states
+> when I plan on completing all of the requirements of the degree, and the
+> additional courses I plan to take.  Dr. Morris has said they would accept
+> an email from you in place of a physical signature.  I can send you that
+> document so you can look it over once I have all of my committee members
+> confirmed.  Please let me know if you are able to be on my committee.
+>
+> Regards,
+> AJ
+>
+> Andrew M. James
+> Crawford Group
+> Chemistry Department
+> Virginia Tech.
+>
+>
+
+--e89a8f3ba34920bb680513cb5961
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Hi =
+Andrew,</div><div class=3D"gmail_default" style=3D"font-size:small"><br></d=
+iv><div class=3D"gmail_default" style=3D"font-size:small">I would be happy =
+to serve on your committee. Feel free to send the necessary documents!</div=
+><div class=3D"gmail_default" style=3D"font-size:small"><br></div><div clas=
+s=3D"gmail_default" style=3D"font-size:small">Cheers,</div><div class=3D"gm=
+ail_default" style=3D"font-size:small">Nick</div></div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Wed, Apr 15, 2015 at 1:53 PM, Andr=
+ew James <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D=
+"_blank">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmai=
+l_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left=
+:1ex">Hello Dr. Mayhall,<br>
+<br>
+I am Andrew James (AJ) a first year student in Dr. Crawford=E2=80=99s Group=
+ at Virginia Tech, we got to meet during recruitment weekend.=C2=A0 I am wr=
+iting to ask if you would be a member of my PhD advisory committee.<br>
+<br>
+During the second semester of the first year I am supposed to select 3 facu=
+lty members to make up my advisory committee along with Dr. Crawford. The c=
+ommittee members responsibilities include grading my programatic assessment=
+s such as the Literature Review, Prelim exam, original research proposal, a=
+nd finally the defense.=C2=A0 There is also a requirement that we have an a=
+ssessment meeting once a year, however, in many cases one of those assessme=
+nts I have already listed will count for that meeting.<br>
+<br>
+There is a form that the committee members normally sign to show they agree=
+ to be a committee member.=C2=A0 This form is my =E2=80=9Cplan of study=E2=
+=80=9D; it states when I plan on completing all of the requirements of the =
+degree, and the additional courses I plan to take.=C2=A0 Dr. Morris has sai=
+d they would accept an email from you in place of a physical signature.=C2=
+=A0 I can send you that document so you can look it over once I have all of=
+ my committee members confirmed.=C2=A0 Please let me know if you are able t=
+o be on my committee.<br>
+<br>
+Regards,<br>
+AJ<br>
+<br>
+Andrew M. James<br>
+Crawford Group<br>
+Chemistry Department<br>
+Virginia Tech.<br>
+<br>
+</blockquote></div><br></div>
+
+--e89a8f3ba34920bb680513cb5961--

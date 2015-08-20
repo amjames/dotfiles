@@ -1,0 +1,493 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp492844qge;
+        Mon, 26 Jan 2015 13:00:36 -0800 (PST)
+X-Received: by 10.170.150.134 with SMTP id r128mr11537113ykc.102.1422306036685;
+        Mon, 26 Jan 2015 13:00:36 -0800 (PST)
+Return-Path: <crawdad@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id k17si14774407qgd.66.2015.01.26.13.00.36
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 26 Jan 2015 13:00:36 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.171 as permitted sender) client-ip=209.85.223.171;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.171 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f171.google.com (mail-ie0-f171.google.com [209.85.223.171])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0QL0Ud2016011
+	for <amjames2@vt.edu>; Mon, 26 Jan 2015 16:00:35 -0500
+Received: by mail-ie0-f171.google.com with SMTP id tr6so11285170ieb.2
+        for <amjames2@vt.edu>; Mon, 26 Jan 2015 13:00:30 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=d6ylqJqjyVOGzy7KXRMYZJZGHcFGgCIPk0SbRn36o1o=;
+        b=dSO1phG6gfIoUseyRhIBZjE6w/pAC4JLHkicgaD9eEN8xcBF9eMDFDfJ5D/29C2CJt
+         2wqz6ktPVbPMpsBID5JknxMulR/3Ijka3QYXEDdP9JHN2LC4EfgBOGLGEC5j03m8cs/P
+         zY+aTcviV7rlvr/wWzA2NatuPUPA/izW8JbpyERarkdj33sj1BFGwAKgKQ8l5m9Q8Wfl
+         DE2IVtkE2wHInJYwDee3ewYl087L5XOASndUQBldQoTIRdCLLbGaaZ5MfsF62+uGwCiH
+         ak6LGPuAiTw8IQSWfFfXXv0Yh8N3BMXYBkDV21leKSV/Q1TcZYEWv6MnbZpl5IrtiMUp
+         KssQ==
+X-Gm-Message-State: ALoCoQncZcDx6zTv/tRm/dJCsjPeBE0epjWFETLoxEX9YWoyGBsy1Wg3ESQOKRHA1iPBUztLEo/2yLcunoAhyxRLYc/fNN00NVCsxIGrzvEMzNMiBX1Vpl9aK1SOMHDJ1Tgb01cymnVlIq2F6KfyWdGkwCt7zpvsBg==
+X-Received: by 10.107.134.2 with SMTP id i2mr18154853iod.42.1422306030333;
+        Mon, 26 Jan 2015 13:00:30 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.134.2 with SMTP id i2mr18154838iod.42.1422306030185;
+ Mon, 26 Jan 2015 13:00:30 -0800 (PST)
+Received: by 10.64.128.100 with HTTP; Mon, 26 Jan 2015 13:00:30 -0800 (PST)
+In-Reply-To: <0118129D11894C8BB80F40331AF73EAC@vt.edu>
+References: <CAH0V_1bfry3cFx=ZOjg0Bw44DaL1aC9Gjv=Ub6+nWmH25dWqJA@mail.gmail.com>
+	<D9B0DA7D15F84F549FA7DFE7627BBAE1@vt.edu>
+	<CAH0V_1Zd-XdFNNQpA=Mas4WrucEEVR4DSTdCCHXK4qSOYS-PNA@mail.gmail.com>
+	<463A35F2EA6C49F69AF1DA39ECA9CCE1@vt.edu>
+	<CAH0V_1Z=H7SVGcatUwMB4wHjvT880tKy=iY7+OupgDgJ1bodyQ@mail.gmail.com>
+	<D8E303A2A9094E1F99F807E583216A93@vt.edu>
+	<CAH0V_1bo826TtpOytbBkxB-QOwiEF596iH6JWkyeUuaFiaZJoQ@mail.gmail.com>
+	<AAB8696FC08C4BA2AE78F3F63DDC9637@vt.edu>
+	<CAH0V_1a1qMv8kLmStPUKrnO5fqycPGGnNL9THJSCdqhVZDjSvw@mail.gmail.com>
+	<B9A97C875C22441DB3134953C4FE5737@vt.edu>
+	<CAH0V_1afWPsOLdKX6xOB5oRqe_btsz5-uEqtph8K9rGg9hqvJw@mail.gmail.com>
+	<CAH0V_1a_9rF2DRpnRRTcQif36EETd+mBc=SwZKtyTCbraaJxpg@mail.gmail.com>
+	<19779CE4029D4350935A66B988CE86D3@vt.edu>
+	<CAH0V_1Z-QGN_KBwN__jstoGV8miBd15BGF=ejb-wZpQGRr9WZw@mail.gmail.com>
+	<0118129D11894C8BB80F40331AF73EAC@vt.edu>
+Date: Mon, 26 Jan 2015 16:00:30 -0500
+Message-ID: <CAH0V_1aX5m6rBpDvq2pf4-zyNJXFdoV=yfxCVkSLv1X8-RQBpg@mail.gmail.com>
+Subject: Re: PSI4 on blueridge
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113e3f60b100ed050d946d25
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113e3f60b100ed050d946d25
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sorry.  I apparently also need you to run "chmod g+r" on those same two
+files.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Mon, Jan 26, 2015 at 3:59 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Okay did that
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 3:58 PM, T. Daniel Crawford wrote:
+>
+> One more.  In /home/amjames2/chem/acene/sigma_freeze/phenalenyl/ccsd,
+> please chmod o+r on submit.sh.e110117 and submit.sh.o110117.
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 3:56 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> Done, sorry
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 3:55 PM, T. Daniel Crawford wrote:
+>
+> Making progress!  Now go to /home/amjames2/chem/acene/sigma_freeze and ru=
+n:
+>
+> chmod o+r phenalenyl
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 3:53 PM, T. Daniel Crawford <crawdad@vt.edu>
+> wrote:
+>
+> Still can't get in.  The problem is your home directory itself.  Go to
+> /home and type
+>
+> chmod o+rx amjames2
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 3:49 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+>  should be able to see it now, I also corrected the spelling of phenaleny=
+l
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 3:41 PM, T. Daniel Crawford wrote:
+>
+> I don't have permission to see it.  Can you chmod?
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 3:41 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> On blue-ridge in:
+>
+> /home/amjames2/chem/acene/sigma_freeze/phenylalenyl/ccsd
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 3:39 PM, T. Daniel Crawford wrote:
+>
+> Where did the job run?
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 3:39 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> So the same job (phenalenyl) died during the ccdensity program again.
+> This time the error file told me there was a segmentation-fault. I am ran
+> the same calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this is
+> an issue with phenalenyl being open shell, but its quite a bit bigger and
+> may take a while for that to run.
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:48 PM, T. Daniel Crawford wrote:
+>
+> OK, try it now.
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> I can=E2=80=99t cd into it or ls it
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:
+>
+> If you "cd" into that directory, can you run "ls"?
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <amjames2@vt.edu> wrote:
+>
+> I just tried to submit a job using that path and I got a =E2=80=9CPermiss=
+ion
+> denied=E2=80=9D error for that path.
+>
+> I also so far have not been able to make any progress on cerebro.  The
+> jobs still fail in the same place just after the CCDensity() program
+> starts.
+>
+> --
+> Andrew M. James
+> Graduate Teaching Assistant
+> Virginia Tech
+> Sent with Sparrow <http://www.sparrowmailapp.com/?sig>
+>
+> On Monday, January 26, 2015 at 2:19 PM, T. Daniel Crawford wrote:
+>
+> AJ,
+>
+> I've installed PSI4 in ~crawdad/psi4.  See if you can access it from your
+> account.
+>
+> -TDC
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+--001a113e3f60b100ed050d946d25
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Sorry.=C2=A0 I apparently also need you to run &quot;chmod=
+ g+r&quot; on those same two files.<div><br></div><div>-TDC</div></div><div=
+ class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signature=
+"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mai=
+lto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div><=
+/div>
+<br><div class=3D"gmail_quote">On Mon, Jan 26, 2015 at 3:59 PM, Andrew Jame=
+s <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank=
+">amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+                <div>Okay did that=C2=A0
+                </div><span class=3D"im HOEnZb">
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                =20
+                </span><div class=3D"HOEnZb"><div class=3D"h5"><p style=3D"=
+color:#a0a0a8">On Monday, January 26, 2015 at 3:58 PM, T. Daniel Crawford w=
+rote:</p>
+                <blockquote type=3D"cite" style=3D"border-left-style:solid;=
+border-width:1px;margin-left:0px;padding-left:10px">
+                    <span><div><div><div dir=3D"ltr">One more.=C2=A0 In=C2=
+=A0/home/amjames2/chem/acene/sigma_freeze/phenalenyl/ccsd, please chmod o+r=
+ on=C2=A0submit.sh.e110117 and=C2=A0submit.sh.o110117.<div><br></div><div>-=
+TDC</div></div><div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Pro=
+f. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D=
+"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 3:56 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">Done, s=
+orry=C2=A0<br></div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                 =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 3:55 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">Making progress!=C2=A0=
+ Now go to=C2=A0/home/amjames2/chem/acene/sigma_freeze and run:<div><br></d=
+iv><div>chmod o+r=C2=A0phenalenyl</div><div><br></div><div>-TDC</div></div>=
+<div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Cr=
+awford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawda=
+d@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 3:53 PM, T. Daniel Crawford <span dir=3D"l=
+tr">&lt;<a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu<=
+/a>&gt;</span> wrote:<br><blockquote type=3D"cite"><div><div dir=3D"ltr">St=
+ill can&#39;t get in.=C2=A0 The problem is your home directory itself.=C2=
+=A0 Go to /home and type<div><br></div><div>chmod o+rx amjames2<span><font =
+color=3D"#888888"><br><div><br></div><div>-TDC</div></font></span></div></d=
+iv><div><span><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. =
+Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blan=
+k">crawdad@vt.edu</a></div></div></div></div>
+<br></span><div><div><div>On Mon, Jan 26, 2015 at 3:49 PM, Andrew James <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amj=
+ames2@vt.edu</a>&gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div>
+                    should be able to see it now, I also corrected the spel=
+ling of phenalenyl
+                </div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                  =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 3:41 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">I don&#39;t have permi=
+ssion to see it.=C2=A0 Can you chmod?<div><br></div><div>-TDC</div></div><d=
+iv><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Craw=
+ford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@=
+vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 3:41 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px"><div>On=
+ blue-ridge in:=C2=A0</div><div><br></div>/home/amjames2/chem/acene/sigma_f=
+reeze/phenylalenyl/ccsd<br></div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                   =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 3:39 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">Where did the job run?=
+</div><div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Dan=
+iel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">=
+crawdad@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 3:39 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">So the =
+same job (phenalenyl) died during the ccdensity program again.=C2=A0 This t=
+ime the error file told me there was a segmentation-fault. I am ran the sam=
+e calculation on 5,6:13,14-Dibenzoheptazethrene, to see if this is an issue=
+ with phenalenyl being open shell, but its quite a bit bigger and may take =
+a while for that to run.=C2=A0<br></div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                    =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 2:48 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">OK, try it now.</div><=
+div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. Daniel Cra=
+wford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad=
+@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:46 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">I can=
+=E2=80=99t cd into it or ls it=C2=A0<br></div><span>
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div>
+                     =20
+                </span><div><div><p style=3D"color:#a0a0a8">On Monday, Janu=
+ary 26, 2015 at 2:46 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"c=
+ite"><div>
+                    <span><div><div><div dir=3D"ltr">If you &quot;cd&quot; =
+into that directory, can you run &quot;ls&quot;?<div><br></div><div>-TDC</d=
+iv></div><div><br clear=3D"all"><div><div><div dir=3D"ltr">--<div>Prof. T. =
+Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blan=
+k">crawdad@vt.edu</a></div></div></div></div>
+<br><div>On Mon, Jan 26, 2015 at 2:45 PM, Andrew James <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&=
+gt;</span> wrote:<br><blockquote type=3D"cite"><div>
+                <div style=3D"font-family:Helvetica;font-size:13px">I just =
+tried to submit a job using that path and I got a =E2=80=9CPermission denie=
+d=E2=80=9D error for that path. =C2=A0<div><br></div><div>I also so far hav=
+e not been able to make any progress on cerebro.=C2=A0 The jobs still fail =
+in the same place just after the CCDensity() program starts.=C2=A0</div></d=
+iv><span><font color=3D"#888888">
+                <div><div><br></div><div>--=C2=A0</div><div>Andrew M. James=
+</div><div>Graduate Teaching Assistant=C2=A0</div><div>Virginia Tech=C2=A0<=
+/div><div>Sent with <a href=3D"http://www.sparrowmailapp.com/?sig" target=
+=3D"_blank">Sparrow</a></div><div><br></div></div></font></span><div><div>
+                      =20
+                <p style=3D"color:#a0a0a8">On Monday, January 26, 2015 at 2=
+:19 PM, T. Daniel Crawford wrote:</p><blockquote type=3D"cite"><div>
+                    <span><div><div><div dir=3D"ltr">AJ,<div><br></div><div=
+>I&#39;ve installed PSI4 in ~crawdad/psi4.=C2=A0 See if you can access it f=
+rom your account.</div><div><br></div><div>-TDC<br clear=3D"all"><div><div>=
+<div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailt=
+o:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></d=
+iv>
+</div></div>
+</div></div></span>
+                      =20
+                      =20
+                      =20
+                      =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                     =20
+                     =20
+                     =20
+                     =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                    =20
+                    =20
+                    =20
+                    =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                   =20
+                   =20
+                   =20
+                   =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                  =20
+                  =20
+                  =20
+                  =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div></div></div>
+</div></blockquote></div><br></div>
+</div></div></span>
+                 =20
+                 =20
+                 =20
+                 =20
+                </div></blockquote><div>
+                    <br>
+                </div>
+            </div></div></div></blockquote></div><br></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            </div></div></blockquote></div><br></div>
+
+--001a113e3f60b100ed050d946d25--

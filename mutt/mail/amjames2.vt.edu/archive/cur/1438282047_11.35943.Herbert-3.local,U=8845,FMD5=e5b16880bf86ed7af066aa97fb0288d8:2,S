@@ -1,0 +1,2743 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp1477904qgt;
+        Wed, 20 May 2015 09:37:30 -0700 (PDT)
+X-Received: by 10.140.149.76 with SMTP id 73mr15176636qhv.94.1432139850848;
+        Wed, 20 May 2015 09:37:30 -0700 (PDT)
+Return-Path: <sstoneburner1701@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id y137si158537qky.77.2015.05.20.09.37.30
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 20 May 2015 09:37:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sstoneburner1701@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of sstoneburner1701@gmail.com designates 2001:468:c80:2105:0:2b9:e1ff:8be3 as permitted sender) smtp.mail=sstoneburner1701@gmail.com;
+       dkim=pass header.i=@umn.edu
+Received: from mail-wi0-x235.google.com (mail-wi0-x235.google.com [IPv6:2a00:1450:400c:c05::235])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t4KGbNCP009700
+	for <amjames2@vt.edu>; Wed, 20 May 2015 12:37:28 -0400
+Received: by wicmc15 with SMTP id mc15so155477705wic.1
+        for <amjames2@vt.edu>; Wed, 20 May 2015 09:37:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:message-id:subject:from:to:content-type;
+        bh=aB323p1q4to328Oirs2Im2r1vEGtKesNpXZPXSAForo=;
+        b=H429tH+8XGDzvyq/+daU8cvO7B5faXPfNNwulN3nNrGQGtIdw3jB4g0cYJLPVX8kZs
+         7sYuQuD64hOwsFixWlHn6uyVYCByqkzOM6WGlWPwFI3tMiPUqlWV8FUDE9k0zW9LDFyI
+         qXK/xgpqIUDHSdcSlxxZydYPc0hIIHpJjgCZVc4ssvEQrh9kE+RDm4egOeph6mJjpBt+
+         ULTB2V6G67nPbbKgK38D7pRVg+LNmuAIT4k1Z1Nm3iDEgffY3HNqrOtCTTTdztlbBdjP
+         CeNaNS/fQrApGAoKT5ynLaZsuCULn56JKWBfDYMGhyJPd0lQ1I6MRMNUFo62vAtRQLj0
+         0POw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=umn.edu; s=google;
+        h=mime-version:sender:date:message-id:subject:from:to:content-type;
+        bh=aB323p1q4to328Oirs2Im2r1vEGtKesNpXZPXSAForo=;
+        b=AIxw7fZptWbm7l7HG8e1LqlLhDEOh8Sp0IOGKzypZXNfLndPCsl557pGIN9SsmzMNH
+         799WGk+QLQp3KBGRzAVdwM0ZgUCfqL/hrpZCJLQTVSju29mM5VGEmpAajI6NeOAk+/d8
+         MCT3TvRNNQgHE/KJi4gfY/um2yclwNIaWelPY=
+MIME-Version: 1.0
+X-Received: by 10.194.59.46 with SMTP id w14mr744929wjq.106.1432139843297;
+ Wed, 20 May 2015 09:37:23 -0700 (PDT)
+Sender: sstoneburner1701@gmail.com
+Received: by 10.28.98.9 with HTTP; Wed, 20 May 2015 09:37:23 -0700 (PDT)
+Date: Wed, 20 May 2015 11:37:23 -0500
+X-Google-Sender-Auth: h9nB2HAEPE1F66Ob6YtVlPfDxmI
+Message-ID: <CAGpWmvuZGW+o+p=7CCc68pJ8HPm1KZcMQMuO2ztk=BANqM7vzw@mail.gmail.com>
+Subject: Fwd: SAMUEL J MPLS-ST PAUL 21JUN15
+From: Sam Stoneburner <sstonebu@umn.edu>
+To: amjames2@vt.edu
+Content-Type: multipart/alternative; boundary=047d7ba976c8a0ead80516860a0c
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7ba976c8a0ead80516860a0c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Here are my flight details for the software summer school.
+
+Thanks,
+Sam Stoneburner
+
+
+---------- Forwarded message ----------
+From: Delta Air Lines <DeltaAirLines@e.delta.com>
+Date: Wed, May 20, 2015 at 11:04 AM
+Subject: SAMUEL J MPLS-ST PAUL 21JUN15
+To: sstonebu@umn.edu
+
+
+      [image: Thanks for choosing Delta. Your Flight is confirmed.]
+    Hello,
+SAMUEL JOSEPH
+* Your Trip Confirmation #: HW5TZX
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl46?ITINERARY.1.D=
+L_REC_LOC=3DHW5TZX&ITINERARY.1.PSNGR_INFO.1.FNAME=3DSAMUEL%20JOSEPH&ITINERA=
+RY.1.PSNGR_INFO.1.LNAME=3DSTONEBURNER>*
+ [image: Manage My Trip]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl47?ITINERARY.1.D=
+L_REC_LOC=3DHW5TZX&ITINERARY.1.PSNGR_INFO.1.FNAME=3DSAMUEL%20JOSEPH&ITINERA=
+RY.1.PSNGR_INFO.1.LNAME=3DSTONEBURNER>
+    *Sun, 21JUN* *DEPART* *ARRIVE*
+DELTA 1122
+    MAIN CABIN (Q)
+    MPLS-ST PAUL
+   7:45am
+    ATLANTA
+   11:12am
+     DELTA 4927*
+    MAIN CABIN (Q)
+    ATLANTA
+   12:12pm
+    ROANOKE
+   1:32pm
+   *Wed, 01JUL* *DEPART* *ARRIVE*
+DELTA 5143*
+    MAIN CABIN (Q)
+    ROANOKE
+   11:00am
+    ATLANTA
+   12:19pm
+     DELTA 381
+    MAIN CABIN (Q)
+    ATLANTA
+   1:57pm
+    MPLS-ST PAUL
+   3:40pm
+    *Flight 4927 Operated by EXPRESSJET DBA DELTA CONNECTION
+*Flight 5143 Operated by EXPRESSJET DBA DELTA CONNECTION
+                  *Passenger Info*
+  NAME
+ SAMUEL JOSEPH STONEBURNER
+     FLIGHT SEAT
+DELTA 1122
+   43F
+     DELTA 4927
+   10C
+     DELTA 5143
+   10C
+     DELTA 381
+   31C
+         Visit delta.com
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl5> or use the Fl=
+y
+Delta app <http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl9> to
+view, select or change your seat.
+If you purchased a Delta Comfort+=E2=84=A2 seat or a Trip Extra, please vis=
+it My
+Trips
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl45?ITINERARY.1.D=
+L_REC_LOC=3DHW5TZX&ITINERARY.1.PSNGR_INFO.1.FNAME=3DSAMUEL%20JOSEPH&ITINERA=
+RY.1.PSNGR_INFO.1.LNAME=3DSTONEBURNER>
+to access a receipt of your purchase.
+                *Flight Receipt*
+  Ticket #: 0062310837129
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl45?ITINERARY.1.D=
+L_REC_LOC=3DHW5TZX&ITINERARY.1.PSNGR_INFO.1.FNAME=3DSAMUEL%20JOSEPH&ITINERA=
+RY.1.PSNGR_INFO.1.LNAME=3DSTONEBURNER>
+  Place of Issue: Delta.com
+ Issue Date: 20MAY15
+ Expiration Date: 20MAY16
+
+METHOD OF PAYMENT
+VI************6921
+  *$690.20 USD*
+
+CHARGES  Air Transportation Charges
+Base Fare
+  $600.00 USD
+  Taxes, Fees and Charges
+United States - September 11th Security Fee(Passenger Civil Aviation
+Security Service Fee) (AY)
+ $11.20 USD
+  United States - Passenger Facility Charge (XF)
+ $18.00 USD
+  United States - Flight Segment Tax (ZP)
+ $16.00 USD
+  United States - Transportation Tax (US)
+ $45.00 USD
+  TICKET AMOUNT $690.20 USD
+    This ticket is non-refundable unless the original ticket was issued at
+a fully refundable fare. Some fares may not allow changes. If allowed, any
+change to your itinerary may require payment of a change fee and increased
+fare. Failure to appear for any flight without notice to Delta will result
+in cancellation of your remaining reservation.
+
+Note: When using certain vouchers to purchase tickets, remaining credits
+may not be refunded. Additional charges and/or credits may apply.
+
+Fare Details: MSP DL X/ATL Q32.56 DL ROA283.72QE00A0NQ DL X/ATL DL
+MSP283.72QE00A0NQ USD600.00END ZP MSPATLROAATL XF MSP4.5ATL4.5ROA4.5ATL4.5
+                  *Checked Bag Allowance*
+ The fees below are based on your original ticket purchase. *If you qualify
+for free or discounted checked baggage,* this will be taken into account
+when you check in.
+   Sun 21 Jun 2015  DELTA: MSP [image: TO] ATL
+CARRY ON
+   FREE
+     FIRST
+    $25
+ USD
+    SECOND
+   $35
+ USD
+       Sun 21 Jun 2015  DELTA: ATL [image: TO] ROA
+CARRY ON
+   FREE
+     FIRST
+    FREE
+     SECOND
+   FREE
+         Visit delta.com for details on baggage embargos
+<http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-yo=
+ur-trip/excess.html#embargo>
+that may apply to your itinerary.
+  Wed 01 Jul 2015  DELTA: ROA [image: TO] ATL
+CARRY ON
+   FREE
+     FIRST
+    $25
+ USD
+    SECOND
+   $35
+ USD
+       Wed 01 Jul 2015  DELTA: ATL [image: TO] MSP
+CARRY ON
+   FREE
+     FIRST
+    FREE
+     SECOND
+   FREE
+         Visit delta.com for details on baggage embargos
+<http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-yo=
+ur-trip/excess.html#embargo>
+that may apply to your itinerary.
+                 *Transportation of Hazardous Materials*
+ Federal law forbids the carriage of hazardous materials aboard aircraft in
+your luggage or on your person. A violation can result in civil penalties.
+Examples include: Paints, aerosols, lighter fluid, fireworks, torch
+lighters, tear gases and compressed gas cartridges.
+  There are special exceptions for small quantities (up to 70 ounces
+total). For further information visit delta.com Restricted Items
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl18> Section.
+
+                 DON'T MISS OUT. =E2=80=BA
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl117>
+ Add your SkyMiles=C2=AE number to this itinerary to
+ensure you don't miss out on miles, or join today.
+  [image: Don't Miss Out]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl117>
+ HILTON HHONORS. =E2=80=BA
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl112#hilton>
+ Earn 1 mile per eligible dollar spent with Hilton HHonors.
+  [image: Hilton HHonors]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl112#hilton>
+ DELTA ASSIST ON TWITTER. =E2=80=BA
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl104>
+ Tweet @DeltaAssist for customer support (also
+offered in Spanish, Portuguese and Japanese).
+  [image: Delta Assist]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl104>
+ KEEP TABS ON YOUR BAG. =E2=80=BA
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl103>
+ Track your bag just like you track a package
+on the Fly Delta app or at delta.com/trackbag.
+  [image: Keep Tabs On Your Bag]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl103>
+    [image:
+THE #1 AIRLINE APP. | Get the Fly Delta app today.]
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl124>
+[image: Leaf icon] We have partnered with The Nature Conservancy to allow
+you to offset your carbon emissions from this trip. Go to delta.com/CO2
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl6#calc> to
+calculate your CO2 emissions and learn more about offsetting.
+ *Terms & Conditions*
+  This ticket is non-refundable unless the original ticket was issued at a
+fully refundable fare. Some fares may not allow changes. If allowed, any
+change to your itinerary may require payment of a change fee and increased
+fare. Failure to appear for any flight without notice to Delta will result
+in cancellation of your remaining reservation.
+
+Note: When using certain vouchers to purchase tickets, remaining credits
+may not be refunded. Additional charges and/or credits may apply.
+  *Checked Bag Allowance*
+  *On Delta operated flights, you may carry on one bag and a small personal
+item at no charge.
+  Delta One=E2=84=A2/First/Business Class weight allowance reverts to 50 lb=
+s for
+all checked bags beyond regular free allowance.
+  At the time of check in with Delta, SkyMiles Medallion members, SkyTeam
+Elite & Elite Plus and active US Military personnel are eligible for fee
+waivers and other benefits. For more details, visit delta.com/baggage
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl41>. Basic
+Cardmembers with a Gold, Platinum, or Reserve Delta SkyMiles Credit Card
+from American Express are eligible for the first bag fee waiver. More
+details on the program can be found at delta.com/firstbagfree
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl17>.
+  A standard checked bag with Delta may be up to 50 lbs and 62 linear
+inches (per piece). Additional fees apply for oversize, overweight, and/or
+additional pieces of checked baggage. Please review Delta's baggage
+guidelines for details. Weight and size restrictions may vary when checking
+baggage on carriers other than Delta. Contact with the operating carrier
+for detailed checked baggage allowances. You must be checked in at the gate
+by the applicable check-in deadlines or your reservation may be cancelled.
+Please review Delta's check-in requirement guidelines for details. Check-in
+requirements vary by airline, so if your ticket includes travel on other
+airlines, please check with the operating carrier on your ticket.
+  Do you have comments about our service? Please email
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl8> us to share
+them.
+  *Conditions of Carriage*
+  Air transportation on Delta and the Delta Connection=C2=AE carriers is su=
+bject
+to Delta's conditions of carriage
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT>. They
+include terms governing for example:
+  =E2=80=A2 Limits on our liability
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT> for
+personal injury or death of passengers, and for loss, damage of delay of
+goods and baggage.
+=E2=80=A2 Claim restrictions
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT>
+including time periods within which you must file a claim or bring action
+against us.
+=E2=80=A2 Our right to change terms
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT> of
+the contract.
+=E2=80=A2 Check-in requirements
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl19> and other
+rules established when we may refuse carriage
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT>.
+=E2=80=A2 Our rights and limits of our liability for delay or failure to pe=
+rform
+service
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT>
+including schedule change, substitution of alternative air carriers or
+aircraft, and rerouting.
+=E2=80=A2 Our policy on overbooking flights
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT>, and
+your rights if we deny you boarding due to an oversold flight.
+  These terms are incorporated by reference into our contract with you. You
+may view these conditions of carriage
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT> on
+delta.com <http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl5>, or
+by requesting a copy from Delta.
+  You have received this email because you elected to receive your
+Electronic Ticket receipt sent to you via email. If you would like to take
+advantage of other Delta email programs featuring special fares,
+promotions, information and flight updates, please visit:
+delta.com/emailprograms
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl11> or
+delta.com/notifications
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl21>.
+  This document establishes the creation of your electronic EMD(S) in our
+computer systems. It does not constitute a document of carriage. Where this
+document is issued for transportation or services other than passenger air
+transportation, specific terms and conditions may apply. These terms and
+conditions may be provided separately or may be obtained from the issuing
+agent.
+  *Copyright Information*
+  This email message and its contents are copyrighted and are proprietary
+products of Delta Air Lines, Inc. Any unauthorized use, reproduction, or
+transfer of this message or its contents, in any medium, is strictly
+prohibited.
+  This is a post only email. Please do not respond to this message.
+  =C2=A9 2015 Delta Air Lines, Inc. All rights reserved.
+  *Privacy Policy*
+  Your privacy is important to us. Please review our Privacy Policy
+<http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl10>.
+
+--047d7ba976c8a0ead80516860a0c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Here are my flight details for the software summer sc=
+hool.</div><div><br></div><div>Thanks,</div><div>Sam Stoneburner</div><div>=
+<br></div><br><div class=3D"gmail_quote">---------- Forwarded message -----=
+-----<br>From: <b class=3D"gmail_sendername">Delta Air Lines</b> <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:DeltaAirLines@e.delta.com">DeltaAirLines@e.d=
+elta.com</a>&gt;</span><br>Date: Wed, May 20, 2015 at 11:04 AM<br>Subject: =
+SAMUEL J MPLS-ST PAUL 21JUN15<br>To: <a href=3D"mailto:sstonebu@umn.edu">ss=
+tonebu@umn.edu</a><br><br><br><u></u>
+
+
+   =20
+   =20
+   =20
+
+
+<div style=3D"margin:0;padding:0;width:100%!important">
+ =20
+
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;line-heig=
+ht:100%!important;margin:0;padding:0;width:100%!important" bgcolor=3D"#fff"=
+>
+    <tbody><tr>
+        <td style=3D"border-collapse:collapse;padding:0;width:600px">
+        =20
+<table align=3D"center" style=3D"background:#072358;border-collapse:collaps=
+e;border:0;width:600px" bgcolor=3D"#072358;">
+  <tbody><tr>
+  	<td style=3D"background:#072358;border-collapse:collapse;padding:0;verti=
+cal-align:top;width:13px" bgcolor=3D"#072358;" valign=3D"top"> </td>
+  	<td align=3D"center" style=3D"background:#072358;border-collapse:collaps=
+e;border:0;width:574px" bgcolor=3D"#072358;">
+          <table align=3D"center" style=3D"background:#072358;border-collap=
+se:collapse;border:0;width:574px" bgcolor=3D"#072358;">
+            <tbody><tr>
+              <td style=3D"border-collapse:collapse;padding:0;width:574px">=
+<img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_header_H574x110.png" h=
+eight=3D"110" width=3D"574" alt=3D"Thanks for choosing Delta. Your Flight i=
+s confirmed." style=3D"display:block;outline:none;text-decoration:none"></t=
+d>
+            </tr>
+          </tbody></table>
+          </td>
+  	<td style=3D"background:#072358;border-collapse:collapse;padding:0;verti=
+cal-align:top;width:13px" bgcolor=3D"#072358;" valign=3D"top"> </td>
+  </tr>
+</tbody></table>
+         =20
+<table align=3D"center" style=3D"background:#091426;border-collapse:collaps=
+e;border:0;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:=
+18px;height:36px;width:600px" bgcolor=3D"#091426">
+   =20
+        <tbody><tr>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle;width:36px" valign=3D"middle"><im=
+g src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif" width=3D"36" h=
+eight=3D"7" alt=3D"" style=3D"display:block;outline:none;text-decoration:no=
+ne"></td>
+   =20
+        <td colspan=3D"2" style=3D"border-collapse:collapse;font-size:1px;h=
+eight:7px;line-height:0;padding:0;vertical-align:middle;width:527px" valign=
+=3D"middle"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif"=
+ height=3D"7" alt=3D"" style=3D"display:block;outline:none;text-decoration:=
+none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle;width:37px" valign=3D"middle"><im=
+g src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif" width=3D"37" h=
+eight=3D"7" alt=3D"" style=3D"display:block;outline:none;text-decoration:no=
+ne"></td>
+   =20
+</tr>
+   =20
+<tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:middle" vali=
+gn=3D"middle"></td>
+<td style=3D"border-collapse:collapse;color:#fff;font-weight:bold;font-fami=
+ly:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:14px;padding:5px 0;v=
+ertical-align:middle" valign=3D"middle">Hello,
+
+SAMUEL JOSEPH
+</td>
+<td style=3D"border-collapse:collapse;padding:0;text-align:right;vertical-a=
+lign:middle" align=3D"right" valign=3D"middle">
+<table align=3D"right" style=3D"border-collapse:collapse;border:0">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0;vertical-align:top" val=
+ign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif"=
+ width=3D"180" height=3D"7" alt=3D"" style=3D"display:block;outline:none;te=
+xt-decoration:none"></td>
+</tr>
+</tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:middle" vali=
+gn=3D"middle"></td>
+</tr>
+   =20
+        <tr>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle;width:36px" valign=3D"middle"><im=
+g src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif" width=3D"36" h=
+eight=3D"7" alt=3D"" style=3D"display:block;outline:none;text-decoration:no=
+ne"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle" valign=3D"middle"><img src=3D"ht=
+tp://f.e.delta.com/i/5/2083323528/akqa_blank.gif" height=3D"7" alt=3D"" sty=
+le=3D"display:block;outline:none;text-decoration:none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle" valign=3D"middle"><img src=3D"ht=
+tp://f.e.delta.com/i/5/2083323528/akqa_blank.gif" height=3D"7" alt=3D"" sty=
+le=3D"display:block;outline:none;text-decoration:none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:7px;line=
+-height:0;padding:0;vertical-align:middle;width:37px" valign=3D"middle"><im=
+g src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif" width=3D"37" h=
+eight=3D"7" alt=3D"" style=3D"display:block;outline:none;text-decoration:no=
+ne"></td>
+   =20
+</tr>
+   =20
+</tbody></table>
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+    <tbody><tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"><img src=
+=3D"http://f.e.delta.com/i/5/2083323528/akqa_body-gradient.png" height=3D"2=
+7" width=3D"13" alt=3D"" style=3D"display:block;outline:none;text-decoratio=
+n:none"></td>
+        <td style=3D"border-collapse:collapse;padding:0;width:574px">
+            <table style=3D"background:#fff;border-collapse:collapse;border=
+:0;width:100%" bgcolor=3D"#fff">
+    <tbody><tr>
+<td align=3D"left" style=3D"background:#dddddc;border-collapse:collapse;pad=
+ding:0px 10px 0px 20px;text-align:left;width:338px" bgcolor=3D"#dddddc">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px"><strong>=C2=A0Your=C2=A0Trip=C2=A0Conf=
+irmation=C2=A0#:=C2=A0<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNw=
+Vouf.B8LP6Ick/dl46?ITINERARY.1.DL_REC_LOC=3DHW5TZX&amp;ITINERARY.1.PSNGR_IN=
+FO.1.FNAME=3DSAMUEL%20JOSEPH&amp;ITINERARY.1.PSNGR_INFO.1.LNAME=3DSTONEBURN=
+ER" style=3D"color:#0263a4;font-family:Tahoma,Verdana,Arial,Helvetica,sans-=
+serif;font-size:14px;line-height:16px;text-decoration:none" target=3D"_blan=
+k">HW5TZX</a></strong></div></td>
+        <td align=3D"right" style=3D"background:#dddddc;border-collapse:col=
+lapse;padding:0;text-align:right;width:236px" bgcolor=3D"#dddddc">
+            <a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6=
+Ick/dl47?ITINERARY.1.DL_REC_LOC=3DHW5TZX&amp;ITINERARY.1.PSNGR_INFO.1.FNAME=
+=3DSAMUEL%20JOSEPH&amp;ITINERARY.1.PSNGR_INFO.1.LNAME=3DSTONEBURNER" style=
+=3D"color:#0263a4;display:block;float:right;text-decoration:none;width:236p=
+x" target=3D"_blank"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_m=
+anage-trip1.gif" height=3D"32" width=3D"236" alt=3D"Manage My Trip" style=
+=3D"border:none;display:block;outline:none;text-decoration:none"></a>
+        </td>
+    </tr>
+</tbody></table>
+        </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"><img src=
+=3D"http://f.e.delta.com/i/5/2083323528/akqa_body-gradient.png" height=3D"2=
+7" width=3D"13" alt=3D"" style=3D"display:block;outline:none;text-decoratio=
+n:none"></td>
+    </tr>
+</tbody></table>
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+    <tbody><tr>
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:548px"><img src=3D"http://f.e.delta.com/i/5/2083323528/ak=
+qa_blank.gif" height=3D"1" alt=3D"" style=3D"display:block;outline:none;tex=
+t-decoration:none"></td>
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+</tr>   =20
+    <tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"border-collapse:collapse;padding:0"> </td>
+        <td style=3D"border-collapse:collapse;padding:0">
+          <table style=3D"background:#fff;border-collapse:collapse;border:0=
+;width:100%" bgcolor=3D"#fff">
+            <tbody><tr>
+              <td style=3D"border-collapse:collapse;padding:5px 0 0">
+                <table style=3D"background:#fff;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+                  <tbody><tr>
+                    <td style=3D"border-collapse:collapse;padding:0">
+                      <table style=3D"background:#fff;border-collapse:colla=
+pse;border:0;width:100%" bgcolor=3D"#fff">
+                        <tbody><tr>
+                          <td colspan=3D"3" style=3D"border-collapse:collap=
+se;padding:0px 25px 0;vertical-align:top" valign=3D"top">
+                            <table style=3D"background:#fff;border-collapse=
+:collapse;border:0;width:100%" bgcolor=3D"#fff"></table>
+                            <table style=3D"background:#fff;border-collapse=
+:collapse;border:0;width:100%" bgcolor=3D"#fff">
+                              <tbody><tr>
+                                <td style=3D"border-collapse:collapse;paddi=
+ng:10px 0;vertical-align:top;height:5px" valign=3D"top">
+                                  <div style=3D"color:#000;font-family:Taho=
+ma,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:5px"></div=
+>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                          </td>
+                        </tr>
+            <tr>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 10px 5p=
+x;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc">
+<strong>Sun, 21JUN</strong>
+</th>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 6px 5px=
+;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc"><strong>DE=
+PART</strong></th>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 6px 5px=
+;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc"><strong>AR=
+RIVE</strong></th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+DELTA 1122
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MAIN CABIN (Q)
+
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MPLS-ST PAUL
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+7:45am
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ATLANTA
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+11:12am
+
+</div>
+</td></tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+DELTA 4927*
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MAIN CABIN (Q)
+
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ATLANTA
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+12:12pm
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ROANOKE
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+1:32pm
+
+</div>
+</td></tr>
+</tbody></table>
+</td>
+</tr><tr>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 10px 5p=
+x;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc">
+<strong>Wed, 01JUL</strong>
+</th>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 6px 5px=
+;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc"><strong>DE=
+PART</strong></th>
+<th style=3D"background:#dddddc;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:13px;font-weight:normal;padding:5px 6px 5px=
+;text-align:left;width:175px" align=3D"left" bgcolor=3D"#dddddc"><strong>AR=
+RIVE</strong></th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+DELTA 5143*
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MAIN CABIN (Q)
+
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ROANOKE
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+11:00am
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ATLANTA
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+12:19pm
+
+</div>
+</td></tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+DELTA 381
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MAIN CABIN (Q)
+
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+ATLANTA
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+1:57pm
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 7px 5px;vertical-align:to=
+p" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+MPLS-ST PAUL
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:5px 0 0;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">
+3:40pm
+
+</div>
+</td></tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0;vertical-align:top;hei=
+ght:5px" valign=3D"top">
+
+
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">*Flight 4927 Operated by EXPRESSJET DB=
+A DELTA CONNECTION</div><div style=3D"color:#000;font-family:Tahoma,Verdana=
+,Arial,Helvetica,sans-serif;font-size:12px;line-height:16px">*Flight 5143 O=
+perated by EXPRESSJET DBA DELTA CONNECTION</div>
+</td>
+</tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+      </td>
+      <td style=3D"border-collapse:collapse;padding:0"> </td>
+      <td style=3D"background:#072358;border-collapse:collapse;padding:0;ve=
+rtical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+</tbody></table>
+
+         =20
+
+
+
+
+=20
+
+        =20
+
+
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+
+<tbody><tr>
+
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif=
+" height=3D"1" alt=3D"" style=3D"display:block;outline:none;text-decoration=
+:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+
+</tr>
+
+<tr>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+<td style=3D"border-collapse:collapse;padding:0"> </td>
+<td style=3D"border-collapse:collapse;padding:0">
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0 0">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;border:1px solid #ffffff;padding:0px =
+10px">
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0">
+
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:1em"><strong>Passenger Info</strong></div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+
+
+<td rowspan=3D"12" style=3D"border-collapse:collapse;padding:0 0 1px;vertic=
+al-align:top" valign=3D"top">
+<div style=3D"background:transparent;font-family:Tahoma,Verdana,Arial,Helve=
+tica,sans-serif;font-size:12px;font-weight:bold;padding:14px 0 3px">NAME</d=
+iv>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:0 0 1px;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+
+
+SAMUEL JOSEPH STONEBURNER
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:0 0 1px;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">
+
+
+
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:0 0 1px;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">
+
+
+
+</div>
+</td></tr></tbody></table>
+</td>
+<td style=3D"background:transparent;color:#000;font-family:Tahoma,Verdana,A=
+rial,Helvetica,sans-serif;font-size:12px;font-weight:bold;padding:14px 0 3p=
+x;text-align:left;vertical-align:top" valign=3D"top" align=3D"left" bgcolor=
+=3D"transparent">FLIGHT</td>
+<td style=3D"background:transparent;color:#000;font-family:Tahoma,Verdana,A=
+rial,Helvetica,sans-serif;font-size:12px;font-weight:bold;padding:14px 0 3p=
+x;text-align:left;vertical-align:top" align=3D"left" bgcolor=3D"transparent=
+">SEAT</td>
+<td style=3D"background:transparent;color:#000;font-family:Tahoma,Verdana,A=
+rial,Helvetica,sans-serif;font-size:12px;font-weight:bold;padding:14px 0 3p=
+x;text-align:left;vertical-align:top" align=3D"left" bgcolor=3D"transparent=
+"></td>
+</tr>
+
+<tr>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+DELTA 1122
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+43F
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+</tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+DELTA 4927
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+10C
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+</tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+DELTA 5143
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+10C
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+</tr>
+</tbody></table>
+</td>
+</tr><tr>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+DELTA 381
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0 0 1px;vertical-align:top" v=
+align=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:16px">
+31C
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0 0 1px;vertica=
+l-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:18px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:14px">Visit <a href=3D"http://e.delta.com/a/=
+hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl5" style=3D"color:#0263a4;text-decorat=
+ion:none" target=3D"_blank">delta.com</a> or use the <a href=3D"http://e.de=
+lta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl9" style=3D"color:#0263a4;te=
+xt-decoration:none" target=3D"_blank">Fly Delta app</a> to view, select or =
+change your seat.<br>If you purchased a Delta Comfort+=E2=84=A2 seat or  a =
+Trip Extra, please visit <a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89Pg=
+rNwVouf.B8LP6Ick/dl45?ITINERARY.1.DL_REC_LOC=3DHW5TZX&amp;ITINERARY.1.PSNGR=
+_INFO.1.FNAME=3DSAMUEL%20JOSEPH&amp;ITINERARY.1.PSNGR_INFO.1.LNAME=3DSTONEB=
+URNER" style=3D"color:#0151a1;text-decoration:none" target=3D"_blank">My Tr=
+ips</a> to access a receipt of your purchase.</div>
+
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"border-collapse:collapse;padding:0"> </td>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+</tr>
+</tbody></table>
+   =20
+             <table align=3D"center" style=3D"background:#fff;border-collap=
+se:collapse;border:0;width:600px" bgcolor=3D"#fff">
+    <tbody><tr>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"></td>
+<td style=3D"border-collapse:collapse;padding:0"></td>
+<td style=3D"border-collapse:collapse;padding:0">
+    <table style=3D"background:#fff;border:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0px 0px 0px">
+
+<table style=3D"background:#fff;border:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td style=3D"padding:0px 0px 10px;vertical-align:top" valign=3D"=
+top">
+
+</td>
+</tr>
+
+
+        <tr>
+            <td style=3D"border-collapse:collapse;padding:0px 0px">
+
+ <table>
+</table>
+
+
+<table style=3D"background:#fff;border:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td style=3D"border-collapse:collapse;padding:5px 25px 5px">
+
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:1em"><strong>Flight Receipt</strong></div>
+
+
+                    <table style=3D"background:#fff;border-collapse:collaps=
+e;border:0;width:100%" bgcolor=3D"#fff">
+
+
+<tbody><tr><td style=3D"border-collapse:collapse;padding:18px 0 0">
+                        <div style=3D"color:#000;font-family:Tahoma,Verdana=
+,Arial,Helvetica,sans-serif;font-size:12px;line-height:22px">
+
+                           =20
+                            Ticket #: <a href=3D"http://e.delta.com/a/hBVWh=
+jfB8LP6IB89PgrNwVouf.B8LP6Ick/dl45?ITINERARY.1.DL_REC_LOC=3DHW5TZX&amp;ITIN=
+ERARY.1.PSNGR_INFO.1.FNAME=3DSAMUEL%20JOSEPH&amp;ITINERARY.1.PSNGR_INFO.1.L=
+NAME=3DSTONEBURNER" style=3D"color:#0151a1;text-decoration:none" target=3D"=
+_blank">0062310837129</a>
+                        </div>
+                    </td></tr></tbody></table>
+
+                    <table style=3D"background:#fff;border-collapse:collaps=
+e;border:0;width:100%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-coll=
+apse:collapse;padding:2px 0 0">
+                        <div style=3D"color:#000;font-family:Tahoma,Verdana=
+,Arial,Helvetica,sans-serif;font-size:12px;line-height:22px">
+                            Place of Issue:
+
+                           =20
+                            Delta.com
+                        </div>
+                    </td></tr></tbody></table>
+
+                    <table style=3D"background:#fff;border-collapse:collaps=
+e;border:0;width:100%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-coll=
+apse:collapse;padding:2px 0 0">
+                        <div style=3D"color:#000;font-family:Tahoma,Verdana=
+,Arial,Helvetica,sans-serif;font-size:12px;line-height:22px">Issue Date:
+                            <span>
+
+                               =20
+                                20MAY15
+                            </span>
+                        </div>
+                    </td></tr></tbody></table>
+
+                    <table style=3D"background:#fff;border-collapse:collaps=
+e;border:0;width:100%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-coll=
+apse:collapse;padding:2px 0 0">
+                        <div style=3D"color:#000;font-family:Tahoma,Verdana=
+,Arial,Helvetica,sans-serif;font-size:12px;line-height:22px">Expiration Dat=
+e:
+                            <span>
+
+                               =20
+                                20MAY16
+                            </span>
+                        </div>
+                    </td></tr></tbody></table>
+
+
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<th colspan=3D"2" style=3D"background:transparent;color:#000;font-family:Ta=
+homa,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;pad=
+ding:8px 0 6px;text-align:left" align=3D"left" bgcolor=3D"transparent"><br>=
+METHOD OF PAYMENT</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">
+VI************6921=20
+</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:bottom" valign=3D"bottom" width=3D"200">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">
+<strong>$690.20 USD</strong>
+</div>
+</td>
+</tr>
+</tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0 0">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+
+<tbody><tr>
+<th colspan=3D"2" style=3D"background:transparent;color:#000;font-family:Ta=
+homa,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;pad=
+ding:8px 0 6px;text-align:left" align=3D"left" bgcolor=3D"transparent"><br>=
+CHARGES</th>
+</tr>
+<tr>
+<th colspan=3D"2" style=3D"background:transparent;color:#000;font-family:Ta=
+homa,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;pad=
+ding:8px 0 6px;text-align:left" align=3D"left" bgcolor=3D"transparent">Air =
+Transportation Charges</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">
+Base Fare
+
+</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:top" valign=3D"top" width=3D"200">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">
+$600.00 USD
+
+</div>
+</td>
+</tr>
+
+<tr>
+<th colspan=3D"2" style=3D"background:transparent;color:#000;font-family:Ta=
+homa,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;pad=
+ding:8px 0 6px;text-align:left" align=3D"left" bgcolor=3D"transparent">Taxe=
+s, Fees and Charges</th>
+</tr>
+
+<tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">United States - September 11th Securit=
+y Fee(Passenger Civil Aviation Security Service Fee) (AY)</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">$11.20 USD</div>
+</td>
+</tr> <tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">United States - Passenger Facility Cha=
+rge (XF)</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">$18.00 USD</div>
+</td>
+</tr> <tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">United States - Flight Segment Tax (ZP=
+)</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">$16.00 USD</div>
+</td>
+</tr> <tr>
+<td style=3D"border-collapse:collapse;padding:0 0 3px;vertical-align:top" v=
+align=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">United States - Transportation Tax  (U=
+S)</div>
+</td>
+<td align=3D"right" style=3D"border-collapse:collapse;padding:0 0 3px;verti=
+cal-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:22px">$45.00 USD</div>
+</td>
+</tr>=20
+<tr>
+<th style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-ser=
+if;font-size:12px;padding:8px 0 6px;text-align:left" align=3D"left">TICKET =
+AMOUNT</th>
+<th align=3D"right" style=3D"color:#000;font-family:Tahoma,Verdana,Arial,He=
+lvetica,sans-serif;font-size:12px;padding:8px 0 6px;text-align:right" width=
+=3D"220">
+$690.20=C2=A0USD
+</th>
+</tr>
+
+<tr>
+<td colspan=3D"2" style=3D"border-collapse:collapse;padding:0 0 3px;vertica=
+l-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top" =
+valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0 0">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px">
+
+This ticket is non-refundable unless the original ticket was issued at a fu=
+lly refundable fare. Some fares
+may not allow changes. If allowed, any change to your itinerary may require=
+ payment of a change fee
+and increased fare. Failure to appear for any flight without notice to Delt=
+a will result in cancellation of
+your remaining reservation.<br><br>
+Note: When using certain vouchers to purchase tickets, remaining credits ma=
+y not be refunded.
+Additional charges and/or credits may apply.<br><br>
+
+Fare Details: MSP DL X/ATL Q32.56 DL ROA283.72QE00A0NQ DL X/ATL DL MSP283.7=
+2QE00A0NQ USD600.00END ZP MSPATLROAATL XF MSP4.5ATL4.5ROA4.5ATL4.5
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+</td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"border-collapse:collapse;padding:0"> </td>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+</tr>
+</tbody></table>
+         =20
+
+
+
+         =20
+
+         =20
+
+
+
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+   =20
+        <tbody><tr>
+   =20
+        <td style=3D"background:#072358;border-collapse:collapse;font-size:=
+1px;height:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcol=
+or=3D"#072358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/20833235=
+28/akqa_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:bloc=
+k;outline:none;text-decoration:none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:1px;line=
+-height:0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/208332=
+3528/akqa_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:bl=
+ock;outline:none;text-decoration:none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:1px;line=
+-height:0;padding:0"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_b=
+lank.gif" height=3D"1" alt=3D"" style=3D"display:block;outline:none;text-de=
+coration:none"></td>
+   =20
+        <td style=3D"border-collapse:collapse;font-size:1px;height:1px;line=
+-height:0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/208332=
+3528/akqa_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:bl=
+ock;outline:none;text-decoration:none"></td>
+   =20
+        <td style=3D"background:#072358;border-collapse:collapse;font-size:=
+1px;height:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcol=
+or=3D"#072358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/20833235=
+28/akqa_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:bloc=
+k;outline:none;text-decoration:none"></td>
+   =20
+</tr>
+   =20
+    <tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"border-collapse:collapse;padding:0"> </td>
+        <td style=3D"border-collapse:collapse;padding:0">
+   =20
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0 0">
+    <table style=3D"background:#fff;border-collapse:collapse;border:0;width=
+:100%" bgcolor=3D"#fff">
+
+        <tbody><tr>
+            <td style=3D"border-collapse:collapse;border:1px solid #ffffff;=
+padding:0">
+
+                <table style=3D"background:#fff;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+                    <tbody><tr>
+                        <td colspan=3D"4" style=3D"border-collapse:collapse=
+;padding:0px 10px 5px;vertical-align:top" valign=3D"top">
+                            <table style=3D"background:#fff;border-collapse=
+:collapse;border:0;width:100%" bgcolor=3D"#fff"><tbody><tr><td style=3D"bor=
+der-collapse:collapse;padding:5px 0;vertical-align:top" valign=3D"top">
+                                <div style=3D"color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:14px;line-height:1em"><strong=
+>Checked Bag Allowance</strong></div>
+                            </td></tr></tbody></table>
+
+                            <table style=3D"background:#fff;border-collapse=
+:collapse;border:0;width:100%" bgcolor=3D"#fff"><tbody><tr><td style=3D"bor=
+der-collapse:collapse;padding:8px 0 0;vertical-align:top" valign=3D"top">
+                                <div style=3D"color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:12px;line-height:22px">The fe=
+es below are based on your original ticket purchase. <strong>If you qualify=
+ for free or discounted checked baggage,</strong> this will be taken into a=
+ccount when you check in. </div>
+                            </td></tr></tbody></table>
+                        </td>
+                    </tr>
+                   =20
+                 =20
+                    <tr>
+<th style=3D"background:#f1f1f1;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:12px;font-weight:normal;padding:10px 20px;t=
+ext-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+Sun 21 Jun 2015
+</th>
+<th colspan=3D"3" style=3D"background:#f1f1f1;color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;paddi=
+ng:10px 20px;text-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+
+DELTA: MSP
+<img src=3D"http://work.dc.akqa.com/delta/eReceipts_Email/images/arrow.png"=
+ height=3D"11" width=3D"4" alt=3D"TO" style=3D"display:inline;outline:none;=
+text-decoration:none;vertical-align:initial">
+ATL
+</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">CARRY ON</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">FIRST</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr>
+	<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top;=
+height:32px" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+$25
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1">USD</div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">SECOND</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+$35
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1">USD</div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 15px 10px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td>
+</tr><tr>
+<th style=3D"background:#f1f1f1;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:12px;font-weight:normal;padding:10px 20px;t=
+ext-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+Sun 21 Jun 2015
+</th>
+<th colspan=3D"3" style=3D"background:#f1f1f1;color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;paddi=
+ng:10px 20px;text-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+
+DELTA: ATL
+<img src=3D"http://work.dc.akqa.com/delta/eReceipts_Email/images/arrow.png"=
+ height=3D"11" width=3D"4" alt=3D"TO" style=3D"display:inline;outline:none;=
+text-decoration:none;vertical-align:initial">
+ROA
+</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">CARRY ON</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">FIRST</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr>
+	<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top;=
+height:32px" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">SECOND</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 15px 10px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 27px 25px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px;line-height:22px">Visit <a href=3D"http://delta.com" tar=
+get=3D"_blank">delta.com</a> for details on <a href=3D"http://www.delta.com=
+/content/www/en_US/traveling-with-us/baggage/before-your-trip/excess.html#e=
+mbargo" style=3D"color:#0151a1;text-decoration:none" target=3D"_blank">bagg=
+age embargos</a> that may apply to your itinerary.</div>
+</td>
+</tr><tr>
+<th style=3D"background:#f1f1f1;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:12px;font-weight:normal;padding:10px 20px;t=
+ext-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+Wed 01 Jul 2015
+</th>
+<th colspan=3D"3" style=3D"background:#f1f1f1;color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;paddi=
+ng:10px 20px;text-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+
+DELTA: ROA
+<img src=3D"http://work.dc.akqa.com/delta/eReceipts_Email/images/arrow.png"=
+ height=3D"11" width=3D"4" alt=3D"TO" style=3D"display:inline;outline:none;=
+text-decoration:none;vertical-align:initial">
+ATL
+</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">CARRY ON</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">FIRST</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr>
+	<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top;=
+height:32px" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+$25
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1">USD</div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">SECOND</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+$35
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1">USD</div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 15px 10px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td>
+</tr><tr>
+<th style=3D"background:#f1f1f1;color:#000;font-family:Tahoma,Verdana,Arial=
+,Helvetica,sans-serif;font-size:12px;font-weight:normal;padding:10px 20px;t=
+ext-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+Wed 01 Jul 2015
+</th>
+<th colspan=3D"3" style=3D"background:#f1f1f1;color:#000;font-family:Tahoma=
+,Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;paddi=
+ng:10px 20px;text-align:left" align=3D"left" bgcolor=3D"#f1f1f1">
+
+
+DELTA: ATL
+<img src=3D"http://work.dc.akqa.com/delta/eReceipts_Email/images/arrow.png"=
+ height=3D"11" width=3D"4" alt=3D"TO" style=3D"display:inline;outline:none;=
+text-decoration:none;vertical-align:initial">
+MSP
+</th>
+</tr>
+<tr>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">CARRY ON</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">FIRST</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr>
+	<td style=3D"border-collapse:collapse;padding:10px 0 0;vertical-align:top;=
+height:32px" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+<td style=3D"border-collapse:collapse;padding:0px 20px 10px;vertical-align:=
+top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:16px">SECOND</div>
+</td></tr></tbody></table>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:10px 0 0;vertical-align:top" valign=3D"top">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:aut=
+o!important" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:bottom!impor=
+tant" valign=3D"bottom !important">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:18px;line-height:1em">
+FREE
+</div>
+</td>
+<td style=3D"border-collapse:collapse;padding:0;vertical-align:top" valign=
+=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:12px;line-height:1"></div>
+</td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 15px 10px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"background:#9a9a9a;font-size:1px;min-height:1px;line-height:1=
+px;width:100%"> </div>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"border-collapse:collapse;padding:0px 27px 25px;v=
+ertical-align:top" valign=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px;line-height:22px">Visit <a href=3D"http://delta.com" tar=
+get=3D"_blank">delta.com</a> for details on <a href=3D"http://www.delta.com=
+/content/www/en_US/traveling-with-us/baggage/before-your-trip/excess.html#e=
+mbargo" style=3D"color:#0151a1;text-decoration:none" target=3D"_blank">bagg=
+age embargos</a> that may apply to your itinerary.</div>
+</td>
+</tr>
+                                   =20
+               </tbody></table>
+            </td>
+        </tr>
+
+    </tbody></table>
+
+</td></tr></tbody></table>
+
+        </td>
+        <td style=3D"border-collapse:collapse;padding:0"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+</tbody></table>
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+
+<tbody><tr>
+
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_blank.gif=
+" height=3D"1" alt=3D"" style=3D"display:block;outline:none;text-decoration=
+:none"></td>
+
+<td style=3D"border-collapse:collapse;font-size:1px;height:1px;line-height:=
+0;padding:0;width:13px"><img src=3D"http://f.e.delta.com/i/5/2083323528/akq=
+a_blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outl=
+ine:none;text-decoration:none"></td>
+
+<td style=3D"background:#072358;border-collapse:collapse;font-size:1px;heig=
+ht:1px;line-height:0;padding:0;vertical-align:top;width:13px" bgcolor=3D"#0=
+72358" valign=3D"top"><img src=3D"http://f.e.delta.com/i/5/2083323528/akqa_=
+blank.gif" width=3D"13" height=3D"1" alt=3D"" style=3D"display:block;outlin=
+e:none;text-decoration:none"></td>
+
+</tr>
+
+<tr>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+<td style=3D"border-collapse:collapse;padding:0"> </td>
+<td style=3D"border-collapse:collapse;padding:0">
+
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0 0">
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff">
+<tbody><tr>
+<td style=3D"border-collapse:collapse;border:1px solid #ffffff;padding:0px =
+10px">
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:5px 0">
+
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px;line-height:14px"><strong>Transportation of Hazardous Ma=
+terials</strong></div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:8px 0 0">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px;line-height:14px">
+Federal law forbids the carriage of hazardous materials aboard aircraft in =
+your luggage or on your person. A violation can result in civil penalties. =
+Examples include: Paints, aerosols, lighter fluid, fireworks, torch lighter=
+s, tear gases and compressed gas cartridges.
+</div>
+</td></tr></tbody></table>
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"border-collapse:collapse;paddin=
+g:8px 0 0">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:10px;line-height:14px">
+There are special exceptions for small quantities (up to 70 ounces total). =
+For further information visit=20
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl18" st=
+yle=3D"color:#0263a4;text-decoration:none" target=3D"_blank">delta.com=C2=
+=A0Restricted=C2=A0Items</a>=C2=A0Section.<br><br>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"border-collapse:collapse;padding:0"> </td>
+<td style=3D"background:#072358;border-collapse:collapse;padding:0;vertical=
+-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+</tr>
+</tbody></table>    =20
+
+<table align=3D"center" style=3D"background:#fff;border-collapse:collapse;b=
+order:0;width:600px" bgcolor=3D"#fff">
+   =20
+
+    <tbody><tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:auto!important" bgcolor=3D"#072358" valign=3D"top"=
+> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+    <tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"border-collapse:collapse;padding:0">
+         =20
+             <table style=3D"background:#eaeff6;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td colspan=3D"5" style=3D"background-color:#e0e0e0!important;bo=
+rder-collapse:collapse;font-size:1px;height:1px;line-height:1px;padding:0;v=
+ertical-align:top" bgcolor=3D"#e0e0e0 !important" valign=3D"top"></td></tr>
+<tr>
+<td style=3D"background:#eaeff6;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#eaeff6" valign=3D"top">
+<div style=3D"font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-si=
+ze:14px;line-height:1em;text-transform:uppercase">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl117" s=
+tyle=3D"color:#023166;font-weight:bold;text-decoration:none" target=3D"_bla=
+nk">
+DON&#39;T MISS OUT.=C2=A0=E2=80=BA
+</a>
+</div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"background:#eaeff6;border-colla=
+pse:collapse;padding:10px 0 0;vertical-align:top" bgcolor=3D"#eaeff6" valig=
+n=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:18px">
+Add your SkyMiles<sup>=C2=AE</sup> number to this itinerary to <br>ensure y=
+ou don&#39;t miss out on miles, or join=C2=A0today.</div>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"background:#eaeff6;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#eaeff6" valign=3D"top" align=3D"right">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl117" s=
+tyle=3D"color:#0263a4;text-decoration:none" target=3D"_blank">
+<img src=3D"http://f.e.delta.com/i/5/2083323528/141209_skymiles_wo_bug_40px=
+.png" alt=3D"Don&#39;t Miss Out" style=3D"border:none;display:block;outline=
+:none;text-decoration:none">
+</a>
+</td>
+</tr>
+</tbody></table>
+
+             <table style=3D"background:#ffffff;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td colspan=3D"5" style=3D"background-color:#e0e0e0!important;bo=
+rder-collapse:collapse;font-size:1px;height:1px;line-height:1px;padding:0;v=
+ertical-align:top" bgcolor=3D"#e0e0e0 !important" valign=3D"top"></td></tr>
+<tr>
+<td style=3D"background:#ffffff;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#ffffff" valign=3D"top">
+<div style=3D"font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-si=
+ze:14px;line-height:1em;text-transform:uppercase">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl112#hi=
+lton" style=3D"color:#023166;font-weight:bold;text-decoration:none" target=
+=3D"_blank">
+HILTON HHONORS.=C2=A0=E2=80=BA
+</a>
+</div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"background:#ffffff;border-colla=
+pse:collapse;padding:10px 0 0;vertical-align:top" bgcolor=3D"#ffffff" valig=
+n=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:18px">
+Earn 1 mile per eligible dollar spent with Hilton=C2=A0HHonors.</div>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"background:#ffffff;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#ffffff" valign=3D"top" align=3D"right">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl112#hi=
+lton" style=3D"color:#0263a4;text-decoration:none" target=3D"_blank">
+<img src=3D"http://f.e.delta.com/i/5/2083323528/141209_hilton_40px.png" alt=
+=3D"Hilton HHonors" style=3D"border:none;display:block;outline:none;text-de=
+coration:none">
+</a>
+</td>
+</tr>
+</tbody></table>
+
+             <table style=3D"background:#eaeff6;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td colspan=3D"5" style=3D"background-color:#e0e0e0!important;bo=
+rder-collapse:collapse;font-size:1px;height:1px;line-height:1px;padding:0;v=
+ertical-align:top" bgcolor=3D"#e0e0e0 !important" valign=3D"top"></td></tr>
+<tr>
+<td style=3D"background:#eaeff6;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#eaeff6" valign=3D"top">
+<div style=3D"font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-si=
+ze:14px;line-height:1em;text-transform:uppercase">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl104" s=
+tyle=3D"color:#023166;font-weight:bold;text-decoration:none" target=3D"_bla=
+nk">
+DELTA ASSIST ON TWITTER.=C2=A0=E2=80=BA
+</a>
+</div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"background:#eaeff6;border-colla=
+pse:collapse;padding:10px 0 0;vertical-align:top" bgcolor=3D"#eaeff6" valig=
+n=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:18px">Tweet @DeltaAssist for customer suppor=
+t (also <br>offered in Spanish, Portuguese and Japanese).</div>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"background:#eaeff6;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#eaeff6" valign=3D"top" align=3D"right">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl104" s=
+tyle=3D"color:#0263a4;text-decoration:none" target=3D"_blank">
+<img src=3D"http://f.e.delta.com/i/5/2083323528/141209_twitter_40px.png" al=
+t=3D"Delta Assist" style=3D"border:none;display:block;outline:none;text-dec=
+oration:none">
+</a>
+</td>
+</tr>
+</tbody></table>
+
+             <table style=3D"background:#ffffff;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+<tbody><tr><td colspan=3D"5" style=3D"background-color:#e0e0e0!important;bo=
+rder-collapse:collapse;font-size:1px;height:1px;line-height:1px;padding:0;v=
+ertical-align:top" bgcolor=3D"#e0e0e0 !important" valign=3D"top"></td></tr>
+<tr>
+<td style=3D"background:#ffffff;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#ffffff" valign=3D"top">
+<div style=3D"font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-si=
+ze:14px;line-height:1em;text-transform:uppercase">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl103" s=
+tyle=3D"color:#023166;font-weight:bold;text-decoration:none" target=3D"_bla=
+nk">
+KEEP TABS ON YOUR BAG.=C2=A0=E2=80=BA
+</a>
+</div>
+
+<table style=3D"background:#fff;border-collapse:collapse;border:0;width:100=
+%" bgcolor=3D"#fff"><tbody><tr><td style=3D"background:#ffffff;border-colla=
+pse:collapse;padding:10px 0 0;vertical-align:top" bgcolor=3D"#ffffff" valig=
+n=3D"top">
+<div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px;line-height:18px">Track your bag just like you track a p=
+ackage <br>on the Fly=C2=A0Delta app or at <a href=3D"http://delta.com/trac=
+kbag" target=3D"_blank">delta.com/trackbag</a>.</div>
+</td></tr></tbody></table>
+
+</td>
+<td style=3D"background:#ffffff;border-collapse:collapse;padding:10px 25px;=
+vertical-align:top" bgcolor=3D"#ffffff" valign=3D"top" align=3D"right">
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl103" s=
+tyle=3D"color:#0263a4;text-decoration:none" target=3D"_blank">
+<img src=3D"http://f.e.delta.com/i/19/2068312564/150409_iPhone6_new_Book40.=
+png" alt=3D"Keep Tabs On Your Bag" style=3D"border:none;display:block;outli=
+ne:none;text-decoration:none">
+</a>
+</td>
+</tr>
+</tbody></table>
+
+         =20
+      </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+
+<tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:auto!important" bgcolor=3D"#072358" valign=3D"top"=
+> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+    <tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"border-collapse:collapse;padding:0">
+
+              =20
+                <table style=3D"background:#fff;border-collapse:collapse;bo=
+rder:0;width:100%" bgcolor=3D"#fff">
+                    <tbody><tr>
+
+
+                        <td style=3D"border-collapse:collapse;padding:0px;v=
+ertical-align:top" valign=3D"top">
+                            <a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB8=
+9PgrNwVouf.B8LP6Ick/dl124" style=3D"color:#0263a4;text-decoration:none" tar=
+get=3D"_blank">
+                                <img src=3D"http://f.e.delta.com/i/5/208332=
+3528/img-footer-FlyDeltaApp-574x85.jpg" height=3D"85" width=3D"574" alt=3D"=
+THE #1 AIRLINE APP. | Get the Fly Delta app today." style=3D"border:none;di=
+splay:block;outline:none;text-decoration:none">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody></table>
+        </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>=20
+=20
+<tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:auto!important" bgcolor=3D"#072358" valign=3D"top"=
+> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+<tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:auto!important" bgcolor=3D"#072358" valign=3D"top"=
+> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+    <tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"border-collapse:collapse;padding:0 27px 65px">
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:15px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px"><img src=3D"http://f.e=
+.delta.com/i/5/2083323528/akqa_leaf.png" height=3D"11" width=3D"12" alt=3D"=
+Leaf icon" style=3D"display:inline;outline:none;text-decoration:none;vertic=
+al-align:initial"> We have partnered with The Nature Conservancy to allow y=
+ou to offset your carbon emissions from this trip. Go to <a href=3D"http://=
+e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl6#calc" style=3D"color:#=
+0263a4;text-decoration:none" target=3D"_blank">delta.com/CO2</a> to calcula=
+te your CO2 emissions and learn more about offsetting.</div>
+            </td></tr></tbody></table>
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px"><strong>Terms &amp; Co=
+nditions</strong></div>
+            </td></tr></tbody></table>
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                  This ticket is non-refundable unless the original ticket =
+was issued at a fully refundable fare. Some fares
+may not allow changes. If allowed, any change to your itinerary may require=
+ payment of a change fee
+and increased fare. Failure to appear for any flight without notice to Delt=
+a will result in cancellation of          =20
+your remaining reservation.<br><br>
+Note: When using certain vouchers to purchase tickets, remaining credits ma=
+y not be refunded.
+Additional charges and/or credits may apply.
+                </div>
+            </td></tr></tbody></table>
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    <strong>Checked Bag Allowance</strong>
+                </div>
+            </td></tr></tbody></table>
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    *On Delta operated flights, you may carry on one bag an=
+d a small personal item at no charge.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    Delta One=E2=84=A2/First/Business Class weight allowanc=
+e reverts to 50 lbs for all checked bags beyond regular free allowance.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    At the time of check in with Delta, SkyMiles Medallion =
+members, SkyTeam Elite &amp; Elite Plus and active US Military personnel ar=
+e eligible for fee waivers and other benefits. For more details, visit <a h=
+ref=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl41" style=
+=3D"color:#0263a4;text-decoration:none" target=3D"_blank">delta.com/baggage=
+</a>. Basic Cardmembers with a Gold, Platinum, or Reserve Delta SkyMiles Cr=
+edit Card from American Express are eligible for the first bag fee waiver. =
+More details on the program can be found at <a href=3D"http://e.delta.com/a=
+/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl17" style=3D"color:#0263a4;text-decor=
+ation:none" target=3D"_blank">delta.com/firstbagfree</a>.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    A standard checked bag with Delta may be up to 50 lbs a=
+nd 62 linear inches (per piece). Additional fees apply for oversize, overwe=
+ight, and/or additional pieces of checked baggage. Please review Delta&#39;=
+s baggage guidelines for details. Weight and size restrictions may vary whe=
+n checking baggage on carriers other than Delta. Contact with the operating=
+ carrier for detailed checked baggage allowances. You must be checked in at=
+ the gate by the applicable check-in deadlines or your reservation may be c=
+ancelled. Please review Delta&#39;s check-in requirement guidelines for det=
+ails. Check-in requirements vary by airline, so if your ticket includes tra=
+vel on other airlines, please check with the operating carrier on your tick=
+et.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    Do you have comments about our service? Please <a href=
+=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl8" style=3D"c=
+olor:#0263a4;text-decoration:none" target=3D"_blank">email</a> us to share =
+them.
+                </div>
+            </td></tr></tbody></table>
+           =20
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    <strong>Conditions of Carriage</strong>
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    Air transportation on Delta and the Delta Connection=C2=
+=AE carriers is subject to Delta&#39;s <a href=3D"http://e.delta.com/a/hBVW=
+hjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;text-dec=
+oration:none" target=3D"_blank">conditions of carriage</a>. They include te=
+rms governing for example:
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    =E2=80=A2	<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6I=
+B89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;text-decoration:n=
+one" target=3D"_blank">Limits on our liability</a> for personal injury or d=
+eath of passengers, and for loss, damage of delay of goods and baggage.<br>
+                    =E2=80=A2	<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6I=
+B89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;text-decoration:n=
+one" target=3D"_blank">Claim restrictions</a> including time periods within=
+ which you must file a claim or bring action against us.<br>
+                    =E2=80=A2	Our right to <a href=3D"http://e.delta.com/a/=
+hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;text=
+-decoration:none" target=3D"_blank">change terms</a> of the contract.<br>
+                    =E2=80=A2	<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6I=
+B89PgrNwVouf.B8LP6Ick/dl19" style=3D"color:#0263a4;text-decoration:none" ta=
+rget=3D"_blank">Check-in requirements</a> and other rules established when =
+we may <a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/d=
+l7#INTLLMT" style=3D"color:#0263a4;text-decoration:none" target=3D"_blank">=
+refuse carriage</a>.<br>
+                    =E2=80=A2	Our rights and limits of our liability for <a=
+ href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLM=
+T" style=3D"color:#0263a4;text-decoration:none" target=3D"_blank">delay or =
+failure to perform service</a> including schedule change, substitution of a=
+lternative air carriers or aircraft, and rerouting.<br>
+                    =E2=80=A2	Our policy on <a href=3D"http://e.delta.com/a=
+/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;tex=
+t-decoration:none" target=3D"_blank">overbooking flights</a>, and your righ=
+ts if we deny you boarding due to an oversold flight.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    These terms are incorporated by reference into our cont=
+ract with you. You may view these <a href=3D"http://e.delta.com/a/hBVWhjfB8=
+LP6IB89PgrNwVouf.B8LP6Ick/dl7#INTLLMT" style=3D"color:#0263a4;text-decorati=
+on:none" target=3D"_blank">conditions of carriage</a> on <a href=3D"http://=
+e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl5" style=3D"color:#0263a=
+4;text-decoration:none" target=3D"_blank">delta.com</a>, or by requesting a=
+ copy from Delta.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    You have received this email because you elected to rec=
+eive your Electronic Ticket receipt sent to you via email. If you would lik=
+e to take advantage of other Delta email programs featuring special fares, =
+promotions, information and flight updates, please visit: <a href=3D"http:/=
+/e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl11" style=3D"color:#026=
+3a4;text-decoration:none" target=3D"_blank">delta.com/emailprograms</a> or =
+<a href=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl21" st=
+yle=3D"color:#0263a4;text-decoration:none" target=3D"_blank">delta.com/noti=
+fications</a>.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    This document establishes the creation of your electron=
+ic EMD(S) in our computer systems. It does not constitute a document of car=
+riage. Where this document is issued for transportation or services other t=
+han passenger air transportation, specific terms and conditions may apply. =
+These terms and conditions may be provided separately or may be obtained fr=
+om the issuing agent.
+                </div>
+            </td></tr></tbody></table>
+                     <table style=3D"border-collapse:collapse;border:0"><tb=
+ody><tr><td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12x">
+                    <strong>Copyright Information</strong>
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    This email message and its contents are copyrighted and=
+ are proprietary products of Delta Air Lines, Inc. Any unauthorized use, re=
+production, or transfer of this message or its contents, in any medium, is =
+strictly prohibited.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#00;font-family:Tahoma,Verdana,Arial,He=
+lvetica,sans-serif;font-size:10px;line-height:12px">
+                    This is a post only email. Please do not respond to thi=
+s message.
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:18px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    =C2=A9 2015 Delta Air Lines, Inc. All rights reserved.
+                </div>
+            </td></tr></tbody></table>
+                     <table style=3D"border-collapse:collapse;border:0"><tb=
+ody><tr><td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    <strong>Privacy Policy</strong>
+                </div>
+            </td></tr></tbody></table>
+
+            <table style=3D"border-collapse:collapse;border:0"><tbody><tr><=
+td style=3D"border-collapse:collapse;padding:10px 0 0">
+                <div style=3D"color:#000;font-family:Tahoma,Verdana,Arial,H=
+elvetica,sans-serif;font-size:10px;line-height:12px">
+                    Your privacy is important to us. Please review our <a h=
+ref=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/dl10" style=
+=3D"color:#0263a4;text-decoration:none" target=3D"_blank">Privacy Policy</a=
+>.
+                </div>
+            </td></tr></tbody></table>
+
+      </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+
+<tr>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:auto!important" bgcolor=3D"#072358" valign=3D"top"=
+> </td>
+        <td style=3D"background:#072358;border-collapse:collapse;padding:0;=
+vertical-align:top;width:13px" bgcolor=3D"#072358" valign=3D"top"> </td>
+    </tr>
+<tr>
+        <td colspan=3D"3" style=3D"background:#072358;vertical-align:top;he=
+ight:13px" bgcolor=3D"#072358" valign=3D"top"></td>
+</tr> =20
+
+  </tbody></table>
+      </td>
+  </tr></tbody></table>
+<img src=3D"http://e.delta.com/a/hBVWhjfB8LP6IB89PgrNwVouf.B8LP6Ick/column.=
+gif">
+</div>
+
+</div><br></div>
+
+--047d7ba976c8a0ead80516860a0c--

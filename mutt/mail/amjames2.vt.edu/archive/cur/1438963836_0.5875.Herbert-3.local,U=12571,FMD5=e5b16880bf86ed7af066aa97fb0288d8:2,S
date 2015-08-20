@@ -1,0 +1,123 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1022573qgt;
+        Thu, 6 Aug 2015 08:25:06 -0700 (PDT)
+X-Received: by 10.140.194.198 with SMTP id p189mr4298819qha.42.1438874706050;
+        Thu, 06 Aug 2015 08:25:06 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 87si12454658qkx.9.2015.08.06.08.25.05
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 08:25:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.175 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-io0-f175.google.com (mail-io0-f175.google.com [209.85.223.175])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76FP0m8004930
+	for <amjames2@vt.edu>; Thu, 6 Aug 2015 11:25:05 -0400
+Received: by ioii16 with SMTP id i16so84654681ioi.0
+        for <amjames2@vt.edu>; Thu, 06 Aug 2015 08:25:00 -0700 (PDT)
+X-Received: by 10.107.137.218 with SMTP id t87mr2716838ioi.37.1438874700040;
+        Thu, 06 Aug 2015 08:25:00 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1049466iee;
+        Thu, 6 Aug 2015 08:24:58 -0700 (PDT)
+X-Received: by 10.140.106.53 with SMTP id d50mr4112841qgf.6.1438874697968;
+        Thu, 06 Aug 2015 08:24:57 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2607:b400:92:8300:0:c6:2117:b0e])
+        by mx.google.com with ESMTPS id 35si12312297qkw.127.2015.08.06.08.24.57
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 06 Aug 2015 08:24:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8300:0:c6:2117:b0e as permitted sender) client-ip=2607:b400:92:8300:0:c6:2117:b0e;
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:232:8670:19fe])
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76FOvOt007541
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 11:24:57 -0400
+Received: from mail-ig0-f172.google.com (mail-ig0-f172.google.com [209.85.213.172])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t76FOpFX032348
+	for <andrew.m.james2@gmail.com>; Thu, 6 Aug 2015 11:24:56 -0400
+Received: by igbpg9 with SMTP id pg9so13687931igb.0
+        for <andrew.m.james2@gmail.com>; Thu, 06 Aug 2015 08:24:51 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=XzIyM6xWTVTV4mI0b7WJiSIC9jEd8n3m+u9YTHSySRU=;
+        b=BrlOewQkCFHXz8/a8KkPreiAaTsvELU+VgCK9NY5j8AHFfsyMw6b57etBvIRiMXjdP
+         esdba+9Z1cBLxiHkcyLNLWa34cs4YL6HKMFEEOB0ToyFBOshGy3MPMoPBef7OPKleHji
+         Scc7AJ4z/Ol3x0YN+wGTSSvXBqnwnxNtFMXh5oWTqOFKL95dxfE+qJf6qASJNBwXclb/
+         AYSTMOPD15Cac3mr/NfhlcDVtseT+gQl2yEhb5L1bz3r+8UDzyCvL0ER5qvWRqRwlLry
+         uPZtwR7psbb8itwtw+hyl8pduXbcfEiCgnF2WxIC8yme1brW5SWWlV7wKDsa+nXFP3eN
+         j9XQ==
+X-Gm-Message-State: ALoCoQkqzzp+Vw/9UwGfWJkp49Izhelm2tY66IYgZ83rx3cPvRK9FzpcY4FENGvH5iu7Zv4QSqxYcVCAj6xCN9m0kXgzyQ6ZFUO9/RSFMgnKjWrnEDCGaWPm+l5KYCONKeiQtggXaVwtKKnq8++R3sAyU2iQsF7DxQ==
+X-Received: by 10.50.50.175 with SMTP id d15mr4651003igo.18.1438874691575;
+        Thu, 06 Aug 2015 08:24:51 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.50.175 with SMTP id d15mr4650978igo.18.1438874691360;
+ Thu, 06 Aug 2015 08:24:51 -0700 (PDT)
+Received: by 10.107.55.87 with HTTP; Thu, 6 Aug 2015 08:24:51 -0700 (PDT)
+Date: Thu, 6 Aug 2015 09:24:51 -0600
+Message-ID: <CAH0V_1ayjAagCYuBYXpu1GbvdgP-Y2SjdiEWbb1uP8uyOJ3-eg@mail.gmail.com>
+Subject: UHF NOs
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andy Simmonett <andy.simmonett@gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b2e549cdaf3ac051ca61e09
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7b2e549cdaf3ac051ca61e09
+Content-Type: text/plain; charset=UTF-8
+
+Hi, Andy,
+
+I need to ask your input on the best place to include the computation of
+UHF NOs within the UHF class.  I added them to the finalize() function with
+no problems, and the code works cleanly, but I'm wondering if I should try
+to be more elegant about this and insert them into the OEProp class.  The
+problem with OEProp is that the approach we have to use to compute the NOs
+really applies only to the UHF wave function, so perhaps I should keep the
+code limited to the UHF class only.  Now, some of what this calculation
+requires is already computed in the compute_wiberg_lowdin_indices() code,
+namely the formation of S^(1/2) D S^(1/2), but this is so trivial that I
+guess it doesn't matter if I repeat it.  The only thing the
+compute_no_occupations() code offers is the nasty sorting and printing of
+the NOONs.
+
+Opinions?
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+--047d7b2e549cdaf3ac051ca61e09
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, Andy,<div><br></div><div>I need to ask your input on t=
+he best place to include the computation of UHF NOs within the UHF class.=
+=C2=A0 I added them to the finalize() function with no problems, and the co=
+de works cleanly, but I&#39;m wondering if I should try to be more elegant =
+about this and insert them into the OEProp class.=C2=A0 The problem with OE=
+Prop is that the approach we have to use to compute the NOs really applies =
+only to the UHF wave function, so perhaps I should keep the code limited to=
+ the UHF class only.=C2=A0 Now, some of what this calculation requires is a=
+lready computed in the compute_wiberg_lowdin_indices() code, namely the for=
+mation of S^(1/2) D S^(1/2), but this is so trivial that I guess it doesn&#=
+39;t matter if I repeat it.=C2=A0 The only thing the compute_no_occupations=
+() code offers is the nasty sorting and printing of the NOONs.</div><div><b=
+r></div><div>Opinions?</div><div><br></div><div>-TDC<br clear=3D"all"><div>=
+<div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Craw=
+ford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@=
+vt.edu</a></div></div></div></div>
+</div></div>
+
+--047d7b2e549cdaf3ac051ca61e09--

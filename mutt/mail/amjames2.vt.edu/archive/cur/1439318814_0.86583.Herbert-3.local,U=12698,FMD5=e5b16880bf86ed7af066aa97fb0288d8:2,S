@@ -1,0 +1,114 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2626747qgt;
+        Tue, 11 Aug 2015 11:46:29 -0700 (PDT)
+X-Received: by 10.140.133.145 with SMTP id 139mr54150351qhf.76.1439318789484;
+        Tue, 11 Aug 2015 11:46:29 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id 19si4888421qgf.106.2015.08.11.11.46.29
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 11:46:29 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) client-ip=192.254.113.101;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.113.101 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o6.sgmail.github.com (o6.sgmail.github.com [192.254.113.101])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t7BIkM4R017500
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 14:46:28 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=jwYtO3JVtYNB4+eVCKS9rqFEBco=; b=LPKx7HqI7+8o/sDA
+	21Jdt0NK3lw/mZW7gjwV6H4oEx6oGYV5d27jcpOU1hfOlpWcOK53L1/oOjJF/guT
+	vnQAnODBfVKZC8YJSkF5SXVvd2KxXnOtb7p9hWtNgVbK6BfcsSepJpKwU1kzGHg6
+	JSmNg3j8QCHdNllQZyVDpNXFjLo=
+Received: by filter0578p1mdw1.sendgrid.net with SMTP id filter0578p1mdw1.24361.55CA42FC20
+        2015-08-11 18:46:21.035781041 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0004p1iad1.sendgrid.net (SG) with ESMTP id CXZrImHNSeGzLHi_kqRXmQ
+	for <amjames2@vt.edu>; Tue, 11 Aug 2015 18:46:20 +0000 (UTC)
+Date: Tue, 11 Aug 2015 11:46:20 -0700
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f642bbd137737b657c553aff861849eeffe99730ff2692cf0000000111e204fc92a169ce05fba0f8@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/pull/160/c130013400@github.com>
+In-Reply-To: <psi4/psi4public/pull/160@github.com>
+References: <psi4/psi4public/pull/160@github.com>
+Subject: Re: [psi4public] Minor py3k fixes. (#160)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ca42fc9dd8b_29a23fd61818b2c02691c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f642bbd137737b657c553aff861849eeffe99730ff2692cf0000000111e204fc92a169ce05fba0f8@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642bbd137737b657c553aff861849eeffe99730ff2692cf0000000111e204fc92a169ce05fba0f8@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QoxuaPulFLuePSWnz3ryZKBbduacks5omjp8gaJpZM4Fprnj>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Il/7rWI8aKqu+m4KSwC2SVJfly1zOgBVCS6Lz
+ PB+6HPbo8q9/9t72XCe8Sq8dGI7Gj9JJg9lASjV1RfbHHqeG+iFwFxkfFQlJaMEP2+4ViUhm0rPTV/
+ RE6TM4QZskJxYik=
+X-Spam-Status: No, score=0.4 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55ca42fc9dd8b_29a23fd61818b2c02691c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Have you tested this against Python 2, too? I'm getting the following error at execution time on my Mac with Python 2.7:
+
+```
+Traceback (most recent call last):
+  File "<string>", line 29, in <module>
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/driver.py", line 618, in energy
+    procedures['energy'][lowername](lowername, **kwargs)
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/proc.py", line 2123, in run_adc
+    scf_helper(name, **kwargs)
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/proc.py", line 1457, in scf_helper
+    e_scf = psi4.scf(precallback, postcallback)
+TypeError: No registered converter was able to produce a C++ rvalue of type std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > from this Python object of type unicode
+```
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/pull/160#issuecomment-130013400
+----==_mimepart_55ca42fc9dd8b_29a23fd61818b2c02691c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Have you tested this against Python 2, too? I'm getting the following error at execution time on my Mac with Python 2.7:</p>
+
+<pre><code>Traceback (most recent call last):
+  File "&lt;string&gt;", line 29, in &lt;module&gt;
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/driver.py", line 618, in energy
+    procedures['energy'][lowername](lowername, **kwargs)
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/proc.py", line 2123, in run_adc
+    scf_helper(name, **kwargs)
+  File "/Users/jturney/Code/Chemistry/psi4/source/lib/python/proc.py", line 1457, in scf_helper
+    e_scf = psi4.scf(precallback, postcallback)
+TypeError: No registered converter was able to produce a C++ rvalue of type std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; from this Python object of type unicode
+</code></pre>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/pull/160#issuecomment-130013400">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QqMDkw8reTR_GvQMKmvXdUEq_0QJks5omjp8gaJpZM4Fprnj.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+  <link itemprop="url" href="https://github.com/psi4/psi4public/pull/160#issuecomment-130013400"></link>
+  <meta itemprop="name" content="View Pull Request"></meta>
+</div>
+<meta itemprop="description" content="View this Pull Request on GitHub"></meta>
+</div>
+
+----==_mimepart_55ca42fc9dd8b_29a23fd61818b2c02691c--

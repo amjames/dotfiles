@@ -1,0 +1,158 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.136 with SMTP id b8csp712573qgb;
+        Wed, 19 Aug 2015 20:50:07 -0700 (PDT)
+X-Received: by 10.140.108.10 with SMTP id i10mr1758826qgf.75.1440042607693;
+        Wed, 19 Aug 2015 20:50:07 -0700 (PDT)
+Return-Path: <bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id k38si5230368qkh.112.2015.08.19.20.50.07
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Aug 2015 20:50:07 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) client-ip=192.254.112.99;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com designates 192.254.112.99 as permitted sender) smtp.mailfrom=bounces+848413-3e11-amjames2=vt.edu@sgmail.github.com;
+       dkim=pass header.i=@github.com
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7K3o0pS024176
+	for <amjames2@vt.edu>; Wed, 19 Aug 2015 23:50:06 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=github.com; 
+	h=from:reply-to:to:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding:list-id:list-archive:list-post:list-unsubscribe; 
+	s=s20150108; bh=PfCmvPPjzYQlmFeiRAWsvhTnCeQ=; b=XcH3MZkBk6dILzks
+	OmOnP/hP6uwfuhkG4QkH1TALRZAG1oBUXrHXO3+8I04R7/EMq6LXgzJeLX0uYDBE
+	DEfSff+BveE2EOQ16VnPCdthRZvUa+EztBldT+S5llrqE0aRVVMBV+vjoHzaQFqK
+	TZa69UeG1JBF5lOAU56th5m6ipI=
+Received: by filter0855p1mdw1.sendgrid.net with SMTP id filter0855p1mdw1.24533.55D54E677
+        2015-08-20 03:49:59.405374646 +0000 UTC
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2b-ext-cp1-prd.iad.github.net [192.30.253.17])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id FJUHB6hNTO25WYkT4gGxCQ
+	for <amjames2@vt.edu>; Thu, 20 Aug 2015 03:49:59.297 +0000 (UTC)
+Date: Wed, 19 Aug 2015 20:49:59 -0700
+From: "T. Daniel Crawford" <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f64256125de1ec57d8cb60788a06c41674515079cf7492cf0000000111ed106792a169ce05989dab@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/103/132876152@github.com>
+In-Reply-To: <psi4/psi4/issues/103@github.com>
+References: <psi4/psi4/issues/103@github.com>
+Subject: Re: [psi4] Stability analysis (#103)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d54e6723726_46a33fcd2d5112bc13750e4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: lothian
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f64256125de1ec57d8cb60788a06c41674515079cf7492cf0000000111ed106792a169ce05989dab@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64256125de1ec57d8cb60788a06c41674515079cf7492cf0000000111ed106792a169ce05989dab@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qr8qfquRTOt1j0BTaKmK4wr0Juybks5opUXngaJpZM4FUwc->
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-SG-EID: UJLDIEm0+sbiS+3uuNJpMWQdL8kmmWJ29I1nvY4W5Ik6tyjESBXPGw+4kxgxU55Rvyiwi5wESj3cMp
+ PV/17cD1BJEiAl3WPWiHNnQcnoapFXpdbpXnIcdi8gtBgSFENXmhmQk79oqHHsmBFxm8kfrzdoykO7
+ DPM7L8IfixFQXW8=
+X-Spam-Status: No, score=-2.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_20,HTML_MESSAGE,RCVD_IN_DNSWL_MED,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+----==_mimepart_55d54e6723726_46a33fcd2d5112bc13750e4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I think perhaps separation of the call to HF::finalize() may make more
+sense within the SCF::main() driver, as long as re-use of integrals and
+other quantities is maintained.  However, this discussion raises
+fundamental questions of the design of the libscf_solver code, and I'd be
+interested in input from @jturney, @robparrish, @andysim, and @loriab
+before proceeding.
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Aug 18, 2015 at 9:37 AM, jgonthier <notifications@github.com> wrote:
+
+> Oh, I see what you mean now. Maybe it makes more sense to have the
+> stability inside SCF::main()... It should not be too much of a hassle, I'd
+> just need to move the call to finalize() to the SCF::main() as well.
+> Right now, a lot of things happen in compute_energy(). Do you think all
+> initialization steps should be moved to a separate initialize() function =
+as
+> well ?
+>
+> =E2=80=94
+> Reply to this email directly or view it on GitHub
+> <https://github.com/psi4/psi4/issues/103#issuecomment-132208751>.
+>
+
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/103#issuecomment-132876152=
+
+----==_mimepart_55d54e6723726_46a33fcd2d5112bc13750e4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I think perhaps separation of the call to HF::finalize() may make more<br>
+sense within the SCF::main() driver, as long as re-use of integrals and<br>
+other quantities is maintained.  However, this discussion raises<br>
+fundamental questions of the design of the libscf_solver code, and I&#39;d =
+be<br>
+interested in input from @jturney, @robparrish, @andysim, and @loriab<br>
+before proceeding.<br>
+<br>
+-TDC<br>
+<br>
+--<br>
+Prof. T. Daniel Crawford<br>
+crawdad@vt.edu<br>
+<br>
+On Tue, Aug 18, 2015 at 9:37 AM, jgonthier &lt;notifications@github.com&gt;=
+ wrote:<br>
+<br>
+&gt; Oh, I see what you mean now. Maybe it makes more sense to have the<br>
+&gt; stability inside SCF::main()... It should not be too much of a hassle,=
+ I&#39;d<br>
+&gt; just need to move the call to finalize() to the SCF::main() as well.<b=
+r>
+&gt; Right now, a lot of things happen in compute_energy(). Do you think al=
+l<br>
+&gt; initialization steps should be moved to a separate initialize() functi=
+on as<br>
+&gt; well ?<br>
+&gt;<br>
+&gt; =E2=80=94<br>
+&gt; Reply to this email directly or view it on GitHub<br>
+&gt; &lt;https://github.com/psi4/psi4/issues/103#issuecomment-132208751&gt;=
+.<br>
+&gt;<br>
+
+
+<p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666;">&mda=
+sh;<br>Reply to this email directly or <a href=3D"https://github.com/psi4/p=
+si4/issues/103#issuecomment-132876152">view it on GitHub</a>.<img alt=3D"" =
+height=3D"1" src=3D"https://github.com/notifications/beacon/AIn2Qi0Lxmi99-H=
+VXAjx7_39oKYyut67ks5opUXngaJpZM4FUwc-.gif" width=3D"1" /></p>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage">
+<div itemprop=3D"action" itemscope itemtype=3D"http://schema.org/ViewAction=
+">
+  <link itemprop=3D"url" href=3D"https://github.com/psi4/psi4/issues/103#is=
+suecomment-132876152"></link>
+  <meta itemprop=3D"name" content=3D"View Issue"></meta>
+</div>
+<meta itemprop=3D"description" content=3D"View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55d54e6723726_46a33fcd2d5112bc13750e4--

@@ -1,0 +1,90 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.104.134 with SMTP id a6csp349679qgf;
+        Tue, 11 Nov 2014 12:04:47 -0800 (PST)
+X-Received: by 10.224.115.82 with SMTP id h18mr20157877qaq.76.1415736287626;
+        Tue, 11 Nov 2014 12:04:47 -0800 (PST)
+Return-Path: <jamarti1@vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id v7si38510468qge.5.2014.11.11.12.04.47
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Nov 2014 12:04:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of jamarti1@vt.edu designates 198.82.160.8 as permitted sender) client-ip=198.82.160.8;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jamarti1@vt.edu designates 198.82.160.8 as permitted sender) smtp.mail=jamarti1@vt.edu
+Received: from exchange.vt.edu (braille.cc.vt.edu [198.82.160.8] (may be forged))
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id sABK4gs2025582
+	for <amjames2@vt.edu>; Tue, 11 Nov 2014 15:04:47 -0500
+X-CrossPremisesHeadersFilteredBySendConnector: BRAILLE.cc.w2k.vt.edu
+Received: from MARCONI.cc.w2k.vt.edu (198.82.160.13) by BRAILLE.cc.w2k.vt.edu
+ (198.82.160.8) with Microsoft SMTP Server (TLS) id 15.0.995.29; Tue, 11 Nov
+ 2014 15:04:41 -0500
+Received: from MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06]) by
+ MARCONI.cc.w2k.vt.edu ([fe80::a822:9a0:814d:5e06%12]) with mapi id
+ 15.00.0995.031; Tue, 11 Nov 2014 15:04:41 -0500
+From: "Austin, Janice" <jamarti1@vt.edu>
+To: "James, Andrew" <amjames2@vt.edu>
+Subject: Final transcript received
+Thread-Topic: Final transcript received
+Thread-Index: AQHP/eq65bvHY3+dNUayIuQq5DcJhQ==
+Date: Tue, 11 Nov 2014 20:04:41 +0000
+Message-ID: <839d62c6573a4ea5ba93e1972805fff4@MARCONI.cc.w2k.vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [128.173.148.160]
+x-brightmail-tracker: H4sIAAAAAAAAC+NgFnrBqsTGxXIsaAGv7s3spBCDn3f+ilh8bTJ2YAxgiGLNzEvKr0hgzVj15jlrwWXZiuffV7M0MN6S6WLk4hAS2Mgosaq5lwXC2c0o0XdrNXMXIycHs4CpxJWvjSwQtqLEhXsNYDabgIbEsYY3jCC2iICqxP7lt8DqhQWUJN5dvMgMEVeXePD4J1SNnsTri09ZQWwWoPoHJ/8BzeHg4BVwkVi4NRwkzCggJvH91BomiFXiEreezAezJQQEJJbsOc8MYStJ9N5+BxX3k7h+aiEbiM0rIChxcuYTFoi4mcTeB0uganQlzvTMheoNlLj87A4jyFoJoLeuvg+GCNtK7JkxkQki7Cwx70Y9RNhG4lr/DqhObYntr/axQtg6EpuurYLaJC/x/959KNtZ4uKb7+wQY5QlnhxUhghHSDz8vYIFIlwmcaBFARTGEgJzGSVO777LPoFRZRZSMM9CCuZZSOEwC8mPCxhZVjGKOgU5evr4uOolJ+uVG2XrlZXopaaUbmKEJACOHYzLvzkfYpTkYFIS5c1LSQoR4kvKT6nMSCzOiC8qzUktPsQowcGjJMJ7OBMox1tckJhbnJkOk5Lh4FCS4H0JkhIsSk1PrUjLzClJLYJIn2JUlBLnfQaSFADpyyjNg8vB0t8lRlkpYV4NkL08BalFuZklqPK3GDmkoMxXjOIcjErCvFxZIMWZeSVwd7wCOpEJ6MRv4WAnliQipKQaGJleFh1oMmjeMt//gEenSnfFMulP3LP2uYd05Cy+LaF9ckFqSMfbq5ftM9Re7Lww9eAKl5CDH8N1y7WdBE4y9sT8dtjpopJYfMQk8JMx42fP3xdtf59zStwz8dl3CcNY0/DEOr6ZoYvdImVa/yy7+CbKab5/gYCzgF3cr7Iq5mOhn1/6Ptl9RYmlOCPRUIu5qDgRAC1YlyF7AwAA
+Content-Type: multipart/alternative;
+	boundary="_000_839d62c6573a4ea5ba93e1972805fff4MARCONIccw2kvtedu_"
+MIME-Version: 1.0
+X-OrganizationHeadersPreserved: BRAILLE.cc.w2k.vt.edu
+X-Spam-Status: No, score=-0.5 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--_000_839d62c6573a4ea5ba93e1972805fff4MARCONIccw2kvtedu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Andrew,
+
+
+
+Your final transcript has been received.
+
+
+
+Thanks!
+
+~Janice
+
+--_000_839d62c6573a4ea5ba93e1972805fff4MARCONIccw2kvtedu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none"><!-- p { margin-top: 0px; m=
+argin-bottom: 0px; }--></style>
+</head>
+<body dir=3D"ltr" style=3D"font-size:12pt;color:#000000;background-color:#F=
+FFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p>Andrew,</p>
+<p>&nbsp;</p>
+<p>Your final transcript has been received.</p>
+<p>&nbsp;</p>
+<p>Thanks!<br>
+<br>
+~Janice</p>
+<p></p>
+</body>
+</html>
+
+--_000_839d62c6573a4ea5ba93e1972805fff4MARCONIccw2kvtedu_--

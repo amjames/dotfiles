@@ -1,0 +1,113 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2862638qgt;
+        Tue, 9 Jun 2015 18:26:54 -0700 (PDT)
+X-Received: by 10.55.55.74 with SMTP id e71mr1007712qka.65.1433899614716;
+        Tue, 09 Jun 2015 18:26:54 -0700 (PDT)
+Return-Path: <crawdad@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id 63si7101334qhw.101.2015.06.09.18.26.54
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 18:26:54 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning crawdad@vt.edu does not designate 209.85.223.175 as permitted sender) smtp.mail=crawdad@vt.edu
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5A1QmBd023176
+	for <amjames2@vt.edu>; Tue, 9 Jun 2015 21:26:54 -0400
+Received: by ieclw1 with SMTP id lw1so24916409iec.3
+        for <amjames2@vt.edu>; Tue, 09 Jun 2015 18:26:48 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=dFVHeijuw4JYQrhrYlu1iWKP65w5UfR3bjdyKzNeU2I=;
+        b=hRy65rIQSON3cJrlbMrslpapBhOB5BHrBFSQgYp46wPWFX32xp11MdrRcm4Jfebbmp
+         hrTE2t0rFSmAIkjUDFGhUhY6VgStLQoFsnIErPDQAMuuvbxaq4Evaj8fRTVwL8bK/I7M
+         oN7DUfTFIpCYtqeoERkfFdBeK9Sw9Jwtwl/5hSqzpKN1clZKlk/dqlhA/iL6Uz5CP9nk
+         VXor70Lb8NjAZx+lsOj8CHCnNrzKRz+Gwi8Qk5z8V43oR1WKsIaap5xBO5egkiUjpsaY
+         C84odfz0P15L7k7nWbrMvaH3JBP5rG8dH7xfJ9fO9HPEJemM6oqNCDLFKGRFhC2oPsRJ
+         0srA==
+X-Gm-Message-State: ALoCoQkKqe9RHWkfbl5Ua9kMbz898HaPn6s373uYpMHXjWubsyDrZ4PRoTrxOH3NPOZcSI5ZwhgK6uDMInm7nFDMwyrt8N+7Y2E+5UGRziMrb4xh8CtYbjEUaIur1m8nAxyevIT39aYzpJ9NKVgsT2IuxI95FIzu7Q==
+X-Received: by 10.107.159.77 with SMTP id i74mr832701ioe.9.1433899608860;
+        Tue, 09 Jun 2015 18:26:48 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.159.77 with SMTP id i74mr832695ioe.9.1433899608767; Tue,
+ 09 Jun 2015 18:26:48 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Tue, 9 Jun 2015 18:26:48 -0700 (PDT)
+In-Reply-To: <13D2F5AB-3EBE-4644-824D-3251E0D3ED31@vt.edu>
+References: <13D2F5AB-3EBE-4644-824D-3251E0D3ED31@vt.edu>
+Date: Tue, 9 Jun 2015 21:26:48 -0400
+Message-ID: <CAH0V_1ZLEEm-48oei3AC6ksUQD_eLqBVYyccLTtdPvmJicffrA@mail.gmail.com>
+Subject: Re: SSS Arrival/departure dates
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <amjames2@vt.edu>
+Cc: "Brow, Jessica" <jbrow@exchange.vt.edu>, Laurie Good <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=001a1140f4f8d30e1405181fc4de
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1140f4f8d30e1405181fc4de
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This looks excellent, AJ.  I'll send a schedule for the brochures soon.
+
+-TDC
+
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jun 9, 2015 at 3:51 PM, Andrew James <amjames2@vt.edu> wrote:
+
+> Hi everyone,
+>
+> I have arrival and departure dates for all but two of the SSS students.
+> One. Yen Bui, has contacted me but she only registered a few minutes ago,
+> and is waiting on me to tell if she is too late or not.  The other Justin
+> Smith has not replied to any of my emails. (but he registered so he at
+> least got the acceptance)
+>
+> I already have a good chunk of the MRPSS group as well. I will send that
+> along soon.
+>
+> Thanks
+> =E2=80=94AJ
+
+--001a1140f4f8d30e1405181fc4de
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">This looks excellent, AJ.=C2=A0 I&#39;ll send a schedule f=
+or the brochures soon.<div><br></div><div>-TDC</div><div><br></div></div><d=
+iv class=3D"gmail_extra"><br clear=3D"all"><div><div class=3D"gmail_signatu=
+re"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"m=
+ailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div=
+></div>
+<br><div class=3D"gmail_quote">On Tue, Jun 9, 2015 at 3:51 PM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:amjames2@vt.edu" target=3D"_blank"=
+>amjames2@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hi=
+ everyone,<br>
+<br>
+I have arrival and departure dates for all but two of the SSS students.=C2=
+=A0 One. Yen Bui, has contacted me but she only registered a few minutes ag=
+o, and is waiting on me to tell if she is too late or not.=C2=A0 The other =
+Justin Smith has not replied to any of my emails. (but he registered so he =
+at least got the acceptance)<br>
+<br>
+I already have a good chunk of the MRPSS group as well. I will send that al=
+ong soon.<br>
+<br>
+Thanks<br>
+<span class=3D"HOEnZb"><font color=3D"#888888">=E2=80=94AJ </font></span></=
+blockquote></div><br></div>
+
+--001a1140f4f8d30e1405181fc4de--

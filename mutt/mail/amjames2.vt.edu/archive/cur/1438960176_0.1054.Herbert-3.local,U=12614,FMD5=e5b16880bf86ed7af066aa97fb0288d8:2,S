@@ -1,0 +1,86 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp519953qgt;
+        Fri, 7 Aug 2015 08:09:21 -0700 (PDT)
+X-Received: by 10.140.22.73 with SMTP id 67mr13664463qgm.42.1438960161358;
+        Fri, 07 Aug 2015 08:09:21 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr1.cc.vt.edu (mr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:277:40de:506c])
+        by mx.google.com with ESMTPS id o16si18343055qhb.30.2015.08.07.08.09.21
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Aug 2015 08:09:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr1.cc.vt.edu (8.14.7/8.14.7) with ESMTP id t77F9FYs000910
+	for <amjames2@vt.edu>; Fri, 7 Aug 2015 11:09:20 -0400
+Date: Fri, 07 Aug 2015 08:09:15 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1438960155;
+	bh=UMTyPZxT/DPkoZplHssUrMtilX0k6LZszhCA3aAkUgU=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=zsXDR6mh/+pMmMlPsZZOet3gHPeIE0zFwtTxoiBJyBK4/JE+TRyBiEGTVbAoiJ1M4
+	 MBsrCO81poxKmrSXnmweFsEgokZnAi0DYi9OxodxJHKKd8sc941+0zF1bszoIFs2og
+	 x9gupoEuq9ifjZAGUirghNvgJvVY/xTF6F8y0y/Q=
+From: fevangelista <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f6425381dcbc643a755dd2c78700674983ee4284bd1992cf0000000111dc8c1b92a163ce00c017e2@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7/12589026@github.com>
+In-Reply-To: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7@github.com>
+References: <psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7@github.com>
+Subject: Re: [psi4] Added calculation of UHF NOs. (e219408)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c4ca1b4a7af_4383fc0be4792bc13598ee";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: fevangelista
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f6425381dcbc643a755dd2c78700674983ee4284bd1992cf0000000111dc8c1b92a163ce00c017e2@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f6425381dcbc643a755dd2c78700674983ee4284bd1992cf0000000111dc8c1b92a163ce00c017e2@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QuZSynrD39C5FoFH3dUj0LYEkoN7ks5olMGbgaJpZM4FnnMD>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=1.5 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_12,HTML_MESSAGE autolearn=disabled version=3.4.0
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mr1.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55c4ca1b4a7af_4383fc0be4792bc13598ee
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Thanks Daniel, was looking forward to having this feature in psi4.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7#commitcomment-12589026
+----==_mimepart_55c4ca1b4a7af_4383fc0be4792bc13598ee
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Thanks Daniel, was looking forward to having this feature in psi4.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7#commitcomment-12589026">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2Qga3qzy284lAZXhBENrrgTl1khLsks5olMGbgaJpZM4FnnMD.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/commit/e21940836ee8939c657eff25c96b056b633eede7#commitcomment-12589026"></link>
+    <meta itemprop="name" content="View Commit"></meta>
+  </div>
+  <meta itemprop="description" content="View this Commit on GitHub"></meta>
+</div>
+
+----==_mimepart_55c4ca1b4a7af_4383fc0be4792bc13598ee--

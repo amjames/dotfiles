@@ -1,0 +1,91 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1571347qgt;
+        Fri, 14 Aug 2015 07:02:33 -0700 (PDT)
+X-Received: by 10.55.33.232 with SMTP id f101mr77405211qki.89.1439560953395;
+        Fri, 14 Aug 2015 07:02:33 -0700 (PDT)
+Return-Path: <cduchane@vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id z69si725718qgd.62.2015.08.14.07.02.33
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 07:02:33 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.177 as permitted sender) client-ip=209.85.213.177;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning cduchane@vt.edu does not designate 209.85.213.177 as permitted sender) smtp.mailfrom=cduchane@vt.edu
+Received: from mail-ig0-f177.google.com (mail-ig0-f177.google.com [209.85.213.177])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7EE262I012633
+	for <amjames2@vt.edu>; Fri, 14 Aug 2015 10:02:28 -0400
+Received: by igfj19 with SMTP id j19so12478078igf.1
+        for <amjames2@vt.edu>; Fri, 14 Aug 2015 07:02:06 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=AuuwHW8yUFWPyrhfRDgCy1GmnUu9NDupdafRaA4VXk8=;
+        b=Hu3Qs3aJRoK35JY4tLPBTH77qhi/eGa36Mt11jgolnmOelfjoWvq+xhKKqKYJ7UW6z
+         6z8B+wclh4x3shD9IDXb8/TmbL6mdt0gtpZujGPhW7p9s6PR7hekWK54/IXX2C79N8O7
+         NuQdTEaKG2Cj6Z8FkzGePI5Z5g1zlOs+rmZp786/S8CZ0bmOTjoOID+LdDqJzfua1X78
+         zyhyMeb/FmuHwkmYY8Wz9u2ZNBBPBYy4jRisuGHhFIeEAS9y7S+Tgww2RoquisZ2mJJW
+         K3eOLKdD1cIZcXVBUjbPNItBA9cbBBGLre14nAPYvg/+k1o8mBYS7Ew17j/JzxORIi9l
+         saOA==
+X-Gm-Message-State: ALoCoQlMEJQHlQ7g79HNNIbKpUA6Cxi+GghjxQzCeZNEyZ86pnbLbp2F2CtBt7QtAS7cj7IH7M16ORf4FTUMjyv96twXqfehia6oqZWRXI82wp1LR7hvfEiw8sdY54OSQtc3AYNPFHhnYjCnN+UMCskbWdmItYyNHw==
+X-Received: by 10.50.17.73 with SMTP id m9mr2877996igd.49.1439560926064;
+        Fri, 14 Aug 2015 07:02:06 -0700 (PDT)
+X-Received: by 10.50.17.73 with SMTP id m9mr2877984igd.49.1439560925967; Fri,
+ 14 Aug 2015 07:02:05 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.119.5 with HTTP; Fri, 14 Aug 2015 07:01:46 -0700 (PDT)
+In-Reply-To: <CAECk6+7KZy295k5zr6FKLcds6kjLtFZ=oE8QTJQ0gvk1nFJPDQ@mail.gmail.com>
+References: <D54A1D25-65FC-4D3C-9EDB-092F010D2D39@vt.edu> <CAECk6+7KZy295k5zr6FKLcds6kjLtFZ=oE8QTJQ0gvk1nFJPDQ@mail.gmail.com>
+From: Christine Duchane <cduchane@vt.edu>
+Date: Fri, 14 Aug 2015 10:01:46 -0400
+Message-ID: <CAECk6+7tWVhDPiwf0ZX2PyGt6-TsjxyfBbFDWOK8tvvkQijNAw@mail.gmail.com>
+Subject: Re: Prepare for giggles
+To: Andrew James <amjames2@vt.edu>
+Content-Type: multipart/alternative; boundary=089e01161820a00b76051d45e51f
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e01161820a00b76051d45e51f
+Content-Type: text/plain; charset=UTF-8
+
+Ah sorry, my email went crazy on my phone and double replied or something.
+
+On Fri, Aug 14, 2015 at 10:01 AM, Christine Duchane <cduchane@vt.edu> wrote:
+
+> Hahaha that's mediumly accurate.
+> On Aug 14, 2015 9:30 AM, "Vtech" <amjames2@vt.edu> wrote:
+>
+>>
+>>
+>> Andrew James
+>> Marist College '14
+>
+>
+
+--089e01161820a00b76051d45e51f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Ah sorry, my email went crazy on my phone and double repli=
+ed or something.</div><div class=3D"gmail_extra"><br><div class=3D"gmail_qu=
+ote">On Fri, Aug 14, 2015 at 10:01 AM, Christine Duchane <span dir=3D"ltr">=
+&lt;<a href=3D"mailto:cduchane@vt.edu" target=3D"_blank">cduchane@vt.edu</a=
+>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 =
+0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><p dir=3D"ltr">Hahaha=
+ that&#39;s mediumly accurate.</p><div class=3D"HOEnZb"><div class=3D"h5">
+<div class=3D"gmail_quote">On Aug 14, 2015 9:30 AM, &quot;Vtech&quot; &lt;<=
+a href=3D"mailto:amjames2@vt.edu" target=3D"_blank">amjames2@vt.edu</a>&gt;=
+ wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" style=3D"=
+margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><br>
+<br>
+Andrew James<br>
+Marist College &#39;14</blockquote></div>
+</div></div></blockquote></div><br></div>
+
+--089e01161820a00b76051d45e51f--

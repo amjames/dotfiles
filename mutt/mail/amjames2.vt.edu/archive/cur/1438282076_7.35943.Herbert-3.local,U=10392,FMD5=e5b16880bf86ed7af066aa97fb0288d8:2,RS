@@ -1,0 +1,316 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp3181489qgt;
+        Wed, 10 Jun 2015 05:36:15 -0700 (PDT)
+X-Received: by 10.55.41.24 with SMTP id p24mr5684290qkh.55.1433939775263;
+        Wed, 10 Jun 2015 05:36:15 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id q52si8475762qgd.39.2015.06.10.05.36.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 05:36:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) client-ip=209.85.213.182;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.182 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5ACa9pJ004718
+	for <amjames2@vt.edu>; Wed, 10 Jun 2015 08:36:14 -0400
+Received: by igbsb11 with SMTP id sb11so32196157igb.0
+        for <amjames2@vt.edu>; Wed, 10 Jun 2015 05:36:08 -0700 (PDT)
+X-Received: by 10.42.214.79 with SMTP id gz15mr4513502icb.86.1433939768860;
+        Wed, 10 Jun 2015 05:36:08 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp2048464iec;
+        Wed, 10 Jun 2015 05:36:07 -0700 (PDT)
+X-Received: by 10.140.237.68 with SMTP id i65mr3738823qhc.42.1433939767295;
+        Wed, 10 Jun 2015 05:36:07 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id 32si8453167qkt.128.2015.06.10.05.36.06
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 05:36:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr4.cc.vt.edu (mr4.cc.vt.edu [198.82.164.236] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5ACa4sM030423
+	for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 08:36:04 -0400
+Received: from mail-ig0-f177.google.com (mail-ig0-f177.google.com [209.85.213.177])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5ACZw3V013938
+	for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 08:36:03 -0400
+Received: by igbpi8 with SMTP id pi8so34173688igb.1
+        for <andrew.m.james2@gmail.com>; Wed, 10 Jun 2015 05:35:58 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=dEjotCpT31P5Tma4gYO0BZw24TEE1MgQLrILLBtbUL0=;
+        b=YanbYL/iJntMZr2Fi56iJnzddjfJp7cvjNYC2XntL5iKib832U7fvJAoOrlvL/f8vz
+         76tkmD9+opC8GgnsG3cuF9v5xUzH30NDLgS2oG5C8gQBGFt9pJNY28XhDWraM01/A1cm
+         pNPZWSgNrjftrO2rZECwEx/lB4AMqObzxpMY1ZzBWHortwJyWoVzGK7qBlIdJLjcjFlN
+         kzyOBqrkJUtHBZCjhIpZTU1M2H3N0Q4S1mHOZDg8nbWlELuzpf5XEv6zCw1jUYpdjVqa
+         RFhIEuvJw+IVT6v8WFQGmANjgX67V/UQU82PxKxkl29i+yc+LHl6wotPO3JkRJwG27Mf
+         fDuQ==
+X-Gm-Message-State: ALoCoQlvrxz7tTUV1rzlTRLEMGfgcl7mslCboXyPRup90WPZdStCD3EySk24OWzR5m//pVnyqZxJOyKOxRrNf18IXQj3l/+2cbNB6ap9FqA/ebQqzQ9jPs3ExwyACemv3NXR3Mi/5FLaIUWpXbcob8lHeXvgjcMzQw==
+X-Received: by 10.50.176.228 with SMTP id cl4mr5573441igc.2.1433939758311;
+        Wed, 10 Jun 2015 05:35:58 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.176.228 with SMTP id cl4mr5573432igc.2.1433939758187;
+ Wed, 10 Jun 2015 05:35:58 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Wed, 10 Jun 2015 05:35:58 -0700 (PDT)
+In-Reply-To: <CAL+5PjwaEE9eKosqTbL0RVfeo2hWn4W_Ck2BXe63=9Gaydr8FQ@mail.gmail.com>
+References: <CAH0V_1Yyj86NdZsEt-ib0zSs=X1jOVJCF0y=yFpJz9LNzGcbzA@mail.gmail.com>
+	<C71FF349-F61F-46A0-BDE8-BD91F7ADDA9A@gmail.com>
+	<CAH0V_1b3vcygpLyUeG1Q6gXUx++nor3eWTz_K2Hn3KAjnoLk4g@mail.gmail.com>
+	<CAL+5PjwaEE9eKosqTbL0RVfeo2hWn4W_Ck2BXe63=9Gaydr8FQ@mail.gmail.com>
+Date: Wed, 10 Jun 2015 08:35:58 -0400
+Message-ID: <CAH0V_1ag9Fbyg9k70NurN2p5fLQ2LCx0xSvObWKm97W72hbiyA@mail.gmail.com>
+Subject: Fwd: S2I2 Software Summer School Update
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=089e0111d7eeeaa3890518291dfc
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--089e0111d7eeeaa3890518291dfc
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+FYI, here's the Software Carpentry part of the SSS curriculum.
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: Tommy Guy <richardtguy84@gmail.com>
+Date: Wed, Jun 10, 2015 at 12:22 AM
+Subject: Re: S2I2 Software Summer School Update
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+
+
+Here's our schedule, which hasn't changed much from last year.
+Our repo is here:
+https://github.com/guyrt/2015-06-21-s2i2
+our site is here:
+http://guyrt.github.io/2015-06-21-s2i2/
+
+Tommy
+
+Day 1:
+      Bash
+   coffee
+      Intro to python
+
+Lunch
+     All afternoon: Hands on python
+
+
+Day 2:
+      Version Control with git (both sessions)
+          coffee
+      Collaborating with git and github
+  Lunch
+      Testing Software
+
+Tommy
+
+
+
+On Tue, Jun 9, 2015 at 6:38 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+
+> Hi, all,
+>
+> Here's an approximate daily schedule for the SSS.  Could you please use i=
+t
+> to fill in specific details for the days you'll be teaching?  Feel free t=
+o
+> use individual sessions for hands-on exercises, as you see fit.  We'd lik=
+e
+> to use it in an informational pamphlet for the students, so the sooner yo=
+u
+> can provide this information the better.  Note, however, that you're free
+> to adjust as your sessions proceed.  This is just to give everyone an ide=
+a
+> of what to expect.
+>
+> Also, I should have mentioned in last night's email that we have 42
+> students registered for the school =E2=80=93 a new record!
+>
+> Thanks!
+>
+> -TDC
+>
+> 09:00-10:30 Morning Session I
+> 10:30-11:00 Break
+> 11:00-12:30 Morning Session II
+>
+> 12:30-14:00 Lunch
+>
+> 14:00-15:30 Afternoon Session I
+> 15:30-16:00 Break
+> 16:00-17:30 Afternoon Session II
+>
+> -TDC
+>
+> --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> On Tue, Jun 9, 2015 at 9:27 AM, Andrew James <andrew.m.james2@gmail.com>
+> wrote:
+>
+>> Dr. Crawford,
+>>
+>>
+>> Do we have times set for the classes, lunch breaks, stuff like that? I
+>> would like put that on the flyer, and update the schedule on the webpage=
+ at
+>> some point before the school.
+>>
+>> Thanks
+>> =E2=80=94AJ
+>>
+>> On Jun 8, 2015, at 9:25 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>>
+>> Hi, all,
+>>
+>> We are down to just under two weeks before the start of the third annual
+>> Software Summer School (SSS), so we need to be preparing our curriculum.
+>> The github repo from last year's school (which I'd like to use again) is
+>> here:  https://github.com/lothian/S2I2
+>>
+>> The schedule is pretty close to that from the past two years:
+>>
+>> Week 1:
+>>
+>> Sunday night: mixer/icebreaker reception
+>> Monday & Tuesday:  Software Carpentry
+>> Wednesday & 1/2 Thursday: BLAS/LAPACK, interactive debugging, example SC=
+F
+>> algorithm (TDC)
+>> 1/2 Thursday & Friday: Computer architecture and algorithm optimization
+>> (EFV)
+>>
+>> Weekend: Hiking, Saturday night party, Sunday off
+>>
+>> Week 2:
+>>
+>> Monday & Tuesday: Parallel architectures (RJH)
+>> Wednesday: GPUs (AED)
+>> Wednesday night: Closing get-together
+>>
+>> Do we need a Google Hangout before the school to get organized, or do we
+>> have enough to get off the ground already?
+>>
+>> Best regards,
+>>
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>>
+>>
+>
+
+--089e0111d7eeeaa3890518291dfc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">FYI, here&#39;s the Software Carpentry part of the SSS cur=
+riculum.<div><br></div><div>-TDC<br clear=3D"all"><div><div class=3D"gmail_=
+signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a hr=
+ef=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></di=
+v></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">Tommy Guy</b> <span dir=3D"ltr">&lt;<a h=
+ref=3D"mailto:richardtguy84@gmail.com">richardtguy84@gmail.com</a>&gt;</spa=
+n><br>Date: Wed, Jun 10, 2015 at 12:22 AM<br>Subject: Re: S2I2 Software Sum=
+mer School Update<br>To: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mail=
+to:crawdad@vt.edu">crawdad@vt.edu</a>&gt;<br><br><br><div dir=3D"ltr"><div>=
+<div><div>Here&#39;s our schedule, which hasn&#39;t changed much from last =
+year.<br></div><div>Our repo is here:<br><a href=3D"https://github.com/guyr=
+t/2015-06-21-s2i2" target=3D"_blank">https://github.com/guyrt/2015-06-21-s2=
+i2</a><br></div><div>our site is here:<br><a href=3D"http://guyrt.github.io=
+/2015-06-21-s2i2/" target=3D"_blank">http://guyrt.github.io/2015-06-21-s2i2=
+/</a><br></div><div><br></div><div>Tommy<br></div><div><br>Day 1:<br></div>=
+<div>=C2=A0=C2=A0 =C2=A0=C2=A0 Bash <br></div><div>=C2=A0=C2=A0 coffee<br><=
+/div><div></div><div>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Intro to python<br></di=
+v><div><br></div><div>Lunch<br></div><div>=C2=A0=C2=A0=C2=A0=C2=A0 All afte=
+rnoon: Hands on python<br><br></div><div><br></div><div>Day 2:<br></div><di=
+v>=C2=A0=C2=A0 =C2=A0=C2=A0 Version Control with git (both sessions)<br></d=
+iv><div>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 coffee<br></=
+div><div>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Collaborating with git and github<b=
+r></div><div>=C2=A0 Lunch<br></div></div>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Tes=
+ting Software<span class=3D"HOEnZb"><font color=3D"#888888"><br><br></font>=
+</span></div><span class=3D"HOEnZb"><font color=3D"#888888">Tommy<br><div><=
+br><br></div></font></span></div><div class=3D"HOEnZb"><div class=3D"h5"><d=
+iv class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tue, Jun 9, 2015=
+ at 6:38 PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blo=
+ckquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #c=
+cc solid;padding-left:1ex"><div dir=3D"ltr"><div>Hi, all,</div><div><br></d=
+iv>Here&#39;s an approximate daily schedule for the SSS.=C2=A0 Could you pl=
+ease use it to fill in specific details for the days you&#39;ll be teaching=
+?=C2=A0 Feel free to use individual sessions for hands-on exercises, as you=
+ see fit.=C2=A0 We&#39;d like to use it in an informational pamphlet for th=
+e students, so the sooner you can provide this information the better.=C2=
+=A0 Note, however, that you&#39;re free to adjust as your sessions proceed.=
+=C2=A0 This is just to give everyone an idea of what to expect.<div><br></d=
+iv><div>Also, I should have mentioned in last night&#39;s email that we hav=
+e 42 students registered for the school =E2=80=93 a new record!<br><div><br=
+></div><div>Thanks!</div><div><br></div><div>-TDC<br><div><br></div><div>09=
+:00-10:30 Morning Session I</div><div>10:30-11:00 Break</div><div>11:00-12:=
+30 Morning Session II</div><div><br></div><div>12:30-14:00 Lunch</div><div>=
+<br></div><div>14:00-15:30 Afternoon Session I</div><div>15:30-16:00 Break<=
+/div><div>16:00-17:30 Afternoon Session II</div><div><br></div><div>-TDC</d=
+iv></div></div></div><div class=3D"gmail_extra"><span><br clear=3D"all"><di=
+v><div><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div>=
+</div></div>
+<br></span><div class=3D"gmail_quote">On Tue, Jun 9, 2015 at 9:27 AM, Andre=
+w James <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" =
+target=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><block=
+quote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc=
+ solid;padding-left:1ex"><div style=3D"word-wrap:break-word">Dr. Crawford,=
+=C2=A0<div><br></div><div><br></div><div>Do we have times set for the class=
+es, lunch breaks, stuff like that? I would like put that on the flyer, and =
+update the schedule on the webpage at some point before the school.=C2=A0</=
+div><div><br></div><div>Thanks</div><span><font color=3D"#888888"><div>=E2=
+=80=94AJ</div></font></span><div><div><div><div><div><div><blockquote type=
+=3D"cite"><div>On Jun 8, 2015, at 9:25 PM, T. Daniel Crawford &lt;<a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:<=
+/div><br><div><div dir=3D"ltr">Hi, all,<div><br></div><div>We are down to j=
+ust under two weeks before the start of the third annual Software Summer Sc=
+hool (SSS), so we need to be preparing our curriculum.=C2=A0 The github rep=
+o from last year&#39;s school (which I&#39;d like to use again) is here: =
+=C2=A0<a href=3D"https://github.com/lothian/S2I2" target=3D"_blank">https:/=
+/github.com/lothian/S2I2</a></div><div><br></div><div>The schedule is prett=
+y close to that from the past two years:</div><div><br></div><div>Week 1:=
+=C2=A0</div><div><br></div><div>Sunday night: mixer/icebreaker reception</d=
+iv><div>Monday &amp; Tuesday: =C2=A0Software Carpentry</div><div>Wednesday =
+&amp; 1/2 Thursday: BLAS/LAPACK, interactive debugging, example SCF algorit=
+hm (TDC)</div><div>1/2 Thursday &amp; Friday: Computer architecture and alg=
+orithm optimization (EFV)</div><div><br></div><div>Weekend: Hiking, Saturda=
+y night party, Sunday off</div><div><br></div><div>Week 2:</div><div><br></=
+div><div>Monday &amp; Tuesday: Parallel architectures (RJH)</div><div>Wedne=
+sday: GPUs (AED)</div><div>Wednesday night: Closing get-together</div><div>=
+<br></div><div>Do we need a Google Hangout before the school to get organiz=
+ed, or do we have enough to get off the ground already?</div><div><br></div=
+><div>Best regards,</div><div><br></div><div>-TDC</div><div><div><div><div =
+dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</div></blockquote></div><br></div></div></div></div></div></div></blockquo=
+te></div><br></div>
+</blockquote></div><br></div>
+</div></div></div><br></div></div>
+
+--089e0111d7eeeaa3890518291dfc--

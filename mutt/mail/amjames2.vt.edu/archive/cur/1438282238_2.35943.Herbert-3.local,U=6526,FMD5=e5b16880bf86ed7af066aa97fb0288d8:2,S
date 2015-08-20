@@ -1,0 +1,94 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp53826qge;
+        Fri, 27 Mar 2015 15:27:41 -0700 (PDT)
+X-Received: by 10.140.89.42 with SMTP id u39mr26482339qgd.20.1427495261086;
+        Fri, 27 Mar 2015 15:27:41 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id o6si3252796qge.70.2015.03.27.15.27.36
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Mar 2015 15:27:40 -0700 (PDT)
+Received-SPF: none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) client-ip=209.85.214.174;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: owner-chem_grad@listserv.vt.edu does not designate permitted sender hosts) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2RMRUuT027756;
+	Fri, 27 Mar 2015 18:27:35 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t2RMJqAQ018500;
+	Fri, 27 Mar 2015 18:27:30 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          98571791 for CHEM_GRAD@LISTSERV.VT.EDU; Fri, 27 Mar 2015 18:27:30
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t2RMHTnv018324
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+          for <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015 18:17:29 -0400
+Received: from mail-ob0-f174.google.com (mail-ob0-f174.google.com
+          [209.85.214.174]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t2RMHNnC025999 for <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015
+          18:17:29 -0400
+Received: by obbld8 with SMTP id ld8so29952794obb.3 for
+          <CHEM_GRAD@listserv.vt.edu>; Fri, 27 Mar 2015 15:17:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=kBdpiSIU6EPJWmSJNwSvSjgokh2tJlRnzaK/D7RrgeE=;
+                         b=IYJWOE2R9PxUm8FbUxv5i0LYdTEzz28CT6yXV70BZKHMQyzhSjUm7ptV5+s7YK97Ac
+                         42GGPbMIvOa789yKFtbk8hnVi2KuCOYJzqkYDqJWbqsxPOhlabJDLe6v5YPfGTvK+Mx6
+                         +E4goPxK3uMxTt3j81SGIvwK/8bTBWRclN0mTMIdpuQ19kg4B68RhtMMhn60U/HRGu1r
+                         pDc0wSvZbrm5MMOFbriVeQ+mkZjys38ypuiBuS392V9BibLUKG647R3l5yRo/O7ud3ug
+                         Q3nI1fZbWsk7byKH3vQhQqWkfoVoG1mzgk2OBbBnFMbikqxK6h6QvkUIcR8NJfHdIf6i
+                         BHhg==
+X-Gm-Message-State: ALoCoQlcABkWZNGI0Pw4vqw9+OReuemCKMyZVxBKC/kdQwY+veEVmUWs6r72orsK6a+Dp9lpKaB95EFfg219GMTVMCuoHKi5hIgZsC7+ms3epv8casPt1ZiNZT0Yc0h7/BLqOme/aKwr9SvKdilpGE5l//yjO+8Euw==
+X-Received: by 10.60.245.70 with SMTP id xm6mr17785172oec.17.1427494643841;
+            Fri, 27 Mar 2015 15:17:23 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.245.70 with SMTP id xm6mr17785168oec.17.1427494643767;
+            Fri, 27 Mar 2015 15:17:23 -0700 (PDT)
+Received: by 10.182.135.232 with HTTP; Fri, 27 Mar 2015 15:17:23 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=001a11c39a5e29276b05124c7f78
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Message-ID:  <CA+8D1qnE9Mn9Q1bDK3yM4JJC-E7U1c2ypxoDGrDFFxMRtOt-6Q@mail.gmail.com>
+Date:         Fri, 27 Mar 2015 18:17:23 -0400
+Reply-To: Shreya Roy Choudhury <shreyarc@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Shreya Roy Choudhury <shreyarc@vt.edu>
+Subject: Acryloyl chloride
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c39a5e29276b05124c7f78
+Content-Type: text/plain; charset=UTF-8
+
+Hello all,
+
+Does anyone have ~5 mL of Acryloyl chloride (preferably from a new bottle)
+that I could use? Thank you!
+
+Regards,
+Shreya
+
+--001a11c39a5e29276b05124c7f78
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello all,<div><br></div><div>Does anyone have ~5 mL of Ac=
+ryloyl chloride (preferably from a new bottle) that I could use? Thank you!=
+</div><div><br></div><div>Regards,<br clear=3D"all"><div><div><div dir=3D"l=
+tr"><font face=3D"arial, helvetica, sans-serif">Shreya</font></div></div></=
+div>
+</div></div>
+
+--001a11c39a5e29276b05124c7f78--

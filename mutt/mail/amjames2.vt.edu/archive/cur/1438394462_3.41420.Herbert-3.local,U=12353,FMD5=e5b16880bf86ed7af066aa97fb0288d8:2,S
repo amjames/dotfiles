@@ -1,0 +1,842 @@
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp1463345iee;
+        Mon, 27 Jul 2015 01:39:40 -0700 (PDT)
+X-Received: by 10.194.109.229 with SMTP id hv5mr56250604wjb.119.1437986380135;
+        Mon, 27 Jul 2015 01:39:40 -0700 (PDT)
+Return-Path: <hans.lischka@univie.ac.at>
+Received: from grace.univie.ac.at (grace.univie.ac.at. [2001:62a:4:25::25:115])
+        by mx.google.com with ESMTPS id ev4si29499733wjc.204.2015.07.27.01.39.39
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 01:39:40 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of hans.lischka@univie.ac.at designates 2001:62a:4:25::25:115 as permitted sender) client-ip=2001:62a:4:25::25:115;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of hans.lischka@univie.ac.at designates 2001:62a:4:25::25:115 as permitted sender) smtp.mail=hans.lischka@univie.ac.at;
+       dkim=pass header.i=@univie.ac.at;
+       dmarc=pass (p=NONE dis=NONE) header.from=univie.ac.at
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=univie.ac.at; s=rev2;
+	h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:From:Cc:References:To:Subject; bh=KkHM9nefIeaf19DUm1XcaV6oDFncAlCMfkeWuu/WFHs=;
+	b=QDTu2Graoh17isCgDn2G3Ldps9hwBKw+0tynuvkX3GfuACJV4tLDlbNFZ+TJjjRQXInvqTKl42DM9Z/BRxdsZPJI20Z+YfKTbUCxFCXxNXoN7hAggO9ZW2/018wGqF1mMvaIu98SVsegYPFZ6cu/zbZHkodZ4NwjVdmn/FQPkv0=;
+Received: from justin.univie.ac.at ([131.130.3.111] helo=justin.univie.ac.at)
+	by grace.univie.ac.at with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZJdwg-0003P6-0m; Mon, 27 Jul 2015 10:39:38 +0200
+Received: from [2001:62a:6:1::d]
+	by justin.univie.ac.at with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZJdwf-0007q6-DJ; Mon, 27 Jul 2015 10:39:37 +0200
+Subject: Re: polyradical paper
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+References: <55736B10.9020807@univie.ac.at>
+ <CAH0V_1ZT05jN7hpMHYn2L5sa1BRF82c1+SZTiyGf4DsUO+pRYA@mail.gmail.com>
+ <557CDE08.5010507@univie.ac.at>
+ <CAH0V_1bZ5xXucZxkMGtY7-182su2Bk9n1Ns_dVkfs4UUFrALBQ@mail.gmail.com>
+ <559050BC.7040805@univie.ac.at>
+ <CAH0V_1bzAw+V_ywB40_GucSdMb7X5yF3NuLGmBoChQpiYeaNvg@mail.gmail.com>
+Cc: Andrew James <andrew.m.james2@gmail.com>,
+ Anita Das <anitadas.chem@gmail.com>
+From: Hans Lischka <hans.lischka@univie.ac.at>
+Message-ID: <55B5EE49.9080107@univie.ac.at>
+Date: Mon, 27 Jul 2015 03:39:37 -0500
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.1.0
+MIME-Version: 1.0
+In-Reply-To: <CAH0V_1bzAw+V_ywB40_GucSdMb7X5yF3NuLGmBoChQpiYeaNvg@mail.gmail.com>
+Content-Type: multipart/alternative;
+ boundary="------------030107080505050204050304"
+X-Univie-Virus-Scan: scanned by ClamAV on justin.univie.ac.at
+
+This is a multi-part message in MIME format.
+--------------030107080505050204050304
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Dear Daniel,
+
+Thank you for your results. Your calculations based on the RHF and UHF 
+give  very similar NO occupations. We should compare the results in more 
+detail. In our Table 5 we give the NO occupations of the UHF density. 
+They are close to single occupation (4: HONO 1.234, LUNO 0.766). This 
+should be the starting occupations for your CCSD calculations. Could you 
+please compare this with your UHF results? Also, we should compare the 
+character of the instability, for which orbitals does it occur. We 
+should also compare the total SCF energies (restricted and unrestricted).
+Anita, could you please collect our results in more detail?
+
+Best regards, Hans
+
+On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+> Dear Hans,
+>
+> We do agree that structure 4 is a strong example. AJ has recomputed 
+> the CCSD natural orbitals for both 4 and 7, including following the 
+> totally symmetric UHF orbital instabilities to the spin-polarized 
+> orbitals.  However, the occupation numbers still do not reveal 
+> substantial polyradical character.  See the attached report from AJ 
+> for some details.
+>
+> -TDC
+>
+> -- 
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu <mailto:crawdad@vt.edu>
+>
+> On Sun, Jun 28, 2015 at 3:53 PM, Hans Lischka 
+> <hans.lischka@univie.ac.at <mailto:hans.lischka@univie.ac.at>> wrote:
+>
+>     Dear Daniel,
+>
+>     Thank you very much for your e-mail. We are looking forward to
+>     your results. The most important question from my point of view is
+>     whether the restricted or the unrestricted approach is the
+>     appropriate one (see my previous e-mail). I think we should
+>     concentrate on that question first of all, taking the
+>     heptazethrene (str. 4) as example. According to your restricted
+>     calculations one gets a closed shell state, but our multireference
+>     calculations and also the UHF density shows the opposite. What do
+>     you think?
+>
+>     Best regards, Hans
+>
+>
+>     On 6/26/2015 10:42 PM, T. Daniel Crawford wrote:
+>>     Dear Hans,
+>>
+>>     I want to apologize for the delay in our response.  AJ and I have
+>>     been dealing with a pair of summer schools – one focused on
+>>     computational chemistry software development, the other on
+>>     molecular response properties – that started this past week and
+>>     will continue through next week.  I'm the host and an instructor
+>>     in both schools, and AJ has been invaluable as the primary
+>>     organizer. Unfortunately, the schools have pulled us both away
+>>     from dealing with the polyradical project. AJ has continued his
+>>     computations, but we haven't been able to get together to go
+>>     through his results and provide you with a proper response.  I
+>>     promise that we will get back to you and Anita as soon as possible.
+>>
+>>     Thanks for your patience!
+>>
+>>     Best regards,
+>>
+>>     -Daniel
+>>
+>>     -- 
+>>     Prof. T. Daniel Crawford
+>>     crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>
+>>     On Sat, Jun 13, 2015 at 9:51 PM, Hans Lischka
+>>     <hans.lischka@univie.ac.at <mailto:hans.lischka@univie.ac.at>> wrote:
+>>
+>>         Dear Daniel, dear Andrew,
+>>
+>>         Thank you for your e-mail and the data.
+>>         Concerning geometry differences: these are very small and
+>>         come from the fact that Anita used Gaussian and Turbomole to
+>>         verify the consistency of the results. She sent you the
+>>         Gaussian optimized geometries but then followed up with
+>>         Turbomole calculations. Finally, we decided to base all
+>>         results on Turbomole and she changed the coordinates in the
+>>         Supp. Mat. I am attaching her comments. You can see there
+>>         that differences are negligible and you need not redo the
+>>         calculations.
+>>         Concerning the question of the symmetry in the UDFT geometry
+>>         optimizations for structures 4-8. These were performed for
+>>         the singlet ground states. The closed shell high-symmetry DFT
+>>         solution is unstable. The spin unrestricted (U)DFT
+>>         wavefunction is symmetry broken and has only Cs symmetry. You
+>>         can see the orbitals  in Figs. 9S-13S of the Supp. Mat. The
+>>         C2h in Fig. 10S should also read as Cs. Thus, the MOs have Cs
+>>         symmetry, but alpha and beta orbitals are equivalent so that
+>>         the structural symmetry is higher, C2h and D2h, respectively.
+>>         Thus, the formulations should be correct. However, we will
+>>         explain this in the text. See also Anita's comments attached.
+>>         I am also attaching a paper on oligoacenes where you see the
+>>         same effect, the symmetry broken orbitals (Figure 2) and the
+>>         higher symmetry of the geometry.
+>>
+>>         Do you agree?
+>>
+>>         Please see my follow-up e-mail on the symmetry breaking.
+>>
+>>         Best regards, Hans
+>>
+>>
+>>         On 6/12/2015 1:35 PM, T. Daniel Crawford wrote:
+>>>         Dear Hans,
+>>>
+>>>         Attached is a brief summary of the data that AJ has
+>>>         collected so far.  There is some confusion about the
+>>>         geometries for structures 1-3, as well as symmetries of
+>>>         4-8.  If you and Anita could clarify these, we would be
+>>>         grateful.  Also, the data provided here are for frozen-core
+>>>         only, but AJ also has carried out calculations using reduced
+>>>         active spaces, as well.
+>>>
+>>>         Best regards,
+>>>
+>>>         -Daniel
+>>>
+>>>         -- 
+>>>         Prof. T. Daniel Crawford
+>>>         crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>
+>>>         On Sat, Jun 6, 2015 at 5:50 PM, Hans Lischka
+>>>         <hans.lischka@univie.ac.at
+>>>         <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>
+>>>             Dear Daniel,
+>>>
+>>>             I am sending you our next version of our data. We
+>>>             included now also pi+sigma correlated calculations.
+>>>             Comparison with pi-only shows good agreement. If not
+>>>             other aspects show up we regards the calculations
+>>>             finished and Anita will concentrate on writing the text.
+>>>             Please have a look at our results and we might discuss
+>>>             how and what you can fit in with your coupled cluster
+>>>             calculations. I am looking forward to a comparison.
+>>>
+>>>             Best regards, Hans
+>>>
+>>>
+>>
+>>
+>
+>
+
+
+--------------030107080505050204050304
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Dear Daniel,<br>
+    <br>
+    Thank you for your results. Your calculations based on the RHF and
+    UHF give  very similar NO occupations. We should compare the results
+    in more detail. In our Table 5 we give the NO occupations of the UHF
+    density. They are close to single occupation (4: HONO 1.234, LUNO
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    0.766). This should be the starting occupations for your CCSD
+    calculations. Could you please compare this with your UHF results?
+    Also, we should compare the character of the instability, for which
+    orbitals does it occur. We should also compare the total SCF
+    energies (restricted and unrestricted).<br>
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 14">
+    <meta name="Originator" content="Microsoft Word 14">
+    <link rel="File-List"
+href="file:///C:%5CUsers%5CHans%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml">
+    <!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:TargetScreenSize>800x600</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+    <link rel="themeData"
+href="file:///C:%5CUsers%5CHans%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx">
+    <link rel="colorSchemeMapping"
+href="file:///C:%5CUsers%5CHans%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml">
+    <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="0" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+    <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:.5in;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	mso-hyphenate:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-language:ZH-CN;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]-->Anita, could you please collect our results in more detail?<br>
+    <br>
+    Best regards, Hans<br>
+    <br>
+    On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+    <blockquote type="cite">
+      <div dir="ltr">Dear Hans,
+        <div><br>
+        </div>
+        <div>We do agree that structure 4 is a strong example. AJ has
+          recomputed the CCSD natural orbitals for both 4 and 7,
+          including following the totally symmetric UHF orbital
+          instabilities to the spin-polarized orbitals.  However, the
+          occupation numbers still do not reveal substantial polyradical
+          character.  See the attached report from AJ for some details.
+           </div>
+        <div><br>
+        </div>
+        <div>-TDC</div>
+      </div>
+      <div class="gmail_extra"><br clear="all">
+        <div>
+          <div class="gmail_signature">
+            <div dir="ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href="mailto:crawdad@vt.edu" target="_blank">crawdad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="gmail_quote">On Sun, Jun 28, 2015 at 3:53 PM, Hans
+          Lischka <span dir="ltr">&lt;<a
+              href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+          wrote:<br>
+          <blockquote class="gmail_quote" style="margin:0 0 0
+            .8ex;border-left:1px #ccc solid;padding-left:1ex">
+            <div bgcolor="#FFFFFF" text="#000000"> Dear Daniel,<br>
+              <br>
+              Thank you very much for your e-mail. We are looking
+              forward to your results. The most important question from
+              my point of view is whether the restricted or the
+              unrestricted approach is the appropriate one (see my
+              previous e-mail). I think we should concentrate on that
+              question first of all, taking the heptazethrene (str. 4)
+              as example. According to your restricted calculations one
+              gets a closed shell state, but our multireference
+              calculations and also the UHF density shows the opposite.
+              What do you think?<br>
+              <br>
+              Best regards, Hans
+              <div>
+                <div class="h5"><br>
+                  <br>
+                  On 6/26/2015 10:42 PM, T. Daniel Crawford wrote:
+                  <blockquote type="cite">
+                    <div dir="ltr">Dear Hans,
+                      <div><br>
+                      </div>
+                      <div>I want to apologize for the delay in our
+                        response.  AJ and I have been dealing with a
+                        pair of summer schools – one focused on
+                        computational chemistry software development,
+                        the other on molecular response properties –
+                        that started this past week and will continue
+                        through next week.  I'm the host and an
+                        instructor in both schools, and AJ has been
+                        invaluable as the primary organizer. 
+                        Unfortunately, the schools have pulled us both
+                        away from dealing with the polyradical project. 
+                        AJ has continued his computations, but we
+                        haven't been able to get together to go through
+                        his results and provide you with a proper
+                        response.  I promise that we will get back to
+                        you and Anita as soon as possible.</div>
+                      <div><br>
+                      </div>
+                      <div>Thanks for your patience!</div>
+                      <div><br>
+                      </div>
+                      <div>Best regards,</div>
+                      <div><br>
+                      </div>
+                      <div>-Daniel</div>
+                    </div>
+                    <div class="gmail_extra"><br clear="all">
+                      <div>
+                        <div>
+                          <div dir="ltr">--
+                            <div>Prof. T. Daniel Crawford</div>
+                            <div><a href="mailto:crawdad@vt.edu"
+                                target="_blank">crawdad@vt.edu</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="gmail_quote">On Sat, Jun 13, 2015 at
+                        9:51 PM, Hans Lischka <span dir="ltr">&lt;<a
+                            href="mailto:hans.lischka@univie.ac.at"
+                            target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                        wrote:<br>
+                        <blockquote class="gmail_quote" style="margin:0
+                          0 0 .8ex;border-left:1px #ccc
+                          solid;padding-left:1ex">
+                          <div bgcolor="#FFFFFF" text="#000000"> Dear
+                            Daniel, dear Andrew,<br>
+                            <br>
+                            Thank you for your e-mail and the data.<br>
+                            Concerning geometry differences: these are
+                            very small and come from the fact that Anita
+                            used Gaussian and Turbomole to verify the
+                            consistency of the results. She sent you the
+                            Gaussian optimized geometries but then
+                            followed up with Turbomole calculations.
+                            Finally, we decided to base all results on
+                            Turbomole and she changed the coordinates in
+                            the Supp. Mat. I am attaching her comments.
+                            You can see there that differences are
+                            negligible and you need not redo the
+                            calculations.<br>
+                            Concerning the question of the symmetry in
+                            the UDFT geometry optimizations for
+                            structures 4-8. These were performed for the
+                            singlet ground states. The closed shell
+                            high-symmetry DFT solution is unstable. The
+                            spin unrestricted (U)DFT wavefunction is
+                            symmetry broken and has only Cs symmetry.
+                            You can see the orbitals  in Figs. 9S-13S of
+                            the Supp. Mat. The C2h in Fig. 10S should
+                            also read as Cs. Thus, the MOs have Cs
+                            symmetry, but alpha and beta orbitals are
+                            equivalent so that the structural symmetry
+                            is higher, C2h and D2h, respectively. Thus,
+                            the formulations should be correct. However,
+                            we will explain this in the text. See also
+                            Anita's comments attached.<br>
+                            I am also attaching a paper on oligoacenes
+                            where you see the same effect, the symmetry
+                            broken orbitals (Figure 2) and the higher
+                            symmetry of the geometry.<br>
+                            <br>
+                            Do you agree?<br>
+                            <br>
+                            Please see my follow-up e-mail on the
+                            symmetry breaking.<br>
+                            <br>
+                            Best regards, Hans
+                            <div>
+                              <div><br>
+                                <br>
+                                On 6/12/2015 1:35 PM, T. Daniel Crawford
+                                wrote:
+                                <blockquote type="cite">
+                                  <div dir="ltr">Dear Hans,
+                                    <div><br>
+                                    </div>
+                                    <div>Attached is a brief summary of
+                                      the data that AJ has collected so
+                                      far.  There is some confusion
+                                      about the geometries for
+                                      structures 1-3, as well as
+                                      symmetries of 4-8.  If you and
+                                      Anita could clarify these, we
+                                      would be grateful.  Also, the data
+                                      provided here are for frozen-core
+                                      only, but AJ also has carried out
+                                      calculations using reduced active
+                                      spaces, as well. </div>
+                                    <div><br>
+                                    </div>
+                                    <div>Best regards,</div>
+                                    <div><br>
+                                    </div>
+                                    <div>-Daniel</div>
+                                  </div>
+                                  <div class="gmail_extra"><br
+                                      clear="all">
+                                    <div>
+                                      <div>
+                                        <div dir="ltr">--
+                                          <div>Prof. T. Daniel Crawford</div>
+                                          <div><a
+                                              href="mailto:crawdad@vt.edu"
+                                              target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="gmail_quote">On Sat, Jun
+                                      6, 2015 at 5:50 PM, Hans Lischka <span
+                                        dir="ltr">&lt;<a
+                                          href="mailto:hans.lischka@univie.ac.at"
+                                          target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                      wrote:<br>
+                                      <blockquote class="gmail_quote"
+                                        style="margin:0 0 0
+                                        .8ex;border-left:1px #ccc
+                                        solid;padding-left:1ex">Dear
+                                        Daniel,<br>
+                                        <br>
+                                        I am sending you our next
+                                        version of our data. We included
+                                        now also pi+sigma correlated
+                                        calculations. Comparison with
+                                        pi-only shows good agreement. If
+                                        not other aspects show up we
+                                        regards the calculations
+                                        finished and Anita will
+                                        concentrate on writing the text.
+                                        Please have a look at our
+                                        results and we might discuss how
+                                        and what you can fit in with
+                                        your coupled cluster
+                                        calculations. I am looking
+                                        forward to a comparison.<br>
+                                        <br>
+                                        Best regards, Hans<br>
+                                      </blockquote>
+                                    </div>
+                                    <br>
+                                  </div>
+                                </blockquote>
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <br>
+                    </div>
+                  </blockquote>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------030107080505050204050304--

@@ -1,0 +1,139 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp668391qge;
+        Wed, 14 Jan 2015 14:17:45 -0800 (PST)
+X-Received: by 10.224.73.135 with SMTP id q7mr11328977qaj.6.1421273865672;
+        Wed, 14 Jan 2015 14:17:45 -0800 (PST)
+Return-Path: <sync@omnigroup.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id z5si32993986qab.9.2015.01.14.14.17.45
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 14 Jan 2015 14:17:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of sync@omnigroup.com designates 198.151.161.1 as permitted sender) client-ip=198.151.161.1;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of sync@omnigroup.com designates 198.151.161.1 as permitted sender) smtp.mail=sync@omnigroup.com
+Received: from omnigroup.com (omnigroup.com [198.151.161.1])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0EMHc9F032702
+	for <amjames2@vt.edu>; Wed, 14 Jan 2015 17:17:43 -0500
+Received: from manage.sync.omnigroup.com (manage.sync.omnigroup.com [204.128.250.2])
+	by omnigroup.com (Postfix) with ESMTP id 3373E1B60816
+	for <amjames2@vt.edu>; Wed, 14 Jan 2015 14:17:41 -0800 (PST)
+Content-Type: multipart/alternative;
+ boundary="===============1457166415664462796=="
+MIME-Version: 1.0
+Subject: Welcome to Omni Sync Server!
+From: Omni Sync Server <sync@omnigroup.com>
+To: amjames2@vt.edu
+Date: Wed, 14 Jan 2015 22:17:37 -0000
+Message-ID: <20150114221737.34731.81591@manage.sync.omnigroup.com>
+X-Spam-Status: No, score=-2.3 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_MED,T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--===============1457166415664462796==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Thanks for joining the Omni Sync Server! You are all set to get started. This email includes instructions and links for all of our apps, so look for the heading that corresponds with the app you're using. If you get stuck, feel free to email sync@omnigroup.com or give us a call at  +1 800-315-6664
+
+OMNIGRAFFLE, OMNIOUTLINER, AND OMNIPLAN
+
+If you'd like to use OmniOutliner or OmniGraffle with Omni Sync Server you'll find instructions for getting started in the in-app help, as well as on this page:
+
+	<http://www.omnigroup.com/support/ios-document-apps-sync-server-omnipresence>
+
+The in-app help for OmniPlan for iPad also includes instructions for setting up sync using Omni Sync Server, but they are written up separately here:
+
+	<http://www.omnigroup.com/support/omniplan-sync-server>
+
+OMNIFOCUS: MIGRATING FROM ANOTHER SYNC METHOD
+
+If you are switching to the Omni Sync Server from another sync method, please follow the instructions on this page:
+
+	<http://www.omnigroup.com/support/migrate_omnifocus_data>
+
+OMNIFOCUS: FIRST TIME CONFIGURATION
+
+If you're setting up sync for the first time, it's important to set up sync on the device you've already been using first, before you add any other devices to your account. Open this message in the Mail application (webmail interfaces like Gmail and Hotmail won't work) on that device and tap or click the link below:
+
+	omnifocus:///setup-sync?url=https://sync.omnigroup.com/amjames2/OmniFocus.ofocus
+	
+
+If you don't have Mail configured on your device, you can also copy and paste the link into the Safari address bar.
+
+You'll be prompted for your sync server password the first time you sync. Once you've got your first device syncing, you can move on to the other devices you'd like configure and repeat the process there.
+
+OMNIFOCUS: MANUAL CONFIGURATION
+
+If you prefer, you can manually configure OmniFocus:
+
+	<http://www.omnigroup.com/support/omnifocus-omni-sync-server>
+
+We hope you enjoy Omni Sync Server; if you have any questions, suggestions, or concerns, let us know! Send an email to sync@omnigroup.com and we'll be happy to help.
+
+Thanks again for using the server!
+The Omni Group
+--===============1457166415664462796==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html style='margin:auto; font-family: Helvetica Neue, Helvetica, sans-serif;'>
+<head>
+	<title>Welcome to Omni Sync Server!</title>
+</head>
+<body>
+<div id='email' style='width:90%; margin:auto;'>
+
+
+<h3 id="welcome">Welcome!</h3>
+
+<p>Thanks for joining the Omni Sync Server! You are all set to get started. This email includes instructions and links for all of our apps, so look for the heading that corresponds with the app you&#8217;re using. If you get stuck, feel free to email sync@omnigroup.com or give us a call at +1 800&#8211;315&#8211;6664</p>
+
+<h3 id="omnigraffleomnioutlinerandomniplan">OmniGraffle, OmniOutliner, and OmniPlan</h3>
+
+<p>If you&#8217;d like to use OmniOutliner or OmniGraffle with Omni Sync Server you&#8217;ll find instructions for getting started in the in-app help, as well as on this page:</p>
+
+<p style="margin-left:2em"><a href="http://www.omnigroup.com/support/ios-document-apps-sync-server-omnipresence">http://www.omnigroup.com/support/ios-document-apps-sync-server-omnipresence</a></p>
+
+<p>The in-app help for OmniPlan for iPad also includes instructions for setting up sync using Omni Sync Server, but they are written up separately here:</p>
+
+<p style="margin-left:2em"><a href="http://www.omnigroup.com/support/omniplan-sync-server">http://www.omnigroup.com/support/omniplan-sync-server</a></p>
+
+<h3 id="omnifocus:migratingfromanothersyncmethod">OmniFocus: Migrating from Another Sync Method</h3>
+
+<p>If you are switching to the Omni Sync Server from another sync method, please follow the instructions on this page:</p>
+
+<p style="margin-left:2em"><a href="http://www.omnigroup.com/support/migrate_omnifocus_data">http://www.omnigroup.com/support/migrate_omnifocus_data</a></p>
+
+<h3 id="omnifocus:firsttimeconfiguration">OmniFocus: First Time Configuration</h3>
+
+<p>If you&#8217;re setting up sync for the first time, it&#8217;s important to set up sync on the device you&#8217;ve already been using first, before you add any other devices to your account. Open this message in the Mail application (webmail interfaces like Gmail and Hotmail won&#8217;t work) on that device and tap or click the link below:</p>
+
+<p style="margin-left:2em"><a href="omnifocus:///setup-sync?url=https://sync.omnigroup.com/amjames2/OmniFocus.ofocus">omnifocus:///setup-sync?url=https://sync.omnigroup.com/amjames2/OmniFocus.ofocus</a></p>
+
+<p>If you don&#8217;t have Mail configured on your device, you can also copy and paste the link into the Safari address bar.</p>
+
+<p>You&#8217;ll be prompted for your sync server password the first time you sync. Once you&#8217;ve got your first device syncing, you can move on to the other devices you&#8217;d like configure and repeat the process there.</p>
+
+<h3 id="omnifocus:manualconfiguration">OmniFocus: Manual Configuration</h3>
+
+<p>If you prefer, you can manually configure OmniFocus:</p>
+
+<p style="margin-left:2em"><a href="http://www.omnigroup.com/support/omnifocus-omni-sync-server">http://www.omnigroup.com/support/omnifocus-omni-sync-server</a></p>
+
+<p>We hope you enjoy Omni Sync Server; if you have any questions, suggestions, or concerns, let us know! Send an email to sync@omnigroup.com and we&#8217;ll be happy to help.</p>
+
+<p>Thanks again for using the server!
+The Omni Group</p>
+
+
+</div>
+</body>
+</html>
+--===============1457166415664462796==--

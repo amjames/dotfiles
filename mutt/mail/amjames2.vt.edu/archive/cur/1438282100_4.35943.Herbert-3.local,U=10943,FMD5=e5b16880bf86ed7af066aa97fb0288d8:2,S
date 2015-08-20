@@ -1,0 +1,96 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp692167qgt;
+        Fri, 19 Jun 2015 11:26:40 -0700 (PDT)
+X-Received: by 10.140.145.78 with SMTP id 75mr24379836qhr.61.1434738400621;
+        Fri, 19 Jun 2015 11:26:40 -0700 (PDT)
+Return-Path: <harleymc@vt.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id a74si11699803qgf.30.2015.06.19.11.26.40
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 11:26:40 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning harleymc@vt.edu does not designate 209.85.220.170 as permitted sender) client-ip=209.85.220.170;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning harleymc@vt.edu does not designate 209.85.220.170 as permitted sender) smtp.mail=harleymc@vt.edu
+Received: from mail-qk0-f170.google.com (mail-qk0-f170.google.com [209.85.220.170])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5JIQZeT031549
+	for <amjames2@vt.edu>; Fri, 19 Jun 2015 14:26:40 -0400
+Received: by qkeo142 with SMTP id o142so47998301qke.1
+        for <amjames2@vt.edu>; Fri, 19 Jun 2015 11:26:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:from
+         :in-reply-to:date:content-transfer-encoding:message-id:references:to;
+        bh=xO+hUk7xyzCuUVpQnQZOEBN0VZmKZ7y/hQ05DyEZ6xM=;
+        b=NKYZhsFTkcft0KnsmtW63i706yNrA8koy+6gH3qeyu8nUB/WjQgjc50drtwNAvwNZ/
+         kb3lEkhuRuWbvryI860tuzl+KvJqUl9gUuCoCwFbOUkEauB92q1gQuhR6J3k1uPrp8A0
+         9sD8SnvdeYJ6Q80mOYOuvh5dKyqDKZmEjORih7KnNfAK65eceS7zm/ijNBagZcKoKB3P
+         7R612QCB5rX2M7O85NYRT3qzCFvM9LbJqhKA0wII5u7gFWzn4PdIw7G6/+qOSgJljzc3
+         6m17N5MSBrk9V+V8ndpuokH6fwhVoJe/Pt4UCn1Fs5bV2gnIo0RDPrg2PkpMXnKz8kHk
+         1kmA==
+X-Gm-Message-State: ALoCoQkRoEz8HQhMCwdLN93ouV/Dt5VQuJwVjw5dIWYqqKL0i3Sg0JdC3UBuvxm81UNq4qJyfck4pH0Rg0wzSXNPJvl8RNEwfxlMI1D1YcWihZfSYuwP1rXMw1GyMhKioJ03mMyIwBprQW6aiVnSyXbwHUAKCgC0bPn4pTYeCqTL9fOi/Day1GI/ROK+jBi9rjG7BqYiDqsy
+X-Received: by 10.55.15.232 with SMTP id 101mr38633654qkp.69.1434738395114;
+        Fri, 19 Jun 2015 11:26:35 -0700 (PDT)
+X-Received: by 10.55.15.232 with SMTP id 101mr38633643qkp.69.1434738395048;
+        Fri, 19 Jun 2015 11:26:35 -0700 (PDT)
+Received: from [10.0.1.19] (h80adb7d3.dhcp.vt.edu. [128.173.183.211])
+        by mx.google.com with ESMTPSA id c82sm6033339qkh.15.2015.06.19.11.26.34
+        for <amjames2@vt.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Jun 2015 11:26:34 -0700 (PDT)
+Content-Type: text/plain; charset=windows-1252
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+Subject: Re: Little List
+From: Harley McAlexander <harleymc@vt.edu>
+In-Reply-To: <91D70E8A-D602-4E03-AB8A-B3597AD4594A@vt.edu>
+Date: Fri, 19 Jun 2015 14:26:30 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <7FA7ACF5-9BB7-4CF7-89E3-FA39AF216A15@vt.edu>
+References: <521492CA-AB66-43B0-92AB-5EBD0B2DEA31@vt.edu> <464D7647-EAD5-4115-B189-81797925980D@vt.edu> <91D70E8A-D602-4E03-AB8A-B3597AD4594A@vt.edu>
+To: "Andrew M. James" <amjames2@vt.edu>
+X-Mailer: Apple Mail (2.1878.6)
+X-Spam-Status: No, score=-0.7 required=5.0 tests=RCVD_IN_DNSWL_LOW
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Perchance to live, perchance to dream, see how mavericks these numbers =
+deem.  Success  thanks.
+
+-Harley
+
+On Jun 19, 2015, at 2:23 PM, Andrew M. James <amjames2@vt.edu> wrote:
+
+> Perchance a Numbers 09 export will satisfy your mavericks?
+> <LittleList_Pest_request.numbers>
+> Andrew M. James
+> Graduate Research Assistant
+> amjames2@vt.edu
+>=20
+>=20
+>> On Jun 19, 2015, at 2:17 PM, Harley McAlexander <harleymc@vt.edu> =
+wrote:
+>>=20
+>> Not to be a pest, but I have a request.  Could you resend the little =
+list as an older version of numbers (my mavericks version said, =93Look, =
+I=92m not gonna open this Yosemite stuff=94) or even as a CSV or =
+something?
+>>=20
+>> -Harley
+>>=20
+>> On Jun 19, 2015, at 1:52 PM, Andrew James <amjames2@vt.edu> wrote:
+>>=20
+>>> <Software_Summer_School.numbers>
+>>> =97AJ
+>>>=20
+>>> Andrew M. James
+>>> amjames2@vt.edu
+>>>=20
+>>>=20
+>>>=20
+>>=20
+>=20
+

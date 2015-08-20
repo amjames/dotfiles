@@ -1,0 +1,179 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp441055qgt;
+        Fri, 31 Jul 2015 04:58:50 -0700 (PDT)
+X-Received: by 10.140.152.203 with SMTP id 194mr3685918qhy.19.1438343930739;
+        Fri, 31 Jul 2015 04:58:50 -0700 (PDT)
+Return-Path: <owner-arc_hokiespeed_users@listserv.vt.edu>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id 19si5334053qhf.58.2015.07.31.04.58.48
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 31 Jul 2015 04:58:50 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.215.42 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) client-ip=209.85.215.42;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.215.42 is neither permitted nor denied by best guess record for domain of owner-arc_hokiespeed_users@listserv.vt.edu) smtp.mail=owner-arc_hokiespeed_users@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t6VBwgs9005024;
+	Fri, 31 Jul 2015 07:58:47 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t6VBXQrt004128;
+	Fri, 31 Jul 2015 07:58:41 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100715984 for ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU; Fri, 31 Jul 2015
+          07:58:40 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6VBXQrr004128; Fri, 31 Jul
+          2015 07:58:40 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100715981 for ARC_USERS@LISTSERV.VT.EDU; Fri, 31 Jul 2015 07:58:40
+          -0400
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:250:3bcb:5b17]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t6VBweUm008162 for
+          <ARC_USERS@listserv.vt.edu>; Fri, 31 Jul 2015 07:58:40 -0400
+Received: from mail-la0-f42.google.com (mail-la0-f42.google.com
+          [209.85.215.42]) by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t6VBwY5p009993 for <ARC_USERS@listserv.vt.edu>; Fri, 31 Jul 2015
+          07:58:39 -0400
+Received: by laah7 with SMTP id h7so42551775laa.0 for
+          <ARC_USERS@listserv.vt.edu>; Fri, 31 Jul 2015 04:58:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:content-type;
+                         bh=cgX+NeqAxKtamlP8WICdy2y1Qvq5+pXiJC7CY0jxFoE=;
+                         b=hqZYQVQ4Ci1nSYKwRTnqh8EuGGgnNEZl8WEPtETV5J8+X1T+VDsRuIrCWcNnqn2JVO
+                         ww9HKZqoxikzx1EIzQmyTd6+chmQ+B32K7q704OM+ARzoEcFHwsuGhIL+fao8UwKKYSe
+                         HYkh2vb5xDodtPzWdBoszlyG3VvYWI0rSfOSYPTPkSxf+ZZGxn3W5xr2YVsPDS6hSkA7
+                         8IH04FCorr8EBPva8jg5PI+Jq0rHjh8Wlv6evk6xg3h6u8zo6UlqcnQMeVwJUjV7ThJr
+                         Fw8YwNL4YZyhezTHlMkc1ydHCfrikV2C3BxN/hBWfVdet/xC6Gsu3UGSCWHRBQ31UreN
+                         mciA==
+X-Gm-Message-State: ALoCoQlBhkQ2MVHw+DWTjtkusvw6+NQsbvJeO/UkzCq8ib/edP9XUZx6lYSEYBEAIIN8wMsz/Wm017s0D35d+x5IOTw0P05FFMfeQxRxyVJs7+k5ks88opwY6rV74unntpwL/MWsdUfVE/Z60Bh4kaKzKGJkJaW3Ew==
+X-Received: by 10.152.116.13 with SMTP id js13mr2415862lab.62.1438343914166;
+            Fri, 31 Jul 2015 04:58:34 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.152.116.13 with SMTP id js13mr2415848lab.62.1438343913936;
+            Fri, 31 Jul 2015 04:58:33 -0700 (PDT)
+Received: by 10.153.7.166 with HTTP; Fri, 31 Jul 2015 04:58:33 -0700 (PDT)
+References: <CALt-oT+JCbyx50hL5=5znrGSigapVgpwsxtmFHPM5WLTEzXdBA@mail.gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c3416c0e341e051c2a8a94
+X-Spam-Status: No, score=-1.4 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+Precedence: list
+Message-ID:  <CALt-oTJ=wWv_u2NzNfF1a01BBm5ua+1Yqg8CR3YgZ83aF5QGMg@mail.gmail.com>
+Date:         Fri, 31 Jul 2015 07:58:33 -0400
+Reply-To: Justin Krometis <jkrometi@vt.edu>
+Sender: "Users of Advanced Research Computing's Cluster HokieSpeed" <ARC_HOKIESPEED_USERS@listserv.vt.edu>
+From: Justin Krometis <jkrometi@vt.edu>
+Subject: Re: ARC Systems Released; Archive Will Be Released Later
+To: ARC_HOKIESPEED_USERS@LISTSERV.VT.EDU
+In-Reply-To:  <CALt-oT+JCbyx50hL5=5znrGSigapVgpwsxtmFHPM5WLTEzXdBA@mail.gmail.com>
+List-Help: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>,
+           <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20ARC_HOKIESPEED_USERS>
+List-Unsubscribe: <mailto:ARC_HOKIESPEED_USERS-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:ARC_HOKIESPEED_USERS-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:ARC_HOKIESPEED_USERS-request@LISTSERV.VT.EDU>
+List-Archive: <http://listserv.vt.edu/cgi-bin/wa?LIST=ARC_HOKIESPEED_USERS>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11c3416c0e341e051c2a8a94
+Content-Type: text/plain; charset=UTF-8
+
+ARC Users,
+The Archive file system has now been re-mounted on all ARC systems. The
+additional downtime allowed additional maintenance last week and another
+outage yesterday. Thank you for your patience and apologies for any
+inconvenience while it was offline.
+Regards,
+Advanced Research Computing
+http://www.arc.vt.edu
+
+
+On Wed, Jul 22, 2015 at 5:22 PM, Justin Krometis <jkrometi@vt.edu> wrote:
+
+> ARC Users,
+> BlueRidge, HokieSpeed, HokieOne, and Ithaca have been released from
+> maintenance and queued jobs are running. Please log in and submit your work
+> at your earliest convenience.
+>
+> Please note that Archive storage is still undergoing maintenance work and
+> as a result is not mounted at the moment. It should be available again in
+> the next day or two. We will send a notice when it is available.
+>
+> Thank you for your patience while this maintenance work was completed.
+>
+> Advanced Research Computing
+> http://www.arc.vt.edu
+>
+>
+> On Wed, Jul 15, 2015 at 2:55 PM, Justin Krometis <jkrometi@vt.edu> wrote:
+>
+>> ARC Users,
+>> All ARC systems will be unavailable next Wednesday and Thursday, July
+>> 22-23, for semiannual maintenance. During this time, our systems will taken
+>> offline so that maintenance can be performed on the clusters and file
+>> systems.
+>>
+>> Over the next few days, jobs with walltimes that extend past the
+>> maintenance start time will go into queue rather than running; these queued
+>> jobs will then start automatically once the systems are released following
+>> maintenance.
+>>
+>> Regards,
+>>
+>> Advanced Research Computing
+>> http://www.arc.vt.edu
+>>
+>>
+>
+
+--001a11c3416c0e341e051c2a8a94
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">ARC Users,<div>The Archive file system has now been re-mou=
+nted on all ARC systems. The additional downtime allowed additional mainten=
+ance last week and another outage yesterday. Thank you for your patience an=
+d apologies for any inconvenience while it was offline.</div><div>Regards,<=
+/div><div>Advanced Research Computing<br></div><div class=3D"gmail_extra"><=
+div><div class=3D"gmail_signature"><div dir=3D"ltr"><div><a href=3D"http://=
+www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.edu</a></div><div><br><=
+/div></div></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 22, 2015 at 5:22 PM, Justin Krom=
+etis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.edu" target=3D"_bl=
+ank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"ltr">ARC Users,<div>BlueRidge, HokieSpeed, HokieOne, and Itha=
+ca have been released from maintenance and queued jobs are running. Please =
+log in and submit your work at your earliest convenience.</div><div><br></d=
+iv><div>Please note that Archive storage is still undergoing maintenance wo=
+rk and as a result is not mounted at the moment. It should be available aga=
+in in the next day or two. We will send a notice when it is available.</div=
+><div><br></div><div>Thank you for your patience while this maintenance wor=
+k was completed.<br><div class=3D"gmail_extra"><div><div><div dir=3D"ltr"><=
+br><div>Advanced Research Computing</div><div><a href=3D"http://www.arc.vt.=
+edu" target=3D"_blank">http://www.arc.vt.edu</a></div><div><br></div></div>=
+</div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 15, 2015 at 2:55 PM, Justin Krom=
+etis <span dir=3D"ltr">&lt;<a href=3D"mailto:jkrometi@vt.edu" target=3D"_bl=
+ank">jkrometi@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><div dir=3D"ltr"><div>ARC Users,</div><div><div>All ARC systems will be u=
+navailable next Wednesday and Thursday, July 22-23, for semiannual maintena=
+nce. During this time, our systems will taken offline so that maintenance c=
+an be performed on the clusters and file systems.=C2=A0</div><div><br></div=
+><div>Over the next few days, jobs with walltimes that extend past the main=
+tenance start time will go into queue rather than running; these queued job=
+s will then start automatically once the systems are released following mai=
+ntenance.</div></div><div><br></div>Regards,<br clear=3D"all"><div><div><di=
+v dir=3D"ltr"><div><br></div><div>Advanced Research Computing</div><div><a =
+href=3D"http://www.arc.vt.edu" target=3D"_blank">http://www.arc.vt.edu</a><=
+/div><div><br></div></div></div></div>
+</div>
+</blockquote></div><br></div></div></div>
+</blockquote></div><br></div></div>
+
+--001a11c3416c0e341e051c2a8a94--

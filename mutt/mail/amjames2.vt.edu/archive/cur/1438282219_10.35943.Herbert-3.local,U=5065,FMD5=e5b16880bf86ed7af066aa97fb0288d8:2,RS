@@ -1,0 +1,277 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp1557536qge;
+        Mon, 9 Mar 2015 05:56:47 -0700 (PDT)
+X-Received: by 10.229.197.134 with SMTP id ek6mr35576532qcb.21.1425905807299;
+        Mon, 09 Mar 2015 05:56:47 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id q82si18223317qha.103.2015.03.09.05.56.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Mar 2015 05:56:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.169 as permitted sender) client-ip=209.85.223.169;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.169 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t29CufHW001877
+	for <amjames2@vt.edu>; Mon, 9 Mar 2015 08:56:46 -0400
+Received: by iecar1 with SMTP id ar1so7282299iec.3
+        for <amjames2@vt.edu>; Mon, 09 Mar 2015 05:56:40 -0700 (PDT)
+X-Received: by 10.43.32.19 with SMTP id si19mr26290260icb.93.1425905800865;
+        Mon, 09 Mar 2015 05:56:40 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp1364546ieb;
+        Mon, 9 Mar 2015 05:56:40 -0700 (PDT)
+X-Received: by 10.55.42.219 with SMTP id q88mr13663472qkq.3.1425905799579;
+        Mon, 09 Mar 2015 05:56:39 -0700 (PDT)
+Received: from omr1.cc.vt.edu (omr1.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2fc:76e3:30de])
+        by mx.google.com with ESMTPS id k51si18267228qge.28.2015.03.09.05.56.39
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Mar 2015 05:56:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:2fc:76e3:30de as permitted sender) client-ip=2001:468:c80:2105:0:2fc:76e3:30de;
+Received: from mr6.cc.vt.edu (mr6.cc.vt.edu [198.82.141.20] (may be forged))
+	by omr1.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t29CudgF000400
+	for <andrew.m.james2@gmail.com>; Mon, 9 Mar 2015 08:56:39 -0400
+Received: from mail-ig0-f176.google.com (mail-ig0-f176.google.com [209.85.213.176])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t29CuXwh026486
+	for <andrew.m.james2@gmail.com>; Mon, 9 Mar 2015 08:56:38 -0400
+Received: by igkb16 with SMTP id b16so20455793igk.1
+        for <andrew.m.james2@gmail.com>; Mon, 09 Mar 2015 05:56:33 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=6DTubuBRB0WQdM+jSQz8xSzSjQ8wkxwoOCHFDDD2JdE=;
+        b=RPlI5odBNjepxm80MV9XeXJlyB7+EZu1nH5oj1YRN1Z2WoU/dG/qiNrdCcVuCF6JzZ
+         TfQJY7SZnZfRQmbfXX59634HpmfY6EbhBTWpaaJaMuGmUW2WC84ac/KVqK9AbPsl0Swe
+         iqjGu4ASo2f+ZG2vN5WTzJ+vMLCHRwNxD5lZTbhXx5+ynRLaINJ6PqhZDOpNuNhWzdgN
+         YAx7DL1vs54j57Y8IiBcnOApS8OSoVPsf+2Aq/riX7QpOkNCQeu9MBkVgJ8ZCOAR6Nfe
+         puaTTs8rIxbEv362RJkPn+yPP8WmCLJYfklnL7MCei7YTZVrVzmevHvHUHvwL/MfaXnD
+         bZWA==
+X-Gm-Message-State: ALoCoQmOpc3WAS32ppWdiB+4gzmL9RLgoHERtrQfHTqOIX11a5PVgIomx2yiuEHvJ4oxQIjI43jpJt1U3dJDH8+g8wFk+wli6Q8Er+31AnGDC26Oika0qDneOI54XDgShX9mQxAF05d2lavxW57CAXpWJ/Ftwu86rA==
+X-Received: by 10.107.158.194 with SMTP id h185mr31098862ioe.30.1425905793401;
+        Mon, 09 Mar 2015 05:56:33 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.158.194 with SMTP id h185mr31098841ioe.30.1425905793295;
+ Mon, 09 Mar 2015 05:56:33 -0700 (PDT)
+Received: by 10.107.135.196 with HTTP; Mon, 9 Mar 2015 05:56:33 -0700 (PDT)
+In-Reply-To: <06048574-ECFB-4722-BE69-40A375D51D89@gmail.com>
+References: <CAH0V_1ZbrOAiXS0Fy5Pp58s26Dhbr3W4UXnmJAH_T=aSvw4v2g@mail.gmail.com>
+	<06048574-ECFB-4722-BE69-40A375D51D89@gmail.com>
+Date: Mon, 9 Mar 2015 08:56:33 -0400
+Message-ID: <CAH0V_1Z6MoHuyWtsMshhNmVO3ejSrU3Y0+bxLk4OWzM2rjctoA@mail.gmail.com>
+Subject: Re: Final website Details
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1141bb384b02070510da9010
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1141bb384b02070510da9010
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Excellent, AJ!  Here are my specific responses:
+
+(1) I'm working with conference services about the CV, letters, etc.  There
+will be a link that we can add to the registration page for students to
+send their materials.
+
+(2) I like the agenda page as it is.  No need to change at this point.
+
+(3) Love the map!
+
+(4) Put me down as the contact for now, but we should talk about that a
+bit.  I might ask you to be the key contact person, provided you're willing
+to take on that role.
+
+(5) Go ahead and get the property school pages started, using what you have
+now as a template.  The instructors are (look them up to get their exact
+affiliations right):
+
+  Patrick Norman (Link=C3=B6ping U., Sweden)
+  Trond Saue (U. Toulouse, France)
+  Kenneth Ruud (Arctic University of Norway, Troms=C3=B8, Norway)
+  me
+
+The property school will have a fee and registration link.  That should be
+coming soon.  I'll look into putting the site onto the theory.chem.vt.edu
+site later tonight.
+
+Thanks, AJ!
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sat, Mar 7, 2015 at 2:48 AM, Andrew James <andrew.m.james2@gmail.com>
+wrote:
+
+> Dr. Crawford,
+> First, I hope you were able to get away to PR with your family safely
+> after yesterday=E2=80=99s weather. The website for the software school is=
+ pretty
+> much complete. I have highlighted the last changes to each page in the li=
+st
+> below, and put some final questions in there as well.  The link again so
+> you don=E2=80=99t have go looking for it.
+>
+> (1) The homepage: I changed around the presenters (now instructors)
+> section. I added pictures of each and their affiliations. And the topic
+> they will talk about. Each name is a link to that persons faculty page an=
+d
+> once we know who will be coming from software carpentry for certain I can
+> expand that into two separate blocks with their own pictures
+>         In the interested students section of the home page:
+>             -Do those requirements look good?
+>             -Where should the documents be sent?
+>             -What should the deadline be?
+>
+> (2) The agenda page:I have put videos/slides Here in the individual panel=
+s
+> rather than the front page. I don=E2=80=99t entirely love how the side pa=
+nel looks,
+> and it isn=E2=80=99t really nesesary at this point should I move the vide=
+os and
+> slides here?  Should I mention that there will be an activity the first
+> night to meet the other students?
+>
+> (3) The Student page: I put a map in showing Blacksburg and Roanoke with =
+a
+> VT icon and a airplane Icon showing the location of the airport and campu=
+s
+> (that was a lot of fun).
+>
+> (4)Miscellaneous details and questions.
+>         -Is the funding information is correct?
+>         -What should I put as the copyright I have put SCIM^2
+>         -What should be listed as the contact info in the footer of each
+> page?
+>         -As things are updated I can put a badge next to that heading tha=
+t
+> says new! or something to that effect, an example is in the first entry o=
+n
+> the students page
+>
+> (5)Registration: I think I just need the link and it is good to go!
+>
+>
+> Moving to the properties school: I plan on using the same site just
+> swapping the text like we discussed. I think that will be ready to go ver=
+y
+> quickly. I can put it where ever it needs to go I have the site on my
+> laptop right now with all of the details left blank I would just need to
+> fill it in. If you would like them to look slightly different I can chang=
+e
+> out the picture and change the orange color to match that picture (not ve=
+ry
+> difficult the way I have modified the template)
+>
+> =E2=80=94AJ
+>
+> PS sorry this is a bit lengthy, but I wanted to make sure we got it all
+> wrapped up!
+>
+>
+>
+
+--001a1141bb384b02070510da9010
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Excellent, AJ!=C2=A0 Here are my specific responses:<div><=
+br></div><div>(1) I&#39;m working with conference services about the CV, le=
+tters, etc.=C2=A0 There will be a link that we can add to the registration =
+page for students to send their materials. =C2=A0</div><div><br></div><div>=
+(2) I like the agenda page as it is.=C2=A0 No need to change at this point.=
+</div><div><br></div><div>(3) Love the map!</div><div><br></div><div>(4) Pu=
+t me down as the contact for now, but we should talk about that a bit.=C2=
+=A0 I might ask you to be the key contact person, provided you&#39;re willi=
+ng to take on that role.</div><div><br></div><div>(5) Go ahead and get the =
+property school pages started, using what you have now as a template.=C2=A0=
+ The instructors are (look them up to get their exact affiliations right):<=
+/div><div><br></div><div>=C2=A0 Patrick Norman (Link=C3=B6ping U., Sweden)<=
+/div><div>=C2=A0 Trond Saue (U. Toulouse, France)</div><div>=C2=A0 Kenneth =
+Ruud (Arctic University of Norway, Troms=C3=B8, Norway)</div><div>=C2=A0 me=
+</div><div><br></div><div>The property school will have a fee and registrat=
+ion link.=C2=A0 That should be coming soon.=C2=A0 I&#39;ll look into puttin=
+g the site onto the <a href=3D"http://theory.chem.vt.edu">theory.chem.vt.ed=
+u</a> site later tonight.</div><div><br></div><div>Thanks, AJ!</div><div><b=
+r></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all"><=
+div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel =
+Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">craw=
+dad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Sat, Mar 7, 2015 at 2:48 AM, Andrew James=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:andrew.m.james2@gmail.com" target=
+=3D"_blank">andrew.m.james2@gmail.com</a>&gt;</span> wrote:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex">Dr. Crawford,<br>
+First, I hope you were able to get away to PR with your family safely after=
+ yesterday=E2=80=99s weather. The website for the software school is pretty=
+ much complete. I have highlighted the last changes to each page in the lis=
+t below, and put some final questions in there as well.=C2=A0 The link agai=
+n so you don=E2=80=99t have go looking for it.<br>
+<br>
+(1) The homepage: I changed around the presenters (now instructors) section=
+. I added pictures of each and their affiliations. And the topic they will =
+talk about. Each name is a link to that persons faculty page and once we kn=
+ow who will be coming from software carpentry for certain I can expand that=
+ into two separate blocks with their own pictures<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 In the interested students section of the home =
+page:<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 -Do those requirements look good?=
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 -Where should the documents be se=
+nt?<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 -What should the deadline be?<br>
+<br>
+(2) The agenda page:I have put videos/slides Here in the individual panels =
+rather than the front page. I don=E2=80=99t entirely love how the side pane=
+l looks, and it isn=E2=80=99t really nesesary at this point should I move t=
+he videos and slides here?=C2=A0 Should I mention that there will be an act=
+ivity the first night to meet the other students?<br>
+<br>
+(3) The Student page: I put a map in showing Blacksburg and Roanoke with a =
+VT icon and a airplane Icon showing the location of the airport and campus =
+(that was a lot of fun).<br>
+<br>
+(4)Miscellaneous details and questions.<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 -Is the funding information is correct?<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 -What should I put as the copyright I have put =
+SCIM^2<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 -What should be listed as the contact info in t=
+he footer of each page?<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 -As things are updated I can put a badge next t=
+o that heading that says new! or something to that effect, an example is in=
+ the first entry on the students page<br>
+<br>
+(5)Registration: I think I just need the link and it is good to go!<br>
+<br>
+<br>
+Moving to the properties school: I plan on using the same site just swappin=
+g the text like we discussed. I think that will be ready to go very quickly=
+. I can put it where ever it needs to go I have the site on my laptop right=
+ now with all of the details left blank I would just need to fill it in. If=
+ you would like them to look slightly different I can change out the pictur=
+e and change the orange color to match that picture (not very difficult the=
+ way I have modified the template)<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+=E2=80=94AJ<br>
+</font></span><br>
+PS sorry this is a bit lengthy, but I wanted to make sure we got it all wra=
+pped up!<br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--001a1141bb384b02070510da9010--

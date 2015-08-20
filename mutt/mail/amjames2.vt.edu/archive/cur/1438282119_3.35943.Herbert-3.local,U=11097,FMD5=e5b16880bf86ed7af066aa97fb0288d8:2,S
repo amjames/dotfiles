@@ -1,0 +1,244 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp48047qgt;
+        Sun, 21 Jun 2015 08:08:56 -0700 (PDT)
+X-Received: by 10.55.54.65 with SMTP id d62mr53682483qka.59.1434899336197;
+        Sun, 21 Jun 2015 08:08:56 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id h10si16555654qgf.29.2015.06.21.08.08.56
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 08:08:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) client-ip=209.85.223.174;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.174 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LF8oRh016973
+	for <amjames2@vt.edu>; Sun, 21 Jun 2015 11:08:55 -0400
+Received: by iecvh10 with SMTP id vh10so4659940iec.3
+        for <amjames2@vt.edu>; Sun, 21 Jun 2015 08:08:50 -0700 (PDT)
+X-Received: by 10.42.30.208 with SMTP id w16mr21721699icc.88.1434899330357;
+        Sun, 21 Jun 2015 08:08:50 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp1512113iec;
+        Sun, 21 Jun 2015 08:08:49 -0700 (PDT)
+X-Received: by 10.55.42.1 with SMTP id q1mr54805416qkh.3.1434899329359;
+        Sun, 21 Jun 2015 08:08:49 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id 87si490511qkq.112.2015.06.21.08.08.48
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 21 Jun 2015 08:08:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LF8mDk024931
+	for <andrew.m.james2@gmail.com>; Sun, 21 Jun 2015 11:08:48 -0400
+Received: from mail-ie0-f179.google.com (mail-ie0-f179.google.com [209.85.223.179])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5LF8hJt020065
+	for <andrew.m.james2@gmail.com>; Sun, 21 Jun 2015 11:08:48 -0400
+Received: by iefd2 with SMTP id d2so44535444ief.2
+        for <andrew.m.james2@gmail.com>; Sun, 21 Jun 2015 08:08:43 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=9hV/BwWmmfOSgbVZUHJKP1k2Pw2r+qgtUF/9uNa9r4I=;
+        b=Z5QjwQ8gw59KqojgGA2/yJfTaGLAlBU7pBF0pKCP+QCzQjVHsEzn51Z0hwbSM2ugU0
+         Ln2nx2/QjJB2kWZ3MKAX8QVyENBgcZ0EjN0hj/58R6XMRqC4MmhLoQW20lPqruHK4HYD
+         mtAxzxAYtCL+YnwFok1jBxWPH4+OWOsKmZTzbgRW9312+UzHVr494CMOFFVJZoDvv0sq
+         FlhYBultSFI+kNV+kaNyZjqSHrtcJe4+/8xC0N3l07DAX+vxVNT7CeVpeQGAVLj71K40
+         XnNkhsdpizGM8bOcS3pG8J55/T84dOK5CNJA5jK6V4hpKwmuZQS9P77BsnKt7+KAw6P3
+         iYPg==
+X-Gm-Message-State: ALoCoQk/gpebGIOn2dpy3G2g3sIX1ZYj2oU281F9UocCSKME/S83VRLny7Hsj3GNzBAi6Bf6L9Zpdt8FW8s1vAyRaDAsRc9vVhD45DEYUBTFI/1hi/evCN0KbkcxuEJH0pGJcnpTR0EDszBmLJv2DK32zdi9N5ZkpA==
+X-Received: by 10.107.166.203 with SMTP id p194mr33924864ioe.30.1434899323115;
+        Sun, 21 Jun 2015 08:08:43 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.203 with SMTP id p194mr33924855ioe.30.1434899322999;
+ Sun, 21 Jun 2015 08:08:42 -0700 (PDT)
+Received: by 10.107.7.223 with HTTP; Sun, 21 Jun 2015 08:08:42 -0700 (PDT)
+In-Reply-To: <CAH0V_1bRo8op_m-L2Tne7grqEYtjyZTUpe71MgPeWTq2sJjt8g@mail.gmail.com>
+References: <CAH0V_1Yyj86NdZsEt-ib0zSs=X1jOVJCF0y=yFpJz9LNzGcbzA@mail.gmail.com>
+	<CAL+5PjwRK1_eiL7iqYoWzUewDAx+akbyKEAnFYDpzR9uFMyfpg@mail.gmail.com>
+	<CAH0V_1bRo8op_m-L2Tne7grqEYtjyZTUpe71MgPeWTq2sJjt8g@mail.gmail.com>
+Date: Sun, 21 Jun 2015 10:08:42 -0500
+Message-ID: <CAH0V_1b3ZA+odTaFZZNmGghNRQcqCGOq2Cni_dhj4xNn+V34_A@mail.gmail.com>
+Subject: Fwd: S2I2 Software Summer School Update
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Andrew James <andrew.m.james2@gmail.com>,
+        Harley McAlexander <harleymc@vt.edu>, "Good, Laurie" <laurieg@vt.edu>
+Content-Type: multipart/alternative; boundary=001a11414af46fa7360519088825
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11414af46fa7360519088825
+Content-Type: text/plain; charset=UTF-8
+
+Just keeping you in the loop.
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: T. Daniel Crawford <crawdad@vt.edu>
+Date: Sun, Jun 21, 2015 at 10:08 AM
+Subject: Re: S2I2 Software Summer School Update
+To: Tommy Guy <richardtguy84@gmail.com>
+
+
+Hi, Tommy,
+
+Glad you guys made it to town.  The meet-and-greet tonight will be informal
+and starts at around 7pm at Sharkey's at the corner of Main St. and College
+Ave. (center of downtown B'burg).  We decided not to arrange a reception,
+but just let people get together and chat a bit before tomorrow's
+sessions.  I'll be there for a little while, as will AJ in between trips to
+the airport.
+
+The classes will be in Goodwin Hall, which is indeed a brand new building
+on Prices Fork Rd.  Our room is 135, and I think it will suit us nicely.
+Here's an interactive map that includes Goodwin:
+
+http://s2i2.org/school_2015/student_info.html
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Sun, Jun 21, 2015 at 10:01 AM, Tommy Guy <richardtguy84@gmail.com> wrote:
+
+> Hey Daniel,
+>
+> Other Daniel and I made it in last night. I have two questions. First, I
+> noticed that there is a mixer/icebreaker today. Is that something we should
+> attend and if yes, where is it? Second, what's the street address where we
+> will teach? I hear it's a brand new building! Is it on the side of the quad
+> closest to the golf course?
+>
+> See you this evening or tomorrow!
+> TG
+>
+> On Mon, Jun 8, 2015 at 6:25 PM, T. Daniel Crawford <crawdad@vt.edu> wrote:
+>
+>> Hi, all,
+>>
+>> We are down to just under two weeks before the start of the third annual
+>> Software Summer School (SSS), so we need to be preparing our curriculum.
+>> The github repo from last year's school (which I'd like to use again) is
+>> here:  https://github.com/lothian/S2I2
+>>
+>> The schedule is pretty close to that from the past two years:
+>>
+>> Week 1:
+>>
+>> Sunday night: mixer/icebreaker reception
+>> Monday & Tuesday:  Software Carpentry
+>> Wednesday & 1/2 Thursday: BLAS/LAPACK, interactive debugging, example SCF
+>> algorithm (TDC)
+>> 1/2 Thursday & Friday: Computer architecture and algorithm optimization
+>> (EFV)
+>>
+>> Weekend: Hiking, Saturday night party, Sunday off
+>>
+>> Week 2:
+>>
+>> Monday & Tuesday: Parallel architectures (RJH)
+>> Wednesday: GPUs (AED)
+>> Wednesday night: Closing get-together
+>>
+>> Do we need a Google Hangout before the school to get organized, or do we
+>> have enough to get off the ground already?
+>>
+>> Best regards,
+>>
+>> -TDC
+>> --
+>> Prof. T. Daniel Crawford
+>> crawdad@vt.edu
+>>
+>
+>
+
+--001a11414af46fa7360519088825
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Just keeping you in the loop.<div><br></div><div>-TDC<br c=
+lear=3D"all"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Pr=
+of. T. Daniel Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=
+=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">T. Daniel Crawford</b> <span dir=3D"ltr"=
+>&lt;<a href=3D"mailto:crawdad@vt.edu">crawdad@vt.edu</a>&gt;</span><br>Dat=
+e: Sun, Jun 21, 2015 at 10:08 AM<br>Subject: Re: S2I2 Software Summer Schoo=
+l Update<br>To: Tommy Guy &lt;<a href=3D"mailto:richardtguy84@gmail.com">ri=
+chardtguy84@gmail.com</a>&gt;<br><br><br><div dir=3D"ltr">Hi, Tommy,<div><b=
+r></div><div>Glad you guys made it to town.=C2=A0 The meet-and-greet tonigh=
+t will be informal and starts at around 7pm at Sharkey&#39;s at the corner =
+of Main St. and College Ave. (center of downtown B&#39;burg).=C2=A0 We deci=
+ded not to arrange a reception, but just let people get together and chat a=
+ bit before tomorrow&#39;s sessions.=C2=A0 I&#39;ll be there for a little w=
+hile, as will AJ in between trips to the airport.</div><div><br></div><div>=
+The classes will be in Goodwin Hall, which is indeed a brand new building o=
+n Prices Fork Rd.=C2=A0 Our room is 135, and I think it will suit us nicely=
+.=C2=A0 Here&#39;s an interactive map that includes Goodwin:</div><div><br>=
+</div><div><a href=3D"http://s2i2.org/school_2015/student_info.html" target=
+=3D"_blank">http://s2i2.org/school_2015/student_info.html</a><span class=3D=
+"HOEnZb"><font color=3D"#888888"><br></font></span></div><span class=3D"HOE=
+nZb"><font color=3D"#888888"><div><br></div><div>-TDC</div></font></span></=
+div><div class=3D"gmail_extra"><span class=3D""><br clear=3D"all"><div><div=
+><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mail=
+to:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></=
+div>
+<br></span><div><div class=3D"h5"><div class=3D"gmail_quote">On Sun, Jun 21=
+, 2015 at 10:01 AM, Tommy Guy <span dir=3D"ltr">&lt;<a href=3D"mailto:richa=
+rdtguy84@gmail.com" target=3D"_blank">richardtguy84@gmail.com</a>&gt;</span=
+> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>Hey Daniel=
+,<br><br>Other Daniel and I made it in last night. I have two questions. Fi=
+rst, I noticed that there is a mixer/icebreaker today. Is that something we=
+ should attend and if yes, where is it? Second, what&#39;s the street addre=
+ss where we will teach? I hear it&#39;s a brand new building! Is it on the =
+side of the quad closest to the golf course?<br><br></div><div>See you this=
+ evening or tomorrow!<span><font color=3D"#888888"><br></font></span></div>=
+<span><font color=3D"#888888">TG<br></font></span></div><div><div><div clas=
+s=3D"gmail_extra"><br><div class=3D"gmail_quote">On Mon, Jun 8, 2015 at 6:2=
+5 PM, T. Daniel Crawford <span dir=3D"ltr">&lt;<a href=3D"mailto:crawdad@vt=
+.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">Hi, all,<div><br></div><div>We are dow=
+n to just under two weeks before the start of the third annual Software Sum=
+mer School (SSS), so we need to be preparing our curriculum.=C2=A0 The gith=
+ub repo from last year&#39;s school (which I&#39;d like to use again) is he=
+re: =C2=A0<a href=3D"https://github.com/lothian/S2I2" target=3D"_blank">htt=
+ps://github.com/lothian/S2I2</a></div><div><br></div><div>The schedule is p=
+retty close to that from the past two years:</div><div><br></div><div>Week =
+1:=C2=A0</div><div><br></div><div>Sunday night: mixer/icebreaker reception<=
+/div><div>Monday &amp; Tuesday: =C2=A0Software Carpentry</div><div>Wednesda=
+y &amp; 1/2 Thursday: BLAS/LAPACK, interactive debugging, example SCF algor=
+ithm (TDC)</div><div>1/2 Thursday &amp; Friday: Computer architecture and a=
+lgorithm optimization (EFV)</div><div><br></div><div>Weekend: Hiking, Satur=
+day night party, Sunday off</div><div><br></div><div>Week 2:</div><div><br>=
+</div><div>Monday &amp; Tuesday: Parallel architectures (RJH)</div><div>Wed=
+nesday: GPUs (AED)</div><div>Wednesday night: Closing get-together</div><di=
+v><br></div><div>Do we need a Google Hangout before the school to get organ=
+ized, or do we have enough to get off the ground already?</div><div><br></d=
+iv><div>Best regards,</div><div><br></div><div>-TDC</div><div><div><div><di=
+v dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div><div><a href=3D"mailto:c=
+rawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a></div></div></div></div>
+</div></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div></div></div>
+</div><br></div></div>
+
+--001a11414af46fa7360519088825--

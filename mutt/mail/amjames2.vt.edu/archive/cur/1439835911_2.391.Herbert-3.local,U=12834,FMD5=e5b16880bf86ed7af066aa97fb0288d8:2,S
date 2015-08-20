@@ -1,0 +1,217 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp556549qgt;
+        Sat, 15 Aug 2015 15:26:33 -0700 (PDT)
+X-Received: by 10.140.238.208 with SMTP id j199mr31813807qhc.65.1439677593112;
+        Sat, 15 Aug 2015 15:26:33 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:212:7ed0:359e])
+        by mx.google.com with ESMTPS id m70si17355320qhb.15.2015.08.15.15.26.29
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 15 Aug 2015 15:26:33 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.214.174 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.214.174;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.214.174 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mailfrom=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7FMQNvB006009;
+	Sat, 15 Aug 2015 18:26:28 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t7FMQLoh023992;
+	Sat, 15 Aug 2015 18:26:23 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101238997 for CHEM_GRAD@LISTSERV.VT.EDU; Sat, 15 Aug 2015 18:26:23
+          -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7FMQLod023992; Sat, 15 Aug
+          2015 18:26:21 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          101238940 for CHEM_EVERYONE@LISTSERV.VT.EDU; Sat, 15 Aug 2015
+          18:26:21 -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t7FMGJfP023100 for
+          <chem_everyone@listserv.vt.edu>; Sat, 15 Aug 2015 18:16:19 -0400
+Received: from mail-ob0-f174.google.com (mail-ob0-f174.google.com
+          [209.85.214.174]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t7FMGEVZ017466 for <chem_everyone@listserv.vt.edu>; Sat, 15 Aug 2015
+          18:16:19 -0400
+Received: by obbfr1 with SMTP id fr1so85893537obb.1 for
+          <chem_everyone@listserv.vt.edu>; Sat, 15 Aug 2015 15:16:14 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:in-reply-to:references:date
+                         :message-id:subject:from:to:content-type;
+                         bh=+0oNCCStAHNphOWEZDwzi2du2sHYtfoWaynwdWXfXKM=;
+                         b=WvOvYNjUWnnnSaI8bugNMPAhbNvSEtqAJtydEvvtce2mwZhQaoU/yp2oZFeJeI+mQz
+                         XY+A1EWs8EoLpDOG2nRegO5x+2tCFFtDi3P6HsCpaQQYLN3uzlqC0ppUU/Mi6UOxz+TF
+                         akTFu7dPB8OVzcHZENeVNdK4Qwn/gmiN2g9s0p/edBse/DvDeYV8srKuGz39sQFdwiYU
+                         3GFz8iULp+LO/Ysx2/CS8lhxozMw36BKD98mdpVJDDom+8iu06XJnIG8WJzCoXURJjeM
+                         GgDyyD6BqvB9Ce8u+Yz48lSavHJdU1GWaoOBznA2CYjerG6ZzQas7Fa5B0zV8j1uABmr
+                         BQmA==
+X-Gm-Message-State: ALoCoQkc8nYRX1F0LspwG5fCqjxuA8KQu+sVIFhhuyaVmi2iuigKioxWxjbzq1chPIkeEcuXOLHsqy6Cv6TqcWDQ0gj1skMZSSX9TVcqM0TFPA0h2MuUG0snQNSYXlXGuFeVo5Ak+PzSaJzV/Fs8YsnSiyROBicP1g==
+X-Received: by 10.60.62.162 with SMTP id z2mr44624813oer.76.1439676974190; Sat,
+            15 Aug 2015 15:16:14 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.62.162 with SMTP id z2mr44624806oer.76.1439676974048; Sat,
+            15 Aug 2015 15:16:14 -0700 (PDT)
+Received: by 10.202.3.131 with HTTP; Sat, 15 Aug 2015 15:16:13 -0700 (PDT)
+Received: by 10.202.3.131 with HTTP; Sat, 15 Aug 2015 15:16:13 -0700 (PDT)
+References: <b617419ca92a4508b533af7ff6583926@MARCONI.cc.w2k.vt.edu>
+Content-Type: multipart/alternative; boundary=047d7b673d1aa13feb051d60eae9
+X-Spam-Status: No, score=-0.0 required=5.0 tests=HTML_MESSAGE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr2.cc.vt.edu
+Precedence: list
+Message-ID:  <CA+b4ecf6+yX9e4uNLuUaOrC8KonyZZc1gfgfNtcMxce8PNjt2g@mail.gmail.com>
+Date:         Sat, 15 Aug 2015 18:16:13 -0400
+Reply-To: Wanda Hensley <sunfire@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Wanda Hensley <sunfire@vt.edu>
+Subject: Fwd: Important Notice for Salary Payroll #17
+To: CHEM_GRAD@LISTSERV.VT.EDU
+In-Reply-To:  <b617419ca92a4508b533af7ff6583926@MARCONI.cc.w2k.vt.edu>
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--047d7b673d1aa13feb051d60eae9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: "hrbanner" <hrbanner@vt.edu>
+Date: Aug 14, 2015 11:19 AM
+Subject: Important Notice for Salary Payroll #17
+To: "hrisallusers-g@vt.edu" <hrisallusers-g@vt.edu>
+Cc:
+
+President Sands has authorized for classes to be cancelled and university
+offices to be closed on Monday, September 7 in observance of Labor Day.
+This day will be considered an authorized closing for faculty and remain a
+holiday for staff employees.  Additional information related to leave
+reporting will be provided to leave representatives in the Leave
+Notification for period 8.
+
+
+
+The Department of Human Resources and the University Controller=E2=80=99s O=
+ffice
+will be closed on Monday, September 7 in observance of Labor Day.  *As a
+result, overtime entry for salary payroll 17 (8/25-9/9) will be pushed back
+to Tuesday, September 8.  *
+
+
+
+*The following deadlines will remain in place for salary payroll 17:*
+
+New Hire Paperwork:                                    Wednesday, September
+2
+
+HR Transactions:                                              Thursday,
+September 3
+
+Separations/Funding Changes:                  Friday, September 4
+
+
+
+Due to the high volume of transactions received during the salary payroll
+17, we strongly encourage departments to submit paperwork well in advance
+of the deadlines.
+
+
+
+If you do have a late separation, please contact the appropriate member of
+Employee Administration for assistance:
+
+Faculty Transactions:      Cara Epperly <cpain06@vt.edu>
+
+Staff Transactions:           Brandi Webb <bowens20@vt.edu>
+
+
+
+Additional information related to the Labor Day closing can be found here
+<http://www.vtnews.vt.edu/notices/072015-hr-labordayclosed.html>.  If you
+have any additional questions, please contact the HR Service Center
+<hrservicecenter@vt.edu> at 540.231.9331.
+
+--047d7b673d1aa13feb051d60eae9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>From:=
+ &quot;hrbanner&quot; &lt;<a href=3D"mailto:hrbanner@vt.edu">hrbanner@vt.ed=
+u</a>&gt;<br>Date: Aug 14, 2015 11:19 AM<br>Subject: Important Notice for S=
+alary Payroll #17<br>To: &quot;<a href=3D"mailto:hrisallusers-g@vt.edu">hri=
+sallusers-g@vt.edu</a>&quot; &lt;<a href=3D"mailto:hrisallusers-g@vt.edu">h=
+risallusers-g@vt.edu</a>&gt;<br>Cc: <br><br type=3D"attribution">
+
+
+
+
+
+<div lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div>
+<p class=3D"MsoNormal">President Sands has authorized for classes to be can=
+celled and university offices to be closed on Monday, September 7 in observ=
+ance of Labor Day.=C2=A0 This day will be considered an authorized closing =
+for faculty and remain a holiday for staff
+ employees.=C2=A0 Additional information related to leave reporting will be=
+ provided to leave representatives in the Leave Notification for period 8.<=
+u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">The Department of Human Resources and the University=
+ Controller=E2=80=99s Office will be closed on Monday, September 7 in obser=
+vance of Labor Day.=C2=A0
+<b>As a result, overtime entry for salary payroll 17 (8/25-9/9) will be pus=
+hed back to Tuesday, September 8.=C2=A0
+</b><u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal"><i>The following deadlines will remain in place for =
+salary payroll 17:</i><u></u><u></u></p>
+<p class=3D"MsoNormal">New Hire Paperwork:=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0 Wednesday, September 2<u></u><u></u></p>
+<p class=3D"MsoNormal">HR Transactions:=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0Thursday, September 3<u></u><u></u></p>
+<p class=3D"MsoNormal">Separations/Funding Changes:=C2=A0 =C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+ Friday, September 4<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Due to the high volume of transactions received duri=
+ng the salary payroll 17, we strongly encourage departments to submit paper=
+work well in advance of the deadlines.=C2=A0
+<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">If you do have a late separation, please contact the=
+ appropriate member of Employee Administration for assistance:<u></u><u></u=
+></p>
+<p class=3D"MsoNormal">Faculty Transactions:=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =
+<a href=3D"mailto:cpain06@vt.edu" target=3D"_blank">Cara Epperly</a><u></u>=
+<u></u></p>
+<p class=3D"MsoNormal">Staff Transactions:=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0 <a href=3D"mailto:bowens20@vt.edu" target=3D"_b=
+lank">
+Brandi Webb</a><u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Additional information related to the Labor Day clos=
+ing can be found
+<a href=3D"http://www.vtnews.vt.edu/notices/072015-hr-labordayclosed.html" =
+target=3D"_blank">here</a>.=C2=A0 If you have any additional questions, ple=
+ase contact the
+<a href=3D"mailto:hrservicecenter@vt.edu" target=3D"_blank">HR Service Cent=
+er</a> at <a href=3D"tel:540.231.9331" value=3D"+15402319331" target=3D"_bl=
+ank">540.231.9331</a>.<u></u><u></u></p>
+</div>
+</div>
+
+</div>
+
+--047d7b673d1aa13feb051d60eae9--

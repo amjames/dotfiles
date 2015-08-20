@@ -1,0 +1,90 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.31.118 with SMTP id e109csp705884qge;
+        Thu, 26 Mar 2015 07:27:03 -0700 (PDT)
+X-Received: by 10.52.255.131 with SMTP id aq3mr17107090vdd.57.1427380023177;
+        Thu, 26 Mar 2015 07:27:03 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id rl14si7314660vdb.56.2015.03.26.07.27.02
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Mar 2015 07:27:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) client-ip=192.30.252.193;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.193 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2b-ext-cp1-prd.iad.github.net (github-smtp2-ext2.iad.github.net [192.30.252.193])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t2QEQuUo029548
+	for <amjames2@vt.edu>; Thu, 26 Mar 2015 10:27:01 -0400
+Date: Thu, 26 Mar 2015 07:26:56 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1427380016;
+	bh=qhYrJeM51Hbmkg7eQ7bntcMGww/v98ym6DyN0DniU10=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=Y2lPLYU5Hq3wbk2lD44dcNhZKXjooa1SDI5VNF4ywTFDyvxhaMbw9LcvITjXoGHOa
+	 QcjBhyo1khnp0MgOwlHh23K3FUuHA42vdp+y5FgSzItG9SVHxkyI+/xo+2f3gJgbwa
+	 J807IWcVaD6sIe5QsQtiVXfSqEFpBVyDsolGNBAA=
+From: Ryan Richard <notifications@github.com>
+Reply-To: psi4/psi4 <reply+0089f642b9519dd0cfe07b413071016e96c75fe91ddd328892cf00000001112bd93092a169ce03d75734@reply.github.com>
+To: psi4/psi4 <psi4@noreply.github.com>
+Message-ID: <psi4/psi4/issues/95/86540236@github.com>
+In-Reply-To: <psi4/psi4/issues/95@github.com>
+References: <psi4/psi4/issues/95@github.com>
+Subject: Re: [psi4] Compilation problems with Intel compiler (#95)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5514173069ff_6a2f3fd09c0472a01510f7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: ryanmrichard
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4 <psi4.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4
+List-Post: <mailto:reply+0089f642b9519dd0cfe07b413071016e96c75fe91ddd328892cf00000001112bd93092a169ce03d75734@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f642b9519dd0cfe07b413071016e96c75fe91ddd328892cf00000001112bd93092a169ce03d75734@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2Qi45IIfURdkCkyBn_XVyU_rt3OTJks5n5A6wgaJpZM4D0_qu>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_24,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_5514173069ff_6a2f3fd09c0472a01510f7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The code in question compiles fine for me with icpc 13.0 and icpc 15.0, as well as gcc 4.8, so unfortunately I can't reproduce your errors, but I'll see what advice I can give you.  For starters, I know these template errors can be hard to read, so I'll dissect it.  Basically on line 230 of Table.h the compiler is trying to find a default constructor for the `TableData` class and one doesn't exist.  However, looking at line 231 of Table.h, in the repository, shows that there is an explicit call to `TableData::TableData(const T&,const int, const int,const int )`, so I don't understand why the compiler would try to invoke the default constructor.
+
+My suggestions: ensure your Table.h is up to date.  If that's true, try replacing the forward declaration of `TableData` on line 117 with the actual definition from lines 177-211.  It's possible, although not correct according to the C++ standard, that somehow the compiler isn't handling the `TableData` class that is a member of `Table` correctly because it's only forward declared.  The use of the forward declaration there is purely stylistic, so if getting rid of it removes the error, I would say check the fix in.  I don't really have any other suggestions
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4/issues/95#issuecomment-86540236
+----==_mimepart_5514173069ff_6a2f3fd09c0472a01510f7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>The code in question compiles fine for me with icpc 13.0 and icpc 15.0, as well as gcc 4.8, so unfortunately I can't reproduce your errors, but I'll see what advice I can give you.  For starters, I know these template errors can be hard to read, so I'll dissect it.  Basically on line 230 of Table.h the compiler is trying to find a default constructor for the <code>TableData</code> class and one doesn't exist.  However, looking at line 231 of Table.h, in the repository, shows that there is an explicit call to <code>TableData::TableData(const T&amp;,const int, const int,const int )</code>, so I don't understand why the compiler would try to invoke the default constructor.</p>
+
+<p>My suggestions: ensure your Table.h is up to date.  If that's true, try replacing the forward declaration of <code>TableData</code> on line 117 with the actual definition from lines 177-211.  It's possible, although not correct according to the C++ standard, that somehow the compiler isn't handling the <code>TableData</code> class that is a member of <code>Table</code> correctly because it's only forward declared.  The use of the forward declaration there is purely stylistic, so if getting rid of it removes the error, I would say check the fix in.  I don't really have any other suggestions</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4/issues/95#issuecomment-86540236">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QrWpEdGhm1-LK5GOSg6-NDc3nMP_ks5n5A6wgaJpZM4D0_qu.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4/issues/95#issuecomment-86540236"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_5514173069ff_6a2f3fd09c0472a01510f7--

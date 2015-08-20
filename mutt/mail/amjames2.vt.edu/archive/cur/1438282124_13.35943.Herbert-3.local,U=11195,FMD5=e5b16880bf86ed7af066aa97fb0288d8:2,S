@@ -1,0 +1,84 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1491777qgt;
+        Tue, 23 Jun 2015 10:14:46 -0700 (PDT)
+X-Received: by 10.140.88.163 with SMTP id t32mr45135557qgd.92.1435079686570;
+        Tue, 23 Jun 2015 10:14:46 -0700 (PDT)
+Return-Path: <owner-chem_grad@listserv.vt.edu>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id t3si13536858qci.46.2015.06.23.10.14.45
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 10:14:46 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.218.43 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) client-ip=209.85.218.43;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.218.43 is neither permitted nor denied by best guess record for domain of owner-chem_grad@listserv.vt.edu) smtp.mail=owner-chem_grad@listserv.vt.edu
+Received: from listserv.vt.edu (listserv.ipv6.vt.edu [IPv6:2001:468:c80:2105:211:43ff:feda:d769])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NHEcup015528;
+	Tue, 23 Jun 2015 13:14:43 -0400
+Received: from listserv.vt.edu (listserv.vt.edu [127.0.0.1])
+	by listserv.vt.edu (8.13.1/8.13.1/LISTSERV) with ESMTP id t5NCIANU016375;
+	Tue, 23 Jun 2015 13:14:38 -0400
+Received: by LISTSERV.VT.EDU (LISTSERV-TCP/IP release 16.0) with spool id
+          100145001 for CHEM_GRAD@LISTSERV.VT.EDU; Tue, 23 Jun 2015 13:14:38
+          -0400
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu
+          [IPv6:2001:468:c80:2105:0:232:8670:19fe]) by listserv.vt.edu
+          (8.13.1/8.13.1/LISTSERV) with ESMTP id t5NHEb3b006754 for
+          <CHEM_GRAD@listserv.vt.edu>; Tue, 23 Jun 2015 13:14:37 -0400
+Received: from mail-oi0-f43.google.com (mail-oi0-f43.google.com
+          [209.85.218.43]) by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id
+          t5NHEWUP015298 for <CHEM_GRAD@listserv.vt.edu>; Tue, 23 Jun 2015
+          13:14:37 -0400
+Received: by oigb199 with SMTP id b199so11857062oig.3 for
+          <CHEM_GRAD@listserv.vt.edu>; Tue, 23 Jun 2015 10:14:31 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+                         s=20130820;
+                         h=x-gm-message-state:mime-version:date:message-id:subject:from:to :content-type;
+                         bh=FYasw5I5hN6lTjdH8VGMyDG96hctigibiq6CGeaLTDs=;
+                         b=eAmXmlDFlErzA1OAzgH+AxEHcLiJUwrUGsSG51B8bZy+SI0Dkdu9ZuPTPUQ1Le6dGY
+                         64npr9JdeuMig12TqMCBmcx1DRwavJh7tMPtY5OZIm46ulkYyhix0PScblSzUex6I9mo
+                         8SHWOvdHivP55VkWENeu2DPDriiPHG6OY9a5HnvEWM2LF0l0nWldyT+E0HAqiwZ8pXVa
+                         eB2uT4B1Tm74lZ1lPPNLUsUMTomDU7pf+7cirTm0jbmuBJ6/8gYrFxvsFbMnEZ2JJR+r
+                         CGGhlM1P59xM/eRlvkeqaMN2LFSkUCJ5boW43fm0fs16v3/p+RKy6sO7sWViAyeiQynz
+                         TWsg==
+X-Gm-Message-State: ALoCoQn8r87nGyFvd9lXQ7So1Z9gN3BjO/237njrfBE4YS8pMQbjVetyt/j56ZHcjQtGgYtoHcW3PYcHoDYbx4jdljjiXLLmubGU0uSFF/BqFZCVoD50I1FrR8vD3VVsrRSx50Fk9vGONRj44a5iJDlYyv0jD9MuOg==
+X-Received: by 10.202.200.131 with SMTP id y125mr28665876oif.20.1435079671931;
+            Tue, 23 Jun 2015 10:14:31 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.202.200.131 with SMTP id y125mr28665871oif.20.1435079671868;
+            Tue, 23 Jun 2015 10:14:31 -0700 (PDT)
+Received: by 10.202.179.87 with HTTP; Tue, 23 Jun 2015 10:14:31 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=001a1134e590110488051932861c
+X-Spam-Status: No, score=-1.4 required=5.0 tests=HTML_MESSAGE,RP_MATCHES_RCVD
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+Message-ID:  <CAHASyh1piTOBCC3N-DHi=T5oc-tquby+WDt-mvz=2ybKJeKgzQ@mail.gmail.com>
+Date:         Tue, 23 Jun 2015 13:14:31 -0400
+Reply-To: Christopher Houser <clh70441@vt.edu>
+Sender: Chem_Grad Discussion List <CHEM_GRAD@listserv.vt.edu>
+From: Christopher Houser <clh70441@vt.edu>
+Subject: diethylhydroxylamine
+To: CHEM_GRAD@LISTSERV.VT.EDU
+Precedence: list
+List-Help: <mailto:LISTSERV@LISTSERV.VT.EDU?body=INFO%20CHEM_GRAD>
+List-Unsubscribe: <mailto:CHEM_GRAD-unsubscribe-request@LISTSERV.VT.EDU>
+List-Subscribe: <mailto:CHEM_GRAD-subscribe-request@LISTSERV.VT.EDU>
+List-Owner: <mailto:CHEM_GRAD-request@LISTSERV.VT.EDU>
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a1134e590110488051932861c
+Content-Type: text/plain; charset=UTF-8
+
+Does anyone have any diethylhydroxyl amine? I only need a gram or two.
+
+Thanks,
+Chris Houser/Yee group
+
+--001a1134e590110488051932861c
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><div><div>Does anyone have any diethylhydroxyl amine? I only need a gram or two.<br><br></div>Thanks,<br></div>Chris Houser/Yee group<br></div>
+
+--001a1134e590110488051932861c--

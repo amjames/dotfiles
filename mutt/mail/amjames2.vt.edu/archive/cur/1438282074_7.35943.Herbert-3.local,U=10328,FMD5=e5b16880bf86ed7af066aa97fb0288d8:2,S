@@ -1,0 +1,72 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2686181qgt;
+        Tue, 9 Jun 2015 12:19:15 -0700 (PDT)
+X-Received: by 10.55.18.144 with SMTP id 16mr45070002qks.17.1433877555703;
+        Tue, 09 Jun 2015 12:19:15 -0700 (PDT)
+Return-Path: <mdutra@vols.utk.edu>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id c41si6337970qkh.28.2015.06.09.12.19.15
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 12:19:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mdutra@vols.utk.edu designates 157.56.110.107 as permitted sender) client-ip=157.56.110.107;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mdutra@vols.utk.edu designates 157.56.110.107 as permitted sender) smtp.mail=mdutra@vols.utk.edu
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bn0107.outbound.protection.outlook.com [157.56.110.107])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t59JJ9tZ009689
+	for <amjames2@vt.edu>; Tue, 9 Jun 2015 15:19:14 -0400
+Received: from BY2PR0201MB1462.namprd02.prod.outlook.com (25.163.153.148) by
+ BY2PR0201MB1464.namprd02.prod.outlook.com (25.163.153.15) with Microsoft SMTP
+ Server (TLS) id 15.1.184.17; Tue, 9 Jun 2015 19:19:08 +0000
+Received: from BY2PR0201MB1462.namprd02.prod.outlook.com ([25.163.153.148]) by
+ BY2PR0201MB1462.namprd02.prod.outlook.com ([25.163.153.148]) with mapi id
+ 15.01.0184.014; Tue, 9 Jun 2015 19:19:08 +0000
+From: "Dutra, Matt" <mdutra@vols.utk.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Reminder 2: Travel Itinerary Software Summer School
+Thread-Topic: Reminder 2: Travel Itinerary Software Summer School
+Thread-Index: AQHQor938tdODsYc3Um53Ra2ok8Ryp2kjM8A
+Date: Tue, 9 Jun 2015 19:19:07 +0000
+Message-ID: <FD107041-0341-480F-BC48-0B7D2323BFA3@utk.edu>
+References: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+In-Reply-To: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: vt.edu; dkim=none (message not signed) header.d=none;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [192.249.3.176]
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0201MB1464;
+x-microsoft-antispam-prvs: <BY2PR0201MB14641F32673253BDEADF7E8CF9BE0@BY2PR0201MB1464.namprd02.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(520003)(5005006)(3002001);SRVR:BY2PR0201MB1464;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0201MB1464;
+x-forefront-prvs: 06022AA85F
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(6009001)(377454003)(41924003)(51704005)(164054003)(53754006)(24454002)(2900100001)(2656002)(75432002)(62966003)(33656002)(2950100001)(77156002)(46102003)(66066001)(102836002)(89122001)(2171001)(87936001)(88552001)(5001960100002)(76176999)(450100001)(122556002)(86362001)(40100003)(189998001)(110136002)(107886002)(54356999)(82746002)(106116001)(19580405001)(36756003)(99286002)(19580395003)(83716003)(50986999)(92566002)(5002640100001)(104396002);DIR:OUT;SFP:1102;SCL:1;SRVR:BY2PR0201MB1464;H:BY2PR0201MB1462.namprd02.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <9C9D86C4D941CF43AF504A774DCF9484@namprd02.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: vols.utk.edu
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jun 2015 19:19:07.9724
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 515813d9-717d-45dd-9eca-9aa19c09d6f9
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR0201MB1464
+X-Spam-Status: No, score=0.0 required=5.0 tests=RCVD_IN_DNSWL_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+SGksDQoNCknigJlsbCBiZSBjYXJwb29saW5nIHdpdGggYW5vdGhlciBzdHVkZW50LCBzbyBJIHdv
+buKAmXQgbmVlZCBteSBvd24gcGFya2luZyBwYXNzLg0KDQpUaGFua3MsDQpNYXR0IER1dHJhDQoN
+Cj4gT24gSnVuIDksIDIwMTUsIGF0IDEwOjIwIEFNLCBBbmRyZXcgSmFtZXMgPGFtamFtZXMyQHZ0
+LmVkdT4gd3JvdGU6DQo+IA0KPiBIZWxsbyBldmVyeW9uZSwgDQo+IA0KPiBKdXN0IGFub3RoZXIg
+cmVtaW5kZXIgdG8gc2VuZCBtZSB5b3VyIHRyYXZlbCBJdGluZXJhcnkuIElmIHlvdSBhcmUgZmx5
+aW5nIHdlIHdpbGwgYXJyYW5nZSB5b3VyIHRyYW5zcG9ydGF0aW9uIGZyb20gdGhlIGFpcnBvcnQs
+IGFuZCBpZiB5b3UgYXJlIGRyaXZpbmcgd2Ugd2lsbCBtYWtlIHN1cmUgeW91IGhhdmUgYSBwYXJr
+aW5nIHBhc3Mgd2hlbiB5b3UgZ2V0IGhlcmUuIA0KPiANCj4gVGhhbmtzLCANCj4gQW5kcmV3IE0g
+SmFtZXMgDQo+IFN1bW1lciBTY2hvb2wgQ29vcmRpbmF0b3INCg0K

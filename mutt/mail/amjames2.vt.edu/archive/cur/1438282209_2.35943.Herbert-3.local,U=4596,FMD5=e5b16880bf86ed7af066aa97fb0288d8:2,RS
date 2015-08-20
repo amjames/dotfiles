@@ -1,0 +1,81 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.29.67 with SMTP id a61csp1693901qga;
+        Mon, 23 Feb 2015 14:02:41 -0800 (PST)
+X-Received: by 10.170.195.144 with SMTP id m138mr13198464yke.50.1424728961721;
+        Mon, 23 Feb 2015 14:02:41 -0800 (PST)
+Return-Path: <hrhaed94@vt.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id f1si37409703qaa.43.2015.02.23.14.02.41
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Feb 2015 14:02:41 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning hrhaed94@vt.edu does not designate 209.85.216.181 as permitted sender) client-ip=209.85.216.181;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning hrhaed94@vt.edu does not designate 209.85.216.181 as permitted sender) smtp.mail=hrhaed94@vt.edu
+Received: from mail-qc0-f181.google.com (mail-qc0-f181.google.com [209.85.216.181])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t1NM2aP9025805
+	for <amjames2@vt.edu>; Mon, 23 Feb 2015 17:02:41 -0500
+Received: by qcqi8 with SMTP id i8so13512341qcq.3
+        for <amjames2@vt.edu>; Mon, 23 Feb 2015 14:02:36 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=SB4OxNXiRHWepsnaZDxvbXBakHR4OrGPnziB7r5W+ng=;
+        b=jWSUDnHxKe5XlYDILHVrnOfZIx4e6lrbEgcrgEqhM4iu3R/PFYdRcpyRlp2fKWFhI/
+         IPtsT3LUYvF/FsNMCDlcYaIoJjkue7K93YIpFQJC7996UtQwNvWr02ijeVeQ7YPZN2+y
+         gL8Lo4B7y/vSyN6PYFU90+jCFfKySnxpCaDlgtzfkJGs5trTOssBtdOz8mNNv8Ydfuy+
+         A9K0dW/JCIpnTPWe55b++ZEvuHY0tr2CUtf3coIYUQV/F8VXMvcCAK3hB+KQXNUi+iUp
+         62X0WieaHqIH6xi0QV5S9f8pMdkONSmDfFHGy67BzyUlhN/lvXhgNpEpSDPd1vmmPt0+
+         27FA==
+X-Gm-Message-State: ALoCoQluw8tnAhwR4bzzhcKiUYzXZwo6PiMwPKwmwbt57gK24KVxoSalUtz0dvHbxfRJZJfACP4eeVkubUdfyTJZikDD4jGJjShH2loEe2Yzdp2jFiBc5DDZaQMSrFQ7cfpEacRfsyInxeiwqPf+NaOhRVrsjz89eg==
+X-Received: by 10.140.232.149 with SMTP id d143mr2716706qhc.82.1424728956157;
+        Mon, 23 Feb 2015 14:02:36 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.140.232.149 with SMTP id d143mr2716686qhc.82.1424728956056;
+ Mon, 23 Feb 2015 14:02:36 -0800 (PST)
+Received: by 10.140.160.197 with HTTP; Mon, 23 Feb 2015 14:02:36 -0800 (PST)
+Date: Mon, 23 Feb 2015 17:02:36 -0500
+Message-ID: <CAB8AXXPkHst2My6o+80AdtKZtSzQ1es36s9JiT+0ka16q0ZPPg@mail.gmail.com>
+Subject: Virtual Lab
+From: Rhae Doherty <hrhaed94@vt.edu>
+To: amjames2@vt.edu
+Content-Type: multipart/alternative; boundary=001a11354faa540682050fc88f4f
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11354faa540682050fc88f4f
+Content-Type: text/plain; charset=UTF-8
+
+Hello Andrew,
+     I am in your Thursday Chem 1046 lab and I have been trying to
+understand the instructions for the virtual lab due. However the
+instructions in the manual and the ones online are two different ideas. I
+do not understand how the data is suppose to be collected. I checked the
+online power point and it did not help any either. If you have any ideas as
+to how to remedy this please let me know.
+
+Thanks so much,
+-- 
+Haley Rhae D
+
+--001a11354faa540682050fc88f4f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello Andrew,<div>=C2=A0 =C2=A0 =C2=A0I am in your Thursda=
+y Chem 1046 lab and I have been trying to understand the instructions for t=
+he virtual lab due. However the instructions in the manual and the ones onl=
+ine are two different ideas. I do not understand how the data is suppose to=
+ be collected. I checked the online power point and it did not help any eit=
+her. If you have any ideas as to how to remedy this please let me know.=C2=
+=A0</div><div><br></div><div>Thanks so much,</div><div>-- <br><div class=3D=
+"gmail_signature"><div dir=3D"ltr">Haley Rhae D</div></div>
+</div></div>
+
+--001a11354faa540682050fc88f4f--

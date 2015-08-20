@@ -1,0 +1,678 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp125749qgt;
+        Thu, 18 Jun 2015 17:22:47 -0700 (PDT)
+X-Received: by 10.55.16.100 with SMTP id a97mr25060469qkh.8.1434673367038;
+        Thu, 18 Jun 2015 17:22:47 -0700 (PDT)
+Return-Path: <bounce-mc.us5_11410371.81777-amjames2=vt.edu@mail30.atl111.rsgsv.net>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id k205si9304739qhc.52.2015.06.18.17.22.46
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 18 Jun 2015 17:22:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us5_11410371.81777-amjames2=vt.edu@mail30.atl111.rsgsv.net designates 198.2.131.30 as permitted sender) client-ip=198.2.131.30;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us5_11410371.81777-amjames2=vt.edu@mail30.atl111.rsgsv.net designates 198.2.131.30 as permitted sender) smtp.mail=bounce-mc.us5_11410371.81777-amjames2=vt.edu@mail30.atl111.rsgsv.net;
+       dkim=pass header.i=@mail30.atl111.rsgsv.net
+Received: from mail30.atl111.rsgsv.net (mail30.atl111.rsgsv.net [198.2.131.30])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5J0Mex7007639
+	for <amjames2@vt.edu>; Thu, 18 Jun 2015 20:22:46 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail30.atl111.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=no-reply=3Dmendeley.com@mail30.atl111.rsgsv.net;
+ bh=/Ec0oPx2pkmnSQdS0l6rTcC4tag=;
+ b=G0boEyyT4QchBBj9ePM8mc8C4GoHUpgVNeZphkU5hoKkzCu4xpOInzWAZKv02RzTcpOcMswoTExd
+   N1xf38MOaEpTYrEF+4U3bT0DfW5+8aaNm+IF02m4DIdvk3c1W9I4ab2ADzYUxmtj3s+ZwrrDqNFC
+   8JaFUARsZLOG9BVgxAo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail30.atl111.rsgsv.net;
+ b=mGv5xne3/0dIHmud9InABZZhZjD+dryXvoQUvmNzzRAv+xj3G3uY8L15lDgHO3YBkMH6icdEU5O/
+   /gLLWzvE5BQs8Iy/jqEf7QYNhG1pzXhLblnXaKCq/p2G5IWTsV57Yi55XfpKCGePhNw/7SQfrzta
+   Dx64wXQicVk9Bb6CwCE=;
+Received: from (127.0.0.1) by mail30.atl111.rsgsv.net id hgdgdc1ohlgg for <amjames2@vt.edu>; Fri, 19 Jun 2015 00:22:36 +0000 (envelope-from <bounce-mc.us5_11410371.81777-amjames2=vt.edu@mail30.atl111.rsgsv.net>)
+Subject: =?utf-8?Q?Introducing=20Mendeley=20for=20Android?=
+From: =?utf-8?Q?Mendeley?= <no-reply@mendeley.com>
+Reply-To: =?utf-8?Q?Mendeley?= <no-reply@mendeley.com>
+To: =?utf-8?Q?Andrew?= <amjames2@vt.edu>
+Date: Fri, 19 Jun 2015 00:22:36 +0000
+Message-ID: <5560fe5e9f52735e40444340ce4bb720723.20150619002159@mail30.atl111.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID38ec1a1787e4bb720723**
+X-Campaign: mailchimp5560fe5e9f52735e40444340c.38ec1a1787
+X-campaignid: mailchimp5560fe5e9f52735e40444340c.38ec1a1787
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5560fe5e9f52735e40444340c&id=38ec1a1787&e=e4bb720723
+X-MC-User: 5560fe5e9f52735e40444340c
+X-Feedback-ID: 11410371:11410371.81777:us5:mc
+List-ID: 5560fe5e9f52735e40444340cmc list <5560fe5e9f52735e40444340c.42653.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-5560fe5e9f52735e40444340c-38ec1a1787-e4bb720723@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://mendeley.us5.list-manage1.com/unsubscribe?u=5560fe5e9f52735e40444340c&id=39847ff5c0&e=e4bb720723&c=38ec1a1787>
+Sender: "Mendeley" <no-reply=mendeley.com@mail30.atl111.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_869307053"
+MIME-Version: 1.0
+X-Spam-Status: No, score=-0.3 required=5.0 tests=DATE_IN_FUTURE_06_12,
+	DKIM_SIGNED,DKIM_VALID,HTML_IMAGE_RATIO_06,HTML_MESSAGE,MIME_QP_LONG_LINE,
+	RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_869307053
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Take your library anywhere with Mendeley for Android.
+------------------------------------------------------------
+Mendeley
+
+It's finally here
+
+The Mendeley you love=2C now on Android
+
+Now you can access your library=2C read and annotate PDFs=2C and keep ever=
+ything in sync even on the move. Download the app and give it a go! (http:=
+//ad.apps.fm/Obk3SPgbLxziFygw17pEqV5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuo=
+NYfX8CxpiCxdTjfi4OpH9y6nwlDPOtm5tUs1N2pPpS8Xsfokp6NSHpuRgMtmRDM83qy?utm_so=
+urce=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_Android_=
+Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847f=
+f5c0-38ec1a1787-31735265)
+http://ad.apps.fm/Obk3SPgbLxziFygw17pEqV5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL=
+95nuoNYfX8CxpiCxdTjfi4OpH9y6nwlDPOtm5tUs1N2pPpS8Xsfokp6NSHpuRgMtmRDM83qy?u=
+tm_source=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_And=
+roid_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_3=
+9847ff5c0-38ec1a1787-31735265
+
+Other features you will love:
+* Sync annotations & documents across all your devices
+* Save PDFs to your Mendeley library from other apps or your web browser
+* Find out more here (http://blog.mendeley.com/mobile-2/mendeley-now-on-an=
+droid/?utm_source=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-20=
+1506_Android_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_te=
+rm=3D0_39847ff5c0-38ec1a1787-31735265)
+
+http://ad.apps.fm/Obk3SPgbLxziFygw17pEqV5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL=
+95nuoNYfX8CxpiCxdTjfi4OpH9y6nwlDPOtm5tUs1N2pPpS8Xsfokp6NSHpuRgMtmRDM83qy?u=
+tm_source=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_And=
+roid_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_3=
+9847ff5c0-38ec1a1787-31735265
+
+Google Nexus 9 Giveaway
+
+Help us spread the word and go into the draw to win a Google Nexus 9 table=
+t. Click here (http://blog.mendeley.com/contests/win-a-google-nexus-9/?utm=
+_source=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_Andro=
+id_Launch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_398=
+47ff5c0-38ec1a1787-31735265) for more details.
+
+We hope you enjoy using Mendeley for Android app=2C and we look forward to=
+ hearing your feedback.
+
+The Mendeley team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+** Contact Us (http://www.mendeley.com/contact-us/?utm_source=3DMendeley+N=
+ewsletter+June5&utm_campaign=3D38ec1a1787-201506_Android_Launch_SEND_nau_n=
+ew_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-38ec1a1787-=
+31735265)
+| ** Support (http://support.mendeley.com/?utm_source=3DMendeley+Newslette=
+r+June5&utm_campaign=3D38ec1a1787-201506_Android_Launch_SEND_nau_new_users=
+_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-38ec1a1787-=
+31735265)
+** Facebook (http://www.facebook.com/pages/Mendeley/42920143610?utm_source=
+=3DMendeley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_Android_Laun=
+ch_SEND_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0=
+-38ec1a1787-31735265)
+** twitter (http://twitter.com/mendeley_com?utm_source=3DMendeley+Newslett=
+er+June5&utm_campaign=3D38ec1a1787-201506_Android_Launch_SEND_nau_new_user=
+s_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-38ec1a1787-=
+31735265)
+** YouTube (http://www.youtube.com/user/MendeleyResearch?utm_source=3DMend=
+eley+Newsletter+June5&utm_campaign=3D38ec1a1787-201506_Android_Launch_SEND=
+_nau_new_users_6_17_2015&utm_medium=3Demail&utm_term=3D0_39847ff5c0-38ec1a=
+1787-31735265)
+You are receiving this email because you have registered with Mendeley.com=
+ using the email address amjames2@vt.edu.
+If you do not wish to receive newsletter update emails from us in the futu=
+re=2C please click ** here (http://mendeley.us5.list-manage1.com/unsubscri=
+be?u=3D5560fe5e9f52735e40444340c&id=3D39847ff5c0&e=3De4bb720723&c=3D38ec1a17=
+87)
+=2E
+Copyright =C2=A9 2015 Mendeley Ltd.
+Mendeley=2C Ground Floor=2C White Bear Yard 144a Clerkenwell Road London=
+=2C EC1R 5DF United Kingdom. Registered in England & Wales=2C Reg. No. 064=
+19015.
+--_----------=_MCPart_869307053
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+=09<head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8">
+=09=09<title>*|SUBJECT|*</title>
+        =09=09
+=09=09
+    <style type=3D"text/css">
+=09=09h1{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h1.largecenter{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:center;
+=09=09}
+=09=09h2{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2.largecenter{
+=09=09=09color:#333333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:normal;
+=09=09=09line-height:150%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:center;
+=09=09}
+=09=09h3{
+=09=09=09color:#666666 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:16px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:normal;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#333 !important;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:14px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:15px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#bodyCell{
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateContainer{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2.largecenter{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:120% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#headerImage{
+=09=09=09height:auto !important;
+=09=09=09max-width:520px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.headerContent{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.bodyContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.templateColumnContainer{
+=09=09=09display:block !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.columnImage{
+=09=09=09height:auto !important;
+=09=09=09max-width:480px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.leftColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.centerColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.rightColumnContent{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.footerContent{
+=09=09=09font-size:12px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.footerContent a{
+=09=09=09display:block !important;
+=09=09}
+
+}</style></head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;margin: 0;padding: 0;background-color: #F3F3F3;height: 100%;w=
+idth: 100%;">
+    =09<center>
+        =09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"-webkit=
+-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;margin: 0;padding: 0;background-color: #F3F3F3;border=
+-collapse: collapse;height: 100%;width: 100%;">
+            =09<tr>
+                =09<td align=3D"center" valign=3D"top" id=3D"bodyCell" sty=
+le=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0px 20px 20px 20px;he=
+ight: 100%;width: 100%;">
+                    =09<!-- BEGIN TEMPLATE // -->
+                    =09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" id=3D"templateContainer" style=3D"-webkit-text-size-adjust: 100%;-m=
+s-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width=
+: 580px;border-collapse: collapse;">
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN PREHEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templatePreheader" style=3D"-webki=
+t-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;background-color: #F3F3F3;border-collapse: collapse;=
+">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"pr=
+eheaderContent" style=3D"padding-top: 15px;padding-right: 20px;padding-bot=
+tom: 15px;padding-left: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;fo=
+nt-family: Arial;font-size: 10px;line-height: 125%;text-align: center;">Ta=
+ke your library anywhere with Mendeley for Android.</td>
+                                            <!--  -->
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN HEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templateHeader" style=3D"-webkit-t=
+ext-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;background-color: #FFFFFF;border-collapse: collapse;">
+                                        <tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;m=
+in-height: 25px;background-color: #AC1D28;-webkit-text-size-adjust: 100%;-=
+ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/left.gif" style=3D"width: 20px;height:=
+ 66px;display: block;-ms-interpolation-mode: bicubic;border: 0;line-height=
+: 100%;outline: none;text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09    </td>
+                                            <td valign=3D"top" class=3D"he=
+aderContent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #FFFFFF;font-fami=
+ly: Arial;font-size: 18px;font-weight: bold;line-height: 100%;padding-top:=
+ 0;padding-right: 0;padding-bottom: 0;padding-left: 0;text-align: left;ver=
+tical-align: middle;background-color: #AC1D28;background-image: url(http:/=
+/com.mendeley.static.www.live.s3.amazonaws.com/email/graphics/mails/all/bg=
+=2Epng);">
+                                            =09<img src=3D"http://d3fildg3=
+jlcvty.cloudfront.net/email/graphics/mails/all/Mendeley.png" alt=3D"Mendel=
+ey" border=3D"0" style=3D"margin: 0; padding: 0;width: 190px;height: 66px;=
+display: block;-ms-interpolation-mode: bicubic;border: 0;line-height: 100%=
+;outline: none;text-decoration: none;">
+                                            </td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/right.gif" style=3D"width: 20px;height=
+: 66px;display: block;-ms-interpolation-mode: bicubic;border: 0;line-heigh=
+t: 100%;outline: none;text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09    </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN INNER CONTENT // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"templateBody" style=3D"-webkit-tex=
+t-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;background-color: #FFFFFF;border-top: 1px solid #FFFFFF;b=
+order-collapse: collapse;">
+                                    =09<tr>
+                                        =09<td valign=3D"top" class=3D"bod=
+yContent" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505=
+050;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;=
+border-collapse: collapse !important;-webkit-text-size-adjust: 100%;-ms-te=
+xt-size-adjust: 100%;padding-top: 20px;padding-right: 20px;padding-bottom:=
+ 20px;padding-left: 20px;">
+=09=09=09=09=09=09=09=09=09=09=09=09<div><table cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"540">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td><!-- // outer table starts above \\ -->
+<p style=3D"font-size:28px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:30px;">It's finally here</p>
+<p style=3D"font-size:20px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">The Mendeley you love=2C now on A=
+ndroid</p><br>
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">
+Now you can access your library=2C read and annotate PDFs=2C and keep ever=
+ything in sync even on the move. <a href=3D"http://mendeley.us5.list-manag=
+e.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D991b4bd921&e=3D=
+e4bb720723" style=3D"text-decoration:none;color:#9d1c21" target=3D"_blank"><str=
+ong>Download the app and give it a go!</strong></a></p>
+<a href=3D"http://mendeley.us5.list-manage.com/track/click?u=3D5560fe5e9f5=
+2735e40444340c&id=3D60efed46a2&e=3De4bb720723" style=3D"text-decoration:n=
+one;color:#9d1c21;" target=3D"_blank" title=3D"Android"><img alt=3D"Androi=
+d" src=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340c/images/d=
+c68e89d-ff7b-4955-b137-01dc5d924266.png" width=3D"540" height=3D"300" styl=
+e=3D"border:0px; padding:15px 0 0 0;"></a>
+<br><br>
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">Other features you will love:</p>
+<ul>
+<li><p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;c=
+olor:#333;text-align:left;line-height:18px;">Sync annotations &amp; docume=
+nts across all your devices</p></li>
+<li><p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;c=
+olor:#333;text-align:left;line-height:18px;">
+Save PDFs to your Mendeley library from other apps or your web browser</p>=
+</li>
+
+<li><p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;c=
+olor:#333;text-align:left;line-height:18px;">
+Find out more <a href=3D"http://mendeley.us5.list-manage1.com/track/click?=
+u=3D5560fe5e9f52735e40444340c&id=3Dd362c5370a&e=3De4bb720723" style=3D"te=
+xt-decoration:none;color:#9d1c21" target=3D"_blank"><strong>here</strong><=
+/a></p></li>
+</ul>
+
+<a href=3D"http://mendeley.us5.list-manage.com/track/click?u=3D5560fe5e9f5=
+2735e40444340c&id=3D64fef20a91&e=3De4bb720723" style=3D"text-decoration:n=
+one;color:#9d1c21;" target=3D"_blank" title=3D"Android"><img alt=3D"Androi=
+d" src=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340c/images/7=
+a465adb-8bd5-4007-9275-c38d758001ee.png" width=3D"150" height=3D"47" style=
+=3D"border:0px; padding:15px 0 0 0;"></a>
+<br><br>
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;"><strong>Google Nexus 9 Giveaway</=
+strong></p>
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">Help us spread the word and go in=
+to the draw to win a Google Nexus 9 tablet. Click <a href=3D"http://mendel=
+ey.us5.list-manage.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D78d5=
+72ba07&e=3De4bb720723" style=3D"text-decoration:none;color:#9d1c21" targe=
+t=3D"_blank"><strong>here</strong></a> for more details.</p>
+<br>
+
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">
+We hope you enjoy using Mendeley for Android app=2C and we look forward to=
+ hearing your feedback.</p>
+<br>
+
+<p style=3D"font-size:12px;margin:0px;font-family:Arial=2C Helvetica;color=
+:#333;text-align:left;line-height:18px;">
+The Mendeley team</p>
+
+=09=09=09<!-- // outer table ends below \\ --></td>
+=09=09</tr>
+=09</tbody>
+</table>
+</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END INNER CONTENT -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                =09<!-- BEGIN FOOTER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" id=3D"PretemplateFooter" style=3D"-webki=
+t-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;background-color: #F3F3F3;border-top: 1px solid #FFF=
+FFF;*/: ;border-collapse: collapse;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/btm-left.gif" style=3D"width: 20px;hei=
+ght: 37px;display: block;background-color: #AC1D28;-ms-interpolation-mode:=
+ bicubic;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+>
+=09=09=09=09=09=09=09=09=09=09    </td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"middle" class=3D"PrefooterC=
+ontent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%=
+;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #FFFFFF;font-family: A=
+rial;font-size: 12px;font-weight: bold;line-height: 150%;text-align: cente=
+r;background-image: url(http://com.mendeley.static.www.live.s3.amazonaws.c=
+om/email/graphics/mails/all/bg.png);background-color: #AC1D28;"></td>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"width: 20px;b=
+ackground-color: #AC1D28;-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://d3fildg3jlcvty.clou=
+dfront.net/email/graphics/mails/all/btm-right.gif" style=3D"width: 20px;he=
+ight: 37px;display: block;background-color: #AC1D28;-ms-interpolation-mode=
+: bicubic;border: 0;line-height: 100%;outline: none;text-decoration: none;=
+">
+=09=09=09=09=09=09=09=09=09=09    </td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" id=3D"templateFooter" style=3D"-webkit-text-size-a=
+djust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;background-color: #F3F3F3;border-collapse: collapse;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+                                            <td valign=3D"top" class=3D"fo=
+oterContent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-fami=
+ly: Arial;font-size: 10px;line-height: 150%;padding-top: 8px;padding-right=
+: 20px;padding-bottom: 8px;padding-left: 20px;text-align: center;"></td>
+                                        </tr>
+=09=09=09=09=09=09=09=09=09=09<tr>
+              =09=09=09=09=09=09=09=09<td valign=3D"top" class=3D"footerCo=
+ntent" style=3D"padding-top: 2px;-webkit-text-size-adjust: 100%;-ms-text-s=
+ize-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #99999=
+9;font-family: Arial;font-size: 10px;line-height: 150%;padding-right: 20px=
+;padding-bottom: 8px;padding-left: 20px;text-align: center;"><table cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td style=3D"padding: 0px 0px 5px; text-align: left; vertical-ali=
+gn: bottom;"><span style=3D"font-size:12px"><strong><a href=3D"http://mend=
+eley.us5.list-manage1.com/track/click?u=3D5560fe5e9f52735e40444340c&id=3D7=
+5a49b52da&e=3De4bb720723" style=3D"text-decoration:none;color:#9d1c21;" t=
+arget=3D"_blank" title=3D"Contact Us">Contact Us</a></strong></span> <span=
+ style=3D"font-size:14px"><strong>|</strong></span> <span style=3D"font-si=
+ze:12px"><strong><a href=3D"http://mendeley.us5.list-manage2.com/track/cli=
+ck?u=3D5560fe5e9f52735e40444340c&id=3De4268deb2b&e=3De4bb720723" style=3D=
+"text-decoration:none;color:#9d1c21;" target=3D"_blank" title=3D"Support">=
+Support</a></strong></span></td>
+=09=09=09<td style=3D"padding: 0px 0px 5px; text-align: right;"><a href=3D=
+"http://mendeley.us5.list-manage.com/track/click?u=3D5560fe5e9f52735e40444=
+340c&id=3Dfe350543fb&e=3De4bb720723" style=3D"text-decoration:none;color:=
+#9d1c21;" target=3D"_blank" title=3D"Facebook"><img alt=3D"Facebook" src=
+=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340c/images/495a79a=
+5-f279-4852-a237-886efd17e798.png" style=3D"border:0px; padding:15px 0 0 0=
+;"></a> <a href=3D"http://mendeley.us5.list-manage.com/track/click?u=3D556=
+0fe5e9f52735e40444340c&id=3D18c027350e&e=3De4bb720723" style=3D"text-deco=
+ration:none;color:#9d1c21;" target=3D"_blank" title=3D"twitter"><img alt=
+=3D"twitter" src=3D"https://gallery.mailchimp.com/5560fe5e9f52735e40444340=
+c/images/3f633618-0bae-4585-9c22-4ce313cfaf04.png" style=3D"border:0px; pa=
+dding:15px 0 0 0;"></a> <a href=3D"http://mendeley.us5.list-manage.com/tra=
+ck/click?u=3D5560fe5e9f52735e40444340c&id=3Db0d79ca92c&e=3De4bb720723" st=
+yle=3D"text-decoration:none;color:#9d1c21;" target=3D"_blank" title=3D"You=
+Tube"><img alt=3D"YouTube" src=3D"https://gallery.mailchimp.com/5560fe5e9f=
+52735e40444340c/images/fb984d7c-d46e-4b28-9218-1f336fed643d.png" style=3D"=
+border:0px; padding:15px 0 0 0;"> </a></td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 5px; text-align: left=
+;">You are receiving this email because you have registered with Mendeley.=
+com using the email address <strong>amjames2@vt.edu</strong>.</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 5px; text-align: left=
+;">If you do not wish to receive newsletter update emails from us in the f=
+uture=2C please click <a href=3D"http://mendeley.us5.list-manage1.com/unsu=
+bscribe?u=3D5560fe5e9f52735e40444340c&id=3D39847ff5c0&e=3De4bb720723&c=3D38e=
+c1a1787" style=3D"text-decoration:none;color:#9d1c21;" target=3D"_blank" t=
+itle=3D"Unsubscribe">here</a>.</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td colspan=3D"2" style=3D"padding: 0px 0px 10px; text-align: lef=
+t;">Copyright &copy; 2015 Mendeley Ltd.<br>
+=09=09=09Mendeley=2C Ground Floor=2C White Bear Yard 144a Clerkenwell Road=
+ London=2C EC1R 5DF United Kingdom. Registered in England &amp; Wales=2C R=
+eg. No. 06419015.</td>
+=09=09</tr>
+=09</tbody>
+</table>
+</td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        <!-- // END TEMPLATE -->
+                    </table></td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"http://mendeley.us5.list-manage.com/track/open.php?u=3D556=
+0fe5e9f52735e40444340c&id=3D38ec1a1787&e=3De4bb720723" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_869307053--

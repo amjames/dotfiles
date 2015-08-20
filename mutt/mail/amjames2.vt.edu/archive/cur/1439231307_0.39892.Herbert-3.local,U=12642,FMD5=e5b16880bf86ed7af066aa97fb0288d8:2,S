@@ -1,0 +1,160 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp2006277qgt;
+        Mon, 10 Aug 2015 11:24:18 -0700 (PDT)
+X-Received: by 10.140.36.231 with SMTP id p94mr40196391qgp.60.1439231058414;
+        Mon, 10 Aug 2015 11:24:18 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from mr5.cc.vt.edu (mr5.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b8:b328:9234])
+        by mx.google.com with ESMTPS id e185si10698805qhc.103.2015.08.10.11.24.18
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2015 11:24:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) client-ip=192.30.252.198;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 192.30.252.198 as permitted sender) smtp.mail=noreply@github.com;
+       dkim=pass (test mode) header.i=@github.com
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext7.iad.github.net [192.30.252.198])
+	by mr5.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t7AIOBd7026869
+	for <amjames2@vt.edu>; Mon, 10 Aug 2015 14:24:17 -0400
+Date: Mon, 10 Aug 2015 11:24:11 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1439231051;
+	bh=RBVX38M5FgmGlnGBfH03RNZv5iZ/15RpHh2rLnu1Fdw=;
+	h=From:Reply-To:To:In-Reply-To:References:Subject:List-ID:
+	 List-Archive:List-Post:List-Unsubscribe:From;
+	b=vNxyRfIw0CGZx8btwcce2N9RyxqWV/INFRC9tTyAzrlBKZE+Tsafv/HB8jDq0pMss
+	 3Xai82l6fsYdNNAs0dAMgAa8+QqOmqYRGToJuvLkuyd7eRrycCIz4TcV46Y4jmltXF
+	 yCYRCv3a9CMHSW8Z5UBeaFRXNLNLZf/Ym4b8AiSY=
+From: Justin Turney <notifications@github.com>
+Reply-To: psi4/psi4public <reply+0089f64244d77d808cdfdc89093169783836fe66adbbc07992cf0000000111e0ae4b92a169ce05f7d6a1@reply.github.com>
+To: psi4/psi4public <psi4public@noreply.github.com>
+Message-ID: <psi4/psi4public/issues/158/129556718@github.com>
+In-Reply-To: <psi4/psi4public/issues/158@github.com>
+References: <psi4/psi4public/issues/158@github.com>
+Subject: Re: [psi4public] Core dump when native symmetry on (#158)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55c8ec4b99246_31183fd7121792a082139e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: jturney
+X-GitHub-Recipient: amjames
+List-ID: psi4/psi4public <psi4public.psi4.github.com>
+List-Archive: https://github.com/psi4/psi4public
+List-Post: <mailto:reply+0089f64244d77d808cdfdc89093169783836fe66adbbc07992cf0000000111e0ae4b92a169ce05f7d6a1@reply.github.com>
+List-Unsubscribe: <mailto:unsub+0089f64244d77d808cdfdc89093169783836fe66adbbc07992cf0000000111e0ae4b92a169ce05f7d6a1@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/AIn2QoW8pnafQ8EC6VVAJ-M-jeJZZIw5ks5omOPLgaJpZM4Fo5QC>
+X-Auto-Response-Suppress: All
+X-GitHub-Recipient-Address: amjames2@vt.edu
+X-Spam-Status: No, score=-3.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_IMAGE_ONLY_24,HTML_MESSAGE,RCVD_IN_DNSWL_HI
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr5.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+
+----==_mimepart_55c8ec4b99246_31183fd7121792a082139e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I find it troubling that on my computer the nuclear repulsion energy is "inf":
+
+```
+Running in c1 symmetry.
+
+  Rotational constants: A =      0.00468  B =      0.00339  C =      0.00276 [cm^-1]
+  Rotational constants: A =    140.36411  B =    101.76200  C =     82.71015 [MHz]
+  Nuclear repulsion =                  inf
+```
+
+Looking at your input I see duplicated atoms. I've modified my local copy of Psi4 to report the duplicated atoms:
+
+```
+ERROR: Atom 51 near to atom 26.
+ERROR: Atom 52 near to atom 27.
+ERROR: Atom 53 near to atom 28.
+ERROR: Atom 54 near to atom 29.
+ERROR: Atom 55 near to atom 30.
+ERROR: Atom 56 near to atom 31.
+ERROR: Atom 57 near to atom 32.
+ERROR: Atom 58 near to atom 33.
+ERROR: Atom 59 near to atom 34.
+ERROR: Atom 60 near to atom 35.
+ERROR: Atom 61 near to atom 36.
+ERROR: Atom 62 near to atom 37.
+ERROR: Atom 63 near to atom 38.
+ERROR: Atom 64 near to atom 39.
+ERROR: Atom 65 near to atom 40.
+ERROR: Atom 66 near to atom 41.
+ERROR: Atom 67 near to atom 42.
+ERROR: Atom 68 near to atom 43.
+ERROR: Atom 69 near to atom 44.
+ERROR: Atom 70 near to atom 45.
+ERROR: Atom 71 near to atom 46.
+ERROR: Atom 72 near to atom 47.
+ERROR: Atom 73 near to atom 48.
+ERROR: Atom 74 near to atom 49.
+ERROR: Atom 75 near to atom 50.
+```
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/psi4/psi4public/issues/158#issuecomment-129556718
+----==_mimepart_55c8ec4b99246_31183fd7121792a082139e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>I find it troubling that on my computer the nuclear repulsion energy is "inf":</p>
+
+<pre><code>Running in c1 symmetry.
+
+  Rotational constants: A =      0.00468  B =      0.00339  C =      0.00276 [cm^-1]
+  Rotational constants: A =    140.36411  B =    101.76200  C =     82.71015 [MHz]
+  Nuclear repulsion =                  inf
+</code></pre>
+
+<p>Looking at your input I see duplicated atoms. I've modified my local copy of Psi4 to report the duplicated atoms:</p>
+
+<pre><code>ERROR: Atom 51 near to atom 26.
+ERROR: Atom 52 near to atom 27.
+ERROR: Atom 53 near to atom 28.
+ERROR: Atom 54 near to atom 29.
+ERROR: Atom 55 near to atom 30.
+ERROR: Atom 56 near to atom 31.
+ERROR: Atom 57 near to atom 32.
+ERROR: Atom 58 near to atom 33.
+ERROR: Atom 59 near to atom 34.
+ERROR: Atom 60 near to atom 35.
+ERROR: Atom 61 near to atom 36.
+ERROR: Atom 62 near to atom 37.
+ERROR: Atom 63 near to atom 38.
+ERROR: Atom 64 near to atom 39.
+ERROR: Atom 65 near to atom 40.
+ERROR: Atom 66 near to atom 41.
+ERROR: Atom 67 near to atom 42.
+ERROR: Atom 68 near to atom 43.
+ERROR: Atom 69 near to atom 44.
+ERROR: Atom 70 near to atom 45.
+ERROR: Atom 71 near to atom 46.
+ERROR: Atom 72 near to atom 47.
+ERROR: Atom 73 near to atom 48.
+ERROR: Atom 74 near to atom 49.
+ERROR: Atom 75 near to atom 50.
+</code></pre>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href="https://github.com/psi4/psi4public/issues/158#issuecomment-129556718">view it on GitHub</a>.<img alt="" height="1" src="https://github.com/notifications/beacon/AIn2QtGstekuVslgc7UpkIq0j0cIwfO7ks5omOPLgaJpZM4Fo5QC.gif" width="1" /></p>
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://github.com/psi4/psi4public/issues/158#issuecomment-129556718"></link>
+    <meta itemprop="name" content="View Issue"></meta>
+  </div>
+  <meta itemprop="description" content="View this Issue on GitHub"></meta>
+</div>
+
+----==_mimepart_55c8ec4b99246_31183fd7121792a082139e--

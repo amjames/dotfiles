@@ -1,0 +1,609 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp127003qge;
+        Sun, 4 Jan 2015 11:50:01 -0800 (PST)
+X-Received: by 10.224.23.133 with SMTP id r5mr76285113qab.88.1420401001622;
+        Sun, 04 Jan 2015 11:50:01 -0800 (PST)
+Return-Path: <patagonia-ctg1eeb76aacl2farbmqenkktglcajxa@service.patagonia.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id h10si58321777qgh.119.2015.01.04.11.50.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 04 Jan 2015 11:50:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of patagonia-ctg1eeb76aacl2farbmqenkktglcajxa@service.patagonia.com designates 198.31.62.223 as permitted sender) client-ip=198.31.62.223;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of patagonia-ctg1eeb76aacl2farbmqenkktglcajxa@service.patagonia.com designates 198.31.62.223 as permitted sender) smtp.mail=patagonia-ctg1eeb76aacl2farbmqenkktglcajxa@service.patagonia.com;
+       dkim=pass header.i=@service.patagonia.com
+Received: from rtm.service.patagonia.com (rtm.service.patagonia.com [198.31.62.223])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t04Jnt7i000926
+	for <amjames2@vt.edu>; Sun, 4 Jan 2015 14:50:00 -0500
+DKIM-Signature: v=1; a=rsa-sha1; d=service.patagonia.com; s=ei0; c=simple/simple;
+	q=dns/txt; i=@service.patagonia.com; t=1420400994;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=7gCunVV46fGtM+MAT9woT8egkTc=;
+	b=dlwzkxg3OPdCUS2N0nPoEXFDIJeUKSJIMrztpQoiP6mGk90ILdkEQpo3Y9ovkLnO
+	yB9q8PJRuphR+ow4nZlB/RJrFnH9huJMQbKjx4tJtaruutmpBVv8nRcSvbXCiWAO
+	o87cPxLIY/+dCNMH5jNFXY3/aXcK/ZgUkZ3xXAxFYFU=;
+Received: from [10.21.250.161] ([10.21.250.161:3491] helo=THDMRTMPUMPER7)
+	by pc1udsmta1n19 (envelope-from <patagonia-ctg1eeb76aacl2farbmqenkktglcajxa@service.patagonia.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id 9D/FD-05852-26999A45; Sun, 04 Jan 2015 14:49:54 -0500
+Date: Sun, 04 Jan 2015 14:49:54 -0500 (EST)
+Message-Id: <Kilauea155274-0-142970915-3-1127307835941788369@flonetwork.com>
+X-DMHA-ID-Packet: Z4gvK5o4220zTBwsWzQ5JjhVHWUQbVrjYlo0EBQm18t3qXPAh3k0IlZn9_gEXG9As2khkcX06t4=
+From: "Patagonia" <patagonia@service.patagonia.com>
+Reply-To: "Patagonia Order Reply" <orderreply@patagonia.com>
+To: amjames2@vt.edu
+Subject: Your Patagonia Order 13836141
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----000000000000000000000000000000000000000000000000000000000000000"
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_FONT_FACE_BAD,HTML_MESSAGE,LOTS_OF_MONEY,
+	RCVD_IN_DNSWL_NONE,T_REMOTE_IMAGE,T_RP_MATCHES_RCVD autolearn=disabled
+	version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+------000000000000000000000000000000000000000000000000000000000000000
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+YOUR PATAGONIA ORDER DETAILS
+
+
+Hi Andrew,
+
+Thanks for your order with Patagonia.
+
+
+ORDER NUMBER: 13836141
+SHIPPING METHOD: SURE POST
+PAYMENT METHOD: Paid by Visa: 7040
+
+
+SHIPPING ADDRESS:
+ANDREW JAMES
+1200 HOUNDSCHASE LN APT C
+BLACKSBURG,
+VA
+24060
+USA
+
+
+BILLING ADDRESS
+ANDREW JAMES
+1200 HOUNDSCHASE LN APT C
+BLACKSBURG,
+VA
+24060
+USA
+
+--------------------------------------------------------------------
+
+PRODUCT DESCRIPTION
+
+
+M'S BETTER SWEATER 1/4 ZIP
+Style: 25521
+Color: 417
+Size: L
+Unit Price: $99.00
+Quantity: 1
+Item Total: $99.00
+
+
+MERCHANDISE TOTAL:  $99.00
+TAX:  $5.25
+SHIPPING:  $.00
+---------------------
+SUBTOTAL:  $104.25
+---------------------
+TOTAL:  $104.25
+
+
+
+
+
+--------------------------------------------------------------------
+
+When your items ship we'll send you a shipping confirmation email with all 
+
+your tracking information (unless you chose USPS Priority Mail as your 
+
+shipping option)
+
+You can easily check your order status online:
+http://service.patagonia.com/cgi-bin23/DM/t/mrH30LB3Ij0A0BMlqF0Fy9Bzzp8PQdtnd&dmmid=&src=orderconf_os
+
+If you have any questions regarding your order, please email us any
+time at orderreply@patagonia.com, or call us at 800-638-6464 between
+6am-6pm Monday - Friday and 8am-4pm Saturday and Sunday (Pacific
+Time). Please include your order number in all correspondence.
+
+Please take a minute to complete a short survey on how we did today:
+http://service.patagonia.com/cgi-bin23/DM/t/mrH30LB3Ij0A0BOGUw0Fk9Bzzp8PQdtnd
+
+Thanks for shopping with Patagonia!
+
+
+--------------------------------------------------------------------
+
+Patagonia Customer Service, 8550 White Fir Street, Reno, NV 89523
+This message was sent to: amjames2@vt.edu
+
+Copyright 2015 Patagonia, Inc.  -  100813
+------000000000000000000000000000000000000000000000000000000000000000
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<STYLE type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+h4 {
+   font-family: Muli, Arial, san-serif;
+   color: #444444;
+   font-size: 16px;
+}
+
+<!--
+A { text-decoration: none}
+a:hover {text-decoration: underline}
+-->
+</STYLE>
+<BODY link="306880" vlink="306880">
+<TABLE width=600 border=0 align="center" cellPadding=0 cellSpacing=0 summary="">
+<tbody>
+  <TR>
+    <TD align=left><table width=600 border=0 align="center" cellpadding=0 cellspacing=0 summary="">
+      <tbody>
+        <tr>
+          <td align=left><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqG0Ey9Bzzp8PQdtnd&dmmid=&src=orderconf_pat" title=""><img border="0" width="124" alt="Patagonia" style="font-family: Georgia; color: #697c52;  font-size: 24px;" src="http://dreammail.edgesuite.net/patagonia1/images/common_images/patagonia-logo_FL.jpg" height="35"></a></td>
+        </tr>
+        <tr>
+          <td height="15"><hr size="1"></td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFFF"><table width="600" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="5" align="right">&nbsp;</td>
+              <td width="78" align="left"><h4 class="secondary" style="color:#444444 !important;font-size:16px;line-height:24px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0px;padding-top:0;padding-bottom:0;font-weight:normal;"><strong><a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqH0Ez9Bzzp8PQdtnd&dmmid=&src=orderconf_hm" style="color:#444444;text-decoration:none;"> <font face="'Muli', Arial, sans-serif">MEN'S</font></a></strong></h4></td>
+              <td width="108" align="center"><h4 class="secondary" style="color:#444444 !important;font-size:16px;line-height:24px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0px;padding-top:0;padding-bottom:0;font-weight:normal;"><strong><a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqI0E19Bzzp8PQdtnd&dmmid=&src=orderconf_hw" style="color:#444444;text-decoration:none;"> <font face="'Muli', Arial, sans-serif">WOMEN'S</font></a></strong></h4></td>
+              <td width="93" align="center"><h4 class="secondary" style="color:#444444 !important;font-size:16px;line-height:24px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0px;padding-top:0;padding-bottom:0;font-weight:normal;"><strong><a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqJ0E29Bzzp8PQdtnd&dmmid=&src=orderconf_hk" style="color:#444444;text-decoration:none;"> <font face="'Muli', Arial, sans-serif">KIDS'</font></a></strong></h4></td>
+              <td width="168" align="center"><h4 class="secondary" style="color:#444444 !important;font-size:16px;line-height:24px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0px;padding-top:0;padding-bottom:0;font-weight:normal;"><strong><a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqK0E39Bzzp8PQdtnd&dmmid=&src=orderconf_ht" style="color:#444444;text-decoration:none;"> <font face="'Muli', Arial, sans-serif">PACKS & TRAVEL</font></a></strong></h4></td>
+              <td width="143" align="right"><h4 class="secondary" style="color:#444444 !important;font-size:16px;line-height:24px;font-family:Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:0px;padding-top:0;padding-bottom:0;font-weight:normal;"><strong><a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqL0E49Bzzp8PQdtnd&dmmid=&src=orderconf_hws" style="color:#444444;text-decoration:none;"> <font face="'Muli', Arial, sans-serif">WEB SPECIALS</font></a></strong></h4></td>
+              <td width="5" align="right">&nbsp;</td>
+            </tr>
+          </table></td>
+        </tr>
+        
+        <tr>
+          <td height="15"><hr size="1"></td>
+        </tr>
+        
+        <!-- end of header and header links -->
+        <tr>
+          <td height=12></td>
+        </tr>
+        <tr>
+          <td align="left" width="600" height="41" background="http://dreammail.edgesuite.net/patagonia1/600x41_beige_header_bckgnd.gif" bgcolor="#f1eadc">&nbsp;&nbsp; <a href="" style="color: #444444; font-family: arial; font-size: 20px; text-decoration: none;">Your Order Details</a></td>
+        </tr>
+        <tr>
+          <td height=20></td>
+        </tr>
+        <!-- This is the start of the guts of the email -->
+        <tr>
+          <td><font face="Verdana, Arial, Helvetica" size=2>Hi Andrew, <br>
+            <br>
+            Thanks for your order with <a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqM0E59Bzzp8PQdtnd&dmmid=&src=orderconf" class="" title="">Patagonia</a> on 1/04/2015.</font></td>
+        </tr>
+        <tr>
+          <td height=15></td>
+        </tr>
+        <tr>
+          <td><table border="0" width="600">
+            <tr>
+              <!-- Row 1 -->
+              <td><font face="Verdana, Arial, Helvetica" size=2><strong>Order Number</strong><br>
+                13836141</font></td>
+              <td><font face="Verdana, Arial, Helvetica" size=2><b>Shipping Method</b><br>
+                SURE POST</font></td>
+              <td><font face="Verdana, Arial, Helvetica" size=2><b>Payment Method</b><br>
+                Paid by Visa: 7040</font></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height=15></td>
+        </tr>
+        <tr>
+          <td><table border="0" width="600">
+            <tr>
+              <!-- Row 1 -->
+              <!-- shipping address info -->
+              <td valign=top width=300><font face="Verdana, Arial, Helvetica" size=2><strong>Shipping Address<br>
+                </strong>ANDREW&nbsp;JAMES<br>
+                                1200 HOUNDSCHASE LN&nbsp;
+                                APT C
+                <br/>
+                                                                                BLACKSBURG,&nbsp;
+                                VA&nbsp;
+                                24060&nbsp;
+                                USA
+              </font></td>
+              <!-- Col 1 -->
+              <!-- billing address info -->
+              <td valign=top width=300><font face="Verdana, Arial, Helvetica" size=2><strong>Billing Address<br>
+                </strong> ANDREW&nbsp;JAMES<br/>
+                                1200 HOUNDSCHASE LN&nbsp;
+                                APT C
+                <br>
+                                                                                BLACKSBURG,&nbsp;
+                                VA&nbsp;
+                                24060&nbsp;
+                                USA
+              </font></td>
+              <!-- Col 2 -->
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+        <tr>
+          <td><img border="0" vspace="0" hspace="0" alt=" " src="http://www.patagonia.com/email/images/common_images/600x3_horizontal_dots.gif" class=""></td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+        <tr>
+          <td><!-- This is the start of the item listing -->
+            <table border="0" width="600">
+              <tr>
+                <!-- Row 1 -->
+                <td width="110"><font face="Verdana, Arial, Helvetica" size=2><strong>Item Description</strong></font></td>
+                <!-- Col 1 -->
+                <td width="300"></td>
+                <!-- Col 2 -->
+                <td width="70"><font face="Verdana, Arial, Helvetica" size=2><strong>Price</strong></font></td>
+                <!-- Col 3 -->
+                <td width="40"><font face="Verdana, Arial, Helvetica" size=2><strong>Qty.</strong></font></td>
+                <!-- Col 4 -->
+                <td width="80"><font face="Verdana, Arial, Helvetica" size=2><strong>Total</strong></font></td>
+                <!-- Col 5 -->
+              </tr>
+            </table>
+            <!-- Product #1 starts here -->
+            <table border="0" width="600">
+              <tr>
+                <td width="110"><img src="http://images.patagonia.com/tsimages/25521_417.fpx?qlt=100&cell=100&cvt=jpeg" width="100" height="100" alt="M'S BETTER SWEATER 1/4 ZIP" title="" border="0" align="" /></td>
+                <!-- Col 1 -->
+                <td width="300"><font face="Verdana, Arial, Helvetica" size=2><a href="http://www.patagonia.com/us/product/?p=25521-0-417&dmmid=&src=orderconf_pr">M'S BETTER SWEATER 1/4 ZIP</a><br />
+                  Style: 25521
+                  &nbsp;&nbsp;Color: 417 <br />
+                  Size: L&nbsp;
+                                                          </font>
+                </td>
+                <!-- Col 2 -->
+                <td width="70"><font face="Verdana, Arial, Helvetica" size=2>$99.00</font></td>
+                <!-- Col 3 -->
+                <td width="40"><font face="Verdana, Arial, Helvetica" size=2>1</font></td>
+                <!-- Col 4 -->
+                <td width="80"><font face="Verdana, Arial, Helvetica" size=2>$99.00</font></td>
+                <!-- Col 5 -->
+              </tr>
+            </table>
+            <br>
+            
+            <!-- Product #2 starts here -->
+                        <!-- Product #3 starts here -->
+                        <!-- Product #4 starts here -->
+                        <!-- Product #5 starts here -->
+                        <!-- Product #6 starts here -->
+                        <!-- Product #7 starts here -->
+                        <!-- Product #8 starts here -->
+                        <!-- Product #9 starts here -->
+                        <!-- Product #10 starts here -->
+                        <!-- Product #11 starts here -->
+                        <!-- Product #12 starts here -->
+                        <!-- Product #13 starts here -->
+                        <!-- Product #14 starts here -->
+                        <!-- Product #15 starts here -->
+                        <!-- Product #16 starts here -->
+                        <!-- Product #17 starts here -->
+                        <!-- Product #18 starts here -->
+                        <!-- Product #19 starts here -->
+                        <!-- Product #20 starts here -->
+                        <!-- Product #21 starts here -->
+                        <!-- Product #22 starts here -->
+                        <!-- Product #23 starts here -->
+                        <!-- Product #24 starts here -->
+                        <!-- Product #25 starts here -->
+                        <!-- Product #26 starts here -->
+                        <!-- Product #27 starts here -->
+                        <!-- Product #28 starts here -->
+                        <!-- Product #29 starts here -->
+                        <!-- Product #30 starts here -->
+                        <!-- Product #31 starts here -->
+                        <!-- Product #32 starts here -->
+                        <!-- Product #33 starts here -->
+                        <!-- Product #34 starts here -->
+                        <!-- Product #35 starts here -->
+                        <!-- Product #36 starts here -->
+                        <!-- Product #37 starts here -->
+                        <!-- Product #38 starts here -->
+                        <!-- Product #39 starts here -->
+                        <!-- Product #40 starts here -->
+                        <!-- Product #41 starts here -->
+                        <!-- Product #42 starts here -->
+                        <!-- Product #43 starts here -->
+                        <!-- Product #44 starts here -->
+                        <!-- Product #45 starts here -->
+                        <!-- Product #46 starts here -->
+                        <!-- Product #47 starts here -->
+                        <!-- Product #48 starts here -->
+                        <!-- Product #49 starts here -->
+                        <!-- Product #50 starts here -->
+                        <!-- More than 50 products alert starts here -->
+                      <tr>
+            <td height="20"></td>
+          </tr>
+        <tr>
+          <td><img border="0" vspace="0" hspace="0" alt=" " src="http://www.patagonia.com/email/images/common_images/600x3_horizontal_dots.gif" class=""></td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+        <!-- start of the totals -->
+        <tr>
+          <td><table cellspacing=0 cellpadding=0 width=600 summary="" border=0>
+            <tbody>
+              <tr>
+                <td width=498></td>
+                <td width=12></td>
+                <td width="90"></td>
+              </tr>
+              <tr>
+                <td align=right><font face='Verdana, Arial, Helvetica' size=2>item total<br>
+                  tax<br>
+                  shipping</font></td>
+                <td></td>
+                <td><font face='Verdana, Arial, Helvetica' size=2>$99.00<br>
+                  $5.25<br>
+                  $.00</font></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><font face='Verdana, Arial, Helvetica' size=2>---------</font></td>
+              </tr>
+              <tr>
+                <td align=right><font face='Verdana, Arial, Helvetica' size=2>subtotal</font></td>
+                <td></td>
+                <td><font face='Verdana, Arial, Helvetica' size=2>$104.25</font></td>
+              </tr>
+                                                                                    <tr>
+                <td></td>
+                <td></td>
+                <td><font face='Verdana, Arial, Helvetica' size=2>---------</font></td>
+              </tr>
+              <tr>
+                <td align=right><font face='Verdana, Arial, Helvetica' size=2>total</font></td>
+                <td></td>
+                <td><font face='Verdana, Arial, Helvetica' size=2>$104.25</font></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <!-- end of the totals -->
+        <tr>
+          <td height=30></td>
+        </tr>
+        <tr>
+          <td><!-- start of table for order comments, rich recs, closing pp -->
+            <table border="0" width="600">
+              <!-- order comments start here -->
+              <tr>
+                <td><p> <font face="Verdana, Arial, Helvetica" size=1>
+                                                      
+                                                                                        </font> </p></td>
+              </tr>
+              <!-- end of order comments -->
+              <tr>
+                <td height="20"></td>
+              </tr>
+              <tr>
+                <td><img border="0" vspace="0" hspace="0" alt=" " src="http://www.patagonia.com/email/images/common_images/600x3_horizontal_dots.gif" class=""></td>
+              </tr>
+              <tr>
+                <td height="20"></td>
+              </tr>
+              <!-- start of closing PP -->
+              <tr>
+                <td><font size="2" face="Verdana, Arial, Helvetica">Depending on  availability, items from your order may ship from different locations. Shipping methods could change depending on your delivery location. <br>
+                  <br>
+                  When your items ship we'll send you a shipping confirmation email with all your tracking information (unless you chose USPS Priority Mail as your shipping option).<br>
+                  <br>
+                  </font>
+                  <div><font size="2" face="Verdana, Arial, Helvetica">
+                    <!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqF0Ex9Bzzp8PQdtnd&dmmid=&src=orderconf_os" style="height:35px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="#1e3650" fillcolor="#466897">
+    <w:anchorlock/>
+    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Check your order status</center>
+  </v:roundrect>
+<![endif]-->
+                    <![if !mso]>
+                    <a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqF0Ex9Bzzp8PQdtnd&dmmid=&src=orderconf_os"
+style="background-color:#466897;border:1px solid #1e3650;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">Check your order status</a>
+                    <![endif]>
+                  </font></div>
+                  <font size="2" face="Verdana, Arial, Helvetica"><br>
+                    <br>
+                    If you have any questions regarding your order, please email us any time at <a target="_self" href="mailto:orderreply@patagonia.com" class="" title="">orderreply@patagonia.com</a>, or call us at 800-638-6464 between 6am-8pm Monday - Friday and 7am-5pm Saturday and Sunday (Pacific Time). Please include your order number (13836141) in all correspondence. <br>
+                    <br>
+                    Please take a minute to complete a short survey on how we did today. <br />
+                    <br />
+                    
+                    <div><font size="2" face="Verdana, Arial, Helvetica">
+                    <!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BOGUw0Ej9Bzzp8PQdtnd" style="height:35px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="#1e3650" fillcolor="#466897">
+    <w:anchorlock/>
+    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Take a short survey</center>
+  </v:roundrect>
+<![endif]-->
+                    <![if !mso]>
+                    <a href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BOGUw0Ej9Bzzp8PQdtnd"
+style="background-color:#466897;border:1px solid #1e3650;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:35px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">Take a short survey</a>
+                    <![endif]>
+                  </font></div>
+                    
+                    <i><br>
+                    Thanks for shopping with Patagonia!</i><br />
+                    <br>
+                  </font></td>
+              </tr>
+              <!-- end of closing PP -->
+              <!-- START RICHMAIL CODE -->
+              <!-- remember to change cpi (campaign ID) to "order_conf -->
+              <tr>
+                <td>                  <map name="rr_img_map">
+                    <area href="http://rm.recs.richrelevance.com/rrmail/rmclick?a=efd98ad8406be54e&cpi=Orderconf&userId=RR13836141&seedProductIds=255210&seedCategoryIds=&zoneName=email1&date=2015-01-04&version=2&rrIndex=1&dmmid=&src=orderconf_rr" shape="rect" coords="13,50,150,236">
+                    <area href="http://rm.recs.richrelevance.com/rrmail/rmclick?a=efd98ad8406be54e&cpi=Orderconf&userId=RR13836141&seedProductIds=255210&seedCategoryIds=&zoneName=email1&date=2015-01-04&version=2&rrIndex=2&dmmid=&src=orderconf_rr" shape="rect" coords="157,50,295,236">
+                    <area href="http://rm.recs.richrelevance.com/rrmail/rmclick?a=efd98ad8406be54e&cpi=Orderconf&userId=RR13836141&seedProductIds=255210&seedCategoryIds=&zoneName=email1&date=2015-01-04&version=2&rrIndex=3&dmmid=&src=orderconf_rr" shape="rect" coords="301,50,440,236">
+                    <area href="http://rm.recs.richrelevance.com/rrmail/rmclick?a=efd98ad8406be54e&cpi=Orderconf&userId=RR13836141&seedProductIds=255210&seedCategoryIds=&zoneName=email1&date=2015-01-04&version=2&rrIndex=4&dmmid=&src=orderconf_rr" shape="rect" coords="446,50,590,236">
+                  </map>
+                  <img usemap="#rr_img_map" border="0" src="http://rm.recs.richrelevance.com/rrmail/imgreq?a=efd98ad8406be54e&cpi=Orderconf&userId=RR13836141&seedProductIds=255210&seedCategoryIds=&zoneName=email1&strategySet=ProductBoughtBought&date=2015-01-04&version=2" />
+</td>
+              </tr>
+              <!-- END RICHMAIL CODE -->
+            </table>
+            <!-- end of table for order comments, rich recs and closing PP --></td>
+        </tr>
+        <tr>
+          <td height=40></td>
+        </tr>
+        <tr>
+          <td><table border="0" width="600" cellpadding="0" cellspacing="0" summary="" bgcolor="#d7c9b0">
+            <tbody>
+              <tr>
+                <td width=97><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqP0E89Bzzp8PQdtnd&dmmid=&src=orderconf_gc" class="" title=""><img border="0" vspace="0px" hspace="0" width="97" alt="Gift Card" src="http://www.patagonia.com/email/images/common_images/97x67_gift_card.jpg" class="" height="67"></a></td>
+                <td width=7></td>
+                <td width=478><strong><font face=Georgia size=2>Patagonia Gift Cards &amp; E-Cards</font></strong><br>
+                  <font face="Verdana, Arial, Helvetica" size=-2>Get it right the first time: A Patagonia gift card lets your loved ones <br>
+                    choose what they want.<br>
+                    <a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqP0E89Bzzp8PQdtnd&dmmid=&src=orderconf_gc" class="" title="">$10-$1000: Give a Gift Card</a></font></td>
+                <td align=right width=18></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+        <!-- end of guts of email -->
+        <tr>
+          <td><table width=600 cellspacing=0 cellpadding=0 summary="" border=0>
+            <tbody>
+              <tr>
+                <td height=25></td>
+              </tr>
+              <tr>
+                <td valign=bottom><img style="vertical-align:bottom; display: block;" border="0" vspace="0px" hspace="0" width="600" alt=" " src="http://dreammail.edgesuite.net/patagonia1/bottomnav_ekg_pro.gif" class="" height="25"></td>
+              </tr>
+              <tr>
+                <td bgcolor=#f0ece9 height=15></td>
+              </tr>
+              <tr>
+                <td><table cellspacing=0 cellpadding=0 bgcolor=#f0ece9 summary="" border=0>
+                  <tbody>
+                    <tr>
+                      <td width=10></td>
+                      <td><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqQ0EA9Bzzp8PQdtnd&dmmid=&src=orderconf_sl" class="" title=""><img border="0" width="143" alt="Find Patagonia" src="http://www.patagonia.com/email/images/common_images/button_findpatagonia.gif" class="" height="37"></a></td>
+                      <td width=10></td>
+                      <td width=200></td>
+                      <td width=192></td>
+                      <td align=left width=45><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqR0EB9Bzzp8PQdtnd&dmmid=&src=orderconf_op" class="" title=""><img border="0" vspace="0px" hspace="0" width="35" alt="One Percent for the Planet" src="http://www.patagonia.com/email/images/common_images/1percent4planet.gif" class="" height="42"></a></td>
+                    </tr>
+                    <tr>
+                      <td height="17"></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" size=1><strong><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqS0EC9Bzzp8PQdtnd&dmmid=&src=orderconf_cs" class="" title=""><font color=#333333>Customer Service</font></a></strong></font></td>
+                      <td></td>
+                      <td valign=bottom><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BDTlj0Ev9Bzzp8PQdtnd" class="" title=""><font face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#333333>Facebook</font></a></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td height="17"></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqU0EE9Bzzp8PQdtnd&dmmid=&src=orderconf_ci" class="" title=""><font color=#333333>Company Info</font></a></font></td>
+                      <td></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BDTll0Ex9Bzzp8PQdtnd" class="" title=""><font color=#333333>Twitter</font></a></font></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td height="17"></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqW0EG9Bzzp8PQdtnd&dmmid=&src=orderconf_rr" class="" title=""><font color=#333333>Returns &amp; Repairs</font></a></font></td>
+                      <td></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BDTln0Ez9Bzzp8PQdtnd" class="" title=""><font face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=1>YouTube</font></a></font></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td height="17"></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serif" size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqY0EI9Bzzp8PQdtnd&dmmid=&src=orderconf_pp" class="" title=""><font color=#333333>Privacy Policy</font></a></font></td>
+                      <td></td>
+                      <td valign=bottom><font face="Verdana, Arial, Helvetica, sans-serifrdana" size=1><a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqZ0EJ9Bzzp8PQdtnd&dmmid=&src=orderconf_fcl" class="" title=""><font color=#333333>BLOG: The Cleanest Line</font></a></font></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+              </tr>
+              <tr>
+                <td bgcolor=#f0ece9 height=15></td>
+              </tr>
+              <tr>
+                <td><table cellspacing=0 cellpadding=0 summary="" border=0>
+                  <tbody>
+                    <tr>
+                      <td height="25" width=10 bgcolor=#f0ece9></td>
+                      <td width=5 bgcolor=#f7f5f4></td>
+                      <td width=575 align=left bgcolor=#f7f5f4><font face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=1>Patagonia Customer Service, 8550 White Fir St, Reno, NV 89523 | <a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqa0EQ9Bzzp8PQdtnd&dmmid=&src=orderconf_cu" class="" title=""><font color=#333333>Contact</font></a></font></td>
+                      <td width=10 bgcolor=#f0ece9></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+              </tr>
+              <tr>
+                <td bgcolor=#f0ece9 height=15></td>
+              </tr>
+              <tr>
+                <td bgcolor=#f0ece9><table cellspacing=0 cellpadding=0 summary="" border=0>
+                  <tbody>
+                    <tr>
+                      <td width=10></td>
+                      <td valign=bottom align=left width=590><font face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=1>&copy;&nbsp;2015&nbsp;Patagonia, Inc. <br />
+                        <br />
+                        This message was sent to: amjames2@vt.edu - v120114</font></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+              </tr>
+              <tr>
+                <td bgcolor=#f0ece9 height=10></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </tbody>
+    </table>      <a target="_self" href="http://service.patagonia.com/cgi-bin23/DM/t/nrH30LB3Ij0A0BMlqG0Ey9Bzzp8PQdtnd&dmmid=&src=orderconf_pat" title=""></a></td>
+  </tr>
+</tbody></table>
+</body>
+
+<IMG SRC="http://service.patagonia.com/cgi-bin23/flosensing?y=rH30LB3Ij0A0Du9Bzzp8PQdtnd"></html>
+------000000000000000000000000000000000000000000000000000000000000000--
+

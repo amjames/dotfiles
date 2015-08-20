@@ -1,0 +1,113 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.173 with SMTP id 42csp2486447qgt;
+        Tue, 9 Jun 2015 07:36:14 -0700 (PDT)
+X-Received: by 10.55.24.18 with SMTP id j18mr42607339qkh.60.1433860574785;
+        Tue, 09 Jun 2015 07:36:14 -0700 (PDT)
+Return-Path: <ziwei.guo@emory.edu>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id b30si5564390qga.95.2015.06.09.07.36.14
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 07:36:14 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning ziwei.guo@emory.edu does not designate 65.55.169.99 as permitted sender) client-ip=65.55.169.99;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning ziwei.guo@emory.edu does not designate 65.55.169.99 as permitted sender) smtp.mail=ziwei.guo@emory.edu
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0099.outbound.protection.outlook.com [65.55.169.99])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t59Ea8mc017231
+	for <amjames2@vt.edu>; Tue, 9 Jun 2015 10:36:13 -0400
+Received: from BY1PR0501MB1303.namprd05.prod.outlook.com (25.160.200.152) by
+ BY1PR0501MB1240.namprd05.prod.outlook.com (25.160.200.139) with Microsoft
+ SMTP Server (TLS) id 15.1.184.17; Tue, 9 Jun 2015 14:36:07 +0000
+Received: from BY1PR0501MB1304.namprd05.prod.outlook.com (25.160.200.153) by
+ BY1PR0501MB1303.namprd05.prod.outlook.com (25.160.200.152) with Microsoft
+ SMTP Server (TLS) id 15.1.184.17; Tue, 9 Jun 2015 14:36:06 +0000
+Received: from BY1PR0501MB1304.namprd05.prod.outlook.com ([25.160.200.153]) by
+ BY1PR0501MB1304.namprd05.prod.outlook.com ([25.160.200.153]) with mapi id
+ 15.01.0184.014; Tue, 9 Jun 2015 14:36:06 +0000
+From: "Guo, Ziwei" <ziwei.guo@emory.edu>
+To: Andrew James <amjames2@vt.edu>
+Subject: Re: Reminder 2: Travel Itinerary Software Summer School
+Thread-Topic: Reminder 2: Travel Itinerary Software Summer School
+Thread-Index: AQHQor93xWZ21FHYYEyfS0FMstwWPZ2kPUgt
+Date: Tue, 9 Jun 2015 14:36:06 +0000
+Message-ID: <BY1PR0501MB1304A2B2D2D64A10CF118978F7BE0@BY1PR0501MB1304.namprd05.prod.outlook.com>
+References: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+In-Reply-To: <617FD241-FC8F-4A64-A71C-D69C837974F5@vt.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: vt.edu; dkim=none (message not signed) header.d=none;
+x-originating-ip: [170.140.105.65]
+x-microsoft-antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1303;UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1240;
+x-microsoft-antispam-prvs: <BY1PR0501MB1303FD1FFA49E104C649F47EF7BE0@BY1PR0501MB1303.namprd05.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006)(520003)(3002001);SRVR:BY1PR0501MB1303;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1303;
+x-forefront-prvs: 06022AA85F
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(377454003)(41924003)(36304003)(53754006)(12213003)(164054003)(2950100001)(102836002)(99286002)(90282001)(5890100001)(87936001)(110136002)(2900100001)(5001960100002)(46102003)(2656002)(19580405001)(75432002)(62966003)(77156002)(189998001)(450100001)(50986999)(76176999)(5002640100001)(54356999)(19580395003)(107886002)(33656002)(2171001)(88552001)(92566002)(76576001)(40100003)(106116001)(74316001)(86362001)(66066001)(122556002)(567094001);DIR:OUT;SFP:1101;SCL:1;SRVR:BY1PR0501MB1303;H:BY1PR0501MB1304.namprd05.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jun 2015 14:36:06.4765
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e004fb9c-b0a4-424f-bcd0-322606d5df38
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0501MB1303
+X-MS-Exchange-CrossPremises-AuthAs: Internal
+X-MS-Exchange-CrossPremises-AuthMechanism: 04
+X-MS-Exchange-CrossPremises-AuthSource: BY1PR0501MB1304.namprd05.prod.outlook.com
+X-MS-Exchange-CrossPremises-SCL: 1
+X-MS-Exchange-CrossPremises-messagesource: StoreDriver
+X-MS-Exchange-CrossPremises-BCC:
+X-MS-Exchange-CrossPremises-originalclientipaddress: 170.140.105.65
+X-MS-Exchange-CrossPremises-avstamp-service: 1.0
+X-MS-Exchange-CrossPremises-disclaimer-hash: 956ca9582f0c56a948c0eab4336682eb81d9fee3fb5d7d73573c398a9b6d648a
+X-MS-Exchange-CrossPremises-antispam-scancontext: DIR:Originating;SFV:NSPM;SKIP:0;
+X-MS-Exchange-CrossPremises-processed-by-journaling: Journal Agent
+X-OrganizationHeadersPreserved: BY1PR0501MB1303.namprd05.prod.outlook.com
+X-OriginatorOrg: emory.edu
+X-Spam-Status: No, score=0.0 required=5.0 tests=RCVD_IN_DNSWL_NONE
+	autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+Dear Andrew,
+
+I am going to drive to Virginia Tech, thanks!
+
+Best,
+Ziwei Guo
+
+________________________________________
+From: Andrew James <amjames2@vt.edu>
+Sent: Tuesday, June 9, 2015 10:20 AM
+To: megha@uga.edu; mdutra@vols.utk.edu; sne86684@bethel.edu; Guo, Ziwei; sa=
+dybeko@usc.edu; Xianghai Sheng; Smith,Justin S; sonne058@umn.edu
+Subject: Reminder 2: Travel Itinerary Software Summer School
+
+Hello everyone,
+
+Just another reminder to send me your travel Itinerary. If you are flying w=
+e will arrange your transportation from the airport, and if you are driving=
+ we will make sure you have a parking pass when you get here.
+
+Thanks,
+Andrew M James
+Summer School Coordinator
+
+________________________________
+
+This e-mail message (including any attachments) is for the sole use of
+the intended recipient(s) and may contain confidential and privileged
+information. If the reader of this message is not the intended
+recipient, you are hereby notified that any dissemination, distribution
+or copying of this message (including any attachments) is strictly
+prohibited.
+
+If you have received this message in error, please contact
+the sender by reply e-mail message and destroy all copies of the
+original message (including attachments).

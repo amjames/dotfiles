@@ -1,0 +1,354 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp1469806qgt;
+        Tue, 23 Jun 2015 09:40:08 -0700 (PDT)
+X-Received: by 10.55.48.209 with SMTP id w200mr75563727qkw.13.1435077608232;
+        Tue, 23 Jun 2015 09:40:08 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr3.cc.vt.edu (mr3.cc.ipv6.vt.edu. [2001:468:c80:2105:0:2b9:e1ff:8be3])
+        by mx.google.com with ESMTPS id d9si21577636qci.27.2015.06.23.09.40.08
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 09:40:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.176 as permitted sender) client-ip=209.85.223.176;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.223.176 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ie0-f176.google.com (mail-ie0-f176.google.com [209.85.223.176])
+	by mr3.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NGe1o8003313
+	for <amjames2@vt.edu>; Tue, 23 Jun 2015 12:40:07 -0400
+Received: by iebmu5 with SMTP id mu5so15627739ieb.1
+        for <amjames2@vt.edu>; Tue, 23 Jun 2015 09:40:01 -0700 (PDT)
+X-Received: by 10.50.66.234 with SMTP id i10mr3406633igt.46.1435077601773;
+        Tue, 23 Jun 2015 09:40:01 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.236.100 with SMTP id ut4csp2768116iec;
+        Tue, 23 Jun 2015 09:40:01 -0700 (PDT)
+X-Received: by 10.140.218.5 with SMTP id o5mr48201406qhb.13.1435077600842;
+        Tue, 23 Jun 2015 09:40:00 -0700 (PDT)
+Received: from omr2.cc.vt.edu (omr2.cc.vt.edu. [2607:b400:92:8400:0:33:fb76:806e])
+        by mx.google.com with ESMTPS id n5si22779699qcg.36.2015.06.23.09.40.00
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Jun 2015 09:40:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2607:b400:92:8400:0:33:fb76:806e as permitted sender) client-ip=2607:b400:92:8400:0:33:fb76:806e;
+Received: from mr2.cc.vt.edu (mr2.cc.ipv6.vt.edu [IPv6:2001:468:c80:2105:0:212:7ed0:359e])
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NGe0JU011311
+	for <andrew.m.james2@gmail.com>; Tue, 23 Jun 2015 12:40:00 -0400
+Received: from mail-ig0-f182.google.com (mail-ig0-f182.google.com [209.85.213.182])
+	by mr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t5NGdsjs017618
+	for <andrew.m.james2@gmail.com>; Tue, 23 Jun 2015 12:39:59 -0400
+Received: by igbqq3 with SMTP id qq3so93293468igb.0
+        for <andrew.m.james2@gmail.com>; Tue, 23 Jun 2015 09:39:54 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=8eQevt9BmZoG5o1D4b46OnEhZ76+Y2lE+mNlMXzyvWQ=;
+        b=hYu/GYYPTmdCyJH7c3b9IaeqwsdpGhnRpgkvHDQzrCFWKeO0Exm/zZk1DCNXcVUDMm
+         A2mclOcHQmmCHeOkNrqj/q2NDgc31vUveltstPW5oHeebPjeS/iz9+wfKbQNP2Ru76H9
+         enr38ibUwNpjTOc2I6oGJ+IZsTps2S5Na3SeQ7xnRSPv2MijurM68vjce2b3MVVFceBR
+         UWINJ6zcY1g8Jon9wZzDMf+0iMuEqWxr3N7fB1E+gdUjhudU6fgqvhujTJiHqYJTptZX
+         nFRSo4iRqJuqjgepHHF5yq21VVrxyclDoAzPDUb5/8edsGx3l2Vjp/bDODdsqvzdi7Vy
+         iTpw==
+X-Gm-Message-State: ALoCoQlHdhfaQ3jJWvbzHLh6P4FbQDlNrR1r+Tts15YrDKC9qUL7Vf1nkEkzqjpR+M+I3uvDE/UqxwSA8Z1ZuvJB73j1yZ10h6MUwHAopquYk3LI7MatieQwePI9zARAqJlvyhRTcc4VB6szmw/eEk9gGJz2makdog==
+X-Received: by 10.107.166.203 with SMTP id p194mr47276676ioe.30.1435077594679;
+        Tue, 23 Jun 2015 09:39:54 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.166.203 with SMTP id p194mr47276660ioe.30.1435077594529;
+ Tue, 23 Jun 2015 09:39:54 -0700 (PDT)
+Received: by 10.107.7.212 with HTTP; Tue, 23 Jun 2015 09:39:54 -0700 (PDT)
+In-Reply-To: <D1AF03A6.7BF2B%laurieg@vt.edu>
+References: <712F95F8-26BB-4254-9F7B-BF1D37592884@ifm.liu.se>
+	<CAH0V_1a1L6GS1DRBGX49asggbmqzWy-32KsTMZ5Aizt8zdcVNQ@mail.gmail.com>
+	<8FF39EFD-03B0-4861-B3CE-5FB4B8D0E784@gmail.com>
+	<CAH0V_1ZgFu25MHMtimGUUuTQSuvM=vmtxjdimNFswub=TX7qDg@mail.gmail.com>
+	<D1AF03A6.7BF2B%laurieg@vt.edu>
+Date: Tue, 23 Jun 2015 12:39:54 -0400
+Message-ID: <CAH0V_1YGtc7NOZEOLFKeoKVxp7PPfuFtjkGnf-P-Etk+RZ_FYw@mail.gmail.com>
+Subject: Re: Program schedule
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: "Good, Laurie" <laurieg@vt.edu>
+Cc: Andrew James <andrew.m.james2@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11414af43f53670519320ac1
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr3.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a11414af43f53670519320ac1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Yes, I think so.  Does that sound reasonable, AJ?
+
+-TDC
+
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+On Tue, Jun 23, 2015 at 12:38 PM, Good, Laurie <laurieg@vt.edu> wrote:
+
+>  So pick up the vans late morning on the 1st and return that evening?
+>
+>
+>   From: Daniel Crawford <crawdad@vt.edu>
+> Date: Tuesday, June 23, 2015 at 12:21 PM
+> To: Andrew James <andrew.m.james2@gmail.com>, Laurie Good <laurieg@vt.edu=
+>
+> Subject: Fwd: Program schedule
+>
+>   AJ, here's the current detailed schedule for the MRPSS for next week.
+> Could you update the website with this information, much as you did for t=
+he
+> SSS?
+>
+>  Laurie, we will need vans for the Cascades hike on Wednesday afternoon.
+> I don't know, at this point, how many people will go, but let's assume al=
+l
+> 25, plus the four instructors.  Let reserve two vans (if you haven't
+> already).
+>
+>  Thanks!
+>
+>  -TDC
+>  --
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu
+>
+> ---------- Forwarded message ----------
+> From: Patrick Norman <johan.patrick.norman@gmail.com>
+> Date: Tue, Jun 23, 2015 at 11:45 AM
+> Subject: Re: Program schedule
+> To: "T. Daniel Crawford" <crawdad@vt.edu>, Kenneth Ruud <
+> Kenneth.Ruud@uit.no>, Trond SAUE <trond.saue@irsamc.ups-tlse.fr>
+>
+>
+> Hi Everyone,
+>
+> I have had a brief phone meeting with Daniel and made adjustments in the
+> programme in line with what we came up with:
+>
+> 1. Daniel had a tentative arrangement for a hike, I figured it sounded
+> great and decided to officially put it into the program.
+>
+> 2. We decided to skip the poster session since it is late and only one
+> student asked for it.
+>
+> 3. Daniel agreed to contribute another hour of CC theory and I gladly
+> added it to the Wednesday program.
+>
+> 4. Otherwise times are slightly shifted by 30 minutes and I added coffee
+> breaks that Daniel has booked two per day.
+>
+> I think that covers the changes I've made and I think we are close to
+> finalizing the program now.
+>
+> The only other thing we talked about was to go out for dinner (the four o=
+f
+> us) on Sunday evening after we arrive to Blacksburg. So that is now also =
+on
+> our agenda.
+>
+> That's it.
+>
+> Best,
+> Patrick.
+>
+> > On 23 Jun 2015, at 04:06, T. Daniel Crawford <crawdad@vt.edu> wrote:
+> >
+> > Dear Patrick,
+> >
+> > My apologies for the delay in my response, but my Software Summer Schoo=
+l
+> started today, and it occupied most of my day.
+> >
+> > Tomorrow I'll have time to talk about the MRPSS.  What about 11:00am?
+> If that works, you can reach me at 540-449-3365.
+> >
+> > I look forward to talking to you!
+> >
+> > Best regards,
+> >
+> > -Daniel
+>
+> --
+>  ------------------------------------------------------------------------
+> Patrick Norman                  e-mail: johan.patrick.norman@gmail.com
+> Furubackav=C3=A4gen 4A               phone : +46-13 29 99 97
+> SE-586 63 Link=C3=B6ping, Sweden     mobile: +46-70 191 8541
+> ------------------------------------------------------------------------
+>
+>
+
+--001a11414af43f53670519320ac1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Yes, I think so.=C2=A0 Does that sound reasonable, AJ?<div=
+><br></div><div>-TDC</div></div><div class=3D"gmail_extra"><br clear=3D"all=
+"><div><div class=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Dani=
+el Crawford</div><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">c=
+rawdad@vt.edu</a></div></div></div></div>
+<br><div class=3D"gmail_quote">On Tue, Jun 23, 2015 at 12:38 PM, Good, Laur=
+ie <span dir=3D"ltr">&lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank=
+">laurieg@vt.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>
+<div>So pick up the vans late morning on the 1st and return that evening?</=
+div>
+<div><br>
+</div>
+</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Daniel Crawford &lt;<a href=
+=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Tuesday, June 23, 2015 at 12:=
+21 PM<br>
+<span style=3D"font-weight:bold">To: </span>Andrew James &lt;<a href=3D"mai=
+lto:andrew.m.james2@gmail.com" target=3D"_blank">andrew.m.james2@gmail.com<=
+/a>&gt;, Laurie Good &lt;<a href=3D"mailto:laurieg@vt.edu" target=3D"_blank=
+">laurieg@vt.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Fwd: Program schedule<br>
+</div><div><div class=3D"h5">
+<div><br>
+</div>
+<blockquote style=3D"BORDER-LEFT:#b5c4df 5 solid;PADDING:0 0 0 5;MARGIN:0 0=
+ 0 5">
+<div>
+<div>
+<div dir=3D"ltr">AJ, here&#39;s the current detailed schedule for the MRPSS=
+ for next week.=C2=A0 Could you update the website with this information, m=
+uch as you did for the SSS?
+<div><br>
+</div>
+<div>Laurie, we will need vans for the Cascades hike on Wednesday afternoon=
+.=C2=A0 I don&#39;t know, at this point, how many people will go, but let&#=
+39;s assume all 25, plus the four instructors.=C2=A0 Let reserve two vans (=
+if you haven&#39;t already). =C2=A0<br>
+<div><br>
+</div>
+<div>Thanks!</div>
+<div><br>
+</div>
+<div>-TDC<br clear=3D"all">
+<div>
+<div>
+<div dir=3D"ltr">--
+<div>Prof. T. Daniel Crawford</div>
+<div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>=
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>
+From: <b class=3D"gmail_sendername">Patrick Norman</b> <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:johan.patrick.norman@gmail.com" target=3D"_blank">johan=
+.patrick.norman@gmail.com</a>&gt;</span><br>
+Date: Tue, Jun 23, 2015 at 11:45 AM<br>
+Subject: Re: Program schedule<br>
+To: &quot;T. Daniel Crawford&quot; &lt;<a href=3D"mailto:crawdad@vt.edu" ta=
+rget=3D"_blank">crawdad@vt.edu</a>&gt;, Kenneth Ruud &lt;<a href=3D"mailto:=
+Kenneth.Ruud@uit.no" target=3D"_blank">Kenneth.Ruud@uit.no</a>&gt;, Trond S=
+AUE &lt;<a href=3D"mailto:trond.saue@irsamc.ups-tlse.fr" target=3D"_blank">=
+trond.saue@irsamc.ups-tlse.fr</a>&gt;<br>
+<br>
+<br>
+Hi Everyone,<br>
+<br>
+I have had a brief phone meeting with Daniel and made adjustments in the pr=
+ogramme in line with what we came up with:<br>
+<br>
+1. Daniel had a tentative arrangement for a hike, I figured it sounded grea=
+t and decided to officially put it into the program.<br>
+<br>
+2. We decided to skip the poster session since it is late and only one stud=
+ent asked for it.<br>
+<br>
+3. Daniel agreed to contribute another hour of CC theory and I gladly added=
+ it to the Wednesday program.<br>
+<br>
+4. Otherwise times are slightly shifted by 30 minutes and I added coffee br=
+eaks that Daniel has booked two per day.<br>
+<br>
+I think that covers the changes I&#39;ve made and I think we are close to f=
+inalizing the program now.<br>
+<br>
+The only other thing we talked about was to go out for dinner (the four of =
+us) on Sunday evening after we arrive to Blacksburg. So that is now also on=
+ our agenda.<br>
+<br>
+That&#39;s it.<br>
+<span><br>
+Best,<br>
+Patrick.<br>
+<br>
+&gt; On 23 Jun 2015, at 04:06, T. Daniel Crawford &lt;<a href=3D"mailto:cra=
+wdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a>&gt; wrote:<br>
+&gt;<br>
+</span><span>&gt; Dear Patrick,<br>
+&gt;<br>
+&gt; My apologies for the delay in my response, but my Software Summer Scho=
+ol started today, and it occupied most of my day.<br>
+&gt;<br>
+&gt; Tomorrow I&#39;ll have time to talk about the MRPSS.=C2=A0 What about =
+11:00am?=C2=A0 If that works, you can reach me at
+<a href=3D"tel:540-449-3365" value=3D"+15404493365" target=3D"_blank">540-4=
+49-3365</a>.<br>
+&gt;<br>
+&gt; I look forward to talking to you!<br>
+&gt;<br>
+&gt; Best regards,<br>
+&gt;<br>
+&gt; -Daniel<br>
+<br>
+--<br>
+</span>
+<div>
+<div>----------------------------------------------------------------------=
+--<br>
+Patrick Norman=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 e-mail: <a href=3D"mailto:johan.patrick.norman@gmail.com" target=3D"_bl=
+ank">
+johan.patrick.norman@gmail.com</a><br>
+Furubackav=C3=A4gen 4A=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0phone : <a href=3D"tel:%2B46-13%2029%2099%2097" value=3D"+4613299997" ta=
+rget=3D"_blank">
++46-13 29 99 97</a><br>
+SE-586 63 Link=C3=B6ping, Sweden=C2=A0 =C2=A0 =C2=A0mobile: <a href=3D"tel:=
+%2B46-70%20191%208541" value=3D"+46701918541" target=3D"_blank">
++46-70 191 8541</a><br>
+------------------------------------------------------------------------<br=
+>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div></div></span>
+</div>
+
+</blockquote></div><br></div>
+
+--001a11414af43f53670519320ac1--

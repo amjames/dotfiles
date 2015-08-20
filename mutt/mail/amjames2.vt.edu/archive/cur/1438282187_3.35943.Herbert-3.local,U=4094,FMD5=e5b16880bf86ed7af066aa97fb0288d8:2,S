@@ -1,0 +1,166 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.92.138 with SMTP id b10csp104007qge;
+        Fri, 23 Jan 2015 10:03:16 -0800 (PST)
+X-Received: by 10.224.93.6 with SMTP id t6mr10507973qam.93.1422036196529;
+        Fri, 23 Jan 2015 10:03:16 -0800 (PST)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr6.cc.vt.edu (mr6.cc.ipv6.vt.edu. [2001:468:c80:2105:0:250:3bcb:5b17])
+        by mx.google.com with ESMTPS id j18si2801570qae.88.2015.01.23.10.03.16
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Jan 2015 10:03:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.170 as permitted sender) client-ip=209.85.213.170;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of andrew.m.james2+caf_=amjames2=vt.edu@gmail.com designates 209.85.213.170 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com [209.85.213.170])
+	by mr6.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0NI3Aqx009569
+	for <amjames2@vt.edu>; Fri, 23 Jan 2015 13:03:15 -0500
+Received: by mail-ig0-f170.google.com with SMTP id l13so3392707iga.1
+        for <amjames2@vt.edu>; Fri, 23 Jan 2015 10:03:10 -0800 (PST)
+X-Received: by 10.42.102.66 with SMTP id h2mr9966818ico.88.1422036190692;
+        Fri, 23 Jan 2015 10:03:10 -0800 (PST)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.122.225 with SMTP id lv1csp466573ieb;
+        Fri, 23 Jan 2015 10:03:08 -0800 (PST)
+X-Received: by 10.140.101.135 with SMTP id u7mr15615765qge.2.1422036187462;
+        Fri, 23 Jan 2015 10:03:07 -0800 (PST)
+Received: from omr2.cc.vt.edu (omr2.cc.ipv6.vt.edu. [2001:468:c80:2105:0:24d:7091:8b9c])
+        by mx.google.com with ESMTPS id e9si2769496qgf.109.2015.01.23.10.03.07
+        for <andrew.m.james2@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Jan 2015 10:03:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of crawdad@vt.edu designates 2001:468:c80:2105:0:24d:7091:8b9c as permitted sender) client-ip=2001:468:c80:2105:0:24d:7091:8b9c;
+Received: from mr4.cc.vt.edu (mr4.cc.vt.edu [198.82.164.236] (may be forged))
+	by omr2.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0NI36J5031737
+	for <andrew.m.james2@gmail.com>; Fri, 23 Jan 2015 13:03:06 -0500
+Received: from mail-ie0-f173.google.com (mail-ie0-f173.google.com [209.85.223.173])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t0NI31B0005437
+	for <andrew.m.james2@gmail.com>; Fri, 23 Jan 2015 13:03:06 -0500
+Received: by mail-ie0-f173.google.com with SMTP id tr6so8505791ieb.4
+        for <andrew.m.james2@gmail.com>; Fri, 23 Jan 2015 10:03:01 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=PxUxvc3o6GcJy46HJlvEQx5Wn+NlDWn4M8lkoBdDQIw=;
+        b=DkibPS0KEOn+C87bdzg6+H+TUbMKwXkAKIcNFQQyqPsGdwJ4oJej6b67MCpbczEvNr
+         wAy+uUZlSGaiR5BkRR3SYwQai9u4d81BVdTA0niK936SSxFAUFY+EnsQ7qheLJhl4ei6
+         J2U2d4MX+fATbURt+w856LFTOwEEFhX/+E5WMhuG/AYhV8qm8eJS3UjkDy2dSRTpjQyo
+         IzoeFNFf2yFcrHDFSYi7VUTErDiWN4lD/CwAFfJyPnM4++ieLZsdXZ2B8m3dihpj1nj6
+         mohnjV5FZRVodn2QJO45mmt80Ddrx+sGs+cMQJ+mPn12A9YMcqO0to04vQ5OG5Do2URV
+         18mw==
+X-Gm-Message-State: ALoCoQmiRag1DhAxrdGEW/oo7xGAqgbmdtYHwVA//WAfyilh9SVFCEwUZUwKR7/Vnh+m0Priarto7WOuBt2GcgVkP8NbTfhaSd4Wck/3jARdXvP4LkBfEpd2GzkOt6xp+FbXBLL60EFHbUqxFgytdb4KA19BZTlPsw==
+X-Received: by 10.107.16.2 with SMTP id y2mr4145227ioi.39.1422036181271;
+        Fri, 23 Jan 2015 10:03:01 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.107.16.2 with SMTP id y2mr4145218ioi.39.1422036181136; Fri,
+ 23 Jan 2015 10:03:01 -0800 (PST)
+Received: by 10.64.128.100 with HTTP; Fri, 23 Jan 2015 10:03:01 -0800 (PST)
+In-Reply-To: <CAD0XtKTOHzYNmzaQcnMcvgch7tyjrvXTVZ+h+cNrd7PS_HnmUw@mail.gmail.com>
+References: <CAD0XtKTOHzYNmzaQcnMcvgch7tyjrvXTVZ+h+cNrd7PS_HnmUw@mail.gmail.com>
+Date: Fri, 23 Jan 2015 13:03:01 -0500
+Message-ID: <CAH0V_1bkpFJGO7h5EDT3ZfU8tjZ0p2cT0_5qTnTjDVC-DR_1=w@mail.gmail.com>
+Subject: Fwd: ARC Instructional Classes
+From: "T. Daniel Crawford" <crawdad@vt.edu>
+To: Ashutosh Kumar <akumar1@vt.edu>, Andrew James <andrew.m.james2@gmail.com>,
+        Harley McAlexander <harleymc@vt.edu>
+Content-Type: multipart/alternative; boundary=001a113fe7606f4556050d559900
+X-Spam-Status: No, score=-0.7 required=5.0 tests=HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr6.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+--001a113fe7606f4556050d559900
+Content-Type: text/plain; charset=UTF-8
+
+I don't know if this is relevant, guys, but I'm forwarding it anyway.
+
+-TDC
+--
+Prof. T. Daniel Crawford
+crawdad@vt.edu
+
+---------- Forwarded message ----------
+From: Brian Marshall <mimarsh2@vt.edu>
+Date: Fri, Jan 23, 2015 at 10:13 AM
+Subject: ARC Instructional Classes
+To: ARC_HOKIESPEED_USERS@listserv.vt.edu
+
+
+All,
+
+Welcome back for the Spring Semester.
+
+ARC gives instructional classes targeting HPC and visualization throughout
+the semester.  Our current offerings are listed on the NLI enrollment
+website below.  Search for any class prefixed with ARC
+https://app.nli.tlos.vt.edu/registration/all_courses/
+
+It is STRONGLY recommended that new users enroll in the "ARC: Introduction
+to ARC Systems and User Environment".  This session provides an overview of
+the high performance computing (HPC) resources managed by Advanced Research
+Computing(ARC) followed by a hands-on introduction to the user environment.
+https://app.nli.tlos.vt.edu/registration/all_courses/?specificcourse=955
+
+If you would like to take a class, enroll even if it is full.  Doing so
+allows ARC to correctly gauge demand for various classes and look for
+larger teaching rooms.
+
+
+Cheers,
+Brian Marshall
+Computational Scientist
+Advanced Research Computing
+
+--001a113fe7606f4556050d559900
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I don&#39;t know if this is relevant, guys, but I&#39;m fo=
+rwarding it anyway.<div><br></div><div>-TDC<br clear=3D"all"><div><div clas=
+s=3D"gmail_signature"><div dir=3D"ltr">--<div>Prof. T. Daniel Crawford</div=
+><div><a href=3D"mailto:crawdad@vt.edu" target=3D"_blank">crawdad@vt.edu</a=
+></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>F=
+rom: <b class=3D"gmail_sendername">Brian Marshall</b> <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:mimarsh2@vt.edu">mimarsh2@vt.edu</a>&gt;</span><br>Date:=
+ Fri, Jan 23, 2015 at 10:13 AM<br>Subject: ARC Instructional Classes<br>To:=
+ <a href=3D"mailto:ARC_HOKIESPEED_USERS@listserv.vt.edu">ARC_HOKIESPEED_USE=
+RS@listserv.vt.edu</a><br><br><br><div dir=3D"ltr"><div><font color=3D"#000=
+000" face=3D"arial, helvetica, sans-serif"><span>All,</span></font></div><d=
+iv><font color=3D"#000000" face=3D"arial, helvetica, sans-serif"><span><br>=
+</span></font></div><div><font color=3D"#000000" face=3D"arial, helvetica, =
+sans-serif"><span>Welcome back for the Spring Semester.</span></font></div>=
+<font color=3D"#000000" face=3D"arial, helvetica, sans-serif"><span><div><f=
+ont color=3D"#000000" face=3D"arial, helvetica, sans-serif"><span><br></spa=
+n></font></div>ARC</span>=C2=A0gives instructional classes targeting HPC an=
+d visualization throughout the semester.=C2=A0 Our current offerings are li=
+sted on the NLI enrollment website below.=C2=A0 Search for any class prefix=
+ed with ARC<br></font><div><font color=3D"#000000" face=3D"arial, helvetica=
+, sans-serif"><a href=3D"https://app.nli.tlos.vt.edu/registration/all_cours=
+es/" target=3D"_blank">https://app.nli.tlos.vt.edu/registration/all_courses=
+/</a><br></font></div><div><font color=3D"#000000" face=3D"arial, helvetica=
+, sans-serif"><br></font></div><div><font color=3D"#000000" face=3D"arial, =
+helvetica, sans-serif">It is STRONGLY recommended that new users enroll in =
+the &quot;ARC: Introduction to ARC Systems and User Environment&quot;.=C2=
+=A0 This session provides an overview of the high performance computing (HP=
+C) resources managed by Advanced Research Computing(ARC) followed by a hand=
+s-on introduction to the user environment.=C2=A0</font></div><div><font col=
+or=3D"#000000" face=3D"arial, helvetica, sans-serif"><a href=3D"https://app=
+.nli.tlos.vt.edu/registration/all_courses/?specificcourse=3D955" target=3D"=
+_blank">https://app.nli.tlos.vt.edu/registration/all_courses/?specificcours=
+e=3D955</a><br></font></div><div><br></div><div>If you would like to take a=
+ class, enroll even if it is full.=C2=A0 Doing so allows ARC to correctly g=
+auge demand for various classes and look for larger teaching rooms.</div><d=
+iv><br></div><div><br></div><div>Cheers,</div><div>Brian Marshall</div><div=
+>Computational Scientist</div><div>Advanced Research Computing</div><div><f=
+ont color=3D"#000000"><font face=3D"Times New Roman, Times, serif"><span st=
+yle=3D"font-size:17px"><br></span></font></font></div></div>
+</div><br></div></div>
+
+--001a113fe7606f4556050d559900--

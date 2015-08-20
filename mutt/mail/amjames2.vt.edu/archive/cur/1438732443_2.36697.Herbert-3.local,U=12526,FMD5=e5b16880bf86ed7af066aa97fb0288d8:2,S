@@ -1,0 +1,1922 @@
+Delivered-To: amjames2@vt.edu
+Received: by 10.140.25.151 with SMTP id 23csp87610qgt;
+        Tue, 4 Aug 2015 16:21:01 -0700 (PDT)
+X-Received: by 10.140.101.105 with SMTP id t96mr11765083qge.9.1438730461430;
+        Tue, 04 Aug 2015 16:21:01 -0700 (PDT)
+Return-Path: <andrew.m.james2+caf_=amjames2=vt.edu@gmail.com>
+Received: from mr4.cc.vt.edu (mr4.cc.ipv6.vt.edu. [2001:468:c80:2105:0:232:8670:19fe])
+        by mx.google.com with ESMTPS id j67si1888977qhc.87.2015.08.04.16.21.01
+        for <amjames2@vt.edu>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 16:21:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 131.130.3.110 as permitted sender) client-ip=131.130.3.110;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning andrew.m.james2+caf_=amjames2=vt.edu@gmail.com does not designate 131.130.3.110 as permitted sender) smtp.mail=andrew.m.james2+caf_=amjames2=vt.edu@gmail.com;
+       dkim=pass header.i=@univie.ac.at
+Received: from mail-io0-x22b.google.com (mail-io0-x22b.google.com [IPv6:2607:f8b0:4001:c06::22b])
+	by mr4.cc.vt.edu (8.14.4/8.14.4) with ESMTP id t74NKr22014833
+	for <amjames2@vt.edu>; Tue, 4 Aug 2015 19:20:58 -0400
+Received: by ioeg141 with SMTP id g141so32851319ioe.3
+        for <amjames2@vt.edu>; Tue, 04 Aug 2015 16:20:53 -0700 (PDT)
+X-Received: by 10.107.137.218 with SMTP id t87mr6557870ioi.37.1438730452969;
+        Tue, 04 Aug 2015 16:20:52 -0700 (PDT)
+X-Forwarded-To: amjames2@vt.edu
+X-Forwarded-For: andrew.m.james2@gmail.com amjames2@vt.edu
+Delivered-To: andrew.m.james2@gmail.com
+Received: by 10.64.19.209 with SMTP id h17csp86107iee;
+        Tue, 4 Aug 2015 16:20:51 -0700 (PDT)
+X-Received: by 10.180.109.161 with SMTP id ht1mr4067945wib.10.1438730451249;
+        Tue, 04 Aug 2015 16:20:51 -0700 (PDT)
+Received: from grace.univie.ac.at (grace.univie.ac.at. [2001:62a:4:25::25:115])
+        by mx.google.com with ESMTPS id g4si24862179wiy.56.2015.08.04.16.20.50
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 16:20:51 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of hans.lischka@univie.ac.at designates 2001:62a:4:25::25:115 as permitted sender) client-ip=2001:62a:4:25::25:115;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=univie.ac.at; s=rev2;
+	h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:From:Cc:References:To:Subject; bh=2prWaOi8ncE77ZHZL6i2xWR/SP8K4NImtLfpW7CRz6k=;
+	b=j4Ar3BhlthuG3cGTFq5QP938gRLMUOcHhSTgDErHJ4Vy79ZJ0h0KpEpVSl6P+yiasoqaQ7T/Lap3KsLRWjOgI2VKKKph4+yl+WAL0VkppNjAjcbHahxx5QWB5CH+zHxv/02jJCLO9Nk/HwJ6e5Uv66b02UwLUY34D+k19IeIREc=;
+Received: from joan.univie.ac.at ([131.130.3.110] helo=joan.univie.ac.at)
+	by grace.univie.ac.at with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZMlVp-0007Sy-M9; Wed, 05 Aug 2015 01:20:49 +0200
+Received: from [2001:62a:6:1::1e]
+	by joan.univie.ac.at with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.85)
+	(envelope-from <hans.lischka@univie.ac.at>)
+	id 1ZMlVl-0006GV-8c; Wed, 05 Aug 2015 01:20:49 +0200
+Subject: Re: polyradical paper
+To: "T. Daniel Crawford" <crawdad@vt.edu>
+References: <55736B10.9020807@univie.ac.at>
+ <CAH0V_1ZT05jN7hpMHYn2L5sa1BRF82c1+SZTiyGf4DsUO+pRYA@mail.gmail.com>
+ <557CDE08.5010507@univie.ac.at>
+ <CAH0V_1bZ5xXucZxkMGtY7-182su2Bk9n1Ns_dVkfs4UUFrALBQ@mail.gmail.com>
+ <559050BC.7040805@univie.ac.at>
+ <CAH0V_1bzAw+V_ywB40_GucSdMb7X5yF3NuLGmBoChQpiYeaNvg@mail.gmail.com>
+ <55B5EE49.9080107@univie.ac.at>
+ <CAH0V_1a2X8pskCm_KQ1bxNCUgdgrkrMKnQJs5dUK29SQGQ27xg@mail.gmail.com>
+ <55B73C11.2060108@univie.ac.at>
+ <CAH0V_1ZZgh+ZXgo6YOyxsfxvJz4T6ZXTkV_EE+=_baAaUSCpCA@mail.gmail.com>
+ <CAH0V_1bZvAMnubELE3g0aUbr2L_hgJ-b2GOUK0gdOcGGGS7wEw@mail.gmail.com>
+ <CABE4bNDnQ_HZedF5d0_gkQkkXLGAYsASrm4GN0++zFyugc8XyA@mail.gmail.com>
+ <CAH0V_1Z7X200YY=6-0prAdiCFuKtXCA9QBxyjoJEUUoRCv0+fw@mail.gmail.com>
+ <55BE7157.5010406@univie.ac.at>
+ <CAH0V_1YMk-ui_UBMtjUuuHuL8Wgx_++GiOAiFm86JftusnAs6g@mail.gmail.com>
+Cc: Anita Das <anitadas.chem@gmail.com>,
+        Andrew James <andrew.m.james2@gmail.com>
+From: Hans Lischka <hans.lischka@univie.ac.at>
+Message-ID: <55C148C9.8000001@univie.ac.at>
+Date: Tue, 4 Aug 2015 18:20:41 -0500
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.1.0
+MIME-Version: 1.0
+In-Reply-To: <CAH0V_1YMk-ui_UBMtjUuuHuL8Wgx_++GiOAiFm86JftusnAs6g@mail.gmail.com>
+Content-Type: multipart/alternative;
+ boundary="------------090308010505060009010609"
+X-Univie-Virus-Scan: scanned by ClamAV on joan.univie.ac.at
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_MESSAGE autolearn=disabled version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mr4.cc.vt.edu
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+X-Gm-Spam: 0
+X-Gm-Phishy: 0
+
+This is a multi-part message in MIME format.
+--------------090308010505060009010609
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Dear Daniel,
+
+Just to confirm, did you get the same (identical) NO occupations for the 
+symmetry broken Cs symmetry as Anita did?
+
+Best regards, Hans
+
+On 8/4/2015 10:52 AM, T. Daniel Crawford wrote:
+> Dear Hans,
+>
+> I also agree that we have resolved the discrepancy between our UHF 
+> wave functions, and we're working now to obtain the CCSD NOs using the 
+> Cs symmetry-broken orbitals as a reference.  These NOs are obtained by 
+> diagonalization of the spin-orbital density (including its UHF 
+> component), and the occupations AJ has reported are the sum of the 
+> alpha and beta contributions.  I think this is consistent with your 
+> approach.
+>
+> Our stability code has gone through an overhaul in the last two weeks, 
+> which has slowed our efforts further, but obtaining the data for this 
+> paper is high on our priority list.  We'll let you know as soon as we 
+> have useful results.
+>
+> Best regards,
+>
+> -Daniel
+>
+> -- 
+> Prof. T. Daniel Crawford
+> crawdad@vt.edu <mailto:crawdad@vt.edu>
+>
+> On Sun, Aug 2, 2015 at 1:36 PM, Hans Lischka 
+> <hans.lischka@univie.ac.at <mailto:hans.lischka@univie.ac.at>> wrote:
+>
+>     Dear Daniel,
+>
+>     I am back in Lubbock and followed Anita's and your comments. I
+>     think the agreement in the H.F. calculations is resolved. I expect
+>     that the NO occupations according to Pulay will also agree. The
+>     next question is how does the new UHF wavefunction affect the CCSD
+>     results. I imagine that one should compute a total density matrix
+>     from the CCSD wavefunction as well. Don't you think?
+>     What kind of NO occupations and NOs did you use first? These were
+>     in the set of alpha and beta spin orbitals. The space parts are
+>     not orthogonal to each other. Thus, they are difficult to
+>     interpret. The advantage of diagonalizing the total spin density
+>     matrix is that the resulting NOs refer to the same basis. This
+>     question is more involved than I thought.
+>
+>     Best regards, Hans
+>
+>
+>     On 7/28/2015 12:29 PM, T. Daniel Crawford wrote:
+>>     Yes, I'm sure that's the difference. I should note that the
+>>     definition of the Pople-type 6-31G* basis set is to use 6d
+>>     Cartesian polarization functions.
+>>
+>>     -TDC
+>>
+>>     -- 
+>>     Prof. T. Daniel Crawford
+>>     crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>
+>>     On Tue, Jul 28, 2015 at 1:26 PM, Anita Das
+>>     <anitadas.chem@gmail.com <mailto:anitadas.chem@gmail.com>> wrote:
+>>
+>>         Dear Dr. Crawford,
+>>           I think the difference is because of the basis set. I have
+>>         performed HF calculation with 6-31G(d) basis set where it
+>>         takes 5d polarized function and i have checked with g09 as
+>>         well as turbomole and both give up to sex digit same energy
+>>         of  -1069.660888 E_h but you have used the same basis set
+>>         with 6d polarized function. When I did the same calculation
+>>         with 6d polarized finction in g09, i also got -1069.663344
+>>         E_h. Could you please check in g09 with 5d polarized function
+>>         by mentioning in the root section?
+>>
+>>         Best regards,
+>>          anita
+>>
+>>         On Tue, Jul 28, 2015 at 12:08 PM, T. Daniel Crawford
+>>         <crawdad@vt.edu <mailto:crawdad@vt.edu>> wrote:
+>>
+>>             Sorry, I'm conflating two on-going projects.  These are
+>>             NOT DFT calculations, of course, but Hartree-Fock, which
+>>             makes me wonder why we don't get better agreement between
+>>             our total energies.  Do your Turbomole UHF calculations
+>>             make use of density fitting integrals?  That would
+>>             potentially account for such a significant difference.
+>>
+>>             Nevertheless, I think the qualitative results are the
+>>             same, and I'll continue with my efforts to follow the
+>>             Bu-irrep eigenvector.
+>>
+>>             My apologies for the confusing remarks about B3LYP in my
+>>             last message!
+>>
+>>             -TDC
+>>
+>>             -- 
+>>             Prof. T. Daniel Crawford
+>>             crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>
+>>             On Tue, Jul 28, 2015 at 12:58 PM, T. Daniel Crawford
+>>             <crawdad@vt.edu <mailto:crawdad@vt.edu>> wrote:
+>>
+>>                 Dear Hans,
+>>
+>>                 Thank you to Anita for the additional information. 
+>>                 Our triplet instabilities appear to match, at least
+>>                 as far as our B3LYP functionals match.  (I believe
+>>                 you're using a slightly different VWN functional in
+>>                 Turbomole than we are; we use the G09 "definition" by
+>>                 default.  Our total energies match to a couple of
+>>                 decimal places: -1069.66334405 E_h (ours)
+>>                 vs. -1069.6608882 (yours), again differences likely
+>>                 attributable to the definition of the functional.  (I
+>>                 also tested our code vs. G09 for this case, and we
+>>                 get a match out to six decimal places.)  After
+>>                 following the Ag triplet instability, we optimize to
+>>                 a proper UHF wave function with energy -1069.71414813
+>>                 E_h vs. your is  -1069.711505 E_h. Again, I consider
+>>                 this a reasonable comparison in this case.
+>>
+>>                 I have a few responses to your message below and
+>>                 Anita's document:
+>>
+>>                 (1) Our code follows MO Hessian eigenvectors within
+>>                 the totally symmetric irrep by default in order to
+>>                 maintain the symmetry of the orbitals, even if the
+>>                 corresponding eigenvalue is not the most negative. 
+>>                 It is not unusual to obtain a local minimum on the
+>>                 Hartree-Fock orbital rotation surface after following
+>>                 such an eigenvector, but, as your calculations
+>>                 indicate, we haven't found the global minimum.
+>>
+>>                 (2) Responding to some of Anita's comments in the
+>>                 Word document, I should note that following an
+>>                 eigenvector of the MO Hessian affects *all* orbitals,
+>>                 not just those of a particular irrep.  The
+>>                 eigenvector irrep refers to the direct product of the
+>>                 component rotation orbitals, U_ai, where a and i are
+>>                 virtual and occupied orbitals in the original basis. 
+>>                 Thus, an Ag eigenvector involves mixings between all
+>>                 orbital pairs where the direct product is Ag, so that
+>>                 includes Au*Au, Bu*Bu, etc. Furthermore, since these
+>>                 are triplet instabilities of an RHF reference, the Ag
+>>                 eigenvector will not destroy the spatial symmetry of
+>>                 the orbitals (i.e. they all still transform as irreps
+>>                 of C2h) but it will destroy only their spin symmetry.
+>>                 I apologize for the elaboration if all this was
+>>                 already clear.
+>>
+>>                 (3) I'm re-running our calculations forcing Cs
+>>                 symmetry in order to push the Bu MO Hessian
+>>                 eigenvector into the totally symmetric irrep.  That
+>>                 will allow us to make a proper comparison of our
+>>                 UHF-CCSD wave function natural orbitals using the
+>>                 same MO basis that you have for the MRAQCC
+>>                 calculations.  I should be able to report back
+>>                 relatively soon.
+>>
+>>                 Best regards,
+>>
+>>                 -Daniel
+>>
+>>                 -- 
+>>                 Prof. T. Daniel Crawford
+>>                 crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>
+>>                 On Tue, Jul 28, 2015 at 4:23 AM, Hans Lischka
+>>                 <hans.lischka@univie.ac.at
+>>                 <mailto:hans.lischka@univie.ac.at>> wrote:
+>>
+>>                     Dear Daniel,
+>>
+>>                     I am attaching the analysis of zethrene which
+>>                     Anita sent me. Currently, I am in Vienna and have
+>>                     only e-mail contact. I added some comments to her
+>>                     text. It is written with Track Changes, mainly
+>>                     for her information.
+>>                     It seems to me that polarizing the Ag orbitals we
+>>                     get practically the same results as you, as much
+>>                     as I could see form the orbital energies.
+>>                     However, it would be good to know also your total
+>>                     energies and to compare the shape of the HOMO and
+>>                     LUMO.
+>>
+>>                     From the first stability analysis one would say
+>>                     that also the orbitals should be polarized in bu
+>>                     symmetry. It is surprising that this instability
+>>                     vanishes after modifying the ag orbitals.
+>>                     In order to take into account the bu instability
+>>                     we performed a calculation in Cs symmetry and got
+>>                     a significant stabilization with respect to the
+>>                     ag step. Please see the attached file for
+>>                     details. Please note that the symmetry labels C2h
+>>                     and Cs refers only to the MOs! The geometry had
+>>                     been fixed for all calculations reported here at
+>>                     C2h symmetry.
+>>                     With the broken Cs MOs we have also made geometry
+>>                     optimization getting an additional stabilization,
+>>                     but this is not considered here.
+>>
+>>                     Could you do similar calculations for comparison?
+>>                     Best regards, Hans
+>>
+>>                     On 7/27/2015 10:38 AM, T. Daniel Crawford wrote:
+>>>                     Dear Hans,
+>>>
+>>>                     Yes, I agree that we should carefully compare
+>>>                     our UHF wave functions. Regarding the
+>>>                     instability indices, the initial UHF determinant
+>>>                     (which is really RHF), we find the following
+>>>                     negative MO Hessian indices:
+>>>
+>>>                     Bu -0.103572   Ag -0.052371       Bu -0.016712  
+>>>                     Ag -0.007614
+>>>
+>>>                     We follow the Ag eigenvector and re-compute the
+>>>                     SCF to obtain a new UHF wave function with the
+>>>                     following lowest MO Hessian indices:
+>>>
+>>>                     Bu 0.032601  Ag 0.050644      Ag 0.097847  Bu
+>>>                     0.111535
+>>>
+>>>                     For this wave function, the alpha/beta HOMOs
+>>>                     have energies -0.216068/-0.282375 E_h, and the
+>>>                     alpha/beta LUMOs are at 0.092356/0.033109 E_h.
+>>>
+>>>                     We don't have natural orbitals for the UHF wave
+>>>                     function. Actually, I have to admit that I'm not
+>>>                     sure what you mean by UHF natural orbitals since
+>>>                     the MOs all have integer occupations. Do you
+>>>                     define those as the eigenvectors of the sum of
+>>>                     the alpha and beta densities?
+>>>
+>>>                     Best regards,
+>>>
+>>>                     -Daniel
+>>>
+>>>
+>>>
+>>>                     -- 
+>>>                     Prof. T. Daniel Crawford
+>>>                     crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>
+>>>                     On Mon, Jul 27, 2015 at 4:39 AM, Hans Lischka
+>>>                     <hans.lischka@univie.ac.at
+>>>                     <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>
+>>>                         Dear Daniel,
+>>>
+>>>                         Thank you for your results. Your
+>>>                         calculations based on the RHF and UHF give 
+>>>                         very similar NO occupations. We should
+>>>                         compare the results in more detail. In our
+>>>                         Table 5 we give the NO occupations of the
+>>>                         UHF density. They are close to single
+>>>                         occupation (4: HONO 1.234, LUNO 0.766). This
+>>>                         should be the starting occupations for your
+>>>                         CCSD calculations. Could you please compare
+>>>                         this with your UHF results? Also, we should
+>>>                         compare the character of the instability,
+>>>                         for which orbitals does it occur. We should
+>>>                         also compare the total SCF energies
+>>>                         (restricted and unrestricted).
+>>>                         Anita, could you please collect our results
+>>>                         in more detail?
+>>>
+>>>                         Best regards, Hans
+>>>
+>>>                         On 7/26/2015 8:25 PM, T. Daniel Crawford wrote:
+>>>>                         Dear Hans,
+>>>>
+>>>>                         We do agree that structure 4 is a strong
+>>>>                         example. AJ has recomputed the CCSD natural
+>>>>                         orbitals for both 4 and 7, including
+>>>>                         following the totally symmetric UHF orbital
+>>>>                         instabilities to the spin-polarized
+>>>>                         orbitals. However, the occupation numbers
+>>>>                         still do not reveal substantial polyradical
+>>>>                         character. See the attached report from AJ
+>>>>                         for some details.
+>>>>
+>>>>                         -TDC
+>>>>
+>>>>                         -- 
+>>>>                         Prof. T. Daniel Crawford
+>>>>                         crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>>
+>>>>                         On Sun, Jun 28, 2015 at 3:53 PM, Hans
+>>>>                         Lischka <hans.lischka@univie.ac.at
+>>>>                         <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>>
+>>>>                             Dear Daniel,
+>>>>
+>>>>                             Thank you very much for your e-mail. We
+>>>>                             are looking forward to your results.
+>>>>                             The most important question from my
+>>>>                             point of view is whether the restricted
+>>>>                             or the unrestricted approach is the
+>>>>                             appropriate one (see my previous
+>>>>                             e-mail). I think we should concentrate
+>>>>                             on that question first of all, taking
+>>>>                             the heptazethrene (str. 4) as example.
+>>>>                             According to your restricted
+>>>>                             calculations one gets a closed shell
+>>>>                             state, but our multireference
+>>>>                             calculations and also the UHF density
+>>>>                             shows the opposite. What do you think?
+>>>>
+>>>>                             Best regards, Hans
+>>>>
+>>>>
+>>>>                             On 6/26/2015 10:42 PM, T. Daniel
+>>>>                             Crawford wrote:
+>>>>>                             Dear Hans,
+>>>>>
+>>>>>                             I want to apologize for the delay in
+>>>>>                             our response. AJ and I have been
+>>>>>                             dealing with a pair of summer schools
+>>>>>                             – one focused on computational
+>>>>>                             chemistry software development, the
+>>>>>                             other on molecular response properties
+>>>>>                             – that started this past week and will
+>>>>>                             continue through next week.  I'm the
+>>>>>                             host and an instructor in both
+>>>>>                             schools, and AJ has been invaluable as
+>>>>>                             the primary organizer. Unfortunately,
+>>>>>                             the schools have pulled us both away
+>>>>>                             from dealing with the polyradical
+>>>>>                             project.  AJ has continued his
+>>>>>                             computations, but we haven't been able
+>>>>>                             to get together to go through his
+>>>>>                             results and provide you with a proper
+>>>>>                             response.  I promise that we will get
+>>>>>                             back to you and Anita as soon as possible.
+>>>>>
+>>>>>                             Thanks for your patience!
+>>>>>
+>>>>>                             Best regards,
+>>>>>
+>>>>>                             -Daniel
+>>>>>
+>>>>>                             -- 
+>>>>>                             Prof. T. Daniel Crawford
+>>>>>                             crawdad@vt.edu <mailto:crawdad@vt.edu>
+>>>>>
+>>>>>                             On Sat, Jun 13, 2015 at 9:51 PM, Hans
+>>>>>                             Lischka <hans.lischka@univie.ac.at
+>>>>>                             <mailto:hans.lischka@univie.ac.at>> wrote:
+>>>>>
+>>>>>                                 Dear Daniel, dear Andrew,
+>>>>>
+>>>>>                                 Thank you for your e-mail and the
+>>>>>                                 data.
+>>>>>                                 Concerning geometry differences:
+>>>>>                                 these are very small and come from
+>>>>>                                 the fact that Anita used Gaussian
+>>>>>                                 and Turbomole to verify the
+>>>>>                                 consistency of the results. She
+>>>>>                                 sent you the Gaussian optimized
+>>>>>                                 geometries but then followed up
+>>>>>                                 with Turbomole calculations.
+>>>>>                                 Finally, we decided to base all
+>>>>>                                 results on Turbomole and she
+>>>>>                                 changed the coordinates in the
+>>>>>                                 Supp. Mat. I am attaching her
+>>>>>                                 comments. You can see there that
+>>>>>                                 differences are negligible and you
+>>>>>                                 need not redo the calculations.
+>>>>>                                 Concerning the question of the
+>>>>>                                 symmetry in the UDFT geometry
+>>>>>                                 optimizations for structures 4-8.
+>>>>>                                 These were performed for the
+>>>>>                                 singlet ground states. The closed
+>>>>>                                 shell high-symmetry DFT solution
+>>>>>                                 is unstable. The spin unrestricted
+>>>>>                                 (U)DFT wavefunction is symmetry
+>>>>>                                 broken and has only Cs symmetry.
+>>>>>                                 You can see the orbitals  in Figs.
+>>>>>                                 9S-13S of the Supp. Mat. The C2h
+>>>>>                                 in Fig. 10S should also read as
+>>>>>                                 Cs. Thus, the MOs have Cs
+>>>>>                                 symmetry, but alpha and beta
+>>>>>                                 orbitals are equivalent so that
+>>>>>                                 the structural symmetry is higher,
+>>>>>                                 C2h and D2h, respectively. Thus,
+>>>>>                                 the formulations should be
+>>>>>                                 correct. However, we will explain
+>>>>>                                 this in the text. See also Anita's
+>>>>>                                 comments attached.
+>>>>>                                 I am also attaching a paper on
+>>>>>                                 oligoacenes where you see the same
+>>>>>                                 effect, the symmetry broken
+>>>>>                                 orbitals (Figure 2) and the higher
+>>>>>                                 symmetry of the geometry.
+>>>>>
+>>>>>                                 Do you agree?
+>>>>>
+>>>>>                                 Please see my follow-up e-mail on
+>>>>>                                 the symmetry breaking.
+>>>>>
+>>>>>                                 Best regards, Hans
+>>>>>
+>>>>>
+>>>>>                                 On 6/12/2015 1:35 PM, T. Daniel
+>>>>>                                 Crawford wrote:
+>>>>>>                                 Dear Hans,
+>>>>>>
+>>>>>>                                 Attached is a brief summary of
+>>>>>>                                 the data that AJ has collected so
+>>>>>>                                 far.  There is some confusion
+>>>>>>                                 about the geometries for
+>>>>>>                                 structures 1-3, as well as
+>>>>>>                                 symmetries of 4-8.  If you and
+>>>>>>                                 Anita could clarify these, we
+>>>>>>                                 would be grateful. Also, the data
+>>>>>>                                 provided here are for frozen-core
+>>>>>>                                 only, but AJ also has carried out
+>>>>>>                                 calculations using reduced active
+>>>>>>                                 spaces, as well.
+>>>>>>
+>>>>>>                                 Best regards,
+>>>>>>
+>>>>>>                                 -Daniel
+>>>>>>
+>>>>>>                                 -- 
+>>>>>>                                 Prof. T. Daniel Crawford
+>>>>>>                                 crawdad@vt.edu
+>>>>>>                                 <mailto:crawdad@vt.edu>
+>>>>>>
+>>>>>>                                 On Sat, Jun 6, 2015 at 5:50 PM,
+>>>>>>                                 Hans Lischka
+>>>>>>                                 <hans.lischka@univie.ac.at
+>>>>>>                                 <mailto:hans.lischka@univie.ac.at>>
+>>>>>>                                 wrote:
+>>>>>>
+>>>>>>                                     Dear Daniel,
+>>>>>>
+>>>>>>                                     I am sending you our next
+>>>>>>                                     version of our data. We
+>>>>>>                                     included now also pi+sigma
+>>>>>>                                     correlated calculations.
+>>>>>>                                     Comparison with pi-only shows
+>>>>>>                                     good agreement. If not other
+>>>>>>                                     aspects show up we regards
+>>>>>>                                     the calculations finished and
+>>>>>>                                     Anita will concentrate on
+>>>>>>                                     writing the text. Please have
+>>>>>>                                     a look at our results and we
+>>>>>>                                     might discuss how and what
+>>>>>>                                     you can fit in with your
+>>>>>>                                     coupled cluster calculations.
+>>>>>>                                     I am looking forward to a
+>>>>>>                                     comparison.
+>>>>>>
+>>>>>>                                     Best regards, Hans
+>>>>>>
+>>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>>
+>>>
+>>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>         -- 
+>>         Dr. Anita Das
+>>         c/o Dr. Hans Lischka
+>>         Department of Chemistry and Biochemistry
+>>         Texas Tech University
+>>         Memorial Circle & Boston
+>>         Lubbock, TX 79409-1061, USA
+>>
+>>
+>
+>
+
+
+--------------090308010505060009010609
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Dear Daniel,<br>
+    <br>
+    Just to confirm, did you get the same (identical) NO occupations for
+    the symmetry broken Cs symmetry as Anita did?<br>
+    <br>
+    Best regards, Hans<br>
+    <br>
+    On 8/4/2015 10:52 AM, T. Daniel Crawford wrote:
+    <blockquote type="cite">
+      <div dir="ltr">Dear Hans,
+        <div><br>
+        </div>
+        <div>I also agree that we have resolved the discrepancy between
+          our UHF wave functions, and we're working now to obtain the
+          CCSD NOs using the Cs symmetry-broken orbitals as a
+          reference.  These NOs are obtained by diagonalization of the
+          spin-orbital density (including its UHF component), and the
+          occupations AJ has reported are the sum of the alpha and beta
+          contributions.  I think this is consistent with your approach.</div>
+        <div><br>
+        </div>
+        <div>Our stability code has gone through an overhaul in the last
+          two weeks, which has slowed our efforts further, but obtaining
+          the data for this paper is high on our priority list.  We'll
+          let you know as soon as we have useful results.</div>
+        <div><br>
+        </div>
+        <div>Best regards,</div>
+        <div><br>
+        </div>
+        <div>-Daniel</div>
+      </div>
+      <div class="gmail_extra"><br clear="all">
+        <div>
+          <div class="gmail_signature">
+            <div dir="ltr">--
+              <div>Prof. T. Daniel Crawford</div>
+              <div><a href="mailto:crawdad@vt.edu" target="_blank">crawdad@vt.edu</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="gmail_quote">On Sun, Aug 2, 2015 at 1:36 PM, Hans
+          Lischka <span dir="ltr">&lt;<a
+              href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+          wrote:<br>
+          <blockquote class="gmail_quote" style="margin:0 0 0
+            .8ex;border-left:1px #ccc solid;padding-left:1ex">
+            <div bgcolor="#FFFFFF" text="#000000"> Dear Daniel,<br>
+              <br>
+              I am back in Lubbock and followed Anita's and your
+              comments. I think the agreement in the H.F. calculations
+              is resolved. I expect that the NO occupations according to
+              Pulay will also agree. The next question is how does the
+              new UHF wavefunction affect the CCSD results. I imagine
+              that one should compute a total density matrix from the
+              CCSD wavefunction as well. Don't you think?<br>
+              What kind of NO occupations and NOs did you use first?
+              These were in the set of alpha and beta spin orbitals. The
+              space parts are not orthogonal to each other. Thus, they
+              are difficult to interpret. The advantage of diagonalizing
+              the total spin density matrix is that the resulting NOs
+              refer to the same basis. This question is more involved
+              than I thought.<br>
+              <br>
+              Best regards, Hans
+              <div>
+                <div class="h5"><br>
+                  <br>
+                  On 7/28/2015 12:29 PM, T. Daniel Crawford wrote:
+                  <blockquote type="cite">
+                    <div dir="ltr">Yes, I'm sure that's the difference. 
+                      I should note that the definition of the
+                      Pople-type 6-31G* basis set is to use 6d Cartesian
+                      polarization functions.
+                      <div><br>
+                      </div>
+                      <div>-TDC</div>
+                    </div>
+                    <div class="gmail_extra"><br clear="all">
+                      <div>
+                        <div>
+                          <div dir="ltr">--
+                            <div>Prof. T. Daniel Crawford</div>
+                            <div><a href="mailto:crawdad@vt.edu"
+                                target="_blank">crawdad@vt.edu</a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="gmail_quote">On Tue, Jul 28, 2015 at
+                        1:26 PM, Anita Das <span dir="ltr">&lt;<a
+                            href="mailto:anitadas.chem@gmail.com"
+                            target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:anitadas.chem@gmail.com">anitadas.chem@gmail.com</a></a>&gt;</span>
+                        wrote:<br>
+                        <blockquote class="gmail_quote" style="margin:0
+                          0 0 .8ex;border-left:1px #ccc
+                          solid;padding-left:1ex">
+                          <div dir="ltr">Dear Dr. Crawford,
+                            <div>  I think the difference is because of
+                              the basis set. I have performed HF
+                              calculation with 6-31G(d) basis set where
+                              it takes 5d polarized function and i have
+                              checked with g09 as well as turbomole and
+                              both give up to sex digit same energy of
+                               -1069.660888 <span
+                                style="font-size:12.8000001907349px">E_h
+                                but you have used the same basis set
+                                with 6d polarized function. When I did
+                                the same calculation with 6d polarized
+                                finction in g09, i also
+                                got -1069.663344 </span><span
+                                style="font-size:12.8000001907349px">E_h.
+                                Could you please check in g09 with 5d
+                                polarized function by mentioning in the
+                                root section?</span></div>
+                            <div><span
+                                style="font-size:12.8000001907349px"><br>
+                              </span></div>
+                            <div><span
+                                style="font-size:12.8000001907349px"> 
+                                Best regards,</span></div>
+                            <div><span
+                                style="font-size:12.8000001907349px"> 
+                                 anita</span></div>
+                          </div>
+                          <div class="gmail_extra">
+                            <div>
+                              <div><br>
+                                <div class="gmail_quote">On Tue, Jul 28,
+                                  2015 at 12:08 PM, T. Daniel Crawford <span
+                                    dir="ltr">&lt;<a
+                                      href="mailto:crawdad@vt.edu"
+                                      target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a>&gt;</span>
+                                  wrote:<br>
+                                  <blockquote class="gmail_quote"
+                                    style="margin:0 0 0
+                                    .8ex;border-left:1px #ccc
+                                    solid;padding-left:1ex">
+                                    <div dir="ltr">Sorry, I'm conflating
+                                      two on-going projects.  These are
+                                      NOT DFT calculations, of course,
+                                      but Hartree-Fock, which makes me
+                                      wonder why we don't get better
+                                      agreement between our total
+                                      energies.  Do your Turbomole UHF
+                                      calculations make use of density
+                                      fitting integrals?  That would
+                                      potentially account for such a
+                                      significant difference.
+                                      <div><br>
+                                      </div>
+                                      <div>Nevertheless, I think the
+                                        qualitative results are the
+                                        same, and I'll continue with my
+                                        efforts to follow the Bu-irrep
+                                        eigenvector.</div>
+                                      <div><br>
+                                      </div>
+                                      <div>My apologies for the
+                                        confusing remarks about B3LYP in
+                                        my last message!</div>
+                                      <span><font color="#888888">
+                                          <div><br>
+                                          </div>
+                                          <div>-TDC</div>
+                                        </font></span></div>
+                                    <div class="gmail_extra"><span><br
+                                          clear="all">
+                                        <div>
+                                          <div>
+                                            <div dir="ltr">--
+                                              <div>Prof. T. Daniel
+                                                Crawford</div>
+                                              <div><a
+                                                  href="mailto:crawdad@vt.edu"
+                                                  target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <br>
+                                      </span>
+                                      <div>
+                                        <div>
+                                          <div class="gmail_quote">On
+                                            Tue, Jul 28, 2015 at 12:58
+                                            PM, T. Daniel Crawford <span
+                                              dir="ltr">&lt;<a
+                                                href="mailto:crawdad@vt.edu"
+                                                target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a>&gt;</span>
+                                            wrote:<br>
+                                            <blockquote
+                                              class="gmail_quote"
+                                              style="margin:0 0 0
+                                              .8ex;border-left:1px #ccc
+                                              solid;padding-left:1ex">
+                                              <div dir="ltr">Dear Hans,
+                                                <div><br>
+                                                </div>
+                                                <div>Thank you to Anita
+                                                  for the additional
+                                                  information.  Our
+                                                  triplet instabilities
+                                                  appear to match, at
+                                                  least as far as our
+                                                  B3LYP functionals
+                                                  match.  (I believe
+                                                  you're using a
+                                                  slightly different VWN
+                                                  functional in
+                                                  Turbomole than we are;
+                                                  we use the G09
+                                                  "definition" by
+                                                  default.  Our total
+                                                  energies match to a
+                                                  couple of decimal
+                                                  places: -1069.66334405
+                                                  E_h (ours)
+                                                  vs. -1069.6608882
+                                                  (yours), again
+                                                  differences likely
+                                                  attributable to the
+                                                  definition of the
+                                                  functional.  (I also
+                                                  tested our code vs.
+                                                  G09 for this case, and
+                                                  we get a match out to
+                                                  six decimal places.)
+                                                   After following the
+                                                  Ag triplet
+                                                  instability, we
+                                                  optimize to a proper
+                                                  UHF wave function with
+                                                  energy -1069.71414813
+                                                  E_h vs. your is
+                                                   -1069.711505 E_h. 
+                                                  Again, I consider this
+                                                  a reasonable
+                                                  comparison in this
+                                                  case.</div>
+                                                <div><br>
+                                                </div>
+                                                <div>I have a few
+                                                  responses to your
+                                                  message below and
+                                                  Anita's document:</div>
+                                                <div><br>
+                                                </div>
+                                                <div>(1) Our code
+                                                  follows MO Hessian
+                                                  eigenvectors within
+                                                  the totally symmetric
+                                                  irrep by default in
+                                                  order to maintain the
+                                                  symmetry of the
+                                                  orbitals, even if the
+                                                  corresponding
+                                                  eigenvalue is not the
+                                                  most negative.  It is
+                                                  not unusual to obtain
+                                                  a local minimum on the
+                                                  Hartree-Fock orbital
+                                                  rotation surface after
+                                                  following such an
+                                                  eigenvector, but, as
+                                                  your calculations
+                                                  indicate, we haven't
+                                                  found the global
+                                                  minimum.</div>
+                                                <div><br>
+                                                </div>
+                                                <div>(2) Responding to
+                                                  some of Anita's
+                                                  comments in the Word
+                                                  document, I should
+                                                  note that following an
+                                                  eigenvector of the MO
+                                                  Hessian affects *all*
+                                                  orbitals, not just
+                                                  those of a particular
+                                                  irrep.  The
+                                                  eigenvector irrep
+                                                  refers to the direct
+                                                  product of the
+                                                  component rotation
+                                                  orbitals, U_ai, where
+                                                  a and i are virtual
+                                                  and occupied orbitals
+                                                  in the original
+                                                  basis.  Thus, an Ag
+                                                  eigenvector involves
+                                                  mixings between all
+                                                  orbital pairs where
+                                                  the direct product is
+                                                  Ag, so that includes
+                                                  Au*Au, Bu*Bu, etc. 
+                                                  Furthermore, since
+                                                  these are triplet
+                                                  instabilities of an
+                                                  RHF reference, the Ag
+                                                  eigenvector will not
+                                                  destroy the spatial
+                                                  symmetry of the
+                                                  orbitals (i.e. they
+                                                  all still transform as
+                                                  irreps of C2h) but it
+                                                  will destroy only
+                                                  their spin symmetry. 
+                                                  I apologize for the
+                                                  elaboration if all
+                                                  this was already
+                                                  clear.</div>
+                                                <div><br>
+                                                </div>
+                                                <div>(3) I'm re-running
+                                                  our calculations
+                                                  forcing Cs symmetry in
+                                                  order to push the Bu
+                                                  MO Hessian eigenvector
+                                                  into the totally
+                                                  symmetric irrep.  That
+                                                  will allow us to make
+                                                  a proper comparison of
+                                                  our UHF-CCSD wave
+                                                  function natural
+                                                  orbitals using the
+                                                  same MO basis that you
+                                                  have for the MRAQCC
+                                                  calculations.  I
+                                                  should be able to
+                                                  report back relatively
+                                                  soon.</div>
+                                                <div><br>
+                                                </div>
+                                                <div>Best regards,</div>
+                                                <div><br>
+                                                </div>
+                                                <div>-Daniel<br>
+                                                  <div
+                                                    class="gmail_extra"><span><br
+                                                        clear="all">
+                                                      <div>
+                                                        <div>
+                                                          <div dir="ltr">--
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          <div><a
+                                                          href="mailto:crawdad@vt.edu"
+target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <br>
+                                                    </span>
+                                                    <div>
+                                                      <div>
+                                                        <div
+                                                          class="gmail_quote">On
+
+                                                          Tue, Jul 28,
+                                                          2015 at 4:23
+                                                          AM, Hans
+                                                          Lischka <span
+                                                          dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                          wrote:<br>
+                                                          <blockquote
+                                                          class="gmail_quote"
+                                                          style="margin:0
+                                                          0 0
+                                                          .8ex;border-left:1px
+                                                          #ccc
+                                                          solid;padding-left:1ex">
+                                                          <div
+                                                          bgcolor="#FFFFFF"
+                                                          text="#000000">
+                                                          Dear Daniel,<br>
+                                                          <br>
+                                                          I am attaching
+                                                          the analysis
+                                                          of zethrene
+                                                          which Anita
+                                                          sent me.
+                                                          Currently, I
+                                                          am in Vienna
+                                                          and have only
+                                                          e-mail
+                                                          contact. I
+                                                          added some
+                                                          comments to
+                                                          her text. It
+                                                          is written
+                                                          with Track
+                                                          Changes,
+                                                          mainly for her
+                                                          information.<br>
+                                                          It seems to me
+                                                          that
+                                                          polarizing the
+                                                          Ag orbitals we
+                                                          get
+                                                          practically
+                                                          the same
+                                                          results as
+                                                          you, as much
+                                                          as I could see
+                                                          form the
+                                                          orbital
+                                                          energies.
+                                                          However, it
+                                                          would be good
+                                                          to know also
+                                                          your total
+                                                          energies and
+                                                          to compare the
+                                                          shape of the
+                                                          HOMO and LUMO.<br>
+                                                          <br>
+                                                          From the first
+                                                          stability
+                                                          analysis one
+                                                          would say that
+                                                          also the
+                                                          orbitals
+                                                          should be
+                                                          polarized in
+                                                          bu symmetry.
+                                                          It is
+                                                          surprising
+                                                          that this
+                                                          instability
+                                                          vanishes after
+                                                          modifying the
+                                                          ag orbitals. <br>
+                                                          In order to
+                                                          take into
+                                                          account the bu
+                                                          instability we
+                                                          performed a
+                                                          calculation in
+                                                          Cs symmetry
+                                                          and got a
+                                                          significant
+                                                          stabilization
+                                                          with respect
+                                                          to the ag
+                                                          step. Please
+                                                          see the
+                                                          attached file
+                                                          for details.
+                                                          Please note
+                                                          that the
+                                                          symmetry
+                                                          labels C2h and
+                                                          Cs refers only
+                                                          to the MOs!
+                                                          The geometry
+                                                          had been fixed
+                                                          for all
+                                                          calculations
+                                                          reported here
+                                                          at C2h
+                                                          symmetry.<br>
+                                                          With the
+                                                          broken Cs MOs
+                                                          we have also
+                                                          made geometry
+                                                          optimization
+                                                          getting an
+                                                          additional
+                                                          stabilization,
+                                                          but this is
+                                                          not considered
+                                                          here.<br>
+                                                          <br>
+                                                          Could you do
+                                                          similar
+                                                          calculations
+                                                          for
+                                                          comparison?<br>
+                                                          Best regards,
+                                                          Hans<span><br>
+                                                          <br>
+                                                          On 7/27/2015
+                                                          10:38 AM, T.
+                                                          Daniel
+                                                          Crawford
+                                                          wrote:<br>
+                                                          </span>
+                                                          <blockquote
+                                                          type="cite">
+                                                          <div dir="ltr">Dear
+
+                                                          Hans,
+                                                          <div><br>
+                                                          </div>
+                                                          <span>
+                                                          <div>Yes, I
+                                                          agree that we
+                                                          should
+                                                          carefully
+                                                          compare our
+                                                          UHF wave
+                                                          functions. 
+                                                          Regarding the
+                                                          instability
+                                                          indices, the
+                                                          initial UHF
+                                                          determinant
+                                                          (which is
+                                                          really RHF),
+                                                          we find the
+                                                          following
+                                                          negative MO
+                                                          Hessian
+                                                          indices:
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Bu
+                                                          -0.103572    
+                                                            Ag -0.052371
+                                                                Bu
+                                                          -0.016712    
+                                                            Ag -0.007614<br>
+                                                          </div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>We follow
+                                                          the Ag
+                                                          eigenvector
+                                                          and re-compute
+                                                          the SCF to
+                                                          obtain a new
+                                                          UHF wave
+                                                          function with
+                                                          the following
+                                                          lowest MO
+                                                          Hessian
+                                                          indices:</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Bu
+                                                          0.032601      
+                                                           Ag 0.050644  
+                                                               Ag
+                                                          0.097847      
+                                                           Bu 0.111535<br>
+                                                          </div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>For this
+                                                          wave function,
+                                                          the alpha/beta
+                                                          HOMOs have
+                                                          energies
+                                                          -0.216068/-0.282375
+                                                          E_h, and the
+                                                          alpha/beta
+                                                          LUMOs are at
+                                                          0.092356/0.033109
+                                                          E_h.</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>We don't
+                                                          have natural
+                                                          orbitals for
+                                                          the UHF wave
+                                                          function. 
+                                                          Actually, I
+                                                          have to admit
+                                                          that I'm not
+                                                          sure what you
+                                                          mean by UHF
+                                                          natural
+                                                          orbitals since
+                                                          the MOs all
+                                                          have integer
+                                                          occupations. 
+                                                          Do you define
+                                                          those as the
+                                                          eigenvectors
+                                                          of the sum of
+                                                          the alpha and
+                                                          beta
+                                                          densities?</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Best
+                                                          regards,</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>-Daniel</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div><br>
+                                                          </div>
+                                                          </div>
+                                                          </span></div>
+                                                          <div
+                                                          class="gmail_extra"><span><br
+                                                          clear="all">
+                                                          <div>
+                                                          <div>
+                                                          <div dir="ltr">--
+
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          <div><a
+                                                          href="mailto:crawdad@vt.edu"
+target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          <br>
+                                                          </span>
+                                                          <div
+                                                          class="gmail_quote"><span>On
+
+                                                          Mon, Jul 27,
+                                                          2015 at 4:39
+                                                          AM, Hans
+                                                          Lischka <span
+                                                          dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                          wrote:<br>
+                                                          </span>
+                                                          <blockquote
+                                                          class="gmail_quote"
+                                                          style="margin:0
+                                                          0 0
+                                                          .8ex;border-left:1px
+                                                          #ccc
+                                                          solid;padding-left:1ex">
+                                                          <div
+                                                          bgcolor="#FFFFFF"
+                                                          text="#000000"><span>
+                                                          Dear Daniel,<br>
+                                                          <br>
+                                                          Thank you for
+                                                          your results.
+                                                          Your
+                                                          calculations
+                                                          based on the
+                                                          RHF and UHF
+                                                          give  very
+                                                          similar NO
+                                                          occupations.
+                                                          We should
+                                                          compare the
+                                                          results in
+                                                          more detail.
+                                                          In our Table 5
+                                                          we give the NO
+                                                          occupations of
+                                                          the UHF
+                                                          density. They
+                                                          are close to
+                                                          single
+                                                          occupation (4:
+                                                          HONO 1.234,
+                                                          LUNO 0.766).
+                                                          This should be
+                                                          the starting
+                                                          occupations
+                                                          for your CCSD
+                                                          calculations.
+                                                          Could you
+                                                          please compare
+                                                          this with your
+                                                          UHF results?
+                                                          Also, we
+                                                          should compare
+                                                          the character
+                                                          of the
+                                                          instability,
+                                                          for which
+                                                          orbitals does
+                                                          it occur. We
+                                                          should also
+                                                          compare the
+                                                          total SCF
+                                                          energies
+                                                          (restricted
+                                                          and
+                                                          unrestricted).<br>
+                                                          Anita, could
+                                                          you please
+                                                          collect our
+                                                          results in
+                                                          more detail?<br>
+                                                          <br>
+                                                          Best regards,
+                                                          Hans<span><br>
+                                                          <br>
+                                                          On 7/26/2015
+                                                          8:25 PM, T.
+                                                          Daniel
+                                                          Crawford
+                                                          wrote: </span>
+                                                          </span>
+                                                          <blockquote
+                                                          type="cite"><span>
+                                                          <div dir="ltr">Dear
+
+                                                          Hans,
+                                                          <div><br>
+                                                          </div>
+                                                          <span>
+                                                          <div>We do
+                                                          agree that
+                                                          structure 4 is
+                                                          a strong
+                                                          example. AJ
+                                                          has recomputed
+                                                          the CCSD
+                                                          natural
+                                                          orbitals for
+                                                          both 4 and 7,
+                                                          including
+                                                          following the
+                                                          totally
+                                                          symmetric UHF
+                                                          orbital
+                                                          instabilities
+                                                          to the
+                                                          spin-polarized
+                                                          orbitals. 
+                                                          However, the
+                                                          occupation
+                                                          numbers still
+                                                          do not reveal
+                                                          substantial
+                                                          polyradical
+                                                          character. 
+                                                          See the
+                                                          attached
+                                                          report from AJ
+                                                          for some
+                                                          details.  </div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>-TDC</div>
+                                                          </span></div>
+                                                          </span>
+                                                          <div
+                                                          class="gmail_extra"><span><span><br
+                                                          clear="all">
+                                                          <div>
+                                                          <div>
+                                                          <div dir="ltr">--
+
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          <div><a
+                                                          href="mailto:crawdad@vt.edu"
+target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          <br>
+                                                          </span> </span>
+                                                          <div
+                                                          class="gmail_quote"><span><span>On
+
+                                                          Sun, Jun 28,
+                                                          2015 at 3:53
+                                                          PM, Hans
+                                                          Lischka <span
+                                                          dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                          wrote:<br>
+                                                          </span> </span>
+                                                          <blockquote
+                                                          class="gmail_quote"
+                                                          style="margin:0
+                                                          0 0
+                                                          .8ex;border-left:1px
+                                                          #ccc
+                                                          solid;padding-left:1ex">
+                                                          <div
+                                                          bgcolor="#FFFFFF"
+                                                          text="#000000"><span><span>
+                                                          Dear Daniel,<br>
+                                                          <br>
+                                                          Thank you very
+                                                          much for your
+                                                          e-mail. We are
+                                                          looking
+                                                          forward to
+                                                          your results.
+                                                          The most
+                                                          important
+                                                          question from
+                                                          my point of
+                                                          view is
+                                                          whether the
+                                                          restricted or
+                                                          the
+                                                          unrestricted
+                                                          approach is
+                                                          the
+                                                          appropriate
+                                                          one (see my
+                                                          previous
+                                                          e-mail). I
+                                                          think we
+                                                          should
+                                                          concentrate on
+                                                          that question
+                                                          first of all,
+                                                          taking the
+                                                          heptazethrene
+                                                          (str. 4) as
+                                                          example.
+                                                          According to
+                                                          your
+                                                          restricted
+                                                          calculations
+                                                          one gets a
+                                                          closed shell
+                                                          state, but our
+                                                          multireference
+                                                          calculations
+                                                          and also the
+                                                          UHF density
+                                                          shows the
+                                                          opposite. What
+                                                          do you think?<br>
+                                                          <br>
+                                                          Best regards,
+                                                          Hans </span>
+                                                          </span>
+                                                          <div>
+                                                          <div><span><span><br>
+                                                          <br>
+                                                          On 6/26/2015
+                                                          10:42 PM, T.
+                                                          Daniel
+                                                          Crawford
+                                                          wrote: </span>
+                                                          </span>
+                                                          <blockquote
+                                                          type="cite"><span><span>
+                                                          <div dir="ltr">Dear
+
+                                                          Hans,
+                                                          <div><br>
+                                                          </div>
+                                                          <div>I want to
+                                                          apologize for
+                                                          the delay in
+                                                          our response. 
+                                                          AJ and I have
+                                                          been dealing
+                                                          with a pair of
+                                                          summer schools
+                                                          – one focused
+                                                          on
+                                                          computational
+                                                          chemistry
+                                                          software
+                                                          development,
+                                                          the other on
+                                                          molecular
+                                                          response
+                                                          properties –
+                                                          that started
+                                                          this past week
+                                                          and will
+                                                          continue
+                                                          through next
+                                                          week.  I'm the
+                                                          host and an
+                                                          instructor in
+                                                          both schools,
+                                                          and AJ has
+                                                          been
+                                                          invaluable as
+                                                          the primary
+                                                          organizer. 
+                                                          Unfortunately,
+                                                          the schools
+                                                          have pulled us
+                                                          both away from
+                                                          dealing with
+                                                          the
+                                                          polyradical
+                                                          project.  AJ
+                                                          has continued
+                                                          his
+                                                          computations,
+                                                          but we haven't
+                                                          been able to
+                                                          get together
+                                                          to go through
+                                                          his results
+                                                          and provide
+                                                          you with a
+                                                          proper
+                                                          response.  I
+                                                          promise that
+                                                          we will get
+                                                          back to you
+                                                          and Anita as
+                                                          soon as
+                                                          possible.</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Thanks
+                                                          for your
+                                                          patience!</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Best
+                                                          regards,</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>-Daniel</div>
+                                                          </div>
+                                                          </span> </span>
+                                                          <div
+                                                          class="gmail_extra"><span><br
+                                                          clear="all">
+                                                          <div>
+                                                          <div>
+                                                          <div dir="ltr"><span>--
+
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          </span>
+                                                          <div><a
+                                                          href="mailto:crawdad@vt.edu"
+target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          <br>
+                                                          </span><span>
+                                                          <div
+                                                          class="gmail_quote"><span>On
+
+
+                                                          Sat, Jun 13,
+                                                          2015 at 9:51
+                                                          PM, Hans
+                                                          Lischka <span
+                                                          dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                          wrote:<br>
+                                                          </span>
+                                                          <blockquote
+                                                          class="gmail_quote"
+                                                          style="margin:0
+                                                          0 0
+                                                          .8ex;border-left:1px
+                                                          #ccc
+                                                          solid;padding-left:1ex">
+                                                          <div
+                                                          bgcolor="#FFFFFF"
+                                                          text="#000000"><span>
+                                                          Dear Daniel,
+                                                          dear Andrew,<br>
+                                                          <br>
+                                                          Thank you for
+                                                          your e-mail
+                                                          and the data.<br>
+                                                          Concerning
+                                                          geometry
+                                                          differences:
+                                                          these are very
+                                                          small and come
+                                                          from the fact
+                                                          that Anita
+                                                          used Gaussian
+                                                          and Turbomole
+                                                          to verify the
+                                                          consistency of
+                                                          the results.
+                                                          She sent you
+                                                          the Gaussian
+                                                          optimized
+                                                          geometries but
+                                                          then followed
+                                                          up with
+                                                          Turbomole
+                                                          calculations.
+                                                          Finally, we
+                                                          decided to
+                                                          base all
+                                                          results on
+                                                          Turbomole and
+                                                          she changed
+                                                          the
+                                                          coordinates in
+                                                          the Supp. Mat.
+                                                          I am attaching
+                                                          her comments.
+                                                          You can see
+                                                          there that
+                                                          differences
+                                                          are negligible
+                                                          and you need
+                                                          not redo the
+                                                          calculations.<br>
+                                                          Concerning the
+                                                          question of
+                                                          the symmetry
+                                                          in the UDFT
+                                                          geometry
+                                                          optimizations
+                                                          for structures
+                                                          4-8. These
+                                                          were performed
+                                                          for the
+                                                          singlet ground
+                                                          states. The
+                                                          closed shell
+                                                          high-symmetry
+                                                          DFT solution
+                                                          is unstable.
+                                                          The spin
+                                                          unrestricted
+                                                          (U)DFT
+                                                          wavefunction
+                                                          is symmetry
+                                                          broken and has
+                                                          only Cs
+                                                          symmetry. You
+                                                          can see the
+                                                          orbitals  in
+                                                          Figs. 9S-13S
+                                                          of the Supp.
+                                                          Mat. The C2h
+                                                          in Fig. 10S
+                                                          should also
+                                                          read as Cs.
+                                                          Thus, the MOs
+                                                          have Cs
+                                                          symmetry, but
+                                                          alpha and beta
+                                                          orbitals are
+                                                          equivalent so
+                                                          that the
+                                                          structural
+                                                          symmetry is
+                                                          higher, C2h
+                                                          and D2h,
+                                                          respectively.
+                                                          Thus, the
+                                                          formulations
+                                                          should be
+                                                          correct.
+                                                          However, we
+                                                          will explain
+                                                          this in the
+                                                          text. See also
+                                                          Anita's
+                                                          comments
+                                                          attached.<br>
+                                                          I am also
+                                                          attaching a
+                                                          paper on
+                                                          oligoacenes
+                                                          where you see
+                                                          the same
+                                                          effect, the
+                                                          symmetry
+                                                          broken
+                                                          orbitals
+                                                          (Figure 2) and
+                                                          the higher
+                                                          symmetry of
+                                                          the geometry.<br>
+                                                          <br>
+                                                          Do you agree?<br>
+                                                          <br>
+                                                          Please see my
+                                                          follow-up
+                                                          e-mail on the
+                                                          symmetry
+                                                          breaking.<br>
+                                                          <br>
+                                                          Best regards,
+                                                          Hans </span>
+                                                          <div>
+                                                          <div><span><br>
+                                                          <br>
+                                                          On 6/12/2015
+                                                          1:35 PM, T.
+                                                          Daniel
+                                                          Crawford
+                                                          wrote: </span>
+                                                          <blockquote
+                                                          type="cite"><span>
+                                                          <div dir="ltr">Dear
+
+                                                          Hans,
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Attached
+                                                          is a brief
+                                                          summary of the
+                                                          data that AJ
+                                                          has collected
+                                                          so far.  There
+                                                          is some
+                                                          confusion
+                                                          about the
+                                                          geometries for
+                                                          structures
+                                                          1-3, as well
+                                                          as symmetries
+                                                          of 4-8.  If
+                                                          you and Anita
+                                                          could clarify
+                                                          these, we
+                                                          would be
+                                                          grateful. 
+                                                          Also, the data
+                                                          provided here
+                                                          are for
+                                                          frozen-core
+                                                          only, but AJ
+                                                          also has
+                                                          carried out
+                                                          calculations
+                                                          using reduced
+                                                          active spaces,
+                                                          as well. </div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>Best
+                                                          regards,</div>
+                                                          <div><br>
+                                                          </div>
+                                                          <div>-Daniel</div>
+                                                          </div>
+                                                          </span>
+                                                          <div
+                                                          class="gmail_extra"><br
+                                                          clear="all">
+                                                          <div>
+                                                          <div>
+                                                          <div dir="ltr"><span>--
+
+
+                                                          <div>Prof. T.
+                                                          Daniel
+                                                          Crawford</div>
+                                                          </span>
+                                                          <div><a
+                                                          href="mailto:crawdad@vt.edu"
+target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:crawdad@vt.edu">crawdad@vt.edu</a></a></div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          <span> <br>
+                                                          <div
+                                                          class="gmail_quote">On
+
+
+                                                          Sat, Jun 6,
+                                                          2015 at 5:50
+                                                          PM, Hans
+                                                          Lischka <span
+                                                          dir="ltr">&lt;<a
+href="mailto:hans.lischka@univie.ac.at" target="_blank"><a class="moz-txt-link-abbreviated" href="mailto:hans.lischka@univie.ac.at">hans.lischka@univie.ac.at</a></a>&gt;</span>
+                                                          wrote:<br>
+                                                          <blockquote
+                                                          class="gmail_quote"
+                                                          style="margin:0
+                                                          0 0
+                                                          .8ex;border-left:1px
+                                                          #ccc
+                                                          solid;padding-left:1ex">Dear
+
+
+
+                                                          Daniel,<br>
+                                                          <br>
+                                                          I am sending
+                                                          you our next
+                                                          version of our
+                                                          data. We
+                                                          included now
+                                                          also pi+sigma
+                                                          correlated
+                                                          calculations.
+                                                          Comparison
+                                                          with pi-only
+                                                          shows good
+                                                          agreement. If
+                                                          not other
+                                                          aspects show
+                                                          up we regards
+                                                          the
+                                                          calculations
+                                                          finished and
+                                                          Anita will
+                                                          concentrate on
+                                                          writing the
+                                                          text. Please
+                                                          have a look at
+                                                          our results
+                                                          and we might
+                                                          discuss how
+                                                          and what you
+                                                          can fit in
+                                                          with your
+                                                          coupled
+                                                          cluster
+                                                          calculations.
+                                                          I am looking
+                                                          forward to a
+                                                          comparison.<br>
+                                                          <br>
+                                                          Best regards,
+                                                          Hans<br>
+                                                          </blockquote>
+                                                          </div>
+                                                          <br>
+                                                          </span></div>
+                                                          </blockquote>
+                                                          <br>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </blockquote>
+                                                          </div>
+                                                          <br>
+                                                          </span></div>
+                                                          </blockquote>
+                                                          <br>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </blockquote>
+                                                          </div>
+                                                          <br>
+                                                          </div>
+                                                          </blockquote>
+                                                          <br>
+                                                          </div>
+                                                          </blockquote>
+                                                          </div>
+                                                          <br>
+                                                          </div>
+                                                          </blockquote>
+                                                          <br>
+                                                          </div>
+                                                          </blockquote>
+                                                        </div>
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </blockquote>
+                                          </div>
+                                          <br>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </blockquote>
+                                </div>
+                                <br>
+                                <br clear="all">
+                                <div><br>
+                                </div>
+                              </div>
+                            </div>
+                            <span><font color="#888888">-- <br>
+                                <div>
+                                  <div dir="ltr">
+                                    <div>
+                                      <div dir="ltr">
+                                        <div>
+                                          <div dir="ltr"><span
+                                              style="background-color:rgb(255,255,255)"><font
+                                                size="2" face="arial,
+                                                helvetica, sans-serif">Dr.
+                                                Anita Das <br>
+                                                c/o Dr. Hans Lischka</font></span></div>
+                                          <div dir="ltr"><span
+                                              style="background-color:rgb(255,255,255)"><font
+                                                size="2" face="arial,
+                                                helvetica, sans-serif"><span
+style="color:rgb(0,0,0);line-height:16px">Department of Chemistry and
+                                                  Biochemistry</span><br
+style="color:rgb(0,0,0);line-height:16px">
+                                                <span
+                                                  style="color:rgb(0,0,0);line-height:16px">Texas
+
+                                                  Tech University</span><br
+style="color:rgb(0,0,0);line-height:16px">
+                                                <span
+                                                  style="color:rgb(0,0,0);line-height:16px">Memorial
+
+                                                  Circle &amp; Boston</span><br
+style="color:rgb(0,0,0);line-height:16px">
+                                                <span
+                                                  style="color:rgb(0,0,0);line-height:16px">Lubbock,
+
+                                                  TX 79409-1061, USA</span></font></span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </font></span></div>
+                        </blockquote>
+                      </div>
+                      <br>
+                    </div>
+                  </blockquote>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------090308010505060009010609--
