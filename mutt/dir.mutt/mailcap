@@ -1,0 +1,25 @@
+# vim: ft=muttrc
+
+
+# MS Word Doccuments 
+#application/msword; ~/.mutt/view_attachment.sh %s "-" '/Applications/TextEdit.app'
+#defaults to preview so this is fine 
+
+# Images
+image/jpg; ~/.mutt/helpers/view_attachment.sh %s jpg
+image/jpeg; ~/.mutt/helpers/view_attachment.sh %s jpg
+image/pjpeg; ~/.mutt/helpers/view_attachment.sh %s jpg
+image/png; ~/.mutt/helpers/view_attachment.sh %s png
+image/gif; ~/.mutt/helpers/view_attachment.sh %s gif
+image/tiff; ~/.mutt/helpers/view_attachment.sh %s tiff
+
+#PDFs
+application/pdf; ~/.mutt/helpers/view_attachment.sh %s pdf
+
+# HTML
+text/html; ~/.mutt/helpers/view_attachment.sh %s html
+text/dat; ~/.mutt/helpers/view_attachment.sh %s text
+
+#Unidentified Files 
+application/octet-stream; ~/.mutt/helpers/view_attachment.sh %s "-"
+

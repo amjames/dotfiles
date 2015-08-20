@@ -1,0 +1,4 @@
+msmtp: TLS handshake failed: Connection reset by peer
+msmtp: could not send mail (account amjames2 from /Users/ajay/.msmtprc)
+msmtp: cannot log to /Users/ajay/.mutt/logs/msmtp.log: cannot open: No such file or directory
+msmtp: log info was: host=smtp.gmail.com tls=on auth=on user=amjames2@vt.edu from=amjames2@vt.edu recipients=cduchane@vt.edu errormsg='TLS handshake failed: Connection reset by peer' exitcode=EX_IOERR
