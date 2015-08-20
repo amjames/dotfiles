@@ -1,0 +1,17 @@
+defaults
+tls on
+logfile ~/.mutt/logs/msmtp.log
+
+#VT gmail address 
+account amjames2
+host smtp.gmail.com
+port 587
+protocol smtp
+auth on
+from amjames2@vt.edu
+user amjames2@vt.edu
+tls on
+tls_starttls on
+tls_trust_file ~/.mutt/certificates
+
+account default : amjames2

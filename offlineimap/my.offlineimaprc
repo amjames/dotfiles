@@ -1,0 +1,47 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# get started fast.
+
+[general]
+ui = TTYUI
+accounts=amjames2
+pythonfile=~/.mutt/offlineimap.py
+fsync = False
+
+[Account amjames2]
+localrepository = amjames2-Local
+remoterepository = amjames2-Remote
+status_backend=sqlite
+
+[Repository amjames2-Local]
+type = Maildir
+localfolders = ~/.mutt/mail/amjames2.vt.edu
+nametrans = lambda folder: {'drafts': '[Gmail]/Drafts',
+                            'sent':   '[Gmail]/Sent Mail',
+                            'flagged':'[Gmail]/Starred',
+                            'trash':  '[Gmail]/Trash',
+                            'archive':'[Gmail]/All Mail',
+                            'Projects.polyradicals':'Projects/polyradicals',
+                            'Saved.crawdad':'Saved/crawdad',
+                            'Saved.department':'Saved/department'
+                            }.get(folder,folder)
+
+[Repository amjames2-Remote]
+maxconnections = 1 
+type = Gmail
+remoteuser = amjames2@vt.edu
+remotepasseval = get_keychain_pass(account="amjames2@vt.edu",server="imap.gmail.com")
+sslcacertfile = /usr/local/etc/openssl/cert.pem
+realdelete = no
+nametrans = lambda folder:{ '[Gmail]/Drafts':    'drafts',
+                            '[Gmail]/Sent Mail': 'sent',
+                            '[Gmail]/Starred':   'flagged',
+                            '[Gmail]/All Mail':  'archive',
+                            'Projects/polyradicals':'Projects.polyradicals',
+                            'Saved/crawdad':'Saved.crawdad',
+                            'Saved/department':'Saved.department',
+                            }.get(folder, folder)
+folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
+                                             '[Gmail]/Important',
+                                             '[Gmail]/Spam',
+                                             '[Gmail]/Chats',
+                                             ]
