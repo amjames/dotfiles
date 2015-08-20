@@ -23,5 +23,10 @@ on!
 -used in conduction with mutt to get new email from gmail's IMAP servers 
 
 
+##dotfileshelper
+-python script that puts all of the stuff where it needs to be 
+(If I make edits here I run the script to deploy them, or if 
+I pull the repo to a new system then the script will deploy that.)
+
 
 
