@@ -12,6 +12,6 @@ from amjames2@vt.edu
 user amjames2@vt.edu
 tls on
 tls_starttls on
-tls_trust_file ~/.mutt/certificates
+tls_trust_file /etc/ssl/certs/ca-certificates.pem
 
 account default : amjames2
