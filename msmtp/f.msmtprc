@@ -12,6 +12,6 @@ from amjames2@vt.edu
 user amjames2@vt.edu
 tls on
 tls_starttls on
-tls_trust_file /etc/ssl/certs/ca-certificates.pem
+tls_trust_file /usr/local/etc/openssl/cert.pem
 
 account default : amjames2
