@@ -1,8 +1,8 @@
 mutt/dir.mutt/mail
 mutt/dir.mutt/*
 mutt/dir.mutt/offlineimap.pyc
-mutt/dir.mutt/drafts
 offlineimap/dir.offlineimap/Account-amjames2/LocalStatus-sqlite/INBOX
 offlineimap/dir.offlineimap/Account-amjames2/LocalStatus-sqlite/archive
 offlineimap/dir.offlineimap/Account-amjames2/LocalStatus-sqlite/sent
+offlineimap/dir.offlineimap/Account-amjames2/LocalStatus-sqlite/drafts
 offlineimap/dir.offlineimap/pid
