@@ -1,0 +1,31 @@
+#! /bin/bash
+#example = /path/to/vault/dir/
+# ex 2  = /path/to/vault/dir/f.gametimerc
+#everything between last two  
+
+
+
+echo $HOME
+
+if [[ -e $1 ]]; then 
+    if [[ -d $1 ]]; then #example 1 
+        path=${1%/}
+        dir=${path##*/}
+        if [[ -f "$path/f.${dir}rc" ||  "$path/f.${dir}" ]]; then 
+            echo "ln -s ${path}/f.${dir}rc ${HOME}/.${dir}rc"
+        fi
+        if [[ -d "$path/dir.${dir}" ]]; then 
+            echo "ln -s ${path}/dir.${dir} ${HOME}/.${dir}"
+        fi
+    elif [[ -f $1 ]]; then 
+        path=${1%/*}
+        filename=${1##*/}
+        filebase=${filename#f.}
+        echo "ln -s ${1} ${HOME}/.${filebase}"
+    fi
+else 
+    echo "not a valid path"
+    exit 1
+fi
+
+       
