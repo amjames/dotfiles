@@ -59,6 +59,6 @@ alias mpipsi='/home/akumar1/installed/parallel_psi4/bin/psi4'
 #echo " " 
 #echo " " 
 if [[ $- == *i* ]]; then
-    updatercs;
+    qstatme;
 fi    
 
