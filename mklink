@@ -12,13 +12,13 @@ if [[ -e $1 ]]; then
         dir=${path##*/}
         if [[ -f "$path/f.${dir}rc" ]]; then 
             tgt=${HOME}/.${dir}rc
-            if [[ -e $tgt ]]; then 
+            if [[ -L $tgt ]]; then 
                 rm $tgt
             fi
             ln -s ~/Vault/dotfiles/${path}/f.${dir}rc $tgt
 	    elif [[ -f  "$path/f.${dir}" ]]; then
 	    tgt=${HOME}/.${dir}
-	        if [[ -e $tgt ]]; then
+	        if [[ -L $tgt ]]; then
 		        rm $tgt
 	        fi
             ln -s ~/Vault/dotfiles/${path}/f.${dir} $tgt
@@ -31,7 +31,7 @@ if [[ -e $1 ]]; then
             echo ln -s ~/Vault/dotfiles/${file} $tgt
         elif [[ -d "$path/dir.${dir}" ]]; then 
             tgt=${HOME}/.${dir}
-            if [[ -e $tgt ]]; then 
+            if [[ -L $tgt ]]; then 
                 rm $tgt
             fi
             ln -s ~/Vault/dotfiles/${path}/dir.${dir} $tgt
@@ -41,7 +41,7 @@ if [[ -e $1 ]]; then
         filename=${1##*/}
         filebase=${filename#f.}
         tgt=${HOME}/.${filebase}
-        if [[ -e $tgt ]]; then 
+        if [[ -L $tgt ]]; then 
             rm $tgt
         fi
         ln -s ~/Vault/dotfiles/${1}  $tgt
