@@ -16,14 +16,20 @@ if [[ -e $1 ]]; then
                 rm $tgt
             fi
             ln -s ~/Vault/dotfiles/${path}/f.${dir}rc $tgt
-	elif [[ -f  "$path/f.${dir}" ]]; then
+	    elif [[ -f  "$path/f.${dir}" ]]; then
 	    tgt=${HOME}/.${dir}
-	    if [[ -e $tgt ]]; then
-		rm $tgt
-	    fi
+	        if [[ -e $tgt ]]; then
+		        rm $tgt
+	        fi
             ln -s ~/Vault/dotfiles/${path}/f.${dir} $tgt
-        fi
-        if [[ -d "$path/dir.${dir}" ]]; then 
+	    elif [[ -f  "$path/f.${dir}*" ]]; then
+            file=${dir}/f.${dir}*
+            tgt=${HOME}/.$file
+            if [[ -e $tgt ]];then
+                rm $tgt 
+            fi
+            echo ln -s ~/Vault/dotfiles/${file} $tgt
+        elif [[ -d "$path/dir.${dir}" ]]; then 
             tgt=${HOME}/.${dir}
             if [[ -e $tgt ]]; then 
                 rm $tgt
