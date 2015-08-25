@@ -5,23 +5,40 @@
 
 
 
-echo $HOME
 
 if [[ -e $1 ]]; then 
     if [[ -d $1 ]]; then #example 1 
         path=${1%/}
         dir=${path##*/}
-        if [[ -f "$path/f.${dir}rc" ||  "$path/f.${dir}" ]]; then 
-            echo "ln -s ${path}/f.${dir}rc ${HOME}/.${dir}rc"
+        if [[ -f "$path/f.${dir}rc" ]]; then 
+            tgt=${HOME}/.${dir}rc
+            if [[ -e $tgt ]]; then 
+                rm $tgt
+            fi
+            ln -s ~/Vault/dotfiles/${path}/f.${dir}rc $tgt
+	elif [[ -f  "$path/f.${dir}" ]]; then
+	    tgt=${HOME}/.${dir}
+	    if [[ -e $tgt ]]; then
+		rm $tgt
+	    fi
+            ln -s ~/Vault/dotfiles/${path}/f.${dir} $tgt
         fi
         if [[ -d "$path/dir.${dir}" ]]; then 
-            echo "ln -s ${path}/dir.${dir} ${HOME}/.${dir}"
+            tgt=${HOME}/.${dir}
+            if [[ -e $tgt ]]; then 
+                rm $tgt
+            fi
+            ln -s ~/Vault/dotfiles/${path}/dir.${dir} $tgt
         fi
     elif [[ -f $1 ]]; then 
         path=${1%/*}
         filename=${1##*/}
         filebase=${filename#f.}
-        echo "ln -s ${1} ${HOME}/.${filebase}"
+        tgt=${HOME}/.${filebase}
+        if [[ -e $tgt ]]; then 
+            rm $tgt
+        fi
+        ln -s ~/Vault/dotfiles/${1}  $tgt
     fi
 else 
     echo "not a valid path"
