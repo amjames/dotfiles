@@ -1,0 +1,11 @@
+[user]
+	name = Andrew James 
+	email = amjames2@vt.edu
+[push]
+	default = tracking
+[color]
+	ui = on
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
