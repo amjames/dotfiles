@@ -67,6 +67,7 @@ alias blue 'ssh amjames2@blueridge1.arc.vt.edu'
 alias river 'ssh amjames2@newriver1.arc.vt.edu'
 alias s2i2 'ssh crawdad@login.wmd-lab.org'
 alias sirius 'ssh ajay@sirius.chem.vt.edu'
+alias pip 'sudo pip'
 
 
 alias firefox '/Applications/Firefox.app/Contents/MacOS/firefox &'
