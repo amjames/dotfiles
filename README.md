@@ -20,7 +20,7 @@ on!
 -various setup/config files for the mutt mail client.
 
 ##oflineimap
--used in conduction with mutt to get new email from gmail's IMAP servers 
+-used in conjunction with mutt to get new email from gmail's IMAP servers 
 
 
 
