@@ -64,8 +64,12 @@ alias csv2plot 'python ~/src/pyscript/plot_rots.py'
 # Other computers
 alias cer 'ssh ajay@cerebro.chem.vt.edu'
 alias blue 'ssh amjames2@blueridge1.arc.vt.edu'
+alias river 'ssh amjames2@newriver1.arc.vt.edu'
 alias s2i2 'ssh crawdad@login.wmd-lab.org'
 alias sirius 'ssh ajay@sirius.chem.vt.edu'
+
+
+alias firefox '/Applications/Firefox.app/Contents/MacOS/firefox &'
 
 
 

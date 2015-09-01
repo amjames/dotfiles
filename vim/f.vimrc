@@ -41,7 +41,6 @@ let g:Powerline_symbols = 'unicode'
 "" Tab stuff"
 set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
 syntax on
-filetype plugin indent on
 ""esc is now jk 
 inoremap ii      <esc> 
 inoremap <esc>   <nop>
@@ -55,21 +54,21 @@ noremap  <Down>  <nop>
 noremap  <Left>  <nop>
 noremap  <Right> <nop>
 
-map - dd p 
-map _ dd k P
 highlight ColorColumn ctermbg=cyan ctermfg=red cterm=bold term=bold
-""Hilight column 80 if cc exitis
-if exists('+colorcolumn')
-    set colorcolumn=80 
-else "" if not use the hard way 
-    au BufWinEnter * let w:m2=matchadd('ColorColumn', '\%>80v.\+', -1)
-endif
+""""Hilight column 80 if cc exitis
+""if exists('+colorcolumn')
+""    set colorcolumn=80 
+""else "" if not use the hard way 
+""    au BufWinEnter * let w:m2=matchadd('ColorColumn', '\%>80v.\+', -1)
+""endif
+let testcc=0
 function LineLengthGuidesON()
     if exists('+colorcolumn')
         set colorcolumn=80
     else 
         w:m2=matchadd('ColorColumn', '\%>80v.\+',-1)
     endif
+    let testcc=1
 endfunction
 function LineLengthGuidesOFF()
     if exists('+colorcolumn')
@@ -77,8 +76,25 @@ function LineLengthGuidesOFF()
     else
         call matchdelete(w:m2)
     endif
+    let testcc=0
+endfunction
+function ToggleLineLength()
+    if g:testcc
+        call LineLengthGuidesOFF()
+        let g:testcc=0
+    else
+        call LineLengthGuidesON()
+        let g:testcc=1
+    endif
 endfunction
 
+    
+    
+    
+let mapleader = "|"
+nmap <leader>g :call ToggleLineLength()<CR>
+
+filetype plugin indent on
 
 
 
