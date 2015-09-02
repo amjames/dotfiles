@@ -1,0 +1,10 @@
+#! /bin/bash
+
+module purge
+module load gcc
+module load mkl
+module load python
+module load mvapich2
+module load boost/1_57_0
+
+module list 
