@@ -26,6 +26,7 @@ PATH=/home/amjames2/installed/mpi_psi/bin:$PATH
 # scripts and such 
 PATH=/home/amjames2/bin:$PATH
 PATH=/home/amjames2/scripts/exe:$PATH
+PATH=/home/amjames2/local/bin:$PATH
 
 
 PYTHONPATH=/home/amjames2/installed/Python-Modules:$PYTHONPATH
