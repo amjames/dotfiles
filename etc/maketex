@@ -1,0 +1,45 @@
+#! /bin/bash
+if [[ -z $1 ]]; then
+    echo "usage maketex <SOURCEtexfile|clean>"
+    echo "clean will clean up your aux files " 
+    exit;
+
+elif [[ $1 == "clean" ]]; then
+    for file in `ls`; do
+        ext=${file##*.}       
+        if [ "$ext" == "tex" ] || [ "$ext" == "pdf" ] || [ "$ext" == "tsf" ]; then
+            echo "not deleting $file"
+        else
+            rm $file
+        fi
+    done;
+    exit;
+elif [ $1 == "main.tex"] || [ $(head -n 1 ${1}) == "%tex-main" ]; then
+    # if the file is called main run
+    # if the file has %tex-main as first line run
+    base=${1%.*}
+    echo $base
+    pdflatex $base
+    bibtex $base
+    pdflatex $base 
+    pdflatex $base 
+    open ${base}.pdf
+    exit;
+else
+    # if the file has another file on its first line run
+    # if the  first line is blank then exit
+    line=`head -n 1 ${1}`
+    lead='*%'
+    tmp=${line##$lead}
+    tag=${tmp%.tex}
+    if [ -f $tag ]; then
+        echo $tag
+        pdflatex $tag
+        bibtex $tag
+        pdflatex $tag
+        padlatex $tag
+        open ${tag}.pdf
+        exit;
+    fi
+fi
+
