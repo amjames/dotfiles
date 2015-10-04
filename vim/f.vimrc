@@ -81,6 +81,17 @@ function ToggleLineLength()
     endif
 endfunction
 
+function ToggleSpell()
+    if &spell
+        set nospell
+        echo "spell check off"
+    else
+        echo"spell check on "
+        set spell
+    endif
+endfunction
+
+
     
     
     
