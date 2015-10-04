@@ -54,42 +54,42 @@ noremap  <Left>  <nop>
 noremap  <Right> <nop>
 
 highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
-let testcc=0
-function LineLengthGuidesON()
-    if exists('+colorcolumn')
-        set colorcolumn=80
-    else 
-        w:m2=matchadd('ColorColumn', '\%>80v.\+',-1)
-    endif
-    let testcc=1
-endfunction
-function LineLengthGuidesOFF()
-    if exists('+colorcolumn')
-        set colorcolumn=0
-    else
-        call matchdelete(w:m2)
-    endif
-    let testcc=0
-endfunction
-function ToggleLineLength()
-    if g:testcc
-        call LineLengthGuidesOFF()
-        let g:testcc=0
-    else
-        call LineLengthGuidesON()
-        let g:testcc=1
-    endif
-endfunction
-
-function ToggleSpell()
-    if &spell
-        set nospell
-        echo "spell check off"
-    else
-        echo"spell check on "
-        set spell
-    endif
-endfunction
+"let testcc=0
+"function LineLengthGuidesON()
+"    if exists('+colorcolumn')
+"        set colorcolumn=80
+"    else 
+"        w:m2=matchadd('ColorColumn', '\%>80v.\+',-1)
+"    endif
+"    let testcc=1
+"endfunction
+"function LineLengthGuidesOFF()
+"    if exists('+colorcolumn')
+"        set colorcolumn=0
+"    else
+"        call matchdelete(w:m2)
+"    endif
+"    let testcc=0
+"endfunction
+"function ToggleLineLength()
+"    if g:testcc
+"        call LineLengthGuidesOFF()
+"        let g:testcc=0
+"    else
+"        call LineLengthGuidesON()
+"        let g:testcc=1
+"    endif
+"endfunction
+"
+"function ToggleSpell()
+"    if &spell
+"        set nospell
+"        echo "spell check off"
+"    else
+"        echo"spell check on "
+"        set spell
+"    endif
+"endfunction
 
 
     
