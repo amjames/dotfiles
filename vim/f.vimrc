@@ -42,7 +42,7 @@ let g:Powerline_symbols = 'unicode'
 set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
 syntax on
 ""esc is now jk 
-inoremap ii      <esc> 
+inoremap jk      <esc> 
 inoremap <esc>   <nop>
 ""No arrow keys 
 inoremap <Up>    <nop>
@@ -87,6 +87,17 @@ function ToggleLineLength()
         let g:testcc=1
     endif
 endfunction
+
+function ToggleSpell()
+    if &spell
+        set nospell
+        echo "spell check off"
+    else
+        echo"spell check on "
+        set spell
+    endif
+endfunction
+
 
     
     
