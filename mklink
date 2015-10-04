@@ -48,6 +48,7 @@ if [[ -e $1 ]]; then
     fi
 else 
     echo "not a valid path"
+    echo "Usage ..." 
     exit 1
 fi
 
