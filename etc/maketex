@@ -14,7 +14,7 @@ elif [[ $1 == "clean" ]]; then
         fi
     done;
     exit;
-elif [ $1 == "main.tex"] || [ $(head -n 1 ${1}) == "%tex-main" ]; then
+elif [[ $1 == "main.tex" ]] || [[ $(head -n 1 ${1}) == "%tex-main" ]]; then
     # if the file is called main run
     # if the file has %tex-main as first line run
     base=${1%.*}
@@ -23,7 +23,9 @@ elif [ $1 == "main.tex"] || [ $(head -n 1 ${1}) == "%tex-main" ]; then
     bibtex $base
     pdflatex $base 
     pdflatex $base 
-    open ${base}.pdf
+    if [[ $2 == "u" ]] || [[ $OSTYPE != "linux-gnu" ]];then
+        open ${base}.pdf
+    fi
     exit;
 else
     # if the file has another file on its first line run
@@ -32,13 +34,15 @@ else
     lead='*%'
     tmp=${line##$lead}
     tag=${tmp%.tex}
-    if [ -f $tag ]; then
+    if [[ -f $tmp ]]; then
         echo $tag
         pdflatex $tag
         bibtex $tag
         pdflatex $tag
-        padlatex $tag
-        open ${tag}.pdf
+        pdflatex $tag
+        if [[ $2 == 'u'  ]] || [[ $OSTYPE != 'linux-gnu' ]];then
+            open ${tag}.pdf
+        fi
         exit;
     fi
 fi

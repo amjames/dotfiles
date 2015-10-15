@@ -23,7 +23,11 @@
 "" "
 "" " see :h vundle for more details or wiki for FAQ
 "" " Put your non-Plugin stuff after this line
-
+"" For gvim 
+if has("gui_running")
+    set guifont=Liberation\ Mono\ 12
+    colorscheme candy
+endif
 
 
 
@@ -54,6 +58,7 @@ noremap  <Left>  <nop>
 noremap  <Right> <nop>
 
 highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
+
 "let testcc=0
 "function LineLengthGuidesON()
 "    if exists('+colorcolumn')
@@ -96,7 +101,7 @@ highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
     
     
 let mapleader = "|"
-nmap <leader>g :call ToggleLineLength()<CR>
+nmap <leader>g :call all#ToggleLineLength()<CR>
 
 filetype plugin indent on
 
