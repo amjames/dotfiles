@@ -31,9 +31,13 @@ else
     # if the file has another file on its first line run
     # if the  first line is blank then exit
     line=`head -n 1 ${1}`
+    echo $line
     lead='*%'
+    echo $lead
     tmp=${line##$lead}
+    echo $tmp
     tag=${tmp%.tex}
+    echo $tag
     if [[ -f $tmp ]]; then
         echo $tag
         pdflatex $tag
