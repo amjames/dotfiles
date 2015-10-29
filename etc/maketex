@@ -14,7 +14,7 @@ elif [[ $1 == "clean" ]]; then
         fi
     done;
     exit;
-elif [ $1 == "main.tex"] || [ $(head -n 1 ${1}) == "%tex-main" ]; then
+elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     # if the file is called main run
     # if the file has %tex-main as first line run
     base=${1%.*}
@@ -23,23 +23,26 @@ elif [ $1 == "main.tex"] || [ $(head -n 1 ${1}) == "%tex-main" ]; then
     bibtex $base
     pdflatex $base 
     pdflatex $base 
-    open ${base}.pdf
-    exit;
 else
     # if the file has another file on its first line run
     # if the  first line is blank then exit
     line=`head -n 1 ${1}`
-    lead='*%'
-    tmp=${line##$lead}
+    echo $line
+    lead='%'
+    tmp=${line#$lead}
+    echo $tmp
     tag=${tmp%.tex}
-    if [ -f $tag ]; then
+    echo $tag
+    if [ -e $tmp ]; then
         echo $tag
         pdflatex $tag
         bibtex $tag
         pdflatex $tag
-        padlatex $tag
-        open ${tag}.pdf
+        pdflatex $tag
+    else
+        echo "error"
         exit;
     fi
 fi
+
 

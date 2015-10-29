@@ -41,7 +41,7 @@ let g:Powerline_symbols = 'unicode'
 set tabstop=4 softtabstop=2 expandtab shiftwidth=4 smarttab
 syntax on
 ""esc is now jk 
-inoremap jk      <esc> 
+inoremap jk      <esc>
 inoremap <esc>   <nop>
 ""No arrow keys 
 inoremap <Up>    <nop>
@@ -52,7 +52,7 @@ noremap  <Up>    <nop>
 noremap  <Down>  <nop>
 noremap  <Left>  <nop>
 noremap  <Right> <nop>
-
+let g:tex_flavor = "latex"
 highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
 "let testcc=0
 "function LineLengthGuidesON()
@@ -96,7 +96,7 @@ highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
     
     
 let mapleader = "|"
-nmap <leader>g :call ToggleLineLength()<CR>
+nmap <leader>g :call all#ToggleLineLength()<CR>
 
 filetype plugin indent on
 

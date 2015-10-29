@@ -48,8 +48,8 @@ alias dls 'ls -dGF */'
 alias vi 'vim'
 
 #g09 shortcuts 
-alias gvio 'vi output.log'
-alias gvii 'vi input.com'
+#alias gvio 'vi output.log'
+#alias gvii 'vi input.com'
 #psi shortcuts 
 alias vio 'vi output.dat'
 alias vii 'vi input.dat'
