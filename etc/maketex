@@ -14,6 +14,7 @@ elif [[ $1 == "clean" ]]; then
         fi
     done;
     exit;
+<<<<<<< HEAD
 elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     # if the file is called main run
     # if the file has %tex-main as first line run
@@ -23,11 +24,16 @@ elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     bibtex $base
     pdflatex $base 
     pdflatex $base 
+    if [[ $2 == "u" ]] || [[ $OSTYPE != "linux-gnu" ]];then
+        open ${base}.pdf
+    fi
+    exit;
 else
     # if the file has another file on its first line run
     # if the  first line is blank then exit
     line=`head -n 1 ${1}`
     echo $line
+<<<<<<< HEAD
     lead='%'
     tmp=${line#$lead}
     echo $tmp
@@ -41,6 +47,9 @@ else
         pdflatex $tag
     else
         echo "error"
+        if [[ $2 == 'u'  ]] || [[ $OSTYPE != 'linux-gnu' ]];then
+            open ${tag}.pdf
+        fi
         exit;
     fi
 fi
