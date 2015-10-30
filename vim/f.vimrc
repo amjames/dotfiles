@@ -55,6 +55,7 @@ noremap  <Up>    <nop>
 noremap  <Down>  <nop>
 noremap  <Left>  <nop>
 noremap  <Right> <nop>
+
 let g:tex_flavor = "latex"
 highlight ColorColumn ctermbg=red ctermfg=red cterm=bold term=bold
 

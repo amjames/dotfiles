@@ -14,7 +14,6 @@ elif [[ $1 == "clean" ]]; then
         fi
     done;
     exit;
-<<<<<<< HEAD
 elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     # if the file is called main run
     # if the file has %tex-main as first line run
@@ -33,7 +32,6 @@ else
     # if the  first line is blank then exit
     line=`head -n 1 ${1}`
     echo $line
-<<<<<<< HEAD
     lead='%'
     tmp=${line#$lead}
     echo $tmp

@@ -3,53 +3,66 @@
 # ex 2  = /path/to/vault/dir/f.gametimerc
 #everything between last two  
 
+#$DOTPATH=/home/ajay/Gits/dotfiles
+#
+#
+#if [[ -e $1 ]]; then 
+#    if [[ -d $1 ]]; then #example 1 
+#        path=${1%/}
+#        dir=${path##*/}
+#        if [[ -f "$path/f.${dir}rc" ]]; then 
+#            tgt=${HOME}/.${dir}rc
+#            if [[ -L $tgt ]]; then 
+#                rm $tgt
+#            fi
+#            ln -s $DOTPATH/${path}/f.${dir}rc $tgt
+#	    elif [[ -f  "$path/f.${dir}" ]]; then
+#	    tgt=${HOME}/.${dir}
+#	        if [[ -L $tgt ]]; then
+#		        rm $tgt
+#	        fi
+#            ln -s ~/Vault/dotfiles/${path}/f.${dir} $tgt
+#	    elif [[ -f  "$path/f.${dir}*" ]]; then
+#            file=${dir}/f.${dir}*
+#            tgt=${HOME}/.$file
+#            if [[ -e $tgt ]];then
+#                rm $tgt 
+#            fi
+#            echo ln -s ~/Vault/dotfiles/${file} $tgt
+#        elif [[ -d "$path/dir.${dir}" ]]; then 
+#            tgt=${HOME}/.${dir}
+#            if [[ -L $tgt ]]; then 
+#                rm $tgt
+#            fi
+#            ln -s ~/Vault/dotfiles/${path}/dir.${dir} $tgt
+#        fi
+#    elif [[ -f $1 ]]; then 
+#        path=${1%/*}
+#        filename=${1##*/}
+#        filebase=${filename#f.}
+#        tgt=${HOME}/.${filebase}
+#        if [[ -L $tgt ]]; then 
+#            rm $tgt
+#        fi
+#        ln -s ~/Vault/dotfiles/${1}  $tgt
+#    fi
+#else 
+#    echo "not a valid path"
+#    echo "Usage ..." 
+#    exit 1
+#fi
+#
+#       
+FILE=$1
+LINK=$2
 
-
-
-if [[ -e $1 ]]; then 
-    if [[ -d $1 ]]; then #example 1 
-        path=${1%/}
-        dir=${path##*/}
-        if [[ -f "$path/f.${dir}rc" ]]; then 
-            tgt=${HOME}/.${dir}rc
-            if [[ -L $tgt ]]; then 
-                rm $tgt
-            fi
-            ln -s ~/Vault/dotfiles/${path}/f.${dir}rc $tgt
-	    elif [[ -f  "$path/f.${dir}" ]]; then
-	    tgt=${HOME}/.${dir}
-	        if [[ -L $tgt ]]; then
-		        rm $tgt
-	        fi
-            ln -s ~/Vault/dotfiles/${path}/f.${dir} $tgt
-	    elif [[ -f  "$path/f.${dir}*" ]]; then
-            file=${dir}/f.${dir}*
-            tgt=${HOME}/.$file
-            if [[ -e $tgt ]];then
-                rm $tgt 
-            fi
-            echo ln -s ~/Vault/dotfiles/${file} $tgt
-        elif [[ -d "$path/dir.${dir}" ]]; then 
-            tgt=${HOME}/.${dir}
-            if [[ -L $tgt ]]; then 
-                rm $tgt
-            fi
-            ln -s ~/Vault/dotfiles/${path}/dir.${dir} $tgt
-        fi
-    elif [[ -f $1 ]]; then 
-        path=${1%/*}
-        filename=${1##*/}
-        filebase=${filename#f.}
-        tgt=${HOME}/.${filebase}
-        if [[ -L $tgt ]]; then 
-            rm $tgt
-        fi
-        ln -s ~/Vault/dotfiles/${1}  $tgt
-    fi
-else 
-    echo "not a valid path"
-    echo "Usage ..." 
-    exit 1
+if [[ -e $FILE ]]; then
+	if [[ -L $LINK ]]; then
+		rm $LINK
+	fi
+	ln -s $FILE $LINK
 fi
+exit
 
-       
+	
+

@@ -1,7 +1,12 @@
+let os = subsitute(system('uname',"\n", "", ""))
 function latex#CompilePdf()
     echo "compiling ..."
     silent !clear
-    silent execute "!maketex " . expand("%:t")
+    if os == "Linux"
+        silent execute "!maketex " . expand("%:t") . " u"
+    else
+        silent execute "!maketex " . expand("%:t")
+    endif
     echo "Done!"
     redraw!
 endfunction

@@ -2,10 +2,9 @@
 # aliases
 #
 
-
-
-
 #aliases are helpful 
+alias vi='vim'
+alias ls='ls --color=always'
 alias qstatme='qstat -u "amjames2"'
 alias vii='vi input.dat'
 alias vio='vi output.dat'
@@ -17,4 +16,7 @@ alias ll='ls -l'
 alias sst='showstart'
 alias his='history'
 alias c='clear'
+
+
+
 
