@@ -12,6 +12,10 @@ SSH_ENV=$HOME/.ssh/environemnt
 
 #start the ssh agent
 
+if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
+    source  /usr/lib/bash-git-prompt/gitprompt.sh 
+fi
+
 function start_agent {
     echo "Initializing new ssh agent"
     # spawn ssh-agent
