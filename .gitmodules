@@ -1,0 +1,3 @@
+[submodule "vim"]
+	path = vim
+	url = git@github.com:amjames/spf13-vim.git
