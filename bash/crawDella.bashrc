@@ -1,5 +1,5 @@
 #
-# bashrc for HOTH
+# bashrc for crawDella
 #
 
 [[ $- != *i* ]] && return
