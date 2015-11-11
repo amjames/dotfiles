@@ -2,29 +2,18 @@
 *Andrew M. James*
 ---
 Essential Linux/Unix configuration files. I started most of this by shamlessly copying from someone, so feel free to shamelessly copy from me
-##cshrc
-- using the tcshell on my mac. 
 
-##basrc
-- bashrc file for any computers I may come across
+##Credits:
+- Vim stuff modified (very slightly) from [spf13-vim](https://github.com/spf13/spf13-vim)
+- ARCH bashrc file has ssh-agent management code from [this stackoverflow answer](http://stackoverflow.com/questions/18880024/start-ssh-agent-on-login)
+- most of the magic behind my bashrc (prompt, ect) is using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
 
-##vimrc
-- vim settings/binding/functions that I find handy, as well as plugins 
 
-##mutt
-- various setup/config files for the mutt mail client.
-
-##oflineimap
-- used in conjunction with mutt to get new email from gmail's IMAP servers 
-
-##mklink
-- Script that will make a symbolic link(s) to set up the target environment
-- f. and d. tags on files and directories just make life a little easier for the script and now all the .<whatever> files arent hidden 
-- _Usage_
-    mklink vim 
-    - makes a symbolic link in ~/ to f.vimrc and calls it ~/.vimrc 
-    - makes a symbolic link in ~/.vim to d.after and calls it ~/.vim/after
-
+###TO DO:
+[] bash setup script (in progress)
+[] login script that pulls changes
+[] logout script that pushes changes
+[] overall setup script
 
 
 
