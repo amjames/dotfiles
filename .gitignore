@@ -1,3 +1,5 @@
+juniper_networks/certs/*
+juniper_networks/network_connect/config/*
 mutt/dir.mutt/mail
 mutt/dir.mutt/*
 mutt/dir.mutt/offlineimap.pyc
