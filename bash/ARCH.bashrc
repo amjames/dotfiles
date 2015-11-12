@@ -1,5 +1,5 @@
 #
-# bashrc for crawDella
+# bashrc for Arch Computers
 #
 
 [[ $- != *i* ]] && return
