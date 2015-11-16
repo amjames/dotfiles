@@ -4,8 +4,11 @@
 
 [[ $- != *i* ]] && return
 
-
+# personal scripts 
 PATH=/home/ajay/.local/bin:$PATH
+# gem executables
+PATH=/home/ajay/.gem/ruby/2.2.0/bin:$PATH
+
 source ~/.alias
 
 SSH_ENV=$HOME/.ssh/environemnt
