@@ -11,3 +11,5 @@
 	required = true
 [alias]
     plog = log --oneline --graph --decorate
+[core]
+	editor = vim
