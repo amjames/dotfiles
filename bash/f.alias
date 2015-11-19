@@ -4,8 +4,14 @@
 
 #aliases are helpful 
 alias vi='vim'
-alias ls='ls --color=always'
-
+case $sysname in 
+    "Darwin"*)
+        alias ls='ls -G'
+        ;;
+    "Linux"*)
+        alias ls='ls --color=always'
+        ;;
+esac
 alias qstatme='qstat -u "amjames2"'
 alias vii='vi input.dat'
 alias vio='vi output.dat'

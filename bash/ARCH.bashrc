@@ -1,23 +1,8 @@
 #
-# bashrc for Arch Computers
+# bashrc for ~ANY~ Computers
 #
 
 [[ $- != *i* ]] && return
-
-# personal scripts 
-PATH=/home/ajay/.local/bin:$PATH
-# gem executables
-PATH=/home/ajay/.gem/ruby/2.2.0/bin:$PATH
-
-source ~/.alias
-
-SSH_ENV=$HOME/.ssh/environemnt
-
-#start the ssh agent
-
-if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
-    source  /usr/lib/bash-git-prompt/gitprompt.sh 
-fi
 
 function start_agent {
     echo "Initializing new ssh agent"
@@ -28,7 +13,34 @@ function start_agent {
     . "${SSH_ENV}" > /dev/null 
     /usr/bin/ssh-add
 }
+# .local does not have to arch speccific I can make that on mac 
+# personal scripts 
+PATH=/home/ajay/.local/bin:$PATH
+# gem executables
+PATH=/home/ajay/.gem/ruby/2.2.0/bin:$PATH
 
+export sysname=`uname`
+SSH_ENV=$HOME/.ssh/environemnt
+
+#start the ssh agent
+
+    case $sysname in
+        "Linux"*)
+            if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
+                source  /usr/lib/bash-git-prompt/gitprompt.sh 
+            fi
+            ;;
+        "Darwin"*)
+            if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
+                source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
+            fi
+            ;;
+    esac
+
+source ~/.alias
+
+
+# I dont think I will need this on mac
 if [ -f "${SSH_ENV}" ]; then
     . "${SSH_ENV}" >/dev/null
     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ >/dev/null || {
