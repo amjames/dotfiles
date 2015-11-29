@@ -23,19 +23,18 @@ export sysname=`uname`
 SSH_ENV=$HOME/.ssh/environemnt
 
 #start the ssh agent
-
-    case $sysname in
-        "Linux"*)
-            if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
-                source  /usr/lib/bash-git-prompt/gitprompt.sh 
-            fi
-            ;;
-        "Darwin"*)
-            if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
-                source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
-            fi
-            ;;
-    esac
+case $sysname in
+    "Linux"*)
+        if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
+            source  /usr/lib/bash-git-prompt/gitprompt.sh 
+        fi
+        ;;
+    "Darwin"*)
+        if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
+            source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
+        fi
+        ;;
+esac
 
 source ~/.alias
 
