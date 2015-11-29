@@ -18,6 +18,14 @@ function start_agent {
 PATH=/home/ajay/.local/bin:$PATH
 # gem executables
 PATH=/home/ajay/.gem/ruby/2.2.0/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
+
+if [ -f $HOME/.local/bin/vim ]; then
+    export EDITOR="${HOME}/.local/bin/vim"
+else
+    export EDITOR="/usr/bin/vim"
+fi
+
 
 export sysname=`uname`
 SSH_ENV=$HOME/.ssh/environemnt
