@@ -15,9 +15,9 @@ function start_agent {
 }
 # .local does not have to arch speccific I can make that on mac 
 # personal scripts 
-PATH=/home/ajay/.local/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
 # gem executables
-PATH=/home/ajay/.gem/ruby/2.2.0/bin:$PATH
+PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH
 
 export sysname=`uname`
 SSH_ENV=$HOME/.ssh/environemnt
