@@ -18,6 +18,13 @@ function start_agent {
 PATH=$HOME/.local/bin:$PATH
 # gem executables
 PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
+
+if [ -f $HOME/.local/bin/vim ]; then
+    export EDITOR="${HOME}/.local/bin/vim"
+else
+    export EDITOR="/usr/bin/vim"
+fi
 
 export sysname=`uname`
 SSH_ENV=$HOME/.ssh/environemnt
@@ -27,6 +34,10 @@ case $sysname in
     "Linux"*)
         if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
             source  /usr/lib/bash-git-prompt/gitprompt.sh 
+        else
+            if [ -f $HOME/.local/lib/bash-git-promt/gitprompt.sh  ]; then
+                source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
+            fi
         fi
         ;;
     "Darwin"*)
