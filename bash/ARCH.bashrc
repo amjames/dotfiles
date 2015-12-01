@@ -3,7 +3,6 @@
 #
 
 [[ $- != *i* ]] && return
-
 function start_agent {
     echo "Initializing new ssh agent"
     # spawn ssh-agent
@@ -12,6 +11,38 @@ function start_agent {
     chmod 600 "${SSH_ENV}"
     . "${SSH_ENV}" > /dev/null 
     /usr/bin/ssh-add
+}
+
+versioncomp () {
+    if [[ $1 == $2  ]]; then
+        return 0
+    fi
+
+    local IFS=.
+    local i
+    local ver1=($1)
+    local ver2=($2)
+
+    for (( i=${#ver1[@]}; i<${#ver2[@]}; i++))
+    do
+        ver1[i]=0
+    done
+    for ((i=0; i<${#ver1[@]}; i++))
+    do
+        if [[ -z ${ver2[i]} ]]
+        then
+            ver2[i]=0
+        fi
+        if ((10#${ver1[i]} < 10#${ver2[i]}))
+        then
+            return 1
+        fi
+        if ((10#${ver1[i]} < 10#${ver2[i]}))
+        then
+            return 2
+        fi
+    done
+    return 0
 }
 # .local does not have to arch speccific I can make that on mac 
 # personal scripts 
@@ -31,6 +62,12 @@ SSH_ENV=$HOME/.ssh/environemnt
 
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
+test_git_ver=$(versioncomp `git --version | awk '{print $3};'` 1.7.10)
+if [ $test_git_ver==2 ]; then
+    export GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh
+fi
+
+
 #start the ssh agent
 case $sysname in
     "Linux"*)
