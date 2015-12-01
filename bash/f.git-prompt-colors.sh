@@ -10,23 +10,19 @@ function prompt_callback {
                 rcount=`qstatme | grep " R " | wc -l`
                 ccount=`qstatme | grep " C " | wc -l`
                 if [ $qcount -ne 0 ] && [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(q:${qcount}|psi4:${rcount}|ssh:${ccount})"
+                    echo -n "(Q:${qcount}|R:${rcount}|c:${ccount})"
                 elif [ $qcount -ne 0 ] && [ $psicount -ne 0 ]; then
-                    echo -n "(q:${qcount}|psi4:${rcount})"
+                    echo -n "(Q:${qcount}|R:${rcount})"
                 elif [ $qcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(q:${qcount}|ssh:${ccount})"
+                    echo -n "(Q:${qcount}|C:${ccount})"
                 elif [ $qcount -ne 0 ]; then
-                    echo -n "(q:${qcount})"
-                else
-                    echo -n " "
-                fi
-            else
-                if [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(psi4:${rcount}|ssh:${ccount})"
+                    echo -n "(Q:${qcount})"
+                elif [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                    echo -n "(R:${rcount}|C:${ccount})"
                 elif [ $rcount -ne 0 ]; then 
-                    echo -n "(psi4:${rcount})"
+                    echo -n "(R:${rcount})"
                 elif [ $ccount -ne 0 ]; then
-                    echo -n "(ssh:${ccount})"
+                    echo -n "(C:${ccount})"
                 else
                     echo -n " "
                 fi
