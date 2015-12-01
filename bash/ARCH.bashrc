@@ -37,7 +37,7 @@ case $sysname in
         if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
             source  /usr/lib/bash-git-prompt/gitprompt.sh 
         else
-            if [ -f $HOME/.local/lib/bash-git-propmt/gitprompt.sh  ]; then
+            if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
                 source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
             fi
         fi
