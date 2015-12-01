@@ -13,7 +13,7 @@ function start_agent {
     /usr/bin/ssh-add
 }
 
-versioncomp () {
+function versioncomp () {
     if [[ $1 == $2  ]]; then
         return 0
     fi
@@ -44,7 +44,6 @@ versioncomp () {
     done
     return 0
 }
-# .local does not have to arch speccific I can make that on mac 
 # personal scripts 
 PATH=$HOME/.local/bin:$PATH
 # gem executables
