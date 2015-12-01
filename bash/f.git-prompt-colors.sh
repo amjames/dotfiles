@@ -6,43 +6,44 @@ function prompt_callback {
         "Linux"*)
             hostname=`hostname -A | awk '{print $1};'`
             if [ ${hostname#*.}!="local" ]; then
-                qcount=`qstatme | awk '/amjames2/{n++}; END {print n+0}'`
+                qcount=`qstatme | grep " Q " | wc -l`
+                rcount=`qstatme | grep " R " | wc -l`
+                ccount=`qstatme | grep " C " | wc -l`
+                if [ $qcount -ne 0 ] && [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                    echo -n "(q:${qcount}|psi4:${rcount}|ssh:${ccount})"
+                elif [ $qcount -ne 0 ] && [ $psicount -ne 0 ]; then
+                    echo -n "(q:${qcount}|psi4:${rcount})"
+                elif [ $qcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                    echo -n "(q:${qcount}|ssh:${ccount})"
+                elif [ $qcount -ne 0 ]; then
+                    echo -n "(q:${qcount})"
+                else
+                    echo -n " "
+                fi
+            else
+                if [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
+                    echo -n "(psi4:${psicount}|ssh:${sshcount})"
+                elif [ $psicount -ne 0 ]; then 
+                    echo -n "(psi4:${psicount})"
+                elif [ $sshcount -ne 0 ]; then
+                    echo -n "(ssh:${sshcount})"
+                else
+                    echo -n " "
+                fi
             fi
             ;;
         "Darwin"*)
-            qcount=0
+            if [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
+                echo -n "(psi4:${psicount}|ssh:${sshcount})"
+            elif [ $psicount -ne 0 ]; then 
+                echo -n "(psi4:${psicount})"
+            elif [ $sshcount -ne 0 ]; then
+                echo -n "(ssh:${sshcount})"
+            else
+                echo -n " "
+            fi
             ;;
     esac;
-    if [ $qcount -ne 0 ] && [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
-
-        echo -n "(q:${qcount}|psi4:${psicount}|ssh:${sshcount})"
-
-    elif [ $qcount -ne 0 ] && [ $psicount -ne 0 ]; then
-
-        echo -n "(q:${qcount}|psi4:${psicount})"
-
-    elif [ $qcount -ne 0 ] && [ $sshcount -ne 0 ]; then
-
-        echo -n "(q:${qcount}|ssh:${sshcount})"
-
-    elif [ $qcount -ne 0 ]; then
-
-        echo -n "(q:${qcount})"
-
-    elif [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
-
-        echo -n "(psi4:${psicount}|ssh:${sshcount})"
-
-    elif [ $psicount -ne 0 ]; then 
-
-        echo -n "(psi4:${psicount})"
-
-    elif [ $sshcount -ne 0 ]; then
-
-        echo -n "(ssh:${sshcount})"
-    else
-        echo -n " "
-    fi
 }
 
 override_git_prompt_colors(){
