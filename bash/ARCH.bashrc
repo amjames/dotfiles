@@ -29,6 +29,8 @@ fi
 export sysname=`uname`
 SSH_ENV=$HOME/.ssh/environemnt
 
+export GIT_PROMPT_ONLY_IN_REPO=0
+export GIT_PROMPT_SHOW_UPSTREAM=1
 #start the ssh agent
 case $sysname in
     "Linux"*)
@@ -46,6 +48,8 @@ case $sysname in
         fi
         ;;
 esac
+
+export GIT_PROMPT_THEME="Custom"
 
 source ~/.alias
 
