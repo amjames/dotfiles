@@ -11,7 +11,7 @@ function prompt_callback {
                 ccount=`qstatme | grep " C " | wc -l`
                 if [ $qcount -ne 0 ] && [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
                     echo -n "(Q:${qcount}|R:${rcount}|c:${ccount})"
-                elif [ $qcount -ne 0 ] && [ $psicount -ne 0 ]; then
+                elif [ $qcount -ne 0 ] && [ $rcount -ne 0 ]; then
                     echo -n "(Q:${qcount}|R:${rcount})"
                 elif [ $qcount -ne 0 ] && [ $ccount -ne 0 ]; then
                     echo -n "(Q:${qcount}|C:${ccount})"
