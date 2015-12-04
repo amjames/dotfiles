@@ -67,7 +67,6 @@ if [ $test_git_ver==2 ]; then
 fi
 
 
-#start the ssh agent
 case $sysname in
     "Linux"*)
         if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
@@ -81,6 +80,7 @@ case $sysname in
     "Darwin"*)
         if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
             source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
+            PATH=/Library/Tex/texbin:$PATH
         fi
         ;;
 esac
@@ -90,7 +90,7 @@ export GIT_PROMPT_THEME="Custom"
 source ~/.alias
 
 
-# I dont think I will need this on mac
+#start the ssh agent
 if [ -f "${SSH_ENV}" ]; then
     . "${SSH_ENV}" >/dev/null
     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ >/dev/null || {

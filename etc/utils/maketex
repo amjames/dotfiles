@@ -6,11 +6,13 @@ if [[ -z $1 ]]; then
 
 elif [[ $1 == "clean" ]]; then
     for file in `ls`; do
-        ext=${file##*.}       
-        if [ "$ext" == "tex" ] || [ "$ext" == "pdf" ] || [ "$ext" == "tsf" ]; then
-            echo "not deleting $file"
-        else
-            rm $file
+        if [ ! -d "$file" ]; then
+            ext=${file##*.}       
+            if [ "$ext" == "tex" ] || [ "$ext" == "pdf" ] || [ "$ext" == "tsf" ]; then
+                echo "not deleting $file"
+            else
+                rm $file
+            fi
         fi
     done;
     exit;
