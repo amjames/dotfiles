@@ -65,6 +65,17 @@ test_git_ver=$(versioncomp `git --version | awk '{print $3};'` 1.7.10)
 if [ $test_git_ver==2 ]; then
     export GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh
 fi
+export EIGEN_INC_DIR=/usr/local/include/eigen3
+export GEN_INC_DIR=/usr/local/include
+export LOCAL_INC_DIR=$HOME/.local/include
+export GEN_LIB_DIR=/usr/local/lib
+export LOCAL_LIB_DIR=$HOME/.local/lib
+export LD_LIBRARY_PATH=$GEN_LIB_DIR:$LOCAL_LIB_DIR
+export CXX_LIB_FLAGS="-L$LOCAL_LIB_DIR -L$GEN_LIB_DIR"
+export CPLUS_INCLUDE_FLAGS="-I$EIGEN_INC_DIR -I$GEN_INC_DIR -I$LOCAL_INC_DIR"
+export CPLUS_INCLUDE_PATH=$EIGEN_INC_DIR:$GEN_INC_DIR:$LOCAL_INC_DIR
+export LIBINT2_PATH=/usr/local/libint/2.1.0-beta2/lib/libint2.a
+export LIBINT2_INC_PATH=/usr/local/libint/2.1.0-beta2/include/libint2
 
 
 case $sysname in
@@ -99,5 +110,4 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
-
 

@@ -10,6 +10,7 @@
 	smudge = git lfs smudge %f
 	required = true
 [alias]
+    gstat = git status
     plog = log --oneline --graph --decorate
 [core]
 	editor = vim
