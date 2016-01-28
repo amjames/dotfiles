@@ -57,6 +57,7 @@ else
 fi
 
 export sysname=`uname`
+export hostname=`hostname`
 SSH_ENV=$HOME/.ssh/environemnt
 
 export GIT_PROMPT_ONLY_IN_REPO=0
@@ -78,6 +79,7 @@ export LIBINT2_PATH=/usr/local/libint/2.1.0-beta2/lib/libint2.a
 export LIBINT2_INC_PATH=/usr/local/libint/2.1.0-beta2/include/libint2
 
 
+
 case $sysname in
     "Linux"*)
         if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
@@ -94,6 +96,15 @@ case $sysname in
             PATH=/Library/Tex/texbin:$PATH
         fi
         ;;
+esac
+
+case $hostname in
+    "brlogin1"|"brlogin2"*)
+        source ~/git/dotfiles/bash/f.blueridge.bashrc
+    ;;
+    "nrlogin1"|"nrlogin2"*)
+        source ~/git/dotfiles/bash/f.newriver.bashrc
+    ;;
 esac
 
 export GIT_PROMPT_THEME="Custom"
