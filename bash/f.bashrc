@@ -100,7 +100,7 @@ esac
 
 case $hostname in
     "brlogin1"|"brlogin2"*)
-        source ~/git/dotfiles/bash/f.blueridge.bashrc
+        source ~/Git/dotfiles/bash/f.blueridge.bashrc
     ;;
     "nrlogin1"|"nrlogin2"*)
         source ~/git/dotfiles/bash/f.newriver.bashrc
