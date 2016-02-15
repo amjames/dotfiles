@@ -1,0 +1,172 @@
+Feb 06 17:39 : errno: Failed to stat /Users/admin/Music/iTunes/iTunes Media/Music: No such file or directory
+Feb 06 17:39 : errno: Failed to open /Users/admin/.mpd/mpdstate: No such file or directory
+Feb 06 17:39 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 06 17:39 : config: option 'enabled' on line 27 was not recognized
+Feb 06 17:45 : errno: Failed to open /Users/admin/.mpd/mpdstate: No such file or directory
+Feb 06 17:45 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 06 17:45 : config: option 'enabled' on line 27 was not recognized
+Feb 06 17:45 : client: [0] opened from 127.0.0.1:62758
+Feb 06 17:45 : client: [0] closed
+Feb 06 17:48 : client: [1] opened from 127.0.0.1:62776
+Feb 06 17:48 : client: [1] closed
+Feb 06 17:50 : client: [2] opened from 127.0.0.1:62792
+Feb 06 17:50 : client: [2] closed
+Feb 06 17:50 : client: [3] opened from 127.0.0.1:62795
+Feb 06 17:51 : client: [3] closed
+Feb 06 18:11 : client: [4] opened from 127.0.0.1:62956
+Feb 06 18:13 : client: [4] closed
+Feb 06 18:17 : client: [5] opened from 127.0.0.1:62987
+Feb 06 18:17 : db: No such song: [playlist]
+Feb 06 18:17 : db: No such song: numberofentries=2
+Feb 06 18:17 : playlist: Unsupported URI scheme
+Feb 06 18:17 : db: No such song: Title1=SomaFM: Groove Salad (#1 130k aac): A nicely chilled plate of ambient/downtempo beats and grooves.
+Feb 06 18:17 : db: No such song: Length1=-1
+Feb 06 18:17 : playlist: Unsupported URI scheme
+Feb 06 18:17 : db: No such song: Title2=SomaFM: Groove Salad (#2 130k aac): A nicely chilled plate of ambient/downtempo beats and grooves.
+Feb 06 18:17 : db: No such song: Length2=-1
+Feb 06 18:17 : db: No such song: Version=2
+Feb 06 18:17 : db: No such song: [playlist]
+Feb 06 18:17 : db: No such song: numberofentries=2
+Feb 06 18:17 : playlist: Unsupported URI scheme
+Feb 06 18:17 : db: No such song: Title1=SomaFM: Groove Salad (#1 130k aac): A nicely chilled plate of ambient/downtempo beats and grooves.
+Feb 06 18:17 : db: No such song: Length1=-1
+Feb 06 18:17 : playlist: Unsupported URI scheme
+Feb 06 18:17 : db: No such song: Title2=SomaFM: Groove Salad (#2 130k aac): A nicely chilled plate of ambient/downtempo beats and grooves.
+Feb 06 18:17 : db: No such song: Length2=-1
+Feb 06 18:17 : db: No such song: Version=2
+Feb 06 18:17 : client: [5] closed
+Feb 06 18:24 : client: [6] opened from 127.0.0.1:63006
+2016-02-06 18:24:34.563 mpd[65184:9104415] 18:24:34.563 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 06 18:32 : client: [6] closed
+Feb 06 18:36 : client: [7] opened from 127.0.0.1:63056
+Feb 06 18:40 : client: [7] closed
+Feb 06 18:41 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 06 18:47 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 06 18:47 : config: option 'enabled' on line 27 was not recognized
+Feb 06 18:47 : client: [0] opened from 127.0.0.1:63082
+2016-02-06 18:47:29.769 mpd[74044:9162423] 18:47:29.768 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 06 18:49 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+2016-02-06 18:49:29.134 mpd[74044:9162423] 18:49:29.134 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 06 18:50 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 06 19:21 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 06 19:21 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 06 19:21 : config: option 'enabled' on line 27 was not recognized
+2016-02-06 19:21:33.422 mpd[3731:9207006] 19:21:33.421 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 06 19:23 : client: [0] opened from 127.0.0.1:63363
+Feb 06 19:42 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 06 19:51 : client: [0] closed
+Feb 06 19:52 : client: [1] opened from 127.0.0.1:63505
+Feb 06 20:01 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 13:51 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 07 13:51 : config: option 'enabled' on line 27 was not recognized
+Feb 07 13:51 : client: [0] opened from 127.0.0.1:49502
+2016-02-07 13:51:50.537 mpd[26210:9432320] 13:51:50.537 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 07 17:15 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:52 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:52 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:52 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:52 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:52 : client: [0] closed
+Feb 07 17:52 : client: [1] opened from 127.0.0.1:50159
+Feb 07 17:52 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:52 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 17:53 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:53 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 17:53 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:53 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:54 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:54 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:54 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:54 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:54 : client: [1] closed
+Feb 07 17:54 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 07 17:54 : config: option 'enabled' on line 27 was not recognized
+Feb 07 17:54 : client: [0] opened from 127.0.0.1:50171
+2016-02-07 17:54:28.285 mpd[48208:9648644] 17:54:28.284 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 07 17:54 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 17:54 : player: played "http://ice1.somafm.com/lush-128.aac"
+2016-02-07 17:54:56.458 mpd[48208:9648644] 17:54:56.458 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 07 17:55 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:55 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:55 : faad_decoder: error decoding AAC stream: Unexpected fill element with SBR data
+Feb 07 17:55 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 17:55 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 18:01 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 18:02 : curl: curl failed: Failed to connect to ice1.somafm.com port 80: Connection refused
+Feb 07 18:02 : player: played "http://ice1.somafm.com/lush-128.aac"
+Feb 07 18:35 : client: [0] closed
+Feb 07 18:35 : client: [1] opened from 127.0.0.1:50362
+Feb 07 18:36 : client: [1] closed
+Feb 07 18:36 : client: [2] opened from 127.0.0.1:50365
+Feb 07 18:36 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+2016-02-07 18:36:15.690 mpd[48208:9648644] 18:36:15.690 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 07 18:36 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 18:36 : player: played "http://ice1.somafm.com/dronezone-128.aac"
+Feb 07 20:52 : playlist: Unsupported URI scheme
+Feb 07 20:54 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 07 20:54 : ffmpeg/mp3: Skipping 0 bytes of junk at 0.
+Feb 08 16:28 : player: played "http://ice1.somafm.com/defcon-128.mp3"
+2016-02-09 14:03:08.310 mpd[48208:9648644] 14:03:08.310 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 09 14:04 : player: played "http://ice1.somafm.com/groovesalad-128.aac"
+Feb 09 14:05 : client: [2] closed
+Feb 09 14:05 : client: [3] opened from 127.0.0.1:57996
+Feb 09 14:05 : ffmpeg/mp3: Skipping 0 bytes of junk at 0.
+2016-02-09 14:05:23.250 mpd[48208:9648644] 14:05:23.250 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 09 14:36 : ffmpeg/mp3: overread, skip -9 enddists: -2 -2
+Feb 09 18:24 : player: played "http://ice1.somafm.com/defcon-128.mp3"
+Feb 10 17:51 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 10 17:51 : config: option 'enabled' on line 27 was not recognized
+Feb 10 17:51 : client: [0] opened from 127.0.0.1:52480
+Feb 10 17:51 : ffmpeg/mp3: Skipping 0 bytes of junk at 0.
+2016-02-10 17:51:47.935 mpd[34746:788733] 17:51:47.934 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 12 19:22 : client: [0] closed
+Feb 12 20:07 : ffmpeg/mp3: overread, skip -7 enddists: -4 -4
+Feb 12 20:07 : ffmpeg/mp3: overread, skip -7 enddists: -5 -5
+Feb 12 20:12 : ffmpeg/mp3: overread, skip -7 enddists: -6 -6
+Feb 12 20:12 : ffmpeg/mp3: overread, skip -5 enddists: -2 -2
+Feb 12 20:16 : ffmpeg/mp3: overread, skip -9 enddists: -6 -6
+Feb 12 20:21 : player: played "http://ice1.somafm.com/defcon-128.mp3"
+Feb 13 15:41 : client: [1] opened from 127.0.0.1:59982
+Feb 13 15:42 : ffmpeg/mp3: Skipping 0 bytes of junk at 0.
+2016-02-13 15:42:05.976 mpd[34746:788733] 15:42:05.976 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Feb 13 15:42 : client: [1] closed
+Feb 13 16:21 : ffmpeg/mp3: overread, skip -5 enddists: -2 -2
+Feb 13 16:21 : ffmpeg/mp3: overread, skip -9 enddists: -7 -7
+Feb 13 16:21 : ffmpeg/mp3: overread, skip -9 enddists: -8 -8
+Feb 13 16:31 : ffmpeg/mp3: overread, skip -9 enddists: -2 -2
+Feb 13 16:31 : ffmpeg/mp3: overread, skip -9 enddists: -1 -1
+Feb 13 16:31 : ffmpeg/mp3: overread, skip -7 enddists: -3 -3
+Feb 13 16:31 : ffmpeg/mp3: overread, skip -7 enddists: -1 -1
+Feb 13 16:31 : player: played "http://ice1.somafm.com/defcon-128.mp3"
+Feb 15 14:51 : client: [2] opened from 127.0.0.1:50459
+Feb 15 14:51 : ffmpeg/mp3: Skipping 0 bytes of junk at 0.
+2016-02-15 14:51:31.786 mpd[34746:788733] 14:51:31.786 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
