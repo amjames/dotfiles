@@ -30,7 +30,7 @@ elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     fi
     exit;
 else
-    # if the file has another file on its first line run
+    # if the file has another file on its first line run that one 
     # if the  first line is blank then exit
     line=`head -n 1 ${1}`
     echo $line
@@ -46,7 +46,11 @@ else
         pdflatex $tag
         pdflatex $tag
     else
-        echo "error"
+        base=${1%.*}
+        pdflatex $base
+        bibtex $base
+        pdflatex $base
+        pdflatex $base
         if [[ $2 == 'u'  ]] || [[ $OSTYPE != 'linux-gnu' ]];then
             open ${tag}.pdf
         fi
