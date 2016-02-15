@@ -121,5 +121,4 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
-
-export HOMEBREW_GITHUB_API_TOKEN='fe1fd306dc76bedfa71dfc50f5b4541115ee147e'
+source ~/.local/.hb_token
