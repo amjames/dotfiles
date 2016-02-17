@@ -4,7 +4,7 @@ name: psi4
 root: ~/Workspace/Git/psi4
 
 # Optional tmux socket
-socket_name: psi4
+#socket_name: psi4
 
 # Runs before everything. Use it to start daemons etc.
 # pre: sudo /etc/rc.d/mysqld start
@@ -33,23 +33,23 @@ windows:
       panes:
       - dpd:
           - cd src/libdpd
-      - WabeiRHF:
-          - cd src/bin/cchbar
-          - vi Wabei_RHF.cc
       - WabeiUHF:
           - cd src/bin/cchbar
           - vi -O Wabei_AAAA_UHF.cc Wabei_AAAA_UHF.cc
+      - WabeiRHF:
+          - cd src/bin/cchbar
+          - vi Wabei_RHF.cc
   - test:
       root: ~/Workspace/chem/testing_UHF/small
       layout: main-vertical
       panes:
       - main:
         - ls -al
-      - new:
-          - cd new 
-          - vio
       - old:
           - cd old
+          - vio
+      - new:
+          - cd new 
           - vio
   - build:
       root: ~/Workspace/psi4-build/test

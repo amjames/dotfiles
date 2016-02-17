@@ -1,0 +1,25 @@
+# ~/.tmuxinator/mathhw.yml
+
+name: writing
+root: ~/<%= @args[0] %>
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+# pre_window: rbenv shell 2.0.0-p247
+
+
+windows:
+  - latex:
+      root: ~/<%= @args[0] %>/texbuild
+      layout: main-vertical
+      panes:
+        - vim
+        - maketex
+  - console:
+      panes:
+        - htop
+        - ncmpcpp
