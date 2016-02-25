@@ -1,2 +1,4 @@
 *.log
 mpdstate
+mpd.pid
+mpd.db
