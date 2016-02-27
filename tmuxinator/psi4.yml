@@ -36,33 +36,31 @@ windows:
       - WabeiUHF:
           - cd src/bin/cchbar
           - vi -O Wabei_AAAA_UHF.cc Wabei_AAAA_UHF.cc
-      - WabeiRHF:
-          - cd src/bin/cchbar
-          - vi Wabei_RHF.cc
   - test:
-      root: ~/Workspace/chem/testing_UHF/small
+      root: ~/Workspace/code_testing/
       layout: main-vertical
       panes:
       - main:
         - ls -al
       - old:
-          - cd old
-          - vio
+          - pwd
       - new:
-          - cd new 
-          - vio
+          - pwd
   - build:
       root: ~/Workspace/psi4-build/test
       layout: main-vertical
       panes:
        - make:
-          - echo "Make things in here"
-       - tail -f ERRORS.log || touch ERROR.log & tail -f ERRORS.log
-       - tail -f makelog.log || touch makelog.log & tail -f makelog.log
-  - system: 
-       root: ~/
-       layout: main-horizontal
-       panes:
-         - echo "console"
-         - htop
+           - alias make='make -j4 install 2>error-log'
+       - tail -f error-log | grep -C4 -i error
+       - #console
+  - utils: 
+      root: ~/
+      layout: main-horizontal
+      panes:
+       - #blank
+       - htop
+       - music:
+          - mpd
+          - ncmpcpp
 
