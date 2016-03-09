@@ -46,9 +46,13 @@ function versioncomp () {
 }
 # personal scripts 
 PATH=$HOME/.local/bin:$PATH
+PATH=$HOME/.local/scripts:$PATH
 # gem executables
-PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH
-PATH=$HOME/.local/bin:$PATH
+if [ -f $HOME/.gem/ruby ]; then
+    for version in $(ls $HOME/.gem/ruby/); do
+        PATH=$HOME/.gem/ruby/$version/bin:$PATH;
+    done;
+fi
 
 if [ -f $HOME/.local/bin/vim ]; then
     export EDITOR="${HOME}/.local/bin/vim"
@@ -56,9 +60,10 @@ else
     export EDITOR="/usr/bin/vim"
 fi
 
+#for OS dependant things
 export sysname=`uname`
+#for computer dependant things
 export hostname=`hostname`
-SSH_ENV=$HOME/.ssh/environemnt
 
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
@@ -95,10 +100,14 @@ case $sysname in
             source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
             PATH=/Library/Tex/texbin:$PATH
         fi
+        source ~/.local/.hb_token
         ;;
 esac
 
 case $hostname in
+    "crawDella"*)
+        source ~/Git/dotfiles/bash/f.crawDella.bashrc
+    ;;
     "brlogin1"|"brlogin2"*)
         source ~/Git/dotfiles/bash/f.blueridge.bashrc
     ;;
@@ -107,12 +116,12 @@ case $hostname in
     ;;
 esac
 
+
 export GIT_PROMPT_THEME="Custom"
 
 source ~/.alias
-
-
 #start the ssh agent
+SSH_ENV=$HOME/.ssh/environemnt
 if [ -f "${SSH_ENV}" ]; then
     . "${SSH_ENV}" >/dev/null
     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ >/dev/null || {
@@ -121,4 +130,3 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
-source ~/.local/.hb_token
