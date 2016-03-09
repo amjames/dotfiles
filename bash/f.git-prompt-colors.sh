@@ -4,29 +4,41 @@ function prompt_callback {
     sshcount=`ps -o comm | awk '/ssh/{n++}; END {print n+0}'`
     case $sysname in
         "Linux")
-            hostname=`hostname -A | awk '{print $1};'`
-            if [ ${hostname##*.}=="edu" ]; then
-                qcount=`qstatme | grep " Q " | wc -l`
-                rcount=`qstatme | grep " R " | wc -l`
-                ccount=`qstatme | grep " C " | wc -l`
-                if [ $qcount -ne 0 ] && [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(Q:${qcount}|R:${rcount}|c:${ccount})"
-                elif [ $qcount -ne 0 ] && [ $rcount -ne 0 ]; then
-                    echo -n "(Q:${qcount}|R:${rcount})"
-                elif [ $qcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(Q:${qcount}|C:${ccount})"
-                elif [ $qcount -ne 0 ]; then
-                    echo -n "(Q:${qcount})"
-                elif [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
-                    echo -n "(R:${rcount}|C:${ccount})"
-                elif [ $rcount -ne 0 ]; then 
-                    echo -n "(R:${rcount})"
-                elif [ $ccount -ne 0 ]; then
-                    echo -n "(C:${ccount})"
-                else
-                    echo -n " "
-                fi
-            fi
+            case $hostname in
+                "brlogin1"|"brlogin2"|"nrlogin1"|"nrlogin2"*)
+                    qcount=`qstatme | grep " Q " | wc -l`
+                    rcount=`qstatme | grep " R " | wc -l`
+                    ccount=`qstatme | grep " C " | wc -l`
+                    if [ $qcount -ne 0 ] && [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                        echo -n "(Q:${qcount}|R:${rcount}|c:${ccount})"
+                    elif [ $qcount -ne 0 ] && [ $rcount -ne 0 ]; then
+                        echo -n "(Q:${qcount}|R:${rcount})"
+                    elif [ $qcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                        echo -n "(Q:${qcount}|C:${ccount})"
+                    elif [ $qcount -ne 0 ]; then
+                        echo -n "(Q:${qcount})"
+                    elif [ $rcount -ne 0 ] && [ $ccount -ne 0 ]; then
+                        echo -n "(R:${rcount}|C:${ccount})"
+                    elif [ $rcount -ne 0 ]; then 
+                        echo -n "(R:${rcount})"
+                    elif [ $ccount -ne 0 ]; then
+                        echo -n "(C:${ccount})"
+                    else
+                        echo -n " "
+                    fi
+                    ;;
+                *)
+                    if [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
+                        echo -n "(psi4:${psicount}|ssh:${sshcount})"
+                    elif [ $psicount -ne 0 ]; then 
+                        echo -n "(psi4:${psicount})"
+                    elif [ $sshcount -ne 0 ]; then
+                        echo -n "(ssh:${sshcount})"
+                    else
+                        echo -n " "
+                    fi
+                    ;;
+            esac
             ;;
         "Darwin")
             if [ $psicount -ne 0 ] && [ $sshcount -ne 0 ]; then
