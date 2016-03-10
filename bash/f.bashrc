@@ -49,9 +49,13 @@ PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/scripts:$PATH
 # gem executables
 if [ -d $HOME/.gem/ruby ]; then
-    for version in $(ls $HOME/.gem/ruby/); do
-        PATH=$HOME/.gem/ruby/$version/bin:$PATH;
-    done;
+    if [ -d $HOME/.gem/ruby/2.3.0 ]; then
+        PATH=$HOME/.gem/ruby/2.3.0/bin:$PATH;
+        export RUBY_GEM_VERNO=2.3.0;
+    elif [ -d $HOME/.gem/ruby/2.2.0  ]; then
+        PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH;
+        export RUBY_GEM_VERNO=2.2.0;
+    fi
 fi
 
 if [ -f $HOME/.local/bin/vim ]; then

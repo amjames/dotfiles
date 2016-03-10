@@ -1,10 +1,14 @@
 #! /bin/bash
 
 case `uname` in 
-    'Linux')
-        xdg-open $1 &> /dev/null
+    'Linux'*)
+        if [ "$1" == "index.html" ]; then
+            chromium --app="file://$PWD/index.html"
+        else
+            xdg-open $1 &> /dev/null
+        fi;
         ;;
-    'Darwin')
+    'Darwin'*)
         open "$*"
         ;;
 esac
