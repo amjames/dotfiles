@@ -1,0 +1,56 @@
+# ~/.tmuxinator/default.yml
+
+name: prelim
+root: ~/Documents/prelim
+
+# Optional tmux socket
+# socket_name: foo
+
+# start vpn or you will be mad
+pre: jnc --nox me
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+startup_window: main
+
+# Controls whether the tmux session should be attached to automatically. Defaults to true.
+# attach: false
+
+# Runs after everything. Use it to attach to tmux with custom options etc.
+# post: tmux -CC attach -t default
+
+windows:
+  - main:
+      root: ~/Documents/prelim/
+      layout: main-vertical
+      panes:
+        - vi index.html
+        - # console
+  - examples:
+      root: ~/Documents/prelim/test/examples
+      layout: main-horizontal
+      panes:
+        - chromium math.html
+        - vi
+        - vi math.html
+  - overview:
+      layout: main-vertical
+      root: ~/Documents/prelim
+      panes:
+        - # we shall see 
+        - # what else I need
+  - extras:
+      root: ~/
+      layout: even-horizontal
+      panes:
+        - htop
+        - ncmpcpp
+        - #console
