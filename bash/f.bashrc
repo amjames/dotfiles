@@ -48,7 +48,7 @@ function versioncomp () {
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/scripts:$PATH
 # gem executables
-if [ -f $HOME/.gem/ruby ]; then
+if [ -d $HOME/.gem/ruby ]; then
     for version in $(ls $HOME/.gem/ruby/); do
         PATH=$HOME/.gem/ruby/$version/bin:$PATH;
     done;
