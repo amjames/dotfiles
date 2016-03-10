@@ -189,6 +189,10 @@ let g:tagbar_autofocus=1
 "   }
 "   }
 " }
+" My own reveal.js plugin {
+  set rtp+=~/.vim/personal/reveal.js.vim
+
+" }
 " Use fork before if available {
     if filereadable(expand("~/.vimrc.before.fork"))
         source ~/.vimrc.before.fork
