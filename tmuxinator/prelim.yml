@@ -7,7 +7,7 @@ root: ~/Documents/prelim
 # socket_name: foo
 
 # start vpn or you will be mad
-pre: jnc --nox me
+pre: jnc --nox me || echo "Check errors Kernel updates need restart!"
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
 # pre_window: rbenv shell 2.0.0-p247
@@ -30,17 +30,16 @@ startup_window: main
 windows:
   - main:
       root: ~/Documents/prelim/
-      layout: main-vertical
-      panes:
-        - vi index.html
-        - # console
-  - examples:
-      root: ~/Documents/prelim/test/examples
       layout: main-horizontal
       panes:
-        - chromium math.html
-        - vi
-        - vi math.html
+        - vi index.rjs.html
+        - open index.rjs.html
+  - plugin:
+      root: ~/.vim/personal/reveal-js.vim
+      layout: main-horizontal
+      panes:
+        - # blank
+        - ls
   - overview:
       layout: main-vertical
       root: ~/Documents/prelim
@@ -49,7 +48,7 @@ windows:
         - # what else I need
   - extras:
       root: ~/
-      layout: even-horizontal
+      layout: even-vertical
       panes:
         - htop
         - ncmpcpp
