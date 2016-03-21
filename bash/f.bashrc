@@ -13,6 +13,7 @@ function start_agent {
     /usr/bin/ssh-add
 }
 
+
 function versioncomp () {
     if [[ $1 == $2  ]]; then
         return 0
@@ -142,3 +143,4 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+

@@ -20,7 +20,7 @@
 " }
 
 " spf13 options {
-
+    let g:html_indent_script1="auto"
     " Prevent automatically changing to open file directory
     "   let g:spf13_no_autochdir = 1
 
@@ -188,6 +188,10 @@ let g:tagbar_autofocus=1
 "
 "   }
 "   }
+" }
+" My own reveal.js plugin {
+"set rtp+=~/.vim/personal/reveal-js.vim
+
 " }
 " Use fork before if available {
     if filereadable(expand("~/.vimrc.before.fork"))

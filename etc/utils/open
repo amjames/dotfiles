@@ -2,8 +2,8 @@
 
 case `uname` in 
     'Linux'*)
-        if [ "$1" == "index.html" ]; then
-            chromium --app="file://$PWD/index.html"
+        if [ "${1#*.}" == "rjs.html" ]; then
+            chromium --app="file://$PWD/$1"
         else
             xdg-open $1 &> /dev/null
         fi;

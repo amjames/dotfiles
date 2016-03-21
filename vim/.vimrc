@@ -226,9 +226,9 @@
     set smartcase                   " Case sensitive when uc present
     set wildmenu                    " Show list instead of just completing
     set wildmode=list:longest,full  " Command <Tab> completion, list matches, then longest common part, then all.
-    set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
-    set scrolljump=5                " Lines to scroll when cursor leaves screen
-    set scrolloff=3                 " Minimum lines to keep above and below cursor
+    "set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
+    "set scrolljump=5                " Lines to scroll when cursor leaves screen
+    "set scrolloff=3                 " Minimum lines to keep above and below cursor
     set foldenable                  " Auto fold code
     set list
     set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
@@ -239,7 +239,7 @@
 
 " Formatting {
 
-    set nowrap                      " Do not wrap long lines
+    set wrap                        "  not wrap long lines
     set autoindent                  " Indent at the same level of the previous line
     set shiftwidth=2                " Use indents of 4 spaces
     set expandtab                   " Tabs are spaces, not tabs
