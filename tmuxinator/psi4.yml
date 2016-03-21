@@ -7,7 +7,7 @@ root: ~/Workspace/Git/psi4
 #socket_name: psi4
 
 # Runs before everything. Use it to start daemons etc.
-# pre: sudo /etc/rc.d/mysqld start
+pre: source activate psi4-py2.7
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
 # pre_window: rbenv shell 2.0.0-p247
