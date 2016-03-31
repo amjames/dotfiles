@@ -58,7 +58,7 @@ if [ -d $HOME/.gem/ruby ]; then
         export RUBY_GEM_VERNO=2.2.0;
     fi
 fi
-
+# personal vim install 
 if [ -f $HOME/.local/bin/vim ]; then
     export EDITOR="${HOME}/.local/bin/vim"
 else
@@ -121,6 +121,14 @@ case $hostname in
     ;;
 esac
 
+# python environments 
+if [ -d $HOME/anaconda ]; then
+    export PATH=$HOME/anaconda/bin:$PATH
+else
+    if [-f $HOME/.local/anaconda ]; then
+        export PATH=$HOME/.local/anaconda/bin:$PATH
+    fi
+fi
 
 export GIT_PROMPT_THEME="Custom"
 
