@@ -25,10 +25,10 @@ alias his='history'
 alias c='clear'
 
 #computers
-alias cer='ssh ajay@cerebro.chem.vt.edu'
+alias cer='ssh -p 1033 ajay@cerebro.chem.vt.edu'
 alias blue='ssh amjames2@blueridge1.arc.vt.edu'
 alias blue2='ssh amjames2@blueridge2.arc.vt.edu'
-alias sirius='ssh ajay@sirius.chem.vt.edu'
+alias sirius='ssh -p 1033 ajay@sirius.chem.vt.edu'
 alias river='ssh amjames2@newriver1.arc.vt.edu'
 alias river2='ssh amjames2@newriver2.arc.vt.edu'
 
