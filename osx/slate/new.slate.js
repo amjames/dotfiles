@@ -4,16 +4,19 @@
  */
 S.log('Loading Config .... ');
 S.src('~/Workspace/Git/dotfiles/osx/slate/reslate/reslate.js');
+S.src('~/Workspace/Git/dotefiles/osx/slate/defines.js');
 // enable to see debug messages in Console.app
 $.debug = true;
 
 slate.alias('hyper', 'ctrl;alt;cmd');
 
 // begin config
+//slate.config("modalEscapeKey","esc");
 slate.configAll({
     defaultToCurrentScreen: true,
     nudgePercentOf: 'screenSize',
     resizePercentOf: 'screenSize',
+    modalEscapeKey: 'esc',
     undoOps: [
         'active-snapshot',
         'chain',
@@ -85,14 +88,14 @@ slate.bindAll({
         '2': $('toss', '1', 'resize'),
         '3': $('toss', '2', 'resize'),
         // direct focus
-        a: $.focus('Adium'),
-        c: $.focus('Google Chrome'),
-        s: $.focus('Sublime Text'),
-        t: $.focus(''),
-        f: $.focus('Finder'),
-        e: $.focus('Sparrow'),
-        x: $.focus('X11'),
-        p: $.focus('Spotify'),
+        a: $.focus('Asana'),
+        //c: $.focus(''),
+        s: $.focus('Safari'),
+        t: $.focus('Terminal'),
+        //f: $.focus(''), tba
+        e: $.focus('Airmail'),
+        //x: $.focus(''),
+        p: $.focus('iTunes'),
         // utility functions
         f1: 'relaunch',
         z: 'undo',
@@ -105,4 +108,6 @@ slate.bindAll({
   //make center here
   //use space to "spread the app"
 });
+
+//put this above soon
 S.log('... Config LOADED!');
