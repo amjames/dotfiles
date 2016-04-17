@@ -1,0 +1,6 @@
+#! /bin/bash
+
+#check to see if mpd is running before running ncmpcpp
+
+pgrep mpd || mpd
+/usr/bin/ncmpcpp
