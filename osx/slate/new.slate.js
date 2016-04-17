@@ -2,7 +2,7 @@
  * Author: lunixbochs (Ryan Hileman)
  * Project: http://github.com/lunixbochs/reslate
  */
-
+S.log('Loading Config .... ');
 S.src('~/Workspace/Git/dotfiles/osx/slate/reslate/reslate.js');
 // enable to see debug messages in Console.app
 $.debug = true;
@@ -99,3 +99,4 @@ slate.bindAll({
         tab: 'hint'
     }
 });
+S.log('... Config LOADED!');
