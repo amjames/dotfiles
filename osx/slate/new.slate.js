@@ -4,11 +4,12 @@
  */
 S.log('Loading Config .... ');
 S.src('~/Workspace/Git/dotfiles/osx/slate/reslate/reslate.js');
-S.src('~/Workspace/Git/dotefiles/osx/slate/defines.js');
+S.src('~/Workspace/Git/dotfiles/osx/slate/defines.js');
 // enable to see debug messages in Console.app
 $.debug = true;
 
 slate.alias('hyper', 'ctrl;alt;cmd');
+slate.alias('lowper', 'ctrl;alt');
 
 // begin config
 //slate.config("modalEscapeKey","esc");
@@ -101,12 +102,12 @@ slate.bindAll({
         z: 'undo',
         tab: 'hint'
     },
-  //ToDO
-  //myper/myper+shift
-  //myper = ctrl+alt
-  //add some nudges/moving
-  //make center here
-  //use space to "spread the app"
+  lowper: {
+    tab: 'switch',
+    shift:  {
+      q: 'grid'
+    }
+  }
 });
 
 //put this above soon
