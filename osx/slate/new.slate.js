@@ -97,6 +97,12 @@ slate.bindAll({
         f1: 'relaunch',
         z: 'undo',
         tab: 'hint'
-    }
+    },
+  //ToDO
+  //myper/myper+shift
+  //myper = ctrl+alt
+  //add some nudges/moving
+  //make center here
+  //use space to "spread the app"
 });
 S.log('... Config LOADED!');
