@@ -7,6 +7,7 @@ alias vi='vim'
 case $sysname in 
     "Darwin"*)
         alias ls='ls -G'
+        alias slateHelp='cat ~/.slate.js'
         ;;
     "Linux"*)
         alias ls='ls --color=always'
