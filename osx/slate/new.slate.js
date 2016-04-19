@@ -95,13 +95,13 @@ slate.bindAll({
         f: $.focus('Wunderlist'),
         e: $.focus('Airmail'),
         p: $.focus('iTunes'),
+        x: $.focus('SourceTree')
         // utility functions
         f1: 'relaunch',
         z: 'undo',
         tab: 'hint'
     },
   lowper: {
-    tab: 'switch',
     shift:  {
       q: 'grid'
     }
