@@ -10,6 +10,45 @@ var grid = slate.operation("grid",{
   "padding": 8
 });
 
+//{{{ Shells
+//var goToSpace1 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp1.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//var goToSpace2 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp2.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//var goToSpace3 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp3.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//var goToSpace4 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp4.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//var goToSpace5 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp5.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//var goToSpace6 = slate.operation("shell",{
+//    "command": "/usr/bin/osascript chsp6.applescript",
+//    //"wait: true,
+//    "path": "/Users/admin/.scripts/spaces-hacks/"
+//});
+
+//}}}
+
 //WIP SpreadApp
 //{{{
 var spreadAppVertical = function(theApp, xOff, width) {
@@ -54,6 +93,7 @@ var spreadAppVertical = function(theApp, xOff, width) {
   });
   slate.log(logstr);
 };
+//}}}
 
 //{{{ col dector
 var detectWindoCol = function(windowObj) {
@@ -72,6 +112,7 @@ var detectWindoCol = function(windowObj) {
     return "screenOriginX+2*(screenSizeX/3)"
   }
 };
+//}}}
 //{{{ strech tall
 var strechTall = function(winObj) {
   size = winObj.size();
@@ -86,7 +127,7 @@ var strechTall = function(winObj) {
   winObj.doOperation(tempMove);
   slate.log("windowStreched");
 };
-
+//}}}
 
 
 //{{{ Runner
@@ -153,3 +194,5 @@ var askMe = function(question, choices){
     return false;
   }
 };
+
+//}}}

@@ -30,7 +30,6 @@ slate.configAll({
         'push'
     ]
 });
-
 // bindings
 slate.bindAll({
     hyper: {
@@ -90,12 +89,11 @@ slate.bindAll({
         '3': $('toss', '2', 'resize'),
         // direct focus
         a: $.focus('Asana'),
-        //c: $.focus(''),
+        c: $.focus('Messages'),
         s: $.focus('Safari'),
         t: $.focus('Terminal'),
-        //f: $.focus(''), tba
+        f: $.focus('Wunderlist'),
         e: $.focus('Airmail'),
-        //x: $.focus(''),
         p: $.focus('iTunes'),
         // utility functions
         f1: 'relaunch',
