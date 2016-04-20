@@ -25,6 +25,9 @@ elif [ $1 == "main.tex" ] || [ "$(head -n 1 ${1})" == "%tex-main" ]; then
     bibtex $base
     pdflatex $base 
     pdflatex $base 
+    if [[ $(pwd) == "tex-build" ]]; then
+        cp ${base}.pdf ../.
+    fi
     if [[ $2 == "u" ]] || [[ $OSTYPE != "linux-gnu" ]];then
         open ${base}.pdf
     fi
@@ -45,14 +48,20 @@ else
         bibtex $tag
         pdflatex $tag
         pdflatex $tag
+        if [[ $(pwd) == "tex-build" ]]; then
+            cp ${tag}.pdf ../.
+        fi
     else
         base=${1%.*}
         pdflatex $base
         bibtex $base
         pdflatex $base
         pdflatex $base
+        if [[ $(pwd) == "tex-build" ]]; then
+            cp ${base}.pdf ../.
+        fi
         if [[ $2 == 'u'  ]] || [[ $OSTYPE != 'linux-gnu' ]];then
-            open ${tag}.pdf
+            open ${base}.pdf
         fi
         exit;
     fi
