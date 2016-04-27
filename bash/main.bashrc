@@ -45,6 +45,7 @@ function versioncomp () {
     done
     return 0
 }
+
 # personal scripts 
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/scripts:$PATH
@@ -58,6 +59,8 @@ if [ -d $HOME/.gem/ruby ]; then
         export RUBY_GEM_VERNO=2.2.0;
     fi
 fi
+
+
 # personal vim install 
 if [ -f $HOME/.local/bin/vim ]; then
     export EDITOR="${HOME}/.local/bin/vim"
@@ -66,9 +69,19 @@ else
 fi
 
 #for OS dependant things
-export sysname=`uname`
-#for computer dependant things
-export hostname=`hostname`
+if [ -z $SYSNAME ]; then 
+  SYSNAME=`hostname`
+fi
+
+case `uname` in
+  "Darwin"*)
+    OSTYPE='osx'
+    ;;
+
+  "Linux"*)
+    OSTYPE='linux'
+    ;;
+esac
 
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
@@ -76,22 +89,22 @@ test_git_ver=$(versioncomp `git --version | awk '{print $3};'` 1.7.10)
 if [ $test_git_ver==2 ]; then
     export GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh
 fi
-export EIGEN_INC_DIR=/usr/local/include/eigen3
-export GEN_INC_DIR=/usr/local/include
-export LOCAL_INC_DIR=$HOME/.local/include
-export GEN_LIB_DIR=/usr/local/lib
-export LOCAL_LIB_DIR=$HOME/.local/lib
-export LD_LIBRARY_PATH=$GEN_LIB_DIR:$LOCAL_LIB_DIR
-export CXX_LIB_FLAGS="-L$LOCAL_LIB_DIR -L$GEN_LIB_DIR"
-export CPLUS_INCLUDE_FLAGS="-I$EIGEN_INC_DIR -I$GEN_INC_DIR -I$LOCAL_INC_DIR"
-export CPLUS_INCLUDE_PATH=$EIGEN_INC_DIR:$GEN_INC_DIR:$LOCAL_INC_DIR
-export LIBINT2_PATH=/usr/local/libint/2.1.0-beta2/lib/libint2.a
-export LIBINT2_INC_PATH=/usr/local/libint/2.1.0-beta2/include/libint2
+# export EIGEN_INC_DIR=/usr/local/include/eigen3
+# export GEN_INC_DIR=/usr/local/include
+ export LOCAL_INC_DIR=$HOME/.local/include
+ export GEN_LIB_DIR=/usr/local/lib
+ export LOCAL_LIB_DIR=$HOME/.local/lib
+# export LD_LIBRARY_PATH=$GEN_LIB_DIR:$LOCAL_LIB_DIR
+# export CXX_LIB_FLAGS="-L$LOCAL_LIB_DIR -L$GEN_LIB_DIR"
+# export CPLUS_INCLUDE_FLAGS="-I$EIGEN_INC_DIR -I$GEN_INC_DIR -I$LOCAL_INC_DIR"
+# export CPLUS_INCLUDE_PATH=$EIGEN_INC_DIR:$GEN_INC_DIR:$LOCAL_INC_DIR
+# export LIBINT2_PATH=/usr/local/libint/2.1.0-beta2/lib/libint2.a
+# export LIBINT2_INC_PATH=/usr/local/libint/2.1.0-beta2/include/libint2
 
 
 
-case $sysname in
-    "Linux"*)
+case $OSNAME in
+    "linux"*)
         if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
             source  /usr/lib/bash-git-prompt/gitprompt.sh 
         else
@@ -100,7 +113,7 @@ case $sysname in
             fi
         fi
         ;;
-    "Darwin"*)
+    "osx"*)
         if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
             source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
             PATH=/Library/Tex/texbin:$PATH
@@ -109,30 +122,12 @@ case $sysname in
         ;;
 esac
 
-case $hostname in
-    "crawDella"*)
-        source ~/Git/dotfiles/bash/f.crawDella.bashrc
-    ;;
-    "brlogin1"|"brlogin2"*)
-        source ~/Git/dotfiles/bash/f.blueridge.bashrc
-    ;;
-    "nrlogin1"|"nrlogin2"*)
-        source ~/git/dotfiles/bash/f.newriver.bashrc
-    ;;
-esac
-
-# # python environments 
-# if [ -d $HOME/anaconda ]; then
-#     PATH=$HOME/anaconda/bin:$PATH
-# else
-#     if [-f $HOME/.local/anaconda ]; then
-#         PATH=$HOME/.local/anaconda/bin:$PATH
-#     fi
-# fi
+source ~/.alias
+source ~/.${SYSNAME}.bashrc
+source ~/.${SYSNAME}.alias
 
 export GIT_PROMPT_THEME="Custom"
 
-source ~/.alias
 #start the ssh agent
 SSH_ENV=$HOME/.ssh/environemnt
 if [ -f "${SSH_ENV}" ]; then
