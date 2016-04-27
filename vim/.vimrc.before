@@ -20,6 +20,7 @@
 " }
 
 " spf13 options {
+    set nocompatible
     let g:html_indent_script1="auto"
     " Prevent automatically changing to open file directory
     "   let g:spf13_no_autochdir = 1
@@ -105,9 +106,7 @@
         if executable('clang++')
             let g:syntastic_cpp_compiler = 'clang++'
             let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
-            let g:syntastic_cpp_include_dirs = ['/usr/local/include',
-                        \'/usr/local/libint/2.1.0-beta2/include',
-                        \'/usr/local/libint/2.1.0-beta2/include/libint2',]
+            let g:syntastic_cpp_include_dirs = ['/usr/local/include', '/usr/local/libint/2.1.0-beta2/include', '/usr/local/libint/2.1.0-beta2/include/libint2',]
         elseif has('unix')
             if execuable('icpc')
                 let g:syntastic_cpp_compiler = 'icpc'
@@ -133,17 +132,17 @@ let g:airline_theme = 'bubblegum'
     let g:airline#extensions#tabline#enabled = 1
     let g:airline_inactive_collapse = 0
     let g:airline_mode_map = {
-        \ '__' : '-',
-        \ 'n'  : 'N',
-        \ 'i'  : 'I',
-        \ 'R'  : 'R',
-        \ 'c'  : 'C',
-        \ 'v'  : 'V',
-        \ 'V'  : 'V',
-        \ '' : 'V',
-        \ 's'  : 'S',
-        \ 'S'  : 'S',
-        \ '' : 'S',
+        \'__': '-',
+        \'n': 'N',
+        \'i': 'I',
+        \'R': 'R',
+        \'c': 'C',
+        \'v': 'V',
+        \'V': 'V',
+        \'': 'V',
+        \'s': 'S',
+        \'S': 'S',
+        \'': 'S',
         \}
     let g:airline#extensions#default#section_truncate_width ={
                 \ 'b': 78,
