@@ -121,14 +121,14 @@ case $hostname in
     ;;
 esac
 
-# python environments 
-if [ -d $HOME/anaconda ]; then
-    export PATH=$HOME/anaconda/bin:$PATH
-else
-    if [-f $HOME/.local/anaconda ]; then
-        export PATH=$HOME/.local/anaconda/bin:$PATH
-    fi
-fi
+# # python environments 
+# if [ -d $HOME/anaconda ]; then
+#     PATH=$HOME/anaconda/bin:$PATH
+# else
+#     if [-f $HOME/.local/anaconda ]; then
+#         PATH=$HOME/.local/anaconda/bin:$PATH
+#     fi
+# fi
 
 export GIT_PROMPT_THEME="Custom"
 
