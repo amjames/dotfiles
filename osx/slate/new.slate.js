@@ -3,8 +3,8 @@
  * Project: http://github.com/lunixbochs/reslate
  */
 S.log('Loading Config .... ');
-S.src('~/Workspace/Git/dotfiles/osx/slate/defines.js');
-S.src('~/Workspace/Git/dotfiles/osx/slate/reslate/reslate.js');
+S.src('~/.slate/defines.js');
+S.src('~/.slate/reslate/reslate.js');
 // enable to see debug messages in Console.app
 $.debug = true;
 
