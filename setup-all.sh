@@ -55,7 +55,8 @@ program_must_exist() {
 
 variable_set() {
     if [ -z "$1" ]; then
-        error "You must have your HOME environmental variable set to continue."
+        echo "${1}"
+        error "You must have your this environmental variable set to continue."
     fi
 }
 
@@ -140,7 +141,7 @@ create_bash_symlinks() {
   lnif "$source_path/git-prompt-colors.sh"   "$target_path/.git-prompt-colors.sh"
 
   ret="$?"
-  sucess "Setting up bash symlinks."
+  success "Setting up bash symlinks."
   debug
 }
 
@@ -149,13 +150,32 @@ create_tmux_symlinks(){
   local target_path="$2"
 
   lnif "$source_path/tmux.conf" "$target_path/.tmux.conf"
+
+  ret="$?"
+  success "Setting up tmux symlinks"
+  debug
 }
 
+create_git_symlinks(){
+  local source_path="$1"
+  local target_path="$2"
+
+  lnif "$source_path/gitconfig" "$target_path/.gitconfig"
+
+  ret="$?"
+  success "Setting up git symlinks"
+  debug
+}
 create_tmuxinator_symlinks(){
   local source_path="$1"
   local target_path="$2"
 
   lnif "$source_path/tmuxinator" "$target_path/.tmuxinator"
+
+  ret="$?"
+  success "Setting up git symlinks"
+  debug
+
 }
 
 setup_vundle() {
@@ -175,29 +195,59 @@ setup_vundle() {
     debug
 }
 
+create_osx_slate_symlinks() {
+  local source_path="$1"
+  local target_path="$2"
+
+  lnif "$source_path/slate.js" "$target_path/.slate.js"
+  lnif "$source_path/slate_dir" "$target_path/.slate"
+}
+
+create_OS_symlinks() {
+  local os_name="$1"
+
+  echo "${PWD}"
+  for dir in $(ls ./${os_name}/); do
+    if [ -d ${os_name}/${dir} ]; then
+      create_${os_name}_${dir}_symlinks "${MY_PATH}/${os_name}/${dir}" \
+                                        "$HOME"
+    fi
+  done
+
+  ret="$?"
+  success "Setting up OS Specific links"
+
+}
+
+########################################################################
+
 sync_repo       "$MY_PATH" \
                 "$REPO_URI" \
                 "$REPO_BRANCH" \
                 "$app_name"
 
 ############################ VIM Setup()
-variable_set "$HOME"
-program_must_exist "vim"
-program_must_exist "git"
+#variable_set "$HOME"
+#program_must_exist "vim"
+#program_must_exist "git"
+#
+#
+#create_vim_symlinks "${MY_PATH}/vim" \
+#                "$HOME"
+#
+#sync_repo       "$HOME/.vim/bundle/vundle" \
+#                "$VUNDLE_URI" \
+#                "master" \
+#                "vundle"
+#
+#setup_vundle    "$APP_PATH/.vimrc.bundles"
 
+sh "${MY_PATH}/vim/setup-vim.sh"
 
-create_vim_symlinks "${MY_PATH}/vim" \
-                "$HOME"
-
-sync_repo       "$HOME/.vim/bundle/vundle" \
-                "$VUNDLE_URI" \
-                "master" \
-                "vundle"
-
-setup_vundle    "$APP_PATH/.vimrc.bundles.default"
+#setup vundle moves us to a new directory
+cd ${MY_PATH}
 
 ############################ Bash Setup()
-varible_set "$SYSNAME"
 
 
 create_bash_symlinks "${MY_PATH}/bash" \
@@ -209,6 +259,13 @@ create_tmux_symlinks "${MY_PATH}/tmux" \
 
 create_tmuxinator_symlinks "${MY_PATH}/tmuxinator" \
                            "$HOME"
+
+create_git_symlinks "${MY_PATH}/git" \
+                    "$HOME"
+
+variable_set "$OSNAME"
+
+create_OS_symlinks "$OSNAME"
 
 
 

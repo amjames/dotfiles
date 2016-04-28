@@ -100,25 +100,25 @@ source ~/.alias
 #for OS dependant things
 case `uname` in
   "Darwin"*)
-    OSTYPE='osx'
+    export OSTYPE='osx'
     ;;
   "Linux"*)
-    OSTYPE='linux'
+    export OSTYPE='linux'
     ;;
 esac
 
 #for system dependant things
 # Set on arc systems but not myown
 if [ -z $SYSNAME ]; then
-  SYSNAME=`hostname`
+  export SYSNAME=`hostname`
 fi
 
 
 #If any of these exist, source them
-if [ -f ~/.${SYSNAME}.bashrc ]; then
+if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
     source ~/.${SYSNAME}.bashrc
 fi
-if [ -f ~/.${SYSNAME}.alias ]; then
+if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
     source ~/.${SYSNAME}.alias
 fi
 
