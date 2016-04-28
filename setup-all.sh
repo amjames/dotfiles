@@ -68,6 +68,16 @@ lnif() {
     debug
 }
 
+lndir() {
+    if [ -e "$1" ]; then
+      ln -s "$(realpath ${1})" "$2"
+    fi
+
+    ret="$?"
+    debug
+
+}
+
 forceln() {
    if [ -e "$1" ]; then
      if [ -e "$2" ]; then
@@ -136,9 +146,19 @@ create_bash_symlinks() {
 
   lnif "$source_path/main.bashrc"            "$target_path/.bashrc"
   lnif "$source_path/main.alias"             "$target_path/.alias"
-  lnif "$source_path/other.alias"            "$target_path/.other.alias"
-  lnif "$source_path/other.bashrc"           "$target_path/.other.bashrc"
   lnif "$source_path/git-prompt-colors.sh"   "$target_path/.git-prompt-colors.sh"
+  if [ -e ${HOME}/.other.alias ]; then
+    if [ -L ${HOME}/.other.alias ]; then
+      rm ${HOME}/.other.alias
+    fi
+  fi
+  if [ -e ${HOME}/.other.bashrc ]; then
+    if [ -L ${HOME}/.other.bashrc ]; then
+      rm ${HOME}/.other.bashrc
+    fi
+  fi
+  ln -s ${PWD}/bash/other.alias   ${HOME}/.other.alias
+  ln -s ${PWD}/bash/other.bashrc  ${HOME}/.other.bashrc
 
   ret="$?"
   success "Setting up bash symlinks."
@@ -166,6 +186,7 @@ create_git_symlinks(){
   success "Setting up git symlinks"
   debug
 }
+
 create_tmuxinator_symlinks(){
   local source_path="$1"
   local target_path="$2"
@@ -173,7 +194,7 @@ create_tmuxinator_symlinks(){
   lnif "$source_path/tmuxinator" "$target_path/.tmuxinator"
 
   ret="$?"
-  success "Setting up git symlinks"
+  success "Setting up tmuxinator symlinks"
   debug
 
 }
@@ -197,20 +218,23 @@ setup_vundle() {
 
 create_osx_slate_symlinks() {
   local source_path="$1"
-  local target_path="$2"
 
-  lnif "$source_path/slate.js" "$target_path/.slate.js"
-  lnif "$source_path/slate_dir" "$target_path/.slate"
+  ln -s ${PWD}/osx/slate/slate.js ${HOME}/.slate.js
+  if [ -e ${HOME}/.slate ]; then
+    if [ -L ${HOME}/.slate ]; then
+      rm ${HOME}/.slate
+    fi
+  fi
+  ln -s ${PWD}/osx/slate/slate_dir ${HOME}/.slate
+
 }
 
 create_OS_symlinks() {
   local os_name="$1"
 
-  echo "${PWD}"
   for dir in $(ls ./${os_name}/); do
     if [ -d ${os_name}/${dir} ]; then
-      create_${os_name}_${dir}_symlinks "${MY_PATH}/${os_name}/${dir}" \
-                                        "$HOME"
+      create_${os_name}_${dir}_symlinks ${HOME}
     fi
   done
 
@@ -242,30 +266,26 @@ sync_repo       "$MY_PATH" \
 #
 #setup_vundle    "$APP_PATH/.vimrc.bundles"
 
-sh "${MY_PATH}/vim/setup-vim.sh"
+#sh "${MY_PATH}/vim/setup-vim.sh"
 
 #setup vundle moves us to a new directory
-cd ${MY_PATH}
+cd $MY_PATH
 
 ############################ Bash Setup()
 
 
-create_bash_symlinks "${MY_PATH}/bash" \
-                     "$HOME"
+create_bash_symlinks "$MY_PATH/bash"  "$HOME"
 
 
-create_tmux_symlinks "${MY_PATH}/tmux" \
-                     "$HOME"
+create_tmux_symlinks "$MY_PATH/tmux" "$HOME"
 
-create_tmuxinator_symlinks "${MY_PATH}/tmuxinator" \
-                           "$HOME"
+create_tmuxinator_symlinks "$MY_PATH/tmuxinator" "$HOME"
 
-create_git_symlinks "${MY_PATH}/git" \
-                    "$HOME"
+create_git_symlinks "$MY_PATH/git" "$HOME"
 
-variable_set "$OSNAME"
+variable_set "$OSTYPE"
 
-create_OS_symlinks "$OSNAME"
+create_OS_symlinks "$OSTYPE"
 
 
 

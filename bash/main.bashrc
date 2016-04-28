@@ -116,10 +116,10 @@ fi
 
 #If any of these exist, source them
 if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
-    source ~/.${SYSNAME}.bashrc
+    source ~/.other.bashrc/${SYSNAME}.bashrc
 fi
 if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
-    source ~/.${SYSNAME}.alias
+    source ~/.other.alias/${SYSNAME}.alias
 fi
 
 
