@@ -3,6 +3,11 @@
 #
 
 [[ $- != *i* ]] && return
+
+############################################################################### 
+#                  SOME USEFUL FUNCTIONS TO START OFF
+
+# SSH agent management
 function start_agent {
     echo "Initializing new ssh agent"
     # spawn ssh-agent
@@ -13,7 +18,7 @@ function start_agent {
     /usr/bin/ssh-add
 }
 
-
+# Compare version with A.B.C (maj.min.patch) versioning scheme 
 function versioncomp () {
     if [[ $1 == $2  ]]; then
         return 0
@@ -46,7 +51,7 @@ function versioncomp () {
     return 0
 }
 
-# personal scripts 
+# Prepend local installs and local scripts to the path
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/scripts:$PATH
 # gem executables
@@ -68,20 +73,15 @@ else
     export EDITOR="/usr/bin/vim"
 fi
 
-#for OS dependant things
-if [ -z $SYSNAME ]; then 
-  SYSNAME=`hostname`
-fi
 
-case `uname` in
-  "Darwin"*)
-    OSTYPE='osx'
-    ;;
 
-  "Linux"*)
-    OSTYPE='linux'
-    ;;
-esac
+# Compiler relevant ENVARs 
+export LOCAL_INC_DIR=$HOME/.local/include
+export GEN_INC_DIR=/usr/local/include
+export GEN_LIB_DIR=/usr/local/lib
+export LOCAL_LIB_DIR=$HOME/.local/lib
+
+
 
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
@@ -89,44 +89,39 @@ test_git_ver=$(versioncomp `git --version | awk '{print $3};'` 1.7.10)
 if [ $test_git_ver==2 ]; then
     export GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh
 fi
-# export EIGEN_INC_DIR=/usr/local/include/eigen3
-# export GEN_INC_DIR=/usr/local/include
- export LOCAL_INC_DIR=$HOME/.local/include
- export GEN_LIB_DIR=/usr/local/lib
- export LOCAL_LIB_DIR=$HOME/.local/lib
-# export LD_LIBRARY_PATH=$GEN_LIB_DIR:$LOCAL_LIB_DIR
-# export CXX_LIB_FLAGS="-L$LOCAL_LIB_DIR -L$GEN_LIB_DIR"
-# export CPLUS_INCLUDE_FLAGS="-I$EIGEN_INC_DIR -I$GEN_INC_DIR -I$LOCAL_INC_DIR"
-# export CPLUS_INCLUDE_PATH=$EIGEN_INC_DIR:$GEN_INC_DIR:$LOCAL_INC_DIR
-# export LIBINT2_PATH=/usr/local/libint/2.1.0-beta2/lib/libint2.a
-# export LIBINT2_INC_PATH=/usr/local/libint/2.1.0-beta2/include/libint2
+if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
+    source $HOME/.local/share/bash-git-prompt/gitprompt.sh
+fi
+export GIT_PROMPT_THEME="Custom"
 
+# General Alias's 
+source ~/.alias
 
-
-case $OSNAME in
-    "linux"*)
-        if [ -f /usr/lib/bash-git-prompt/gitprompt.sh  ]; then
-            source  /usr/lib/bash-git-prompt/gitprompt.sh 
-        else
-            if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
-                source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
-            fi
-        fi
-        ;;
-    "osx"*)
-        if [ -f $HOME/.local/lib/bash-git-prompt/gitprompt.sh  ]; then
-            source $HOME/.local/lib/bash-git-prompt/gitprompt.sh
-            PATH=/Library/Tex/texbin:$PATH
-        fi
-        source ~/.local/.hb_token
-        ;;
+#for OS dependant things
+case `uname` in
+  "Darwin"*)
+    OSTYPE='osx'
+    ;;
+  "Linux"*)
+    OSTYPE='linux'
+    ;;
 esac
 
-source ~/.alias
-source ~/.${SYSNAME}.bashrc
-source ~/.${SYSNAME}.alias
+#for system dependant things
+# Set on arc systems but not myown
+if [ -z $SYSNAME ]; then
+  SYSNAME=`hostname`
+fi
 
-export GIT_PROMPT_THEME="Custom"
+
+#If any of these exist, source them
+if [ -f ~/.${SYSNAME}.bashrc ]; then
+    source ~/.${SYSNAME}.bashrc
+fi
+if [ -f ~/.${SYSNAME}.alias ]; then
+    source ~/.${SYSNAME}.alias
+fi
+
 
 #start the ssh agent
 SSH_ENV=$HOME/.ssh/environemnt
@@ -139,3 +134,5 @@ else
     start_agent;
 fi
 
+#export all path addns @ the end
+export PATH=$PATH

@@ -4,16 +4,6 @@
 
 #aliases are helpful 
 alias vi='vim'
-case $sysname in 
-    "Darwin"*)
-        alias ls='ls -G'
-        alias slateHelp='cat ~/.slate.js'
-        ;;
-    "Linux"*)
-        alias ls='ls --color=always'
-        ;;
-esac
-alias qstatme='qstat -u "amjames2"'
 alias vii='vi input.dat'
 alias vio='vi output.dat'
 alias tfo='tail -f output.dat'
@@ -21,7 +11,6 @@ alias peek='tail -f'
 alias la='ls -a'
 alias alls='ls -al'
 alias ll='ls -l'
-alias sst='showstart'
 alias his='history'
 alias c='clear'
 

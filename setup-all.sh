@@ -134,9 +134,9 @@ create_bash_symlinks() {
   local target_path="$2"
 
   lnif "$source_path/main.bashrc"            "$target_path/.bashrc"
-  lnif "$source_path/${SYSNAME}.bashrc"      "$target_path/.${SYSNAME}.bashrc"
   lnif "$source_path/main.alias"             "$target_path/.alias"
-  lnif "$source_path/${SYSNAME}.alias"       "$target_path/.${SYSNAME}.alias"
+  lnif "$source_path/other.alias"            "$target_path/.other.alias"
+  lnif "$source_path/other.bashrc"           "$target_path/.other.bashrc"
   lnif "$source_path/git-prompt-colors.sh"   "$target_path/.git-prompt-colors.sh"
 
   ret="$?"

@@ -1,0 +1,2 @@
+alias sst='showstart'
+alias qstatme='qstat -u "amjames2"'
