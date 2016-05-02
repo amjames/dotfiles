@@ -156,8 +156,13 @@ setup_fork_mode() {
 setup_vundle() {
     local system_shell="$SHELL"
     export SHELL='/bin/sh'
+    if [ -e /usr/local/bin/vim ]; then 
+      vimexe=/usr/local/bin/vim
+    elif [ -e ${HOME}/.local/bin/vim ]; then
+      vimexe=${HOME}/.local/bin/vim
+    fi
 
-    /usr/local/bin/vim \
+    $vimexe \
         -u "$1" \
         "+set nomore" \
         "+BundleInstall!" \
