@@ -103,9 +103,9 @@ esac
 #for system dependant things
 # Set on arc systems but not myown
 if [ -z $SYSNAME ]; then
-  export SYSNAME=`hostname`
+  SYSNAME=`hostname`
+  export $SYSNAME
 fi
-
 
 #If any of these exist, source them
 if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
