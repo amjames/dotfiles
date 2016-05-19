@@ -103,7 +103,9 @@ esac
 #for system dependant things
 # Set on arc systems but not myown
 if [ -z $SYSNAME ]; then
-  SYSNAME=`hostname`
+  sn=`hostname`
+  SYSNAME=${sn%%.*}
+  echo "SYSNAME = $SYSNAME"
   export $SYSNAME
 fi
 
