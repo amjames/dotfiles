@@ -100,6 +100,12 @@
 " }
 " AJ specific options {
  set complete=.,b,i
+ "   Filetype {
+        autocmd FileType c,cpp imap <expr> <enter> getline('.') =~ '^\s*//' ? '<enter><esc>S' : '<enter>'
+        autocmd FileType c,cpp nnoremap <expr> o getline('.') =~ '^\s*//' ? 'o<esc>S' : 'o'
+        autocmd FileType c,cpp nnoremap <expr> O getline('.') =~ '^\s*//' ? 'O<esc>S' : 'O'
+
+ "   }
 "   Plugins {
 "   syntastic options{
 "       set compiler mac -- clang Linux gcc/intel
