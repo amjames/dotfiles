@@ -108,7 +108,7 @@
             let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
             let g:syntastic_cpp_include_dirs = ['/usr/local/include', '/usr/local/libint/2.1.0-beta2/include', '/usr/local/libint/2.1.0-beta2/include/libint2',]
         elseif has('unix')
-            if execuable('icpc')
+            if executable('icpc')
                 let g:syntastic_cpp_compiler = 'icpc'
                 let g:syntastic_cpp_compiler_options = '-std=c++11'
             else

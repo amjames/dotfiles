@@ -15,4 +15,8 @@
     afetch = fetch -a
 [core]
 	editor = vim
-	excludesfile = /Users/admin/.gitignore_global
+  excludesfile = /Users/admin/.gitignore_global
+#[pull]
+#  rebase = true
+#[branch]
+#	autosetuprebase = always

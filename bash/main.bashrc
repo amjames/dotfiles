@@ -85,13 +85,6 @@ export LOCAL_LIB_DIR=$HOME/.local/lib
 
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
-test_git_ver=$(versioncomp `git --version | awk '{print $3};'` 1.7.10)
-if [ $test_git_ver==2 ]; then
-    export GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh
-fi
-if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
-    source $HOME/.local/share/bash-git-prompt/gitprompt.sh
-fi
 export GIT_PROMPT_THEME="Custom"
 
 # General Alias's 
@@ -110,9 +103,9 @@ esac
 #for system dependant things
 # Set on arc systems but not myown
 if [ -z $SYSNAME ]; then
-  export SYSNAME=`hostname`
+  SYSNAME=`hostname`
+  export $SYSNAME
 fi
-
 
 #If any of these exist, source them
 if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
@@ -134,5 +127,8 @@ else
     start_agent;
 fi
 
+if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
+    source $HOME/.local/share/bash-git-prompt/gitprompt.sh
+fi
 #export all path addns @ the end
 export PATH=$PATH

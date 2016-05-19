@@ -251,20 +251,20 @@ sync_repo       "$MY_PATH" \
                 "$app_name"
 
 ############################ VIM Setup()
-#variable_set "$HOME"
-#program_must_exist "vim"
-#program_must_exist "git"
-#
-#
-#create_vim_symlinks "${MY_PATH}/vim" \
-#                "$HOME"
-#
-#sync_repo       "$HOME/.vim/bundle/vundle" \
-#                "$VUNDLE_URI" \
-#                "master" \
-#                "vundle"
-#
-#setup_vundle    "$APP_PATH/.vimrc.bundles"
+variable_set "$HOME"
+program_must_exist "vim"
+program_must_exist "git"
+
+
+create_vim_symlinks "${MY_PATH}/vim" \
+                "$HOME"
+
+sync_repo       "$HOME/.vim/bundle/vundle" \
+                "$VUNDLE_URI" \
+                "master" \
+                "vundle"
+
+setup_vundle    "$APP_PATH/.vimrc.bundles"
 
 #sh "${MY_PATH}/vim/setup-vim.sh"
 
