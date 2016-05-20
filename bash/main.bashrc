@@ -105,7 +105,6 @@ esac
 if [ -z $SYSNAME ]; then
   sn=`hostname`
   SYSNAME=${sn%%.*}
-  echo "SYSNAME = $SYSNAME"
   export $SYSNAME
 fi
 
