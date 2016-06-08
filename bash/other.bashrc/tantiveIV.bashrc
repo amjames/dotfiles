@@ -8,5 +8,6 @@ source ~/.local/.hb_token
 PATH=$HOME/.local/scripts/osx:$PATH
 # add orion scripts to path
 PATH=$HOME/.local/scripts/orion:$PATH
+source ~/.local/scripts/osx/psi4-alias
 
 
