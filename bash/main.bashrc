@@ -8,14 +8,19 @@
 #                  SOME USEFUL FUNCTIONS TO START OFF
 
 # SSH agent management
-function start_agent {
-    echo "Initializing new ssh agent"
-    # spawn ssh-agent
-    /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-    echo succeeded
-    chmod 600 "${SSH_ENV}"
-    . "${SSH_ENV}" > /dev/null 
-    /usr/bin/ssh-add
+function start_agent () {
+    ps -u $(whoami) | grep ssh-agent &> /dev/null
+    if [ $? -ne 0 ];then
+        echo "Initializing new ssh agent"
+        eval $(ssh-agent)
+        ssh-add
+        echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.agent-profile
+        echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.agent-profile
+    else
+        echo " Found running ssh agent, exporting to env"
+        source ~/.agent-profile
+    fi
+    trap 'ssh-agent -k; exit' 0
 }
 
 # Compare version with A.B.C (maj.min.patch) versioning scheme 
@@ -118,15 +123,7 @@ fi
 
 
 #start the ssh agent
-SSH_ENV=$HOME/.ssh/environemnt
-if [ -f "${SSH_ENV}" ]; then
-    . "${SSH_ENV}" >/dev/null
-    ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ >/dev/null || {
-        start_agent;
-    }
-else
-    start_agent;
-fi
+start_agent
 
 if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
     source $HOME/.local/share/bash-git-prompt/gitprompt.sh
