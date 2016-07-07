@@ -108,6 +108,9 @@
         highlight ColorColumn ctermbg=233
         autocmd  FileType c,cpp,python set colorcolumn=+1,+2,+3,+4,+5
 
+        nnoremap Q q
+        nnoremap q <nop>
+
  "   }
 "   Plugins {
 "   syntastic options{
