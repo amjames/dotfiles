@@ -4,10 +4,14 @@
 
 source ~/.local/.hb_token
 
-# add osx specific paths 
+# add osx specific paths
 PATH=$HOME/.local/scripts/osx:$PATH
 # add orion scripts to path
 PATH=$HOME/.local/scripts/orion:$PATH
-source ~/.local/scripts/osx/psi4-alias
+PATH=$HOME/Softwares/molden5.4/bin:$PATH
+
+export VMDPATH=$HOME/Softwares/VMD/vmd/vmd_MACOSXX86
+
+export MONTAGE=/usr/local/Cellar/imagemagick/6.9.5-0/bin/montage
 
 
