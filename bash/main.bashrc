@@ -9,18 +9,23 @@
 
 # SSH agent management
 function start_agent () {
-    ps -u $(whoami) | grep ssh-agent &> /dev/null
+  $HOME/.local/share/utils/agent_running.py
     if [ $? -ne 0 ];then
         echo "Initializing new ssh agent"
         eval $(ssh-agent)
         ssh-add
-        echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.agent-profile
-        echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.agent-profile
+        echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
+        echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
     else
         echo " Found running ssh agent, exporting to env"
-        source ~/.agent-profile
+        if [ -f ~/.ssh/agent-profile ]; then
+          source ~/.ssh/agent-profile
+        else
+          echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
+          echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
+        fi
     fi
-    trap 'ssh-agent -k; exit' 0
+    trap 'rm ~/.ssh/agent-profile && ssh-agent -k; exit' 0
 }
 
 # Compare version with A.B.C (maj.min.patch) versioning scheme 
@@ -122,8 +127,13 @@ if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
 fi
 
 
-#start the ssh agent
-start_agent
+#start the ssh agent if not a tmux window/shell
+if [ -z $TMUX ]; then
+  echo " not in a tmux sub-shell trying to start ssh-agent"
+  start_agent
+else
+  echo " In a tmux sub-shell assuming the parent has done ssh-agenting "
+fi
 
 if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
     source $HOME/.local/share/bash-git-prompt/gitprompt.sh
