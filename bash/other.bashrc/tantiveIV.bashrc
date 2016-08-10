@@ -4,10 +4,8 @@
 
 source ~/.local/.hb_token
 
-# add osx specific paths
-PATH=$HOME/.local/scripts/osx:$PATH
-# add orion scripts to path
-PATH=$HOME/.local/scripts/orion:$PATH
+# add executable scripts by me 
+PATH=$HOME/.scripts/utils:$PATH
 PATH=$HOME/Softwares/molden5.4/bin:$PATH
 
 export VMDPATH=$HOME/Softwares/VMD/vmd/vmd_MACOSXX86
