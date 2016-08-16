@@ -76,20 +76,20 @@ if [ -d $HOME/.gem/ruby ]; then
 fi
 
 
-# personal vim install 
+# personal vim install
 if [ -f $HOME/.local/bin/vim ]; then
     export EDITOR="${HOME}/.local/bin/vim"
 else
+  if [ -f $HOME/$SYSNAME/.local/bin/vim ]; then
+    export EDITOR="${HOME}/${SYSNAME}/.local/bin/vim"
+  else
     export EDITOR="/usr/bin/vim"
+  fi
 fi
 
 
 
 # Compiler relevant ENVARs 
-export LOCAL_INC_DIR=$HOME/.local/include
-export GEN_INC_DIR=/usr/local/include
-export GEN_LIB_DIR=/usr/local/lib
-export LOCAL_LIB_DIR=$HOME/.local/lib
 
 
 
