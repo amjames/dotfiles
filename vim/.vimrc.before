@@ -169,6 +169,7 @@
         let g:airline_section_c = ''
         let g:airline_section_x = airline#section#create(['%{getcwd()}'])
         let g:airline_section_y = airline#section#create(['%t'])
+        let g:airline_section_warning = ''
     endfunction
     autocmd VimEnter * call AirLineInit()
     autocmd VimEnter * autocmd WinEnter * let w:created=1
