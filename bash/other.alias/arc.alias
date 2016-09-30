@@ -4,3 +4,4 @@
 alias sst='showstart'
 #alias qstatme='qstat -u "amjames2"'
 alias ls='ls --color=always'
+alias workaroundtmuxpberror=":"

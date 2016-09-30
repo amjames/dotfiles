@@ -3,3 +3,4 @@
 alias ls='ls -G'
 alias slateHelp='cat ~/.slate.js'
 alias p4zpvc='~/psi4-dev-installs/optrot_zpvc/bin/psi4'
+alias workaroundtmuxpberror="/usr/local/reattach-to-usr-namespace"
