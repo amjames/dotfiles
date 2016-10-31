@@ -24,6 +24,7 @@ function psi4-debug() {
 }
 export LOCAL_INC_DIR=$HOME/.local/include
 export GEN_INC_DIR=/usr/local/include
+export EIGEN_INCLUDE=/usr/local/include/eigen3
 export GEN_LIB_DIR=/usr/local/lib
 export LOCAL_LIB_DIR=$HOME/.local/lib
 
