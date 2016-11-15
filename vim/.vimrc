@@ -78,6 +78,11 @@
         source ~/.vimrc.bundles
     endif
 " }
+" reload before config to setup plugin prefs {
+    if filereadable(expand("~/.vimrc.before"))
+        source ~/.vimrc.before
+    endif
+" }
 
 " General {
 

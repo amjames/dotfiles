@@ -4,7 +4,7 @@
 module use $HOME/$SYSNAME/modulefiles
 module restore
 
-export GIT_PROMPT_STATUS_COMMAND='gitstatus.sh'
+#export GIT_PROMPT_STATUS_COMMAND='gitstatus.sh'
 # psi4 run debug wrapper
 function psi4-debug() {
   if [ -d $HOME/$SYSNAME/psi4-debug ];then
@@ -28,4 +28,4 @@ function psi4-clean() {
   fi
 }
 # my defalut anaconda environment
-source activate default
+source activate psi4
