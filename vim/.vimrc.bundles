@@ -146,6 +146,7 @@
     " General Programming {
         if count(g:spf13_bundle_groups, 'programming')
             " Pick one of the checksyntax, jslint, or syntastic
+            Bundle 'Chiel92/vim-autoformat'
             Bundle 'scrooloose/syntastic'
             Bundle 'Xuyuanp/nertree-git-plugin'
             Bundle 'tpope/vim-fugitive'
@@ -186,14 +187,6 @@
         endif
     " }
 
-    " PHP {
-        if count(g:spf13_bundle_groups, 'php')
-            Bundle 'spf13/PIV'
-            Bundle 'arnaud-lb/vim-php-namespace'
-            Bundle 'beyondwords/vim-twig'
-        endif
-    " }
-
     " Python {
         if count(g:spf13_bundle_groups, 'python')
             " Pick either python-mode or pyflakes & pydoc
@@ -211,29 +204,6 @@
             Bundle 'pangloss/vim-javascript'
             Bundle 'briancollins/vim-jst'
             Bundle 'kchmck/vim-coffee-script'
-        endif
-    " }
-
-    " Scala {
-        if count(g:spf13_bundle_groups, 'scala')
-            Bundle 'derekwyatt/vim-scala'
-            Bundle 'derekwyatt/vim-sbt'
-            Bundle 'xptemplate'
-        endif
-    " }
-
-    " Haskell {
-        if count(g:spf13_bundle_groups, 'haskell')
-            Bundle 'travitch/hasksyn'
-            Bundle 'dag/vim2hs'
-            Bundle 'Twinside/vim-haskellConceal'
-            Bundle 'Twinside/vim-haskellFold'
-            Bundle 'lukerandall/haskellmode-vim'
-            Bundle 'eagletmt/neco-ghc'
-            Bundle 'eagletmt/ghcmod-vim'
-            Bundle 'Shougo/vimproc.vim'
-            Bundle 'adinapoli/cumino'
-            Bundle 'bitc/vim-hdevtools'
         endif
     " }
 
@@ -256,26 +226,6 @@
         endif
     " }
 
-    " Puppet {
-        if count(g:spf13_bundle_groups, 'puppet')
-            Bundle 'rodjek/vim-puppet'
-        endif
-    " }
-
-    " Go Lang {
-        if count(g:spf13_bundle_groups, 'go')
-            "Bundle 'Blackrush/vim-gocode'
-            Bundle 'fatih/vim-go'
-        endif
-    " }
-
-    " Elixir {
-        if count(g:spf13_bundle_groups, 'elixir')
-            Bundle 'elixir-lang/vim-elixir'
-            Bundle 'carlosgaldino/elixir-snippets'
-            Bundle 'mattreduce/vim-mix'
-        endif
-    " }
 
     " Misc {
         if count(g:spf13_bundle_groups, 'misc')

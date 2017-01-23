@@ -267,6 +267,7 @@
     autocmd FileType haskell,puppet,ruby,yml setlocal expandtab shiftwidth=2 softtabstop=2
     autocmd FileType c,cpp  setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
     " preceding line best in a plugin but here for now.
+    autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=2
     
     "workaround for psi4 input files to be recognized as python"
     autocmd BufNewFile,BufRead input.dat,*.psi4.in,*.in.dat set filetype=python
