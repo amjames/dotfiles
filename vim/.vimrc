@@ -267,10 +267,10 @@
     autocmd FileType haskell,puppet,ruby,yml setlocal expandtab shiftwidth=2 softtabstop=2
     autocmd FileType c,cpp  setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
     " preceding line best in a plugin but here for now.
-    autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=2
+    autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=2 foldmethod=syntax
     
     "workaround for psi4 input files to be recognized as python"
-    autocmd BufNewFile,BufRead input.dat,*.psi4.in,*.in.dat set filetype=python
+    autocmd BufNewFile,BufRead input.dat,*.psi4.in,*.in.dat, *.py set filetype=python
     "hacks for re-seting file type specific options
     autocmd BufNewFile,BufRead *.c set filetype=c
     autocmd BufNewFile,BufRead *.cpp,*.cc,*.h,*.hpp set filetype=cpp
@@ -509,13 +509,6 @@ noremap  <Right> <nop>
         endif
     " }
 
-    " PIV {
-        if isdirectory(expand("~/.vim/bundle/PIV"))
-            let g:DisableAutoPHPFolding = 0
-            let g:PIVAutoClose = 0
-        endif
-    " }
-
     " Misc {
         if isdirectory(expand("~/.vim/bundle/nerdtree"))
             let g:NERDShutUp=1
@@ -570,12 +563,6 @@ noremap  <Right> <nop>
         " Make it so AutoCloseTag works for xml and xhtml files as well
         au FileType xhtml,xml ru ftplugin/html/autoclosetag.vim
         nmap <Leader>ac <Plug>ToggleAutoCloseMappings
-    " }
-
-    " SnipMate {
-        " Setting the author var
-        " If forking, please overwrite in your .vimrc.local file
-        let g:snips_author = 'Steve Francia <steve.francia@gmail.com>'
     " }
 
     " NerdTree {
@@ -1061,8 +1048,6 @@ noremap  <Right> <nop>
             endif
         endif
     " }
-
-" }
 
 " GUI Settings {
 
