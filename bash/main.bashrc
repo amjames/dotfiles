@@ -21,8 +21,9 @@ function start_agent () {
         if [ -f ~/.ssh/agent-profile ]; then
           source ~/.ssh/agent-profile
         else
-          echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
-          echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
+          echo "did not work"
+          # echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
+          # echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
         fi
     fi
     trap 'rm ~/.ssh/agent-profile && ssh-agent -k; exit' 0
@@ -98,7 +99,6 @@ export GIT_PROMPT_SHOW_UPSTREAM=1
 export GIT_PROMPT_THEME="Custom"
 
 # General Alias's 
-source ~/.alias
 
 #for OS dependant things
 case `uname` in
@@ -122,6 +122,7 @@ fi
 if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
     source ~/.other.bashrc/${SYSNAME}.bashrc
 fi
+source ~/.alias
 if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
     source ~/.other.alias/${SYSNAME}.alias
 fi
