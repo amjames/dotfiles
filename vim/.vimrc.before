@@ -20,161 +20,162 @@
 " }
 
 " spf13 options {
-    set nocompatible
-    let g:html_indent_script1="auto"
-    " Prevent automatically changing to open file directory
-    "   let g:spf13_no_autochdir = 1
+set nocompatible
+let g:html_indent_script1="auto"
+" Prevent automatically changing to open file directory
+"   let g:spf13_no_autochdir = 1
 
-    " Disable views
-    "   let g:spf13_no_views = 1
+" Disable views
+"   let g:spf13_no_views = 1
 
-    " Leader keys
-    "   let g:spf13_leader='\'
-    "   let g:spf13_localleader='_'
+" Leader keys
+"   let g:spf13_leader='\'
+"   let g:spf13_localleader='_'
 
-    " Disable easier moving in tabs and windows
-    "   let g:spf13_no_easyWindows = 1
+" Disable easier moving in tabs and windows
+"   let g:spf13_no_easyWindows = 1
 
-    " Disable wrap relative motion for start/end line motions
-    "   let g:spf13_no_wrapRelMotion = 1
+" Disable wrap relative motion for start/end line motions
+"   let g:spf13_no_wrapRelMotion = 1
 
-    " Disable fast tab navigation
-    "   let g:spf13_no_fastTabs = 1
+" Disable fast tab navigation
+"   let g:spf13_no_fastTabs = 1
 
-    " Clear search highlighting
-      let g:spf13_clear_search_highlight = 1
+" Clear search highlighting
+let g:spf13_clear_search_highlight = 1
 
-    " Disable neosnippet expansion
-    " This maps over <C-k> and does some Supertab
-    " emulation with snippets
-    "   let g:spf13_no_neosnippet_expand = 1
+" Disable neosnippet expansion
+" This maps over <C-k> and does some Supertab
+" emulation with snippets
+"   let g:spf13_no_neosnippet_expand = 1
 
-    " Disable whitespace stripping
-    "   let g:spf13_keep_trailing_whitespace = 1
+" Disable whitespace stripping
+"   let g:spf13_keep_trailing_whitespace = 1
 
-    " Enable powerline symbols
-    "  let g:airline_powerline_fonts = 1
+" Enable powerline symbols
+"  let g:airline_powerline_fonts = 1
 
-    " vim files directory
-    "   let g:spf13_consolidated_directory = <full path to desired directory>
-    "   eg: let g:spf13_consolidated_directory = $HOME . '/.vim/'
+" vim files directory
+"   let g:spf13_consolidated_directory = <full path to desired directory>
+"   eg: let g:spf13_consolidated_directory = $HOME . '/.vim/'
 
-    " This makes the completion popup strictly passive.
-    " Keypresses acts normally. <ESC> takes you of insert mode, words don't
-    " automatically complete, pressing <CR> inserts a newline, etc. Iff the
-    " menu is open, tab will cycle through it. If a snippet is selected, <C-k>
-    " expands it and jumps between fields.
-      let g:spf13_noninvasive_completion = 1
+" This makes the completion popup strictly passive.
+" Keypresses acts normally. <ESC> takes you of insert mode, words don't
+" automatically complete, pressing <CR> inserts a newline, etc. Iff the
+" menu is open, tab will cycle through it. If a snippet is selected, <C-k>
+" expands it and jumps between fields.
+let g:spf13_noninvasive_completion = 1
 
-    " Don't turn conceallevel or concealcursor
-      let g:spf13_no_conceal = 1
+" Don't turn conceallevel or concealcursor
+let g:spf13_no_conceal = 1
 
-    " For some colorschemes, autocolor will not work (eg: 'desert', 'ir_black')
-    " Indent guides will attempt to set your colors smartly. If you
-    " want to control them yourself, do it here.
-      let g:indent_guides_auto_colors = 0
-      autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#212121 ctermbg=236
-      autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#404040 ctermbg=234
-      let g:indent_guides_color_change_percent = 30
+" For some colorschemes, autocolor will not work (eg: 'desert', 'ir_black')
+" Indent guides will attempt to set your colors smartly. If you
+" want to control them yourself, do it here.
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#212121 ctermbg=236
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#404040 ctermbg=234
+let g:indent_guides_color_change_percent = 30
 
-    " Leave the default font and size in GVim
-    " To set your own font, do it from ~/.vimrc.local
-    "   let g:spf13_no_big_font = 1
+" Leave the default font and size in GVim
+" To set your own font, do it from ~/.vimrc.local
+"   let g:spf13_no_big_font = 1
 
-    " Disable  omni complete
-    "   let g:spf13_no_omni_complete = 1
+" Disable  omni complete
+"   let g:spf13_no_omni_complete = 1
 
-    " Don't create default mappings for multicursors
-    " See :help multiple-cursors-mappings
-    "   let g:multi_cursor_use_default_mapping=0
-    "   let g:multi_cursor_next_key='<C-n>'
-    "   let g:multi_cursor_prev_key='<C-p>'
-    "   let g:multi_cursor_skip_key='<C-x>'
-    "   let g:multi_cursor_quit_key='<Esc>'
-    " Require a special keypress to enter multiple cursors mode
-    "   let g:multi_cursor_start_key='+'
+" Don't create default mappings for multicursors
+" See :help multiple-cursors-mappings
+"   let g:multi_cursor_use_default_mapping=0
+"   let g:multi_cursor_next_key='<C-n>'
+"   let g:multi_cursor_prev_key='<C-p>'
+"   let g:multi_cursor_skip_key='<C-x>'
+"   let g:multi_cursor_quit_key='<Esc>'
+" Require a special keypress to enter multiple cursors mode
+"   let g:multi_cursor_start_key='+'
 
-    " Mappings for editing/applying spf13 config
-    let g:spf13_edit_config_mapping='<leader>ev'
-    let g:spf13_apply_config_mapping='<leader>sv'
-    
+" Mappings for editing/applying spf13 config
+let g:spf13_edit_config_mapping='<leader>ev'
+let g:spf13_apply_config_mapping='<leader>sv'
+
 " }
 " AJ specific options {
- set complete=.,b,i
- "   Filetype {
-        autocmd FileType c,cpp,python setlocal tw=98
-        autocmd FileType c,cpp imap <expr> <enter> getline('.') =~ '^\s*//' ? '<enter><esc>S' : '<enter>'
-        autocmd FileType c,cpp nnoremap <expr> o getline('.') =~ '^\s*//' ? 'o<esc>S' : 'o'
-        autocmd FileType c,cpp nnoremap <expr> O getline('.') =~ '^\s*//' ? 'O<esc>S' : 'O'
-        highlight ColorColumn ctermbg=233
-        autocmd  FileType c,cpp,python set colorcolumn=+1,+2,+3,+4,+5
+set complete=.,b,i
+"   Filetype {
+autocmd FileType python setlocal tw=80
+autocmd FileType c,cpp setlocal tw=120
+autocmd FileType c,cpp imap <expr> <enter> getline('.') =~ '^\s*//' ? '<enter><esc>S' : '<enter>'
+autocmd FileType c,cpp nnoremap <expr> o getline('.') =~ '^\s*//' ? 'o<esc>S' : 'o'
+autocmd FileType c,cpp nnoremap <expr> O getline('.') =~ '^\s*//' ? 'O<esc>S' : 'O'
+highlight ColorColumn ctermbg=233
+autocmd  FileType c,cpp,python set colorcolumn=+1,+2,+3,+4,+5
 
-        nnoremap Q q
-        nnoremap q <nop>
+nnoremap Q q
+nnoremap q <nop>
 
- "   }
+"   }
 "   Plugins {
 "   syntastic options{
 "       set compiler mac -- clang Linux gcc/intel
-        if executable('clang++')
-            let g:syntastic_cpp_compiler = 'clang++'
-            let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
-            let g:syntastic_cpp_include_dirs = ['/usr/local/include', '/usr/local/libint/2.1.0-beta2/include', '/usr/local/libint/2.1.0-beta2/include/libint2',]
-        elseif has('unix')
-            if executable('icpc')
-                let g:syntastic_cpp_compiler = 'icpc'
-                let g:syntastic_cpp_compiler_options = '-std=c++11'
-            else
-                let g:syntastic_cpp_compiler = 'g++'
-                let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
-            endif
-        endif
-        let g:syntastic_cpp_check_header = 1
-        "let g:syntastic_check_on_open = 1
-        let g:syntastic_check_on_w = 1
-        let g:syntastic_check_on_wq = 0
-        let g:syntastic_always_populate_loc_list = 1
-        let g:syntastic_enable_signs = 1
-        let g:syntastic_error_symbol = "✗"
-        let g:syntastic_warning_symbol = "⚠"
-        let g:syntastic_enable_highlighting = 1
+if executable('clang++')
+    let g:syntastic_cpp_compiler = 'clang++'
+    let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
+    let g:syntastic_cpp_include_dirs = ['/usr/local/include', '/usr/local/libint/2.1.0-beta2/include', '/usr/local/libint/2.1.0-beta2/include/libint2',]
+elseif has('unix')
+    if executable('icpc')
+        let g:syntastic_cpp_compiler = 'icpc'
+        let g:syntastic_cpp_compiler_options = '-std=c++11'
+    else
+        let g:syntastic_cpp_compiler = 'g++'
+        let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
+    endif
+endif
+let g:syntastic_cpp_check_header = 1
+"let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_w = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_enable_signs = 1
+let g:syntastic_error_symbol = "✗"
+let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_enable_highlighting = 1
 
 "}
 "   Airline {
-    let g:airline_theme = 'bubblegum'
-    let g:airline#extensions#tabline#enabled = 1
-    let g:airline_inactive_collapse = 0
-    let g:airline_mode_map = {
-        \'__': '-',
-        \'n': 'N',
-        \'i': 'I',
-        \'R': 'R',
-        \'c': 'C',
-        \'v': 'V',
-        \'V': 'V',
-        \'': 'V',
-        \'s': 'S',
-        \'S': 'S',
-        \'': 'S',
-        \}
-    let g:airline#extensions#default#section_truncate_width ={
-                \ 'b': 78,
-                \ 'c': 45,
-                \ 'x': 89,
-                \ 'y': 25,
-                \ 'z': 45,
-                \ 'warning': 88
-                \}
-    function! AirLineInit()
-        let g:airline_section_a = airline#section#create(['mode'])
-        let g:airline_section_c = ''
-        let g:airline_section_x = airline#section#create(['%{getcwd()}'])
-        let g:airline_section_y = airline#section#create(['%t'])
-        let g:airline_section_warning = ''
-    endfunction
-    autocmd VimEnter * call AirLineInit()
-    autocmd VimEnter * autocmd WinEnter * let w:created=1
-    autocmd WinEnter * if !exists('w:created') | :AirlineRefresh | endif
+let g:airline_theme = 'bubblegum'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_inactive_collapse = 0
+let g:airline_mode_map = {
+            \'__': '-',
+            \'n': 'N',
+            \'i': 'I',
+            \'R': 'R',
+            \'c': 'C',
+            \'v': 'V',
+            \'V': 'V',
+            \'': 'V',
+            \'s': 'S',
+            \'S': 'S',
+            \'': 'S',
+            \}
+let g:airline#extensions#default#section_truncate_width ={
+            \ 'b': 78,
+            \ 'c': 45,
+            \ 'x': 89,
+            \ 'y': 25,
+            \ 'z': 45,
+            \ 'warning': 88
+            \}
+function! AirLineInit()
+    let g:airline_section_a = airline#section#create(['mode'])
+    let g:airline_section_c = ''
+    let g:airline_section_x = airline#section#create(['%{getcwd()}'])
+    let g:airline_section_y = airline#section#create(['%t'])
+    let g:airline_section_warning = ''
+endfunction
+autocmd VimEnter * call AirLineInit()
+autocmd VimEnter * autocmd WinEnter * let w:created=1
+autocmd WinEnter * if !exists('w:created') | :AirlineRefresh | endif
 
 
 "
@@ -202,8 +203,11 @@ let g:tagbar_autofocus=1
 "
 "   }
 "   Autoformat {
-    au BufWrite * :Autoformat
-    noremap <F2> :Autoformat<CR>
+" au BufWrite * :Autoformat
+let g:formatter_yapf_style = 'google'
+let g:formatdef_yapf = "'yapf --style=' . g:formatter_yapf_style . ' -l ' . a:firstline . '-' . a:lastline"
+let g:formatters_python = ['yapf']
+noremap <F2> :Autoformat<CR>
 
 
 "   }
@@ -211,13 +215,13 @@ let g:tagbar_autofocus=1
 "   }
 " }
 " Use fork before if available {
-    if filereadable(expand("~/.vimrc.before.fork"))
-        source ~/.vimrc.before.fork
-    endif
+if filereadable(expand("~/.vimrc.before.fork"))
+    source ~/.vimrc.before.fork
+endif
 " }
 
 " Use local before if available {
-    if filereadable(expand("~/.vimrc.before.local"))
-        source ~/.vimrc.before.local
-    endif
+if filereadable(expand("~/.vimrc.before.local"))
+    source ~/.vimrc.before.local
+endif
 " }

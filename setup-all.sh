@@ -7,80 +7,82 @@ app_name='dotfiles'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
 [ -z "$VUNDLE_URI" ] && VUNDLE_URI="https://github.com/gmarik/vundle.git"
+[ -z "$VIM_EXE" ] && VIM_EXE=$(which vim)
+[ -z "$1" ] && update_mode='1' || update_mode='0'
 
 
 
 ############################  BASIC SETUP TOOLS
 msg() {
-    printf '%b\n' "$1" >&2
+  printf '%b\n' "$1" >&2
 }
 
 success() {
-    if [ "$ret" -eq '0' ]; then
-        msg "\33[32m[✔]\33[0m ${1}${2}"
-    fi
+  if [ "$ret" -eq '0' ]; then
+    msg "\33[32m[✔]\33[0m ${1}${2}"
+  fi
 }
 
 error() {
-    msg "\33[31m[✘]\33[0m ${1}${2}"
-    exit 1
+  msg "\33[31m[✘]\33[0m ${1}${2}"
+  exit 1
 }
 
 debug() {
-    if [ "$debug_mode" -eq '1' ] && [ "$ret" -gt '1' ]; then
+  if [ "$debug_mode" -eq '1' ] && [ "$ret" -gt '1' ]; then
     msg "An error occurred in function \"${FUNCNAME[$i+1]}\" on line ${BASH_LINENO[$i+1]}, we're sorry for that."
-      fi
-  }
+  fi
+}
 
-  program_exists() {
-      local ret='0'
-      command -v $1 >/dev/null 2>&1 || { local ret='1'; }
+program_exists() {
+  local ret='0'
+  command -v $1 >/dev/null 2>&1 || { local ret='1'; }
 
-    # fail on non-zero return value
-    if [ "$ret" -ne 0 ]; then
-        return 1
-    fi
+  # fail on non-zero return value
+  if [ "$ret" -ne 0 ]; then
+    return 1
+  fi
 
-    return 0
+  return 0
 }
 
 program_must_exist() {
-    program_exists $1
+  program_exists $1
 
-    # throw error on non-zero return value
-    if [ "$?" -ne 0 ]; then
-        error "You must have '$1' installed to continue."
-    fi
+  # throw error on non-zero return value
+  if [ "$?" -ne 0 ]; then
+    error "You must have '$1' installed to continue."
+  fi
 }
 
 variable_set() {
-    if [ -z "$1" ]; then
-        echo "${1}"
-        error "You must have your this environmental variable set to continue."
-    fi
+  if [ -z "$1" ]; then
+    echo "${1}"
+    error "You must have your this environmental variable set to continue."
+  fi
 }
 
 lnif() {
-    if [ -e "$1" ]; then
-        ln -sf "$1" "$2"
-    fi
-    ret="$?"
-    debug
+  if [ -e "$1" ]; then
+    ln -sf "$1" "$2"
+  fi
+  ret="$?"
+  debug
 }
 
 lndir() {
-    if [ -e "$1" ]; then
-      ln -s "$(realpath ${1})" "$2"
-    fi
+  if [ -e "$1" ]; then
+    ln -s "$(readlink ${1})" "$2"
+  fi
 
-    ret="$?"
-    debug
+  ret="$?"
+  debug
 
 }
 
 forceln() {
-   if [ -e "$1" ]; then
-     if [ -e "$2" ]; then
+  if [ -e "$1" ]; then
+    if [ -e "$2" ]; then
       rm "$2"
     fi
     ln -sf "$1" "$2"
@@ -92,52 +94,64 @@ forceln() {
 ############################ SETUP FUNCTIONS
 
 do_backup() {
-    if [ -e "$1" ] || [ -e "$2" ] || [ -e "$3" ]; then
-        msg "Attempting to back up your original vim configuration."
-        today=`date +%Y%m%d_%s`
-        for i in "$1" "$2" "$3"; do
-            [ -e "$i" ] && [ ! -L "$i" ] && mv -v "$i" "$i.$today";
-        done
-        ret="$?"
-        success "Your original vim configuration has been backed up."
-        debug
-   fi
+  if [ -e "$1" ] || [ -e "$2" ] || [ -e "$3" ]; then
+    msg "Attempting to back up your original vim configuration."
+    today=`date +%Y%m%d_%s`
+    for i in "$1" "$2" "$3"; do
+      [ -e "$i" ] && [ ! -L "$i" ] && mv -v "$i" "$i.$today";
+    done
+    ret="$?"
+    success "Your original vim configuration has been backed up."
+    debug
+  fi
+}
+
+clone_repo(){
+  local repo_path="$1"
+  local repo_uri="$2"
+  local repo_branch="$2"
+  if [ ! -e $repo_path ]; then
+    git clone -b "$repo_branch" "$repo_uri" "$repo_path"
+    ret="$?"
+    success "Successfully cloned $repo_name."
+  else
+    success "No clone needed for $repo_name."
+  fi
 }
 
 sync_repo() {
-    local repo_path="$1"
-    local repo_uri="$2"
-    local repo_branch="$3"
-    local repo_name="$4"
+  local working_dir=`pwd`
+  local repo_path="$1"
+  local repo_branch="$2"
+  local remote_name="$3"
+  local repo_name="$4"
+  local pop=true
 
-    msg "Trying to update $repo_name"
-
-    if [ ! -e "$repo_path" ]; then
-        mkdir -p "$repo_path"
-        git clone -b "$repo_branch" "$repo_uri" "$repo_path"
-        ret="$?"
-        success "Successfully cloned $repo_name."
-    else
-        cd "$repo_path" && git pull origin "$repo_branch"
-        ret="$?"
-        success "Successfully updated $repo_name"
-    fi
-
-    debug
+  msg "Trying to update $repo_name"
+  if [ ! -e "$repo_path" ]; then
+    error "Repository '$repo_name' could not be updated, because it does not exist"
+  fi
+  cd "$repo_path"
+  [ "$(git status --porcelain | wc | awk '{print $1}')" -gt 0 ] && git stash || local pop=false
+  git pull --ff-only "$remote_name" "$repo_branch"
+  ret="$?"
+  success "Successfully updated $repo_name"
+  $pop && git stash pop
+  debug
 }
 
 create_vim_symlinks() {
-    local source_path="$1"
-    local target_path="$2"
+  local source_path="$1"
+  local target_path="$2"
 
-    lnif "$source_path/.vimrc"         "$target_path/.vimrc"
-    lnif "$source_path/.vimrc.bundles" "$target_path/.vimrc.bundles"
-    lnif "$source_path/.vimrc.before"  "$target_path/.vimrc.before"
-    lnif "$source_path/.vim"           "$target_path/.vim"
+  lnif "$source_path/.vimrc"         "$target_path/.vimrc"
+  lnif "$source_path/.vimrc.bundles" "$target_path/.vimrc.bundles"
+  lnif "$source_path/.vimrc.before"  "$target_path/.vimrc.before"
+  lnif "$source_path/.vim"           "$target_path/.vim"
 
-    ret="$?"
-    success "Setting up vim symlinks."
-    debug
+  ret="$?"
+  success "Setting up vim symlinks."
+  debug
 }
 
 create_bash_symlinks() {
@@ -157,8 +171,8 @@ create_bash_symlinks() {
       rm ${HOME}/.other.bashrc
     fi
   fi
-  ln -s ${PWD}/bash/other.alias   ${HOME}/.other.alias
-  ln -s ${PWD}/bash/other.bashrc  ${HOME}/.other.bashrc
+  ln -s "$source_path/other.alias"   "$target_path/.other.alias"
+  ln -s "$source_path/other.bashrc"  "$target_path/.other.bashrc"
 
   ret="$?"
   success "Setting up bash symlinks."
@@ -200,20 +214,20 @@ create_tmuxinator_symlinks(){
 }
 
 setup_vundle() {
-    local system_shell="$SHELL"
-    export SHELL='/bin/sh'
+  local system_shell="$SHELL"
+  export SHELL='/bin/sh'
 
-    ${HOME}.local/bin/vim \
-        -u "$1" \
-        "+set nomore" \
-        "+BundleInstall!" \
-        "+BundleClean" \
-        "+qall"
+  ${VIM_EXE} \
+    -u "$1" \
+    "+set nomore" \
+    "+BundleInstall!" \
+    "+BundleClean" \
+    "+qall"
 
-    export SHELL="$system_shell"
+  export SHELL="$system_shell"
 
-    success "Now updating/installing plugins using Vundle"
-    debug
+  success "Now updating/installing plugins using Vundle"
+  debug
 }
 
 create_osx_slate_symlinks() {
@@ -245,10 +259,11 @@ create_OS_symlinks() {
 
 ########################################################################
 
+echo "Syncing Repository"
 sync_repo       "$MY_PATH" \
-                "$REPO_URI" \
-                "$REPO_BRANCH" \
-                "$app_name"
+  "$REPO_URI" \
+  "$REPO_BRANCH" \
+  "$app_name"
 
 ############################ VIM Setup()
 variable_set "$HOME"
@@ -256,17 +271,13 @@ program_must_exist "vim"
 program_must_exist "git"
 
 
-create_vim_symlinks "${MY_PATH}/vim" \
-                "$HOME"
+[ "$update_mode" -eq '0' ] && create_vim_symlinks "${MY_PATH}/vim" "$HOME" \
+  || echo " Not making vim symlinks ..."
 
-sync_repo       "$HOME/.vim/bundle/vundle" \
-                "$VUNDLE_URI" \
-                "master" \
-                "vundle"
+sync_repo "$HOME/.vim/bundle/vundle" "$VUNDLE_URI" "master" "vundle"
 
 setup_vundle    "$APP_PATH/.vimrc.bundles"
-
-#sh "${MY_PATH}/vim/setup-vim.sh"
+[ "$update_mode" -eq '0' ] && sync_repo "$HOME/.vim/bundle/vundle" "$VUNDLE_URI" "master" "vundle" || echo "Not updating vundle"
 
 #setup vundle moves us to a new directory
 cd $MY_PATH
