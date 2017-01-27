@@ -1,6 +1,5 @@
-# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh: 
+# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 
 alias ls='ls -G'
 alias slateHelp='cat ~/.slate.js'
-alias p4zpvc='~/psi4-dev-installs/optrot_zpvc/bin/psi4'
 alias workaroundtmuxpberror="/usr/local/reattach-to-usr-namespace"

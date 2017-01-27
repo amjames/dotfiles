@@ -1,4 +1,3 @@
 # vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 
-alias sst='showstart'
-alias workaroundtmuxpberror=":"
+source ~/.other.bashrc/arc.bashrc
