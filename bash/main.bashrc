@@ -7,25 +7,38 @@
 ###############################################################################
 #                  SOME USEFUL FUNCTIONS TO START OFF
 # SSH agent management
-function start_agent () {
-  $HOME/.local/share/utils/agent_running.py
-  if [ $? -ne 0 ];then
-    echo "Initializing new ssh agent"
-    eval $(ssh-agent)
-    ssh-add
-    echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
-    echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
+function get_agent_profile () {
+  if [ -f $HOME/.ssh/$SYSNAME.agent-profile ]; then
+    echo " Found agent profile file... contents are"
+    cat $HOME/.ssh/$SYSNAME.agent-profile
+    source $HOME/.ssh/$SYSNAME.agent-profile
   else
-    echo " Found running ssh agent, exporting to env"
-    if [ -f ~/.ssh/agent-profile ]; then
-      source ~/.ssh/agent-profile
-    else
-      echo "did not work"
-      # echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/agent-profile
-      # echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/agent-profile
-    fi
+    echo "No agent profile file found for ${SYSNAME}"
   fi
-  trap 'rm ~/.ssh/agent-profile && ssh-agent -k; exit' 0
+}
+
+function check_agent () {
+  echo "checking SSH_AGENT_PID is running?"
+  ps -p $SSH_AGENT_PID
+  local ret=$?
+  if [[ $ret -ne '0' ]]; then
+    echo "no, removing stale profile"
+    rm $HOME/.ssh/$SYSNAME.agent-profile
+    start_agent
+  else
+    echo " it is still working adding identity"
+    ssh-add
+    return 0
+  fi
+}
+
+function start_agent () {
+  echo "starting new ssh-agent"
+  eval $(ssh-agent)
+  ssh-add
+  echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/${SYSNAME}.agent-profile
+  echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/${SYSNAME}.agent-profile
+  echo "export SSH_AGENT_STARTER_ID=$$" >> ~/.ssh/${SYSNAME}.agent-profile
 }
 
 # Compare version with A.B.C (maj.min.patch) versioning scheme
@@ -130,7 +143,8 @@ fi
 #start the ssh agent if not a tmux window/shell
 if [ -z $TMUX ]; then
   echo " not in a tmux sub-shell trying to start ssh-agent"
-  start_agent
+  get_agent_profile
+  check_agent
 else
   echo " In a tmux sub-shell assuming the parent has done ssh-agenting "
 fi
