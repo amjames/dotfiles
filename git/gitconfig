@@ -1,6 +1,7 @@
 [user]
 	name = Andrew M. James
 	email = amjames2@vt.edu
+	signingkey = 26EA2DE28DD52690
 [push]
 	default = tracking
 [color]
@@ -10,13 +11,12 @@
 	smudge = git lfs smudge %f
 	required = true
 [alias]
-    gstat = status
+    stat = status
     plog = log --oneline --graph --decorate
     afetch = fetch -a
+    reup = pull --rebase upstream master
 [core]
 	editor = vim
   excludesfile = /Users/admin/.gitignore_global
-#[pull]
-#  rebase = true
-#[branch]
-#	autosetuprebase = always
+[commit]
+	gpgsign = true
