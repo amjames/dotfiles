@@ -2,6 +2,40 @@
 
 # Homebrew Github Token
 
+function get_agent_profile () {
+  if [ -f $HOME/.ssh/$SYSNAME.agent-profile ]; then
+    echo " Found agent profile file... contents are"
+    cat $HOME/.ssh/$SYSNAME.agent-profile
+    source $HOME/.ssh/$SYSNAME.agent-profile
+  else
+    echo "No agent profile file found for ${SYSNAME}"
+  fi
+}
+
+function check_agent () {
+  echo "checking SSH_AGENT_PID is running?"
+  ps -p $SSH_AGENT_PID
+  local ret=$?
+  if [[ $ret -ne '0' ]]; then
+    echo "no, removing stale profile"
+    rm $HOME/.ssh/$SYSNAME.agent-profile
+    start_agent
+  else
+    echo " it is still working adding identity"
+    ssh-add
+    return 0
+  fi
+}
+
+function start_agent () {
+  echo "starting new ssh-agent"
+  eval $(ssh-agent)
+  ssh-add
+  echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/${SYSNAME}.agent-profile
+  echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/${SYSNAME}.agent-profile
+  echo "export SSH_AGENT_STARTER_ID=$$" >> ~/.ssh/${SYSNAME}.agent-profile
+}
+
 source ~/.local/.hb_token
 
 # add executable scripts by me 

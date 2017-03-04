@@ -7,40 +7,6 @@
 ###############################################################################
 #                  SOME USEFUL FUNCTIONS TO START OFF
 # SSH agent management
-function get_agent_profile () {
-  if [ -f $HOME/.ssh/$SYSNAME.agent-profile ]; then
-    echo " Found agent profile file... contents are"
-    cat $HOME/.ssh/$SYSNAME.agent-profile
-    source $HOME/.ssh/$SYSNAME.agent-profile
-  else
-    echo "No agent profile file found for ${SYSNAME}"
-  fi
-}
-
-function check_agent () {
-  echo "checking SSH_AGENT_PID is running?"
-  ps -p $SSH_AGENT_PID
-  local ret=$?
-  if [[ $ret -ne '0' ]]; then
-    echo "no, removing stale profile"
-    rm $HOME/.ssh/$SYSNAME.agent-profile
-    start_agent
-  else
-    echo " it is still working adding identity"
-    ssh-add
-    return 0
-  fi
-}
-
-function start_agent () {
-  echo "starting new ssh-agent"
-  eval $(ssh-agent)
-  ssh-add
-  echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/${SYSNAME}.agent-profile
-  echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/${SYSNAME}.agent-profile
-  echo "export SSH_AGENT_STARTER_ID=$$" >> ~/.ssh/${SYSNAME}.agent-profile
-}
-
 # Compare version with A.B.C (maj.min.patch) versioning scheme
 function versioncomp () {
   if [[ $1 == $2  ]]; then
@@ -99,13 +65,6 @@ else
     export EDITOR="/usr/bin/vim"
   fi
 fi
-
-
-
-# Compiler relevant ENVARs
-
-
-
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
 export GIT_PROMPT_THEME="Custom"
@@ -141,7 +100,6 @@ fi
 
 #start the ssh agent if not a tmux window/shell
 if [ -z $TMUX ]; then
-  echo " not in a tmux sub-shell trying to start ssh-agent"
   get_agent_profile
   check_agent
 else
