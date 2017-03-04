@@ -126,8 +126,7 @@ esac
 # Set on arc systems but not myown
 if [ -z $SYSNAME ]; then
   sn=`hostname`
-  SYSNAME=${sn%%.*}
-  export $SYSNAME
+  export SYSNAME=${sn%%.*}
 fi
 
 #If any of these exist, source them
