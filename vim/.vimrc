@@ -103,7 +103,7 @@ noremap <leader>bg :call ToggleBG()<CR>
 " if !has('gui')
 "set term=$TERM          " Make arrow and other keys work
 " endif
-filetype plugin indent on   " Automatically detect file types.
+filetype plugin indent on   " Alutomatically detect file types.
 syntax on                   " Syntax highlighting
 "set mouse=a                 " Automatically enable mouse usage
 set mousehide               " Hide the mouse cursor while typing
@@ -133,9 +133,9 @@ set virtualedit=onemore             " Allow for cursor beyond last character
 set history=1000                    " Store a ton of history (default is 20)
 set spell                           " Spell checking on
 set hidden                          " Allow buffer switching without saving
-set iskeyword-=.                    " '.' is an end of word designator
+"set iskeyword-=.                    " '.' is an end of word designator
 set iskeyword-=#                    " '#' is an end of word designator
-set iskeyword-=-                    " '-' is an end of word designator
+"set iskeyword-=-                    " '-' is an end of word designator
 
 " Instead of reverting the cursor to the last position in the buffer, we
 " set it to the first line when editing a git commit message
@@ -233,7 +233,7 @@ set wildmenu                    " Show list instead of just completing
 set wildmode=list:longest,full  " Command <Tab> completion, list matches, then longest common part, then all.
 "set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
 "set scrolljump=5                " Lines to scroll when cursor leaves screen
-"set scrolloff=3                 " Minimum lines to keep above and below cursor
+set scrolloff=8                 " Minimum lines to keep above and below cursor
 set foldenable                  " Auto fold code
 set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
@@ -267,14 +267,10 @@ autocmd BufNewFile,BufRead *.html.twig set filetype=html.twig
 autocmd FileType haskell,puppet,ruby,yml setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType c,cpp  setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
 " preceding line best in a plugin but here for now.
-autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=2 foldmethod=syntax
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=2 foldmethod=indent
 
 "workaround for psi4 input files to be recognized as python"
-autocmd BufNewFile,BufRead input.dat,*.psi4.in,*.in.dat, *.py set filetype=python
 "hacks for re-seting file type specific options
-autocmd BufNewFile,BufRead *.c set filetype=c
-autocmd BufNewFile,BufRead *.cpp,*.cc,*.h,*.hpp set filetype=cpp
-autocmd BufNewFile,BufRead *.tex set filetype=tex tw=89
 
 
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
