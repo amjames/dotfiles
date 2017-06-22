@@ -27,6 +27,17 @@ function check_agent () {
   fi
 }
 
+function start_gpg_agent () {
+  local search_gpg_file=${HOME}/.gnupg/${SYSNAME}.gpg-agent-info
+  echo "starting new ssh-agent"
+  eval $(gpg-agent --daemon \
+    --write-env-file ${search_gpg_file})
+  export GPG_TTY=$(tty)
+  echo "echo GPG_TTY Set to $GPG_TTY"
+  # gpg-connect-agent --verbose /bye
+  # ssh-add
+}
+
 function start_agent () {
   echo "starting new ssh-agent"
   eval $(ssh-agent)
@@ -35,6 +46,7 @@ function start_agent () {
   echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/${SYSNAME}.agent-profile
   echo "export SSH_AGENT_STARTER_ID=$$" >> ~/.ssh/${SYSNAME}.agent-profile
 }
+
 
 source ~/.local/.hb_token
 
@@ -56,6 +68,13 @@ function psi4-debug() {
     return 2;
   fi
 }
+
+if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
+    source ~/.gnupg/.gpg-agent-info
+    export GPG_AGENT_INFO
+else
+    eval $(gpg-agent --daemon --write-env-file ~/.gnupg/.gpg-agent-info)
+fi
 export LOCAL_INC_DIR=$HOME/.local/include
 export GEN_INC_DIR=/usr/local/include
 export EIGEN_INCLUDE=/usr/local/include/eigen3
