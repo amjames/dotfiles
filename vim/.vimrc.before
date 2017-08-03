@@ -217,8 +217,18 @@ let g:tagbar_autofocus=1
 "   }
 "   Autoformat {
 " au BufWrite * :Autoformat
-let g:formatters_python = ['yapf']
-noremap <F2> :Autoformat<CR>
+" let g:formatter_yapf_style = 'pep8'
+" let g:formatters_python = ['yapf']
+" let g:autoformat_autoindent = 0
+" let g:autoformat_retab = 0
+" let g:autoformat_remove_trailing_spaces = 0
+" noremap <F2> :Autoformat<CR>
+
+if filereadable(expand("~/.vim/autoload/yapf.vim"))
+    source ~/.vim/autoload/yapf.vim
+endif
+
+noremap <F2> :call yapf#YAPF()<CR>
 
 
 "   }
