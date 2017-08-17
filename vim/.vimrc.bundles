@@ -147,6 +147,8 @@ if !exists("g:override_spf13_bundles")
     if count(g:spf13_bundle_groups, 'programming')
         " Pick one of the checksyntax, jslint, or syntastic
         Bundle 'Chiel92/vim-autoformat'
+        Bundle 'Kongfekt/FastFold'
+        Bundle 'tmhedberg/SimpylFold'
         Bundle 'scrooloose/syntastic'
         Bundle 'Xuyuanp/nertree-git-plugin'
         Bundle 'tpope/vim-fugitive'

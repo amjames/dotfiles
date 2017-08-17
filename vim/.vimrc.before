@@ -108,16 +108,14 @@ let g:spf13_apply_config_mapping='<leader>sv'
 " AJ specific options {
 set complete=.,b,i
 "   Filetype {
-autocmd FileType python set tw=100
+autocmd FileType python set tw=80
 autocmd FileType c,cpp set tw=100
 autocmd FileType c,cpp imap <expr> <enter> getline('.') =~ '^\s*//' ? '<enter><esc>S' : '<enter>'
 autocmd FileType c,cpp nnoremap <expr> o getline('.') =~ '^\s*//' ? 'o<esc>S' : 'o'
 autocmd FileType c,cpp nnoremap <expr> O getline('.') =~ '^\s*//' ? 'O<esc>S' : 'O'
 highlight ColorColumn ctermbg=233
 autocmd FileType c,cpp,python,tex set colorcolumn=+1,+2,+3,+4,+5
-autocmd BufNewFile,BufRead input.dat,*.psi4.in,*.in.dat,*.py set filetype=python
 
-autocmd BufNewFile,BufRead *.py set filetype=python
 autocmd BufNewFile,BufRead *.cc,*.h,*.hpp,*.cpp,*.c,*.cxx set filetype=cpp
 autocmd BufNewFile,BufRead *.c set filetype=c
 autocmd BufNewFile,BufRead *.cpp,*.cc,*.h,*.hpp set filetype=cpp
@@ -194,6 +192,7 @@ autocmd WinEnter * if !exists('w:created') | :AirlineRefresh | endif
 "
 "     }
 "   Tagbar {
+set tags=~/.local/.tags
 function! AJTagbarFix()
     if !exists('g:aj_tagbar_open')
         let g:aj_tagbar_open = 0
@@ -216,19 +215,18 @@ let g:tagbar_autofocus=1
 "
 "   }
 "   Autoformat {
-" au BufWrite * :Autoformat
-" let g:formatter_yapf_style = 'pep8'
-" let g:formatters_python = ['yapf']
-" let g:autoformat_autoindent = 0
-" let g:autoformat_retab = 0
-" let g:autoformat_remove_trailing_spaces = 0
-" noremap <F2> :Autoformat<CR>
+"
+let g:formatter_yapf_style = 'pep8'
+let g:formatters_python = ['yapf']
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 1
+noremap <F2> :Autoformat<CR>
+let g:SimpylFold_fold_import=0
+" if filereadable(expand("~/.vim/autoload/yapf.vim"))
+"     source ~/.vim/autoload/yapf.vim
+" endif
 
-if filereadable(expand("~/.vim/autoload/yapf.vim"))
-    source ~/.vim/autoload/yapf.vim
-endif
-
-noremap <F2> :call yapf#YAPF()<CR>
 
 
 "   }
