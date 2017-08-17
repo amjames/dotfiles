@@ -11,12 +11,19 @@
 	smudge = git lfs smudge %f
 	required = true
 [alias]
-    stat = status
-    plog = log --oneline --graph --decorate
-    afetch = fetch -a
-    reup = pull --rebase upstream master
+  stat = status
+  plog = log --oneline --graph --decorate
+  afetch = fetch -a
+  reup = pull --rebase upstream master
+	ctags = !.git/hooks/ctags
 [core]
 	editor = vim
   excludesfile = /Users/admin/.gitignore_global
 [commit]
 	gpgsign = true
+[init]
+	templatedir = /Users/admin/.git_template
+[filter "ipynb_stripout"]
+	clean = !.git/filters/ipynb_stripout
+	smudge = cat
+	required = true
