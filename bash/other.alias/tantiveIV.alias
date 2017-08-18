@@ -3,3 +3,4 @@
 alias ls='ls -G'
 alias slateHelp='cat ~/.slate.js'
 alias workaroundtmuxpberror="/usr/local/reattach-to-usr-namespace"
+alias nbsshtun="ssh -N -f -L localhost:8888:localhost:8889"
