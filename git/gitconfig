@@ -15,15 +15,16 @@
   plog = log --oneline --graph --decorate
   afetch = fetch -a
   reup = pull --rebase upstream master
-	ctags = !.git/hooks/ctags
+  ctags = !.git/hooks/ctags
+  ipynbcleanup = !.git/filters/ipynb_stripout
 [core]
 	editor = vim
-  excludesfile = /Users/admin/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [commit]
 	gpgsign = true
 [init]
-	templatedir = /Users/admin/.git_template
+	templatedir = ~/.git_template
 [filter "ipynb_stripout"]
-	clean = !.git/filters/ipynb_stripout
+	clean = git ipynbcleanup
 	smudge = cat
 	required = true
