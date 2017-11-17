@@ -83,8 +83,8 @@ if filereadable(expand("~/.vimrc.before"))
     source ~/.vimrc.before
 endif
 " YCM global config
-if filereadable(expand("~/.local/.ycm_global_config.py"))
-    let g:ycm_global_ycm_extra_conf='~/.local/.ycm_global_config.py'
+if filereadable(expand("~/.vim/.ycm_global_config.py"))
+    let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_global_config.py'
 endif
 " }
 
