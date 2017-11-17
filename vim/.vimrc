@@ -82,6 +82,10 @@ endif
 if filereadable(expand("~/.vimrc.before"))
     source ~/.vimrc.before
 endif
+" YCM global config
+if filereadable(expand("~/.local/.ycm_global_config.py"))
+    let g:ycm_global_ycm_extra_conf='~/.local/.ycm_global_config.py'
+endif
 " }
 
 " General {
@@ -182,14 +186,15 @@ endif
 
 " Vim UI {
 
-if !exists('g:override_spf13_bundles') && filereadable(expand("~/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
+if filereadable(expand("~/.vim/bundle/vim-colorschemes/colors/jellybeans.vim"))
+    colorscheme jellybeans             " Load a colorscheme
+else
     let g:solarized_termcolors=256
     let g:solarized_termtrans=1
     let g:solarized_contrast="normal"
     let g:solarized_visibility="normal"
     color solarized             " Load a colorscheme
 endif
-
 set tabpagemax=15               " Only show 15 tabs
 set showmode                    " Display the current mode
 
@@ -262,13 +267,16 @@ set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 "   let g:spf13_keep_trailing_whitespace = 1
 autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl,sql autocmd BufWritePre <buffer> if !exists('g:spf13_keep_trailing_whitespace') | call StripTrailingWhitespace() | endif
 autocmd FileType tex autocmd BufRead <buffer> NeoCompleteDisable
+autocmd BufNewFile,BufRead,BufEnter *.cpp,*.cc,*.c,*.cxx,*.hpp,*.h,*.hxx set filetype=cpp
 "autocmd FileType go autocmd BufWritePre <buffer> Fmt
 autocmd BufNewFile,BufRead *.html.twig set filetype=html.twig
 autocmd FileType haskell,puppet,ruby,yml setlocal expandtab shiftwidth=2 softtabstop=2
-autocmd FileType c,cpp  setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
+autocmd FileType c,cpp  set expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
+autocmd FileType c,cpp,python autocmd BufWritePre <buffer> :Autoformat
 " preceding line best in a plugin but here for now.
-autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4
+autocmd FileType python set expandtab shiftwidth=4 softtabstop=4 tabstop=4
 
+autocmd BufNewFile,BufRead *.py set filetype=python
 "workaround for psi4 input files to be recognized as python"
 "hacks for re-seting file type specific options
 
@@ -277,6 +285,7 @@ autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 
 " Workaround vim-commentary for Haskell
 autocmd FileType haskell setlocal commentstring=--\ %s
+autocmd FileType cmake   setlocal commentstring=#\ %s
 " Workaround broken colour highlighting in Haskell
 autocmd FileType haskell,rust setlocal nospell
 
