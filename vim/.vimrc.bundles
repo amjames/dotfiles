@@ -91,7 +91,7 @@ endif
 " In your .vimrc.before.local file
 " list only the plugin groups you will use
 if !exists('g:spf13_bundle_groups')
-    let g:spf13_bundle_groups=['general', 'writing', 'programming', 'python', 'misc', 'html', 'javascript' ]
+    let g:spf13_bundle_groups=['general', 'writing', 'programming', 'python', 'misc', 'html', 'javascript', 'youcompleteme']
 endif
 
 " To override all the included bundles, add the following to your
@@ -145,15 +145,12 @@ if !exists("g:override_spf13_bundles")
 
     " General Programming {
     if count(g:spf13_bundle_groups, 'programming')
-        " Pick one of the checksyntax, jslint, or syntastic
         Bundle 'Chiel92/vim-autoformat'
         Bundle 'Konfekt/FastFold'
         Bundle 'tmhedberg/SimpylFold'
         Bundle 'scrooloose/syntastic'
         Bundle 'Xuyuanp/nerdtree-git-plugin'
         Bundle 'tpope/vim-fugitive'
-        "Bundle 'mattn/webapi-vim'
-        "Bundle 'mattn/gist-vim'
         Bundle 'scrooloose/nerdcommenter'
         Bundle 'tpope/vim-commentary'
         Bundle 'godlygeek/tabular'
@@ -173,8 +170,6 @@ if !exists("g:override_spf13_bundles")
         endif
     elseif count(g:spf13_bundle_groups, 'youcompleteme')
         Bundle 'Valloric/YouCompleteMe'
-        Bundle 'SirVer/ultisnips'
-        Bundle 'honza/vim-snippets'
     elseif count(g:spf13_bundle_groups, 'neocomplcache')
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neosnippet'
