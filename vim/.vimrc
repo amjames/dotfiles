@@ -239,7 +239,7 @@ set wildmode=list:longest,full  " Command <Tab> completion, list matches, then l
 "set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
 "set scrolljump=5                " Lines to scroll when cursor leaves screen
 set scrolloff=8                 " Minimum lines to keep above and below cursor
-set foldenable                  " Auto fold code
+"set foldenable                  " Auto fold code
 set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
 set equalalways
@@ -272,14 +272,23 @@ autocmd BufNewFile,BufRead,BufEnter *.cpp,*.cc,*.c,*.cxx,*.hpp,*.h,*.hxx set fil
 autocmd BufNewFile,BufRead *.html.twig set filetype=html.twig
 autocmd FileType haskell,puppet,ruby,yml setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType c,cpp  set expandtab shiftwidth=2 softtabstop=2 tabstop=2 foldmethod=syntax
-autocmd FileType c,cpp,python autocmd BufWritePre <buffer> :Autoformat
-" preceding line best in a plugin but here for now.
-autocmd FileType python set expandtab shiftwidth=4 softtabstop=4 tabstop=4
+autocmd FileType python set et sw=4 ts=4 sts=4
 
-autocmd BufNewFile,BufRead *.py set filetype=python
-"workaround for psi4 input files to be recognized as python"
-"hacks for re-seting file type specific options
-
+" TODO wrap all file specific settings in an augroup per file type
+function! ToggleFormatOnWrite()
+  if exists('b:format_on_write') && b:format_on_write == 1
+    let b:format_on_write=0
+    augroup FormatOnWriteGroup
+      au!
+    augroup END
+  else
+    let b:format_on_write=1
+    augroup FormatOnWriteGroup
+        autocmd!
+        autocmd FileType python,c,cpp autocmd BufWritePre :Autoformat
+    augroup END
+  endif
+endfunction
 
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 
@@ -1186,6 +1195,31 @@ endfunction
 command! -complete=file -nargs=+ Shell call s:RunShellCommand(<q-args>)
 " e.g. Grep current file for <search_term>: Shell grep -Hn <search_term> %
 " }
+
+" function! LookForTermInScriptFiles(...)
+"     redir => text_buff
+"     let savemore = &more
+"     set nomore
+"     execute 'scriptnames'
+"     redir END
+"     let &more = saveMore
+"     call feedkeys("\<cr>")
+"     let s:name_lines = split()
+"     for file_name in s:name_lines
+"         expand(file_name, ":p"))
+
+"     endfor
+"     new | setlocal buftype=nofile bufhidden=hide noswapfile
+"     put=name_lines
+"     if a:0 > 0
+"         execute 'vglobal/'.a:1.'/delete'
+"     endif
+"     let ln_num=0
+"     while ln_num < line('$')
+"     endwhile
+
+" endfunction
+
 
 function! s:IsSpf13Fork()
     let s:is_fork = 0

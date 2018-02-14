@@ -209,6 +209,8 @@ function! AJTagbarFix()
         let g:tagbar_previewwin_pos='below'
     endif
 endfunction
+
+
 nnoremap <leader>t :call AJTagbarFix()<CR>
 let g:tagbar_autofocus=1
 "
@@ -218,6 +220,7 @@ let g:tagbar_autofocus=1
 "
 let g:formatter_yapf_style = 'pep8'
 let g:formatters_python = ['yapf']
+let g:formatdef_yapf = "'yapf --lines '.a:firstline.'-'.a:lastline"
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 1
