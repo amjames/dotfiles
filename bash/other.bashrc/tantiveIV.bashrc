@@ -51,8 +51,6 @@ function start_agent () {
 source ~/.local/.hb_token
 
 # add executable scripts by me 
-PATH=$HOME/.scripts/utils:$PATH
-PATH=$HOME/Softwares/molden5.4/bin:$PATH
 # VMD software pre complied 32 bit binary
 export VMDPATH=$HOME/Softwares/VMD/vmd/vmd_MACOSXX86
 # Image magic's Montage for joining density/MO plots w/ labels
@@ -80,5 +78,5 @@ export GEN_INC_DIR=/usr/local/include
 export EIGEN_INCLUDE=/usr/local/include/eigen3
 export GEN_LIB_DIR=/usr/local/lib
 export LOCAL_LIB_DIR=$HOME/.local/lib
-
-
+_add_PATH=$HOME/.scripts/utils:$_add_PATH
+_add_PATH=$HOME/Softwares/molden5.4/bin:$_add_PATH

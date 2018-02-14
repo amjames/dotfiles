@@ -41,30 +41,20 @@ function versioncomp () {
 }
 
 # Prepend local installs and local scripts to the path
-PATH=$HOME/.local/bin:$PATH
-PATH=$HOME/.local/scripts:$PATH
+_add_PATH=$HOME/.local/bin
+_add_PATH=$HOME/.local/scripts:$_add_PATH
 # gem executables
 if [ -d $HOME/.gem/ruby ]; then
   if [ -d $HOME/.gem/ruby/2.3.0 ]; then
-    PATH=$HOME/.gem/ruby/2.3.0/bin:$PATH;
-    export RUBY_GEM_VERNO=2.3.0;
+    _add_PATH=$HOME/.gem/ruby/2.3.0/bin:$_add_PATH
+    RUBY_GEM_VERNO=2.3.0;
   elif [ -d $HOME/.gem/ruby/2.2.0  ]; then
-    PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH;
-    export RUBY_GEM_VERNO=2.2.0;
+    _add_PATH=$HOME/.gem/ruby/2.2.0/bin:$_add_PATH
+    RUBY_GEM_VERNO=2.2.0;
   fi
 fi
 
 
-# personal vim install
-if [ -f $HOME/.local/bin/vim ]; then
-  export EDITOR="${HOME}/.local/bin/vim"
-else
-  if [ -f $HOME/$SYSNAME/.local/bin/vim ]; then
-    export EDITOR="${HOME}/${SYSNAME}/.local/bin/vim"
-  else
-    export EDITOR="/usr/bin/vim"
-  fi
-fi
 export GIT_PROMPT_ONLY_IN_REPO=0
 export GIT_PROMPT_SHOW_UPSTREAM=1
 export GIT_PROMPT_THEME="Custom"
@@ -96,18 +86,17 @@ source ~/.alias
 if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
   source ~/.other.alias/${SYSNAME}.alias
 fi
-
-
-#start the ssh agent if not a tmux window/shell
-if [ -z $TMUX ]; then
-  get_agent_profile
-  check_agent
-else
-  echo " In a tmux sub-shell assuming the parent has done ssh-agenting "
-fi
-
+export EDITOR="$(which vim)"
 if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
   source $HOME/.local/share/bash-git-prompt/gitprompt.sh
 fi
-#export all path addns @ the end
-export PATH=$PATH
+
+
+#if we are not in a tmux subshell then start the ssh agent (if needed) and export the path
+if [ -z $TMUX ]; then
+  get_agent_profile
+  check_agent
+  export PATH=$_add_PATH:$PATH
+else
+  echo " In a tmux sub-shell assuming the parent has done ssh-agenting "
+fi

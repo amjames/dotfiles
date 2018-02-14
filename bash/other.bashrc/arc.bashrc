@@ -78,5 +78,5 @@ function start_agent () {
   # ssh-add
 }
 
-export PATH=$HOME/conda/bin:$PATH
-export PATH=$HOME/$SYSNAME/.local/bin:$PATH
+_add_PATH=$HOME/conda/bin:$_add_PATH
+_add_PATH=$HOME/$SYSNAME/.local/bin:$_add_PATH
