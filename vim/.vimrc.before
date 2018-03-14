@@ -153,8 +153,8 @@ let g:syntastic_enable_highlighting = 1
 
 "}
 "   Airline {
-let g:airline_theme = 'bubblegum'
-let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'jellybeans'
+"let g:airline#extensions#tabline#enabled = 1
 let g:airline_inactive_collapse = 0
 let g:airline_mode_map = {
             \'__': '-',
@@ -163,8 +163,8 @@ let g:airline_mode_map = {
             \'R': 'R',
             \'c': 'C',
             \'v': 'V',
-            \'V': 'V',
-            \'': 'V',
+            \'V': 'V-ln',
+            \'': 'V-Blk',
             \'s': 'S',
             \'S': 'S',
             \'': 'S',
@@ -177,17 +177,18 @@ let g:airline#extensions#default#section_truncate_width ={
             \ 'z': 45,
             \ 'warning': 88
             \}
-function! AirLineInit()
-    let g:airline_section_a = airline#section#create(['mode'])
-    let g:airline_section_c = ''
-    let g:airline_section_x = airline#section#create(['%{getcwd()}'])
-    let g:airline_section_y = airline#section#create(['%t'])
-    let g:airline_section_warning = ''
-endfunction
-autocmd VimEnter * call AirLineInit()
-autocmd VimEnter * autocmd WinEnter * let w:created=1
-autocmd WinEnter * if !exists('w:created') | :AirlineRefresh | endif
 
+let g:airline_section_y = 'BN: %{bufnr("%")}'
+function! AirlineInit()
+    let g:airline_section_a = airline#section#create(['mode','paste',' ','branch'])
+    let g:airline_section_b = airline#section#create(['%f','[','filetype',']'])
+    let g:airline_section_c = airline#section#create(['[work dir]: %{getcwd()}'])
+    let g:airline_section_x = airline#section#create(['ffenc',' ', 'hunks'])
+    let g:airline_section_z = airline#section#create([ '%p%%',' ','ln: %l',' ','col: %c'])
+    let g:airline_section_warning = ''
+    let g:airline_section_error = ''
+endfunction
+autocmd User AirlineAfterInit call AirlineInit()
 
 "
 "     }
