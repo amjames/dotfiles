@@ -10,7 +10,3 @@ function __handle_agents(){
   # Either way set the GPG_TTY var
   GPG_TTY=$(tty)
 }
-
-
-source $HOME/conda/etc/profile.d/conda.sh
-conda activate

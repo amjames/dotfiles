@@ -24,7 +24,6 @@ function __handle_agents(){
 }
 
 
-
 source ~/.local/.hb_token
 
 # Need these envars to use psi4's cube_rendering script
