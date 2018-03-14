@@ -1,12 +1,13 @@
 #
 # bashrc for ~ANY~ Computers
 #
-
+__DBG="yes"
 # Functions #
 function __source_if() {
   # Sources file at $1 if it exists and is regular file
   local tgt=$1
   if [ -f "${tgt}" ]; then
+    echo "Found file ${tgt}, sourcing it"
     source "$tgt"
   fi
 }
@@ -60,22 +61,22 @@ if [ -z $SYSNAME ]; then
   unset -v sn
 fi
 
-# Find system specific alias/bashrcs
-__source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
-__source_if ${__mybash_cfg_dir}/main.alias
-__source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
+# # Find system specific alias/bashrcs
+# __source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+# __source_if ${__mybash_cfg_dir}/main.alias
+# __source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
 
-# git-prompt goodies
-__source_if ${__mybash_cfg_dir}/prompt
+# # git-prompt goodies
+# __source_if ${__mybash_cfg_dir}/prompt
 
 ### Remove after transition v
+__source_if ~/.other.bashrc/${SYSNAME}.bashrc
 __source_if ~/.alias
 __source_if ~/.other.alias/${SYSNAME}.alias
-__source_if ~/.other.bashrc/${SYSNAME}.bashrc
 GIT_PROMPT_ONLY_IN_REPO=0
 GIT_PROMPT_SHOW_UPSTREAM=1
 GIT_PROMPT_THEME=Custom
-__source_if ~/.local/share/bash-git-prompt/git-prompt.sh
+__source_if ~/.local/share/bash-git-prompt/gitprompt.sh
 ### Remove after transition ^
 
 

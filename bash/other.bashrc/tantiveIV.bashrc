@@ -2,8 +2,10 @@
 
 
 function __handle_agents(){
-  # load ssh agent info
-  __source_if ${HOME}/.ssh/${SYSNAME}.agent-profile
+  # load ssh agent info if the vars are not found
+  if [[ -z ${SSH_AGENT_PID+x} ]] || [[ -z ${SSH_AUTH_SOCK+x} ]]; then
+    __source_if ${HOME}/.ssh/${SYSNAME}.agent-profile
+  fi
   # Check if that agent is still running
   if [[ ! $(ps -p ${SSH_AGENT_PID} 2> /dev/null) ]];then
     # if not start it
@@ -12,9 +14,11 @@ function __handle_agents(){
     echo "SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.ssh/${SYSNAME}.agent-profile
     echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.ssh/${SYSNAME}.agent-profile
     echo "SSH_AGENT_STARTER_ID=$$" >> ~/.ssh/${SYSNAME}.agent-profile
+    # add my identity
+    ssh-add
   fi
-  # Either way add our identity to the agent
-  ssh-add
+  # Make sure gpg agent is running, this should always be the case, but just
+  # check
   __source_if ${HOME}/.gnupg/.gpg-agent-info
   if [[ ! $(ps -p `pgrep gpg-agent` 2> /dev/null) ]]; then
     eval $(gpg-agent --daemon --write-env-file ${HOME}/.gnupg/${SYSNAME}.gpg-agent-info)
