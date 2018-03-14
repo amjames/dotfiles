@@ -13,5 +13,3 @@ alias alls='ls -al'
 alias ll='ls -l'
 alias his='history'
 alias c='clear'
-
-#computers
