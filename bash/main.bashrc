@@ -61,13 +61,22 @@ if [ -z $SYSNAME ]; then
   unset -v sn
 fi
 
-# # Find system specific alias/bashrcs
-# __source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
-# __source_if ${__mybash_cfg_dir}/main.alias
-# __source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
+# Find system specific bashrcs.
+#ARC sysnames source ${__mybash_cfg_dir}/arc.bashrc
+#all others source ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+__source_if ${__mybash_cfg_dir}/main.alias
+case $SYSNAME in
+  blueridge|newriver|dragonstooth|cascades) 
+    __source_if ${__mybash_cfg_dir}/arc.bashrc
+    __source_if ${__mybash_cfg_dir}/arc.alias
+    ;;
+  *) 
+    __source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+    __source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
+esac
 
-# # git-prompt goodies
-# __source_if ${__mybash_cfg_dir}/prompt
+# git-prompt goodies
+__source_if ${__mybash_cfg_dir}/prompt_init.bashrc
 
 ### Remove after transition v
 __source_if ~/.other.bashrc/${SYSNAME}.bashrc
