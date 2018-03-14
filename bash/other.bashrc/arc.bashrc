@@ -74,9 +74,7 @@ function start_agent () {
     --write-env-file ${search_gpg_file})
   export GPG_TTY=$(tty)
   echo "echo GPG_TTY Set to $GPG_TTY"
-  # gpg-connect-agent --verbose /bye
-  # ssh-add
 }
 
 _add_PATH=$HOME/conda/bin:$_add_PATH
-_add_PATH=$HOME/$SYSNAME/.local/bin:$_add_PATH
+. $HOME/conda/etc/profile.d/conda.sh
