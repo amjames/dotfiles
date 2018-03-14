@@ -44,7 +44,7 @@ if [ -z "$__mybash_cfg_dir" ]; then
   while [ -h "$_this_source" ]; do
     _loc_dir="$( cd -P "$( dirname "$_this_source" )" && pwd )"
     _this_source="$(readlink "$_this_source")"
-    [[ $_this_source != /* ]] && source="$_loc_dir/$_this_source"
+    [[ $_this_source != /* ]] && _this_source="$_loc_dir/$_this_source"
   done
   __mybash_cfg_dir="$( cd -P "$( dirname "$_this_source" )" && pwd )"
   unset -v _this_source
@@ -76,7 +76,7 @@ case $SYSNAME in
 esac
 
 # git-prompt goodies
-__source_if ${__mybash_cfg_dir}/prompt_init.bashrc
+__source_if ${__mybash_cfg_dir}/prompt/init-git-prompt.sh
 
 ### Remove after transition v
 __source_if ~/.other.bashrc/${SYSNAME}.bashrc
