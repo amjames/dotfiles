@@ -113,7 +113,7 @@ autocmd FileType c,cpp set tw=100
 autocmd FileType c,cpp imap <expr> <enter> getline('.') =~ '^\s*//' ? '<enter><esc>S' : '<enter>'
 autocmd FileType c,cpp nnoremap <expr> o getline('.') =~ '^\s*//' ? 'o<esc>S' : 'o'
 autocmd FileType c,cpp nnoremap <expr> O getline('.') =~ '^\s*//' ? 'O<esc>S' : 'O'
-highlight ColorColumn ctermbg=233
+highlight ColorColumn ctermbg=001
 autocmd FileType c,cpp,python,tex set colorcolumn=+1,+2,+3,+4,+5
 
 autocmd BufNewFile,BufRead *.cc,*.h,*.hpp,*.cpp,*.c,*.cxx set filetype=cpp
