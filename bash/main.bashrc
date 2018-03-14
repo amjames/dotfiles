@@ -98,5 +98,7 @@ if [ -z $TMUX ]; then
   check_agent
   export PATH=$_add_PATH:$PATH
 else
-  echo " In a tmux sub-shell assuming the parent has done ssh-agenting "
+  echo " In a tmux sub-shell assuming the parent has done ssh-agenting"
+  echo " Setting GPG_TTY local to this sub-shell"
+  GPG_TTY=$(tty)
 fi
