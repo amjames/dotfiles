@@ -2,6 +2,7 @@
 
 #move the current bashrc out of the way
 if [ -f ${HOME}/.bashrc ];
+then
   mv ${HOME}/.bashrc ${HOME}/.bashrc.old
 fi
 #Get the directory of this file 
@@ -18,4 +19,4 @@ if [ -z "$bash_cfg_dir" ]; then
 fi
 
 # Only one line in the hard ~/.bashrc file sourcing the main.bashrc
-echo "source ${bash_cfg_dir}/main.bashrc > ${HOME}.bashrc"
+echo "source ${bash_cfg_dir}/main.bashrc > ${HOME}/.bashrc"
