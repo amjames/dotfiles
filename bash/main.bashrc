@@ -1,7 +1,7 @@
+# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 #
 # bashrc for ~ANY~ Computers
 #
-__DBG="yes"
 # Functions #
 function __source_if() {
   # Sources file at $1 if it exists and is regular file
@@ -73,20 +73,11 @@ case $SYSNAME in
   *) 
     __source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
     __source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
+    ;;
 esac
 
 # git-prompt goodies
 __source_if ${__mybash_cfg_dir}/prompt/init-git-prompt.sh
-
-### Remove after transition v
-__source_if ~/.other.bashrc/${SYSNAME}.bashrc
-__source_if ~/.alias
-__source_if ~/.other.alias/${SYSNAME}.alias
-GIT_PROMPT_ONLY_IN_REPO=0
-GIT_PROMPT_SHOW_UPSTREAM=1
-GIT_PROMPT_THEME=Custom
-__source_if ~/.local/share/bash-git-prompt/gitprompt.sh
-### Remove after transition ^
 
 
 ### Set up conda + activate default env
