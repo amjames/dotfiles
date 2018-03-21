@@ -1,13 +1,16 @@
 # vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 
-
 function __handle_agents(){
   # load ssh agent info if the vars are not found
-  if [[ -z ${SSH_AGENT_PID+x} ]] || [[ -z ${SSH_AUTH_SOCK+x} ]]; then
+  if [[ -z ${SSH_AGENT_PID+x} ]] || [[ -z ${SSH_AUTH_SOCK+x} ]]; 
+  then
     __source_if ${HOME}/.ssh/${SYSNAME}.agent-profile
   fi
   # Check if that agent is still running
-  if [[ ! $(ps -p ${SSH_AGENT_PID} 2> /dev/null) ]];then
+  ps -p ${SSH_AGENT_PID} 2>&1 >/dev/null
+  local _agent_running="$?"
+  if [[ ! $_agent_running == "0" ]]; 
+  then
     # if not start it
     eval $(ssh-agent)
     # write a new file
