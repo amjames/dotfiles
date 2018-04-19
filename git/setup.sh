@@ -1,14 +1,9 @@
+# get the path to this script
+git_cfg_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-setup_git() {
-  local git_cfgsrc_dir="$(get_dir "${BASH_SOURCE[0]}")"
 
-  # main config
-  #link .gitconfig intoplace
-  if [ -f ${HOME}/.gitconfig ]; then
-    mv ${HOME}/.gitconfig ${HOME}/.gitconfig.old
-  fi
+echo "[include]" > ~/.gitconfig
+echo "    path = ${git_cfg_dir}/gitconfig" >> ~/.gitconfig
 
-  lnif "${git_cfgsrc_dir}/gitconfig" ${HOME}/.gitconfig
-  #extra config stuff we just link this entire directory to $HOME/.gitconfig.d
-  lnif ${git_cfgsrc_dir} "${HOME}/.gitconfig.d"
-}
+#cleanup
+unset -v git_cfg_dir
