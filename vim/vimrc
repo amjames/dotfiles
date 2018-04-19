@@ -91,6 +91,7 @@ endif
 Bundle 'yssource/python.vim'
 Bundle 'python_match.vim'
 Bundle 'pythoncomplete'
+Bundle 'janko-m/vim-test'
 " +}
 
 " Javascript +{
@@ -533,6 +534,10 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_enable_highlighting = 1
 let g:syntastic_c_checker = ['clangcheck']
 let g:syntastic_cpp_checker= ['clangcheck']
+let g:syntastic_mode_map = {
+        \ "mode": "passive",
+        \ "active_filetypes": ["c", "cpp", "python"],
+        \ "passive_filetypes": [""] }
 " +}
 
 " ctrlp: +{
