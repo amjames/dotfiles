@@ -1,14 +1,15 @@
-# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
+# vim: tw=119 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 
 function __handle_agents(){
-  __source_if ${HOME}/.gnupg/${SYSNAME}.gpg-agent-info
-  local __gpg_info_arr=(${GPG_AGENT_INFO//:/ })
-  local __gpg__pid_=${__gpg_info_arr[1]}
-  ps -p ${__gpg_pid} 2>&1 >/dev/null
-  local _agent_running="$?"
-  if [[ ! $_agent_running == "0"]]; then
-    eval $(gpg-agent --daemon --write-env-file ${HOME}/.gnupg/${SYSNAME}.gpg-agent-info)
-  fi
-  # Either way set the GPG_TTY var
+  # The env file needs to be hostname not sysname specific b/c multiple login nodes on each system
+  local __agent_info_fn=${HOME}/.gnupg/$(hostname).gpg-agent-info
+  echo "Attempting to start gpg agent"
+  # This will fail if it sees that the agent is already running, no checks needed
+  gpg-agent --daemon --write-env-file ${__agent_info_fn}
+  # Either way set the GPG_TTY var and everything should work fine
+  echo "Setting GPG_TTY to $(tty)"
   GPG_TTY=$(tty)
 }
+module purge
+module use $HOME/modulefiles
+module load vim tmux
