@@ -6,9 +6,11 @@ function __handle_agents(){
   echo "Attempting to start gpg agent"
   # This will fail if it sees that the agent is already running, no checks needed
   gpg-agent --daemon --write-env-file ${__agent_info_fn}
+  source "${__agent_info_fn}"
   # Either way set the GPG_TTY var and everything should work fine
   echo "Setting GPG_TTY to $(tty)"
-  GPG_TTY=$(tty)
+  export GPG_TTY=$(tty)
+  export PINENTRY_USER_DATA="USE_CURSES=1"
 }
 module purge
 module use $HOME/modulefiles
