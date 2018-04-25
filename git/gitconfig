@@ -19,11 +19,8 @@
   ipynbcleanup = !.git/filters/ipynb_stripout
 [core]
 	editor = vim
-  excludesfile = ./gitignore_global
 [commit]
 	gpgsign = true
-[init]
-	templatedir = ./git_template
 [filter "ipynb_stripout"]
 	clean = git ipynbcleanup
 	smudge = cat
