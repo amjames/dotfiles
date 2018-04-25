@@ -43,7 +43,24 @@ function prompt_callback {
 override_git_prompt_colors(){
   # Formula is $virtual_env $START $gitstuff $END
     GIT_PROMPT_THEME_NAME="Custom"
-    GIT_PROMPT_USR_HOST="[${BoldMagenta}${USER}${ResetColor}@${BoldBlue}${HOSTNAME%%.*}${ResetColor}]"
+    case $SYSNAME in
+      blueridge)
+        _hn_color=$BoldBlue
+        ;;
+      newriver)
+        _hn_color=$BoldGreen
+        ;;
+      cascades)
+        _hn_color=$BoldBlue
+        ;;
+      dragonstooth)
+        _hn_color=$BoldRed
+        ;;
+      *)
+        _hn_color=$BoldCyan
+        ;;
+    esac
+    GIT_PROMPT_USR_HOST="[${BoldMagenta}${USER}${ResetColor}@${_hn_color}${HOSTNAME%%.*}${ResetColor}]"
     GIT_PROMPT_COMMAND_OK="${Green}✔ ${ResetColor}"
     GIT_PROMPT_COMMAND_FAIL="${Red}>✘<${ResetColor}"
     GIT_PROMPT_START_USER="_LAST_COMMAND_INDICATOR_${GIT_PROMPT_USR_HOST}"
