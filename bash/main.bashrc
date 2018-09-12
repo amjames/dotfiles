@@ -1,104 +1,108 @@
+# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
 #
 # bashrc for ~ANY~ Computers
 #
-
-[[ $- != *i* ]] && return
-
-###############################################################################
-#                  SOME USEFUL FUNCTIONS TO START OFF
-# SSH agent management
-# Compare version with A.B.C (maj.min.patch) versioning scheme
-function versioncomp () {
-  if [[ $1 == $2  ]]; then
-    return 0
+# Functions #
+function __source_if() {
+  # Sources file at $1 if it exists and is regular file
+  local tgt=$1
+  if [ -f "${tgt}" ]; then
+    echo "Found file ${tgt}, sourcing it"
+    source "$tgt"
   fi
-
-  local IFS=.
-  local i
-  local ver1=($1)
-  local ver2=($2)
-
-  for (( i=${#ver1[@]}; i<${#ver2[@]}; i++))
+}
+__clean_vars="_add_PATH __mybash_cfg_dir"
+__clean_fs="__handle_agents"
+function __finish() {
+  # unset function names and var names specified above
+  # add to it as you like/need, somethings don't need to live forever 
+  # and it can be a good idea to clear out un-needed functions when you 
+  # are done with them
+  for varn in $__clean_vars;
   do
-    ver1[i]=0
+    unset -v $varn;
   done
-  for ((i=0; i<${#ver1[@]}; i++))
+  unset -v __clean_vars
+  for fn in $__clean_fs;
   do
-    if [[ -z ${ver2[i]} ]]
-    then
-      ver2[i]=0
-    fi
-    if ((10#${ver1[i]} < 10#${ver2[i]}))
-    then
-      return 1
-    fi
-    if ((10#${ver1[i]} < 10#${ver2[i]}))
-    then
-      return 2
-    fi
+    unset -f $fn
   done
-  return 0
+  unset -v __clean_fs
+  #This function will self destruct in 4, 3, 2, 1
+  unset -f __finish
 }
 
-# Prepend local installs and local scripts to the path
-_add_PATH=$HOME/.local/bin
-_add_PATH=$HOME/.local/scripts:$_add_PATH
-# gem executables
-if [ -d $HOME/.gem/ruby ]; then
-  if [ -d $HOME/.gem/ruby/2.3.0 ]; then
-    _add_PATH=$HOME/.gem/ruby/2.3.0/bin:$_add_PATH
-    RUBY_GEM_VERNO=2.3.0;
-  elif [ -d $HOME/.gem/ruby/2.2.0  ]; then
-    _add_PATH=$HOME/.gem/ruby/2.2.0/bin:$_add_PATH
-    RUBY_GEM_VERNO=2.2.0;
-  fi
+function __handle_agents() {
+  # Override this in ${SYSNAME}.bashrc with an appropriate definition
+  echo "No agent config for ${SYSNAME}"
+}
+
+function __path_cat() {
+  # take the value of a path variable and append a new value to it.
+  # This will make sure there are no trailing, or repeated ':' separators
+  local front=$1
+  local back=$2
+  local ret=$front:$back
+  echo $ret | sed 's,:,__MARK_HERE__,g'  | sed -E 's,(__MARK_HERE__)+,:,g'
+}
+
+
+# Get the dir that this file is in 
+# (the actual file if it is a link)
+if [ -z "$__mybash_cfg_dir" ]; then
+  _this_source="${BASH_SOURCE[0]}"
+  while [ -h "$_this_source" ]; do
+    _loc_dir="$( cd -P "$( dirname "$_this_source" )" && pwd )"
+    _this_source="$(readlink "$_this_source")"
+    [[ $_this_source != /* ]] && _this_source="$_loc_dir/$_this_source"
+  done
+  __mybash_cfg_dir="$( cd -P "$( dirname "$_this_source" )" && pwd )"
+  unset -v _this_source
+  unset -v _loc_dir
 fi
 
 
-export GIT_PROMPT_ONLY_IN_REPO=0
-export GIT_PROMPT_SHOW_UPSTREAM=1
-export GIT_PROMPT_THEME="Custom"
-
-# General Alias's
-
-#for OS dependant things
-case `uname` in
-  "Darwin"*)
-    export OSTYPE='osx'
-    ;;
-  "Linux"*)
-    export OSTYPE='linux'
-    ;;
-esac
-
-#for system dependant things
-# Set on arc systems but not myown
+# Two reasons:
+# 1. Some arc systems are not properly configured so the important $SYSNAME var is never set
+# 2. I use sysname on all systems even those without a shared filesystem just for consistently
 if [ -z $SYSNAME ]; then
   sn=`hostname`
   export SYSNAME=${sn%%.*}
+  unset -v sn
 fi
 
-#If any of these exist, source them
-if [ -f ~/.other.bashrc/${SYSNAME}.bashrc ]; then
-  source ~/.other.bashrc/${SYSNAME}.bashrc
-fi
-source ~/.alias
-if [ -f ~/.other.alias/${SYSNAME}.alias ]; then
-  source ~/.other.alias/${SYSNAME}.alias
-fi
-export EDITOR="$(which vim)"
-if [ -f $HOME/.local/share/bash-git-prompt/gitprompt.sh  ]; then
-  source $HOME/.local/share/bash-git-prompt/gitprompt.sh
+# Find system specific bashrcs.
+#ARC sysnames source ${__mybash_cfg_dir}/arc.bashrc
+#all others source ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+
+# Add global stuff to path
+
+__source_if ${__mybash_cfg_dir}/main.alias
+case $SYSNAME in
+  blueridge|newriver|dragonstooth|cascades) 
+    __source_if ${__mybash_cfg_dir}/arc.bashrc
+    __source_if ${__mybash_cfg_dir}/arc.alias
+    ;;
+  *) 
+    __source_if ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+    __source_if ${__mybash_cfg_dir}/${SYSNAME}.alias
+    ;;
+esac
+
+# git-prompt goodies
+__source_if ${__mybash_cfg_dir}/prompt/init-git-prompt.sh
+
+### Set path overwriting old
+__source_if ${HOME}/conda/etc/profile.d/conda.sh
+conda activate
+
+# clean the PATH variable
+PATH=$(printf %s "$PATH" | awk -v RS=: '{if (!arr[$0]++) {printf("%s%s",!ln++?"":":",$0)}}')
+
+# If we are in an interactive session
+# we set up our agents.
+if [[ $- == *i* ]]; then
+  __handle_agents
 fi
 
-
-#if we are not in a tmux subshell then start the ssh agent (if needed) and export the path
-if [ -z $TMUX ]; then
-  get_agent_profile
-  check_agent
-  export PATH=$_add_PATH:$PATH
-else
-  echo " In a tmux sub-shell assuming the parent has done ssh-agenting"
-  echo " Setting GPG_TTY local to this sub-shell"
-  GPG_TTY=$(tty)
-fi
+__finish

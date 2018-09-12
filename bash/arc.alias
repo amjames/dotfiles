@@ -1,0 +1,5 @@
+# vim: tw=79 sts=2 ts=2 et foldmethod=marker foldmarker={{{,}}} ft=sh:
+alias ls='ls --color=auto'
+alias sst='showstart'
+alias workaroundtmuxpberror=":"
+alias interact='/usr/local/bin/interact -Acrawdad'
