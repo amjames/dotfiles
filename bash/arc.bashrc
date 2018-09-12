@@ -14,4 +14,4 @@ function __handle_agents(){
 }
 module purge
 module use $HOME/modulefiles
-module load vim tmux
+module load vim tmux ctags
