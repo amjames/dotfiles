@@ -37,6 +37,16 @@ function __handle_agents() {
   echo "No agent config for ${SYSNAME}"
 }
 
+function __path_cat() {
+  # take the value of a path variable and append a new value to it.
+  # This will make sure there are no trailing, or repeated ':' separators
+  local front=$1
+  local back=$2
+  local ret=$front:$back
+  echo $ret | sed 's,:,__MARK_HERE__,g'  | sed -E 's,(__MARK_HERE__)+,:,g'
+}
+
+
 # Get the dir that this file is in 
 # (the actual file if it is a link)
 if [ -z "$__mybash_cfg_dir" ]; then
@@ -64,6 +74,9 @@ fi
 # Find system specific bashrcs.
 #ARC sysnames source ${__mybash_cfg_dir}/arc.bashrc
 #all others source ${__mybash_cfg_dir}/${SYSNAME}.bashrc
+
+# Add global stuff to path
+
 __source_if ${__mybash_cfg_dir}/main.alias
 case $SYSNAME in
   blueridge|newriver|dragonstooth|cascades) 
@@ -79,23 +92,17 @@ esac
 # git-prompt goodies
 __source_if ${__mybash_cfg_dir}/prompt/init-git-prompt.sh
 
-
-### Set up conda + activate default env
+### Set path overwriting old
 __source_if ${HOME}/conda/etc/profile.d/conda.sh
 conda activate
 
-# Prepend locals to path
-_add_PATH=$HOME/.local/bin
-_add_PATH=$HOME/.local/scripts:$_add_PATH
+# clean the PATH variable
+PATH=$(printf %s "$PATH" | awk -v RS=: '{if (!arr[$0]++) {printf("%s%s",!ln++?"":":",$0)}}')
 
 # If we are in an interactive session
 # we set up our agents.
 if [[ $- == *i* ]]; then
   __handle_agents
-fi
-# If we are not in a tmux sub-shell we export the modified path
-if [[ -z "$TMUX" ]]; then
-  export PATH=$_add_PATH:$PATH
 fi
 
 __finish

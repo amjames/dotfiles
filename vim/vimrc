@@ -92,6 +92,7 @@ Bundle 'yssource/python.vim'
 Bundle 'python_match.vim'
 Bundle 'pythoncomplete'
 Bundle 'janko-m/vim-test'
+Bundle 'lepture/vim-jinja'
 " +}
 
 " Javascript +{
@@ -258,10 +259,41 @@ set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 set comments=sl:/*,mb:*,elx:*/  " auto format comment blocks
 " Code files get white space removal
 autocmd FileType c,cpp,java,go,php,javascript,typescript,puppet,python,rust,twig,xml,yml,perl,sql autocmd BufWritePre <buffer> call StripTrailingWhitespace()
-autocmd BufNewFile,BufRead *.html.twig set filetype=html.twig
-autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 
-autocmd FileType plaintex,tex,latex syntax spell toplevel
+" Latex files have special settings
+augroup LatexSettings
+    autocmd!
+    autocmd BufNewFile,BufRead *.tex set filetype=tex
+    autocmd FileType plaintex,tex,latex syntax spell toplevel
+    autocmd FileType plaintex,tex,latex setlocal textwidth=100 fo=tc commentstring=%\ %s
+    autocmd FileType tex noremap <F2> :call TeX_fmt()<CR>
+augroup END
+
+" Reformat lines in Latex source files (getting spacing correct)
+function! TeX_fmt()
+    if (getline(".") != "")
+    let save_cursor = getpos(".")
+        let op_wrapscan = &wrapscan
+        set nowrapscan
+        let par_begin = '^\(%D\)\=\s*\($\|\\label\|\\caption\|\\begin\|\\end\|\\Begin\|\\End\|\\[\|\\]\|\\\(sub\)*section\>\|\\item\>\|\\NC\>\|\\blank\>\|\\noindent\>\)'
+        let par_end   = '^\(%D\)\=\s*\($\|\\begin\|\\end\|\\Begin\|\\End\|\\[\|\\]\|\\place\|\\\(sub\)*section\>\|\\item\>\|\\NC\>\|\\blank\>\)'
+    try
+      exe '?'.par_begin.'?+'
+    catch /E384/
+      1
+    endtry
+        norm V
+    try
+      exe '/'.par_end.'/-'
+    catch /E385/
+      $
+    endtry
+    norm gq
+        let &wrapscan = op_wrapscan
+    call setpos('.', save_cursor) 
+    endif
+endfunction
+
 " Set tab expansion/tabwidth/folding settings for different file types
 augroup TabSettings
     autocmd!
@@ -283,11 +315,12 @@ let mapleader = '\'
 let maplocalleader = '|'
 
 " Wrapped lines goes down/up to next row, rather than next line in file.
-noremap j gj
-noremap k gk
+" noremap j gj
+" noremap k gk
 " Remap Q->q, unmap q. So that macros are not accidentally recorded
 nnoremap Q q
 nnoremap q <nop>
+
 
 " End/Start of line motion keys act relative to row/wrap width in the
 " presence of `:set wrap`, and relative to line for `:set nowrap`.
@@ -363,7 +396,7 @@ nmap <silent> <leader>' :set spell<CR>
 nmap <silent> <leader>" :set nospell<CR>
 
 " Escape is just too far away.
-inoremap jk      <esc>
+inoremap MM   <esc>
 inoremap <esc>   <nop>
 ""Unmap the arrow keys so they don't do anything if I accidentally hit one.
 inoremap <Up>    <nop>
@@ -525,7 +558,7 @@ endif
 
 " Syntasic: +{ syntax cheker options
 let g:syntastic_cpp_check_header = 1
-let g:syntastic_check_on_w = 1
+let g:syntastic_check_on_w = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_enable_signs = 1
@@ -536,8 +569,7 @@ let g:syntastic_c_checker = ['clangcheck']
 let g:syntastic_cpp_checker= ['clangcheck']
 let g:syntastic_mode_map = {
         \ "mode": "passive",
-        \ "active_filetypes": ["c", "cpp", "python"],
-        \ "passive_filetypes": [""] }
+        \ "active_filetypes": []}
 " +}
 
 " ctrlp: +{
@@ -599,8 +631,9 @@ endif
 " YouCompleteMe: +{
 if isdirectory(expand("~/.vim/bundle/YouCompleteMe"))
     " YCM global config
-    if filereadable(expand("~/.vim/.ycm_global_config.py"))
-        let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_global_config.py'
+    let s:vimconfigs_path = fnamemodify(resolve(expand('<sfile>:p')),':h')
+    if filereadable(s:vimconfigs_path . '/ycm_global_config.py')
+        let g:ycm_global_ycm_extra_conf=(s:vimconfigs_path . '/ycm_global_configs.py')
     endif
     let g:acp_enableAtStartup = 0
 

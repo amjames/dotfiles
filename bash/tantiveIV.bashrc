@@ -36,7 +36,4 @@ source ~/.local/.hb_token
 # Need these envars to use psi4's cube_rendering script
 export VMDPATH=$HOME/Softwares/VMD/vmd/vmd_MACOSXX86
 export MONTAGE=/usr/local/Cellar/imagemagick/6.9.5-0/bin/montage
-
-#NOTE: consolidate .local/scripts and .scripts/*
-_add_PATH=$HOME/.scripts/utils:$_add_PATH
-_add_PATH=$HOME/Softwares/molden5.4/bin:$_add_PATH
+export MOLDEN=$HOME/Softwares/molden5.4/bin
