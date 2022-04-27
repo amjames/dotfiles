@@ -1,7 +1,7 @@
 [user]
 	name = Andrew M. James
-	email = amjames2@vt.edu
-	signingkey = 26EA2DE28DD52690
+	email = andrew.m.james2@gmail.com
+	signingkey = AC4C0D71B78DDFEB
 [push]
 	default = tracking
 [color]
