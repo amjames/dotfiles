@@ -1,7 +1,6 @@
 [user]
 	name = Andrew M. James
 	email = andrew.m.james2@gmail.com
-	signingkey = AC4C0D71B78DDFEB
 [push]
 	default = tracking
 [color]
@@ -12,16 +11,24 @@
 	required = true
 [alias]
   stat = status
-  plog = log --oneline --graph --decorate
+  plog = "!git --no-pager log --oneline --graph --decorate -30"
+  lplog = log --oneline --graph --decorate
+  flog = "!git --no-pager log --decorate -4"
+  lflog = log --decorate
   afetch = fetch -a
   reup = pull --rebase upstream master
+  subsync = submodule sync --recursive
+  subup = submodule update --init --recursive --jobs 0
+  fetchup = fetch upstream
   ctags = !.git/hooks/ctags
   ipynbcleanup = !.git/filters/ipynb_stripout
 [core]
-	editor = vim
-[commit]
-	gpgsign = true
+  editor = vim
 [filter "ipynb_stripout"]
 	clean = git ipynbcleanup
 	smudge = cat
 	required = true
+[pager]
+  branch = false
+  grep = false
+  diff = false
