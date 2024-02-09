@@ -6,14 +6,17 @@
 [color]
 	ui = on
 [filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
+[grep]
+  lineNumber = true
 [alias]
   stat = status
   plog = "!git --no-pager log --oneline --graph --decorate -30"
   lplog = log --oneline --graph --decorate
-  flog = "!git --no-pager log --decorate -4"
+  flog = "!git --no-pager log --decorate -8"
   lflog = log --decorate
   afetch = fetch -a
   reup = pull --rebase upstream master
@@ -24,6 +27,7 @@
   ipynbcleanup = !.git/filters/ipynb_stripout
 [core]
   editor = vim
+  excludesfile = ~/.config/git/ignore
 [filter "ipynb_stripout"]
 	clean = git ipynbcleanup
 	smudge = cat
@@ -31,4 +35,6 @@
 [pager]
   branch = false
   grep = false
-  diff = false
+  reflog = false
+  diff = "less -FX"
+  
